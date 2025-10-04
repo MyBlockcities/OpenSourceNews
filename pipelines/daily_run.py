@@ -1,4 +1,5 @@
 import os
+import sys
 import yaml
 import json
 import datetime
@@ -6,6 +7,9 @@ import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 import google.generativeai as genai
+
+# Add parent directory to path to enable imports
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from pipelines.youtube import fetch_latest_videos
 
 # --- CONFIGURATION ---
