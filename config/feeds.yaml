@@ -1,0 +1,25 @@
+# config/feeds.yaml
+
+topics:
+  - topic_name: "AI Agents & Frameworks"
+    github_sources:
+      - "typescript"
+    hackernews_sources:
+      - "AI agent"
+    rss_sources:
+      - "https://ai.googleblog.com/atom.xml"
+    youtube_sources:
+      - "@TwoMinutePapers"
+      - "indydevdan"
+      - "UC_x36zCEGilGpB1m-V4gmjg"
+    x_sources:
+      - "Sauain"
+      - "levelsio"
+      - "TimBeiko"
+      - "SwiftOnSecurity"
+
+  - topic_name: "Blockchain VC Funding"
+    rss_sources:
+      - "https://www.coindesk.com/arc/outboundfeeds/rss/"
+    x_sources:
+      - "a16zcrypto"
