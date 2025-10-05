@@ -123,7 +123,7 @@ class VideoScriptGenerator:
             "script": full_script,
             "timecoded_segments": script_data,
             "sources": [
-                {"title": item['title'], "url": item['url'], "quality_score": item['quality_score']}
+                {"title": item['title'], "url": item['url'], "quality_score": item.get('quality_score', 0)}
                 for item in top_3
             ],
             "generated_at": datetime.utcnow().isoformat(),
@@ -190,16 +190,19 @@ Return as valid JSON:
 """
 
         try:
-            response = self.model.generate_content(
-                prompt,
-                generation_config={"response_mime_type": "application/json"}
-            )
+            response = self.model.generate_content(prompt)
 
             text_response = getattr(response, 'text', None)
             if not text_response and response.candidates:
                 text_response = response.candidates[0].content.parts[0].text
 
             if text_response:
+                # Extract JSON from markdown code blocks if present
+                import re
+                json_match = re.search(r'```(?:json)?\s*(\{.*?\})\s*```', text_response, re.DOTALL)
+                if json_match:
+                    text_response = json_match.group(1)
+
                 return json.loads(text_response)
 
         except Exception as e:

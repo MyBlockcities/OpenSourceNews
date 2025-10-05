@@ -42,6 +42,9 @@ jobs:
       - name: Generate video script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YT_API_KEY }}
+          ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
         run: python pipelines/generate_video_script.py
 
       - name: Commit and push script
