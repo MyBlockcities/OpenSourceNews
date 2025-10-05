@@ -1,0 +1,15 @@
+# API Server Dependencies (for on-demand script/audio generation)
+flask==3.0.0
+flask-cors==4.0.0
+
+# Existing dependencies (copy from requirements.txt)
+requests
+beautifulsoup4
+PyYAML
+python-dotenv
+google-generativeai
+youtube-transcript-api==1.2.2
+yt-dlp>=2025.9.26
+assemblyai
+defusedxml
+lxml

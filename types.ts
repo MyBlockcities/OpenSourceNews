@@ -51,3 +51,36 @@ export interface MissionState {
     error?: string;
     suggestions?: string[];
 }
+
+// Daily Feed Types
+export interface DailyFeedItem {
+    title: string;
+    url: string;
+    source: string;
+    category: string;
+    summary?: string;
+    publishedAt?: string;
+    channelTitle?: string;
+    quality_score?: number;
+    has_transcript?: boolean;
+    transcript_word_count?: number;
+    main_topic?: string;
+    key_insights?: string[];
+    content_type?: string;
+    target_audience?: string;
+    unique_value?: string;
+}
+
+export interface DailyReport {
+    [topicName: string]: DailyFeedItem[];
+}
+
+export interface VideoScript {
+    script: string;
+    sources: DailyFeedItem[];
+    metadata: {
+        num_sources: number;
+        avg_quality_score: number;
+        generated_at: string;
+    };
+}

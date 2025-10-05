@@ -10,8 +10,9 @@ import SuggestionsBox from './components/SuggestionsBox';
 import { PathfinderIcon } from './components/icons/PathfinderIcon';
 import PathfinderResults from './components/PathfinderResults';
 import AutomationHub from './components/AutomationHub';
+import DailyFeedViewer from './components/DailyFeedViewer';
 
-type ViewMode = 'mission' | 'automation';
+type ViewMode = 'mission' | 'automation' | 'feed';
 
 const App: React.FC = () => {
     const [missionState, setMissionState] = useState<MissionState>({
@@ -133,18 +134,24 @@ const App: React.FC = () => {
                         </h1>
                     </div>
                     <p className="text-gray-400 text-lg">Your automated research agent team.</p>
-                     <div className="mt-6 flex justify-center bg-gray-800/50 p-1 rounded-lg max-w-sm mx-auto border border-gray-700">
-                        <button 
-                            onClick={() => setViewMode('mission')} 
-                            className={`w-1/2 py-2 rounded-md transition-colors duration-200 font-semibold ${viewMode === 'mission' ? 'bg-cyan-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
+                    <div className="mt-6 flex justify-center bg-gray-800/50 p-1 rounded-lg max-w-2xl mx-auto border border-gray-700">
+                        <button
+                            onClick={() => setViewMode('mission')}
+                            className={`flex-1 py-2 rounded-md transition-colors duration-200 font-semibold text-sm ${viewMode === 'mission' ? 'bg-cyan-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
                         >
                             Live Mission
                         </button>
-                        <button 
-                            onClick={() => setViewMode('automation')}
-                            className={`w-1/2 py-2 rounded-md transition-colors duration-200 font-semibold ${viewMode === 'automation' ? 'bg-cyan-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
+                        <button
+                            onClick={() => setViewMode('feed')}
+                            className={`flex-1 py-2 rounded-md transition-colors duration-200 font-semibold text-sm ${viewMode === 'feed' ? 'bg-cyan-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
                         >
-                            Automation Hub
+                            Daily Feed
+                        </button>
+                        <button
+                            onClick={() => setViewMode('automation')}
+                            className={`flex-1 py-2 rounded-md transition-colors duration-200 font-semibold text-sm ${viewMode === 'automation' ? 'bg-cyan-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
+                        >
+                            Automation
                         </button>
                     </div>
                 </header>
@@ -221,6 +228,8 @@ const App: React.FC = () => {
                                 </div>
                             )}
                         </>
+                    ) : viewMode === 'feed' ? (
+                        <DailyFeedViewer />
                     ) : (
                         <AutomationHub />
                     )}

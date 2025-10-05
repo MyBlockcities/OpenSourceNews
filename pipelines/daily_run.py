@@ -173,53 +173,74 @@ def analyze_with_transcript(item: dict) -> dict:
     # Use Gemini to analyze the full transcript (limit to first 4000 words for token efficiency)
     truncated_transcript = " ".join(transcript_text.split()[:4000])
 
-    analysis_prompt = f"""
-    Analyze this YouTube video transcript and provide detailed insights.
+    analysis_prompt = f"""Analyze this YouTube video transcript and provide detailed insights.
 
-    Video Title: {item.get('title', 'Unknown')}
-    Transcript ({word_count} words):
-    {truncated_transcript}
+Video Title: {item.get('title', 'Unknown')}
+Transcript ({word_count} words):
+{truncated_transcript}
 
-    Return ONLY valid JSON with these exact fields:
-    {{
-        "quality_score": <number 0-10>,
-        "main_topic": "<single sentence>",
-        "key_insights": ["<insight 1>", "<insight 2>", "<insight 3>"],
-        "content_type": "<Tutorial|News|Opinion|Research|Case Study>",
-        "target_audience": "<Beginner|Intermediate|Advanced>",
-        "unique_value": "<what makes this content special>"
-    }}
+Return ONLY valid JSON with these exact fields (no markdown, no code blocks):
+{{
+    "quality_score": <number 0-10>,
+    "main_topic": "<single sentence>",
+    "key_insights": ["<insight 1>", "<insight 2>", "<insight 3>"],
+    "content_type": "<Tutorial|News|Opinion|Research|Case Study>",
+    "target_audience": "<Beginner|Intermediate|Advanced>",
+    "unique_value": "<what makes this content special>"
+}}
 
-    Quality Score Criteria:
-    - 8-10: Groundbreaking, highly actionable, expert-level
-    - 6-7: Solid content, good insights, well-produced
-    - 4-5: Average, basic information
-    - 0-3: Low value, clickbait, or superficial
-    """
+Quality Score Criteria:
+- 8-10: Groundbreaking, highly actionable, expert-level
+- 6-7: Solid content, good insights, well-produced
+- 4-5: Average, basic information
+- 0-3: Low value, clickbait, or superficial"""
 
     try:
         response = model.generate_content(analysis_prompt)
-        text_response = getattr(response, 'text', None)
-        if not text_response and response.candidates:
-            text_response = response.candidates[0].content.parts[0].text
+        
+        # Enhanced response extraction with better error handling
+        text_response = None
+        if hasattr(response, 'text'):
+            text_response = response.text
+        elif hasattr(response, 'candidates') and response.candidates:
+            if hasattr(response.candidates[0], 'content'):
+                if hasattr(response.candidates[0].content, 'parts') and response.candidates[0].content.parts:
+                    text_response = response.candidates[0].content.parts[0].text
 
-        if text_response:
+        if not text_response:
+            print(f"    ✗ Analysis failed: No text in Gemini response")
+            print(f"    Debug: response type = {type(response)}, has text = {hasattr(response, 'text')}")
+            raise ValueError("No text response from Gemini")
+
+        # Clean JSON response (remove markdown code blocks if present)
+        text_response = text_response.strip()
+        if text_response.startswith('```'):
+            # Remove markdown code blocks
+            text_response = text_response.replace('```json', '').replace('```', '').strip()
+
+        # Parse JSON with detailed error reporting
+        try:
             analysis = json.loads(text_response)
-            print(f"    ✓ Quality Score: {analysis.get('quality_score', 0)}/10")
+        except json.JSONDecodeError as je:
+            print(f"    ✗ JSON parse error: {je}")
+            print(f"    Raw response (first 200 chars): {text_response[:200]}")
+            raise
 
-            return {
-                **item,
-                "has_transcript": True,
-                "transcript_word_count": word_count,
-                "quality_score": analysis.get("quality_score", 5),
-                "main_topic": analysis.get("main_topic", ""),
-                "key_insights": analysis.get("key_insights", []),
-                "content_type": analysis.get("content_type", "General"),
-                "target_audience": analysis.get("target_audience", "General"),
-                "unique_value": analysis.get("unique_value", "")
-            }
+        print(f"    ✓ Quality Score: {analysis.get('quality_score', 0)}/10 - {analysis.get('content_type', 'Unknown')}")
+
+        return {
+            **item,
+            "has_transcript": True,
+            "transcript_word_count": word_count,
+            "quality_score": analysis.get("quality_score", 5),
+            "main_topic": analysis.get("main_topic", ""),
+            "key_insights": analysis.get("key_insights", []),
+            "content_type": analysis.get("content_type", "General"),
+            "target_audience": analysis.get("target_audience", "General"),
+            "unique_value": analysis.get("unique_value", "")
+        }
     except Exception as e:
-        print(f"    ✗ Analysis failed: {e}")
+        print(f"    ✗ Analysis failed: {type(e).__name__} - {str(e)[:100]}")
 
     # Fallback: return with basic transcript info
     return {
@@ -245,34 +266,70 @@ def triage_and_categorize_content(topic_name: str, items: list) -> list:
     if not model:
         return fallback_triage(items)
 
-    prompt = f"""
-    You are a Triage Analyst. Review the following items for the topic '{topic_name}'.
-    Return ONLY a JSON array of objects. Each object must have:
-    - "title": string
-    - "url": string
-    - "source": string
-    - "category": string (one of: "Funding Announcement", "New Framework Release", "Major Partnership", "Technical Analysis", "General News")
-    - "summary": string (a concise, 1-2 sentence summary)
+    prompt = f"""You are a Triage Analyst. Review the following items for the topic '{topic_name}'.
+Return ONLY a JSON array of objects (no markdown, no code blocks). Each object must have:
+- "title": string
+- "url": string
+- "source": string
+- "category": string (one of: "Funding Announcement", "New Framework Release", "Major Partnership", "Technical Analysis", "General News")
+- "summary": string (a concise, 1-2 sentence summary)
 
-    Raw items:
-    {json.dumps(items, ensure_ascii=False)}
-    """
+Raw items:
+{json.dumps(items, ensure_ascii=False)}"""
 
     try:
         response = model.generate_content(prompt)
-        # Handle potential variations in Gemini SDK response structure
-        text_response = getattr(response, 'text', None)
-        if not text_response and response.candidates:
-             text_response = response.candidates[0].content.parts[0].text
+        
+        # Enhanced response extraction
+        text_response = None
+        if hasattr(response, 'text'):
+            text_response = response.text
+        elif hasattr(response, 'candidates') and response.candidates:
+            if hasattr(response.candidates[0], 'content'):
+                if hasattr(response.candidates[0].content, 'parts') and response.candidates[0].content.parts:
+                    text_response = response.candidates[0].content.parts[0].text
 
         if text_response:
-             parsed_json = json.loads(text_response)
-             if isinstance(parsed_json, list):
-                 return parsed_json
+            # Clean markdown code blocks if present
+            text_response = text_response.strip()
+            if text_response.startswith('```'):
+                text_response = text_response.replace('```json', '').replace('```', '').strip()
+            
+            parsed_json = json.loads(text_response)
+            if isinstance(parsed_json, list):
+                print(f"  ✓ Triage successful: {len(parsed_json)} items categorized")
+                return parsed_json
+            else:
+                print(f"  ✗ Triage returned non-list: {type(parsed_json)}")
+    except json.JSONDecodeError as je:
+        print(f"ERROR: Gemini triage JSON parse failed: {je}")
+        print(f"  Raw response (first 200 chars): {text_response[:200] if text_response else 'None'}")
     except Exception as e:
-        print(f"ERROR: Gemini triage API call failed: {e}. Using fallback.")
+        print(f"ERROR: Gemini triage API call failed: {type(e).__name__} - {str(e)[:100]}")
 
+    print(f"  → Using fallback triage")
     return fallback_triage(items)
+
+
+# --- DEDUPLICATION ---
+def deduplicate_items(items: list) -> list:
+    """Remove duplicate items based on URL."""
+    seen_urls = set()
+    unique_items = []
+    duplicates = 0
+    
+    for item in items:
+        url = item.get('url', '')
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            unique_items.append(item)
+        elif url:
+            duplicates += 1
+    
+    if duplicates > 0:
+        print(f"  ℹ Removed {duplicates} duplicate items")
+    
+    return unique_items
 
 
 # --- MAIN ORCHESTRATOR ---
@@ -304,67 +361,25 @@ def main():
                 except Exception as e:
                     print(f"ERROR: Failed during fetch for {source_type} '{source_value}': {e}")
 
+        # Deduplicate before triage
+        print(f"  Total items fetched: {len(all_raw_content)}")
+        all_raw_content = deduplicate_items(all_raw_content)
+        print(f"  Unique items: {len(all_raw_content)}")
+
         # First, do basic triage
         triaged_content = triage_and_categorize_content(topic_name, all_raw_content)
 
-        # Then, enhance YouTube videos with transcript analysis (limit to top 5 to manage quota)
-        print(f"\n--- Deep Analysis (Transcripts) for '{topic_name}' ---")
-        youtube_items = [item for item in triaged_content if item.get("source") == "YouTube"]
-
-        if youtube_items:
-            print(f"Found {len(youtube_items)} YouTube videos. Analyzing top 5...")
-            # Sort by some criterion (for now just take first 5)
-            top_youtube = youtube_items[:5]
-
-            enhanced_youtube = []
-            for yt_item in top_youtube:
-                enhanced_item = analyze_with_transcript(yt_item)
-                enhanced_youtube.append(enhanced_item)
-
-            # Replace analyzed YouTube items with enhanced versions
-            enhanced_content = []
-            youtube_urls_analyzed = {item['url'] for item in enhanced_youtube}
-
-            for item in triaged_content:
-                if item.get('url') in youtube_urls_analyzed:
-                    # Find and use the enhanced version
-                    enhanced = next((e for e in enhanced_youtube if e['url'] == item['url']), item)
-                    enhanced_content.append(enhanced)
-                else:
-                    enhanced_content.append(item)
-
-            triaged_content = enhanced_content
-
-            # Print transcript analysis statistics
-            successful_transcripts = sum(1 for item in enhanced_youtube if item.get("has_transcript"))
-            total_attempted = len(enhanced_youtube)
-            avg_quality = sum(item.get("quality_score", 0) for item in enhanced_youtube if item.get("quality_score")) / max(successful_transcripts, 1)
-
-            print(f"\nTranscript Analysis Results:")
-            print(f"  ✓ Successful: {successful_transcripts}/{total_attempted}")
-            if successful_transcripts > 0:
-                print(f"  ✓ Avg Quality Score: {avg_quality:.1f}/10")
-            if successful_transcripts < total_attempted:
-                print(f"  ✗ Failed: {total_attempted - successful_transcripts}")
-                # Show first error for debugging
-                for item in enhanced_youtube:
-                    if not item.get("has_transcript") and item.get("transcript_error"):
-                        print(f"    Sample error: {item['transcript_error'][:100]}")
-                        break
-
-        # Filter out low quality items (quality_score < 6) if they have scores
-        filtered_content = []
-        for item in triaged_content:
-            quality_score = item.get("quality_score")
-            if quality_score is not None:
-                if quality_score >= 6:  # Only keep high quality
-                    filtered_content.append(item)
-            else:
-                # Keep items without quality scores (non-YouTube or failed transcripts)
-                filtered_content.append(item)
-
-        print(f"Final items after quality filter: {len(filtered_content)}/{len(triaged_content)}")
-        final_report[topic_name] = filtered_content
+        # NOTE: Automatic transcription DISABLED to save costs ($30/month)
+        # Transcription is now ON-DEMAND via frontend UI
+        # This reduces daily automation cost from $30/month to near-$0
+        print(f"\n--- Skipping Automatic Transcription (On-Demand Mode) ---")
+        print(f"  Found {len([item for item in triaged_content if item.get('source') == 'YouTube'])} YouTube videos")
+        print(f"  ℹ️  Transcripts will be generated on-demand via frontend UI")
+        
+        # No quality filtering since we don't have quality scores yet
+        # All items go into the report for user to review in UI
+        final_report[topic_name] = triaged_content
+        print(f"  Total items saved: {len(triaged_content)}")
 
     # --- SAVE REPORT ---
     timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d")

@@ -1,0 +1,428 @@
+import React, { useState, useEffect } from 'react';
+import { DailyReport, DailyFeedItem, VideoScript } from '../types';
+import { TopicIcon } from './icons/TopicIcon';
+import { YoutubeIcon } from './icons/YoutubeIcon';
+import { RssIcon } from './icons/RssIcon';
+import { GithubIcon } from './icons/GithubIcon';
+import { HackerNewsIcon } from './icons/HackerNewsIcon';
+import { LoadingSpinner } from './icons/LoadingSpinner';
+
+const DailyFeedViewer: React.FC = () => {
+    const [dailyReports, setDailyReports] = useState<{ date: string; data: DailyReport }[]>([]);
+    const [selectedDate, setSelectedDate] = useState<string>('');
+    const [selectedTopic, setSelectedTopic] = useState<string>('');
+    const [loading, setLoading] = useState(true);
+    const [generatingScript, setGeneratingScript] = useState(false);
+    const [generatedScript, setGeneratedScript] = useState<VideoScript | null>(null);
+    const [generatingAudio, setGeneratingAudio] = useState(false);
+    const [audioUrl, setAudioUrl] = useState<string>('');
+
+    // Load available daily reports
+    useEffect(() => {
+        loadDailyReports();
+    }, []);
+
+    const loadDailyReports = async () => {
+        try {
+            setLoading(true);
+            // Fetch list of available reports (last 30 days)
+            const dates: string[] = [];
+            const today = new Date();
+            
+            // Generate dates for last 30 days
+            for (let i = 0; i < 30; i++) {
+                const date = new Date(today);
+                date.setDate(date.getDate() - i);
+                const dateStr = date.toISOString().split('T')[0];
+                dates.push(dateStr);
+            }
+
+            // Try to fetch each report
+            const reports: { date: string; data: DailyReport }[] = [];
+            for (const date of dates) {
+                try {
+                    const response = await fetch(`/outputs/daily/${date}.json`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        reports.push({ date, data });
+                    }
+                } catch (e) {
+                    // Report doesn't exist, skip
+                }
+            }
+
+            setDailyReports(reports);
+            if (reports.length > 0) {
+                setSelectedDate(reports[0].date);
+                const topics = Object.keys(reports[0].data);
+                if (topics.length > 0) {
+                    setSelectedTopic(topics[0]);
+                }
+            }
+        } catch (error) {
+            console.error('Error loading daily reports:', error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleGenerateScript = async (items: DailyFeedItem[]) => {
+        try {
+            setGeneratingScript(true);
+            setGeneratedScript(null);
+            setAudioUrl('');
+
+            const response = await fetch('/api/generate-script', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ items, topic: selectedTopic }),
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to generate script');
+            }
+
+            const script: VideoScript = await response.json();
+            setGeneratedScript(script);
+        } catch (error) {
+            console.error('Error generating script:', error);
+            alert('Failed to generate script. Please try again.');
+        } finally {
+            setGeneratingScript(false);
+        }
+    };
+
+    const handleGenerateAudio = async (scriptText: string) => {
+        try {
+            setGeneratingAudio(true);
+
+            const response = await fetch('/api/generate-audio', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ script: scriptText, date: selectedDate }),
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to generate audio');
+            }
+
+            const result = await response.json();
+            setAudioUrl(result.audioUrl);
+        } catch (error) {
+            console.error('Error generating audio:', error);
+            alert('Failed to generate audio. Please try again.');
+        } finally {
+            setGeneratingAudio(false);
+        }
+    };
+
+    const getSourceIcon = (source: string) => {
+        if (source === 'YouTube') return <YoutubeIcon className="w-4 h-4" />;
+        if (source === 'RSS') return <RssIcon className="w-4 h-4" />;
+        if (source === 'GitHub Trending') return <GithubIcon className="w-4 h-4" />;
+        if (source === 'Hacker News') return <HackerNewsIcon className="w-4 h-4" />;
+        return <RssIcon className="w-4 h-4" />;
+    };
+
+    if (loading) {
+        return (
+            <div className="flex items-center justify-center py-20">
+                <LoadingSpinner className="w-8 h-8" />
+                <span className="ml-3 text-gray-400">Loading daily reports...</span>
+            </div>
+        );
+    }
+
+    if (dailyReports.length === 0) {
+        return (
+            <div className="bg-gray-800/30 rounded-lg p-8 text-center border border-gray-700">
+                <p className="text-gray-400 text-lg">No daily reports found.</p>
+                <p className="text-gray-500 text-sm mt-2">Run the daily pipeline to generate reports.</p>
+            </div>
+        );
+    }
+
+    const currentReport = dailyReports.find(r => r.date === selectedDate);
+    const topics = currentReport ? Object.keys(currentReport.data) : [];
+    const items = currentReport && selectedTopic ? currentReport.data[selectedTopic] : [];
+
+    return (
+        <div className="animate-fade-in">
+            <div className="text-center mb-8">
+                <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-green-400 font-space-mono mb-2">
+                    Daily Intelligence Feed
+                </h2>
+                <p className="text-gray-400">Review collected research and generate scripts on-demand</p>
+            </div>
+
+            {/* Date Selector */}
+            <div className="bg-gray-800/30 rounded-lg p-4 mb-6 border border-gray-700">
+                <label className="block text-sm font-semibold text-gray-400 mb-2">SELECT DATE</label>
+                <select
+                    value={selectedDate}
+                    onChange={(e) => {
+                        setSelectedDate(e.target.value);
+                        setGeneratedScript(null);
+                        setAudioUrl('');
+                        const newReport = dailyReports.find(r => r.date === e.target.value);
+                        if (newReport) {
+                            const newTopics = Object.keys(newReport.data);
+                            if (newTopics.length > 0) {
+                                setSelectedTopic(newTopics[0]);
+                            }
+                        }
+                    }}
+                    className="bg-gray-900 border border-gray-600 rounded-md px-4 py-2 text-gray-200 w-full md:w-64"
+                >
+                    {dailyReports.map(report => (
+                        <option key={report.date} value={report.date}>
+                            {new Date(report.date).toLocaleDateString('en-US', { 
+                                weekday: 'short', 
+                                year: 'numeric', 
+                                month: 'short', 
+                                day: 'numeric' 
+                            })}
+                        </option>
+                    ))}
+                </select>
+            </div>
+
+            {/* Topic Tabs */}
+            {topics.length > 0 && (
+                <div className="flex gap-2 mb-6 overflow-x-auto pb-2">
+                    {topics.map(topic => (
+                        <button
+                            key={topic}
+                            onClick={() => {
+                                setSelectedTopic(topic);
+                                setGeneratedScript(null);
+                                setAudioUrl('');
+                            }}
+                            className={`flex items-center gap-2 px-4 py-2 rounded-lg font-semibold whitespace-nowrap transition-colors ${
+                                selectedTopic === topic
+                                    ? 'bg-cyan-600 text-white'
+                                    : 'bg-gray-800/50 text-gray-300 hover:bg-gray-700 border border-gray-700'
+                            }`}
+                        >
+                            <TopicIcon className="w-4 h-4" />
+                            {topic}
+                            <span className="text-xs opacity-75">({currentReport?.data[topic]?.length || 0})</span>
+                        </button>
+                    ))}
+                </div>
+            )}
+
+            {/* Feed Items */}
+            <div className="bg-gray-800/30 rounded-lg p-6 mb-6 border border-gray-700">
+                <div className="flex justify-between items-center mb-4">
+                    <h3 className="text-xl font-bold text-gray-200">
+                        {items.length} Items
+                    </h3>
+                    <button
+                        onClick={() => handleGenerateScript(items)}
+                        disabled={generatingScript || items.length === 0}
+                        className="bg-cyan-600 hover:bg-cyan-500 disabled:bg-gray-600 disabled:cursor-not-allowed text-white font-semibold px-4 py-2 rounded-md transition-colors flex items-center gap-2"
+                    >
+                        {generatingScript ? (
+                            <>
+                                <LoadingSpinner className="w-4 h-4" />
+                                Generating...
+                            </>
+                        ) : (
+                            'Generate Video Script'
+                        )}
+                    </button>
+                </div>
+
+                {items.length === 0 ? (
+                    <p className="text-gray-500 text-center py-8">No items for this topic.</p>
+                ) : (
+                    <div className="space-y-4 max-h-[600px] overflow-y-auto pr-2">
+                        {items.map((item, idx) => (
+                            <div
+                                key={idx}
+                                className="bg-gray-900/50 rounded-lg p-4 border border-gray-700 hover:border-cyan-500/50 transition-colors"
+                            >
+                                <div className="flex items-start gap-3">
+                                    {getSourceIcon(item.source)}
+                                    <div className="flex-grow">
+                                        <div className="flex items-start justify-between gap-2 mb-2">
+                                            <a
+                                                href={item.url}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-lg font-semibold text-cyan-400 hover:text-cyan-300 transition-colors"
+                                            >
+                                                {item.title}
+                                            </a>
+                                            {item.quality_score && (
+                                                <span className="bg-cyan-600/20 text-cyan-400 text-xs font-bold px-2 py-1 rounded">
+                                                    {item.quality_score}/10
+                                                </span>
+                                            )}
+                                        </div>
+
+                                        <div className="flex flex-wrap items-center gap-2 text-sm text-gray-400 mb-2">
+                                            <span>{item.source}</span>
+                                            {item.category && (
+                                                <>
+                                                    <span>·</span>
+                                                    <span>{item.category}</span>
+                                                </>
+                                            )}
+                                            {item.channelTitle && (
+                                                <>
+                                                    <span>·</span>
+                                                    <span>{item.channelTitle}</span>
+                                                </>
+                                            )}
+                                            {item.content_type && item.content_type !== 'General' && (
+                                                <span className="bg-gray-700 px-2 py-0.5 rounded text-xs">
+                                                    {item.content_type}
+                                                </span>
+                                            )}
+                                            {item.target_audience && item.target_audience !== 'General' && (
+                                                <span className="bg-gray-700 px-2 py-0.5 rounded text-xs">
+                                                    {item.target_audience}
+                                                </span>
+                                            )}
+                                        </div>
+
+                                        {item.summary && (
+                                            <p className="text-gray-300 text-sm mb-2">{item.summary}</p>
+                                        )}
+
+                                        {item.main_topic && (
+                                            <p className="text-gray-400 text-sm italic mb-2">
+                                                📌 {item.main_topic}
+                                            </p>
+                                        )}
+
+                                        {item.key_insights && item.key_insights.length > 0 && (
+                                            <div className="mt-2 space-y-1">
+                                                <p className="text-xs font-semibold text-gray-400">KEY INSIGHTS:</p>
+                                                {item.key_insights.map((insight, i) => (
+                                                    <p key={i} className="text-sm text-gray-400 pl-3">
+                                                        • {insight}
+                                                    </p>
+                                                ))}
+                                            </div>
+                                        )}
+
+                                        {item.has_transcript && (
+                                            <div className="mt-2 flex items-center gap-2 text-xs text-green-400">
+                                                <span className="w-2 h-2 bg-green-400 rounded-full"></span>
+                                                Transcript available ({item.transcript_word_count} words)
+                                            </div>
+                                        )}
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                )}
+            </div>
+
+            {/* Generated Script Display */}
+            {generatedScript && (
+                <div className="bg-gray-800/30 rounded-lg p-6 mb-6 border border-cyan-500">
+                    <div className="flex justify-between items-center mb-4">
+                        <h3 className="text-xl font-bold text-gray-200">Generated Script</h3>
+                        <div className="flex gap-2">
+                            <button
+                                onClick={() => navigator.clipboard.writeText(generatedScript.script)}
+                                className="bg-gray-700 hover:bg-gray-600 text-white font-semibold px-4 py-2 rounded-md transition-colors text-sm"
+                            >
+                                Copy Script
+                            </button>
+                            <button
+                                onClick={() => handleGenerateAudio(generatedScript.script)}
+                                disabled={generatingAudio}
+                                className="bg-purple-600 hover:bg-purple-500 disabled:bg-gray-600 disabled:cursor-not-allowed text-white font-semibold px-4 py-2 rounded-md transition-colors text-sm flex items-center gap-2"
+                            >
+                                {generatingAudio ? (
+                                    <>
+                                        <LoadingSpinner className="w-4 h-4" />
+                                        Generating Audio...
+                                    </>
+                                ) : (
+                                    '🎙️ Generate Audio'
+                                )}
+                            </button>
+                        </div>
+                    </div>
+
+                    {/* Script Metadata */}
+                    <div className="flex gap-4 text-sm text-gray-400 mb-4 pb-4 border-b border-gray-700">
+                        <span>📊 {generatedScript.metadata.num_sources} sources</span>
+                        <span>⭐ Avg Quality: {generatedScript.metadata.avg_quality_score.toFixed(1)}/10</span>
+                        <span>🕐 {new Date(generatedScript.metadata.generated_at).toLocaleString()}</span>
+                    </div>
+
+                    {/* Script Text */}
+                    <div className="bg-gray-900/70 rounded-lg p-4 mb-4">
+                        <pre className="text-sm text-gray-200 whitespace-pre-wrap font-mono leading-relaxed">
+                            {generatedScript.script}
+                        </pre>
+                    </div>
+
+                    {/* Sources Used */}
+                    <details className="mt-4">
+                        <summary className="text-sm font-semibold text-gray-400 cursor-pointer hover:text-cyan-400">
+                            View Sources ({generatedScript.sources.length})
+                        </summary>
+                        <div className="mt-3 space-y-2">
+                            {generatedScript.sources.map((source, idx) => (
+                                <div key={idx} className="text-sm text-gray-400 pl-4">
+                                    <a
+                                        href={source.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-cyan-400 hover:text-cyan-300"
+                                    >
+                                        {idx + 1}. {source.title}
+                                    </a>
+                                    {source.quality_score && (
+                                        <span className="ml-2 text-xs">({source.quality_score}/10)</span>
+                                    )}
+                                </div>
+                            ))}
+                        </div>
+                    </details>
+                </div>
+            )}
+
+            {/* Audio Player */}
+            {audioUrl && (
+                <div className="bg-gray-800/30 rounded-lg p-6 border border-purple-500">
+                    <h3 className="text-xl font-bold text-gray-200 mb-4">Generated Audio</h3>
+                    <audio controls className="w-full" src={audioUrl}>
+                        Your browser does not support the audio element.
+                    </audio>
+                    <div className="mt-4 flex gap-2">
+                        <a
+                            href={audioUrl}
+                            download
+                            className="bg-purple-600 hover:bg-purple-500 text-white font-semibold px-4 py-2 rounded-md transition-colors text-sm"
+                        >
+                            Download Audio
+                        </a>
+                    </div>
+                </div>
+            )}
+
+            {/* Info Panel */}
+            <div className="bg-gray-800/20 rounded-lg p-4 border border-gray-700/50 mt-6">
+                <h4 className="text-sm font-semibold text-gray-400 mb-2">💡 How It Works</h4>
+                <ul className="text-sm text-gray-500 space-y-1">
+                    <li>• Daily reports are collected automatically at 7 AM UTC</li>
+                    <li>• Click "Generate Video Script" to create on-demand scripts using Gemini AI</li>
+                    <li>• Click "Generate Audio" to convert scripts to speech using AssemblyAI</li>
+                    <li>• Costs only apply when you generate scripts/audio (on-demand model)</li>
+                </ul>
+            </div>
+        </div>
+    );
+};
+
+export default DailyFeedViewer;

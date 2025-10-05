@@ -4,29 +4,66 @@ topics:
   - topic_name: "AI Agents & Frameworks"
     github_sources:
       - "typescript"
+      - "python"  # Added for more AI/ML repos
     hackernews_sources:
       - "AI agent"
+      - "LLM"  # Large Language Models
     rss_sources:
-      - "https://ai.googleblog.com/atom.xml"
+      # Core AI Research & News
+      - "https://blog.google/technology/ai/rss/"  # Google AI Blog
+      - "https://www.marktechpost.com/feed/"  # MarkTechPost - AI News (verified ✅)
+      - "https://huggingface.co/blog/feed.xml"  # HuggingFace Blog (verified ✅)
+      
+      # AI Industry & Business
+      - "https://www.artificialintelligence-news.com/feed/"  # AI News
+      - "https://www.rundown.ai/rss"  # The Rundown AI
+      
+      # Agent-Specific
+      - "https://aiagent.marktechpost.com/feed/"  # AI Agent News
+    
     youtube_sources:
       - "@TwoMinutePapers"
       - "indydevdan"
-      - "UC_x36zCEGilGpB1m-V4gmjg"
-      - "UCSv4qL8vmoSH7GaPjuqRiCQ"
-      - "UCawZsQWqfGSbCI5yjkdVkTA"
-      - "UC2WmuBuFq6gL08QYG-JjXKw"
-      - "UChpleBmo18P08aKCIgti38g"
-      - "UCuV9EB4I9L-xmRoaXd8tmuA"
-      - "UCqK_GSMbpiV8spgD3ZGloSw"
-      - "UCAl9Ld79qaZxp9JzEOwd3aA"
+      - "UC_x36zCEGilGpB1m-V4gmjg"  # Arseny Shatokhin
+      - "UCSv4qL8vmoSH7GaPjuqRiCQ"  # Matthew Berman
+      - "UCawZsQWqfGSbCI5yjkdVkTA"  # WorldofAI
+      - "UC2WmuBuFq6gL08QYG-JjXKw"  # Matt Wolfe
+      - "UChpleBmo18P08aKCIgti38g"  # BitBoy X
+      - "UCuV9EB4I9L-xmRoaXd8tmuA"  # Coin Bureau
+      - "UCqK_GSMbpiV8spgD3ZGloSw"  # Bankless
+      - "UCAl9Ld79qaZxp9JzEOwd3aA"  # Additional channel
+    
     x_sources:
       - "Sauain"
       - "levelsio"
       - "TimBeiko"
       - "SwiftOnSecurity"
+      - "_kaitoai"  # AI insights
+      - "Marktechpost"  # AI news
 
   - topic_name: "Blockchain VC Funding"
+    github_sources:
+      - "solana"  # Blockchain repos
     rss_sources:
-      - "https://www.coindesk.com/arc/outboundfeeds/rss/"
+      # Crypto News & Analysis
+      - "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"  # CoinDesk
+      - "https://cointelegraph.com/rss"  # Cointelegraph (verified ✅)
+      - "https://dailycoin.com/feed/"  # DailyCoin (verified ✅)
+      
+      # DeFi & Web3
+      - "https://www.bankless.com/feed"  # Bankless
+      
+      # Blockchain Industry
+      - "https://www.blockchainappfactory.com/blog/feed/"  # Blockchain App Factory
+    
+    hackernews_sources:
+      - "crypto funding"
+      - "blockchain funding"
+      - "web3"  # Added Web3 coverage
+    
     x_sources:
       - "a16zcrypto"
+      - "paradigm"
+      - "multicoincap"
+      - "cointelegraph"  # Crypto news
+      - "CoinLaunchSpace"  # Token launches
