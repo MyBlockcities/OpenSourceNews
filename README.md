@@ -18,3 +18,21 @@ View your app in AI Studio: https://ai.studio/apps/drive/1_SC4W7eLEp6CGClc0739-7
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+
+
+Flask API Created: api/script_generator.py
+Endpoints:
+
+POST /api/generate-script - Generate video scripts (~$0.02/call)
+POST /api/transcribe-video - On-demand transcription (~$0.10/call)
+POST /api/analyze-video - Deep content analysis (included)
+POST /api/generate-audio - Text-to-speech (placeholder for TTS)
+How to Run:
+
+# Install dependencies
+pip install -r requirements-api.txt
+
+# Start server
+python3 api/script_generator.py
+# Runs on http://localhost:5000

@@ -1,8 +1,8 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { PlannerOutput, SearchResult } from "../types";
 
-// Fix: Initialize the GoogleGenAI client according to guidelines
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY! });
+// Fix: Use Vite environment variables (import.meta.env instead of process.env)
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY || import.meta.env.VITE_API_KEY || '' });
 
 const plannerSchema = {
     type: Type.OBJECT,
