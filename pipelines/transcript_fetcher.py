@@ -75,27 +75,33 @@ class TranscriptFetcher:
             except Exception as e:
                 print(f"Warning: Cache read failed for {video_id}: {e}")
 
-        # METHOD 1: Try YouTube native captions first
+        # METHOD 1: Try YouTube native captions first (using new API v1.2.2+)
         try:
             from youtube_transcript_api import YouTubeTranscriptApi
 
             print(f"    [Method 1/2] Trying YouTube captions...")
-            transcript_list = YouTubeTranscriptApi.get_transcript(video_id)
 
-            if transcript_list:
+            # Create API instance (new API style)
+            api = YouTubeTranscriptApi()
+
+            # Fetch transcript (try English first, then any available language)
+            fetched_transcript = api.fetch(video_id, languages=['en'])
+
+            if fetched_transcript and fetched_transcript.snippets:
                 # Extract segments and build full text
                 segments = []
                 full_text_parts = []
 
-                for item in transcript_list:
+                for snippet in fetched_transcript.snippets:
                     segments.append({
-                        "time": round(item['start'], 2),
-                        "text": item['text'].strip()
+                        "time": round(snippet.start, 2),
+                        "text": snippet.text.strip()
                     })
-                    full_text_parts.append(item['text'])
+                    full_text_parts.append(snippet.text)
 
                 full_text = " ".join(full_text_parts).strip()
-                duration = transcript_list[-1]['start'] if transcript_list else 0
+                last_snippet = fetched_transcript.snippets[-1] if fetched_transcript.snippets else None
+                duration = round(last_snippet.start + last_snippet.duration, 2) if last_snippet else 0
 
                 result = {
                     "video_id": video_id,
@@ -103,9 +109,11 @@ class TranscriptFetcher:
                     "transcript": full_text,
                     "segments": segments,
                     "word_count": len(full_text.split()),
-                    "duration_seconds": round(duration, 2),
+                    "duration_seconds": duration,
                     "fetched_at": datetime.utcnow().isoformat(),
                     "source": "youtube_captions",
+                    "is_generated": fetched_transcript.is_generated,
+                    "language": fetched_transcript.language_code,
                     "cached": False
                 }
 
@@ -113,11 +121,13 @@ class TranscriptFetcher:
                 with open(cache_path, 'w') as f:
                     json.dump(result, f, indent=2)
 
-                print(f"    ✓ Success via YouTube captions")
+                print(f"    ✓ Success via YouTube captions ({fetched_transcript.language_code}, {'auto-generated' if fetched_transcript.is_generated else 'manual'})")
                 return result
 
         except Exception as e:
-            print(f"    ✗ YouTube captions failed: {type(e).__name__}")
+            error_name = type(e).__name__
+            error_msg = str(e)[:100]  # Truncate long error messages
+            print(f"    ✗ YouTube captions failed: {error_name} - {error_msg}")
 
         # METHOD 2: Fallback to AssemblyAI (if API key available)
         if self.assemblyai_key:

@@ -7,14 +7,19 @@ import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 import google.generativeai as genai
+from dotenv import load_dotenv
 
 # Add parent directory to path to enable imports
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+# Load environment variables from .env.local
+ROOT_DIR = Path(__file__).resolve().parents[1]
+load_dotenv(ROOT_DIR / '.env.local')
+
 from pipelines.youtube import fetch_latest_videos
 from pipelines.transcript_fetcher import TranscriptFetcher
 
 # --- CONFIGURATION ---
-ROOT_DIR = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT_DIR / 'config' / 'feeds.yaml'
 OUTPUT_DIR = ROOT_DIR / 'outputs' / 'daily'
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -193,10 +198,7 @@ def analyze_with_transcript(item: dict) -> dict:
     """
 
     try:
-        response = model.generate_content(
-            analysis_prompt,
-            generation_config={"response_mime_type": "application/json"}
-        )
+        response = model.generate_content(analysis_prompt)
         text_response = getattr(response, 'text', None)
         if not text_response and response.candidates:
             text_response = response.candidates[0].content.parts[0].text
@@ -257,10 +259,7 @@ def triage_and_categorize_content(topic_name: str, items: list) -> list:
     """
 
     try:
-        response = model.generate_content(
-            prompt,
-            generation_config={"response_mime_type": "application/json"}
-        )
+        response = model.generate_content(prompt)
         # Handle potential variations in Gemini SDK response structure
         text_response = getattr(response, 'text', None)
         if not text_response and response.candidates:
