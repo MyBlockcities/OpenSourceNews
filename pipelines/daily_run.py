@@ -11,6 +11,7 @@ import google.generativeai as genai
 # Add parent directory to path to enable imports
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from pipelines.youtube import fetch_latest_videos
+from pipelines.transcript_fetcher import TranscriptFetcher
 
 # --- CONFIGURATION ---
 ROOT_DIR = Path(__file__).resolve().parents[1]
@@ -32,6 +33,9 @@ if GEMINI_API_KEY:
     model = genai.GenerativeModel("gemini-2.5-flash")
 else:
     print("WARNING: GEMINI_API_KEY not found. Triage agent will be skipped.")
+
+# --- TRANSCRIPT FETCHER SETUP ---
+transcript_fetcher = TranscriptFetcher()
 
 # --- HELPERS ---
 def _get(url: str):
@@ -108,6 +112,104 @@ def fetch_instagram_profile_posts(username: str):
     if not username: return []
     print(f"INFO: Skipping Instagram placeholder for @{username}.")
     return []
+
+# --- DEEP CONTENT ANALYSIS ---
+def analyze_with_transcript(item: dict) -> dict:
+    """
+    Deep analysis of content using full transcript (for YouTube videos only).
+    Adds quality scoring, key insights, and enhanced metadata.
+    """
+    # Only process YouTube videos
+    if item.get("source") != "YouTube":
+        return item
+
+    url = item.get("url", "")
+    if not url:
+        return item
+
+    print(f"  → Fetching transcript for: {item.get('title', 'Unknown')[:50]}...")
+
+    # Fetch transcript
+    transcript_data = transcript_fetcher.fetch_transcript(url)
+
+    # If transcript fetch failed, return original item
+    if "error" in transcript_data:
+        print(f"    ✗ Transcript unavailable: {transcript_data['error']}")
+        return {**item, "has_transcript": False}
+
+    transcript_text = transcript_data.get("transcript", "")
+    word_count = transcript_data.get("word_count", 0)
+
+    print(f"    ✓ Transcript fetched ({word_count} words)")
+
+    # Don't analyze if no Gemini model
+    if not model:
+        return {
+            **item,
+            "has_transcript": True,
+            "transcript_word_count": word_count
+        }
+
+    # Use Gemini to analyze the full transcript (limit to first 4000 words for token efficiency)
+    truncated_transcript = " ".join(transcript_text.split()[:4000])
+
+    analysis_prompt = f"""
+    Analyze this YouTube video transcript and provide detailed insights.
+
+    Video Title: {item.get('title', 'Unknown')}
+    Transcript ({word_count} words):
+    {truncated_transcript}
+
+    Return ONLY valid JSON with these exact fields:
+    {{
+        "quality_score": <number 0-10>,
+        "main_topic": "<single sentence>",
+        "key_insights": ["<insight 1>", "<insight 2>", "<insight 3>"],
+        "content_type": "<Tutorial|News|Opinion|Research|Case Study>",
+        "target_audience": "<Beginner|Intermediate|Advanced>",
+        "unique_value": "<what makes this content special>"
+    }}
+
+    Quality Score Criteria:
+    - 8-10: Groundbreaking, highly actionable, expert-level
+    - 6-7: Solid content, good insights, well-produced
+    - 4-5: Average, basic information
+    - 0-3: Low value, clickbait, or superficial
+    """
+
+    try:
+        response = model.generate_content(
+            analysis_prompt,
+            generation_config={"response_mime_type": "application/json"}
+        )
+        text_response = getattr(response, 'text', None)
+        if not text_response and response.candidates:
+            text_response = response.candidates[0].content.parts[0].text
+
+        if text_response:
+            analysis = json.loads(text_response)
+            print(f"    ✓ Quality Score: {analysis.get('quality_score', 0)}/10")
+
+            return {
+                **item,
+                "has_transcript": True,
+                "transcript_word_count": word_count,
+                "quality_score": analysis.get("quality_score", 5),
+                "main_topic": analysis.get("main_topic", ""),
+                "key_insights": analysis.get("key_insights", []),
+                "content_type": analysis.get("content_type", "General"),
+                "target_audience": analysis.get("target_audience", "General"),
+                "unique_value": analysis.get("unique_value", "")
+            }
+    except Exception as e:
+        print(f"    ✗ Analysis failed: {e}")
+
+    # Fallback: return with basic transcript info
+    return {
+        **item,
+        "has_transcript": True,
+        "transcript_word_count": word_count
+    }
 
 # --- AI TRIAGE AGENT ---
 def triage_and_categorize_content(topic_name: str, items: list) -> list:
@@ -188,8 +290,50 @@ def main():
                 except Exception as e:
                     print(f"ERROR: Failed during fetch for {source_type} '{source_value}': {e}")
 
+        # First, do basic triage
         triaged_content = triage_and_categorize_content(topic_name, all_raw_content)
-        final_report[topic_name] = triaged_content
+
+        # Then, enhance YouTube videos with transcript analysis (limit to top 5 to manage quota)
+        print(f"\n--- Deep Analysis (Transcripts) for '{topic_name}' ---")
+        youtube_items = [item for item in triaged_content if item.get("source") == "YouTube"]
+
+        if youtube_items:
+            print(f"Found {len(youtube_items)} YouTube videos. Analyzing top 5...")
+            # Sort by some criterion (for now just take first 5)
+            top_youtube = youtube_items[:5]
+
+            enhanced_youtube = []
+            for yt_item in top_youtube:
+                enhanced_item = analyze_with_transcript(yt_item)
+                enhanced_youtube.append(enhanced_item)
+
+            # Replace analyzed YouTube items with enhanced versions
+            enhanced_content = []
+            youtube_urls_analyzed = {item['url'] for item in enhanced_youtube}
+
+            for item in triaged_content:
+                if item.get('url') in youtube_urls_analyzed:
+                    # Find and use the enhanced version
+                    enhanced = next((e for e in enhanced_youtube if e['url'] == item['url']), item)
+                    enhanced_content.append(enhanced)
+                else:
+                    enhanced_content.append(item)
+
+            triaged_content = enhanced_content
+
+        # Filter out low quality items (quality_score < 6) if they have scores
+        filtered_content = []
+        for item in triaged_content:
+            quality_score = item.get("quality_score")
+            if quality_score is not None:
+                if quality_score >= 6:  # Only keep high quality
+                    filtered_content.append(item)
+            else:
+                # Keep items without quality scores (non-YouTube)
+                filtered_content.append(item)
+
+        print(f"Final items after quality filter: {len(filtered_content)}/{len(triaged_content)}")
+        final_report[topic_name] = filtered_content
 
     # --- SAVE REPORT ---
     timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d")
@@ -199,21 +343,47 @@ def main():
 
     # --- OPTIONAL: Markdown export for humans ---
     md_lines = [f"# Daily Research — {timestamp}", ""]
+
+    # Sort items by quality score (highest first) for better readability
     for topic, items in final_report.items():
         md_lines.append(f"## {topic}")
         if not items:
             md_lines.append("_No items today._\n")
             continue
-        for it in items:
+
+        # Sort by quality score if available
+        sorted_items = sorted(items, key=lambda x: x.get("quality_score", 0), reverse=True)
+
+        for it in sorted_items:
             title = it.get("title","").strip()
             url = it.get("url","").strip()
             src = it.get("source","")
             cat = it.get("category","")
             summ = it.get("summary","").strip()
-            md_lines.append(f"- **[{title}]({url})** — *{src} · {cat}*")
+            quality = it.get("quality_score")
+            target_aud = it.get("target_audience", "")
+            content_type = it.get("content_type", "")
+            key_insights = it.get("key_insights", [])
+
+            # Build main line
+            quality_badge = f" **[{quality}/10]**" if quality else ""
+            type_badge = f" `{content_type}`" if content_type and content_type != "General" else ""
+            audience_badge = f" `{target_aud}`" if target_aud and target_aud != "General" else ""
+
+            md_lines.append(f"- **[{title}]({url})**{quality_badge} — *{src} · {cat}*{type_badge}{audience_badge}")
+
+            # Add summary
             if summ:
                 md_lines.append(f"  - {summ}")
+
+            # Add key insights for high-quality items
+            if key_insights:
+                md_lines.append(f"  - **Key Insights:**")
+                for insight in key_insights[:3]:  # Limit to top 3
+                    md_lines.append(f"    - {insight}")
+
         md_lines.append("")
+
     (OUTPUT_DIR / f"{timestamp}.md").write_text("\n".join(md_lines), encoding="utf-8")
 
     print(f"\nSUCCESS: Daily intelligence report saved to {report_path}")

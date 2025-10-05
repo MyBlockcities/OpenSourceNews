@@ -1,0 +1,53 @@
+name: Daily Video Script Generation
+
+on:
+  schedule:
+    - cron: "0 8 * * *"  # 1 hour after daily report (8 AM UTC)
+  workflow_dispatch: {}  # Allows manual runs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: video-script
+  cancel-in-progress: false
+
+jobs:
+  generate-script:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Pull latest reports
+        run: git pull
+
+      - name: Generate video script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python pipelines/generate_video_script.py
+
+      - name: Commit and push script
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions-bot@users.noreply.github.com"
+          git add outputs/scripts/*.txt outputs/scripts/*.json || true
+          git commit -m "Daily video script for $(date -u +'%Y-%m-%d')" || echo "No changes to commit"
+          git push
