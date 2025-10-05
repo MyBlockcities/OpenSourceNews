@@ -46,34 +46,45 @@ class VideoScriptGenerator:
         all_items = []
         for topic, items in report_data.items():
             for item in items:
-                # Only include items with quality scores >= 7 (high quality)
-                if item.get('quality_score', 0) >= 7:
-                    all_items.append({**item, "topic": topic})
+                all_items.append({**item, "topic": topic})
 
         if len(all_items) == 0:
-            return {"error": "No high-quality items found (need quality_score >= 7)"}
+            return {"error": "No items found in report"}
 
-        # Sort by quality score descending
-        all_items.sort(key=lambda x: x.get('quality_score', 0), reverse=True)
+        # Try to get items with quality scores first (transcript analysis worked)
+        scored_items = [item for item in all_items if 'quality_score' in item]
 
-        # Take top 3
-        top_3 = all_items[:3]
+        if scored_items:
+            # Sort by quality score and take high-quality ones
+            scored_items.sort(key=lambda x: x.get('quality_score', 0), reverse=True)
+            high_quality = [item for item in scored_items if item.get('quality_score', 0) >= 7]
+
+            if len(high_quality) >= 3:
+                top_3 = high_quality[:3]
+                print(f"✓ Using {len(high_quality)} high-quality items (score >= 7)")
+            elif len(scored_items) >= 3:
+                top_3 = scored_items[:3]
+                print(f"✓ Using top {len(top_3)} scored items (avg score: {sum(i.get('quality_score', 0) for i in top_3)/3:.1f})")
+            else:
+                # Mix scored items with unscored
+                top_3 = scored_items[:3]
+                print(f"⚠ Only {len(scored_items)} scored items. Mixing with unscored items...")
+        else:
+            # No quality scores available - use all items and select by relevance
+            print("⚠ No quality scores found (transcript analysis failed). Using fallback selection...")
+            # Prioritize YouTube videos as they're typically richer content
+            youtube_items = [item for item in all_items if item.get('source') == 'YouTube']
+            other_items = [item for item in all_items if item.get('source') != 'YouTube']
+
+            top_3 = (youtube_items + other_items)[:3]
 
         if len(top_3) < 3:
-            print(f"WARNING: Only {len(top_3)} high-quality items found. Script quality may be reduced.")
-            # Pad with lower quality items if needed
-            if len(all_items) < 3:
-                # Get items with score >= 6
-                backup_items = []
-                for topic, items in report_data.items():
-                    for item in items:
-                        if item.get('quality_score', 0) >= 6 and item not in top_3:
-                            backup_items.append({**item, "topic": topic})
-                backup_items.sort(key=lambda x: x.get('quality_score', 0), reverse=True)
-                top_3.extend(backup_items[:3 - len(top_3)])
+            print(f"⚠ WARNING: Only {len(top_3)} items available for script generation")
+            # Use whatever we have
+            top_3 = all_items[:3]
 
         if len(top_3) == 0:
-            return {"error": "No items with quality_score >= 6 found"}
+            return {"error": "No items available for script generation"}
 
         # Build context from items
         context = []

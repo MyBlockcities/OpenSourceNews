@@ -129,13 +129,28 @@ def analyze_with_transcript(item: dict) -> dict:
 
     print(f"  → Fetching transcript for: {item.get('title', 'Unknown')[:50]}...")
 
-    # Fetch transcript
-    transcript_data = transcript_fetcher.fetch_transcript(url)
+    # Fetch transcript with detailed error handling
+    try:
+        transcript_data = transcript_fetcher.fetch_transcript(url)
 
-    # If transcript fetch failed, return original item
-    if "error" in transcript_data:
-        print(f"    ✗ Transcript unavailable: {transcript_data['error']}")
-        return {**item, "has_transcript": False}
+        # If transcript fetch failed, return original item with error details
+        if "error" in transcript_data:
+            error_msg = transcript_data['error']
+            print(f"    ✗ Transcript unavailable: {error_msg}")
+            return {
+                **item,
+                "has_transcript": False,
+                "transcript_error": error_msg
+            }
+
+    except Exception as e:
+        error_msg = f"Exception during transcript fetch: {str(e)}"
+        print(f"    ✗ {error_msg}")
+        return {
+            **item,
+            "has_transcript": False,
+            "transcript_error": error_msg
+        }
 
     transcript_text = transcript_data.get("transcript", "")
     word_count = transcript_data.get("word_count", 0)
@@ -321,6 +336,23 @@ def main():
 
             triaged_content = enhanced_content
 
+            # Print transcript analysis statistics
+            successful_transcripts = sum(1 for item in enhanced_youtube if item.get("has_transcript"))
+            total_attempted = len(enhanced_youtube)
+            avg_quality = sum(item.get("quality_score", 0) for item in enhanced_youtube if item.get("quality_score")) / max(successful_transcripts, 1)
+
+            print(f"\nTranscript Analysis Results:")
+            print(f"  ✓ Successful: {successful_transcripts}/{total_attempted}")
+            if successful_transcripts > 0:
+                print(f"  ✓ Avg Quality Score: {avg_quality:.1f}/10")
+            if successful_transcripts < total_attempted:
+                print(f"  ✗ Failed: {total_attempted - successful_transcripts}")
+                # Show first error for debugging
+                for item in enhanced_youtube:
+                    if not item.get("has_transcript") and item.get("transcript_error"):
+                        print(f"    Sample error: {item['transcript_error'][:100]}")
+                        break
+
         # Filter out low quality items (quality_score < 6) if they have scores
         filtered_content = []
         for item in triaged_content:
@@ -329,7 +361,7 @@ def main():
                 if quality_score >= 6:  # Only keep high quality
                     filtered_content.append(item)
             else:
-                # Keep items without quality scores (non-YouTube)
+                # Keep items without quality scores (non-YouTube or failed transcripts)
                 filtered_content.append(item)
 
         print(f"Final items after quality filter: {len(filtered_content)}/{len(triaged_content)}")
