@@ -11,11 +11,13 @@ const DailyFeedViewer: React.FC = () => {
     const [dailyReports, setDailyReports] = useState<{ date: string; data: DailyReport }[]>([]);
     const [selectedDate, setSelectedDate] = useState<string>('');
     const [selectedTopic, setSelectedTopic] = useState<string>('');
+    const [selectedItems, setSelectedItems] = useState<Set<number>>(new Set());
     const [loading, setLoading] = useState(true);
     const [generatingScript, setGeneratingScript] = useState(false);
     const [generatedScript, setGeneratedScript] = useState<VideoScript | null>(null);
     const [generatingAudio, setGeneratingAudio] = useState(false);
     const [audioUrl, setAudioUrl] = useState<string>('');
+    const [weeklyMode, setWeeklyMode] = useState(false);
 
     // Load available daily reports
     useEffect(() => {
@@ -59,6 +61,10 @@ const DailyFeedViewer: React.FC = () => {
                     setSelectedTopic(topics[0]);
                 }
             }
+
+    const handleWeeklyAnalysis = () => {
+        alert('📅 Weekly Analysis Feature\n\nTo generate a "This Week in AI" summary:\n\n1. Run in terminal:\n   python3 pipelines/weekly_analyzer.py\n\n2. This will analyze the past 7 days and create:\n   • Best nuggets extraction\n   • Emerging trends\n   • Actionable insights\n   • Weekly video script\n\n3. Output saved to:\n   outputs/weekly/YYYY-MM-DD-script.txt\n\nCost: ~$0.03 per week');
+    };
         } catch (error) {
             console.error('Error loading daily reports:', error);
         } finally {
@@ -66,30 +72,81 @@ const DailyFeedViewer: React.FC = () => {
         }
     };
 
-    const handleGenerateScript = async (items: DailyFeedItem[]) => {
+    const toggleItemSelection = (index: number) => {
+        const newSelected = new Set(selectedItems);
+        if (newSelected.has(index)) {
+            newSelected.delete(index);
+        } else {
+            newSelected.add(index);
+        }
+        setSelectedItems(newSelected);
+    };
+
+    const selectAll = () => {
+        const allIndices = new Set(items.map((_, idx) => idx));
+        setSelectedItems(allIndices);
+    };
+
+    const clearSelection = () => {
+        setSelectedItems(new Set());
+    };
+
+    const handleGenerateScript = async () => {
+        const selectedItemsArray = items.filter((_, idx) => selectedItems.has(idx));
+        
+        if (selectedItemsArray.length === 0) {
+            alert('Please select at least one item to generate a script');
+            return;
+        }
+
         try {
             setGeneratingScript(true);
             setGeneratedScript(null);
             setAudioUrl('');
 
-            const response = await fetch('/api/generate-script', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ items, topic: selectedTopic }),
-            });
-
-            if (!response.ok) {
-                throw new Error('Failed to generate script');
-            }
-
-            const script: VideoScript = await response.json();
+            // For now, generate locally without backend (will add backend later)
+            const script = generateScriptLocally(selectedItemsArray);
             setGeneratedScript(script);
+            
         } catch (error) {
             console.error('Error generating script:', error);
             alert('Failed to generate script. Please try again.');
         } finally {
             setGeneratingScript(false);
         }
+    };
+
+    const generateScriptLocally = (selectedItemsArray: DailyFeedItem[]): VideoScript => {
+        // Simple local script generation (can enhance with API call later)
+        const scriptParts: string[] = [];
+        
+        scriptParts.push("🎬 THIS WEEK IN AI - Your Weekly Intelligence Brief\n\n");
+        
+        selectedItemsArray.forEach((item, idx) => {
+            scriptParts.push(`[STORY ${idx + 1}]: ${item.title}\n`);
+            scriptParts.push(`${item.summary || 'Cutting-edge development in the AI space.'}\n`);
+            
+            if (item.key_insights && item.key_insights.length > 0) {
+                scriptParts.push(`Key Insights:\n`);
+                item.key_insights.forEach(insight => {
+                    scriptParts.push(`  • ${insight}\n`);
+                });
+            }
+            scriptParts.push(`\nSource: ${item.source} - ${item.url}\n\n`);
+        });
+        
+        scriptParts.push("That's all for this week's AI intelligence brief. Stay ahead of the curve!");
+
+        const now = new Date().toISOString();
+        return {
+            script: scriptParts.join(''),
+            sources: selectedItemsArray,
+            metadata: {
+                num_sources: selectedItemsArray.length,
+                avg_quality_score: selectedItemsArray.reduce((sum, item) => sum + (item.quality_score || 0), 0) / selectedItemsArray.length,
+                generated_at: now
+            }
+        };
     };
 
     const handleGenerateAudio = async (scriptText: string) => {
@@ -215,23 +272,42 @@ const DailyFeedViewer: React.FC = () => {
             {/* Feed Items */}
             <div className="bg-gray-800/30 rounded-lg p-6 mb-6 border border-gray-700">
                 <div className="flex justify-between items-center mb-4">
-                    <h3 className="text-xl font-bold text-gray-200">
-                        {items.length} Items
-                    </h3>
-                    <button
-                        onClick={() => handleGenerateScript(items)}
-                        disabled={generatingScript || items.length === 0}
-                        className="bg-cyan-600 hover:bg-cyan-500 disabled:bg-gray-600 disabled:cursor-not-allowed text-white font-semibold px-4 py-2 rounded-md transition-colors flex items-center gap-2"
-                    >
-                        {generatingScript ? (
-                            <>
-                                <LoadingSpinner className="w-4 h-4" />
-                                Generating...
-                            </>
-                        ) : (
-                            'Generate Video Script'
+                    <div className="flex items-center gap-4">
+                        <h3 className="text-xl font-bold text-gray-200">
+                            {items.length} Items
+                        </h3>
+                        {selectedItems.size > 0 && (
+                            <span className="text-sm text-cyan-400 font-semibold">
+                                ({selectedItems.size} selected)
+                            </span>
                         )}
-                    </button>
+                    </div>
+                    <div className="flex gap-2">
+                        {items.length > 0 && (
+                            <>
+                                <button
+                                    onClick={selectedItems.size === items.length ? clearSelection : selectAll}
+                                    className="bg-gray-700 hover:bg-gray-600 text-white text-sm font-semibold px-3 py-2 rounded-md transition-colors"
+                                >
+                                    {selectedItems.size === items.length ? 'Clear All' : 'Select All'}
+                                </button>
+                                <button
+                                    onClick={handleGenerateScript}
+                                    disabled={generatingScript || selectedItems.size === 0}
+                                    className="bg-cyan-600 hover:bg-cyan-500 disabled:bg-gray-600 disabled:cursor-not-allowed text-white font-semibold px-4 py-2 rounded-md transition-colors flex items-center gap-2"
+                                >
+                                    {generatingScript ? (
+                                        <>
+                                            <LoadingSpinner className="w-4 h-4" />
+                                            Generating...
+                                        </>
+                                    ) : (
+                                        `Generate Script (${selectedItems.size})`
+                                    )}
+                                </button>
+                            </>
+                        )}
+                    </div>
                 </div>
 
                 {items.length === 0 ? (
@@ -241,9 +317,22 @@ const DailyFeedViewer: React.FC = () => {
                         {items.map((item, idx) => (
                             <div
                                 key={idx}
-                                className="bg-gray-900/50 rounded-lg p-4 border border-gray-700 hover:border-cyan-500/50 transition-colors"
+                                className={`bg-gray-900/50 rounded-lg p-4 border transition-colors cursor-pointer ${
+                                    selectedItems.has(idx)
+                                        ? 'border-cyan-500 bg-cyan-900/10'
+                                        : 'border-gray-700 hover:border-cyan-500/50'
+                                }`}
+                                onClick={() => toggleItemSelection(idx)}
                             >
                                 <div className="flex items-start gap-3">
+                                    {/* Checkbox */}
+                                    <input
+                                        type="checkbox"
+                                        checked={selectedItems.has(idx)}
+                                        onChange={() => toggleItemSelection(idx)}
+                                        className="mt-1 w-4 h-4 accent-cyan-600 cursor-pointer"
+                                        onClick={(e) => e.stopPropagation()}
+                                    />
                                     {getSourceIcon(item.source)}
                                     <div className="flex-grow">
                                         <div className="flex items-start justify-between gap-2 mb-2">
