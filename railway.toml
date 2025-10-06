@@ -1,0 +1,11 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "npm run preview -- --host 0.0.0.0 --port $PORT"
+healthcheckPath = "/"
+healthcheckTimeout = 100
+
+[env]
+# Environment variables (set these in Railway dashboard)
+# VITE_GEMINI_API_KEY = "your-key-here"
