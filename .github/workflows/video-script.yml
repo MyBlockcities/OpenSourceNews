@@ -2,7 +2,7 @@ name: Daily Video Script Generation
 
 on:
   schedule:
-    - cron: "0 8 * * *"  # 1 hour after daily report (8 AM UTC)
+    - cron: "0 8 * * 1"  # 1 hour after weekly report (8 AM UTC on Mondays)
   workflow_dispatch: {}  # Allows manual runs
 
 permissions:

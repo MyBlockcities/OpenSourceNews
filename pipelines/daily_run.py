@@ -18,6 +18,7 @@ load_dotenv(ROOT_DIR / '.env.local')
 
 from pipelines.youtube import fetch_latest_videos
 from pipelines.transcript_fetcher import TranscriptFetcher
+from services.mailaroo_emailer import send_markdown_report
 
 # --- CONFIGURATION ---
 CONFIG_PATH = ROOT_DIR / 'config' / 'feeds.yaml'
@@ -434,6 +435,11 @@ def main():
 
     print(f"\nSUCCESS: Daily intelligence report saved to {report_path}")
     print(f"Markdown report saved to {OUTPUT_DIR / f'{timestamp}.md'}")
+
+    # --- OPTIONAL: Email report via Mailaroo ---
+    md_path = OUTPUT_DIR / f"{timestamp}.md"
+    email_subject = f"Weekly Research — {timestamp}"
+    send_markdown_report(md_path=md_path, subject=email_subject)
 
 if __name__ == "__main__":
     main()
