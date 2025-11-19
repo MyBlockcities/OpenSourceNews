@@ -5,7 +5,7 @@ from typing import Optional
 import requests
 
 
-MAILAROO_DEFAULT_API_URL = "https://api.mailaroo.com/send"
+MAILAROO_DEFAULT_API_URL = "https://smtp.maileroo.com/api/v2/emails"
 
 
 def _get_env(name: str, default: Optional[str] = None) -> Optional[str]:
@@ -15,11 +15,10 @@ def _get_env(name: str, default: Optional[str] = None) -> Optional[str]:
     return value or default
 
 
-def send_markdown_report(md_path: Path, subject: str) -> None:
-    """Send the given markdown report via Mailaroo, if configured.
+def _send_email(subject: str, body: str) -> None:
+    """Low-level helper to send a plain-text email via Mailaroo.
 
-    This is a best-effort helper: if required configuration is missing,
-    it will log a warning and return without raising.
+    Best-effort: logs warnings instead of raising on configuration or network issues.
     """
     api_key = _get_env("MAILAROO_API_KEY")
     to_email = _get_env("MAILAROO_TO_EMAIL")
@@ -30,22 +29,30 @@ def send_markdown_report(md_path: Path, subject: str) -> None:
         print("INFO: Mailaroo not configured (missing MAILAROO_API_KEY, MAILAROO_TO_EMAIL, or MAILAROO_API_URL). Skipping email.")
         return
 
-    if not md_path.exists():
-        print(f"INFO: Markdown report not found at {md_path}. Skipping email.")
-        return
-
-    body = md_path.read_text(encoding="utf-8")
-
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
     }
 
+    # Payload aligned with Maileroo Email API v2
+    from_display = os.environ.get("MAILAROO_FROM_NAME", "Scheduler Bot")
+    to_display = os.environ.get("MAILAROO_TO_NAME", "Scheduler Recipient")
+
     payload = {
-        "from": from_email,
-        "to": to_email,
+        "from": {
+            "address": from_email,
+            "display_name": from_display,
+        },
+        "to": [
+            {
+                "address": to_email,
+                "display_name": to_display,
+            }
+        ],
         "subject": subject,
-        "text": body,
+        "content": [
+            {"type": "text/plain", "value": body},
+        ],
     }
 
     try:
@@ -56,3 +63,25 @@ def send_markdown_report(md_path: Path, subject: str) -> None:
             print("INFO: Mailaroo email sent successfully.")
     except Exception as e:
         print(f"WARNING: Mailaroo email exception: {type(e).__name__}: {str(e)[:200]}")
+
+
+def send_markdown_report(md_path: Path, subject: str) -> None:
+    """Send the given markdown report via Mailaroo, if configured.
+
+    This is a best-effort helper: if required configuration is missing,
+    it will log a warning and return without raising.
+    """
+    if not md_path.exists():
+        print(f"INFO: Markdown report not found at {md_path}. Skipping email.")
+        return
+
+    body = md_path.read_text(encoding="utf-8")
+    _send_email(subject=subject, body=body)
+
+
+def send_text_email(body: str, subject: str) -> None:
+    """Send an arbitrary plain-text email via Mailaroo, if configured."""
+    if not body:
+        print("INFO: Empty email body provided to send_text_email; skipping send.")
+        return
+    _send_email(subject=subject, body=body)

@@ -18,7 +18,7 @@ load_dotenv(ROOT_DIR / '.env.local')
 
 from pipelines.youtube import fetch_latest_videos
 from pipelines.transcript_fetcher import TranscriptFetcher
-from services.mailaroo_emailer import send_markdown_report
+from services.mailaroo_emailer import send_text_email
 
 # --- CONFIGURATION ---
 CONFIG_PATH = ROOT_DIR / 'config' / 'feeds.yaml'
@@ -431,15 +431,83 @@ def main():
 
         md_lines.append("")
 
-    (OUTPUT_DIR / f"{timestamp}.md").write_text("\n".join(md_lines), encoding="utf-8")
+    md_path = OUTPUT_DIR / f"{timestamp}.md"
+    md_path.write_text("\n".join(md_lines), encoding="utf-8")
 
     print(f"\nSUCCESS: Daily intelligence report saved to {report_path}")
-    print(f"Markdown report saved to {OUTPUT_DIR / f'{timestamp}.md'}")
+    print(f"Markdown report saved to {md_path}")
 
-    # --- OPTIONAL: Email report via Mailaroo ---
-    md_path = OUTPUT_DIR / f"{timestamp}.md"
-    email_subject = f"Weekly Research — {timestamp}"
-    send_markdown_report(md_path=md_path, subject=email_subject)
+    # --- OPTIONAL: Email report + scripts + transcripts via Mailaroo ---
+    # We send up to three separate, smaller emails to avoid 413 errors.
+    try:
+        scripts_dir = ROOT_DIR / "outputs" / "scripts"
+        transcripts_dir = ROOT_DIR / "outputs" / "transcripts"
+
+        # 1) Email: main research report
+        if md_path.exists():
+            report_body = md_path.read_text(encoding="utf-8")
+            report_subject = f"Weekly Research — {timestamp}"
+            # Trim extremely large reports
+            MAX_REPORT_CHARS = 15000
+            if len(report_body) > MAX_REPORT_CHARS:
+                report_body = report_body[:MAX_REPORT_CHARS] + "\n\n[Truncated due to size]"
+            send_text_email(body=report_body, subject=report_subject)
+
+        # 2) Email: scripts summary
+        if scripts_dir.exists():
+            script_parts = ["Weekly video scripts summary.\n"]
+            MAX_EMAIL_CHARS = 15000
+            for script_file in sorted(scripts_dir.glob("*.txt")):
+                header = f"\n=== Script: {script_file.name} ===\n"
+                try:
+                    content = script_file.read_text(encoding="utf-8")
+                except Exception as e:
+                    content = f"[Error reading {script_file.name}: {type(e).__name__}]\n"
+
+                MAX_SNIPPET_CHARS = 2000
+                if len(content) > MAX_SNIPPET_CHARS:
+                    content = content[:MAX_SNIPPET_CHARS] + "\n[Truncated script snippet]"
+
+                candidate = header + content + "\n"
+                if len("".join(script_parts)) + len(candidate) > MAX_EMAIL_CHARS:
+                    break
+                script_parts.append(candidate)
+
+            script_body = "".join(script_parts)
+            script_subject = f"Weekly Video Scripts Summary — {timestamp}"
+            if len(script_body.strip()) > 0:
+                send_text_email(body=script_body, subject=script_subject)
+
+        # 3) Email: transcripts summary
+        if transcripts_dir.exists():
+            transcript_parts = ["Weekly transcripts summary.\n"]
+            MAX_EMAIL_CHARS = 15000
+            for transcript_file in sorted(transcripts_dir.glob("*.json")):
+                try:
+                    data = json.loads(transcript_file.read_text(encoding="utf-8"))
+                    title = data.get("video_url") or data.get("video_id") or transcript_file.name
+                    transcript_text = data.get("transcript", "")
+                except Exception as e:
+                    title = transcript_file.name
+                    transcript_text = f"[Error reading transcript JSON: {type(e).__name__}]\n"
+
+                MAX_SNIPPET_CHARS = 2000
+                if len(transcript_text) > MAX_SNIPPET_CHARS:
+                    transcript_text = transcript_text[:MAX_SNIPPET_CHARS] + "\n[Truncated transcript snippet]"
+
+                header = f"\n=== Transcript: {title} ===\n"
+                candidate = header + transcript_text + "\n"
+                if len("".join(transcript_parts)) + len(candidate) > MAX_EMAIL_CHARS:
+                    break
+                transcript_parts.append(candidate)
+
+            transcripts_body = "".join(transcript_parts)
+            transcripts_subject = f"Weekly Transcripts Summary — {timestamp}"
+            if len(transcripts_body.strip()) > 0:
+                send_text_email(body=transcripts_body, subject=transcripts_subject)
+
+    except Exception as e:
+        print(f"WARNING: Failed to build or send Mailaroo digest emails: {type(e).__name__}: {str(e)[:200]}")
 
 if __name__ == "__main__":
     main()
