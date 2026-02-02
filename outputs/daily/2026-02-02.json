@@ -1,0 +1,699 @@
+{
+  "AI Agents & Frameworks": [
+    {
+      "title": "Project Genie: Experimenting with infinite, interactive worlds",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/",
+      "source": "RSS",
+      "category": "Technical Analysis",
+      "summary": "Google DeepMind introduces Project Genie, a new research initiative focused on creating infinite, interactive virtual worlds. These environments are designed for AI agents to learn and experiment within, pushing the boundaries of autonomous AI interaction."
+    },
+    {
+      "title": "NVIDIA AI Brings Nemotron-3-Nano-30B to NVFP4 with Quantization Aware Distillation (QAD) for Efficient Reasoning Inference",
+      "url": "https://www.marktechpost.com/2026/02/01/nvidia-ai-brings-nemotron-3-nano-30b-to-nvfp4-with-quantization-aware-distillation-qad-for-efficient-reasoning-inference/",
+      "source": "RSS",
+      "category": "Technical Analysis",
+      "summary": "NVIDIA AI has introduced Nemotron-3-Nano-30B to NVFP4, leveraging Quantization Aware Distillation (QAD) to enhance efficiency for reasoning inference. This advancement aims to optimize the performance of AI models, which is crucial for AI agents."
+    },
+    {
+      "title": "How to Build Memory-Driven AI Agents with Short-Term, Long-Term, and Episodic Memory",
+      "url": "https://www.marktechpost.com/2026/02/01/how-to-build-memory-driven-ai-agents-with-short-term-long-term-and-episodic-memory/",
+      "source": "RSS",
+      "category": "Technical Analysis",
+      "summary": "This article provides guidance on constructing memory-driven AI agents, detailing methods for incorporating short-term, long-term, and episodic memory capabilities. The focus is on enhancing agent autonomy and decision-making through advanced memory architectures."
+    },
+    {
+      "title": "Robbyant Open Sources LingBot World: a Real Time World Model for Interactive Simulation and Embodied AI",
+      "url": "https://www.marktechpost.com/2026/02/01/robbyant-open-sources-lingbot-world-a-real-time-world-model-for-interactive-simulation-and-embodied-ai/",
+      "source": "RSS",
+      "category": "New Framework Release",
+      "summary": "Robbyant has open-sourced LingBot World, a real-time world model designed for interactive simulation and embodied AI research. This platform provides a dynamic environment for developing and testing advanced AI agents."
+    },
+    {
+      "title": "AI2 Releases SERA, Soft Verified Coding Agents Built with Supervised Training Only for Practical Repository Level Automation Workflows",
+      "url": "https://www.marktechpost.com/2026/01/30/ai2-releases-sera-soft-verified-coding-agents-built-with-supervised-training-only-for-practical-repository-level-automation-workflows/",
+      "source": "RSS",
+      "category": "New Framework Release",
+      "summary": "AI2 has released SERA, a set of soft verified coding agents developed using supervised training, specifically designed for practical repository-level automation workflows. These agents aim to streamline and improve code management tasks."
+    },
+    {
+      "title": "Introducing NVIDIA Cosmos Policy for Advanced Robot Control",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-policy-for-robot-control",
+      "source": "RSS",
+      "category": "New Framework Release",
+      "summary": "NVIDIA has introduced Cosmos Policy, a new framework aimed at advanced robot control, providing sophisticated tools for managing and orchestrating robotic behaviors. This development enhances the capabilities of intelligent agents in robotics."
+    },
+    {
+      "title": "Introducing Daggr: Chain apps programmatically, inspect visually",
+      "url": "https://huggingface.co/blog/daggr",
+      "source": "RSS",
+      "category": "New Framework Release",
+      "summary": "Daggr is introduced as a new tool designed to programmatically chain applications and allow visual inspection of workflows. This could be relevant for building and debugging complex AI agent pipelines and frameworks."
+    },
+    {
+      "title": "We Got Claude to Build CUDA Kernels and teach open models!",
+      "url": "https://huggingface.co/blog/upskill",
+      "source": "RSS",
+      "category": "Technical Analysis",
+      "summary": "This article demonstrates how the Claude AI was utilized to build CUDA kernels and educate open models, showcasing its advanced code generation and instructional capabilities. It highlights a practical application of large language models as agents."
+    },
+    {
+      "title": "Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek",
+      "url": "https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-2",
+      "source": "RSS",
+      "category": "Technical Analysis",
+      "summary": "This analysis explores the architectural decisions within China's open-source AI ecosystem, examining trends and developments beyond models like DeepSeek. It provides insights into the strategic approaches to building AI frameworks and tools, including those for agents."
+    },
+    {
+      "title": "China’s hyperscalers bet billions on agentic AI as commerce becomes the new battleground",
+      "url": "https://www.artificialintelligence-news.com/news/china-hyperscalers-agentic-ai-commerce-battleground/",
+      "source": "RSS",
+      "category": "General News",
+      "summary": "Chinese hyperscalers are investing billions into agentic AI, positioning it as a critical area for competition, particularly in the commercial sector. This signals a major strategic shift towards autonomous AI systems in business."
+    },
+    {
+      "title": "Deloitte sounds alarm as AI agent deployment outruns safety frameworks",
+      "url": "https://www.artificialintelligence-news.com/news/deloitte-agentic-ai-guidelines-published/",
+      "source": "RSS",
+      "category": "General News",
+      "summary": "Deloitte has issued a warning that the rapid deployment of AI agents is surpassing the development of adequate safety frameworks. This highlights growing concerns about governance and responsible innovation in the AI agent space."
+    },
+    {
+      "title": "They Said It Was Impossible… This Simulation Solved It",
+      "url": "https://youtu.be/9Mcv9vpGW5Q",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "This video explores an AI-driven simulation that reportedly solved a previously impossible problem, demonstrating advanced capabilities in complex problem-solving. It potentially involves AI agents interacting within a simulated environment."
+    },
+    {
+      "title": "NVIDIA’s AI Finally Solved Walking In Games",
+      "url": "https://youtu.be/_uo7CXd33Uc",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "This video discusses how NVIDIA's AI has made significant strides in solving realistic walking mechanics within video games. This often involves advanced AI agents for character locomotion."
+    },
+    {
+      "title": "Researchers Built a Tiny Economy. AIs Broke It Immediately",
+      "url": "https://youtu.be/KUekLTqV1ME",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "Researchers created a tiny simulated economy where AI agents were introduced, which subsequently disrupted and broke the system immediately. This highlights complexities and emergent behaviors in multi-agent systems."
+    },
+    {
+      "title": "The Next Level of AI Video Games Is Here!",
+      "url": "https://youtu.be/6Adcl7nXWuU",
+      "source": "YouTube",
+      "category": "General News",
+      "summary": "This video explores the emergence of the 'next level' of AI in video games, likely showcasing advanced AI agents and their capabilities in enhancing gameplay and interactivity. It signals a new era for AI in game development."
+    },
+    {
+      "title": "DeepMind Just Made The Most Powerful Game AI Engine!",
+      "url": "https://youtu.be/YvuEKrJhjos",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "DeepMind has reportedly developed a highly powerful new AI engine specifically for games, suggesting a significant advancement in frameworks for creating sophisticated game AI agents. This could revolutionize game development."
+    },
+    {
+      "title": "NVIDIA’s New AI: Growing Worlds From Nothing!",
+      "url": "https://youtu.be/WFG-VGZIwUo",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "NVIDIA's new AI technology is presented as capable of generating complex virtual worlds from scratch, potentially serving as a foundational framework for environments where AI agents can operate and interact."
+    },
+    {
+      "title": "NVIDIA’s New AI: Next Level Games Are Coming!",
+      "url": "https://youtu.be/76VYzhs-0FE",
+      "source": "YouTube",
+      "category": "General News",
+      "summary": "This video highlights how NVIDIA's latest AI advancements are paving the way for 'next-level' games, suggesting improvements in game AI and the frameworks that support more dynamic and intelligent in-game agents."
+    },
+    {
+      "title": "NVIDIA’s New AI: Wow, Video Games Become Reality!",
+      "url": "https://youtu.be/yKJ0Nv6yEIU",
+      "source": "YouTube",
+      "category": "General News",
+      "summary": "Showcases NVIDIA's new AI capabilities that promise to make video games more realistic, likely through enhanced graphics and more sophisticated AI agents that interact dynamically within game worlds."
+    },
+    {
+      "title": "One Prompt Every AGENTIC Codebase Should Have (For Engineering Teams)",
+      "url": "https://youtu.be/3_mwKbYvbUg",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "This video discusses a crucial prompt that should be incorporated into every agentic codebase, offering practical advice for engineering teams on how to effectively develop and manage AI agents."
+    },
+    {
+      "title": "The Claude Code Feature Senior Engineers KEEP MISSING",
+      "url": "https://youtu.be/u5GkG71PkR0",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "Highlights a significant but often overlooked feature within Claude's coding capabilities, which senior engineers might be missing. This could relate to how Claude functions as a coding agent and its framework usage."
+    },
+    {
+      "title": "AGENT THREADS. How to SHIP like Boris Cherny. Ralph Wiggum in Claude Code.",
+      "url": "https://youtu.be/-WBHNFAB0OE",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "Explores the concept of 'agent threads' within Claude Code, detailing how to implement this programming pattern for efficient and robust AI agent development, referencing best practices from experts."
+    },
+    {
+      "title": "Claude Code is Amazing... Until It DELETES Production",
+      "url": "https://youtu.be/VqDs46A8pqE",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "This video examines the powerful capabilities of Claude Code, while also cautioning about a critical vulnerability: its potential to inadvertently delete production data. It highlights the importance of careful deployment of AI coding agents."
+    },
+    {
+      "title": "The Codebase Singularity: “My agents run my codebase better than I can”",
+      "url": "https://youtu.be/fop_yxV-mPo",
+      "source": "YouTube",
+      "category": "General News",
+      "summary": "This video explores the concept of a 'codebase singularity,' where AI agents become more proficient at managing and evolving a codebase than human developers. It discusses the future implications of highly autonomous coding agents."
+    },
+    {
+      "title": "The Easiest Way to Build AI Skills",
+      "url": "https://youtu.be/OsSFIlDmPTk",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "This video presents the easiest methods for developing AI skills, offering practical approaches and techniques for enhancing the capabilities of AI agents and systems through modular components."
+    },
+    {
+      "title": "Save Code Once, Reuse It as a Skill",
+      "url": "https://youtu.be/_LjRHdtmPMM",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "Advocates for a modular approach to AI development by saving and reusing code as 'skills,' which can then be integrated into various AI agents. This promotes efficiency and scalability in building AI systems."
+    },
+    {
+      "title": "AI agency is a TRAP - I&#39;m shutting it down",
+      "url": "https://youtu.be/gtz08vvqKF8",
+      "source": "YouTube",
+      "category": "General News",
+      "summary": "This video critically evaluates the concept of 'AI agency,' with the creator deciding to shut down their agentic projects due to perceived traps and challenges. It offers a cautionary perspective on current AI agent paradigms."
+    },
+    {
+      "title": "Stop Adding Tools. Save Code as Skills",
+      "url": "https://youtu.be/1-pmY-b8Nos",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "The video advises against endlessly adding new tools in AI development, proposing instead to consolidate and reuse code as modular 'skills' to streamline the creation of AI agents and frameworks."
+    },
+    {
+      "title": "MCP Is Dead (Here’s the Skills Replacement)",
+      "url": "https://youtu.be/tTZ4yDY4adg",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "This video declares the obsolescence of 'MCP' (Multi-Control Platform or a similar framework) and introduces a new 'skills replacement' paradigm for building AI agents, suggesting a significant shift in agent capability structuring."
+    },
+    {
+      "title": "Moltbook is scaring me :(",
+      "url": "https://youtu.be/J7dsYkQFlac",
+      "source": "YouTube",
+      "category": "General News",
+      "summary": "Expresses concern about 'Moltbook,' implying it's an AI tool or agent exhibiting unsettling capabilities. This hints at the rapid advancements and potential implications of new AI technologies and agents."
+    },
+    {
+      "title": "Forward Future Live | 01.30.26 | Guests from Flexion, Higgsfield, OpenClaw",
+      "url": "https://youtu.be/ibvpQyGzts",
+      "source": "YouTube",
+      "category": "General News",
+      "summary": "This livestream features guests from AI companies like Flexion, Higgsfield, and OpenClaw, likely discussing the latest developments and future trends in AI, including agentic systems and frameworks."
+    },
+    {
+      "title": "Clawdbot just got scary (Moltbook)",
+      "url": "https://youtu.be/-fmNzXCp7zA",
+      "source": "YouTube",
+      "category": "General News",
+      "summary": "Discusses 'Clawdbot' and 'Moltbook,' indicating that these AI agents have developed new and potentially concerning capabilities. It reflects on the rapid evolution of autonomous AI systems."
+    },
+    {
+      "title": "Bot calls phone WITHOUT permission",
+      "url": "https://youtu.be/BeRVOSvnKW4",
+      "source": "YouTube",
+      "category": "General News",
+      "summary": "This video highlights an incident where an AI 'bot' reportedly made phone calls without explicit permission, raising immediate concerns about autonomous agent control and ethical implications."
+    },
+    {
+      "title": "Epic Mode: NEW Toolkit Ends Vibe Coding! 100x Better Than Vibe Coding (Full Tutorial)",
+      "url": "https://youtu.be/hq2CHQksLXg",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "Introduces an 'Epic Mode' toolkit that aims to revolutionize AI coding by ending 'vibe coding,' promising a 100x improvement in efficiency and offering a full tutorial on its advanced features for building AI agents."
+    },
+    {
+      "title": "Antigravity + Stitch Just Became UNSTOPPABLE! Build Anything FOR FREE!",
+      "url": "https://youtu.be/FBK3Bpsql8I",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "Highlights the powerful combination of 'Antigravity' and 'Stitch' tools, claiming they have become 'unstoppable' for building diverse AI applications for free. This suggests an effective new framework or integration for AI development."
+    },
+    {
+      "title": "Manus 1.6: AI Super Agent That Can DO ANYTHING! The Clawdbot KILLER!",
+      "url": "https://youtu.be/zZi2_ZZPI7Q",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "Introduces 'Manus 1.6' as a new 'AI Super Agent' with broad capabilities, claiming to be a superior alternative to 'Clawdbot.' This signifies an advancement in autonomous agent technology."
+    },
+    {
+      "title": "Gemini in Chrome is INCREDIBLE! Google&#39;s Agentic AI Can Automate ANY Browser Task!",
+      "url": "https://youtu.be/n5zw2cvvWAk",
+      "source": "YouTube",
+      "category": "General News",
+      "summary": "Showcases Gemini's integration into Chrome, highlighting its incredible 'agentic AI' capabilities to automate any browser task. This demonstrates a significant step in making AI agents directly accessible for everyday digital tasks."
+    },
+    {
+      "title": "Kimi K2.5: The GREATEST Opensource AI Model That Beats Opus 4.5 and Gemini 3 (Fully Tested)",
+      "url": "https://youtu.be/w-kFe24zZIE",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "Presents 'Kimi K2.5' as a top-performing open-source AI model, claiming it surpasses proprietary models like Opus 4.5 and Gemini 3 in comprehensive tests. This is relevant for AI agent development as it details potential underlying models."
+    },
+    {
+      "title": "Gemini 3.5 Is Google&#39;s Greatest Model Ever! Most Powerful AI EVER! (Tested)",
+      "url": "https://youtu.be/0lVt3nKmyFk",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "Declares Gemini 3.5 as Google's most powerful AI model to date, emphasizing its superior performance based on testing. This is relevant as Gemini powers many agentic applications and frameworks."
+    },
+    {
+      "title": "Ralph Loop TUI IS INCREDIBLE! Makes Claude Code 100x More Powerful and Autonomous!",
+      "url": "https://youtu.be/pzBSYMCrYMk",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "Introduces the 'Ralph Loop TUI' as a powerful enhancement for Claude Code, significantly boosting its autonomy and power for AI agent development. This suggests a new tool or framework for improving agentic workflows."
+    },
+    {
+      "title": "Gemini Agent Skills Changes Everything! Superchaged AI Coding Agent! (Gemini CLI Update)",
+      "url": "https://youtu.be/pK-EvgvR_ms",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "Highlights a significant update to Gemini CLI, introducing 'Gemini Agent Skills' that supercharge its capabilities as an AI coding agent. This marks an important development for autonomous coding frameworks."
+    },
+    {
+      "title": "Claude Code Ralph Loop: Run Claude Code For Hours Autonomously &amp; Code ANYTHING!",
+      "url": "https://youtu.be/Yl_GGlAQ4Gc",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "Demonstrates the 'Claude Code Ralph Loop,' a method enabling Claude Code to run autonomously for extended periods to code a wide range of tasks. This showcases enhanced autonomy for AI coding agents."
+    },
+    {
+      "title": "AIRIS: The World’s First Self-Learning AI - AGI SOON!",
+      "url": "https://youtu.be/Ix8fH6KjN3M",
+      "source": "YouTube",
+      "category": "General News",
+      "summary": "This video introduces 'AIRIS,' claiming it to be the world's first self-learning AI, with implications for achieving AGI soon. It suggests a major breakthrough in autonomous AI systems and their underlying frameworks."
+    },
+    {
+      "title": "Context Engineering: End of Vibe Coding! 100x Better Than Vibe Coding /w Inngest (Full Tutorial)",
+      "url": "https://youtu.be/iOYg8JSazvU",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "This tutorial introduces 'Context Engineering' as a superior alternative to 'vibe coding,' offering a 100x improvement, especially when integrated with Inngest. It provides a new methodology for developing AI systems and agents."
+    },
+    {
+      "title": "Gemini 3.0 Flash: Google&#39;s Greatest Model Ever? Most Powerful, Cheapest, &amp; Fastest Model! (Tested)",
+      "url": "https://youtu.be/izXjYxKTI_k",
+      "source": "YouTube",
+      "category": "Technical Analysis",
+      "summary": "This video reviews Gemini 3.0 Flash, highlighting its reported status as Google's most powerful, cheapest, and fastest model based on testing. This is significant for developers building AI agents."
+    },
+    {
+      "title": "Gemini Super Gems: Google&#39;s NEW AI Super Agent! Goodbye N8N! (FULLY FREE AI App Generator)",
+      "url": "https://youtu.be/1choivCbZDg",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "Announces 'Gemini Super Gems' as Google's new 'AI Super Agent' and a free AI app generator, positioning it as a replacement for tools like N8N. This signifies a major release in agentic AI development."
+    },
+    {
+      "title": "OpenCode Desktop: BEST AI Coding Agent Ever + FULLY FREE! BYE Gemini CLI &amp; ClaudeCode! (Opensource)",
+      "url": "https://youtu.be/v4j1_qHLq9s",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "Introduces 'OpenCode Desktop' as a new open-source AI coding agent, claiming it surpasses Gemini CLI and ClaudeCode. This is a significant development in open-source AI agent frameworks."
+    },
+    {
+      "title": "Continuous AI: Ultimate AI Coding Agent With A Mission Control! Can Build ANYTHING! (Opensource)",
+      "url": "https://youtu.be/mE-RwXpEiqQ",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "This video showcases 'Continuous AI,' an open-source 'ultimate AI coding agent' featuring a 'Mission Control' interface, capable of building a wide array of projects. It represents an advanced framework for autonomous code generation."
+    },
+    {
+      "title": "Google Antigravity: Gemini 3.0 + Opus 4.5 = The Ultimate AI Coding Workflow - FULLY FREE!",
+      "url": "https://youtu.be/U2iFkardx9g",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "Introduces 'Google Antigravity,' a free ultimate AI coding workflow that combines Gemini 3.0 and Opus 4.5, offering an advanced framework for autonomous coding and multi-model agentic solutions."
+    },
+    {
+      "title": "YOLO Mode: NEW AI Coding Agent Is INSANE! 100x Better Than Vibe Coding (Full Tutorial)",
+      "url": "https://youtu.be/KCEEPeKOueQ",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "Presents 'YOLO Mode,' a new AI coding agent promising 100x improvement over 'vibe coding' with a full tutorial. This indicates a new framework for highly efficient and autonomous code generation."
+    },
+    {
+      "title": "Better Agents: BMAD Alternative! Ultimate AI Coding System Ends Vibe Coding! Better Than Vibe Coding",
+      "url": "https://youtu.be/UFIfl_Lxq_M",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "Introduces a new 'Ultimate AI Coding System' presented as a superior alternative to BMAD, designed to end 'vibe coding' and provide 'Better Agents.' This signifies advancements in AI agent frameworks for coding."
+    },
+    {
+      "title": "Toolhouse: First-Ever Agent UI - Fastest &amp; Easiest Way to Create AI Agents! NEW MCP + Toolkit!",
+      "url": "https://youtu.be/fqcKRn4ZjDI",
+      "source": "YouTube",
+      "category": "New Framework Release",
+      "summary": "Announces 'Toolhouse,' the first-ever Agent UI, described as the fastest and easiest way to create AI agents, incorporating a new MCP (Multi-Control Platform) and toolkit. This represents a significant new framework for agent development."
+    },
+    {
+      "title": "AI News: Google&#39;s Infinite AI Worlds",
+      "url": "https://youtu.be/cEPTbXuw55Q",
+      "source": "YouTube",
+      "category": "General News",
+      "summary": "This AI news update discusses Google's initiatives in creating 'infinite AI worlds,' which could serve as vast environments for AI agents to explore and learn. It covers Project Genie and its implications."
+    },
+    {
+      "title": "Why People Are Freaking Out About Clawdbot",
+      "url": "https://youtu.be/GLwTSlRn6-k",
+      "source": "YouTube",
+      "category": "General News",
+      "summary": "Explores the reasons behind public concern and excitement surrounding 'Clawdbot,' an AI agent whose capabilities are causing a stir. This highlights societal reactions to advanced autonomous systems."
+    },
+    {
+      "title": "openclaw / openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "source": "GitHub Trending",
+      "category": "New Framework Release",
+      "summary": "The GitHub trending repository 'openclaw / openclaw' suggests a new open-source project related to AI agents or frameworks. This could be the underlying codebase for the 'Clawdbot' discussed elsewhere, indicating a new release."
+    },
+    {
+      "title": "pedramamini / Maestro",
+      "url": "https://github.com/pedramamini/Maestro",
+      "source": "GitHub Trending",
+      "category": "New Framework Release",
+      "summary": "The GitHub trending repository 'pedramamini / Maestro' indicates a new project, possibly an orchestration framework designed to manage and coordinate AI agents or complex AI workflows."
+    },
+    {
+      "title": "thedotmack / claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "source": "GitHub Trending",
+      "category": "New Framework Release",
+      "summary": "The GitHub trending repository 'thedotmack / claude-mem' suggests a new project focused on enhancing Claude's memory capabilities, potentially improving its performance as an AI agent through a specialized framework."
+    },
+    {
+      "title": "microsoft / agent-lightning",
+      "url": "https://github.com/microsoft/agent-lightning",
+      "source": "GitHub Trending",
+      "category": "New Framework Release",
+      "summary": "The GitHub trending repository 'microsoft / agent-lightning' indicates a new project from Microsoft focused on AI agents, likely a framework designed for rapid development or deployment of agentic systems."
+    },
+    {
+      "title": "Opus 4.5 is not the normal AI agent experience that I have had thus far",
+      "url": "https://burkeholland.github.io/posts/opus-4-5-change-everything/",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": "This article discusses how 'Opus 4.5' offers an AI agent experience significantly different from previous encounters, suggesting new capabilities or interaction paradigms for AI agents and their underlying models."
+    },
+    {
+      "title": "Windows 11 adds AI agent that runs in background with access to personal folders",
+      "url": "https://www.windowslatest.com/2025/11/18/windows-11-to-add-an-ai-agent-that-runs-in-background-with-access-to-personal-folders-warns-of-security-risk/",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": "Windows 11 is reportedly integrating an AI agent that operates in the background with access to personal folders, raising both excitement for new features and concerns about security and privacy of agentic systems."
+    },
+    {
+      "title": "A generalist AI agent for 3D virtual environments",
+      "url": "https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments/",
+      "source": "Hacker News",
+      "category": "Technical Analysis",
+      "summary": "This article discusses the development of a generalist AI agent specifically designed to operate and adapt within 3D virtual environments, highlighting progress in creating versatile autonomous systems."
+    },
+    {
+      "title": "Building Effective AI Agents",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "source": "Hacker News",
+      "category": "Technical Analysis",
+      "summary": "This article from Anthropic provides insights and best practices for building effective AI agents, covering key principles and strategies for developing robust and capable autonomous systems and their frameworks."
+    },
+    {
+      "title": "CICERO: An AI agent that negotiates, persuades, and cooperates with people",
+      "url": "https://ai.facebook.com/blog/cicero-ai-negotiates-persuades-and-cooperates-with-people/",
+      "source": "Hacker News",
+      "category": "Technical Analysis",
+      "summary": "Facebook AI introduces CICERO, an advanced AI agent demonstrating capabilities in negotiation, persuasion, and cooperation with human users. This highlights progress in socially intelligent AI agents."
+    },
+    {
+      "title": "Learning to Reason with LLMs",
+      "url": "https://openai.com/index/learning-to-reason-with-llms/",
+      "source": "Hacker News",
+      "category": "Technical Analysis",
+      "summary": "This article from OpenAI explores methods and research into enabling Large Language Models (LLMs) to reason more effectively, a crucial capability for developing sophisticated AI agents."
+    },
+    {
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via RL",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "source": "Hacker News",
+      "category": "Technical Analysis",
+      "summary": "This research introduces DeepSeek-R1, a model that uses Reinforcement Learning (RL) to incentivize and enhance reasoning capabilities in Large Language Models. This is a critical development for building more intelligent AI agents."
+    }
+  ],
+  "Blockchain VC Funding": [
+    {
+      "title": "Bitcoin's crash exposes painful truth – crypto market still dances to BTC's tune",
+      "url": "https://www.coindesk.com/markets/2026/02/02/bitcoin-s-crash-exposes-painful-truth-crypto-market-still-dances-to-btc-s-tune",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Jupiter brings Polymarket to Solana and lands $35 million investment deal",
+      "url": "https://www.coindesk.com/markets/2026/02/02/jupiter-brings-polymarket-to-solana-and-lands-usd35-million-investment-deal",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "India's 2026 budget keeps 30% crypto tax, adds $545 penalty for missed reports",
+      "url": "https://www.coindesk.com/markets/2026/02/02/india-s-budget-2026-keeps-crypto-taxes-tds-unchanged-adds-usd545-penalty-for-lapses",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "The hidden reason bitcoin didn't rally as gold and silver went berserk",
+      "url": "https://www.coindesk.com/markets/2026/01/30/the-hidden-reason-bitcoin-s-bounce-keeps-failing-below-usd90-000",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Story delays $IP token supply unlock as usage lags and dump fears grow",
+      "url": "https://www.coindesk.com/markets/2026/02/02/story-delays-usdip-token-unlock-by-6-months-as-supply-overhang-fears-mount-and-usage-remains-thin",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Nomura temporarily reduces crypto exposure as Q3 profits drop",
+      "url": "https://cointelegraph.com/news/nomura-temporarily-reducing-crypto-risk-exposure-after-q4-profit-drop?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Crypto stolen hit $370M in January, nearly quadrupling year on year: CertiK",
+      "url": "https://cointelegraph.com/news/crypto-stolen-370m-january-quadrupling-year-on-year-certik?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Average Bitcoin ETF buy underwater as investors pull $2.8B in 2 weeks",
+      "url": "https://cointelegraph.com/news/average-bitcoin-etf-buy-underwater-after-investors-pull-2-8b-2-weeks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Buterin pitches DAOs, prediction markets to reward content creators",
+      "url": "https://cointelegraph.com/news/vitalik-buterin-pitches-idea-creator-coins-model?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "BitRiver CEO arrested for alleged tax concealment: Reports",
+      "url": "https://cointelegraph.com/news/bitriver-ceo-arrested-alleged-tax-concealment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Trezor vs. Ledger: Which Cold Wallet Wins?",
+      "url": "https://dailycoin.com/trezor-vs-ledger-which-cold-wallet-wins/",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Hedera’s U.S. Government Inroads Put HBAR in a Different League",
+      "url": "https://dailycoin.com/hederas-u-s-government-inroads-put-hbar-in-a-different-league/",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "SWIFT Embraces XRP’s Playbook: Real-Time Transfers Coming",
+      "url": "https://dailycoin.com/swift-embraces-xrps-playbook-real-time-transfers-coming/",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "5 Ways in Which Blockchain Is Unlocking the Full Value of IP",
+      "url": "https://dailycoin.com/how-blockchain-is-transforming-intellectual-property-ip/",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Bitcoin Slips As Crypto War Chest Swells To $193M Ahead of Midterms",
+      "url": "https://dailycoin.com/bitcoin-slips-as-crypto-war-chest-swells-to-193m-ahead-of-midterms/",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "A Fresh Start for Tokenomics in 2026",
+      "url": "https://www.bankless.com/read/a-fresh-start-for-tokenomics-in-2026",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Kalshi Files to Enable 'Block Trading' for Certain Prediction Markets",
+      "url": "https://www.bankless.com/read/news/kalshi-files-to-enable-block-trading-for-certain-prediction-markets",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Kraken-Backed SPAC Completes $350M IPO",
+      "url": "https://www.bankless.com/read/news/kraken-backed-spac-completes-350m-ipo",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Trump Picks Kevin Warsh for Federal Reserve Chair Role",
+      "url": "https://www.bankless.com/read/news/president-trump-nominates-kevin-warsh-for-federal-reserve-chair",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "What's Next for Crypto Twitter & Onchain Social",
+      "url": "https://www.bankless.com/read/whats-next-for-crypto-twitter-onchain-social",
+      "source": "RSS",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Koinify: The Future of Crypto Crowd Funding",
+      "url": "http://koinify.com/",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Crypto’s new funding mechanisms: down and dirty guide",
+      "url": "https://decryptmedia.com/6016/guide-crypto-new-funding-mechanisms-sto-ieo",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "The fight to cut off the crypto funding Russia’s invasion of Ukraine",
+      "url": "https://www.wired.com/story/russia-ukraine-cryptocurrency-funding/",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Profiting from inefficiencies in the crypto markets: funding rates",
+      "url": "https://kasper-vandeloock.medium.com/profiting-from-inefficiencies-in-the-crypto-markets-funding-rates-1d21e2cefac9",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Hamas crypto funding, the WSJ, and the Warren Letter",
+      "url": "https://medium.com/@nic__carter/hamas-crypto-funding-the-wsj-and-the-warren-letter-b89cac007683",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Nasdaq, Citi Join Novogratz in Funding Blockchain Firm Symbiont",
+      "url": "https://www.bloomberg.com/news/articles/2019-01-23/nasdaq-citi-join-novogratz-in-funding-blockchain-firm-symbiont",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Homeland Security Funding Blockchain Technology via SBIRs",
+      "url": "https://medium.com/@darrenrush/homeland-security-funding-blockchain-technology-a791ce3ece3b#.7w2elb5x6",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Funding Blockchain Ecosystems",
+      "url": "https://grasshopper.capital/research/2018/5/16/funding-blockchain-ecosystems",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Indian Banks to Start Blockchain-Based Funding for SMEs to Avoid Defaulters",
+      "url": "https://www.btcwires.com/c-buzz/indian-banks-to-start-blockchain-based-funding-for-smes-to-avoid-defaulters/",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "My First Impressions of Web3",
+      "url": "https://moxie.org/2022/01/07/web3-first-impressions.html",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Web3 is centralized and inefficient",
+      "url": "https://www.neelc.org/posts/web3-centralized/",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Keep the web free, say no to Web3 (2021)",
+      "url": "https://yesterweb.org/no-to-web3/",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Web3 is expensive P2P",
+      "url": "https://netfuture.ch/2022/05/web3-is-just-expensive-p2p/",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    },
+    {
+      "title": "Make the “semantic web” web 3.0 again – with the help of SQLite",
+      "url": "https://ansiwave.net/blog/semantic-web.html",
+      "source": "Hacker News",
+      "category": "General News",
+      "summary": ""
+    }
+  ]
+}
