@@ -18,10 +18,12 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-.env
-.env.local
+.env*
+!.env.example
 .venv/
 venv/
+outputs/knowledge_base/
+docs/
 dist
 dist-ssr
 *.local

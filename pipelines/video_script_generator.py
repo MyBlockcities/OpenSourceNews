@@ -142,7 +142,8 @@ class VideoScriptGenerator:
             "metadata": {
                 "date": timestamp,
                 "num_sources": len(top_3),
-                "avg_quality_score": sum(item.get('quality_score', 0) for item in top_3) / len(top_3)
+                "avg_quality_score": sum(item.get('quality_score', 0) for item in top_3) / len(top_3),
+                "generated_at": datetime.utcnow().isoformat(),
             }
         }
 

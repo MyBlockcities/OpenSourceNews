@@ -15,8 +15,9 @@ from dotenv import load_dotenv
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-# Load environment variables from .env.local
+# Load environment variables
 ROOT_DIR = Path(__file__).resolve().parents[1]
+load_dotenv(ROOT_DIR / '.env')
 load_dotenv(ROOT_DIR / '.env.local')
 
 from pipelines.video_script_generator import VideoScriptGenerator

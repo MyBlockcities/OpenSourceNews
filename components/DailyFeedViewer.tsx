@@ -17,12 +17,15 @@ const DailyFeedViewer: React.FC = () => {
     const [generatedScript, setGeneratedScript] = useState<VideoScript | null>(null);
     const [generatingAudio, setGeneratingAudio] = useState(false);
     const [audioUrl, setAudioUrl] = useState<string>('');
-    const [weeklyMode, setWeeklyMode] = useState(false);
 
     // Load available daily reports
     useEffect(() => {
         loadDailyReports();
     }, []);
+
+    const handleWeeklyAnalysis = () => {
+        alert('📅 Weekly Analysis Feature\n\nTo generate a "This Week in AI" summary:\n\n1. Run in terminal:\n   python3 pipelines/weekly_analyzer.py\n\n2. This will analyze the past 7 days and create:\n   • Best nuggets extraction\n   • Emerging trends\n   • Actionable insights\n   • Weekly video script\n\n3. Output saved to:\n   outputs/weekly/YYYY-MM-DD-script.txt\n\nCost: ~$0.03 per week');
+    };
 
     const loadDailyReports = async () => {
         try {
@@ -61,10 +64,6 @@ const DailyFeedViewer: React.FC = () => {
                     setSelectedTopic(topics[0]);
                 }
             }
-
-    const handleWeeklyAnalysis = () => {
-        alert('📅 Weekly Analysis Feature\n\nTo generate a "This Week in AI" summary:\n\n1. Run in terminal:\n   python3 pipelines/weekly_analyzer.py\n\n2. This will analyze the past 7 days and create:\n   • Best nuggets extraction\n   • Emerging trends\n   • Actionable insights\n   • Weekly video script\n\n3. Output saved to:\n   outputs/weekly/YYYY-MM-DD-script.txt\n\nCost: ~$0.03 per week');
-    };
         } catch (error) {
             console.error('Error loading daily reports:', error);
         } finally {
@@ -104,9 +103,29 @@ const DailyFeedViewer: React.FC = () => {
             setGeneratedScript(null);
             setAudioUrl('');
 
-            // For now, generate locally without backend (will add backend later)
-            const script = generateScriptLocally(selectedItemsArray);
-            setGeneratedScript(script);
+            const response = await fetch('/api/generate-script', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    items: selectedItemsArray,
+                    topic: selectedTopic || 'Research',
+                }),
+            });
+
+            const result = await response.json();
+            if (!response.ok) {
+                throw new Error(result.error || 'Failed to generate script');
+            }
+
+            setGeneratedScript({
+                script: result.script,
+                sources: result.sources,
+                metadata: {
+                    generated_at: result.metadata?.generated_at || new Date().toISOString(),
+                    num_sources: result.metadata?.num_sources || selectedItemsArray.length,
+                    avg_quality_score: result.metadata?.avg_quality_score || 0,
+                },
+            });
             
         } catch (error) {
             console.error('Error generating script:', error);
@@ -114,39 +133,6 @@ const DailyFeedViewer: React.FC = () => {
         } finally {
             setGeneratingScript(false);
         }
-    };
-
-    const generateScriptLocally = (selectedItemsArray: DailyFeedItem[]): VideoScript => {
-        // Simple local script generation (can enhance with API call later)
-        const scriptParts: string[] = [];
-        
-        scriptParts.push("🎬 THIS WEEK IN AI - Your Weekly Intelligence Brief\n\n");
-        
-        selectedItemsArray.forEach((item, idx) => {
-            scriptParts.push(`[STORY ${idx + 1}]: ${item.title}\n`);
-            scriptParts.push(`${item.summary || 'Cutting-edge development in the AI space.'}\n`);
-            
-            if (item.key_insights && item.key_insights.length > 0) {
-                scriptParts.push(`Key Insights:\n`);
-                item.key_insights.forEach(insight => {
-                    scriptParts.push(`  • ${insight}\n`);
-                });
-            }
-            scriptParts.push(`\nSource: ${item.source} - ${item.url}\n\n`);
-        });
-        
-        scriptParts.push("That's all for this week's AI intelligence brief. Stay ahead of the curve!");
-
-        const now = new Date().toISOString();
-        return {
-            script: scriptParts.join(''),
-            sources: selectedItemsArray,
-            metadata: {
-                num_sources: selectedItemsArray.length,
-                avg_quality_score: selectedItemsArray.reduce((sum, item) => sum + (item.quality_score || 0), 0) / selectedItemsArray.length,
-                generated_at: now
-            }
-        };
     };
 
     const handleGenerateAudio = async (scriptText: string) => {

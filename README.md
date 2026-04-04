@@ -1,38 +1,167 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Customizable News Aggregation System
 
-# Run and deploy your AI Studio app
+This repository is a configurable news and research pipeline for collecting signals from curated sources, producing daily intelligence reports, generating short-form video scripts, and consolidating the generated corpus into a searchable knowledge base.
 
-This contains everything you need to run your app locally.
+The public repo is intended to contain the runnable system, sample configuration, and automation workflows. Internal notes, audit docs, and generated markdown archives are kept under a local `docs/` folder that is ignored by git.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1_SC4W7eLEp6CGClc0739-752fqZ2TTG-
+## What it does
 
-## Run Locally
+- Collects content from RSS feeds, Hacker News, GitHub Trending, and YouTube metadata
+- Uses Gemini for triage, summarization, planning, and follow-up suggestions
+- Produces daily structured outputs in `outputs/daily`
+- Produces script and storyboard outputs in `outputs/scripts`
+- Builds a consolidated JSON/JSONL knowledge base from generated outputs
+- Optionally syncs normalized records into Qdrant
+- Runs scheduled automation through GitHub Actions
 
-**Prerequisites:**  Node.js
+## Architecture
 
+- `pipelines/daily_run.py`: main ingestion and report generation pipeline
+- `pipelines/generate_video_script.py`: daily script generation from the latest report
+- `pipelines/weekly_analyzer.py`: weekly summary and script generation
+- `api/script_generator.py`: backend API for research endpoints, script generation, transcription, and analysis
+- `scripts/build_knowledge_base.py`: knowledge-base builder
+- `scripts/sync_knowledge_base_to_qdrant.py`: optional Qdrant sync
+- `config/feeds.yaml`: source configuration
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Requirements
 
+- Node.js 18+
+- Python 3.11+
 
+## Environment
 
-Flask API Created: api/script_generator.py
-Endpoints:
+Copy the example environment file:
 
-POST /api/generate-script - Generate video scripts (~$0.02/call)
-POST /api/transcribe-video - On-demand transcription (~$0.10/call)
-POST /api/analyze-video - Deep content analysis (included)
-POST /api/generate-audio - Text-to-speech (placeholder for TTS)
-How to Run:
+```bash
+cp .env.example .env
+```
 
-# Install dependencies
+The backend and Python pipelines read `GEMINI_API_KEY` from `.env` or `.env.local`. A browser-exposed Gemini key is no longer required.
+
+Common variables:
+
+- `GEMINI_API_KEY`: required for AI-assisted planning, summarization, scripts, and Qdrant embeddings
+- `YT_API_KEY` or `YOUTUBE_API_KEY`: required for YouTube metadata collection
+- `ASSEMBLYAI_API_KEY`: optional transcript fallback
+- `QDRANT_URL`: required only if syncing the knowledge base into Qdrant
+- `QDRANT_API_KEY`: optional, depending on your Qdrant deployment
+
+## Local setup
+
+### 1. Install Python dependencies
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 pip install -r requirements-api.txt
+```
 
-# Start server
+### 2. Install frontend dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the backend API
+
+```bash
 python3 api/script_generator.py
-# Runs on http://localhost:5000
+```
+
+This enables:
+
+- mission planning and synthesis endpoints used by the frontend
+- on-demand script generation
+- on-demand transcript and video analysis endpoints
+
+### 4. Run the frontend
+
+```bash
+npm run dev
+```
+
+Vite proxies `/api/*` requests to the backend at `http://localhost:5000`.
+
+## Running the pipeline
+
+Generate a daily report:
+
+```bash
+python3 pipelines/daily_run.py
+```
+
+Generate a script from the latest daily report:
+
+```bash
+python3 pipelines/generate_video_script.py
+```
+
+Generate a weekly summary:
+
+```bash
+python3 pipelines/weekly_analyzer.py
+```
+
+## Outputs
+
+- `outputs/daily/*.json`: daily machine-readable reports
+- `outputs/scripts/*.txt`: generated scripts
+- `outputs/scripts/*.json`: storyboard metadata
+- `outputs/transcripts/*.json`: cached transcripts
+- `outputs/knowledge_base/knowledge_base.json`: aggregate corpus export
+- `outputs/knowledge_base/knowledge_base.jsonl`: normalized line-delimited records
+
+Generated markdown reports and archived notes are written under local `docs/`, which is ignored by git.
+
+## Knowledge base
+
+Build the consolidated knowledge base:
+
+```bash
+npm run build:kb
+```
+
+This reads generated outputs and produces:
+
+- `outputs/knowledge_base/knowledge_base.json`
+- `outputs/knowledge_base/knowledge_base.jsonl`
+
+It also writes a local human-readable summary to:
+
+- `docs/generated/knowledge_base/SUMMARY.md`
+
+## Qdrant sync
+
+After the knowledge base exists, you can sync it into Qdrant:
+
+```bash
+python3 scripts/sync_knowledge_base_to_qdrant.py --dry-run
+python3 scripts/sync_knowledge_base_to_qdrant.py --rebuild-knowledge-base
+```
+
+The sync script:
+
+- reads records from the generated knowledge base
+- embeds them with Gemini using `GEMINI_API_KEY`
+- creates or validates the target Qdrant collection
+- upserts records in batches
+
+## GitHub Actions
+
+- `.github/workflows/daily.yml`: scheduled daily report generation
+- `.github/workflows/video-script.yml`: scheduled script generation
+- `.github/workflows/knowledge-base.yml`: rebuilds the aggregate KB and uploads it as an artifact
+
+## Public-release notes
+
+- Keep real credentials only in `.env`, `.env.local`, or GitHub Secrets
+- The ignored `docs/` tree is intended for private notes, audits, and generated markdown artifacts
+- Review `config/feeds.yaml` before publishing if the source list contains anything you do not want to ship by default
+
+## Current limitations
+
+- Transcript availability still depends on YouTube and fallback service behavior
+- The `DailyFeedViewer` currently loads a small fixed set of known report dates rather than auto-indexing all generated reports
+- Search results for the mission UI are fetched server-side and depend on the external search provider remaining reachable

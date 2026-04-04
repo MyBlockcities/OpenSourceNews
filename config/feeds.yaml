@@ -1,69 +1,111 @@
 # config/feeds.yaml
+# Four major topic buckets for OpenSourceNews daily ingestion
 
 topics:
-  - topic_name: "AI Agents & Frameworks"
+  # ──────────────────────────────────────────────────────────
+  # Bucket 1: General News & Research
+  # Broad tech, open source, startup/product releases, macro platform shifts
+  # ──────────────────────────────────────────────────────────
+  - topic_name: "General News & Research"
     github_sources:
       - "typescript"
-      - "python"  # Added for more AI/ML repos
+      - "python"
+      - "rust"
+    hackernews_sources:
+      - "open source"
+      - "startup funding"
+      - "developer tools"
+      - "tech industry"
+    rss_sources:
+      - "https://hnrss.org/frontpage"                             # Hacker News front page
+      - "https://www.theverge.com/rss/index.xml"                  # The Verge
+      - "https://techcrunch.com/feed/"                             # TechCrunch
+      - "https://www.wired.com/feed/rss"                          # Wired
+      - "https://arstechnica.com/feed/"                            # Ars Technica
+    youtube_sources:
+      - "@Fireship"                                                # Fireship - tech news
+      - "@ThePrimeTimeagen"                                        # ThePrimeTime
+
+  # ──────────────────────────────────────────────────────────
+  # Bucket 2: AI / AI Tools / AI Agents
+  # AI tools, agents, model releases, frameworks, evals, inference/training
+  # ──────────────────────────────────────────────────────────
+  - topic_name: "AI / AI Tools / AI Agents"
+    github_sources:
+      - "python"
     hackernews_sources:
       - "AI agent"
-      - "LLM"  # Large Language Models
+      - "LLM"
+      - "GPT"
+      - "machine learning"
     rss_sources:
       # Core AI Research & News
-      - "https://blog.google/technology/ai/rss/"  # Google AI Blog
-      - "https://www.marktechpost.com/feed/"  # MarkTechPost - AI News (verified ✅)
-      - "https://huggingface.co/blog/feed.xml"  # HuggingFace Blog (verified ✅)
-      
+      - "https://blog.google/technology/ai/rss/"                   # Google AI Blog
+      - "https://www.marktechpost.com/feed/"                       # MarkTechPost - AI News
+      - "https://huggingface.co/blog/feed.xml"                     # HuggingFace Blog
       # AI Industry & Business
-      - "https://www.artificialintelligence-news.com/feed/"  # AI News
-      - "https://www.rundown.ai/rss"  # The Rundown AI
-      
+      - "https://www.artificialintelligence-news.com/feed/"        # AI News
+      - "https://www.rundown.ai/rss"                               # The Rundown AI
       # Agent-Specific
-      - "https://aiagent.marktechpost.com/feed/"  # AI Agent News
-    
+      - "https://aiagent.marktechpost.com/feed/"                   # AI Agent News
     youtube_sources:
       - "@TwoMinutePapers"
       - "indydevdan"
-      - "UC_x36zCEGilGpB1m-V4gmjg"  # Arseny Shatokhin
-      - "UCSv4qL8vmoSH7GaPjuqRiCQ"  # Matthew Berman
-      - "UCawZsQWqfGSbCI5yjkdVkTA"  # WorldofAI
-      - "UC2WmuBuFq6gL08QYG-JjXKw"  # Matt Wolfe
-      - "UChpleBmo18P08aKCIgti38g"  # BitBoy X
-      - "UCuV9EB4I9L-xmRoaXd8tmuA"  # Coin Bureau
-      - "UCqK_GSMbpiV8spgD3ZGloSw"  # Bankless
-      - "UCAl9Ld79qaZxp9JzEOwd3aA"  # Additional channel
-    
+      - "UC_x36zCEGilGpB1m-V4gmjg"                                # Arseny Shatokhin
+      - "UCSv4qL8vmoSH7GaPjuqRiCQ"                                # Matthew Berman
+      - "UCawZsQWqfGSbCI5yjkdVkTA"                                # WorldofAI
+      - "UC2WmuBuFq6gL08QYG-JjXKw"                                # Matt Wolfe
+      - "UCAl9Ld79qaZxp9JzEOwd3aA"                                # Additional AI channel
     x_sources:
       - "Sauain"
       - "levelsio"
-      - "TimBeiko"
       - "SwiftOnSecurity"
-      - "_kaitoai"  # AI insights
-      - "Marktechpost"  # AI news
+      - "_kaitoai"
+      - "Marktechpost"
 
-  - topic_name: "Blockchain VC Funding"
+  # ──────────────────────────────────────────────────────────
+  # Bucket 3: Blockchain / Crypto / DAOs / Tokenization / Web3
+  # Crypto, tokenization, DAOs, wallets, custody, stablecoins, regulatory
+  # ──────────────────────────────────────────────────────────
+  - topic_name: "Blockchain / Crypto / Web3"
     github_sources:
-      - "solana"  # Blockchain repos
-    rss_sources:
-      # Crypto News & Analysis
-      - "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"  # CoinDesk
-      - "https://cointelegraph.com/rss"  # Cointelegraph (verified ✅)
-      - "https://dailycoin.com/feed/"  # DailyCoin (verified ✅)
-      
-      # DeFi & Web3
-      - "https://www.bankless.com/feed"  # Bankless
-      
-      # Blockchain Industry
-      - "https://www.blockchainappfactory.com/blog/feed/"  # Blockchain App Factory
-    
+      - "solana"
     hackernews_sources:
       - "crypto funding"
       - "blockchain funding"
-      - "web3"  # Added Web3 coverage
-    
+      - "web3"
+      - "tokenization"
+    rss_sources:
+      - "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"  # CoinDesk
+      - "https://cointelegraph.com/rss"                            # Cointelegraph
+      - "https://dailycoin.com/feed/"                              # DailyCoin
+      - "https://www.bankless.com/feed"                            # Bankless
+      - "https://www.blockchainappfactory.com/blog/feed/"          # Blockchain App Factory
+    youtube_sources:
+      - "UChpleBmo18P08aKCIgti38g"                                 # BitBoy X
+      - "UCuV9EB4I9L-xmRoaXd8tmuA"                                # Coin Bureau
+      - "UCqK_GSMbpiV8spgD3ZGloSw"                                # Bankless
     x_sources:
       - "a16zcrypto"
       - "paradigm"
       - "multicoincap"
-      - "cointelegraph"  # Crypto news
-      - "CoinLaunchSpace"  # Token launches
+      - "cointelegraph"
+      - "CoinLaunchSpace"
+      - "TimBeiko"
+
+  # ──────────────────────────────────────────────────────────
+  # Bucket 4: Sense-Making & Narrative Analysis
+  # Contested narratives, geopolitics, institutional critique,
+  # alternative interpretations, media framing analysis
+  # ──────────────────────────────────────────────────────────
+  - topic_name: "Sense-Making & Narrative Analysis"
+    hackernews_sources:
+      - "geopolitics"
+      - "misinformation"
+      - "media analysis"
+      - "institutional"
+    rss_sources:
+      - "https://www.bbc.co.uk/news/technology/rss.xml"           # BBC Tech (mainstream baseline)
+      - "https://www.reuters.com/arc/outboundfeeds/v3/all/rss.xml"  # Reuters (mainstream baseline)
+    youtube_sources:
+      - "@AllInPodcast"                                            # All-In Podcast

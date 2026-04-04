@@ -12,8 +12,9 @@ from dotenv import load_dotenv
 # Add parent directory to path to enable imports
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-# Load environment variables from .env.local
+# Load environment variables
 ROOT_DIR = Path(__file__).resolve().parents[1]
+load_dotenv(ROOT_DIR / '.env')
 load_dotenv(ROOT_DIR / '.env.local')
 
 from pipelines.youtube import fetch_latest_videos
@@ -24,6 +25,8 @@ from services.mailaroo_emailer import send_text_email
 CONFIG_PATH = ROOT_DIR / 'config' / 'feeds.yaml'
 OUTPUT_DIR = ROOT_DIR / 'outputs' / 'daily'
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+DOCS_DAILY_DIR = ROOT_DIR / 'docs' / 'generated' / 'daily'
+DOCS_DAILY_DIR.mkdir(parents=True, exist_ok=True)
 
 # --- HTTP DEFAULTS ---
 HTTP_TIMEOUT = 20
@@ -171,7 +174,12 @@ def analyze_with_transcript(item: dict) -> dict:
             "transcript_word_count": word_count
         }
 
-    # Use Gemini to analyze the full transcript (limit to first 4000 words for token efficiency)
+    # For long transcripts (>4000 words), use chunked analysis
+    if word_count > 4000:
+        print(f"    Long transcript ({word_count} words) — using chunked analysis")
+        return analyze_transcript_chunked(item, transcript_text, word_count)
+
+    # Standard analysis for shorter transcripts
     truncated_transcript = " ".join(transcript_text.split()[:4000])
 
     analysis_prompt = f"""Analyze this YouTube video transcript and provide detailed insights.
@@ -233,6 +241,7 @@ Quality Score Criteria:
             **item,
             "has_transcript": True,
             "transcript_word_count": word_count,
+            "transcript_mode": "truncated",
             "quality_score": analysis.get("quality_score", 5),
             "main_topic": analysis.get("main_topic", ""),
             "key_insights": analysis.get("key_insights", []),
@@ -247,8 +256,327 @@ Quality Score Criteria:
     return {
         **item,
         "has_transcript": True,
-        "transcript_word_count": word_count
+        "transcript_word_count": word_count,
+        "transcript_mode": "truncated",
     }
+
+# --- SECOND-STAGE CONTENT CLASSIFIER ---
+BUCKET_MAP = {
+    "General News & Research": "general",
+    "AI / AI Tools / AI Agents": "ai",
+    "Blockchain / Crypto / Web3": "blockchain",
+    "Sense-Making & Narrative Analysis": "sense_making",
+}
+
+
+def classify_item(item: dict, topic_name: str) -> dict:
+    """
+    Second-stage classifier: assigns bucket, content_type, and processing_mode
+    to each item using Gemini. Falls back to topic-based defaults if Gemini unavailable.
+    """
+    default_bucket = BUCKET_MAP.get(topic_name, "general")
+
+    if not model:
+        return {
+            **item,
+            "bucket": default_bucket,
+            "content_type": "news",
+            "processing_mode": "standard_summary",
+            "classification_confidence": 0.5,
+        }
+
+    title = item.get("title", "")
+    summary = item.get("summary", "")
+    source = item.get("source", "")
+
+    prompt = f"""Classify this news item. Return ONLY valid JSON, no markdown.
+
+Title: {title}
+Source type: {source}
+Summary: {summary}
+Topic group: {topic_name}
+
+Return:
+{{
+  "bucket": "<general|ai|blockchain|sense_making>",
+  "content_type": "<news|tutorial|product_release|opinion|speculative_claim|research|market_narrative>",
+  "processing_mode": "<standard_summary|wisdom_extraction|claim_mapping>",
+  "confidence": <0.0-1.0>
+}}
+
+Rules:
+- wisdom_extraction: for tutorials, educational explainers, technical walkthroughs
+- claim_mapping: for contested narratives, geopolitical analysis, institutional critique, speculative claims
+- standard_summary: for everything else (news, product releases, funding announcements)"""
+
+    try:
+        response = model.generate_content(prompt)
+        text = getattr(response, 'text', None)
+        if not text and hasattr(response, 'candidates') and response.candidates:
+            text = getattr(response.candidates[0].content.parts[0], 'text', None)
+        if text:
+            text = text.strip()
+            if text.startswith('```'):
+                text = text.replace('```json', '').replace('```', '').strip()
+            classification = json.loads(text)
+            return {
+                **item,
+                "bucket": classification.get("bucket", default_bucket),
+                "content_type": classification.get("content_type", "news"),
+                "processing_mode": classification.get("processing_mode", "standard_summary"),
+                "classification_confidence": classification.get("confidence", 0.5),
+            }
+    except Exception as e:
+        print(f"    Classification failed for '{title[:40]}': {e}")
+
+    return {
+        **item,
+        "bucket": default_bucket,
+        "content_type": "news",
+        "processing_mode": "standard_summary",
+        "classification_confidence": 0.5,
+    }
+
+
+# --- DUAL PROCESSING MODES ---
+
+def extract_wisdom(item: dict) -> dict:
+    """
+    Wisdom Extraction mode for tutorials, educational content, technical walkthroughs.
+    Extracts key lessons, actionable steps, tools mentioned, implementation notes.
+    """
+    if not model:
+        return item
+
+    title = item.get("title", "")
+    summary = item.get("summary", "")
+    source = item.get("source", "")
+
+    prompt = f"""You are an expert knowledge extractor. Analyze this educational/instructional content.
+
+Title: {title}
+Source: {source}
+Summary: {summary}
+
+Return ONLY valid JSON:
+{{
+  "key_lessons": ["lesson 1", "lesson 2", "lesson 3"],
+  "actionable_steps": ["step 1", "step 2"],
+  "tools_mentioned": ["tool 1", "tool 2"],
+  "frameworks_mentioned": ["framework 1"],
+  "implementation_notes": "How to apply this practically",
+  "difficulty": "<beginner|intermediate|advanced>",
+  "confidence": <0.0-1.0>
+}}"""
+
+    try:
+        response = model.generate_content(prompt)
+        text = getattr(response, 'text', None)
+        if not text and hasattr(response, 'candidates') and response.candidates:
+            text = getattr(response.candidates[0].content.parts[0], 'text', None)
+        if text:
+            text = text.strip()
+            if text.startswith('```'):
+                text = text.replace('```json', '').replace('```', '').strip()
+            wisdom = json.loads(text)
+            return {
+                **item,
+                "key_lessons": wisdom.get("key_lessons", []),
+                "actionable_steps": wisdom.get("actionable_steps", []),
+                "tools_mentioned": wisdom.get("tools_mentioned", []),
+                "frameworks_mentioned": wisdom.get("frameworks_mentioned", []),
+                "implementation_notes": wisdom.get("implementation_notes", ""),
+                "difficulty": wisdom.get("difficulty", ""),
+            }
+    except Exception as e:
+        print(f"    Wisdom extraction failed for '{title[:40]}': {e}")
+    return item
+
+
+def map_claims(item: dict) -> dict:
+    """
+    Neutral Claim Mapping mode for sense-making, contested narratives, speculative claims.
+    Extracts claims table, entities, evidence, uncertainty markers.
+    """
+    if not model:
+        return item
+
+    title = item.get("title", "")
+    summary = item.get("summary", "")
+    source = item.get("source", "")
+
+    prompt = f"""You are a neutral claim analyst. Map the claims in this content WITHOUT judging truth.
+
+Title: {title}
+Source: {source}
+Summary: {summary}
+
+Return ONLY valid JSON:
+{{
+  "claims": [
+    {{
+      "claim": "The specific claim being made",
+      "evidence_cited": "Evidence the source cites",
+      "status": "<supported|mixed|unresolved|contradicted>",
+      "confidence": <0.0-1.0>,
+      "analyst_note": "Brief neutral note"
+    }}
+  ],
+  "entities": ["entity 1", "entity 2"],
+  "uncertainty_markers": ["what remains unclear"],
+  "neutral_synthesis": "A balanced 2-3 sentence summary of the claims landscape"
+}}
+
+Rules:
+- Be neutral. Do not pre-judge truth.
+- Distinguish between what is claimed and what is established.
+- Mark confidence honestly. Most claims should be 'unresolved' or 'mixed'."""
+
+    try:
+        response = model.generate_content(prompt)
+        text = getattr(response, 'text', None)
+        if not text and hasattr(response, 'candidates') and response.candidates:
+            text = getattr(response.candidates[0].content.parts[0], 'text', None)
+        if text:
+            text = text.strip()
+            if text.startswith('```'):
+                text = text.replace('```json', '').replace('```', '').strip()
+            claims_data = json.loads(text)
+            return {
+                **item,
+                "claims": claims_data.get("claims", []),
+                "entities": claims_data.get("entities", []),
+                "uncertainty_markers": claims_data.get("uncertainty_markers", []),
+                "neutral_synthesis": claims_data.get("neutral_synthesis", ""),
+            }
+    except Exception as e:
+        print(f"    Claim mapping failed for '{title[:40]}': {e}")
+    return item
+
+
+def apply_processing_mode(item: dict) -> dict:
+    """Route an item to the correct processing mode based on its classification."""
+    mode = item.get("processing_mode", "standard_summary")
+    if mode == "wisdom_extraction":
+        return extract_wisdom(item)
+    elif mode == "claim_mapping":
+        return map_claims(item)
+    return item
+
+
+# --- CHUNKED TRANSCRIPT ANALYSIS ---
+
+def analyze_transcript_chunked(item: dict, transcript_text: str, word_count: int) -> dict:
+    """
+    Chunked analysis for long transcripts (>4000 words).
+    Splits into overlapping chunks, analyzes each, and merges results.
+    """
+    if not model:
+        return {**item, "has_transcript": True, "transcript_word_count": word_count}
+
+    words = transcript_text.split()
+    CHUNK_SIZE = 3000
+    OVERLAP = 300
+    chunks = []
+    start = 0
+    while start < len(words):
+        end = min(start + CHUNK_SIZE, len(words))
+        chunks.append(" ".join(words[start:end]))
+        start += CHUNK_SIZE - OVERLAP
+
+    print(f"    Chunked analysis: {len(chunks)} chunks for {word_count} words")
+
+    all_insights = []
+    all_key_topics = []
+
+    for i, chunk in enumerate(chunks):
+        prompt = f"""Analyze chunk {i+1}/{len(chunks)} of a YouTube video transcript.
+
+Video Title: {item.get('title', 'Unknown')}
+Chunk {i+1} of {len(chunks)} ({len(chunk.split())} words):
+{chunk}
+
+Return ONLY valid JSON:
+{{
+    "key_insights": ["insight 1", "insight 2"],
+    "main_topics": ["topic 1", "topic 2"],
+    "content_type": "<Tutorial|News|Opinion|Research|Case Study>",
+    "notable_claims": ["claim if any"]
+}}"""
+
+        try:
+            response = model.generate_content(prompt)
+            text = getattr(response, 'text', None)
+            if not text and hasattr(response, 'candidates') and response.candidates:
+                text = getattr(response.candidates[0].content.parts[0], 'text', None)
+            if text:
+                text = text.strip()
+                if text.startswith('```'):
+                    text = text.replace('```json', '').replace('```', '').strip()
+                chunk_result = json.loads(text)
+                all_insights.extend(chunk_result.get("key_insights", []))
+                all_key_topics.extend(chunk_result.get("main_topics", []))
+        except Exception as e:
+            print(f"    Chunk {i+1} analysis failed: {e}")
+
+    # Merge: deduplicate insights, synthesize
+    unique_insights = list(dict.fromkeys(all_insights))[:10]
+    unique_topics = list(dict.fromkeys(all_key_topics))[:5]
+
+    # Final synthesis pass
+    synthesis_prompt = f"""Synthesize these insights from a full video transcript analysis.
+
+Video Title: {item.get('title', 'Unknown')}
+Total words: {word_count}
+Key insights from all chunks:
+{json.dumps(unique_insights, ensure_ascii=False)}
+
+Topics covered:
+{json.dumps(unique_topics, ensure_ascii=False)}
+
+Return ONLY valid JSON:
+{{
+    "quality_score": <0-10>,
+    "main_topic": "single sentence",
+    "key_insights": ["top 5 insights"],
+    "content_type": "<Tutorial|News|Opinion|Research|Case Study>",
+    "target_audience": "<Beginner|Intermediate|Advanced>",
+    "unique_value": "what makes this special"
+}}"""
+
+    try:
+        response = model.generate_content(synthesis_prompt)
+        text = getattr(response, 'text', None)
+        if not text and hasattr(response, 'candidates') and response.candidates:
+            text = getattr(response.candidates[0].content.parts[0], 'text', None)
+        if text:
+            text = text.strip()
+            if text.startswith('```'):
+                text = text.replace('```json', '').replace('```', '').strip()
+            synthesis = json.loads(text)
+            return {
+                **item,
+                "has_transcript": True,
+                "transcript_word_count": word_count,
+                "transcript_mode": "chunked_full",
+                "quality_score": synthesis.get("quality_score", 5),
+                "main_topic": synthesis.get("main_topic", ""),
+                "key_insights": synthesis.get("key_insights", unique_insights[:5]),
+                "content_type": synthesis.get("content_type", "General"),
+                "target_audience": synthesis.get("target_audience", "General"),
+                "unique_value": synthesis.get("unique_value", ""),
+            }
+    except Exception as e:
+        print(f"    Synthesis failed: {e}")
+
+    return {
+        **item,
+        "has_transcript": True,
+        "transcript_word_count": word_count,
+        "transcript_mode": "chunked_full",
+        "key_insights": unique_insights[:5],
+    }
+
 
 # --- AI TRIAGE AGENT ---
 def triage_and_categorize_content(topic_name: str, items: list) -> list:
@@ -370,17 +698,31 @@ def main():
         # First, do basic triage
         triaged_content = triage_and_categorize_content(topic_name, all_raw_content)
 
+        # Second-stage classification: bucket, content_type, processing_mode
+        print(f"\n  --- Classifying items ---")
+        classified_content = []
+        for item in triaged_content:
+            classified_content.append(classify_item(item, topic_name))
+        print(f"  ✓ Classified {len(classified_content)} items")
+
+        # Apply processing modes (wisdom extraction or claim mapping)
+        print(f"  --- Applying processing modes ---")
+        processed_content = []
+        mode_counts = {"standard_summary": 0, "wisdom_extraction": 0, "claim_mapping": 0}
+        for item in classified_content:
+            processed = apply_processing_mode(item)
+            mode_counts[item.get("processing_mode", "standard_summary")] += 1
+            processed_content.append(processed)
+        print(f"  ✓ Modes: {mode_counts}")
+
         # NOTE: Automatic transcription DISABLED to save costs ($30/month)
         # Transcription is now ON-DEMAND via frontend UI
-        # This reduces daily automation cost from $30/month to near-$0
-        print(f"\n--- Skipping Automatic Transcription (On-Demand Mode) ---")
-        print(f"  Found {len([item for item in triaged_content if item.get('source') == 'YouTube'])} YouTube videos")
-        print(f"  ℹ️  Transcripts will be generated on-demand via frontend UI")
-        
-        # No quality filtering since we don't have quality scores yet
-        # All items go into the report for user to review in UI
-        final_report[topic_name] = triaged_content
-        print(f"  Total items saved: {len(triaged_content)}")
+        yt_count = len([item for item in processed_content if item.get('source') == 'YouTube'])
+        if yt_count:
+            print(f"  ℹ  {yt_count} YouTube videos (transcripts on-demand via UI)")
+
+        final_report[topic_name] = processed_content
+        print(f"  Total items saved: {len(processed_content)}")
 
     # --- SAVE REPORT ---
     timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d")
@@ -431,7 +773,7 @@ def main():
 
         md_lines.append("")
 
-    md_path = OUTPUT_DIR / f"{timestamp}.md"
+    md_path = DOCS_DAILY_DIR / f"{timestamp}.md"
     md_path.write_text("\n".join(md_lines), encoding="utf-8")
 
     print(f"\nSUCCESS: Daily intelligence report saved to {report_path}")
@@ -446,7 +788,7 @@ def main():
         # 1) Email: main research report
         if md_path.exists():
             report_body = md_path.read_text(encoding="utf-8")
-            report_subject = f"Weekly Research — {timestamp}"
+            report_subject = f"Daily Research — {timestamp}"
             # Trim extremely large reports
             MAX_REPORT_CHARS = 15000
             if len(report_body) > MAX_REPORT_CHARS:
@@ -455,7 +797,7 @@ def main():
 
         # 2) Email: scripts summary
         if scripts_dir.exists():
-            script_parts = ["Weekly video scripts summary.\n"]
+            script_parts = ["Daily video scripts summary.\n"]
             MAX_EMAIL_CHARS = 15000
             for script_file in sorted(scripts_dir.glob("*.txt")):
                 header = f"\n=== Script: {script_file.name} ===\n"
@@ -474,13 +816,13 @@ def main():
                 script_parts.append(candidate)
 
             script_body = "".join(script_parts)
-            script_subject = f"Weekly Video Scripts Summary — {timestamp}"
+            script_subject = f"Daily Video Scripts Summary — {timestamp}"
             if len(script_body.strip()) > 0:
                 send_text_email(body=script_body, subject=script_subject)
 
         # 3) Email: transcripts summary
         if transcripts_dir.exists():
-            transcript_parts = ["Weekly transcripts summary.\n"]
+            transcript_parts = ["Daily transcripts summary.\n"]
             MAX_EMAIL_CHARS = 15000
             for transcript_file in sorted(transcripts_dir.glob("*.json")):
                 try:
@@ -502,7 +844,7 @@ def main():
                 transcript_parts.append(candidate)
 
             transcripts_body = "".join(transcript_parts)
-            transcripts_subject = f"Weekly Transcripts Summary — {timestamp}"
+            transcripts_subject = f"Daily Transcripts Summary — {timestamp}"
             if len(transcripts_body.strip()) > 0:
                 send_text_email(body=transcripts_body, subject=transcripts_subject)
 

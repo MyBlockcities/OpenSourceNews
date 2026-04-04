@@ -1,12 +1,14 @@
 {
-  "name": "deep-research-agency-studio",
+  "name": "customizable-news-aggregation-system",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:kb": "python3 scripts/build_knowledge_base.py",
+    "sync:qdrant": "python3 scripts/sync_knowledge_base_to_qdrant.py"
   },
   "dependencies": {
     "react": "^19.2.0",

@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 # Load environment variables
+load_dotenv('.env')
 load_dotenv('.env.local')
 
 from pipelines.transcript_fetcher import TranscriptFetcher

@@ -1,7 +1,7 @@
 name: Daily Research Briefing
 on:
   schedule:
-    - cron: "0 7 * * 1" # Runs at 07:00 UTC every Monday
+    - cron: "0 7 * * *" # Runs at 07:00 UTC every day
   workflow_dispatch: {} # Allows manual runs
 
 permissions:
@@ -55,6 +55,24 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions-bot@users.noreply.github.com"
-          git add outputs/daily/*.json outputs/daily/*.md outputs/transcripts/*.json || true
+          git add outputs/daily/*.json outputs/transcripts/*.json || true
           git commit -m "Daily intelligence report for $(date -u +'%Y-%m-%d')" || echo "No changes to commit"
           git push
+
+      - name: Notify on failure
+        if: failure()
+        env:
+          MAILAROO_API_KEY: ${{ secrets.MAILAROO_API_KEY }}
+          MAILAROO_TO_EMAIL: ${{ secrets.MAILAROO_TO_EMAIL }}
+        run: |
+          if [ -n "$MAILAROO_API_KEY" ] && [ -n "$MAILAROO_TO_EMAIL" ]; then
+            python3 -c "
+          from services.mailaroo_emailer import send_text_email
+          send_text_email(
+              body='The Daily Research Briefing pipeline failed. Check GitHub Actions for details: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}',
+              subject='[OpenSourceNews] Daily pipeline FAILED — $(date -u +%Y-%m-%d)'
+          )
+          " || echo "Failed to send failure notification email"
+          else
+            echo "No email credentials configured — skipping failure notification"
+          fi

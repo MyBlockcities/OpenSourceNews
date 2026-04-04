@@ -1,0 +1,46 @@
+name: Build Knowledge Base
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+    paths:
+      - "outputs/**"
+      - "scripts/build_knowledge_base.py"
+      - ".github/workflows/knowledge-base.yml"
+  schedule:
+    - cron: "30 9 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: knowledge-base
+  cancel-in-progress: true
+
+jobs:
+  build-knowledge-base:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build knowledge base
+        run: python3 scripts/build_knowledge_base.py
+
+      - name: Upload knowledge base artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: knowledge-base-${{ github.run_id }}
+          path: |
+            outputs/knowledge_base/
+            docs/generated/knowledge_base/SUMMARY.md
+          if-no-files-found: error
+          retention-days: 14

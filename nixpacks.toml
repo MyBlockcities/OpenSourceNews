@@ -8,4 +8,4 @@ cmds = ["npm install"]
 cmds = ["npm run build"]
 
 [start]
-cmd = "npm run preview -- --host 0.0.0.0 --port $PORT"
+cmd = "caddy file-server --listen :$PORT --root /app/dist"

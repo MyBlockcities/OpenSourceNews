@@ -1,0 +1,65 @@
+name: Build Report Manifest
+
+on:
+  workflow_run:
+    workflows: ["Daily Research Briefing"]
+    types: [completed]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build-manifest:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build manifest
+        run: |
+          mkdir -p outputs/manifests
+
+          # Find the most recent daily report
+          LATEST=$(ls -1 outputs/daily/*.json 2>/dev/null | sort -r | head -1)
+
+          if [ -z "$LATEST" ]; then
+            echo "No daily reports found"
+            exit 0
+          fi
+
+          DATE=$(basename "$LATEST" .json)
+          ITEM_COUNT=$(python3 -c "
+          import json, sys
+          with open('$LATEST') as f:
+              data = json.load(f)
+          print(sum(len(v) for v in data.values()))
+          ")
+          TOPICS=$(python3 -c "
+          import json
+          with open('$LATEST') as f:
+              data = json.load(f)
+          print(json.dumps(list(data.keys())))
+          ")
+
+          cat > outputs/manifests/latest.json << MANIFEST_EOF
+          {
+            "latest_report_date": "$DATE",
+            "latest_report_path": "outputs/daily/$DATE.json",
+            "item_count": $ITEM_COUNT,
+            "topics": $TOPICS,
+            "generated_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          }
+          MANIFEST_EOF
+
+          echo "Manifest built for $DATE ($ITEM_COUNT items)"
+
+      - name: Commit manifest
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions-bot@users.noreply.github.com"
+          git add outputs/manifests/latest.json || true
+          git commit -m "Update report manifest" || echo "No changes to commit"
+          git push
