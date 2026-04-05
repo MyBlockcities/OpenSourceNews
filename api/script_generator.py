@@ -608,27 +608,52 @@ def reports_latest_normalized():
     return jsonify(_normalize_report(report_date, report_data))
 
 
+# ---------------------------------------------------------------------------
+# Configuration endpoints (for Settings UI)
+# ---------------------------------------------------------------------------
+
+import yaml
+
+CONFIG_PATH = ROOT_DIR / 'config' / 'feeds.yaml'
+
+
+@app.route('/api/config/feeds', methods=['GET'])
+def get_feeds_config():
+    """Return the current feeds.yaml configuration."""
+    try:
+        with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
+            config = yaml.safe_load(f)
+        return jsonify(config)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route('/api/config/feeds', methods=['PUT'])
+def update_feeds_config():
+    """Update the feeds.yaml configuration."""
+    try:
+        data = request.json
+        if not data or 'topics' not in data:
+            return jsonify({"error": "Invalid config: 'topics' key required"}), 400
+
+        # Validate structure
+        for topic in data['topics']:
+            if 'topic_name' not in topic:
+                return jsonify({"error": "Each topic must have a 'topic_name'"}), 400
+
+        with open(CONFIG_PATH, 'w', encoding='utf-8') as f:
+            yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+
+        return jsonify({"status": "ok", "topics": len(data['topics'])})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", "5000"))
     print("=" * 60)
     print("OpenSourceNews Backend API")
     print("=" * 60)
-    print("\nFeed Endpoints:")
-    print("  GET  /api/health - Health check (no auth)")
-    print("  GET  /api/reports/latest - Latest daily report")
-    print("  GET  /api/reports?limit=7 - Recent report metadata")
-    print("  GET  /api/reports/by-date/<YYYY-MM-DD> - Report by date")
-    print("  GET  /api/reports/latest/normalized - Normalized schema")
-    print("\nResearch Endpoints:")
-    print("  POST /api/research/plan - Create mission plan")
-    print("  POST /api/research/search - Run web search queries")
-    print("  POST /api/research/synthesize - Build final research brief")
-    print("  POST /api/research/pathfinder - Suggest follow-up missions")
-    print("\nGeneration Endpoints:")
-    print("  POST /api/generate-script - Generate video script from items")
-    print("  POST /api/generate-audio - Generate audio from script")
-    print("  POST /api/transcribe-video - On-demand video transcription")
-    print("  POST /api/analyze-video - On-demand video analysis")
     print(f"\nAuth: {'ENABLED' if OPEN_SOURCE_NEWS_API_KEY else 'DISABLED (dev mode)'}")
     print(f"Starting server on http://localhost:{port}")
     print("=" * 60)

@@ -11,8 +11,10 @@ import { PathfinderIcon } from './components/icons/PathfinderIcon';
 import PathfinderResults from './components/PathfinderResults';
 import AutomationHub from './components/AutomationHub';
 import DailyFeedViewer from './components/DailyFeedViewer';
+import NewsFeed from './components/NewsFeed';
+import SettingsPage from './components/SettingsPage';
 
-type ViewMode = 'mission' | 'automation' | 'feed';
+type ViewMode = 'news' | 'mission' | 'feed' | 'automation' | 'settings';
 
 const App: React.FC = () => {
     const [missionState, setMissionState] = useState<MissionState>({
@@ -21,7 +23,7 @@ const App: React.FC = () => {
         status: 'idle',
     });
     const [inputValue, setInputValue] = useState('');
-    const [viewMode, setViewMode] = useState<ViewMode>('mission');
+    const [viewMode, setViewMode] = useState<ViewMode>('news');
     
     const missionStateRef = useRef(missionState);
     missionStateRef.current = missionState;
@@ -130,34 +132,35 @@ const App: React.FC = () => {
                     <div className="inline-flex items-center gap-4 mb-2">
                         <PathfinderIcon />
                         <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-green-400 font-space-mono">
-                            AI Research Pathfinder
+                            Open Source News
                         </h1>
                     </div>
-                    <p className="text-gray-400 text-lg">Your automated research agent team.</p>
-                    <div className="mt-6 flex justify-center bg-gray-800/50 p-1 rounded-lg max-w-2xl mx-auto border border-gray-700">
-                        <button
-                            onClick={() => setViewMode('mission')}
-                            className={`flex-1 py-2 rounded-md transition-colors duration-200 font-semibold text-sm ${viewMode === 'mission' ? 'bg-cyan-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
-                        >
-                            Live Mission
-                        </button>
-                        <button
-                            onClick={() => setViewMode('feed')}
-                            className={`flex-1 py-2 rounded-md transition-colors duration-200 font-semibold text-sm ${viewMode === 'feed' ? 'bg-cyan-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
-                        >
-                            Daily Feed
-                        </button>
-                        <button
-                            onClick={() => setViewMode('automation')}
-                            className={`flex-1 py-2 rounded-md transition-colors duration-200 font-semibold text-sm ${viewMode === 'automation' ? 'bg-cyan-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
-                        >
-                            Automation
-                        </button>
+                    <p className="text-gray-400 text-lg">Aggregated intelligence from across the open source ecosystem.</p>
+                    <div className="mt-6 flex justify-center bg-gray-800/50 p-1 rounded-lg max-w-3xl mx-auto border border-gray-700">
+                        {([
+                            ['news', 'News Feed'],
+                            ['feed', 'Daily Reports'],
+                            ['mission', 'Research'],
+                            ['automation', 'Automation'],
+                            ['settings', 'Settings'],
+                        ] as [ViewMode, string][]).map(([mode, label]) => (
+                            <button
+                                key={mode}
+                                onClick={() => setViewMode(mode)}
+                                className={`flex-1 py-2 rounded-md transition-colors duration-200 font-semibold text-sm ${viewMode === mode ? 'bg-cyan-600 text-white' : 'text-gray-300 hover:bg-gray-700'}`}
+                            >
+                                {label}
+                            </button>
+                        ))}
                     </div>
                 </header>
 
                 <main className="max-w-4xl mx-auto">
-                    {viewMode === 'mission' ? (
+                    {viewMode === 'news' ? (
+                        <NewsFeed />
+                    ) : viewMode === 'settings' ? (
+                        <SettingsPage />
+                    ) : viewMode === 'mission' ? (
                         <>
                             {!isMissionActive && (
                                 <div className="mb-8">
