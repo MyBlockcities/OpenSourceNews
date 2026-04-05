@@ -587,6 +587,36 @@ Update the feeds configuration. Overwrites `config/feeds.yaml`.
 
 ---
 
+## Outbound daily digest (optional)
+
+This is **not** an HTTP route on the OpenSourceNews API. When `pipelines/daily_run.py` finishes writing the daily JSON and markdown, it can **POST** a single JSON document to a URL you control (for example an Agency or agent backend).
+
+**Enable:** Set `AGENCY_INGEST_URL` or `EXTERNAL_INGEST_URL` to a full URL including path (e.g. `https://your-service.up.railway.app/api/your-ingest-path`). If unset, nothing is sent.
+
+**Auth (optional):** `AGENCY_INGEST_BEARER_TOKEN` or `EXTERNAL_INGEST_BEARER_TOKEN` → sent as `Authorization: Bearer …`.
+
+**Other:** `EXTERNAL_INGEST_ENABLED=0` disables; `EXTERNAL_INGEST_INCLUDE_MARKDOWN=0` omits markdown; `EXTERNAL_INGEST_HEADERS` optional JSON object for extra headers. See `.env.example`.
+
+**Payload** (`Content-Type: application/json`), schema id `open_source_news_daily_digest.v1`:
+
+```json
+{
+  "schema": "open_source_news_daily_digest.v1",
+  "generated_at": "2026-04-04T12:00:00Z",
+  "report_date": "2026-04-04",
+  "report": { "Topic Name": [ { "title": "...", "url": "...", "summary": "..." } ] },
+  "markdown": "# Daily Research — 2026-04-04\n...",
+  "meta": {
+    "source": "open_source_news",
+    "pipeline": "pipelines/daily_run.py"
+  }
+}
+```
+
+Your receiving service should validate the Bearer token (if you use one), accept JSON, and return `2xx` on success. Failures are logged as warnings; they do **not** fail the daily pipeline.
+
+---
+
 ## Environment Variables
 
 ### LLM (text generation for research, scripts, transcript analysis)
@@ -604,6 +634,8 @@ Set `LLM_PROVIDER` and the matching credentials. The API and pipelines share `pi
 | `GEMINI_API_KEY` | Required when `LLM_PROVIDER=gemini` (or for pipeline/embeddings that still call Gemini). |
 | `LLM_FALLBACK_TO_GEMINI` | If `1` and Ollama is down, fall back to Gemini when `GEMINI_API_KEY` is set. |
 | `LLM_FALLBACK_TO_OPENROUTER` | If `1` and Ollama is down, fall back to OpenRouter when `OPENROUTER_API_KEY` is set. |
+| `AGENCY_INGEST_URL` / `EXTERNAL_INGEST_URL` | Optional. After `daily_run.py`, POST the daily digest JSON to this URL (see [Outbound daily digest](#outbound-daily-digest-optional)). |
+| `AGENCY_INGEST_BEARER_TOKEN` / `EXTERNAL_INGEST_BEARER_TOKEN` | Optional Bearer for that POST. |
 
 Full list and examples: `.env.example`.
 

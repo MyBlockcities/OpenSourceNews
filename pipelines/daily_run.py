@@ -21,6 +21,7 @@ from pipelines.transcript_fetcher import TranscriptFetcher
 from pipelines.transcript_analysis import analyze_transcript_auto
 from pipelines.llm_provider import try_get_llm_client, parse_json_text
 from services.mailaroo_emailer import send_text_email
+from services.external_ingest import maybe_push_daily_digest
 
 # --- CONFIGURATION ---
 CONFIG_PATH = ROOT_DIR / 'config' / 'feeds.yaml'
@@ -624,6 +625,13 @@ def main():
 
     print(f"\nSUCCESS: Daily intelligence report saved to {report_path}")
     print(f"Markdown report saved to {md_path}")
+
+    # --- OPTIONAL: Push digest to an external system (e.g. Agency agents) ---
+    maybe_push_daily_digest(
+        report_date=timestamp,
+        report=final_report,
+        markdown_path=md_path,
+    )
 
     # --- OPTIONAL: Email report + scripts + transcripts via Mailaroo ---
     # We send up to three separate, smaller emails to avoid 413 errors.

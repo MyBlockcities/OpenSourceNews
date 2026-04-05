@@ -109,6 +109,8 @@ Generate a daily report:
 python3 pipelines/daily_run.py
 ```
 
+Optional: after the report is written, the same run can **POST** the digest JSON (and markdown) to another HTTPS endpoint you configure — for example an agent or Agency backend. Set `AGENCY_INGEST_URL` or `EXTERNAL_INGEST_URL` (and optional Bearer token) in `.env`. See `API_REFERENCE.md` → *Outbound daily digest* and `services/external_ingest.py`.
+
 Generate a script from the latest daily report:
 
 ```bash
