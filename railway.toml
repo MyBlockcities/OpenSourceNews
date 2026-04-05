@@ -1,14 +1,17 @@
-# Frontend / static Vite deployment only.
-# The Python API uses nixpacks.api.toml (or Railway build/start overrides); see docs/DEPLOYMENT.md.
+# Railway: this repo powers TWO services (static Vite UI + Flask API).
+#
+# Do NOT set [deploy] startCommand here. A single railway.toml is applied to
+# every service linked to the repo — a Caddy command would also run on the API
+# service (wrong). Config-as-code overrides the dashboard (see Railway docs).
+#
+# Set Start Command per service in the Railway UI:
+#   • Frontend:  caddy file-server --listen :$PORT --root /app/dist
+#                Health check path: /
+#   • API:       python3 api/script_generator.py
+#                Health check path: /api/health
+#
+# API build: pip install -r requirements.txt && pip install -r requirements-api.txt
+#            (or use nixpacks.api.toml — see docs/DEPLOYMENT.md)
 
 [build]
 builder = "NIXPACKS"
-
-[deploy]
-startCommand = "caddy file-server --listen :$PORT --root /app/dist"
-healthcheckPath = "/"
-healthcheckTimeout = 100
-
-[env]
-# Environment variables (set these in Railway dashboard)
-# GEMINI_API_KEY = "your-key-here"
