@@ -143,9 +143,35 @@ Returns a specific day's full report.
 
 ### GET /api/reports/latest/normalized
 
-Returns the latest report transformed into a **stable normalized schema** designed for external consumers (e.g., Agency by Blockcities). Every item gets a deterministic `signal_id` for deduplication.
+Returns the latest report transformed into a **stable normalized schema** designed for external consumers (e.g., Agency by Blockcities). Every item gets a deterministic `signal_id` (SHA-256 of `url` + newline + `title`, first 16 hex chars) for deduplication.
 
-**Response:**
+**Top-level keys (always present):** `report_date`, `items`, `sources`, `counts`, `digest`.
+
+**`counts`** includes `total`, `by_topic`, `by_source`, and `by_bucket` (slug bucket ids such as `ai`, `general`, `blockchain`, `sense_making`, `unknown`).
+
+**Each item** includes these keys (use `null` or empty string/array where data is missing — field names are stable):
+
+| Field | Type | Notes |
+|-------|------|--------|
+| `source_system` | string | Always `OpenSourceNews` |
+| `signal_id` | string | Deterministic id |
+| `title`, `summary` | string | |
+| `source_urls` | string[] | Usually one URL |
+| `topics` | string[] | Topic bucket name(s) |
+| `source`, `category` | string | |
+| `content_type`, `bucket`, `processing_mode` | string | `processing_mode`: `standard_summary` \| `wisdom_extraction` \| `claim_mapping` |
+| `classification_confidence` | number \| null | |
+| `quality_score` | number \| null | |
+| `has_transcript` | boolean | |
+| `transcript_metadata` | object | `word_count`, `mode`, `source`, `used_in_prompt` (may be null) |
+| `key_lessons`, `actionable_steps`, `tools_mentioned`, `frameworks_mentioned` | string[] | Wisdom mode |
+| `claims` | object[] | Claim mapping mode |
+| `entities`, `uncertainty_markers` | string[] | |
+| `neutral_synthesis`, `implementation_notes`, `difficulty` | string | |
+| `main_topic`, `key_insights`, `target_audience`, `unique_value` | | Often from transcript-backed analysis |
+| `transcript_error` | string \| null | |
+
+**Example (abbreviated):**
 ```json
 {
   "report_date": "2026-04-04",
@@ -160,9 +186,32 @@ Returns the latest report transformed into a **stable normalized schema** design
       "source": "RSS",
       "category": "New Framework Release",
       "content_type": "product_release",
-      "quality_score": null,
       "bucket": "ai",
-      "processing_mode": "standard_summary"
+      "processing_mode": "standard_summary",
+      "classification_confidence": 0.85,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null
     }
   ],
   "sources": ["GitHub Trending", "Hacker News", "RSS", "YouTube"],
@@ -179,11 +228,25 @@ Returns the latest report transformed into a **stable normalized schema** design
       "YouTube": 25,
       "Hacker News": 15,
       "GitHub Trending": 7
+    },
+    "by_bucket": {
+      "ai": 35,
+      "blockchain": 22,
+      "general": 20,
+      "sense_making": 10
     }
   },
   "digest": "87 items across 4 topics from 4 source types."
 }
 ```
+
+---
+
+### GET /api/manifest/latest
+
+Returns a small **integration manifest**: merges `outputs/manifests/latest.json` (when present) with live filesystem metadata such as `knowledge_base_last_built` from `outputs/knowledge_base/knowledge_base.json` mtime.
+
+**Authentication:** Same as other non-health routes (Bearer when `OPEN_SOURCE_NEWS_API_KEY` is set).
 
 ---
 
@@ -499,14 +562,20 @@ Update the feeds configuration. Overwrites `config/feeds.yaml`.
 ```
 
 **Validation:**
-- `topics` key is required
-- Each topic must have a `topic_name`
+- `topics` key is required (non-empty list)
+- Each topic must have a non-empty `topic_name`
+- Only known keys per topic are allowed: `topic_name`, `github_sources`, `hackernews_sources`, `rss_sources`, `youtube_sources`, `x_sources`, `instagram_sources`
+- List fields must contain strings only
+
+**Behavior:**
+- Before overwrite, a timestamped backup is written next to `config/feeds.yaml` (e.g. `config/feeds.backup.<UTC>.yaml`)
 
 **Response:**
 ```json
 {
   "status": "ok",
-  "topics": 1
+  "topics": 1,
+  "backup_path": "config/feeds.backup.20260404T120000Z.yaml"
 }
 ```
 
@@ -514,8 +583,7 @@ Update the feeds configuration. Overwrites `config/feeds.yaml`.
 
 | Status | Body |
 |--------|------|
-| 400 | `{"error": "Invalid config: 'topics' key required"}` |
-| 400 | `{"error": "Each topic must have a 'topic_name'"}` |
+| 400 | Validation message describing invalid structure |
 
 ---
 
@@ -536,6 +604,15 @@ Update the feeds configuration. Overwrites `config/feeds.yaml`.
 | `ASSEMBLYAI_API_KEY` | AssemblyAI key for fallback video transcription |
 | `YT_API_KEY` | Alias for `YOUTUBE_API_KEY` |
 | `PORT` | Server port (default: `5000`) |
+
+### Frontend (Vite build)
+
+Set at **build time** for the static UI (not read by the Flask process):
+
+| Variable | Description |
+|----------|-------------|
+| `VITE_API_BASE_URL` | API origin when UI and API are split (e.g. `https://your-api.up.railway.app`). Empty = same-origin `/api` (dev proxy or reverse proxy). |
+| `VITE_API_BEARER_TOKEN` | Optional Bearer for browser calls when API auth is on; **exposed in the JS bundle** — prefer a same-origin `/api` proxy in production. |
 | `MAILAROO_API_KEY` | Mailaroo email API key for pipeline notifications |
 | `MAILAROO_TO_EMAIL` | Recipient email for pipeline notifications |
 | `QDRANT_URL` | Qdrant cluster URL for knowledge base sync |

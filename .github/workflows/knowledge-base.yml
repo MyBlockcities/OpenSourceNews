@@ -10,7 +10,7 @@ on:
       - "scripts/build_knowledge_base.py"
       - ".github/workflows/knowledge-base.yml"
   schedule:
-    - cron: "30 9 * * 1"
+    - cron: "30 9 * * *"  # Daily 09:30 UTC (after daily report + script window)
 
 permissions:
   contents: read

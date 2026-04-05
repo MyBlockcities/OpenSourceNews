@@ -1,9 +1,8 @@
 import { PlannerOutput, SearchResult } from "../types";
-
-const API_BASE = import.meta.env.VITE_API_BASE_URL || '';
+import { apiFetch } from "./apiClient";
 
 async function postJson<T>(path: string, payload: object): Promise<T> {
-    const response = await fetch(`${API_BASE}${path}`, {
+    const response = await apiFetch(path, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

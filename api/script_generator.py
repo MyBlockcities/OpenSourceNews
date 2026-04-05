@@ -4,6 +4,7 @@
 import hashlib
 import json
 import os
+import shutil
 import sys
 from pathlib import Path
 from datetime import datetime
@@ -26,6 +27,7 @@ load_dotenv(ROOT_DIR / '.env.local')
 
 from pipelines.video_script_generator import VideoScriptGenerator
 from pipelines.transcript_fetcher import TranscriptFetcher
+from pipelines.transcript_analysis import analyze_transcript_auto
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for frontend
@@ -40,6 +42,8 @@ AUTH_EXEMPT_PATHS = {"/api/health"}
 @app.before_request
 def check_api_auth():
     """Validate Bearer token on all endpoints except exempt ones."""
+    if request.method == "OPTIONS":
+        return None
     if request.path in AUTH_EXEMPT_PATHS:
         return None
     if not OPEN_SOURCE_NEWS_API_KEY:
@@ -391,12 +395,16 @@ def transcribe_video():
         if "error" in result:
             return jsonify({"error": result["error"]}), 500
 
+        wc = result.get("word_count") or 0
         return jsonify({
             "video_id": result.get("video_id"),
             "transcript": result.get("transcript"),
-            "word_count": result.get("word_count"),
+            "word_count": wc,
             "duration_seconds": result.get("duration_seconds"),
-            "source": result.get("source")
+            "source": result.get("source"),
+            "transcript_mode": "full",
+            "segment_count": len(result.get("segments") or []),
+            "is_generated_caption": result.get("is_generated"),
         })
 
     except Exception as e:
@@ -437,42 +445,23 @@ def analyze_video():
         transcript_text = transcript_data.get("transcript", "")
         word_count = transcript_data.get("word_count", 0)
 
-        # Analyze with Gemini
-        truncated_transcript = " ".join(transcript_text.split()[:4000])
-
-        analysis_prompt = f"""Analyze this YouTube video transcript and provide detailed insights.
-
-Video Title: {title}
-Transcript ({word_count} words):
-{truncated_transcript}
-
-Return ONLY valid JSON with these exact fields (no markdown, no code blocks):
-{{
-    "quality_score": <number 0-10>,
-    "main_topic": "<single sentence>",
-    "key_insights": ["<insight 1>", "<insight 2>", "<insight 3>"],
-    "content_type": "<Tutorial|News|Opinion|Research|Case Study>",
-    "target_audience": "<Beginner|Intermediate|Advanced>",
-    "unique_value": "<what makes this content special>"
-}}
-
-Quality Score Criteria:
-- 8-10: Groundbreaking, highly actionable, expert-level
-- 6-7: Solid content, good insights, well-produced
-- 4-5: Average, basic information
-- 0-3: Low value, clickbait, or superficial"""
-
-        response = model.generate_content(analysis_prompt)
-        analysis = parse_json_response(response)
+        # Use chunked_full for long transcripts; truncated path for shorter (shared with daily_run).
+        pseudo_item = {"title": title}
+        analyzed = analyze_transcript_auto(
+            model, pseudo_item, transcript_text, word_count, long_threshold=4000
+        )
+        tm = analyzed.get("transcript_mode", "truncated")
 
         return jsonify({
-            "quality_score": analysis.get("quality_score", 5),
-            "main_topic": analysis.get("main_topic", ""),
-            "key_insights": analysis.get("key_insights", []),
-            "content_type": analysis.get("content_type", "General"),
-            "target_audience": analysis.get("target_audience", "General"),
-            "unique_value": analysis.get("unique_value", ""),
-            "transcript_word_count": word_count
+            "quality_score": analyzed.get("quality_score", 5),
+            "main_topic": analyzed.get("main_topic", ""),
+            "key_insights": analyzed.get("key_insights", []),
+            "content_type": analyzed.get("content_type", "General"),
+            "target_audience": analyzed.get("target_audience", "General"),
+            "unique_value": analyzed.get("unique_value", ""),
+            "transcript_word_count": word_count,
+            "transcript_mode": tm,
+            "transcript_source": transcript_data.get("source"),
         })
 
     except Exception as e:
@@ -499,12 +488,73 @@ def _load_report(path: Path) -> dict:
         return json.load(f)
 
 
+def _transcript_metadata_block(item: dict) -> dict:
+    """Stable transcript sub-object for normalized items (explicit nulls)."""
+    inner = item.get("transcript_metadata")
+    inner_d: Dict[str, Any] = inner if isinstance(inner, dict) else {}
+    return {
+        "word_count": inner_d.get("word_count", item.get("transcript_word_count")),
+        "mode": inner_d.get("mode", item.get("transcript_mode")),
+        "source": inner_d.get("source", item.get("transcript_source")),
+        "used_in_prompt": inner_d.get("used_in_prompt"),
+    }
+
+
+def _normalize_item(topic_name: str, item: dict) -> dict:
+    """Single normalized item with a fixed key set for external consumers (Agency)."""
+    signal_id = hashlib.sha256(
+        (item.get("url", "") + "\n" + item.get("title", "")).encode("utf-8")
+    ).hexdigest()[:16]
+
+    def _list(key: str) -> List[Any]:
+        v = item.get(key)
+        return v if isinstance(v, list) else []
+
+    def _claims() -> List[Any]:
+        v = item.get("claims")
+        return v if isinstance(v, list) else []
+
+    return {
+        "source_system": "OpenSourceNews",
+        "signal_id": signal_id,
+        "title": item.get("title") or "",
+        "summary": item.get("summary") or "",
+        "source_urls": [item.get("url") or ""],
+        "topics": [topic_name],
+        "source": item.get("source") or "Unknown",
+        "category": item.get("category") or "",
+        "content_type": item.get("content_type") or "",
+        "bucket": item.get("bucket") or "",
+        "processing_mode": item.get("processing_mode") or "standard_summary",
+        "classification_confidence": item.get("classification_confidence"),
+        "quality_score": item.get("quality_score"),
+        "has_transcript": bool(item.get("has_transcript")),
+        "transcript_metadata": _transcript_metadata_block(item),
+        "key_lessons": _list("key_lessons"),
+        "actionable_steps": _list("actionable_steps"),
+        "tools_mentioned": _list("tools_mentioned"),
+        "frameworks_mentioned": _list("frameworks_mentioned"),
+        "claims": _claims(),
+        "entities": _list("entities"),
+        "uncertainty_markers": _list("uncertainty_markers"),
+        "neutral_synthesis": item.get("neutral_synthesis") or "",
+        "implementation_notes": item.get("implementation_notes") or "",
+        "difficulty": item.get("difficulty") or "",
+        "main_topic": item.get("main_topic") or "",
+        "key_insights": _list("key_insights"),
+        "target_audience": item.get("target_audience") or "",
+        "unique_value": item.get("unique_value") or "",
+        "transcript_error": item.get("transcript_error"),
+    }
+
+
 def _normalize_report(report_date: str, report_data: dict) -> dict:
     """Transform a raw daily report into a stable normalized schema."""
     items = []
     sources_seen = set()
     topic_counts = {}
     source_counts = {}
+    bucket_counts: Dict[str, int] = {}
 
     for topic_name, topic_items in report_data.items():
         topic_counts[topic_name] = len(topic_items)
@@ -512,28 +562,16 @@ def _normalize_report(report_date: str, report_data: dict) -> dict:
             src = item.get("source", "Unknown")
             sources_seen.add(src)
             source_counts[src] = source_counts.get(src, 0) + 1
+            b = item.get("bucket") or "unknown"
+            bucket_counts[b] = bucket_counts.get(b, 0) + 1
 
-            signal_id = hashlib.sha256(
-                (item.get("url", "") + item.get("title", "")).encode()
-            ).hexdigest()[:16]
-
-            items.append({
-                "source_system": "OpenSourceNews",
-                "signal_id": signal_id,
-                "title": item.get("title", ""),
-                "summary": item.get("summary", ""),
-                "source_urls": [item.get("url", "")],
-                "topics": [topic_name],
-                "source": src,
-                "category": item.get("category", ""),
-                "content_type": item.get("content_type", ""),
-                "quality_score": item.get("quality_score"),
-                "bucket": item.get("bucket", ""),
-                "processing_mode": item.get("processing_mode", ""),
-            })
+            items.append(_normalize_item(topic_name, item))
 
     total = len(items)
-    digest = f"{total} items across {len(topic_counts)} topics from {len(sources_seen)} source types."
+    digest = (
+        f"{total} items across {len(topic_counts)} topics from "
+        f"{len(sources_seen)} source types."
+    )
 
     return {
         "report_date": report_date,
@@ -543,6 +581,7 @@ def _normalize_report(report_date: str, report_data: dict) -> dict:
             "total": total,
             "by_topic": topic_counts,
             "by_source": source_counts,
+            "by_bucket": bucket_counts,
         },
         "digest": digest,
     }
@@ -615,6 +654,45 @@ def reports_latest_normalized():
 import yaml
 
 CONFIG_PATH = ROOT_DIR / 'config' / 'feeds.yaml'
+MANIFEST_JSON_PATH = ROOT_DIR / 'outputs' / 'manifests' / 'latest.json'
+KNOWLEDGE_BASE_JSON = ROOT_DIR / 'outputs' / 'knowledge_base' / 'knowledge_base.json'
+
+FEEDS_ALLOWED_TOPIC_KEYS = frozenset({
+    "topic_name",
+    "github_sources",
+    "hackernews_sources",
+    "rss_sources",
+    "youtube_sources",
+    "x_sources",
+    "instagram_sources",
+})
+
+
+def _validate_feeds_payload(data: Any) -> None:
+    if not isinstance(data, dict):
+        raise ValueError("Body must be a JSON object")
+    topics = data.get("topics")
+    if not isinstance(topics, list) or len(topics) < 1:
+        raise ValueError("Invalid config: 'topics' must be a non-empty list")
+    for topic in topics:
+        if not isinstance(topic, dict):
+            raise ValueError("Each topic must be an object")
+        if "topic_name" not in topic:
+            raise ValueError("Each topic must have a 'topic_name'")
+        name = topic.get("topic_name")
+        if not isinstance(name, str) or not name.strip():
+            raise ValueError("Each topic_name must be a non-empty string")
+        for key in topic:
+            if key not in FEEDS_ALLOWED_TOPIC_KEYS:
+                raise ValueError(f"Unknown key in topic: {key}")
+        for key, val in topic.items():
+            if key == "topic_name":
+                continue
+            if not isinstance(val, list):
+                raise ValueError(f"{key} must be a list of strings")
+            for entry in val:
+                if not isinstance(entry, str):
+                    raise ValueError(f"Invalid entry in {key}: must be string")
 
 
 @app.route('/api/config/feeds', methods=['GET'])
@@ -633,20 +711,65 @@ def update_feeds_config():
     """Update the feeds.yaml configuration."""
     try:
         data = request.json
-        if not data or 'topics' not in data:
-            return jsonify({"error": "Invalid config: 'topics' key required"}), 400
+        _validate_feeds_payload(data)
 
-        # Validate structure
-        for topic in data['topics']:
-            if 'topic_name' not in topic:
-                return jsonify({"error": "Each topic must have a 'topic_name'"}), 400
+        CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
+        backup_name = f"feeds.backup.{datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')}.yaml"
+        backup_path = CONFIG_PATH.parent / backup_name
+        if CONFIG_PATH.exists():
+            shutil.copy2(CONFIG_PATH, backup_path)
 
         with open(CONFIG_PATH, 'w', encoding='utf-8') as f:
-            yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+            yaml.dump(
+                data,
+                f,
+                default_flow_style=False,
+                allow_unicode=True,
+                sort_keys=False,
+                width=1000,
+            )
 
-        return jsonify({"status": "ok", "topics": len(data['topics'])})
+        return jsonify({
+            "status": "ok",
+            "topics": len(data["topics"]),
+            "backup_path": str(backup_path.relative_to(ROOT_DIR)) if backup_path.exists() else None,
+        })
+    except ValueError as e:
+        return jsonify({"error": str(e)}), 400
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+
+@app.route('/api/manifest/latest', methods=['GET'])
+def manifest_latest():
+    """Stable integration manifest: latest report info + optional KB timestamp."""
+    if MANIFEST_JSON_PATH.exists():
+        try:
+            with open(MANIFEST_JSON_PATH, 'r', encoding='utf-8') as f:
+                base = json.load(f)
+        except Exception:
+            base = {}
+    else:
+        base = {}
+
+    files = _list_report_files(limit=1)
+    latest_date = files[0].stem if files else None
+    kb_ts = None
+    if KNOWLEDGE_BASE_JSON.exists():
+        kb_ts = datetime.utcfromtimestamp(
+            KNOWLEDGE_BASE_JSON.stat().st_mtime
+        ).isoformat() + "Z"
+
+    out = {
+        "latest_report_date": base.get("latest_report_date") or latest_date,
+        "latest_report_path": base.get("latest_report_path"),
+        "item_count": base.get("item_count"),
+        "topics": base.get("topics"),
+        "bucket_counts": base.get("bucket_counts"),
+        "generated_at": base.get("generated_at"),
+        "knowledge_base_last_built": kb_ts,
+    }
+    return jsonify(out)
 
 
 if __name__ == '__main__':

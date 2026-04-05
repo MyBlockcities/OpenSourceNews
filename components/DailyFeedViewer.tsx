@@ -6,6 +6,7 @@ import { RssIcon } from './icons/RssIcon';
 import { GithubIcon } from './icons/GithubIcon';
 import { HackerNewsIcon } from './icons/HackerNewsIcon';
 import { LoadingSpinner } from './icons/LoadingSpinner';
+import { apiFetch } from '../services/apiClient';
 
 const DailyFeedViewer: React.FC = () => {
     const [dailyReports, setDailyReports] = useState<{ date: string; data: DailyReport }[]>([]);
@@ -35,7 +36,7 @@ const DailyFeedViewer: React.FC = () => {
             // Try API-based discovery first (uses /api/reports endpoint)
             let discoveredDates: string[] = [];
             try {
-                const apiResp = await fetch('/api/reports?limit=14');
+                const apiResp = await apiFetch('/api/reports?limit=14');
                 if (apiResp.ok) {
                     const apiData = await apiResp.json();
                     discoveredDates = (apiData.reports || []).map((r: { date: string }) => r.date);
@@ -62,7 +63,7 @@ const DailyFeedViewer: React.FC = () => {
                     let response = await fetch(`/daily/${date}.json`);
                     if (!response.ok) {
                         // Fallback to API endpoint
-                        response = await fetch(`/api/reports/by-date/${date}`);
+                        response = await apiFetch(`/api/reports/by-date/${date}`);
                         if (response.ok) {
                             const wrapper = await response.json();
                             reports.push({ date, data: wrapper.report });
@@ -131,7 +132,7 @@ const DailyFeedViewer: React.FC = () => {
             setGeneratedScript(null);
             setAudioUrl('');
 
-            const response = await fetch('/api/generate-script', {
+            const response = await apiFetch('/api/generate-script', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -167,7 +168,7 @@ const DailyFeedViewer: React.FC = () => {
         try {
             setGeneratingAudio(true);
 
-            const response = await fetch('/api/generate-audio', {
+            const response = await apiFetch('/api/generate-audio', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ script: scriptText, date: selectedDate }),

@@ -1,3 +1,5 @@
+# Static frontend (Vite + Caddy). API service: see nixpacks.api.toml and docs/DEPLOYMENT.md.
+
 [phases.setup]
 nixPkgs = ["nodejs_20"]
 

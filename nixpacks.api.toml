@@ -1,0 +1,20 @@
+# Nixpacks plan for the Python API service (Railway or Nixpacks-compatible hosts).
+# Frontend/static service continues to use ./nixpacks.toml (Node + Caddy).
+#
+# Railway: create a second service from this repo and either:
+#   - Set environment variable NIXPACKS_CONFIG_PATH to this file (path: nixpacks.api.toml), or
+#   - In Service Settings → Build, set custom commands to match [phases] below and
+#     Start Command: python3 api/script_generator.py
+#
+[phases.setup]
+nixPkgs = ["python311", "gcc"]
+
+[phases.install]
+cmds = ["python -m pip install --upgrade pip", "pip install -r requirements.txt && pip install -r requirements-api.txt"]
+
+[phases.build]
+# No compile step; repo is ready after deps install.
+cmds = ["python -c \"import flask; print('deps ok')\""]
+
+[start]
+cmd = "python3 api/script_generator.py"

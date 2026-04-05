@@ -1,3 +1,6 @@
+# Frontend / static Vite deployment only.
+# The Python API uses nixpacks.api.toml (or Railway build/start overrides); see docs/DEPLOYMENT.md.
+
 [build]
 builder = "NIXPACKS"
 

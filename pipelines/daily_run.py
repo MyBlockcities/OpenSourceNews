@@ -19,6 +19,7 @@ load_dotenv(ROOT_DIR / '.env.local')
 
 from pipelines.youtube import fetch_latest_videos
 from pipelines.transcript_fetcher import TranscriptFetcher
+from pipelines.transcript_analysis import analyze_transcript_auto
 from services.mailaroo_emailer import send_text_email
 
 # --- CONFIGURATION ---
@@ -171,94 +172,23 @@ def analyze_with_transcript(item: dict) -> dict:
         return {
             **item,
             "has_transcript": True,
-            "transcript_word_count": word_count
+            "transcript_word_count": word_count,
         }
 
-    # For long transcripts (>4000 words), use chunked analysis
-    if word_count > 4000:
-        print(f"    Long transcript ({word_count} words) — using chunked analysis")
-        return analyze_transcript_chunked(item, transcript_text, word_count)
-
-    # Standard analysis for shorter transcripts
-    truncated_transcript = " ".join(transcript_text.split()[:4000])
-
-    analysis_prompt = f"""Analyze this YouTube video transcript and provide detailed insights.
-
-Video Title: {item.get('title', 'Unknown')}
-Transcript ({word_count} words):
-{truncated_transcript}
-
-Return ONLY valid JSON with these exact fields (no markdown, no code blocks):
-{{
-    "quality_score": <number 0-10>,
-    "main_topic": "<single sentence>",
-    "key_insights": ["<insight 1>", "<insight 2>", "<insight 3>"],
-    "content_type": "<Tutorial|News|Opinion|Research|Case Study>",
-    "target_audience": "<Beginner|Intermediate|Advanced>",
-    "unique_value": "<what makes this content special>"
-}}
-
-Quality Score Criteria:
-- 8-10: Groundbreaking, highly actionable, expert-level
-- 6-7: Solid content, good insights, well-produced
-- 4-5: Average, basic information
-- 0-3: Low value, clickbait, or superficial"""
-
+    print(
+        f"    Transcript analysis ({word_count} words) — "
+        f"{'chunked_full' if word_count > 4000 else 'truncated'}"
+    )
     try:
-        response = model.generate_content(analysis_prompt)
-        
-        # Enhanced response extraction with better error handling
-        text_response = None
-        if hasattr(response, 'text'):
-            text_response = response.text
-        elif hasattr(response, 'candidates') and response.candidates:
-            if hasattr(response.candidates[0], 'content'):
-                if hasattr(response.candidates[0].content, 'parts') and response.candidates[0].content.parts:
-                    text_response = response.candidates[0].content.parts[0].text
-
-        if not text_response:
-            print(f"    ✗ Analysis failed: No text in Gemini response")
-            print(f"    Debug: response type = {type(response)}, has text = {hasattr(response, 'text')}")
-            raise ValueError("No text response from Gemini")
-
-        # Clean JSON response (remove markdown code blocks if present)
-        text_response = text_response.strip()
-        if text_response.startswith('```'):
-            # Remove markdown code blocks
-            text_response = text_response.replace('```json', '').replace('```', '').strip()
-
-        # Parse JSON with detailed error reporting
-        try:
-            analysis = json.loads(text_response)
-        except json.JSONDecodeError as je:
-            print(f"    ✗ JSON parse error: {je}")
-            print(f"    Raw response (first 200 chars): {text_response[:200]}")
-            raise
-
-        print(f"    ✓ Quality Score: {analysis.get('quality_score', 0)}/10 - {analysis.get('content_type', 'Unknown')}")
-
+        return analyze_transcript_auto(model, item, transcript_text, word_count)
+    except Exception as e:
+        print(f"    ✗ Analysis failed: {type(e).__name__} - {str(e)[:100]}")
         return {
             **item,
             "has_transcript": True,
             "transcript_word_count": word_count,
             "transcript_mode": "truncated",
-            "quality_score": analysis.get("quality_score", 5),
-            "main_topic": analysis.get("main_topic", ""),
-            "key_insights": analysis.get("key_insights", []),
-            "content_type": analysis.get("content_type", "General"),
-            "target_audience": analysis.get("target_audience", "General"),
-            "unique_value": analysis.get("unique_value", "")
         }
-    except Exception as e:
-        print(f"    ✗ Analysis failed: {type(e).__name__} - {str(e)[:100]}")
-
-    # Fallback: return with basic transcript info
-    return {
-        **item,
-        "has_transcript": True,
-        "transcript_word_count": word_count,
-        "transcript_mode": "truncated",
-    }
 
 # --- SECOND-STAGE CONTENT CLASSIFIER ---
 BUCKET_MAP = {
@@ -340,7 +270,12 @@ Rules:
 
 # --- DUAL PROCESSING MODES ---
 
-def extract_wisdom(item: dict) -> dict:
+def extract_wisdom(
+    item: dict,
+    transcript_text: str | None = None,
+    transcript_word_count: int | None = None,
+    transcript_source: str | None = None,
+) -> dict:
     """
     Wisdom Extraction mode for tutorials, educational content, technical walkthroughs.
     Extracts key lessons, actionable steps, tools mentioned, implementation notes.
@@ -352,12 +287,21 @@ def extract_wisdom(item: dict) -> dict:
     summary = item.get("summary", "")
     source = item.get("source", "")
 
+    transcript_block = ""
+    if transcript_text:
+        wc = transcript_word_count
+        src = transcript_source or "unknown"
+        transcript_block = f"""
+Transcript excerpt (up to ~8000 words, {wc} words total, source={src}):
+{transcript_text}
+"""
+
     prompt = f"""You are an expert knowledge extractor. Analyze this educational/instructional content.
 
 Title: {title}
 Source: {source}
 Summary: {summary}
-
+{transcript_block}
 Return ONLY valid JSON:
 {{
   "key_lessons": ["lesson 1", "lesson 2", "lesson 3"],
@@ -387,13 +331,24 @@ Return ONLY valid JSON:
                 "frameworks_mentioned": wisdom.get("frameworks_mentioned", []),
                 "implementation_notes": wisdom.get("implementation_notes", ""),
                 "difficulty": wisdom.get("difficulty", ""),
+                "wisdom_extraction_confidence": wisdom.get("confidence"),
+                "transcript_metadata": {
+                    "word_count": transcript_word_count,
+                    "source": transcript_source,
+                    "used_in_prompt": bool(transcript_text),
+                },
             }
     except Exception as e:
         print(f"    Wisdom extraction failed for '{title[:40]}': {e}")
     return item
 
 
-def map_claims(item: dict) -> dict:
+def map_claims(
+    item: dict,
+    transcript_text: str | None = None,
+    transcript_word_count: int | None = None,
+    transcript_source: str | None = None,
+) -> dict:
     """
     Neutral Claim Mapping mode for sense-making, contested narratives, speculative claims.
     Extracts claims table, entities, evidence, uncertainty markers.
@@ -405,12 +360,21 @@ def map_claims(item: dict) -> dict:
     summary = item.get("summary", "")
     source = item.get("source", "")
 
+    transcript_block = ""
+    if transcript_text:
+        wc = transcript_word_count
+        src = transcript_source or "unknown"
+        transcript_block = f"""
+Transcript excerpt (up to ~8000 words, {wc} words total, source={src}):
+{transcript_text}
+"""
+
     prompt = f"""You are a neutral claim analyst. Map the claims in this content WITHOUT judging truth.
 
 Title: {title}
 Source: {source}
 Summary: {summary}
-
+{transcript_block}
 Return ONLY valid JSON:
 {{
   "claims": [
@@ -448,6 +412,11 @@ Rules:
                 "entities": claims_data.get("entities", []),
                 "uncertainty_markers": claims_data.get("uncertainty_markers", []),
                 "neutral_synthesis": claims_data.get("neutral_synthesis", ""),
+                "transcript_metadata": {
+                    "word_count": transcript_word_count,
+                    "source": transcript_source,
+                    "used_in_prompt": bool(transcript_text),
+                },
             }
     except Exception as e:
         print(f"    Claim mapping failed for '{title[:40]}': {e}")
@@ -457,125 +426,41 @@ Rules:
 def apply_processing_mode(item: dict) -> dict:
     """Route an item to the correct processing mode based on its classification."""
     mode = item.get("processing_mode", "standard_summary")
+    if item.get("source") == "YouTube" and mode in ("wisdom_extraction", "claim_mapping"):
+        url = item.get("url", "")
+        if url and model:
+            try:
+                td = transcript_fetcher.fetch_transcript(url)
+                if "error" not in td:
+                    ttext = td.get("transcript", "")
+                    wc = td.get("word_count", 0)
+                    excerpt = (
+                        ttext
+                        if len(ttext.split()) <= 8000
+                        else " ".join(ttext.split()[:8000])
+                    )
+                    tsrc = td.get("source")
+                    if mode == "wisdom_extraction":
+                        return extract_wisdom(
+                            item,
+                            transcript_text=excerpt,
+                            transcript_word_count=wc,
+                            transcript_source=tsrc,
+                        )
+                    return map_claims(
+                        item,
+                        transcript_text=excerpt,
+                        transcript_word_count=wc,
+                        transcript_source=tsrc,
+                    )
+            except Exception as e:
+                print(f"    Transcript fetch for mode '{mode}' failed: {e}")
+
     if mode == "wisdom_extraction":
         return extract_wisdom(item)
-    elif mode == "claim_mapping":
+    if mode == "claim_mapping":
         return map_claims(item)
     return item
-
-
-# --- CHUNKED TRANSCRIPT ANALYSIS ---
-
-def analyze_transcript_chunked(item: dict, transcript_text: str, word_count: int) -> dict:
-    """
-    Chunked analysis for long transcripts (>4000 words).
-    Splits into overlapping chunks, analyzes each, and merges results.
-    """
-    if not model:
-        return {**item, "has_transcript": True, "transcript_word_count": word_count}
-
-    words = transcript_text.split()
-    CHUNK_SIZE = 3000
-    OVERLAP = 300
-    chunks = []
-    start = 0
-    while start < len(words):
-        end = min(start + CHUNK_SIZE, len(words))
-        chunks.append(" ".join(words[start:end]))
-        start += CHUNK_SIZE - OVERLAP
-
-    print(f"    Chunked analysis: {len(chunks)} chunks for {word_count} words")
-
-    all_insights = []
-    all_key_topics = []
-
-    for i, chunk in enumerate(chunks):
-        prompt = f"""Analyze chunk {i+1}/{len(chunks)} of a YouTube video transcript.
-
-Video Title: {item.get('title', 'Unknown')}
-Chunk {i+1} of {len(chunks)} ({len(chunk.split())} words):
-{chunk}
-
-Return ONLY valid JSON:
-{{
-    "key_insights": ["insight 1", "insight 2"],
-    "main_topics": ["topic 1", "topic 2"],
-    "content_type": "<Tutorial|News|Opinion|Research|Case Study>",
-    "notable_claims": ["claim if any"]
-}}"""
-
-        try:
-            response = model.generate_content(prompt)
-            text = getattr(response, 'text', None)
-            if not text and hasattr(response, 'candidates') and response.candidates:
-                text = getattr(response.candidates[0].content.parts[0], 'text', None)
-            if text:
-                text = text.strip()
-                if text.startswith('```'):
-                    text = text.replace('```json', '').replace('```', '').strip()
-                chunk_result = json.loads(text)
-                all_insights.extend(chunk_result.get("key_insights", []))
-                all_key_topics.extend(chunk_result.get("main_topics", []))
-        except Exception as e:
-            print(f"    Chunk {i+1} analysis failed: {e}")
-
-    # Merge: deduplicate insights, synthesize
-    unique_insights = list(dict.fromkeys(all_insights))[:10]
-    unique_topics = list(dict.fromkeys(all_key_topics))[:5]
-
-    # Final synthesis pass
-    synthesis_prompt = f"""Synthesize these insights from a full video transcript analysis.
-
-Video Title: {item.get('title', 'Unknown')}
-Total words: {word_count}
-Key insights from all chunks:
-{json.dumps(unique_insights, ensure_ascii=False)}
-
-Topics covered:
-{json.dumps(unique_topics, ensure_ascii=False)}
-
-Return ONLY valid JSON:
-{{
-    "quality_score": <0-10>,
-    "main_topic": "single sentence",
-    "key_insights": ["top 5 insights"],
-    "content_type": "<Tutorial|News|Opinion|Research|Case Study>",
-    "target_audience": "<Beginner|Intermediate|Advanced>",
-    "unique_value": "what makes this special"
-}}"""
-
-    try:
-        response = model.generate_content(synthesis_prompt)
-        text = getattr(response, 'text', None)
-        if not text and hasattr(response, 'candidates') and response.candidates:
-            text = getattr(response.candidates[0].content.parts[0], 'text', None)
-        if text:
-            text = text.strip()
-            if text.startswith('```'):
-                text = text.replace('```json', '').replace('```', '').strip()
-            synthesis = json.loads(text)
-            return {
-                **item,
-                "has_transcript": True,
-                "transcript_word_count": word_count,
-                "transcript_mode": "chunked_full",
-                "quality_score": synthesis.get("quality_score", 5),
-                "main_topic": synthesis.get("main_topic", ""),
-                "key_insights": synthesis.get("key_insights", unique_insights[:5]),
-                "content_type": synthesis.get("content_type", "General"),
-                "target_audience": synthesis.get("target_audience", "General"),
-                "unique_value": synthesis.get("unique_value", ""),
-            }
-    except Exception as e:
-        print(f"    Synthesis failed: {e}")
-
-    return {
-        **item,
-        "has_transcript": True,
-        "transcript_word_count": word_count,
-        "transcript_mode": "chunked_full",
-        "key_insights": unique_insights[:5],
-    }
 
 
 # --- AI TRIAGE AGENT ---

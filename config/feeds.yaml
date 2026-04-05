@@ -107,5 +107,10 @@ topics:
     rss_sources:
       - "https://www.bbc.co.uk/news/technology/rss.xml"           # BBC Tech (mainstream baseline)
       - "https://www.reuters.com/arc/outboundfeeds/v3/all/rss.xml"  # Reuters (mainstream baseline)
+      - "https://www.lesswrong.com/feed.xml"                        # Long-form reasoning / epistemics
+      - "https://www.astralcodexten.com/feed"                       # Slate Star Codex / ACX essays
+      - "https://www.foreignaffairs.com/rss.xml"                    # International relations framing
     youtube_sources:
       - "@AllInPodcast"                                            # All-In Podcast
+      - "@LexFridman"                                              # Long-form interviews
+      - "@JohnnyHarris"                                            # Narrative / explainers

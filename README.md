@@ -19,10 +19,23 @@ The public repo is intended to contain the runnable system, sample configuration
 - `pipelines/daily_run.py`: main ingestion and report generation pipeline
 - `pipelines/generate_video_script.py`: daily script generation from the latest report
 - `pipelines/weekly_analyzer.py`: weekly summary and script generation
-- `api/script_generator.py`: backend API for research endpoints, script generation, transcription, and analysis
+- `pipelines/transcript_analysis.py`: shared Gemini transcript analysis (truncated vs `chunked_full`)
+- `pipelines/academy_payload.py`: optional helpers to shape Academy-oriented drafts from normalized items
+- `api/script_generator.py`: Flask API for research endpoints, reports, feeds config, transcription, and analysis (`python3 api/script_generator.py`)
 - `scripts/build_knowledge_base.py`: knowledge-base builder
 - `scripts/sync_knowledge_base_to_qdrant.py`: optional Qdrant sync
 - `config/feeds.yaml`: source configuration
+
+## Deployment (two targets)
+
+Production is easiest as **two separate services** (e.g. two Railway services from the same repo):
+
+| Target | Build | Start |
+|--------|--------|--------|
+| **Frontend** | Node: `npm install` && `npm run build` | Static server on `dist/` (e.g. Caddy) — see `nixpacks.toml` |
+| **API** | `pip install -r requirements.txt && pip install -r requirements-api.txt` | `python3 api/script_generator.py` — see `nixpacks.api.toml` |
+
+Details: [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 ## Requirements
 
@@ -44,6 +57,9 @@ Common variables:
 - `GEMINI_API_KEY`: required for AI-assisted planning, summarization, scripts, and Qdrant embeddings
 - `YT_API_KEY` or `YOUTUBE_API_KEY`: required for YouTube metadata collection
 - `ASSEMBLYAI_API_KEY`: optional transcript fallback
+- `OPEN_SOURCE_NEWS_API_KEY`: optional on the API; when set, all routes except `GET /api/health` require a Bearer token
+- `VITE_API_BASE_URL`: optional at **frontend build time**; set to the API origin when the UI and API are on different hosts (see `docs/DEPLOYMENT.md`)
+- `VITE_API_BEARER_TOKEN`: optional; only if the API enforces auth and you accept embedding a token in the static bundle (prefer same-origin proxy in production)
 - `QDRANT_URL`: required only if syncing the knowledge base into Qdrant
 - `QDRANT_API_KEY`: optional, depending on your Qdrant deployment
 
@@ -150,9 +166,11 @@ The sync script:
 
 ## GitHub Actions
 
-- `.github/workflows/daily.yml`: scheduled daily report generation
-- `.github/workflows/video-script.yml`: scheduled script generation
-- `.github/workflows/knowledge-base.yml`: rebuilds the aggregate KB and uploads it as an artifact
+- `.github/workflows/daily.yml`: scheduled daily report generation (07:00 UTC)
+- `.github/workflows/video-script.yml`: scheduled video script generation (08:00 UTC daily)
+- `.github/workflows/knowledge-base.yml`: rebuilds the aggregate KB and uploads it as an artifact (09:30 UTC daily)
+- `.github/workflows/report-manifest.yml`: writes `outputs/manifests/latest.json` after a successful daily run
+- `.github/workflows/api-smoke.yml`: optional smoke test against a deployed API (`API_BASE_URL` + optional `OPEN_SOURCE_NEWS_API_KEY` secrets)
 
 ## Public-release notes
 

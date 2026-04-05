@@ -1,0 +1,44 @@
+name: API Smoke Test
+
+on:
+  schedule:
+    - cron: "25 12 * * *"  # Daily 12:25 UTC
+  workflow_dispatch: {}
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Hit API health and protected routes
+        env:
+          API_BASE_URL: ${{ secrets.API_BASE_URL }}
+          OPEN_SOURCE_NEWS_API_KEY: ${{ secrets.OPEN_SOURCE_NEWS_API_KEY }}
+        run: |
+          set -e
+          if [ -z "$API_BASE_URL" ]; then
+            echo "API_BASE_URL secret not set — skipping smoke test."
+            exit 0
+          fi
+          BASE="${API_BASE_URL%/}"
+          echo "GET $BASE/api/health"
+          curl -fsS "$BASE/api/health" | python3 -m json.tool
+
+          AUTH=()
+          if [ -n "$OPEN_SOURCE_NEWS_API_KEY" ]; then
+            AUTH=(-H "Authorization: Bearer ${OPEN_SOURCE_NEWS_API_KEY}")
+          fi
+
+          echo "GET $BASE/api/reports/latest/normalized"
+          code=$(curl -sS -o /tmp/osn_norm.json -w "%{http_code}" "${AUTH[@]}" "$BASE/api/reports/latest/normalized")
+          if [ "$code" != "200" ] && [ "$code" != "404" ]; then
+            echo "Unexpected HTTP $code from normalized endpoint"
+            exit 1
+          fi
+          python3 -m json.tool < /tmp/osn_norm.json | head -n 40
+
+          echo "GET $BASE/api/config/feeds"
+          curl -fsS "${AUTH[@]}" "$BASE/api/config/feeds" | python3 -m json.tool | head -n 30
+
+          echo "GET $BASE/api/manifest/latest"
+          curl -fsS "${AUTH[@]}" "$BASE/api/manifest/latest" | python3 -m json.tool

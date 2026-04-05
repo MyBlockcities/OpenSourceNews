@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { LoadingSpinner } from './icons/LoadingSpinner';
+import { apiFetch } from '../services/apiClient';
 
 interface TopicConfig {
     topic_name: string;
@@ -40,7 +41,7 @@ const SettingsPage: React.FC = () => {
     const loadConfig = async () => {
         try {
             setLoading(true);
-            const resp = await fetch('/api/config/feeds');
+            const resp = await apiFetch('/api/config/feeds');
             if (resp.ok) {
                 const data = await resp.json();
                 setConfig(data);
@@ -59,7 +60,7 @@ const SettingsPage: React.FC = () => {
         try {
             setSaving(true);
             setSaveStatus('');
-            const resp = await fetch('/api/config/feeds', {
+            const resp = await apiFetch('/api/config/feeds', {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(config),

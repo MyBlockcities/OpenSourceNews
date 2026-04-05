@@ -5,6 +5,7 @@ import { RssIcon } from './icons/RssIcon';
 import { GithubIcon } from './icons/GithubIcon';
 import { HackerNewsIcon } from './icons/HackerNewsIcon';
 import { LoadingSpinner } from './icons/LoadingSpinner';
+import { apiFetch } from '../services/apiClient';
 
 interface FlatItem extends DailyFeedItem {
     topic: string;
@@ -45,7 +46,7 @@ const NewsFeed: React.FC = () => {
             // Discover reports via API
             let dates: string[] = [];
             try {
-                const resp = await fetch('/api/reports?limit=7');
+                const resp = await apiFetch('/api/reports?limit=7');
                 if (resp.ok) {
                     const data = await resp.json();
                     dates = (data.reports || []).map((r: { date: string }) => r.date);
@@ -65,7 +66,7 @@ const NewsFeed: React.FC = () => {
                 try {
                     let response = await fetch(`/daily/${date}.json`);
                     if (!response.ok) {
-                        response = await fetch(`/api/reports/by-date/${date}`);
+                        response = await apiFetch(`/api/reports/by-date/${date}`);
                         if (response.ok) {
                             const wrapper = await response.json();
                             flattenReport(wrapper.report, date, items);

@@ -33,39 +33,37 @@ jobs:
           fi
 
           DATE=$(basename "$LATEST" .json)
-          ITEM_COUNT=$(python3 -c "
-          import json, sys
-          with open('$LATEST') as f:
-              data = json.load(f)
-          print(sum(len(v) for v in data.values()))
-          ")
-          TOPICS=$(python3 -c "
+          export LATEST DATE
+          python3 << 'PY'
           import json
-          with open('$LATEST') as f:
-              data = json.load(f)
-          print(json.dumps(list(data.keys())))
-          ")
+          import os
+          from collections import Counter
+          from datetime import datetime, timezone
+          from pathlib import Path
 
-          cat > outputs/manifests/latest.json << EOF
-          {
-            "latest_report_date": "$DATE",
-            "latest_report_path": "outputs/daily/$DATE.json",
-            "item_count": $ITEM_COUNT,
-            "topics": $TOPICS,
-            "generated_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          latest = Path(os.environ["LATEST"])
+          with open(latest) as f:
+              data = json.load(f)
+          item_count = sum(len(v) for v in data.values())
+          topics = list(data.keys())
+          bucket_counts: Counter = Counter()
+          for _topic, items in data.items():
+              for it in items:
+                  bucket_counts[it.get("bucket") or "unknown"] += 1
+
+          out = {
+              "latest_report_date": os.environ["DATE"],
+              "latest_report_path": f"outputs/daily/{latest.stem}.json",
+              "item_count": item_count,
+              "topics": topics,
+              "bucket_counts": dict(bucket_counts),
+              "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
           }
-          EOF
-
-          # Strip leading whitespace from heredoc
-          python3 -c "
-          import json
-          with open('outputs/manifests/latest.json') as f:
-              data = json.load(f)
-          with open('outputs/manifests/latest.json', 'w') as f:
-              json.dump(data, f, indent=2)
-          "
-
-          echo "Manifest built for $DATE ($ITEM_COUNT items)"
+          Path("outputs/manifests").mkdir(parents=True, exist_ok=True)
+          with open("outputs/manifests/latest.json", "w") as f:
+              json.dump(out, f, indent=2)
+          print(f"Manifest: {out['latest_report_date']} ({item_count} items)")
+          PY
 
       - name: Commit manifest
         run: |
