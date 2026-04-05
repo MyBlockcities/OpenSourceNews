@@ -8,6 +8,8 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, List
 
+from pipelines.llm_provider import parse_json_text
+
 
 class VideoScriptGenerator:
     """
@@ -15,12 +17,12 @@ class VideoScriptGenerator:
     Designed for daily tech news brief format (30-60 seconds).
     """
 
-    def __init__(self, model):
+    def __init__(self, llm):
         """
         Args:
-            model: Initialized Gemini model instance
+            llm: LLMClient from llm_provider (Ollama, OpenRouter, Gemini, or rotating).
         """
-        self.model = model
+        self.llm = llm
         self.output_dir = Path(__file__).parents[1] / "outputs" / "scripts"
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -191,20 +193,8 @@ Return as valid JSON:
 """
 
         try:
-            response = self.model.generate_content(prompt)
-
-            text_response = getattr(response, 'text', None)
-            if not text_response and response.candidates:
-                text_response = response.candidates[0].content.parts[0].text
-
-            if text_response:
-                # Extract JSON from markdown code blocks if present
-                import re
-                json_match = re.search(r'```(?:json)?\s*(\{.*?\})\s*```', text_response, re.DOTALL)
-                if json_match:
-                    text_response = json_match.group(1)
-
-                return json.loads(text_response)
+            text_response = self.llm.generate(prompt, json_mode=True)
+            return parse_json_text(text_response)
 
         except Exception as e:
             print(f"ERROR: Script generation failed: {e}")

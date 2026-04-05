@@ -6,7 +6,6 @@ import datetime
 import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
-import google.generativeai as genai
 from dotenv import load_dotenv
 
 # Add parent directory to path to enable imports
@@ -20,6 +19,7 @@ load_dotenv(ROOT_DIR / '.env.local')
 from pipelines.youtube import fetch_latest_videos
 from pipelines.transcript_fetcher import TranscriptFetcher
 from pipelines.transcript_analysis import analyze_transcript_auto
+from pipelines.llm_provider import try_get_llm_client, parse_json_text
 from services.mailaroo_emailer import send_text_email
 
 # --- CONFIGURATION ---
@@ -35,14 +35,13 @@ HTTP_HEADERS = {
     "User-Agent": "Mozilla/5.0 (research-bot; +https://github.com/user/repo)"
 }
 
-# --- GEMINI SETUP ---
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-model = None
-if GEMINI_API_KEY:
-    genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-2.5-flash")
-else:
-    print("WARNING: GEMINI_API_KEY not found. Triage agent will be skipped.")
+# --- LLM (Ollama default, or Gemini when LLM_PROVIDER=gemini) ---
+llm = try_get_llm_client()
+if not llm:
+    print(
+        "WARNING: No LLM available (Ollama, or LLM_PROVIDER=gemini/openrouter/rotating "
+        "with keys). Triage will use fallbacks."
+    )
 
 # --- TRANSCRIPT FETCHER SETUP ---
 transcript_fetcher = TranscriptFetcher()
@@ -167,8 +166,7 @@ def analyze_with_transcript(item: dict) -> dict:
 
     print(f"    ✓ Transcript fetched ({word_count} words)")
 
-    # Don't analyze if no Gemini model
-    if not model:
+    if not llm:
         return {
             **item,
             "has_transcript": True,
@@ -180,7 +178,7 @@ def analyze_with_transcript(item: dict) -> dict:
         f"{'chunked_full' if word_count > 4000 else 'truncated'}"
     )
     try:
-        return analyze_transcript_auto(model, item, transcript_text, word_count)
+        return analyze_transcript_auto(llm, item, transcript_text, word_count)
     except Exception as e:
         print(f"    ✗ Analysis failed: {type(e).__name__} - {str(e)[:100]}")
         return {
@@ -202,11 +200,11 @@ BUCKET_MAP = {
 def classify_item(item: dict, topic_name: str) -> dict:
     """
     Second-stage classifier: assigns bucket, content_type, and processing_mode
-    to each item using Gemini. Falls back to topic-based defaults if Gemini unavailable.
+    via LLM. Falls back to topic-based defaults if no LLM.
     """
     default_bucket = BUCKET_MAP.get(topic_name, "general")
 
-    if not model:
+    if not llm:
         return {
             **item,
             "bucket": default_bucket,
@@ -240,22 +238,15 @@ Rules:
 - standard_summary: for everything else (news, product releases, funding announcements)"""
 
     try:
-        response = model.generate_content(prompt)
-        text = getattr(response, 'text', None)
-        if not text and hasattr(response, 'candidates') and response.candidates:
-            text = getattr(response.candidates[0].content.parts[0], 'text', None)
-        if text:
-            text = text.strip()
-            if text.startswith('```'):
-                text = text.replace('```json', '').replace('```', '').strip()
-            classification = json.loads(text)
-            return {
-                **item,
-                "bucket": classification.get("bucket", default_bucket),
-                "content_type": classification.get("content_type", "news"),
-                "processing_mode": classification.get("processing_mode", "standard_summary"),
-                "classification_confidence": classification.get("confidence", 0.5),
-            }
+        text = llm.generate(prompt, json_mode=True)
+        classification = parse_json_text(text)
+        return {
+            **item,
+            "bucket": classification.get("bucket", default_bucket),
+            "content_type": classification.get("content_type", "news"),
+            "processing_mode": classification.get("processing_mode", "standard_summary"),
+            "classification_confidence": classification.get("confidence", 0.5),
+        }
     except Exception as e:
         print(f"    Classification failed for '{title[:40]}': {e}")
 
@@ -280,7 +271,7 @@ def extract_wisdom(
     Wisdom Extraction mode for tutorials, educational content, technical walkthroughs.
     Extracts key lessons, actionable steps, tools mentioned, implementation notes.
     """
-    if not model:
+    if not llm:
         return item
 
     title = item.get("title", "")
@@ -314,30 +305,23 @@ Return ONLY valid JSON:
 }}"""
 
     try:
-        response = model.generate_content(prompt)
-        text = getattr(response, 'text', None)
-        if not text and hasattr(response, 'candidates') and response.candidates:
-            text = getattr(response.candidates[0].content.parts[0], 'text', None)
-        if text:
-            text = text.strip()
-            if text.startswith('```'):
-                text = text.replace('```json', '').replace('```', '').strip()
-            wisdom = json.loads(text)
-            return {
-                **item,
-                "key_lessons": wisdom.get("key_lessons", []),
-                "actionable_steps": wisdom.get("actionable_steps", []),
-                "tools_mentioned": wisdom.get("tools_mentioned", []),
-                "frameworks_mentioned": wisdom.get("frameworks_mentioned", []),
-                "implementation_notes": wisdom.get("implementation_notes", ""),
-                "difficulty": wisdom.get("difficulty", ""),
-                "wisdom_extraction_confidence": wisdom.get("confidence"),
-                "transcript_metadata": {
-                    "word_count": transcript_word_count,
-                    "source": transcript_source,
-                    "used_in_prompt": bool(transcript_text),
-                },
-            }
+        text = llm.generate(prompt, json_mode=True)
+        wisdom = parse_json_text(text)
+        return {
+            **item,
+            "key_lessons": wisdom.get("key_lessons", []),
+            "actionable_steps": wisdom.get("actionable_steps", []),
+            "tools_mentioned": wisdom.get("tools_mentioned", []),
+            "frameworks_mentioned": wisdom.get("frameworks_mentioned", []),
+            "implementation_notes": wisdom.get("implementation_notes", ""),
+            "difficulty": wisdom.get("difficulty", ""),
+            "wisdom_extraction_confidence": wisdom.get("confidence"),
+            "transcript_metadata": {
+                "word_count": transcript_word_count,
+                "source": transcript_source,
+                "used_in_prompt": bool(transcript_text),
+            },
+        }
     except Exception as e:
         print(f"    Wisdom extraction failed for '{title[:40]}': {e}")
     return item
@@ -353,7 +337,7 @@ def map_claims(
     Neutral Claim Mapping mode for sense-making, contested narratives, speculative claims.
     Extracts claims table, entities, evidence, uncertainty markers.
     """
-    if not model:
+    if not llm:
         return item
 
     title = item.get("title", "")
@@ -397,27 +381,20 @@ Rules:
 - Mark confidence honestly. Most claims should be 'unresolved' or 'mixed'."""
 
     try:
-        response = model.generate_content(prompt)
-        text = getattr(response, 'text', None)
-        if not text and hasattr(response, 'candidates') and response.candidates:
-            text = getattr(response.candidates[0].content.parts[0], 'text', None)
-        if text:
-            text = text.strip()
-            if text.startswith('```'):
-                text = text.replace('```json', '').replace('```', '').strip()
-            claims_data = json.loads(text)
-            return {
-                **item,
-                "claims": claims_data.get("claims", []),
-                "entities": claims_data.get("entities", []),
-                "uncertainty_markers": claims_data.get("uncertainty_markers", []),
-                "neutral_synthesis": claims_data.get("neutral_synthesis", ""),
-                "transcript_metadata": {
-                    "word_count": transcript_word_count,
-                    "source": transcript_source,
-                    "used_in_prompt": bool(transcript_text),
-                },
-            }
+        text = llm.generate(prompt, json_mode=True)
+        claims_data = parse_json_text(text)
+        return {
+            **item,
+            "claims": claims_data.get("claims", []),
+            "entities": claims_data.get("entities", []),
+            "uncertainty_markers": claims_data.get("uncertainty_markers", []),
+            "neutral_synthesis": claims_data.get("neutral_synthesis", ""),
+            "transcript_metadata": {
+                "word_count": transcript_word_count,
+                "source": transcript_source,
+                "used_in_prompt": bool(transcript_text),
+            },
+        }
     except Exception as e:
         print(f"    Claim mapping failed for '{title[:40]}': {e}")
     return item
@@ -428,7 +405,7 @@ def apply_processing_mode(item: dict) -> dict:
     mode = item.get("processing_mode", "standard_summary")
     if item.get("source") == "YouTube" and mode in ("wisdom_extraction", "claim_mapping"):
         url = item.get("url", "")
-        if url and model:
+        if url and llm:
             try:
                 td = transcript_fetcher.fetch_transcript(url)
                 if "error" not in td:
@@ -470,14 +447,13 @@ def triage_and_categorize_content(topic_name: str, items: list) -> list:
 
     print(f"Running Triage Agent for topic: '{topic_name}' ({len(items)} items)")
 
-    # Fallback if Gemini is not configured
     def fallback_triage(item_list):
         return [
             {**item, "category": "General News", "summary": ""}
             for item in item_list
         ]
 
-    if not model:
+    if not llm:
         return fallback_triage(items)
 
     prompt = f"""You are a Triage Analyst. Review the following items for the topic '{topic_name}'.
@@ -491,35 +467,19 @@ Return ONLY a JSON array of objects (no markdown, no code blocks). Each object m
 Raw items:
 {json.dumps(items, ensure_ascii=False)}"""
 
+    text_response = None
     try:
-        response = model.generate_content(prompt)
-        
-        # Enhanced response extraction
-        text_response = None
-        if hasattr(response, 'text'):
-            text_response = response.text
-        elif hasattr(response, 'candidates') and response.candidates:
-            if hasattr(response.candidates[0], 'content'):
-                if hasattr(response.candidates[0].content, 'parts') and response.candidates[0].content.parts:
-                    text_response = response.candidates[0].content.parts[0].text
-
-        if text_response:
-            # Clean markdown code blocks if present
-            text_response = text_response.strip()
-            if text_response.startswith('```'):
-                text_response = text_response.replace('```json', '').replace('```', '').strip()
-            
-            parsed_json = json.loads(text_response)
-            if isinstance(parsed_json, list):
-                print(f"  ✓ Triage successful: {len(parsed_json)} items categorized")
-                return parsed_json
-            else:
-                print(f"  ✗ Triage returned non-list: {type(parsed_json)}")
+        text_response = llm.generate(prompt, json_mode=True)
+        parsed_json = parse_json_text(text_response)
+        if isinstance(parsed_json, list):
+            print(f"  ✓ Triage successful: {len(parsed_json)} items categorized")
+            return parsed_json
+        print(f"  ✗ Triage returned non-list: {type(parsed_json)}")
     except json.JSONDecodeError as je:
-        print(f"ERROR: Gemini triage JSON parse failed: {je}")
+        print(f"ERROR: Triage JSON parse failed: {je}")
         print(f"  Raw response (first 200 chars): {text_response[:200] if text_response else 'None'}")
     except Exception as e:
-        print(f"ERROR: Gemini triage API call failed: {type(e).__name__} - {str(e)[:100]}")
+        print(f"ERROR: Triage LLM call failed: {type(e).__name__} - {str(e)[:100]}")
 
     print(f"  → Using fallback triage")
     return fallback_triage(items)

@@ -14,7 +14,6 @@ import requests
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-import google.generativeai as genai
 from dotenv import load_dotenv
 
 # Add parent directory to path
@@ -28,6 +27,7 @@ load_dotenv(ROOT_DIR / '.env.local')
 from pipelines.video_script_generator import VideoScriptGenerator
 from pipelines.transcript_fetcher import TranscriptFetcher
 from pipelines.transcript_analysis import analyze_transcript_auto
+from pipelines.llm_provider import parse_json_text, try_get_llm_client
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for frontend
@@ -59,14 +59,23 @@ def check_api_auth():
 
 
 # Setup
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 ASSEMBLYAI_API_KEY = os.environ.get("ASSEMBLYAI_API_KEY")
 
-if GEMINI_API_KEY:
-    genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-2.5-flash")
-else:
-    model = None
+_llm_cache = None
+
+
+def require_llm():
+    """LLM from LLM_PROVIDER (ollama / openrouter / gemini / rotating)."""
+    global _llm_cache
+    if _llm_cache is None:
+        _llm_cache = try_get_llm_client()
+    if _llm_cache is None:
+        raise RuntimeError(
+            "LLM not available. Configure Ollama, or set OPENROUTER_API_KEY, "
+            "or GEMINI_API_KEY with LLM_PROVIDER=gemini — see .env.example"
+        )
+    return _llm_cache
+
 
 transcript_fetcher = TranscriptFetcher()
 OUTPUT_DIR = ROOT_DIR / 'outputs'
@@ -74,34 +83,6 @@ HTTP_TIMEOUT = 20
 HTTP_HEADERS = {
     "User-Agent": "Mozilla/5.0 (scheduler-api; +https://example.com)"
 }
-
-
-def require_model():
-    if not model:
-        raise RuntimeError("Gemini API key not configured")
-    return model
-
-
-def extract_response_text(response: Any) -> str:
-    text_response = getattr(response, "text", None)
-    if not text_response and getattr(response, "candidates", None):
-        candidate = response.candidates[0]
-        content = getattr(candidate, "content", None)
-        parts = getattr(content, "parts", None)
-        if parts:
-            text_response = getattr(parts[0], "text", None)
-
-    if not text_response:
-        raise ValueError("No text returned from Gemini")
-
-    text_response = text_response.strip()
-    if text_response.startswith("```"):
-        text_response = text_response.replace("```json", "").replace("```", "").strip()
-    return text_response
-
-
-def parse_json_response(response: Any) -> Any:
-    return json.loads(extract_response_text(response))
 
 
 def search_duckduckgo(query: str, limit: int = 5) -> List[Dict[str, str]]:
@@ -134,7 +115,7 @@ def search_duckduckgo(query: str, limit: int = 5) -> List[Dict[str, str]]:
 
 
 def plan_research(objective: str) -> Dict[str, Any]:
-    planner = require_model()
+    planner = require_llm()
     prompt = f"""
 As a professional AI research planner, create a concise research plan.
 
@@ -147,15 +128,12 @@ Return ONLY valid JSON with these exact keys:
   "claimsToVerify": ["claim 1", "claim 2"]
 }}
 """
-    response = planner.generate_content(
-        prompt,
-        generation_config={"response_mime_type": "application/json"},
-    )
-    return parse_json_response(response)
+    text = planner.generate(prompt, json_mode=True)
+    return parse_json_text(text)
 
 
 def synthesize_research(objective: str, search_results: List[Dict[str, str]]) -> Dict[str, Any]:
-    synthesizer = require_model()
+    synthesizer = require_llm()
     sources_text = "\n\n".join(
         f"URL: {item.get('url', '')}\nTitle: {item.get('title', '')}\nSnippet: {item.get('snippet', '')}"
         for item in search_results
@@ -176,15 +154,12 @@ Return ONLY valid JSON with these exact keys:
   ]
 }}
 """
-    response = synthesizer.generate_content(
-        prompt,
-        generation_config={"response_mime_type": "application/json"},
-    )
-    return parse_json_response(response)
+    text = synthesizer.generate(prompt, json_mode=True)
+    return parse_json_text(text)
 
 
 def generate_pathfinder_suggestions(objective: str, report_summary: str) -> Dict[str, List[str]]:
-    pathfinder = require_model()
+    pathfinder = require_llm()
     prompt = f"""
 You are a strategic AI pathfinder.
 
@@ -199,11 +174,8 @@ Return ONLY valid JSON with this exact structure:
   "suggestions": ["next step 1", "next step 2", "next step 3"]
 }}
 """
-    response = pathfinder.generate_content(
-        prompt,
-        generation_config={"response_mime_type": "application/json"},
-    )
-    return parse_json_response(response)
+    text = pathfinder.generate(prompt, json_mode=True)
+    return parse_json_text(text)
 
 
 @app.route('/api/research/plan', methods=['POST'])
@@ -291,13 +263,15 @@ def generate_script():
         if not items:
             return jsonify({"error": "No items provided"}), 400
 
-        if not model:
-            return jsonify({"error": "Gemini API key not configured"}), 500
+        try:
+            llm = require_llm()
+        except RuntimeError as e:
+            return jsonify({"error": str(e)}), 500
 
         print(f"Generating script for {len(items)} items...")
 
         # Use video script generator
-        generator = VideoScriptGenerator(model)
+        generator = VideoScriptGenerator(llm)
         
         # Prepare report data in expected format
         report_data = {topic: items}
@@ -424,8 +398,10 @@ def analyze_video():
     }
     """
     try:
-        if not model:
-            return jsonify({"error": "Gemini API key not configured"}), 500
+        try:
+            llm = require_llm()
+        except RuntimeError as e:
+            return jsonify({"error": str(e)}), 500
 
         data = request.json
         video_url = data.get('video_url', '')
@@ -448,7 +424,7 @@ def analyze_video():
         # Use chunked_full for long transcripts; truncated path for shorter (shared with daily_run).
         pseudo_item = {"title": title}
         analyzed = analyze_transcript_auto(
-            model, pseudo_item, transcript_text, word_count, long_threshold=4000
+            llm, pseudo_item, transcript_text, word_count, long_threshold=4000
         )
         tm = analyzed.get("transcript_mode", "truncated")
 

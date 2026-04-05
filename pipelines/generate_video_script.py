@@ -9,7 +9,6 @@ import sys
 import json
 from pathlib import Path
 from datetime import datetime
-import google.generativeai as genai
 from dotenv import load_dotenv
 
 # Add parent directory to path
@@ -21,17 +20,18 @@ load_dotenv(ROOT_DIR / '.env')
 load_dotenv(ROOT_DIR / '.env.local')
 
 from pipelines.video_script_generator import VideoScriptGenerator
+from pipelines.llm_provider import try_get_llm_client
 
 
 def main():
-    # Setup Gemini
-    GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-    if not GEMINI_API_KEY:
-        print("ERROR: GEMINI_API_KEY not set in environment")
+    llm = try_get_llm_client()
+    if not llm:
+        print(
+            "ERROR: LLM not configured. Use Ollama (LLM_PROVIDER=ollama), "
+            "OpenRouter (OPENROUTER_API_KEY + LLM_PROVIDER=openrouter or rotating), "
+            "or Gemini (GEMINI_API_KEY + LLM_PROVIDER=gemini)."
+        )
         sys.exit(1)
-
-    genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-2.5-flash")
 
     # Load today's report
     timestamp = datetime.utcnow().strftime("%Y-%m-%d")
@@ -49,7 +49,7 @@ def main():
 
     # Generate script
     print("\nGenerating video script...")
-    generator = VideoScriptGenerator(model)
+    generator = VideoScriptGenerator(llm)
     result = generator.generate_daily_script(report_data)
 
     if "error" in result:

@@ -1,35 +1,18 @@
 """
-Shared Gemini transcript analysis (truncated vs chunked) for daily_run and api/script_generator.
+Shared transcript analysis (truncated vs chunked) for daily_run and api/script_generator.
+Uses LLMClient (Ollama or Gemini) from llm_provider.
 """
 
 from __future__ import annotations
 
 import json
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
-
-def _extract_text(response: Any) -> Optional[str]:
-    text = getattr(response, "text", None)
-    if not text and getattr(response, "candidates", None):
-        try:
-            text = getattr(response.candidates[0].content.parts[0], "text", None)
-        except (IndexError, AttributeError):
-            pass
-    return text
-
-
-def _parse_json_from_gemini(response: Any) -> Dict[str, Any]:
-    text = _extract_text(response)
-    if not text:
-        raise ValueError("No text in Gemini response")
-    text = text.strip()
-    if text.startswith("```"):
-        text = text.replace("```json", "").replace("```", "").strip()
-    return json.loads(text)
+from pipelines.llm_provider import LLMClient, parse_json_text
 
 
 def analyze_transcript_truncated(
-    model: Any,
+    llm: LLMClient,
     item: Dict[str, Any],
     transcript_text: str,
     word_count: int,
@@ -59,8 +42,8 @@ Quality Score Criteria:
 - 4-5: Average, basic information
 - 0-3: Low value, clickbait, or superficial"""
 
-    response = model.generate_content(analysis_prompt)
-    analysis = _parse_json_from_gemini(response)
+    text = llm.generate(analysis_prompt, json_mode=True)
+    analysis = parse_json_text(text)
     return {
         **item,
         "has_transcript": True,
@@ -76,15 +59,12 @@ Quality Score Criteria:
 
 
 def analyze_transcript_chunked(
-    model: Any,
+    llm: LLMClient,
     item: Dict[str, Any],
     transcript_text: str,
     word_count: int,
 ) -> Dict[str, Any]:
     """Chunked analysis for long transcripts (e.g. >4000 words)."""
-    if not model:
-        return {**item, "has_transcript": True, "transcript_word_count": word_count}
-
     words = transcript_text.split()
     chunk_size = 3000
     overlap = 300
@@ -113,8 +93,7 @@ Return ONLY valid JSON:
     "notable_claims": ["claim if any"]
 }}"""
         try:
-            response = model.generate_content(prompt)
-            chunk_result = _parse_json_from_gemini(response)
+            chunk_result = parse_json_text(llm.generate(prompt, json_mode=True))
             all_insights.extend(chunk_result.get("key_insights", []))
             all_key_topics.extend(chunk_result.get("main_topics", []))
         except Exception as e:
@@ -144,8 +123,7 @@ Return ONLY valid JSON:
 }}"""
 
     try:
-        response = model.generate_content(synthesis_prompt)
-        synthesis = _parse_json_from_gemini(response)
+        synthesis = parse_json_text(llm.generate(synthesis_prompt, json_mode=True))
         return {
             **item,
             "has_transcript": True,
@@ -171,7 +149,7 @@ Return ONLY valid JSON:
 
 
 def analyze_transcript_auto(
-    model: Any,
+    llm: LLMClient,
     item: Dict[str, Any],
     transcript_text: str,
     word_count: int,
@@ -179,5 +157,5 @@ def analyze_transcript_auto(
 ) -> Dict[str, Any]:
     """Choose truncated vs chunked_full based on length."""
     if word_count > long_threshold:
-        return analyze_transcript_chunked(model, item, transcript_text, word_count)
-    return analyze_transcript_truncated(model, item, transcript_text, word_count)
+        return analyze_transcript_chunked(llm, item, transcript_text, word_count)
+    return analyze_transcript_truncated(llm, item, transcript_text, word_count)

@@ -10,8 +10,9 @@ import sys
 import json
 from pathlib import Path
 from datetime import datetime, timedelta
-import google.generativeai as genai
 from dotenv import load_dotenv
+
+from pipelines.llm_provider import LLMClient, get_llm_client, parse_json_text
 
 # Add parent directory to path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -48,9 +49,9 @@ def load_week_reports(days_back=7):
     return reports
 
 
-def extract_best_nuggets(weekly_data, model):
+def extract_best_nuggets(weekly_data, llm: LLMClient):
     """
-    Use Gemini to analyze a week of content and extract the best nuggets
+    Use the configured LLM (Ollama, OpenRouter, Gemini, etc.) to analyze a week of content.
     """
     # Flatten all items from all topics across the week
     all_items = []
@@ -65,7 +66,7 @@ def extract_best_nuggets(weekly_data, model):
     
     print(f"\nAnalyzing {len(all_items)} items from past week...")
     
-    # Prepare data for Gemini
+    # Prepare data for the LLM
     items_summary = json.dumps([
         {
             'title': item.get('title'),
@@ -114,26 +115,8 @@ Focus on:
 Return ONLY valid JSON (no markdown, no code blocks)."""
 
     try:
-        response = model.generate_content(prompt)
-        
-        # Extract response
-        text_response = None
-        if hasattr(response, 'text'):
-            text_response = response.text
-        elif hasattr(response, 'candidates') and response.candidates:
-            if hasattr(response.candidates[0], 'content'):
-                if hasattr(response.candidates[0].content, 'parts') and response.candidates[0].content.parts:
-                    text_response = response.candidates[0].content.parts[0].text
-
-        if not text_response:
-            raise ValueError("No response from Gemini")
-
-        # Clean JSON
-        text_response = text_response.strip()
-        if text_response.startswith('```'):
-            text_response = text_response.replace('```json', '').replace('```', '').strip()
-
-        analysis = json.loads(text_response)
+        text_response = llm.generate(prompt, json_mode=True)
+        analysis = parse_json_text(text_response)
         
         # Add full item details for top stories
         for story in analysis.get('top_stories', []):
@@ -207,14 +190,11 @@ def generate_weekly_script(analysis, all_items):
 
 
 def main():
-    # Setup Gemini
-    GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-    if not GEMINI_API_KEY:
-        print("ERROR: GEMINI_API_KEY not set")
+    try:
+        llm = get_llm_client()
+    except RuntimeError as e:
+        print(f"ERROR: {e}")
         sys.exit(1)
-
-    genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-2.5-flash")
 
     print("=" * 60)
     print("WEEKLY INTELLIGENCE ANALYZER")
@@ -231,8 +211,8 @@ def main():
     print(f"\n✓ Loaded {len(weekly_data)} days of reports")
 
     # Extract nuggets
-    print("\nExtracting best nuggets with Gemini...")
-    analysis = extract_best_nuggets(weekly_data, model)
+    print("\nExtracting best nuggets with LLM...")
+    analysis = extract_best_nuggets(weekly_data, llm)
     
     if not analysis:
         print("ERROR: Analysis failed")

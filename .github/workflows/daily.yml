@@ -40,6 +40,8 @@ jobs:
 
       - name: Run research pipeline
         env:
+          # GitHub runners have no Ollama; use cloud LLM for scheduled runs.
+          LLM_PROVIDER: gemini
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YT_API_KEY }}
