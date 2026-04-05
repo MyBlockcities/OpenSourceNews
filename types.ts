@@ -64,11 +64,35 @@ export interface DailyFeedItem {
     quality_score?: number;
     has_transcript?: boolean;
     transcript_word_count?: number;
+    transcript_mode?: 'truncated' | 'chunked_full';
+    transcript_error?: string;
     main_topic?: string;
     key_insights?: string[];
     content_type?: string;
     target_audience?: string;
     unique_value?: string;
+    // Second-stage classification fields
+    bucket?: 'general' | 'ai' | 'blockchain' | 'sense_making';
+    processing_mode?: 'standard_summary' | 'wisdom_extraction' | 'claim_mapping';
+    classification_confidence?: number;
+    // Wisdom extraction fields
+    actionable_steps?: string[];
+    tools_mentioned?: string[];
+    frameworks_mentioned?: string[];
+    implementation_notes?: string;
+    difficulty?: string;
+    key_lessons?: string[];
+    // Claim mapping fields
+    claims?: Array<{
+        claim: string;
+        evidence_cited: string;
+        status: 'supported' | 'mixed' | 'unresolved' | 'contradicted';
+        confidence: number;
+        analyst_note: string;
+    }>;
+    entities?: string[];
+    uncertainty_markers?: string[];
+    neutral_synthesis?: string;
 }
 
 export interface DailyReport {

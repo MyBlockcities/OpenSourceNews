@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Backend API for research orchestration and on-demand generation."""
 
+import hashlib
 import json
 import os
 import sys
@@ -512,7 +513,6 @@ def _normalize_report(report_date: str, report_data: dict) -> dict:
             sources_seen.add(src)
             source_counts[src] = source_counts.get(src, 0) + 1
 
-            import hashlib
             signal_id = hashlib.sha256(
                 (item.get("url", "") + item.get("title", "")).encode()
             ).hexdigest()[:16]

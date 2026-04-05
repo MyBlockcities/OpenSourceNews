@@ -25,6 +25,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
 
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
@@ -32,12 +35,16 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YT_API_KEY }}
+          ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
+          MAILAROO_API_KEY: ${{ secrets.MAILAROO_API_KEY }}
+          MAILAROO_TO_EMAIL: ${{ secrets.MAILAROO_TO_EMAIL }}
         run: python pipelines/daily_run.py
 
       - name: Commit and push report
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions-bot@users.noreply.github.com"
-          git add outputs/daily/*.json || true
+          git add outputs/daily/*.json outputs/transcripts/*.json || true
           git commit -m "Daily intelligence report for $(date -u +'%Y-%m-%d')" || echo "No changes to commit"
           git push

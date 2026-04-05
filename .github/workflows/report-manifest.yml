@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Build manifest
         run: |
@@ -44,7 +46,7 @@ jobs:
           print(json.dumps(list(data.keys())))
           ")
 
-          cat > outputs/manifests/latest.json << MANIFEST_EOF
+          cat > outputs/manifests/latest.json << EOF
           {
             "latest_report_date": "$DATE",
             "latest_report_path": "outputs/daily/$DATE.json",
@@ -52,7 +54,16 @@ jobs:
             "topics": $TOPICS,
             "generated_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
           }
-          MANIFEST_EOF
+          EOF
+
+          # Strip leading whitespace from heredoc
+          python3 -c "
+          import json
+          with open('outputs/manifests/latest.json') as f:
+              data = json.load(f)
+          with open('outputs/manifests/latest.json', 'w') as f:
+              json.dump(data, f, indent=2)
+          "
 
           echo "Manifest built for $DATE ($ITEM_COUNT items)"
 

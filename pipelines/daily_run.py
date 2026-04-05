@@ -711,7 +711,8 @@ def main():
         mode_counts = {"standard_summary": 0, "wisdom_extraction": 0, "claim_mapping": 0}
         for item in classified_content:
             processed = apply_processing_mode(item)
-            mode_counts[item.get("processing_mode", "standard_summary")] += 1
+            mode = item.get("processing_mode", "standard_summary")
+            mode_counts[mode] = mode_counts.get(mode, 0) + 1
             processed_content.append(processed)
         print(f"  ✓ Modes: {mode_counts}")
 
