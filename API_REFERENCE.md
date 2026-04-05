@@ -252,9 +252,9 @@ Returns a small **integration manifest**: merges `outputs/manifests/latest.json`
 
 ## Research Endpoints
 
-These endpoints power the "Research" tab in the frontend. They use Gemini AI and DuckDuckGo for live research.
+These endpoints power the "Research" tab in the frontend. LLM-powered steps use the backend configured in `pipelines/llm_provider.py` (`LLM_PROVIDER`: Ollama, OpenRouter, Gemini, or `rotating`). Web search uses DuckDuckGo.
 
-**Requires:** `GEMINI_API_KEY` set in environment.
+**Requires:** A working LLM configuration (see [Environment Variables](#environment-variables) — not necessarily `GEMINI_API_KEY` if you use OpenRouter or local Ollama).
 
 ### POST /api/research/plan
 
@@ -288,7 +288,7 @@ Generate a research plan from a user objective.
 | Status | Body | Meaning |
 |--------|------|---------|
 | 400 | `{"error": "No objective provided"}` | Missing or empty `objective` |
-| 500 | `{"error": "Gemini API key not configured"}` | No `GEMINI_API_KEY` |
+| 500 | `{"error": "LLM not available. ..."}` | No usable LLM (configure `LLM_PROVIDER` and keys — see `.env.example`) |
 
 ---
 
@@ -385,7 +385,7 @@ Generate follow-up research suggestions based on completed research.
 
 ### POST /api/generate-script
 
-Generate a video script from selected daily feed items using Gemini AI.
+Generate a video script from selected daily feed items using the configured LLM backend.
 
 **Request:**
 ```json
@@ -471,7 +471,7 @@ The `source` field indicates which method succeeded:
 
 ### POST /api/analyze-video
 
-On-demand deep analysis of a YouTube video. Fetches the transcript, then analyzes with Gemini AI.
+On-demand deep analysis of a YouTube video. Fetches the transcript, then analyzes it with the configured LLM backend.
 
 **Request:**
 ```json
@@ -589,11 +589,28 @@ Update the feeds configuration. Overwrites `config/feeds.yaml`.
 
 ## Environment Variables
 
-### Required
+### LLM (text generation for research, scripts, transcript analysis)
+
+Set `LLM_PROVIDER` and the matching credentials. The API and pipelines share `pipelines/llm_provider.py`.
 
 | Variable | Description |
 |----------|-------------|
-| `GEMINI_API_KEY` | Google Gemini API key for triage, classification, analysis, and script generation |
+| `LLM_PROVIDER` | `ollama` (default if Ollama is reachable), `openrouter`, `gemini`, or `rotating` (OpenRouter + Ollama alternating). |
+| `OPENROUTER_API_KEY` | Required when `LLM_PROVIDER` is `openrouter` or `rotating`. Use free model slugs (e.g. `OPENROUTER_MODEL=google/gemma-2-9b-it:free`). See [OpenRouter provider routing](https://openrouter.ai/docs/guides/routing/provider-selection). |
+| `OPENROUTER_MODEL` | OpenRouter model id (optional; defaults in code). |
+| `OPENROUTER_PROVIDER_SORT` | Optional: `price`, `throughput`, or `latency` (maps to `provider.sort`). |
+| `OLLAMA_HOST` | Default `http://127.0.0.1:11434` when using Ollama. |
+| `OLLAMA_MODEL` | Default `llama3.2` when using Ollama. |
+| `GEMINI_API_KEY` | Required when `LLM_PROVIDER=gemini` (or for pipeline/embeddings that still call Gemini). |
+| `LLM_FALLBACK_TO_GEMINI` | If `1` and Ollama is down, fall back to Gemini when `GEMINI_API_KEY` is set. |
+| `LLM_FALLBACK_TO_OPENROUTER` | If `1` and Ollama is down, fall back to OpenRouter when `OPENROUTER_API_KEY` is set. |
+
+Full list and examples: `.env.example`.
+
+### Required for YouTube metadata
+
+| Variable | Description |
+|----------|-------------|
 | `YOUTUBE_API_KEY` | YouTube Data API v3 key for fetching video metadata |
 
 ### Optional
@@ -638,16 +655,21 @@ Common HTTP status codes:
 | 400 | Bad request (missing/invalid parameters) |
 | 401 | Unauthorized (missing or invalid API key) |
 | 404 | Resource not found |
-| 500 | Server error (API key not configured, Gemini failure, etc.) |
+| 500 | Server error (LLM not configured, upstream LLM failure, etc.) |
 
 ---
 
 ## Quick Start
 
 ```bash
-# 1. Set environment variables
-export GEMINI_API_KEY=your-key
-export YOUTUBE_API_KEY=your-key
+# 1. Set environment variables (pick an LLM path)
+export LLM_PROVIDER=openrouter
+export OPENROUTER_API_KEY=your-openrouter-key
+export OPENROUTER_MODEL=google/gemma-2-9b-it:free
+# Or: LLM_PROVIDER=gemini and GEMINI_API_KEY=...
+# Or: run Ollama locally and LLM_PROVIDER=ollama
+
+export YOUTUBE_API_KEY=your-youtube-key
 
 # 2. Install dependencies
 pip install -r requirements-api.txt

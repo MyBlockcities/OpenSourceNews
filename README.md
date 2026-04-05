@@ -7,7 +7,7 @@ The public repo is intended to contain the runnable system, sample configuration
 ## What it does
 
 - Collects content from RSS feeds, Hacker News, GitHub Trending, and YouTube metadata
-- Uses Gemini for triage, summarization, planning, and follow-up suggestions
+- Uses a configurable LLM (Ollama, OpenRouter, Gemini, or OpenRouter+Ollama rotation) for triage, summarization, planning, and follow-up suggestions
 - Produces daily structured outputs in `outputs/daily`
 - Produces script and storyboard outputs in `outputs/scripts`
 - Builds a consolidated JSON/JSONL knowledge base from generated outputs
@@ -19,7 +19,7 @@ The public repo is intended to contain the runnable system, sample configuration
 - `pipelines/daily_run.py`: main ingestion and report generation pipeline
 - `pipelines/generate_video_script.py`: daily script generation from the latest report
 - `pipelines/weekly_analyzer.py`: weekly summary and script generation
-- `pipelines/transcript_analysis.py`: shared Gemini transcript analysis (truncated vs `chunked_full`)
+- `pipelines/transcript_analysis.py`: shared LLM transcript analysis (truncated vs `chunked_full`)
 - `pipelines/academy_payload.py`: optional helpers to shape Academy-oriented drafts from normalized items
 - `api/script_generator.py`: Flask API for research endpoints, reports, feeds config, transcription, and analysis (`python3 api/script_generator.py`)
 - `scripts/build_knowledge_base.py`: knowledge-base builder
@@ -50,11 +50,12 @@ Copy the example environment file:
 cp .env.example .env
 ```
 
-The backend and Python pipelines read `GEMINI_API_KEY` from `.env` or `.env.local`. A browser-exposed Gemini key is no longer required.
+The backend and Python pipelines read LLM settings from `.env` or `.env.local` (`LLM_PROVIDER`, `OPENROUTER_*`, `OLLAMA_*`, `GEMINI_API_KEY`, etc.). See `.env.example` and [API_REFERENCE.md](API_REFERENCE.md#environment-variables).
 
 Common variables:
 
-- `GEMINI_API_KEY`: required for AI-assisted planning, summarization, scripts, and Qdrant embeddings
+- `LLM_PROVIDER` and matching keys (`OPENROUTER_API_KEY`, or `GEMINI_API_KEY` for Gemini-only, or local Ollama): required for AI-assisted planning, summarization, scripts, and on-demand analysis
+- `GEMINI_API_KEY`: still used for **Qdrant embeddings** in `scripts/sync_knowledge_base_to_qdrant.py` (Google `text-embedding-004`) when you sync the knowledge base
 - `YT_API_KEY` or `YOUTUBE_API_KEY`: required for YouTube metadata collection
 - `ASSEMBLYAI_API_KEY`: optional transcript fallback
 - `OPEN_SOURCE_NEWS_API_KEY`: optional on the API; when set, all routes except `GET /api/health` require a Bearer token
