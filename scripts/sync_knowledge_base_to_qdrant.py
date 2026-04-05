@@ -70,10 +70,15 @@ def iter_batches(items: Sequence[Dict[str, Any]], size: int) -> Iterable[Sequenc
 
 
 def build_embedding_text(record: Dict[str, Any], max_chars: int) -> str:
+    # Use pre-built embedding_text if available (from enriched KB builder)
+    if record.get("embedding_text"):
+        return record["embedding_text"][:max_chars]
+
     parts = [
         f"Record type: {record.get('record_type', 'unknown')}",
         f"Title: {record.get('title', '')}",
         f"Topic: {record.get('topic', '')}",
+        f"Bucket: {record.get('bucket', '')}",
         f"Date: {record.get('date', '')}",
         f"Source: {record.get('source', '')}",
         f"Category: {record.get('category', '')}",
@@ -81,6 +86,20 @@ def build_embedding_text(record: Dict[str, Any], max_chars: int) -> str:
         "",
         record.get("content", ""),
     ]
+
+    # Include enriched fields for richer embeddings
+    for claim in (record.get("claims") or []):
+        if isinstance(claim, dict):
+            parts.append(f"Claim: {claim.get('claim', '')}")
+    for lesson in (record.get("key_lessons") or []):
+        parts.append(f"Lesson: {lesson}")
+    for entity in (record.get("entities") or []):
+        parts.append(f"Entity: {entity}")
+    if record.get("neutral_synthesis"):
+        parts.append(f"Synthesis: {record['neutral_synthesis']}")
+    if record.get("implementation_notes"):
+        parts.append(f"Implementation: {record['implementation_notes']}")
+
     text = "\n".join(part for part in parts if part and part.strip())
     return text[:max_chars]
 
@@ -196,7 +215,14 @@ def record_payload(record: Dict[str, Any]) -> Dict[str, Any]:
         record.get("topic"),
         record.get("source"),
         record.get("category"),
+        record.get("bucket"),
+        record.get("processing_mode"),
+        record.get("content_type"),
+        record.get("difficulty"),
     ]
+    # Add entity tags for graph-style filtering
+    for entity in (record.get("entities") or []):
+        tags.append(f"entity:{entity}")
     payload = dict(record)
     payload["tags"] = [tag for tag in tags if tag]
     return strip_none(payload)

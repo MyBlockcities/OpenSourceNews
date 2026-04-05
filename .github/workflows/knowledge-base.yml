@@ -44,3 +44,28 @@ jobs:
             docs/generated/knowledge_base/SUMMARY.md
           if-no-files-found: error
           retention-days: 14
+
+      - name: Notify on failure
+        if: failure()
+        env:
+          MAILAROO_API_KEY: ${{ secrets.MAILAROO_API_KEY }}
+          MAILAROO_TO_EMAIL: ${{ secrets.MAILAROO_TO_EMAIL }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          pip install requests python-dotenv 2>/dev/null
+          if [ -n "$MAILAROO_API_KEY" ] && [ -n "$MAILAROO_TO_EMAIL" ]; then
+            DATE=$(date -u +%Y-%m-%d)
+            python3 -c "
+          import sys, os
+          sys.path.insert(0, '.')
+          from services.mailaroo_emailer import send_text_email
+          repo = os.environ['REPO']
+          run_id = os.environ['RUN_ID']
+          date = os.environ.get('DATE', 'unknown')
+          send_text_email(
+              body=f'Knowledge base build failed. Check: https://github.com/{repo}/actions/runs/{run_id}',
+              subject=f'[OpenSourceNews] Knowledge base FAILED - {date}'
+          )
+          " || echo "Failed to send failure notification"
+          fi

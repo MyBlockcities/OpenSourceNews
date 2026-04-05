@@ -97,6 +97,25 @@ def build_daily_section() -> Dict[str, Any]:
                         item.get("title", f"item-{index}"),
                     ]
                 )
+                # Build embedding text from all available content
+                embedding_parts = [
+                    item.get("title", ""),
+                    item.get("summary", ""),
+                    "\n".join(f"- {insight}" for insight in key_insights),
+                    item.get("unique_value", ""),
+                    item.get("neutral_synthesis", ""),
+                    item.get("implementation_notes", ""),
+                ]
+                claims = item.get("claims") or []
+                for claim in claims:
+                    if isinstance(claim, dict):
+                        embedding_parts.append(claim.get("claim", ""))
+                lessons = item.get("key_lessons") or []
+                embedding_parts.extend(lessons)
+                entities = item.get("entities") or []
+                embedding_parts.extend(entities)
+                embedding_text = normalize_text_parts(embedding_parts)
+
                 records.append(
                     {
                         "id": record_id,
@@ -113,6 +132,24 @@ def build_daily_section() -> Dict[str, Any]:
                         "key_insights": key_insights,
                         "content": content,
                         "origin_file": relpath(report_path),
+                        # Enriched fields from pipeline classification & processing
+                        "bucket": item.get("bucket"),
+                        "processing_mode": item.get("processing_mode"),
+                        "classification_confidence": item.get("classification_confidence"),
+                        # Wisdom extraction fields
+                        "key_lessons": item.get("key_lessons"),
+                        "actionable_steps": item.get("actionable_steps"),
+                        "tools_mentioned": item.get("tools_mentioned"),
+                        "frameworks_mentioned": item.get("frameworks_mentioned"),
+                        "implementation_notes": item.get("implementation_notes"),
+                        "difficulty": item.get("difficulty"),
+                        # Claim mapping fields
+                        "claims": claims if claims else None,
+                        "entities": entities if entities else None,
+                        "uncertainty_markers": item.get("uncertainty_markers"),
+                        "neutral_synthesis": item.get("neutral_synthesis"),
+                        # Embedding-ready text
+                        "embedding_text": embedding_text,
                     }
                 )
 
