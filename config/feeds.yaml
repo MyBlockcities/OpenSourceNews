@@ -1,5 +1,5 @@
 # config/feeds.yaml
-# Four major topic buckets for OpenSourceNews daily ingestion
+# Five major topic buckets for OpenSourceNews daily ingestion
 
 topics:
   # ──────────────────────────────────────────────────────────
@@ -114,3 +114,29 @@ topics:
       - "@AllInPodcast"                                            # All-In Podcast
       - "@LexFridman"                                              # Long-form interviews
       - "@JohnnyHarris"                                            # Narrative / explainers
+
+  # ──────────────────────────────────────────────────────────
+  # Bucket 5: Alternative News & Independent Commentary
+  # Personality-led, independent, non-institutional, or
+  # opinion-heavy channels. Keep separate from mainstream/research
+  # so downstream apps can label it as commentary needing review.
+  # ──────────────────────────────────────────────────────────
+  - topic_name: "Alternative News & Independent Commentary"
+    youtube_sources:
+      - "Ian Carroll"                                              # Independent commentary / investigative-style
+      - "@joerogan"                                                # Joe Rogan Experience
+      - "Dr David Martin"                                          # Alternative-health / institutional critique
+      - "Danny Jones podcast"                                      # Interview-driven independent commentary
+      - "Dr Jack Kruse"                                            # Health-focused alternative analysis
+      - "The Align Podcast Aaron Alexander"                        # Health, movement, lifestyle commentary
+      - "@TheDiaryOfACEO"                                          # Business, psychology, culture interviews
+      - "@realCandaceOwens"                                        # Political commentary
+      - "@TuckerCarlson"                                           # Political interviews/commentary
+      - "Alex Jones"                                               # Highly controversial alternative commentary
+      - "Dave Smith podcast"                                       # Libertarian political commentary/interviews
+      - "@breakingpoints"                                          # Anti-establishment political coverage
+      - "@Coffeezilla"                                             # Fraud/scam investigations
+      - "@NickShirley"                                             # Street interviews / independent journalism
+      - "@johnnyharris"                                            # Independent documentary explainers
+      - "@tldrpodcasts"                                            # World news and policy summaries
+      - "theindependent"                                           # Conventional independent newsroom

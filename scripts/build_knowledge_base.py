@@ -143,6 +143,12 @@ def build_daily_section() -> Dict[str, Any]:
                         # Enriched fields from pipeline classification & processing
                         "bucket": item.get("bucket"),
                         "processing_mode": item.get("processing_mode"),
+                        "mode": item.get("mode"),
+                        "stance": item.get("stance"),
+                        "affiliation": item.get("affiliation"),
+                        "risk_level": item.get("risk_level"),
+                        "verification_mode": item.get("verification_mode"),
+                        "content_warning": item.get("content_warning"),
                         "classification_confidence": item.get("classification_confidence"),
                         # Wisdom extraction fields
                         "key_lessons": item.get("key_lessons"),

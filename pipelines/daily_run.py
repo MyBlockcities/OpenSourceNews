@@ -196,7 +196,27 @@ BUCKET_MAP = {
     "AI / AI Tools / AI Agents": "ai",
     "Blockchain / Crypto / Web3": "blockchain",
     "Sense-Making & Narrative Analysis": "sense_making",
+    "Alternative News & Independent Commentary": "alternative_news",
 }
+
+
+def apply_bucket_metadata(item: dict, topic_name: str) -> dict:
+    """Add bucket-specific metadata that downstream consumers can filter on."""
+    bucket = item.get("bucket") or BUCKET_MAP.get(topic_name, "general")
+    if bucket != "alternative_news":
+        return item
+
+    return {
+        **item,
+        "bucket": "alternative_news",
+        "mode": item.get("mode") or "commentary",
+        "stance": item.get("stance") or "commentary",
+        "affiliation": item.get("affiliation") or "independent",
+        "risk_level": item.get("risk_level") or "mixed",
+        "verification_mode": item.get("verification_mode") or "needs_review",
+        "content_warning": item.get("content_warning")
+        or "Opinion-heavy or contested claims may be present; verify before reuse.",
+    }
 
 
 def classify_item(item: dict, topic_name: str) -> dict:
@@ -207,13 +227,14 @@ def classify_item(item: dict, topic_name: str) -> dict:
     default_bucket = BUCKET_MAP.get(topic_name, "general")
 
     if not llm:
-        return {
+        fallback = {
             **item,
             "bucket": default_bucket,
-            "content_type": "news",
+            "content_type": "commentary" if default_bucket == "alternative_news" else "news",
             "processing_mode": "standard_summary",
             "classification_confidence": 0.5,
         }
+        return apply_bucket_metadata(fallback, topic_name)
 
     title = item.get("title", "")
     summary = item.get("summary", "")
@@ -228,13 +249,14 @@ Topic group: {topic_name}
 
 Return:
 {{
-  "bucket": "<general|ai|blockchain|sense_making>",
-  "content_type": "<news|tutorial|product_release|opinion|speculative_claim|research|market_narrative>",
+  "bucket": "<general|ai|blockchain|sense_making|alternative_news>",
+  "content_type": "<news|tutorial|product_release|opinion|commentary|interview|investigation|speculative_claim|research|market_narrative>",
   "processing_mode": "<standard_summary|wisdom_extraction|claim_mapping>",
   "confidence": <0.0-1.0>
 }}
 
 Rules:
+- alternative_news is reserved for independent/personality-led commentary and must not be mixed into mainstream reporting.
 - wisdom_extraction: for tutorials, educational explainers, technical walkthroughs
 - claim_mapping: for contested narratives, geopolitical analysis, institutional critique, speculative claims
 - standard_summary: for everything else (news, product releases, funding announcements)"""
@@ -242,23 +264,33 @@ Rules:
     try:
         text = llm.generate(prompt, json_mode=True)
         classification = parse_json_text(text)
-        return {
+        classified_bucket = (
+            "alternative_news"
+            if default_bucket == "alternative_news"
+            else classification.get("bucket", default_bucket)
+        )
+        classified = {
             **item,
-            "bucket": classification.get("bucket", default_bucket),
-            "content_type": classification.get("content_type", "news"),
+            "bucket": classified_bucket,
+            "content_type": classification.get(
+                "content_type",
+                "commentary" if classified_bucket == "alternative_news" else "news",
+            ),
             "processing_mode": classification.get("processing_mode", "standard_summary"),
             "classification_confidence": classification.get("confidence", 0.5),
         }
+        return apply_bucket_metadata(classified, topic_name)
     except Exception as e:
         print(f"    Classification failed for '{title[:40]}': {e}")
 
-    return {
+    fallback = {
         **item,
         "bucket": default_bucket,
-        "content_type": "news",
+        "content_type": "commentary" if default_bucket == "alternative_news" else "news",
         "processing_mode": "standard_summary",
         "classification_confidence": 0.5,
     }
+    return apply_bucket_metadata(fallback, topic_name)
 
 
 # --- DUAL PROCESSING MODES ---

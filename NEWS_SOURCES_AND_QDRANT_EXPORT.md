@@ -21,6 +21,7 @@ The daily pipeline in `pipelines/daily_run.py` currently pulls up to five items 
 - GitHub Trending via `https://github.com/trending/{language}`.
 - YouTube metadata via the YouTube Data API using `YT_API_KEY` or `YOUTUBE_API_KEY`.
 - X and Instagram entries are configured placeholders only; the current fetchers intentionally skip them.
+- `Alternative News & Independent Commentary` is intentionally separated into `bucket = "alternative_news"` and should be treated as commentary/opinion-heavy, not as high-confidence institutional reporting.
 
 The backend research endpoints can also do on-demand DuckDuckGo HTML search through `POST /api/research/search`. That is separate from the scheduled daily feed configuration.
 
@@ -159,6 +160,40 @@ YouTube sources:
 - Lex Fridman: `@LexFridman`
 - Johnny Harris: `@JohnnyHarris`
 
+## Topic: Alternative News & Independent Commentary
+
+Purpose: personality-led, independent, non-institutional, and opinion-heavy channels. This bucket is useful for monitoring narratives and claims, but downstream apps should label it clearly and avoid mixing it into mainstream/research confidence scoring.
+
+Default metadata applied to this bucket:
+
+- `bucket`: `alternative_news`
+- `mode`: `commentary`
+- `stance`: `commentary`
+- `affiliation`: `independent`
+- `risk_level`: `mixed`
+- `verification_mode`: `needs_review`
+- `content_warning`: `Opinion-heavy or contested claims may be present; verify before reuse.`
+
+YouTube sources:
+
+- Ian Carroll: `Ian Carroll`
+- Joe Rogan Experience: `@joerogan`
+- Dr. David Martin: `Dr David Martin`
+- Danny Jones: `Danny Jones podcast`
+- Dr. Jack Kruse: `Dr Jack Kruse`
+- The Align Podcast / Aaron Alexander: `The Align Podcast Aaron Alexander`
+- The Diary of a CEO: `@TheDiaryOfACEO`
+- Candace Owens: `@realCandaceOwens`
+- Tucker Carlson: `@TuckerCarlson`
+- Alex Jones: `Alex Jones`
+- Dave Smith: `Dave Smith podcast`
+- Breaking Points: `@breakingpoints`
+- Coffeezilla: `@Coffeezilla`
+- Nick Shirley: `@NickShirley`
+- Johnny Harris: `@johnnyharris`
+- TLDR Podcasts: `@tldrpodcasts`
+- The Independent: `theindependent`
+
 ## Additional Information Assets
 
 Generated files become part of the local knowledge base:
@@ -205,6 +240,12 @@ Each JSONL row has this shape:
     "content_type": "news",
     "bucket": "ai",
     "processing_mode": "standard_summary",
+    "mode": "",
+    "stance": "",
+    "affiliation": "",
+    "risk_level": "",
+    "verification_mode": "",
+    "content_warning": "",
     "classification_confidence": 0.5,
     "quality_score": null,
     "has_transcript": false
@@ -230,5 +271,8 @@ Recommended Qdrant payload indexes:
 - `content_type`
 - `topics`
 - `has_transcript`
+- `verification_mode`
+- `risk_level`
+- `affiliation`
 
 The exporter intentionally does not require `GEMINI_API_KEY`, `QDRANT_URL`, or `QDRANT_API_KEY`; those belong to the downstream embedding/upsert service.
