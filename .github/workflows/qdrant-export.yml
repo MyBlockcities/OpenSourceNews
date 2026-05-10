@@ -1,0 +1,52 @@
+name: Build Qdrant Exports
+
+on:
+  workflow_run:
+    workflows: ["Daily Research Briefing"]
+    types: [completed]
+  workflow_dispatch: {}
+  schedule:
+    - cron: "45 9 * * *"  # Daily after the report and manifest windows
+
+permissions:
+  contents: write
+
+concurrency:
+  group: qdrant-export
+  cancel-in-progress: true
+
+jobs:
+  build-qdrant-exports:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name != 'workflow_run' }}
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build default Qdrant export
+        run: python3 scripts/export_qdrant_payload.py --days 30 --out outputs/qdrant_export/news_signals.jsonl
+
+      - name: Build peptide Qdrant export
+        run: python3 scripts/export_qdrant_payload.py --days 30 --bucket peptides --out outputs/qdrant_export/peptides_signals.jsonl
+
+      - name: Commit exports
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions-bot@users.noreply.github.com"
+          git add -f outputs/qdrant_export/*.jsonl outputs/qdrant_export/*.manifest.json || true
+          git commit -m "Update Qdrant exports" || echo "No changes to commit"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            git push && exit 0
+            echo "Push failed on attempt ${attempt}; retrying..."
+            sleep 5
+          done
+          exit 1

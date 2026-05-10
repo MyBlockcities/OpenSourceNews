@@ -209,6 +209,7 @@ Prepare Qdrant-ready JSONL for another application to embed/upsert:
 
 ```bash
 npm run export:qdrant
+npm run export:qdrant:peptides
 ```
 
 The legacy direct sync script:
@@ -218,15 +219,17 @@ The legacy direct sync script:
 - creates or validates the target Qdrant collection
 - upserts records in batches
 
-For your current setup, prefer `npm run export:qdrant` and let the downstream app handle embeddings/upsert with its own credentials.
+For your current setup, prefer `npm run export:qdrant` and let the downstream app handle embeddings/upsert with its own credentials. Use `npm run export:qdrant:peptides` for the medically sensitive peptide-only export intended for a separate Qdrant collection named `peptides`.
 
 See [NEWS_SOURCES_AND_QDRANT_EXPORT.md](NEWS_SOURCES_AND_QDRANT_EXPORT.md) for the current source inventory and downstream Qdrant payload contract.
+See [PEPTIDES_SOURCE_AND_QDRANT_WORKFLOW.md](PEPTIDES_SOURCE_AND_QDRANT_WORKFLOW.md) for peptide source layering, safety metadata, and the OpenSwarm import command.
 
 ## GitHub Actions
 
 - `.github/workflows/daily.yml`: scheduled daily report generation (07:00 UTC)
 - `.github/workflows/video-script.yml`: scheduled video script generation (08:00 UTC daily)
 - `.github/workflows/knowledge-base.yml`: rebuilds the aggregate KB and uploads it as an artifact (09:30 UTC daily)
+- `.github/workflows/qdrant-export.yml`: rebuilds default and peptide Qdrant JSONL exports after daily reports
 - `.github/workflows/report-manifest.yml`: writes `outputs/manifests/latest.json` after a successful daily run
 - `.github/workflows/api-smoke.yml`: optional smoke test against a deployed API (`API_BASE_URL` + optional `OPEN_SOURCE_NEWS_API_KEY` secrets)
 - `.github/workflows/prune-outputs.yml`: manual dry-run/apply pruning for generated output retention
