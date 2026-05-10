@@ -241,6 +241,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--embed-batch-size", type=int, default=DEFAULT_EMBED_BATCH_SIZE)
     parser.add_argument("--embed-model", default=os.getenv("QDRANT_EMBEDDING_MODEL", DEFAULT_EMBEDDING_MODEL))
     parser.add_argument("--embed-max-chars", type=int, default=int(os.getenv("QDRANT_EMBED_MAX_CHARS", DEFAULT_EMBED_MAX_CHARS)))
+    parser.add_argument("--bucket-filter", action="append", default=None, help="Only sync records with this bucket. May be passed multiple times.")
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--rebuild-knowledge-base", action="store_true")
     parser.add_argument("--recreate-collection", action="store_true")
@@ -253,6 +254,9 @@ def main() -> None:
     args = parse_args()
 
     records = read_records(rebuild=args.rebuild_knowledge_base)
+    if args.bucket_filter:
+        allowed = {bucket.strip() for bucket in args.bucket_filter if bucket.strip()}
+        records = [record for record in records if record.get("bucket") in allowed]
     if args.limit is not None:
         records = records[:args.limit]
 

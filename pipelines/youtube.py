@@ -4,7 +4,7 @@ import json
 import httpx
 from typing import List, Dict, Tuple
 
-YT_API_KEY = os.getenv("YT_API_KEY", "")
+YT_API_KEY = os.getenv("YT_API_KEY") or os.getenv("YOUTUBE_API_KEY") or ""
 BASE = "https://www.googleapis.com/youtube/v3"
 
 # Basic rate limiter (very light)

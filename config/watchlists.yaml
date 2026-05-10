@@ -47,13 +47,50 @@ watchlists:
       - peptides
       - NAD+
       - BPC-157
+      - GHK-Cu
+      - KPV
       - GLP-1
+      - semaglutide
+      - tirzepatide
+      - retatrutide
+      - collagen peptides
+      - thymosin alpha-1
       - oral strips
     topics:
       - health
       - wellness
       - longevity
+      - peptides
+      - metabolic_health
+      - skin_health
+      - recovery
+    evidence_policy:
+      truth_layer:
+        - ClinicalTrials.gov
+        - PubMed
+        - FDA
+      trend_layer:
+        - YouTube
+        - Hacker News
+        - Reddit
+      safe_framing:
+        - educational
+        - wellness_support
+        - evidence_gap
+      prohibited_framing:
+        - disease_treatment_claim
+        - dosing_protocol
+        - approved_therapy_claim_without_fda_source
+    exclude_terms:
+      - vendor source
+      - buy peptides
+      - coupon code
+      - source check
+      - unverified protocol
     alert_rules:
       - research
+      - clinical_trial
+      - safety_warning
       - product_launch
       - regulation
+      - evidence_upgrade

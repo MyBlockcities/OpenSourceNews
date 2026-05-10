@@ -1,6 +1,6 @@
 # OpenSourceNews Source Inventory and Qdrant Export Contract
 
-Date: 2026-05-09
+Date: 2026-05-10
 
 This document summarizes the news and information inputs currently configured in `config/feeds.yaml`, plus the local export shape downstream apps can use to embed and upsert OpenSourceNews records into Qdrant.
 
@@ -20,8 +20,11 @@ The daily pipeline in `pipelines/daily_run.py` currently pulls up to five items 
 - Hacker News search via `https://hn.algolia.com/api/v1/search`.
 - GitHub Trending via `https://github.com/trending/{language}`.
 - YouTube metadata via the YouTube Data API using `YT_API_KEY` or `YOUTUBE_API_KEY`.
+- PubMed metadata through NCBI E-utilities for configured `pubmed_sources`.
+- ClinicalTrials.gov study records through the modern v2 API for configured `clinical_trials_sources`.
 - X and Instagram entries are configured placeholders only; the current fetchers intentionally skip them.
 - `Alternative News & Independent Commentary` is intentionally separated into `bucket = "alternative_news"` and should be treated as commentary/opinion-heavy, not as high-confidence institutional reporting.
+- `Peptides / Wellness / Longevity` is intentionally separated into `bucket = "peptides"` with truth-layer metadata so trend signals are not treated as clinical evidence.
 
 The backend research endpoints can also do on-demand DuckDuckGo HTML search through `POST /api/research/search`. That is separate from the scheduled daily feed configuration.
 
@@ -194,6 +197,60 @@ YouTube sources:
 - TLDR Podcasts: `@tldrpodcasts`
 - The Independent: `theindependent`
 
+## Topic: Peptides / Wellness / Longevity
+
+Purpose: peptide research, clinical trial monitoring, GLP-1/metabolic-health signals, safety/regulatory watch items, and cautious wellness trend monitoring.
+
+Default metadata applied to this bucket:
+
+- `bucket`: `peptides`
+- `trust_layer`: `truth` for PubMed and ClinicalTrials.gov; `demand_signal` for YouTube/Hacker News trend inputs
+- `verification_mode`: `truth_layer` for PubMed and ClinicalTrials.gov; `needs_review` for trend inputs
+- `regulatory_sensitivity`: `high`
+- `medical_claim_policy`: no medical, dosing, disease, or treatment claims without qualified review and primary-source support
+- `content_warning`: peptide and wellness content is medically sensitive; trend claims require verification before reuse
+
+PubMed queries:
+
+- `(peptides[Title/Abstract] OR peptide therapeutics[Title/Abstract]) AND wellness`
+- `BPC-157 peptide`
+- `GHK-Cu peptide`
+- `KPV peptide`
+- `NAD+ peptide`
+- `GLP-1 peptide`
+- `collagen peptides`
+- `thymosin alpha-1 peptide`
+
+ClinicalTrials.gov queries:
+
+- `peptide therapy`
+- `BPC-157`
+- `GHK-Cu`
+- `NAD+`
+- `GLP-1`
+- `collagen peptides`
+- `semaglutide peptide`
+- `tirzepatide`
+- `retatrutide`
+
+Hacker News trend queries:
+
+- `peptides`
+- `GLP-1`
+- `longevity`
+- `FDA peptide`
+
+RSS feeds:
+
+- Ground Truths / Eric Topol: `https://erictopol.substack.com/feed`
+
+YouTube trend/listening sources:
+
+- Ben Greenfield peptides: `Ben Greenfield peptides`
+- Dave Asprey peptides: `Dave Asprey peptides`
+- Peptides physician lecture: `peptides physician lecture`
+- GLP-1 peptide science: `GLP-1 peptide science`
+
 ## Additional Information Assets
 
 Generated files become part of the local knowledge base:
@@ -211,12 +268,15 @@ The repo now includes a downstream-friendly exporter:
 ```bash
 python3 scripts/export_qdrant_payload.py --days 30
 npm run export:qdrant
+npm run export:qdrant:peptides
 ```
 
 Default output:
 
 - `outputs/qdrant_export/news_signals.jsonl`
 - `outputs/qdrant_export/news_signals.manifest.json`
+- `outputs/qdrant_export/peptides_signals.jsonl`
+- `outputs/qdrant_export/peptides_signals.manifest.json`
 
 Each JSONL row has this shape:
 
@@ -246,6 +306,14 @@ Each JSONL row has this shape:
     "risk_level": "",
     "verification_mode": "",
     "content_warning": "",
+    "source_category": "",
+    "trust_layer": "",
+    "trust_level": "",
+    "evidence_level": "",
+    "regulatory_sensitivity": "",
+    "content_use": "",
+    "safe_framing": "",
+    "medical_claim_policy": "",
     "classification_confidence": 0.5,
     "quality_score": null,
     "has_transcript": false
@@ -274,5 +342,31 @@ Recommended Qdrant payload indexes:
 - `verification_mode`
 - `risk_level`
 - `affiliation`
+- `trust_layer`
+- `trust_level`
+- `evidence_level`
+- `regulatory_sensitivity`
+- `source_category`
+
+Peptide-only export and OpenSwarm import:
+
+```bash
+python3 scripts/export_qdrant_payload.py --days 30 --bucket peptides --out outputs/qdrant_export/peptides_signals.jsonl
+```
+
+From OpenSwarm, import that JSONL into a dedicated Qdrant collection named `peptides`:
+
+```bash
+.venv/bin/python - <<'PY'
+from news_workflow.knowledge_graph_agent.tools.LoadQdrantExport import LoadQdrantExport
+
+print(LoadQdrantExport(
+    action="import",
+    export_path="/Users/brians/Documents/openswarm2026/OpenSourceNews/outputs/qdrant_export/peptides_signals.jsonl",
+    collection="peptides",
+    bucket_filter=["peptides"],
+).run())
+PY
+```
 
 The exporter intentionally does not require `GEMINI_API_KEY`, `QDRANT_URL`, or `QDRANT_API_KEY`; those belong to the downstream embedding/upsert service.

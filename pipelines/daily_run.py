@@ -114,6 +114,179 @@ def fetch_hackernews(keyword: str):
         print(f"ERROR: Hacker News fetch for '{keyword}' failed: {e}")
         return []
 
+def _ncbi_params(params: dict) -> dict:
+    enriched = dict(params)
+    enriched["tool"] = os.getenv("NCBI_TOOL", "OpenSourceNews")
+    email = os.getenv("NCBI_EMAIL")
+    api_key = os.getenv("NCBI_API_KEY")
+    if email:
+        enriched["email"] = email
+    if api_key:
+        enriched["api_key"] = api_key
+    return enriched
+
+def fetch_pubmed_query(query: str, limit: int = 5):
+    """Fetch recent PubMed records for peptide/wellness monitoring."""
+    if not query:
+        return []
+    try:
+        search_resp = requests.get(
+            "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+            params=_ncbi_params(
+                {
+                    "db": "pubmed",
+                    "term": query,
+                    "retmode": "json",
+                    "sort": "date",
+                    "retmax": limit,
+                }
+            ),
+            headers=HTTP_HEADERS,
+            timeout=HTTP_TIMEOUT,
+        )
+        search_resp.raise_for_status()
+        ids = search_resp.json().get("esearchresult", {}).get("idlist", [])
+        if not ids:
+            return []
+
+        summary_resp = requests.get(
+            "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+            params=_ncbi_params(
+                {
+                    "db": "pubmed",
+                    "id": ",".join(ids),
+                    "retmode": "json",
+                }
+            ),
+            headers=HTTP_HEADERS,
+            timeout=HTTP_TIMEOUT,
+        )
+        summary_resp.raise_for_status()
+        data = summary_resp.json().get("result", {})
+
+        items = []
+        for pmid in ids:
+            rec = data.get(pmid)
+            if not isinstance(rec, dict):
+                continue
+            title = (rec.get("title") or "").strip().rstrip(".")
+            if not title:
+                continue
+            journal = rec.get("fulljournalname") or rec.get("source") or "PubMed"
+            pubdate = rec.get("pubdate") or ""
+            authors = [
+                author.get("name")
+                for author in rec.get("authors", [])[:3]
+                if isinstance(author, dict) and author.get("name")
+            ]
+            summary = " | ".join(
+                part
+                for part in (
+                    f"Journal: {journal}",
+                    f"Date: {pubdate}" if pubdate else "",
+                    f"Authors: {', '.join(authors)}" if authors else "",
+                    f"Query: {query}",
+                )
+                if part
+            )
+            items.append(
+                {
+                    "title": title,
+                    "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+                    "source": "PubMed",
+                    "category": "Peer-reviewed Research",
+                    "summary": summary,
+                    "bucket": "peptides",
+                    "content_type": "research",
+                    "source_category": "research_database",
+                    "trust_layer": "truth",
+                    "trust_level": "very_high",
+                    "evidence_level": "peer_reviewed_or_indexed",
+                    "verification_mode": "truth_layer",
+                    "regulatory_sensitivity": "medium",
+                    "content_use": "science_monitoring",
+                    "safe_framing": "Educational only; do not translate indexed abstracts into medical, treatment, or product claims without review.",
+                    "medical_claim_policy": "No disease, dosing, safety, or efficacy claims without qualified review and primary-source verification.",
+                }
+            )
+        return items
+    except Exception as e:
+        print(f"ERROR: PubMed fetch for '{query}' failed: {e}")
+        return []
+
+def fetch_clinical_trials_query(query: str, limit: int = 5):
+    """Fetch ClinicalTrials.gov study records for peptide/wellness monitoring."""
+    if not query:
+        return []
+    try:
+        resp = requests.get(
+            "https://clinicaltrials.gov/api/v2/studies",
+            params={"query.term": query, "pageSize": limit, "format": "json"},
+            headers=HTTP_HEADERS,
+            timeout=HTTP_TIMEOUT,
+        )
+        resp.raise_for_status()
+        studies = resp.json().get("studies", [])
+
+        items = []
+        for study in studies[:limit]:
+            protocol = study.get("protocolSection", {}) if isinstance(study, dict) else {}
+            ident = protocol.get("identificationModule", {})
+            status_mod = protocol.get("statusModule", {})
+            design_mod = protocol.get("designModule", {})
+            conditions_mod = protocol.get("conditionsModule", {})
+            interventions_mod = protocol.get("armsInterventionsModule", {})
+
+            nct_id = ident.get("nctId")
+            title = ident.get("briefTitle") or ident.get("officialTitle") or nct_id
+            if not nct_id or not title:
+                continue
+
+            phases = design_mod.get("phases") or []
+            conditions = conditions_mod.get("conditions") or []
+            interventions = [
+                intervention.get("name")
+                for intervention in interventions_mod.get("interventions", [])[:4]
+                if isinstance(intervention, dict) and intervention.get("name")
+            ]
+            summary = " | ".join(
+                part
+                for part in (
+                    f"NCT: {nct_id}",
+                    f"Status: {status_mod.get('overallStatus') or 'unknown'}",
+                    f"Phase: {', '.join(phases)}" if phases else "",
+                    f"Conditions: {', '.join(conditions[:4])}" if conditions else "",
+                    f"Interventions: {', '.join(interventions)}" if interventions else "",
+                    f"Query: {query}",
+                )
+                if part
+            )
+
+            items.append(
+                {
+                    "title": title,
+                    "url": f"https://clinicaltrials.gov/study/{nct_id}",
+                    "source": "ClinicalTrials.gov",
+                    "category": "Clinical Trial Registry",
+                    "summary": summary,
+                    "bucket": "peptides",
+                    "content_type": "clinical_trial",
+                    "source_category": "clinical_trial_registry",
+                    "trust_layer": "truth",
+                    "trust_level": "very_high",
+                    "evidence_level": "human_clinical_registry",
+                    "verification_mode": "truth_layer",
+                    "regulatory_sensitivity": "high",
+                    "content_use": "evidence_checkpoint",
+                    "safe_framing": "Registry signal only; trial listing is not proof of safety, approval, or efficacy.",
+                    "medical_claim_policy": "Use only to identify study status, phase, endpoint direction, and evidence gaps.",
+                }
+            )
+        return items
+    except Exception as e:
+        print(f"ERROR: ClinicalTrials.gov fetch for '{query}' failed: {e}")
+        return []
+
 def fetch_x_profile_posts(username: str):
     if not username: return []
     print(f"INFO: Skipping X placeholder for @{username}. Implement with official X API.")
@@ -197,12 +370,57 @@ BUCKET_MAP = {
     "Blockchain / Crypto / Web3": "blockchain",
     "Sense-Making & Narrative Analysis": "sense_making",
     "Alternative News & Independent Commentary": "alternative_news",
+    "Peptides / Wellness / Longevity": "peptides",
 }
 
 
 def apply_bucket_metadata(item: dict, topic_name: str) -> dict:
     """Add bucket-specific metadata that downstream consumers can filter on."""
     bucket = item.get("bucket") or BUCKET_MAP.get(topic_name, "general")
+    if bucket == "peptides":
+        source = item.get("source") or ""
+        truth_sources = {"PubMed", "ClinicalTrials.gov"}
+        trend_sources = {"YouTube", "Hacker News"}
+        return {
+            **item,
+            "bucket": "peptides",
+            "mode": item.get("mode") or (
+                "truth_layer" if source in truth_sources else "trend_monitoring"
+            ),
+            "stance": item.get("stance") or "medical_education",
+            "affiliation": item.get("affiliation") or (
+                "institutional" if source in truth_sources else "mixed"
+            ),
+            "risk_level": item.get("risk_level") or (
+                "regulated" if source in truth_sources else "needs_review"
+            ),
+            "verification_mode": item.get("verification_mode") or (
+                "truth_layer" if source in truth_sources else "needs_review"
+            ),
+            "source_category": item.get("source_category") or (
+                "trend_signal" if source in trend_sources else "medical_information"
+            ),
+            "trust_layer": item.get("trust_layer") or (
+                "truth" if source in truth_sources else "demand_signal"
+            ),
+            "trust_level": item.get("trust_level") or (
+                "very_high" if source in truth_sources else "low_for_evidence"
+            ),
+            "evidence_level": item.get("evidence_level") or (
+                "indexed_or_registered" if source in truth_sources else "anecdotal_or_commentary"
+            ),
+            "regulatory_sensitivity": item.get("regulatory_sensitivity") or "high",
+            "content_use": item.get("content_use") or (
+                "evidence_checkpoint" if source in truth_sources else "hook_and_question_mining"
+            ),
+            "safe_framing": item.get("safe_framing")
+            or "Use conservative wellness education framing; verify every peptide claim against truth-layer sources.",
+            "medical_claim_policy": item.get("medical_claim_policy")
+            or "No medical, dosing, disease, or treatment claims without qualified review and primary-source support.",
+            "content_warning": item.get("content_warning")
+            or "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
+        }
+
     if bucket != "alternative_news":
         return item
 
@@ -227,10 +445,13 @@ def classify_item(item: dict, topic_name: str) -> dict:
     default_bucket = BUCKET_MAP.get(topic_name, "general")
 
     if not llm:
+        default_content_type = "commentary" if default_bucket == "alternative_news" else "news"
+        if default_bucket == "peptides":
+            default_content_type = item.get("content_type") or "medical_information"
         fallback = {
             **item,
             "bucket": default_bucket,
-            "content_type": "commentary" if default_bucket == "alternative_news" else "news",
+            "content_type": default_content_type,
             "processing_mode": "standard_summary",
             "classification_confidence": 0.5,
         }
@@ -249,16 +470,17 @@ Topic group: {topic_name}
 
 Return:
 {{
-  "bucket": "<general|ai|blockchain|sense_making|alternative_news>",
-  "content_type": "<news|tutorial|product_release|opinion|commentary|interview|investigation|speculative_claim|research|market_narrative>",
+  "bucket": "<general|ai|blockchain|sense_making|alternative_news|peptides>",
+  "content_type": "<news|tutorial|product_release|opinion|commentary|interview|investigation|speculative_claim|research|clinical_trial|regulatory_update|safety_warning|consumer_medical_education|medical_information|market_narrative>",
   "processing_mode": "<standard_summary|wisdom_extraction|claim_mapping>",
   "confidence": <0.0-1.0>
 }}
 
 Rules:
 - alternative_news is reserved for independent/personality-led commentary and must not be mixed into mainstream reporting.
+- peptides is reserved for peptide, GLP-1, wellness, longevity, safety, clinical trial, PubMed, FDA, and market/demand signals.
 - wisdom_extraction: for tutorials, educational explainers, technical walkthroughs
-- claim_mapping: for contested narratives, geopolitical analysis, institutional critique, speculative claims
+- claim_mapping: for contested narratives, speculative claims, medical/wellness claims, safety concerns, and alternative-health commentary
 - standard_summary: for everything else (news, product releases, funding announcements)"""
 
     try:
@@ -267,6 +489,8 @@ Rules:
         classified_bucket = (
             "alternative_news"
             if default_bucket == "alternative_news"
+            else "peptides"
+            if default_bucket == "peptides"
             else classification.get("bucket", default_bucket)
         )
         classified = {
@@ -274,7 +498,11 @@ Rules:
             "bucket": classified_bucket,
             "content_type": classification.get(
                 "content_type",
-                "commentary" if classified_bucket == "alternative_news" else "news",
+                "commentary"
+                if classified_bucket == "alternative_news"
+                else (item.get("content_type") or "medical_information")
+                if classified_bucket == "peptides"
+                else "news",
             ),
             "processing_mode": classification.get("processing_mode", "standard_summary"),
             "classification_confidence": classification.get("confidence", 0.5),
@@ -286,7 +514,11 @@ Rules:
     fallback = {
         **item,
         "bucket": default_bucket,
-        "content_type": "commentary" if default_bucket == "alternative_news" else "news",
+        "content_type": "commentary"
+        if default_bucket == "alternative_news"
+        else (item.get("content_type") or "medical_information")
+        if default_bucket == "peptides"
+        else "news",
         "processing_mode": "standard_summary",
         "classification_confidence": 0.5,
     }
@@ -483,9 +715,35 @@ def triage_and_categorize_content(topic_name: str, items: list) -> list:
 
     def fallback_triage(item_list):
         return [
-            {**item, "category": "General News", "summary": ""}
+            {
+                **item,
+                "category": item.get("category") or "General News",
+                "summary": item.get("summary") or "",
+            }
             for item in item_list
         ]
+
+    def merge_triage_metadata(raw_items, triaged_items):
+        """Keep source-specific metadata even when the LLM returns a minimal triage object."""
+        by_url = {
+            str(item.get("url") or "").strip(): item
+            for item in raw_items
+            if isinstance(item, dict) and item.get("url")
+        }
+        by_title = {
+            str(item.get("title") or "").strip().lower(): item
+            for item in raw_items
+            if isinstance(item, dict) and item.get("title")
+        }
+        merged = []
+        for triaged in triaged_items:
+            if not isinstance(triaged, dict):
+                continue
+            raw = by_url.get(str(triaged.get("url") or "").strip())
+            if raw is None:
+                raw = by_title.get(str(triaged.get("title") or "").strip().lower(), {})
+            merged.append({**raw, **triaged})
+        return merged
 
     if not llm:
         return fallback_triage(items)
@@ -507,7 +765,7 @@ Raw items:
         parsed_json = parse_json_text(text_response)
         if isinstance(parsed_json, list):
             print(f"  ✓ Triage successful: {len(parsed_json)} items categorized")
-            return parsed_json
+            return merge_triage_metadata(items, parsed_json)
         print(f"  ✗ Triage returned non-list: {type(parsed_json)}")
     except json.JSONDecodeError as je:
         print(f"ERROR: Triage JSON parse failed: {je}")
@@ -552,6 +810,8 @@ def main():
         'youtube_sources': fetch_youtube,
         'github_sources': fetch_github_trending,
         'hackernews_sources': fetch_hackernews,
+        'pubmed_sources': fetch_pubmed_query,
+        'clinical_trials_sources': fetch_clinical_trials_query,
         'x_sources': fetch_x_profile_posts,
         'instagram_sources': fetch_instagram_profile_posts,
     }

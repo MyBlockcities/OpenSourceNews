@@ -140,3 +140,42 @@ topics:
       - "@johnnyharris"                                            # Independent documentary explainers
       - "@tldrpodcasts"                                            # World news and policy summaries
       - "theindependent"                                           # Conventional independent newsroom
+
+  # ──────────────────────────────────────────────────────────
+  # Bucket 6: Peptides / Wellness / Longevity
+  # Medically sensitive peptide research, safety, regulatory,
+  # and market-demand signals. Keep truth-layer sources distinct
+  # from trend/listening sources for downstream compliance review.
+  # ──────────────────────────────────────────────────────────
+  - topic_name: "Peptides / Wellness / Longevity"
+    pubmed_sources:
+      - "(peptides[Title/Abstract] OR peptide therapeutics[Title/Abstract]) AND wellness"
+      - "BPC-157 peptide"
+      - "GHK-Cu peptide"
+      - "KPV peptide"
+      - "NAD+ peptide"
+      - "GLP-1 peptide"
+      - "collagen peptides"
+      - "thymosin alpha-1 peptide"
+    clinical_trials_sources:
+      - "peptide therapy"
+      - "BPC-157"
+      - "GHK-Cu"
+      - "NAD+"
+      - "GLP-1"
+      - "collagen peptides"
+      - "semaglutide peptide"
+      - "tirzepatide"
+      - "retatrutide"
+    hackernews_sources:
+      - "peptides"
+      - "GLP-1"
+      - "longevity"
+      - "FDA peptide"
+    rss_sources:
+      - "https://erictopol.substack.com/feed"                      # Ground Truths / medical interpretation
+    youtube_sources:
+      - "Ben Greenfield peptides"                                  # Trend/listening only
+      - "Dave Asprey peptides"                                      # Trend/listening only
+      - "peptides physician lecture"                                # Educational/trend monitoring
+      - "GLP-1 peptide science"                                     # Educational/trend monitoring

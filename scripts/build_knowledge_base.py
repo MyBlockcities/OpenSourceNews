@@ -111,6 +111,10 @@ def build_daily_section() -> Dict[str, Any]:
                     item.get("unique_value", ""),
                     item.get("neutral_synthesis", ""),
                     item.get("implementation_notes", ""),
+                    item.get("source_category", ""),
+                    item.get("trust_layer", ""),
+                    item.get("evidence_level", ""),
+                    item.get("safe_framing", ""),
                 ]
                 claims = item.get("claims") or []
                 for claim in claims:
@@ -149,6 +153,14 @@ def build_daily_section() -> Dict[str, Any]:
                         "risk_level": item.get("risk_level"),
                         "verification_mode": item.get("verification_mode"),
                         "content_warning": item.get("content_warning"),
+                        "source_category": item.get("source_category"),
+                        "trust_layer": item.get("trust_layer"),
+                        "trust_level": item.get("trust_level"),
+                        "evidence_level": item.get("evidence_level"),
+                        "regulatory_sensitivity": item.get("regulatory_sensitivity"),
+                        "content_use": item.get("content_use"),
+                        "safe_framing": item.get("safe_framing"),
+                        "medical_claim_policy": item.get("medical_claim_policy"),
                         "classification_confidence": item.get("classification_confidence"),
                         # Wisdom extraction fields
                         "key_lessons": item.get("key_lessons"),
