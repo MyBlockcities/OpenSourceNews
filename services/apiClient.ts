@@ -3,9 +3,10 @@
  * (static UI on one host, Flask API on another).
  *
  * - VITE_API_BASE_URL: e.g. https://opensourcenews-api-production.up.railway.app (no trailing slash)
- * - VITE_API_BEARER_TOKEN: optional; only if the API has OPEN_SOURCE_NEWS_API_KEY set.
- *   Note: tokens in Vite builds are visible in the browser bundle — prefer an edge/reverse proxy
- *   that injects Authorization server-side for production.
+ * - VITE_API_BEARER_TOKEN: private/dev escape hatch only.
+ *   Tokens in Vite builds are visible in the browser bundle. Production should prefer
+ *   public read endpoints or a same-origin server/edge proxy that injects Authorization.
+ * - VITE_ALLOW_BROWSER_BEARER_TOKEN=1: required before VITE_API_BEARER_TOKEN is used.
  */
 
 export function getApiBase(): string {
@@ -20,7 +21,10 @@ export function apiUrl(path: string): string {
     return `${getApiBase()}${path}`;
 }
 
-const browserBearer = import.meta.env.VITE_API_BEARER_TOKEN || '';
+const browserBearer =
+    import.meta.env.VITE_ALLOW_BROWSER_BEARER_TOKEN === '1'
+        ? import.meta.env.VITE_API_BEARER_TOKEN || ''
+        : '';
 
 export function apiFetch(path: string, init?: RequestInit): Promise<Response> {
     const headers = new Headers(init?.headers);

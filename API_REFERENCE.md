@@ -7,13 +7,17 @@
 
 ## Authentication
 
-All endpoints (except `/api/health`) require a Bearer token when `OPEN_SOURCE_NEWS_API_KEY` is set.
+`GET /api/health` never requires authentication.
+
+Read-only `GET` endpoints are public unless `OPEN_SOURCE_NEWS_API_KEY` is set. When it is set, read endpoints require a Bearer token matching either `OPEN_SOURCE_NEWS_API_KEY` or `OPEN_SOURCE_NEWS_ADMIN_KEY`.
+
+POST/PUT/PATCH/DELETE endpoints are admin routes. In production, set `OPEN_SOURCE_NEWS_ADMIN_KEY`; if it is not set, the server falls back to `OPEN_SOURCE_NEWS_API_KEY` for backward compatibility. These routes can edit config or spend LLM/transcript quota and should not be exposed without an admin key.
 
 ```
 Authorization: Bearer <your-api-key>
 ```
 
-If `OPEN_SOURCE_NEWS_API_KEY` is not set in the environment, auth is disabled (dev mode) and all requests are allowed.
+If neither API key is set, read-only routes remain public and admin routes return `401`.
 
 **Error responses:**
 
@@ -21,6 +25,7 @@ If `OPEN_SOURCE_NEWS_API_KEY` is not set in the environment, auth is disabled (d
 |--------|------|---------|
 | 401 | `{"error": "Missing or invalid Authorization header"}` | No `Authorization: Bearer ...` header sent |
 | 401 | `{"error": "Invalid API key"}` | Token does not match the configured key |
+| 403 | `{"error": "Admin API key required"}` | Token is valid for reads but not admin routes |
 
 ---
 
@@ -237,6 +242,50 @@ Returns the latest report transformed into a **stable normalized schema** design
     }
   },
   "digest": "87 items across 4 topics from 4 source types."
+}
+```
+
+---
+
+### GET /api/news/search
+
+Search recent generated reports with a lightweight keyword ranker. This does not require Qdrant or an LLM.
+
+**Query parameters:**
+
+| Param | Type | Default | Max | Description |
+|-------|------|---------|-----|-------------|
+| `q` | string | required | | Keyword query |
+| `days` | int | 30 | 365 | Search reports dated within this many days |
+| `limit` | int | 25 | 100 | Maximum result count |
+| `topic` | string | | | Optional topic-name substring filter |
+| `source` | string | | | Optional source substring filter, e.g. `RSS` |
+| `bucket` | string | | | Optional exact bucket filter, e.g. `ai` |
+
+**Example:** `GET /api/news/search?q=agent%20framework&days=30&bucket=ai`
+
+**Response:**
+```json
+{
+  "query": "agent framework",
+  "days": 30,
+  "limit": 25,
+  "count": 2,
+  "total_matches": 2,
+  "items": [
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "a1b2c3d4e5f67890",
+      "report_date": "2026-04-04",
+      "score": 23,
+      "title": "New Agent Framework Released",
+      "summary": "A new framework for building AI agents...",
+      "source_urls": ["https://example.com/article"],
+      "topics": ["AI / AI Tools / AI Agents"],
+      "source": "RSS",
+      "bucket": "ai"
+    }
+  ]
 }
 ```
 
@@ -651,7 +700,9 @@ Full list and examples: `.env.example`.
 
 | Variable | Description |
 |----------|-------------|
-| `OPEN_SOURCE_NEWS_API_KEY` | API auth key. When set, all endpoints (except `/api/health`) require `Authorization: Bearer <key>` |
+| `OPEN_SOURCE_NEWS_ADMIN_KEY` | Admin auth key for POST/PUT/PATCH/DELETE routes. Recommended for any deployed API. |
+| `OPEN_SOURCE_NEWS_API_KEY` | Optional read auth key. When set, read-only endpoints except `/api/health` require `Authorization: Bearer <key>`. |
+| `OPEN_SOURCE_NEWS_CORS_ORIGINS` | Comma-separated browser origins allowed by CORS. Defaults to local Vite origins. |
 | `ASSEMBLYAI_API_KEY` | AssemblyAI key for fallback video transcription |
 | `YT_API_KEY` | Alias for `YOUTUBE_API_KEY` |
 | `PORT` | Server port (default: `5000`) |
@@ -663,7 +714,8 @@ Set at **build time** for the static UI (not read by the Flask process):
 | Variable | Description |
 |----------|-------------|
 | `VITE_API_BASE_URL` | API origin when UI and API are split (e.g. `https://your-api.up.railway.app`). Empty = same-origin `/api` (dev proxy or reverse proxy). |
-| `VITE_API_BEARER_TOKEN` | Optional Bearer for browser calls when API auth is on; **exposed in the JS bundle** — prefer a same-origin `/api` proxy in production. |
+| `VITE_API_BEARER_TOKEN` | Private/dev escape hatch only. Vite exposes this in the public JS bundle. Ignored unless `VITE_ALLOW_BROWSER_BEARER_TOKEN=1`. |
+| `VITE_ALLOW_BROWSER_BEARER_TOKEN` | Set to `1` only for private/dev deployments where exposing the token in browser code is acceptable. |
 | `MAILAROO_API_KEY` | Mailaroo email API key for pipeline notifications |
 | `MAILAROO_TO_EMAIL` | Recipient email for pipeline notifications |
 | `QDRANT_URL` | Qdrant cluster URL for knowledge base sync |
@@ -688,6 +740,7 @@ Common HTTP status codes:
 | 200 | Success |
 | 400 | Bad request (missing/invalid parameters) |
 | 401 | Unauthorized (missing or invalid API key) |
+| 403 | Forbidden (read token used on an admin route) |
 | 404 | Resource not found |
 | 500 | Server error (LLM not configured, upstream LLM failure, etc.) |
 
@@ -717,10 +770,17 @@ curl http://localhost:5000/api/health
 # 5. Get latest report
 curl http://localhost:5000/api/reports/latest
 
-# 6. With auth enabled
+# 6. With read auth enabled
 export OPEN_SOURCE_NEWS_API_KEY=your-secret
 python3 api/script_generator.py
 curl -H "Authorization: Bearer your-secret" http://localhost:5000/api/reports/latest
+
+# 7. For deployed admin/expensive routes
+export OPEN_SOURCE_NEWS_ADMIN_KEY=your-admin-secret
+curl -H "Authorization: Bearer your-admin-secret" \
+  -H "Content-Type: application/json" \
+  -X PUT http://localhost:5000/api/config/feeds \
+  -d '{"topics":[{"topic_name":"AI","rss_sources":[]}]}'
 ```
 
 ---

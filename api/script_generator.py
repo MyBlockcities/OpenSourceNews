@@ -2,12 +2,13 @@
 """Backend API for research orchestration and on-demand generation."""
 
 import hashlib
+import hmac
 import json
 import os
 import shutil
 import sys
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Any, Dict, List
 
 import requests
@@ -30,31 +31,87 @@ from pipelines.transcript_analysis import analyze_transcript_auto
 from pipelines.llm_provider import parse_json_text, try_get_llm_client
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for frontend
+
+
+def _cors_origins():
+    raw = os.environ.get("OPEN_SOURCE_NEWS_CORS_ORIGINS", "").strip()
+    if raw:
+        origins = [origin.strip() for origin in raw.split(",") if origin.strip()]
+        return origins or []
+    return [
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "http://localhost:4173",
+        "http://127.0.0.1:4173",
+    ]
+
+
+CORS(app, origins=_cors_origins())
 
 # --- API Authentication ---
 OPEN_SOURCE_NEWS_API_KEY = os.environ.get("OPEN_SOURCE_NEWS_API_KEY")
+OPEN_SOURCE_NEWS_ADMIN_KEY = os.environ.get("OPEN_SOURCE_NEWS_ADMIN_KEY")
 
 # Endpoints that don't require authentication
 AUTH_EXEMPT_PATHS = {"/api/health"}
+WRITE_OR_EXPENSIVE_METHODS = {"POST", "PUT", "PATCH", "DELETE"}
+
+
+def _extract_bearer() -> str:
+    auth_header = request.headers.get("Authorization", "")
+    if not auth_header.startswith("Bearer "):
+        return ""
+    return auth_header[len("Bearer "):].strip()
+
+
+def _token_matches(token: str, expected: str | None) -> bool:
+    return bool(token and expected and hmac.compare_digest(token, expected))
+
+
+def _valid_read_token(token: str) -> bool:
+    return _token_matches(token, OPEN_SOURCE_NEWS_API_KEY) or _token_matches(
+        token, OPEN_SOURCE_NEWS_ADMIN_KEY
+    )
+
+
+def _valid_admin_token(token: str) -> bool:
+    admin_key = OPEN_SOURCE_NEWS_ADMIN_KEY or OPEN_SOURCE_NEWS_API_KEY
+    return _token_matches(token, admin_key)
 
 
 @app.before_request
 def check_api_auth():
-    """Validate Bearer token on all endpoints except exempt ones."""
+    """Validate Bearer tokens.
+
+    GET routes can be public when OPEN_SOURCE_NEWS_API_KEY is unset.
+    Write/POST routes are admin-only when OPEN_SOURCE_NEWS_ADMIN_KEY or
+    OPEN_SOURCE_NEWS_API_KEY is configured.
+    """
     if request.method == "OPTIONS":
         return None
     if request.path in AUTH_EXEMPT_PATHS:
         return None
-    if not OPEN_SOURCE_NEWS_API_KEY:
-        # Auth not configured — allow all requests (dev mode)
+
+    token = _extract_bearer()
+    is_admin_route = request.method in WRITE_OR_EXPENSIVE_METHODS
+
+    if is_admin_route and (OPEN_SOURCE_NEWS_ADMIN_KEY or OPEN_SOURCE_NEWS_API_KEY):
+        if not token:
+            return jsonify({"error": "Missing or invalid Authorization header"}), 401
+        if not _valid_admin_token(token):
+            return jsonify({"error": "Admin API key required"}), 403
         return None
-    auth_header = request.headers.get("Authorization", "")
-    if not auth_header.startswith("Bearer "):
+
+    if OPEN_SOURCE_NEWS_API_KEY:
+        if not token:
+            return jsonify({"error": "Missing or invalid Authorization header"}), 401
+        if not _valid_read_token(token):
+            return jsonify({"error": "Invalid API key"}), 401
+        return None
+
+    if is_admin_route:
         return jsonify({"error": "Missing or invalid Authorization header"}), 401
-    token = auth_header[len("Bearer "):]
-    if token != OPEN_SOURCE_NEWS_API_KEY:
-        return jsonify({"error": "Invalid API key"}), 401
+
     return None
 
 
@@ -464,6 +521,79 @@ def _load_report(path: Path) -> dict:
         return json.load(f)
 
 
+def _parse_positive_int(value: Any, default: int, maximum: int) -> int:
+    try:
+        parsed = int(value)
+    except (TypeError, ValueError):
+        return default
+    return max(1, min(parsed, maximum))
+
+
+def _report_date(path: Path) -> datetime | None:
+    try:
+        return datetime.strptime(path.stem, "%Y-%m-%d")
+    except ValueError:
+        return None
+
+
+def _item_search_text(topic_name: str, item: dict) -> str:
+    fields: List[str] = [
+        topic_name,
+        item.get("title") or "",
+        item.get("summary") or "",
+        item.get("category") or "",
+        item.get("source") or "",
+        item.get("content_type") or "",
+        item.get("bucket") or "",
+        item.get("main_topic") or "",
+        item.get("neutral_synthesis") or "",
+        item.get("implementation_notes") or "",
+    ]
+    for key in (
+        "key_insights",
+        "key_lessons",
+        "actionable_steps",
+        "tools_mentioned",
+        "frameworks_mentioned",
+        "entities",
+        "uncertainty_markers",
+    ):
+        value = item.get(key)
+        if isinstance(value, list):
+            fields.extend(str(entry) for entry in value)
+    claims = item.get("claims")
+    if isinstance(claims, list):
+        for claim in claims:
+            if isinstance(claim, dict):
+                fields.extend(str(claim.get(k) or "") for k in ("claim", "evidence_cited", "analyst_note"))
+            else:
+                fields.append(str(claim))
+    return " ".join(fields).lower()
+
+
+def _search_score(query_terms: List[str], topic_name: str, item: dict) -> int:
+    title = (item.get("title") or "").lower()
+    summary = (item.get("summary") or "").lower()
+    search_text = _item_search_text(topic_name, item)
+
+    score = 0
+    for term in query_terms:
+        if not term:
+            continue
+        if term in title:
+            score += 10
+        if term in summary:
+            score += 4
+        if term in search_text:
+            score += 1
+    if " ".join(query_terms) and " ".join(query_terms) in search_text:
+        score += 8
+    quality = item.get("quality_score")
+    if isinstance(quality, (int, float)):
+        score += min(int(quality), 10)
+    return score
+
+
 def _transcript_metadata_block(item: dict) -> dict:
     """Stable transcript sub-object for normalized items (explicit nulls)."""
     inner = item.get("transcript_metadata")
@@ -623,6 +753,67 @@ def reports_latest_normalized():
     return jsonify(_normalize_report(report_date, report_data))
 
 
+@app.route('/api/news/search', methods=['GET'])
+def news_search():
+    """Keyword search across recent daily reports."""
+    query = (request.args.get("q") or "").strip()
+    if not query:
+        return jsonify({"error": "Missing required query parameter: q"}), 400
+
+    days = _parse_positive_int(request.args.get("days"), default=30, maximum=365)
+    limit = _parse_positive_int(request.args.get("limit"), default=25, maximum=100)
+    topic_filter = (request.args.get("topic") or "").strip().lower()
+    source_filter = (request.args.get("source") or "").strip().lower()
+    bucket_filter = (request.args.get("bucket") or "").strip().lower()
+
+    query_terms = [term for term in query.lower().split() if term]
+    cutoff = datetime.utcnow() - timedelta(days=days)
+    results: List[Dict[str, Any]] = []
+
+    for report_path in _list_report_files(limit=365):
+        report_dt = _report_date(report_path)
+        if report_dt and report_dt < cutoff:
+            continue
+
+        try:
+            report = _load_report(report_path)
+        except Exception as e:
+            print(f"WARNING: Could not load report {report_path}: {e}")
+            continue
+
+        for topic_name, topic_items in report.items():
+            if topic_filter and topic_filter not in topic_name.lower():
+                continue
+            if not isinstance(topic_items, list):
+                continue
+            for item in topic_items:
+                if not isinstance(item, dict):
+                    continue
+                if source_filter and source_filter not in (item.get("source") or "").lower():
+                    continue
+                if bucket_filter and bucket_filter != (item.get("bucket") or "").lower():
+                    continue
+
+                score = _search_score(query_terms, topic_name, item)
+                if score <= 0:
+                    continue
+
+                normalized = _normalize_item(topic_name, item)
+                normalized["report_date"] = report_path.stem
+                normalized["score"] = score
+                results.append(normalized)
+
+    results.sort(key=lambda it: (it.get("score", 0), it.get("quality_score") or 0, it.get("report_date", "")), reverse=True)
+    return jsonify({
+        "query": query,
+        "days": days,
+        "limit": limit,
+        "count": min(len(results), limit),
+        "total_matches": len(results),
+        "items": results[:limit],
+    })
+
+
 # ---------------------------------------------------------------------------
 # Configuration endpoints (for Settings UI)
 # ---------------------------------------------------------------------------
@@ -753,7 +944,10 @@ if __name__ == '__main__':
     print("=" * 60)
     print("OpenSourceNews Backend API")
     print("=" * 60)
-    print(f"\nAuth: {'ENABLED' if OPEN_SOURCE_NEWS_API_KEY else 'DISABLED (dev mode)'}")
+    read_auth = "ENABLED" if OPEN_SOURCE_NEWS_API_KEY else "PUBLIC"
+    admin_auth = "ENABLED" if (OPEN_SOURCE_NEWS_ADMIN_KEY or OPEN_SOURCE_NEWS_API_KEY) else "BLOCKED (no admin key)"
+    print(f"\nRead auth: {read_auth}")
+    print(f"Admin route auth: {admin_auth}")
     print(f"Starting server on http://localhost:{port}")
     print("=" * 60)
 

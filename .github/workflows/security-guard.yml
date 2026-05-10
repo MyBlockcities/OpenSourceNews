@@ -1,0 +1,35 @@
+name: Security Guard
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  browser-token-guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check frontend Bearer token safeguards
+        run: |
+          set -euo pipefail
+
+          if grep -R "^[[:space:]]*VITE_ALLOW_BROWSER_BEARER_TOKEN=1" . --exclude-dir=.git --exclude-dir=node_modules; then
+            echo "Do not commit VITE_ALLOW_BROWSER_BEARER_TOKEN=1. Browser tokens are public."
+            exit 1
+          fi
+
+          if ! grep -q "VITE_ALLOW_BROWSER_BEARER_TOKEN === '1'" services/apiClient.ts; then
+            echo "services/apiClient.ts must require explicit opt-in before using VITE_API_BEARER_TOKEN."
+            exit 1
+          fi
+
+          echo "Browser token guard passed."

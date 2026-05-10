@@ -73,8 +73,10 @@ def post_daily_digest(
     if not url:
         return True, "skipped (no ingest URL)"
 
-    if not url.lower().startswith("https://") and not url.lower().startswith("http://"):
-        return False, "ingest URL must start with http:// or https://"
+    lowered_url = url.lower()
+    local_http = lowered_url.startswith("http://localhost") or lowered_url.startswith("http://127.0.0.1")
+    if not lowered_url.startswith("https://") and not local_http:
+        return False, "ingest URL must be https:// unless it targets localhost"
 
     markdown_text: Optional[str] = None
     if markdown_path and _truthy("EXTERNAL_INGEST_INCLUDE_MARKDOWN", default=True):

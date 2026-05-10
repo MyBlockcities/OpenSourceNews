@@ -58,9 +58,11 @@ Common variables:
 - `GEMINI_API_KEY`: still used for **Qdrant embeddings** in `scripts/sync_knowledge_base_to_qdrant.py` (Google `text-embedding-004`) when you sync the knowledge base
 - `YT_API_KEY` or `YOUTUBE_API_KEY`: required for YouTube metadata collection
 - `ASSEMBLYAI_API_KEY`: optional transcript fallback
-- `OPEN_SOURCE_NEWS_API_KEY`: optional on the API; when set, all routes except `GET /api/health` require a Bearer token
+- `OPEN_SOURCE_NEWS_ADMIN_KEY`: recommended for any deployed API; protects POST/PUT/PATCH/DELETE routes that can edit config or spend LLM/transcript quota
+- `OPEN_SOURCE_NEWS_API_KEY`: optional read token; when set, read-only routes except `GET /api/health` require a Bearer token too
+- `OPEN_SOURCE_NEWS_CORS_ORIGINS`: comma-separated browser origins allowed to call the API; defaults to local Vite origins
 - `VITE_API_BASE_URL`: optional at **frontend build time**; set to the API origin when the UI and API are on different hosts (see `docs/DEPLOYMENT.md`)
-- `VITE_API_BEARER_TOKEN`: optional; only if the API enforces auth and you accept embedding a token in the static bundle (prefer same-origin proxy in production)
+- `VITE_API_BEARER_TOKEN`: private/dev escape hatch only; Vite embeds it in the public browser bundle and the app ignores it unless `VITE_ALLOW_BROWSER_BEARER_TOKEN=1`
 - `QDRANT_URL`: required only if syncing the knowledge base into Qdrant
 - `QDRANT_API_KEY`: optional, depending on your Qdrant deployment
 
@@ -123,6 +125,12 @@ Generate a weekly summary:
 python3 pipelines/weekly_analyzer.py
 ```
 
+Search generated reports through the API:
+
+```bash
+curl "http://localhost:5000/api/news/search?q=agent%20framework&days=30"
+```
+
 ## Outputs
 
 - `outputs/daily/*.json`: daily machine-readable reports
@@ -133,6 +141,18 @@ python3 pipelines/weekly_analyzer.py
 - `outputs/knowledge_base/knowledge_base.jsonl`: normalized line-delimited records
 
 Generated markdown reports and archived notes are written under local `docs/`, which is ignored by git.
+
+Preview output pruning without deleting files:
+
+```bash
+python3 scripts/prune_outputs.py
+```
+
+Apply pruning when the retention window looks right:
+
+```bash
+python3 scripts/prune_outputs.py --keep-days 120 --apply
+```
 
 ## Knowledge base
 
@@ -174,10 +194,15 @@ The sync script:
 - `.github/workflows/knowledge-base.yml`: rebuilds the aggregate KB and uploads it as an artifact (09:30 UTC daily)
 - `.github/workflows/report-manifest.yml`: writes `outputs/manifests/latest.json` after a successful daily run
 - `.github/workflows/api-smoke.yml`: optional smoke test against a deployed API (`API_BASE_URL` + optional `OPEN_SOURCE_NEWS_API_KEY` secrets)
+- `.github/workflows/prune-outputs.yml`: manual dry-run/apply pruning for generated output retention
+- `.github/workflows/security-guard.yml`: checks committed config for unsafe browser token settings
+- `.github/workflows/status-summary.yml`: scheduled/manual summary of latest generated output health
 
 ## Public-release notes
 
 - Keep real credentials only in `.env`, `.env.local`, or GitHub Secrets
+- Do not put `OPEN_SOURCE_NEWS_ADMIN_KEY`, `OPEN_SOURCE_NEWS_API_KEY`, vendor API keys, or ingest Bearer tokens into `VITE_*` variables for a public frontend
+- For public deployments, prefer public read-only report endpoints plus `OPEN_SOURCE_NEWS_ADMIN_KEY` for expensive/admin API routes
 - The ignored `docs/` tree is intended for private notes, audits, and generated markdown artifacts
 - Review `config/feeds.yaml` before publishing if the source list contains anything you do not want to ship by default
 

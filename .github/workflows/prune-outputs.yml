@@ -1,0 +1,64 @@
+name: Prune Generated Outputs
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Delete selected old output files. Leave false for dry-run."
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+      keep_days:
+        description: "Keep files dated within this many days."
+        required: true
+        default: "120"
+      keep_daily_min:
+        description: "Always keep at least this many daily reports."
+        required: true
+        default: "60"
+
+permissions:
+  contents: write
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Run prune dry-run/apply
+        run: |
+          args=(
+            --keep-days "${{ inputs.keep_days }}"
+            --keep-daily-min "${{ inputs.keep_daily_min }}"
+          )
+          if [ "${{ inputs.apply }}" = "true" ]; then
+            args+=(--apply)
+          fi
+          python3 scripts/prune_outputs.py "${args[@]}"
+
+      - name: Commit pruned outputs
+        if: ${{ inputs.apply == 'true' }}
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions-bot@users.noreply.github.com"
+          if git diff --quiet -- outputs; then
+            echo "No pruned outputs to commit"
+            exit 0
+          fi
+          git add outputs
+          git commit -m "Prune generated outputs"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            git push && exit 0
+            echo "Push failed on attempt ${attempt}; retrying..."
+            sleep 5
+          done
+          exit 1

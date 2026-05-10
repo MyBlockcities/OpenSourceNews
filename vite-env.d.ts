@@ -2,8 +2,9 @@
 
 interface ImportMetaEnv {
   readonly VITE_API_BASE_URL?: string;
-  /** Optional Bearer token when API auth is enabled (visible in client bundle). */
+  /** Private/dev escape hatch only; visible in the public client bundle. */
   readonly VITE_API_BEARER_TOKEN?: string;
+  readonly VITE_ALLOW_BROWSER_BEARER_TOKEN?: string;
 }
 
 interface ImportMeta {

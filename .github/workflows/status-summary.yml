@@ -1,0 +1,43 @@
+name: Output Status Summary
+
+on:
+  schedule:
+    - cron: "45 12 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Summarize generated outputs
+        run: |
+          python3 - << 'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+
+          daily = sorted(Path("outputs/daily").glob("*.json"), reverse=True)
+          scripts = sorted(Path("outputs/scripts").glob("*"), reverse=True)
+          transcripts = sorted(Path("outputs/transcripts").glob("*.json"), reverse=True)
+          manifest_path = Path("outputs/manifests/latest.json")
+          manifest = {}
+          if manifest_path.exists():
+              manifest = json.loads(manifest_path.read_text())
+
+          print("# OpenSourceNews Output Status")
+          print("")
+          print(f"- Latest daily report: `{daily[0].stem if daily else 'none'}`")
+          print(f"- Daily report files: `{len(daily)}`")
+          print(f"- Script/storyboard files: `{len([p for p in scripts if p.is_file()])}`")
+          print(f"- Transcript files: `{len(transcripts)}`")
+          if manifest:
+              print(f"- Manifest latest date: `{manifest.get('latest_report_date')}`")
+              print(f"- Manifest item count: `{manifest.get('item_count')}`")
+              print(f"- Manifest generated at: `{manifest.get('generated_at')}`")
+          PY
