@@ -15,6 +15,8 @@ Environment (high level):
   OPENROUTER_MODEL=google/gemma-2-9b-it:free   (example free-tier slug; pick from OpenRouter model list)
   OPENROUTER_PROVIDER_SORT=price               optional: maps to provider.sort (price|throughput|latency)
   OPENROUTER_PROVIDER_JSON={"sort":"price"}   optional: full provider object override (JSON)
+  OPENROUTER_MAX_REQUESTS_PER_RUN=0            optional hard cap per Python process; 0 = unlimited
+  OPENROUTER_MIN_INTERVAL_SECONDS=0            optional spacing between OpenRouter calls
 
   LLM_ROTATION_FAILOVER=1                     on error from chosen backend, try the other once (default on)
 """
@@ -26,6 +28,7 @@ import json
 import os
 import re
 import threading
+import time
 from abc import ABC, abstractmethod
 from typing import Any, Optional
 
@@ -142,6 +145,9 @@ class OpenRouterLLM(LLMClient):
     """OpenAI-compatible chat at OpenRouter; supports provider routing in request body."""
 
     name = "openrouter"
+    _usage_lock = threading.Lock()
+    _requests_made = 0
+    _last_request_at = 0.0
 
     def __init__(self, model_name: Optional[str] = None) -> None:
         key = os.environ.get("OPENROUTER_API_KEY")
@@ -152,6 +158,13 @@ class OpenRouterLLM(LLMClient):
         self._api_key = key
         self.model_name = model_name or os.environ.get("OPENROUTER_MODEL", DEFAULT_OPENROUTER_MODEL)
         self._url = os.environ.get("OPENROUTER_CHAT_URL", OPENROUTER_CHAT_URL).strip()
+        self._max_requests_per_run = max(
+            0, int(os.environ.get("OPENROUTER_MAX_REQUESTS_PER_RUN", "0") or "0")
+        )
+        self._min_interval_seconds = max(
+            0.0,
+            float(os.environ.get("OPENROUTER_MIN_INTERVAL_SECONDS", "0") or "0"),
+        )
 
     def _headers(self) -> dict[str, str]:
         h: dict[str, str] = {
@@ -164,6 +177,27 @@ class OpenRouterLLM(LLMClient):
         title = os.environ.get("OPENROUTER_TITLE", "OpenSourceNews").strip()
         h["X-OpenRouter-Title"] = title
         return h
+
+    def _before_request(self) -> None:
+        with OpenRouterLLM._usage_lock:
+            if (
+                self._max_requests_per_run
+                and OpenRouterLLM._requests_made >= self._max_requests_per_run
+            ):
+                raise RuntimeError(
+                    "OpenRouter request cap reached for this run "
+                    f"({self._max_requests_per_run}). Increase "
+                    "OPENROUTER_MAX_REQUESTS_PER_RUN or use no-LLM/local mode."
+                )
+
+            if self._min_interval_seconds and OpenRouterLLM._last_request_at:
+                elapsed = time.monotonic() - OpenRouterLLM._last_request_at
+                delay = self._min_interval_seconds - elapsed
+                if delay > 0:
+                    time.sleep(delay)
+
+            OpenRouterLLM._requests_made += 1
+            OpenRouterLLM._last_request_at = time.monotonic()
 
     def generate(self, prompt: str, *, json_mode: bool = False) -> str:
         messages = [{"role": "user", "content": prompt}]
@@ -184,6 +218,7 @@ class OpenRouterLLM(LLMClient):
         if prov:
             body["provider"] = prov
 
+        self._before_request()
         r = requests.post(self._url, headers=self._headers(), json=body, timeout=REQUEST_TIMEOUT)
         if r.status_code == 429:
             raise RuntimeError(

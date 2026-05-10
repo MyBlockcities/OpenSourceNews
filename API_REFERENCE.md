@@ -152,7 +152,7 @@ Returns the latest report transformed into a **stable normalized schema** design
 
 **Top-level keys (always present):** `report_date`, `items`, `sources`, `counts`, `digest`.
 
-**`counts`** includes `total`, `by_topic`, `by_source`, `by_bucket` (slug bucket ids such as `ai`, `general`, `blockchain`, `sense_making`, `unknown`), and `by_cluster`.
+**`counts`** includes `total`, `by_topic`, `by_source`, `by_bucket` (slug bucket ids such as `ai`, `general`, `blockchain`, `sense_making`, `alternative_news`, `unknown`), and `by_cluster`.
 
 **Each item** includes these keys (use `null` or empty string/array where data is missing — field names are stable):
 
@@ -165,7 +165,8 @@ Returns the latest report transformed into a **stable normalized schema** design
 | `source_urls` | string[] | Usually one URL |
 | `topics` | string[] | Topic bucket name(s) |
 | `source`, `category` | string | |
-| `content_type`, `bucket`, `processing_mode` | string | `processing_mode`: `standard_summary` \| `wisdom_extraction` \| `claim_mapping` |
+| `content_type`, `bucket`, `processing_mode` | string | `bucket`: `general` \| `ai` \| `blockchain` \| `sense_making` \| `alternative_news`; `processing_mode`: `standard_summary` \| `wisdom_extraction` \| `claim_mapping` |
+| `mode`, `stance`, `affiliation`, `risk_level`, `verification_mode`, `content_warning` | string | Populated for `alternative_news` so downstream systems can keep commentary/opinion-heavy sources separate |
 | `classification_confidence` | number \| null | |
 | `quality_score` | number \| null | |
 | `has_transcript` | boolean | |
@@ -195,6 +196,12 @@ Returns the latest report transformed into a **stable normalized schema** design
       "content_type": "product_release",
       "bucket": "ai",
       "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
       "classification_confidence": 0.85,
       "quality_score": null,
       "has_transcript": false,
@@ -223,16 +230,17 @@ Returns the latest report transformed into a **stable normalized schema** design
   ],
   "sources": ["GitHub Trending", "Hacker News", "RSS", "YouTube"],
   "counts": {
-    "total": 87,
+    "total": 100,
     "by_topic": {
       "AI / AI Tools / AI Agents": 35,
       "Blockchain / Crypto / Web3": 22,
       "General News & Research": 20,
-      "Sense-Making & Narrative Analysis": 10
+      "Sense-Making & Narrative Analysis": 10,
+      "Alternative News & Independent Commentary": 13
     },
     "by_source": {
       "RSS": 40,
-      "YouTube": 25,
+      "YouTube": 38,
       "Hacker News": 15,
       "GitHub Trending": 7
     },
@@ -240,13 +248,14 @@ Returns the latest report transformed into a **stable normalized schema** design
       "ai": 35,
       "blockchain": 22,
       "general": 20,
-      "sense_making": 10
+      "sense_making": 10,
+      "alternative_news": 13
     },
     "by_cluster": {
       "b2c3d4e5f67890a1": 2
     }
   },
-  "digest": "87 items across 4 topics from 4 source types."
+  "digest": "100 items across 5 topics from 4 source types."
 }
 ```
 
@@ -265,12 +274,13 @@ Search recent generated reports with a lightweight keyword ranker. This does not
 | `limit` | int | 25 | 100 | Maximum result count |
 | `topic` | string | | | Optional topic-name substring filter |
 | `source` | string | | | Optional source substring filter, e.g. `RSS` |
-| `bucket` | string | | | Optional exact bucket filter, e.g. `ai` |
+| `bucket` | string | | | Optional exact bucket filter, e.g. `ai` or `alternative_news` |
 
 At least one of `q`, `topic`, `source`, or `bucket` is required.
 
 **Example:** `GET /api/news/search?q=agent%20framework&days=30&bucket=ai`
 **Filter-only example:** `GET /api/news/search?topic=AI&bucket=ai&days=30`
+**Alternative bucket example:** `GET /api/news/search?bucket=alternative_news&days=30`
 
 **Response:**
 ```json
@@ -777,6 +787,8 @@ Set `LLM_PROVIDER` and the matching credentials. The API and pipelines share `pi
 | `OPENROUTER_API_KEY` | Required when `LLM_PROVIDER` is `openrouter` or `rotating`. Use free model slugs (e.g. `OPENROUTER_MODEL=google/gemma-2-9b-it:free`). See [OpenRouter provider routing](https://openrouter.ai/docs/guides/routing/provider-selection). |
 | `OPENROUTER_MODEL` | OpenRouter model id (optional; defaults in code). |
 | `OPENROUTER_PROVIDER_SORT` | Optional: `price`, `throughput`, or `latency` (maps to `provider.sort`). |
+| `OPENROUTER_MAX_REQUESTS_PER_RUN` | Optional local hard cap for OpenRouter calls in one Python process. `0` or unset means no local cap. |
+| `OPENROUTER_MIN_INTERVAL_SECONDS` | Optional local spacing between OpenRouter calls to avoid exhausting free/limited tiers too quickly. |
 | `OLLAMA_HOST` | Default `http://127.0.0.1:11434` when using Ollama. |
 | `OLLAMA_MODEL` | Default `llama3.2` when using Ollama. |
 | `GEMINI_API_KEY` | Optional. Required only when you intentionally set `LLM_PROVIDER=gemini` or use the legacy direct Qdrant sync script. Scheduled collection does not require it. |
@@ -895,9 +907,15 @@ Each item in a daily report can contain these fields after processing:
   "category": "Funding Announcement | New Framework Release | Major Partnership | Technical Analysis | General News",
   "summary": "string (1-2 sentences)",
 
-  "bucket": "general | ai | blockchain | sense_making",
-  "content_type": "news | tutorial | product_release | opinion | speculative_claim | research | market_narrative",
+  "bucket": "general | ai | blockchain | sense_making | alternative_news",
+  "content_type": "news | tutorial | product_release | opinion | commentary | interview | investigation | speculative_claim | research | market_narrative",
   "processing_mode": "standard_summary | wisdom_extraction | claim_mapping",
+  "mode": "commentary",
+  "stance": "commentary",
+  "affiliation": "independent",
+  "risk_level": "mixed",
+  "verification_mode": "needs_review",
+  "content_warning": "Opinion-heavy or contested claims may be present; verify before reuse.",
   "classification_confidence": 0.85,
 
   "quality_score": 8,
@@ -938,3 +956,5 @@ Not all fields are present on every item. Fields are populated based on the item
 - **standard_summary**: basic fields only (title, url, source, category, summary, bucket, content_type)
 - **wisdom_extraction**: adds key_lessons, actionable_steps, tools_mentioned, frameworks_mentioned, implementation_notes, difficulty
 - **claim_mapping**: adds claims, entities, uncertainty_markers, neutral_synthesis
+
+`alternative_news` items also carry commentary metadata (`mode`, `stance`, `affiliation`, `risk_level`, `verification_mode`, `content_warning`) so downstream apps can label and rank them separately from mainstream/research sources.

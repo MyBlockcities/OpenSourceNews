@@ -80,6 +80,7 @@ No committed `.env` file was found. `.gitignore` ignores `.env*` while preservin
 - [ ] Add source reputation, source type, and verification status to normalized items.
 - [x] Add watchlists for strategic topics such as AI agents, RWA/tokenization, and health/wellness peptides.
 - [x] Add mission briefs that turn daily signals into "what changed, why it matters, what to do next."
+- [x] Add a separate `alternative_news` bucket for independent/commentary-heavy sources with review metadata.
 
 ### Phase 4: Agent-Native Interfaces
 
@@ -161,12 +162,22 @@ Completed for the OpenSwarm/news-intelligence integration layer:
 - [x] Remove scheduled GitHub Actions dependency on `GEMINI_API_KEY`; daily collection and video script generation now have no-Gemini fallback paths.
 - [x] Add a downstream-friendly Qdrant JSONL export contract that does not require embedding or Qdrant credentials in this repo.
 
+## Fourth Implementation Pass
+
+Completed for source expansion and low-cost model safety:
+
+- [x] Add `Alternative News & Independent Commentary` as a dedicated source lane in `config/feeds.yaml`.
+- [x] Force that lane to emit `bucket = "alternative_news"` so it cannot be mixed into mainstream/research buckets by LLM classification.
+- [x] Add commentary metadata (`mode`, `stance`, `affiliation`, `risk_level`, `verification_mode`, `content_warning`) to normalized items, knowledge-base records, and Qdrant export payloads.
+- [x] Document all alternative-news sources and the Qdrant filter fields in `NEWS_SOURCES_AND_QDRANT_EXPORT.md`.
+- [x] Add optional OpenRouter per-process request caps and call spacing for free/limited model usage.
+
 ## Open Follow-Ups
 
 - Decide whether public report reads should stay open by default in production.
 - Decide how long generated `outputs/daily` should remain committed to git.
 - Decide whether to add object storage later for long-term history.
-- Decide whether Actions should use Gemini, OpenRouter free models, or only Ollama/local runs.
+- Keep scheduled Actions no-LLM by default; only enable OpenRouter free models if the request caps are intentionally configured.
 - Decide whether feed edits should be available from the public dashboard or only from local/admin contexts.
 - Optional later: add source reputation, source type, and verification status fields.
 - Optional later: add per-topic/per-watchlist outbound webhook fanout and a downstream receiver template.

@@ -7,6 +7,7 @@ The public repo is intended to contain the runnable system, sample configuration
 ## What it does
 
 - Collects content from RSS feeds, Hacker News, GitHub Trending, and YouTube metadata
+- Keeps independent/personality-led commentary in a separate `alternative_news` bucket with review metadata
 - Uses a configurable LLM (local Ollama, OpenRouter, or optional Gemini) for richer triage, summarization, planning, and follow-up suggestions; scheduled collection still runs without one
 - Produces daily structured outputs in `outputs/daily`
 - Produces script and storyboard outputs in `outputs/scripts`
@@ -68,6 +69,7 @@ Common variables:
 - `OPEN_SOURCE_NEWS_CORS_ORIGINS`: comma-separated browser origins allowed to call the API; defaults to local Vite origins
 - `VITE_API_BASE_URL`: optional at **frontend build time**; set to the API origin when the UI and API are on different hosts (see `docs/DEPLOYMENT.md`)
 - `VITE_API_BEARER_TOKEN`: private/dev escape hatch only; Vite embeds it in the public browser bundle and the app ignores it unless `VITE_ALLOW_BROWSER_BEARER_TOKEN=1`
+- `OPENROUTER_MAX_REQUESTS_PER_RUN` and `OPENROUTER_MIN_INTERVAL_SECONDS`: optional local guardrails if you use OpenRouter free/limited models
 - `QDRANT_URL`: required only if syncing the knowledge base into Qdrant
 - `QDRANT_API_KEY`: optional, depending on your Qdrant deployment
 
@@ -143,6 +145,7 @@ Search generated reports through the API:
 ```bash
 curl "http://localhost:5000/api/news/search?q=agent%20framework&days=30"
 curl "http://localhost:5000/api/news/search?topic=AI&bucket=ai&days=30"
+curl "http://localhost:5000/api/news/search?bucket=alternative_news&days=30"
 ```
 
 Run the local MCP server for agent clients:
@@ -216,6 +219,8 @@ The legacy direct sync script:
 - upserts records in batches
 
 For your current setup, prefer `npm run export:qdrant` and let the downstream app handle embeddings/upsert with its own credentials.
+
+See [NEWS_SOURCES_AND_QDRANT_EXPORT.md](NEWS_SOURCES_AND_QDRANT_EXPORT.md) for the current source inventory and downstream Qdrant payload contract.
 
 ## GitHub Actions
 
