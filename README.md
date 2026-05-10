@@ -203,6 +203,7 @@ After the knowledge base exists, you can preview the legacy direct Qdrant sync:
 ```bash
 python3 scripts/sync_knowledge_base_to_qdrant.py --dry-run
 python3 scripts/sync_knowledge_base_to_qdrant.py --rebuild-knowledge-base
+npm run sync:qdrant:peptides
 ```
 
 Prepare Qdrant-ready JSONL for another application to embed/upsert:
@@ -224,12 +225,27 @@ For your current setup, prefer `npm run export:qdrant` and let the downstream ap
 See [NEWS_SOURCES_AND_QDRANT_EXPORT.md](NEWS_SOURCES_AND_QDRANT_EXPORT.md) for the current source inventory and downstream Qdrant payload contract.
 See [PEPTIDES_SOURCE_AND_QDRANT_WORKFLOW.md](PEPTIDES_SOURCE_AND_QDRANT_WORKFLOW.md) for peptide source layering, safety metadata, and the OpenSwarm import command.
 
+## Influencer discovery
+
+Discover up to 20 new micro-influencer candidates per topic from free sources:
+
+```bash
+npm run discover:influencers
+python3 scripts/discover_influencers.py --dry-run --topic peptides
+```
+
+The discovery runner writes topic registries under `data/influencers/`. It uses
+YouTube Data API free quota when `YOUTUBE_API_KEY` or `YT_API_KEY` is set, reads
+RSS authors from `config/feeds.yaml`, and only extracts X/Instagram/TikTok links
+from public descriptions or feed content. It does not query paid social APIs.
+
 ## GitHub Actions
 
 - `.github/workflows/daily.yml`: scheduled daily report generation (07:00 UTC)
 - `.github/workflows/video-script.yml`: scheduled video script generation (08:00 UTC daily)
 - `.github/workflows/knowledge-base.yml`: rebuilds the aggregate KB and uploads it as an artifact (09:30 UTC daily)
 - `.github/workflows/qdrant-export.yml`: rebuilds default and peptide Qdrant JSONL exports after daily reports
+- `.github/workflows/influencer-discovery.yml`: discovers up to 20 new micro-influencers per topic daily
 - `.github/workflows/report-manifest.yml`: writes `outputs/manifests/latest.json` after a successful daily run
 - `.github/workflows/api-smoke.yml`: optional smoke test against a deployed API (`API_BASE_URL` + optional `OPEN_SOURCE_NEWS_API_KEY` secrets)
 - `.github/workflows/prune-outputs.yml`: manual dry-run/apply pruning for generated output retention

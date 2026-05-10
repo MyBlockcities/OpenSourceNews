@@ -10,7 +10,9 @@
     "build:kb": "python3 scripts/build_knowledge_base.py",
     "export:qdrant": "python3 scripts/export_qdrant_payload.py",
     "export:qdrant:peptides": "python3 scripts/export_qdrant_payload.py --days 30 --bucket peptides --out outputs/qdrant_export/peptides_signals.jsonl",
-    "sync:qdrant": "python3 scripts/sync_knowledge_base_to_qdrant.py"
+    "sync:qdrant": "python3 scripts/sync_knowledge_base_to_qdrant.py",
+    "sync:qdrant:peptides": "python3 scripts/sync_knowledge_base_to_qdrant.py --bucket-filter peptides --collection peptides",
+    "discover:influencers": "python3 scripts/discover_influencers.py"
   },
   "dependencies": {
     "react": "^19.2.0",
