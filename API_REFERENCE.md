@@ -784,7 +784,7 @@ Set `LLM_PROVIDER` and the matching credentials. The API and pipelines share `pi
 | Variable | Description |
 |----------|-------------|
 | `LLM_PROVIDER` | `ollama` (default if Ollama is reachable), `openrouter`, `gemini`, or `rotating` (OpenRouter + Ollama alternating). |
-| `OPENROUTER_API_KEY` | Required when `LLM_PROVIDER` is `openrouter` or `rotating`. Use free model slugs (e.g. `OPENROUTER_MODEL=google/gemma-2-9b-it:free`). See [OpenRouter provider routing](https://openrouter.ai/docs/guides/routing/provider-selection). |
+| `OPENROUTER_API_KEY` | Required when `LLM_PROVIDER` is `openrouter` or `rotating`. Defaults to the `openrouter/free` router; you can also use a specific `:free` model slug. See [OpenRouter free router](https://openrouter.ai/docs/guides/routing/routers/free-models-router). |
 | `OPENROUTER_MODEL` | OpenRouter model id (optional; defaults in code). |
 | `OPENROUTER_PROVIDER_SORT` | Optional: `price`, `throughput`, or `latency` (maps to `provider.sort`). |
 | `OPENROUTER_MAX_REQUESTS_PER_RUN` | Optional local hard cap for OpenRouter calls in one Python process. `0` or unset means no local cap. |
@@ -862,7 +862,7 @@ Common HTTP status codes:
 # 1. Set environment variables (pick an LLM path)
 export LLM_PROVIDER=openrouter
 export OPENROUTER_API_KEY=your-openrouter-key
-export OPENROUTER_MODEL=google/gemma-2-9b-it:free
+export OPENROUTER_MODEL=openrouter/free
 # Or: LLM_PROVIDER=gemini and GEMINI_API_KEY=... only if you intentionally use Gemini
 # Or: run Ollama locally and LLM_PROVIDER=ollama
 

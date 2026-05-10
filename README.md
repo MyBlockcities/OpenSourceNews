@@ -60,7 +60,7 @@ The backend and Python pipelines read LLM settings from `.env` or `.env.local` (
 
 Common variables:
 
-- `LLM_PROVIDER` and matching keys (`OPENROUTER_API_KEY` for OpenRouter, optional `GEMINI_API_KEY` for Gemini-only, or local Ollama): required only for AI-assisted planning, summarization, premium script generation, and on-demand analysis
+- `LLM_PROVIDER` and matching keys (`OPENROUTER_API_KEY` for OpenRouter, optional `GEMINI_API_KEY` for Gemini-only, or local Ollama): required only for AI-assisted planning, summarization, premium script generation, and on-demand analysis. OpenRouter defaults to `openrouter/free`.
 - `GEMINI_API_KEY`: optional. Scheduled GitHub Actions do not require it. Keep it out of public/frontend environments.
 - `YT_API_KEY` or `YOUTUBE_API_KEY`: required for YouTube metadata collection
 - `ASSEMBLYAI_API_KEY`: optional transcript fallback

@@ -12,7 +12,7 @@ Environment (high level):
     rotating = OpenRouter + Ollama alternating (see OPENROUTER_* and OLLAMA_*)
 
   OPENROUTER_API_KEY=sk-or-...
-  OPENROUTER_MODEL=google/gemma-2-9b-it:free   (example free-tier slug; pick from OpenRouter model list)
+  OPENROUTER_MODEL=openrouter/free             free model router; or use a specific :free model slug
   OPENROUTER_PROVIDER_SORT=price               optional: maps to provider.sort (price|throughput|latency)
   OPENROUTER_PROVIDER_JSON={"sort":"price"}   optional: full provider object override (JSON)
   OPENROUTER_MAX_REQUESTS_PER_RUN=0            optional hard cap per Python process; 0 = unlimited
@@ -38,7 +38,7 @@ import requests
 DEFAULT_OLLAMA_HOST = "http://127.0.0.1:11434"
 DEFAULT_OLLAMA_MODEL = "llama3.2"
 DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
-DEFAULT_OPENROUTER_MODEL = "google/gemma-2-9b-it:free"
+DEFAULT_OPENROUTER_MODEL = "openrouter/free"
 OPENROUTER_CHAT_URL = "https://openrouter.ai/api/v1/chat/completions"
 REQUEST_TIMEOUT = int(os.environ.get("LLM_HTTP_TIMEOUT", os.environ.get("OLLAMA_TIMEOUT", "600")))
 
@@ -211,15 +211,14 @@ class OpenRouterLLM(LLMClient):
             "messages": messages,
             "stream": False,
         }
-        if json_mode:
+        if json_mode and self.model_name != "openrouter/free":
             body["response_format"] = {"type": "json_object"}
 
         prov = _openrouter_provider_payload()
         if prov:
             body["provider"] = prov
 
-        self._before_request()
-        r = requests.post(self._url, headers=self._headers(), json=body, timeout=REQUEST_TIMEOUT)
+        r = self._post_chat(body)
         if r.status_code == 429:
             raise RuntimeError(
                 f"OpenRouter rate limited (429). Use LLM_PROVIDER=rotating to alternate with Ollama, "
@@ -232,9 +231,29 @@ class OpenRouterLLM(LLMClient):
             raise ValueError(f"OpenRouter: no choices in response: {data!r}")
         msg = choices[0].get("message") or {}
         content = msg.get("content")
+        if not content and json_mode and "response_format" in body:
+            retry_body = {**body}
+            retry_body.pop("response_format", None)
+            r = self._post_chat(retry_body)
+            if r.status_code == 429:
+                raise RuntimeError(
+                    f"OpenRouter rate limited (429). Use LLM_PROVIDER=rotating to alternate with Ollama, "
+                    f"or wait / upgrade limits. Body: {r.text[:500]}"
+                )
+            r.raise_for_status()
+            data = r.json()
+            choices = data.get("choices") or []
+            if not choices:
+                raise ValueError(f"OpenRouter: no choices in response: {data!r}")
+            msg = choices[0].get("message") or {}
+            content = msg.get("content")
         if not content:
             raise ValueError(f"OpenRouter: empty content: {data!r}")
         return content.strip()
+
+    def _post_chat(self, body: dict[str, Any]) -> requests.Response:
+        self._before_request()
+        return requests.post(self._url, headers=self._headers(), json=body, timeout=REQUEST_TIMEOUT)
 
 
 class RotatingOpenRouterOllama(LLMClient):
