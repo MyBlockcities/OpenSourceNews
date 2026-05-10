@@ -520,7 +520,7 @@ const DailyFeedViewer: React.FC = () => {
                 <h4 className="text-sm font-semibold text-gray-400 mb-2">💡 How It Works</h4>
                 <ul className="text-sm text-gray-500 space-y-1">
                     <li>• Daily reports are collected automatically at 7 AM UTC</li>
-                    <li>• Click "Generate Video Script" to create on-demand scripts using Gemini AI</li>
+                    <li>• Click "Generate Video Script" to create on-demand scripts using the configured backend LLM or fallback generator</li>
                     <li>• Click "Generate Audio" to convert scripts to speech using AssemblyAI</li>
                     <li>• Costs only apply when you generate scripts/audio (on-demand model)</li>
                 </ul>

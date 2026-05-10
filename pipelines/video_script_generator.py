@@ -103,7 +103,7 @@ class VideoScriptGenerator:
                 "url": item.get('url', '')
             })
 
-        # Generate script using Gemini
+        # Generate script using the configured LLM, with a deterministic fallback.
         script_data = self._generate_script_with_ai(context)
 
         if not script_data:
@@ -150,7 +150,9 @@ class VideoScriptGenerator:
         }
 
     def _generate_script_with_ai(self, context: List[Dict]) -> Dict:
-        """Use Gemini to generate the script structure."""
+        """Use the configured LLM, or a deterministic fallback, to build script structure."""
+        if self.llm is None:
+            return self._generate_fallback_script(context)
 
         prompt = f"""
 Create a compelling 50-second video script for a daily AI & Tech news brief.
@@ -198,7 +200,40 @@ Return as valid JSON:
 
         except Exception as e:
             print(f"ERROR: Script generation failed: {e}")
-            return None
+            print("Using deterministic fallback script.")
+            return self._generate_fallback_script(context)
+
+    def _generate_fallback_script(self, context: List[Dict]) -> Dict:
+        """Create a usable script without any paid/cloud LLM dependency."""
+        padded = (context + [{} for _ in range(3)])[:3]
+
+        def title(index: int) -> str:
+            return padded[index].get("title") or "a developing open-source signal"
+
+        def summary(index: int) -> str:
+            item = padded[index]
+            insight = ""
+            insights = item.get("key_insights") or []
+            if insights:
+                insight = str(insights[0])
+            return insight or item.get("main_topic") or item.get("category") or "worth tracking"
+
+        return {
+            "hook": f"Three signals are moving through the tech stack today, led by {title(0)}.",
+            "story_1": {
+                "script": f"First up: {title(0)}. The key takeaway is {summary(0)}.",
+                "b_roll": ["Source headline screenshot", "Product or repo page", "Simple trend graphic"],
+            },
+            "story_2": {
+                "script": f"Second: {title(1)}. This matters because it points to {summary(1)}.",
+                "b_roll": ["Article screenshot", "Workflow diagram", "Relevant platform UI"],
+            },
+            "story_3": {
+                "script": f"Third: {title(2)}. Keep an eye on this as a practical signal around {summary(2)}.",
+                "b_roll": ["Source page", "Comparison graphic", "Action checklist"],
+            },
+            "cta": "Follow for daily open-source, AI, and tech intelligence pulled from public sources.",
+        }
 
     def _format_full_script(self, data: Dict) -> str:
         """Format the JSON script into readable, production-ready text."""

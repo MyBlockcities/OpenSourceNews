@@ -27,21 +27,25 @@ def main():
     llm = try_get_llm_client()
     if not llm:
         print(
-            "ERROR: LLM not configured. Use Ollama (LLM_PROVIDER=ollama), "
-            "OpenRouter (OPENROUTER_API_KEY + LLM_PROVIDER=openrouter or rotating), "
-            "or Gemini (GEMINI_API_KEY + LLM_PROVIDER=gemini)."
+            "WARNING: LLM not configured. Falling back to deterministic script "
+            "generation from the latest report."
         )
-        sys.exit(1)
 
-    # Load today's report
+    # Load today's report, falling back to the latest generated report for local/dev runs.
     timestamp = datetime.utcnow().strftime("%Y-%m-%d")
-    report_path = Path(__file__).parents[1] / "outputs" / "daily" / f"{timestamp}.json"
+    daily_dir = Path(__file__).parents[1] / "outputs" / "daily"
+    report_path = daily_dir / f"{timestamp}.json"
 
     if not report_path.exists():
-        print(f"ERROR: No report found for {timestamp}")
-        print(f"Expected location: {report_path}")
-        print("\nMake sure to run daily_run.py first to generate the daily report.")
-        sys.exit(1)
+        reports = sorted(daily_dir.glob("*.json"), reverse=True)
+        if not reports:
+            print(f"ERROR: No report found for {timestamp}")
+            print(f"Expected location: {report_path}")
+            print("\nMake sure to run daily_run.py first to generate the daily report.")
+            sys.exit(1)
+        report_path = reports[0]
+        timestamp = report_path.stem
+        print(f"WARNING: Today's report not found. Using latest report: {timestamp}")
 
     print(f"Loading report from: {report_path}")
     with open(report_path, 'r', encoding='utf-8') as f:

@@ -6,6 +6,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -13,6 +14,10 @@ from typing import Any, Dict, Iterable, List, Optional
 
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT_DIR))
+
+from services.news_schema import add_item_ids
+
 OUTPUTS_DIR = ROOT_DIR / "outputs"
 DAILY_DIR = OUTPUTS_DIR / "daily"
 SCRIPTS_DIR = OUTPUTS_DIR / "scripts"
@@ -77,6 +82,7 @@ def build_daily_section() -> Dict[str, Any]:
             topic_summaries.append({"topic": topic_name, "item_count": len(topic_items)})
 
             for index, item in enumerate(topic_items, start=1):
+                item = add_item_ids(item)
                 source = item.get("source", "Unknown")
                 source_counts[source] += 1
                 key_insights = item.get("key_insights") or []
@@ -119,6 +125,8 @@ def build_daily_section() -> Dict[str, Any]:
                 records.append(
                     {
                         "id": record_id,
+                        "signal_id": item.get("signal_id"),
+                        "cluster_id": item.get("cluster_id"),
                         "record_type": "daily_item",
                         "date": report_date,
                         "topic": topic_name,

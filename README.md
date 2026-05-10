@@ -7,11 +7,13 @@ The public repo is intended to contain the runnable system, sample configuration
 ## What it does
 
 - Collects content from RSS feeds, Hacker News, GitHub Trending, and YouTube metadata
-- Uses a configurable LLM (Ollama, OpenRouter, Gemini, or OpenRouter+Ollama rotation) for triage, summarization, planning, and follow-up suggestions
+- Uses a configurable LLM (local Ollama, OpenRouter, or optional Gemini) for richer triage, summarization, planning, and follow-up suggestions; scheduled collection still runs without one
 - Produces daily structured outputs in `outputs/daily`
 - Produces script and storyboard outputs in `outputs/scripts`
 - Builds a consolidated JSON/JSONL knowledge base from generated outputs
 - Optionally syncs normalized records into Qdrant
+- Generates strategic mission briefs from configurable watchlists
+- Exposes an agent-facing MCP stdio server over the generated archive
 - Runs scheduled automation through GitHub Actions
 
 ## Architecture
@@ -19,12 +21,15 @@ The public repo is intended to contain the runnable system, sample configuration
 - `pipelines/daily_run.py`: main ingestion and report generation pipeline
 - `pipelines/generate_video_script.py`: daily script generation from the latest report
 - `pipelines/weekly_analyzer.py`: weekly summary and script generation
+- `pipelines/mission_briefs.py`: watchlist-driven mission briefs from daily reports
 - `pipelines/transcript_analysis.py`: shared LLM transcript analysis (truncated vs `chunked_full`)
 - `pipelines/academy_payload.py`: optional helpers to shape Academy-oriented drafts from normalized items
 - `api/script_generator.py`: Flask API for research endpoints, reports, feeds config, transcription, and analysis (`python3 api/script_generator.py`)
+- `mcp/server.py`: stdio MCP server exposing latest reports, search, signals, topic digests, manifests, and briefs
 - `scripts/build_knowledge_base.py`: knowledge-base builder
 - `scripts/sync_knowledge_base_to_qdrant.py`: optional Qdrant sync
 - `config/feeds.yaml`: source configuration
+- `config/watchlists.yaml`: strategic watchlists for mission briefs
 
 ## Deployment (two targets)
 
@@ -50,12 +55,12 @@ Copy the example environment file:
 cp .env.example .env
 ```
 
-The backend and Python pipelines read LLM settings from `.env` or `.env.local` (`LLM_PROVIDER`, `OPENROUTER_*`, `OLLAMA_*`, `GEMINI_API_KEY`, etc.). See `.env.example` and [API_REFERENCE.md](API_REFERENCE.md#environment-variables).
+The backend and Python pipelines read LLM settings from `.env` or `.env.local` (`LLM_PROVIDER`, `OPENROUTER_*`, `OLLAMA_*`, optional `GEMINI_API_KEY`, etc.). See `.env.example` and [API_REFERENCE.md](API_REFERENCE.md#environment-variables).
 
 Common variables:
 
-- `LLM_PROVIDER` and matching keys (`OPENROUTER_API_KEY`, or `GEMINI_API_KEY` for Gemini-only, or local Ollama): required for AI-assisted planning, summarization, scripts, and on-demand analysis
-- `GEMINI_API_KEY`: still used for **Qdrant embeddings** in `scripts/sync_knowledge_base_to_qdrant.py` (Google `text-embedding-004`) when you sync the knowledge base
+- `LLM_PROVIDER` and matching keys (`OPENROUTER_API_KEY` for OpenRouter, optional `GEMINI_API_KEY` for Gemini-only, or local Ollama): required only for AI-assisted planning, summarization, premium script generation, and on-demand analysis
+- `GEMINI_API_KEY`: optional. Scheduled GitHub Actions do not require it. Keep it out of public/frontend environments.
 - `YT_API_KEY` or `YOUTUBE_API_KEY`: required for YouTube metadata collection
 - `ASSEMBLYAI_API_KEY`: optional transcript fallback
 - `OPEN_SOURCE_NEWS_ADMIN_KEY`: recommended for any deployed API; protects POST/PUT/PATCH/DELETE routes that can edit config or spend LLM/transcript quota
@@ -105,6 +110,8 @@ Vite proxies `/api/*` requests to the backend at `http://localhost:5000`.
 
 ## Running the pipeline
 
+Current source inventory and downstream export guidance: [NEWS_SOURCES_AND_QDRANT_EXPORT.md](NEWS_SOURCES_AND_QDRANT_EXPORT.md).
+
 Generate a daily report:
 
 ```bash
@@ -112,6 +119,12 @@ python3 pipelines/daily_run.py
 ```
 
 Optional: after the report is written, the same run can **POST** the digest JSON (and markdown) to another HTTPS endpoint you configure — for example an agent or Agency backend. Set `AGENCY_INGEST_URL` or `EXTERNAL_INGEST_URL` (and optional Bearer token) in `.env`. See **[docs/AGENCY_DAILY_INGEST.md](docs/AGENCY_DAILY_INGEST.md)** for receiver setup, payload schema, and security; also `API_REFERENCE.md` (*Outbound daily digest*) and `services/external_ingest.py`.
+
+Generate mission briefs from the latest daily report and `config/watchlists.yaml`:
+
+```bash
+python3 pipelines/mission_briefs.py
+```
 
 Generate a script from the latest daily report:
 
@@ -129,6 +142,13 @@ Search generated reports through the API:
 
 ```bash
 curl "http://localhost:5000/api/news/search?q=agent%20framework&days=30"
+curl "http://localhost:5000/api/news/search?topic=AI&bucket=ai&days=30"
+```
+
+Run the local MCP server for agent clients:
+
+```bash
+python3 -m mcp.server
 ```
 
 ## Outputs
@@ -137,6 +157,8 @@ curl "http://localhost:5000/api/news/search?q=agent%20framework&days=30"
 - `outputs/scripts/*.txt`: generated scripts
 - `outputs/scripts/*.json`: storyboard metadata
 - `outputs/transcripts/*.json`: cached transcripts
+- `outputs/briefs/{watchlist}/*.json`: mission brief payloads
+- `outputs/briefs/{watchlist}/*.md`: human-readable mission briefs
 - `outputs/knowledge_base/knowledge_base.json`: aggregate corpus export
 - `outputs/knowledge_base/knowledge_base.jsonl`: normalized line-delimited records
 
@@ -173,19 +195,27 @@ It also writes a local human-readable summary to:
 
 ## Qdrant sync
 
-After the knowledge base exists, you can sync it into Qdrant:
+After the knowledge base exists, you can preview the legacy direct Qdrant sync:
 
 ```bash
 python3 scripts/sync_knowledge_base_to_qdrant.py --dry-run
 python3 scripts/sync_knowledge_base_to_qdrant.py --rebuild-knowledge-base
 ```
 
-The sync script:
+Prepare Qdrant-ready JSONL for another application to embed/upsert:
+
+```bash
+npm run export:qdrant
+```
+
+The legacy direct sync script:
 
 - reads records from the generated knowledge base
 - embeds them with Gemini using `GEMINI_API_KEY`
 - creates or validates the target Qdrant collection
 - upserts records in batches
+
+For your current setup, prefer `npm run export:qdrant` and let the downstream app handle embeddings/upsert with its own credentials.
 
 ## GitHub Actions
 

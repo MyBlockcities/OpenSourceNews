@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Backend API for research orchestration and on-demand generation."""
 
-import hashlib
 import hmac
 import json
 import os
@@ -29,6 +28,12 @@ from pipelines.video_script_generator import VideoScriptGenerator
 from pipelines.transcript_fetcher import TranscriptFetcher
 from pipelines.transcript_analysis import analyze_transcript_auto
 from pipelines.llm_provider import parse_json_text, try_get_llm_client
+from services.news_schema import (
+    normalize_item,
+    normalize_report,
+    search_score,
+    slugify_name,
+)
 
 app = Flask(__name__)
 
@@ -537,160 +542,30 @@ def _report_date(path: Path) -> datetime | None:
 
 
 def _item_search_text(topic_name: str, item: dict) -> str:
-    fields: List[str] = [
-        topic_name,
-        item.get("title") or "",
-        item.get("summary") or "",
-        item.get("category") or "",
-        item.get("source") or "",
-        item.get("content_type") or "",
-        item.get("bucket") or "",
-        item.get("main_topic") or "",
-        item.get("neutral_synthesis") or "",
-        item.get("implementation_notes") or "",
-    ]
-    for key in (
-        "key_insights",
-        "key_lessons",
-        "actionable_steps",
-        "tools_mentioned",
-        "frameworks_mentioned",
-        "entities",
-        "uncertainty_markers",
-    ):
-        value = item.get(key)
-        if isinstance(value, list):
-            fields.extend(str(entry) for entry in value)
-    claims = item.get("claims")
-    if isinstance(claims, list):
-        for claim in claims:
-            if isinstance(claim, dict):
-                fields.extend(str(claim.get(k) or "") for k in ("claim", "evidence_cited", "analyst_note"))
-            else:
-                fields.append(str(claim))
-    return " ".join(fields).lower()
+    from services.news_schema import item_search_text
+
+    return item_search_text(topic_name, item)
 
 
 def _search_score(query_terms: List[str], topic_name: str, item: dict) -> int:
-    title = (item.get("title") or "").lower()
-    summary = (item.get("summary") or "").lower()
-    search_text = _item_search_text(topic_name, item)
-
-    score = 0
-    for term in query_terms:
-        if not term:
-            continue
-        if term in title:
-            score += 10
-        if term in summary:
-            score += 4
-        if term in search_text:
-            score += 1
-    if " ".join(query_terms) and " ".join(query_terms) in search_text:
-        score += 8
-    quality = item.get("quality_score")
-    if isinstance(quality, (int, float)):
-        score += min(int(quality), 10)
-    return score
+    return search_score(query_terms, topic_name, item)
 
 
 def _transcript_metadata_block(item: dict) -> dict:
     """Stable transcript sub-object for normalized items (explicit nulls)."""
-    inner = item.get("transcript_metadata")
-    inner_d: Dict[str, Any] = inner if isinstance(inner, dict) else {}
-    return {
-        "word_count": inner_d.get("word_count", item.get("transcript_word_count")),
-        "mode": inner_d.get("mode", item.get("transcript_mode")),
-        "source": inner_d.get("source", item.get("transcript_source")),
-        "used_in_prompt": inner_d.get("used_in_prompt"),
-    }
+    from services.news_schema import transcript_metadata_block
+
+    return transcript_metadata_block(item)
 
 
 def _normalize_item(topic_name: str, item: dict) -> dict:
     """Single normalized item with a fixed key set for external consumers (Agency)."""
-    signal_id = hashlib.sha256(
-        (item.get("url", "") + "\n" + item.get("title", "")).encode("utf-8")
-    ).hexdigest()[:16]
-
-    def _list(key: str) -> List[Any]:
-        v = item.get(key)
-        return v if isinstance(v, list) else []
-
-    def _claims() -> List[Any]:
-        v = item.get("claims")
-        return v if isinstance(v, list) else []
-
-    return {
-        "source_system": "OpenSourceNews",
-        "signal_id": signal_id,
-        "title": item.get("title") or "",
-        "summary": item.get("summary") or "",
-        "source_urls": [item.get("url") or ""],
-        "topics": [topic_name],
-        "source": item.get("source") or "Unknown",
-        "category": item.get("category") or "",
-        "content_type": item.get("content_type") or "",
-        "bucket": item.get("bucket") or "",
-        "processing_mode": item.get("processing_mode") or "standard_summary",
-        "classification_confidence": item.get("classification_confidence"),
-        "quality_score": item.get("quality_score"),
-        "has_transcript": bool(item.get("has_transcript")),
-        "transcript_metadata": _transcript_metadata_block(item),
-        "key_lessons": _list("key_lessons"),
-        "actionable_steps": _list("actionable_steps"),
-        "tools_mentioned": _list("tools_mentioned"),
-        "frameworks_mentioned": _list("frameworks_mentioned"),
-        "claims": _claims(),
-        "entities": _list("entities"),
-        "uncertainty_markers": _list("uncertainty_markers"),
-        "neutral_synthesis": item.get("neutral_synthesis") or "",
-        "implementation_notes": item.get("implementation_notes") or "",
-        "difficulty": item.get("difficulty") or "",
-        "main_topic": item.get("main_topic") or "",
-        "key_insights": _list("key_insights"),
-        "target_audience": item.get("target_audience") or "",
-        "unique_value": item.get("unique_value") or "",
-        "transcript_error": item.get("transcript_error"),
-    }
+    return normalize_item(topic_name, item)
 
 
 def _normalize_report(report_date: str, report_data: dict) -> dict:
     """Transform a raw daily report into a stable normalized schema."""
-    items = []
-    sources_seen = set()
-    topic_counts = {}
-    source_counts = {}
-    bucket_counts: Dict[str, int] = {}
-
-    for topic_name, topic_items in report_data.items():
-        topic_counts[topic_name] = len(topic_items)
-        for item in topic_items:
-            src = item.get("source", "Unknown")
-            sources_seen.add(src)
-            source_counts[src] = source_counts.get(src, 0) + 1
-            b = item.get("bucket") or "unknown"
-            bucket_counts[b] = bucket_counts.get(b, 0) + 1
-
-            items.append(_normalize_item(topic_name, item))
-
-    total = len(items)
-    digest = (
-        f"{total} items across {len(topic_counts)} topics from "
-        f"{len(sources_seen)} source types."
-    )
-
-    return {
-        "report_date": report_date,
-        "items": items,
-        "sources": sorted(sources_seen),
-        "counts": {
-            "total": total,
-            "by_topic": topic_counts,
-            "by_source": source_counts,
-            "by_bucket": bucket_counts,
-        },
-        "digest": digest,
-    }
+    return normalize_report(report_date, report_data)
 
 
 @app.route('/api/health', methods=['GET'])
@@ -757,14 +632,14 @@ def reports_latest_normalized():
 def news_search():
     """Keyword search across recent daily reports."""
     query = (request.args.get("q") or "").strip()
-    if not query:
-        return jsonify({"error": "Missing required query parameter: q"}), 400
-
     days = _parse_positive_int(request.args.get("days"), default=30, maximum=365)
     limit = _parse_positive_int(request.args.get("limit"), default=25, maximum=100)
     topic_filter = (request.args.get("topic") or "").strip().lower()
     source_filter = (request.args.get("source") or "").strip().lower()
     bucket_filter = (request.args.get("bucket") or "").strip().lower()
+
+    if not query and not topic_filter and not source_filter and not bucket_filter:
+        return jsonify({"error": "Provide q, topic, source, or bucket"}), 400
 
     query_terms = [term for term in query.lower().split() if term]
     cutoff = datetime.utcnow() - timedelta(days=days)
@@ -794,8 +669,8 @@ def news_search():
                 if bucket_filter and bucket_filter != (item.get("bucket") or "").lower():
                     continue
 
-                score = _search_score(query_terms, topic_name, item)
-                if score <= 0:
+                score = _search_score(query_terms, topic_name, item) if query_terms else 1
+                if query_terms and score <= 0:
                     continue
 
                 normalized = _normalize_item(topic_name, item)
@@ -811,6 +686,7 @@ def news_search():
         "count": min(len(results), limit),
         "total_matches": len(results),
         "items": results[:limit],
+        "results": results[:limit],
     })
 
 
@@ -821,8 +697,10 @@ def news_search():
 import yaml
 
 CONFIG_PATH = ROOT_DIR / 'config' / 'feeds.yaml'
+WATCHLISTS_CONFIG_PATH = ROOT_DIR / 'config' / 'watchlists.yaml'
 MANIFEST_JSON_PATH = ROOT_DIR / 'outputs' / 'manifests' / 'latest.json'
 KNOWLEDGE_BASE_JSON = ROOT_DIR / 'outputs' / 'knowledge_base' / 'knowledge_base.json'
+BRIEFS_OUTPUT_DIR = ROOT_DIR / 'outputs' / 'briefs'
 
 FEEDS_ALLOWED_TOPIC_KEYS = frozenset({
     "topic_name",
@@ -873,6 +751,19 @@ def get_feeds_config():
         return jsonify({"error": str(e)}), 500
 
 
+@app.route('/api/watchlists', methods=['GET'])
+def get_watchlists():
+    """Return configured strategic watchlists."""
+    if not WATCHLISTS_CONFIG_PATH.exists():
+        return jsonify({"watchlists": []})
+    try:
+        with open(WATCHLISTS_CONFIG_PATH, 'r', encoding='utf-8') as f:
+            config = yaml.safe_load(f) or {}
+        return jsonify(config)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
 @app.route('/api/config/feeds', methods=['PUT'])
 def update_feeds_config():
     """Update the feeds.yaml configuration."""
@@ -903,6 +794,40 @@ def update_feeds_config():
         })
     except ValueError as e:
         return jsonify({"error": str(e)}), 400
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+def _brief_path(watchlist: str, date_str: str | None = None) -> Path | None:
+    slug = slugify_name(watchlist)
+    brief_dir = BRIEFS_OUTPUT_DIR / slug
+    if date_str:
+        path = brief_dir / f"{date_str}.json"
+        return path if path.exists() else None
+    files = sorted(brief_dir.glob("*.json"), reverse=True)
+    return files[0] if files else None
+
+
+@app.route('/api/briefs/<watchlist>/latest', methods=['GET'])
+def brief_latest(watchlist: str):
+    """Return the latest generated mission brief for a watchlist."""
+    path = _brief_path(watchlist)
+    if not path:
+        return jsonify({"error": f"No mission brief found for {watchlist}"}), 404
+    try:
+        return jsonify(json.loads(path.read_text(encoding='utf-8')))
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route('/api/briefs/<watchlist>/by-date/<date_str>', methods=['GET'])
+def brief_by_date(watchlist: str, date_str: str):
+    """Return a generated mission brief for a watchlist and date."""
+    path = _brief_path(watchlist, date_str)
+    if not path:
+        return jsonify({"error": f"No mission brief found for {watchlist} on {date_str}"}), 404
+    try:
+        return jsonify(json.loads(path.read_text(encoding='utf-8')))
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

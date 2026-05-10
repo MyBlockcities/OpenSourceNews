@@ -148,11 +148,11 @@ Returns a specific day's full report.
 
 ### GET /api/reports/latest/normalized
 
-Returns the latest report transformed into a **stable normalized schema** designed for external consumers (e.g., Agency by Blockcities). Every item gets a deterministic `signal_id` (SHA-256 of `url` + newline + `title`, first 16 hex chars) for deduplication.
+Returns the latest report transformed into a **stable normalized schema** designed for external consumers (e.g., Agency by Blockcities). Every item gets a deterministic `signal_id` (SHA-256 of `url` + newline + `title`, first 16 hex chars) for item-level deduplication and a deterministic `cluster_id` (SHA-256 of bucket + normalized title, first 16 hex chars) for story-level grouping.
 
 **Top-level keys (always present):** `report_date`, `items`, `sources`, `counts`, `digest`.
 
-**`counts`** includes `total`, `by_topic`, `by_source`, and `by_bucket` (slug bucket ids such as `ai`, `general`, `blockchain`, `sense_making`, `unknown`).
+**`counts`** includes `total`, `by_topic`, `by_source`, `by_bucket` (slug bucket ids such as `ai`, `general`, `blockchain`, `sense_making`, `unknown`), and `by_cluster`.
 
 **Each item** includes these keys (use `null` or empty string/array where data is missing — field names are stable):
 
@@ -160,6 +160,7 @@ Returns the latest report transformed into a **stable normalized schema** design
 |-------|------|--------|
 | `source_system` | string | Always `OpenSourceNews` |
 | `signal_id` | string | Deterministic id |
+| `cluster_id` | string | Deterministic story-level id |
 | `title`, `summary` | string | |
 | `source_urls` | string[] | Usually one URL |
 | `topics` | string[] | Topic bucket name(s) |
@@ -184,6 +185,7 @@ Returns the latest report transformed into a **stable normalized schema** design
     {
       "source_system": "OpenSourceNews",
       "signal_id": "a1b2c3d4e5f67890",
+      "cluster_id": "b2c3d4e5f67890a1",
       "title": "New LLM Framework Released",
       "summary": "A new framework for building AI agents...",
       "source_urls": ["https://example.com/article"],
@@ -239,6 +241,9 @@ Returns the latest report transformed into a **stable normalized schema** design
       "blockchain": 22,
       "general": 20,
       "sense_making": 10
+    },
+    "by_cluster": {
+      "b2c3d4e5f67890a1": 2
     }
   },
   "digest": "87 items across 4 topics from 4 source types."
@@ -255,14 +260,17 @@ Search recent generated reports with a lightweight keyword ranker. This does not
 
 | Param | Type | Default | Max | Description |
 |-------|------|---------|-----|-------------|
-| `q` | string | required | | Keyword query |
+| `q` | string | | | Keyword query. Optional when `topic`, `source`, or `bucket` is provided |
 | `days` | int | 30 | 365 | Search reports dated within this many days |
 | `limit` | int | 25 | 100 | Maximum result count |
 | `topic` | string | | | Optional topic-name substring filter |
 | `source` | string | | | Optional source substring filter, e.g. `RSS` |
 | `bucket` | string | | | Optional exact bucket filter, e.g. `ai` |
 
+At least one of `q`, `topic`, `source`, or `bucket` is required.
+
 **Example:** `GET /api/news/search?q=agent%20framework&days=30&bucket=ai`
+**Filter-only example:** `GET /api/news/search?topic=AI&bucket=ai&days=30`
 
 **Response:**
 ```json
@@ -276,6 +284,7 @@ Search recent generated reports with a lightweight keyword ranker. This does not
     {
       "source_system": "OpenSourceNews",
       "signal_id": "a1b2c3d4e5f67890",
+      "cluster_id": "b2c3d4e5f67890a1",
       "report_date": "2026-04-04",
       "score": 23,
       "title": "New Agent Framework Released",
@@ -288,6 +297,80 @@ Search recent generated reports with a lightweight keyword ranker. This does not
   ]
 }
 ```
+
+For compatibility with earlier consumers, the response includes both `items` and `results` with the same list.
+
+---
+
+### GET /api/watchlists
+
+Returns configured strategic watchlists from `config/watchlists.yaml`.
+
+**Response:**
+```json
+{
+  "watchlists": [
+    {
+      "name": "ai_agent_infra",
+      "persona": "AI automation agency operator",
+      "entities": ["OpenAI Agents SDK", "Claude Code", "MCP"],
+      "topics": ["AI", "agents"],
+      "alert_rules": ["new_release", "funding", "security_issue", "repo_trending"]
+    }
+  ]
+}
+```
+
+---
+
+### GET /api/briefs/{watchlist}/latest
+
+Returns the latest generated mission brief for a watchlist. Watchlist names are slug-normalized, so `ai_agent_infra` maps to `outputs/briefs/ai_agent_infra/*.json`.
+
+**Errors:**
+
+| Status | Meaning |
+|--------|---------|
+| 404 | No generated brief exists for that watchlist |
+
+---
+
+### GET /api/briefs/{watchlist}/by-date/{YYYY-MM-DD}
+
+Returns one generated mission brief for a watchlist and date.
+
+**Errors:**
+
+| Status | Meaning |
+|--------|---------|
+| 404 | No generated brief exists for that watchlist/date |
+
+---
+
+## MCP Server
+
+OpenSourceNews also includes a local stdio MCP server for agent clients:
+
+```bash
+python3 -m mcp.server
+```
+
+Tools exposed:
+
+- `get_latest_report`
+- `get_latest_normalized_report`
+- `search_news`
+- `get_report_by_date`
+- `get_signal`
+- `get_topic_digest`
+- `get_manifest`
+- `get_latest_brief`
+
+Resources exposed:
+
+- `news://latest`
+- `news://latest/normalized`
+- `news://manifest/latest`
 
 ---
 
@@ -644,7 +727,7 @@ This is **not** an HTTP route on the OpenSourceNews API. When `pipelines/daily_r
 
 **Auth (optional):** `AGENCY_INGEST_BEARER_TOKEN` or `EXTERNAL_INGEST_BEARER_TOKEN` → sent as `Authorization: Bearer …`.
 
-**Other:** `EXTERNAL_INGEST_ENABLED=0` disables; `EXTERNAL_INGEST_INCLUDE_MARKDOWN=0` omits markdown; `EXTERNAL_INGEST_HEADERS` optional JSON object for extra headers. See `.env.example`.
+**Other:** `EXTERNAL_INGEST_ENABLED=0` disables; `EXTERNAL_INGEST_INCLUDE_MARKDOWN=0` omits markdown; `EXTERNAL_INGEST_RETRIES=3` controls retry attempts for transient request/5xx failures; `EXTERNAL_INGEST_HEADERS` optional JSON object for extra headers. See `.env.example`.
 
 **Payload** (`Content-Type: application/json`), schema id `open_source_news_daily_digest.v1`:
 
@@ -654,6 +737,20 @@ This is **not** an HTTP route on the OpenSourceNews API. When `pipelines/daily_r
   "generated_at": "2026-04-04T12:00:00Z",
   "report_date": "2026-04-04",
   "report": { "Topic Name": [ { "title": "...", "url": "...", "summary": "..." } ] },
+  "normalized": {
+    "report_date": "2026-04-04",
+    "items": [
+      {
+        "signal_id": "a1b2c3d4e5f67890",
+        "cluster_id": "b2c3d4e5f67890a1",
+        "title": "...",
+        "source_urls": ["https://example.com/article"]
+      }
+    ],
+    "sources": ["RSS"],
+    "counts": { "total": 1, "by_topic": {}, "by_source": {}, "by_bucket": {}, "by_cluster": {} },
+    "digest": "1 items across 1 topics from 1 source types."
+  },
   "markdown": "# Daily Research — 2026-04-04\n...",
   "meta": {
     "source": "open_source_news",
@@ -662,7 +759,7 @@ This is **not** an HTTP route on the OpenSourceNews API. When `pipelines/daily_r
 }
 ```
 
-Your receiving service should validate the Bearer token (if you use one), accept JSON, and return `2xx` on success. Failures are logged as warnings; they do **not** fail the daily pipeline.
+Your receiving service should validate the Bearer token (if you use one), accept JSON, and return `2xx` on success. Transient request errors and `5xx` responses are retried with exponential backoff. Failures are logged as warnings; they do **not** fail the daily pipeline.
 
 For Agency / OpenClaw configuration, security, troubleshooting, and a minimal receiver contract, see **[docs/AGENCY_DAILY_INGEST.md](docs/AGENCY_DAILY_INGEST.md)**.
 
@@ -682,11 +779,12 @@ Set `LLM_PROVIDER` and the matching credentials. The API and pipelines share `pi
 | `OPENROUTER_PROVIDER_SORT` | Optional: `price`, `throughput`, or `latency` (maps to `provider.sort`). |
 | `OLLAMA_HOST` | Default `http://127.0.0.1:11434` when using Ollama. |
 | `OLLAMA_MODEL` | Default `llama3.2` when using Ollama. |
-| `GEMINI_API_KEY` | Required when `LLM_PROVIDER=gemini` (or for pipeline/embeddings that still call Gemini). |
-| `LLM_FALLBACK_TO_GEMINI` | If `1` and Ollama is down, fall back to Gemini when `GEMINI_API_KEY` is set. |
+| `GEMINI_API_KEY` | Optional. Required only when you intentionally set `LLM_PROVIDER=gemini` or use the legacy direct Qdrant sync script. Scheduled collection does not require it. |
+| `LLM_FALLBACK_TO_GEMINI` | If `1` and Ollama is down, fall back to Gemini when `GEMINI_API_KEY` is set. Leave `0` to prevent Gemini usage. |
 | `LLM_FALLBACK_TO_OPENROUTER` | If `1` and Ollama is down, fall back to OpenRouter when `OPENROUTER_API_KEY` is set. |
 | `AGENCY_INGEST_URL` / `EXTERNAL_INGEST_URL` | Optional. After `daily_run.py`, POST the daily digest JSON to this URL (see [Outbound daily digest](#outbound-daily-digest-optional)). |
 | `AGENCY_INGEST_BEARER_TOKEN` / `EXTERNAL_INGEST_BEARER_TOKEN` | Optional Bearer for that POST. |
+| `EXTERNAL_INGEST_RETRIES` | Optional retry count for outbound daily digest POST attempts. Defaults to `3`. |
 
 Full list and examples: `.env.example`.
 
@@ -753,7 +851,7 @@ Common HTTP status codes:
 export LLM_PROVIDER=openrouter
 export OPENROUTER_API_KEY=your-openrouter-key
 export OPENROUTER_MODEL=google/gemma-2-9b-it:free
-# Or: LLM_PROVIDER=gemini and GEMINI_API_KEY=...
+# Or: LLM_PROVIDER=gemini and GEMINI_API_KEY=... only if you intentionally use Gemini
 # Or: run Ollama locally and LLM_PROVIDER=ollama
 
 export YOUTUBE_API_KEY=your-youtube-key

@@ -118,7 +118,7 @@ class OllamaLLM(LLMClient):
             raise RuntimeError(
                 f"Ollama request failed ({self.base}). Is Ollama running? "
                 f"Install from https://ollama.com and run: ollama pull {self.model_name}. "
-                f"Or set LLM_PROVIDER=gemini with GEMINI_API_KEY. ({e})"
+                f"Or set LLM_PROVIDER=openrouter with OPENROUTER_API_KEY. ({e})"
             ) from e
         data = r.json()
         msg = data.get("message") or {}
@@ -306,7 +306,7 @@ def get_llm_client() -> LLMClient:
         raise RuntimeError(
             f"Ollama not reachable at {base}. Start Ollama, pull a model "
             f"(e.g. ollama pull {os.environ.get('OLLAMA_MODEL', DEFAULT_OLLAMA_MODEL)}), "
-            "or set LLM_PROVIDER=gemini / openrouter / rotating, or enable fallbacks."
+            "or set LLM_PROVIDER=openrouter / rotating, or enable fallbacks."
         )
 
     return OllamaLLM()

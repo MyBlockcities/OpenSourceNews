@@ -1,6 +1,8 @@
 import { PlannerOutput, SearchResult } from "../types";
 import { apiFetch } from "./apiClient";
 
+// This frontend module does not read or expose GEMINI_API_KEY.
+// It calls the backend, where LLM credentials must stay server-side.
 async function postJson<T>(path: string, payload: object): Promise<T> {
     const response = await apiFetch(path, {
         method: 'POST',

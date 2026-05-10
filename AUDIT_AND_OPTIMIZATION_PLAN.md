@@ -11,12 +11,14 @@ No committed `.env` file was found. `.gitignore` ignores `.env*` while preservin
 ## Current Architecture
 
 - `pipelines/daily_run.py` fetches RSS, Hacker News, GitHub Trending, and YouTube metadata from `config/feeds.yaml`.
+- `pipelines/mission_briefs.py` turns generated reports plus `config/watchlists.yaml` into strategic briefs under `outputs/briefs`.
 - `pipelines/llm_provider.py` supports local Ollama, Gemini, OpenRouter, and rotating OpenRouter/Ollama.
-- `.github/workflows/daily.yml` runs the daily pipeline at 07:00 UTC and commits `outputs/daily/*.json` and `outputs/transcripts/*.json`.
+- `.github/workflows/daily.yml` runs the daily pipeline at 07:00 UTC and commits `outputs/daily/*.json`, `outputs/transcripts/*.json`, and generated mission briefs.
 - `.github/workflows/video-script.yml` generates daily script outputs.
 - `.github/workflows/report-manifest.yml` builds `outputs/manifests/latest.json`.
 - `.github/workflows/knowledge-base.yml` builds a knowledge-base artifact.
 - `api/script_generator.py` exposes report, manifest, feed config, research, transcript, and generation endpoints.
+- `mcp/server.py` exposes the generated archive to agent clients over stdio MCP tools and resources.
 - `components/DailyFeedViewer.tsx` now discovers reports via `/api/reports?limit=14`, with static-file fallback.
 
 ## Secret and API-Key Findings
@@ -74,14 +76,14 @@ No committed `.env` file was found. `.gitignore` ignores `.env*` while preservin
 ### Phase 3: Better News Product
 
 - [x] Add `/api/news/search?q=...&days=...&topic=...` over recent reports.
-- [ ] Add stable event clustering beyond URL-only dedupe using normalized titles/domains/entities.
+- [x] Add stable event clustering beyond URL-only dedupe using normalized title + bucket `cluster_id`.
 - [ ] Add source reputation, source type, and verification status to normalized items.
-- [ ] Add watchlists for strategic topics such as AI agents, MCP, open-source model releases, crypto infrastructure, and security incidents.
-- [ ] Add mission briefs that turn daily signals into "what changed, why it matters, what to do next."
+- [x] Add watchlists for strategic topics such as AI agents, RWA/tokenization, and health/wellness peptides.
+- [x] Add mission briefs that turn daily signals into "what changed, why it matters, what to do next."
 
 ### Phase 4: Agent-Native Interfaces
 
-- [ ] Add an MCP server wrapper exposing `get_latest_digest`, `search_news`, `get_news_by_date`, and `get_topic_feed`.
+- [x] Add an MCP server wrapper exposing latest report, normalized report, search, by-date, signal, topic digest, manifest, and brief tools.
 - [ ] Add webhook dispatch per topic/watchlist.
 - [x] Keep Qdrant sync optional because it requires paid/credentialed services.
 - [ ] Add a receiver template for downstream systems that validates the outbound digest schema and Bearer token.
@@ -143,6 +145,22 @@ Verification completed:
 - [x] `/api/news/search?q=ai&days=365&limit=3` test-client smoke check.
 - [x] Browser-token committed-assignment guard check.
 
+## Third Implementation Pass
+
+Completed for the OpenSwarm/news-intelligence integration layer:
+
+- [x] Reuse shared deterministic schema helpers for `signal_id`, `cluster_id`, normalized items, normalized reports, and search scoring.
+- [x] Add `cluster_id` to normalized items and future daily report items.
+- [x] Allow `/api/news/search` to work with `q`, `topic`, `source`, or `bucket` filters so external consumers can search without a keyword when they already know the topic lane.
+- [x] Include both raw `report` and normalized `items`/`sources`/`counts`/`digest` in outbound webhook payloads.
+- [x] Add outbound webhook retry/backoff while preserving "do not fail the daily pipeline" behavior.
+- [x] Add `config/watchlists.yaml` with initial strategic watchlists.
+- [x] Add `pipelines/mission_briefs.py` and wire it into the daily GitHub Actions workflow.
+- [x] Add read endpoints for watchlists and generated mission briefs.
+- [x] Add an MCP stdio server with tools for latest reports, normalized reports, search, by-date reports, signals, topic digests, manifests, and mission briefs.
+- [x] Remove scheduled GitHub Actions dependency on `GEMINI_API_KEY`; daily collection and video script generation now have no-Gemini fallback paths.
+- [x] Add a downstream-friendly Qdrant JSONL export contract that does not require embedding or Qdrant credentials in this repo.
+
 ## Open Follow-Ups
 
 - Decide whether public report reads should stay open by default in production.
@@ -150,3 +168,5 @@ Verification completed:
 - Decide whether to add object storage later for long-term history.
 - Decide whether Actions should use Gemini, OpenRouter free models, or only Ollama/local runs.
 - Decide whether feed edits should be available from the public dashboard or only from local/admin contexts.
+- Optional later: add source reputation, source type, and verification status fields.
+- Optional later: add per-topic/per-watchlist outbound webhook fanout and a downstream receiver template.

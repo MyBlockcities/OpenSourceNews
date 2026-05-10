@@ -100,7 +100,7 @@ const AutomationHub: React.FC = () => {
 
             for (const [key, values] of Object.entries(sourcesByType)) {
                 yaml += `    ${key}:\n`;
-                values.forEach(value => yaml += `      - "${value}"\n`);
+                (values as string[]).forEach(value => yaml += `      - "${value}"\n`);
             }
         });
         return yaml;
@@ -445,7 +445,7 @@ jobs:
                     <li>Create the folder structure inside: `pipelines/`, `config/`, `.github/workflows/`.</li>
                     <li>Copy the generated code above into the corresponding files in your repository.</li>
                     <li>Go to your repository's **Settings &gt; Secrets and variables &gt; Actions**.</li>
-                    <li>Click **New repository secret** and add your `GEMINI_API_KEY`.</li>
+                    <li>Click **New repository secret** and add only the provider keys you intend to use.</li>
                     <li>If using X or Instagram, add their API keys as secrets (e.g., `X_CONSUMER_KEY`) and implement the logic in `pipelines/daily_run.py`.</li>
                     <li>Commit and push the files. The action will run on your defined schedule, or you can trigger it manually from the "Actions" tab.</li>
                 </ol>

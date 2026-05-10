@@ -315,7 +315,7 @@ const SettingsPage: React.FC = () => {
                     <li>- Changes are saved to <code className="text-gray-400">config/feeds.yaml</code></li>
                     <li>- The daily pipeline reads this config at 07:00 UTC every day</li>
                     <li>- Each topic bucket collects from all its configured sources</li>
-                    <li>- Items are then classified, triaged, and processed by Gemini AI</li>
+                    <li>- Items are classified with the configured LLM when one is available, otherwise fallback metadata is used</li>
                     <li>- X/Twitter sources are placeholders until the official API is implemented</li>
                 </ul>
             </div>

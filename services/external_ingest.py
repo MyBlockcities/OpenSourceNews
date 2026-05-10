@@ -11,14 +11,18 @@ from __future__ import annotations
 
 import json
 import os
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Optional
 
 import requests
 
+from services.news_schema import normalize_report
+
 DEFAULT_TIMEOUT = int(os.environ.get("EXTERNAL_INGEST_TIMEOUT", "90"))
 MAX_MARKDOWN_CHARS = int(os.environ.get("EXTERNAL_INGEST_MAX_MARKDOWN_CHARS", "200000"))
+MAX_RETRIES = max(1, int(os.environ.get("EXTERNAL_INGEST_RETRIES", "3")))
 
 
 def _truthy(name: str, default: bool = True) -> bool:
@@ -93,6 +97,7 @@ def post_daily_digest(
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "report_date": report_date,
         "report": report,
+        "normalized": normalize_report(report_date, report),
         "meta": {
             "source": "open_source_news",
             "pipeline": "pipelines/daily_run.py",
@@ -110,10 +115,22 @@ def post_daily_digest(
         headers["Authorization"] = f"Bearer {token}"
     headers.update(_resolve_headers())
 
-    r = requests.post(url, json=payload, headers=headers, timeout=DEFAULT_TIMEOUT)
-    if r.status_code >= 400:
-        return False, f"HTTP {r.status_code}: {r.text[:500]}"
-    return True, f"ok ({r.status_code})"
+    last_message = "not attempted"
+    for attempt in range(MAX_RETRIES):
+        try:
+            r = requests.post(url, json=payload, headers=headers, timeout=DEFAULT_TIMEOUT)
+            if 200 <= r.status_code < 300:
+                return True, f"ok ({r.status_code})"
+            last_message = f"HTTP {r.status_code}: {r.text[:500]}"
+            if r.status_code < 500:
+                break
+        except requests.RequestException as e:
+            last_message = f"request error: {e}"
+
+        if attempt < MAX_RETRIES - 1:
+            time.sleep(2 ** attempt)
+
+    return False, last_message
 
 
 def maybe_push_daily_digest(

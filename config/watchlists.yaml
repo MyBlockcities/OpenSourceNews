@@ -1,0 +1,59 @@
+watchlists:
+  - name: ai_agent_infra
+    persona: "AI automation agency operator"
+    entities:
+      - OpenAI Agents SDK
+      - Claude Code
+      - LangGraph
+      - CrewAI
+      - MCP
+      - OpenRouter
+    topics:
+      - AI
+      - agents
+    alert_rules:
+      - new_release
+      - funding
+      - security_issue
+      - repo_trending
+
+  - name: real_estate_tokenization
+    persona: "Real estate tokenization strategist"
+    entities:
+      - Securitize
+      - Polymesh
+      - Centrifuge
+      - RealT
+      - Lofty
+      - RWA
+    topics:
+      - blockchain
+      - real_estate
+      - tokenization
+    exclude_terms:
+      - NLP
+      - deep-learning
+      - HuggingFace tokenizers
+      - string tokenization
+      - text tokenization
+    alert_rules:
+      - regulation
+      - partnership
+      - funding
+
+  - name: health_wellness_peptides
+    persona: "Health and wellness peptide brand operator"
+    entities:
+      - peptides
+      - NAD+
+      - BPC-157
+      - GLP-1
+      - oral strips
+    topics:
+      - health
+      - wellness
+      - longevity
+    alert_rules:
+      - research
+      - product_launch
+      - regulation

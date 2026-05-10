@@ -22,6 +22,7 @@ from pipelines.transcript_analysis import analyze_transcript_auto
 from pipelines.llm_provider import try_get_llm_client, parse_json_text
 from services.mailaroo_emailer import send_text_email
 from services.external_ingest import maybe_push_daily_digest
+from services.news_schema import add_item_ids
 
 # --- CONFIGURATION ---
 CONFIG_PATH = ROOT_DIR / 'config' / 'feeds.yaml'
@@ -36,11 +37,11 @@ HTTP_HEADERS = {
     "User-Agent": "Mozilla/5.0 (research-bot; +https://github.com/user/repo)"
 }
 
-# --- LLM (Ollama default, or Gemini when LLM_PROVIDER=gemini) ---
+# --- LLM (Ollama default; cloud providers are optional) ---
 llm = try_get_llm_client()
 if not llm:
     print(
-        "WARNING: No LLM available (Ollama, or LLM_PROVIDER=gemini/openrouter/rotating "
+        "WARNING: No LLM available (Ollama, or LLM_PROVIDER=openrouter/rotating "
         "with keys). Triage will use fallbacks."
     )
 
@@ -557,6 +558,7 @@ def main():
         mode_counts = {"standard_summary": 0, "wisdom_extraction": 0, "claim_mapping": 0}
         for item in classified_content:
             processed = apply_processing_mode(item)
+            processed = add_item_ids(processed)
             mode = item.get("processing_mode", "standard_summary")
             mode_counts[mode] = mode_counts.get(mode, 0) + 1
             processed_content.append(processed)

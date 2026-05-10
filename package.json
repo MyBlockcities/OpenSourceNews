@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "build:kb": "python3 scripts/build_knowledge_base.py",
+    "export:qdrant": "python3 scripts/export_qdrant_payload.py",
     "sync:qdrant": "python3 scripts/sync_knowledge_base_to_qdrant.py"
   },
   "dependencies": {
