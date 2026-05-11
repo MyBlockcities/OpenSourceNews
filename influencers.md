@@ -1,5 +1,5 @@
 
-Help me plan and then execute, setting up new capabilities to extend OpenSourceNews to auto‑discover ~20 new micro‑influencers per day per niche with nothing but scheduled GitHub Actions plus free‑tier APIs (mainly YouTube + RSS + generic web), but you cannot reliably *analyze* X accounts for free anymore; you’d treat X handles as metadata discovered from other sources.
+Help me plan and then execute, setting up new capabilities to extend OpenSourceNews to auto‑discover ~20 new micro‑influencers per day per niche with nothing but scheduled GitHub Actions plus free‑tier APIs (mainly YouTube + RSS + generic web), but you cannot reliably *analyze* X accounts for free anymore; you’d treat X handles as metadata discovered from other sources. 
 
 Below is a practical, repo‑level way to do it.
 
@@ -26,31 +26,31 @@ You can think of this as a daily, fully automated ETL job, implemented as a GitH
 
 **Daily job steps:**
 
-1. **Ingest fresh content (reuse what you already have):**
-   - Pull new articles via your existing RSS/HTML scrapers.
-   - Pull new YouTube videos & transcripts for your focus topics.
+1. **Ingest fresh content (reuse what you already have):**  
+   - Pull new articles via your existing RSS/HTML scrapers.  
+   - Pull new YouTube videos & transcripts for your focus topics.  
    - Optionally, ingest newsletters or other feeds if you already do that.
 
-2. **Extract creator identities from that content:**
-   - YouTube: channel ID, channel title, link, description, tags.
-   - Articles/blogs: byline name, site domain, author page, any “follow me on X/IG” links.
+2. **Extract creator identities from that content:**  
+   - YouTube: channel ID, channel title, link, description, tags.  
+   - Articles/blogs: byline name, site domain, author page, any “follow me on X/IG” links.  
    - Embedded social links: regex for `x.com/handle`, `twitter.com/handle`, `instagram.com/...`, `tiktok.com/@...` in descriptions and author bios.
 
 3. **Enrich each candidate with free‑tier stats:**
    - For YouTube: call YouTube Data API `channels.list` for subscriber count, view count, and recent upload activity; this is cheap in quota terms vs `search.list`. [elfsight](https://elfsight.com/blog/youtube-data-api-v3-limits-operations-resources-methods-etc/)
-   - For blogs/RSS: basic signals like posting frequency (how many posts in last N days) and whether they cover your target tags.
+   - For blogs/RSS: basic signals like posting frequency (how many posts in last N days) and whether they cover your target tags.  
    - For social handles: don’t hit X API; just store the handle as metadata associated with the channel/author.
 
 4. **Score and filter as “micro‑influencers”:**
-   - Define micro‑influencer bands per platform (e.g., 2k–50k subs for YouTube; you can adjust).
+   - Define micro‑influencer bands per platform (e.g., 2k–50k subs for YouTube; you can adjust).  
    - Score based on: niche match, recency, activity, and engagement proxies (views per recent video, comments, likes if accessible via YouTube API or HTML).
 
 5. **Select 20 new ones per day per niche:**
-   - Maintain a JSON/CSV store (in the repo) of all previously discovered influencer IDs per niche.
-   - From today’s candidates, filter out any already in the store, sort by score, and take the top N (e.g., 20 per topic or 20 overall).
+   - Maintain a JSON/CSV store (in the repo) of all previously discovered influencer IDs per niche.  
+   - From today’s candidates, filter out any already in the store, sort by score, and take the top N (e.g., 20 per topic or 20 overall).  
 
 6. **Persist & expose:**
-   - Update `data/influencers/<topic>.json` and commit/push from GitHub Actions back to `main`.
+   - Update `data/influencers/<topic>.json` and commit/push from GitHub Actions back to `main`.  
    - Downstream: other scripts or marketing pipelines can read those files and auto‑generate outreach lists, asset ideas, or co‑marketing content.
 
 All of this can run inside a **daily cron‑triggered GitHub Action** for a public repo, which is free on standard runners. [github](https://github.com/orgs/community/discussions/26054)
@@ -68,11 +68,11 @@ All of this can run inside a **daily cron‑triggered GitHub Action** for a publ
 
 **Detection logic:**
 
-- YouTube:
-  - Use `search.list` with topic keywords + date filter.
+- YouTube:  
+  - Use `search.list` with topic keywords + date filter.  
   - For each result, call `channels.list` and mark channels with subscriber count in your micro‑band (e.g., 1k–50k subs) and at least 1–2 videos about tokenization in the last month. [developers.google](https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits)
-- RSS/blogs:
-  - Extract author names & URLs; track frequency of posts containing tokenization/RWA keywords.
+- RSS/blogs:  
+  - Extract author names & URLs; track frequency of posts containing tokenization/RWA keywords.  
   - Treat frequently appearing authors as “micro‑influencers” even if they primarily write versus post video.
 
 ***
@@ -81,12 +81,12 @@ All of this can run inside a **daily cron‑triggered GitHub Action** for a publ
 
 **Primary sources:**
 
-- YouTube channels focused on “alternative media”, “independent news”, “censorship”, etc.
+- YouTube channels focused on “alternative media”, “independent news”, “censorship”, etc.  
 - RSS from independent-journalism platforms, Substack tags, and alt‑news blogs that you’re already aggregating.
 
 **Detection logic:**
 
-- YouTube: same pattern as above but with alt‑news keywords + view/subscriber thresholds.
+- YouTube: same pattern as above but with alt‑news keywords + view/subscriber thresholds.  
 - RSS: authors and Substack writers whose bylines show up consistently on relevant stories.
 
 You don’t need to label them as “alt” programmatically; use your existing topic classification on content to propagate a topic label to the creator.
@@ -99,12 +99,12 @@ This is the easiest to mine because YouTube crypto channels are plentiful and we
 
 **Primary sources:**
 
-- YouTube: “onchain analysis”, “real world assets”, “DeFi RWA”, “crypto regulation”, “tokenization” keywords.
+- YouTube: “onchain analysis”, “real world assets”, “DeFi RWA”, “crypto regulation”, “tokenization” keywords.  
 - RSS/news: crypto news sites, RWA newsletters, etc.
 
 **Detection logic:**
 
-- YouTube search → channel stats → micro‑band filter, exactly as with real estate tokenization.
+- YouTube search → channel stats → micro‑band filter, exactly as with real estate tokenization.  
 - Since big channels dominate crypto, you may want multiple tiers: true micro (2–20k), mid (20–200k) and exclude >500k as “macro” for other purposes.
 
 ***
@@ -118,7 +118,7 @@ This is the easiest to mine because YouTube crypto channels are plentiful and we
 
 **Detection logic:**
 
-- YouTube: filter channels where 2+ recent videos are about peptides or peptide‑adjacent wellness and channel subs within your micro range.
+- YouTube: filter channels where 2+ recent videos are about peptides or peptide‑adjacent wellness and channel subs within your micro range.  
 - Blogs: treat recurring peptide authors+their clinics as micro‑influencers, and store their YouTube channel or Insta/X handles if present in bios.
 
 Because the peptide niche can drift into non‑compliant gray‑market material, you can also flag channels as “clinical/MD” vs “bro‑science” based on key phrases and disclaimers, which is useful for XoPure’s brand safety.
@@ -129,12 +129,12 @@ Because the peptide niche can drift into non‑compliant gray‑market material,
 
 **Primary sources:**
 
-- YouTube: “functional fitness”, “longevity”, “biohacking”, “peptide stack”, “wellness routine”, etc.
+- YouTube: “functional fitness”, “longevity”, “biohacking”, “peptide stack”, “wellness routine”, etc.  
 - RSS: fitness blogs, wellness newsletters, and podcasts with transcripts.
 
 **Detection logic:**
 
-- YouTube: micro‑band channels where recent videos also include your peptide/crypto/alt‑news/real‑estate tokens in titles/descriptions get boosted scores (because they overlap multiple focus areas).
+- YouTube: micro‑band channels where recent videos also include your peptide/crypto/alt‑news/real‑estate tokens in titles/descriptions get boosted scores (because they overlap multiple focus areas).  
 - RSS/podcasts: host + guest name extraction from transcripts and show notes.
 
 ***
@@ -194,14 +194,14 @@ This stays entirely within free GitHub Actions limits for a public repo. [docs.g
 
 In that script, you’d:
 
-- Load existing influencer registry files, e.g.
-  - `data/influencers/real_estate_tokenization.json`
-  - `data/influencers/alt_news.json`
-  - `data/influencers/crypto.json`
-  - `data/influencers/peptides.json`
+- Load existing influencer registry files, e.g.  
+  - `data/influencers/real_estate_tokenization.json`  
+  - `data/influencers/alt_news.json`  
+  - `data/influencers/crypto.json`  
+  - `data/influencers/peptides.json`  
   - `data/influencers/fitness_wellness.json`
 
-- For each topic:
+- For each topic:  
   - Run YouTube search queries (minimal number of `search.list` calls to conserve quota). [dev](https://dev.to/siyabuilt/youtubes-api-quota-is-10000-unitsday-heres-how-i-track-100k-videos-without-hitting-it-5d8h)
   - Call `channels.list` for the channels returned to fetch stats. [elfsight](https://elfsight.com/blog/youtube-data-api-v3-limits-operations-resources-methods-etc/)
   - Scrape any new RSS items you’ve already downloaded that match the same topic label and extract authors & social handles.
@@ -246,14 +246,14 @@ In that script, you’d:
 
 Because there is no real free read tier for X anymore, and new devs are on pay‑per‑use pricing for reads and followers: [postproxy](https://postproxy.dev/blog/x-api-pricing-2026/)
 
-- **Do not** plan on:
-  - Searching X for influencers,
-  - Pulling follower counts, or
+- **Do not** plan on:  
+  - Searching X for influencers,  
+  - Pulling follower counts, or  
   - Streaming engagement metrics via official API, if your goal is strictly zero spend.
 
 - What you *can* safely do for free:
 
-  - **Extraction only:** when you see `x.com/username` links in YouTube descriptions, author bios, or RSS content, extract and store them as part of the influencer profile.
+  - **Extraction only:** when you see `x.com/username` links in YouTube descriptions, author bios, or RSS content, extract and store them as part of the influencer profile.  
   - **Outbound use:** later, if you or a separate (paid) system wants to query X, it can start from that curated list of handles.
 
 That keeps OpenSourceNews + GitHub Actions firmly in the “free infra” world while still tying creators to their X presence by URL.
@@ -819,8 +819,8 @@ if __name__ == "__main__":
 This script:
 
 - Uses **YouTube search + channels.list** to find channels active in your topic in the last `SEARCH_DAYS` days. [developers.google](https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits)
-- Treats channels with **2k–100k subscribers** as micro‑influencers and scores them by subs+views.
-- Writes per‑topic JSON files under `data/influencers/` (`real_estate_tokenization.json`, `alternative_news.json`, etc.) that you can consume from the API or other scripts.
+- Treats channels with **2k–100k subscribers** as micro‑influencers and scores them by subs+views.  
+- Writes per‑topic JSON files under `data/influencers/` (`real_estate_tokenization.json`, `alternative_news.json`, etc.) that you can consume from the API or other scripts.  
 
 ***
 
@@ -831,3 +831,5 @@ If you want to align this with your existing `config/feeds.yaml`, you can augmen
 A simple extension would be:
 
 - For each OpenSourceNews topic whose `topic_name` mentions “Blockchain / Crypto / Web3”, map that to `blockchain_crypto` and pass its `rss_sources` into `fetch_rss_authors`, then treat recurring authors as text‑based micro‑influencers for that topic.
+
+
