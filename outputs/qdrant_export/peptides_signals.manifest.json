@@ -1,0 +1,14 @@
+{
+  "schema": "open_source_news_qdrant_export.v1",
+  "generated_at": "2026-05-11T08:08:59Z",
+  "record_count": 71,
+  "days": 30,
+  "bucket_filter": [
+    "peptides"
+  ],
+  "topic_filter": "",
+  "jsonl_path": "outputs/qdrant_export/peptides_signals.jsonl",
+  "id_strategy": "uuid5(opensourcenews namespace, news_signal:{report_date}:{signal_id})",
+  "embedding_field": "embedding_text",
+  "payload_field": "payload"
+}
