@@ -1,0 +1,841 @@
+{
+  "schema": "open_source_news_mission_brief.v1",
+  "generated_at": "2026-05-14T07:57:20+00:00",
+  "report_date": "2026-05-14",
+  "watchlist": {
+    "name": "ai_agent_infra",
+    "persona": "AI automation agency operator",
+    "entities": [
+      "OpenAI Agents SDK",
+      "Claude Code",
+      "LangGraph",
+      "CrewAI",
+      "MCP",
+      "OpenRouter"
+    ],
+    "topics": [
+      "AI",
+      "agents"
+    ],
+    "alert_rules": [
+      "new_release",
+      "funding",
+      "security_issue",
+      "repo_trending"
+    ]
+  },
+  "counts": {
+    "matched_items": 12,
+    "source_links": 11
+  },
+  "sections": {
+    "what_changed": [
+      "Notion just turned its workspace into a hub for AI agents (RSS)",
+      "K-Dense-AI / scientific-agent-skills (GitHub Trending)",
+      "K-Dense-AI / scientific-agent-skills (GitHub Trending)",
+      "An AI agent published a hit piece on me (Hacker News)",
+      "OpenCode – Open source AI coding agent (Hacker News)"
+    ],
+    "why_it_matters": [
+      "Notion just turned its workspace into a hub for AI agents maps to agents, ai.",
+      "K-Dense-AI / scientific-agent-skills maps to agents, ai.",
+      "K-Dense-AI / scientific-agent-skills maps to agents, ai."
+    ],
+    "who_should_care": [
+      "AI automation agency operator"
+    ],
+    "recommended_actions": [
+      "Review RSS signal: Notion just turned its workspace into a hub for AI agents",
+      "Review GitHub Trending signal: K-Dense-AI / scientific-agent-skills",
+      "Review GitHub Trending signal: K-Dense-AI / scientific-agent-skills"
+    ],
+    "build_ideas": [
+      "Prototype an internal brief or automation around: Notion just turned its workspace into a hub for AI agents"
+    ],
+    "content_ideas": [
+      "Publish a short explainer on: Notion just turned its workspace into a hub for AI agents",
+      "Publish a short explainer on: K-Dense-AI / scientific-agent-skills"
+    ],
+    "investment_partnership_angles": [
+      "Track the cluster `b69e35d473c791b6` for repeat mentions over the next week.",
+      "Track the cluster `3e88249727db35aa` for repeat mentions over the next week."
+    ]
+  },
+  "items": [
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "5ddb478d2078df44",
+      "cluster_id": "b69e35d473c791b6",
+      "title": "Notion just turned its workspace into a hub for AI agents",
+      "summary": "",
+      "source_urls": [
+        "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "1f0a4d10941451c2",
+      "cluster_id": "3e88249727db35aa",
+      "title": "K-Dense-AI / scientific-agent-skills",
+      "summary": "",
+      "source_urls": [
+        "https://github.com/K-Dense-AI/scientific-agent-skills"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "GitHub Trending",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "1f0a4d10941451c2",
+      "cluster_id": "2a1c42ea2c956cda",
+      "title": "K-Dense-AI / scientific-agent-skills",
+      "summary": "",
+      "source_urls": [
+        "https://github.com/K-Dense-AI/scientific-agent-skills"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "GitHub Trending",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "054c0b119223efe6",
+      "cluster_id": "bc5c62f1dce6b2e2",
+      "title": "An AI agent published a hit piece on me",
+      "summary": "",
+      "source_urls": [
+        "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "79e93f5f40207ecd",
+      "cluster_id": "33ead16be8b8893b",
+      "title": "OpenCode – Open source AI coding agent",
+      "summary": "",
+      "source_urls": [
+        "https://opencode.ai/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "7985656310f1ab3f",
+      "cluster_id": "3027b210f22918d7",
+      "title": "AI agent opens a PR write a blogpost to shames the maintainer who closes it",
+      "summary": "",
+      "source_urls": [
+        "https://github.com/matplotlib/matplotlib/pull/31132"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "22d51d6e9a4f94c6",
+      "cluster_id": "78982efcd91987f9",
+      "title": "Opus 4.5 is not the normal AI agent experience that I have had thus far",
+      "summary": "",
+      "source_urls": [
+        "https://burkeholland.github.io/posts/opus-4-5-change-everything/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "7afffaaa76e1f563",
+      "cluster_id": "663d8317f4bfa82b",
+      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "summary": "",
+      "source_urls": [
+        "https://twitter.com/lifeof_jer/status/2048103471019434248"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "30dc305fcad806cd",
+      "cluster_id": "39dbc19c4dbd9778",
+      "title": "Nvidia’s HBAR Bet Clashes With Retail AI Agent Frenzy",
+      "summary": "",
+      "source_urls": [
+        "https://dailycoin.com/nvidias-quiet-hedera-bet-clashes-with-retail-ai-agent-frenzy/"
+      ],
+      "topics": [
+        "Blockchain / Crypto / Web3"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "blockchain",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "d9253bcbd9316ee7",
+      "cluster_id": "9a6906b7dd255131",
+      "title": "Arena AI Model ELO History",
+      "summary": "",
+      "source_urls": [
+        "https://mayerwin.github.io/AI-Arena-History/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "04e9ded769e298dc",
+      "cluster_id": "7d99f0c791279010",
+      "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
+      "summary": "",
+      "source_urls": [
+        "https://github.com/DrCatHicks/learning-opportunities"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "claude code"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "c12c36e891b4bb27",
+      "cluster_id": "ac748f6a889a2835",
+      "title": "Who decides what AI tells you? Campbell Brown, once Meta’s news chief, has thoughts",
+      "summary": "",
+      "source_urls": [
+        "https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    }
+  ],
+  "source_links": [
+    {
+      "title": "Notion just turned its workspace into a hub for AI agents",
+      "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/"
+    },
+    {
+      "title": "K-Dense-AI / scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "An AI agent published a hit piece on me",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
+    },
+    {
+      "title": "OpenCode – Open source AI coding agent",
+      "url": "https://opencode.ai/"
+    },
+    {
+      "title": "AI agent opens a PR write a blogpost to shames the maintainer who closes it",
+      "url": "https://github.com/matplotlib/matplotlib/pull/31132"
+    },
+    {
+      "title": "Opus 4.5 is not the normal AI agent experience that I have had thus far",
+      "url": "https://burkeholland.github.io/posts/opus-4-5-change-everything/"
+    },
+    {
+      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "url": "https://twitter.com/lifeof_jer/status/2048103471019434248"
+    },
+    {
+      "title": "Nvidia’s HBAR Bet Clashes With Retail AI Agent Frenzy",
+      "url": "https://dailycoin.com/nvidias-quiet-hedera-bet-clashes-with-retail-ai-agent-frenzy/"
+    },
+    {
+      "title": "Arena AI Model ELO History",
+      "url": "https://mayerwin.github.io/AI-Arena-History/"
+    },
+    {
+      "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
+      "url": "https://github.com/DrCatHicks/learning-opportunities"
+    },
+    {
+      "title": "Who decides what AI tells you? Campbell Brown, once Meta’s news chief, has thoughts",
+      "url": "https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts/"
+    }
+  ]
+}
