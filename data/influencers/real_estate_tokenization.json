@@ -2,19 +2,131 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-05-13T11:14:09Z",
-  "new_this_run": 6,
-  "total_influencers": 44,
+  "updated_at": "2026-05-14T11:06:45Z",
+  "new_this_run": 4,
+  "total_influencers": 48,
   "run_summary": {
-    "run_started_at": "2026-05-13T11:14:05Z",
-    "candidate_count": 33,
-    "existing_count": 38,
-    "selected_new_count": 6,
+    "run_started_at": "2026-05-14T11:06:42Z",
+    "candidate_count": 38,
+    "existing_count": 44,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:e86577c0feb0b7f77300",
+      "external_id": "e86577c0feb0b7f77300",
+      "name": "Kristin Smith",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/05/13/it-s-time-for-clarity-for-america-s-digital-asset-markets",
+      "discovered_on": "2026-05-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "It’s time for clarity for America’s digital asset markets"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f28bf4bec1492721b76c",
+      "external_id": "f28bf4bec1492721b76c",
+      "name": "Dovile Silenskyte",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/05/13/crypto-long-and-short-bitcoin-vs-gold-26-relative-undervaluation",
+      "discovered_on": "2026-05-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto Long & Short: Bitcoin vs. gold: 26% relative undervaluation"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a78878774a1f48c82eea",
+      "external_id": "a78878774a1f48c82eea",
+      "name": "Cointelegraph by Helen Partz",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://cointelegraph.com/news/fidelity-filq-tokenized-fund-chainlink-sygnum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-05-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Fidelity International launches Moody’s-rated tokenized fund on Chainlink"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d5c3389ad841cb737419",
+      "external_id": "d5c3389ad841cb737419",
+      "name": "CoinDesk Indices",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/05/13/coindesk-20-performance-update-sui-drops-3-2-as-index-trades-lower",
+      "discovered_on": "2026-05-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "CoinDesk 20 performance update: SUI drops 3.2% as index trades lower"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:9ce85c360d21e5038cc2",
       "external_id": "9ce85c360d21e5038cc2",
