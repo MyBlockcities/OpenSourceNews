@@ -2,19 +2,329 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-05-14T11:06:50Z",
+  "updated_at": "2026-05-15T11:08:47Z",
   "new_this_run": 11,
-  "total_influencers": 63,
+  "total_influencers": 74,
   "run_summary": {
-    "run_started_at": "2026-05-14T11:06:42Z",
-    "candidate_count": 30,
-    "existing_count": 52,
+    "run_started_at": "2026-05-15T11:08:37Z",
+    "candidate_count": 31,
+    "existing_count": 63,
     "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:83f6a6ca2162b898ba7f",
+      "external_id": "83f6a6ca2162b898ba7f",
+      "name": "Osapinion",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/n6G553yQvAysStsvw/data-quality-is-way-underrated-and-we-should-start-funding",
+      "discovered_on": "2026-05-15",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/JesusFerna7026"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Data Quality is Way Underrated, and We Should Start Funding It."
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d7d1981ef34ad891d8cd",
+      "external_id": "d7d1981ef34ad891d8cd",
+      "name": "loops",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ahu9BCHPFDg9AJF75/some-observations-about-nla-explanations",
+      "discovered_on": "2026-05-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Some observations about NLA explanations"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:43a1309bf50148a7e40d",
+      "external_id": "43a1309bf50148a7e40d",
+      "name": "koratkar",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/RemDfxkTsR7wrSNLE/emma-baker-on-adhd",
+      "discovered_on": "2026-05-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Emma Baker on ADHD"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:de380614f3d5b5bc4761",
+      "external_id": "de380614f3d5b5bc4761",
+      "name": "burnssa",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Bh4pBdAQfgoJ7CFoP/2b-scoring-model-flags-out-of-domain-misalignment-suggesting",
+      "discovered_on": "2026-05-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "2B scoring model flags out-of-domain misalignment, suggesting specialist judges have potential for audits"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b7a8d5448f1f4a46a9cb",
+      "external_id": "b7a8d5448f1f4a46a9cb",
+      "name": "Raemon",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/mpoEKJbqQvrRHqn3e/designing-ai-factual-claims-for-easy-verification",
+      "discovered_on": "2026-05-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Designing AI factual claims for \"easy verification\""
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:bdb8b112ba89e52e31b2",
+      "external_id": "bdb8b112ba89e52e31b2",
+      "name": "Matthias Matthijs, Nathalie Tocci",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/europe/how-europe-found-its-nerve",
+      "discovered_on": "2026-05-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "How Europe Found Its Nerve"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:3acde2b4b5a6937b3e45",
+      "external_id": "3acde2b4b5a6937b3e45",
+      "name": "Jan_Kulveit",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/fYF8v2ukZmsNvmkkX/convergent-abstraction-hypothesis",
+      "discovered_on": "2026-05-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Convergent Abstraction Hypothesis"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c4e721b022f0bf2dc2ca",
+      "external_id": "c4e721b022f0bf2dc2ca",
+      "name": "Georgia Levenson Keohane",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/can-corporate-america-protect-democracy",
+      "discovered_on": "2026-05-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Can Corporate America Protect Democracy?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:607d778cb7796872a2cd",
+      "external_id": "607d778cb7796872a2cd",
+      "name": "Cole Wyeth",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/JT3qCYDimskcBdiEr/the-hard-core-of-alignment-is-robustifying-rl",
+      "discovered_on": "2026-05-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The hard core of alignment (is robustifying RL)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:34d4de773cd20973f6b4",
+      "external_id": "34d4de773cd20973f6b4",
+      "name": "Charlie Griffin",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/tK8vqHDxaRGcysNJQ/the-safe-to-dangerous-shift-is-a-fundamental-problem-for-1",
+      "discovered_on": "2026-05-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The safe-to-dangerous shift is a fundamental problem for eval realism; but also for measuring awareness"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:58194d8b9f494ddcef5f",
+      "external_id": "58194d8b9f494ddcef5f",
+      "name": "Aleksandr Bowkis",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/gpuYFbMNH8PJXpmny/automated-alignment-is-harder-than-you-think-1",
+      "discovered_on": "2026-05-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Automated Alignment is Harder Than You Think"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:09b06f873a563e6ed50c",
       "external_id": "09b06f873a563e6ed50c",

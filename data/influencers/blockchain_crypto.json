@@ -2,19 +2,75 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-05-14T11:06:49Z",
-  "new_this_run": 4,
-  "total_influencers": 48,
+  "updated_at": "2026-05-15T11:08:45Z",
+  "new_this_run": 2,
+  "total_influencers": 50,
   "run_summary": {
-    "run_started_at": "2026-05-14T11:06:42Z",
-    "candidate_count": 38,
-    "existing_count": 44,
-    "selected_new_count": 4,
+    "run_started_at": "2026-05-15T11:08:37Z",
+    "candidate_count": 32,
+    "existing_count": 48,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:903ff1d761d8b2a9fd2f",
+      "external_id": "903ff1d761d8b2a9fd2f",
+      "name": "Sam Boboev",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/05/13/crypto-for-advisors-stablecoins-finance-s-new-rails",
+      "discovered_on": "2026-05-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto for Advisors: Stablecoins: finance's new rails"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:be2ba9b9d182d39c4287",
+      "external_id": "be2ba9b9d182d39c4287",
+      "name": "Nikhilesh De",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.coindesk.com/policy/2026/05/14/live-senate-banking-committee-holds-key-hearing-to-advance-clarity-act",
+      "discovered_on": "2026-05-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "LIVE: Senate Banking Committee advances Clarity Act to full Senate floor"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:b8e4ee458e6134662207",
       "external_id": "b8e4ee458e6134662207",
