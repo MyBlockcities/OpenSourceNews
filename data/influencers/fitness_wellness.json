@@ -2,19 +2,277 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-05-15T11:08:47Z",
-  "new_this_run": 11,
-  "total_influencers": 74,
+  "updated_at": "2026-05-16T10:47:45Z",
+  "new_this_run": 9,
+  "total_influencers": 83,
   "run_summary": {
-    "run_started_at": "2026-05-15T11:08:37Z",
-    "candidate_count": 31,
-    "existing_count": 63,
-    "selected_new_count": 11,
+    "run_started_at": "2026-05-16T10:47:36Z",
+    "candidate_count": 30,
+    "existing_count": 74,
+    "selected_new_count": 9,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:57f622c1c2458c247fd7",
+      "external_id": "57f622c1c2458c247fd7",
+      "name": "Julian Bradshaw",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/sehJYg5Yny9fvpbpt/a-year-late-claude-finally-beats-pokemon",
+      "discovered_on": "2026-05-16",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/sundarpichai"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Year Late, Claude Finally Beats Pokémon"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ac5715653bc7cee0d792",
+      "external_id": "ac5715653bc7cee0d792",
+      "name": "Elias Schmied",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/sFMrzD58Cnjo7tSqb/clarifying-the-darwinian-honeymoon",
+      "discovered_on": "2026-05-16",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/reconfigurthing"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Clarifying the Darwinian Honeymoon"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d2c83631399222df5748",
+      "external_id": "d2c83631399222df5748",
+      "name": "Alex Mallen",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/cNymohcWtGHzW7AjK/risk-reports-need-to-address-deployment-time-spread-of",
+      "discovered_on": "2026-05-16",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/xai"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Risk reports need to address deployment-time spread of misalignment"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a1bb9feb5b00a2e75f22",
+      "external_id": "a1bb9feb5b00a2e75f22",
+      "name": "Shmi",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/oyTQpqBtdawjAnfcm/why-i-am-not-too-worried-about-aipocalypse-scott-alexander",
+      "discovered_on": "2026-05-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Why I am not too worried about AIpocalypse: \nScott Alexander vs Nicolaus Copernicus"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2e031aa8a057341b5580",
+      "external_id": "2e031aa8a057341b5580",
+      "name": "Realmbird",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/xmmBTkogixvAbyQFk/nla-verbalizations-on-auditbench-llama-70b",
+      "discovered_on": "2026-05-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "NLA Verbalizations on AuditBench: Llama 70B"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:1ea1fa32252279cda697",
+      "external_id": "1ea1fa32252279cda697",
+      "name": "Jessica Rumbelow",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/RroeHBSkBXXDsrryq/an-introduction-to-exemplar-partitioning-for-mechanistic-1",
+      "discovered_on": "2026-05-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "An Introduction to Exemplar Partitioning for Mechanistic Interpretability"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:1879c0c675f4dee910e7",
+      "external_id": "1879c0c675f4dee910e7",
+      "name": "James Stephen Brown",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/XcjKmpgtu2ijPToiz/an-argument-for-analogies-polymaths-1-3-1",
+      "discovered_on": "2026-05-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "An Argument for Analogies—Polymaths 1/3"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:75dc863f4efbfd938794",
+      "external_id": "75dc863f4efbfd938794",
+      "name": "Jacob_Hilton",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/7RyAefESvb6BQ3tMz/mechanistic-estimation-for-expectations-of-random-products",
+      "discovered_on": "2026-05-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Mechanistic estimation for expectations of random products"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:10efca546240521dde0e",
+      "external_id": "10efca546240521dde0e",
+      "name": "Alek Westover",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/BYH6ebmfZb3Eggzer/incriminating-misaligned-ai-models-via-distillation",
+      "discovered_on": "2026-05-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Incriminating misaligned AI models via distillation"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:83f6a6ca2162b898ba7f",
       "external_id": "83f6a6ca2162b898ba7f",

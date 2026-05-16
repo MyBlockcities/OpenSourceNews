@@ -2,19 +2,104 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-05-15T11:08:41Z",
-  "new_this_run": 2,
-  "total_influencers": 50,
+  "updated_at": "2026-05-16T10:47:40Z",
+  "new_this_run": 3,
+  "total_influencers": 53,
   "run_summary": {
-    "run_started_at": "2026-05-15T11:08:37Z",
-    "candidate_count": 32,
-    "existing_count": 48,
-    "selected_new_count": 2,
+    "run_started_at": "2026-05-16T10:47:36Z",
+    "candidate_count": 34,
+    "existing_count": 50,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:3d60e03292b772cc8236",
+      "external_id": "3d60e03292b772cc8236",
+      "name": "Cointelegraph by Ciaran Lyons",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://cointelegraph.com/news/sharplink-ceo-points-out-these-3-catalysts-for-ethereum-to-reach-new-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-05-16",
+      "score": 32.0,
+      "metrics": {
+        "posts_seen_in_fetch": 2,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Sharplink CEO points out 3 catalysts for Ethereum's price to surge higher",
+          "US CLARITY Act brings ‘major spike of euphoria’ to Bitcoin: Santiment"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:eef91d8eecb439530a4c",
+      "external_id": "eef91d8eecb439530a4c",
+      "name": "Annabelle Huang",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/05/15/iran-war-shows-markets-no-longer-sleep",
+      "discovered_on": "2026-05-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Iran war shows markets no longer sleep"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2062bd27f3239e3f86ec",
+      "external_id": "2062bd27f3239e3f86ec",
+      "name": "AI Boost",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-news/2026/05/15/crypto-market-structure-bill-clears-key-hurdle-as-ethics-debate-looms-over-floor-vote",
+      "discovered_on": "2026-05-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto market structure bill clears key hurdle as ethics debate looms over floor vote"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:d69d101dc482844a5b85",
       "external_id": "d69d101dc482844a5b85",
