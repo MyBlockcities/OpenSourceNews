@@ -1,0 +1,516 @@
+{
+  "schema": "open_source_news_mission_brief.v1",
+  "generated_at": "2026-05-16T07:35:00+00:00",
+  "report_date": "2026-05-16",
+  "watchlist": {
+    "name": "real_estate_tokenization",
+    "persona": "Real estate tokenization strategist",
+    "entities": [
+      "Securitize",
+      "Polymesh",
+      "Centrifuge",
+      "RealT",
+      "Lofty",
+      "RWA"
+    ],
+    "topics": [
+      "blockchain",
+      "real_estate",
+      "tokenization"
+    ],
+    "alert_rules": [
+      "regulation",
+      "partnership",
+      "funding"
+    ]
+  },
+  "counts": {
+    "matched_items": 7,
+    "source_links": 7
+  },
+  "sections": {
+    "what_changed": [
+      "Nasdaq, Citi Join Novogratz in Funding Blockchain Firm Symbiont (Hacker News)",
+      "Homeland Security Funding Blockchain Technology via SBIRs (Hacker News)",
+      "Funding Blockchain Ecosystems (Hacker News)",
+      "Indian Banks to Start Blockchain-Based Funding for SMEs to Avoid Defaulters (Hacker News)",
+      "The bitter lesson is coming for tokenization (Hacker News)"
+    ],
+    "why_it_matters": [
+      "Nasdaq, Citi Join Novogratz in Funding Blockchain Firm Symbiont maps to blockchain.",
+      "Homeland Security Funding Blockchain Technology via SBIRs maps to blockchain.",
+      "Funding Blockchain Ecosystems maps to blockchain."
+    ],
+    "who_should_care": [
+      "Real estate tokenization strategist"
+    ],
+    "recommended_actions": [
+      "Review Hacker News signal: Nasdaq, Citi Join Novogratz in Funding Blockchain Firm Symbiont",
+      "Review Hacker News signal: Homeland Security Funding Blockchain Technology via SBIRs",
+      "Review Hacker News signal: Funding Blockchain Ecosystems"
+    ],
+    "build_ideas": [
+      "Prototype an internal brief or automation around: Nasdaq, Citi Join Novogratz in Funding Blockchain Firm Symbiont"
+    ],
+    "content_ideas": [
+      "Publish a short explainer on: Nasdaq, Citi Join Novogratz in Funding Blockchain Firm Symbiont",
+      "Publish a short explainer on: Homeland Security Funding Blockchain Technology via SBIRs"
+    ],
+    "investment_partnership_angles": [
+      "Track the cluster `b798c6177ef52b89` for repeat mentions over the next week.",
+      "Track the cluster `fd861dcc177f005e` for repeat mentions over the next week."
+    ]
+  },
+  "items": [
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "f61fbf76d3a30815",
+      "cluster_id": "b798c6177ef52b89",
+      "title": "Nasdaq, Citi Join Novogratz in Funding Blockchain Firm Symbiont",
+      "summary": "",
+      "source_urls": [
+        "https://www.bloomberg.com/news/articles/2019-01-23/nasdaq-citi-join-novogratz-in-funding-blockchain-firm-symbiont"
+      ],
+      "topics": [
+        "Blockchain / Crypto / Web3"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "blockchain",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "blockchain"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "479b2b7a4ba2f586",
+      "cluster_id": "fd861dcc177f005e",
+      "title": "Homeland Security Funding Blockchain Technology via SBIRs",
+      "summary": "",
+      "source_urls": [
+        "https://medium.com/@darrenrush/homeland-security-funding-blockchain-technology-a791ce3ece3b#.7w2elb5x6"
+      ],
+      "topics": [
+        "Blockchain / Crypto / Web3"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "blockchain",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "blockchain"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "c3a70bc90605d2a6",
+      "cluster_id": "320bab2181301df6",
+      "title": "Funding Blockchain Ecosystems",
+      "summary": "",
+      "source_urls": [
+        "https://grasshopper.capital/research/2018/5/16/funding-blockchain-ecosystems"
+      ],
+      "topics": [
+        "Blockchain / Crypto / Web3"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "blockchain",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "blockchain"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "69a16b8a8a6fec7d",
+      "cluster_id": "e0bcf528815258a2",
+      "title": "Indian Banks to Start Blockchain-Based Funding for SMEs to Avoid Defaulters",
+      "summary": "",
+      "source_urls": [
+        "https://www.btcwires.com/c-buzz/indian-banks-to-start-blockchain-based-funding-for-smes-to-avoid-defaulters/"
+      ],
+      "topics": [
+        "Blockchain / Crypto / Web3"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "blockchain",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "blockchain"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "a367fc34209a15f1",
+      "cluster_id": "2b8485ca22125647",
+      "title": "The bitter lesson is coming for tokenization",
+      "summary": "",
+      "source_urls": [
+        "https://lucalp.dev/bitter-lesson-tokenization-and-blt/"
+      ],
+      "topics": [
+        "Blockchain / Crypto / Web3"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "blockchain",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "tokenization"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "fede664684673ca1",
+      "cluster_id": "b0533b6c3778b85e",
+      "title": "From text to token: How tokenization pipelines work",
+      "summary": "",
+      "source_urls": [
+        "https://www.paradedb.com/blog/when-tokenization-becomes-token"
+      ],
+      "topics": [
+        "Blockchain / Crypto / Web3"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "blockchain",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "tokenization"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "64b415a659a3b377",
+      "cluster_id": "9a88840510cd175b",
+      "title": "BlackRock's Larry Fink: \"Tokenization\", Digital IDs, & Social Credit",
+      "summary": "",
+      "source_urls": [
+        "https://thewinepress.substack.com/p/tokenization-blackrocks-larry-fink"
+      ],
+      "topics": [
+        "Blockchain / Crypto / Web3"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "blockchain",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "tokenization"
+      ],
+      "match_score": 10.5
+    }
+  ],
+  "source_links": [
+    {
+      "title": "Nasdaq, Citi Join Novogratz in Funding Blockchain Firm Symbiont",
+      "url": "https://www.bloomberg.com/news/articles/2019-01-23/nasdaq-citi-join-novogratz-in-funding-blockchain-firm-symbiont"
+    },
+    {
+      "title": "Homeland Security Funding Blockchain Technology via SBIRs",
+      "url": "https://medium.com/@darrenrush/homeland-security-funding-blockchain-technology-a791ce3ece3b#.7w2elb5x6"
+    },
+    {
+      "title": "Funding Blockchain Ecosystems",
+      "url": "https://grasshopper.capital/research/2018/5/16/funding-blockchain-ecosystems"
+    },
+    {
+      "title": "Indian Banks to Start Blockchain-Based Funding for SMEs to Avoid Defaulters",
+      "url": "https://www.btcwires.com/c-buzz/indian-banks-to-start-blockchain-based-funding-for-smes-to-avoid-defaulters/"
+    },
+    {
+      "title": "The bitter lesson is coming for tokenization",
+      "url": "https://lucalp.dev/bitter-lesson-tokenization-and-blt/"
+    },
+    {
+      "title": "From text to token: How tokenization pipelines work",
+      "url": "https://www.paradedb.com/blog/when-tokenization-becomes-token"
+    },
+    {
+      "title": "BlackRock's Larry Fink: \"Tokenization\", Digital IDs, & Social Credit",
+      "url": "https://thewinepress.substack.com/p/tokenization-blackrocks-larry-fink"
+    }
+  ]
+}
