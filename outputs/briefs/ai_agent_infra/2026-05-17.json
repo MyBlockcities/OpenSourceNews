@@ -1,0 +1,839 @@
+{
+  "schema": "open_source_news_mission_brief.v1",
+  "generated_at": "2026-05-17T07:48:19+00:00",
+  "report_date": "2026-05-17",
+  "watchlist": {
+    "name": "ai_agent_infra",
+    "persona": "AI automation agency operator",
+    "entities": [
+      "OpenAI Agents SDK",
+      "Claude Code",
+      "LangGraph",
+      "CrewAI",
+      "MCP",
+      "OpenRouter"
+    ],
+    "topics": [
+      "AI",
+      "agents"
+    ],
+    "alert_rules": [
+      "new_release",
+      "funding",
+      "security_issue",
+      "repo_trending"
+    ]
+  },
+  "counts": {
+    "matched_items": 12,
+    "source_links": 11
+  },
+  "sections": {
+    "what_changed": [
+      "K-Dense-AI / scientific-agent-skills (GitHub Trending)",
+      "K-Dense-AI / scientific-agent-skills (GitHub Trending)",
+      "An AI agent published a hit piece on me (Hacker News)",
+      "OpenCode – Open source AI coding agent (Hacker News)",
+      "AI agent opens a PR write a blogpost to shames the maintainer who closes it (Hacker News)"
+    ],
+    "why_it_matters": [
+      "K-Dense-AI / scientific-agent-skills maps to agents, ai.",
+      "K-Dense-AI / scientific-agent-skills maps to agents, ai.",
+      "An AI agent published a hit piece on me maps to agents, ai."
+    ],
+    "who_should_care": [
+      "AI automation agency operator"
+    ],
+    "recommended_actions": [
+      "Review GitHub Trending signal: K-Dense-AI / scientific-agent-skills",
+      "Review GitHub Trending signal: K-Dense-AI / scientific-agent-skills",
+      "Review Hacker News signal: An AI agent published a hit piece on me"
+    ],
+    "build_ideas": [
+      "Prototype an internal brief or automation around: K-Dense-AI / scientific-agent-skills"
+    ],
+    "content_ideas": [
+      "Publish a short explainer on: K-Dense-AI / scientific-agent-skills",
+      "Publish a short explainer on: K-Dense-AI / scientific-agent-skills"
+    ],
+    "investment_partnership_angles": [
+      "Track the cluster `3e88249727db35aa` for repeat mentions over the next week.",
+      "Track the cluster `2a1c42ea2c956cda` for repeat mentions over the next week."
+    ]
+  },
+  "items": [
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "1f0a4d10941451c2",
+      "cluster_id": "3e88249727db35aa",
+      "title": "K-Dense-AI / scientific-agent-skills",
+      "summary": "",
+      "source_urls": [
+        "https://github.com/K-Dense-AI/scientific-agent-skills"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "GitHub Trending",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "1f0a4d10941451c2",
+      "cluster_id": "2a1c42ea2c956cda",
+      "title": "K-Dense-AI / scientific-agent-skills",
+      "summary": "",
+      "source_urls": [
+        "https://github.com/K-Dense-AI/scientific-agent-skills"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "GitHub Trending",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "054c0b119223efe6",
+      "cluster_id": "bc5c62f1dce6b2e2",
+      "title": "An AI agent published a hit piece on me",
+      "summary": "",
+      "source_urls": [
+        "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "79e93f5f40207ecd",
+      "cluster_id": "33ead16be8b8893b",
+      "title": "OpenCode – Open source AI coding agent",
+      "summary": "",
+      "source_urls": [
+        "https://opencode.ai/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "7985656310f1ab3f",
+      "cluster_id": "3027b210f22918d7",
+      "title": "AI agent opens a PR write a blogpost to shames the maintainer who closes it",
+      "summary": "",
+      "source_urls": [
+        "https://github.com/matplotlib/matplotlib/pull/31132"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "22d51d6e9a4f94c6",
+      "cluster_id": "78982efcd91987f9",
+      "title": "Opus 4.5 is not the normal AI agent experience that I have had thus far",
+      "summary": "",
+      "source_urls": [
+        "https://burkeholland.github.io/posts/opus-4-5-change-everything/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "7afffaaa76e1f563",
+      "cluster_id": "663d8317f4bfa82b",
+      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "summary": "",
+      "source_urls": [
+        "https://twitter.com/lifeof_jer/status/2048103471019434248"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "fe4e2b7fe3f40e74",
+      "cluster_id": "7438677098aa9c74",
+      "title": "The haves and have nots of the AI gold rush",
+      "summary": "",
+      "source_urls": [
+        "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "8816e9e2973ef405",
+      "cluster_id": "31b025f370f34a46",
+      "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
+      "summary": "",
+      "source_urls": [
+        "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "5ad0b1951add60be",
+      "cluster_id": "071706737efc15db",
+      "title": "The US is betting on AI to catch insider trading in prediction markets",
+      "summary": "",
+      "source_urls": [
+        "https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "532d670f8a7bdb64",
+      "cluster_id": "814b241d360d9170",
+      "title": "awslabs / agent-plugins",
+      "summary": "",
+      "source_urls": [
+        "https://github.com/awslabs/agent-plugins"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "GitHub Trending",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "5e32edbdcc8a7173",
+      "cluster_id": "c71b00f38e81a85f",
+      "title": "Open source AI is the path forward",
+      "summary": "",
+      "source_urls": [
+        "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    }
+  ],
+  "source_links": [
+    {
+      "title": "K-Dense-AI / scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "title": "An AI agent published a hit piece on me",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
+    },
+    {
+      "title": "OpenCode – Open source AI coding agent",
+      "url": "https://opencode.ai/"
+    },
+    {
+      "title": "AI agent opens a PR write a blogpost to shames the maintainer who closes it",
+      "url": "https://github.com/matplotlib/matplotlib/pull/31132"
+    },
+    {
+      "title": "Opus 4.5 is not the normal AI agent experience that I have had thus far",
+      "url": "https://burkeholland.github.io/posts/opus-4-5-change-everything/"
+    },
+    {
+      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "url": "https://twitter.com/lifeof_jer/status/2048103471019434248"
+    },
+    {
+      "title": "The haves and have nots of the AI gold rush",
+      "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/"
+    },
+    {
+      "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
+      "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/"
+    },
+    {
+      "title": "The US is betting on AI to catch insider trading in prediction markets",
+      "url": "https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/"
+    },
+    {
+      "title": "awslabs / agent-plugins",
+      "url": "https://github.com/awslabs/agent-plugins"
+    },
+    {
+      "title": "Open source AI is the path forward",
+      "url": "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/"
+    }
+  ]
+}
