@@ -2,19 +2,243 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-05-16T10:47:45Z",
-  "new_this_run": 9,
-  "total_influencers": 83,
+  "updated_at": "2026-05-17T10:49:47Z",
+  "new_this_run": 8,
+  "total_influencers": 91,
   "run_summary": {
-    "run_started_at": "2026-05-16T10:47:36Z",
+    "run_started_at": "2026-05-17T10:49:39Z",
     "candidate_count": 30,
-    "existing_count": 74,
-    "selected_new_count": 9,
+    "existing_count": 83,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:911569857725bbdcbed1",
+      "external_id": "911569857725bbdcbed1",
+      "name": "kaivu",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/NbDjD47u6WmthgiDC/benchmarking-real-work",
+      "discovered_on": "2026-05-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Benchmarking Real Work"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:36a1cb456c6411bf4c87",
+      "external_id": "36a1cb456c6411bf4c87",
+      "name": "Taylor G. Lunt",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/WiRrHDd3EiaRd6gsu/how-to-reason-about-your-health-issues",
+      "discovered_on": "2026-05-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How to Reason about Your Health Issues"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f578206a49234a07221d",
+      "external_id": "f578206a49234a07221d",
+      "name": "Rebecca Lissner, Mira Rapp-Hooper",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/spheres-default",
+      "discovered_on": "2026-05-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Spheres by Default"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e698ff6657f3a95948c8",
+      "external_id": "e698ff6657f3a95948c8",
+      "name": "Q Home",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/gZMLnaTYTwwrjmgfa/can-elk-be-brute-forced-intertheoretic-reduction",
+      "discovered_on": "2026-05-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Can ELK be brute-forced? Intertheoretic reduction"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4836324e06b0ad29b68a",
+      "external_id": "4836324e06b0ad29b68a",
+      "name": "Martin Sustrik",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/iiDzt5qhesmQZiNAj/james-c-scott-seeing-like-a-state",
+      "discovered_on": "2026-05-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "James C. Scott: Seeing Like a State"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2bcbd633d50b1cc3e354",
+      "external_id": "2bcbd633d50b1cc3e354",
+      "name": "Joe Rogero",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/q9HoBo6LCkCkxavLZ/on-getting-unstuck",
+      "discovered_on": "2026-05-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "On getting unstuck"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:47f33fcc4a88c3319435",
+      "external_id": "47f33fcc4a88c3319435",
+      "name": "Hannes Thurnherr",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/XN6CrJDiZvphGCC2e/trying-to-use-nlas-to-find-out-how-qwen-2-5-7b-does",
+      "discovered_on": "2026-05-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Trying to use NLAs to find out how Qwen 2.5 7B does multiplication"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:56028c631b6933a98158",
+      "external_id": "56028c631b6933a98158",
+      "name": "FlorianH",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/zrYTzNeo6wPBSKrHR/falling-for-the-statistical-parrot",
+      "discovered_on": "2026-05-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Falling for the statistical parrot"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:57f622c1c2458c247fd7",
       "external_id": "57f622c1c2458c247fd7",
