@@ -2,19 +2,132 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-05-16T10:47:44Z",
-  "new_this_run": 3,
-  "total_influencers": 53,
+  "updated_at": "2026-05-18T11:36:31Z",
+  "new_this_run": 4,
+  "total_influencers": 57,
   "run_summary": {
-    "run_started_at": "2026-05-16T10:47:36Z",
-    "candidate_count": 34,
-    "existing_count": 50,
-    "selected_new_count": 3,
+    "run_started_at": "2026-05-18T11:36:24Z",
+    "candidate_count": 31,
+    "existing_count": 53,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:cdd5dec92e15b7661553",
+      "external_id": "cdd5dec92e15b7661553",
+      "name": "Cointelegraph by Robert Lakin",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/news/bernstein-say-figures-q1-shows-uniqueness-of-blockchain-marketplaces?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-05-18",
+      "score": 32.0,
+      "metrics": {
+        "posts_seen_in_fetch": 2,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Bernstein says Figure's Q1 results shows uniqueness of blockchain marketplaces",
+          "Saylor signals BTC buy as retail holders get push on STRC dividend vote"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a0a6f72f16e0ef39e362",
+      "external_id": "a0a6f72f16e0ef39e362",
+      "name": "playnewswire",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://dailycoin.com/1win-crypto-tournaments-go-global-with-up-to-200k-usdt-in-rewards/",
+      "discovered_on": "2026-05-18",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "dailycoin.com",
+        "feed_urls": [
+          "https://dailycoin.com/feed/"
+        ],
+        "sample_titles": [
+          "1win Crypto Tournaments Go Global With Up to 200K USDT in Rewards"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ec6cc20c1203893e187a",
+      "external_id": "ec6cc20c1203893e187a",
+      "name": "Sheldon Reback",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.coindesk.com/business/2026/05/17/japan-s-sbi-securities-rakuten-securities-plan-to-offer-crypto-investment-trusts",
+      "discovered_on": "2026-05-18",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Japan's SBI Securities, Rakuten Securities plan to offer crypto investment trusts"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:6d07ddc99430fadb1505",
+      "external_id": "6d07ddc99430fadb1505",
+      "name": "Cointelegraph by Christina Comben",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/news/koreas-fsc-reviewing-hana-banks-dunamu-stake-separation-rules-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-05-18",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "South Korea reviews Hana Bank’s Dunamu stake under banking rules: Report"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:90bd7c32c87e141c62a4",
       "external_id": "90bd7c32c87e141c62a4",
