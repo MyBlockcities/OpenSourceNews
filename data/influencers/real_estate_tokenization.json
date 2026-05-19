@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-05-18T11:36:28Z",
-  "new_this_run": 4,
-  "total_influencers": 57,
+  "updated_at": "2026-05-19T11:30:35Z",
+  "new_this_run": 1,
+  "total_influencers": 58,
   "run_summary": {
-    "run_started_at": "2026-05-18T11:36:24Z",
-    "candidate_count": 31,
-    "existing_count": 53,
-    "selected_new_count": 4,
+    "run_started_at": "2026-05-19T11:30:31Z",
+    "candidate_count": 29,
+    "existing_count": 57,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:53310623137589b1075d",
+      "external_id": "53310623137589b1075d",
+      "name": "Stephen Alpher",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/markets/2026/05/18/live-markets-crypto-adds-to-last-week-s-declines-with-bitcoin-slipping-below-usd77-000",
+      "discovered_on": "2026-05-19",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Live markets: Bitcoin gives up all of May's gains, slipping below $77,000"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:788cc126dc7d9de6a141",
       "external_id": "788cc126dc7d9de6a141",
