@@ -2,19 +2,189 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-05-20T11:23:54Z",
-  "new_this_run": 10,
-  "total_influencers": 119,
+  "updated_at": "2026-05-21T11:33:17Z",
+  "new_this_run": 6,
+  "total_influencers": 125,
   "run_summary": {
-    "run_started_at": "2026-05-20T11:23:43Z",
-    "candidate_count": 29,
-    "existing_count": 109,
-    "selected_new_count": 10,
+    "run_started_at": "2026-05-21T11:33:05Z",
+    "candidate_count": 27,
+    "existing_count": 119,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:8bffec7e3147576eea2b",
+      "external_id": "8bffec7e3147576eea2b",
+      "name": "KatjaGrace",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/3uDvQivMiGAtn5qen/numb-mental-state-shifts",
+      "discovered_on": "2026-05-21",
+      "score": 40.0,
+      "metrics": {
+        "posts_seen_in_fetch": 3,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Numb mental state shifts",
+          "Women should be able to open things",
+          "Why are people so scared of causing fear?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e08c567961fc3ae41b13",
+      "external_id": "e08c567961fc3ae41b13",
+      "name": "Yudhister Kumar",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/KWeAYcDJwfrG7RwBN/theory-uplift-differentially-benefits-safety-and-is",
+      "discovered_on": "2026-05-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "theory uplift differentially benefits safety & is underleveraged"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f10bd2a5926a2aa33095",
+      "external_id": "f10bd2a5926a2aa33095",
+      "name": "Thant Myint-U",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/crumbling-pillars-global-peace",
+      "discovered_on": "2026-05-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Crumbling Pillars of Global Peace"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:204c62be826279b361a0",
+      "external_id": "204c62be826279b361a0",
+      "name": "SebastianP",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/9toz5YHYZsHpzy4ce/why-does-off-model-sft-degrade-capabilities",
+      "discovered_on": "2026-05-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Why does off-model SFT degrade capabilities?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:043ee6fd97b542771e41",
+      "external_id": "043ee6fd97b542771e41",
+      "name": "Nathaniel Mitrani",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/HPqRsgSzgQd5HQsrB/learned-chain-of-thought-obfuscation-generalises-to-unseen",
+      "discovered_on": "2026-05-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Learned Chain-of-Thought Obfuscation Generalises to Unseen Tasks"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d4aed87fc481d5a24f16",
+      "external_id": "d4aed87fc481d5a24f16",
+      "name": "Jasmine Brazilek",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/No4DL6YcmhtvKa6mu/document-tuning-instills-durable-animal-compassion-in-llms-1",
+      "discovered_on": "2026-05-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Document-tuning instills durable animal compassion in LLMs (and generalizes to humans)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:6985de164089add62404",
       "external_id": "6985de164089add62404",
