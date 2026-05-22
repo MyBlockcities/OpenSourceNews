@@ -1,0 +1,51 @@
+{
+  "date": "2026-05-22",
+  "script": "============================================================\nDAILY AI & TECH NEWS BRIEF\nGenerated: 2026-05-22 09:03 UTC\nDuration: ~50 seconds\n============================================================\n\n[HOOK - 0:00-0:05]\nThree signals are moving through the tech stack today, led by CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs.\n\n[STORY 1 - 0:05-0:18]\nFirst up: CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs. The key takeaway is General News.\n\nB-ROLL:\n  - Source headline screenshot\n  - Product or repo page\n  - Simple trend graphic\n\n[STORY 2 - 0:18-0:31]\nSecond: Show HN: KVBoost – chunk-level KV cache reuse for HuggingFace, 5–48x faster TTFT. This matters because it points to General News.\n\nB-ROLL:\n  - Article screenshot\n  - Workflow diagram\n  - Relevant platform UI\n\n[STORY 3 - 0:31-0:44]\nThird: Slumber a TUI HTTP Client. Keep an eye on this as a practical signal around General News.\n\nB-ROLL:\n  - Source page\n  - Comparison graphic\n  - Action checklist\n\n[CALL TO ACTION - 0:44-0:50]\nFollow for daily open-source, AI, and tech intelligence pulled from public sources.\n\n============================================================\nEND OF SCRIPT\n============================================================",
+  "timecoded_segments": {
+    "hook": "Three signals are moving through the tech stack today, led by CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs.",
+    "story_1": {
+      "script": "First up: CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs. The key takeaway is General News.",
+      "b_roll": [
+        "Source headline screenshot",
+        "Product or repo page",
+        "Simple trend graphic"
+      ]
+    },
+    "story_2": {
+      "script": "Second: Show HN: KVBoost – chunk-level KV cache reuse for HuggingFace, 5–48x faster TTFT. This matters because it points to General News.",
+      "b_roll": [
+        "Article screenshot",
+        "Workflow diagram",
+        "Relevant platform UI"
+      ]
+    },
+    "story_3": {
+      "script": "Third: Slumber a TUI HTTP Client. Keep an eye on this as a practical signal around General News.",
+      "b_roll": [
+        "Source page",
+        "Comparison graphic",
+        "Action checklist"
+      ]
+    },
+    "cta": "Follow for daily open-source, AI, and tech intelligence pulled from public sources."
+  },
+  "sources": [
+    {
+      "title": "CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs",
+      "url": "https://arxiv.org/abs/2605.19269",
+      "quality_score": 0
+    },
+    {
+      "title": "Show HN: KVBoost – chunk-level KV cache reuse for HuggingFace, 5–48x faster TTFT",
+      "url": "https://pythongiant.github.io/KVBoost/",
+      "quality_score": 0
+    },
+    {
+      "title": "Slumber a TUI HTTP Client",
+      "url": "https://slumber.lucaspickering.me",
+      "quality_score": 0
+    }
+  ],
+  "generated_at": "2026-05-22T09:03:03.088792",
+  "total_duration_seconds": 50
+}
