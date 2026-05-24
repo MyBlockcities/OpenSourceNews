@@ -2,19 +2,159 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-05-23T10:50:17Z",
-  "new_this_run": 10,
-  "total_influencers": 145,
+  "updated_at": "2026-05-24T10:52:22Z",
+  "new_this_run": 5,
+  "total_influencers": 150,
   "run_summary": {
-    "run_started_at": "2026-05-23T10:50:08Z",
+    "run_started_at": "2026-05-24T10:52:13Z",
     "candidate_count": 30,
-    "existing_count": 135,
-    "selected_new_count": 10,
+    "existing_count": 145,
+    "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:c7576a0d0887680f0822",
+      "external_id": "c7576a0d0887680f0822",
+      "name": "spookycat",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/vHtouRBd8JNm2tNLH/basic-principles-for-dressing-better",
+      "discovered_on": "2026-05-24",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Basic principles for dressing better."
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f13d898815b4f3e9b05d",
+      "external_id": "f13d898815b4f3e9b05d",
+      "name": "jefftk",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/bG4ZhaH5NoxExiEDv/heretical-pasta",
+      "discovered_on": "2026-05-24",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Heretical Pasta"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b2f1fcc7847af5c75c11",
+      "external_id": "b2f1fcc7847af5c75c11",
+      "name": "David Matolcsi",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/o8PQcgpznf6GKszdA/probabilities-are-not-the-right-concept",
+      "discovered_on": "2026-05-24",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Probabilities are not the right concept"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:dab09dd7ef4ab5b7fcab",
+      "external_id": "dab09dd7ef4ab5b7fcab",
+      "name": "Alexander Gietelink Oldenziel",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Lid8cv9qF7nac53va/your-left-brain-doesn-t-trade-with-your-right",
+      "discovered_on": "2026-05-24",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Your Left Brain Doesn't Trade With Your Right"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:1fc1e43bf36f66e94c91",
+      "external_id": "1fc1e43bf36f66e94c91",
+      "name": "Alex A",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/EPq866HecprKJN3Y2/low-expectancy-is-not-a-confidence-problem",
+      "discovered_on": "2026-05-24",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Low Expectancy is Not a Confidence Problem"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:1a06bf7db0e6ba84ab2a",
       "external_id": "1a06bf7db0e6ba84ab2a",
