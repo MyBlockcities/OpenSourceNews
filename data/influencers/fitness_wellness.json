@@ -2,19 +2,274 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-05-27T11:35:20Z",
-  "new_this_run": 13,
-  "total_influencers": 168,
+  "updated_at": "2026-05-28T11:35:19Z",
+  "new_this_run": 9,
+  "total_influencers": 177,
   "run_summary": {
-    "run_started_at": "2026-05-27T11:35:10Z",
-    "candidate_count": 30,
-    "existing_count": 155,
-    "selected_new_count": 13,
+    "run_started_at": "2026-05-28T11:35:10Z",
+    "candidate_count": 29,
+    "existing_count": 168,
+    "selected_new_count": 9,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:adfd68a57ae8c3f0ffb5",
+      "external_id": "adfd68a57ae8c3f0ffb5",
+      "name": "Elliot Callender",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/DAFMA6aqDyGNXAaJe/working-memory-expansion",
+      "discovered_on": "2026-05-28",
+      "score": 32.0,
+      "metrics": {
+        "posts_seen_in_fetch": 2,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Working Memory Expansion",
+          "Biologically Plausible SGD Is Hard"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b5c5324881ed9300f159",
+      "external_id": "b5c5324881ed9300f159",
+      "name": "Håvard Tveit Ihle",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/rJcCrXyEsJKmmDpWG/how-far-behind-are-open-models",
+      "discovered_on": "2026-05-28",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/METR_Evals"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How far behind are open models?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b7a9a7d4613c61dcaffa",
+      "external_id": "b7a9a7d4613c61dcaffa",
+      "name": "martinkunev",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/eaXHaRvXmpJvFdv4c/using-bayesian-reasoning-to-resolve-probability-paradoxes",
+      "discovered_on": "2026-05-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Using Bayesian Reasoning to Resolve Probability Paradoxes"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:28d5bc63fb70cd0343a3",
+      "external_id": "28d5bc63fb70cd0343a3",
+      "name": "callumzc",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/heaq379YSkXiCJrLr/glasswing-exposed-a-governance-gap",
+      "discovered_on": "2026-05-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Glasswing exposed a governance gap"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:6af30d90e3afb069f2c9",
+      "external_id": "6af30d90e3afb069f2c9",
+      "name": "Matrice Jacobine",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/qAcFFBsKaKKmAzRQR/atomically-precise-mechanosynthesis-of-carbon-structures-on",
+      "discovered_on": "2026-05-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Atomically precise mechanosynthesis of carbon structures on hydrogenated Si(100) by inverted-mode STM"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f8bbfd694e8b56f48076",
+      "external_id": "f8bbfd694e8b56f48076",
+      "name": "Jennifer Kavanagh , Rosemary Kelanic",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/iran/trumps-least-bad-option-iran",
+      "discovered_on": "2026-05-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Trump’s Least Bad Option in Iran"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:66ed1715bc0360566953",
+      "external_id": "66ed1715bc0360566953",
+      "name": "Jasmine Li",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/j8fkk38B8L7hEcGtg/eval-cooperativeness-may-be-a-scalable-mitigation-for-eval",
+      "discovered_on": "2026-05-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Eval Cooperativeness May Be a Scalable Mitigation for Eval Gaming"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:5027932fac7353711d68",
+      "external_id": "5027932fac7353711d68",
+      "name": "Gordon Seidoh Worley",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/tWBd6faBCQJmaFMBT/llms-through-the-eyes-of-vinge",
+      "discovered_on": "2026-05-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "LLMs Through the Eyes of Vinge"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:cdb30f45c323d73b3511",
+      "external_id": "cdb30f45c323d73b3511",
+      "name": "Celeste A. Wallander",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/russia/coming-crisis-nato-deterrence",
+      "discovered_on": "2026-05-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Coming Crisis of NATO Deterrence"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:5d5f17b450aeffe1106c",
       "external_id": "5d5f17b450aeffe1106c",

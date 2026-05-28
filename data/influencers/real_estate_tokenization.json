@@ -2,19 +2,103 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-05-27T11:35:14Z",
-  "new_this_run": 2,
-  "total_influencers": 66,
+  "updated_at": "2026-05-28T11:35:14Z",
+  "new_this_run": 3,
+  "total_influencers": 69,
   "run_summary": {
-    "run_started_at": "2026-05-27T11:35:10Z",
-    "candidate_count": 33,
-    "existing_count": 64,
-    "selected_new_count": 2,
+    "run_started_at": "2026-05-28T11:35:10Z",
+    "candidate_count": 38,
+    "existing_count": 66,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:fb8bf61a0de037d9c855",
+      "external_id": "fb8bf61a0de037d9c855",
+      "name": "Ravi Tanuku",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/05/27/crypto-long-and-short-how-the-genius-act-repriced-bitcoin-s-monetary-premium",
+      "discovered_on": "2026-05-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto Long & Short: How the GENIUS Act repriced bitcoin's monetary premium"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:15d8ad5397676b9871f5",
+      "external_id": "15d8ad5397676b9871f5",
+      "name": "Ji Hun Kim",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/05/27/a-bipartisan-bridge-to-the-future-why-the-senate-must-finish-the-job-on-digital-assets",
+      "discovered_on": "2026-05-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "A bipartisan bridge to the future: Why the Senate must finish the job on digital Assets"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:1e28b6575ebb135f0f4d",
+      "external_id": "1e28b6575ebb135f0f4d",
+      "name": "Cointelegraph by Ezra Reguerra",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://cointelegraph.com/news/polymarket-exec-says-kyc-limited-to-beta-product-not-existing-platform?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-05-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Polymarket exec says KYC limited to beta product, not existing platform"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:2bbbb79b6bc26220d63e",
       "external_id": "2bbbb79b6bc26220d63e",
