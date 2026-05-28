@@ -1,0 +1,843 @@
+{
+  "schema": "open_source_news_mission_brief.v1",
+  "generated_at": "2026-05-28T08:17:59+00:00",
+  "report_date": "2026-05-28",
+  "watchlist": {
+    "name": "ai_agent_infra",
+    "persona": "AI automation agency operator",
+    "entities": [
+      "OpenAI Agents SDK",
+      "Claude Code",
+      "LangGraph",
+      "CrewAI",
+      "MCP",
+      "OpenRouter"
+    ],
+    "topics": [
+      "AI",
+      "agents"
+    ],
+    "alert_rules": [
+      "new_release",
+      "funding",
+      "security_issue",
+      "repo_trending"
+    ]
+  },
+  "counts": {
+    "matched_items": 12,
+    "source_links": 12
+  },
+  "sections": {
+    "what_changed": [
+      "Vertu Is Back With a Folding Phone Powered by—Surprise—an AI Agent (RSS)",
+      "Harness, Scaffold, and the AI Agent Terms Worth Getting Right (RSS)",
+      "An AI agent published a hit piece on me (Hacker News)",
+      "OpenCode – Open source AI coding agent (Hacker News)",
+      "AI agent opens a PR write a blogpost to shames the maintainer who closes it (Hacker News)"
+    ],
+    "why_it_matters": [
+      "Vertu Is Back With a Folding Phone Powered by—Surprise—an AI Agent maps to agents, ai.",
+      "Harness, Scaffold, and the AI Agent Terms Worth Getting Right maps to agents, ai.",
+      "An AI agent published a hit piece on me maps to agents, ai."
+    ],
+    "who_should_care": [
+      "AI automation agency operator"
+    ],
+    "recommended_actions": [
+      "Review RSS signal: Vertu Is Back With a Folding Phone Powered by—Surprise—an AI Agent",
+      "Review RSS signal: Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "Review Hacker News signal: An AI agent published a hit piece on me"
+    ],
+    "build_ideas": [
+      "Prototype an internal brief or automation around: Vertu Is Back With a Folding Phone Powered by—Surprise—an AI Agent"
+    ],
+    "content_ideas": [
+      "Publish a short explainer on: Vertu Is Back With a Folding Phone Powered by—Surprise—an AI Agent",
+      "Publish a short explainer on: Harness, Scaffold, and the AI Agent Terms Worth Getting Right"
+    ],
+    "investment_partnership_angles": [
+      "Track the cluster `b9e706476950edaf` for repeat mentions over the next week.",
+      "Track the cluster `4f2095008298b94c` for repeat mentions over the next week."
+    ]
+  },
+  "items": [
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "20db300f461aa2cc",
+      "cluster_id": "b9e706476950edaf",
+      "title": "Vertu Is Back With a Folding Phone Powered by—Surprise—an AI Agent",
+      "summary": "",
+      "source_urls": [
+        "https://www.wired.com/story/vertu-alphafold-folding-phone-powered-by-hermes-agent-ai/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "23728bcf98408ddc",
+      "cluster_id": "4f2095008298b94c",
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "summary": "",
+      "source_urls": [
+        "https://huggingface.co/blog/agent-glossary"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "054c0b119223efe6",
+      "cluster_id": "bc5c62f1dce6b2e2",
+      "title": "An AI agent published a hit piece on me",
+      "summary": "",
+      "source_urls": [
+        "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "79e93f5f40207ecd",
+      "cluster_id": "33ead16be8b8893b",
+      "title": "OpenCode – Open source AI coding agent",
+      "summary": "",
+      "source_urls": [
+        "https://opencode.ai/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "7985656310f1ab3f",
+      "cluster_id": "3027b210f22918d7",
+      "title": "AI agent opens a PR write a blogpost to shames the maintainer who closes it",
+      "summary": "",
+      "source_urls": [
+        "https://github.com/matplotlib/matplotlib/pull/31132"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "22d51d6e9a4f94c6",
+      "cluster_id": "78982efcd91987f9",
+      "title": "Opus 4.5 is not the normal AI agent experience that I have had thus far",
+      "summary": "",
+      "source_urls": [
+        "https://burkeholland.github.io/posts/opus-4-5-change-everything/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "7afffaaa76e1f563",
+      "cluster_id": "663d8317f4bfa82b",
+      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "summary": "",
+      "source_urls": [
+        "https://twitter.com/lifeof_jer/status/2048103471019434248"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "05e8abf533d954e8",
+      "cluster_id": "61cf93454cbce7fd",
+      "title": "A Eureka machine that thinks like nature and explores what AI cannot",
+      "summary": "",
+      "source_urls": [
+        "https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "c5f467d407da4d57",
+      "cluster_id": "59d40b2ddfef8def",
+      "title": "Vertu wants CEOs to run companies from an AI foldable starting at $6,880",
+      "summary": "",
+      "source_urls": [
+        "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "34d5fe10619acde5",
+      "cluster_id": "0c482a89348293c3",
+      "title": "Why Google’s AI can’t spell Google (or anything else)",
+      "summary": "",
+      "source_urls": [
+        "https://techcrunch.com/2026/05/27/why-googles-ai-cant-spell-google-or-anything-else/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "e3287c835a474ddf",
+      "cluster_id": "f0d4b2941272ac8c",
+      "title": "Triomics nabs $22M to bring oncology-specific AI to cancer centers",
+      "summary": "",
+      "source_urls": [
+        "https://techcrunch.com/2026/05/27/triomics-nabs-22m-to-bring-oncology-specific-ai-to-cancer-centers/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "7e0a7b4f58463a5e",
+      "cluster_id": "54df093cb5ef2b68",
+      "title": "Nvidia bets $150B on Taiwan as Trump's plan to make US an AI hub backfires",
+      "summary": "",
+      "source_urls": [
+        "https://arstechnica.com/tech-policy/2026/05/nvidia-ceo-wants-taiwan-to-be-center-of-ai-revolution-not-us/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    }
+  ],
+  "source_links": [
+    {
+      "title": "Vertu Is Back With a Folding Phone Powered by—Surprise—an AI Agent",
+      "url": "https://www.wired.com/story/vertu-alphafold-folding-phone-powered-by-hermes-agent-ai/"
+    },
+    {
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "url": "https://huggingface.co/blog/agent-glossary"
+    },
+    {
+      "title": "An AI agent published a hit piece on me",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
+    },
+    {
+      "title": "OpenCode – Open source AI coding agent",
+      "url": "https://opencode.ai/"
+    },
+    {
+      "title": "AI agent opens a PR write a blogpost to shames the maintainer who closes it",
+      "url": "https://github.com/matplotlib/matplotlib/pull/31132"
+    },
+    {
+      "title": "Opus 4.5 is not the normal AI agent experience that I have had thus far",
+      "url": "https://burkeholland.github.io/posts/opus-4-5-change-everything/"
+    },
+    {
+      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "url": "https://twitter.com/lifeof_jer/status/2048103471019434248"
+    },
+    {
+      "title": "A Eureka machine that thinks like nature and explores what AI cannot",
+      "url": "https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/"
+    },
+    {
+      "title": "Vertu wants CEOs to run companies from an AI foldable starting at $6,880",
+      "url": "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/"
+    },
+    {
+      "title": "Why Google’s AI can’t spell Google (or anything else)",
+      "url": "https://techcrunch.com/2026/05/27/why-googles-ai-cant-spell-google-or-anything-else/"
+    },
+    {
+      "title": "Triomics nabs $22M to bring oncology-specific AI to cancer centers",
+      "url": "https://techcrunch.com/2026/05/27/triomics-nabs-22m-to-bring-oncology-specific-ai-to-cancer-centers/"
+    },
+    {
+      "title": "Nvidia bets $150B on Taiwan as Trump's plan to make US an AI hub backfires",
+      "url": "https://arstechnica.com/tech-policy/2026/05/nvidia-ceo-wants-taiwan-to-be-center-of-ai-revolution-not-us/"
+    }
+  ]
+}
