@@ -2,19 +2,301 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-05-28T11:35:19Z",
-  "new_this_run": 9,
-  "total_influencers": 177,
+  "updated_at": "2026-05-29T11:33:24Z",
+  "new_this_run": 10,
+  "total_influencers": 187,
   "run_summary": {
-    "run_started_at": "2026-05-28T11:35:10Z",
-    "candidate_count": 29,
-    "existing_count": 168,
-    "selected_new_count": 9,
+    "run_started_at": "2026-05-29T11:33:16Z",
+    "candidate_count": 30,
+    "existing_count": 177,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:39cfc2a64b730b786bc0",
+      "external_id": "39cfc2a64b730b786bc0",
+      "name": "DanielW",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/yqbsnjwgazrqNfwYf/lizards-and-less-wrong-jargon-a-brief-critique-of-convention",
+      "discovered_on": "2026-05-29",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/allTheYud"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Lizards and Less Wrong Jargon - A Brief Critique of Convention"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:bc5a80144faf442d66c9",
+      "external_id": "bc5a80144faf442d66c9",
+      "name": "tr5tn",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/D4tBvaQSc6uFnxisp/suggestions-for-improving-debate-protocols-in-ai-safety",
+      "discovered_on": "2026-05-29",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Suggestions for improving debate protocols in AI safety"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:703bf1b569009405a9bf",
+      "external_id": "703bf1b569009405a9bf",
+      "name": "rororerere6655",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Yss3pcM2QdQbWvvXp/small-decisions-that-quietly-shape-my-day",
+      "discovered_on": "2026-05-29",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Small Decisions That Quietly Shape My Day"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:3292fc42c1234b167b3e",
+      "external_id": "3292fc42c1234b167b3e",
+      "name": "enricobottazzi",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/zDcrmqdqvh3KmsBuF/how-a-failed-experiment-broke-and-fixed-my-view-on-feature",
+      "discovered_on": "2026-05-29",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How a failed experiment broke (and fixed) my view on feature labels"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:6e5c27b2a7fcb48692dd",
+      "external_id": "6e5c27b2a7fcb48692dd",
+      "name": "Smaug123",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/T5aWBLDdkqPEzDhjZ/claude-doesn-t-know-who-you-are",
+      "discovered_on": "2026-05-29",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Claude… doesn't know who you are?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:eff8a31119a0ff404b92",
+      "external_id": "eff8a31119a0ff404b92",
+      "name": "Michael J. Bustamante, Ricardo Herrero",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/cuba/cubas-only-option",
+      "discovered_on": "2026-05-29",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Cuba’s Only Option"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c2bdb4b30bb201924108",
+      "external_id": "c2bdb4b30bb201924108",
+      "name": "Koby Lewis",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/XPguz4hfjgovk4JHX/a-call-for-better-type-hints-in-ai-safety-tooling",
+      "discovered_on": "2026-05-29",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Call for Better Type Hints in AI Safety Tooling"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e25b2f2bf6e02c950a3a",
+      "external_id": "e25b2f2bf6e02c950a3a",
+      "name": "JasonB",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/oCcGiDzWYQeJkhhZY/developmental-cognitive-interpretability-a-research-agenda-1",
+      "discovered_on": "2026-05-29",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Developmental Cognitive Interpretability: A Research Agenda for Modelling Generalisation and Predicting Agent Behaviour"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:0d13ff35b5e110bda48a",
+      "external_id": "0d13ff35b5e110bda48a",
+      "name": "Jared Dunnmon, Avanika Narayan, Jon Saad-Falcon",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/chinas-ai-heist",
+      "discovered_on": "2026-05-29",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "China’s AI Heist"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8a556539e38e9260513e",
+      "external_id": "8a556539e38e9260513e",
+      "name": "Brinedew",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/BJ7AqXeigNKXLqZyx/mnemonic-portraits-for-19-023-human-genes",
+      "discovered_on": "2026-05-29",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Mnemonic portraits for 19,023 human genes"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:adfd68a57ae8c3f0ffb5",
       "external_id": "adfd68a57ae8c3f0ffb5",

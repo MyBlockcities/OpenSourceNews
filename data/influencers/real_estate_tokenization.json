@@ -2,19 +2,49 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-05-28T11:35:14Z",
-  "new_this_run": 3,
-  "total_influencers": 69,
+  "updated_at": "2026-05-29T11:33:20Z",
+  "new_this_run": 1,
+  "total_influencers": 70,
   "run_summary": {
-    "run_started_at": "2026-05-28T11:35:10Z",
-    "candidate_count": 38,
-    "existing_count": 66,
-    "selected_new_count": 3,
+    "run_started_at": "2026-05-29T11:33:16Z",
+    "candidate_count": 32,
+    "existing_count": 69,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:16f90c82a07cb8987f26",
+      "external_id": "16f90c82a07cb8987f26",
+      "name": "Bankless",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.bankless.com/read/news/tamaswap-debuts-formally-verified-dex",
+      "discovered_on": "2026-05-29",
+      "score": 40.0,
+      "metrics": {
+        "posts_seen_in_fetch": 3,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "bankless.com",
+        "feed_urls": [
+          "https://www.bankless.com/feed"
+        ],
+        "sample_titles": [
+          "TamaSwap Debuts as a Formally Verified, Fully Onchain DEX",
+          "NEAR Unveils \"Universal Send\" for Confidential Crosschain Payments",
+          "Base Deploys Its Azul Upgrade on Mainnet"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:fb8bf61a0de037d9c855",
       "external_id": "fb8bf61a0de037d9c855",
