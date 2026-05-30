@@ -2,19 +2,301 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-05-29T11:33:24Z",
+  "updated_at": "2026-05-30T10:54:39Z",
   "new_this_run": 10,
-  "total_influencers": 187,
+  "total_influencers": 197,
   "run_summary": {
-    "run_started_at": "2026-05-29T11:33:16Z",
+    "run_started_at": "2026-05-30T10:54:30Z",
     "candidate_count": 30,
-    "existing_count": 177,
+    "existing_count": 187,
     "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:da0367ea6168ef903347",
+      "external_id": "da0367ea6168ef903347",
+      "name": "aiechrl",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/prNvmghPQyBivEakM/bloomberg-terminals-for-the-rest-of-us",
+      "discovered_on": "2026-05-30",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/ohabryka"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Bloomberg terminals for the rest of us"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:bcd20caf02120b1328ac",
+      "external_id": "bcd20caf02120b1328ac",
+      "name": "hi_im_yasha",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/LipjnC9ZAeCnnwWbN/system-prompts-vs-partner-adaptation-in-llms-or-when-llms",
+      "discovered_on": "2026-05-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "System Prompts vs. Partner Adaptation in LLMs (or, when LLMs know you're an adult but keep talking like you're seven)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8718e3ebfd4c6eee68d9",
+      "external_id": "8718e3ebfd4c6eee68d9",
+      "name": "habryka",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/MHi9yrQgXupYJni6n/open-thread-summer-2026",
+      "discovered_on": "2026-05-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Open Thread Summer 2026"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:138f57c2c2062f634ddd",
+      "external_id": "138f57c2c2062f634ddd",
+      "name": "bengs",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/cgLuCkG6uiicxhKAx/new-rfp-on-extreme-power-concentration",
+      "discovered_on": "2026-05-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "New RFP on extreme power concentration"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:325063b8390df8cb154a",
+      "external_id": "325063b8390df8cb154a",
+      "name": "Will Mayner",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/oafFQYeJ5QT8nipKn/belief-manifolds-and-how-to-steer-along-them-1",
+      "discovered_on": "2026-05-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Belief manifolds, and how to steer along them"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:6f7d47083440bca6e0dc",
+      "external_id": "6f7d47083440bca6e0dc",
+      "name": "Michael Trifonov",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/RKaLxL7f7s2RaAEEZ/why-tuning-fails-the-ai-has-no-self",
+      "discovered_on": "2026-05-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Why tuning fails: The AI has no self"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:78e6f76ccdf8e69fc98e",
+      "external_id": "78e6f76ccdf8e69fc98e",
+      "name": "David Udell",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/vBhqyeTeKMmLzW73z/announcing-iliad-s-fall-2026-programs",
+      "discovered_on": "2026-05-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Announcing: Iliad's Fall 2026 Programs"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4b509373ea279bb335df",
+      "external_id": "4b509373ea279bb335df",
+      "name": "Darin Tsui",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/BxziXpLC22cvSCip5/ai-as-biology-s-digital-microscope",
+      "discovered_on": "2026-05-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "AI as Biology's Digital Microscope"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ef9e07b30c417ab5b547",
+      "external_id": "ef9e07b30c417ab5b547",
+      "name": "Arjun Rao",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/nTdcXg7jtLwtvcts7/ablating-induction-heads-leads-to-an-increase-in-local",
+      "discovered_on": "2026-05-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Ablating Induction Heads Leads to an increase in Local Repetition"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:1262f17af556fa665b0b",
+      "external_id": "1262f17af556fa665b0b",
+      "name": "Andrey Panferov",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/f25XzcJheJayc6Lfd/what-if-we-will-stop-destroying-people-because-medicine-is",
+      "discovered_on": "2026-05-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "What If We Will Stop Destroying People Because Medicine Is Not Ready Yet?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:39cfc2a64b730b786bc0",
       "external_id": "39cfc2a64b730b786bc0",

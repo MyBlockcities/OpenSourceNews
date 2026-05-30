@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-05-29T11:33:23Z",
+  "updated_at": "2026-05-30T10:54:38Z",
   "new_this_run": 1,
-  "total_influencers": 70,
+  "total_influencers": 71,
   "run_summary": {
-    "run_started_at": "2026-05-29T11:33:16Z",
-    "candidate_count": 32,
-    "existing_count": 69,
+    "run_started_at": "2026-05-30T10:54:30Z",
+    "candidate_count": 33,
+    "existing_count": 70,
     "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:a552a6097454216c58ab",
+      "external_id": "a552a6097454216c58ab",
+      "name": "Michael S. Selig",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.coindesk.com/opinion/2026/05/29/what-american-crypto-asset-perpetuals-mean-for-the-future-of-crypto",
+      "discovered_on": "2026-05-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "What American crypto asset perpetuals mean for the future of crypto"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:fff132c3dff23ffb25b9",
       "external_id": "fff132c3dff23ffb25b9",
