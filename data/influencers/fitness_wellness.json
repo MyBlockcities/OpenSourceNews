@@ -2,19 +2,189 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-05-30T10:54:39Z",
-  "new_this_run": 10,
-  "total_influencers": 197,
+  "updated_at": "2026-05-31T11:03:08Z",
+  "new_this_run": 6,
+  "total_influencers": 203,
   "run_summary": {
-    "run_started_at": "2026-05-30T10:54:30Z",
+    "run_started_at": "2026-05-31T11:02:59Z",
     "candidate_count": 30,
-    "existing_count": 187,
-    "selected_new_count": 10,
+    "existing_count": 197,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:b58b90c83d96adab538f",
+      "external_id": "b58b90c83d96adab538f",
+      "name": "Zack_M_Davis",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/HaH9mTdKt8pcNAtYn/comment-on-banning-said-achmiz",
+      "discovered_on": "2026-05-31",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/zackmdavis"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Comment on \"Banning Said Achmiz\""
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:71f2566eef06d8d9f9e6",
+      "external_id": "71f2566eef06d8d9f9e6",
+      "name": "andyqhan",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/HBJKXr6mBCrsdTzJp/how-s-it-going-reinforcement-learning-in-language-models",
+      "discovered_on": "2026-05-31",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How's it going? Reinforcement learning in language models recruits a functional welfare axis"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:19d0436764f41d55fa1b",
+      "external_id": "19d0436764f41d55fa1b",
+      "name": "Yejun Y.",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/x3iEYuMHPXBpnCNpw/ensemble-monitoring-for-ai-control-diverse-signals-outweigh",
+      "discovered_on": "2026-05-31",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Ensemble monitoring for AI control: diverse signals outweigh more compute"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2e45f6f80c822d1fb39f",
+      "external_id": "2e45f6f80c822d1fb39f",
+      "name": "StanislavKrym",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/jECkQzProayWhGmNi/fundamental-uncertainty-alternate-framework-and-pointwise",
+      "discovered_on": "2026-05-31",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Fundamental Uncertainty: Alternate Framework and Pointwise Reduction"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:014870beebc6b431868f",
+      "external_id": "014870beebc6b431868f",
+      "name": "Ihor Kendiukhov",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/RjSnkKcbdHzxeszip/a-formula-for-fun",
+      "discovered_on": "2026-05-31",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Formula for Fun"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c45d02001c2addca431e",
+      "external_id": "c45d02001c2addca431e",
+      "name": "Boaz Barak",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/RTyKtw89jfJjjYsui/ai-is-a-meteor-don-t-be-a-dinosaur",
+      "discovered_on": "2026-05-31",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "AI is a Meteor. Don't Be a Dinosaur."
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:da0367ea6168ef903347",
       "external_id": "da0367ea6168ef903347",
