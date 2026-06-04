@@ -2,19 +2,75 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-06-02T11:49:51Z",
-  "new_this_run": 1,
-  "total_influencers": 72,
+  "updated_at": "2026-06-04T11:26:07Z",
+  "new_this_run": 2,
+  "total_influencers": 74,
   "run_summary": {
-    "run_started_at": "2026-06-02T11:49:44Z",
-    "candidate_count": 31,
-    "existing_count": 71,
-    "selected_new_count": 1,
+    "run_started_at": "2026-06-04T11:26:00Z",
+    "candidate_count": 33,
+    "existing_count": 72,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:cadf59fdecdbf133be54",
+      "external_id": "cadf59fdecdbf133be54",
+      "name": "Arnas Dagelis",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://dailycoin.com/kevin-oleary-said-it-first-zkp-is-the-next-ai-blockchain-champion/",
+      "discovered_on": "2026-06-04",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "dailycoin.com",
+        "feed_urls": [
+          "https://dailycoin.com/feed/"
+        ],
+        "sample_titles": [
+          "Kevin O’Leary Said It First: ZKP is the Next AI Blockchain Champion"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:891a1f70cb7025d86db1",
+      "external_id": "891a1f70cb7025d86db1",
+      "name": "Alex Tapscott",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/06/03/crypto-long-and-short-what-about-the-american-consumer",
+      "discovered_on": "2026-06-04",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto Long & Short: What about the American consumer?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:25d66409402e437e9f47",
       "external_id": "25d66409402e437e9f47",
