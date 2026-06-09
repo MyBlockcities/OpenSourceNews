@@ -2,19 +2,245 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-06-08T12:03:05Z",
-  "new_this_run": 9,
-  "total_influencers": 274,
+  "updated_at": "2026-06-09T11:29:30Z",
+  "new_this_run": 8,
+  "total_influencers": 282,
   "run_summary": {
-    "run_started_at": "2026-06-08T12:02:57Z",
+    "run_started_at": "2026-06-09T11:29:21Z",
     "candidate_count": 31,
-    "existing_count": 265,
-    "selected_new_count": 9,
+    "existing_count": 274,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:1684e3edcf973aeee445",
+      "external_id": "1684e3edcf973aeee445",
+      "name": "Sayhan Yalvaçer",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/qEbqPitYhWHthwFNu/bun-s-migration-from-zig-to-rust-as-a-potential-case-study",
+      "discovered_on": "2026-06-09",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/jarredsumner"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Bun's Migration from Zig to Rust as a Potential Case Study for Gradual Disempowerment"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:178a5c915e2572ea6ab9",
+      "external_id": "178a5c915e2572ea6ab9",
+      "name": "Ramseyian",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/AE8ZyzotwcAf6tzcJ/the-next-swan-frank-ramsey-variable-hypotheticals-and-the",
+      "discovered_on": "2026-06-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Next Swan: Frank Ramsey, Variable Hypotheticals, and the Bet on Induction"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:bf2bf3045a2cd359bed7",
+      "external_id": "bf2bf3045a2cd359bed7",
+      "name": "Philip H. Gordon",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/dont-give-global-order",
+      "discovered_on": "2026-06-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Don’t Give Up on Global Order"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9fce23d31e76833d8488",
+      "external_id": "9fce23d31e76833d8488",
+      "name": "MichaelDickens",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/peHyxRozoQbcMSzxm/how-valuable-are-weak-ai-safety-regulations",
+      "discovered_on": "2026-06-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How valuable are weak AI safety regulations?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4d630b3d39fe2aae14ec",
+      "external_id": "4d630b3d39fe2aae14ec",
+      "name": "Jan",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/x3rMzXcRkJwaMdBCa/on-slop-1",
+      "discovered_on": "2026-06-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "On Slop"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:037ca448d93ae9e640fc",
+      "external_id": "037ca448d93ae9e640fc",
+      "name": "Isaac Kardon",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/how-america-lost-command-commons",
+      "discovered_on": "2026-06-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "How America Lost Command of the Commons"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:195f1b2d319d60c2c0fb",
+      "external_id": "195f1b2d319d60c2c0fb",
+      "name": "Dylan Xu",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/wBsEFfQFteHSWCtsv/how-to-reduce-capability-degradation-from-off-model-sft",
+      "discovered_on": "2026-06-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How to reduce capability degradation from off-model SFT"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4b22fc9ade0b18932a7b",
+      "external_id": "4b22fc9ade0b18932a7b",
+      "name": "Abhishaike Mahajan",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/nWwDciCqfodBifvEP/how-to-build-a-cancer-vaccine-and-whether-they-will-work",
+      "discovered_on": "2026-06-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How to build a cancer vaccine, and whether they will work this time"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:2a1f6605c8542a08fad5",
       "external_id": "2a1f6605c8542a08fad5",
