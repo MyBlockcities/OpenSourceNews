@@ -1,0 +1,51 @@
+{
+  "date": "2026-06-09",
+  "script": "============================================================\nDAILY AI & TECH NEWS BRIEF\nGenerated: 2026-06-09 09:04 UTC\nDuration: ~50 seconds\n============================================================\n\n[HOOK - 0:00-0:05]\nThree signals are moving through the tech stack today, led by Microsoft's open source tools were hacked to steal passwords of AI developers.\n\n[STORY 1 - 0:05-0:18]\nFirst up: Microsoft's open source tools were hacked to steal passwords of AI developers. The key takeaway is General News.\n\nB-ROLL:\n  - Source headline screenshot\n  - Product or repo page\n  - Simple trend graphic\n\n[STORY 2 - 0:18-0:31]\nSecond: Facebook is paying people overseas promoting Alberta separatism. This matters because it points to General News.\n\nB-ROLL:\n  - Article screenshot\n  - Workflow diagram\n  - Relevant platform UI\n\n[STORY 3 - 0:31-0:44]\nThird: CRDTs merge concurrent edits. Why not concurrent creation?. Keep an eye on this as a practical signal around General News.\n\nB-ROLL:\n  - Source page\n  - Comparison graphic\n  - Action checklist\n\n[CALL TO ACTION - 0:44-0:50]\nFollow for daily open-source, AI, and tech intelligence pulled from public sources.\n\n============================================================\nEND OF SCRIPT\n============================================================",
+  "timecoded_segments": {
+    "hook": "Three signals are moving through the tech stack today, led by Microsoft's open source tools were hacked to steal passwords of AI developers.",
+    "story_1": {
+      "script": "First up: Microsoft's open source tools were hacked to steal passwords of AI developers. The key takeaway is General News.",
+      "b_roll": [
+        "Source headline screenshot",
+        "Product or repo page",
+        "Simple trend graphic"
+      ]
+    },
+    "story_2": {
+      "script": "Second: Facebook is paying people overseas promoting Alberta separatism. This matters because it points to General News.",
+      "b_roll": [
+        "Article screenshot",
+        "Workflow diagram",
+        "Relevant platform UI"
+      ]
+    },
+    "story_3": {
+      "script": "Third: CRDTs merge concurrent edits. Why not concurrent creation?. Keep an eye on this as a practical signal around General News.",
+      "b_roll": [
+        "Source page",
+        "Comparison graphic",
+        "Action checklist"
+      ]
+    },
+    "cta": "Follow for daily open-source, AI, and tech intelligence pulled from public sources."
+  },
+  "sources": [
+    {
+      "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+      "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "quality_score": 0
+    },
+    {
+      "title": "Facebook is paying people overseas promoting Alberta separatism",
+      "url": "https://www.cbc.ca/news/canada/facebook-overseas-alberta-separtism-9.7223966",
+      "quality_score": 0
+    },
+    {
+      "title": "CRDTs merge concurrent edits. Why not concurrent creation?",
+      "url": "https://loro.dev/blog/mergeable-containers",
+      "quality_score": 0
+    }
+  ],
+  "generated_at": "2026-06-09T09:04:40.936876",
+  "total_duration_seconds": 50
+}
