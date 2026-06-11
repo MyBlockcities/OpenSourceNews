@@ -2,19 +2,75 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-06-10T11:35:16Z",
+  "updated_at": "2026-06-11T11:52:19Z",
   "new_this_run": 2,
-  "total_influencers": 81,
+  "total_influencers": 83,
   "run_summary": {
-    "run_started_at": "2026-06-10T11:35:13Z",
-    "candidate_count": 26,
-    "existing_count": 79,
+    "run_started_at": "2026-06-11T11:52:15Z",
+    "candidate_count": 28,
+    "existing_count": 81,
     "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:57f298e57902354cbbb0",
+      "external_id": "57f298e57902354cbbb0",
+      "name": "Samir Tabar",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/06/10/the-quantum-clock-is-ticking-it-s-bitcoin-s-problem-not-ethereum-s",
+      "discovered_on": "2026-06-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "The quantum clock is ticking: it's Bitcoin's problem, not Ethereum's"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:04ff0a756ccc43a70555",
+      "external_id": "04ff0a756ccc43a70555",
+      "name": "Ben Nadareski",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/06/10/crypto-long-and-short-who-answers-the-3am-call-when-defi-breaks",
+      "discovered_on": "2026-06-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto Long & Short: Who answers the 3am call when DeFi breaks?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:e1ab8645645936e3eb05",
       "external_id": "e1ab8645645936e3eb05",
