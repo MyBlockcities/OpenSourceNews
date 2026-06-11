@@ -19,6 +19,7 @@ from typing import Any, Dict, Optional
 import requests
 
 from services.news_schema import normalize_report
+from pipelines.route_destinations import filter_for_destination, route_normalized
 
 DEFAULT_TIMEOUT = int(os.environ.get("EXTERNAL_INGEST_TIMEOUT", "90"))
 MAX_MARKDOWN_CHARS = int(os.environ.get("EXTERNAL_INGEST_MAX_MARKDOWN_CHARS", "200000"))
@@ -154,3 +155,115 @@ def maybe_push_daily_digest(
         print(f"  WARNING: EXTERNAL_INGEST_HEADERS must be valid JSON: {e}")
     except requests.RequestException as e:
         print(f"  WARNING: External ingest request error: {e}")
+
+
+# ---------------------------------------------------------------------------
+# Per-destination ingest (closed-loop: academy / godseye)
+# ---------------------------------------------------------------------------
+
+_DESTINATION_ENV = {
+    "academy": ("ACADEMY_INGEST_URL", "ACADEMY_INGEST_BEARER_TOKEN"),
+    "godseye": ("GODSEYE_INGEST_URL", "GODSEYE_INGEST_BEARER_TOKEN"),
+}
+
+
+def post_destination_digest(
+    destination: str,
+    *,
+    report_date: str,
+    routed_normalized: Dict[str, Any],
+) -> tuple[bool, str]:
+    """
+    POST the destination-filtered normalized payload to that destination's
+    ingest endpoint. Returns (ok, message). Skips cleanly when the env URL is
+    unset (safe for public clones).
+
+    Environment:
+      ACADEMY_INGEST_URL / ACADEMY_INGEST_BEARER_TOKEN
+      GODSEYE_INGEST_URL / GODSEYE_INGEST_BEARER_TOKEN
+    """
+    if destination not in _DESTINATION_ENV:
+        return False, f"unknown destination: {destination}"
+
+    url_var, token_var = _DESTINATION_ENV[destination]
+    url = os.environ.get(url_var, "").strip()
+    if not url:
+        return True, f"skipped (no {url_var})"
+
+    lowered_url = url.lower()
+    local_http = lowered_url.startswith("http://localhost") or lowered_url.startswith("http://127.0.0.1")
+    if not lowered_url.startswith("https://") and not local_http:
+        return False, f"{url_var} must be https:// unless it targets localhost"
+
+    filtered = filter_for_destination(routed_normalized, destination)
+    if not filtered.get("items"):
+        return True, f"skipped (0 items routed to {destination})"
+
+    payload: Dict[str, Any] = {
+        "schema": "open_source_news_daily_digest.v1",
+        "destination": destination,
+        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "report_date": report_date,
+        "normalized": filtered,
+        "meta": {
+            "source": "open_source_news",
+            "pipeline": "pipelines/daily_run.py",
+            "router_version": "1",
+        },
+    }
+
+    headers: Dict[str, str] = {
+        "Content-Type": "application/json",
+        "User-Agent": "OpenSourceNews-daily-ingest/1.0",
+    }
+    token = os.environ.get(token_var, "").strip()
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    last_message = "not attempted"
+    for attempt in range(MAX_RETRIES):
+        try:
+            r = requests.post(url, json=payload, headers=headers, timeout=DEFAULT_TIMEOUT)
+            if 200 <= r.status_code < 300:
+                return True, f"ok ({r.status_code}, {len(filtered['items'])} items)"
+            last_message = f"HTTP {r.status_code}: {r.text[:500]}"
+            if r.status_code < 500:
+                break
+        except requests.RequestException as e:
+            last_message = f"request error: {e}"
+
+        if attempt < MAX_RETRIES - 1:
+            time.sleep(2 ** attempt)
+
+    return False, last_message
+
+
+def maybe_push_destination_digests(
+    *,
+    report_date: str,
+    report: Dict[str, Any],
+) -> None:
+    """
+    Route the normalized report and POST one filtered payload per destination
+    (academy, godseye). Log only — never raises, never fails the run.
+    """
+    try:
+        normalized = normalize_report(report_date, report)
+        routed = route_normalized(normalized)
+        by_dest = (routed.get("counts") or {}).get("by_destination") or {}
+        print(
+            f"  Destination routing: academy={by_dest.get('academy', 0)} "
+            f"godseye={by_dest.get('godseye', 0)} both={by_dest.get('both', 0)}"
+        )
+        for destination in ("academy", "godseye"):
+            ok, msg = post_destination_digest(
+                destination, report_date=report_date, routed_normalized=routed
+            )
+            if "skipped" in msg:
+                continue
+            if ok:
+                print(f"  \u2713 {destination} ingest: {msg}")
+            else:
+                print(f"  WARNING: {destination} ingest failed: {msg}")
+    except Exception as e:  # noqa: BLE001 — ingest must never break the daily run
+        print(f"  WARNING: destination ingest error: {e}")

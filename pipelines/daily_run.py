@@ -21,7 +21,7 @@ from pipelines.transcript_fetcher import TranscriptFetcher
 from pipelines.transcript_analysis import analyze_transcript_auto
 from pipelines.llm_provider import try_get_llm_client, parse_json_text
 from services.mailaroo_emailer import send_text_email
-from services.external_ingest import maybe_push_daily_digest
+from services.external_ingest import maybe_push_daily_digest, maybe_push_destination_digests
 from services.news_schema import add_item_ids
 
 # --- CONFIGURATION ---
@@ -925,6 +925,12 @@ def main():
         report_date=timestamp,
         report=final_report,
         markdown_path=md_path,
+    )
+
+    # --- OPTIONAL: Closed-loop destination ingest (academy / godseye) ---
+    maybe_push_destination_digests(
+        report_date=timestamp,
+        report=final_report,
     )
 
     # --- OPTIONAL: Email report + scripts + transcripts via Mailaroo ---

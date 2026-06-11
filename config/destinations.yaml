@@ -1,0 +1,100 @@
+# Destination routing rules for the closed-loop pipeline.
+# Evaluated per normalized item: bucket match first, then keyword scoring over
+# title + summary + category + tags. No secrets here — URLs/tokens live in env.
+#
+# destinations:
+#   academy  -> academy.allthe.ai        (AI / agents / open-source / dev tools / automation / MCP)
+#   godseye  -> godseye.blockcities.com  (geopolitics / energy / finance / trade / war / macro / security)
+
+academy:
+  buckets:
+    - ai
+    - blockchain
+  include_keywords:
+    - " ai "
+    - artificial intelligence
+    - ai agent
+    - agentic
+    - llm
+    - large language model
+    - mcp
+    - model context protocol
+    - open source
+    - open-source
+    - automation
+    - prompt
+    - prompting
+    - developer tool
+    - dev tool
+    - rag
+    - retrieval augmented
+    - fine-tune
+    - fine tuning
+    - coding assistant
+    - framework
+    - sdk
+    - api
+    - machine learning
+    - neural network
+    - transformer
+    - chatbot
+    - copilot
+    - github
+    - repository
+    - python
+    - typescript
+    - kubernetes
+    - inference
+    - gpu
+
+godseye:
+  buckets:
+    - sense_making
+    - alternative_news
+  include_keywords:
+    - geopolitic
+    - energy
+    - " oil "
+    - natural gas
+    - pipeline
+    - power grid
+    - electricity
+    - nuclear
+    - finance
+    - financial
+    - central bank
+    - federal reserve
+    - interest rate
+    - inflation
+    - currency
+    - " trade "
+    - tariff
+    - sanction
+    - " war "
+    - warfare
+    - conflict
+    - military
+    - defense
+    - missile
+    - invasion
+    - supply chain
+    - macro
+    - recession
+    - " security "
+    - national security
+    - intelligence agency
+    - policy
+    - government
+    - election
+    - diplomacy
+    - treaty
+    - nato
+    - opec
+    - commodities
+    - semiconductor export
+
+# If an item scores for both destinations, send to both (cross-linked by signal_id).
+both_if_overlap: true
+
+# Fallback when nothing matches (bucket or keywords).
+default: academy

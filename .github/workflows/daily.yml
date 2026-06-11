@@ -61,6 +61,12 @@ jobs:
           ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
           MAILAROO_API_KEY: ${{ secrets.MAILAROO_API_KEY }}
           MAILAROO_TO_EMAIL: ${{ secrets.MAILAROO_TO_EMAIL }}
+          # Closed-loop destination ingest (skips cleanly when unset — safe for public clones).
+          # Set these as repo secrets to POST routed payloads to Academy / God's Eye.
+          ACADEMY_INGEST_URL: ${{ secrets.ACADEMY_INGEST_URL }}
+          ACADEMY_INGEST_BEARER_TOKEN: ${{ secrets.ACADEMY_INGEST_TOKEN }}
+          GODSEYE_INGEST_URL: ${{ secrets.GODSEYE_INGEST_URL }}
+          GODSEYE_INGEST_BEARER_TOKEN: ${{ secrets.GODSEYE_INGEST_TOKEN }}
           # X_CONSUMER_KEY: ${{ secrets.X_CONSUMER_KEY }}
           # X_CONSUMER_SECRET: ${{ secrets.X_CONSUMER_SECRET }}
           # Add other secrets for social media APIs here
