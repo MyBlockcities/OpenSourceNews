@@ -1,0 +1,11 @@
+# Keep `railway up` uploads small + reliable (avoids upload timeouts).
+# The frontend service (Vite + Caddy) doesn't need these at build time.
+.git
+node_modules
+dist
+__pycache__
+*.pyc
+.venv
+outputs
+docs/generated
+data
