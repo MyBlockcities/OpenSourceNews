@@ -1,6 +1,6 @@
 {
   "schema": "open_source_news_mission_brief.v1",
-  "generated_at": "2026-06-12T08:29:32+00:00",
+  "generated_at": "2026-06-12T18:39:34+00:00",
   "report_date": "2026-06-12",
   "watchlist": {
     "name": "ai_agent_infra",
@@ -30,55 +30,55 @@
   },
   "sections": {
     "what_changed": [
-      "AI agent bankrupted their operator while trying to scan DN42 (RSS)",
       "An AI agent published a hit piece on me (Hacker News)",
+      "AI agent bankrupted their operator while trying to scan DN42 (Hacker News)",
       "OpenCode – Open source AI coding agent (Hacker News)",
       "AI agent opens a PR write a blogpost to shames the maintainer who closes it (Hacker News)",
       "Opus 4.5 is not the normal AI agent experience that I have had thus far (Hacker News)"
     ],
     "why_it_matters": [
-      "AI agent bankrupted their operator while trying to scan DN42 maps to agents, ai.",
       "An AI agent published a hit piece on me maps to agents, ai.",
+      "AI agent bankrupted their operator while trying to scan DN42 maps to agents, ai.",
       "OpenCode – Open source AI coding agent maps to agents, ai."
     ],
     "who_should_care": [
       "AI automation agency operator"
     ],
     "recommended_actions": [
-      "Review RSS signal: AI agent bankrupted their operator while trying to scan DN42",
       "Review Hacker News signal: An AI agent published a hit piece on me",
+      "Review Hacker News signal: AI agent bankrupted their operator while trying to scan DN42",
       "Review Hacker News signal: OpenCode – Open source AI coding agent"
     ],
     "build_ideas": [
-      "Prototype an internal brief or automation around: AI agent bankrupted their operator while trying to scan DN42"
+      "Prototype an internal brief or automation around: An AI agent published a hit piece on me"
     ],
     "content_ideas": [
-      "Publish a short explainer on: AI agent bankrupted their operator while trying to scan DN42",
-      "Publish a short explainer on: An AI agent published a hit piece on me"
+      "Publish a short explainer on: An AI agent published a hit piece on me",
+      "Publish a short explainer on: AI agent bankrupted their operator while trying to scan DN42"
     ],
     "investment_partnership_angles": [
-      "Track the cluster `5078384d3f78d5dd` for repeat mentions over the next week.",
-      "Track the cluster `bc5c62f1dce6b2e2` for repeat mentions over the next week."
+      "Track the cluster `bc5c62f1dce6b2e2` for repeat mentions over the next week.",
+      "Track the cluster `ad6096fca5fdd310` for repeat mentions over the next week."
     ]
   },
   "items": [
     {
       "source_system": "OpenSourceNews",
-      "signal_id": "4eae9a266c3f5170",
-      "cluster_id": "5078384d3f78d5dd",
-      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "signal_id": "054c0b119223efe6",
+      "cluster_id": "bc5c62f1dce6b2e2",
+      "title": "An AI agent published a hit piece on me",
       "summary": "",
-      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
       "source_urls": [
-        "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/"
+        "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
       ],
       "topics": [
-        "General News & Research"
+        "AI / AI Tools / AI Agents"
       ],
-      "source": "RSS",
+      "source": "Hacker News",
       "category": "General News",
       "content_type": "news",
-      "bucket": "general",
+      "bucket": "ai",
       "processing_mode": "standard_summary",
       "mode": "",
       "stance": "",
@@ -126,13 +126,13 @@
     },
     {
       "source_system": "OpenSourceNews",
-      "signal_id": "054c0b119223efe6",
-      "cluster_id": "bc5c62f1dce6b2e2",
-      "title": "An AI agent published a hit piece on me",
+      "signal_id": "4eae9a266c3f5170",
+      "cluster_id": "ad6096fca5fdd310",
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
       "summary": "",
-      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
       "source_urls": [
-        "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
+        "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/"
       ],
       "topics": [
         "AI / AI Tools / AI Agents"
@@ -374,83 +374,21 @@
     },
     {
       "source_system": "OpenSourceNews",
-      "signal_id": "7afffaaa76e1f563",
-      "cluster_id": "663d8317f4bfa82b",
-      "title": "An AI agent deleted our production database. The agent's confession is below",
+      "signal_id": "02704c1830c2d341",
+      "cluster_id": "b673532a22edb480",
+      "title": "How to Setup a Local Coding Agent on macOS",
       "summary": "",
-      "url": "https://twitter.com/lifeof_jer/status/2048103471019434248",
+      "url": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
       "source_urls": [
-        "https://twitter.com/lifeof_jer/status/2048103471019434248"
+        "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos"
       ],
       "topics": [
-        "AI / AI Tools / AI Agents"
-      ],
-      "source": "Hacker News",
-      "category": "General News",
-      "content_type": "news",
-      "bucket": "ai",
-      "processing_mode": "standard_summary",
-      "mode": "",
-      "stance": "",
-      "affiliation": "",
-      "risk_level": "",
-      "verification_mode": "",
-      "content_warning": "",
-      "source_category": "",
-      "trust_layer": "",
-      "trust_level": "",
-      "evidence_level": "",
-      "regulatory_sensitivity": "",
-      "content_use": "",
-      "safe_framing": "",
-      "medical_claim_policy": "",
-      "classification_confidence": 0.5,
-      "quality_score": null,
-      "has_transcript": false,
-      "transcript_metadata": {
-        "word_count": null,
-        "mode": null,
-        "source": null,
-        "used_in_prompt": null
-      },
-      "key_lessons": [],
-      "actionable_steps": [],
-      "tools_mentioned": [],
-      "frameworks_mentioned": [],
-      "claims": [],
-      "entities": [],
-      "uncertainty_markers": [],
-      "neutral_synthesis": "",
-      "implementation_notes": "",
-      "difficulty": "",
-      "main_topic": "",
-      "key_insights": [],
-      "target_audience": "",
-      "unique_value": "",
-      "transcript_error": null,
-      "matched_terms": [
-        "agents",
-        "ai"
-      ],
-      "match_score": 20.5
-    },
-    {
-      "source_system": "OpenSourceNews",
-      "signal_id": "7485661d44e8e954",
-      "cluster_id": "bab855e76ff026ce",
-      "title": "Coinbase launches tool letting AI agents make payments and trade crypto",
-      "summary": "",
-      "url": "https://cointelegraph.com/news/coinbase-launches-tool-letting-ai-agents-make-payments-and-trade-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source_urls": [
-        "https://cointelegraph.com/news/coinbase-launches-tool-letting-ai-agents-make-payments-and-trade-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      ],
-      "topics": [
-        "Blockchain / Crypto / Web3"
+        "General News & Research"
       ],
       "source": "RSS",
       "category": "General News",
       "content_type": "news",
-      "bucket": "blockchain",
+      "bucket": "general",
       "processing_mode": "standard_summary",
       "mode": "",
       "stance": "",
@@ -491,20 +429,19 @@
       "unique_value": "",
       "transcript_error": null,
       "matched_terms": [
-        "agents",
-        "ai"
+        "agents"
       ],
-      "match_score": 20.5
+      "match_score": 10.5
     },
     {
       "source_system": "OpenSourceNews",
-      "signal_id": "6f1aab385d5462a8",
-      "cluster_id": "d316bbe3747b4e60",
-      "title": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
+      "signal_id": "f7bc66e3b83631ff",
+      "cluster_id": "b3170e1e146e73bb",
+      "title": "Google sues alleged Chinese cybercrime operation that used AI to send scam texts",
       "summary": "",
-      "url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
+      "url": "https://techcrunch.com/2026/06/12/google-sues-alleged-chinese-cybercrime-operation-that-used-ai-to-send-scam-texts/",
       "source_urls": [
-        "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/"
+        "https://techcrunch.com/2026/06/12/google-sues-alleged-chinese-cybercrime-operation-that-used-ai-to-send-scam-texts/"
       ],
       "topics": [
         "General News & Research"
@@ -559,79 +496,18 @@
     },
     {
       "source_system": "OpenSourceNews",
-      "signal_id": "1518ede7b2c137cb",
-      "cluster_id": "23967f579fc25fd1",
-      "title": "Equal AI raises $30M to screen calls so Indians don’t have to",
+      "signal_id": "f89b60c31ed63fd4",
+      "cluster_id": "acf224e8312b1074",
+      "title": "When it comes to total water use, AI data centers are a drop in the bucket",
       "summary": "",
-      "url": "https://techcrunch.com/2026/06/11/equal-ai-raises-30m-to-screen-calls-so-indians-dont-have-to/",
+      "url": "https://arstechnica.com/ai/2026/06/when-it-comes-to-total-water-use-ai-data-centers-are-a-drop-in-the-bucket/",
       "source_urls": [
-        "https://techcrunch.com/2026/06/11/equal-ai-raises-30m-to-screen-calls-so-indians-dont-have-to/"
+        "https://arstechnica.com/ai/2026/06/when-it-comes-to-total-water-use-ai-data-centers-are-a-drop-in-the-bucket/"
       ],
       "topics": [
         "General News & Research"
       ],
       "source": "RSS",
-      "category": "General News",
-      "content_type": "news",
-      "bucket": "general",
-      "processing_mode": "standard_summary",
-      "mode": "",
-      "stance": "",
-      "affiliation": "",
-      "risk_level": "",
-      "verification_mode": "",
-      "content_warning": "",
-      "source_category": "",
-      "trust_layer": "",
-      "trust_level": "",
-      "evidence_level": "",
-      "regulatory_sensitivity": "",
-      "content_use": "",
-      "safe_framing": "",
-      "medical_claim_policy": "",
-      "classification_confidence": 0.5,
-      "quality_score": null,
-      "has_transcript": false,
-      "transcript_metadata": {
-        "word_count": null,
-        "mode": null,
-        "source": null,
-        "used_in_prompt": null
-      },
-      "key_lessons": [],
-      "actionable_steps": [],
-      "tools_mentioned": [],
-      "frameworks_mentioned": [],
-      "claims": [],
-      "entities": [],
-      "uncertainty_markers": [],
-      "neutral_synthesis": "",
-      "implementation_notes": "",
-      "difficulty": "",
-      "main_topic": "",
-      "key_insights": [],
-      "target_audience": "",
-      "unique_value": "",
-      "transcript_error": null,
-      "matched_terms": [
-        "ai"
-      ],
-      "match_score": 10.5
-    },
-    {
-      "source_system": "OpenSourceNews",
-      "signal_id": "175adcd8d25b55e0",
-      "cluster_id": "dbe5e246a979da0b",
-      "title": "hexo-ai / sia",
-      "summary": "",
-      "url": "https://github.com/hexo-ai/sia",
-      "source_urls": [
-        "https://github.com/hexo-ai/sia"
-      ],
-      "topics": [
-        "General News & Research"
-      ],
-      "source": "GitHub Trending",
       "category": "General News",
       "content_type": "news",
       "bucket": "general",
@@ -800,16 +676,138 @@
         "ai"
       ],
       "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "bf2cf2a17f3a820c",
+      "cluster_id": "169f5fd9bdd2be1b",
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "summary": "",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "f4ea7c9cc5f6b288",
+      "cluster_id": "b8b7bf0d30c3e9ae",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "summary": "",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "source_urls": [
+        "https://huggingface.co/blog/mishig/spaces-agents-md"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents"
+      ],
+      "match_score": 10.5
     }
   ],
   "source_links": [
     {
-      "title": "AI agent bankrupted their operator while trying to scan DN42",
-      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/"
-    },
-    {
       "title": "An AI agent published a hit piece on me",
       "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
+    },
+    {
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/"
     },
     {
       "title": "OpenCode – Open source AI coding agent",
@@ -824,24 +822,16 @@
       "url": "https://burkeholland.github.io/posts/opus-4-5-change-everything/"
     },
     {
-      "title": "An AI agent deleted our production database. The agent's confession is below",
-      "url": "https://twitter.com/lifeof_jer/status/2048103471019434248"
+      "title": "How to Setup a Local Coding Agent on macOS",
+      "url": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos"
     },
     {
-      "title": "Coinbase launches tool letting AI agents make payments and trade crypto",
-      "url": "https://cointelegraph.com/news/coinbase-launches-tool-letting-ai-agents-make-payments-and-trade-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      "title": "Google sues alleged Chinese cybercrime operation that used AI to send scam texts",
+      "url": "https://techcrunch.com/2026/06/12/google-sues-alleged-chinese-cybercrime-operation-that-used-ai-to-send-scam-texts/"
     },
     {
-      "title": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
-      "url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/"
-    },
-    {
-      "title": "Equal AI raises $30M to screen calls so Indians don’t have to",
-      "url": "https://techcrunch.com/2026/06/11/equal-ai-raises-30m-to-screen-calls-so-indians-dont-have-to/"
-    },
-    {
-      "title": "hexo-ai / sia",
-      "url": "https://github.com/hexo-ai/sia"
+      "title": "When it comes to total water use, AI data centers are a drop in the bucket",
+      "url": "https://arstechnica.com/ai/2026/06/when-it-comes-to-total-water-use-ai-data-centers-are-a-drop-in-the-bucket/"
     },
     {
       "title": "Open source AI is the path forward",
@@ -850,6 +840,14 @@
     {
       "title": "The latest AI news we announced in May 2026",
       "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/"
+    },
+    {
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/"
+    },
+    {
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md"
     }
   ]
 }
