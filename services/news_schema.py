@@ -79,6 +79,7 @@ def normalize_item(topic_name: str, item: Dict[str, Any]) -> Dict[str, Any]:
         "cluster_id": item_with_ids["cluster_id"],
         "title": item_with_ids.get("title") or "",
         "summary": item_with_ids.get("summary") or "",
+        "url": source_url,
         "source_urls": [source_url],
         "topics": [topic_name],
         "source": item_with_ids.get("source") or "Unknown",
