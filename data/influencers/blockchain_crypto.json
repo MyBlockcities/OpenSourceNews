@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-06-11T11:52:21Z",
-  "new_this_run": 2,
-  "total_influencers": 83,
+  "updated_at": "2026-06-12T11:35:56Z",
+  "new_this_run": 1,
+  "total_influencers": 84,
   "run_summary": {
-    "run_started_at": "2026-06-11T11:52:15Z",
-    "candidate_count": 28,
-    "existing_count": 81,
-    "selected_new_count": 2,
+    "run_started_at": "2026-06-12T11:35:48Z",
+    "candidate_count": 30,
+    "existing_count": 83,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:5509f9c97bca2f42042e",
+      "external_id": "5509f9c97bca2f42042e",
+      "name": "Joshua de Vos",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/06/10/crypto-for-advisors-crypto-etfs",
+      "discovered_on": "2026-06-12",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto for Advisors: Crypto ETFs"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:c5bc69a2142aa066c32d",
       "external_id": "c5bc69a2142aa066c32d",
