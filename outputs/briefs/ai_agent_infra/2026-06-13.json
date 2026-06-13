@@ -1,0 +1,854 @@
+{
+  "schema": "open_source_news_mission_brief.v1",
+  "generated_at": "2026-06-13T08:07:48+00:00",
+  "report_date": "2026-06-13",
+  "watchlist": {
+    "name": "ai_agent_infra",
+    "persona": "AI automation agency operator",
+    "entities": [
+      "OpenAI Agents SDK",
+      "Claude Code",
+      "LangGraph",
+      "CrewAI",
+      "MCP",
+      "OpenRouter"
+    ],
+    "topics": [
+      "AI",
+      "agents"
+    ],
+    "alert_rules": [
+      "new_release",
+      "funding",
+      "security_issue",
+      "repo_trending"
+    ]
+  },
+  "counts": {
+    "matched_items": 12,
+    "source_links": 12
+  },
+  "sections": {
+    "what_changed": [
+      "Here’s How AI Agents Can Protect EV Chargers (RSS)",
+      "An AI agent published a hit piece on me (Hacker News)",
+      "AI agent bankrupted their operator while trying to scan DN42 (Hacker News)",
+      "OpenCode – Open source AI coding agent (Hacker News)",
+      "AI agent opens a PR write a blogpost to shames the maintainer who closes it (Hacker News)"
+    ],
+    "why_it_matters": [
+      "Here’s How AI Agents Can Protect EV Chargers maps to agents, ai.",
+      "An AI agent published a hit piece on me maps to agents, ai.",
+      "AI agent bankrupted their operator while trying to scan DN42 maps to agents, ai."
+    ],
+    "who_should_care": [
+      "AI automation agency operator"
+    ],
+    "recommended_actions": [
+      "Review RSS signal: Here’s How AI Agents Can Protect EV Chargers",
+      "Review Hacker News signal: An AI agent published a hit piece on me",
+      "Review Hacker News signal: AI agent bankrupted their operator while trying to scan DN42"
+    ],
+    "build_ideas": [
+      "Prototype an internal brief or automation around: Here’s How AI Agents Can Protect EV Chargers"
+    ],
+    "content_ideas": [
+      "Publish a short explainer on: Here’s How AI Agents Can Protect EV Chargers",
+      "Publish a short explainer on: An AI agent published a hit piece on me"
+    ],
+    "investment_partnership_angles": [
+      "Track the cluster `3198da3395e76adf` for repeat mentions over the next week.",
+      "Track the cluster `bc5c62f1dce6b2e2` for repeat mentions over the next week."
+    ]
+  },
+  "items": [
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "ecbd0ad67b4836cd",
+      "cluster_id": "3198da3395e76adf",
+      "title": "Here’s How AI Agents Can Protect EV Chargers",
+      "summary": "",
+      "url": "https://www.wired.com/story/researchers-in-spain-show-how-ai-agents-can-protect-ev-chargers/",
+      "source_urls": [
+        "https://www.wired.com/story/researchers-in-spain-show-how-ai-agents-can-protect-ev-chargers/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "054c0b119223efe6",
+      "cluster_id": "bc5c62f1dce6b2e2",
+      "title": "An AI agent published a hit piece on me",
+      "summary": "",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
+      "source_urls": [
+        "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "4eae9a266c3f5170",
+      "cluster_id": "ad6096fca5fdd310",
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "summary": "",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "source_urls": [
+        "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "79e93f5f40207ecd",
+      "cluster_id": "33ead16be8b8893b",
+      "title": "OpenCode – Open source AI coding agent",
+      "summary": "",
+      "url": "https://opencode.ai/",
+      "source_urls": [
+        "https://opencode.ai/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "7985656310f1ab3f",
+      "cluster_id": "3027b210f22918d7",
+      "title": "AI agent opens a PR write a blogpost to shames the maintainer who closes it",
+      "summary": "",
+      "url": "https://github.com/matplotlib/matplotlib/pull/31132",
+      "source_urls": [
+        "https://github.com/matplotlib/matplotlib/pull/31132"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "22d51d6e9a4f94c6",
+      "cluster_id": "78982efcd91987f9",
+      "title": "Opus 4.5 is not the normal AI agent experience that I have had thus far",
+      "summary": "",
+      "url": "https://burkeholland.github.io/posts/opus-4-5-change-everything/",
+      "source_urls": [
+        "https://burkeholland.github.io/posts/opus-4-5-change-everything/"
+      ],
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "cecd619627dfeca3",
+      "cluster_id": "a523c6e59bf1d08b",
+      "title": "Shepherd's Dog: A Game by the Most Dangerous AI Model",
+      "summary": "",
+      "url": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog",
+      "source_urls": [
+        "https://koenvangilst.nl/lab/claude-fable-shepherds-dog"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "67338bd2e6f95827",
+      "cluster_id": "e369fa6f6a6c4e63",
+      "title": "Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
+      "summary": "",
+      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+      "source_urls": [
+        "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "3ee10ac9b824c018",
+      "cluster_id": "7fdb89890dc3a166",
+      "title": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
+      "summary": "",
+      "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+      "source_urls": [
+        "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "21d1c5630e86baaa",
+      "cluster_id": "921cec653c861d53",
+      "title": "Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google",
+      "summary": "",
+      "url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
+      "source_urls": [
+        "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "109e37fa44661f03",
+      "cluster_id": "300a7b65157aeab5",
+      "title": "Meta Employees Absolutely Hate Mark Zuckerberg’s Plan for a Companywide AI Hackathon",
+      "summary": "",
+      "url": "https://www.wired.com/story/meta-employees-absolutely-hate-mark-zuckerbergs-hackathon-idea/",
+      "source_urls": [
+        "https://www.wired.com/story/meta-employees-absolutely-hate-mark-zuckerbergs-hackathon-idea/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "4763cebd330a10be",
+      "cluster_id": "f7f972bc73318a41",
+      "title": "‘Tell Him He’s a Piece of Shit’: Meta’s New AI Unit Is a Total Mess",
+      "summary": "",
+      "url": "https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/",
+      "source_urls": [
+        "https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/"
+      ],
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "RSS",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "ai"
+      ],
+      "match_score": 10.5
+    }
+  ],
+  "source_links": [
+    {
+      "title": "Here’s How AI Agents Can Protect EV Chargers",
+      "url": "https://www.wired.com/story/researchers-in-spain-show-how-ai-agents-can-protect-ev-chargers/"
+    },
+    {
+      "title": "An AI agent published a hit piece on me",
+      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
+    },
+    {
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/"
+    },
+    {
+      "title": "OpenCode – Open source AI coding agent",
+      "url": "https://opencode.ai/"
+    },
+    {
+      "title": "AI agent opens a PR write a blogpost to shames the maintainer who closes it",
+      "url": "https://github.com/matplotlib/matplotlib/pull/31132"
+    },
+    {
+      "title": "Opus 4.5 is not the normal AI agent experience that I have had thus far",
+      "url": "https://burkeholland.github.io/posts/opus-4-5-change-everything/"
+    },
+    {
+      "title": "Shepherd's Dog: A Game by the Most Dangerous AI Model",
+      "url": "https://koenvangilst.nl/lab/claude-fable-shepherds-dog"
+    },
+    {
+      "title": "Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
+      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/"
+    },
+    {
+      "title": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
+      "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/"
+    },
+    {
+      "title": "Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google",
+      "url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/"
+    },
+    {
+      "title": "Meta Employees Absolutely Hate Mark Zuckerberg’s Plan for a Companywide AI Hackathon",
+      "url": "https://www.wired.com/story/meta-employees-absolutely-hate-mark-zuckerbergs-hackathon-idea/"
+    },
+    {
+      "title": "‘Tell Him He’s a Piece of Shit’: Meta’s New AI Unit Is a Total Mess",
+      "url": "https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/"
+    }
+  ]
+}
