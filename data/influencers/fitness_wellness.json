@@ -2,19 +2,276 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-06-12T11:35:57Z",
-  "new_this_run": 11,
-  "total_influencers": 310,
+  "updated_at": "2026-06-13T11:06:29Z",
+  "new_this_run": 9,
+  "total_influencers": 319,
   "run_summary": {
-    "run_started_at": "2026-06-12T11:35:48Z",
+    "run_started_at": "2026-06-13T11:06:17Z",
     "candidate_count": 31,
-    "existing_count": 299,
-    "selected_new_count": 11,
+    "existing_count": 310,
+    "selected_new_count": 9,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:45dc44befc8b9423592b",
+      "external_id": "45dc44befc8b9423592b",
+      "name": "Akshyae Singh",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ALBdBRas7G3kdbPSq/the-quest-to-find-the-next-big-communicators-in-ai-safety",
+      "discovered_on": "2026-06-13",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/MichaelTrazzi",
+        "instagram": "https://www.instagram.com/p",
+        "tiktok": "https://www.tiktok.com/@jatgpt_",
+        "youtube": "https://www.youtube.com/@AI_In_Context"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Quest To Find The Next Big Communicators In AI Safety"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a2b73aa7ec6053a2fdbb",
+      "external_id": "a2b73aa7ec6053a2fdbb",
+      "name": "QuietCalibration",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/LBaAdhurFpbizExsy/do-we-learn-less-from-our-decisions-than-we-think-we-do",
+      "discovered_on": "2026-06-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Do we learn less from our decisions than we think we do?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ff6cba435993d7b7c352",
+      "external_id": "ff6cba435993d7b7c352",
+      "name": "Madeleine L",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/mxA7584MuZeBBFgaz/exploration-of-a-dna-sequencing-basecaller-using-activation",
+      "discovered_on": "2026-06-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Exploration of a DNA Sequencing Basecaller using Activation Patching"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:13610d7a4920b922ad82",
+      "external_id": "13610d7a4920b922ad82",
+      "name": "Klemen",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/vNDfD9LjToh3eoyu4/a-generated-web",
+      "discovered_on": "2026-06-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Generated Web"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f7af3ab7862122278385",
+      "external_id": "f7af3ab7862122278385",
+      "name": "Jannis",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/LCT7wK8q4QLBodQ4F/short-timelines-favor-control-long-timelines-favor",
+      "discovered_on": "2026-06-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Short Timelines Favor Control, Long Timelines Favor Infrastructure Security"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ff1cc29cc242337ef971",
+      "external_id": "ff1cc29cc242337ef971",
+      "name": "Etha",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/g6L7ovognMyYALZKb/cat-allergies-and-cavities",
+      "discovered_on": "2026-06-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Cat allergies & Cavities"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d0686a52ebde9d6d83b8",
+      "external_id": "d0686a52ebde9d6d83b8",
+      "name": "Capybasilisk",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/f5avt6eEzkGJJqcCe/us-government-directive-to-suspend-access-to-fable-5-and",
+      "discovered_on": "2026-06-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "US government directive to suspend access to Fable 5 and Mythos 5"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:948675392037b9e92768",
+      "external_id": "948675392037b9e92768",
+      "name": "CandidLind",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ZSeQ6Lgbp7btpSuzr/when-emotion-descriptors-fail-ai-native-functions-of-emotion",
+      "discovered_on": "2026-06-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "When Emotion Descriptors Fail: AI-Native Functions of Emotion Vectors"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9bf743ff99dd6ae04317",
+      "external_id": "9bf743ff99dd6ae04317",
+      "name": "Adam Zerner",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ueMjYZgpNvqxRLsqS/sandy-blvd-as-an-example-of-complexity",
+      "discovered_on": "2026-06-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Sandy Blvd as an example of complexity"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:5329dfe97f199b1d377a",
       "external_id": "5329dfe97f199b1d377a",
