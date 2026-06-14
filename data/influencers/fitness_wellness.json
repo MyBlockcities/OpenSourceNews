@@ -2,19 +2,188 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-06-13T11:06:29Z",
-  "new_this_run": 9,
-  "total_influencers": 319,
+  "updated_at": "2026-06-14T11:15:21Z",
+  "new_this_run": 6,
+  "total_influencers": 325,
   "run_summary": {
-    "run_started_at": "2026-06-13T11:06:17Z",
-    "candidate_count": 31,
-    "existing_count": 310,
-    "selected_new_count": 9,
+    "run_started_at": "2026-06-14T11:15:12Z",
+    "candidate_count": 30,
+    "existing_count": 319,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:0f0945193800ff562697",
+      "external_id": "0f0945193800ff562697",
+      "name": "Fernand0",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/JyWhgmjPcEY3Cx4ur/wikipedia-s-national-flavors-french",
+      "discovered_on": "2026-06-14",
+      "score": 32.0,
+      "metrics": {
+        "posts_seen_in_fetch": 2,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Wikipedia's national flavors - French",
+          "Low-temperature bunk"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8c1a284210d12e9d6760",
+      "external_id": "8c1a284210d12e9d6760",
+      "name": "emile delcourt",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/eAMyxM28hNp4ewGdT/don-t-just-aim-for-frontier-labs",
+      "discovered_on": "2026-06-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Don't just aim for Frontier Labs"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:320293685fb479d23fb8",
+      "external_id": "320293685fb479d23fb8",
+      "name": "christian-mc",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/7Ggt9adLgFAxWMzZP/i-bet-abliteration-s-cost-was-sloppy-implementation-i-was",
+      "discovered_on": "2026-06-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "I Bet Abliteration's Cost Was Sloppy Implementation. I Was Wrong"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:830a92bb2733f83d73a8",
+      "external_id": "830a92bb2733f83d73a8",
+      "name": "cantsaymuch",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/wTgnbETckJcDd7qgu/our-work-is-low-skill-expression",
+      "discovered_on": "2026-06-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Our Work is Low Skill Expression"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ea9bcb0832c7e463dd75",
+      "external_id": "ea9bcb0832c7e463dd75",
+      "name": "Jake Grover",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/q5K75FJXg9wowDGdk/paying-kids-to-do-schoolwork",
+      "discovered_on": "2026-06-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Paying Kids To Do Schoolwork"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b154e223de395fe4ee6b",
+      "external_id": "b154e223de395fe4ee6b",
+      "name": "Daniel Tiourine",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/8gZspSs4WFtpfki9i/speeding-up-jumprelu-sae-inference-with-custom-triton",
+      "discovered_on": "2026-06-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Speeding Up JumpReLU SAE Inference with Custom Triton Kernels (2–14× on Real SAEs)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:45dc44befc8b9423592b",
       "external_id": "45dc44befc8b9423592b",
