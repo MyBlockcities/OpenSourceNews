@@ -2,19 +2,215 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-06-14T11:15:21Z",
-  "new_this_run": 6,
-  "total_influencers": 325,
+  "updated_at": "2026-06-15T12:33:23Z",
+  "new_this_run": 7,
+  "total_influencers": 332,
   "run_summary": {
-    "run_started_at": "2026-06-14T11:15:12Z",
-    "candidate_count": 30,
-    "existing_count": 319,
-    "selected_new_count": 6,
+    "run_started_at": "2026-06-15T12:33:14Z",
+    "candidate_count": 31,
+    "existing_count": 325,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:b66bf664ae0042271650",
+      "external_id": "b66bf664ae0042271650",
+      "name": "aggliu",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/NpZqHdN6Pw2wsyvqG/you-need-to-know-about-the-baruch-plan",
+      "discovered_on": "2026-06-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "You need to know about the Baruch Plan"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d08a31152ecd7c1eed5a",
+      "external_id": "d08a31152ecd7c1eed5a",
+      "name": "NelsonDP",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/5giwhC4FoSTohM4ho/exploring-known-unknowns-in-the-ai-regulatory-landscape",
+      "discovered_on": "2026-06-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Exploring Known Unknowns in the AI Regulatory Landscape"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:5c197c3f566c8863b95a",
+      "external_id": "5c197c3f566c8863b95a",
+      "name": "Josh Engels",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/wyZRNgpeiPeRXB6eT/why-do-naive-sft-filters-for-safety-properties-fail",
+      "discovered_on": "2026-06-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Why Do Naive SFT Filters For Safety Properties Fail?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d5840d307da1e518175c",
+      "external_id": "d5840d307da1e518175c",
+      "name": "Jonathan A. Czin",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/false-promise-us-china-stability",
+      "discovered_on": "2026-06-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The False Promise of U.S.-China Stability"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:64aed31eb8df02a6d082",
+      "external_id": "64aed31eb8df02a6d082",
+      "name": "Expertium",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/mtNZG7Ee6JfBKhE2H/why-i-think-a-global-ai-pause-almost-certainly-won-t-happen",
+      "discovered_on": "2026-06-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Why I think a global AI pause (almost) certainly won't happen"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:67b0e46bfc1ce04f8fc0",
+      "external_id": "67b0e46bfc1ce04f8fc0",
+      "name": "Dawn Drescher",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/LGKLDJobggH2GebAX/on-responsibility-and-death-can-we-see-reality-for-what-it",
+      "discovered_on": "2026-06-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "On Responsibility and Death: Can We See Reality for What It Is or Will It Break Us"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c8850908c600c357ea1b",
+      "external_id": "c8850908c600c357ea1b",
+      "name": "Artt",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/nKRvp7LKgjJxbpykq/do-k-sparse-autoencoders-reveal-thinking-patterns",
+      "discovered_on": "2026-06-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Do k-Sparse Autoencoders Reveal Thinking Patterns? Interpretable Features in a Small Reasoning Model"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:0f0945193800ff562697",
       "external_id": "0f0945193800ff562697",
