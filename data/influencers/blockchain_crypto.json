@@ -2,19 +2,336 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-06-14T11:15:20Z",
-  "new_this_run": 1,
-  "total_influencers": 86,
+  "updated_at": "2026-06-16T12:05:57Z",
+  "new_this_run": 11,
+  "total_influencers": 97,
   "run_summary": {
-    "run_started_at": "2026-06-14T11:15:12Z",
+    "run_started_at": "2026-06-16T12:05:48Z",
     "candidate_count": 27,
-    "existing_count": 85,
-    "selected_new_count": 1,
+    "existing_count": 86,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:c3914ed38a0722bc45e6",
+      "external_id": "c3914ed38a0722bc45e6",
+      "name": "Ezra Reguerra",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/news/solana-treasury-firms-reject-forward-industries-offers?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "discovered_on": "2026-06-16",
+      "score": 48.0,
+      "metrics": {
+        "posts_seen_in_fetch": 4,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Solana treasury firms resist Forward Industries’ consolidation push",
+          "Bitcoin miner IREN enters Europe with Nostrum acquisition as AI pivot accelerates",
+          "Pudgy Penguins winds down Pudgy Party mobile game",
+          "Tokenization could push DeFi assets to $2.7T by 2030: Standard Chartered"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:72d51c42473dd35d912e",
+      "external_id": "72d51c42473dd35d912e",
+      "name": "William Suberg",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/markets/bitcoin-analysis-warn-over-btc-price-rejection-as-67k-approaches?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "discovered_on": "2026-06-16",
+      "score": 32.0,
+      "metrics": {
+        "posts_seen_in_fetch": 2,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Bitcoin analysis warns over BTC price rejection as $67K approaches",
+          "Can BTC rebound to $69K as oil price plunges? Five things to know in Bitcoin this week"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e7694db1acd75a98515e",
+      "external_id": "e7694db1acd75a98515e",
+      "name": "Turner Wright",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/news/donald-trump-crypto-company-ufc-fighter-bonuses-usd1-stablecoins?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "discovered_on": "2026-06-16",
+      "score": 32.0,
+      "metrics": {
+        "posts_seen_in_fetch": 2,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Trump crypto company's USD1 stablecoins backing UFC event bonuses",
+          "CFTC hires SEC crypto task force adviser with blockchain forensics chops"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:67686eeaad6cb10e2558",
+      "external_id": "67686eeaad6cb10e2558",
+      "name": "Sam Bourgi",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/news/nvidia-20-billion-debt-boom-reinforces-bitocin-minings-ai-pivot?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "discovered_on": "2026-06-16",
+      "score": 32.0,
+      "metrics": {
+        "posts_seen_in_fetch": 2,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Nvidia’s $20 billion debt boom reinforces Bitcoin miners' AI pivot",
+          "BitMine boosts ETH holdings closer to $10B as bear market accumulation continues"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4160f967ed9b0cddf6ca",
+      "external_id": "4160f967ed9b0cddf6ca",
+      "name": "Nate Kostar",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/news/kraken-launches-perpetual-futures-for-us-traders-through-cftc-regulated-venue?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "discovered_on": "2026-06-16",
+      "score": 32.0,
+      "metrics": {
+        "posts_seen_in_fetch": 2,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Kraken rolls out perpetual futures for US traders through CFTC-regulated venue",
+          "Bybit expands RWA push with tokenized bond funds from PIMCO, CMBI"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:7f6aae8bac8125923890",
+      "external_id": "7f6aae8bac8125923890",
+      "name": "Martin Young",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/news/bitcoin-price-momentum-remains-weak-despite-reclaiming-67k-swissblock?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "discovered_on": "2026-06-16",
+      "score": 32.0,
+      "metrics": {
+        "posts_seen_in_fetch": 2,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Bitcoin recovery rests on US-Iran deal as momentum remains weak",
+          "Anthropic shutdown makes a strong case for decentralized AI: Grayscale"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e924fd67fbc0e25e1e9b",
+      "external_id": "e924fd67fbc0e25e1e9b",
+      "name": "Helen Partz",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/news/strategy-saylor-bitcoin-credit-alternative-crypto-yield?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "discovered_on": "2026-06-16",
+      "score": 32.0,
+      "metrics": {
+        "posts_seen_in_fetch": 2,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Bitcoin doesn't need Ethereum-style yield, says Strategy's Michael Saylor",
+          "Saylor’s Strategy buys 1,587 BTC for $100M, holdings hit 846.8K"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b0b17534453dbd666806",
+      "external_id": "b0b17534453dbd666806",
+      "name": "Yashu Gola",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/markets/these-bitcoin-charts-show-how-btc-price-could-hit-100k-before-october?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "discovered_on": "2026-06-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "These Bitcoin charts show how BTC price could hit $100K before October"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8e8af2cadf52ce41c2e3",
+      "external_id": "8e8af2cadf52ce41c2e3",
+      "name": "Jesse Coghlan",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/news/us-government-watchdog-urges-fdic-coordinate-on-crypto-oversight?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "discovered_on": "2026-06-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "US government watchdog urges FDIC to coordinate on crypto oversight"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:7e8befbed328ee1ecf73",
+      "external_id": "7e8befbed328ee1ecf73",
+      "name": "Dilip Kumar Patairya",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/learn/ai-agents-crypto-wallets?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "discovered_on": "2026-06-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "What happens when AI agents start using crypto wallets?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9706149bd9f069e2c63e",
+      "external_id": "9706149bd9f069e2c63e",
+      "name": "Cointelegraph",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "discovered_on": "2026-06-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Here’s what happened in crypto today"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:075e358a968ea7e809a9",
       "external_id": "075e358a968ea7e809a9",
