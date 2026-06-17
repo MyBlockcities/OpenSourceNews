@@ -2,19 +2,103 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-06-16T12:05:59Z",
-  "new_this_run": 10,
-  "total_influencers": 342,
+  "updated_at": "2026-06-17T11:57:26Z",
+  "new_this_run": 3,
+  "total_influencers": 345,
   "run_summary": {
-    "run_started_at": "2026-06-16T12:05:48Z",
-    "candidate_count": 31,
-    "existing_count": 332,
-    "selected_new_count": 10,
+    "run_started_at": "2026-06-17T11:57:18Z",
+    "candidate_count": 30,
+    "existing_count": 342,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:16250c445fc3cd87caa4",
+      "external_id": "16250c445fc3cd87caa4",
+      "name": "nika koghuashvili",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ayCm5AWQuHfeqtZim/plastic-cake-fallacy",
+      "discovered_on": "2026-06-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Plastic Cake Fallacy"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8815d44f2c382a05127f",
+      "external_id": "8815d44f2c382a05127f",
+      "name": "Connor Blake",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/hoR4mWkaPKKgstioX/rational-agentic-maximalist-philosophies",
+      "discovered_on": "2026-06-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Rational Agentic Maximalist Philosophies"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:13919df7b95b9e089ece",
+      "external_id": "13919df7b95b9e089ece",
+      "name": "Anne Neuberger",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/coming-quantum-national-security-crisis",
+      "discovered_on": "2026-06-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Coming Quantum National Security Crisis"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:6b5427b901587de4b89b",
       "external_id": "6b5427b901587de4b89b",
