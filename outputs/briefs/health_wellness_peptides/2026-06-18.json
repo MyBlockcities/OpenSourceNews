@@ -1,0 +1,893 @@
+{
+  "schema": "open_source_news_mission_brief.v1",
+  "generated_at": "2026-06-18T08:33:33+00:00",
+  "report_date": "2026-06-18",
+  "watchlist": {
+    "name": "health_wellness_peptides",
+    "persona": "Health and wellness peptide brand operator",
+    "entities": [
+      "peptides",
+      "NAD+",
+      "BPC-157",
+      "GHK-Cu",
+      "KPV",
+      "GLP-1",
+      "semaglutide",
+      "tirzepatide",
+      "retatrutide",
+      "collagen peptides",
+      "thymosin alpha-1",
+      "oral strips"
+    ],
+    "topics": [
+      "health",
+      "wellness",
+      "longevity",
+      "peptides",
+      "metabolic_health",
+      "skin_health",
+      "recovery"
+    ],
+    "alert_rules": [
+      "research",
+      "clinical_trial",
+      "safety_warning",
+      "product_launch",
+      "regulation",
+      "evidence_upgrade"
+    ]
+  },
+  "counts": {
+    "matched_items": 12,
+    "source_links": 12
+  },
+  "sections": {
+    "what_changed": [
+      "PCO-02 - Safety and Pharmacokinetics Trial (ClinicalTrials.gov)",
+      "Effects of Protein Hydrolysate Supplementation Influencing Strength Recovery and Expression of Muscle Damage Markers Post-exercise (ClinicalTrials.gov)",
+      "Metabolic Differences of an Oral and Intravenous Dose of 3-hydroxybutyrate (3-OHB). (ClinicalTrials.gov)",
+      "INcreTin-based thERapies for Cardiovascular Event PrevenTion in Patients With and Without ASCVD (INTERCEPT-ASCVD) (ClinicalTrials.gov)",
+      "Phase 1/1b Study of TLC-6740 in Healthy Subjects and Subjects With Obesity, With or Without Diabetes (ClinicalTrials.gov)"
+    ],
+    "why_it_matters": [
+      "PCO-02 - Safety and Pharmacokinetics Trial maps to peptides, wellness, bpc-157, health.",
+      "Effects of Protein Hydrolysate Supplementation Influencing Strength Recovery and Expression of Muscle Damage Markers Post-exercise maps to peptides, recovery, wellness, nad+.",
+      "Metabolic Differences of an Oral and Intravenous Dose of 3-hydroxybutyrate (3-OHB). maps to peptides, wellness, health, glp-1."
+    ],
+    "who_should_care": [
+      "Health and wellness peptide brand operator"
+    ],
+    "recommended_actions": [
+      "Review ClinicalTrials.gov signal: PCO-02 - Safety and Pharmacokinetics Trial",
+      "Review ClinicalTrials.gov signal: Effects of Protein Hydrolysate Supplementation Influencing Strength Recovery and Expression of Muscle Damage Markers Post-exercise",
+      "Review ClinicalTrials.gov signal: Metabolic Differences of an Oral and Intravenous Dose of 3-hydroxybutyrate (3-OHB)."
+    ],
+    "build_ideas": [
+      "Prototype an internal brief or automation around: PCO-02 - Safety and Pharmacokinetics Trial"
+    ],
+    "content_ideas": [
+      "Publish a short explainer on: PCO-02 - Safety and Pharmacokinetics Trial",
+      "Publish a short explainer on: Effects of Protein Hydrolysate Supplementation Influencing Strength Recovery and Expression of Muscle Damage Markers Post-exercise"
+    ],
+    "investment_partnership_angles": [
+      "Track the cluster `3945c9d0f3620b59` for repeat mentions over the next week.",
+      "Track the cluster `e83914e76f44cdea` for repeat mentions over the next week."
+    ]
+  },
+  "items": [
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "158a37bc9106f752",
+      "cluster_id": "3945c9d0f3620b59",
+      "title": "PCO-02 - Safety and Pharmacokinetics Trial",
+      "summary": "NCT: NCT02637284 | Status: UNKNOWN | Phase: PHASE1 | Conditions: Healthy Volunteers | Interventions: Bepecin, Placebo | Query: BPC-157",
+      "url": "https://clinicaltrials.gov/study/NCT02637284",
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT02637284"
+      ],
+      "topics": [
+        "Peptides / Wellness / Longevity"
+      ],
+      "source": "ClinicalTrials.gov",
+      "category": "Clinical Trial Registry",
+      "content_type": "clinical_trial",
+      "bucket": "peptides",
+      "processing_mode": "standard_summary",
+      "mode": "truth_layer",
+      "stance": "medical_education",
+      "affiliation": "institutional",
+      "risk_level": "regulated",
+      "verification_mode": "truth_layer",
+      "content_warning": "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
+      "source_category": "clinical_trial_registry",
+      "trust_layer": "truth",
+      "trust_level": "very_high",
+      "evidence_level": "human_clinical_registry",
+      "regulatory_sensitivity": "high",
+      "content_use": "evidence_checkpoint",
+      "safe_framing": "Registry signal only; trial listing is not proof of safety, approval, or efficacy.",
+      "medical_claim_policy": "Use only to identify study status, phase, endpoint direction, and evidence gaps.",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "peptides",
+        "wellness",
+        "bpc-157",
+        "health"
+      ],
+      "match_score": 40.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "2a699de5df684296",
+      "cluster_id": "e83914e76f44cdea",
+      "title": "Effects of Protein Hydrolysate Supplementation Influencing Strength Recovery and Expression of Muscle Damage Markers Post-exercise",
+      "summary": "NCT: NCT05159375 | Status: COMPLETED | Phase: NA | Conditions: Muscle Injury | Interventions: Elio, SMCC | Query: NAD+",
+      "url": "https://clinicaltrials.gov/study/NCT05159375",
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT05159375"
+      ],
+      "topics": [
+        "Peptides / Wellness / Longevity"
+      ],
+      "source": "ClinicalTrials.gov",
+      "category": "Clinical Trial Registry",
+      "content_type": "clinical_trial",
+      "bucket": "peptides",
+      "processing_mode": "standard_summary",
+      "mode": "truth_layer",
+      "stance": "medical_education",
+      "affiliation": "institutional",
+      "risk_level": "regulated",
+      "verification_mode": "truth_layer",
+      "content_warning": "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
+      "source_category": "clinical_trial_registry",
+      "trust_layer": "truth",
+      "trust_level": "very_high",
+      "evidence_level": "human_clinical_registry",
+      "regulatory_sensitivity": "high",
+      "content_use": "evidence_checkpoint",
+      "safe_framing": "Registry signal only; trial listing is not proof of safety, approval, or efficacy.",
+      "medical_claim_policy": "Use only to identify study status, phase, endpoint direction, and evidence gaps.",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "peptides",
+        "recovery",
+        "wellness",
+        "nad+"
+      ],
+      "match_score": 40.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "b7859624a8a01175",
+      "cluster_id": "dfa54212c26493d1",
+      "title": "Metabolic Differences of an Oral and Intravenous Dose of 3-hydroxybutyrate (3-OHB).",
+      "summary": "NCT: NCT03935841 | Status: COMPLETED | Phase: NA | Conditions: Healthy, Incretin Effect, Ketosis | Interventions: 3-OHB salt (NaCl) | Query: GLP-1",
+      "url": "https://clinicaltrials.gov/study/NCT03935841",
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT03935841"
+      ],
+      "topics": [
+        "Peptides / Wellness / Longevity"
+      ],
+      "source": "ClinicalTrials.gov",
+      "category": "Clinical Trial Registry",
+      "content_type": "clinical_trial",
+      "bucket": "peptides",
+      "processing_mode": "standard_summary",
+      "mode": "truth_layer",
+      "stance": "medical_education",
+      "affiliation": "institutional",
+      "risk_level": "regulated",
+      "verification_mode": "truth_layer",
+      "content_warning": "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
+      "source_category": "clinical_trial_registry",
+      "trust_layer": "truth",
+      "trust_level": "very_high",
+      "evidence_level": "human_clinical_registry",
+      "regulatory_sensitivity": "high",
+      "content_use": "evidence_checkpoint",
+      "safe_framing": "Registry signal only; trial listing is not proof of safety, approval, or efficacy.",
+      "medical_claim_policy": "Use only to identify study status, phase, endpoint direction, and evidence gaps.",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "peptides",
+        "wellness",
+        "health",
+        "glp-1"
+      ],
+      "match_score": 40.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "ee0a06723aae9cc4",
+      "cluster_id": "706a2fb3d2f72ada",
+      "title": "INcreTin-based thERapies for Cardiovascular Event PrevenTion in Patients With and Without ASCVD (INTERCEPT-ASCVD)",
+      "summary": "NCT: NCT07417618 | Status: ACTIVE_NOT_RECRUITING | Conditions: Type 2 Diabetes, Overweight, ASCVD | Interventions: Dulaglutide, Semaglutide, Tirzepatide, Sitagliptin | Query: semaglutide peptide",
+      "url": "https://clinicaltrials.gov/study/NCT07417618",
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT07417618"
+      ],
+      "topics": [
+        "Peptides / Wellness / Longevity"
+      ],
+      "source": "ClinicalTrials.gov",
+      "category": "Clinical Trial Registry",
+      "content_type": "clinical_trial",
+      "bucket": "peptides",
+      "processing_mode": "standard_summary",
+      "mode": "truth_layer",
+      "stance": "medical_education",
+      "affiliation": "institutional",
+      "risk_level": "regulated",
+      "verification_mode": "truth_layer",
+      "content_warning": "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
+      "source_category": "clinical_trial_registry",
+      "trust_layer": "truth",
+      "trust_level": "very_high",
+      "evidence_level": "human_clinical_registry",
+      "regulatory_sensitivity": "high",
+      "content_use": "evidence_checkpoint",
+      "safe_framing": "Registry signal only; trial listing is not proof of safety, approval, or efficacy.",
+      "medical_claim_policy": "Use only to identify study status, phase, endpoint direction, and evidence gaps.",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "semaglutide",
+        "tirzepatide",
+        "peptides",
+        "wellness"
+      ],
+      "match_score": 40.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "e724868d4b2693d6",
+      "cluster_id": "1108b6a5d1826df7",
+      "title": "Phase 1/1b Study of TLC-6740 in Healthy Subjects and Subjects With Obesity, With or Without Diabetes",
+      "summary": "NCT: NCT05822544 | Status: RECRUITING | Phase: PHASE1 | Conditions: Healthy Subjects, Obesity, Type 2 Diabetes | Interventions: TLC-6740 Oral Solution, Placebo Oral Solution, TLC-6740 Tablet, Drug Metabolizing Enzyme | Query: tirzepatide",
+      "url": "https://clinicaltrials.gov/study/NCT05822544",
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT05822544"
+      ],
+      "topics": [
+        "Peptides / Wellness / Longevity"
+      ],
+      "source": "ClinicalTrials.gov",
+      "category": "Clinical Trial Registry",
+      "content_type": "clinical_trial",
+      "bucket": "peptides",
+      "processing_mode": "standard_summary",
+      "mode": "truth_layer",
+      "stance": "medical_education",
+      "affiliation": "institutional",
+      "risk_level": "regulated",
+      "verification_mode": "truth_layer",
+      "content_warning": "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
+      "source_category": "clinical_trial_registry",
+      "trust_layer": "truth",
+      "trust_level": "very_high",
+      "evidence_level": "human_clinical_registry",
+      "regulatory_sensitivity": "high",
+      "content_use": "evidence_checkpoint",
+      "safe_framing": "Registry signal only; trial listing is not proof of safety, approval, or efficacy.",
+      "medical_claim_policy": "Use only to identify study status, phase, endpoint direction, and evidence gaps.",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "tirzepatide",
+        "peptides",
+        "wellness",
+        "health"
+      ],
+      "match_score": 40.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "6b93094715e8410c",
+      "cluster_id": "03a2f4d0fec59ece",
+      "title": "A Master Protocol of Multiple Agents in Adults With Metabolic Dysfunction-Associated Steatotic Liver Disease (SYNERGY-Outcomes)",
+      "summary": "NCT: NCT07165028 | Status: RECRUITING | Phase: PHASE3 | Conditions: Metabolic Dysfunction-Associated Steatotic Liver Disease | Interventions: Tirzepatide, Retatrutide, Placebo | Query: retatrutide",
+      "url": "https://clinicaltrials.gov/study/NCT07165028",
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT07165028"
+      ],
+      "topics": [
+        "Peptides / Wellness / Longevity"
+      ],
+      "source": "ClinicalTrials.gov",
+      "category": "Clinical Trial Registry",
+      "content_type": "clinical_trial",
+      "bucket": "peptides",
+      "processing_mode": "standard_summary",
+      "mode": "truth_layer",
+      "stance": "medical_education",
+      "affiliation": "institutional",
+      "risk_level": "regulated",
+      "verification_mode": "truth_layer",
+      "content_warning": "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
+      "source_category": "clinical_trial_registry",
+      "trust_layer": "truth",
+      "trust_level": "very_high",
+      "evidence_level": "human_clinical_registry",
+      "regulatory_sensitivity": "high",
+      "content_use": "evidence_checkpoint",
+      "safe_framing": "Registry signal only; trial listing is not proof of safety, approval, or efficacy.",
+      "medical_claim_policy": "Use only to identify study status, phase, endpoint direction, and evidence gaps.",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "tirzepatide",
+        "retatrutide",
+        "peptides",
+        "wellness"
+      ],
+      "match_score": 40.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "5abee834e78f0940",
+      "cluster_id": "bf8eca920e86faa9",
+      "title": "A Research Study Looking at Similarity Between LY3437943 Versions for Different Injection Devices",
+      "summary": "NCT: NCT06003465 | Status: COMPLETED | Phase: PHASE1 | Conditions: Healthy | Interventions: LY3437943, Test, Reference | Query: retatrutide",
+      "url": "https://clinicaltrials.gov/study/NCT06003465",
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT06003465"
+      ],
+      "topics": [
+        "Peptides / Wellness / Longevity"
+      ],
+      "source": "ClinicalTrials.gov",
+      "category": "Clinical Trial Registry",
+      "content_type": "clinical_trial",
+      "bucket": "peptides",
+      "processing_mode": "standard_summary",
+      "mode": "truth_layer",
+      "stance": "medical_education",
+      "affiliation": "institutional",
+      "risk_level": "regulated",
+      "verification_mode": "truth_layer",
+      "content_warning": "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
+      "source_category": "clinical_trial_registry",
+      "trust_layer": "truth",
+      "trust_level": "very_high",
+      "evidence_level": "human_clinical_registry",
+      "regulatory_sensitivity": "high",
+      "content_use": "evidence_checkpoint",
+      "safe_framing": "Registry signal only; trial listing is not proof of safety, approval, or efficacy.",
+      "medical_claim_policy": "Use only to identify study status, phase, endpoint direction, and evidence gaps.",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "retatrutide",
+        "peptides",
+        "wellness",
+        "health"
+      ],
+      "match_score": 40.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "0548a67daa8aaf6e",
+      "cluster_id": "f16619b4afdbc35d",
+      "title": "A Study to Evaluate the Effect of Retatrutide on Insulin Secretion and Insulin Sensitivity in Adult Participants With Type 2 Diabetes Mellitus",
+      "summary": "NCT: NCT06982859 | Status: RECRUITING | Phase: PHASE1 | Conditions: Diabetes Mellitus, Insulin Sensitivity | Interventions: Retatrutide, Semaglutide, Placebo | Query: retatrutide",
+      "url": "https://clinicaltrials.gov/study/NCT06982859",
+      "source_urls": [
+        "https://clinicaltrials.gov/study/NCT06982859"
+      ],
+      "topics": [
+        "Peptides / Wellness / Longevity"
+      ],
+      "source": "ClinicalTrials.gov",
+      "category": "Clinical Trial Registry",
+      "content_type": "clinical_trial",
+      "bucket": "peptides",
+      "processing_mode": "standard_summary",
+      "mode": "truth_layer",
+      "stance": "medical_education",
+      "affiliation": "institutional",
+      "risk_level": "regulated",
+      "verification_mode": "truth_layer",
+      "content_warning": "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
+      "source_category": "clinical_trial_registry",
+      "trust_layer": "truth",
+      "trust_level": "very_high",
+      "evidence_level": "human_clinical_registry",
+      "regulatory_sensitivity": "high",
+      "content_use": "evidence_checkpoint",
+      "safe_framing": "Registry signal only; trial listing is not proof of safety, approval, or efficacy.",
+      "medical_claim_policy": "Use only to identify study status, phase, endpoint direction, and evidence gaps.",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "semaglutide",
+        "retatrutide",
+        "peptides",
+        "wellness"
+      ],
+      "match_score": 40.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "73647127c1eb19fb",
+      "cluster_id": "e1ab58f5918e3f03",
+      "title": "GLP-1s are breaking life insurance",
+      "summary": "",
+      "url": "https://www.glp1digest.com/p/how-glp-1s-are-breaking-life-insurance",
+      "source_urls": [
+        "https://www.glp1digest.com/p/how-glp-1s-are-breaking-life-insurance"
+      ],
+      "topics": [
+        "Peptides / Wellness / Longevity"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "medical_information",
+      "bucket": "peptides",
+      "processing_mode": "standard_summary",
+      "mode": "trend_monitoring",
+      "stance": "medical_education",
+      "affiliation": "mixed",
+      "risk_level": "needs_review",
+      "verification_mode": "needs_review",
+      "content_warning": "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
+      "source_category": "trend_signal",
+      "trust_layer": "demand_signal",
+      "trust_level": "low_for_evidence",
+      "evidence_level": "anecdotal_or_commentary",
+      "regulatory_sensitivity": "high",
+      "content_use": "hook_and_question_mining",
+      "safe_framing": "Use conservative wellness education framing; verify every peptide claim against truth-layer sources.",
+      "medical_claim_policy": "No medical, dosing, disease, or treatment claims without qualified review and primary-source support.",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "peptides",
+        "wellness",
+        "glp-1"
+      ],
+      "match_score": 30.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "3cb6a194967ee9e4",
+      "cluster_id": "b745044c83930cc7",
+      "title": "GLP-1 drugs: An economic disruptor? (2024)",
+      "summary": "",
+      "url": "https://wildfirelabs.substack.com/p/the-100-trillion-disruption-the-unforeseen",
+      "source_urls": [
+        "https://wildfirelabs.substack.com/p/the-100-trillion-disruption-the-unforeseen"
+      ],
+      "topics": [
+        "Peptides / Wellness / Longevity"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "medical_information",
+      "bucket": "peptides",
+      "processing_mode": "standard_summary",
+      "mode": "trend_monitoring",
+      "stance": "medical_education",
+      "affiliation": "mixed",
+      "risk_level": "needs_review",
+      "verification_mode": "needs_review",
+      "content_warning": "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
+      "source_category": "trend_signal",
+      "trust_layer": "demand_signal",
+      "trust_level": "low_for_evidence",
+      "evidence_level": "anecdotal_or_commentary",
+      "regulatory_sensitivity": "high",
+      "content_use": "hook_and_question_mining",
+      "safe_framing": "Use conservative wellness education framing; verify every peptide claim against truth-layer sources.",
+      "medical_claim_policy": "No medical, dosing, disease, or treatment claims without qualified review and primary-source support.",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "peptides",
+        "wellness",
+        "glp-1"
+      ],
+      "match_score": 30.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "7932a892481322f8",
+      "cluster_id": "410c7f4f1e657a74",
+      "title": "GLP-1 therapeutics: Their emerging role in alcohol and substance use disorders",
+      "summary": "",
+      "url": "https://academic.oup.com/jes/article/9/11/bvaf141/8277723?login=false",
+      "source_urls": [
+        "https://academic.oup.com/jes/article/9/11/bvaf141/8277723?login=false"
+      ],
+      "topics": [
+        "Peptides / Wellness / Longevity"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "medical_information",
+      "bucket": "peptides",
+      "processing_mode": "standard_summary",
+      "mode": "trend_monitoring",
+      "stance": "medical_education",
+      "affiliation": "mixed",
+      "risk_level": "needs_review",
+      "verification_mode": "needs_review",
+      "content_warning": "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
+      "source_category": "trend_signal",
+      "trust_layer": "demand_signal",
+      "trust_level": "low_for_evidence",
+      "evidence_level": "anecdotal_or_commentary",
+      "regulatory_sensitivity": "high",
+      "content_use": "hook_and_question_mining",
+      "safe_framing": "Use conservative wellness education framing; verify every peptide claim against truth-layer sources.",
+      "medical_claim_policy": "No medical, dosing, disease, or treatment claims without qualified review and primary-source support.",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "peptides",
+        "wellness",
+        "glp-1"
+      ],
+      "match_score": 30.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "34fa6743d71238c1",
+      "cluster_id": "d2b44d5c1ed72601",
+      "title": "GLP-1 drugs linked to lower death rates in colon cancer patients",
+      "summary": "",
+      "url": "https://today.ucsd.edu/story/glp-1-drugs-linked-to-dramatically-lower-death-rates-in-colon-cancer-patients",
+      "source_urls": [
+        "https://today.ucsd.edu/story/glp-1-drugs-linked-to-dramatically-lower-death-rates-in-colon-cancer-patients"
+      ],
+      "topics": [
+        "Peptides / Wellness / Longevity"
+      ],
+      "source": "Hacker News",
+      "category": "General News",
+      "content_type": "medical_information",
+      "bucket": "peptides",
+      "processing_mode": "standard_summary",
+      "mode": "trend_monitoring",
+      "stance": "medical_education",
+      "affiliation": "mixed",
+      "risk_level": "needs_review",
+      "verification_mode": "needs_review",
+      "content_warning": "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
+      "source_category": "trend_signal",
+      "trust_layer": "demand_signal",
+      "trust_level": "low_for_evidence",
+      "evidence_level": "anecdotal_or_commentary",
+      "regulatory_sensitivity": "high",
+      "content_use": "hook_and_question_mining",
+      "safe_framing": "Use conservative wellness education framing; verify every peptide claim against truth-layer sources.",
+      "medical_claim_policy": "No medical, dosing, disease, or treatment claims without qualified review and primary-source support.",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "matched_terms": [
+        "peptides",
+        "wellness",
+        "glp-1"
+      ],
+      "match_score": 30.5
+    }
+  ],
+  "source_links": [
+    {
+      "title": "PCO-02 - Safety and Pharmacokinetics Trial",
+      "url": "https://clinicaltrials.gov/study/NCT02637284"
+    },
+    {
+      "title": "Effects of Protein Hydrolysate Supplementation Influencing Strength Recovery and Expression of Muscle Damage Markers Post-exercise",
+      "url": "https://clinicaltrials.gov/study/NCT05159375"
+    },
+    {
+      "title": "Metabolic Differences of an Oral and Intravenous Dose of 3-hydroxybutyrate (3-OHB).",
+      "url": "https://clinicaltrials.gov/study/NCT03935841"
+    },
+    {
+      "title": "INcreTin-based thERapies for Cardiovascular Event PrevenTion in Patients With and Without ASCVD (INTERCEPT-ASCVD)",
+      "url": "https://clinicaltrials.gov/study/NCT07417618"
+    },
+    {
+      "title": "Phase 1/1b Study of TLC-6740 in Healthy Subjects and Subjects With Obesity, With or Without Diabetes",
+      "url": "https://clinicaltrials.gov/study/NCT05822544"
+    },
+    {
+      "title": "A Master Protocol of Multiple Agents in Adults With Metabolic Dysfunction-Associated Steatotic Liver Disease (SYNERGY-Outcomes)",
+      "url": "https://clinicaltrials.gov/study/NCT07165028"
+    },
+    {
+      "title": "A Research Study Looking at Similarity Between LY3437943 Versions for Different Injection Devices",
+      "url": "https://clinicaltrials.gov/study/NCT06003465"
+    },
+    {
+      "title": "A Study to Evaluate the Effect of Retatrutide on Insulin Secretion and Insulin Sensitivity in Adult Participants With Type 2 Diabetes Mellitus",
+      "url": "https://clinicaltrials.gov/study/NCT06982859"
+    },
+    {
+      "title": "GLP-1s are breaking life insurance",
+      "url": "https://www.glp1digest.com/p/how-glp-1s-are-breaking-life-insurance"
+    },
+    {
+      "title": "GLP-1 drugs: An economic disruptor? (2024)",
+      "url": "https://wildfirelabs.substack.com/p/the-100-trillion-disruption-the-unforeseen"
+    },
+    {
+      "title": "GLP-1 therapeutics: Their emerging role in alcohol and substance use disorders",
+      "url": "https://academic.oup.com/jes/article/9/11/bvaf141/8277723?login=false"
+    },
+    {
+      "title": "GLP-1 drugs linked to lower death rates in colon cancer patients",
+      "url": "https://today.ucsd.edu/story/glp-1-drugs-linked-to-dramatically-lower-death-rates-in-colon-cancer-patients"
+    }
+  ]
+}
