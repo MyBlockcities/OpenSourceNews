@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-06-18T11:40:02Z",
-  "new_this_run": 2,
-  "total_influencers": 102,
+  "updated_at": "2026-06-19T11:48:53Z",
+  "new_this_run": 1,
+  "total_influencers": 103,
   "run_summary": {
-    "run_started_at": "2026-06-18T11:39:57Z",
-    "candidate_count": 31,
-    "existing_count": 100,
-    "selected_new_count": 2,
+    "run_started_at": "2026-06-19T11:48:49Z",
+    "candidate_count": 26,
+    "existing_count": 102,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:1762b2d6abd8c36bcf3f",
+      "external_id": "1762b2d6abd8c36bcf3f",
+      "name": "Markus Thielen",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/06/17/crypto-for-advisors-trading-the-bitcoin-cycle",
+      "discovered_on": "2026-06-19",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto for Advisors: Trading the bitcoin cycle"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:f013e2b6c9bd1e4cc35e",
       "external_id": "f013e2b6c9bd1e4cc35e",
