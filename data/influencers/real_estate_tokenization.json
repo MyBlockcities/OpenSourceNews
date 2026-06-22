@@ -2,19 +2,75 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-06-21T11:25:27Z",
-  "new_this_run": 1,
-  "total_influencers": 104,
+  "updated_at": "2026-06-22T12:26:12Z",
+  "new_this_run": 2,
+  "total_influencers": 106,
   "run_summary": {
-    "run_started_at": "2026-06-21T11:25:23Z",
-    "candidate_count": 28,
-    "existing_count": 103,
-    "selected_new_count": 1,
+    "run_started_at": "2026-06-22T12:26:08Z",
+    "candidate_count": 27,
+    "existing_count": 104,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:f306f29ff22ce926d71e",
+      "external_id": "f306f29ff22ce926d71e",
+      "name": "Yohan Yun",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "discovered_on": "2026-06-22",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Bank of England eases stablecoin rules, introduces 40B pound issuance cap"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:589ac9df26d729202062",
+      "external_id": "589ac9df26d729202062",
+      "name": "Tunbosun Oyinloye",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://dailycoin.com/nft-portfolio-best-12-analytics-tools-to-track-nfts-projects/",
+      "discovered_on": "2026-06-22",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "dailycoin.com",
+        "feed_urls": [
+          "https://dailycoin.com/feed/"
+        ],
+        "sample_titles": [
+          "NFT Portfolio: Best 12 Analytics Tools to Track NFTs Projects"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:3bb45b25eb511f0d92e6",
       "external_id": "3bb45b25eb511f0d92e6",
