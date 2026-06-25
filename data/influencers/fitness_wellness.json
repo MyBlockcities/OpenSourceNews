@@ -2,19 +2,189 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-06-24T11:21:10Z",
-  "new_this_run": 8,
-  "total_influencers": 400,
+  "updated_at": "2026-06-25T11:17:15Z",
+  "new_this_run": 6,
+  "total_influencers": 406,
   "run_summary": {
-    "run_started_at": "2026-06-24T11:21:01Z",
-    "candidate_count": 30,
-    "existing_count": 392,
-    "selected_new_count": 8,
+    "run_started_at": "2026-06-25T11:17:06Z",
+    "candidate_count": 28,
+    "existing_count": 400,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:09688a5276af4a8025ea",
+      "external_id": "09688a5276af4a8025ea",
+      "name": "L Rudolf L",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/TgxkX5uwpqpQDDmMz/alignment-and-succession-the-ideology-of-successionism",
+      "discovered_on": "2026-06-25",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/RichardSSutton"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Alignment & Succession: The Ideology of Successionism"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e5ba7cb490b8a7d38671",
+      "external_id": "e5ba7cb490b8a7d38671",
+      "name": "agastyasridharan",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/zfgQCdnMBa3hBdzpL/introspection-or-entropy-re-examining-concept-injection-1",
+      "discovered_on": "2026-06-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Introspection or entropy? Re-examining concept-injection “introspection” in open models"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8133848865aa2cb38e39",
+      "external_id": "8133848865aa2cb38e39",
+      "name": "Niklas Lehmann",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/sqecCva5tZs8jNv7P/optimal-exercise-calculator",
+      "discovered_on": "2026-06-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Optimal Exercise Calculator"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d0acc11053496298acd2",
+      "external_id": "d0acc11053496298acd2",
+      "name": "Morpheus",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/NFLKoWSAfhymjR2Yb/how-to-kill-moloch",
+      "discovered_on": "2026-06-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How To Kill Moloch"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:fe2945ccb80e830c7abb",
+      "external_id": "fe2945ccb80e830c7abb",
+      "name": "Matthew Baxter",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/iutEWE5bih5z32ioj/superintelligence-challenges-and-existential-risks-1",
+      "discovered_on": "2026-06-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Superintelligence Challenges & Existential Risks"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b64750b333cefa79d74f",
+      "external_id": "b64750b333cefa79d74f",
+      "name": "James F. Jeffrey",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/iran/iran-didnt-win-war",
+      "discovered_on": "2026-06-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Iran Didn’t Win the War"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:6fe4367b2afe8f2988f3",
       "external_id": "6fe4367b2afe8f2988f3",

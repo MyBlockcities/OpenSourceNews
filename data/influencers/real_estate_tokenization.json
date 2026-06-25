@@ -2,19 +2,75 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-06-24T11:21:05Z",
+  "updated_at": "2026-06-25T11:17:10Z",
   "new_this_run": 2,
-  "total_influencers": 108,
+  "total_influencers": 110,
   "run_summary": {
-    "run_started_at": "2026-06-24T11:21:01Z",
-    "candidate_count": 34,
-    "existing_count": 106,
+    "run_started_at": "2026-06-25T11:17:06Z",
+    "candidate_count": 31,
+    "existing_count": 108,
     "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:d2569726a96454e5c518",
+      "external_id": "d2569726a96454e5c518",
+      "name": "Kyrian Alex",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://cointelegraph.com/research/the-impossibility-of-perfect-fairness-in-transaction-ordering?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+      "discovered_on": "2026-06-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "The Impossibility of Perfect Fairness in Transaction Ordering"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:0acc39d983870565f18f",
+      "external_id": "0acc39d983870565f18f",
+      "name": "Caue Teixeira",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/06/24/crypto-long-and-short-infrastructure-is-the-prevailing-currency-in-digital-assets",
+      "discovered_on": "2026-06-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto Long & Short: Infrastructure is the prevailing currency in digital assets"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:f18b4a1d5edff22e145d",
       "external_id": "f18b4a1d5edff22e145d",
