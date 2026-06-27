@@ -2,19 +2,187 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-06-26T11:20:31Z",
-  "new_this_run": 8,
-  "total_influencers": 414,
+  "updated_at": "2026-06-27T11:01:59Z",
+  "new_this_run": 6,
+  "total_influencers": 420,
   "run_summary": {
-    "run_started_at": "2026-06-26T11:20:16Z",
+    "run_started_at": "2026-06-27T11:01:49Z",
     "candidate_count": 31,
-    "existing_count": 406,
-    "selected_new_count": 8,
+    "existing_count": 414,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:15e61b329c2ae30bdaa2",
+      "external_id": "15e61b329c2ae30bdaa2",
+      "name": "sophia_xu",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/NwrbrHmkDuKPXgLFb/screencasts-could-be-scalable-data-evals-for-single-user",
+      "discovered_on": "2026-06-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Screencasts could be scalable data + evals for single-user emulation (Guardian Angels)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2e8ef5d41d408c37e7bc",
+      "external_id": "2e8ef5d41d408c37e7bc",
+      "name": "aditya singh",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/LCGcD28rSMkMTMvBK/the-case-for-model-forensics",
+      "discovered_on": "2026-06-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Case for Model Forensics"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:846af22e66735e46db4f",
+      "external_id": "846af22e66735e46db4f",
+      "name": "VojtaKovarik",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/XP794SHDuXYfWLrvJ/deployment-awareness-matters-more-than-evaluation-awareness",
+      "discovered_on": "2026-06-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Deployment Awareness Matters More Than Evaluation Awareness"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ad6acb33750f3b39012d",
+      "external_id": "ad6acb33750f3b39012d",
+      "name": "Ram Potham",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/BsNF64ELiwJeoCJSD/should-we-combine-protocols-for-ai-control-research",
+      "discovered_on": "2026-06-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Should we combine protocols for AI Control Research?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:44775f29a579d476324b",
+      "external_id": "44775f29a579d476324b",
+      "name": "Kaj_Sotala",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/TDbqK8tFDJKoQCdSa/not-making-a-strong-argument-is-a-relief",
+      "discovered_on": "2026-06-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Not making a strong argument is a relief"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:438adf1e12936a29d498",
+      "external_id": "438adf1e12936a29d498",
+      "name": "Hans Gundlach",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/jXLi3dhSpSMd7B6z8/just-a-wrapper-how-much-do-scaffolds-matter-1",
+      "discovered_on": "2026-06-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Just a Wrapper? How Much Do Scaffolds Matter?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:181e90bb03883c2bb37d",
       "external_id": "181e90bb03883c2bb37d",
