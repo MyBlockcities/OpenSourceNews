@@ -1,0 +1,51 @@
+{
+  "date": "2026-06-29",
+  "script": "============================================================\nDAILY AI & TECH NEWS BRIEF\nGenerated: 2026-06-29 09:32 UTC\nDuration: ~50 seconds\n============================================================\n\n[HOOK - 0:00-0:05]\nThree signals are moving through the tech stack today, led by US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?.\n\n[STORY 1 - 0:05-0:18]\nFirst up: US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?. The key takeaway is General News.\n\nB-ROLL:\n  - Source headline screenshot\n  - Product or repo page\n  - Simple trend graphic\n\n[STORY 2 - 0:18-0:31]\nSecond: Replacing Systemd with OpenRC in Debian. This matters because it points to General News.\n\nB-ROLL:\n  - Article screenshot\n  - Workflow diagram\n  - Relevant platform UI\n\n[STORY 3 - 0:31-0:44]\nThird: Lore – Give your coding agent the decisions your team made. Keep an eye on this as a practical signal around General News.\n\nB-ROLL:\n  - Source page\n  - Comparison graphic\n  - Action checklist\n\n[CALL TO ACTION - 0:44-0:50]\nFollow for daily open-source, AI, and tech intelligence pulled from public sources.\n\n============================================================\nEND OF SCRIPT\n============================================================",
+  "timecoded_segments": {
+    "hook": "Three signals are moving through the tech stack today, led by US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?.",
+    "story_1": {
+      "script": "First up: US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?. The key takeaway is General News.",
+      "b_roll": [
+        "Source headline screenshot",
+        "Product or repo page",
+        "Simple trend graphic"
+      ]
+    },
+    "story_2": {
+      "script": "Second: Replacing Systemd with OpenRC in Debian. This matters because it points to General News.",
+      "b_roll": [
+        "Article screenshot",
+        "Workflow diagram",
+        "Relevant platform UI"
+      ]
+    },
+    "story_3": {
+      "script": "Third: Lore – Give your coding agent the decisions your team made. Keep an eye on this as a practical signal around General News.",
+      "b_roll": [
+        "Source page",
+        "Comparison graphic",
+        "Action checklist"
+      ]
+    },
+    "cta": "Follow for daily open-source, AI, and tech intelligence pulled from public sources."
+  },
+  "sources": [
+    {
+      "title": "US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?",
+      "url": "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw",
+      "quality_score": 0
+    },
+    {
+      "title": "Replacing Systemd with OpenRC in Debian",
+      "url": "https://danielcordova.me/blog/debian-openrc/",
+      "quality_score": 0
+    },
+    {
+      "title": "Lore – Give your coding agent the decisions your team made",
+      "url": "https://github.com/itsthelore/rac-core",
+      "quality_score": 0
+    }
+  ],
+  "generated_at": "2026-06-29T09:32:38.426282",
+  "total_duration_seconds": 50
+}
