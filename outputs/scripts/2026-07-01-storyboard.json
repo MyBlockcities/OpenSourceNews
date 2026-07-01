@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-01",
+  "script": "============================================================\nDAILY AI & TECH NEWS BRIEF\nGenerated: 2026-07-01 09:05 UTC\nDuration: ~50 seconds\n============================================================\n\n[HOOK - 0:00-0:05]\nThree signals are moving through the tech stack today, led by Godot will no longer accept AI-authored code contributions.\n\n[STORY 1 - 0:05-0:18]\nFirst up: Godot will no longer accept AI-authored code contributions. The key takeaway is General News.\n\nB-ROLL:\n  - Source headline screenshot\n  - Product or repo page\n  - Simple trend graphic\n\n[STORY 2 - 0:18-0:31]\nSecond: Meta is adding rate limits and soft paywall to smart glasses. This matters because it points to General News.\n\nB-ROLL:\n  - Article screenshot\n  - Workflow diagram\n  - Relevant platform UI\n\n[STORY 3 - 0:31-0:44]\nThird: Matrix Orthogonalization Improves Memory in Recurrent Models. Keep an eye on this as a practical signal around General News.\n\nB-ROLL:\n  - Source page\n  - Comparison graphic\n  - Action checklist\n\n[CALL TO ACTION - 0:44-0:50]\nFollow for daily open-source, AI, and tech intelligence pulled from public sources.\n\n============================================================\nEND OF SCRIPT\n============================================================",
+  "timecoded_segments": {
+    "hook": "Three signals are moving through the tech stack today, led by Godot will no longer accept AI-authored code contributions.",
+    "story_1": {
+      "script": "First up: Godot will no longer accept AI-authored code contributions. The key takeaway is General News.",
+      "b_roll": [
+        "Source headline screenshot",
+        "Product or repo page",
+        "Simple trend graphic"
+      ]
+    },
+    "story_2": {
+      "script": "Second: Meta is adding rate limits and soft paywall to smart glasses. This matters because it points to General News.",
+      "b_roll": [
+        "Article screenshot",
+        "Workflow diagram",
+        "Relevant platform UI"
+      ]
+    },
+    "story_3": {
+      "script": "Third: Matrix Orthogonalization Improves Memory in Recurrent Models. Keep an eye on this as a practical signal around General News.",
+      "b_roll": [
+        "Source page",
+        "Comparison graphic",
+        "Action checklist"
+      ]
+    },
+    "cta": "Follow for daily open-source, AI, and tech intelligence pulled from public sources."
+  },
+  "sources": [
+    {
+      "title": "Godot will no longer accept AI-authored code contributions",
+      "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
+      "quality_score": 0
+    },
+    {
+      "title": "Meta is adding rate limits and soft paywall to smart glasses",
+      "url": "https://www.theverge.com/gadgets/959899/meta-ai-glasses-paywall-rate-limit",
+      "quality_score": 0
+    },
+    {
+      "title": "Matrix Orthogonalization Improves Memory in Recurrent Models",
+      "url": "https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models/",
+      "quality_score": 0
+    }
+  ],
+  "generated_at": "2026-07-01T09:05:11.065489",
+  "total_duration_seconds": 50
+}
