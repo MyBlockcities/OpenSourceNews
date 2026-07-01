@@ -2,19 +2,217 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-06-30T11:23:16Z",
-  "new_this_run": 9,
-  "total_influencers": 440,
+  "updated_at": "2026-07-01T11:31:41Z",
+  "new_this_run": 7,
+  "total_influencers": 447,
   "run_summary": {
-    "run_started_at": "2026-06-30T11:23:06Z",
+    "run_started_at": "2026-07-01T11:31:33Z",
     "candidate_count": 31,
-    "existing_count": 431,
-    "selected_new_count": 9,
+    "existing_count": 440,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:1bb8abcc0eaaf5206ad6",
+      "external_id": "1bb8abcc0eaaf5206ad6",
+      "name": "Luca Baroni",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/uwqtfxvhYRcyLazeP/most-current-model-organisms-leaks-perplexity-differencing",
+      "discovered_on": "2026-07-01",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/m_shahoyi"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Most Current Model\nOrganisms Leaks: \nPerplexity Differencing Often Reveals Finetuning Objectives"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2251cb62b4c095991479",
+      "external_id": "2251cb62b4c095991479",
+      "name": "nimakeivan",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/wgzd7y6icyMmNvFKi/why-aren-t-there-more-alphafolds",
+      "discovered_on": "2026-07-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Why aren't there more AlphaFolds?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:5b9153fec9feedab4d5c",
+      "external_id": "5b9153fec9feedab4d5c",
+      "name": "magfrump",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/3mrBLJFLgqaE6vajD/the-problem-with-chat",
+      "discovered_on": "2026-07-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Problem with Chat"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4b001d6efb820ea99b59",
+      "external_id": "4b001d6efb820ea99b59",
+      "name": "Thomas Wright",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/worse-axis",
+      "discovered_on": "2026-07-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Worse Than an Axis"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:3112d89764f510999b2d",
+      "external_id": "3112d89764f510999b2d",
+      "name": "Matthew McDonnell",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Wx2qkD6GgfzfGkjEA/a-black-box-made-less-opaque-part-4",
+      "discovered_on": "2026-07-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Black Box Made Less Opaque (part 4)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:97861077ca57f69aad17",
+      "external_id": "97861077ca57f69aad17",
+      "name": "Kate Delbeke",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/itDxBkHaQneYwczLp/please-make-me-care-about-x-risk",
+      "discovered_on": "2026-07-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Please make me care about x-risk"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:98e845330a411dac2031",
+      "external_id": "98e845330a411dac2031",
+      "name": "Ami94",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/4sxrAodhAWveh2gaL/apply-to-the-inaugural-pibbss-winter-research-fellowship",
+      "discovered_on": "2026-07-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Apply to the Inaugural PIBBSS Winter Research Fellowship!"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:a6ff5d12a3a42d96e8a5",
       "external_id": "a6ff5d12a3a42d96e8a5",

@@ -2,19 +2,75 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-06-29T12:02:54Z",
-  "new_this_run": 1,
-  "total_influencers": 114,
+  "updated_at": "2026-07-01T11:31:36Z",
+  "new_this_run": 2,
+  "total_influencers": 116,
   "run_summary": {
-    "run_started_at": "2026-06-29T12:02:50Z",
-    "candidate_count": 30,
-    "existing_count": 113,
-    "selected_new_count": 1,
+    "run_started_at": "2026-07-01T11:31:33Z",
+    "candidate_count": 27,
+    "existing_count": 114,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:ea3866a5aa2aa57a71ac",
+      "external_id": "ea3866a5aa2aa57a71ac",
+      "name": "Patrick McHenry",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/06/29/tokenized-securities-need-competition-not-gatekeepers",
+      "discovered_on": "2026-07-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Tokenized securities need competition, not gatekeepers"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:0719c10bf3dac92af0d4",
+      "external_id": "0719c10bf3dac92af0d4",
+      "name": "Cointelegraph by Artem G",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://cointelegraph.com/features/bitcoin-miners-ai-data-centers-power-infrastructure?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-07-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "AI’s power crunch turns Bitcoin miners’ grid access into an asset"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:a7b5e4a1a46906b5afe8",
       "external_id": "a7b5e4a1a46906b5afe8",
