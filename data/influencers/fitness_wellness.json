@@ -2,19 +2,245 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-07-01T11:31:41Z",
-  "new_this_run": 7,
-  "total_influencers": 447,
+  "updated_at": "2026-07-02T11:14:16Z",
+  "new_this_run": 8,
+  "total_influencers": 455,
   "run_summary": {
-    "run_started_at": "2026-07-01T11:31:33Z",
+    "run_started_at": "2026-07-02T11:14:07Z",
     "candidate_count": 31,
-    "existing_count": 440,
-    "selected_new_count": 7,
+    "existing_count": 447,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:43a31927b871cfba5654",
+      "external_id": "43a31927b871cfba5654",
+      "name": "Alexander Turok",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/qz38ttr46JjvB8EWT/j-d-vance-s-communion-of-saints",
+      "discovered_on": "2026-07-02",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/JDVance"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "J.D. Vance's Communion of Saints"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4fa594066b1cf2cd7488",
+      "external_id": "4fa594066b1cf2cd7488",
+      "name": "Valerie Pang",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/EGQR7JivvBuBuwhXa/the-singapore-ai-safety-fellowship-applications-open",
+      "discovered_on": "2026-07-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Singapore AI Safety Fellowship - Applications Open (Deadline: July 10 2026)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:3f9a98b5843c12011cc7",
+      "external_id": "3f9a98b5843c12011cc7",
+      "name": "OscarGilg",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ht8uMbAByDCKWHa9H/ai-welfare-research-needs-basic-science",
+      "discovered_on": "2026-07-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "AI welfare research needs basic science"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8937dd573d96bebfceeb",
+      "external_id": "8937dd573d96bebfceeb",
+      "name": "Novalis",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/yHzugFr4kkSLbmLjS/how-many-people-have-ever-lived-in-the-united-states",
+      "discovered_on": "2026-07-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How Many People Have Ever Lived in the United States?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2579f43cdd1e2a250be6",
+      "external_id": "2579f43cdd1e2a250be6",
+      "name": "Joshua Z. Walker, Reagan Miviri, Jason K. Stearns",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/democratic-republic-congo/why-trumps-congo-deal-falling-apart",
+      "discovered_on": "2026-07-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Why Trump’s Congo Deal Is Falling Apart"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d9972429ae2c51b221ee",
+      "external_id": "d9972429ae2c51b221ee",
+      "name": "Jaser AbuMousa",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/palestinian-territories/end-hamas",
+      "discovered_on": "2026-07-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The End of Hamas"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:92bc6b6bf862870cae18",
+      "external_id": "92bc6b6bf862870cae18",
+      "name": "AugustMurr",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/sMNNWxF3ZEti3XXx3/ai-safety-is-testing-the-wrong-environment",
+      "discovered_on": "2026-07-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "AI Safety Is Testing the Wrong Environment"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e240f8315fd684c35f09",
+      "external_id": "e240f8315fd684c35f09",
+      "name": "Amos Yadlin, Avner Golov",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/israel/how-save-us-israeli-alliance",
+      "discovered_on": "2026-07-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "How to Save the U.S.-Israeli Alliance"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:1bb8abcc0eaaf5206ad6",
       "external_id": "1bb8abcc0eaaf5206ad6",
