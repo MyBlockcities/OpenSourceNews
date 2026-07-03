@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-03",
+  "script": "============================================================\nDAILY AI & TECH NEWS BRIEF\nGenerated: 2026-07-03 10:26 UTC\nDuration: ~50 seconds\n============================================================\n\n[HOOK - 0:00-0:05]\nThree signals are moving through the tech stack today, led by Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says.\n\n[STORY 1 - 0:05-0:18]\nFirst up: Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says. The key takeaway is General News.\n\nB-ROLL:\n  - Source headline screenshot\n  - Product or repo page\n  - Simple trend graphic\n\n[STORY 2 - 0:18-0:31]\nSecond: Half-Baked Product. This matters because it points to General News.\n\nB-ROLL:\n  - Article screenshot\n  - Workflow diagram\n  - Relevant platform UI\n\n[STORY 3 - 0:31-0:44]\nThird: 14× faster embeddings: how we rebuilt the ONNX path in Manticore. Keep an eye on this as a practical signal around General News.\n\nB-ROLL:\n  - Source page\n  - Comparison graphic\n  - Action checklist\n\n[CALL TO ACTION - 0:44-0:50]\nFollow for daily open-source, AI, and tech intelligence pulled from public sources.\n\n============================================================\nEND OF SCRIPT\n============================================================",
+  "timecoded_segments": {
+    "hook": "Three signals are moving through the tech stack today, led by Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says.",
+    "story_1": {
+      "script": "First up: Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says. The key takeaway is General News.",
+      "b_roll": [
+        "Source headline screenshot",
+        "Product or repo page",
+        "Simple trend graphic"
+      ]
+    },
+    "story_2": {
+      "script": "Second: Half-Baked Product. This matters because it points to General News.",
+      "b_roll": [
+        "Article screenshot",
+        "Workflow diagram",
+        "Relevant platform UI"
+      ]
+    },
+    "story_3": {
+      "script": "Third: 14× faster embeddings: how we rebuilt the ONNX path in Manticore. Keep an eye on this as a practical signal around General News.",
+      "b_roll": [
+        "Source page",
+        "Comparison graphic",
+        "Action checklist"
+      ]
+    },
+    "cta": "Follow for daily open-source, AI, and tech intelligence pulled from public sources."
+  },
+  "sources": [
+    {
+      "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says",
+      "url": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/",
+      "quality_score": 0
+    },
+    {
+      "title": "Half-Baked Product",
+      "url": "https://weli.dev/blog/half-baked-product/",
+      "quality_score": 0
+    },
+    {
+      "title": "14× faster embeddings: how we rebuilt the ONNX path in Manticore",
+      "url": "https://manticoresearch.com/blog/onnx-embeddings-speedup/",
+      "quality_score": 0
+    }
+  ],
+  "generated_at": "2026-07-03T10:26:46.017134",
+  "total_duration_seconds": 50
+}
