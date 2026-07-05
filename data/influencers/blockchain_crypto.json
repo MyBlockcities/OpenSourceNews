@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-07-02T11:14:15Z",
+  "updated_at": "2026-07-05T11:49:56Z",
   "new_this_run": 1,
-  "total_influencers": 117,
+  "total_influencers": 118,
   "run_summary": {
-    "run_started_at": "2026-07-02T11:14:07Z",
-    "candidate_count": 29,
-    "existing_count": 116,
+    "run_started_at": "2026-07-05T11:49:48Z",
+    "candidate_count": 26,
+    "existing_count": 117,
     "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:1168188b8ed1e92cfa7d",
+      "external_id": "1168188b8ed1e92cfa7d",
+      "name": "Richard Teng",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.coindesk.com/opinion/2026/07/04/europe-led-on-crypto-regulation-now-implementation-must-match-ambition",
+      "discovered_on": "2026-07-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Europe led on crypto regulation. Now implementation must match ambition"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:43bc52b2caa5b3f2ec4c",
       "external_id": "43bc52b2caa5b3f2ec4c",
