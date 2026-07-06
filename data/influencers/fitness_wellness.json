@@ -2,19 +2,215 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-07-05T11:49:58Z",
-  "new_this_run": 5,
-  "total_influencers": 475,
+  "updated_at": "2026-07-06T14:03:50Z",
+  "new_this_run": 7,
+  "total_influencers": 482,
   "run_summary": {
-    "run_started_at": "2026-07-05T11:49:48Z",
-    "candidate_count": 31,
-    "existing_count": 470,
-    "selected_new_count": 5,
+    "run_started_at": "2026-07-06T14:03:40Z",
+    "candidate_count": 30,
+    "existing_count": 475,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:604fd2a61414bf49d8bf",
+      "external_id": "604fd2a61414bf49d8bf",
+      "name": "chaosmage",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/kTzWvxKh4FNSksb8r/fealty-to-fidelity",
+      "discovered_on": "2026-07-06",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Fealty to Fidelity 👰"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:33e861f16ecc437de145",
+      "external_id": "33e861f16ecc437de145",
+      "name": "Wolfgang Ischinger",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/transatlantic-alliance-cant-survive-without-trust",
+      "discovered_on": "2026-07-06",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Transatlantic Alliance Can’t Survive Without Trust"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:6e28022802d3e2420311",
+      "external_id": "6e28022802d3e2420311",
+      "name": "Sarah Kreps",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/better-way-build-ai",
+      "discovered_on": "2026-07-06",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "A Better Way to Build AI"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:84cbb8e0facc36598620",
+      "external_id": "84cbb8e0facc36598620",
+      "name": "Rikhil Jhaveri",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/yku6byxdeKREibe5L/desiderata-for-functional-welfare-experiments-on-llms",
+      "discovered_on": "2026-07-06",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Desiderata for functional welfare experiments on LLMs"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a170e6517b9167bcc2af",
+      "external_id": "a170e6517b9167bcc2af",
+      "name": "James Brobin",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/om7GhA9nZGjYAEdvv/reflections-on-the-scout-mindset",
+      "discovered_on": "2026-07-06",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Reflections on The Scout Mindset"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:27876d2d87e37b10ffd3",
+      "external_id": "27876d2d87e37b10ffd3",
+      "name": "ChrisHibbert",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/y3ao4KSkZztemmd79/computation-enables-action-exploding-the-simulation-fallacy",
+      "discovered_on": "2026-07-06",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Computation enables Action: Exploding the Simulation Fallacy"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e8eb7ce278951bde8f63",
+      "external_id": "e8eb7ce278951bde8f63",
+      "name": "Abhimanyu Pallavi Sudhir",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Pygw9CY8B7Y3LM6GT/counterfactual-mugging-is-a-limiting-case-of-psy-kosh-s-non",
+      "discovered_on": "2026-07-06",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Counterfactual mugging is a limiting case of Psy-kosh's non-anthropic problem"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:0519890c4c1ed55f8114",
       "external_id": "0519890c4c1ed55f8114",
