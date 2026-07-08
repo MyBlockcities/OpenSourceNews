@@ -2,19 +2,299 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-07-07T12:40:04Z",
-  "new_this_run": 12,
-  "total_influencers": 494,
+  "updated_at": "2026-07-08T11:59:16Z",
+  "new_this_run": 10,
+  "total_influencers": 504,
   "run_summary": {
-    "run_started_at": "2026-07-07T12:39:54Z",
+    "run_started_at": "2026-07-08T11:59:09Z",
     "candidate_count": 31,
-    "existing_count": 482,
-    "selected_new_count": 12,
+    "existing_count": 494,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:32a2a523ca6b5829dc9c",
+      "external_id": "32a2a523ca6b5829dc9c",
+      "name": "ihatenumbersinusernames7",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/WL7eWBuYqqaxf7MhZ/did-openclaw-cause-an-update-to-your-priors-have-there-been",
+      "discovered_on": "2026-07-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Did OpenClaw cause an update to your priors? Have there been other such moments since?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2a4842230f31f5bbb5a3",
+      "external_id": "2a4842230f31f5bbb5a3",
+      "name": "dominicq",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/d56vd7yhFGxBQnoEk/the-mosquito-bucket-of-doom-works",
+      "discovered_on": "2026-07-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The mosquito bucket of doom works"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:eeb5656455248e238563",
+      "external_id": "eeb5656455248e238563",
+      "name": "bhalstead",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/7jcPg79p3kD5ir3CL/how-much-slower-does-takeoff-go-with-10-less-compute",
+      "discovered_on": "2026-07-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How much slower does takeoff go with 10× less compute?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:17fc105b68152ee25ba6",
+      "external_id": "17fc105b68152ee25ba6",
+      "name": "Sophia Gore",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/cLQrijiGDa9X9wHqt/how-did-we-get-to-democracy",
+      "discovered_on": "2026-07-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How did we get to democracy?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:317e664abce3d19c6254",
+      "external_id": "317e664abce3d19c6254",
+      "name": "Sohybe Ibrahim",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Ro7kkSHg5SE7yYW2c/balancing-rigor-and-utility-a-review-of-a-pragmatic-vision-2",
+      "discovered_on": "2026-07-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Balancing Rigor and Utility: A Review of \"A Pragmatic Vision for Interpretability\""
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:cf6d98cee21307334290",
+      "external_id": "cf6d98cee21307334290",
+      "name": "Roland Pihlakas",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/fTnnq82CB5vxqrNp9/open-source-llms-administer-maximum-electric-shocks-in-a-1",
+      "discovered_on": "2026-07-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Open-source LLMs administer maximum electric shocks in a Milgram-like obedience experiment"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e3ac9cf3b164d335d9c4",
+      "external_id": "e3ac9cf3b164d335d9c4",
+      "name": "Edmund J. Malesky, Viktoria Zlomanova",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/southeast-asia/can-private-sector-save-vietnam",
+      "discovered_on": "2026-07-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Can the Private Sector Save Vietnam?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a8cd19bcc9ee29748ceb",
+      "external_id": "a8cd19bcc9ee29748ceb",
+      "name": "David Petraeus, Clara Kaluderovic",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/ukraine-lesson-taiwan-keeps-missing",
+      "discovered_on": "2026-07-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Ukraine Lesson Taiwan Keeps Missing"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d239883261df91b77041",
+      "external_id": "d239883261df91b77041",
+      "name": "Ayesha Imran",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/JpoF5zBKmcs2uHQAS/the-polysemanticity-of-polysemanticity-in-language-models",
+      "discovered_on": "2026-07-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "the polysemanticity of polysemanticity in language models"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:bdaeb782f0d557101c40",
+      "external_id": "bdaeb782f0d557101c40",
+      "name": "Alvin Ånestrand",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/dwpAXgCW6s5aAuiMz/human-empowerment-in-an-ai-society",
+      "discovered_on": "2026-07-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Human Empowerment in an AI Society"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:a2820b027972b62d5e88",
       "external_id": "a2820b027972b62d5e88",
