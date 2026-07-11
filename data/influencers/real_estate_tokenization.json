@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-07-05T11:49:52Z",
+  "updated_at": "2026-07-11T11:27:24Z",
   "new_this_run": 1,
-  "total_influencers": 118,
+  "total_influencers": 119,
   "run_summary": {
-    "run_started_at": "2026-07-05T11:49:48Z",
-    "candidate_count": 26,
-    "existing_count": 117,
+    "run_started_at": "2026-07-11T11:27:20Z",
+    "candidate_count": 29,
+    "existing_count": 118,
     "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:d859b44e721ae54ed509",
+      "external_id": "d859b44e721ae54ed509",
+      "name": "Sam Ewen",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-news/2026/07/10/meta-s-chief-data-officer-says-agentic-commerce-is-the-next-tier-of-business",
+      "discovered_on": "2026-07-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Meta's Chief Data Officer Says Agentic Commerce is the \"Next Tier of Business\""
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:836d9ac7c9c7072fc76d",
       "external_id": "836d9ac7c9c7072fc76d",
