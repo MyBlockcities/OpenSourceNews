@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-07-12T11:34:41Z",
+  "updated_at": "2026-07-15T11:53:09Z",
   "new_this_run": 1,
-  "total_influencers": 120,
+  "total_influencers": 121,
   "run_summary": {
-    "run_started_at": "2026-07-12T11:34:33Z",
-    "candidate_count": 31,
-    "existing_count": 119,
+    "run_started_at": "2026-07-15T11:53:02Z",
+    "candidate_count": 30,
+    "existing_count": 120,
     "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:de0bae42fe0af3821a55",
+      "external_id": "de0bae42fe0af3821a55",
+      "name": "Ari Redbord",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.coindesk.com/opinion/2026/07/14/the-clarity-act-isn-t-a-ticket-to-sanctions-evasion-actually",
+      "discovered_on": "2026-07-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "The Clarity Act isn't a ticket to sanctions evasion, actually"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:1a6a3dda95809a7a51d8",
       "external_id": "1a6a3dda95809a7a51d8",

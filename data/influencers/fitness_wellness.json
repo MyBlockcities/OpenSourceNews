@@ -2,19 +2,187 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-07-14T11:48:49Z",
-  "new_this_run": 10,
-  "total_influencers": 545,
+  "updated_at": "2026-07-15T11:53:10Z",
+  "new_this_run": 6,
+  "total_influencers": 551,
   "run_summary": {
-    "run_started_at": "2026-07-14T11:48:41Z",
-    "candidate_count": 31,
-    "existing_count": 535,
-    "selected_new_count": 10,
+    "run_started_at": "2026-07-15T11:53:02Z",
+    "candidate_count": 30,
+    "existing_count": 545,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:77b7bcd8742b66ad79da",
+      "external_id": "77b7bcd8742b66ad79da",
+      "name": "dan.parshall",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/su9hcsLKcoLoL93px/proof-of-retention-making-weight-preservation-credible-to",
+      "discovered_on": "2026-07-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Proof of retention: making weight preservation credible to the models themselves"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:5ae047967c4a4e192f59",
+      "external_id": "5ae047967c4a4e192f59",
+      "name": "clening",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Y2aArqdLrpJQ2GaEw/how-brussels-can-avoid-becoming-a-digital-vassal-to-us-big",
+      "discovered_on": "2026-07-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How Brussels can avoid becoming a digital vassal to US Big Tech"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:de78708c863ffe885036",
+      "external_id": "de78708c863ffe885036",
+      "name": "Richard Wike",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/world-giving-america",
+      "discovered_on": "2026-07-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The World Is Giving Up on America"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c9a39318fc49fdbe583f",
+      "external_id": "c9a39318fc49fdbe583f",
+      "name": "Enrico Fardella, Sergey Radchenko",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/china-sabotaging-world-enables-its-rise",
+      "discovered_on": "2026-07-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "China Is Sabotaging the World That Enables Its Rise"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9b9b52993fd914e8d8ed",
+      "external_id": "9b9b52993fd914e8d8ed",
+      "name": "Elliott Thornley",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/FwAtrgjfXohstdqgy/can-risk-aversion-learned-at-low-stakes-generalize-to",
+      "discovered_on": "2026-07-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Can risk aversion learned at low stakes generalize to astronomically high stakes?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9c170c56ba3316556938",
+      "external_id": "9c170c56ba3316556938",
+      "name": "Agastya Agrawal",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ZmHsfaG8YtvMaa4Mm/singular-learning-theory-comprehensive-2-1",
+      "discovered_on": "2026-07-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Singular Learning Theory Comprehensive - 2"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:7a9dc604cd6d3572fb81",
       "external_id": "7a9dc604cd6d3572fb81",
