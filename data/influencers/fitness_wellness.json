@@ -2,19 +2,275 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-07-15T11:53:10Z",
-  "new_this_run": 6,
-  "total_influencers": 551,
+  "updated_at": "2026-07-16T11:55:43Z",
+  "new_this_run": 9,
+  "total_influencers": 560,
   "run_summary": {
-    "run_started_at": "2026-07-15T11:53:02Z",
-    "candidate_count": 30,
-    "existing_count": 545,
-    "selected_new_count": 6,
+    "run_started_at": "2026-07-16T11:55:35Z",
+    "candidate_count": 31,
+    "existing_count": 551,
+    "selected_new_count": 9,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:c92a6c2b2840602573e2",
+      "external_id": "c92a6c2b2840602573e2",
+      "name": "cguth7",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Czob95kjXPEpKYTsJ/recap-of-bike-trip-street-interviews-across-america",
+      "discovered_on": "2026-07-16",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/Miles_Brundage",
+        "instagram": "https://www.instagram.com/p",
+        "youtube": "https://www.youtube.com/@charlieguthmann2531"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Recap of bike trip/street interviews across America"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:0334b1283cd2e9abdb10",
+      "external_id": "0334b1283cd2e9abdb10",
+      "name": "hdhurve",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Sj92Atv6qwNn5JxbF/refusal-is-redundantly-distributed-not-localized-a-per-layer",
+      "discovered_on": "2026-07-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Refusal Is Redundantly Distributed, Not Localized: A Per-Layer Ablation Study on Llama-3.1-8B"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:31a200e925a46b4fddc2",
+      "external_id": "31a200e925a46b4fddc2",
+      "name": "arav-dhoot",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/AoBTiL7XRRpwpev8p/llm-cots-remain-monitorable-when-being-unfaithful-requires",
+      "discovered_on": "2026-07-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "LLM CoTs remain monitorable when being unfaithful requires computation"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4b3f1c536e304a12c260",
+      "external_id": "4b3f1c536e304a12c260",
+      "name": "Thorsten Benner",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/coming-clash-between-china-and-europe",
+      "discovered_on": "2026-07-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Coming Clash Between China and Europe"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:654740070604e32ef629",
+      "external_id": "654740070604e32ef629",
+      "name": "Sunny from QAD",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/MEwhjL2Pfr92tFsme/the-fundamental-fallacy-of-language",
+      "discovered_on": "2026-07-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The fundamental fallacy of language"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:adc2ef072b7a22ed7552",
+      "external_id": "adc2ef072b7a22ed7552",
+      "name": "Reid Pauly",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/lost-art-coercion",
+      "discovered_on": "2026-07-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Lost Art of Coercion"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8dd900df7e804bb85eea",
+      "external_id": "8dd900df7e804bb85eea",
+      "name": "Mateusz Bagiński",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/qzgqLQKHhwcTD9Mxo/the-halo-defense",
+      "discovered_on": "2026-07-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Halo Defense"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:95be834009b57faa0d10",
+      "external_id": "95be834009b57faa0d10",
+      "name": "David Johnston",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/46CjwoPXwZPR3Lrz5/can-we-build-an-early-warning-system-for-loss-of-control-to",
+      "discovered_on": "2026-07-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Can we build an early warning system for loss of control to AI?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:dcdc06f777b49299d8ea",
+      "external_id": "dcdc06f777b49299d8ea",
+      "name": "Alec Thompson",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/QeyQTdZdxdLEjtLDa/can-we-rely-on-law",
+      "discovered_on": "2026-07-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Can we rely on law?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:77b7bcd8742b66ad79da",
       "external_id": "77b7bcd8742b66ad79da",
