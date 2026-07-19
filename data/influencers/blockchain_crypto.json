@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-07-17T11:44:46Z",
-  "new_this_run": 3,
-  "total_influencers": 126,
+  "updated_at": "2026-07-19T11:34:12Z",
+  "new_this_run": 1,
+  "total_influencers": 127,
   "run_summary": {
-    "run_started_at": "2026-07-17T11:44:40Z",
-    "candidate_count": 28,
-    "existing_count": 123,
-    "selected_new_count": 3,
+    "run_started_at": "2026-07-19T11:34:02Z",
+    "candidate_count": 22,
+    "existing_count": 126,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:298429ea133988d8c370",
+      "external_id": "298429ea133988d8c370",
+      "name": "Cointelegraph by Diana Ngo",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://cointelegraph.com/news/electronic-transactions-association-ceo-expecting-more-partnerships-with-bitcoin-startups?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-07-19",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Electronic Transactions Association CEO Expecting More Partnerships with Bitcoin Startups"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:4f4a8f8c3ae9c899156f",
       "external_id": "4f4a8f8c3ae9c899156f",
