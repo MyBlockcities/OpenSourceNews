@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-07-19T11:34:09Z",
+  "updated_at": "2026-07-20T12:27:35Z",
   "new_this_run": 1,
-  "total_influencers": 127,
+  "total_influencers": 128,
   "run_summary": {
-    "run_started_at": "2026-07-19T11:34:02Z",
-    "candidate_count": 22,
-    "existing_count": 126,
+    "run_started_at": "2026-07-20T12:27:31Z",
+    "candidate_count": 28,
+    "existing_count": 127,
     "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:e0ad71dca2adb80df9a8",
+      "external_id": "e0ad71dca2adb80df9a8",
+      "name": "Brian Trunzo",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/07/17/ai-is-destroying-the-internet-math-is-our-only-hope",
+      "discovered_on": "2026-07-20",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "AI is destroying the internet. Math is our only hope."
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:11b4b3291f01de731371",
       "external_id": "11b4b3291f01de731371",

@@ -2,19 +2,243 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-07-19T11:34:13Z",
-  "new_this_run": 6,
-  "total_influencers": 581,
+  "updated_at": "2026-07-20T12:27:39Z",
+  "new_this_run": 8,
+  "total_influencers": 589,
   "run_summary": {
-    "run_started_at": "2026-07-19T11:34:02Z",
-    "candidate_count": 31,
-    "existing_count": 575,
-    "selected_new_count": 6,
+    "run_started_at": "2026-07-20T12:27:31Z",
+    "candidate_count": 30,
+    "existing_count": 581,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:d25bfd332879d220469c",
+      "external_id": "d25bfd332879d220469c",
+      "name": "shoppy007",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/MbHQQLBbchWPKoyHB/what-is-current-ai-risks-and-the-points",
+      "discovered_on": "2026-07-20",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "What is Current AI-Risks and the Points？"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2ffd69d7a2da0b4bf7f8",
+      "external_id": "2ffd69d7a2da0b4bf7f8",
+      "name": "cloud",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/syAbdNei8BWeP2RPo/many-alignment-techniques-work-by-training-one-model-and",
+      "discovered_on": "2026-07-20",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Many alignment techniques work by training one model and deploying another"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a52b9dd8eef9f5738447",
+      "external_id": "a52b9dd8eef9f5738447",
+      "name": "Mohammad Javad Zarif",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/iran/iranian-vision-new-middle-east",
+      "discovered_on": "2026-07-20",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "An Iranian Vision of the New Middle East"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f5f98a43e22e936bc726",
+      "external_id": "f5f98a43e22e936bc726",
+      "name": "GenericHousewife_B",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/wFK67Jh9CgsRRhcQY/models-can-t-remember-their-training-neither-can-you",
+      "discovered_on": "2026-07-20",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Models Can't Remember Their Training. Neither Can You."
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f7387d7f0bb5c03293d4",
+      "external_id": "f7387d7f0bb5c03293d4",
+      "name": "Chunwei Ma",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/EetjXEwjR2eun2mAc/is-there-even-a-ground-truth-for-llms-internal",
+      "discovered_on": "2026-07-20",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Is there even a ground-truth for LLMs’ internal representations?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:bd77ec7bdb5bd4227135",
+      "external_id": "bd77ec7bdb5bd4227135",
+      "name": "BryceStansfield",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/iuKe4mtz3MeMfEyXT/a-very-simple-game-theory-of-pronoun-degendering",
+      "discovered_on": "2026-07-20",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Very Simple Game Theory of Pronoun Degendering"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c79b5a845135cbc279f9",
+      "external_id": "c79b5a845135cbc279f9",
+      "name": "Bruce Lewis",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/r2f2SvovFahbztbwG/copy-of-my-flf-epistemic-case-study-competition",
+      "discovered_on": "2026-07-20",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Copy of my FLF Epistemic Case Study Competition"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8edbf7da16e5d8228533",
+      "external_id": "8edbf7da16e5d8228533",
+      "name": "Asfandyar Mir",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/pakistan/pakistan-won-war-iran",
+      "discovered_on": "2026-07-20",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Pakistan Won the War in Iran"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:61ec5e162f6547bbb246",
       "external_id": "61ec5e162f6547bbb246",
