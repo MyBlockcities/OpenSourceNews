@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-20",
+  "script": "============================================================\nDAILY AI & TECH NEWS BRIEF\nGenerated: 2026-07-20 10:41 UTC\nDuration: ~50 seconds\n============================================================\n\n[HOOK - 0:00-0:05]\nThree signals are moving through the tech stack today, led by US gas prices hit an average of $4 a gallon again.\n\n[STORY 1 - 0:05-0:18]\nFirst up: US gas prices hit an average of $4 a gallon again. The key takeaway is General News.\n\nB-ROLL:\n  - Source headline screenshot\n  - Product or repo page\n  - Simple trend graphic\n\n[STORY 2 - 0:18-0:31]\nSecond: Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25. This matters because it points to General News.\n\nB-ROLL:\n  - Article screenshot\n  - Workflow diagram\n  - Relevant platform UI\n\n[STORY 3 - 0:31-0:44]\nThird: How proprietary formats have become Microsoft’s main tool for lock-in. Keep an eye on this as a practical signal around General News.\n\nB-ROLL:\n  - Source page\n  - Comparison graphic\n  - Action checklist\n\n[CALL TO ACTION - 0:44-0:50]\nFollow for daily open-source, AI, and tech intelligence pulled from public sources.\n\n============================================================\nEND OF SCRIPT\n============================================================",
+  "timecoded_segments": {
+    "hook": "Three signals are moving through the tech stack today, led by US gas prices hit an average of $4 a gallon again.",
+    "story_1": {
+      "script": "First up: US gas prices hit an average of $4 a gallon again. The key takeaway is General News.",
+      "b_roll": [
+        "Source headline screenshot",
+        "Product or repo page",
+        "Simple trend graphic"
+      ]
+    },
+    "story_2": {
+      "script": "Second: Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25. This matters because it points to General News.",
+      "b_roll": [
+        "Article screenshot",
+        "Workflow diagram",
+        "Relevant platform UI"
+      ]
+    },
+    "story_3": {
+      "script": "Third: How proprietary formats have become Microsoft’s main tool for lock-in. Keep an eye on this as a practical signal around General News.",
+      "b_roll": [
+        "Source page",
+        "Comparison graphic",
+        "Action checklist"
+      ]
+    },
+    "cta": "Follow for daily open-source, AI, and tech intelligence pulled from public sources."
+  },
+  "sources": [
+    {
+      "title": "US gas prices hit an average of $4 a gallon again",
+      "url": "https://apnews.com/article/gas-prices-iran-war-4-gallon-4b82825734ec3ded192351e53a4be69e",
+      "quality_score": 0
+    },
+    {
+      "title": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+      "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
+      "quality_score": 0
+    },
+    {
+      "title": "How proprietary formats have become Microsoft’s main tool for lock-in",
+      "url": "https://blog.documentfoundation.org/blog/2026/07/17/microsofts-main-tool-for-lock-in/",
+      "quality_score": 0
+    }
+  ],
+  "generated_at": "2026-07-20T10:41:59.478721",
+  "total_duration_seconds": 50
+}
