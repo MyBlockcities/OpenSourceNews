@@ -2,19 +2,329 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-07-20T12:27:39Z",
-  "new_this_run": 8,
-  "total_influencers": 589,
+  "updated_at": "2026-07-21T12:03:07Z",
+  "new_this_run": 11,
+  "total_influencers": 600,
   "run_summary": {
-    "run_started_at": "2026-07-20T12:27:31Z",
-    "candidate_count": 30,
-    "existing_count": 581,
-    "selected_new_count": 8,
+    "run_started_at": "2026-07-21T12:02:59Z",
+    "candidate_count": 31,
+    "existing_count": 589,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:7720013359b4032937b3",
+      "external_id": "7720013359b4032937b3",
+      "name": "1a3orn",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/LtmbQN9mzmFWxWtrD/ai-2040-is-it-actually-a-deal",
+      "discovered_on": "2026-07-21",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/ramez"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "AI 2040: Is it Actually a Deal?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9b20deba541d4b76b177",
+      "external_id": "9b20deba541d4b76b177",
+      "name": "kaylene_stocking",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/zEXhmzZF4wng3K3Ds/the-case-for-physical-ai-safety",
+      "discovered_on": "2026-07-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Case for Physical AI Safety"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:be4506105484de10aaa8",
+      "external_id": "be4506105484de10aaa8",
+      "name": "hannahTao",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/jXhHH658J4xzWjCu8/does-routine-compression-undo-llm-unlearning-a-short-project",
+      "discovered_on": "2026-07-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Does routine compression undo LLM unlearning? A short project"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c54709c1c2161d59b523",
+      "external_id": "c54709c1c2161d59b523",
+      "name": "Steven Byrnes",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/nQH2GhkmSmHoCAN8R/what-do-i-mean-by-artificial-general-intelligence",
+      "discovered_on": "2026-07-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "What do I mean by “Artificial General Intelligence”?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:5e066685a0587e76e2d6",
+      "external_id": "5e066685a0587e76e2d6",
+      "name": "Shahriar Golchin",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/5mxco72CGDRsumZHW/the-ai-safety-illusion-why-current-safety-datasets-fool-us-1",
+      "discovered_on": "2026-07-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The AI Safety Illusion: Why Current Safety Datasets Fool Us on Model Safety"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8aade4d645d0cb6d6123",
+      "external_id": "8aade4d645d0cb6d6123",
+      "name": "Nina Hachigian",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/autocrats-worst-enemy",
+      "discovered_on": "2026-07-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Autocrat’s Worst Enemy"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:78e27a7cb30c4a1f62b4",
+      "external_id": "78e27a7cb30c4a1f62b4",
+      "name": "Mohammed Alsudairi, Andrea Ghiselli, Aaron Glasserman",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/gulfs-china-problem",
+      "discovered_on": "2026-07-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Gulf’s China Problem"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e12b0a305b8b8ef2058b",
+      "external_id": "e12b0a305b8b8ef2058b",
+      "name": "Kurt H. Pieper",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/iBN8uQi9zbPkdR29Q/adderall-tolerance-much-more-than-you-wanted-to-know",
+      "discovered_on": "2026-07-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Adderall Tolerance: Much More Than You Wanted To Know"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:81375ca4fca7556543b0",
+      "external_id": "81375ca4fca7556543b0",
+      "name": "Jeffrey William Shorthill",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Eft6ehAcvR8MxFbsR/banana-in-bostrom-out-paperclip-maximization-is-one-token",
+      "discovered_on": "2026-07-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Banana in, Bostrom out: paperclip maximization is one token-direction swap away (in Qwen 3.6-27B)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c49b924803178cdbdeff",
+      "external_id": "c49b924803178cdbdeff",
+      "name": "Jarrett Ye",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/XLSWRFPdgPTjLtaj5/namerank-the-model-knows-your-project-not-you",
+      "discovered_on": "2026-07-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "NameRank: The Model Knows Your Project, Not You."
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:6cce1027dd61b2a64650",
+      "external_id": "6cce1027dd61b2a64650",
+      "name": "Carlo Valenti",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/fEbCiHHeD73xcZWht/i-ran-the-standard-ai-litmus-tests-on-my-two-toddlers-yep",
+      "discovered_on": "2026-07-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "I ran the standard AI litmus tests on my two toddlers (yep)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:d25bfd332879d220469c",
       "external_id": "d25bfd332879d220469c",
