@@ -2,19 +2,159 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-07-21T12:03:07Z",
-  "new_this_run": 11,
-  "total_influencers": 600,
+  "updated_at": "2026-07-22T12:08:42Z",
+  "new_this_run": 5,
+  "total_influencers": 605,
   "run_summary": {
-    "run_started_at": "2026-07-21T12:02:59Z",
+    "run_started_at": "2026-07-22T12:08:32Z",
     "candidate_count": 31,
-    "existing_count": 589,
-    "selected_new_count": 11,
+    "existing_count": 600,
+    "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:09b8892482d159a48f0d",
+      "external_id": "09b8892482d159a48f0d",
+      "name": "neilchowdhury",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/EdcschjGZ6vtLpesY/weirdchat-a-catalog-of-unexpected-ai-behaviors-discovered",
+      "discovered_on": "2026-07-22",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "WeirdChat: A catalog of unexpected AI behaviors, discovered automatically"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a20d8c82fae6b73b0f5f",
+      "external_id": "a20d8c82fae6b73b0f5f",
+      "name": "Vanessa Kosoy",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/TTei7oq9ndjJFgnsT/paper-stringological-sequence-prediction-ii",
+      "discovered_on": "2026-07-22",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "[Paper] Stringological sequence prediction II"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:35c9d01bc208267fe6a2",
+      "external_id": "35c9d01bc208267fe6a2",
+      "name": "Neil Quilliam, Sanam Vakil",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/iran/iran-cease-fire-was-doomed-fail",
+      "discovered_on": "2026-07-22",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Iran Cease-Fire Was Doomed to Fail"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:1a9d46cbe8253112c468",
+      "external_id": "1a9d46cbe8253112c468",
+      "name": "Michael Sulmeyer",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/when-china-gets-its-own-mythos",
+      "discovered_on": "2026-07-22",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "When China Gets Its Own Mythos"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a5ac49867b9f27112e5d",
+      "external_id": "a5ac49867b9f27112e5d",
+      "name": "LawrenceC",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/WpuRdcMfFeiLeXkxL/openai-models-behind-huggingface-cybersecurity-incident",
+      "discovered_on": "2026-07-22",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "OpenAI Models Behind HuggingFace Cybersecurity Incident"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:7720013359b4032937b3",
       "external_id": "7720013359b4032937b3",
