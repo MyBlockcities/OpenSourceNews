@@ -2,19 +2,217 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-07-22T12:08:42Z",
-  "new_this_run": 5,
-  "total_influencers": 605,
+  "updated_at": "2026-07-23T12:06:52Z",
+  "new_this_run": 7,
+  "total_influencers": 612,
   "run_summary": {
-    "run_started_at": "2026-07-22T12:08:32Z",
+    "run_started_at": "2026-07-23T12:06:42Z",
     "candidate_count": 31,
-    "existing_count": 600,
-    "selected_new_count": 5,
+    "existing_count": 605,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:a0eda0f6d5d96d1e21dd",
+      "external_id": "a0eda0f6d5d96d1e21dd",
+      "name": "Josh Snider",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/24RKHEkwgZ6Hm6ygY/can-an-llm-make-a-feature-length-movie-on-its-own",
+      "discovered_on": "2026-07-23",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/__alpoge__"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Can an LLM make a feature-length movie on its own?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ea70c211998b1e69b597",
+      "external_id": "ea70c211998b1e69b597",
+      "name": "lwroe",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/SZk2PGk6GXmKfGpGL/in-other-words-the-influence-of-prompt-variation-on",
+      "discovered_on": "2026-07-23",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "In other words: The influence of prompt variation on alignment evals"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:1eb4392948b577f4ce89",
+      "external_id": "1eb4392948b577f4ce89",
+      "name": "carissacullen",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/DhFgiMzWjg7XboPDz/a-multi-agent-extension-for-petri",
+      "discovered_on": "2026-07-23",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Multi-Agent Extension for Petri"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:fe9cb45ba24829c395ea",
+      "external_id": "fe9cb45ba24829c395ea",
+      "name": "Tom Long, Stewart Patrick",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/small-suffer-what-they-must",
+      "discovered_on": "2026-07-23",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Small Suffer What They Must?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f2866453d58563b87787",
+      "external_id": "f2866453d58563b87787",
+      "name": "Logan Wright",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/chinas-moment-weakness",
+      "discovered_on": "2026-07-23",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "China’s Moment of Weakness"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:7150c3b360d00c4456a3",
+      "external_id": "7150c3b360d00c4456a3",
+      "name": "Arram Sabeti",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/QphFwzhfxuky7wyG7/after-3000-hours-of-meditation-i-m-convinced-multi-agent",
+      "discovered_on": "2026-07-23",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "After 3000 hours of meditation I'm convinced multi-agent models of mind are just true"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:25aea382e6274a6bdcd6",
+      "external_id": "25aea382e6274a6bdcd6",
+      "name": "Ankit Sanjyal",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/4EvWpvFvHzmPvuiF5/necessity-protects-chain-of-thought-monitoring-by-prevention",
+      "discovered_on": "2026-07-23",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Necessity Protects Chain of Thought Monitoring by Prevention, Not Disclosure"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:09b8892482d159a48f0d",
       "external_id": "09b8892482d159a48f0d",
