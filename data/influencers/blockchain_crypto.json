@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-07-23T12:06:50Z",
-  "new_this_run": 2,
-  "total_influencers": 130,
+  "updated_at": "2026-07-24T11:57:34Z",
+  "new_this_run": 1,
+  "total_influencers": 131,
   "run_summary": {
-    "run_started_at": "2026-07-23T12:06:42Z",
-    "candidate_count": 27,
-    "existing_count": 128,
-    "selected_new_count": 2,
+    "run_started_at": "2026-07-24T11:57:25Z",
+    "candidate_count": 26,
+    "existing_count": 130,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:27c3b31c1b9114037789",
+      "external_id": "27c3b31c1b9114037789",
+      "name": "Jason Barraza",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/07/23/crypto-for-advisors-it-s-time-for-tokenization-to-get-to-work",
+      "discovered_on": "2026-07-24",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto for Advisors: It’s time for tokenization to get to work"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:495c334fed6f968095f6",
       "external_id": "495c334fed6f968095f6",
