@@ -2,19 +2,190 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-07-24T11:57:36Z",
-  "new_this_run": 10,
-  "total_influencers": 622,
+  "updated_at": "2026-07-25T11:39:06Z",
+  "new_this_run": 6,
+  "total_influencers": 628,
   "run_summary": {
-    "run_started_at": "2026-07-24T11:57:25Z",
-    "candidate_count": 31,
-    "existing_count": 612,
-    "selected_new_count": 10,
+    "run_started_at": "2026-07-25T11:38:58Z",
+    "candidate_count": 30,
+    "existing_count": 622,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:875adb8ac5c95043b224",
+      "external_id": "875adb8ac5c95043b224",
+      "name": "Chris Lakin",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/APR9vfogzzohtDi8A/wait-feelings-are-supposed-to-be-in-the-body-1",
+      "discovered_on": "2026-07-25",
+      "score": 37.0,
+      "metrics": {
+        "posts_seen_in_fetch": 2,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/ChrischipMonk"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "“Wait, feelings are supposed to be IN THE BODY?”",
+          "How inner work can destabilize your life"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2f29c08e0cc89424e114",
+      "external_id": "2f29c08e0cc89424e114",
+      "name": "wlanderson",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/S44mM9b7QvDttjizb/orbit-a-framework-for-multi-agent-security-evaluations",
+      "discovered_on": "2026-07-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Orbit: A framework for multi-agent security evaluations"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:7ccd7254f53907fcce94",
+      "external_id": "7ccd7254f53907fcce94",
+      "name": "kavitak128",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/zqcjhJtFpLAuwXbdb/can-recursive-self-report-probing-detect-emergent-1",
+      "discovered_on": "2026-07-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Can Recursive Self-Report Probing Detect Emergent Misalignment?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2680f1b2e3734b6d627a",
+      "external_id": "2680f1b2e3734b6d627a",
+      "name": "Wei Dai",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/2iCmDWewnZWQxxwtt/the-long-self-correction-2",
+      "discovered_on": "2026-07-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Long (Self-)Correction"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:eb3921e95fe6ff2de219",
+      "external_id": "eb3921e95fe6ff2de219",
+      "name": "Jasper Chong",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ihbn9wwdYP9pKT3ds/soni-selective-orthogonalisation-via-noise-injection",
+      "discovered_on": "2026-07-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "SONI: Selective Orthogonalisation via Noise Injection"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:3469502952ceef5bd2f1",
+      "external_id": "3469502952ceef5bd2f1",
+      "name": "Aniket Ghosh",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/oJJyYDgPD95jEfvQx/linear-probes-tell-you-where-quantization-will-hurt",
+      "discovered_on": "2026-07-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Linear probes tell you where quantization will hurt"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:b78e7eb2fe4e141cea53",
       "external_id": "b78e7eb2fe4e141cea53",
