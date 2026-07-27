@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-07-24T11:57:29Z",
+  "updated_at": "2026-07-27T13:22:58Z",
   "new_this_run": 1,
-  "total_influencers": 131,
+  "total_influencers": 132,
   "run_summary": {
-    "run_started_at": "2026-07-24T11:57:25Z",
-    "candidate_count": 26,
-    "existing_count": 130,
+    "run_started_at": "2026-07-27T13:22:53Z",
+    "candidate_count": 25,
+    "existing_count": 131,
     "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:6ca5bd10d5b539952905",
+      "external_id": "6ca5bd10d5b539952905",
+      "name": "Cointelegraph by Adrian Zmudzinski",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://cointelegraph.com/news/brazilian-police-cracks-down-on-crypto-fueled-international-drug-traffickers-suspected-of-moving-billions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-07-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Brazilian police bust cocaine traffickers in crypto-linked transnational probe"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:f660ec134d9cc72a0fe3",
       "external_id": "f660ec134d9cc72a0fe3",
