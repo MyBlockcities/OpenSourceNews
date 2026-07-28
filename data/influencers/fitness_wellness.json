@@ -2,19 +2,161 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-07-27T13:23:04Z",
-  "new_this_run": 9,
-  "total_influencers": 640,
+  "updated_at": "2026-07-28T12:16:28Z",
+  "new_this_run": 5,
+  "total_influencers": 645,
   "run_summary": {
-    "run_started_at": "2026-07-27T13:22:53Z",
+    "run_started_at": "2026-07-28T12:16:19Z",
     "candidate_count": 31,
-    "existing_count": 631,
-    "selected_new_count": 9,
+    "existing_count": 640,
+    "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:45931ceb01f8763de9d3",
+      "external_id": "45931ceb01f8763de9d3",
+      "name": "Tim Hua",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/QKDoZe6EKhxnFjLWK/is-mythos-good-at-cyber-because-it-kept-hacking-anthropic-s",
+      "discovered_on": "2026-07-28",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/sleepinyourhat"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Is Mythos good at cyber because it kept hacking Anthropic's sandboxes during training?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f0e83639820a67035d55",
+      "external_id": "f0e83639820a67035d55",
+      "name": "Stephen Braniff",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/SxRWwXpRh8dBGudi3/long-turing",
+      "discovered_on": "2026-07-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Long Turing"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:5c35ffb8fef279684194",
+      "external_id": "5c35ffb8fef279684194",
+      "name": "Nader Hashemi",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/iran/hidden-path-regime-change-iran",
+      "discovered_on": "2026-07-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Hidden Path to Regime Change in Iran"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:10c93c710fd9b5819f3d",
+      "external_id": "10c93c710fd9b5819f3d",
+      "name": "JanJoar",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Qpo4taKzJzcuTjn9c/security-studies-for-individuals",
+      "discovered_on": "2026-07-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Security Studies for Individuals"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:07e1a7b686b93a1f324d",
+      "external_id": "07e1a7b686b93a1f324d",
+      "name": "Daniel_Heavens",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ukxtp629mmDs8Mtca/somebody-out-there-wants-you-to-fetch-coffee",
+      "discovered_on": "2026-07-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Somebody out there wants you to fetch coffee"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:86b76cc370ef1800de36",
       "external_id": "86b76cc370ef1800de36",
