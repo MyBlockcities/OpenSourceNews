@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-07-27T13:23:02Z",
+  "updated_at": "2026-07-29T12:24:54Z",
   "new_this_run": 1,
-  "total_influencers": 132,
+  "total_influencers": 133,
   "run_summary": {
-    "run_started_at": "2026-07-27T13:22:53Z",
-    "candidate_count": 25,
-    "existing_count": 131,
+    "run_started_at": "2026-07-29T12:24:46Z",
+    "candidate_count": 23,
+    "existing_count": 132,
     "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:6021f3b294d47287254f",
+      "external_id": "6021f3b294d47287254f",
+      "name": "Brian Smith",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.coindesk.com/opinion/2026/07/29/spacex-is-a-battleground-solana-must-win",
+      "discovered_on": "2026-07-29",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "SpaceX is a battleground Solana must win"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:cec6d56b4a468109e817",
       "external_id": "cec6d56b4a468109e817",
