@@ -2,19 +2,189 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-01T11:37:04Z",
-  "new_this_run": 7,
-  "total_influencers": 680,
+  "updated_at": "2026-08-02T11:37:49Z",
+  "new_this_run": 6,
+  "total_influencers": 686,
   "run_summary": {
-    "run_started_at": "2026-08-01T11:36:55Z",
+    "run_started_at": "2026-08-02T11:37:42Z",
     "candidate_count": 31,
-    "existing_count": 673,
-    "selected_new_count": 7,
+    "existing_count": 680,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:42c4f54d8a156184988c",
+      "external_id": "42c4f54d8a156184988c",
+      "name": "Simon DeDeo",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/8oWjLL8HRb7SfyPYj/mathematicians-may-be-worried-but-ai-for-science-is-going-to",
+      "discovered_on": "2026-08-02",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/ryan_t_lowe"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Mathematicians may be worried, but AI-for-science is going to be great, recursively self-improving, and we’re going to learn loads"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:449b266c10b6eafa14d7",
+      "external_id": "449b266c10b6eafa14d7",
+      "name": "warner",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/pvGSzHMjYvesNg78Z/agnostic-meaning-betting-on-others",
+      "discovered_on": "2026-08-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Agnostic Meaning: Betting on Others"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:92ac7300fbca2ea4bd24",
+      "external_id": "92ac7300fbca2ea4bd24",
+      "name": "lsusr",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/juRRtv5KB7YbP5zaa/the-art-of-shipping-slopware",
+      "discovered_on": "2026-08-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Art of Shipping Slopware"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ba16d8a2ead79d31f9f9",
+      "external_id": "ba16d8a2ead79d31f9f9",
+      "name": "desireecho",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/n5htoDGvKKJFAjji2/constitutional-midtraining-content-presence-drives-alignment-1",
+      "discovered_on": "2026-08-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Constitutional Midtraining: Content Presence Drives Alignment Gains"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d7fdd60c843badab5f22",
+      "external_id": "d7fdd60c843badab5f22",
+      "name": "davisb6",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/GPbWyHgx9hCLMdAjc/mud-as-ai-evaluation-and-llm-judge-distortion-in-ways",
+      "discovered_on": "2026-08-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "MUD as AI Evaluation and LLM-judge distortion in ways aggregate κ misses"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:81e967ff57b4f56349a7",
+      "external_id": "81e967ff57b4f56349a7",
+      "name": "alkjash",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ZLary4FDY7kQaGfc3/existential-risk-from-ai-an-exposition-for-mathematicians",
+      "discovered_on": "2026-08-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Existential Risk from AI:\nAn Exposition for Mathematicians"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:25de5749a419c1a9ea4e",
       "external_id": "25de5749a419c1a9ea4e",

@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-08-01T11:36:59Z",
+  "updated_at": "2026-08-02T11:37:45Z",
   "new_this_run": 1,
-  "total_influencers": 136,
+  "total_influencers": 137,
   "run_summary": {
-    "run_started_at": "2026-08-01T11:36:55Z",
-    "candidate_count": 27,
-    "existing_count": 135,
+    "run_started_at": "2026-08-02T11:37:42Z",
+    "candidate_count": 29,
+    "existing_count": 136,
     "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": false,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:0eccd48d6dc0c33d2784",
+      "external_id": "0eccd48d6dc0c33d2784",
+      "name": "Gracy Chen",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/08/01/everyone-has-the-perps-convergence-backwards",
+      "discovered_on": "2026-08-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Everyone has the perps convergence backwards"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:bae60050adbc9c530b35",
       "external_id": "bae60050adbc9c530b35",
