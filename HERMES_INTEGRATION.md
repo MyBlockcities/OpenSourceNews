@@ -215,13 +215,7 @@ Watchlists in this repo stay **generalized** (AI agents, RWA, peptides). Private
 
 2. **[x] Hermes Agency puller on `main`** — merged.
 
-3. **[ ] Pull latest on this machine and ingest the new report**
-   ```bash
-   cd /Users/brian/Documents/opensourcenews && git pull origin main
-   export OSN_GIT_PATH=/Users/brian/Documents/opensourcenews
-   python3 /Users/brian/Documents/hermes_agency/hermes/news/nightly_pull.py --force --collection news_signals
-   # (use --force once so the new sha after the smoke run is ingested)
-   ```
+3. **[x] Pull latest on this machine and ingest the new report** — done (25 ranked signals upserted to `news_signals`; ledger updated for sha `2fb5ea00…`).
 
 4. **[ ] Later (content factory)**  
    Deep LLM enrichment, critic pass, Telegram / Buzz / Academy review queue.  
