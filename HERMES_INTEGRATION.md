@@ -2,6 +2,20 @@
 
 OpenSourceNews is the public **sensor**. Hermes Agency is the private **brain**.
 
+## Current status (2026-08-03)
+
+| Item | Status |
+|------|--------|
+| OpenSourceNews code on branch `hermes/collection-first-sensor` | Done + pushed |
+| OpenSourceNews **merged to `main`** | **Not yet** — PR open: https://github.com/MyBlockcities/OpenSourceNews/pull/1 |
+| Hermes Agency branch `feature/osn-git-manifest-nightly` | Done + pushed |
+| Hermes Agency **merged to `main`** | **Not yet** — PR open: https://github.com/MyBlockcities/hermes-agency/pull/1 |
+| `YT_API_KEY` as GitHub Actions **secret** (not in git) | Done (ops) |
+| Local Hermes e2e (pull → rank → `news_signals` → ledger) | Verified |
+| `com.hermes.osn-nightly` launchd | Installed on this Mac |
+
+**Production GitHub Actions still run the old `main` contract until PR #1 is merged.**
+
 ## Division of responsibility
 
 | System | Owns |
@@ -12,18 +26,18 @@ OpenSourceNews is the public **sensor**. Hermes Agency is the private **brain**.
 ## Zero-hosting nightly flow
 
 ```text
-GitHub Actions (COLLECT_ONLY=1)
+GitHub Actions (COLLECT_ONLY=1)  @ 07:17 UTC
   → commit outputs/daily/{YYYY-MM-DD}.json
   → commit outputs/manifests/latest.json (includes report_sha256)
         ↓
-Local Hermes pulls the public repo
-        ↓
-Compare report_sha256 to local ledger
-        ↓
-Rank → enrich selected signals → Hermes Qdrant → content packages
+Local Hermes (~01:40 Mountain / com.hermes.osn-nightly)
+  → git pull OpenSourceNews
+  → compare report_sha256 to ~/.hermes/news/ingest_ledger.json
+  → rank → upsert news_signals → (later) enrich / tutorials
 ```
 
-No public Hermes webhook, Railway service, or tunnel is required for this path.
+No public Hermes webhook is required for this path.  
+`YT_API_KEY` lives only in GitHub Actions secrets + optional local `.env` (gitignored) — never in the public tree.
 
 ## Implementation checklist
 
@@ -43,6 +57,7 @@ No public Hermes webhook, Railway service, or tunnel is required for this path.
 - [x] Public integration contract (this document)
 - [x] Schema / ID / manifest / dedupe tests
 - [x] GitHub trending: description, language, stars today, owner, README excerpt, license, updated_at
+- [x] `YT_API_KEY` stored as GitHub Actions secret (not committed)
 
 ### Hermes Agency (private brain)
 
@@ -52,15 +67,32 @@ No public Hermes webhook, Railway service, or tunnel is required for this path.
 - [x] Nightly CLI (`hermes/news/nightly_pull.py`)
 - [x] launchd unit + installer (`ops/launchd/*osn*`)
 - [x] Cheap ranking before deep enrich (`hermes/news/rank.py`)
+- [x] E2E verified into Qdrant collection `news_signals`
 
-### Remaining (ops / product)
+### Remaining steps (do these next)
 
-- [ ] Set/verify `YT_API_KEY` on OpenSourceNews GitHub secrets
-- [ ] Merge both PRs so production runs the new contract
-- [x] Install nightly launchd on this Mac (`com.hermes.osn-nightly`)
-- [x] Verified end-to-end: git pull → rank → upsert `news_signals` → ledger skip on rerun → semantic search
-- [ ] Deep LLM enrichment + tutorial critic + Telegram/Buzz delivery
-- [ ] Optional public webhook when Hermes has stable HTTPS
+1. **[ ] Merge OpenSourceNews PR → `main`**  
+   https://github.com/MyBlockcities/OpenSourceNews/pull/1  
+   Until this lands, scheduled Actions will not use `COLLECT_ONLY`, richer metadata, or the new cron.
+
+2. **[ ] Merge Hermes Agency PR → `main`**  
+   https://github.com/MyBlockcities/hermes-agency/pull/1  
+
+3. **[ ] After OSN merge — smoke the Action**  
+   Actions → *Daily Research Briefing* → *Run workflow* (or wait for 07:17 UTC).  
+   Confirm Alternative News / YouTube items appear (needs the secret you added).  
+   Confirm `outputs/manifests/latest.json` has `report_sha256`.
+
+4. **[ ] After both merges — one Hermes pull against `main`**  
+   ```bash
+   cd /Users/brian/Documents/opensourcenews && git checkout main && git pull
+   export OSN_GIT_PATH=/Users/brian/Documents/opensourcenews
+   python3 /Users/brian/Documents/hermes_agency/hermes/news/nightly_pull.py --dry-run
+   ```
+
+5. **[ ] Later product (not blocking sensor → memory)**  
+   Deep LLM enrichment, tutorial critic, Telegram / Buzz / Academy review queue.  
+   Optional public webhook only when Hermes has stable HTTPS.
 
 ## Discovery contract
 
@@ -126,6 +158,14 @@ bash ops/launchd/install_osn_nightly.sh          # schedule ~01:40 local
 
 Ledger: `~/.hermes/news/ingest_ledger.json` keyed by `report_sha256`.  
 Default Qdrant collection for news ingest: `news_signals` (override with `--collection`).
+
+## Secrets (public repo)
+
+| Secret | Where | Committed? |
+|--------|--------|------------|
+| `YT_API_KEY` | GitHub Actions secrets (+ optional local `.env`) | **Never** |
+| Academy / God's Eye ingest URLs & tokens | GitHub Actions secrets | **Never** |
+| Hermes `QDRANT_*` | `~/.hermes/.env` / Hermes only | **Never** on OpenSourceNews |
 
 ## Delivery receipts (optional push)
 
