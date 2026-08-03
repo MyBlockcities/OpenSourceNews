@@ -5,10 +5,14 @@ Set AGENCY_INGEST_URL or EXTERNAL_INGEST_URL to push JSON to another system
 (e.g. agents / Agency backend). Disabled when unset — safe for public clones.
 
 Payload schema: open_source_news_daily_digest.v1
+
+Delivery receipts (optional): when a push is attempted, a local receipt is written
+under outputs/ingest_receipts/ (gitignored). Set EXTERNAL_INGEST_RECEIPTS=0 to disable.
 """
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import time
@@ -24,6 +28,8 @@ from pipelines.route_destinations import filter_for_destination, route_normalize
 DEFAULT_TIMEOUT = int(os.environ.get("EXTERNAL_INGEST_TIMEOUT", "90"))
 MAX_MARKDOWN_CHARS = int(os.environ.get("EXTERNAL_INGEST_MAX_MARKDOWN_CHARS", "200000"))
 MAX_RETRIES = max(1, int(os.environ.get("EXTERNAL_INGEST_RETRIES", "3")))
+ROOT_DIR = Path(__file__).resolve().parents[1]
+RECEIPTS_DIR = ROOT_DIR / "outputs" / "ingest_receipts"
 
 
 def _truthy(name: str, default: bool = True) -> bool:
@@ -55,6 +61,58 @@ def _resolve_headers() -> Dict[str, str]:
     return json.loads(raw)
 
 
+def _utc_now() -> str:
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def write_delivery_receipt(
+    *,
+    destination: str,
+    report_date: str,
+    ok: bool,
+    message: str,
+    url: str = "",
+    status_code: Optional[int] = None,
+    attempt: int = 1,
+    item_count: Optional[int] = None,
+    response_body: str = "",
+) -> Optional[Path]:
+    """Persist a local delivery receipt (never raises). Returns path or None."""
+    if not _truthy("EXTERNAL_INGEST_RECEIPTS", default=True):
+        return None
+    try:
+        RECEIPTS_DIR.mkdir(parents=True, exist_ok=True)
+        receipt = {
+            "schema": "open_source_news_ingest_receipt.v1",
+            "destination": destination,
+            "report_date": report_date,
+            "ok": ok,
+            "message": message[:1000],
+            "url_host": "",
+            "status_code": status_code,
+            "attempt": attempt,
+            "item_count": item_count,
+            "response_sha256": hashlib.sha256(response_body.encode("utf-8")).hexdigest()
+            if response_body
+            else "",
+            "response_preview": (response_body or "")[:300],
+            "recorded_at": _utc_now(),
+        }
+        if url:
+            try:
+                from urllib.parse import urlparse
+
+                receipt["url_host"] = urlparse(url).netloc
+            except Exception:  # noqa: BLE001
+                receipt["url_host"] = ""
+        path = RECEIPTS_DIR / f"{report_date}-{destination}.json"
+        path.write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
+        return path
+    except Exception as exc:  # noqa: BLE001
+        print(f"  WARNING: could not write ingest receipt: {exc}")
+        return None
+
+
 def post_daily_digest(
     *,
     report_date: str,
@@ -70,6 +128,7 @@ def post_daily_digest(
       EXTERNAL_INGEST_HEADERS — optional JSON object of extra headers
       EXTERNAL_INGEST_ENABLED — set to 0/false to disable even if URL is set
       EXTERNAL_INGEST_INCLUDE_MARKDOWN — default 1; include markdown body in payload
+      EXTERNAL_INGEST_RECEIPTS — default 1; write local delivery receipts
     """
     if not _truthy("EXTERNAL_INGEST_ENABLED", default=True):
         return True, "disabled (EXTERNAL_INGEST_ENABLED=0)"
@@ -93,12 +152,13 @@ def post_daily_digest(
         except OSError as e:
             markdown_text = f"[could not read markdown: {e}]"
 
+    normalized = normalize_report(report_date, report)
     payload: Dict[str, Any] = {
         "schema": "open_source_news_daily_digest.v1",
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "report_date": report_date,
         "report": report,
-        "normalized": normalize_report(report_date, report),
+        "normalized": normalized,
         "meta": {
             "source": "open_source_news",
             "pipeline": "pipelines/daily_run.py",
@@ -117,10 +177,25 @@ def post_daily_digest(
     headers.update(_resolve_headers())
 
     last_message = "not attempted"
+    last_status: Optional[int] = None
+    last_body = ""
     for attempt in range(MAX_RETRIES):
         try:
             r = requests.post(url, json=payload, headers=headers, timeout=DEFAULT_TIMEOUT)
+            last_status = r.status_code
+            last_body = r.text or ""
             if 200 <= r.status_code < 300:
+                write_delivery_receipt(
+                    destination="agency",
+                    report_date=report_date,
+                    ok=True,
+                    message=f"ok ({r.status_code})",
+                    url=url,
+                    status_code=r.status_code,
+                    attempt=attempt + 1,
+                    item_count=(normalized.get("counts") or {}).get("total"),
+                    response_body=last_body,
+                )
                 return True, f"ok ({r.status_code})"
             last_message = f"HTTP {r.status_code}: {r.text[:500]}"
             if r.status_code < 500:
@@ -131,6 +206,17 @@ def post_daily_digest(
         if attempt < MAX_RETRIES - 1:
             time.sleep(2 ** attempt)
 
+    write_delivery_receipt(
+        destination="agency",
+        report_date=report_date,
+        ok=False,
+        message=last_message,
+        url=url,
+        status_code=last_status,
+        attempt=MAX_RETRIES,
+        item_count=(normalized.get("counts") or {}).get("total"),
+        response_body=last_body,
+    )
     return False, last_message
 
 
@@ -221,11 +307,27 @@ def post_destination_digest(
         headers["Authorization"] = f"Bearer {token}"
 
     last_message = "not attempted"
+    last_status: Optional[int] = None
+    last_body = ""
     for attempt in range(MAX_RETRIES):
         try:
             r = requests.post(url, json=payload, headers=headers, timeout=DEFAULT_TIMEOUT)
+            last_status = r.status_code
+            last_body = r.text or ""
             if 200 <= r.status_code < 300:
-                return True, f"ok ({r.status_code}, {len(filtered['items'])} items)"
+                msg = f"ok ({r.status_code}, {len(filtered['items'])} items)"
+                write_delivery_receipt(
+                    destination=destination,
+                    report_date=report_date,
+                    ok=True,
+                    message=msg,
+                    url=url,
+                    status_code=r.status_code,
+                    attempt=attempt + 1,
+                    item_count=len(filtered["items"]),
+                    response_body=last_body,
+                )
+                return True, msg
             last_message = f"HTTP {r.status_code}: {r.text[:500]}"
             if r.status_code < 500:
                 break
@@ -235,6 +337,17 @@ def post_destination_digest(
         if attempt < MAX_RETRIES - 1:
             time.sleep(2 ** attempt)
 
+    write_delivery_receipt(
+        destination=destination,
+        report_date=report_date,
+        ok=False,
+        message=last_message,
+        url=url,
+        status_code=last_status,
+        attempt=MAX_RETRIES,
+        item_count=len(filtered.get("items") or []),
+        response_body=last_body,
+    )
     return False, last_message
 
 

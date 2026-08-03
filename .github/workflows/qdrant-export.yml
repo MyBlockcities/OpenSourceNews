@@ -5,8 +5,6 @@ on:
     workflows: ["Daily Research Briefing"]
     types: [completed]
   workflow_dispatch: {}
-  schedule:
-    - cron: "45 9 * * *"  # Daily after the report and manifest windows
 
 permissions:
   contents: write
@@ -36,6 +34,13 @@ jobs:
 
       - name: Build peptide Qdrant export
         run: python3 scripts/export_qdrant_payload.py --days 30 --bucket peptides --out outputs/qdrant_export/peptides_signals.jsonl
+
+      - name: Build v2 canonical/occurrence exports
+        run: |
+          python3 scripts/export_qdrant_payload_v2.py --days 30
+          python3 scripts/export_qdrant_payload_v2.py --days 30 --bucket peptides \
+            --canonical-out outputs/qdrant_export/peptides_signals_v2_canonical.jsonl \
+            --occurrence-out outputs/qdrant_export/peptides_signals_v2_occurrences.jsonl
 
       - name: Commit exports
         run: |

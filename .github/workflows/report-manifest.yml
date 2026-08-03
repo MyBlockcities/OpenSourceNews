@@ -21,49 +21,10 @@ jobs:
           ref: main
 
       - name: Build manifest
-        run: |
-          mkdir -p outputs/manifests
-
-          # Find the most recent daily report
-          LATEST=$(ls -1 outputs/daily/*.json 2>/dev/null | sort -r | head -1)
-
-          if [ -z "$LATEST" ]; then
-            echo "No daily reports found"
-            exit 0
-          fi
-
-          DATE=$(basename "$LATEST" .json)
-          export LATEST DATE
-          python3 << 'PY'
-          import json
-          import os
-          from collections import Counter
-          from datetime import datetime, timezone
-          from pathlib import Path
-
-          latest = Path(os.environ["LATEST"])
-          with open(latest) as f:
-              data = json.load(f)
-          item_count = sum(len(v) for v in data.values())
-          topics = list(data.keys())
-          bucket_counts: Counter = Counter()
-          for _topic, items in data.items():
-              for it in items:
-                  bucket_counts[it.get("bucket") or "unknown"] += 1
-
-          out = {
-              "latest_report_date": os.environ["DATE"],
-              "latest_report_path": f"outputs/daily/{latest.stem}.json",
-              "item_count": item_count,
-              "topics": topics,
-              "bucket_counts": dict(bucket_counts),
-              "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-          }
-          Path("outputs/manifests").mkdir(parents=True, exist_ok=True)
-          with open("outputs/manifests/latest.json", "w") as f:
-              json.dump(out, f, indent=2)
-          print(f"Manifest: {out['latest_report_date']} ({item_count} items)")
-          PY
+        env:
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_SHA: ${{ github.sha }}
+        run: python3 scripts/build_report_manifest.py
 
       - name: Commit manifest
         run: |

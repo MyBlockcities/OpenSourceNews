@@ -771,7 +771,7 @@ This is **not** an HTTP route on the OpenSourceNews API. When `pipelines/daily_r
 
 Your receiving service should validate the Bearer token (if you use one), accept JSON, and return `2xx` on success. Transient request errors and `5xx` responses are retried with exponential backoff. Failures are logged as warnings; they do **not** fail the daily pipeline.
 
-For Agency / OpenClaw configuration, security, troubleshooting, and a minimal receiver contract, see **[docs/AGENCY_DAILY_INGEST.md](docs/AGENCY_DAILY_INGEST.md)**.
+For Hermes / Agency pull-first integration (manifest + `report_sha256`), see **[HERMES_INTEGRATION.md](HERMES_INTEGRATION.md)**. Outbound POST details remain in this section and `services/external_ingest.py`.
 
 ---
 

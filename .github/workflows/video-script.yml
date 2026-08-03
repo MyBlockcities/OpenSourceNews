@@ -1,8 +1,8 @@
 name: Daily Video Script Generation
 
+# Manual open-source demo only. Nightly creative scripts belong in Hermes,
+# not on GitHub-hosted runners (no local Ollama).
 on:
-  schedule:
-    - cron: "0 8 * * *"  # Daily 08:00 UTC (after daily report at 07:00)
   workflow_dispatch:
     inputs:
       no_commit:

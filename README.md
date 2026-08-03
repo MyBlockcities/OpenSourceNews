@@ -120,7 +120,9 @@ Generate a daily report:
 python3 pipelines/daily_run.py
 ```
 
-Optional: after the report is written, the same run can **POST** the digest JSON (and markdown) to another HTTPS endpoint you configure — for example an agent or Agency backend. Set `AGENCY_INGEST_URL` or `EXTERNAL_INGEST_URL` (and optional Bearer token) in `.env`. See **[docs/AGENCY_DAILY_INGEST.md](docs/AGENCY_DAILY_INGEST.md)** for receiver setup, payload schema, and security; also `API_REFERENCE.md` (*Outbound daily digest*) and `services/external_ingest.py`.
+Hermes / Agency should **pull** daily reports via git + [`outputs/manifests/latest.json`](outputs/manifests/latest.json) (`report_sha256` for idempotent processing). See **[HERMES_INTEGRATION.md](HERMES_INTEGRATION.md)**.
+
+Optional later: after the report is written, the same run can **POST** the digest JSON to a public HTTPS endpoint. Set `AGENCY_INGEST_URL` or `EXTERNAL_INGEST_URL` (and optional Bearer token) in `.env`. Details: `API_REFERENCE.md` (*Outbound daily digest*) and `services/external_ingest.py`.
 
 Generate mission briefs from the latest daily report and `config/watchlists.yaml`:
 
