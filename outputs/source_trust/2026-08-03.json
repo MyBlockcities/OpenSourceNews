@@ -1,0 +1,13 @@
+{
+  "report_date": "2026-08-03",
+  "initial_score": 0.5,
+  "alpha": 0.1,
+  "weights": {
+    "corroboration": 0.05,
+    "contradiction": 0.15,
+    "retraction": 0.25
+  },
+  "source_topic_count": 0,
+  "scores": {},
+  "schema_version": "source_trust.v1"
+}

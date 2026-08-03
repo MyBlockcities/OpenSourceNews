@@ -1,0 +1,119 @@
+{
+  "schema": "github_traction_backtest.v1",
+  "generated_at": "2026-08-03T18:56:24Z",
+  "baseline_weights": {
+    "momentum": 0.25,
+    "quality": 0.25,
+    "community": 0.2,
+    "adoption": 0.2
+  },
+  "recommended": {
+    "momentum": 0.25,
+    "quality": 0.25,
+    "community": 0.2,
+    "adoption": 0.2
+  },
+  "results": [
+    {
+      "weights": {
+        "momentum": 0.25,
+        "quality": 0.25,
+        "community": 0.2,
+        "adoption": 0.2
+      },
+      "scored": 15,
+      "passed_gate": 15,
+      "precision_at_10_proxy": 0.1,
+      "top10": [
+        "solana-labs/solana",
+        "qdrant/qdrant",
+        "vllm-project/vllm",
+        "rust-lang/rust",
+        "OpenZeppelin/openzeppelin-contracts",
+        "denoland/deno",
+        "microsoft/TypeScript",
+        "ethereum/go-ethereum",
+        "ggml-org/llama.cpp",
+        "huggingface/transformers"
+      ],
+      "foundational_proxy_count": 1,
+      "note": "precision uses stars/quality proxy until GH Archive outcomes are wired"
+    },
+    {
+      "weights": {
+        "momentum": 0.3,
+        "quality": 0.3,
+        "community": 0.2,
+        "adoption": 0.2
+      },
+      "scored": 15,
+      "passed_gate": 15,
+      "precision_at_10_proxy": 0.1,
+      "top10": [
+        "solana-labs/solana",
+        "qdrant/qdrant",
+        "vllm-project/vllm",
+        "rust-lang/rust",
+        "OpenZeppelin/openzeppelin-contracts",
+        "denoland/deno",
+        "microsoft/TypeScript",
+        "ethereum/go-ethereum",
+        "ggml-org/llama.cpp",
+        "huggingface/transformers"
+      ],
+      "foundational_proxy_count": 1,
+      "note": "precision uses stars/quality proxy until GH Archive outcomes are wired"
+    },
+    {
+      "weights": {
+        "momentum": 0.2,
+        "quality": 0.3,
+        "community": 0.25,
+        "adoption": 0.25
+      },
+      "scored": 15,
+      "passed_gate": 15,
+      "precision_at_10_proxy": 0.1,
+      "top10": [
+        "solana-labs/solana",
+        "vllm-project/vllm",
+        "qdrant/qdrant",
+        "rust-lang/rust",
+        "microsoft/TypeScript",
+        "ethereum/go-ethereum",
+        "OpenZeppelin/openzeppelin-contracts",
+        "denoland/deno",
+        "ggml-org/llama.cpp",
+        "huggingface/transformers"
+      ],
+      "foundational_proxy_count": 1,
+      "note": "precision uses stars/quality proxy until GH Archive outcomes are wired"
+    },
+    {
+      "weights": {
+        "momentum": 0.15,
+        "quality": 0.35,
+        "community": 0.25,
+        "adoption": 0.25
+      },
+      "scored": 15,
+      "passed_gate": 15,
+      "precision_at_10_proxy": 0.1,
+      "top10": [
+        "solana-labs/solana",
+        "rust-lang/rust",
+        "vllm-project/vllm",
+        "qdrant/qdrant",
+        "microsoft/TypeScript",
+        "ethereum/go-ethereum",
+        "denoland/deno",
+        "ggml-org/llama.cpp",
+        "OpenZeppelin/openzeppelin-contracts",
+        "huggingface/transformers"
+      ],
+      "foundational_proxy_count": 1,
+      "note": "precision uses stars/quality proxy until GH Archive outcomes are wired"
+    }
+  ],
+  "methodology": "Smoke backtest on current snapshots. For production: reconstruct day-D metrics from GH Archive (BigQuery githubarchive), classify outcomes 6\u201324 months later (foundational/stable/fading/abandoned/vapor), then maximize precision@10 for foundational."
+}

@@ -100,6 +100,126 @@ TOOL_REGISTRY: Dict[str, Dict[str, Any]] = {
         },
         "handler": tools.get_latest_brief,
     },
+    # ── Hermes consumer tools (v1 contract) ───────────────────────────────
+    "get_latest_atoms": {
+        "description": "Return the latest atoms JSONL (Hermes' primary input).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {"limit": {"type": "integer", "default": 200}},
+        },
+        "handler": tools.get_latest_atoms,
+    },
+    "get_atom_by_id": {
+        "description": "Find a single atom across the latest + previous days.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {"atom_id": {"type": "string"}},
+            "required": ["atom_id"],
+        },
+        "handler": tools.get_atom_by_id,
+    },
+    "get_latest_embedding_ready": {
+        "description": "Return the latest embedding-ready JSONL (clean text + provenance).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {"limit": {"type": "integer", "default": 500}},
+        },
+        "handler": tools.get_latest_embedding_ready,
+    },
+    "get_latest_topics": {
+        "description": "Return the latest public topic snapshot (frequency, rising, cooling).",
+        "inputSchema": {"type": "object", "properties": {}},
+        "handler": tools.get_latest_topics,
+    },
+    "get_latest_entities": {
+        "description": "Return the latest public entity snapshot.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "limit": {"type": "integer", "default": 100},
+                "trajectory": {
+                    "type": "string",
+                    "enum": ["rising", "cooling", "stable", "emerging"],
+                },
+            },
+        },
+        "handler": tools.get_latest_entities,
+    },
+    "get_entity_page": {
+        "description": "Return the per-entity detail page by slug.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {"slug": {"type": "string"}},
+            "required": ["slug"],
+        },
+        "handler": tools.get_entity_page,
+    },
+    "get_latest_consensus": {
+        "description": "Return the latest cross-source consensus clusters.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {"min_members": {"type": "integer", "default": 2}},
+        },
+        "handler": tools.get_latest_consensus,
+    },
+    "get_source_trust": {
+        "description": "Look up per-source per-topic trust scores.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "source": {"type": "string"},
+                "topic": {"type": "string"},
+            },
+        },
+        "handler": tools.get_source_trust,
+    },
+    "get_github_traction": {
+        "description": "Return the latest GitHub traction snapshot.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "limit": {"type": "integer", "default": 50},
+                "full_name": {"type": "string"},
+            },
+        },
+        "handler": tools.get_github_traction,
+    },
+    "get_github_top_this_week": {
+        "description": "Top GitHub repos this week by composite score, quality-gated.",
+        "inputSchema": {
+            "type": "object",
+            "properties": {"limit": {"type": "integer", "default": 25}},
+        },
+        "handler": tools.get_github_top_this_week,
+    },
+    "get_github_fastest_30d": {
+        "description": "Fastest-rising repos in the past 30 days (momentum × quality).",
+        "inputSchema": {
+            "type": "object",
+            "properties": {"limit": {"type": "integer", "default": 25}},
+        },
+        "handler": tools.get_github_fastest_30d,
+    },
+    "hermes_status": {
+        "description": "Operational metadata: which output files exist, sizes, mtimes.",
+        "inputSchema": {"type": "object", "properties": {}},
+        "handler": tools.hermes_status,
+    },
+    "hermes_schedule": {
+        "description": "Public schedule for daily collect and GitHub traction workflows.",
+        "inputSchema": {"type": "object", "properties": {}},
+        "handler": tools.hermes_schedule,
+    },
+    "hermes_topics": {
+        "description": "Latest public topics export plus ontology topic ids.",
+        "inputSchema": {"type": "object", "properties": {}},
+        "handler": tools.hermes_topics,
+    },
+    "hermes_health": {
+        "description": "Health checks for manifest, atoms, embedding_ready, and related artifacts.",
+        "inputSchema": {"type": "object", "properties": {}},
+        "handler": tools.hermes_health,
+    },
 }
 
 

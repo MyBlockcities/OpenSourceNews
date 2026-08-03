@@ -1,0 +1,231 @@
+# config/topics.yaml
+# Public-domain topic ontology for OpenSourceNews.
+#
+# Add new topics via PR. Keep entries generic, evidence-based, and
+# free of private venture names. Subtopics inherit parent keywords;
+# a hit on a subtopic also tags the parent.
+
+version: 1
+last_updated: 2026-08-03
+
+topics:
+  # ─── AI / AI Tools / AI Agents ────────────────────────────────────────────
+  ai_agents:
+    description: AI systems that take actions, use tools, or coordinate with other agents
+    parent: artificial_intelligence
+    keywords:
+      - agent
+      - mcp
+      - autogen
+      - langgraph
+      - crewai
+      - agent framework
+      - tool use
+      - function calling
+    subtopics:
+      - voice_agents
+      - coding_agents
+      - autonomous_agents
+    exclusions:
+      - travel agent
+      - insurance agent
+      - real estate agent
+      - booking agent
+
+  voice_agents:
+    description: Agents that interact via voice / speech / telephony
+    parent: ai_agents
+    keywords:
+      - voice agent
+      - speech
+      - vapi
+      - retell
+      - voiceflow
+      - conversational ai
+      - voice assistant
+
+  coding_agents:
+    description: Agents that write, edit, or debug code
+    parent: ai_agents
+    keywords:
+      - cursor
+      - devin
+      - aider
+      - swe-agent
+      - coding agent
+      - code generation
+      - code review
+
+  autonomous_agents:
+    description: Long-running, self-directed agent systems
+    parent: ai_agents
+    keywords:
+      - autonomous
+      - self-directed
+      - long-running agent
+      - agent loop
+
+  # ─── Real Estate / Property / Geospatial ──────────────────────────────────
+  real_estate_tech:
+    description: Technology applied to real estate analysis, transactions, or visualization
+    parent: real_estate
+    keywords:
+      - parcel
+      - entitlement
+      - zoning
+      - gis
+      - real estate
+      - property tech
+      - proptech
+      - land use
+    subtopics:
+      - tokenization
+      - wholesaling
+      - 3d_visualization
+
+  tokenization:
+    description: Real-world assets represented as blockchain tokens
+    parent: real_estate_tech
+    keywords:
+      - rwa
+      - tokenization
+      - security token
+      - onchain real estate
+      - real estate token
+
+  wholesaling:
+    description: Real estate wholesaling, off-market deal flow
+    parent: real_estate_tech
+    keywords:
+      - wholesale
+      - off-market
+      - motivated seller
+      - distressed property
+      - assignment fee
+
+  3d_visualization:
+    description: 3D, WebGL, Three.js, Blender applied to properties or geospatial
+    parent: real_estate_tech
+    keywords:
+      - three.js
+      - webgl
+      - blender
+      - 3d
+      - digital twin
+      - point cloud
+      - photogrammetry
+
+  # ─── Blockchain / Crypto / Web3 ───────────────────────────────────────────
+  blockchain_rwa:
+    description: Blockchain applied to real-world assets and securities
+    parent: blockchain
+    keywords:
+      - rwa
+      - tokenization
+      - custody
+      - compliance
+      - kyc
+      - securities
+
+  blockchain:
+    description: General blockchain, crypto, and web3
+    keywords:
+      - blockchain
+      - crypto
+      - web3
+      - defi
+      - smart contract
+      - solana
+      - ethereum
+
+  # ─── Wellness / Longevity / Peptides ──────────────────────────────────────
+  wellness_research:
+    description: Evidence-based wellness, longevity, and health research
+    parent: health
+    keywords:
+      - peptide
+      - longevity
+      - supplement
+      - clinical trial
+      - glp-1
+      - hormone
+    exclusions:
+      - crypto pump
+    subtopics:
+      - peptides
+      - longevity_research
+
+  peptides:
+    description: Peptide-specific research, sourcing, and education
+    parent: wellness_research
+    keywords:
+      - peptide
+      - bpc-157
+      - tb-500
+      - semaglutide
+      - tirzepatide
+      - ipamorelin
+    exclusions:
+      - crypto pump
+
+  longevity_research:
+    description: Aging, longevity, and lifespan research
+    parent: wellness_research
+    keywords:
+      - longevity
+      - aging
+      - lifespan
+      - senolytic
+      - nad
+      - metformin
+
+  # ─── Creator Economy / Education ──────────────────────────────────────────
+  creator_economy:
+    description: Tools and platforms for content creators
+    parent: media
+    keywords:
+      - creator
+      - course
+      - tutorial
+      - monetization
+      - youtube
+      - newsletter
+      - substack
+      - audience
+    subtopics:
+      - educational_content
+
+  educational_content:
+    description: Tutorials, walkthroughs, and educational material
+    parent: creator_economy
+    keywords:
+      - tutorial
+      - walkthrough
+      - how to
+      - guide
+      - educational
+      - explainer
+
+  # ─── Open Source / Developer Tools ────────────────────────────────────────
+  open_source:
+    description: Open-source software, projects, and foundations
+    keywords:
+      - open source
+      - github
+      - mit license
+      - apache
+      - foundation
+      - maintainer
+
+  developer_tools:
+    description: Tools that make developers more productive
+    keywords:
+      - developer tool
+      - devtool
+      - cli
+      - sdk
+      - framework
+      - library
+      - rust
+      - typescript
+      - python

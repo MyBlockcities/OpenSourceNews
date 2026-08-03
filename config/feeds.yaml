@@ -25,6 +25,7 @@ topics:
     youtube_sources:
       - "@Fireship"                                                # Fireship - tech news
       - "@ThePrimeTimeagen"                                        # ThePrimeTime
+      - "@t3dotgg"                                                 # Theo - React/Next/TS
 
   # ──────────────────────────────────────────────────────────
   # Bucket 2: AI / AI Tools / AI Agents
@@ -50,6 +51,9 @@ topics:
       - "https://aiagent.marktechpost.com/feed/"                   # AI Agent News
     youtube_sources:
       - "@TwoMinutePapers"
+      - "@mreflow"                                                 # Wes Roth
+      - "@NateHerk"                                                # Nate Herk — agents / n8n
+      - "@AIExplained"                                             # AI Explained
       - "indydevdan"
       - "UC_x36zCEGilGpB1m-V4gmjg"                                # Arseny Shatokhin
       - "UCSv4qL8vmoSH7GaPjuqRiCQ"                                # Matthew Berman
@@ -82,9 +86,12 @@ topics:
       - "https://www.bankless.com/feed"                            # Bankless
       - "https://www.blockchainappfactory.com/blog/feed/"          # Blockchain App Factory
     youtube_sources:
-      - "UChpleBmo18P08aKCIgti38g"                                 # BitBoy X
-      - "UCuV9EB4I9L-xmRoaXd8tmuA"                                # Coin Bureau
-      - "UCqK_GSMbpiV8spgD3ZGloSw"                                # Bankless
+      - "@CoinBureau"                                              # Coin Bureau
+      - "@Bankless"                                                # Bankless
+      - "@IvanOnTech"                                              # Ivan on Tech
+      - "UChpleBmo18P08aKCIgti38g"                                 # BitBoy X (legacy id)
+      - "UCuV9EB4I9L-xmRoaXd8tmuA"                                # Coin Bureau (channel id)
+      - "UCqK_GSMbpiV8spgD3ZGloSw"                                # Bankless (channel id)
     x_sources:
       - "a16zcrypto"
       - "paradigm"
@@ -114,32 +121,26 @@ topics:
       - "@AllInPodcast"                                            # All-In Podcast
       - "@LexFridman"                                              # Long-form interviews
       - "@JohnnyHarris"                                            # Narrative / explainers
+      - "@BloombergTelevision"                                     # Macro / markets baseline
+      - "@VisualCapitalist"                                        # Data viz macro / energy
 
   # ──────────────────────────────────────────────────────────
   # Bucket 5: Alternative News & Independent Commentary
-  # Personality-led, independent, non-institutional, or
-  # opinion-heavy channels. Keep separate from mainstream/research
-  # so downstream apps can label it as commentary needing review.
+  # Lower-risk public-repo sources only. High-controversy
+  # personality channels are intentionally excluded from the
+  # open collection surface (Hermes can still track privately).
+  # Keep separate so downstream apps can label commentary needing review.
   # ──────────────────────────────────────────────────────────
   - topic_name: "Alternative News & Independent Commentary"
     youtube_sources:
-      - "Ian Carroll"                                              # Independent commentary / investigative-style
-      - "@joerogan"                                                # Joe Rogan Experience
-      - "Dr David Martin"                                          # Alternative-health / institutional critique
-      - "Danny Jones podcast"                                      # Interview-driven independent commentary
-      - "Dr Jack Kruse"                                            # Health-focused alternative analysis
-      - "The Align Podcast Aaron Alexander"                        # Health, movement, lifestyle commentary
-      - "@TheDiaryOfACEO"                                          # Business, psychology, culture interviews
-      - "@realCandaceOwens"                                        # Political commentary
-      - "@TuckerCarlson"                                           # Political interviews/commentary
-      - "Alex Jones"                                               # Highly controversial alternative commentary
-      - "Dave Smith podcast"                                       # Libertarian political commentary/interviews
-      - "@breakingpoints"                                          # Anti-establishment political coverage
       - "@Coffeezilla"                                             # Fraud/scam investigations
+      - "@breakingpoints"                                          # Anti-establishment political coverage
       - "@NickShirley"                                             # Street interviews / independent journalism
       - "@johnnyharris"                                            # Independent documentary explainers
       - "@tldrpodcasts"                                            # World news and policy summaries
       - "theindependent"                                           # Conventional independent newsroom
+      - "@TheDiaryOfACEO"                                          # Business, psychology, culture interviews
+      - "Ian Carroll"                                              # Independent commentary (cross-check claims)
 
   # ──────────────────────────────────────────────────────────
   # Bucket 6: Peptides / Wellness / Longevity

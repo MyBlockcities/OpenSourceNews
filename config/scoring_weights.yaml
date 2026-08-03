@@ -1,0 +1,18 @@
+# config/scoring_weights.yaml
+# Composite-score weights for the GitHub traction pipeline.
+#
+# Sub-scores are 0-100, the composite is their weighted sum.
+# The default quality gate is 60/100 — anything below is excluded
+# from "top" lists. Adjust gate via services/repo_scoring.QUALITY_GATE.
+
+weights:
+  momentum: 0.25
+  quality: 0.25
+  community: 0.20
+  adoption: 0.20
+
+quality_gate: 60.0
+
+# These were backtested against GitHub Archive repos that were 30-90d
+# old 6 months ago. Weights and gate here are the v1 starting point.
+# Run `python -m scripts.backtest_scoring` to re-validate.

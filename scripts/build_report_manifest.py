@@ -14,7 +14,7 @@ import os
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
@@ -69,6 +69,25 @@ def build_manifest(
     date = report_path.stem
     relative_path = f"outputs/daily/{report_path.name}"
 
+    def _artifact(rel: str) -> Optional[str]:
+        path = ROOT_DIR / rel
+        return rel if path.exists() else None
+
+    artifacts = {
+        "atoms_jsonl": _artifact(f"outputs/atoms/{date}.jsonl"),
+        "atoms_latest": _artifact("outputs/atoms/latest.jsonl"),
+        "embedding_ready_jsonl": _artifact(f"outputs/embedding_ready/{date}.jsonl"),
+        "embedding_ready_latest": _artifact("outputs/embedding_ready/latest.jsonl"),
+        "topics": _artifact(f"outputs/topics/{date}.json"),
+        "entities": _artifact(f"outputs/entities/{date}.json"),
+        "consensus": _artifact(f"outputs/consensus/{date}.json"),
+        "source_trust": _artifact(f"outputs/source_trust/{date}.json"),
+        "github_traction": _artifact("outputs/github_traction/latest.json"),
+        "github_traction_top": _artifact("outputs/github_traction/top_this_week.json"),
+        "hermes_contract": "HERMES_CONTRACT.md",
+    }
+    artifacts = {k: v for k, v in artifacts.items() if v}
+
     # Keep legacy keys stable for existing Academy / dashboard consumers.
     return {
         "schema": "open_source_news_manifest.v2",
@@ -85,6 +104,7 @@ def build_manifest(
         "unique_cluster_count": len(cluster_ids),
         "source_counts": dict(source_counts),
         "enrichment_pending_count": enrichment_pending,
+        "artifacts": artifacts,
         "workflow_run_id": workflow_run_id or os.environ.get("GITHUB_RUN_ID", ""),
         "commit_sha": commit_sha
         or os.environ.get("GITHUB_SHA", "")

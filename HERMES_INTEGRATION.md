@@ -4,10 +4,15 @@
 
 OpenSourceNews is the public **sensor**. Hermes Agency is the private **brain**.
 
+**Public collection policy:** high-controversy personality channels are excluded from `config/feeds.yaml` (Alternative bucket kept for independent/investigative sources only).
+
+**Stable API contract:** [`HERMES_CONTRACT.md`](HERMES_CONTRACT.md) (v1)  
+This file is the ops / integration guide.
+
 | System | Owns |
 |--------|------|
-| **OpenSourceNews** (`main`) | Discover sources, fetch free metadata, normalize records, stable IDs, manifests, raw git history |
-| **Hermes Agency** | Pull reports, rank signals, embed into Qdrant, deeper enrichment, insights, tutorials, QC, delivery |
+| **OpenSourceNews** (`main`) | Discover sources, fetch free metadata, normalize records, stable IDs, manifests, **atoms / topics / consensus / embedding_ready / GitHub traction**, raw git history |
+| **Hermes Agency** | Pull reports + public intelligence artifacts, rank signals, embed into Qdrant, private project mapping, insights, tutorials, QC, delivery |
 
 ---
 
@@ -136,6 +141,19 @@ Additive:
 - `schema`, `report_schema`, `report_sha256`, `report_bytes`
 - `unique_signal_count`, `unique_cluster_count`, `source_counts`
 - `enrichment_pending_count`, `workflow_run_id`, `commit_sha`
+- `artifacts` — paths to atoms, embedding_ready, topics, entities, consensus, source_trust, github_traction
+
+### Public intelligence artifacts (see HERMES_CONTRACT.md)
+
+| Path | Hermes use |
+|------|------------|
+| `outputs/atoms/{date}.jsonl` | Ingest claims/tools/entities; skip local re-extraction |
+| `outputs/embedding_ready/{date}.jsonl` | Stream `embedding_text` → MiniLM → Qdrant |
+| `outputs/topics/{date}.json` | Public topic frequency / rising |
+| `outputs/entities/{date}.json` | Entity registry |
+| `outputs/consensus/{date}.json` | Cross-source confirmation |
+| `outputs/source_trust/{date}.json` | Per-source trust priors |
+| `outputs/github_traction/latest.json` | Composite traction (quality gate ≥60 for tops) |
 
 ### Daily items (additive; Academy digest still v1)
 
@@ -217,8 +235,14 @@ Watchlists in this repo stay **generalized** (AI agents, RWA, peptides). Private
 
 3. **[x] Pull latest on this machine and ingest the new report** — done (25 ranked signals upserted to `news_signals`; ledger updated for sha `2fb5ea00…`).
 
-4. **[ ] Later (content factory)**  
-   Deep LLM enrichment, critic pass, Telegram / Buzz / Academy review queue.  
+4. **[x] Phase 5 News Factory (first ship)** — `hermes/news_factory/`  
+   - `cli.py nightly` → ingest → alerts → brief under `~/.hermes/data/news_factory/briefs/`  
+   - Telegram bot: `hermes/news_factory/bot.py` (`/brief` `/ask` `/projects` `/watch` …)  
+   - launchd: `ops/launchd/install_news_factory_nightly.sh`  
+   See `hermes/news_factory/README.md`.
+
+5. **[ ] Later (content factory expansion)**  
+   Live Telegram send every morning, Academy publish after code verification, GH Archive weight calibration.  
    Optional `AGENCY_INGEST_URL` webhook only when Hermes has stable public HTTPS — pull + hash remain the reliability baseline.
 
 ---
