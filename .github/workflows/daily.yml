@@ -76,13 +76,19 @@ jobs:
       - name: Build mission briefs
         run: python pipelines/mission_briefs.py
 
-      - name: Public intelligence (atoms, topics, entities, consensus, embedding_ready)
+      - name: Extract atoms + public intelligence sidecars
         env:
-          # Optional cheap atom LLM only when secret present; fail-soft otherwise.
-          ATOM_LLM: ${{ secrets.OPENROUTER_API_KEY != '' && '1' || '0' }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # Set ATOMS_LLM=1 in repo vars to enable cheap LLM atom extraction.
+          # When unset, the pipeline is deterministic-only (fast + free).
+          ATOMS_LLM: ${{ vars.ATOMS_LLM || '0' }}
+          ATOM_LLM: ${{ vars.ATOMS_LLM || '0' }}
+          OPENROUTER_API_KEY: ${{ vars.ATOMS_LLM == '1' && secrets.OPENROUTER_API_KEY || '' }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'openrouter/free' }}
           LLM_PROVIDER: openrouter
-        run: python pipelines/public_intelligence.py
+        run: python scripts/export_atoms.py
+
+      - name: Export embedding-ready JSONL
+        run: python scripts/export_embedding_ready.py
 
       - name: Commit and push report
         if: ${{ github.event_name != 'workflow_dispatch' || inputs.no_commit != 'true' }}
@@ -90,9 +96,9 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions-bot@users.noreply.github.com"
           git add outputs/daily/*.json outputs/transcripts/*.json outputs/briefs \
-            outputs/atoms/** outputs/embedding_ready/** outputs/topics/** \
-            outputs/entities/** outputs/entity_pages/** outputs/consensus/** \
-            outputs/source_trust/** || true
+              outputs/atoms/** outputs/embedding_ready/** outputs/topics/** \
+              outputs/entities/** outputs/entity_pages/** outputs/consensus/** \
+              outputs/source_trust/** || true
           git commit -m "Daily intelligence report for $(date -u +'%Y-%m-%d')" || echo "No changes to commit"
           for attempt in 1 2 3; do
             git pull --rebase origin main

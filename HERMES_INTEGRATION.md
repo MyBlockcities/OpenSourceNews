@@ -4,6 +4,8 @@
 
 OpenSourceNews is the public **sensor**. Hermes Agency is the private **brain**.
 
+**Public collection policy:** high-controversy personality channels are excluded from `config/feeds.yaml` (Alternative bucket kept for independent/investigative sources only).
+
 **Stable API contract:** [`HERMES_CONTRACT.md`](HERMES_CONTRACT.md) (v1)  
 This file is the ops / integration guide.
 

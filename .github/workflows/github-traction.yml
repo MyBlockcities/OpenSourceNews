@@ -1,14 +1,14 @@
-name: GitHub Traction Scoring
+name: GitHub Traction
 
 on:
+  # Run ~30 min after the daily briefing (07:17 UTC).
   schedule:
-    # After daily (~07:17 UTC); Monday also refreshes top_this_week.
-    - cron: "47 8 * * *"
+    - cron: "47 7 * * *"
   workflow_dispatch:
     inputs:
       offline:
-        description: "Skip GitHub API (placeholder scores)"
-        required: true
+        description: "Unused compat flag"
+        required: false
         default: "false"
         type: choice
         options:
@@ -35,25 +35,28 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Run GitHub traction pipeline
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          EXTRA=""
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.offline }}" = "true" ]; then
-            EXTRA="--offline"
-          fi
-          python pipelines/github_traction.py $EXTRA
+        run: python -m pipelines.github_traction
 
-      - name: Commit traction outputs
+      - name: Commit and push traction snapshot
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions-bot@users.noreply.github.com"
-          git add outputs/github_traction/** || true
-          git commit -m "GitHub traction scores for $(date -u +'%Y-%m-%d')" || echo "No changes to commit"
+          git add outputs/github_traction/ || true
+          git commit -m "GitHub traction snapshot for $(date -u +'%Y-%m-%d')" || echo "No changes to commit"
           for attempt in 1 2 3; do
             git pull --rebase origin main
             git push && exit 0

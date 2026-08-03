@@ -1,197 +1,222 @@
-"""Cross-source consensus for claim-like atoms.
+"""Cross-source consensus: cluster similar claims and score agreement.
 
-Algorithm (deterministic, Actions-safe):
-  1. Filter claim / prediction / counterexample atoms
-  2. Token Jaccard cluster (threshold ~0.55) as cosine proxy without vectors
-  3. Canonical text = longest member (centroid proxy)
-  4. Support vs contradiction by atom_type + polarity
-  5. Agreement weighted by source diversity (+ optional trust lookup)
+This module is purely deterministic. It uses the atom_id hash and
+parent_signal_id fields to build a stable cluster_id per claim group.
+No LLM. No embeddings. The clustering is text-similarity over
+normalized claim text — good enough for short, declarative claims.
+
+Output
+------
+- outputs/consensus/{date}.json : per-cluster consensus + divergence
+- Embedding-quality clustering (Qdrant-side) is done by Hermes; this
+  module produces a text-based fallback that runs on free Actions compute.
 """
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import uuid
-from datetime import datetime, timezone
+from collections import defaultdict
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Set
+from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
 
-ROOT_DIR = Path(__file__).resolve().parents[1]
-CONSENSUS_OUT = ROOT_DIR / "outputs" / "consensus"
+from services.news_schema import utc_now_iso
 
-_NORMALIZE_RE = re.compile(r"[^a-z0-9]+")
-CLAIM_NAMESPACE = uuid.uuid5(uuid.NAMESPACE_URL, "https://github.com/MyBlockcities/OpenSourceNews/claims")
+# Cluster ID namespace (separate from atom namespace).
+_CLUSTER_NAMESPACE = uuid.uuid5(
+    uuid.NAMESPACE_URL, "https://github.com/MyBlockcities/OpenSourceNews#claim_cluster"
+)
+
+# How similar two claim texts must be to land in the same cluster.
+# Higher = stricter (fewer merges, more clusters).
+_SIMILARITY_THRESHOLD = 0.78
+
+# A few stopwords that don't carry meaning for clustering.
+_STOPWORDS = {
+    "the", "a", "an", "is", "are", "was", "were", "be", "been", "being",
+    "to", "of", "in", "on", "for", "and", "or", "but", "so", "as", "at",
+    "by", "with", "this", "that", "these", "those", "it", "its", "from",
+    "has", "have", "had", "will", "would", "can", "could", "should", "may",
+    "might", "do", "does", "did", "i", "you", "we", "they", "he", "she",
+    "his", "her", "their", "our", "your", "my",
+}
+
+DEFAULT_CONSENSUS_DIR = Path(__file__).resolve().parents[1] / "outputs" / "consensus"
+
+_WORD_RE = re.compile(r"[a-z0-9]+")
 
 
-def utc_now_iso() -> str:
-    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+def _normalize(text: str) -> List[str]:
+    """Lowercase, strip punctuation, drop stopwords and short tokens."""
+    tokens = _WORD_RE.findall((text or "").lower())
+    return [t for t in tokens if t not in _STOPWORDS and len(t) > 2]
 
 
-def _atomic_write_json(path: Path, payload: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    tmp.replace(path)
-
-
-def tokenize(text: str) -> Set[str]:
-    cleaned = _NORMALIZE_RE.sub(" ", (text or "").lower()).strip()
-    return {t for t in cleaned.split() if len(t) > 2}
-
-
-def jaccard(a: Set[str], b: Set[str]) -> float:
+def _jaccard(a: List[str], b: List[str]) -> float:
     if not a or not b:
         return 0.0
-    inter = len(a & b)
-    union = len(a | b)
-    return inter / union if union else 0.0
+    sa, sb = set(a), set(b)
+    inter = sa & sb
+    union = sa | sb
+    if not union:
+        return 0.0
+    return len(inter) / len(union)
 
 
-def claim_key(text: str) -> str:
-    tokens = sorted(tokenize(text))
-    return " ".join(tokens[:12])
+def _cluster_id(canonical_text: str) -> str:
+    norm = re.sub(r"\s+", " ", (canonical_text or "").strip().lower())
+    return uuid.uuid5(_CLUSTER_NAMESPACE, norm).hex[:24]
 
 
-def compute_agreement(
-    *,
-    confirmation_count: int,
-    contradiction_count: int,
-    source_count: int,
-    mean_trust: float = 0.5,
-) -> float:
-    total = max(1, confirmation_count + contradiction_count)
-    positive_rate = confirmation_count / total
-    if source_count < 2:
-        base = 0.5
-    else:
-        diversity = min(source_count / 5.0, 1.0)
-        base = positive_rate * (0.5 + 0.5 * diversity)
-    return round(max(0.0, min(1.0, base * (0.5 + 0.5 * mean_trust))), 4)
-
-
-def _cluster_claims(atoms: List[Dict[str, Any]], threshold: float = 0.55) -> List[List[Dict[str, Any]]]:
-    """Greedy clustering by token Jaccard (stand-in for cosine 0.82 without embeddings)."""
-    prepared = []
-    for atom in atoms:
-        text = str(atom.get("text") or "")
-        toks = tokenize(text)
-        if len(toks) < 4:
+def collect_claim_atoms(atoms: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Filter atoms to claim-type only. Defensive about shape."""
+    out: List[Dict[str, Any]] = []
+    for a in atoms:
+        if not isinstance(a, dict):
             continue
-        prepared.append({**atom, "_tokens": toks, "_text": text})
-
-    clusters: List[List[Dict[str, Any]]] = []
-    used = [False] * len(prepared)
-    for i, atom in enumerate(prepared):
-        if used[i]:
+        if a.get("atom_type") != "claim":
             continue
-        cluster = [atom]
-        used[i] = True
-        for j in range(i + 1, len(prepared)):
-            if used[j]:
+        text = (a.get("text") or "").strip()
+        if not text:
+            continue
+        out.append(a)
+    return out
+
+
+def cluster_claims(claims: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Cluster similar claims. Single-link clustering by Jaccard over word sets.
+
+    Cheap and good enough for short claim text. Returns a list of cluster
+    dicts (see _build_cluster_record for shape).
+    """
+    # Pre-compute normalized token lists.
+    norm_tokens: List[List[str]] = [_normalize(c.get("text", "")) for c in claims]
+    n = len(claims)
+    parent_idx: List[int] = list(range(n))
+
+    def find(i: int) -> int:
+        while parent_idx[i] != i:
+            parent_idx[i] = parent_idx[parent_idx[i]]
+            i = parent_idx[i]
+        return i
+
+    def union(i: int, j: int) -> None:
+        ri, rj = find(i), find(j)
+        if ri != rj:
+            parent_idx[ri] = rj
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            if find(i) == find(j):
                 continue
-            if jaccard(atom["_tokens"], prepared[j]["_tokens"]) >= threshold:
-                cluster.append(prepared[j])
-                used[j] = True
-        if len(cluster) >= 2:
-            clusters.append(cluster)
-        elif atom.get("atom_type") == "claim" and len(atom["_tokens"]) >= 6:
-            # singleton claims still exported with weak agreement
-            clusters.append(cluster)
+            sim = _jaccard(norm_tokens[i], norm_tokens[j])
+            if sim >= _SIMILARITY_THRESHOLD:
+                union(i, j)
+
+    # Group by root.
+    groups: Dict[int, List[int]] = defaultdict(list)
+    for i in range(n):
+        groups[find(i)].append(i)
+
+    clusters: List[Dict[str, Any]] = []
+    for indices in groups.values():
+        # Canonical text = longest member (most information).
+        canonical_idx = max(indices, key=lambda k: len(claims[k].get("text", "")))
+        clusters.append(_build_cluster_record(claims, indices, canonical_idx))
     return clusters
 
 
-def build_consensus(
-    atoms: List[Dict[str, Any]],
-    items: List[Dict[str, Any]],
+def _build_cluster_record(
+    claims: List[Dict[str, Any]],
+    indices: List[int],
+    canonical_idx: int,
+) -> Dict[str, Any]:
+    canonical = claims[canonical_idx]
+    canonical_text = (canonical.get("text") or "").strip()
+
+    # Source distribution.
+    source_doms: Set[str] = set()
+    polarity_counts: Dict[str, int] = defaultdict(int)
+    atom_ids: List[str] = []
+    parent_signal_ids: List[str] = []
+    evidence: Set[str] = set()
+    for i in indices:
+        c = claims[i]
+        dom = (c.get("parent_source_domain") or "").strip()
+        if dom:
+            source_doms.add(dom)
+        pol = (c.get("polarity") or "neutral").strip().lower()
+        if pol not in {"supports", "neutral", "contradicts"}:
+            pol = "neutral"
+        polarity_counts[pol] += 1
+        if c.get("atom_id"):
+            atom_ids.append(c["atom_id"])
+        if c.get("parent_signal_id"):
+            parent_signal_ids.append(c["parent_signal_id"])
+        for u in c.get("evidence_urls") or []:
+            if u:
+                evidence.add(u)
+
+    # Agreement score: balance of support / contradict + source diversity.
+    total = sum(polarity_counts.values()) or 1
+    support_rate = polarity_counts["supports"] / total
+    contradict_rate = polarity_counts["contradicts"] / total
+    # Diversity bonus: more distinct sources = stronger evidence.
+    diversity = min(len(source_doms) / 5.0, 1.0)
+    # 0-1: how much the cluster "agrees" overall.
+    agreement = round(
+        max(0.0, min(1.0, support_rate - contradict_rate)) * (0.5 + 0.5 * diversity),
+        3,
+    )
+
+    return {
+        "cluster_id": _cluster_id(canonical_text),
+        "canonical_text": canonical_text,
+        "member_count": len(indices),
+        "atom_ids": atom_ids,
+        "parent_signal_ids": parent_signal_ids,
+        "source_domains": sorted(source_doms),
+        "source_count": len(source_doms),
+        "polarity_counts": dict(polarity_counts),
+        "agreement_score": agreement,
+        "evidence_urls": sorted(evidence)[:10],
+        "schema_version": "consensus.v1",
+    }
+
+
+def export_consensus_snapshot(
+    clusters: List[Dict[str, Any]],
     *,
     report_date: str,
-    trust_lookup: Optional[Dict[str, float]] = None,
-) -> Dict[str, Any]:
-    signal_source = {
-        str(i.get("signal_id") or ""): str(i.get("source") or i.get("source_domain") or "unknown")
-        for i in items
-    }
-    claim_atoms = [a for a in atoms if a.get("atom_type") in {"claim", "prediction", "counterexample"}]
-    clusters = _cluster_claims(claim_atoms, threshold=0.55)
-
-    rows = []
-    for cluster in clusters:
-        canonical = max(cluster, key=lambda a: len(str(a.get("_text") or a.get("text") or "")))
-        canonical_text = str(canonical.get("_text") or canonical.get("text") or "")
-        confirming: Set[str] = set()
-        contradicting: Set[str] = set()
-        sources: Set[str] = set()
-        atom_ids = []
-        polarities = []
-        for atom in cluster:
-            parent = str(atom.get("parent_signal_id") or "")
-            source = signal_source.get(parent, "unknown")
-            sources.add(source)
-            atom_ids.append(atom.get("atom_id"))
-            polarity = str(atom.get("polarity") or "").lower()
-            if not polarity:
-                polarity = "contradicts" if atom.get("atom_type") == "counterexample" else "supports"
-            polarities.append(polarity)
-            if polarity == "contradicts":
-                contradicting.add(source)
-            else:
-                confirming.add(source)
-
-        trusts = []
-        for src in sources:
-            if trust_lookup and src in trust_lookup:
-                trusts.append(trust_lookup[src])
-        mean_trust = sum(trusts) / len(trusts) if trusts else 0.5
-
-        strength = compute_agreement(
-            confirmation_count=len(confirming),
-            contradiction_count=len(contradicting),
-            source_count=len(sources),
-            mean_trust=mean_trust,
-        )
-        claim_id = str(uuid.uuid5(CLAIM_NAMESPACE, claim_key(canonical_text) or canonical_text[:64]))
-        rows.append(
-            {
-                "claim_id": claim_id,
-                "claim_key": claim_key(canonical_text),
-                "canonical_text": canonical_text[:400],
-                "sample_text": canonical_text[:400],
-                "member_atom_ids": atom_ids[:30],
-                "atom_ids": atom_ids[:20],
-                "source_count": len(sources),
-                "sources": sorted(sources),
-                "confirmation_count": len(confirming),
-                "contradiction_count": len(contradicting),
-                "confirming_sources": sorted(confirming),
-                "contradicting_sources": sorted(contradicting),
-                "consensus_strength": strength,
-                "atom_types": sorted({str(a.get("atom_type")) for a in cluster}),
-                "schema_version": "consensus.v1",
-            }
-        )
-
-    rows.sort(
-        key=lambda r: (
-            -float(r.get("consensus_strength") or 0),
-            -r["confirmation_count"],
-            -r["source_count"],
-        )
-    )
-    return {
-        "schema": "open_source_news_consensus.v1",
+    out_dir: Path = DEFAULT_CONSENSUS_DIR,
+) -> Path:
+    """Write the per-day consensus snapshot. Atomic write."""
+    out_dir.mkdir(parents=True, exist_ok=True)
+    final = out_dir / f"{report_date}.json"
+    tmp = out_dir / f"{report_date}.json.tmp"
+    payload = {
         "report_date": report_date,
-        "generated_at": utc_now_iso(),
-        "algorithm": "token_jaccard_cluster_v1",
-        "cluster_threshold": 0.55,
-        "claim_cluster_count": len(rows),
-        "claims": rows[:200],
+        "cluster_count": len(clusters),
+        "clusters": clusters,
+        "schema_version": "consensus.v1",
     }
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+    tmp.replace(final)
+    latest = out_dir / "latest.json"
+    if latest.exists() or latest.is_symlink():
+        latest.unlink()
+    latest.write_bytes(final.read_bytes())
+    return final
 
 
-def write_consensus(payload: Dict[str, Any], report_date: str) -> Path:
-    CONSENSUS_OUT.mkdir(parents=True, exist_ok=True)
-    path = CONSENSUS_OUT / f"{report_date}.json"
-    _atomic_write_json(path, payload)
-    _atomic_write_json(CONSENSUS_OUT / "latest.json", payload)
-    return path
+def find_consensus(
+    atoms: List[Dict[str, Any]],
+    *,
+    report_date: str,
+) -> List[Dict[str, Any]]:
+    """Convenience: collect claims, cluster them, return the cluster list."""
+    claims = collect_claim_atoms(atoms)
+    return cluster_claims(claims)

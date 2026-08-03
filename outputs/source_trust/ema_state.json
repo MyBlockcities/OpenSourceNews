@@ -1,21 +1,5 @@
 {
   "schema": "source_trust_ema_state.v1",
-  "alpha": 0.1,
-  "scores": {
-    "RSS::untagged": {
-      "score": 0.52,
-      "evidence_count": 24,
-      "last_updated": "2026-08-03T18:56:25Z"
-    },
-    "Hacker News::untagged": {
-      "score": 0.535,
-      "evidence_count": 11,
-      "last_updated": "2026-08-03T18:56:25Z"
-    },
-    "YouTube::untagged": {
-      "score": 0.595,
-      "evidence_count": 19,
-      "last_updated": "2026-08-03T18:56:25Z"
-    }
-  }
+  "scores": {},
+  "version": 1
 }

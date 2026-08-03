@@ -1,33 +1,123 @@
-# Tracked GitHub repos for traction scoring (seed from channels_to_follow.md).
+# config/tracked_repos.yaml
+# Seed list for the GitHub traction pipeline.
+#
+# Add repos via PR. Each entry has a tier (1=must-track, 2=weekly, 3=on-demand)
+# and a bucket hint that maps to public_topics.
 
 repos:
-  - full_name: langchain-ai/langchain
-    topics: [ai_agents, ai_models]
-  - full_name: ggml-org/llama.cpp
-    topics: [ai_models]
-  - full_name: vllm-project/vllm
-    topics: [ai_models]
-  - full_name: vercel/next.js
-    topics: [open_source_dev]
-  - full_name: microsoft/TypeScript
-    topics: [open_source_dev]
-  - full_name: OpenZeppelin/openzeppelin-contracts
-    topics: [blockchain_rwa]
-  - full_name: ethereum/go-ethereum
-    topics: [blockchain_rwa]
-  - full_name: solana-labs/solana
-    topics: [blockchain_rwa]
-  - full_name: huggingface/transformers
-    topics: [ai_models]
-  - full_name: qdrant/qdrant
-    topics: [ai_agents, open_source_dev]
-  - full_name: modelcontextprotocol/servers
-    topics: [ai_agents]
-  - full_name: n8n-io/n8n
-    topics: [ai_agents]
-  - full_name: facebook/react
-    topics: [open_source_dev]
-  - full_name: rust-lang/rust
-    topics: [open_source_dev]
-  - full_name: denoland/deno
-    topics: [open_source_dev]
+  # ── Tier 1: AI Agents / MCP / Agent Infra ────────────────────────────────
+  - full_name: "modelcontextprotocol/modelcontextprotocol"
+    tier: 1
+    bucket: "ai"
+    notes: "MCP spec — the standard for agent interop"
+  - full_name: "modelcontextprotocol/python-sdk"
+    tier: 1
+    bucket: "ai"
+    notes: "Official Python MCP SDK"
+  - full_name: "modelcontextprotocol/typescript-sdk"
+    tier: 1
+    bucket: "ai"
+    notes: "Official TypeScript MCP SDK"
+  - full_name: "langchain-ai/langchain"
+    tier: 1
+    bucket: "ai"
+    notes: "LangChain agent framework"
+  - full_name: "langchain-ai/langgraph"
+    tier: 1
+    bucket: "ai"
+    notes: "LangGraph stateful agent runtime"
+  - full_name: "microsoft/autogen"
+    tier: 1
+    bucket: "ai"
+    notes: "Autogen multi-agent framework"
+  - full_name: "crewAIInc/crewAI"
+    tier: 1
+    bucket: "ai"
+    notes: "CrewAI multi-agent orchestration"
+
+  # ── Tier 1: Local Models / Inference ─────────────────────────────────────
+  - full_name: "ggerganov/llama.cpp"
+    tier: 1
+    bucket: "ai"
+    notes: "Local LLM inference"
+  - full_name: "vllm-project/vllm"
+    tier: 1
+    bucket: "ai"
+    notes: "High-throughput LLM serving"
+  - full_name: "ollama/ollama"
+    tier: 1
+    bucket: "ai"
+    notes: "Local model runner — used by Hermes"
+
+  # ── Tier 1: Voice Agents ─────────────────────────────────────────────────
+  - full_name: "VapiAI/vapi-python"
+    tier: 1
+    bucket: "ai"
+    notes: "Vapi voice agent SDK"
+  - full_name: "VapiAI/vapi-server-sdk-python"
+    tier: 1
+    bucket: "ai"
+
+  # ── Tier 1: Coding Agents ────────────────────────────────────────────────
+  - full_name: "getcursor/cursor"
+    tier: 1
+    bucket: "ai"
+    notes: "Cursor IDE (public mirror if available; skip if 404)"
+  - full_name: "Aider-AI/aider"
+    tier: 1
+    bucket: "ai"
+    notes: "Aider AI pair programming"
+
+  # ── Tier 1: Web / Real Estate Tech ───────────────────────────────────────
+  - full_name: "vercel/next.js"
+    tier: 1
+    bucket: "real_estate_tech"
+    notes: "Next.js — primary web framework"
+  - full_name: "mrdoob/three.js"
+    tier: 1
+    bucket: "real_estate_tech"
+    notes: "Three.js — for Blockcities 3D"
+
+  # ── Tier 1: Smart Contracts / Web3 / RWA ─────────────────────────────────
+  - full_name: "OpenZeppelin/openzeppelin-contracts"
+    tier: 1
+    bucket: "blockchain"
+    notes: "Solidity contract library"
+  - full_name: "solana-labs/solana"
+    tier: 1
+    bucket: "blockchain"
+    notes: "Solana L1"
+
+  # ── Tier 2: Worth Watching Weekly ────────────────────────────────────────
+  - full_name: "huggingface/transformers"
+    tier: 2
+    bucket: "ai"
+  - full_name: "ggerganov/whisper.cpp"
+    tier: 2
+    bucket: "ai"
+  - full_name: "langchain-ai/langserve"
+    tier: 2
+    bucket: "ai"
+  - full_name: "openai/openai-python"
+    tier: 2
+    bucket: "ai"
+  - full_name: "anthropics/anthropic-sdk-python"
+    tier: 2
+    bucket: "ai"
+  - full_name: "denoland/deno"
+    tier: 2
+    bucket: "developer_tools"
+  - full_name: "withastro/astro"
+    tier: 2
+    bucket: "developer_tools"
+
+  # ── Tier 3: Rotating Discovery Pool ───────────────────────────────────────
+  - full_name: "godotengine/godot"
+    tier: 3
+    bucket: "developer_tools"
+  - full_name: "tauri-apps/tauri"
+    tier: 3
+    bucket: "developer_tools"
+  - full_name: "expo/expo"
+    tier: 3
+    bucket: "developer_tools"

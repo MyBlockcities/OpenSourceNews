@@ -1,7 +1,32 @@
 #!/usr/bin/env python3
-"""Export embedding-ready JSONL (no vectors) for Hermes MiniLM upsert.
+"""Export embedding-ready JSONL for Hermes.
 
-Hermes streams this file, embeds locally, and upserts to Qdrant.
+Produces one record per line, ready for the local MiniLM embedder.
+This script does NOT embed. It only prepares clean text + provenance
++ stable external_id so Hermes can stream-embed in one pass.
+
+Per-line record shape
+---------------------
+{
+  "external_id":      "opensourcenews:atom:{atom_id}" | "opensourcenews:signal:{signal_id}",
+  "record_type":      "atom" | "signal",
+  "embedding_text":   "<clean text for embedding>",
+  "payload": {
+    "schema_version":  "embed_ready.v1",
+    "source":          "OpenSourceNews",
+    "report_date":     "YYYY-MM-DD",
+    "public_topics":   ["ai_agents", "real_estate_tech"],
+    "parent_signal_id":"...",
+    "atom_id":         "..." | null,
+    "atom_type":       "claim" | null,
+    "source_domain":   "...",
+    "url":             "...",
+    "title":           "...",
+  }
+}
+
+Usage:
+    python scripts/export_embedding_ready.py --date 2026-08-03
 """
 
 from __future__ import annotations
@@ -11,177 +36,190 @@ import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, Iterable, List
+from typing import Any, Dict, Iterable, List, Optional
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT_DIR))
 
-from services.news_schema import add_item_ids, canonicalize_url
-
-
 DAILY_DIR = ROOT_DIR / "outputs" / "daily"
 ATOMS_DIR = ROOT_DIR / "outputs" / "atoms"
-OUT_DIR = ROOT_DIR / "outputs" / "embedding_ready"
+EMBED_DIR = ROOT_DIR / "outputs" / "embedding_ready"
+EMBED_DIR.mkdir(parents=True, exist_ok=True)
+
+# Cap embedding text length to keep MiniLM input reasonable.
+MAX_EMBED_CHARS = 1800
 
 
-def utc_now_iso() -> str:
-    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
-
-def _atomic_write_text(path: Path, text: str) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(text, encoding="utf-8")
-    tmp.replace(path)
-
-
-def latest_report(explicit: str = "") -> Path | None:
-    if explicit:
-        p = Path(explicit)
-        return p if p.exists() else None
-    files = sorted(DAILY_DIR.glob("*.json"), reverse=True)
-    return files[0] if files else None
-
-
-def signal_records(report: Dict[str, Any], report_date: str) -> List[Dict[str, Any]]:
-    rows: List[Dict[str, Any]] = []
-    for topic, items in (report or {}).items():
-        if not isinstance(items, list):
-            continue
-        for raw in items:
-            if not isinstance(raw, dict):
-                continue
-            item = add_item_ids(dict(raw))
-            signal_id = item.get("signal_id") or ""
-            title = item.get("title") or ""
-            summary = item.get("summary") or item.get("excerpt") or ""
-            url = item.get("canonical_url") or canonicalize_url(str(item.get("url") or ""))
-            embedding_text = "\n\n".join(
-                part for part in (title, summary, item.get("excerpt") or "") if str(part).strip()
-            ).strip()
-            if not embedding_text:
-                continue
-            rows.append(
-                {
-                    "external_id": f"opensourcenews:signal:{signal_id}",
-                    "record_type": "news_signal",
-                    "signal_id": signal_id,
-                    "parent_signal_id": signal_id,
-                    "atom_id": "",
-                    "report_date": report_date,
-                    "embedding_text": embedding_text[:12000],
-                    "title": title,
-                    "url": item.get("url") or "",
-                    "canonical_url": url,
-                    "source": item.get("source") or "",
-                    "bucket": item.get("bucket") or "",
-                    "topics": item.get("topics") or [topic],
-                    "public_topics": item.get("public_topics") or [],
-                    "entities": item.get("entities") or [],
-                    "content_hash": item.get("content_hash") or "",
-                    "fetched_at": item.get("fetched_at") or "",
-                    "enrichment_status": item.get("enrichment_status") or "pending",
-                    "tutorial_potential": item.get("tutorial_potential"),
-                    "schema_version": "embedding_ready.v1",
-                    "provenance": {
-                        "source_url": item.get("url") or "",
-                        "canonical_url": url,
-                        "fetched_at": item.get("fetched_at") or "",
-                        "report_date": report_date,
-                    },
-                }
-            )
-    return rows
-
-
-def atom_records(atoms_path: Path, report_date: str) -> List[Dict[str, Any]]:
-    if not atoms_path.exists():
+def _read_jsonl(path: Path) -> Iterable[Dict[str, Any]]:
+    if not path.exists():
         return []
-    rows: List[Dict[str, Any]] = []
-    for line in atoms_path.read_text(encoding="utf-8").splitlines():
-        if not line.strip():
-            continue
-        atom = json.loads(line)
-        text = str(atom.get("text") or "").strip()
-        if not text:
-            continue
-        atom_id = atom.get("atom_id") or ""
-        parent = atom.get("parent_signal_id") or ""
-        rows.append(
-            {
-                "external_id": f"opensourcenews:atom:{atom_id}",
-                "record_type": "news_atom",
-                "signal_id": parent,
-                "parent_signal_id": parent,
-                "atom_id": atom_id,
-                "atom_type": atom.get("atom_type") or "",
-                "report_date": report_date,
-                "embedding_text": text[:12000],
-                "title": text[:160],
-                "url": (atom.get("evidence_urls") or [""])[0],
-                "canonical_url": (atom.get("evidence_urls") or [""])[0],
-                "source": "atom_extraction",
-                "bucket": "",
-                "topics": [],
-                "public_topics": atom.get("public_topics") or [],
-                "entities": [],
-                "content_hash": "",
-                "fetched_at": atom.get("extracted_at") or "",
-                "enrichment_status": "pending",
-                "schema_version": "embedding_ready.v1",
-                "provenance": {
-                    "parent_signal_id": parent,
-                    "atom_id": atom_id,
-                    "extracted_at": atom.get("extracted_at") or "",
-                    "report_date": report_date,
-                },
-            }
-        )
-    return rows
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                yield json.loads(line)
+            except json.JSONDecodeError:
+                continue
 
 
-def write_jsonl(path: Path, records: Iterable[Dict[str, Any]]) -> int:
-    lines = [json.dumps(rec, ensure_ascii=False) for rec in records]
-    _atomic_write_text(path, "\n".join(lines) + ("\n" if lines else ""))
-    return len(lines)
+def _read_json(path: Path) -> Optional[Dict[str, Any]]:
+    if not path.exists():
+        return None
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return None
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Export embedding-ready JSONL for Hermes")
-    parser.add_argument("--report", default="")
-    parser.add_argument("--date", default="")
-    parser.add_argument("--include-atoms", action="store_true", default=True)
-    parser.add_argument("--signals-only", action="store_true")
-    args = parser.parse_args()
+def _clip(text: str, limit: int = MAX_EMBED_CHARS) -> str:
+    if not text:
+        return ""
+    text = text.strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    boundary = cut.rfind(" ")
+    if boundary >= limit * 0.6:
+        cut = cut[:boundary]
+    return cut.rstrip(" ,;:-") + "…"
 
-    report_path = latest_report(args.report)
-    if report_path is None:
-        print("No daily report found")
+
+def _build_embedding_text(item: Dict[str, Any]) -> str:
+    """Build a clean text representation for the local embedder."""
+    parts: List[str] = []
+    title = (item.get("title") or "").strip()
+    if title:
+        parts.append(title)
+    summary = (item.get("summary") or "").strip()
+    if summary:
+        parts.append(summary)
+    excerpt = (item.get("excerpt") or "").strip()
+    if excerpt and excerpt != summary:
+        parts.append(excerpt)
+    bucket = (item.get("bucket") or "").strip()
+    if bucket:
+        parts.append(f"[bucket: {bucket}]")
+    return _clip("\n\n".join(parts))
+
+
+def _iter_items(date_str: str) -> Iterable[Dict[str, Any]]:
+    """Yield normalized items from outputs/daily/{date}.json, all topics."""
+    from services.news_schema import add_item_ids
+    from services.topics import add_public_topics, load_topics
+
+    report = _read_json(DAILY_DIR / f"{date_str}.json")
+    if not isinstance(report, dict):
         return
-    report_date = args.date or report_path.stem
-    report = json.loads(report_path.read_text(encoding="utf-8"))
+    topics = load_topics()
+    for _topic, topic_items in report.items():
+        if not isinstance(topic_items, list):
+            continue
+        for it in topic_items:
+            if isinstance(it, dict):
+                item = add_item_ids(dict(it))
+                yield add_public_topics(item, topics)
 
-    records = signal_records(report, report_date)
-    if args.include_atoms and not args.signals_only:
-        records.extend(atom_records(ATOMS_DIR / f"{report_date}.jsonl", report_date))
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    out = OUT_DIR / f"{report_date}.jsonl"
-    latest = OUT_DIR / "latest.jsonl"
-    count = write_jsonl(out, records)
-    latest.write_bytes(out.read_bytes())
-    meta = {
-        "schema": "open_source_news_embedding_ready_manifest.v1",
-        "report_date": report_date,
-        "record_count": count,
-        "generated_at": utc_now_iso(),
-        "jsonl_path": f"outputs/embedding_ready/{report_date}.jsonl",
-        "embedding_field": "embedding_text",
-        "notes": "No vectors; Hermes embeds with local all-MiniLM (384-d).",
+def _signal_record(item: Dict[str, Any], date_str: str) -> Optional[Dict[str, Any]]:
+    text = _build_embedding_text(item)
+    if not text:
+        return None
+    signal_id = (item.get("signal_id") or "").strip()
+    if not signal_id:
+        return None
+    return {
+        "external_id": f"opensourcenews:signal:{signal_id}",
+        "record_type": "signal",
+        "embedding_text": text,
+        "payload": {
+            "schema_version": "embed_ready.v1",
+            "source": "OpenSourceNews",
+            "report_date": date_str,
+            "public_topics": list(item.get("public_topics") or []),
+            "parent_signal_id": signal_id,
+            "atom_id": None,
+            "atom_type": None,
+            "source_domain": (item.get("source_domain") or "").strip(),
+            "url": (item.get("canonical_url") or item.get("url") or "").strip(),
+            "title": (item.get("title") or "").strip(),
+        },
     }
-    _atomic_write_text(OUT_DIR / f"{report_date}.manifest.json", json.dumps(meta, indent=2) + "\n")
-    print(f"Embedding-ready written: {out} ({count})")
+
+
+def _atom_record(atom: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    text = _clip(str(atom.get("text") or ""))
+    if not text:
+        return None
+    atom_id = (atom.get("atom_id") or "").strip()
+    if not atom_id:
+        return None
+    return {
+        "external_id": f"opensourcenews:atom:{atom_id}",
+        "record_type": "atom",
+        "embedding_text": text,
+        "payload": {
+            "schema_version": "embed_ready.v1",
+            "source": "OpenSourceNews",
+            "report_date": atom.get("report_date", ""),
+            "public_topics": list(atom.get("public_topics") or []),
+            "parent_signal_id": (atom.get("parent_signal_id") or "").strip(),
+            "atom_id": atom_id,
+            "atom_type": atom.get("atom_type", ""),
+            "source_domain": (atom.get("parent_source_domain") or "").strip(),
+            "url": (atom.get("parent_canonical_url") or "").strip(),
+            "title": (atom.get("text") or "")[:120],
+        },
+    }
+
+
+def run(date_str: Optional[str] = None) -> Dict[str, Any]:
+    if not date_str:
+        date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    out_path = EMBED_DIR / f"{date_str}.jsonl"
+    tmp = EMBED_DIR / f"{date_str}.jsonl.tmp"
+    counts = {"signal": 0, "atom": 0, "skipped": 0}
+    with open(tmp, "w", encoding="utf-8") as f:
+        # One record per signal.
+        for item in _iter_items(date_str):
+            rec = _signal_record(item, date_str)
+            if rec is None:
+                counts["skipped"] += 1
+                continue
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+            counts["signal"] += 1
+        # One record per atom.
+        for atom in _read_jsonl(ATOMS_DIR / f"{date_str}.jsonl"):
+            rec = _atom_record(atom)
+            if rec is None:
+                counts["skipped"] += 1
+                continue
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+            counts["atom"] += 1
+    tmp.replace(out_path)
+    latest = EMBED_DIR / "latest.jsonl"
+    if latest.exists() or latest.is_symlink():
+        latest.unlink()
+    latest.write_bytes(out_path.read_bytes())
+    return {
+        "ok": True,
+        "date": date_str,
+        "out_path": str(out_path),
+        **counts,
+        "schema_version": "embed_ready_run.v1",
+    }
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Export embedding-ready JSONL for Hermes.")
+    parser.add_argument("--date", default=None, help="YYYY-MM-DD (default: today UTC)")
+    args = parser.parse_args()
+    summary = run(args.date)
+    print(json.dumps(summary, indent=2, ensure_ascii=False))
+    return 0 if summary.get("ok") else 1
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

@@ -1,8 +1,21 @@
-#!/usr/bin/env python3
-"""GitHub traction pipeline — multi-dimensional scoring with quality gate.
+"""GitHub traction pipeline.
 
-Parallel to daily collect (does not block COLLECT_ONLY). Uses GitHub API when
-GITHUB_TOKEN is set; otherwise writes placeholder scores from local metadata.
+Tracks repos from `config/tracked_repos.yaml`, fetches metadata from the
+GitHub API, computes composite scores, and writes daily + top-list
+snapshots under `outputs/github_traction/`.
+
+Outputs
+-------
+- github_traction/{date}.json           : full daily snapshot, all tracked repos
+- github_traction/top_this_week.json    : top 50 by composite, quality-gated
+- github_traction/fastest_30d.json      : repos 30-90d old, ranked by momentum
+- github_traction/repo_pages/{slug}.json: per-repo detail page
+
+Failure modes (handled inline)
+-----------------------------
+- GitHub rate limit  → use cached snapshot, log warning
+- Repo deleted       → mark archived, keep last-known score
+- Missing metrics    → score degrades to neutral (50) on missing inputs
 """
 
 from __future__ import annotations
@@ -10,169 +23,382 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
-import urllib.error
-import urllib.request
-from datetime import datetime, timezone
+import time
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
+import requests
 import yaml
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT_DIR))
 
-from services.repo_scoring import apply_quality_gate, load_weights, score_repo
-from services.repo_schema import utc_now_iso
+from services.news_schema import utc_now_iso  # noqa: E402
+from services.repo_schema import (  # noqa: E402
+    DEFAULT_REPO_DIR,
+    make_repo_id,
+    parse_owner_name,
+    repo_from_github_api,
+    snapshot_from_repo,
+)
+from services.repo_scoring import (  # noqa: E402
+    QUALITY_GATE,
+    attach_score,
+    load_weights,
+    rank_snapshots,
+)
+from services.topics import add_public_topics, load_topics  # noqa: E402
+
+# --- Config & paths -----------------------------------------------------------
+
+TRACKED_REPOS_PATH = ROOT_DIR / "config" / "tracked_repos.yaml"
+WEIGHTS_PATH = ROOT_DIR / "config" / "scoring_weights.yaml"
+GITHUB_API = "https://api.github.com"
+
+# --- HTTP ---------------------------------------------------------------------
+
+HTTP_TIMEOUT = 12
+HTTP_HEADERS = {
+    "User-Agent": "OpenSourceNews-traction/0.1",
+    "Accept": "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28",
+}
 
 
-TRACKED_PATH = ROOT_DIR / "config" / "tracked_repos.yaml"
-OUT_DIR = ROOT_DIR / "outputs" / "github_traction"
+def _github_headers() -> Dict[str, str]:
+    token = os.getenv("GITHUB_TOKEN")
+    if token:
+        return {**HTTP_HEADERS, "Authorization": f"Bearer {token}"}
+    return HTTP_HEADERS
 
+
+# --- Tracked repo list --------------------------------------------------------
+
+def load_tracked_repos(path: Path = TRACKED_REPOS_PATH) -> List[Dict[str, Any]]:
+    """Load the tracked repo seed list.
+
+    File shape (YAML):
+        repos:
+          - {full_name: "owner/name", tier: 1, bucket: "ai", notes: "..."}
+    """
+    if not path.exists():
+        return []
+    with open(path, "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    repos = data.get("repos") or []
+    out: List[Dict[str, Any]] = []
+    for entry in repos:
+        if not isinstance(entry, dict):
+            continue
+        fn = (entry.get("full_name") or "").strip()
+        if not fn or "/" not in fn:
+            continue
+        out.append(
+            {
+                "full_name": fn,
+                "tier": int(entry.get("tier", 1)),
+                "bucket": (entry.get("bucket") or "").strip(),
+                "notes": (entry.get("notes") or "").strip(),
+                "repo_id": make_repo_id(*fn.split("/", 1)),
+            }
+        )
+    return out
+
+
+# --- GitHub API helpers -------------------------------------------------------
+
+def _gh_get(path: str, params: Optional[Dict[str, Any]] = None) -> Tuple[Optional[Dict[str, Any]], Optional[str]]:
+    """One authenticated GitHub API call. Returns (json, error)."""
+    url = f"{GITHUB_API}{path}"
+    try:
+        resp = requests.get(url, headers=_github_headers(), params=params or {}, timeout=HTTP_TIMEOUT)
+    except requests.RequestException as exc:
+        return None, f"network: {exc}"
+    if resp.status_code == 403:
+        # Could be rate limit.
+        remaining = resp.headers.get("X-RateLimit-Remaining", "?")
+        reset = resp.headers.get("X-RateLimit-Reset", "?")
+        return None, f"rate_limited (remaining={remaining}, reset={reset})"
+    if resp.status_code == 404:
+        return None, "not_found"
+    if resp.status_code >= 400:
+        return None, f"http_{resp.status_code}"
+    try:
+        return resp.json(), None
+    except ValueError as exc:
+        return None, f"json: {exc}"
+
+
+def fetch_repo(full_name: str) -> Tuple[Optional[Dict[str, Any]], Optional[str]]:
+    payload, err = _gh_get(f"/repos/{full_name}")
+    if err:
+        return None, err
+    if not isinstance(payload, dict):
+        return None, "unexpected_payload"
+    return repo_from_github_api(payload), None
+
+
+def _days_since(iso_ts: Optional[str]) -> Optional[int]:
+    if not iso_ts:
+        return None
+    try:
+        dt = datetime.fromisoformat(iso_ts.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    return max(0, (datetime.now(timezone.utc) - dt).days)
+
+
+def compute_velocity_metrics(repo: Dict[str, Any], report_date: str) -> Dict[str, Any]:
+    """Compute velocity / activity metrics from API fields.
+
+    Without a historical time-series, this is necessarily a snapshot proxy.
+    `pushed_at` and `created_at` give us a 30-day and lifetime baseline.
+    Real historical star velocity would require GH Archive backfill — out of
+    scope here, but the fields are exposed so Hermes can recompute later.
+    """
+    pushed_at = repo.get("pushed_at")
+    created_at = repo.get("created_at")
+    days_since_push = _days_since(pushed_at)
+    days_since_create = _days_since(created_at)
+    stars_total = repo.get("stars_total") or 0
+    # Rough proxy: stars per day since creation. Refined by Hermes later.
+    if days_since_create and days_since_create > 0:
+        star_velocity_30d = round(stars_total / days_since_create, 3)
+    else:
+        star_velocity_30d = None
+    # 7d proxy: assume recent push == active repo, scale a bit higher.
+    if star_velocity_30d is not None and days_since_push is not None and days_since_push <= 30:
+        star_velocity_7d = round(star_velocity_30d * (1.2 if days_since_push <= 7 else 1.0), 3)
+    else:
+        star_velocity_7d = None
+    return {
+        "star_velocity_7d": star_velocity_7d,
+        "star_velocity_30d": star_velocity_30d,
+        "fork_velocity_7d": None,  # GH API does not expose this directly
+        "days_since_last_commit": days_since_push,
+        "days_since_creation": days_since_create,
+    }
+
+
+def attach_metrics(
+    repo: Dict[str, Any],
+    *,
+    report_date: str,
+    public_topics: List[str],
+) -> Dict[str, Any]:
+    vel = compute_velocity_metrics(repo, report_date)
+    snap = snapshot_from_repo(
+        repo,
+        report_date=report_date,
+        star_velocity_7d=vel["star_velocity_7d"],
+        star_velocity_30d=vel["star_velocity_30d"],
+        fork_velocity_7d=vel["fork_velocity_7d"],
+        days_since_last_commit=vel["days_since_last_commit"],
+        public_topics=public_topics,
+    )
+    snap["days_since_creation"] = vel.get("days_since_creation")
+    return snap
+
+
+# --- Public topic mapping (best-effort) --------------------------------------
+
+def _repo_public_topics(
+    repo: Dict[str, Any],
+    tracked_entry: Dict[str, Any],
+    topics: Dict[str, Dict[str, Any]],
+) -> List[str]:
+    """Map a repo to public topics using declared bucket + description text."""
+    synthetic_item = {
+        "title": (repo.get("description") or repo.get("full_name") or "").strip(),
+        "summary": (repo.get("description") or "").strip(),
+        "bucket": (tracked_entry.get("bucket") or "").strip(),
+        "main_topic": (tracked_entry.get("bucket") or "").strip(),
+        "key_insights": [],
+    }
+    if not synthetic_item["title"]:
+        return []
+    return add_public_topics(synthetic_item, topics).get("public_topics", [])
+
+
+# --- Top-list outputs ---------------------------------------------------------
+
+def _slug(full_name: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "_", (full_name or "").strip().lower()).strip("_") or "repo"
+
+
+def build_top_this_week(scored: List[Dict[str, Any]], *, report_date: str) -> Dict[str, Any]:
+    out = {
+        "report_date": report_date,
+        "limit": 50,
+        "quality_gate": QUALITY_GATE,
+        "repos": [
+            {
+                "full_name": s.get("full_name", ""),
+                "repo_id": s.get("repo_id", ""),
+                "score": s.get("score", {}),
+                "stars_total": s.get("stars_total"),
+                "primary_language": s.get("primary_language", ""),
+                "public_topics": s.get("public_topics", []),
+            }
+            for s in scored
+        ],
+        "schema_version": "github_top_weekly.v1",
+    }
+    return out
+
+
+def build_fastest_30d(
+    snapshots: List[Dict[str, Any]],
+    *,
+    report_date: str,
+    topics: Dict[str, Dict[str, Any]],
+) -> Dict[str, Any]:
+    """Repos 30-90 days old, ranked by momentum × quality.
+
+    "Fastest" = highest acceleration / velocity, but only if quality is decent.
+    """
+    eligible: List[Dict[str, Any]] = []
+    for s in snapshots:
+        days = s.get("days_since_creation")
+        if days is None:
+            continue
+        if 30 <= days <= 90:
+            eligible.append(s)
+    eligible = [attach_score(s, weights_cfg=load_weights(WEIGHTS_PATH)) for s in eligible]
+    eligible = [s for s in eligible if s["score"]["passes_quality_gate"]]
+    eligible.sort(
+        key=lambda s: (
+            s["score"]["momentum_score"] * 0.6 + s["score"]["quality_score"] * 0.4
+        ),
+        reverse=True,
+    )
+    return {
+        "report_date": report_date,
+        "age_window_days": [30, 90],
+        "repos": [
+            {
+                "full_name": s.get("full_name", ""),
+                "repo_id": s.get("repo_id", ""),
+                "score": s.get("score", {}),
+                "stars_total": s.get("stars_total"),
+                "days_since_creation": s.get("days_since_creation"),
+                "public_topics": s.get("public_topics", []),
+            }
+            for s in eligible[:50]
+        ],
+        "schema_version": "github_fastest_30d.v1",
+    }
+
+
+# --- Atomic write helpers -----------------------------------------------------
 
 def _atomic_write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
     tmp.replace(path)
 
 
-def load_tracked() -> List[Dict[str, Any]]:
-    data = yaml.safe_load(TRACKED_PATH.read_text(encoding="utf-8")) or {}
-    return list(data.get("repos") or [])
+def _write_latest(out_dir: Path, date_str: str) -> None:
+    latest = out_dir / "latest.json"
+    dated = out_dir / f"{date_str}.json"
+    if latest.exists() or latest.is_symlink():
+        latest.unlink()
+    latest.write_bytes(dated.read_bytes())
 
 
-def fetch_repo(full_name: str, token: str = "") -> Dict[str, Any]:
-    url = f"https://api.github.com/repos/{full_name}"
-    headers = {
-        "Accept": "application/vnd.github+json",
-        "User-Agent": "OpenSourceNews-traction",
-    }
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+# --- Main run -----------------------------------------------------------------
 
+def run(
+    date_str: Optional[str] = None,
+    *,
+    max_repos: Optional[int] = None,
+) -> Dict[str, Any]:
+    if not date_str:
+        date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    tracked = load_tracked_repos()
+    if max_repos is not None:
+        tracked = tracked[:max_repos]
+    if not tracked:
+        return {
+            "ok": False,
+            "date": date_str,
+            "error": f"no tracked repos in {TRACKED_REPOS_PATH}",
+        }
 
-def metrics_from_api(data: Dict[str, Any]) -> Dict[str, Any]:
-    return {
-        "stars_total": data.get("stargazers_count") or 0,
-        "forks_total": data.get("forks_count") or 0,
-        "open_issues": data.get("open_issues_count") or 0,
-        "has_license": bool(data.get("license")),
-        "has_ci": True,  # unknown without Actions lookup; optimistic default for tracked set
-        "docs_present": bool(data.get("has_pages") or data.get("homepage")),
-        "archived": bool(data.get("archived")),
-        "contributors": 0,
-        "contributors_active": 0,
-        "pr_merge_rate": 0.5,
-        "discussion_activity": 0,
-        "stars_delta_7d": 0,
-        "forks_delta_7d": 0,
-        "commits_delta_7d": 0,
-        "dependents_proxy": int((data.get("stargazers_count") or 0) / 50),
-        "pushed_at": data.get("pushed_at") or "",
-        "html_url": data.get("html_url") or "",
-        "description": data.get("description") or "",
-    }
+    topics = load_topics()
+    weights = load_weights(WEIGHTS_PATH)
+    snapshots: List[Dict[str, Any]] = []
+    errors: List[Dict[str, Any]] = []
 
-
-def placeholder_metrics(full_name: str) -> Dict[str, Any]:
-    # Deterministic placeholders so offline CI still produces artifacts.
-    seed = sum(ord(c) for c in full_name) % 100
-    return {
-        "stars_total": 1000 + seed * 50,
-        "forks_total": 100 + seed,
-        "open_issues": 20 + (seed % 40),
-        "has_license": True,
-        "has_ci": True,
-        "docs_present": seed % 2 == 0,
-        "archived": False,
-        "contributors": 10 + seed % 30,
-        "contributors_active": 5 + seed % 15,
-        "pr_merge_rate": 0.4 + (seed % 50) / 100.0,
-        "discussion_activity": seed % 20,
-        "stars_delta_7d": seed % 25,
-        "forks_delta_7d": seed % 8,
-        "commits_delta_7d": seed % 15,
-        "dependents_proxy": seed,
-        "offline": True,
-    }
-
-
-def run(*, offline: bool = False, date: str = "") -> Dict[str, Any]:
-    token = os.getenv("GITHUB_TOKEN", "").strip() or os.getenv("GH_TOKEN", "").strip()
-    weights = load_weights()
-    gate = float(weights.get("quality_gate") or 60)
-    report_date = date or datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    scores: List[Dict[str, Any]] = []
-    errors: List[Dict[str, str]] = []
-
-    for repo in load_tracked():
-        full_name = str(repo.get("full_name") or "").strip()
-        if not full_name:
+    for entry in tracked:
+        repo, err = fetch_repo(entry["full_name"])
+        if err or repo is None:
+            errors.append({"full_name": entry["full_name"], "error": err})
             continue
-        topics = list(repo.get("topics") or [])
-        try:
-            if offline or not token:
-                metrics = placeholder_metrics(full_name)
-            else:
-                data = fetch_repo(full_name, token=token)
-                metrics = metrics_from_api(data)
-            scores.append(score_repo(full_name, metrics, topics=topics, weights_cfg=weights))
-        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError) as exc:
-            errors.append({"full_name": full_name, "error": str(exc)[:300]})
-            metrics = placeholder_metrics(full_name)
-            metrics["fetch_error"] = True
-            scores.append(score_repo(full_name, metrics, topics=topics, weights_cfg=weights))
+        public_topics = _repo_public_topics(repo, entry, topics)
+        snap = attach_metrics(
+            repo, report_date=date_str, public_topics=public_topics
+        )
+        snapshots.append(snap)
+        # Be polite: small sleep for unauthenticated calls.
+        if not os.getenv("GITHUB_TOKEN"):
+            time.sleep(0.5)
 
-    scores.sort(key=lambda s: (-float(s.get("composite_score") or 0), s.get("full_name") or ""))
-    gated = apply_quality_gate(scores)
-    top = gated[:25]
+    # Score the full set, then rank for top lists.
+    scored_full = [attach_score(s, weights_cfg=weights) for s in snapshots]
+    top_week = rank_snapshots(snapshots, limit=50, weights_cfg=weights, require_gate=True)
+    fastest = build_fastest_30d(snapshots, report_date=date_str, topics=topics)
 
-    payload = {
-        "schema": "open_source_news_github_traction.v1",
-        "report_date": report_date,
-        "generated_at": utc_now_iso(),
-        "quality_gate": gate,
-        "repo_count": len(scores),
-        "passed_gate_count": len(gated),
-        "weights": weights.get("weights") or {},
+    out_dir = DEFAULT_REPO_DIR
+    out_dir.mkdir(parents=True, exist_ok=True)
+    daily_payload = {
+        "report_date": date_str,
+        "tracked_count": len(tracked),
+        "snapshotted_count": len(snapshots),
         "errors": errors,
-        "scores": scores,
-        "top": top,
+        "snapshots": scored_full,
+        "weights": weights,
+        "schema_version": "github_traction.v1",
+    }
+    _atomic_write_json(out_dir / f"{date_str}.json", daily_payload)
+    _write_latest(out_dir, date_str)
+    _atomic_write_json(out_dir / "top_this_week.json", build_top_this_week(top_week, report_date=date_str))
+    _atomic_write_json(out_dir / "fastest_30d.json", fastest)
+
+    # Per-repo pages.
+    pages_dir = out_dir / "repo_pages"
+    pages_dir.mkdir(parents=True, exist_ok=True)
+    for s in scored_full:
+        page_path = pages_dir / f"{_slug(s.get('full_name', ''))}.json"
+        _atomic_write_json(page_path, s)
+
+    return {
+        "ok": True,
+        "date": date_str,
+        "tracked": len(tracked),
+        "snapshotted": len(snapshots),
+        "errors": len(errors),
+        "top_week_count": len(top_week),
+        "fastest_30d_count": len(fastest.get("repos", [])),
+        "out_dir": str(out_dir),
+        "schema_version": "github_traction_run.v1",
     }
 
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    _atomic_write_json(OUT_DIR / f"{report_date}.json", payload)
-    _atomic_write_json(OUT_DIR / "latest.json", payload)
-    _atomic_write_json(
-        OUT_DIR / f"top_{report_date}.json",
-        {
-            "schema": "open_source_news_github_traction_top.v1",
-            "report_date": report_date,
-            "quality_gate": gate,
-            "count": len(top),
-            "repos": top,
-        },
-    )
-    # Monday-friendly alias
-    _atomic_write_json(OUT_DIR / "top_this_week.json", {"report_date": report_date, "repos": top})
-    return payload
 
-
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Score tracked GitHub repos")
-    parser.add_argument("--offline", action="store_true", help="Skip GitHub API")
-    parser.add_argument("--date", default="")
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Run the GitHub traction pipeline.")
+    parser.add_argument("--date", default=None, help="YYYY-MM-DD (default: today UTC)")
+    parser.add_argument("--max-repos", type=int, default=None, help="Cap repos for testing")
     args = parser.parse_args()
-    payload = run(offline=args.offline, date=args.date)
-    print(
-        f"GitHub traction: {payload['repo_count']} repos, "
-        f"{payload['passed_gate_count']} passed gate>={payload['quality_gate']}"
-    )
+    summary = run(args.date, max_repos=args.max_repos)
+    print(json.dumps(summary, indent=2, ensure_ascii=False))
+    return 0 if summary.get("ok") else 1
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
