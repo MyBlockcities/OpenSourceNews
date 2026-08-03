@@ -1,21 +1,19 @@
 # Railway: this repo powers TWO services (static Vite UI + Flask API).
 #
-# Do NOT set [build].builder or [deploy].startCommand here.
-# A single railway.toml is applied to every service linked to the repo —
-# a forced Nixpacks builder overrides the API service's Dockerfile and
-# breaks `python3` at runtime. Config-as-code overrides the dashboard.
+# Do NOT set [build].builder or [deploy].startCommand here — a single
+# railway.toml applies to every service and will fight per-service Dockerfiles.
 #
-# Set per service in the Railway UI (or service variables):
-#   • Frontend (OpenSourceNews):
-#       Builder: Nixpacks (uses ./nixpacks.toml)
-#       Start:   caddy file-server --listen :$PORT --root /app/dist
-#       Health:  /
-#       Build var: VITE_API_BASE_URL=https://<api-public-domain>
-#   • API (opensourcenews_api):
-#       Builder: Dockerfile
-#       Dockerfile path: Dockerfile.api
-#       Start:   python3 api/script_generator.py
-#       Health:  /api/health
-#       Var:     OPEN_SOURCE_NEWS_CORS_ORIGINS=https://opensourcenews.up.railway.app
+# Per-service variables (required):
+#   • OpenSourceNews (frontend):
+#       RAILWAY_DOCKERFILE_PATH=Dockerfile.frontend
+#       VITE_API_BASE_URL=https://opensourcenewsapi-production.up.railway.app
+#       Health check: /
+#   • opensourcenews_api:
+#       RAILWAY_DOCKERFILE_PATH=Dockerfile.api
+#       OPEN_SOURCE_NEWS_CORS_ORIGINS=https://opensourcenews.up.railway.app
+#       Start (if needed): python3 api/script_generator.py
+#       Health check: /api/health
 #
-# API deps: pip install -r requirements.txt && pip install -r requirements-api.txt
+# Why the frontend failed after the API fix:
+#   Removing global Nixpacks let Railpack auto-detect Python (requirements.txt)
+#   with no start command. Each service must pin its own Dockerfile.

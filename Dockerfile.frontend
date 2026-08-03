@@ -1,0 +1,19 @@
+# OpenSourceNews static frontend — Railway service `OpenSourceNews`.
+# Set service variable: RAILWAY_DOCKERFILE_PATH=Dockerfile.frontend
+# Build-time: VITE_API_BASE_URL=https://opensourcenewsapi-production.up.railway.app
+FROM node:20-bookworm AS build
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci
+COPY . .
+ARG VITE_API_BASE_URL=
+ENV VITE_API_BASE_URL=$VITE_API_BASE_URL
+RUN npm run build
+
+FROM caddy:2-alpine
+WORKDIR /srv
+COPY --from=build /app/dist /srv
+COPY scripts/caddy-entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+EXPOSE 80
+ENTRYPOINT ["/entrypoint.sh"]
