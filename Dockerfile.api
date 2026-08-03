@@ -1,0 +1,21 @@
+# OpenSourceNews Flask API — use on the Railway `opensourcenews_api` service.
+# Set service variable: RAILWAY_DOCKERFILE_PATH=Dockerfile.api
+FROM python:3.11-slim
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements.txt requirements-api.txt ./
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir -r requirements.txt \
+    && pip install --no-cache-dir -r requirements-api.txt
+
+COPY . .
+
+ENV PYTHONUNBUFFERED=1
+EXPOSE 5000
+
+CMD ["python3", "api/script_generator.py"]
