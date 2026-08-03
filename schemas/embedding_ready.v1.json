@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MyBlockcities/OpenSourceNews/schemas/embedding_ready.v1.json",
+  "title": "OpenSourceNews embedding_ready.v1",
+  "type": "object",
+  "required": ["external_id", "record_type", "embedding_text", "schema_version"],
+  "properties": {
+    "external_id": { "type": "string", "minLength": 8 },
+    "record_type": { "type": "string", "enum": ["news_signal", "news_atom"] },
+    "embedding_text": { "type": "string", "minLength": 1 },
+    "signal_id": { "type": "string" },
+    "atom_id": { "type": "string" },
+    "report_date": { "type": "string" },
+    "canonical_url": { "type": "string" },
+    "provenance": { "type": "object" },
+    "schema_version": { "const": "embedding_ready.v1" }
+  },
+  "additionalProperties": true
+}

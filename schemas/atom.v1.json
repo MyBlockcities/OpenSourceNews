@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MyBlockcities/OpenSourceNews/schemas/atom.v1.json",
+  "title": "OpenSourceNews atom.v1",
+  "type": "object",
+  "required": ["atom_id", "parent_signal_id", "atom_type", "text", "schema_version"],
+  "properties": {
+    "atom_id": { "type": "string", "minLength": 8 },
+    "parent_signal_id": { "type": "string", "minLength": 4 },
+    "atom_type": {
+      "type": "string",
+      "enum": ["claim", "data_point", "tool", "framework", "entity", "prediction", "counterexample", "reasoning"]
+    },
+    "text": { "type": "string", "minLength": 1 },
+    "evidence_urls": { "type": "array", "items": { "type": "string" } },
+    "extracted_at": { "type": "string" },
+    "schema_version": { "const": "atom.v1" },
+    "public_topics": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

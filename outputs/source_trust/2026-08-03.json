@@ -1,0 +1,314 @@
+{
+  "schema": "open_source_news_source_trust.v1",
+  "report_date": "2026-08-03",
+  "generated_at": "2026-08-03T18:36:32Z",
+  "methodology": "prior*0.6 + volume*0.3 + confirm_boost - contradict_penalty",
+  "scores": [
+    {
+      "source": "PubMed",
+      "source_class": "pubmed",
+      "topic": "wellness_research",
+      "item_count": 15,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.81
+    },
+    {
+      "source": "ClinicalTrials.gov",
+      "source_class": "clinicaltrials",
+      "topic": "wellness_research",
+      "item_count": 38,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.78
+    },
+    {
+      "source": "GitHub Trending",
+      "source_class": "github",
+      "topic": "ai_agents",
+      "item_count": 13,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.72
+    },
+    {
+      "source": "GitHub Trending",
+      "source_class": "github",
+      "topic": "ai_models",
+      "item_count": 11,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.72
+    },
+    {
+      "source": "GitHub Trending",
+      "source_class": "github",
+      "topic": "open_source_dev",
+      "item_count": 19,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.72
+    },
+    {
+      "source": "RSS",
+      "source_class": "rss",
+      "topic": "ai_agents",
+      "item_count": 14,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.69
+    },
+    {
+      "source": "RSS",
+      "source_class": "rss",
+      "topic": "sense_making_macro",
+      "item_count": 24,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.69
+    },
+    {
+      "source": "RSS",
+      "source_class": "rss",
+      "topic": "untagged",
+      "item_count": 30,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.69
+    },
+    {
+      "source": "Hacker News",
+      "source_class": "hackernews",
+      "topic": "ai_agents",
+      "item_count": 20,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.66
+    },
+    {
+      "source": "Hacker News",
+      "source_class": "hackernews",
+      "topic": "ai_models",
+      "item_count": 10,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.66
+    },
+    {
+      "source": "Hacker News",
+      "source_class": "hackernews",
+      "topic": "sense_making_macro",
+      "item_count": 21,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.66
+    },
+    {
+      "source": "Hacker News",
+      "source_class": "hackernews",
+      "topic": "untagged",
+      "item_count": 27,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.66
+    },
+    {
+      "source": "Hacker News",
+      "source_class": "hackernews",
+      "topic": "wellness_research",
+      "item_count": 19,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.66
+    },
+    {
+      "source": "RSS",
+      "source_class": "rss",
+      "topic": "blockchain_rwa",
+      "item_count": 9,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.66
+    },
+    {
+      "source": "YouTube",
+      "source_class": "youtube",
+      "topic": "ai_agents",
+      "item_count": 34,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.63
+    },
+    {
+      "source": "YouTube",
+      "source_class": "youtube",
+      "topic": "sense_making_macro",
+      "item_count": 17,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.63
+    },
+    {
+      "source": "YouTube",
+      "source_class": "youtube",
+      "topic": "untagged",
+      "item_count": 103,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.63
+    },
+    {
+      "source": "YouTube",
+      "source_class": "youtube",
+      "topic": "wellness_research",
+      "item_count": 18,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.63
+    },
+    {
+      "source": "Hacker News",
+      "source_class": "hackernews",
+      "topic": "open_source_dev",
+      "item_count": 8,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.6
+    },
+    {
+      "source": "RSS",
+      "source_class": "rss",
+      "topic": "ai_models",
+      "item_count": 7,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.6
+    },
+    {
+      "source": "YouTube",
+      "source_class": "youtube",
+      "topic": "ai_models",
+      "item_count": 9,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.6
+    },
+    {
+      "source": "Hacker News",
+      "source_class": "hackernews",
+      "topic": "blockchain_rwa",
+      "item_count": 6,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.54
+    },
+    {
+      "source": "ClinicalTrials.gov",
+      "source_class": "clinicaltrials",
+      "topic": "blockchain_rwa",
+      "item_count": 1,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.51
+    },
+    {
+      "source": "RSS",
+      "source_class": "rss",
+      "topic": "open_source_dev",
+      "item_count": 4,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.51
+    },
+    {
+      "source": "GitHub Trending",
+      "source_class": "github",
+      "topic": "creator_economy",
+      "item_count": 2,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.48
+    },
+    {
+      "source": "GitHub Trending",
+      "source_class": "github",
+      "topic": "sense_making_macro",
+      "item_count": 2,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.48
+    },
+    {
+      "source": "Hacker News",
+      "source_class": "hackernews",
+      "topic": "__global__",
+      "item_count": 0,
+      "confirmation_events": 17,
+      "contradiction_events": 1,
+      "trust_score": 0.48
+    },
+    {
+      "source": "RSS",
+      "source_class": "rss",
+      "topic": "creator_economy",
+      "item_count": 3,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.48
+    },
+    {
+      "source": "Hacker News",
+      "source_class": "hackernews",
+      "topic": "creator_economy",
+      "item_count": 3,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.45
+    },
+    {
+      "source": "YouTube",
+      "source_class": "youtube",
+      "topic": "blockchain_rwa",
+      "item_count": 3,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.42
+    },
+    {
+      "source": "Hacker News",
+      "source_class": "hackernews",
+      "topic": "alternative_media",
+      "item_count": 1,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.39
+    },
+    {
+      "source": "YouTube",
+      "source_class": "youtube",
+      "topic": "creator_economy",
+      "item_count": 1,
+      "confirmation_events": 0,
+      "contradiction_events": 0,
+      "trust_score": 0.36
+    },
+    {
+      "source": "RSS",
+      "source_class": "rss",
+      "topic": "__global__",
+      "item_count": 0,
+      "confirmation_events": 29,
+      "contradiction_events": 15,
+      "trust_score": 0.34
+    },
+    {
+      "source": "YouTube",
+      "source_class": "youtube",
+      "topic": "__global__",
+      "item_count": 0,
+      "confirmation_events": 28,
+      "contradiction_events": 3,
+      "trust_score": 0.29
+    }
+  ]
+}

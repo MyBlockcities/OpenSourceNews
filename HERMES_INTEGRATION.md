@@ -4,10 +4,13 @@
 
 OpenSourceNews is the public **sensor**. Hermes Agency is the private **brain**.
 
+**Stable API contract:** [`HERMES_CONTRACT.md`](HERMES_CONTRACT.md) (v1)  
+This file is the ops / integration guide.
+
 | System | Owns |
 |--------|------|
-| **OpenSourceNews** (`main`) | Discover sources, fetch free metadata, normalize records, stable IDs, manifests, raw git history |
-| **Hermes Agency** | Pull reports, rank signals, embed into Qdrant, deeper enrichment, insights, tutorials, QC, delivery |
+| **OpenSourceNews** (`main`) | Discover sources, fetch free metadata, normalize records, stable IDs, manifests, **atoms / topics / consensus / embedding_ready / GitHub traction**, raw git history |
+| **Hermes Agency** | Pull reports + public intelligence artifacts, rank signals, embed into Qdrant, private project mapping, insights, tutorials, QC, delivery |
 
 ---
 
@@ -136,6 +139,19 @@ Additive:
 - `schema`, `report_schema`, `report_sha256`, `report_bytes`
 - `unique_signal_count`, `unique_cluster_count`, `source_counts`
 - `enrichment_pending_count`, `workflow_run_id`, `commit_sha`
+- `artifacts` — paths to atoms, embedding_ready, topics, entities, consensus, source_trust, github_traction
+
+### Public intelligence artifacts (see HERMES_CONTRACT.md)
+
+| Path | Hermes use |
+|------|------------|
+| `outputs/atoms/{date}.jsonl` | Ingest claims/tools/entities; skip local re-extraction |
+| `outputs/embedding_ready/{date}.jsonl` | Stream `embedding_text` → MiniLM → Qdrant |
+| `outputs/topics/{date}.json` | Public topic frequency / rising |
+| `outputs/entities/{date}.json` | Entity registry |
+| `outputs/consensus/{date}.json` | Cross-source confirmation |
+| `outputs/source_trust/{date}.json` | Per-source trust priors |
+| `outputs/github_traction/latest.json` | Composite traction (quality gate ≥60 for tops) |
 
 ### Daily items (additive; Academy digest still v1)
 

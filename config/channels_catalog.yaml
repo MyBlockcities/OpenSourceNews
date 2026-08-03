@@ -1,0 +1,230 @@
+# Channel catalog for OpenSourceNews
+# Full master list from channels_to_follow.md.
+# Tier-1 handles are also wired into config/feeds.yaml (quota-safe).
+# Tier 2/3 are rotation candidates — do not dump into daily YouTube pulls.
+
+channels:
+  # ── Tier 1 (active in feeds) ───────────────────────────────────────────
+  - handle: "@Fireship"
+    name: Fireship
+    bucket: open_source_dev
+    tier: 1
+    notes: Fast explainers on modern frameworks and open-source tools
+
+  - handle: "@ThePrimeTimeagen"
+    name: The Primeagen
+    bucket: open_source_dev
+    tier: 1
+    notes: Systems programming, Rust, performance
+
+  - handle: "@t3dotgg"
+    name: Theo - t3.gg
+    bucket: open_source_dev
+    tier: 1
+    notes: React, Next.js, TypeScript ecosystem
+
+  - handle: "@TwoMinutePapers"
+    name: Two Minute Papers
+    bucket: ai
+    tier: 1
+    notes: AI/ML research paper summaries
+
+  - handle: "@mreflow"
+    name: Wes Roth
+    bucket: ai
+    tier: 1
+    notes: Daily AI news and analysis
+
+  - handle: "@NateHerk"
+    name: Nate Herk
+    bucket: ai
+    tier: 1
+    notes: No-code AI automation (n8n), agent workflows
+
+  - handle: "@AIExplained"
+    name: AI Explained
+    bucket: ai
+    tier: 1
+    notes: Deep analysis of new models; hype filter
+
+  - handle: "UC2WmuBuFq6gL08QYG-JjXKw"
+    name: Matt Wolfe
+    bucket: ai
+    tier: 1
+    notes: AI tools and weekly news; FutureTools.io
+
+  - handle: "UCSv4qL8vmoSH7GaPjuqRiCQ"
+    name: Matthew Berman
+    bucket: ai
+    tier: 1
+    notes: Technical LLM / open-source model deep dives
+
+  - handle: "@CoinBureau"
+    name: Coin Bureau
+    bucket: blockchain
+    tier: 1
+    notes: Crypto education, RWA fundamentals
+
+  - handle: "@Bankless"
+    name: Bankless
+    bucket: blockchain
+    tier: 1
+    notes: DeFi, Ethereum, tokenization
+
+  - handle: "@IvanOnTech"
+    name: Ivan on Tech
+    bucket: blockchain
+    tier: 1
+    notes: Blockchain dev, smart contracts, RWA tech
+
+  - handle: "@BloombergTelevision"
+    name: Bloomberg Markets / Television
+    bucket: sense_making_macro
+    tier: 1
+    notes: Macro, markets, geopolitics baseline
+
+  - handle: "@VisualCapitalist"
+    name: Visual Capitalist
+    bucket: sense_making_macro
+    tier: 1
+    notes: Data visualizations of trade, energy, macro
+
+  - handle: "@AllInPodcast"
+    name: All-In Podcast
+    bucket: sense_making_macro
+    tier: 1
+    notes: Contested narratives / tech-macro
+
+  - handle: "@LexFridman"
+    name: Lex Fridman
+    bucket: sense_making_macro
+    tier: 1
+    notes: Long-form interviews
+
+  - handle: "Ian Carroll"
+    name: The Ian Carroll Show
+    bucket: alternative
+    tier: 1
+    notes: Independent / institutional critique (cross-check claims)
+
+  - handle: "@breakingpoints"
+    name: Breaking Points
+    bucket: alternative
+    tier: 1
+    notes: Anti-establishment political coverage
+
+  - handle: "@Coffeezilla"
+    name: Coffeezilla
+    bucket: alternative
+    tier: 1
+    notes: Fraud / scam investigations
+
+  # ── Tier 2 (rotation candidates) ───────────────────────────────────────
+  - handle: "@freeCodeCamp"
+    name: freeCodeCamp.org
+    bucket: open_source_dev
+    tier: 2
+    notes: Full-length courses; high volume — rotate carefully
+
+  - handle: "Corbin Brown"
+    name: Corbin Brown
+    bucket: ai
+    tier: 2
+    notes: AI coding tutorials (Claude, Cursor)
+
+  - handle: "Sabrina Ramonov"
+    name: Sabrina Ramonov
+    bucket: ai
+    tier: 2
+    notes: AI agents and automation for business
+
+  - handle: "@Finematics"
+    name: Finematics
+    bucket: blockchain
+    tier: 2
+    notes: Animated DeFi explainers
+
+  - handle: "DataDash"
+    name: DataDash
+    bucket: blockchain
+    tier: 2
+    notes: Macro + crypto institutional adoption
+
+  - handle: "Lark Davis"
+    name: Lark Davis
+    bucket: blockchain
+    tier: 2
+    notes: Macro trends, RWA market analysis
+
+  - handle: "Benjamin Cowen"
+    name: Benjamin Cowen
+    bucket: blockchain
+    tier: 2
+    notes: Quantitative crypto cycles
+
+  - handle: "Real Vision Finance"
+    name: Real Vision Finance
+    bucket: sense_making_macro
+    tier: 2
+    notes: Institutional macro / commodities
+
+  - handle: "@TimcastIRL"
+    name: Timcast IRL
+    bucket: alternative
+    tier: 2
+    notes: Geopolitics / culture; controversial — cross-check
+
+  - handle: "Glenn Greenwald"
+    name: Glenn Greenwald
+    bucket: alternative
+    tier: 2
+    notes: Surveillance / civil liberties
+
+  - handle: "Y Combinator"
+    name: Y Combinator
+    bucket: ai
+    tier: 2
+    notes: Startup / AI founder interviews
+
+  - handle: "Dwarkesh Patel"
+    name: Dwarkesh Patel
+    bucket: ai
+    tier: 2
+    notes: AI safety / AGI long-form
+
+  # ── Tier 3 (archive / occasional) ──────────────────────────────────────
+  - handle: "The AI Grid"
+    name: The AI Grid
+    bucket: ai
+    tier: 3
+    notes: AI tools demos
+
+  - handle: "Altcoin Daily"
+    name: Altcoin Daily
+    bucket: blockchain
+    tier: 3
+    notes: High-volume daily crypto news
+
+  - handle: "Peter Schiff"
+    name: Peter Schiff
+    bucket: sense_making_macro
+    tier: 3
+    notes: Gold / USD / monetary policy commentary
+
+  - handle: "Russell Brand"
+    name: Russell Brand
+    bucket: alternative
+    tier: 3
+    notes: Controversial; use sparingly with primary-source cross-check
+
+  - handle: "Alex Hormozi"
+    name: Alex Hormozi
+    bucket: creator_economy
+    tier: 3
+    notes: Business scaling; not core tech sensor
+
+  - handle: "Greg Isenberg"
+    name: Greg Isenberg
+    bucket: creator_economy
+    tier: 3
+    notes: AI business / community strategy

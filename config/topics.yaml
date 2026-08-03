@@ -1,0 +1,115 @@
+# Public topic ontology for OpenSourceNews → Hermes.
+# Tags are public_topics[] only — no private venture mapping.
+
+topics:
+  - id: ai_agents
+    label: AI Agents
+    keywords:
+      - agent
+      - agents
+      - autogen
+      - crewai
+      - langgraph
+      - langchain
+      - mcp
+      - tool use
+      - multi-agent
+      - autonomous
+
+  - id: ai_models
+    label: AI Models & LLMs
+    keywords:
+      - llm
+      - gpt
+      - claude
+      - gemini
+      - llama
+      - mistral
+      - open-source model
+      - foundation model
+      - inference
+      - vllm
+
+  - id: real_estate_tech
+    label: Real Estate Tech
+    keywords:
+      - real estate
+      - proptech
+      - housing
+      - mortgage
+      - reit
+      - tokenization of real estate
+      - property
+
+  - id: wellness_research
+    label: Wellness & Longevity Research
+    keywords:
+      - peptide
+      - peptides
+      - longevity
+      - glp-1
+      - wellness
+      - nad+
+      - clinical trial
+      - fda
+
+  - id: creator_economy
+    label: Creator Economy
+    keywords:
+      - creator
+      - youtube
+      - newsletter
+      - monetization
+      - audience
+      - content creator
+
+  - id: blockchain_rwa
+    label: Blockchain & RWA
+    keywords:
+      - rwa
+      - tokenization
+      - defi
+      - ethereum
+      - solana
+      - stablecoin
+      - blackrock
+      - ondo
+      - custody
+
+  - id: open_source_dev
+    label: Open Source & Developer Tools
+    keywords:
+      - open source
+      - github
+      - typescript
+      - next.js
+      - rust
+      - developer tools
+      - framework release
+
+  - id: sense_making_macro
+    label: Sense-Making & Macro
+    keywords:
+      - geopolitics
+      - oil
+      - markets
+      - fed
+      - inflation
+      - narrative
+      - misinformation
+
+  - id: alternative_media
+    label: Alternative Media
+    keywords:
+      - independent journalism
+      - whistleblower
+      - institutional critique
+      - censorship
+
+  - id: quantum_compute
+    label: Quantum Computing
+    keywords:
+      - quantum
+      - qubit
+      - quantum computing
+      - superposition

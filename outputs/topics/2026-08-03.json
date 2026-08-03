@@ -1,0 +1,133 @@
+{
+  "schema": "open_source_news_topics.v1",
+  "report_date": "2026-08-03",
+  "generated_at": "2026-08-03T18:36:32Z",
+  "tagged_item_count": 262,
+  "frequency": {
+    "open_source_dev": 31,
+    "ai_agents": 81,
+    "ai_models": 37,
+    "blockchain_rwa": 19,
+    "sense_making_macro": 64,
+    "creator_economy": 9,
+    "alternative_media": 1,
+    "wellness_research": 90
+  },
+  "rising": [],
+  "cooling": [],
+  "co_occurrence": [
+    {
+      "topics": [
+        "ai_agents",
+        "ai_models"
+      ],
+      "count": 33
+    },
+    {
+      "topics": [
+        "ai_agents",
+        "open_source_dev"
+      ],
+      "count": 14
+    },
+    {
+      "topics": [
+        "ai_models",
+        "open_source_dev"
+      ],
+      "count": 11
+    },
+    {
+      "topics": [
+        "creator_economy",
+        "sense_making_macro"
+      ],
+      "count": 5
+    },
+    {
+      "topics": [
+        "ai_models",
+        "sense_making_macro"
+      ],
+      "count": 4
+    },
+    {
+      "topics": [
+        "ai_models",
+        "creator_economy"
+      ],
+      "count": 4
+    },
+    {
+      "topics": [
+        "ai_agents",
+        "sense_making_macro"
+      ],
+      "count": 4
+    },
+    {
+      "topics": [
+        "blockchain_rwa",
+        "sense_making_macro"
+      ],
+      "count": 3
+    },
+    {
+      "topics": [
+        "open_source_dev",
+        "sense_making_macro"
+      ],
+      "count": 3
+    },
+    {
+      "topics": [
+        "ai_agents",
+        "creator_economy"
+      ],
+      "count": 3
+    },
+    {
+      "topics": [
+        "blockchain_rwa",
+        "open_source_dev"
+      ],
+      "count": 2
+    },
+    {
+      "topics": [
+        "creator_economy",
+        "open_source_dev"
+      ],
+      "count": 2
+    },
+    {
+      "topics": [
+        "ai_agents",
+        "blockchain_rwa"
+      ],
+      "count": 1
+    },
+    {
+      "topics": [
+        "ai_models",
+        "blockchain_rwa"
+      ],
+      "count": 1
+    },
+    {
+      "topics": [
+        "alternative_media",
+        "sense_making_macro"
+      ],
+      "count": 1
+    },
+    {
+      "topics": [
+        "blockchain_rwa",
+        "wellness_research"
+      ],
+      "count": 1
+    }
+  ],
+  "ontology_version": "topics.yaml"
+}

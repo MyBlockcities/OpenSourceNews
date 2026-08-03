@@ -20,7 +20,7 @@
     "alternative_news": 84,
     "peptides": 90
   },
-  "generated_at": "2026-08-03T17:26:18Z",
+  "generated_at": "2026-08-03T18:36:08Z",
   "report_sha256": "2fb5ea0079a5cc5d9d86a3c0a74f5104cee91b16e1c04ace7ddacbecaac685db",
   "report_bytes": 641707,
   "unique_signal_count": 412,
@@ -34,6 +34,19 @@
     "ClinicalTrials.gov": 38
   },
   "enrichment_pending_count": 422,
-  "workflow_run_id": "30836737313",
-  "commit_sha": "5702bccea535d9310044e22137606b301075bb49"
+  "artifacts": {
+    "atoms_jsonl": "outputs/atoms/2026-08-03.jsonl",
+    "atoms_latest": "outputs/atoms/latest.jsonl",
+    "embedding_ready_jsonl": "outputs/embedding_ready/2026-08-03.jsonl",
+    "embedding_ready_latest": "outputs/embedding_ready/latest.jsonl",
+    "topics": "outputs/topics/2026-08-03.json",
+    "entities": "outputs/entities/2026-08-03.json",
+    "consensus": "outputs/consensus/2026-08-03.json",
+    "source_trust": "outputs/source_trust/2026-08-03.json",
+    "github_traction": "outputs/github_traction/latest.json",
+    "github_traction_top": "outputs/github_traction/top_this_week.json",
+    "hermes_contract": "HERMES_CONTRACT.md"
+  },
+  "workflow_run_id": "",
+  "commit_sha": ""
 }

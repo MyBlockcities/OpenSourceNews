@@ -1,0 +1,33 @@
+# Tracked GitHub repos for traction scoring (seed from channels_to_follow.md).
+
+repos:
+  - full_name: langchain-ai/langchain
+    topics: [ai_agents, ai_models]
+  - full_name: ggml-org/llama.cpp
+    topics: [ai_models]
+  - full_name: vllm-project/vllm
+    topics: [ai_models]
+  - full_name: vercel/next.js
+    topics: [open_source_dev]
+  - full_name: microsoft/TypeScript
+    topics: [open_source_dev]
+  - full_name: OpenZeppelin/openzeppelin-contracts
+    topics: [blockchain_rwa]
+  - full_name: ethereum/go-ethereum
+    topics: [blockchain_rwa]
+  - full_name: solana-labs/solana
+    topics: [blockchain_rwa]
+  - full_name: huggingface/transformers
+    topics: [ai_models]
+  - full_name: qdrant/qdrant
+    topics: [ai_agents, open_source_dev]
+  - full_name: modelcontextprotocol/servers
+    topics: [ai_agents]
+  - full_name: n8n-io/n8n
+    topics: [ai_agents]
+  - full_name: facebook/react
+    topics: [open_source_dev]
+  - full_name: rust-lang/rust
+    topics: [open_source_dev]
+  - full_name: denoland/deno
+    topics: [open_source_dev]

@@ -180,3 +180,76 @@ def get_latest_brief(watchlist: str) -> Dict[str, Any]:
     if not files:
         return {"error": f"No mission brief found for {watchlist}"}
     return _json(files[0])
+
+
+def hermes_status() -> Dict[str, Any]:
+    """Hermes-facing status: manifest + artifact presence."""
+    manifest = get_manifest()
+    if "error" in manifest and "latest_report_date" not in manifest:
+        return manifest
+    date = str(manifest.get("latest_report_date") or "")
+    artifacts = manifest.get("artifacts") or {}
+    return {
+        "ok": True,
+        "latest_report_date": date,
+        "item_count": manifest.get("item_count"),
+        "report_sha256": manifest.get("report_sha256"),
+        "generated_at": manifest.get("generated_at"),
+        "artifacts": artifacts,
+        "contract": "HERMES_CONTRACT.md",
+    }
+
+
+def hermes_schedule() -> Dict[str, Any]:
+    return {
+        "daily_cron_utc": "17 7 * * *",
+        "daily_local_hint": "~01:17 MDT / ~00:17 MST",
+        "github_traction_cron_utc": "47 8 * * *",
+        "collect_only": True,
+        "atom_llm": "optional when OPENROUTER_API_KEY set",
+        "hermes_pull_hint": "~01:40 Mountain (com.hermes.osn-nightly)",
+    }
+
+
+def hermes_topics() -> Dict[str, Any]:
+    topics_latest = ROOT_DIR / "outputs" / "topics" / "latest.json"
+    ontology = ROOT_DIR / "config" / "topics.yaml"
+    out: Dict[str, Any] = {"ontology_path": "config/topics.yaml"}
+    if topics_latest.exists():
+        out["latest"] = _json(topics_latest)
+    else:
+        out["latest"] = None
+        out["note"] = "No topics export yet — run pipelines/public_intelligence.py"
+    if ontology.exists():
+        try:
+            import yaml
+
+            data = yaml.safe_load(ontology.read_text(encoding="utf-8")) or {}
+            out["topic_ids"] = [t.get("id") for t in (data.get("topics") or []) if t.get("id")]
+        except Exception as exc:  # noqa: BLE001
+            out["ontology_error"] = str(exc)
+    return out
+
+
+def hermes_health() -> Dict[str, Any]:
+    status = hermes_status()
+    date = status.get("latest_report_date") or ""
+    checks = {
+        "manifest": MANIFEST_PATH.exists(),
+        "daily_report": bool(date) and (DAILY_DIR / f"{date}.json").exists(),
+        "atoms": (ROOT_DIR / "outputs" / "atoms" / "latest.jsonl").exists(),
+        "embedding_ready": (ROOT_DIR / "outputs" / "embedding_ready" / "latest.jsonl").exists(),
+        "topics": (ROOT_DIR / "outputs" / "topics" / "latest.json").exists(),
+        "entities": (ROOT_DIR / "outputs" / "entities" / "latest.json").exists(),
+        "consensus": (ROOT_DIR / "outputs" / "consensus" / "latest.json").exists(),
+        "source_trust": (ROOT_DIR / "outputs" / "source_trust" / "latest.json").exists(),
+        "github_traction": (ROOT_DIR / "outputs" / "github_traction" / "latest.json").exists(),
+        "contract": (ROOT_DIR / "HERMES_CONTRACT.md").exists(),
+    }
+    missing = [k for k, ok in checks.items() if not ok]
+    return {
+        "healthy": len(missing) == 0 or (checks["manifest"] and checks["daily_report"]),
+        "checks": checks,
+        "missing": missing,
+        "status": status,
+    }

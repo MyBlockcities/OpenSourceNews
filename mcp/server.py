@@ -100,6 +100,26 @@ TOOL_REGISTRY: Dict[str, Dict[str, Any]] = {
         },
         "handler": tools.get_latest_brief,
     },
+    "hermes_status": {
+        "description": "Hermes-facing status: latest manifest, report hash, artifact paths.",
+        "inputSchema": {"type": "object", "properties": {}},
+        "handler": tools.hermes_status,
+    },
+    "hermes_schedule": {
+        "description": "Public schedule for daily collect and GitHub traction workflows.",
+        "inputSchema": {"type": "object", "properties": {}},
+        "handler": tools.hermes_schedule,
+    },
+    "hermes_topics": {
+        "description": "Latest public topics export plus ontology topic ids.",
+        "inputSchema": {"type": "object", "properties": {}},
+        "handler": tools.hermes_topics,
+    },
+    "hermes_health": {
+        "description": "Health checks for manifest, atoms, embedding_ready, and related artifacts.",
+        "inputSchema": {"type": "object", "properties": {}},
+        "handler": tools.hermes_health,
+    },
 }
 
 

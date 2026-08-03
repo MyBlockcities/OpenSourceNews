@@ -25,6 +25,7 @@ topics:
     youtube_sources:
       - "@Fireship"                                                # Fireship - tech news
       - "@ThePrimeTimeagen"                                        # ThePrimeTime
+      - "@t3dotgg"                                                 # Theo - React/Next/TS
 
   # ──────────────────────────────────────────────────────────
   # Bucket 2: AI / AI Tools / AI Agents
@@ -50,6 +51,9 @@ topics:
       - "https://aiagent.marktechpost.com/feed/"                   # AI Agent News
     youtube_sources:
       - "@TwoMinutePapers"
+      - "@mreflow"                                                 # Wes Roth
+      - "@NateHerk"                                                # Nate Herk — agents / n8n
+      - "@AIExplained"                                             # AI Explained
       - "indydevdan"
       - "UC_x36zCEGilGpB1m-V4gmjg"                                # Arseny Shatokhin
       - "UCSv4qL8vmoSH7GaPjuqRiCQ"                                # Matthew Berman
@@ -82,9 +86,12 @@ topics:
       - "https://www.bankless.com/feed"                            # Bankless
       - "https://www.blockchainappfactory.com/blog/feed/"          # Blockchain App Factory
     youtube_sources:
-      - "UChpleBmo18P08aKCIgti38g"                                 # BitBoy X
-      - "UCuV9EB4I9L-xmRoaXd8tmuA"                                # Coin Bureau
-      - "UCqK_GSMbpiV8spgD3ZGloSw"                                # Bankless
+      - "@CoinBureau"                                              # Coin Bureau
+      - "@Bankless"                                                # Bankless
+      - "@IvanOnTech"                                              # Ivan on Tech
+      - "UChpleBmo18P08aKCIgti38g"                                 # BitBoy X (legacy id)
+      - "UCuV9EB4I9L-xmRoaXd8tmuA"                                # Coin Bureau (channel id)
+      - "UCqK_GSMbpiV8spgD3ZGloSw"                                # Bankless (channel id)
     x_sources:
       - "a16zcrypto"
       - "paradigm"
@@ -114,6 +121,8 @@ topics:
       - "@AllInPodcast"                                            # All-In Podcast
       - "@LexFridman"                                              # Long-form interviews
       - "@JohnnyHarris"                                            # Narrative / explainers
+      - "@BloombergTelevision"                                     # Macro / markets baseline
+      - "@VisualCapitalist"                                        # Data viz macro / energy
 
   # ──────────────────────────────────────────────────────────
   # Bucket 5: Alternative News & Independent Commentary
