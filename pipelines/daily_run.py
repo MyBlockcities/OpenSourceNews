@@ -22,7 +22,13 @@ from pipelines.transcript_analysis import analyze_transcript_auto
 from pipelines.llm_provider import try_get_llm_client, parse_json_text
 from services.mailaroo_emailer import send_text_email
 from services.external_ingest import maybe_push_daily_digest, maybe_push_destination_digests
-from services.news_schema import add_item_ids
+from services.news_schema import (
+    add_item_ids,
+    canonicalize_url,
+    stamp_sensor_fields,
+    truncate_excerpt,
+    utc_now_iso,
+)
 
 # --- CONFIGURATION ---
 CONFIG_PATH = ROOT_DIR / 'config' / 'feeds.yaml'
@@ -31,6 +37,10 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 DOCS_DAILY_DIR = ROOT_DIR / 'docs' / 'generated' / 'daily'
 DOCS_DAILY_DIR.mkdir(parents=True, exist_ok=True)
 
+# Collection-first mode: GitHub Actions collects; Hermes enriches locally.
+# When unset/false, local runs keep the existing LLM triage path.
+COLLECT_ONLY = os.getenv("COLLECT_ONLY", "0") == "1"
+
 # --- HTTP DEFAULTS ---
 HTTP_TIMEOUT = 20
 HTTP_HEADERS = {
@@ -38,8 +48,10 @@ HTTP_HEADERS = {
 }
 
 # --- LLM (Ollama default; cloud providers are optional) ---
-llm = try_get_llm_client()
-if not llm:
+llm = None if COLLECT_ONLY else try_get_llm_client()
+if COLLECT_ONLY:
+    print("COLLECT_ONLY=1 — skipping LLM client; deterministic collection path only.")
+elif not llm:
     print(
         "WARNING: No LLM available (Ollama, or LLM_PROVIDER=openrouter/rotating "
         "with keys). Triage will use fallbacks."
@@ -55,60 +67,292 @@ def _get(url: str):
     return r
 
 # --- DATA FETCHERS ---
+def _rss_text(node) -> str:
+    if node is None:
+        return ""
+    if getattr(node, "text", None):
+        return str(node.text).strip()
+    return str(node.string or "").strip()
+
+
+def _rss_link(item) -> str:
+    link = item.find("link")
+    if link is None:
+        return ""
+    href = link.get("href") if hasattr(link, "get") else None
+    if href:
+        return str(href).strip()
+    return _rss_text(link)
+
+
+def _rss_author(item) -> str:
+    for selector in (
+        "dc:creator",
+        "creator",
+        "author",
+        "itunes:author",
+    ):
+        node = item.find(selector)
+        if node is None:
+            continue
+        # Atom <author><name>
+        name = node.find("name") if hasattr(node, "find") else None
+        text = _rss_text(name) if name is not None else _rss_text(node)
+        if text:
+            return text
+    return ""
+
+
+def _rss_published(item) -> str | None:
+    for selector in ("pubDate", "published", "updated", "dc:date"):
+        text = _rss_text(item.find(selector))
+        if text:
+            return text
+    return None
+
+
+def _rss_excerpt(item) -> str:
+    encoded = item.find("content:encoded") or item.find("encoded")
+    if encoded is not None and _rss_text(encoded):
+        return truncate_excerpt(_rss_text(encoded))
+    for selector in ("description", "summary", "content"):
+        text = _rss_text(item.find(selector))
+        if text:
+            return truncate_excerpt(text)
+    return ""
+
+
+def _rss_feed_title(soup) -> str:
+    channel = soup.find("channel") or soup.find("feed")
+    if channel is None:
+        return ""
+    return _rss_text(channel.find("title"))
+
+
 def fetch_rss(url: str, limit: int = 5):
-    if not url: return []
+    if not url:
+        return []
     try:
         resp = _get(url)
         soup = BeautifulSoup(resp.content, "xml")
+        feed_title = _rss_feed_title(soup)
+        entries = soup.find_all("item") or soup.find_all("entry")
         items = []
-        for item in soup.find_all("item")[:limit]:
-            title = (item.title.text if item.title else "").strip()
-            link = (item.link.text if item.link else "").strip()
-            if title and link:
-                items.append({"title": title, "url": link, "source": "RSS"})
+        fetched_at = utc_now_iso()
+        for item in entries[:limit]:
+            title = _rss_text(item.find("title"))
+            link = _rss_link(item)
+            if not (title and link):
+                continue
+            excerpt = _rss_excerpt(item)
+            author = _rss_author(item)
+            published_at = _rss_published(item)
+            items.append(
+                stamp_sensor_fields(
+                    {
+                        "title": title,
+                        "url": link,
+                        "source": "RSS",
+                        "feed_title": feed_title,
+                        "publisher": feed_title,
+                        "author": author,
+                        "published_at": published_at,
+                        "excerpt": excerpt,
+                        "summary": excerpt,
+                    },
+                    fetched_at=fetched_at,
+                )
+            )
         return items
     except Exception as e:
         print(f"ERROR: RSS fetch failed for {url}: {e}")
         return []
 
+
 def fetch_youtube(identifier: str):
     # Accepts channelId, @handle, or plain name
-    if not identifier: return []
+    if not identifier:
+        return []
     try:
-        return fetch_latest_videos(identifier, max_results=5)
+        videos = fetch_latest_videos(identifier, max_results=5)
+        fetched_at = utc_now_iso()
+        items = []
+        for video in videos:
+            items.append(
+                stamp_sensor_fields(
+                    {
+                        **video,
+                        "published_at": video.get("publishedAt"),
+                        "author": video.get("channelTitle") or "",
+                        "excerpt": truncate_excerpt(video.get("description") or video.get("title") or ""),
+                    },
+                    fetched_at=fetched_at,
+                )
+            )
+        return items
     except Exception as e:
         print(f"ERROR: YouTube fetch failed for '{identifier}': {e}")
         return []
 
+
+def _parse_stars_today(repo) -> int | None:
+    for link in repo.select("a"):
+        text = " ".join(link.get_text(" ", strip=True).split()).lower()
+        if "stars today" in text:
+            digits = "".join(ch for ch in text.split("stars today")[0] if ch.isdigit() or ch == ",")
+            digits = digits.replace(",", "").strip()
+            if digits.isdigit():
+                return int(digits)
+    return None
+
+
+def _github_readme_excerpt(owner: str, repo_name: str) -> str:
+    """Best-effort short README excerpt; never fails the trending fetch."""
+    if not owner or not repo_name:
+        return ""
+    raw_url = f"https://raw.githubusercontent.com/{owner}/{repo_name}/HEAD/README.md"
+    try:
+        resp = requests.get(raw_url, headers=HTTP_HEADERS, timeout=8)
+        if resp.status_code != 200:
+            return ""
+        return truncate_excerpt(resp.text)
+    except Exception:
+        return ""
+
+
+def _github_repo_metadata(owner: str, repo_name: str) -> dict:
+    """Best-effort license + updated_at from the public GitHub API."""
+    if not owner or not repo_name:
+        return {}
+    api_url = f"https://api.github.com/repos/{owner}/{repo_name}"
+    headers = {
+        **HTTP_HEADERS,
+        "Accept": "application/vnd.github+json",
+    }
+    try:
+        resp = requests.get(api_url, headers=headers, timeout=8)
+        if resp.status_code != 200:
+            return {}
+        data = resp.json()
+        license_info = data.get("license") if isinstance(data.get("license"), dict) else {}
+        return {
+            "license": (license_info or {}).get("spdx_id")
+            or (license_info or {}).get("key")
+            or "",
+            "updated_at": data.get("updated_at") or data.get("pushed_at"),
+            "stargazers_count": data.get("stargazers_count"),
+            "repository_description": (data.get("description") or "").strip(),
+            "primary_language": data.get("language") or "",
+        }
+    except Exception:
+        return {}
+
+
 def fetch_github_trending(language: str):
-    if not language: return []
+    if not language:
+        return []
     url = f"https://github.com/trending/{language}"
     try:
         resp = _get(url)
         soup = BeautifulSoup(resp.content, "html.parser")
         items = []
+        fetched_at = utc_now_iso()
         for repo in soup.select("article.Box-row")[:5]:
-            a_tag = repo.select_one("h2 > a")
-            if not a_tag: continue
+            a_tag = repo.select_one("h2 a") or repo.select_one("h2 > a")
+            if not a_tag:
+                continue
             title = " ".join(a_tag.text.split())
             href = a_tag.get("href", "")
-            if href:
-                items.append({"title": title, "url": f"https://github.com{href}", "source": "GitHub Trending"})
+            if not href:
+                continue
+            repo_url = f"https://github.com{href}"
+            parts = [p for p in href.strip("/").split("/") if p]
+            owner = parts[0] if parts else ""
+            repo_name = parts[1] if len(parts) > 1 else ""
+            description_node = repo.select_one("p")
+            description = (
+                " ".join(description_node.get_text(" ", strip=True).split())
+                if description_node
+                else ""
+            )
+            lang_node = repo.select_one('[itemprop="programmingLanguage"]')
+            primary_language = lang_node.get_text(strip=True) if lang_node else language
+            stars_today = _parse_stars_today(repo)
+            meta = _github_repo_metadata(owner, repo_name)
+            if meta.get("repository_description") and not description:
+                description = meta["repository_description"]
+            if meta.get("primary_language"):
+                primary_language = meta["primary_language"]
+            readme_excerpt = _github_readme_excerpt(owner, repo_name)
+            excerpt = readme_excerpt or truncate_excerpt(description)
+            items.append(
+                stamp_sensor_fields(
+                    {
+                        "title": title,
+                        "url": repo_url,
+                        "source": "GitHub Trending",
+                        "author": owner,
+                        "repository_owner": owner,
+                        "repository_name": repo_name,
+                        "repository_description": description,
+                        "primary_language": primary_language,
+                        "stars_today": stars_today,
+                        "stargazers_count": meta.get("stargazers_count"),
+                        "license": meta.get("license") or "",
+                        "updated_at": meta.get("updated_at"),
+                        "published_at": meta.get("updated_at"),
+                        "readme_excerpt": readme_excerpt,
+                        "excerpt": excerpt,
+                        "summary": description,
+                    },
+                    fetched_at=fetched_at,
+                )
+            )
         return items
     except Exception as e:
         print(f"ERROR: GitHub trending fetch for '{language}' failed: {e}")
         return []
 
+
 def fetch_hackernews(keyword: str):
-    if not keyword: return []
+    if not keyword:
+        return []
     url = f"https://hn.algolia.com/api/v1/search?query={keyword}&tags=story"
     try:
         hits = _get(url).json().get("hits", [])
         items = []
+        fetched_at = utc_now_iso()
         for hit in hits[:5]:
-            title, link = hit.get("title"), hit.get("url")
-            if title and link:
-                items.append({"title": title, "url": link, "source": "Hacker News"})
+            title = hit.get("title")
+            link = hit.get("url") or ""
+            object_id = hit.get("objectID")
+            # Ask HN / show posts may lack an external URL; keep a stable HN permalink.
+            if not link and object_id:
+                link = f"https://news.ycombinator.com/item?id={object_id}"
+            if not (title and link):
+                continue
+            story_text = hit.get("story_text") or hit.get("text") or ""
+            excerpt = truncate_excerpt(story_text) if story_text else ""
+            created_at = hit.get("created_at")
+            items.append(
+                stamp_sensor_fields(
+                    {
+                        "title": title,
+                        "url": link,
+                        "source": "Hacker News",
+                        "author": hit.get("author") or "",
+                        "published_at": created_at,
+                        "created_at": created_at,
+                        "points": hit.get("points"),
+                        "num_comments": hit.get("num_comments"),
+                        "objectID": object_id,
+                        "story_text": truncate_excerpt(story_text, max_chars=1500) if story_text else "",
+                        "excerpt": excerpt,
+                        "summary": excerpt,
+                    },
+                    fetched_at=fetched_at,
+                )
+            )
         return items
     except Exception as e:
         print(f"ERROR: Hacker News fetch for '{keyword}' failed: {e}")
@@ -190,24 +434,29 @@ def fetch_pubmed_query(query: str, limit: int = 5):
                 if part
             )
             items.append(
-                {
-                    "title": title,
-                    "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
-                    "source": "PubMed",
-                    "category": "Peer-reviewed Research",
-                    "summary": summary,
-                    "bucket": "peptides",
-                    "content_type": "research",
-                    "source_category": "research_database",
-                    "trust_layer": "truth",
-                    "trust_level": "very_high",
-                    "evidence_level": "peer_reviewed_or_indexed",
-                    "verification_mode": "truth_layer",
-                    "regulatory_sensitivity": "medium",
-                    "content_use": "science_monitoring",
-                    "safe_framing": "Educational only; do not translate indexed abstracts into medical, treatment, or product claims without review.",
-                    "medical_claim_policy": "No disease, dosing, safety, or efficacy claims without qualified review and primary-source verification.",
-                }
+                stamp_sensor_fields(
+                    {
+                        "title": title,
+                        "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+                        "source": "PubMed",
+                        "category": "Peer-reviewed Research",
+                        "summary": summary,
+                        "excerpt": truncate_excerpt(summary),
+                        "author": ", ".join(authors),
+                        "published_at": pubdate or None,
+                        "bucket": "peptides",
+                        "content_type": "research",
+                        "source_category": "research_database",
+                        "trust_layer": "truth",
+                        "trust_level": "very_high",
+                        "evidence_level": "peer_reviewed_or_indexed",
+                        "verification_mode": "truth_layer",
+                        "regulatory_sensitivity": "medium",
+                        "content_use": "science_monitoring",
+                        "safe_framing": "Educational only; do not translate indexed abstracts into medical, treatment, or product claims without review.",
+                        "medical_claim_policy": "No disease, dosing, safety, or efficacy claims without qualified review and primary-source verification.",
+                    }
+                )
             )
         return items
     except Exception as e:
@@ -263,24 +512,31 @@ def fetch_clinical_trials_query(query: str, limit: int = 5):
             )
 
             items.append(
-                {
-                    "title": title,
-                    "url": f"https://clinicaltrials.gov/study/{nct_id}",
-                    "source": "ClinicalTrials.gov",
-                    "category": "Clinical Trial Registry",
-                    "summary": summary,
-                    "bucket": "peptides",
-                    "content_type": "clinical_trial",
-                    "source_category": "clinical_trial_registry",
-                    "trust_layer": "truth",
-                    "trust_level": "very_high",
-                    "evidence_level": "human_clinical_registry",
-                    "verification_mode": "truth_layer",
-                    "regulatory_sensitivity": "high",
-                    "content_use": "evidence_checkpoint",
-                    "safe_framing": "Registry signal only; trial listing is not proof of safety, approval, or efficacy.",
-                    "medical_claim_policy": "Use only to identify study status, phase, endpoint direction, and evidence gaps.",
-                }
+                stamp_sensor_fields(
+                    {
+                        "title": title,
+                        "url": f"https://clinicaltrials.gov/study/{nct_id}",
+                        "source": "ClinicalTrials.gov",
+                        "category": "Clinical Trial Registry",
+                        "summary": summary,
+                        "excerpt": truncate_excerpt(summary),
+                        "author": "",
+                        "published_at": status_mod.get("lastUpdatePostDateStruct", {}).get("date")
+                        if isinstance(status_mod.get("lastUpdatePostDateStruct"), dict)
+                        else status_mod.get("lastUpdateSubmitDate"),
+                        "bucket": "peptides",
+                        "content_type": "clinical_trial",
+                        "source_category": "clinical_trial_registry",
+                        "trust_layer": "truth",
+                        "trust_level": "very_high",
+                        "evidence_level": "human_clinical_registry",
+                        "verification_mode": "truth_layer",
+                        "regulatory_sensitivity": "high",
+                        "content_use": "evidence_checkpoint",
+                        "safe_framing": "Registry signal only; trial listing is not proof of safety, approval, or efficacy.",
+                        "medical_claim_policy": "Use only to identify study status, phase, endpoint direction, and evidence gaps.",
+                    }
+                )
             )
         return items
     except Exception as e:
@@ -779,22 +1035,23 @@ Raw items:
 
 # --- DEDUPLICATION ---
 def deduplicate_items(items: list) -> list:
-    """Remove duplicate items based on URL."""
+    """Remove duplicate items based on canonical URL (falls back to raw URL)."""
     seen_urls = set()
     unique_items = []
     duplicates = 0
-    
+
     for item in items:
-        url = item.get('url', '')
+        raw_url = item.get("url", "")
+        url = item.get("canonical_url") or canonicalize_url(raw_url) or raw_url
         if url and url not in seen_urls:
             seen_urls.add(url)
             unique_items.append(item)
         elif url:
             duplicates += 1
-    
+
     if duplicates > 0:
         print(f"  ℹ Removed {duplicates} duplicate items")
-    
+
     return unique_items
 
 
@@ -802,6 +1059,9 @@ def deduplicate_items(items: list) -> list:
 def main():
     with open(CONFIG_PATH, 'r', encoding="utf-8") as f:
         config = yaml.safe_load(f)
+
+    if COLLECT_ONLY:
+        print("Mode: COLLECT_ONLY — GitHub collects; Hermes interprets.")
 
     final_report = {}
 
@@ -850,6 +1110,9 @@ def main():
         mode_counts = {"standard_summary": 0, "wisdom_extraction": 0, "claim_mapping": 0}
         for item in classified_content:
             processed = apply_processing_mode(item)
+            # Collection-first: always label pending unless a richer status already exists.
+            if COLLECT_ONLY or not processed.get("enrichment_status"):
+                processed["enrichment_status"] = "pending"
             processed = add_item_ids(processed)
             mode = item.get("processing_mode", "standard_summary")
             mode_counts[mode] = mode_counts.get(mode, 0) + 1

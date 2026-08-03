@@ -1,4 +1,6 @@
 {
+  "schema": "open_source_news_manifest.v2",
+  "report_schema": "open_source_news_daily_report.v2",
   "latest_report_date": "2026-08-03",
   "latest_report_path": "outputs/daily/2026-08-03.json",
   "item_count": 236,
@@ -17,5 +19,19 @@
     "sense_making": 39,
     "peptides": 70
   },
-  "generated_at": "2026-08-03T10:32:08Z"
+  "generated_at": "2026-08-03T16:44:42Z",
+  "report_sha256": "b4ff489b6a48534e184f9ca57c7abeef8ec5eb83b7ed36e82d3cdd000e4be0a9",
+  "report_bytes": 179780,
+  "unique_signal_count": 231,
+  "unique_cluster_count": 236,
+  "source_counts": {
+    "RSS": 70,
+    "GitHub Trending": 20,
+    "Hacker News": 95,
+    "PubMed": 15,
+    "ClinicalTrials.gov": 36
+  },
+  "enrichment_pending_count": 236,
+  "workflow_run_id": "",
+  "commit_sha": ""
 }

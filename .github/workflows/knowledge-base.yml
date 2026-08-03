@@ -2,15 +2,9 @@ name: Build Knowledge Base
 
 on:
   workflow_dispatch: {}
-  push:
-    branches:
-      - main
-    paths:
-      - "outputs/**"
-      - "scripts/build_knowledge_base.py"
-      - ".github/workflows/knowledge-base.yml"
   schedule:
-    - cron: "30 9 * * *"  # Daily 09:30 UTC (after daily report + script window)
+    # After daily report + manifest/export window. Artifact-only (not Hermes primary memory).
+    - cron: "30 9 * * *"
 
 permissions:
   contents: read

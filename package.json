@@ -10,6 +10,9 @@
     "build:kb": "python3 scripts/build_knowledge_base.py",
     "export:qdrant": "python3 scripts/export_qdrant_payload.py",
     "export:qdrant:peptides": "python3 scripts/export_qdrant_payload.py --days 30 --bucket peptides --out outputs/qdrant_export/peptides_signals.jsonl",
+    "export:qdrant:v2": "python3 scripts/export_qdrant_payload_v2.py",
+    "export:qdrant:v2:peptides": "python3 scripts/export_qdrant_payload_v2.py --days 30 --bucket peptides --canonical-out outputs/qdrant_export/peptides_signals_v2_canonical.jsonl --occurrence-out outputs/qdrant_export/peptides_signals_v2_occurrences.jsonl",
+    "build:manifest": "python3 scripts/build_report_manifest.py",
     "sync:qdrant": "python3 scripts/sync_knowledge_base_to_qdrant.py",
     "sync:qdrant:peptides": "python3 scripts/sync_knowledge_base_to_qdrant.py --bucket-filter peptides --collection peptides",
     "discover:influencers": "python3 scripts/discover_influencers.py"
