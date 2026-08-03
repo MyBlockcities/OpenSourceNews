@@ -16,10 +16,14 @@ OpenSourceNews is the public **sensor**. Hermes Agency is the private **brain**.
 | Item | Status |
 |------|--------|
 | Collection-first code on **`main`** | **Shipped** — https://github.com/MyBlockcities/OpenSourceNews/commit/6630835 |
+| Integration doc on **`main`** | https://github.com/MyBlockcities/OpenSourceNews/blob/main/HERMES_INTEGRATION.md |
 | Daily Actions `COLLECT_ONLY=1` | Active on `main` (`.github/workflows/daily.yml`) |
 | Schedule | `17 7 * * *` UTC (~01:17 MDT / ~00:17 MST) |
 | `YT_API_KEY` | GitHub Actions **secret** only (not in git). Confirmed present. |
+| Post-merge smoke run | **Success** — 422 items incl. **175 YouTube**; manifest `report_sha256` matches file |
 | Manifest contract | `outputs/manifests/latest.json` includes `report_sha256` |
+| Qdrant export v2 on `main` | Canonical + occurrence JSONL committed by Actions |
+| Hermes Agency puller on **`main`** | Shipped — https://github.com/MyBlockcities/hermes-agency |
 | Hermes pull path | Git clone/pull + ledger (no public Hermes webhook required) |
 | Hermes Qdrant collection | `news_signals` (Hermes-owned embeddings; not Gemini sync from this repo) |
 | Academy / God's Eye push | Optional via Actions secrets; digest schema stays `open_source_news_daily_digest.v1` |
@@ -207,27 +211,19 @@ Watchlists in this repo stay **generalized** (AI agents, RWA, peptides). Private
 
 ## Remaining steps (Hermes ops / product)
 
-1. **[ ] Keep local clone on `main`**
+1. **[x] OpenSourceNews on `main`** — merged + post-merge daily verified (YouTube + `report_sha256`).
+
+2. **[x] Hermes Agency puller on `main`** — merged.
+
+3. **[ ] Pull latest on this machine and ingest the new report**
    ```bash
    cd /Users/brian/Documents/opensourcenews && git pull origin main
+   export OSN_GIT_PATH=/Users/brian/Documents/opensourcenews
+   python3 /Users/brian/Documents/hermes_agency/hermes/news/nightly_pull.py --force --collection news_signals
+   # (use --force once so the new sha after the smoke run is ingested)
    ```
 
-2. **[ ] Merge Hermes Agency PR** (if not already):  
-   https://github.com/MyBlockcities/hermes-agency/pull/1  
-   Local Hermes already has the puller/ledger/ranker verified; merging publishes it for the rest of the team.
-
-3. **[ ] Confirm first post-merge daily run**  
-   After 07:17 UTC (or Actions → *Daily Research Briefing* → *Run workflow*):  
-   - YouTube / Alternative News should populate (uses `YT_API_KEY`)  
-   - New `outputs/daily/{date}.json` + refreshed `latest.json` with `report_sha256`
-
-4. **[ ] Hermes consume that report**
-   ```bash
-   python3 hermes/news/nightly_pull.py --dry-run
-   python3 hermes/news/nightly_pull.py --collection news_signals
-   ```
-
-5. **[ ] Later (content factory)**  
+4. **[ ] Later (content factory)**  
    Deep LLM enrichment, critic pass, Telegram / Buzz / Academy review queue.  
    Optional `AGENCY_INGEST_URL` webhook only when Hermes has stable public HTTPS — pull + hash remain the reliability baseline.
 
