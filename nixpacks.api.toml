@@ -1,10 +1,14 @@
 # Nixpacks plan for the Python API service (Railway or Nixpacks-compatible hosts).
 # Frontend/static service continues to use ./nixpacks.toml (Node + Caddy).
 #
+# Preferred on Railway `opensourcenews_api`: use Dockerfile.api
+#   (Builder=Dockerfile, dockerfile path=Dockerfile.api).
+# This file remains as a Nixpacks fallback when Dockerfile is not used.
+#
 # Railway: create a second service from this repo and either:
-#   - Set environment variable NIXPACKS_CONFIG_PATH to this file (path: nixpacks.api.toml), or
-#   - In Service Settings → Build, set custom commands to match [phases] below and
-#     Start Command: python3 api/script_generator.py
+#   - Set Builder to Dockerfile + Dockerfile.api, or
+#   - Set NIXPACKS_CONFIG_PATH=nixpacks.api.toml (Nixpacks builder), or
+#   - Match [phases] below + Start Command: python3 api/script_generator.py
 #
 [phases.setup]
 nixPkgs = ["python311", "gcc"]

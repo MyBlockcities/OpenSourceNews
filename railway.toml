@@ -1,17 +1,21 @@
 # Railway: this repo powers TWO services (static Vite UI + Flask API).
 #
-# Do NOT set [deploy] startCommand here. A single railway.toml is applied to
-# every service linked to the repo — a Caddy command would also run on the API
-# service (wrong). Config-as-code overrides the dashboard (see Railway docs).
+# Do NOT set [build].builder or [deploy].startCommand here.
+# A single railway.toml is applied to every service linked to the repo —
+# a forced Nixpacks builder overrides the API service's Dockerfile and
+# breaks `python3` at runtime. Config-as-code overrides the dashboard.
 #
-# Set Start Command per service in the Railway UI:
-#   • Frontend:  caddy file-server --listen :$PORT --root /app/dist
-#                Health check path: /
-#   • API:       python3 api/script_generator.py
-#                Health check path: /api/health
+# Set per service in the Railway UI (or service variables):
+#   • Frontend (OpenSourceNews):
+#       Builder: Nixpacks (uses ./nixpacks.toml)
+#       Start:   caddy file-server --listen :$PORT --root /app/dist
+#       Health:  /
+#       Build var: VITE_API_BASE_URL=https://<api-public-domain>
+#   • API (opensourcenews_api):
+#       Builder: Dockerfile
+#       Dockerfile path: Dockerfile.api
+#       Start:   python3 api/script_generator.py
+#       Health:  /api/health
+#       Var:     OPEN_SOURCE_NEWS_CORS_ORIGINS=https://opensourcenews.up.railway.app
 #
-# API build: pip install -r requirements.txt && pip install -r requirements-api.txt
-#            (or use nixpacks.api.toml — see docs/DEPLOYMENT.md)
-
-[build]
-builder = "NIXPACKS"
+# API deps: pip install -r requirements.txt && pip install -r requirements-api.txt
