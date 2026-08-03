@@ -3,7 +3,7 @@
   "report_schema": "open_source_news_daily_report.v2",
   "latest_report_date": "2026-08-03",
   "latest_report_path": "outputs/daily/2026-08-03.json",
-  "item_count": 236,
+  "item_count": 422,
   "topics": [
     "General News & Research",
     "AI / AI Tools / AI Agents",
@@ -13,25 +13,27 @@
     "Peptides / Wellness / Longevity"
   ],
   "bucket_counts": {
-    "general": 54,
-    "ai": 34,
-    "blockchain": 39,
-    "sense_making": 39,
-    "peptides": 70
+    "general": 70,
+    "ai": 68,
+    "blockchain": 55,
+    "sense_making": 55,
+    "alternative_news": 84,
+    "peptides": 90
   },
-  "generated_at": "2026-08-03T16:44:42Z",
-  "report_sha256": "b4ff489b6a48534e184f9ca57c7abeef8ec5eb83b7ed36e82d3cdd000e4be0a9",
-  "report_bytes": 179780,
-  "unique_signal_count": 231,
-  "unique_cluster_count": 236,
+  "generated_at": "2026-08-03T17:26:18Z",
+  "report_sha256": "2fb5ea0079a5cc5d9d86a3c0a74f5104cee91b16e1c04ace7ddacbecaac685db",
+  "report_bytes": 641707,
+  "unique_signal_count": 412,
+  "unique_cluster_count": 420,
   "source_counts": {
-    "RSS": 70,
+    "RSS": 75,
+    "YouTube": 175,
     "GitHub Trending": 20,
-    "Hacker News": 95,
+    "Hacker News": 99,
     "PubMed": 15,
-    "ClinicalTrials.gov": 36
+    "ClinicalTrials.gov": 38
   },
-  "enrichment_pending_count": 236,
-  "workflow_run_id": "",
-  "commit_sha": ""
+  "enrichment_pending_count": 422,
+  "workflow_run_id": "30836737313",
+  "commit_sha": "5702bccea535d9310044e22137606b301075bb49"
 }
