@@ -22,3 +22,5 @@ cmds = ["python -c \"import flask; print('deps ok')\""]
 
 [start]
 cmd = "python3 api/script_generator.py"
+
+# rebuild-trigger 2026-08-03T21:40:40Z
