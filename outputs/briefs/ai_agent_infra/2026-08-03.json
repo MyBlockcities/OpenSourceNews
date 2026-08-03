@@ -1,6 +1,6 @@
 {
   "schema": "open_source_news_mission_brief.v1",
-  "generated_at": "2026-08-03T10:31:56+00:00",
+  "generated_at": "2026-08-03T17:26:03+00:00",
   "report_date": "2026-08-03",
   "watchlist": {
     "name": "ai_agent_infra",
@@ -26,362 +26,54 @@
   },
   "counts": {
     "matched_items": 12,
-    "source_links": 12
+    "source_links": 10
   },
   "sections": {
     "what_changed": [
-      "An AI agent published a hit piece on me (Hacker News)",
-      "AI agent bankrupted their operator while trying to scan DN42 (Hacker News)",
-      "OpenCode – Open source AI coding agent (Hacker News)",
-      "AI agent opens a PR write a blogpost to shames the maintainer who closes it (Hacker News)",
-      "Opus 4.5 is not the normal AI agent experience that I have had thus far (Hacker News)"
+      "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents (RSS)",
+      "Show HN: Product analytics (and evals) for agent sessions on your MCP (RSS)",
+      "jamiepine / voicebox (GitHub Trending)",
+      "Panniantong / Agent-Reach (GitHub Trending)",
+      "Panniantong / Agent-Reach (GitHub Trending)"
     ],
     "why_it_matters": [
-      "An AI agent published a hit piece on me maps to agents, ai.",
-      "AI agent bankrupted their operator while trying to scan DN42 maps to agents, ai.",
-      "OpenCode – Open source AI coding agent maps to agents, ai."
+      "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents maps to agents, mcp, ai.",
+      "Show HN: Product analytics (and evals) for agent sessions on your MCP maps to agents, mcp, ai.",
+      "jamiepine / voicebox maps to agents, mcp, ai."
     ],
     "who_should_care": [
       "AI automation agency operator"
     ],
     "recommended_actions": [
-      "Review Hacker News signal: An AI agent published a hit piece on me",
-      "Review Hacker News signal: AI agent bankrupted their operator while trying to scan DN42",
-      "Review Hacker News signal: OpenCode – Open source AI coding agent"
+      "Review RSS signal: Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
+      "Review RSS signal: Show HN: Product analytics (and evals) for agent sessions on your MCP",
+      "Review GitHub Trending signal: jamiepine / voicebox"
     ],
     "build_ideas": [
-      "Prototype an internal brief or automation around: An AI agent published a hit piece on me"
+      "Prototype an internal brief or automation around: Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents"
     ],
     "content_ideas": [
-      "Publish a short explainer on: An AI agent published a hit piece on me",
-      "Publish a short explainer on: AI agent bankrupted their operator while trying to scan DN42"
+      "Publish a short explainer on: Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
+      "Publish a short explainer on: Show HN: Product analytics (and evals) for agent sessions on your MCP"
     ],
     "investment_partnership_angles": [
-      "Track the cluster `bc5c62f1dce6b2e2` for repeat mentions over the next week.",
-      "Track the cluster `ad6096fca5fdd310` for repeat mentions over the next week."
+      "Track the cluster `e3be7f1863ecd7be` for repeat mentions over the next week.",
+      "Track the cluster `b6a6ce93f6d84dcb` for repeat mentions over the next week."
     ]
   },
   "items": [
     {
       "source_system": "OpenSourceNews",
-      "signal_id": "054c0b119223efe6",
-      "cluster_id": "bc5c62f1dce6b2e2",
-      "title": "An AI agent published a hit piece on me",
-      "summary": "",
-      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
+      "signal_id": "d8f008236e24e1f5",
+      "cluster_id": "e3be7f1863ecd7be",
+      "title": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
+      "summary": "Hi HN, we’re Bence and Ryan, founders of Hoplite ( https://hoplite.sh ). Hoplite lets you deploy coding agents in the cloud, with a suite of tools that makes it incredibly easy to QA features. During onboarding, we port over your local setup - sessions, memories, MCP servers, and get your projects ready to run in the cloud. Here’s a demo: https://youtu.be/bnyktZ_9pjE We got here after pivoting away from the idea we applied to YC with; AI for retail investing. It ultimately wasn’t a product that we ourselves would use, nor served a customer base that we felt connected to. In reflecting on what we really wanted to do, we realised that we loved talking to founders and developers, and were really opinionated about the specific area of cloud agents. We tried out all the existing solutions, and didn’t find one that A) took good advantage of being in the cloud, and B) was performant and felt good to use. We’re building a product that we feel reflects what mainstream development will look like in 6-12 months. As models improve, developers will end up reviewing less and less code, and will instead focus on reviewing the product output. That means evaluating new user flows, visually verifying that new features look good, that the API works as expected, that the CLI works on Windows, etc. And doing it while running hundreds of agents concurrently. On the agent side, we’ve created a custom harness. We spent a lot of time deciding on whether we should use an off the shelf solution like…",
+      "url": "https://hoplite.sh",
+      "canonical_url": "https://hoplite.sh",
       "source_urls": [
-        "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
+        "https://hoplite.sh"
       ],
-      "topics": [
-        "AI / AI Tools / AI Agents"
-      ],
-      "source": "Hacker News",
-      "category": "General News",
-      "content_type": "news",
-      "bucket": "ai",
-      "processing_mode": "standard_summary",
-      "mode": "",
-      "stance": "",
-      "affiliation": "",
-      "risk_level": "",
-      "verification_mode": "",
-      "content_warning": "",
-      "source_category": "",
-      "trust_layer": "",
-      "trust_level": "",
-      "evidence_level": "",
-      "regulatory_sensitivity": "",
-      "content_use": "",
-      "safe_framing": "",
-      "medical_claim_policy": "",
-      "classification_confidence": 0.5,
-      "quality_score": null,
-      "has_transcript": false,
-      "transcript_metadata": {
-        "word_count": null,
-        "mode": null,
-        "source": null,
-        "used_in_prompt": null
-      },
-      "key_lessons": [],
-      "actionable_steps": [],
-      "tools_mentioned": [],
-      "frameworks_mentioned": [],
-      "claims": [],
-      "entities": [],
-      "uncertainty_markers": [],
-      "neutral_synthesis": "",
-      "implementation_notes": "",
-      "difficulty": "",
-      "main_topic": "",
-      "key_insights": [],
-      "target_audience": "",
-      "unique_value": "",
-      "transcript_error": null,
-      "matched_terms": [
-        "agents",
-        "ai"
-      ],
-      "match_score": 20.5
-    },
-    {
-      "source_system": "OpenSourceNews",
-      "signal_id": "4eae9a266c3f5170",
-      "cluster_id": "ad6096fca5fdd310",
-      "title": "AI agent bankrupted their operator while trying to scan DN42",
-      "summary": "",
-      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
-      "source_urls": [
-        "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/"
-      ],
-      "topics": [
-        "AI / AI Tools / AI Agents"
-      ],
-      "source": "Hacker News",
-      "category": "General News",
-      "content_type": "news",
-      "bucket": "ai",
-      "processing_mode": "standard_summary",
-      "mode": "",
-      "stance": "",
-      "affiliation": "",
-      "risk_level": "",
-      "verification_mode": "",
-      "content_warning": "",
-      "source_category": "",
-      "trust_layer": "",
-      "trust_level": "",
-      "evidence_level": "",
-      "regulatory_sensitivity": "",
-      "content_use": "",
-      "safe_framing": "",
-      "medical_claim_policy": "",
-      "classification_confidence": 0.5,
-      "quality_score": null,
-      "has_transcript": false,
-      "transcript_metadata": {
-        "word_count": null,
-        "mode": null,
-        "source": null,
-        "used_in_prompt": null
-      },
-      "key_lessons": [],
-      "actionable_steps": [],
-      "tools_mentioned": [],
-      "frameworks_mentioned": [],
-      "claims": [],
-      "entities": [],
-      "uncertainty_markers": [],
-      "neutral_synthesis": "",
-      "implementation_notes": "",
-      "difficulty": "",
-      "main_topic": "",
-      "key_insights": [],
-      "target_audience": "",
-      "unique_value": "",
-      "transcript_error": null,
-      "matched_terms": [
-        "agents",
-        "ai"
-      ],
-      "match_score": 20.5
-    },
-    {
-      "source_system": "OpenSourceNews",
-      "signal_id": "79e93f5f40207ecd",
-      "cluster_id": "33ead16be8b8893b",
-      "title": "OpenCode – Open source AI coding agent",
-      "summary": "",
-      "url": "https://opencode.ai/",
-      "source_urls": [
-        "https://opencode.ai/"
-      ],
-      "topics": [
-        "AI / AI Tools / AI Agents"
-      ],
-      "source": "Hacker News",
-      "category": "General News",
-      "content_type": "news",
-      "bucket": "ai",
-      "processing_mode": "standard_summary",
-      "mode": "",
-      "stance": "",
-      "affiliation": "",
-      "risk_level": "",
-      "verification_mode": "",
-      "content_warning": "",
-      "source_category": "",
-      "trust_layer": "",
-      "trust_level": "",
-      "evidence_level": "",
-      "regulatory_sensitivity": "",
-      "content_use": "",
-      "safe_framing": "",
-      "medical_claim_policy": "",
-      "classification_confidence": 0.5,
-      "quality_score": null,
-      "has_transcript": false,
-      "transcript_metadata": {
-        "word_count": null,
-        "mode": null,
-        "source": null,
-        "used_in_prompt": null
-      },
-      "key_lessons": [],
-      "actionable_steps": [],
-      "tools_mentioned": [],
-      "frameworks_mentioned": [],
-      "claims": [],
-      "entities": [],
-      "uncertainty_markers": [],
-      "neutral_synthesis": "",
-      "implementation_notes": "",
-      "difficulty": "",
-      "main_topic": "",
-      "key_insights": [],
-      "target_audience": "",
-      "unique_value": "",
-      "transcript_error": null,
-      "matched_terms": [
-        "agents",
-        "ai"
-      ],
-      "match_score": 20.5
-    },
-    {
-      "source_system": "OpenSourceNews",
-      "signal_id": "7985656310f1ab3f",
-      "cluster_id": "3027b210f22918d7",
-      "title": "AI agent opens a PR write a blogpost to shames the maintainer who closes it",
-      "summary": "",
-      "url": "https://github.com/matplotlib/matplotlib/pull/31132",
-      "source_urls": [
-        "https://github.com/matplotlib/matplotlib/pull/31132"
-      ],
-      "topics": [
-        "AI / AI Tools / AI Agents"
-      ],
-      "source": "Hacker News",
-      "category": "General News",
-      "content_type": "news",
-      "bucket": "ai",
-      "processing_mode": "standard_summary",
-      "mode": "",
-      "stance": "",
-      "affiliation": "",
-      "risk_level": "",
-      "verification_mode": "",
-      "content_warning": "",
-      "source_category": "",
-      "trust_layer": "",
-      "trust_level": "",
-      "evidence_level": "",
-      "regulatory_sensitivity": "",
-      "content_use": "",
-      "safe_framing": "",
-      "medical_claim_policy": "",
-      "classification_confidence": 0.5,
-      "quality_score": null,
-      "has_transcript": false,
-      "transcript_metadata": {
-        "word_count": null,
-        "mode": null,
-        "source": null,
-        "used_in_prompt": null
-      },
-      "key_lessons": [],
-      "actionable_steps": [],
-      "tools_mentioned": [],
-      "frameworks_mentioned": [],
-      "claims": [],
-      "entities": [],
-      "uncertainty_markers": [],
-      "neutral_synthesis": "",
-      "implementation_notes": "",
-      "difficulty": "",
-      "main_topic": "",
-      "key_insights": [],
-      "target_audience": "",
-      "unique_value": "",
-      "transcript_error": null,
-      "matched_terms": [
-        "agents",
-        "ai"
-      ],
-      "match_score": 20.5
-    },
-    {
-      "source_system": "OpenSourceNews",
-      "signal_id": "22d51d6e9a4f94c6",
-      "cluster_id": "78982efcd91987f9",
-      "title": "Opus 4.5 is not the normal AI agent experience that I have had thus far",
-      "summary": "",
-      "url": "https://burkeholland.github.io/posts/opus-4-5-change-everything/",
-      "source_urls": [
-        "https://burkeholland.github.io/posts/opus-4-5-change-everything/"
-      ],
-      "topics": [
-        "AI / AI Tools / AI Agents"
-      ],
-      "source": "Hacker News",
-      "category": "General News",
-      "content_type": "news",
-      "bucket": "ai",
-      "processing_mode": "standard_summary",
-      "mode": "",
-      "stance": "",
-      "affiliation": "",
-      "risk_level": "",
-      "verification_mode": "",
-      "content_warning": "",
-      "source_category": "",
-      "trust_layer": "",
-      "trust_level": "",
-      "evidence_level": "",
-      "regulatory_sensitivity": "",
-      "content_use": "",
-      "safe_framing": "",
-      "medical_claim_policy": "",
-      "classification_confidence": 0.5,
-      "quality_score": null,
-      "has_transcript": false,
-      "transcript_metadata": {
-        "word_count": null,
-        "mode": null,
-        "source": null,
-        "used_in_prompt": null
-      },
-      "key_lessons": [],
-      "actionable_steps": [],
-      "tools_mentioned": [],
-      "frameworks_mentioned": [],
-      "claims": [],
-      "entities": [],
-      "uncertainty_markers": [],
-      "neutral_synthesis": "",
-      "implementation_notes": "",
-      "difficulty": "",
-      "main_topic": "",
-      "key_insights": [],
-      "target_audience": "",
-      "unique_value": "",
-      "transcript_error": null,
-      "matched_terms": [
-        "agents",
-        "ai"
-      ],
-      "match_score": 20.5
-    },
-    {
-      "source_system": "OpenSourceNews",
-      "signal_id": "794d1e9fce64667e",
-      "cluster_id": "22150820c5ddf260",
-      "title": "PISIGuard: Protect your personal and sensitive info when you chat with AI",
-      "summary": "",
-      "url": "https://github.com/mohamed--abdel-maksoud/pisiguard",
-      "source_urls": [
-        "https://github.com/mohamed--abdel-maksoud/pisiguard"
-      ],
+      "source_domain": "hoplite.sh",
       "topics": [
         "General News & Research"
       ],
@@ -428,21 +120,31 @@
       "target_audience": "",
       "unique_value": "",
       "transcript_error": null,
+      "published_at": "Mon, 03 Aug 2026 16:32:06 +0000",
+      "fetched_at": "2026-08-03T17:23:55Z",
+      "excerpt": "Hi HN, we’re Bence and Ryan, founders of Hoplite ( https://hoplite.sh ). Hoplite lets you deploy coding agents in the cloud, with a suite of tools that makes it incredibly easy to QA features. During onboarding, we port over your local setup - sessions, memories, MCP servers, and get your projects ready to run in the cloud. Here’s a demo: https://youtu.be/bnyktZ_9pjE We got here after pivoting away from the idea we applied to YC with; AI for retail investing. It ultimately wasn’t a product that we ourselves would use, nor served a customer base that we felt connected to. In reflecting on what we really wanted to do, we realised that we loved talking to founders and developers, and were really opinionated about the specific area of cloud agents. We tried out all the existing solutions, and didn’t find one that A) took good advantage of being in the cloud, and B) was performant and felt good to use. We’re building a product that we feel reflects what mainstream development will look like in 6-12 months. As models improve, developers will end up reviewing less and less code, and will instead focus on reviewing the product output. That means evaluating new user flows, visually verifying that new features look good, that the API works as expected, that the CLI works on Windows, etc. And doing it while running hundreds of agents concurrently. On the agent side, we’ve created a custom harness. We spent a lot of time deciding on whether we should use an off the shelf solution like…",
+      "author": "BenceRed",
+      "content_hash": "cf4d1295f5d2606d",
+      "enrichment_status": "pending",
       "matched_terms": [
+        "agents",
+        "mcp",
         "ai"
       ],
-      "match_score": 10.5
+      "match_score": 30.5
     },
     {
       "source_system": "OpenSourceNews",
-      "signal_id": "59e695d4ed4f9947",
-      "cluster_id": "a65dad6c722e717a",
-      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
-      "summary": "",
-      "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+      "signal_id": "f35879ad9e5a006d",
+      "cluster_id": "b6a6ce93f6d84dcb",
+      "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
+      "summary": "Hi HN! We’re Theodore and Louis, founders of Armature (YC P26). We reconstruct the entire session behind the MCP tool calls you receive, including what the user asked their agent to do and what the agent thought. You wrap your MCP in 3 lines of code (our SDK is available in Typescript, Python and Go) and start seeing in your dashboard: - All sessions reconstructed: it’s like reading the real conversation the user had inside Claude or ChatGPT! - A ranking of your MCP most popular use cases, built from sessions clustering - The most frequent issues your users’ agents encounter so you can fix them. Here is a quick demo: https://youtu.be/ZFlvquhyNMQ The story behind this is that we initially launched Armature as a standalone testing tool ( https://www.ycombinator.com/launches/QQc-armature-making-you... ) that could naturally be used through an MCP itself. We quickly realized we had no idea how our users were using Armature MCP and if they were satisfied with it or frustrated. It’s something we had also experienced in our previous companies: Louis built MCPs exposed to millions of users and Theo was a Forward Deployed Engineer at Palantir before joining a Datadog spin-off as Founding Engineer. Both testing and product analytics had always been real pains when exposing a product to agents but we always thought there wasn’t much we could do about analytics because the conversation lived in our users’ AI client. Then it struck us: what if we asked the agents why they were making…",
+      "url": "https://armature.tech/",
+      "canonical_url": "https://armature.tech/",
       "source_urls": [
-        "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/"
+        "https://armature.tech/"
       ],
+      "source_domain": "armature.tech",
       "topics": [
         "General News & Research"
       ],
@@ -489,204 +191,31 @@
       "target_audience": "",
       "unique_value": "",
       "transcript_error": null,
+      "published_at": "Mon, 03 Aug 2026 16:17:59 +0000",
+      "fetched_at": "2026-08-03T17:23:55Z",
+      "excerpt": "Hi HN! We’re Theodore and Louis, founders of Armature (YC P26). We reconstruct the entire session behind the MCP tool calls you receive, including what the user asked their agent to do and what the agent thought. You wrap your MCP in 3 lines of code (our SDK is available in Typescript, Python and Go) and start seeing in your dashboard: - All sessions reconstructed: it’s like reading the real conversation the user had inside Claude or ChatGPT! - A ranking of your MCP most popular use cases, built from sessions clustering - The most frequent issues your users’ agents encounter so you can fix them. Here is a quick demo: https://youtu.be/ZFlvquhyNMQ The story behind this is that we initially launched Armature as a standalone testing tool ( https://www.ycombinator.com/launches/QQc-armature-making-you... ) that could naturally be used through an MCP itself. We quickly realized we had no idea how our users were using Armature MCP and if they were satisfied with it or frustrated. It’s something we had also experienced in our previous companies: Louis built MCPs exposed to millions of users and Theo was a Forward Deployed Engineer at Palantir before joining a Datadog spin-off as Founding Engineer. Both testing and product analytics had always been real pains when exposing a product to agents but we always thought there wasn’t much we could do about analytics because the conversation lived in our users’ AI client. Then it struck us: what if we asked the agents why they were making…",
+      "author": "screm",
+      "content_hash": "291280766ce0a5c6",
+      "enrichment_status": "pending",
       "matched_terms": [
+        "agents",
+        "mcp",
         "ai"
       ],
-      "match_score": 10.5
+      "match_score": 30.5
     },
     {
       "source_system": "OpenSourceNews",
-      "signal_id": "ccf05b4e755db967",
-      "cluster_id": "87b102cffcee9a9d",
-      "title": "Sam Altman and AI’s decel debate",
-      "summary": "",
-      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "signal_id": "be07a7aa8c3d11a0",
+      "cluster_id": "097dacaf9b6497d0",
+      "title": "jamiepine / voicebox",
+      "summary": "The open-source AI voice studio. Clone, dictate, create.",
+      "url": "https://github.com/jamiepine/voicebox",
+      "canonical_url": "https://github.com/jamiepine/voicebox",
       "source_urls": [
-        "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/"
+        "https://github.com/jamiepine/voicebox"
       ],
-      "topics": [
-        "General News & Research"
-      ],
-      "source": "RSS",
-      "category": "General News",
-      "content_type": "news",
-      "bucket": "general",
-      "processing_mode": "standard_summary",
-      "mode": "",
-      "stance": "",
-      "affiliation": "",
-      "risk_level": "",
-      "verification_mode": "",
-      "content_warning": "",
-      "source_category": "",
-      "trust_layer": "",
-      "trust_level": "",
-      "evidence_level": "",
-      "regulatory_sensitivity": "",
-      "content_use": "",
-      "safe_framing": "",
-      "medical_claim_policy": "",
-      "classification_confidence": 0.5,
-      "quality_score": null,
-      "has_transcript": false,
-      "transcript_metadata": {
-        "word_count": null,
-        "mode": null,
-        "source": null,
-        "used_in_prompt": null
-      },
-      "key_lessons": [],
-      "actionable_steps": [],
-      "tools_mentioned": [],
-      "frameworks_mentioned": [],
-      "claims": [],
-      "entities": [],
-      "uncertainty_markers": [],
-      "neutral_synthesis": "",
-      "implementation_notes": "",
-      "difficulty": "",
-      "main_topic": "",
-      "key_insights": [],
-      "target_audience": "",
-      "unique_value": "",
-      "transcript_error": null,
-      "matched_terms": [
-        "ai"
-      ],
-      "match_score": 10.5
-    },
-    {
-      "source_system": "OpenSourceNews",
-      "signal_id": "efd47a8bf63a0b6a",
-      "cluster_id": "cb7b594b62c1b534",
-      "title": "AI Conquered Coding. Fast Food Is Next",
-      "summary": "",
-      "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/",
-      "source_urls": [
-        "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/"
-      ],
-      "topics": [
-        "General News & Research"
-      ],
-      "source": "RSS",
-      "category": "General News",
-      "content_type": "news",
-      "bucket": "general",
-      "processing_mode": "standard_summary",
-      "mode": "",
-      "stance": "",
-      "affiliation": "",
-      "risk_level": "",
-      "verification_mode": "",
-      "content_warning": "",
-      "source_category": "",
-      "trust_layer": "",
-      "trust_level": "",
-      "evidence_level": "",
-      "regulatory_sensitivity": "",
-      "content_use": "",
-      "safe_framing": "",
-      "medical_claim_policy": "",
-      "classification_confidence": 0.5,
-      "quality_score": null,
-      "has_transcript": false,
-      "transcript_metadata": {
-        "word_count": null,
-        "mode": null,
-        "source": null,
-        "used_in_prompt": null
-      },
-      "key_lessons": [],
-      "actionable_steps": [],
-      "tools_mentioned": [],
-      "frameworks_mentioned": [],
-      "claims": [],
-      "entities": [],
-      "uncertainty_markers": [],
-      "neutral_synthesis": "",
-      "implementation_notes": "",
-      "difficulty": "",
-      "main_topic": "",
-      "key_insights": [],
-      "target_audience": "",
-      "unique_value": "",
-      "transcript_error": null,
-      "matched_terms": [
-        "ai"
-      ],
-      "match_score": 10.5
-    },
-    {
-      "source_system": "OpenSourceNews",
-      "signal_id": "b49ff7a4d59fffac",
-      "cluster_id": "1fb1422ef938e667",
-      "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
-      "summary": "",
-      "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
-      "source_urls": [
-        "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/"
-      ],
-      "topics": [
-        "General News & Research"
-      ],
-      "source": "RSS",
-      "category": "General News",
-      "content_type": "news",
-      "bucket": "general",
-      "processing_mode": "standard_summary",
-      "mode": "",
-      "stance": "",
-      "affiliation": "",
-      "risk_level": "",
-      "verification_mode": "",
-      "content_warning": "",
-      "source_category": "",
-      "trust_layer": "",
-      "trust_level": "",
-      "evidence_level": "",
-      "regulatory_sensitivity": "",
-      "content_use": "",
-      "safe_framing": "",
-      "medical_claim_policy": "",
-      "classification_confidence": 0.5,
-      "quality_score": null,
-      "has_transcript": false,
-      "transcript_metadata": {
-        "word_count": null,
-        "mode": null,
-        "source": null,
-        "used_in_prompt": null
-      },
-      "key_lessons": [],
-      "actionable_steps": [],
-      "tools_mentioned": [],
-      "frameworks_mentioned": [],
-      "claims": [],
-      "entities": [],
-      "uncertainty_markers": [],
-      "neutral_synthesis": "",
-      "implementation_notes": "",
-      "difficulty": "",
-      "main_topic": "",
-      "key_insights": [],
-      "target_audience": "",
-      "unique_value": "",
-      "transcript_error": null,
-      "matched_terms": [
-        "ai"
-      ],
-      "match_score": 10.5
-    },
-    {
-      "source_system": "OpenSourceNews",
-      "signal_id": "7746e435df2da50b",
-      "cluster_id": "ea7a7dffd0459d38",
-      "title": "different-ai / openwork",
-      "summary": "",
-      "url": "https://github.com/different-ai/openwork",
-      "source_urls": [
-        "https://github.com/different-ai/openwork"
-      ],
+      "source_domain": "github.com",
       "topics": [
         "General News & Research"
       ],
@@ -733,21 +262,173 @@
       "target_audience": "",
       "unique_value": "",
       "transcript_error": null,
+      "published_at": "2026-08-03T17:22:55Z",
+      "fetched_at": "2026-08-03T17:23:58Z",
+      "excerpt": "Voicebox The open-source AI voice studio. Clone any voice. Generate speech. Dictate into any app. Talk to agents in voices you own. The full voice I/O stack, running locally on your machine. voicebox.sh • Docs • Download • Features • API • Troubleshooting Click the image above to watch the demo video on voicebox.sh ## What is Voicebox? Voicebox is a **local-first AI voice studio** — a free and open-source alternative to **ElevenLabs** and **WisprFlow** in one app. Clone voices from a few seconds of audio, generate speech in 23 languages across 7 TTS engines, dictate into any text field with a global hotkey, and give any MCP-aware AI agent a voice of your choosing. The two cloud incumbents sit on opposite halves of the voice I/O loop — ElevenLabs on output, WisprFlow on input. Voicebox does both, bridges them with a bundled local LLM for refinement and per-profile personas, and runs the whole thing on your machine. - **Complete privacy** — models, voice data, and captures never leave your machine - **7 TTS engines** — Qwen3-TTS, Qwen CustomVoice, LuxTTS, Chatterbox Multilingual, Chatterbox Turbo, HumeAI TADA, and Kokoro - **Voice cloning and preset voices** — zero-shot cloning from a reference sample, or 50+ curated preset voices via Kokoro and Qwen CustomVoice - **23 languages** — from English to Arabic, Japanese, Hindi, Swahili, and more - **Post-processing effects** — pitch shift, reverb, delay, chorus, compression, and filters - **Expressive speech** — paralinguistic tags…",
+      "author": "jamiepine",
+      "content_hash": "b05249765a789ec3",
+      "enrichment_status": "pending",
       "matched_terms": [
+        "agents",
+        "mcp",
         "ai"
       ],
-      "match_score": 10.5
+      "match_score": 30.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "5bbcb2d96b5de6ff",
+      "cluster_id": "875397f7ce25dfd8",
+      "title": "Panniantong / Agent-Reach",
+      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "canonical_url": "https://github.com/Panniantong/Agent-Reach",
+      "source_urls": [
+        "https://github.com/Panniantong/Agent-Reach"
+      ],
+      "source_domain": "github.com",
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "GitHub Trending",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "published_at": "2026-08-03T17:20:13Z",
+      "fetched_at": "2026-08-03T17:24:02Z",
+      "excerpt": "👁️ Agent Reach 给你的 AI Agent 一键装上互联网能力 当下最稳的接入方式，替你选好、装好、体检好——接入方式会换代，你不用操心 快速开始 · English · 日本語 · 한국어 · 支持平台 · 设计理念 --- ## 为什么需要 Agent Reach？ AI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了： - 📺 \"帮我看看这个 YouTube 教程讲了什么\" → **看不了**，拿不到字幕 - 🐦 \"帮我搜一下推特上大家怎么评价这个产品\" → **搜不了**，Twitter API 要付费 - 📖 \"去 Reddit 上看看有没有人遇到过同样的 bug\" → **403 被封**，服务器 IP 被拒 - 📕 \"帮我看看小红书上这个品的口碑\" → **打不开**，必须登录才能看 - 📺 \"B站上有个技术视频，帮我总结一下\" → **拿不到**，通用下载工具被 B站风控全面拦截 - 🔍 \"帮我在网上搜一下最新的 LLM 框架对比\" → **没有好用的搜索**，要么付费要么质量差 - 🌐 \"帮我看看这个网页写了啥\" → **抓回来一堆 HTML 标签**，根本没法读 - 📦 \"这个 GitHub 仓库是干嘛的？Issue 里说了什么？\" → 能用，但认证配置很麻烦 - 📡 \"帮我订阅这几个 RSS 源，有更新告诉我\" → 要自己装库写代码 **这些不难实现，但是需要自己折腾配置** 每个平台都有自己的门槛——要付费的 API、要绕过的封锁、要登录的账号、要清洗的数据。你要一个一个去踩坑、装工具、调配置，光是让 Agent 能读个推特就得折腾半天。 **Agent Reach 把这件事变成一句话：** ``` 帮我安装 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/install.md ``` 复制给你的 Agent，几分钟后它就能读推特、搜 Reddit、看 YouTube、刷小红书了。 **已经装过了？更新也是一句话：** ``` 帮我更新 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/update.md ``` > ⭐ **Star 这个项目**，我们会持续追踪各平台的变化、接入新的渠道。你不用自己盯——平台封了我们修，有新渠道我们加。 ### ✅ 在你用之前，你可能想知道 | | | |---|---| | 💰 **完全免费** | 所有工具开源、所有 API 免费。唯一可能花钱的是服务器代理（$1/月），本地电脑不需要 | | 🔒 **隐私安全** | Cookie 只存在你本地，不上传不外传。代码完全开源，随时可审查 | | 🔄 **持续换代** | 每个平台都是「首选 + 备选」多后端路由。某个接入方式失效了，我们换下一个，你无感（2026-06 实例：yt-dlp 被 B站风控封死 → 已切换 bili-cli，用户零操作） | | 🤖 **兼容所有 Agent** | Claude Code、OpenClaw、Cursor、Windsurf……任何能跑命令行的 Agent 都能用 | | 🩺 **自带诊断** | `agent-reach doctor` 一条命令告诉你哪个通、哪个不通、怎么修 | --- ## 支持的平台 | 平台 |…",
+      "author": "Panniantong",
+      "content_hash": "ef3551b6669cfee7",
+      "enrichment_status": "pending",
+      "matched_terms": [
+        "claude code",
+        "agents",
+        "ai"
+      ],
+      "match_score": 30.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "5bbcb2d96b5de6ff",
+      "cluster_id": "c09b1a55664757da",
+      "title": "Panniantong / Agent-Reach",
+      "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "canonical_url": "https://github.com/Panniantong/Agent-Reach",
+      "source_urls": [
+        "https://github.com/Panniantong/Agent-Reach"
+      ],
+      "source_domain": "github.com",
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "GitHub Trending",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "published_at": "2026-08-03T17:20:13Z",
+      "fetched_at": "2026-08-03T17:24:13Z",
+      "excerpt": "👁️ Agent Reach 给你的 AI Agent 一键装上互联网能力 当下最稳的接入方式，替你选好、装好、体检好——接入方式会换代，你不用操心 快速开始 · English · 日本語 · 한국어 · 支持平台 · 设计理念 --- ## 为什么需要 Agent Reach？ AI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了： - 📺 \"帮我看看这个 YouTube 教程讲了什么\" → **看不了**，拿不到字幕 - 🐦 \"帮我搜一下推特上大家怎么评价这个产品\" → **搜不了**，Twitter API 要付费 - 📖 \"去 Reddit 上看看有没有人遇到过同样的 bug\" → **403 被封**，服务器 IP 被拒 - 📕 \"帮我看看小红书上这个品的口碑\" → **打不开**，必须登录才能看 - 📺 \"B站上有个技术视频，帮我总结一下\" → **拿不到**，通用下载工具被 B站风控全面拦截 - 🔍 \"帮我在网上搜一下最新的 LLM 框架对比\" → **没有好用的搜索**，要么付费要么质量差 - 🌐 \"帮我看看这个网页写了啥\" → **抓回来一堆 HTML 标签**，根本没法读 - 📦 \"这个 GitHub 仓库是干嘛的？Issue 里说了什么？\" → 能用，但认证配置很麻烦 - 📡 \"帮我订阅这几个 RSS 源，有更新告诉我\" → 要自己装库写代码 **这些不难实现，但是需要自己折腾配置** 每个平台都有自己的门槛——要付费的 API、要绕过的封锁、要登录的账号、要清洗的数据。你要一个一个去踩坑、装工具、调配置，光是让 Agent 能读个推特就得折腾半天。 **Agent Reach 把这件事变成一句话：** ``` 帮我安装 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/install.md ``` 复制给你的 Agent，几分钟后它就能读推特、搜 Reddit、看 YouTube、刷小红书了。 **已经装过了？更新也是一句话：** ``` 帮我更新 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/update.md ``` > ⭐ **Star 这个项目**，我们会持续追踪各平台的变化、接入新的渠道。你不用自己盯——平台封了我们修，有新渠道我们加。 ### ✅ 在你用之前，你可能想知道 | | | |---|---| | 💰 **完全免费** | 所有工具开源、所有 API 免费。唯一可能花钱的是服务器代理（$1/月），本地电脑不需要 | | 🔒 **隐私安全** | Cookie 只存在你本地，不上传不外传。代码完全开源，随时可审查 | | 🔄 **持续换代** | 每个平台都是「首选 + 备选」多后端路由。某个接入方式失效了，我们换下一个，你无感（2026-06 实例：yt-dlp 被 B站风控封死 → 已切换 bili-cli，用户零操作） | | 🤖 **兼容所有 Agent** | Claude Code、OpenClaw、Cursor、Windsurf……任何能跑命令行的 Agent 都能用 | | 🩺 **自带诊断** | `agent-reach doctor` 一条命令告诉你哪个通、哪个不通、怎么修 | --- ## 支持的平台 | 平台 |…",
+      "author": "Panniantong",
+      "content_hash": "ef3551b6669cfee7",
+      "enrichment_status": "pending",
+      "matched_terms": [
+        "claude code",
+        "agents",
+        "ai"
+      ],
+      "match_score": 30.5
     },
     {
       "source_system": "OpenSourceNews",
       "signal_id": "3e80d9731aa474cc",
       "cluster_id": "37cd563ba98ffe69",
       "title": "TencentCloud / TencentDB-Agent-Memory",
-      "summary": "",
+      "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "canonical_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "source_urls": [
         "https://github.com/TencentCloud/TencentDB-Agent-Memory"
       ],
+      "source_domain": "github.com",
       "topics": [
         "General News & Research"
       ],
@@ -794,60 +475,479 @@
       "target_audience": "",
       "unique_value": "",
       "transcript_error": null,
+      "published_at": "2026-08-03T17:23:27Z",
+      "fetched_at": "2026-08-03T17:23:58Z",
+      "excerpt": "### Agents remember. Humans innovate. [![npm](https://img.shields.io/npm/v/@tencentdb-agent-memory/memory-tencentdb?color=blue)](https://www.npmjs.com/package/@tencentdb-agent-memory/memory-tencentdb) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE) [![Node](https://img.shields.io/badge/node-%3E=22.16-brightgreen)](https://nodejs.org/) [![OpenClaw](https://img.shields.io/badge/OpenClaw-%3E=2026.3.13-orange)](https://github.com/openclaw/openclaw) [![Hermes](https://img.shields.io/badge/Hermes-Gateway-7B61FF)](https://hermes-agent.nousresearch.com/docs/) [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/dJQM6mKMF) [Installation](#installation) · [What is it?](#what-is-tencentdb-agent-memory) · [Team Play](#one-play-style-build-a-growing-agent-team-for-a-one-person-company) · [Technical Implementation](#technical-implementation) · [Benchmark](#benchmark) [**English**](./README.md) · [简体中文](./README_CN.md) --- > **Latest:** Team Memory Beta is evolving quickly — install it and start exploring in minutes. # Installation Start all three services in one go (`memory-core` + `memory-hub` + `proxy`): ```bash git clone https://github.com/Tencent/TencentDB-Agent-Memory.git cd TencentDB-Agent-Memory/deploy/global-images cp .env.example .env $EDITOR .env # Fill in two sets of LLM parameters (memory group + proxy group) ./start-all.sh # Launch everything with one command; when finished, it prints a…",
+      "author": "TencentCloud",
+      "content_hash": "67ad66800c60ded8",
+      "enrichment_status": "pending",
       "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "a0c7f07ea76c059a",
+      "cluster_id": "801adabb642c625b",
+      "title": "can1357 / oh-my-pi",
+      "summary": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "canonical_url": "https://github.com/can1357/oh-my-pi",
+      "source_urls": [
+        "https://github.com/can1357/oh-my-pi"
+      ],
+      "source_domain": "github.com",
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "GitHub Trending",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "published_at": "2026-08-03T17:23:21Z",
+      "fetched_at": "2026-08-03T17:23:58Z",
+      "excerpt": "A coding agent with the IDE wired in. omp.sh Fork of Pi by @mariozechner The most capable agent surface that ships. Continuously tuned by real-world use — complete out of the box, open all the way down. **60+** providers · **31** built-in tools · **14** lsp ops · **28** dap ops · **~80k** lines of Rust core. > [!NOTE] > Pull requests are **temporarily open to everyone** as a trial. We previously > required a vouch before accepting PRs; that requirement is lifted for now > while we evaluate how open contributions go. Depending on the results, the > vouch system may return. ## Install **macOS · Linux** ```sh curl -fsSL https://omp.sh/install | sh ``` **Homebrew** ```sh brew install can1357/tap/omp ``` **Bun (recommended)** ```sh bun install -g @oh-my-pi/pi-coding-agent ``` **Windows (PowerShell)** ```powershell irm https://omp.sh/install.ps1 | iex ``` **Pinned versions (mise)** ```sh mise use -g github:can1357/oh-my-pi ``` macOS · Linux · Windows · bun ≥ 1.3.14 ### Shell completions `omp` generates its own completion scripts for **bash**, **zsh**, and **fish** from the live command/flag metadata, so they never drift from the actual CLI. Subcommands, flags, and enum values complete statically; model names (`--model`, `--smol`, `--slow`, `--plan`) resolve against the bundled model catalog and `--resume` against your on-disk sessions. ```sh # zsh — add to ~/.zshrc (or write the output into a file on your $fpath) eval \"$(omp completions zsh)\" # bash — add to ~/.bashrc eval \"$(omp…",
+      "author": "can1357",
+      "content_hash": "231f2f2961b2642c",
+      "enrichment_status": "pending",
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "126953199c2f655a",
+      "cluster_id": "346577db840e32eb",
+      "title": "karakeep-app / karakeep",
+      "summary": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+      "url": "https://github.com/karakeep-app/karakeep",
+      "canonical_url": "https://github.com/karakeep-app/karakeep",
+      "source_urls": [
+        "https://github.com/karakeep-app/karakeep"
+      ],
+      "source_domain": "github.com",
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "GitHub Trending",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "published_at": "2026-08-03T15:34:40Z",
+      "fetched_at": "2026-08-03T17:23:58Z",
+      "excerpt": "# Karakeep (previously Hoarder) is a self-hostable bookmark-everything app with a touch of AI for the data hoarders out there. ![homepage screenshot](https://github.com/karakeep-app/karakeep/blob/main/screenshots/homepage.png?raw=true) ## Features - Bookmark links, take simple notes and store images and pdfs. - Automatic fetching for link titles, descriptions and images. - Sort your bookmarks into lists. - Collaborate with others on the same list. - Full text & semantic search of all the content stored. - LLM-based automatic tagging and summarization. With supports for local models using ollama! - LLM Agents (e.g. OpenClaw, Hermes) friendly with powerful [CLI](https://docs.karakeep.app/integrations/command-line), and [official skills](https://docs.karakeep.app/integrations/agentic-skills). - Rule-based engine for customized management. - OCR for extracting text from images. - [Chrome plugin](https://chromewebstore.google.com/detail/karakeep/kgcjekpmcjjogibpjebkhaanilehneje), [Firefox addon](https://addons.mozilla.org/en-US/firefox/addon/karakeep/), and [Safari extension](https://apps.apple.com/gb/app/karakeep-app/id6479258022?platform=mac) for quick bookmarking. - An [iOS app](https://apps.apple.com/us/app/karakeep-app/id6479258022), and an [Android app](https://play.google.com/store/apps/details?id=app.hoarder.hoardermobile&pcampaignid=web_share). - Mobile offline reading. - Auto hoarding from RSS feeds. - REST API and multiple clients. - Multi-language support. - Mark and…",
+      "author": "karakeep-app",
+      "content_hash": "2e9a4dd6deb9789b",
+      "enrichment_status": "pending",
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "7b81b62ccaa35d98",
+      "cluster_id": "36e6b1d27d9db49a",
+      "title": "Alishahryar1 / free-claude-code",
+      "summary": "Use Claude Code, Codex and Pi for free from your terminal, app, IDE, or phone like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "canonical_url": "https://github.com/Alishahryar1/free-claude-code",
+      "source_urls": [
+        "https://github.com/Alishahryar1/free-claude-code"
+      ],
+      "source_domain": "github.com",
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "GitHub Trending",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "published_at": "2026-08-03T17:23:17Z",
+      "fetched_at": "2026-08-03T17:24:02Z",
+      "excerpt": "Use Claude Code, Codex, Pi, or their IDE extensions through your own provider-backed proxy. [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT) [![Python 3.14](https://img.shields.io/badge/python-3.14-3776ab.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/) [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json&style=for-the-badge)](https://github.com/astral-sh/uv) [![Tested with Pytest](https://img.shields.io/badge/testing-Pytest-00c0ff.svg?style=for-the-badge)](https://github.com/Alishahryar1/free-claude-code/actions/workflows/tests.yml) [![Type checking: Ty](https://img.shields.io/badge/type%20checking-ty-ffcc00.svg?style=for-the-badge)](https://pypi.org/project/ty/) [![Code style: Ruff](https://img.shields.io/badge/code%20formatting-ruff-f5a623.svg?style=for-the-badge)](https://github.com/astral-sh/ruff) [![Logging: Loguru](https://img.shields.io/badge/logging-loguru-4ecdc4.svg?style=for-the-badge)](https://github.com/Delgan/loguru) Run your coding agents with free, paid, or local models. Choose and validate providers from one local Admin UI. [Quick Start](#quick-start) · [Providers](#choose-a-provider) · [Clients](#connect-your-client) · [Integrations](#optional-integrations) · [Manage](#manage-your-installation) Claude Code running through the Free Claude Code proxy. Codex CLI using the local FCC…",
+      "author": "Alishahryar1",
+      "content_hash": "1077288eb20124cc",
+      "enrichment_status": "pending",
+      "matched_terms": [
+        "claude code",
         "agents"
       ],
-      "match_score": 10.5
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "a14874c578abda83",
+      "cluster_id": "2660274fe2b9645b",
+      "title": "livekit / agents",
+      "summary": "A framework for building realtime voice AI agents 🤖🎙️📹",
+      "url": "https://github.com/livekit/agents",
+      "canonical_url": "https://github.com/livekit/agents",
+      "source_urls": [
+        "https://github.com/livekit/agents"
+      ],
+      "source_domain": "github.com",
+      "topics": [
+        "General News & Research"
+      ],
+      "source": "GitHub Trending",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "general",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "published_at": "2026-08-03T17:21:13Z",
+      "fetched_at": "2026-08-03T17:24:02Z",
+      "excerpt": "![PyPI - Version](https://img.shields.io/pypi/v/livekit-agents) [![PyPI Downloads](https://static.pepy.tech/badge/livekit-agents/month)](https://pepy.tech/projects/livekit-agents) [![Slack community](https://img.shields.io/endpoint?url=https%3A%2F%2Flivekit.io%2Fbadges%2Fslack)](https://livekit.io/join-slack) [![Twitter Follow](https://img.shields.io/twitter/follow/livekit)](https://twitter.com/livekit) [![Ask DeepWiki for understanding the codebase](https://deepwiki.com/badge.svg)](https://deepwiki.com/livekit/agents) [![License](https://img.shields.io/github/license/livekit/livekit)](https://github.com/livekit/livekit/blob/master/LICENSE) Looking for the JS/TS library? Check out [AgentsJS](https://github.com/livekit/agents-js) ## What is Agents? The Agent Framework is designed for building realtime, programmable participants that run on servers. Use it to create conversational, multi-modal voice agents that can see, hear, and understand. ## Features - **Flexible integrations**: A comprehensive ecosystem to mix and match the right STT, LLM, TTS, and Realtime API to suit your use case. - **Integrated job scheduling**: Built-in task scheduling and distribution with [dispatch APIs](https://docs.livekit.io/agents/build/dispatch/) to connect end users to agents. - **Extensive WebRTC clients**: Build client applications using LiveKit's open-source SDK ecosystem, supporting all major platforms. - **Telephony integration**: Works seamlessly with LiveKit's [telephony…",
+      "author": "livekit",
+      "content_hash": "1df1030407413af1",
+      "enrichment_status": "pending",
+      "matched_terms": [
+        "agents",
+        "ai"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "9e225c418256abe1",
+      "cluster_id": "1f3e85d9101d62ce",
+      "title": "SEE CMUX SOLVE Multi-Agent Orchestration (Claude Code and Pi Agent)",
+      "summary": "",
+      "url": "https://youtu.be/WAFUMBLOjHo",
+      "canonical_url": "https://youtu.be/WAFUMBLOjHo",
+      "source_urls": [
+        "https://youtu.be/WAFUMBLOjHo"
+      ],
+      "source_domain": "youtu.be",
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "YouTube",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "published_at": "2026-07-06T13:00:06Z",
+      "fetched_at": "2026-08-03T17:24:12Z",
+      "excerpt": "SEE CMUX SOLVE Multi-Agent Orchestration (Claude Code and Pi Agent)",
+      "author": "IndyDevDan",
+      "content_hash": "997e1b7136cc11f3",
+      "enrichment_status": "pending",
+      "matched_terms": [
+        "claude code",
+        "agents"
+      ],
+      "match_score": 20.5
+    },
+    {
+      "source_system": "OpenSourceNews",
+      "signal_id": "7b81b62ccaa35d98",
+      "cluster_id": "76e042e7dbbb2950",
+      "title": "Alishahryar1 / free-claude-code",
+      "summary": "Use Claude Code, Codex and Pi for free from your terminal, app, IDE, or phone like OpenClaw (voice supported)",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "canonical_url": "https://github.com/Alishahryar1/free-claude-code",
+      "source_urls": [
+        "https://github.com/Alishahryar1/free-claude-code"
+      ],
+      "source_domain": "github.com",
+      "topics": [
+        "AI / AI Tools / AI Agents"
+      ],
+      "source": "GitHub Trending",
+      "category": "General News",
+      "content_type": "news",
+      "bucket": "ai",
+      "processing_mode": "standard_summary",
+      "mode": "",
+      "stance": "",
+      "affiliation": "",
+      "risk_level": "",
+      "verification_mode": "",
+      "content_warning": "",
+      "source_category": "",
+      "trust_layer": "",
+      "trust_level": "",
+      "evidence_level": "",
+      "regulatory_sensitivity": "",
+      "content_use": "",
+      "safe_framing": "",
+      "medical_claim_policy": "",
+      "classification_confidence": 0.5,
+      "quality_score": null,
+      "has_transcript": false,
+      "transcript_metadata": {
+        "word_count": null,
+        "mode": null,
+        "source": null,
+        "used_in_prompt": null
+      },
+      "key_lessons": [],
+      "actionable_steps": [],
+      "tools_mentioned": [],
+      "frameworks_mentioned": [],
+      "claims": [],
+      "entities": [],
+      "uncertainty_markers": [],
+      "neutral_synthesis": "",
+      "implementation_notes": "",
+      "difficulty": "",
+      "main_topic": "",
+      "key_insights": [],
+      "target_audience": "",
+      "unique_value": "",
+      "transcript_error": null,
+      "published_at": "2026-08-03T17:23:17Z",
+      "fetched_at": "2026-08-03T17:24:13Z",
+      "excerpt": "Use Claude Code, Codex, Pi, or their IDE extensions through your own provider-backed proxy. [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT) [![Python 3.14](https://img.shields.io/badge/python-3.14-3776ab.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/) [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json&style=for-the-badge)](https://github.com/astral-sh/uv) [![Tested with Pytest](https://img.shields.io/badge/testing-Pytest-00c0ff.svg?style=for-the-badge)](https://github.com/Alishahryar1/free-claude-code/actions/workflows/tests.yml) [![Type checking: Ty](https://img.shields.io/badge/type%20checking-ty-ffcc00.svg?style=for-the-badge)](https://pypi.org/project/ty/) [![Code style: Ruff](https://img.shields.io/badge/code%20formatting-ruff-f5a623.svg?style=for-the-badge)](https://github.com/astral-sh/ruff) [![Logging: Loguru](https://img.shields.io/badge/logging-loguru-4ecdc4.svg?style=for-the-badge)](https://github.com/Delgan/loguru) Run your coding agents with free, paid, or local models. Choose and validate providers from one local Admin UI. [Quick Start](#quick-start) · [Providers](#choose-a-provider) · [Clients](#connect-your-client) · [Integrations](#optional-integrations) · [Manage](#manage-your-installation) Claude Code running through the Free Claude Code proxy. Codex CLI using the local FCC…",
+      "author": "Alishahryar1",
+      "content_hash": "1077288eb20124cc",
+      "enrichment_status": "pending",
+      "matched_terms": [
+        "claude code",
+        "agents"
+      ],
+      "match_score": 20.5
     }
   ],
   "source_links": [
     {
-      "title": "An AI agent published a hit piece on me",
-      "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/"
+      "title": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
+      "url": "https://hoplite.sh"
     },
     {
-      "title": "AI agent bankrupted their operator while trying to scan DN42",
-      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/"
+      "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
+      "url": "https://armature.tech/"
     },
     {
-      "title": "OpenCode – Open source AI coding agent",
-      "url": "https://opencode.ai/"
+      "title": "jamiepine / voicebox",
+      "url": "https://github.com/jamiepine/voicebox"
     },
     {
-      "title": "AI agent opens a PR write a blogpost to shames the maintainer who closes it",
-      "url": "https://github.com/matplotlib/matplotlib/pull/31132"
-    },
-    {
-      "title": "Opus 4.5 is not the normal AI agent experience that I have had thus far",
-      "url": "https://burkeholland.github.io/posts/opus-4-5-change-everything/"
-    },
-    {
-      "title": "PISIGuard: Protect your personal and sensitive info when you chat with AI",
-      "url": "https://github.com/mohamed--abdel-maksoud/pisiguard"
-    },
-    {
-      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
-      "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/"
-    },
-    {
-      "title": "Sam Altman and AI’s decel debate",
-      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/"
-    },
-    {
-      "title": "AI Conquered Coding. Fast Food Is Next",
-      "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next/"
-    },
-    {
-      "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
-      "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/"
-    },
-    {
-      "title": "different-ai / openwork",
-      "url": "https://github.com/different-ai/openwork"
+      "title": "Panniantong / Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach"
     },
     {
       "title": "TencentCloud / TencentDB-Agent-Memory",
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "title": "can1357 / oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi"
+    },
+    {
+      "title": "karakeep-app / karakeep",
+      "url": "https://github.com/karakeep-app/karakeep"
+    },
+    {
+      "title": "Alishahryar1 / free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    {
+      "title": "livekit / agents",
+      "url": "https://github.com/livekit/agents"
+    },
+    {
+      "title": "SEE CMUX SOLVE Multi-Agent Orchestration (Claude Code and Pi Agent)",
+      "url": "https://youtu.be/WAFUMBLOjHo"
     }
   ]
 }
