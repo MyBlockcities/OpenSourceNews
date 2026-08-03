@@ -20,17 +20,54 @@ Local Hermes pulls the public repo
         ↓
 Compare report_sha256 to local ledger
         ↓
-Enrich selected signals → local Qdrant → content packages
+Rank → enrich selected signals → Hermes Qdrant → content packages
 ```
 
 No public Hermes webhook, Railway service, or tunnel is required for this path.
+
+## Implementation checklist
+
+### OpenSourceNews (public sensor)
+
+- [x] `COLLECT_ONLY=1` in daily Actions (`daily.yml` + `pipelines/daily_run.py`)
+- [x] Richer free metadata (`published_at`, `fetched_at`, `excerpt`, `author`, …)
+- [x] Canonical URL normalization before `signal_id`
+- [x] `content_hash` + `enrichment_status: pending`
+- [x] Manifest v2 with `report_sha256` (legacy keys preserved)
+- [x] Daily cron `17 7 * * *`
+- [x] Qdrant-export schedule removed (workflow_run + manual only)
+- [x] Video-script workflow manual only
+- [x] Gemini Qdrant sync not scheduled
+- [x] Canonical/occurrence Qdrant export v2
+- [x] Delivery receipts for optional push (`outputs/ingest_receipts/`, gitignored)
+- [x] Public integration contract (this document)
+- [x] Schema / ID / manifest / dedupe tests
+- [x] GitHub trending: description, language, stars today, owner, README excerpt, license, updated_at
+
+### Hermes Agency (private brain)
+
+- [x] Git/manifest pull (`hermes/news/git_source.py`)
+- [x] Idempotent ledger on `report_sha256` (`hermes/news/ledger.py`)
+- [x] `source=git|auto|rest|local` in pull/pipeline/tools
+- [x] Nightly CLI (`hermes/news/nightly_pull.py`)
+- [x] launchd unit + installer (`ops/launchd/*osn*`)
+- [x] Cheap ranking before deep enrich (`hermes/news/rank.py`)
+
+### Remaining (ops / product)
+
+- [ ] Set/verify `YT_API_KEY` on OpenSourceNews GitHub secrets
+- [ ] Merge both PRs so production runs the new contract
+- [x] Install nightly launchd on this Mac (`com.hermes.osn-nightly`)
+- [x] Verified end-to-end: git pull → rank → upsert `news_signals` → ledger skip on rerun → semantic search
+- [ ] Deep LLM enrichment + tutorial critic + Telegram/Buzz delivery
+- [ ] Optional public webhook when Hermes has stable HTTPS
 
 ## Discovery contract
 
 1. Read [`outputs/manifests/latest.json`](outputs/manifests/latest.json).
 2. If `report_sha256` matches your ledger → **do nothing**.
 3. Else fetch `latest_report_path` (or the raw GitHub URL for that file).
-4. Process items; upsert knowledge under Hermes-owned embeddings.
+4. Rank signals cheaply; upsert / enrich under Hermes-owned embeddings.
 
 ### Manifest keys
 
@@ -80,16 +117,15 @@ Digest schema stays `open_source_news_daily_digest.v1` with the same required no
 
 ## Hermes Agency nightly puller
 
-Hermes owns enrichment. In `hermes_agency`:
-
 ```bash
 export OSN_GIT_PATH=/Users/brian/Documents/opensourcenews
 python3 hermes/news/nightly_pull.py --dry-run
-python3 hermes/news/nightly_pull.py          # upsert into local Qdrant
-bash ops/launchd/install_osn_nightly.sh      # schedule ~01:40 local
+python3 hermes/news/nightly_pull.py --limit 50   # upsert into Hermes Qdrant
+bash ops/launchd/install_osn_nightly.sh          # schedule ~01:40 local
 ```
 
-Ledger: `~/.hermes/news/ingest_ledger.json` keyed by `report_sha256`.
+Ledger: `~/.hermes/news/ingest_ledger.json` keyed by `report_sha256`.  
+Default Qdrant collection for news ingest: `news_signals` (override with `--collection`).
 
 ## Delivery receipts (optional push)
 
@@ -102,4 +138,4 @@ Do **not** configure live Hermes secrets here:
 - `QDRANT_URL` / `QDRANT_API_KEY` for the private knowledge base
 - `GEMINI_API_KEY` for scheduled embedding sync
 
-Keep `npm run export:qdrant` as a portable example. Do not schedule `npm run sync:qdrant` against Hermes.
+Keep `npm run export:qdrant` / `npm run export:qdrant:v2` as portable examples. Do not schedule `npm run sync:qdrant` against Hermes.

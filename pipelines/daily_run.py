@@ -220,6 +220,34 @@ def _github_readme_excerpt(owner: str, repo_name: str) -> str:
         return ""
 
 
+def _github_repo_metadata(owner: str, repo_name: str) -> dict:
+    """Best-effort license + updated_at from the public GitHub API."""
+    if not owner or not repo_name:
+        return {}
+    api_url = f"https://api.github.com/repos/{owner}/{repo_name}"
+    headers = {
+        **HTTP_HEADERS,
+        "Accept": "application/vnd.github+json",
+    }
+    try:
+        resp = requests.get(api_url, headers=headers, timeout=8)
+        if resp.status_code != 200:
+            return {}
+        data = resp.json()
+        license_info = data.get("license") if isinstance(data.get("license"), dict) else {}
+        return {
+            "license": (license_info or {}).get("spdx_id")
+            or (license_info or {}).get("key")
+            or "",
+            "updated_at": data.get("updated_at") or data.get("pushed_at"),
+            "stargazers_count": data.get("stargazers_count"),
+            "repository_description": (data.get("description") or "").strip(),
+            "primary_language": data.get("language") or "",
+        }
+    except Exception:
+        return {}
+
+
 def fetch_github_trending(language: str):
     if not language:
         return []
@@ -250,6 +278,11 @@ def fetch_github_trending(language: str):
             lang_node = repo.select_one('[itemprop="programmingLanguage"]')
             primary_language = lang_node.get_text(strip=True) if lang_node else language
             stars_today = _parse_stars_today(repo)
+            meta = _github_repo_metadata(owner, repo_name)
+            if meta.get("repository_description") and not description:
+                description = meta["repository_description"]
+            if meta.get("primary_language"):
+                primary_language = meta["primary_language"]
             readme_excerpt = _github_readme_excerpt(owner, repo_name)
             excerpt = readme_excerpt or truncate_excerpt(description)
             items.append(
@@ -264,10 +297,13 @@ def fetch_github_trending(language: str):
                         "repository_description": description,
                         "primary_language": primary_language,
                         "stars_today": stars_today,
+                        "stargazers_count": meta.get("stargazers_count"),
+                        "license": meta.get("license") or "",
+                        "updated_at": meta.get("updated_at"),
+                        "published_at": meta.get("updated_at"),
                         "readme_excerpt": readme_excerpt,
                         "excerpt": excerpt,
                         "summary": description,
-                        "published_at": None,
                     },
                     fetched_at=fetched_at,
                 )
