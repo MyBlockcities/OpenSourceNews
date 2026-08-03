@@ -34,22 +34,31 @@ def load_topics(path: Path = TOPICS_PATH) -> List[Dict[str, Any]]:
 
 
 def tag_text(text: str, topics: Optional[List[Dict[str, Any]]] = None) -> List[str]:
+    """Score keyword hits per topic; apply exclusions; keep topics above threshold."""
     blob = (text or "").lower()
     if not blob:
         return []
     ontology = topics if topics is not None else load_topics()
-    hits: List[str] = []
+    scored: List[Tuple[str, int]] = []
     for topic in ontology:
         tid = str(topic.get("id") or "").strip()
         if not tid:
             continue
-        keywords = topic.get("keywords") or []
-        for kw in keywords:
+        exclusions = [str(x).lower() for x in (topic.get("exclusions") or []) if x]
+        if any(ex and ex in blob for ex in exclusions):
+            continue
+        hits = 0
+        for kw in topic.get("keywords") or []:
             kw_l = str(kw).lower()
             if kw_l and kw_l in blob:
-                hits.append(tid)
-                break
-    return sorted(set(hits))
+                hits += 1
+        if hits > 0:
+            scored.append((tid, hits))
+    if not scored:
+        return []
+    # Keep all topics with hits; prefer higher counts first (Hermes can re-rank).
+    scored.sort(key=lambda x: -x[1])
+    return [tid for tid, _ in scored]
 
 
 def tag_item(item: Dict[str, Any], topics: Optional[List[Dict[str, Any]]] = None) -> List[str]:

@@ -233,8 +233,14 @@ Watchlists in this repo stay **generalized** (AI agents, RWA, peptides). Private
 
 3. **[x] Pull latest on this machine and ingest the new report** — done (25 ranked signals upserted to `news_signals`; ledger updated for sha `2fb5ea00…`).
 
-4. **[ ] Later (content factory)**  
-   Deep LLM enrichment, critic pass, Telegram / Buzz / Academy review queue.  
+4. **[x] Phase 5 News Factory (first ship)** — `hermes/news_factory/`  
+   - `cli.py nightly` → ingest → alerts → brief under `~/.hermes/data/news_factory/briefs/`  
+   - Telegram bot: `hermes/news_factory/bot.py` (`/brief` `/ask` `/projects` `/watch` …)  
+   - launchd: `ops/launchd/install_news_factory_nightly.sh`  
+   See `hermes/news_factory/README.md`.
+
+5. **[ ] Later (content factory expansion)**  
+   Live Telegram send every morning, Academy publish after code verification, GH Archive weight calibration.  
    Optional `AGENCY_INGEST_URL` webhook only when Hermes has stable public HTTPS — pull + hash remain the reliability baseline.
 
 ---

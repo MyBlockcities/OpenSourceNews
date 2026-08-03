@@ -1,9 +1,15 @@
 # Public topic ontology for OpenSourceNews → Hermes.
 # Tags are public_topics[] only — no private venture mapping.
+# Add topics via PR: id, parent, description, keywords (5-20), exclusions, subtopics.
+
+version: 1
+last_updated: "2026-08-03"
 
 topics:
   - id: ai_agents
     label: AI Agents
+    parent: artificial_intelligence
+    description: AI systems that take actions, use tools, or coordinate with other agents
     keywords:
       - agent
       - agents
@@ -15,9 +21,43 @@ topics:
       - tool use
       - multi-agent
       - autonomous
+      - agent framework
+    exclusions:
+      - travel agent
+      - insurance agent
+      - real estate agent
+    subtopics:
+      - voice_agents
+      - coding_agents
+
+  - id: voice_agents
+    label: Voice Agents
+    parent: ai_agents
+    description: Agents that interact via voice/speech
+    keywords:
+      - voice agent
+      - speech
+      - vapi
+      - retell
+      - voiceflow
+      - conversational ai
+
+  - id: coding_agents
+    label: Coding Agents
+    parent: ai_agents
+    description: Agents that write, edit, or debug code
+    keywords:
+      - cursor
+      - devin
+      - aider
+      - swe-agent
+      - coding agent
+      - code generation
 
   - id: ai_models
     label: AI Models & LLMs
+    parent: artificial_intelligence
+    description: Foundation models, inference stacks, model releases
     keywords:
       - llm
       - gpt
@@ -32,17 +72,36 @@ topics:
 
   - id: real_estate_tech
     label: Real Estate Tech
+    parent: real_estate
+    description: Technology for real estate analysis, transactions, or visualization
     keywords:
+      - parcel
+      - entitlement
+      - zoning
+      - gis
       - real estate
       - proptech
+      - property tech
       - housing
       - mortgage
       - reit
-      - tokenization of real estate
-      - property
+    subtopics:
+      - tokenization
+
+  - id: tokenization
+    label: Asset Tokenization
+    parent: real_estate_tech
+    description: Real-world assets represented as blockchain tokens
+    keywords:
+      - rwa
+      - tokenization
+      - security token
+      - onchain real estate
 
   - id: wellness_research
     label: Wellness & Longevity Research
+    parent: health
+    description: Evidence-based wellness, longevity, and health research
     keywords:
       - peptide
       - peptides
@@ -52,19 +111,29 @@ topics:
       - nad+
       - clinical trial
       - fda
+      - supplement
+    exclusions:
+      - crypto pump
+    subtopics:
+      - peptides
 
   - id: creator_economy
     label: Creator Economy
+    parent: media
+    description: Tools and platforms for content creators
     keywords:
       - creator
+      - course
+      - tutorial
+      - monetization
       - youtube
       - newsletter
-      - monetization
       - audience
-      - content creator
 
   - id: blockchain_rwa
     label: Blockchain & RWA
+    parent: blockchain
+    description: Blockchain applied to real-world assets and crypto rails
     keywords:
       - rwa
       - tokenization
@@ -75,9 +144,12 @@ topics:
       - blackrock
       - ondo
       - custody
+      - compliance
 
   - id: open_source_dev
     label: Open Source & Developer Tools
+    parent: software
+    description: Open source releases, frameworks, developer tooling
     keywords:
       - open source
       - github
@@ -89,6 +161,8 @@ topics:
 
   - id: sense_making_macro
     label: Sense-Making & Macro
+    parent: macro
+    description: Geopolitics, markets, contested narratives
     keywords:
       - geopolitics
       - oil
@@ -100,6 +174,8 @@ topics:
 
   - id: alternative_media
     label: Alternative Media
+    parent: media
+    description: Independent / non-institutional commentary
     keywords:
       - independent journalism
       - whistleblower
@@ -108,6 +184,8 @@ topics:
 
   - id: quantum_compute
     label: Quantum Computing
+    parent: computing
+    description: Quantum hardware and algorithms
     keywords:
       - quantum
       - qubit

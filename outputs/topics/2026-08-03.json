@@ -1,19 +1,28 @@
 {
   "schema": "open_source_news_topics.v1",
   "report_date": "2026-08-03",
-  "generated_at": "2026-08-03T18:36:32Z",
+  "generated_at": "2026-08-03T18:56:25Z",
   "tagged_item_count": 262,
   "frequency": {
     "open_source_dev": 31,
     "ai_agents": 81,
+    "coding_agents": 9,
     "ai_models": 37,
+    "tokenization": 9,
     "blockchain_rwa": 19,
+    "real_estate_tech": 1,
     "sense_making_macro": 64,
-    "creator_economy": 9,
+    "voice_agents": 3,
+    "creator_economy": 11,
     "alternative_media": 1,
     "wellness_research": 90
   },
-  "rising": [],
+  "rising": [
+    "coding_agents",
+    "creator_economy",
+    "tokenization",
+    "voice_agents"
+  ],
   "cooling": [],
   "co_occurrence": [
     {
@@ -39,10 +48,31 @@
     },
     {
       "topics": [
+        "ai_agents",
+        "coding_agents"
+      ],
+      "count": 9
+    },
+    {
+      "topics": [
+        "blockchain_rwa",
+        "tokenization"
+      ],
+      "count": 9
+    },
+    {
+      "topics": [
+        "coding_agents",
+        "open_source_dev"
+      ],
+      "count": 7
+    },
+    {
+      "topics": [
         "creator_economy",
         "sense_making_macro"
       ],
-      "count": 5
+      "count": 6
     },
     {
       "topics": [
@@ -54,6 +84,20 @@
     {
       "topics": [
         "ai_models",
+        "coding_agents"
+      ],
+      "count": 4
+    },
+    {
+      "topics": [
+        "ai_models",
+        "creator_economy"
+      ],
+      "count": 4
+    },
+    {
+      "topics": [
+        "ai_agents",
         "creator_economy"
       ],
       "count": 4
@@ -69,6 +113,20 @@
       "topics": [
         "blockchain_rwa",
         "sense_making_macro"
+      ],
+      "count": 3
+    },
+    {
+      "topics": [
+        "ai_agents",
+        "voice_agents"
+      ],
+      "count": 3
+    },
+    {
+      "topics": [
+        "ai_models",
+        "voice_agents"
       ],
       "count": 3
     },
@@ -81,15 +139,22 @@
     },
     {
       "topics": [
-        "ai_agents",
-        "creator_economy"
+        "open_source_dev",
+        "tokenization"
       ],
-      "count": 3
+      "count": 2
     },
     {
       "topics": [
         "blockchain_rwa",
         "open_source_dev"
+      ],
+      "count": 2
+    },
+    {
+      "topics": [
+        "coding_agents",
+        "creator_economy"
       ],
       "count": 2
     },
@@ -102,6 +167,27 @@
     },
     {
       "topics": [
+        "open_source_dev",
+        "voice_agents"
+      ],
+      "count": 2
+    },
+    {
+      "topics": [
+        "sense_making_macro",
+        "tokenization"
+      ],
+      "count": 2
+    },
+    {
+      "topics": [
+        "ai_agents",
+        "tokenization"
+      ],
+      "count": 1
+    },
+    {
+      "topics": [
         "ai_agents",
         "blockchain_rwa"
       ],
@@ -110,7 +196,21 @@
     {
       "topics": [
         "ai_models",
+        "tokenization"
+      ],
+      "count": 1
+    },
+    {
+      "topics": [
+        "ai_models",
         "blockchain_rwa"
+      ],
+      "count": 1
+    },
+    {
+      "topics": [
+        "ai_models",
+        "real_estate_tech"
       ],
       "count": 1
     },

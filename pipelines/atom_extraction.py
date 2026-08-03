@@ -60,51 +60,75 @@ def iter_items(report: Dict[str, Any]) -> List[Dict[str, Any]]:
 
 
 def maybe_llm_atoms(item: Dict[str, Any]) -> List[Dict[str, Any]]:
-    """Optional OpenRouter extraction for hard atom types. Fail-soft."""
+    """Optional OpenRouter extraction for hard atom types. Fail-soft playbook."""
     if os.getenv("ATOM_LLM", "0") != "1":
         return []
     api_key = os.getenv("OPENROUTER_API_KEY", "").strip()
     if not api_key:
         return []
-    # Keep optional and cheap; skip by default in COLLECT_ONLY unless explicitly enabled.
+    partial_dir = ATOMS_DIR / "_partial"
+    signal_id = str(item.get("signal_id") or "")
     try:
         from pipelines.llm_provider import try_get_llm_client, parse_json_text
         from services.atom_schema import build_atom
 
-        # Force openrouter for this path when key exists.
         os.environ.setdefault("LLM_PROVIDER", "openrouter")
         llm = try_get_llm_client()
         if not llm:
             return []
         title = item.get("title") or ""
         summary = item.get("summary") or item.get("excerpt") or ""
-        signal_id = item.get("signal_id") or ""
         url = item.get("canonical_url") or item.get("url") or ""
         prompt = f"""Extract up to 5 hard atoms as a JSON array. Types allowed: claim, reasoning, counterexample, prediction.
-Each object: {{"atom_type":"...","text":"..."}}
+Each object: {{"atom_type":"...","text":"...","polarity":"supports|contradicts"}}
 Title: {title}
 Summary: {summary}
 Return ONLY JSON array."""
-        text = llm.generate(prompt, json_mode=True)
-        parsed = parse_json_text(text)
-        if not isinstance(parsed, list):
-            return []
-        out = []
-        for row in parsed[:5]:
-            if not isinstance(row, dict):
-                continue
-            try:
-                out.append(
-                    build_atom(
+
+        def _parse(raw: str) -> List[Dict[str, Any]]:
+            parsed = parse_json_text(raw)
+            if not isinstance(parsed, list):
+                raise ValueError("not a list")
+            out = []
+            for row in parsed[:5]:
+                if not isinstance(row, dict):
+                    continue
+                try:
+                    atom = build_atom(
                         parent_signal_id=signal_id,
                         atom_type=str(row.get("atom_type") or "claim"),
                         text=str(row.get("text") or ""),
                         evidence_urls=[url] if url else [],
+                        extra={"polarity": str(row.get("polarity") or "supports")},
                     )
-                )
-            except ValueError:
-                continue
-        return out
+                    out.append(atom)
+                except ValueError:
+                    continue
+            return out
+
+        try:
+            text = llm.generate(prompt, json_mode=True)
+            return _parse(text)
+        except Exception as first:  # noqa: BLE001
+            # Retry once with shorter prompt (malformed JSON playbook)
+            try:
+                short = f"JSON array of atoms with atom_type+text only.\nTitle: {title}\nSummary: {str(summary)[:400]}"
+                text = llm.generate(short, json_mode=True)
+                return _parse(text)
+            except Exception as second:  # noqa: BLE001
+                partial_dir.mkdir(parents=True, exist_ok=True)
+                status = "llm_timeout" if "timeout" in str(second).lower() or "timeout" in str(first).lower() else "llm_parse_error"
+                if "rate" in str(second).lower() or "429" in str(second):
+                    status = "llm_rate_limited"
+                line = {
+                    "signal_id": signal_id,
+                    "status": status,
+                    "error": str(second)[:300],
+                }
+                with (partial_dir / "latest.jsonl").open("a", encoding="utf-8") as fh:
+                    fh.write(json.dumps(line) + "\n")
+                print(f"  WARNING: atom LLM {status} for {signal_id[:12]}")
+                return []
     except Exception as exc:  # noqa: BLE001
         print(f"  WARNING: atom LLM pass skipped: {exc}")
         return []
