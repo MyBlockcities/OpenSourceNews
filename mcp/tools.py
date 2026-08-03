@@ -371,8 +371,11 @@ def get_github_fastest_30d(limit: int = 25) -> Dict[str, Any]:
 def hermes_status() -> Dict[str, Any]:
     """Operational metadata for Hermes: what's there, what's missing, when last run."""
     out: Dict[str, Any] = {"outputs": {}, "schema_version": "hermes_status.v1"}
+    # Daily reports are dated files only (no latest.json symlink); resolve newest.
+    daily_paths = _report_files(1)
+    daily_path = daily_paths[0] if daily_paths else (DAILY_DIR / "latest.json")
     for label, path in (
-        ("daily_report", DAILY_DIR / "latest.json"),
+        ("daily_report", daily_path),
         ("manifest", MANIFEST_PATH),
         ("atoms", ATOMS_DIR / "latest.jsonl"),
         ("embedding_ready", EMBED_DIR / "latest.jsonl"),
@@ -390,6 +393,11 @@ def hermes_status() -> Dict[str, Any]:
                 stat = path.stat()
                 entry["size_bytes"] = stat.st_size
                 entry["mtime"] = datetime.utcfromtimestamp(stat.st_mtime).isoformat() + "Z"
+                if label == "daily_report":
+                    try:
+                        entry["path"] = str(path.relative_to(ROOT_DIR))
+                    except ValueError:
+                        entry["path"] = str(path)
             except OSError:
                 pass
         out["outputs"][label] = entry
@@ -400,7 +408,7 @@ def hermes_schedule() -> Dict[str, Any]:
     return {
         "daily_cron_utc": "17 7 * * *",
         "daily_local_hint": "~01:17 MDT / ~00:17 MST",
-        "github_traction_cron_utc": "47 8 * * *",
+        "github_traction_cron_utc": "47 7 * * *",
         "collect_only": True,
         "atoms_llm": "optional via vars.ATOMS_LLM=1 + OPENROUTER_API_KEY",
         "hermes_pull_hint": "~01:40 Mountain (com.hermes.osn-nightly)",
