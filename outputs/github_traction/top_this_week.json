@@ -1,487 +1,554 @@
 {
-  "report_date": "2026-08-03",
+  "report_date": "2026-08-04",
+  "limit": 50,
+  "quality_gate": 60.0,
   "repos": [
     {
-      "schema_version": "github_traction.v1",
-      "full_name": "solana-labs/solana",
-      "momentum_score": 56.5,
-      "quality_score": 90.0,
-      "community_score": 70.6,
-      "adoption_score": 82.26,
-      "composite_score": 67.2,
-      "passes_quality_gate": true,
-      "topics": [
-        "blockchain_rwa"
-      ],
-      "metrics": {
-        "stars_total": 5300,
-        "forks_total": 186,
-        "open_issues": 26,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": true,
-        "archived": false,
-        "contributors": 36,
-        "contributors_active": 16,
-        "pr_merge_rate": 0.76,
-        "discussion_activity": 6,
-        "stars_delta_7d": 11,
-        "forks_delta_7d": 6,
-        "commits_delta_7d": 11,
-        "dependents_proxy": 86,
-        "offline": true
+      "full_name": "modelcontextprotocol/python-sdk",
+      "repo_id": "d77d0a07574e5ee68597fc93",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
       },
-      "scored_at": "2026-08-03T18:36:08Z"
+      "stars_total": 23882,
+      "primary_language": "Python",
+      "public_topics": [
+        "developer_tools"
+      ]
     },
     {
-      "schema_version": "github_traction.v1",
-      "full_name": "qdrant/qdrant",
-      "momentum_score": 64.0,
-      "quality_score": 75.0,
-      "community_score": 58.45,
-      "adoption_score": 76.48,
-      "composite_score": 61.74,
-      "passes_quality_gate": true,
-      "topics": [
-        "ai_agents",
-        "open_source_dev"
-      ],
-      "metrics": {
-        "stars_total": 3350,
-        "forks_total": 147,
-        "open_issues": 27,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": false,
-        "archived": false,
-        "contributors": 27,
-        "contributors_active": 7,
-        "pr_merge_rate": 0.87,
-        "discussion_activity": 7,
-        "stars_delta_7d": 22,
-        "forks_delta_7d": 7,
-        "commits_delta_7d": 2,
-        "dependents_proxy": 47,
-        "offline": true
+      "full_name": "modelcontextprotocol/typescript-sdk",
+      "repo_id": "6464371c340458f8aae6226b",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
       },
-      "scored_at": "2026-08-03T18:36:08Z"
+      "stars_total": 13057,
+      "primary_language": "TypeScript",
+      "public_topics": [
+        "developer_tools"
+      ]
     },
     {
-      "schema_version": "github_traction.v1",
-      "full_name": "vllm-project/vllm",
-      "momentum_score": 49.5,
-      "quality_score": 75.0,
-      "community_score": 75.95,
-      "adoption_score": 74.38,
-      "composite_score": 61.19,
-      "passes_quality_gate": true,
-      "topics": [
-        "ai_models"
-      ],
-      "metrics": {
-        "stars_total": 2850,
-        "forks_total": 137,
-        "open_issues": 57,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": false,
-        "archived": false,
-        "contributors": 17,
-        "contributors_active": 12,
-        "pr_merge_rate": 0.77,
-        "discussion_activity": 17,
-        "stars_delta_7d": 12,
-        "forks_delta_7d": 5,
-        "commits_delta_7d": 7,
-        "dependents_proxy": 37,
-        "offline": true
-      },
-      "scored_at": "2026-08-03T18:36:08Z"
-    },
-    {
-      "schema_version": "github_traction.v1",
-      "full_name": "rust-lang/rust",
-      "momentum_score": 30.0,
-      "quality_score": 90.0,
-      "community_score": 68.9,
-      "adoption_score": 73.66,
-      "composite_score": 58.51,
-      "passes_quality_gate": true,
-      "topics": [
-        "open_source_dev"
-      ],
-      "metrics": {
-        "stars_total": 2700,
-        "forks_total": 134,
-        "open_issues": 54,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": true,
-        "archived": false,
-        "contributors": 14,
-        "contributors_active": 9,
-        "pr_merge_rate": 0.74,
-        "discussion_activity": 14,
-        "stars_delta_7d": 9,
-        "forks_delta_7d": 2,
-        "commits_delta_7d": 4,
-        "dependents_proxy": 34,
-        "offline": true
-      },
-      "scored_at": "2026-08-03T18:36:08Z"
-    },
-    {
-      "schema_version": "github_traction.v1",
-      "full_name": "OpenZeppelin/openzeppelin-contracts",
-      "momentum_score": 51.0,
-      "quality_score": 75.0,
-      "community_score": 54.25,
-      "adoption_score": 67.48,
-      "composite_score": 55.85,
-      "passes_quality_gate": true,
-      "topics": [
-        "blockchain_rwa"
-      ],
-      "metrics": {
-        "stars_total": 1750,
-        "forks_total": 115,
-        "open_issues": 35,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": false,
-        "archived": false,
-        "contributors": 25,
-        "contributors_active": 5,
-        "pr_merge_rate": 0.55,
-        "discussion_activity": 15,
-        "stars_delta_7d": 15,
-        "forks_delta_7d": 7,
-        "commits_delta_7d": 0,
-        "dependents_proxy": 15,
-        "offline": true
-      },
-      "scored_at": "2026-08-03T18:36:08Z"
-    },
-    {
-      "schema_version": "github_traction.v1",
-      "full_name": "denoland/deno",
-      "momentum_score": 39.0,
-      "quality_score": 90.0,
-      "community_score": 50.1,
-      "adoption_score": 62.06,
-      "composite_score": 54.68,
-      "passes_quality_gate": true,
-      "topics": [
-        "open_source_dev"
-      ],
-      "metrics": {
-        "stars_total": 1300,
-        "forks_total": 106,
-        "open_issues": 26,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": true,
-        "archived": false,
-        "contributors": 16,
-        "contributors_active": 11,
-        "pr_merge_rate": 0.46,
-        "discussion_activity": 6,
-        "stars_delta_7d": 6,
-        "forks_delta_7d": 6,
-        "commits_delta_7d": 6,
-        "dependents_proxy": 6,
-        "offline": true
-      },
-      "scored_at": "2026-08-03T18:36:08Z"
-    },
-    {
-      "schema_version": "github_traction.v1",
-      "full_name": "microsoft/TypeScript",
-      "momentum_score": 15.5,
-      "quality_score": 90.0,
-      "community_score": 60.1,
-      "adoption_score": 81.02,
-      "composite_score": 54.6,
-      "passes_quality_gate": true,
-      "topics": [
-        "open_source_dev"
-      ],
-      "metrics": {
-        "stars_total": 4800,
-        "forks_total": 176,
-        "open_issues": 56,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": true,
-        "archived": false,
-        "contributors": 26,
-        "contributors_active": 6,
-        "pr_merge_rate": 0.66,
-        "discussion_activity": 16,
-        "stars_delta_7d": 1,
-        "forks_delta_7d": 4,
-        "commits_delta_7d": 1,
-        "dependents_proxy": 76,
-        "offline": true
-      },
-      "scored_at": "2026-08-03T18:36:08Z"
-    },
-    {
-      "schema_version": "github_traction.v1",
-      "full_name": "ethereum/go-ethereum",
-      "momentum_score": 17.0,
-      "quality_score": 90.0,
-      "community_score": 63.2,
-      "adoption_score": 73.16,
-      "composite_score": 54.02,
-      "passes_quality_gate": true,
-      "topics": [
-        "blockchain_rwa"
-      ],
-      "metrics": {
-        "stars_total": 2600,
-        "forks_total": 132,
-        "open_issues": 52,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": true,
-        "archived": false,
-        "contributors": 12,
-        "contributors_active": 7,
-        "pr_merge_rate": 0.72,
-        "discussion_activity": 12,
-        "stars_delta_7d": 7,
-        "forks_delta_7d": 0,
-        "commits_delta_7d": 2,
-        "dependents_proxy": 32,
-        "offline": true
-      },
-      "scored_at": "2026-08-03T18:36:08Z"
-    },
-    {
-      "schema_version": "github_traction.v1",
-      "full_name": "ggml-org/llama.cpp",
-      "momentum_score": 34.5,
-      "quality_score": 75.0,
-      "community_score": 58.85,
-      "adoption_score": 72.9,
-      "composite_score": 53.72,
-      "passes_quality_gate": true,
-      "topics": [
-        "ai_models"
-      ],
-      "metrics": {
-        "stars_total": 2550,
-        "forks_total": 131,
-        "open_issues": 51,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": false,
-        "archived": false,
-        "contributors": 11,
-        "contributors_active": 6,
-        "pr_merge_rate": 0.71,
-        "discussion_activity": 11,
-        "stars_delta_7d": 6,
-        "forks_delta_7d": 7,
-        "commits_delta_7d": 1,
-        "dependents_proxy": 31,
-        "offline": true
-      },
-      "scored_at": "2026-08-03T18:36:08Z"
-    },
-    {
-      "schema_version": "github_traction.v1",
-      "full_name": "huggingface/transformers",
-      "momentum_score": 34.5,
-      "quality_score": 75.0,
-      "community_score": 63.15,
-      "adoption_score": 64.27,
-      "composite_score": 52.86,
-      "passes_quality_gate": true,
-      "topics": [
-        "ai_models"
-      ],
-      "metrics": {
-        "stars_total": 1450,
-        "forks_total": 109,
-        "open_issues": 29,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": false,
-        "archived": false,
-        "contributors": 19,
-        "contributors_active": 14,
-        "pr_merge_rate": 0.49,
-        "discussion_activity": 9,
-        "stars_delta_7d": 9,
-        "forks_delta_7d": 1,
-        "commits_delta_7d": 9,
-        "dependents_proxy": 9,
-        "offline": true
-      },
-      "scored_at": "2026-08-03T18:36:08Z"
-    },
-    {
-      "schema_version": "github_traction.v1",
-      "full_name": "modelcontextprotocol/servers",
-      "momentum_score": 34.5,
-      "quality_score": 75.0,
-      "community_score": 63.15,
-      "adoption_score": 64.27,
-      "composite_score": 52.86,
-      "passes_quality_gate": true,
-      "topics": [
-        "ai_agents"
-      ],
-      "metrics": {
-        "stars_total": 1450,
-        "forks_total": 109,
-        "open_issues": 29,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": false,
-        "archived": false,
-        "contributors": 19,
-        "contributors_active": 14,
-        "pr_merge_rate": 0.49,
-        "discussion_activity": 9,
-        "stars_delta_7d": 9,
-        "forks_delta_7d": 1,
-        "commits_delta_7d": 9,
-        "dependents_proxy": 9,
-        "offline": true
-      },
-      "scored_at": "2026-08-03T18:36:08Z"
-    },
-    {
-      "schema_version": "github_traction.v1",
       "full_name": "langchain-ai/langchain",
-      "momentum_score": 32.0,
-      "quality_score": 90.0,
-      "community_score": 27.5,
-      "adoption_score": 78.73,
-      "composite_score": 51.75,
-      "passes_quality_gate": true,
-      "topics": [
-        "ai_agents",
-        "ai_models"
-      ],
-      "metrics": {
-        "stars_total": 4000,
-        "forks_total": 160,
-        "open_issues": 40,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": true,
-        "archived": false,
-        "contributors": 10,
-        "contributors_active": 5,
-        "pr_merge_rate": 0.5,
-        "discussion_activity": 0,
-        "stars_delta_7d": 10,
-        "forks_delta_7d": 4,
-        "commits_delta_7d": 0,
-        "dependents_proxy": 60,
-        "offline": true
+      "repo_id": "0ba82b957de45652816e2531",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
       },
-      "scored_at": "2026-08-03T18:36:08Z"
-    },
-    {
-      "schema_version": "github_traction.v1",
-      "full_name": "n8n-io/n8n",
-      "momentum_score": 32.0,
-      "quality_score": 90.0,
-      "community_score": 27.5,
-      "adoption_score": 78.73,
-      "composite_score": 51.75,
-      "passes_quality_gate": true,
-      "topics": [
+      "stars_total": 143404,
+      "primary_language": "Python",
+      "public_topics": [
         "ai_agents"
-      ],
-      "metrics": {
-        "stars_total": 4000,
-        "forks_total": 160,
-        "open_issues": 40,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": true,
-        "archived": false,
-        "contributors": 10,
-        "contributors_active": 5,
-        "pr_merge_rate": 0.5,
-        "discussion_activity": 0,
-        "stars_delta_7d": 10,
-        "forks_delta_7d": 4,
-        "commits_delta_7d": 0,
-        "dependents_proxy": 60,
-        "offline": true
-      },
-      "scored_at": "2026-08-03T18:36:08Z"
+      ]
     },
     {
-      "schema_version": "github_traction.v1",
+      "full_name": "langchain-ai/langgraph",
+      "repo_id": "07d4dfb1174253cab93335bf",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 38842,
+      "primary_language": "Python",
+      "public_topics": []
+    },
+    {
+      "full_name": "crewAIInc/crewAI",
+      "repo_id": "cc32a18542cf5a178403ff42",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 56600,
+      "primary_language": "Python",
+      "public_topics": [
+        "developer_tools",
+        "ai_agents",
+        "autonomous_agents"
+      ]
+    },
+    {
+      "full_name": "ggml-org/llama.cpp",
+      "repo_id": "d60e2782e02e5c2d83b2fa32",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 122656,
+      "primary_language": "C++",
+      "public_topics": []
+    },
+    {
+      "full_name": "vllm-project/vllm",
+      "repo_id": "fc0a83704a3556358fd071b0",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 88155,
+      "primary_language": "Python",
+      "public_topics": []
+    },
+    {
+      "full_name": "ollama/ollama",
+      "repo_id": "ee3819602dd05e8086b3a413",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 177745,
+      "primary_language": "Go",
+      "public_topics": []
+    },
+    {
       "full_name": "vercel/next.js",
-      "momentum_score": 13.0,
-      "quality_score": 90.0,
-      "community_score": 32.7,
-      "adoption_score": 57.38,
-      "composite_score": 43.77,
-      "passes_quality_gate": true,
-      "topics": [
-        "open_source_dev"
-      ],
-      "metrics": {
-        "stars_total": 1100,
-        "forks_total": 102,
-        "open_issues": 22,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": true,
-        "archived": false,
-        "contributors": 12,
-        "contributors_active": 7,
-        "pr_merge_rate": 0.42000000000000004,
-        "discussion_activity": 2,
-        "stars_delta_7d": 2,
-        "forks_delta_7d": 2,
-        "commits_delta_7d": 2,
-        "dependents_proxy": 2,
-        "offline": true
+      "repo_id": "10ff1fa27c5054f99f4e6034",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
       },
-      "scored_at": "2026-08-03T18:36:08Z"
+      "stars_total": 141333,
+      "primary_language": "JavaScript",
+      "public_topics": [
+        "developer_tools"
+      ]
     },
     {
-      "schema_version": "github_traction.v1",
-      "full_name": "facebook/react",
-      "momentum_score": 0.0,
-      "quality_score": 90.0,
-      "community_score": 24.0,
-      "adoption_score": 52.04,
-      "composite_score": 37.71,
-      "passes_quality_gate": true,
-      "topics": [
-        "open_source_dev"
-      ],
-      "metrics": {
-        "stars_total": 1000,
-        "forks_total": 100,
-        "open_issues": 20,
-        "has_license": true,
-        "has_ci": true,
-        "docs_present": true,
-        "archived": false,
-        "contributors": 10,
-        "contributors_active": 5,
-        "pr_merge_rate": 0.4,
-        "discussion_activity": 0,
-        "stars_delta_7d": 0,
-        "forks_delta_7d": 0,
-        "commits_delta_7d": 0,
-        "dependents_proxy": 0,
-        "offline": true
+      "full_name": "mrdoob/three.js",
+      "repo_id": "fe23e30244205deb8ea621bc",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
       },
-      "scored_at": "2026-08-03T18:36:08Z"
+      "stars_total": 114248,
+      "primary_language": "JavaScript",
+      "public_topics": [
+        "developer_tools",
+        "3d_visualization",
+        "real_estate_tech"
+      ]
+    },
+    {
+      "full_name": "huggingface/transformers",
+      "repo_id": "c26d47b4284f506880a0e5f9",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 163327,
+      "primary_language": "Python",
+      "public_topics": [
+        "developer_tools"
+      ]
+    },
+    {
+      "full_name": "ggml-org/whisper.cpp",
+      "repo_id": "e92bfcd0587d52258f08bfb2",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 52564,
+      "primary_language": "C++",
+      "public_topics": []
+    },
+    {
+      "full_name": "denoland/deno",
+      "repo_id": "b0ae27d0577250a4ad96812c",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 107989,
+      "primary_language": "Rust",
+      "public_topics": [
+        "developer_tools"
+      ]
+    },
+    {
+      "full_name": "withastro/astro",
+      "repo_id": "b3a59eb00f9351589ef56e82",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 61522,
+      "primary_language": "TypeScript",
+      "public_topics": [
+        "developer_tools"
+      ]
+    },
+    {
+      "full_name": "godotengine/godot",
+      "repo_id": "c53b7201640f5cd7ab148ae5",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 115104,
+      "primary_language": "C++",
+      "public_topics": [
+        "3d_visualization",
+        "real_estate_tech"
+      ]
+    },
+    {
+      "full_name": "tauri-apps/tauri",
+      "repo_id": "1c7e6f8459285af5b36158d0",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 109877,
+      "primary_language": "Rust",
+      "public_topics": []
+    },
+    {
+      "full_name": "openai/openai-python",
+      "repo_id": "18d3c4979d5650cfa02e41ab",
+      "score": {
+        "momentum_score": 73.69,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.3,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 31292,
+      "primary_language": "Python",
+      "public_topics": [
+        "developer_tools"
+      ]
+    },
+    {
+      "full_name": "expo/expo",
+      "repo_id": "f401b673f914540db0df4c97",
+      "score": {
+        "momentum_score": 72.16,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 54.92,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 51255,
+      "primary_language": "TypeScript",
+      "public_topics": [
+        "developer_tools"
+      ]
+    },
+    {
+      "full_name": "modelcontextprotocol/modelcontextprotocol",
+      "repo_id": "c6f91287e14c5f7db055587a",
+      "score": {
+        "momentum_score": 70.11,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 59.47,
+        "composite_score": 54.3,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 8852,
+      "primary_language": "TypeScript",
+      "public_topics": []
+    },
+    {
+      "full_name": "OpenZeppelin/openzeppelin-contracts",
+      "repo_id": "46b61357a8a45fc29dd65b99",
+      "score": {
+        "momentum_score": 54.62,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 50.53,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 27202,
+      "primary_language": "Solidity",
+      "public_topics": [
+        "blockchain",
+        "developer_tools"
+      ]
+    },
+    {
+      "full_name": "anthropics/anthropic-sdk-python",
+      "repo_id": "baec684f2e3353a1b5295654",
+      "score": {
+        "momentum_score": 23.92,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 55.79,
+        "composite_score": 42.01,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 3790,
+      "primary_language": "Python",
+      "public_topics": [
+        "developer_tools"
+      ]
+    },
+    {
+      "full_name": "cursor/cursor",
+      "repo_id": "e4a4a54558385a7e8b0adac6",
+      "score": {
+        "momentum_score": 30.0,
+        "quality_score": 67.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 39.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 33078,
+      "primary_language": "",
+      "public_topics": [
+        "ai_agents",
+        "coding_agents"
+      ]
+    },
+    {
+      "full_name": "Aider-AI/aider",
+      "repo_id": "57012a1c548b5530ac6b1441",
+      "score": {
+        "momentum_score": 30.0,
+        "quality_score": 67.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 39.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 47919,
+      "primary_language": "Python",
+      "public_topics": [
+        "ai_agents",
+        "coding_agents"
+      ]
     }
-  ]
+  ],
+  "schema_version": "github_top_weekly.v1"
 }
