@@ -2,17 +2,486 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-05-11T11:33:11Z",
-  "new_this_run": 0,
-  "total_influencers": 0,
+  "updated_at": "2026-08-04T12:22:13Z",
+  "new_this_run": 10,
+  "total_influencers": 10,
   "run_summary": {
-    "run_started_at": "2026-05-11T11:33:03Z",
-    "candidate_count": 0,
+    "run_started_at": "2026-08-04T12:21:57Z",
+    "candidate_count": 10,
     "existing_count": 0,
-    "selected_new_count": 0,
+    "selected_new_count": 10,
     "max_per_topic": 20,
-    "youtube_enabled": false,
+    "youtube_enabled": true,
     "rss_enabled": true
   },
-  "influencers": []
+  "influencers": [
+    {
+      "id": "youtube:UCv6qPYuiMS1lyWSny3eqhIQ",
+      "external_id": "UCv6qPYuiMS1lyWSny3eqhIQ",
+      "name": "Jon Andersen",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCv6qPYuiMS1lyWSny3eqhIQ",
+      "discovered_on": "2026-08-04",
+      "score": 66.32,
+      "metrics": {
+        "subscribers": 12300,
+        "total_views": 2270062,
+        "video_count": 2622,
+        "avg_views_per_video": 865.77,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "POU07Kw9pyc",
+            "title": "Revolutionary Peptide Discovery for Enhancing Your Dog’s Life!",
+            "description": "In this episode, we dive deep into groundbreaking research about using peptides like BPC 157 and TB 500 to improve the quality ...",
+            "published_at": "2026-08-03T10:30:14Z",
+            "url": "https://www.youtube.com/watch?v=POU07Kw9pyc"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "POU07Kw9pyc",
+            "title": "Revolutionary Peptide Discovery for Enhancing Your Dog’s Life!",
+            "description": "In this episode, we dive deep into groundbreaking research about using peptides like BPC 157 and TB 500 to improve the quality ...",
+            "published_at": "2026-08-03T10:30:14Z",
+            "url": "https://www.youtube.com/watch?v=POU07Kw9pyc"
+          }
+        ],
+        "channel_description": "From Jon Andersen Training Performance Complex Inc. to his first book, Deep Water Training, Jon Andersen will get you motivated to be the best you can be. \n\nHis career has grown as he has competed in and won The North American Strongest Man Challenge in 2003 and various other competitions across the globe for Body Building and Wrestling. \n\nDon't forget to check out www.deepwatermethod.com for more information on Jon's book, Deep Water.",
+        "latest_video_at": "2026-08-03T10:30:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCrU-ZwGes3VcZanqGjUkzaA",
+      "external_id": "UCrU-ZwGes3VcZanqGjUkzaA",
+      "name": "Tony Huge",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCrU-ZwGes3VcZanqGjUkzaA",
+      "discovered_on": "2026-08-04",
+      "score": 64.19,
+      "metrics": {
+        "subscribers": 16000,
+        "total_views": 767018,
+        "video_count": 136,
+        "avg_views_per_video": 5639.84,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "KTcRQKbHvzk",
+            "title": "BPC-157 Explained: The Rat Studies, the Human Data, and the Trade-Offs",
+            "description": "BPC-157 has zero completed human trials, and I still use it myself. This video is about reconciling those two facts with the actual ...",
+            "published_at": "2026-08-03T09:25:51Z",
+            "url": "https://www.youtube.com/watch?v=KTcRQKbHvzk"
+          }
+        ],
+        "channel_description": "Tony Huge — Biohacker, human performance researcher, and medical lawyer.\n\nAs the leading conduit between the underground research world and the public, I’ve spent years documenting cutting-edge human optimization protocols — peptides, advanced chemistry, and everything the mainstream won’t touch.\n\nI’m the subject of two feature-length documentaries — “Enhanced” and “Enhanced 2 the Max” — both available on Apple TV and Amazon Prime Video. And the controversial underground biohacker of National Geographic Trafficked. \n\nOn this channel, you’ll find:\n\t∙\tDeep-dive performance enhancement protocols backed by bloodwork and data\n\t∙\tBiohacking experiments and longevity research\n\t∙\tUnfiltered conversations about health, freedom, and human optimization\n\t∙\tCutting-edge science that’s 15 years ahead of what mainstream medicine will ever admit\n\nFounder of the Enhanced Movement.\n\nSUBSCRIBE for truth and facts so you can make your own decisions… and be entertained.\n",
+        "latest_video_at": "2026-08-03T09:25:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCuzKyqpLxEDOmongY4SCHFg",
+      "external_id": "UCuzKyqpLxEDOmongY4SCHFg",
+      "name": "Moses Reuben",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCuzKyqpLxEDOmongY4SCHFg",
+      "discovered_on": "2026-08-04",
+      "score": 63.37,
+      "metrics": {
+        "subscribers": 3440,
+        "total_views": 503651,
+        "video_count": 24,
+        "avg_views_per_video": 20985.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "dTZ78xHvdwE",
+            "title": "GHK-Cu: Can This Peptide Really Reverse Skin Aging?",
+            "description": "GHK-Cu: Can This Peptide Really Reverse Skin Aging? (Science Explained) Can GHK-Cu really reverse skin aging, or is it ...",
+            "published_at": "2026-08-04T03:44:48Z",
+            "url": "https://www.youtube.com/watch?v=dTZ78xHvdwE"
+          }
+        ],
+        "channel_description": "Empowering you to overcome health challenges and reclaim your vitality through personalized nutrition, targeted supplements, and proven lifestyle changes\n\nKinesiologist, Personal Trainer, Independent Research Analyst (Health & Performance)\nB.S Kinesiology, NSCA-CPT, ACE-GFI, USAW2, USA-BOXING\n",
+        "latest_video_at": "2026-08-04T03:44:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC10Yc7gWgyc4hSRZBVewsWQ",
+      "external_id": "UC10Yc7gWgyc4hSRZBVewsWQ",
+      "name": "Accelerated Health with Sara Banta",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC10Yc7gWgyc4hSRZBVewsWQ",
+      "discovered_on": "2026-08-04",
+      "score": 61.88,
+      "metrics": {
+        "subscribers": 5980,
+        "total_views": 339270,
+        "video_count": 1756,
+        "avg_views_per_video": 193.21,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "e-yetXxXk3c",
+            "title": "The Biggest Peptide Mistake Everyone Is Making",
+            "description": "Before You Try Ozempic, BPC-157, or the Latest Peptide… Ask Yourself This. What if the biggest mistake isn't choosing the ...",
+            "published_at": "2026-08-03T20:21:28Z",
+            "url": "https://www.youtube.com/watch?v=e-yetXxXk3c"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "e-yetXxXk3c",
+            "title": "The Biggest Peptide Mistake Everyone Is Making",
+            "description": "Before You Try Ozempic, BPC-157, or the Latest Peptide… Ask Yourself This. What if the biggest mistake isn't choosing the ...",
+            "published_at": "2026-08-03T20:21:28Z",
+            "url": "https://www.youtube.com/watch?v=e-yetXxXk3c"
+          }
+        ],
+        "channel_description": "Most people are trying to fix symptoms without understanding what’s actually driving them.\n\nOn Accelerated Health with Sara Banta, Sara breaks down what’s really happening inside your body so you can stop guessing and start addressing the root cause.\n\nThis isn’t surface-level wellness.\n\nEach episode covers:\n• Cellular health, metabolism, and detox pathways\n• Hormones, thyroid function, and midlife changes\n• Advanced supplementation—what works and what doesn’t\n• Gut health, inflammation, and energy production\n• Cutting-edge therapies explained simply\n\nYou’ll learn why most supplements don’t work, why symptoms return, and what your body actually needs to repair and function optimally.\n\nIf you’re dealing with low energy, weight gain, hormone imbalance, brain fog, or gut issues and want real answers—this is for you.\n\nNew episodes weekly.",
+        "latest_video_at": "2026-08-03T20:21:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCvuSFwWJi-TJjQ6I01uZvGA",
+      "external_id": "UCvuSFwWJi-TJjQ6I01uZvGA",
+      "name": "Longevity.Technology",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCvuSFwWJi-TJjQ6I01uZvGA",
+      "discovered_on": "2026-08-04",
+      "score": 57.23,
+      "metrics": {
+        "subscribers": 10600,
+        "total_views": 692254,
+        "video_count": 675,
+        "avg_views_per_video": 1025.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "q6K7CX4iObw",
+            "title": "Peptide Debate Intensifies",
+            "description": "An FDA advisory panel voted to support broader access to compounded wellness peptides, including BPC-157 and TB-500, ...",
+            "published_at": "2026-07-31T15:33:24Z",
+            "url": "https://www.youtube.com/watch?v=q6K7CX4iObw"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-07-31T15:33:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCHv6uq6GnPZxvKdPDvkZqmA",
+      "external_id": "UCHv6uq6GnPZxvKdPDvkZqmA",
+      "name": "Dr. Jones DC Highlights",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCHv6uq6GnPZxvKdPDvkZqmA",
+      "discovered_on": "2026-08-04",
+      "score": 57.21,
+      "metrics": {
+        "subscribers": 8210,
+        "total_views": 2732622,
+        "video_count": 2985,
+        "avg_views_per_video": 915.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "hYTmcC2UUag",
+            "title": "Why Sleep Determines How Well BPC 157 Actually Works",
+            "description": "Text or Call (720) 726-1792 to Book Your FREE Discovery Call If you're on a healing peptide cycle like BPC-157 or TB-500, tissue ...",
+            "published_at": "2026-08-01T22:00:16Z",
+            "url": "https://www.youtube.com/watch?v=hYTmcC2UUag"
+          }
+        ],
+        "channel_description": "I'm a holistic obesity expert, helping patients defeat obesity and graduate to weight loss medication independence. \n\nWe SPECIALIZE in SUSTAINABLE weight loss. I work with like-minded medical and holistic practitioners who take a collaborative approach towards helping our patients with the medications.  \n\nWe address the underlying issues that drive obesity, so that we can WEAN THEM OFF THE MEDICATIONS and set them up for SUCCESS for maintaining their weight for THE REST OF THEIR LIVES using our FLOA™ protocol.    https://www.FLOAUniversity.com \n\nWe specialize in sustainable weight loss with the TEMPORARY use of Semaglutide, Tirzepatide and other peptide therapies.    \n\nJoin our free Facebook Group, and schedule a free consultation here:   https://www.lastingweightlossnow.com/\n",
+        "latest_video_at": "2026-08-01T22:00:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCkw3TWprCeIBmupg8bmnVkQ",
+      "external_id": "UCkw3TWprCeIBmupg8bmnVkQ",
+      "name": "Circle Back To You Podcast",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCkw3TWprCeIBmupg8bmnVkQ",
+      "discovered_on": "2026-08-04",
+      "score": 53.99,
+      "metrics": {
+        "subscribers": 3600,
+        "total_views": 151138,
+        "video_count": 578,
+        "avg_views_per_video": 261.48,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "0TRs8vt5TUY",
+            "title": "ZEALOUS WELLNESS with MIKE HOLLIS",
+            "description": "WHAT HAPPENS WHEN ARTIFICIAL INTELLIGENCE MEETS HUMAN PERFORMANCE? Join NFL legend and Certified ...",
+            "published_at": "2026-08-04T10:18:29Z",
+            "url": "https://www.youtube.com/watch?v=0TRs8vt5TUY"
+          }
+        ],
+        "channel_description": "On Circle Back To You Podcast, I have conversations with amazing and powerful entrepreneurs, athletes and entertainers who tell their stories of how they persevered through mental health issues, got the VICTORY over them and became successful in business and life.\n#mentalhealth, #mentalhealthawareness, #mentalhealthadvocate, #mentalhealthpodcast\n",
+        "latest_video_at": "2026-08-04T10:18:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC3hTAx0L62wT6JL04aQWu6Q",
+      "external_id": "UC3hTAx0L62wT6JL04aQWu6Q",
+      "name": "Coach Allan",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC3hTAx0L62wT6JL04aQWu6Q",
+      "discovered_on": "2026-08-04",
+      "score": 53.25,
+      "metrics": {
+        "subscribers": 2040,
+        "total_views": 273440,
+        "video_count": 662,
+        "avg_views_per_video": 413.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "qsn4lRMi3UY",
+            "title": "The Fight No One Scheduled: GLP-1s vs. Peptides",
+            "description": "On this episode of the 40+ Fitness Podcast, Coach Allan breaks down the fight playing out right now in Washington, DC, between ...",
+            "published_at": "2026-08-04T08:08:10Z",
+            "url": "https://www.youtube.com/watch?v=qsn4lRMi3UY"
+          }
+        ],
+        "channel_description": "YouTube channel for Coach Allan of 40+ Fitness. On this channel, I'll publish full episodes of the audio podcast 40+ Fitness Podcast (once per week) and episodes of Coffee with Coach Allan (each weekday).",
+        "latest_video_at": "2026-08-04T08:08:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC_oZu2b83V06C0szpKmUU9g",
+      "external_id": "UC_oZu2b83V06C0szpKmUU9g",
+      "name": "Wisconsin Institute of Functional Medicine",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC_oZu2b83V06C0szpKmUU9g",
+      "discovered_on": "2026-08-04",
+      "score": 52.98,
+      "metrics": {
+        "subscribers": 2960,
+        "total_views": 20702,
+        "video_count": 96,
+        "avg_views_per_video": 215.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "Z8sFRZTlS5g",
+            "title": "The FDA Peptide Hearing",
+            "description": "On July 23–24, 2026, the FDA's Pharmacy Compounding Advisory Committee considered seven peptide-related bulk drug ...",
+            "published_at": "2026-08-04T08:27:28Z",
+            "url": "https://www.youtube.com/watch?v=Z8sFRZTlS5g"
+          }
+        ],
+        "channel_description": "Located in Appleton, Wisconsin, the Wisconsin Institute of Functional Medicine was founded with the mission to help improve the overall health and wellbeing of every person who walks through our door and places their trust in us. We recognize that you are more than just a medical condition or ailment—you are a person who wants to realize all that life has to offer, intent on feeling, and looking your best.\n\nWith this in mind, it is our commitment to treat you, the individual, and not the diagnosis. We look to understand your body as a whole and believe that your health is intertwined with your perception, your mindset, and your identity. As such, we seek to educate, inform, and inspire so you can achieve long-term, positive health outcomes that help you reach and achieve your goals and ambitions.\n",
+        "latest_video_at": "2026-08-04T08:27:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCsFrzy1NuN3o66p-3nQvGmQ",
+      "external_id": "UCsFrzy1NuN3o66p-3nQvGmQ",
+      "name": "Keys to Health | Samir Levin",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCsFrzy1NuN3o66p-3nQvGmQ",
+      "discovered_on": "2026-08-04",
+      "score": 47.5,
+      "metrics": {
+        "subscribers": 5260,
+        "total_views": 30,
+        "video_count": 1,
+        "avg_views_per_video": 30.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "lkz24RprIG0",
+            "title": "TB-500 vs. Thymosin Beta-4: The Complete Biochemical &amp; Clinical Breakdown",
+            "description": "TB-500 is one of the most widely used peptides for injury recovery and tissue repair, yet it is also surrounded by massive ...",
+            "published_at": "2026-07-31T23:00:15Z",
+            "url": "https://www.youtube.com/watch?v=lkz24RprIG0"
+          }
+        ],
+        "channel_description": "Keys to Health | Samir Levin is an educational channel exploring health, longevity, human performance, and emerging developments in modern science.\n\nHere, I examine pharmacology, molecular biology, metabolic health, recovery, cognitive performance, laboratory testing, and innovative approaches to improving health and quality of life.\n\nMy goal is to explain complex biological mechanisms in clear language, analyze published research, distinguish credible evidence from marketing hype, and discuss the potential benefits, limitations, and safety considerations of different health strategies.\n\nAll content is provided strictly for educational and informational purposes. It does not constitute medical advice, diagnosis, or treatment recommendations and does not endorse the purchase, distribution, or self-administration of regulated, experimental, or unapproved substances.\n\n",
+        "latest_video_at": "2026-07-31T23:00:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    }
+  ]
 }

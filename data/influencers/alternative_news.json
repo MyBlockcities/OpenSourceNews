@@ -2,17 +2,886 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-05-11T11:33:07Z",
-  "new_this_run": 0,
-  "total_influencers": 0,
+  "updated_at": "2026-08-04T12:22:05Z",
+  "new_this_run": 20,
+  "total_influencers": 20,
   "run_summary": {
-    "run_started_at": "2026-05-11T11:33:03Z",
-    "candidate_count": 0,
+    "run_started_at": "2026-08-04T12:21:57Z",
+    "candidate_count": 22,
     "existing_count": 0,
-    "selected_new_count": 0,
+    "selected_new_count": 20,
     "max_per_topic": 20,
-    "youtube_enabled": false,
+    "youtube_enabled": true,
     "rss_enabled": true
   },
-  "influencers": []
+  "influencers": [
+    {
+      "id": "youtube:UCcvyzQdjCVkXuUy5WmgLAng",
+      "external_id": "UCcvyzQdjCVkXuUy5WmgLAng",
+      "name": "Newz Gangster",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCcvyzQdjCVkXuUy5WmgLAng",
+      "discovered_on": "2026-08-04",
+      "score": 74.4,
+      "metrics": {
+        "subscribers": 72800,
+        "total_views": 57246804,
+        "video_count": 1218,
+        "avg_views_per_video": 47000.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "lD-9iVSmFpE",
+            "title": "Indian Media&#39;s &#39;Accountability&#39;",
+            "description": "Why did students lose trust in India's mainstream media during the Paper Leak Protest? While Gen Z forced the government to ...",
+            "published_at": "2026-08-04T09:59:22Z",
+            "url": "https://www.youtube.com/watch?v=lD-9iVSmFpE"
+          }
+        ],
+        "channel_description": "An 'Intellectual'\nContent Gangster\n",
+        "latest_video_at": "2026-08-04T09:59:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEMgRIQfqYYlHeqpa8gG3UA",
+      "external_id": "UCEMgRIQfqYYlHeqpa8gG3UA",
+      "name": "SOBERANIA PATRIOTA",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCEMgRIQfqYYlHeqpa8gG3UA",
+      "discovered_on": "2026-08-04",
+      "score": 74.33,
+      "metrics": {
+        "subscribers": 81800,
+        "total_views": 33514970,
+        "video_count": 545,
+        "avg_views_per_video": 61495.36,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "bDaZMMzNHbA",
+            "title": "MIKE BENZ REVELA TODA A VERDADE!  #brasil #política #noticias #notícias",
+            "description": "Mike Benz revela declarações sobre eleições e censura Mike Benz, ex-funcionário do Departamento de Estado dos Estados ...",
+            "published_at": "2026-08-03T03:30:39Z",
+            "url": "https://www.youtube.com/watch?v=bDaZMMzNHbA"
+          }
+        ],
+        "channel_description": "Bem-vindo ao Soberania Patriota — o canal onde você encontra notícias e análises sobre a política mundial com foco na defesa da soberania, da liberdade e da verdade. Aqui debatemos os principais acontecimentos internacionais, decisões governamentais, conflitos geopolíticos, economia global e o impacto das grandes potências no cenário mundial. Nosso compromisso é com a informação sem manipulação, trazendo fatos, contexto e opinião independente.\n\nInscreva-se, ative o sininho e fique por dentro das notícias que a grande mídia não mostra!\n",
+        "latest_video_at": "2026-08-03T03:30:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC4VCQt-zMOKZpFIjGCNBt6g",
+      "external_id": "UC4VCQt-zMOKZpFIjGCNBt6g",
+      "name": "Pragathi Media",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC4VCQt-zMOKZpFIjGCNBt6g",
+      "discovered_on": "2026-08-04",
+      "score": 70.19,
+      "metrics": {
+        "subscribers": 24200,
+        "total_views": 12571117,
+        "video_count": 1580,
+        "avg_views_per_video": 7956.4,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "KqfP7XGY5pY",
+            "title": "వీళ్ళ సంగతేంటి ?ఈ మాటలు తప్పు కాదా? l Pragathi Media",
+            "description": "ఇటీవల జరిగిన ఒక నిరసన కార్యక్రమంలో 15 ఏళ్ల బాలిక చేసిన వ్యాఖ్యలు ...",
+            "published_at": "2026-08-04T09:40:01Z",
+            "url": "https://www.youtube.com/watch?v=KqfP7XGY5pY"
+          },
+          {
+            "query": "alternative media",
+            "video_id": "aRqoLRrCXak",
+            "title": "బాబు, పవన్ డబుల్ స్టాండర్డ్స్? l విమర్శలు - పొగడ్తలు వీళ్ళకేమైంది  ? l Pragathi Media",
+            "description": "భోగాపురం ఎయిర్‌పోర్ట్ ప్రారంభోత్సవం సందర్భంగా ప్రధాని నరేంద్ర ...",
+            "published_at": "2026-08-03T14:30:21Z",
+            "url": "https://www.youtube.com/watch?v=aRqoLRrCXak"
+          }
+        ],
+        "channel_description": "Our channel is a proudly Pro-People platform, championing progressive values like equality, justice, and human rights. In a media landscape dominated by sensationalism, we offer thoughtful, fact-based analysis as a refreshing alternative—prioritizing public interest over commercial gain. We explore a broad spectrum of topics: social issues, culture, art and literature, politics, sports, and entertainment. Committed to an alternative media outlook, we always uphold human values and ethical presentation in every discussion. We invite you to own this channel as the true safeguard of your interest.",
+        "latest_video_at": "2026-08-04T09:40:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCnOwjfsqLJ0gV_7K1TcsajQ",
+      "external_id": "UCnOwjfsqLJ0gV_7K1TcsajQ",
+      "name": "60SecShrots",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCnOwjfsqLJ0gV_7K1TcsajQ",
+      "discovered_on": "2026-08-04",
+      "score": 69.05,
+      "metrics": {
+        "subscribers": 17900,
+        "total_views": 10729269,
+        "video_count": 375,
+        "avg_views_per_video": 28611.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "OU74u0QCh5s",
+            "title": "Garima Singh QUITS News24? Press Freedom Under Threat!",
+            "description": "Garima Singh QUITS News24? Press Freedom Under Threat! Senior journalist Garima Singh has spoken publicly for the first time ...",
+            "published_at": "2026-08-04T02:46:36Z",
+            "url": "https://www.youtube.com/watch?v=OU74u0QCh5s"
+          }
+        ],
+        "channel_description": "Welcome to 60SecShorts! \nYour go-to channel for fast, fun, and trending stories in just 60 seconds And above.\n\nWe bring you entertainment news, viral trends, celebrity updates, breaking stories, and pop culture buzz — all short, sharp, and straight to the point. No long videos. No boredom. Just quick stories with big impact.\n\n🎬 What you’ll find here:\n• Viral YouTube Shorts\n• Entertainment & celebrity news\n• Trending stories & social media buzz\n• Quick updates in under 60 seconds\n\n👉 Subscribe for daily Shorts\n🔥 New viral videos every day\n⏱️ Big stories. Small time.\nAIRAA-073703\n\nyoutube shorts, 60 second shorts, viral shorts, trending shorts, entertainment news, short videos, breaking news shorts, celebrity news, pop culture, fast news updates\n\n#60SecShorts\n#YouTubeShorts\n#ViralShorts\n#TrendingNow\n#entertainmentnews \n#viralvideo \n#shorts \n#ytshorts \n#trendingnow \n#trendingshorts \n#tiktok \n#youtubeshorts \n#news \n#newsdebate \n#funny \n#ShortVideos\n#BreakingNews\n#dailyshorts \n\n",
+        "latest_video_at": "2026-08-04T02:46:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCAT1qCCX_Qm_49VpUdqvUbw",
+      "external_id": "UCAT1qCCX_Qm_49VpUdqvUbw",
+      "name": "Alejandro Restrepo (Haku)",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCAT1qCCX_Qm_49VpUdqvUbw",
+      "discovered_on": "2026-08-04",
+      "score": 68.71,
+      "metrics": {
+        "subscribers": 35100,
+        "total_views": 39380009,
+        "video_count": 1646,
+        "avg_views_per_video": 23924.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "SBJZ0xcotAo",
+            "title": "QUIEREN &quot;LIMPIAR&quot; LOS MEDIOS DE COMUNICACIÓN ALTERNATIVOS! 💔🤦🏻 #colombia #noticias #gustavopetro",
+            "description": "",
+            "published_at": "2026-08-01T18:52:56Z",
+            "url": "https://www.youtube.com/watch?v=SBJZ0xcotAo"
+          }
+        ],
+        "channel_description": "Explorador de afectos, donde las emociones y la creatividad se encuentran. Soy Alejo (Haku), un apasionado explorador de emociones y experiencias. Aquí celebramos la diversidad y el amor en todas sus formas. En este canal, vas a encontrar un poco de todo, siempre con un toque personal y auténtico:\n\n✨ Video Reacciones: Acompáñame mientras reacciono a shows, y videos. Risas, sorpresas y mucho más en cada episodio.\n\n🎭 Teatro, TV y Cine: Como actor de teatro, TV y cine, compartiré contigo mis experiencias, obras en las que he participado y todo lo relacionado con el mundo actoral.\n\n😂 Comedia: Sketches, momentos divertidos y situaciones cómicas que te divertiran.\n\n❤️ Contenido Romántico: Frases, poemas y todo lo que enciende la chispa del amor en el corazón.\n\n🎥 Y mucho más: Cada video es una nueva aventura. Únete a esta exploración continua de los afectos y emociones.\n\n¡Suscríbete y forma parte de esta increíble comunidad de exploradores de sentimientos, arte y comedia.\n",
+        "latest_video_at": "2026-08-01T18:52:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCsI9oTkm0H9GnK5K1fmFMug",
+      "external_id": "UCsI9oTkm0H9GnK5K1fmFMug",
+      "name": "HABITAT - Lebensraum Deutschland",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCsI9oTkm0H9GnK5K1fmFMug",
+      "discovered_on": "2026-08-04",
+      "score": 68.41,
+      "metrics": {
+        "subscribers": 83300,
+        "total_views": 25245016,
+        "video_count": 6458,
+        "avg_views_per_video": 3909.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "PdKZq9vPULg",
+            "title": "Hallervordens Kampagne  Ein „munteres Mumienschubsen&quot;",
+            "description": "HERZLICH WILLKOMMEN zu unseren täglichen NACHRICHTEN -ÜBERBLICK Wir präsentieren in unserem Programm die ...",
+            "published_at": "2026-08-03T04:27:32Z",
+            "url": "https://www.youtube.com/watch?v=PdKZq9vPULg"
+          }
+        ],
+        "channel_description": "Wir leben in herausfordernden Zeiten, in denen zur Lösungsfindung Optionen und Impulse aus dem gesamten Spektrum der verfügbaren und gesellschaftlich vertretbaren Positionen berücksichtigt werden sollten. Genau dieser gedankliche Spielraum umfasst auch Werte, die ihren Ursprung und ihre Tradition unmittelbar rechts der politischen Mitte haben. Uns geht es in diesem Kanal um die pro-aktive Gestaltung und Entwicklung des Lebensraums 'Deutschland'. \n\nImpressum - da wir auch in Deutschland einen Teil unserer Zuschauer haben, hier die Angaben gemäß § 5 TMG\n\nChris Ernst\nFreier Journalist, Autor und YouTube-Kanalbetreiber\nORCA - Calle Gil-Vernet 54/55\nPoligono Les Tapies 1 #1093\nHospitalet De L'infant, Tarragona 43890\nSpain\ndiese Angaben stellen auch die Verantwortlichkeit im Sinne des deutschen Presserechtes in Verbindung mit EuGH-Urteil vom 16. Oktober 2008 (C-298/07) dar.\n",
+        "latest_video_at": "2026-08-03T04:27:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCdHFQSc_EWtbmVGhKlzBUrQ",
+      "external_id": "UCdHFQSc_EWtbmVGhKlzBUrQ",
+      "name": "Bitcoin2026",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCdHFQSc_EWtbmVGhKlzBUrQ",
+      "discovered_on": "2026-08-04",
+      "score": 68.4,
+      "metrics": {
+        "subscribers": 11400,
+        "total_views": 38304863,
+        "video_count": 268,
+        "avg_views_per_video": 142928.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "UA0W-L8nk6E",
+            "title": "Medienmonopol #shorts",
+            "description": "shorts.",
+            "published_at": "2026-08-01T19:17:11Z",
+            "url": "https://www.youtube.com/watch?v=UA0W-L8nk6E"
+          }
+        ],
+        "channel_description": "Reagier mit mir auf aktuelle Themen zu Politik, Wirtschaft und Finanzen.\n\nDie in diesem Kanal verwendeten Ausschnitte aus Talkshows, Interviews und sonstigen Sendungen dienen der Berichterstattung, Analyse und Einordnung aktueller Ereignisse gemäß § 51 UrhG (Zitatrecht).\nAlle Inhalte werden im Rahmen einer journalistischen und redaktionellen Auseinandersetzung genutzt.\n",
+        "latest_video_at": "2026-08-01T19:17:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCeCn73LBxwz2gXSDxnIGgGg",
+      "external_id": "UCeCn73LBxwz2gXSDxnIGgGg",
+      "name": "patriotycznyinternet",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCeCn73LBxwz2gXSDxnIGgGg",
+      "discovered_on": "2026-08-04",
+      "score": 68.11,
+      "metrics": {
+        "subscribers": 81100,
+        "total_views": 63032811,
+        "video_count": 11236,
+        "avg_views_per_video": 5609.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "eRdQJqU3zaY",
+            "title": "Media prawicowe rosną w siłę, a obrońcy demokracji nie kryją frustracji.",
+            "description": "Zaskakujące obserwacje dotyczące polskiego rynku medialnego pokazują, że strona demokratyczna przegrywa walkę o wpływy.",
+            "published_at": "2026-08-01T20:23:48Z",
+            "url": "https://www.youtube.com/watch?v=eRdQJqU3zaY"
+          }
+        ],
+        "channel_description": "Witam serdecznie i zapraszam do oglądania zamieszczanych przeze mnie materiałów - jak również do obejrzenia mojego drugiego kanału - link na dole :)\n\nhttp://piosenkireligijne.pl - piękne piosenki religijne\nhttp://prawicowyinternet.pl - wszelkie patriotyczne piosenki",
+        "latest_video_at": "2026-08-01T20:23:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1XaJd2aEX3AY7_OUPRtj1g",
+      "external_id": "UC1XaJd2aEX3AY7_OUPRtj1g",
+      "name": "Tejaswi News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC1XaJd2aEX3AY7_OUPRtj1g",
+      "discovered_on": "2026-08-04",
+      "score": 66.07,
+      "metrics": {
+        "subscribers": 11400,
+        "total_views": 10724673,
+        "video_count": 787,
+        "avg_views_per_video": 13627.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "OMMv7aYogpI",
+            "title": "అసలు నువ్వెవరివి చెప్పడానికి..? హిందువులంటే అంత చులకనగా ఉన్నారా నీకు..! | Journalist Manoj Issue",
+            "description": "అసలు నువ్వెవరివి చెప్పడానికి..? హిందువులంటే అంత చులకనగా ఉన్నారా ...",
+            "published_at": "2026-08-04T11:53:23Z",
+            "url": "https://www.youtube.com/watch?v=OMMv7aYogpI"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-04T11:53:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UChiQj7OCry53RbSqnQS_qYA",
+      "external_id": "UChiQj7OCry53RbSqnQS_qYA",
+      "name": "VAIDS IAS",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UChiQj7OCry53RbSqnQS_qYA",
+      "discovered_on": "2026-08-04",
+      "score": 65.99,
+      "metrics": {
+        "subscribers": 51300,
+        "total_views": 4436794,
+        "video_count": 2772,
+        "avg_views_per_video": 1600.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "hWwVkQ6t2VI",
+            "title": "Pakistan SHOCKER! Al Jazeera Banned After PoK Report | What&#39;s Islamabad Hiding? | VAID ICS",
+            "description": "Pakistan has reportedly banned Al Jazeera after the network's reporting on Pakistan-occupied Kashmir (PoK), accusing it of ...",
+            "published_at": "2026-08-03T15:30:39Z",
+            "url": "https://www.youtube.com/watch?v=hWwVkQ6t2VI"
+          }
+        ],
+        "channel_description": "Welcome to Vaid ICS, a dedicated platform for aspirants preparing for UPSC, State PCS, and other Civil Services Examinations.\n\nVAIDS IAS , a leading Consultancy for Civil Services, was started in 1988 to provide expert guidance, consultancy and counseling to aspirants for a career in Civil Services & Judicial Services. \n\n3000+ Selections in last 38 Years\n\nOnline Live Batch:\n  1. General Studies for IAS & PCS-2025 -26 (Pre-cum-Mains)\n  2. Civil अनुसंधान Program for Answer Writing \n  3. Optional Paper - (Public Administration, Sociology, PSIR, Anthropology)\n  4. Mock Interview Program\n  5. Test Series (IAS/PCS/PCS-J)\n\nContact: 9415011892, 8858209990, \nTech Support: 9415011892\n\n👉 Subscribe now and start your journey towards becoming a civil servant.\n",
+        "latest_video_at": "2026-08-03T15:30:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCSeWjBdLKtzRwwcpnIjglmw",
+      "external_id": "UCSeWjBdLKtzRwwcpnIjglmw",
+      "name": "Koiki Media",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCSeWjBdLKtzRwwcpnIjglmw",
+      "discovered_on": "2026-08-04",
+      "score": 65.87,
+      "metrics": {
+        "subscribers": 54200,
+        "total_views": 18902702,
+        "video_count": 13486,
+        "avg_views_per_video": 1401.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "K_RGTRwi2qs",
+            "title": "Live highlight",
+            "description": "Fundraiser by Olayomi KOIKI : Our media organisation koikimedia needs you All https://gofund.me/d7f135e0 KOIKIMEDIA ...",
+            "published_at": "2026-08-03T22:52:06Z",
+            "url": "https://www.youtube.com/watch?v=K_RGTRwi2qs"
+          }
+        ],
+        "channel_description": "Koiki Media Our job is to help your business tell the story you want to tell. Your brand is not just your visual image, but an entire package of visuals, media interaction, digital marketing, and creative positioning. If you feel like your business isn't attaining the levels of recognition or success it should, then you need us.\n\n\nWe break down stories, we explain, and we give you the context you need. The analysis is informed and engaging and most importantly, it gives you the truth, upgrades you and makes you world ready. Our stories are insightful and perceptive; they help you understand what’s happening around the world. Our narratives are immersive; our opinions only provoke you to think more.\n",
+        "latest_video_at": "2026-08-03T22:52:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZmMIuNMzHUKe8stDED1OPg",
+      "external_id": "UCZmMIuNMzHUKe8stDED1OPg",
+      "name": "Dheeraj_24",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCZmMIuNMzHUKe8stDED1OPg",
+      "discovered_on": "2026-08-04",
+      "score": 65.7,
+      "metrics": {
+        "subscribers": 5390,
+        "total_views": 36884138,
+        "video_count": 1126,
+        "avg_views_per_video": 32756.78,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "AxVFKIBJAv8",
+            "title": "Independent Journalism 🇮🇳  Democracy Needs Truth, Not Propaganda Respect Journalists #Shorts #news",
+            "description": "",
+            "published_at": "2026-08-04T01:59:09Z",
+            "url": "https://www.youtube.com/watch?v=AxVFKIBJAv8"
+          }
+        ],
+        "channel_description": "Welcome to our channel! 🇮🇳\nYahan aapko milegi politics, protests, public issues, government policies, elections aur current affairs se judi updates. Hum ground reports, news analysis aur alag-alag nazariyon ko samajhne ki koshish karte hain, taaki viewers khud apni rai bana saken.\nAgar aap politics aur current affairs mein interest rakhte hain, to channel ko Subscribe karein aur notifications on karein.\nTopics Covered:\n• Indian Politics\n• Protest & Ground Reports\n• Current Affairs\n• Elections & Policy Updates\n• Social Issues\n• Breaking News Analysis\nStay informed. Think critically",
+        "latest_video_at": "2026-08-04T01:59:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCBBaxnJcFln7DyLetzXswFA",
+      "external_id": "UCBBaxnJcFln7DyLetzXswFA",
+      "name": "Veleno Quanto Basta",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCBBaxnJcFln7DyLetzXswFA",
+      "discovered_on": "2026-08-04",
+      "score": 65.37,
+      "metrics": {
+        "subscribers": 28800,
+        "total_views": 6149918,
+        "video_count": 1436,
+        "avg_views_per_video": 4282.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "kuEBzrmiUzo",
+            "title": "BlackRock e Cina: cosa evita la controinformazione di sinistra?",
+            "description": "COMPRENDERE LA REALTÀ LA CONTROINFORMAZIONE DI SINISTRA: FRAME O REALTÀ? BlackRock, Cina, Israele e ...",
+            "published_at": "2026-08-03T07:44:36Z",
+            "url": "https://www.youtube.com/watch?v=kuEBzrmiUzo"
+          }
+        ],
+        "channel_description": "**Veleno Quanto Basta** è un canale dedicato all'analisi di geopolitica, attualità, storia, propaganda, guerra dell'informazione e comunicazione. Attraverso approfondimenti, interviste, documenti e dirette analizziamo politica internazionale, intelligence, economia, conflitti, ingegneria sociale e media, con particolare attenzione agli equilibri tra Stati Uniti, Europa, Russia, Medio Oriente e Asia. L'obiettivo è offrire strumenti di analisi, contestualizzare gli eventi e confrontare fonti e narrazioni per comprendere meglio la complessità del mondo contemporaneo. Sul canale trovi inchieste, dibattiti, approfondimenti storici, analisi dei media, strategie geopolitiche e contenuti dedicati alla lettura critica dell'informazione. Iscriviti a **Veleno Quanto Basta**, attiva la campanella e partecipa alla discussione con i tuoi commenti per non perdere video, interviste e dirette sui principali eventi internazionali.\n\nSosteneteci\nhttps://talksnow.net/donazioni/\n\n\n",
+        "latest_video_at": "2026-08-03T07:44:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCST9lQn-hyYRvVvrFwHCzCA",
+      "external_id": "UCST9lQn-hyYRvVvrFwHCzCA",
+      "name": "Mexico Libertario",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCST9lQn-hyYRvVvrFwHCzCA",
+      "discovered_on": "2026-08-04",
+      "score": 64.89,
+      "metrics": {
+        "subscribers": 19300,
+        "total_views": 6643673,
+        "video_count": 1758,
+        "avg_views_per_video": 3779.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "lJF-S05BUGs",
+            "title": "Abuchean a propagandista de la 4T",
+            "description": "Jenaro Villamil fue abucheado durante un acto por la conmemoración de la libertad de expresión en #Veracruz; despues de ...",
+            "published_at": "2026-08-03T22:00:35Z",
+            "url": "https://www.youtube.com/watch?v=lJF-S05BUGs"
+          }
+        ],
+        "channel_description": "Organización que sigue los principios del Libertarismo y los divulga para su aplicación en México.",
+        "latest_video_at": "2026-08-03T22:00:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCmgPJb3ZOUAcsWM3LpUrsZA",
+      "external_id": "UCmgPJb3ZOUAcsWM3LpUrsZA",
+      "name": "Media Swaraj  - मीडिया स्वराज ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCmgPJb3ZOUAcsWM3LpUrsZA",
+      "discovered_on": "2026-08-04",
+      "score": 64.33,
+      "metrics": {
+        "subscribers": 21600,
+        "total_views": 6363584,
+        "video_count": 2547,
+        "avg_views_per_video": 2498.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "JH1q9Zaslxs",
+            "title": "सरकार, कॉर्पोरेट और मीडिया का पूरा खेल | Indian Media Explained",
+            "description": "What is Wrong with Indian Media भारतीय मीडिया की समस्याएं #media #communication #ramdutttripathi ...",
+            "published_at": "2026-08-03T15:00:12Z",
+            "url": "https://www.youtube.com/watch?v=JH1q9Zaslxs"
+          }
+        ],
+        "channel_description": "मीडिया स्वराज न्यूज़: जनसेवा और सच्चाई की पत्रकारिता\n\nमीडिया स्वराज न्यूज़ एक ऐसा मंच है, जो लोकतंत्र, धर्मनिरपेक्षता, न्याय, स्वतंत्रता, समानता और बंधुत्व जैसे बुनियादी मूल्यों के प्रति समर्पित है। हमारा उद्देश्य है जनता तक निष्पक्ष खबरें, गहराई से किए गए विश्लेषण और समाज के लिए महत्वपूर्ण विषयों की जानकारी पहुंचाना।\n\nयह चैनल वरिष्ठ पत्रकार और पूर्व बीबीसी संवाददाता रामदत्त त्रिपाठी (@Ramdutttripathi) द्वारा स्थापित किया गया है, जो सत्य और जनसेवा की पत्रकारिता के लिए जाने जाते हैं।\n\nहमारे साथ जुड़ें और खबरों के माध्यम से जागरूकता और बदलाव की दिशा में कदम बढ़ाएं।\n",
+        "latest_video_at": "2026-08-03T15:00:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCvgq34oIQML8MRBHBYcDcSA",
+      "external_id": "UCvgq34oIQML8MRBHBYcDcSA",
+      "name": "ChaupalTV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCvgq34oIQML8MRBHBYcDcSA",
+      "discovered_on": "2026-08-04",
+      "score": 64.16,
+      "metrics": {
+        "subscribers": 41100,
+        "total_views": 9234634,
+        "video_count": 9831,
+        "avg_views_per_video": 939.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "_q9jUU-EmBs",
+            "title": "Migration caravans remind us of the great sacrifices behind independence celebrations in August",
+            "description": "Migration caravans remind us of the great sacrifices behind independence celebrations in August #PartitionMemories ...",
+            "published_at": "2026-08-04T12:15:10Z",
+            "url": "https://www.youtube.com/watch?v=_q9jUU-EmBs"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-04T12:15:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC4I2J4yvrp7K36Tsf_dckYQ",
+      "external_id": "UC4I2J4yvrp7K36Tsf_dckYQ",
+      "name": "Jc Frias",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC4I2J4yvrp7K36Tsf_dckYQ",
+      "discovered_on": "2026-08-04",
+      "score": 63.99,
+      "metrics": {
+        "subscribers": 15500,
+        "total_views": 2802885,
+        "video_count": 825,
+        "avg_views_per_video": 3397.44,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "0lvVIzt2KyI",
+            "title": "Mexico is taking on misinformation, the RIGHT is already screaming censorship. Claudia Sheinbaum",
+            "description": "Mexico is taking on misinformation, and the right is already screaming censorship. Claudia Sheinbaum and the Comisión ...",
+            "published_at": "2026-08-03T16:18:00Z",
+            "url": "https://www.youtube.com/watch?v=0lvVIzt2KyI"
+          }
+        ],
+        "channel_description": "REAL TALK with JC Frias Unfiltered\nMexican-American voice\nCulture • Immigration •Unapologetic \nJCFRIASREALTALK@gmail.com\n\n\n\n",
+        "latest_video_at": "2026-08-03T16:18:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC3OTOy8vuu_r4wK80tpTmoA",
+      "external_id": "UC3OTOy8vuu_r4wK80tpTmoA",
+      "name": "HasanAbi Searches for Humanity ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC3OTOy8vuu_r4wK80tpTmoA",
+      "discovered_on": "2026-08-04",
+      "score": 60.08,
+      "metrics": {
+        "subscribers": 5040,
+        "total_views": 666868,
+        "video_count": 246,
+        "avg_views_per_video": 2710.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "dgk-R1FIMqk",
+            "title": "Leftist Media is TAKING OVER the Democratic Party | HasanAbi Searches",
+            "description": "HasanAbi reacts to an AP article on the rise of progressive media and its role in reshaping Democratic politics.",
+            "published_at": "2026-08-03T23:40:45Z",
+            "url": "https://www.youtube.com/watch?v=dgk-R1FIMqk"
+          }
+        ],
+        "channel_description": "HasanAbi Searches for Humanity is the ONLY HasanAbi fan channel by an alien that transforms his beloved ADHD-fueled Twitch streams into curated, thoughtfully edited videos of the day's top or overlooked news stories, featuring original commentary, news sources, and moments of humanity. \n\nCurated, edited & completely transformed by an alien from [redacted]  📡  \nNew videos almost daily!  📡  \n\nAdditional commentary, jokes, graphics, news sources, audio, music, and more created by me, an alien from [redacted], using Premiere, Photoshop, Open Live 3D,  OBS, & VRoidStudio for a transformative and unique viewing experience!\n\nIT’S A LOT OF WORK, YOUTUBE AI MODS! \n",
+        "latest_video_at": "2026-08-03T23:40:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVzegpMPzquLEW1YTI3Tfaw",
+      "external_id": "UCVzegpMPzquLEW1YTI3Tfaw",
+      "name": "LesPatriotes64 ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCVzegpMPzquLEW1YTI3Tfaw",
+      "discovered_on": "2026-08-04",
+      "score": 59.39,
+      "metrics": {
+        "subscribers": 2760,
+        "total_views": 2222677,
+        "video_count": 485,
+        "avg_views_per_video": 4582.84,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "oXCbyTmiQnw",
+            "title": "Censure des médias: Vont-ils fermer CNews, Europe 1, JDD? #shorts",
+            "description": "Ce film explore le danger des contenus jugés indésirables par les autorités. Fermeture, interdiction : quelles conséquences pour ...",
+            "published_at": "2026-08-03T22:55:33Z",
+            "url": "https://www.youtube.com/watch?v=oXCbyTmiQnw"
+          }
+        ],
+        "channel_description": "Chaîne officielle Youtube \nLes Patriotes 64 🇲🇫 \nActions locales, souveraineté, \nFREXIT 🇨🇵 \n\nRejoignez-nous pour une \nFRANCE Libre🇲🇫🔥",
+        "latest_video_at": "2026-08-03T22:55:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKK-ZtHuQHU3r1C8oAZ4rbg",
+      "external_id": "UCKK-ZtHuQHU3r1C8oAZ4rbg",
+      "name": "台灣變色龍",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCKK-ZtHuQHU3r1C8oAZ4rbg",
+      "discovered_on": "2026-08-04",
+      "score": 59.05,
+      "metrics": {
+        "subscribers": 2970,
+        "total_views": 5934956,
+        "video_count": 1683,
+        "avg_views_per_video": 3526.41,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "4kU3JBzagwY",
+            "title": "中國惡法伸入全球？賴清德直指核心爭議！",
+            "description": "本集短影音探討賴清德總統針對中國民族團結進步促進法（民促法）的反制立場。新聞背景源自2026印太安全對話，重點在於台灣在 ...",
+            "published_at": "2026-08-04T03:01:36Z",
+            "url": "https://www.youtube.com/watch?v=4kU3JBzagwY"
+          }
+        ],
+        "channel_description": "在台灣這片充滿驚奇的土地上，政客們為了生存，\n演化出了比生物界更完美的保護色。\n昨日抗爭的熱血，今日變成了執政的冷血；\n昨日堅持的理念，今日變成了彈性的底線。\n\n我們播報新聞，也播報演技；記錄歷史，也記錄變色。\n如果你也想看穿這些「老戲骨」的華麗轉身，\n請訂閱我們，讓我們繼續看下去。\n",
+        "latest_video_at": "2026-08-04T03:01:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    }
+  ]
 }

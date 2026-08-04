@@ -2,19 +2,848 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-03T13:21:50Z",
-  "new_this_run": 7,
-  "total_influencers": 693,
+  "updated_at": "2026-08-04T12:22:16Z",
+  "new_this_run": 20,
+  "total_influencers": 713,
   "run_summary": {
-    "run_started_at": "2026-08-03T13:21:41Z",
-    "candidate_count": 31,
-    "existing_count": 686,
-    "selected_new_count": 7,
+    "run_started_at": "2026-08-04T12:21:57Z",
+    "candidate_count": 48,
+    "existing_count": 693,
+    "selected_new_count": 20,
     "max_per_topic": 20,
-    "youtube_enabled": false,
+    "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCnvgU5_xbAvRa6TEJiMfOZQ",
+      "external_id": "UCnvgU5_xbAvRa6TEJiMfOZQ",
+      "name": "Healthy Chatter",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCnvgU5_xbAvRa6TEJiMfOZQ",
+      "discovered_on": "2026-08-04",
+      "score": 79.48,
+      "metrics": {
+        "subscribers": 84200,
+        "total_views": 34978386,
+        "video_count": 298,
+        "avg_views_per_video": 117377.13,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "09C2UOBcknA",
+            "title": "This 5-Ingredient Golden Drink is My Ultimate Nighttime Biohacking Routine 🌙✨",
+            "description": "Looking for the ultimate nighttime routine for gut health and morning energy? This simple 5-ingredient golden drink is my favorite ...",
+            "published_at": "2026-08-04T11:13:11Z",
+            "url": "https://www.youtube.com/watch?v=09C2UOBcknA"
+          },
+          {
+            "query": "biohacking routine",
+            "video_id": "RCNrioMXsDc",
+            "title": "Discover the Ultimate Biohacking Routine for Happy, Healthy Feet 🦶",
+            "description": "Wake up feeling refreshed by giving your overworked feet the daily self-care they deserve! This holistic home wellness routine ...",
+            "published_at": "2026-07-30T11:02:26Z",
+            "url": "https://www.youtube.com/watch?v=RCNrioMXsDc"
+          }
+        ],
+        "channel_description": "Healthy Chatter ⚡️ — Your Daily Wellness Upgrade!\n\n🔗 Tap the Link in Channel Bio to Shop My Picks! 🔗\n(Or visit: linktr.ee/healthychatter)\n\nSmall shifts, big results. Every day, we bring you kitchen hacks, gut-health tips, and wellness shortcuts you actually need.\n\n🥑 Avoid common cooking mistakes (yes, toss that scratched non-stick pan!)\n🥗 Discover the best wellness finds at Target, Whole Foods & Amazon\n✨ Simple biohacks & measurements in °F (oz/lbs/inches)\n\n💡 New video every day! Join our community and hit subscribe to get 1% better every day. Never miss a daily hack!\n",
+        "latest_video_at": "2026-08-04T11:13:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoYy1DVUdqOkAJHtC7aJADg",
+      "external_id": "UCoYy1DVUdqOkAJHtC7aJADg",
+      "name": "Relax NCG",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCoYy1DVUdqOkAJHtC7aJADg",
+      "discovered_on": "2026-08-04",
+      "score": 71.79,
+      "metrics": {
+        "subscribers": 24700,
+        "total_views": 34605488,
+        "video_count": 5387,
+        "avg_views_per_video": 6423.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/channel/UCoYy1DVUdqOkAJHtC7aJADg"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "8VsER2WlyKE",
+            "title": "#fitness #sports #yoga",
+            "description": "Join this channel to get access to perks: https://www.youtube.com/channel/UCoYy1DVUdqOkAJHtC7aJADg/join Any physical ...",
+            "published_at": "2026-08-04T08:49:11Z",
+            "url": "https://www.youtube.com/watch?v=8VsER2WlyKE"
+          }
+        ],
+        "channel_description": "Welcome to Relax NCG Channel, which refers to physical activity that improves or maintains physical fitness, health, and overall well-being. It encompasses various activities, including structured workouts, sports, recreational activities, or daily movement tasks.\n\n\n",
+        "latest_video_at": "2026-08-04T08:49:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCE67Ge_MKqOnjembYWZB0Zw",
+      "external_id": "UCE67Ge_MKqOnjembYWZB0Zw",
+      "name": "Longevidad Simple",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCE67Ge_MKqOnjembYWZB0Zw",
+      "discovered_on": "2026-08-04",
+      "score": 69.99,
+      "metrics": {
+        "subscribers": 27500,
+        "total_views": 2389549,
+        "video_count": 99,
+        "avg_views_per_video": 24136.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "VPy_5XhQ32Y",
+            "title": "Protocolo Antiedad Avanzado: Cuello, Rostro, Código de Barras y Pelo + Bonus  #antiedad",
+            "description": "Descubre El Código de la Longevidad Estética, la guía maestra definitiva basada en evidencia científica para cuidar zonas clave ...",
+            "published_at": "2026-08-04T00:10:28Z",
+            "url": "https://www.youtube.com/watch?v=VPy_5XhQ32Y"
+          }
+        ],
+        "channel_description": "Bienvenidos\n\nLongevidad Simple tiene un enfoque es único: auditar la ciencia de la longevidad utilizando herramientas avanzadas de análisis de datos, tal como lo hacen los laboratorios de vanguardia, para filtrar la información más precisa y útil para ti. \n\nUtilizamos tecnología para decodificar los secretos de una vida larga y saludable.\n\nAquí no encontrarás consejos genéricos, sino protocolos basados en investigación técnica y evidencia científica, explicados de forma pausada y simple para que puedas hackear tu propia biología\n\nLas evidencias científicas queda a vuestra disposición en cada descripción de los videos .\n\n\n\n\n\n\n",
+        "latest_video_at": "2026-08-04T00:10:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCeKi6HtUUmg5FF2Sw28spRQ",
+      "external_id": "UCeKi6HtUUmg5FF2Sw28spRQ",
+      "name": "Sveta Ananda Yoga",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCeKi6HtUUmg5FF2Sw28spRQ",
+      "discovered_on": "2026-08-04",
+      "score": 66.04,
+      "metrics": {
+        "subscribers": 22400,
+        "total_views": 3120613,
+        "video_count": 238,
+        "avg_views_per_video": 13111.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "T-4JVlBRdZU",
+            "title": "20 Min Gentle Morning Yoga | Full Body Stretch &amp; Mobility | Longevity Protocol",
+            "description": "Follow this daily yoga routine to improve balance and build flexibility and prolong youth in your body. Longevity starts with your ...",
+            "published_at": "2026-08-01T15:45:07Z",
+            "url": "https://www.youtube.com/watch?v=T-4JVlBRdZU"
+          }
+        ],
+        "channel_description": "🧘‍♀️ Welcome to Ananda Yoga | With Svetlana Kulish\n\nAnanda Yoga is a yoga lifestyle channel created by certified yoga teacher Svetlana Kulish, dedicated to helping you live a balanced, healthy, and joyful life through the practice of yoga.\n\nWhether you’re a beginner or an experienced yogi, you’ll find a variety of free, high-quality yoga classes designed to suit all levels. From energizing flows to calming stretches, each video is crafted with care to guide you in building strength, flexibility, and inner peace—all from the comfort of your home.\n\n🌿 What You’ll Find on This Channel:\n\t•\tHatha, Vinyasa, Ashtanga & Yin Yoga classes\n\t•\tFull-body stretching and targeted muscle relief\n\t•\tYoga for strength, flexibility, and emotional well-being\n\t•\tGuided meditations & mindfulness practices\n\t•\tTips for living a conscious and healthy lifestyle\n\nJoin me on the mat to awaken your body, soothe your mind, and nourish your soul. Yoga is more than movement—it’s a way of life.\n\nCyprus, Limassol \n\n",
+        "latest_video_at": "2026-08-01T15:45:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCgrOtF2lRVeYhav3iaRPEGA",
+      "external_id": "UCgrOtF2lRVeYhav3iaRPEGA",
+      "name": "Scottie Hobbs - Make Wellness Mentor",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCgrOtF2lRVeYhav3iaRPEGA",
+      "discovered_on": "2026-08-04",
+      "score": 65.54,
+      "metrics": {
+        "subscribers": 30700,
+        "total_views": 10759596,
+        "video_count": 4030,
+        "avg_views_per_video": 2669.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "POf7k9K2b2A",
+            "title": "Make Wellness Clearpath Compensation Plan",
+            "description": "Learn how to work with us: ScottieHobbs.com $10 off Shop Peptides ...",
+            "published_at": "2026-08-03T14:05:38Z",
+            "url": "https://www.youtube.com/watch?v=POf7k9K2b2A"
+          }
+        ],
+        "channel_description": "You’ve been praying for a way to improve your family’s financial situation and I’m here to show you how with natural peptides and free mentorship.\nScottiehobbs@scottiehobbs.com\nJoin our Company Here: https://themakeexperience.com/D565939659 \nTry Peptides $10 off here: https://makewellness.com/D565939659\n",
+        "latest_video_at": "2026-08-03T14:05:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCrKXKo8Pq6Sw0w_jGfl4W3g",
+      "external_id": "UCrKXKo8Pq6Sw0w_jGfl4W3g",
+      "name": "Marco D'Elia",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCrKXKo8Pq6Sw0w_jGfl4W3g",
+      "discovered_on": "2026-08-04",
+      "score": 65.33,
+      "metrics": {
+        "subscribers": 45700,
+        "total_views": 7557123,
+        "video_count": 2166,
+        "avg_views_per_video": 3488.98,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "4cfuSn2HU4U",
+            "title": "Ho testato la skincare routine perfetta secondo la scienza",
+            "description": "Protocollo di longevità completo: https://youtu.be/6re2NvX42FA Prodotti che consiglio: https://amzn.to/4xfmpfM Connect With Me: ...",
+            "published_at": "2026-08-01T13:44:47Z",
+            "url": "https://www.youtube.com/watch?v=4cfuSn2HU4U"
+          }
+        ],
+        "channel_description": "From former Mister World Italy to inner exploration. Self-care inside and out. After 12 years of competitive swimming and a degree in communications, I began my career in fashion.\n\nCompetitions were my first step, leading me to win titles such as Mister Italy, Mister Model International in Miami, and finally Mister World Italy in the Philippines. This path naturally opened doors to opportunities in TV and acting.\n\nMeanwhile, I began documenting my experiences on social media, which significantly increased my online presence, turning it into a full-time occupation.\n\nOver the years, I have expanded my work, focusing not only on external beauty and self-care, but also on internal well-being and the creation of inspirational content.\n\nA journey to discover and optimize myself, documenting and sharing my journey with you in the hope of helping someone out there.\n",
+        "latest_video_at": "2026-08-01T13:44:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCkQ8nTsepa3VPIFde-yvqaQ",
+      "external_id": "UCkQ8nTsepa3VPIFde-yvqaQ",
+      "name": "RicoGroupFitness",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCkQ8nTsepa3VPIFde-yvqaQ",
+      "discovered_on": "2026-08-04",
+      "score": 64.56,
+      "metrics": {
+        "subscribers": 8320,
+        "total_views": 273524,
+        "video_count": 259,
+        "avg_views_per_video": 1056.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/ricogroupfitness"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "h3KJ9mVUtTU",
+            "title": "Why Does Practice Work? 💚",
+            "description": "Why does practice work? Because your body learns the patterns you repeat. Every repetition teaches your brain and body to ...",
+            "published_at": "2026-08-04T01:07:09Z",
+            "url": "https://www.youtube.com/watch?v=h3KJ9mVUtTU"
+          }
+        ],
+        "channel_description": "We are career fitness instructors who create content for anyone who wants to use this style of training to achieve their health goals.\nOur goal with this page is to have pure workout material that we do ourselves. Use our material to create your own workout playlist and come train with us.\nCyn & Justin Stevenson\nFollow Rico Group Fitness\nFacebook: https://www.facebook.com/Rico-Group-Fitness-179205145490969/\nInstagram: https://www.instagram.com/ricogroupfitness/\nwww.ricogroupfitness.com.au\nwww.ricogroupfitness.net",
+        "latest_video_at": "2026-08-04T01:07:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCjz-4y6ts-VF2KSQX-jsnVg",
+      "external_id": "UCjz-4y6ts-VF2KSQX-jsnVg",
+      "name": "NTD News",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCjz-4y6ts-VF2KSQX-jsnVg",
+      "discovered_on": "2026-08-04",
+      "score": 64.39,
+      "metrics": {
+        "subscribers": 70800,
+        "total_views": 12212382,
+        "video_count": 6289,
+        "avg_views_per_video": 1941.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "uBXprKbIcDk",
+            "title": "FDA Advisers Greenlit 6 Peptides for Compounding",
+            "description": "Last week, an FDA advisory panel voted in favor of making six wellness peptides available for pharmacy compounding. Peptides ...",
+            "published_at": "2026-08-01T02:54:34Z",
+            "url": "https://www.youtube.com/watch?v=uBXprKbIcDk"
+          }
+        ],
+        "channel_description": "NTD is a New York-based, global television network founded in 2001 by Chinese-Americans who fled communism. They understood that independent media are crucial to a free society. So they created NTD to bring the world uncensored and truthful information—no matter the cost.\n\nWe remain free from all external influence—whether from political, financial, or special interests, and cover stories that others don’t. Our arts and lifestyle programs embody universal values, and celebrate the best of humanity’s culture and traditions. \n\nWebsite: NTD.com\nGet NTD on TV 👉  https://www.ntd.com/tv-providers.htm\nNewsletter: https://www.ntd.com/newsletter.htm\nSupport us: donorbox.org/ntdtv\n\nFB: facebook.com/NTDTelevision\nTwitter: twitter.com/NTDNews\nTruth Social: truthsocial.com/@NTD\nTelegram: t.me/s/NTDNews\nInstagram: instagram.com/ntdnews\nGab: gab.com/NTDNews\n",
+        "latest_video_at": "2026-08-01T02:54:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCN1EA7RBE5phEX-simSSDnw",
+      "external_id": "UCN1EA7RBE5phEX-simSSDnw",
+      "name": "Alison Starr",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCN1EA7RBE5phEX-simSSDnw",
+      "discovered_on": "2026-08-04",
+      "score": 62.76,
+      "metrics": {
+        "subscribers": 4580,
+        "total_views": 606304,
+        "video_count": 570,
+        "avg_views_per_video": 1063.69,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@AlisonSmithStarr"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "-0bRZVD9cjQ",
+            "title": "NEVER suck in your stomach",
+            "description": "When you suck in your stomach, you automatically flare your ribs, destabilize your lower back, and block the intra-abdominal ...",
+            "published_at": "2026-08-04T01:05:41Z",
+            "url": "https://www.youtube.com/watch?v=-0bRZVD9cjQ"
+          }
+        ],
+        "channel_description": "Welcome! I’m Alison. I’m passionate about teaching yoga that evolves with you. If you're a woman over 40, I'm here to help you feel strong and at home in your body. With over 20 years of experience and thousands of students, I offer yoga-inspired practices that are grounded in science, infused with strength, and nervous system aware. \n\nMy teachings blend the wisdom of yoga philosophy with modern neuroscience to help you unlock your body’s full potential. Whether you’re looking to reduce stress, enhance mobility, or increase strength, my practices support healing, empowerment, and balance. Join me and start your journey toward feeling more connected, powerful, and at peace in your body.\n\nFor Business inquiries, please use the contact information below:\n\n📩 Email: alison@alisonstarr.com \n\n🔔 Ready to get on a healing journey? Subscribe for movement and breathwork practices that combine yoga philosophy with modern neuroscience!\nhttps://www.youtube.com/@AlisonSmithStarr/?sub_confirmation=1\n\n",
+        "latest_video_at": "2026-08-04T01:05:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC4kDYRXra7eeiyhQfYukNJQ",
+      "external_id": "UC4kDYRXra7eeiyhQfYukNJQ",
+      "name": "MyVitalC",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC4kDYRXra7eeiyhQfYukNJQ",
+      "discovered_on": "2026-08-04",
+      "score": 62.09,
+      "metrics": {
+        "subscribers": 19900,
+        "total_views": 1906415,
+        "video_count": 1914,
+        "avg_views_per_video": 996.04,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "K05w-TJaWEk",
+            "title": "The 5 Day Diet That Reversed Aging Markers!",
+            "description": "There's a 5-day protocol with actual human trial data showing reductions in biological age, inflammation, and cardiovascular risk!",
+            "published_at": "2026-08-04T12:02:19Z",
+            "url": "https://www.youtube.com/watch?v=K05w-TJaWEk"
+          }
+        ],
+        "channel_description": "You deserve a happier, fuller life, filled with Wellness, and MyVitalC is here to help. \n\nOur ESS60 supplement is backed by science to promote longevity, boost energy, and enhance mental clarity. \n\nWe make cutting-edge, well-researched supplements available and easily incorporated into your daily routine. \n\nJoin the thousands who trust MyVitalC to optimize their well-being and live beyond the norms. \n\n\n",
+        "latest_video_at": "2026-08-04T12:02:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCGAIxVBrft7wO-GBiY0uLvg",
+      "external_id": "UCGAIxVBrft7wO-GBiY0uLvg",
+      "name": "Baka'z Mann",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCGAIxVBrft7wO-GBiY0uLvg",
+      "discovered_on": "2026-08-04",
+      "score": 57.92,
+      "metrics": {
+        "subscribers": 2720,
+        "total_views": 1618791,
+        "video_count": 682,
+        "avg_views_per_video": 2373.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "vHXcD72v_8U",
+            "title": "The Playground Lab – Episode 7: NAD+ #nadplus #peptideresearch #peptides ",
+            "description": "The Playground Lab – Episode 7: NAD+ | The Molecule That Powers Your Cells What if the key to energy, healthy aging, and ...",
+            "published_at": "2026-08-04T00:00:26Z",
+            "url": "https://www.youtube.com/watch?v=vHXcD72v_8U"
+          }
+        ],
+        "channel_description": "Hey what's up?! I am Baka'z Mann and welcome to my fitness entertainment channel. Here videos will include workout, health benifits, workout tips, fitness tip,..ETC. Please don't forget to sub to my music channel Slaughda Radio LLC!",
+        "latest_video_at": "2026-08-04T00:00:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCjFdnoNCqAChxEwaMXfmTNQ",
+      "external_id": "UCjFdnoNCqAChxEwaMXfmTNQ",
+      "name": "Dr. Shel Wellness & Aesthetic Center",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCjFdnoNCqAChxEwaMXfmTNQ",
+      "discovered_on": "2026-08-04",
+      "score": 57.12,
+      "metrics": {
+        "subscribers": 3080,
+        "total_views": 757003,
+        "video_count": 548,
+        "avg_views_per_video": 1381.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "TPRpArDU7fA",
+            "title": "What&#39;s REALLY Working in Wellness Right Now (Hormones, Peptides &amp; Gut Health) | Dr. Shel",
+            "description": "Let's talk about what's actually working in wellness right now — not the hype, the science. I'm Dr. Shel, board-certified physician ...",
+            "published_at": "2026-08-03T17:03:00Z",
+            "url": "https://www.youtube.com/watch?v=TPRpArDU7fA"
+          }
+        ],
+        "channel_description": "Practicing and empowering both women and men alike, Dr. Shelena C. Lalji, founder of Dr.Shel Wellness & Aesthetic Center, has served the greater Houston area for over 20 years.",
+        "latest_video_at": "2026-08-03T17:03:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCub63uK_purgdDvrPKxey8A",
+      "external_id": "UCub63uK_purgdDvrPKxey8A",
+      "name": "beauty_look_channel",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCub63uK_purgdDvrPKxey8A",
+      "discovered_on": "2026-08-04",
+      "score": 56.95,
+      "metrics": {
+        "subscribers": 5440,
+        "total_views": 1757354,
+        "video_count": 485,
+        "avg_views_per_video": 3623.41,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "fPzj4duUIV4",
+            "title": "Признавайтесь, чей краш из колоды выпал?🤭",
+            "description": "Биохакеры давно поняли одну вещь: предотвратить проблему гораздо проще и дешевле, чем потом ее исправлять✓ Это ...",
+            "published_at": "2026-07-30T16:02:21Z",
+            "url": "https://www.youtube.com/watch?v=fPzj4duUIV4"
+          }
+        ],
+        "channel_description": "Уход за кожей, лайфхаки, разборы косметики, секреты косметологии.",
+        "latest_video_at": "2026-07-30T16:02:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCk9s-ro3HvDXvFF2MhZpJPg",
+      "external_id": "UCk9s-ro3HvDXvFF2MhZpJPg",
+      "name": "KNEKT Television Network",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCk9s-ro3HvDXvFF2MhZpJPg",
+      "discovered_on": "2026-08-04",
+      "score": 55.7,
+      "metrics": {
+        "subscribers": 3350,
+        "total_views": 837069,
+        "video_count": 1315,
+        "avg_views_per_video": 636.55,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "lVHdoEhW5J4",
+            "title": "Unlock Ultimate Wellness and Beauty with Peptides #shorts",
+            "description": "Discover the power of glutathione and GHK copper peptides for a healthy, beautiful life. Learn how cutting-edge technology ...",
+            "published_at": "2026-08-03T23:00:27Z",
+            "url": "https://www.youtube.com/watch?v=lVHdoEhW5J4"
+          }
+        ],
+        "channel_description": "This is a small sample of content created by KNEKT TV - For all of our shows and to find links to our Apple TV, Roku, iOS and Android apps, visit www.KNEKT.tv \n\nKNEKT is Los Angeles based company focused on producing live and pre-recorded HD broadcasts from world class events, concerts, performances, charity galas, fundraisers and red carpet shows, as well as developing and producing film and TV shows. \n\nOur clients & partners range from top charting recording artists to Fortune 500 Companies and charities. We provide cutting edge HD live broadcasting services as well as non-broadcast recorded content, feature film and television production. Audiences on single projects range from small corporate stakeholders to millions of fans on a world wide stage.\n \nWe partner with agencies, brands and event producers to create the next level of fully integrated branded entertainment content, on premise activations, and in-video stream advertising during our live and pre-recorded television events.",
+        "latest_video_at": "2026-08-03T23:00:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoDzAJSoqJ1XxhX3JeGPqzQ",
+      "external_id": "UCoDzAJSoqJ1XxhX3JeGPqzQ",
+      "name": "Mimi4shrt71",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCoDzAJSoqJ1XxhX3JeGPqzQ",
+      "discovered_on": "2026-08-04",
+      "score": 54.81,
+      "metrics": {
+        "subscribers": 2360,
+        "total_views": 637581,
+        "video_count": 924,
+        "avg_views_per_video": 690.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "PbHczbSlh9Q",
+            "title": "✨💖 Beauty Starts from Within! Give your daily routine a boost with Obvi Multi Collagen Peptides",
+            "description": "Beauty Starts from Within! Give your daily routine a boost with Obvi Multi Collagen Peptides Powder! This unflavored formula ...",
+            "published_at": "2026-08-04T04:52:15Z",
+            "url": "https://www.youtube.com/watch?v=PbHczbSlh9Q"
+          }
+        ],
+        "channel_description": "Welcome to the official YouTube channel of Myia Higgins — Funeral Director, Insurance Agency Owner, and real-life storyteller from Chicago.\n\nHere, we blend real-world insight, authenticity, and a touch of humor while navigating everything from life’s most serious moments to everyday situations we all face.\n✨ What You’ll Find on This Channel:\n• Real funeral home stories & education\n• Insurance tips that actually make sense\n• Day-in-the-life content from the mortuary & agency\n• Chicago lifestyle + behind-the-scenes moments\n• Motivational and business-building gems\n• Skits, memes, and relatable content that keeps it real\n• AI-enhanced storytelling, mini-movies & creative reels\n",
+        "latest_video_at": "2026-08-04T04:52:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCXa6UPiIRwNJQOTkAz5qnvQ",
+      "external_id": "UCXa6UPiIRwNJQOTkAz5qnvQ",
+      "name": "The Men Talking Mindfulness Podcast",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCXa6UPiIRwNJQOTkAz5qnvQ",
+      "discovered_on": "2026-08-04",
+      "score": 54.51,
+      "metrics": {
+        "subscribers": 7270,
+        "total_views": 204607,
+        "video_count": 1652,
+        "avg_views_per_video": 123.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "nDtaaOx-gkg",
+            "title": "The Truth About Peptides (Most People Get This Wrong)",
+            "description": "Peptides are everywhere right now. Some people call them the future of medicine. Others think they're just another wellness trend.",
+            "published_at": "2026-08-03T13:32:19Z",
+            "url": "https://www.youtube.com/watch?v=nDtaaOx-gkg"
+          }
+        ],
+        "channel_description": "Men Talking Mindfulness (MTM), hosted by retired Navy SEAL Commander Jon Macaskill and renowned NYC based yoga instructor and Stanford University Ambassador of Compassion, Will Schneider, is dedicated to empowering men to embrace their true selves with bravery and authenticity. Our mission is to guide them on a journey of continual learning, developing self-love, and meaningful living. We work to inspire men to lead lives that they can look back on with pride and to create legacies that align with their deepest values. We are committed to cultivating a space where vulnerability is strength, being yourself is the norm, and where every man can unleash their potential to live a life of exceptional impact and fulfillment.\n",
+        "latest_video_at": "2026-08-03T13:32:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC2n6QTxGpnM4QH574duHytg",
+      "external_id": "UC2n6QTxGpnM4QH574duHytg",
+      "name": "Trainer June",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC2n6QTxGpnM4QH574duHytg",
+      "discovered_on": "2026-08-04",
+      "score": 54.43,
+      "metrics": {
+        "subscribers": 2450,
+        "total_views": 973938,
+        "video_count": 1773,
+        "avg_views_per_video": 549.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "wDOMSOIypgM",
+            "title": "Ball Squeeze Hold for 60+ #trainerjune",
+            "description": "Swiss Ball Squeeze Hold for Adults 60+ Lie on your back with a Swiss ball between your knees or lower legs. Gently squeeze the ...",
+            "published_at": "2026-08-04T11:53:17Z",
+            "url": "https://www.youtube.com/watch?v=wDOMSOIypgM"
+          }
+        ],
+        "channel_description": "This channel focuses on teaching proper form for faster results. Good form is crucial in exercise to prevent injuries and achieve desired outcomes. \nHi there! I'm June, a fitness trainer, wellness coach, and nutrition advisor. I specialize in helping people over the age of 50 live healthy and active lives. I have a passion for helping people manage chronic pain through low-impact exercise, and I am also experienced in pre-surgery and post-rehab strength training. I also design personal programs for weight loss. Everyone deserves to live a healthy and fulfilling life, regardless of their age or ability. I am committed to helping my clients reach their fitness goals and improve their overall health and well-being. If you are looking for a fitness trainer, please don't hesitate to contact me. I would be happy to answer any questions you have and schedule a consultation. \nVisit: www.TrainerJune.com ",
+        "latest_video_at": "2026-08-04T11:53:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:22dc0be0a91b8eb572e3",
+      "external_id": "22dc0be0a91b8eb572e3",
+      "name": "keshavs",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/RH8LGLC6GpLYo48sW/attackers-can-subliminally-implant-a-backdoor-at-low-sample",
+      "discovered_on": "2026-08-04",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Attackers Can Subliminally Implant a Backdoor at Low Sample Count Without Prompt Access"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:44e6d21be07088e21521",
+      "external_id": "44e6d21be07088e21521",
+      "name": "Tim H",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/3dFYQu4ifG5ZsjjZm/what-if-people-value-their-work-mattering",
+      "discovered_on": "2026-08-04",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "What if people value their work mattering?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a522ae8898ba9d7f0bed",
+      "external_id": "a522ae8898ba9d7f0bed",
+      "name": "Ratnaditya J",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/guFTgkKeg9xtPfZe4/when-should-we-trust-a-latent-representation",
+      "discovered_on": "2026-08-04",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "When should we trust a latent representation?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:f2b172a3ee74d6a0455e",
       "external_id": "f2b172a3ee74d6a0455e",
