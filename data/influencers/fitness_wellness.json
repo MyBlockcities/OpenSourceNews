@@ -2,19 +2,737 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-04T12:22:16Z",
+  "updated_at": "2026-08-05T12:20:15Z",
   "new_this_run": 20,
-  "total_influencers": 713,
+  "total_influencers": 733,
   "run_summary": {
-    "run_started_at": "2026-08-04T12:21:57Z",
-    "candidate_count": 48,
-    "existing_count": 693,
+    "run_started_at": "2026-08-05T12:19:53Z",
+    "candidate_count": 46,
+    "existing_count": 713,
     "selected_new_count": 20,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCyO3D-BNdYbg2zD4z-i0h5g",
+      "external_id": "UCyO3D-BNdYbg2zD4z-i0h5g",
+      "name": "FabFitFun",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCyO3D-BNdYbg2zD4z-i0h5g",
+      "discovered_on": "2026-08-05",
+      "score": 70.88,
+      "metrics": {
+        "subscribers": 56800,
+        "total_views": 19528564,
+        "video_count": 1479,
+        "avg_views_per_video": 13203.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "f6zZ0Cjy5NE",
+            "title": "☕ FALL SPOILER ☕ BLOOM",
+            "description": "FALL SPOILER ☕ We love a @bloomsupps Fall Box option! Snag this unflavored Colostrum & Collagen Peptides in ...",
+            "published_at": "2026-08-04T15:48:10Z",
+            "url": "https://www.youtube.com/watch?v=f6zZ0Cjy5NE"
+          }
+        ],
+        "channel_description": "We bring nice things to nice people at nice prices. We think that's nice.\nBecome a member of the FabFitFun shopping club today at www.fabfitfun.com.",
+        "latest_video_at": "2026-08-04T15:48:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCMKP8n1dUg-b84lfpb0mfdA",
+      "external_id": "UCMKP8n1dUg-b84lfpb0mfdA",
+      "name": "CBS6 Albany",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCMKP8n1dUg-b84lfpb0mfdA",
+      "discovered_on": "2026-08-05",
+      "score": 68.98,
+      "metrics": {
+        "subscribers": 81000,
+        "total_views": 71627253,
+        "video_count": 21483,
+        "avg_views_per_video": 3334.14,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "FLIhma06k1E",
+            "title": "PEPTIDES: Are peptides worth using? Fitness supplement trend taking over social media",
+            "description": "As peptides grow in popularity as wellness and medical treatments, the FDA is weighing whether some of the compounds should ...",
+            "published_at": "2026-08-04T16:47:50Z",
+            "url": "https://www.youtube.com/watch?v=FLIhma06k1E"
+          }
+        ],
+        "channel_description": "CBS6 Albany brings you reports from the Capital Region and beyond.",
+        "latest_video_at": "2026-08-04T16:47:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCeLjEcSMnWjvfDyOw7zsE_g",
+      "external_id": "UCeLjEcSMnWjvfDyOw7zsE_g",
+      "name": "Brian Delmonico",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCeLjEcSMnWjvfDyOw7zsE_g",
+      "discovered_on": "2026-08-05",
+      "score": 65.93,
+      "metrics": {
+        "subscribers": 16600,
+        "total_views": 2608894,
+        "video_count": 346,
+        "avg_views_per_video": 7540.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "bzBaSpZ82qQ",
+            "title": "53, this flow changed my joint pain. #functionalfitness #workoutathome #mobilitymatters #over40women",
+            "description": "comment “START” if you're ready for my beginners program. If these movemens felt awkward, tight, or hard… that's exactly why ...",
+            "published_at": "2026-08-04T22:15:16Z",
+            "url": "https://www.youtube.com/watch?v=bzBaSpZ82qQ"
+          }
+        ],
+        "channel_description": "Short & Effective Mobility Workouts \n52 🔥 Moving Better Than Ever\n30+ Yr Movement Specialist\nAll American Big Ten Champion \n⬇️ Beginner + Full Program Series\n",
+        "latest_video_at": "2026-08-04T22:15:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC2g2ewnFHkHcQW_92lqZfRA",
+      "external_id": "UC2g2ewnFHkHcQW_92lqZfRA",
+      "name": "Sugii",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC2g2ewnFHkHcQW_92lqZfRA",
+      "discovered_on": "2026-08-05",
+      "score": 65.03,
+      "metrics": {
+        "subscribers": 9250,
+        "total_views": 7676441,
+        "video_count": 678,
+        "avg_views_per_video": 11322.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "8MHJ2xP7m_Q",
+            "title": "FuNcTioNaL TrAining 💪🏼",
+            "description": "",
+            "published_at": "2026-08-05T08:00:08Z",
+            "url": "https://www.youtube.com/watch?v=8MHJ2xP7m_Q"
+          }
+        ],
+        "channel_description": "Helping men to build their dream physiques and master their mindset \n\nBook a call with me below ⬇️\n",
+        "latest_video_at": "2026-08-05T08:00:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1ybalztjVTy5HVYj-puS0Q",
+      "external_id": "UC1ybalztjVTy5HVYj-puS0Q",
+      "name": "KBFIT2.0",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC1ybalztjVTy5HVYj-puS0Q",
+      "discovered_on": "2026-08-05",
+      "score": 64.94,
+      "metrics": {
+        "subscribers": 5690,
+        "total_views": 3894118,
+        "video_count": 1817,
+        "avg_views_per_video": 2143.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/kbfit2.0",
+        "tiktok": "https://www.tiktok.com/@kbfitonline20"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "h5kHD8kwBtU",
+            "title": "Full Body Functional #fitness #workout #shorts #athomeworkout #motivation",
+            "description": "KBFIT2.0 is dedicated to changing lives, one workout at a time. Need a Trainer? As a Certified Corrective Exercise Specialist with ...",
+            "published_at": "2026-08-05T00:07:56Z",
+            "url": "https://www.youtube.com/watch?v=h5kHD8kwBtU"
+          }
+        ],
+        "channel_description": "KBFIT2.0 is dedicated to changing lives, one workout at a time. \n\nWhether you're just starting to get in shape or you're an experienced athlete, if you're here, you're in the right place to take your fitness to the next level. \n\nPart of this upgrade includes the belief that with proper strategies, techniques, and guidance it is very possible, at any age or fitness level, to exercise, and ultimately live, without pain. \n\nNeed a Trainer? As a Certified Corrective Exercise Specialist with a focus on body anatomy and mechanics, I am confident that I can help you reach your goals: strength, fitness, physique, pain reduction, weight loss, endurance, flexibility, etc.\n\nContact me to set up an online training program:\n\nEmail: KBFITonline2.0@gmail.com\nFacebook Group: KBFIT2.0 Community https://www.facebook.com/groups/238728623915489/\nInstagram: https://www.instagram.com/kbfit2.0/?hl=en\nTikTok: https://www.tiktok.com/@kbfitonline20 \nPatreon: https://www.patreon.com/join/KBFITOnline\n\n",
+        "latest_video_at": "2026-08-05T00:07:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCl5yJGp9H7FTT3UASqHBZLQ",
+      "external_id": "UCl5yJGp9H7FTT3UASqHBZLQ",
+      "name": "Eric Ten Brink",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCl5yJGp9H7FTT3UASqHBZLQ",
+      "discovered_on": "2026-08-05",
+      "score": 62.17,
+      "metrics": {
+        "subscribers": 4220,
+        "total_views": 7550116,
+        "video_count": 831,
+        "avg_views_per_video": 9085.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "YB-ANPswj4s",
+            "title": "Train functional or be lacking 🫡#functionalfitness #strengthtraining #trending #shorts #viral",
+            "description": "",
+            "published_at": "2026-08-04T23:41:49Z",
+            "url": "https://www.youtube.com/watch?v=YB-ANPswj4s"
+          }
+        ],
+        "channel_description": "A chill dude who loves fitness, family & faith🤙🏽\n\n\n",
+        "latest_video_at": "2026-08-04T23:41:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCnts6ByykdTPsi9zRzinkyQ",
+      "external_id": "UCnts6ByykdTPsi9zRzinkyQ",
+      "name": "The Aesthetic Yogi",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCnts6ByykdTPsi9zRzinkyQ",
+      "discovered_on": "2026-08-05",
+      "score": 61.22,
+      "metrics": {
+        "subscribers": 4260,
+        "total_views": 989980,
+        "video_count": 171,
+        "avg_views_per_video": 5789.36,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "6XIz1pOh3gU",
+            "title": "Your Wrists Aren&#39;t Weak. mobility #calisthenics #bodycontrol #functionalfitness",
+            "description": "Your wrists aren't weak. They're just underused. Years of typing, scrolling, and avoiding pressure reduce the strength and ...",
+            "published_at": "2026-08-05T01:30:26Z",
+            "url": "https://www.youtube.com/watch?v=6XIz1pOh3gU"
+          }
+        ],
+        "channel_description": "The Aesthetic Yogi\n\nHelping people move better through yoga & mobility.\n\nYoga, flexibility, mobility, and calisthenics for a stronger and more capable body.\n\nSimple routines. Better movement. Stronger body.\n\nBusiness:\ntheaestheticyogi@gmail.com\n\n",
+        "latest_video_at": "2026-08-05T01:30:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCwFqWqvL2_15m905YcANF2A",
+      "external_id": "UCwFqWqvL2_15m905YcANF2A",
+      "name": "Dr Adeel Khan & Eterna Health ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCwFqWqvL2_15m905YcANF2A",
+      "discovered_on": "2026-08-05",
+      "score": 59.3,
+      "metrics": {
+        "subscribers": 6520,
+        "total_views": 874515,
+        "video_count": 664,
+        "avg_views_per_video": 1317.04,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "AG4lFi-rid0",
+            "title": "This August in Cabo The Full Regenerative Protocol, In One Trip #shorts",
+            "description": "Starting August 13th, our team will be in Los Cabos. Mexico gives us regulatory flexibility that Canada and the US don't always ...",
+            "published_at": "2026-08-04T20:14:12Z",
+            "url": "https://www.youtube.com/watch?v=AG4lFi-rid0"
+          }
+        ],
+        "channel_description": "Welcome to the official YouTube channel of Dr, Adeel Khan and Eterna Health, your premier destination for cutting-edge regenerative medicine, wellness, and anti-aging solutions. Here, you'll find expert insights, educational content, and the latest advancements in health and wellness designed to help you live your best life at any age. Our channel features in-depth discussions with leading medical professionals, behind-the-scenes looks at innovative treatments, and practical tips for maintaining optimal health and vitality. Whether you're interested in our advanced skincare line, cutting-edge therapies, or holistic wellness strategies, Eterna Health is here to guide you on your journey to a longer, healthier, and more vibrant life. Subscribe now and join our community dedicated to pushing the boundaries of what's possible in health and longevity.",
+        "latest_video_at": "2026-08-04T20:14:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCgzmEvl_uk8ntkMZ5Hyb0Ww",
+      "external_id": "UCgzmEvl_uk8ntkMZ5Hyb0Ww",
+      "name": "Vishal \"Asli Taaqat 100\" 🔥 ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCgzmEvl_uk8ntkMZ5Hyb0Ww",
+      "discovered_on": "2026-08-05",
+      "score": 57.12,
+      "metrics": {
+        "subscribers": 2060,
+        "total_views": 946131,
+        "video_count": 391,
+        "avg_views_per_video": 2419.77,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "uMcy4ZiliIY",
+            "title": "🔥 20-Minute Full Upper Body Workout at Home 💪 | Build Bigger Chest, Shoulders, Arms &amp; Back | No Gym",
+            "description": "Build a stronger, wider, and more powerful upper body with this 20-minute home workout. This routine targets your chest, ...",
+            "published_at": "2026-08-05T08:51:03Z",
+            "url": "https://www.youtube.com/watch?v=uMcy4ZiliIY"
+          }
+        ],
+        "channel_description": "🔥 VISHAL ASLI TAAQAT 🔥\nयह चैनल कमजोर दिल वालों के लिए नहीं है।\nयहाँ सिर्फ वही टिकेगा जो मेहनत से प्यार करता है।\nना जिम की भीड़…\nना महंगे सप्लीमेंट…\nना दिखावा…\nयहाँ बनेगी असली ताकत — देसी तरीके से, पसीने से, जुनून से।\nअगर आप भीड़ में चलने वालों में से नहीं, बल्कि भीड़ से अलग दिखने वालों में से हो…\nअगर आप बहाने नहीं, रिजल्ट चाहते हो…\nतो यह चैनल आपके लिए है।\nयहाँ मिलेगा:\n⚡ बिना जिम बॉडी बनाने का तरीका\n⚡ देसी डाइट से पावर\n⚡ घर पर तगड़ा वर्कआउट\n⚡ रियल लाइफ मोटिवेशन\nयाद रखो —\nशरीर तभी बदलता है जब दिमाग बदलता है।\nऔर यहाँ हम दोनों बदलते हैं।\nआज से बहाने खत्म।\nआज से मेहनत शुरू।\nसब्सक्राइब करो और अपनी असली ताकत दुनिया को दिखाओ।\n💪 कमजोरी को ताकत में बदलना ही असली पहचान है।",
+        "latest_video_at": "2026-08-05T08:51:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC8bZP1VjKHQeAM7oh0f9CBg",
+      "external_id": "UC8bZP1VjKHQeAM7oh0f9CBg",
+      "name": "Mike Godsom",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC8bZP1VjKHQeAM7oh0f9CBg",
+      "discovered_on": "2026-08-05",
+      "score": 53.67,
+      "metrics": {
+        "subscribers": 4550,
+        "total_views": 6323,
+        "video_count": 39,
+        "avg_views_per_video": 162.13,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "yOjZ6T7UlLs",
+            "title": "BRYAN JOHNSON y la busqueda de la INMORTALIDAD",
+            "description": "Un hombre se despierta antes de las 7 am, se toma 30 pastillas y duerme como un bebé. Todo para no morir. Hoy hablamos de ...",
+            "published_at": "2026-08-05T03:32:52Z",
+            "url": "https://www.youtube.com/watch?v=yOjZ6T7UlLs"
+          }
+        ],
+        "channel_description": "Un programa de radio diario (lunes a jueves) que no resuelve dudas: las crea. Cada episodio arranca con una ráfaga de preguntas sin responder, desmonta una creencia popular con hallazgos de investigadores, universidades e instituciones reconocidas —nunca blogs ni coaches— y cierra sin conclusión, dejando la pregunta abierta a propósito. En el camino, un glosario de las palabras y frases mamonas que se van a escuchar: anglicismos y términos técnicos explicados en su idioma original con su traducción. Ciencia, psicología, cultura y comportamiento humano, tratados con rigor pero sin solemnidad.",
+        "latest_video_at": "2026-08-05T03:32:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:92835307a5aaab47ef09",
+      "external_id": "92835307a5aaab47ef09",
+      "name": "Bryce Robertson",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/events/4qh5GjtSTchhkAdyT/aisafety-com-hackathon-2026",
+      "discovered_on": "2026-08-05",
+      "score": 32.0,
+      "metrics": {
+        "posts_seen_in_fetch": 2,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "AISafety.com Hackathon 2026",
+          "See all upcoming AI safety events and training programs"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:782cd9419e46bc623c38",
+      "external_id": "782cd9419e46bc623c38",
+      "name": "hazemh",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/NQuSNaWYsmepwpa8h/help-re-start-ai-safety-at-upenn",
+      "discovered_on": "2026-08-05",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/prof_g"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Help (re)start AI Safety at UPenn!"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:579e1b95956e268196d0",
+      "external_id": "579e1b95956e268196d0",
+      "name": "Vaughn Papenhausen",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/hc4DbmhdzZpSLMQ9Y/the-ai-race-is-not-a-prisoner-s-dilemma",
+      "discovered_on": "2026-08-05",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/i"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The AI Race is Not a Prisoner's Dilemma"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ae0b9f7a3cf0ade2198d",
+      "external_id": "ae0b9f7a3cf0ade2198d",
+      "name": "unruly abstractions",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/HooBYPCkMDGjktcLA/persona-corruption-and-role-miscasting-in-emergent",
+      "discovered_on": "2026-08-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Persona Corruption and Role Miscasting in Emergent Misalignment"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b0da589e2a43c67a9408",
+      "external_id": "b0da589e2a43c67a9408",
+      "name": "philh",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/HPSHtrJtgPNaTdjxH/the-goalposts-are-shrouded-not-moving",
+      "discovered_on": "2026-08-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The goalposts are shrouded, not moving"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:fa296b70d67204beea4c",
+      "external_id": "fa296b70d67204beea4c",
+      "name": "Peter Salisbury, Wolf-Christian Paes, Henry Thompson",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/iran/how-axis-resistance-recovered",
+      "discovered_on": "2026-08-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "How the Axis of Resistance Recovered"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4c7e1782b5d103e8a97e",
+      "external_id": "4c7e1782b5d103e8a97e",
+      "name": "Lori Wallach",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/right-way-balance-trade",
+      "discovered_on": "2026-08-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Right Way to Balance Trade"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:476cd118312a457f4b72",
+      "external_id": "476cd118312a457f4b72",
+      "name": "Hal Brands",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/americas-superintelligence-dilemma",
+      "discovered_on": "2026-08-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "America’s Superintelligence Dilemma"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e9747fef5716301cb083",
+      "external_id": "e9747fef5716301cb083",
+      "name": "Eugene Gholz, Kerby Davis",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/taiwan/war-china-might-choose",
+      "discovered_on": "2026-08-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The War China Might Choose"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:3c7cbc792a91f2c6a4a4",
+      "external_id": "3c7cbc792a91f2c6a4a4",
+      "name": "David Abecassis",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/gS25z45RjFmvFc3Hp/warning-shots-for-ai-existential-risk-will-society-answer",
+      "discovered_on": "2026-08-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Warning Shots for AI Existential Risk: Will society answer the wake-up calls it receives?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCnvgU5_xbAvRa6TEJiMfOZQ",
       "external_id": "UCnvgU5_xbAvRa6TEJiMfOZQ",

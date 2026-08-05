@@ -2,19 +2,589 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-04T12:22:13Z",
-  "new_this_run": 10,
-  "total_influencers": 10,
+  "updated_at": "2026-08-05T12:20:11Z",
+  "new_this_run": 12,
+  "total_influencers": 22,
   "run_summary": {
-    "run_started_at": "2026-08-04T12:21:57Z",
-    "candidate_count": 10,
-    "existing_count": 0,
-    "selected_new_count": 10,
+    "run_started_at": "2026-08-05T12:19:53Z",
+    "candidate_count": 14,
+    "existing_count": 10,
+    "selected_new_count": 12,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC918R-DfuIJD85QqHzSit_A",
+      "external_id": "UC918R-DfuIJD85QqHzSit_A",
+      "name": "The Better Living PA ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC918R-DfuIJD85QqHzSit_A",
+      "discovered_on": "2026-08-05",
+      "score": 66.98,
+      "metrics": {
+        "subscribers": 8760,
+        "total_views": 1563267,
+        "video_count": 521,
+        "avg_views_per_video": 3000.51,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@thebetterlivingPA"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "L0x6AVh4sLc",
+            "title": "Laura&#39;s GLP1 Journey- Beyond the Scale: Life-Changing IBS Treatment",
+            "description": "Today, I'm talking with Laura about her incredible GLP-1 journey. Seven months ago, Laura's IBS symptoms were affecting her ...",
+            "published_at": "2026-08-04T17:06:07Z",
+            "url": "https://www.youtube.com/watch?v=L0x6AVh4sLc"
+          }
+        ],
+        "channel_description": "Welcome to The Better Living PA! I’m Tiffany – a dedicated healthcare provider, GLP-1 advocate, and passionate supporter of real, sustainable weight loss. Here, I break down complex medical topics, making them honest, accessible, and empowering for you. Whether you're navigating a GLP-1 journey, tackling food addiction, or simply aiming to improve your health, you’ve come to the right place. \n\nI provide science-backed advice on GLP-1 medications, metabolic health, weight loss, and overall wellness, to offer clarity amidst the noise of misinformation. Stay tuned for expert insights, real education, and empowering tips to help you live a healthier, more informed life.\n\n🔔 Hit subscribe & don't miss out on expert insights on GLP-1 medications, sustainable weight loss, and health tips that empower your wellness journey!\nhttps://www.youtube.com/@thebetterlivingPA?sub_confirmation=1\n\n",
+        "latest_video_at": "2026-08-04T17:06:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCXqy-e9DBYh8sXM-9lIicEA",
+      "external_id": "UCXqy-e9DBYh8sXM-9lIicEA",
+      "name": "Abud Bakri",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCXqy-e9DBYh8sXM-9lIicEA",
+      "discovered_on": "2026-08-05",
+      "score": 66.75,
+      "metrics": {
+        "subscribers": 6020,
+        "total_views": 1649072,
+        "video_count": 144,
+        "avg_views_per_video": 11451.89,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "uedL5ytUlCA",
+            "title": "BPC-157 Has No Established Safety Data",
+            "description": "For a lot of newer compounds, nobody has published where the line to real danger sits. No LD50 data means no safety margin ...",
+            "published_at": "2026-08-05T02:30:10Z",
+            "url": "https://www.youtube.com/watch?v=uedL5ytUlCA"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "PSeOf6bSVtY",
+            "title": "Is a Trendy Peptide Dulling People&#39;s Adderall?",
+            "description": "Someone on both Adderall and BPC-157 reported the stimulant suddenly stopped working. One plausible explanation is ...",
+            "published_at": "2026-08-04T20:30:25Z",
+            "url": "https://www.youtube.com/watch?v=PSeOf6bSVtY"
+          }
+        ],
+        "channel_description": "Hey my name is Abud Bakri",
+        "latest_video_at": "2026-08-05T02:30:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCzkT88QXXfAyOlNyRuQYEvg",
+      "external_id": "UCzkT88QXXfAyOlNyRuQYEvg",
+      "name": "Spencerdthatsme",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCzkT88QXXfAyOlNyRuQYEvg",
+      "discovered_on": "2026-08-05",
+      "score": 66.43,
+      "metrics": {
+        "subscribers": 4500,
+        "total_views": 1786260,
+        "video_count": 759,
+        "avg_views_per_video": 2353.44,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "lTDqnhMe5jw",
+            "title": "BPC-157: My Go-To Peptide for Recovery and Longevity in Bodybuilding⬅️",
+            "description": "BPC-157: My Go-To Peptide for Recovery and Longevity in Bodybuilding⬅️ I talk about BPC-157, a peptide I've used for years ...",
+            "published_at": "2026-08-05T03:04:36Z",
+            "url": "https://www.youtube.com/watch?v=lTDqnhMe5jw"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "lTDqnhMe5jw",
+            "title": "BPC-157: My Go-To Peptide for Recovery and Longevity in Bodybuilding⬅️",
+            "description": "BPC-157: My Go-To Peptide for Recovery and Longevity in Bodybuilding⬅️ I talk about BPC-157, a peptide I've used for years ...",
+            "published_at": "2026-08-05T03:04:36Z",
+            "url": "https://www.youtube.com/watch?v=lTDqnhMe5jw"
+          }
+        ],
+        "channel_description": "Bodybuilding, Vlogs, Travel & Fitness/Gym tips ",
+        "latest_video_at": "2026-08-05T03:04:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCfsLSTnAV0RZHWM5rb-Ch7Q",
+      "external_id": "UCfsLSTnAV0RZHWM5rb-Ch7Q",
+      "name": "Darryl Evanetich ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCfsLSTnAV0RZHWM5rb-Ch7Q",
+      "discovered_on": "2026-08-05",
+      "score": 66.25,
+      "metrics": {
+        "subscribers": 4630,
+        "total_views": 272140,
+        "video_count": 131,
+        "avg_views_per_video": 2077.4,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "KF0TusLNHaY",
+            "title": "The BPC-157 + TB-500 Recovery Stack",
+            "description": "The reason guys stack BPC-157 and TB-500 is simple: they want to train hard again. Not because they love peptides. Because ...",
+            "published_at": "2026-08-04T16:02:49Z",
+            "url": "https://www.youtube.com/watch?v=KF0TusLNHaY"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "KF0TusLNHaY",
+            "title": "The BPC-157 + TB-500 Recovery Stack",
+            "description": "The reason guys stack BPC-157 and TB-500 is simple: they want to train hard again. Not because they love peptides. Because ...",
+            "published_at": "2026-08-04T16:02:49Z",
+            "url": "https://www.youtube.com/watch?v=KF0TusLNHaY"
+          }
+        ],
+        "channel_description": "Learn how to improve your energy, focus, and hormonal health with a proven, evidence-based system. Built for men who want to feel and perform at their best—without guesswork.",
+        "latest_video_at": "2026-08-04T16:02:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCqH8jNoOoFmMv3NncD-U-Pw",
+      "external_id": "UCqH8jNoOoFmMv3NncD-U-Pw",
+      "name": "The Peptide Advantage ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCqH8jNoOoFmMv3NncD-U-Pw",
+      "discovered_on": "2026-08-05",
+      "score": 64.36,
+      "metrics": {
+        "subscribers": 5410,
+        "total_views": 638707,
+        "video_count": 364,
+        "avg_views_per_video": 1754.69,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/channel/UCqH8jNoOoFmMv3NncD-U-Pw"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "a_H_R31Vry0",
+            "title": "Lepto 3GR!  The Future of GLP&#39;s Revealed",
+            "description": "The GLP-1 era changed metabolic medicine—but it may only be the beginning. In this video, I break down why researchers are ...",
+            "published_at": "2026-08-04T23:06:47Z",
+            "url": "https://www.youtube.com/watch?v=a_H_R31Vry0"
+          }
+        ],
+        "channel_description": "Welcome to The Peptide Advantage – Your #1 Resource for Peptides & Longevity Hacks\n\nCheck out the quick links: https://linktr.ee/thelongevityadvantage\n\nAt The Peptide Advantage, we break down cutting-edge science into simple, actionable protocols — from GLP-1s like Retatrutide to growth hormone boosters like CJC-1295/Ipamorelin, and healing peptides like BPC-157 and TB-500.\n\nWe cover it all:\n✅ Fat loss & body recomposition\n✅ Muscle growth & strength stacking\n✅ Energy, libido, and hormone optimization\n✅ Injury recovery & joint healing\n\nSubscribe for real-world dosing guides, advanced stacks, and honest breakdowns that empower you to be your own health advocate.\n\n🎯 New videos every week — Shorts, deep dives, and expert protocols.\n🎁 EXCLUSIVE OFFER:\nGet FREE coaching with your peptide order from BiolongevityLabs.com when you use code LONGEVITY at checkout.\n\nYouTube: https://www.youtube.com/channel/UCqH8jNoOoFmMv3NncD-U-Pw?sub_confirmation=1\n",
+        "latest_video_at": "2026-08-04T23:06:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC3quottUuZW90j8YA0eMw5Q",
+      "external_id": "UC3quottUuZW90j8YA0eMw5Q",
+      "name": "PeptideAtoZ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC3quottUuZW90j8YA0eMw5Q",
+      "discovered_on": "2026-08-05",
+      "score": 63.13,
+      "metrics": {
+        "subscribers": 7270,
+        "total_views": 309606,
+        "video_count": 47,
+        "avg_views_per_video": 6587.36,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "kljhpI_tsdA",
+            "title": "Peptides for Pets: Fact vs. Fiction",
+            "description": "Are peptides safe for dogs and cats? What actually works—and what's just marketing? In this video, we separate fact from fiction ...",
+            "published_at": "2026-08-05T00:11:29Z",
+            "url": "https://www.youtube.com/watch?v=kljhpI_tsdA"
+          }
+        ],
+        "channel_description": "Peptide A to Z is the internet's most honest, research-backed source for peptide science, longevity, and anti-aging education.\n\nEvery week we break down the peptides everyone is talking about — Epithalon, GHK-Cu, BPC-157, TB-500, Ipamorelin, MOTS-c, Semax, SS-31, Humanin, Retatrutide, Klotho, and more — in plain language anyone can understand.\nNo hype. No miracle claims. No gatekeeping. Just clear science-backed education on one of the fastest-growing areas of biology and health.\n\nWhether you just heard the word \"peptide\" for the first time or you've been researching for years — this channel is built for you.\n\nWe cover:\n→ What peptides are and how they work\n→ Deep dives on longevity, healing, and anti-aging peptides\n→ What the science actually shows — and what it doesn't\n→ The future of longevity medicine and why it matters\n\n📥 Free Guide → peptideatoz.com/free-guide\n🧬 Community → peptideatoz.com/community\n\nNew videos every week. Subscribe.\n\nResearch. Education. Longevity.\n",
+        "latest_video_at": "2026-08-05T00:11:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCs04V2t5t1FyYSlD6BYjxtQ",
+      "external_id": "UCs04V2t5t1FyYSlD6BYjxtQ",
+      "name": "Robert Todd Hurst, MD, FACC, FASE - HealthspanMD",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCs04V2t5t1FyYSlD6BYjxtQ",
+      "discovered_on": "2026-08-05",
+      "score": 62.73,
+      "metrics": {
+        "subscribers": 10300,
+        "total_views": 1507448,
+        "video_count": 447,
+        "avg_views_per_video": 3372.37,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "ab1t4_RXpis",
+            "title": "GLP-1 Agonists &amp; Peptides: Powerful Tools or Risky Business?",
+            "description": "This clip explores the growing role of GLP-1 agonists and peptides in modern health and metabolic care. While these compounds ...",
+            "published_at": "2026-08-04T18:00:04Z",
+            "url": "https://www.youtube.com/watch?v=ab1t4_RXpis"
+          }
+        ],
+        "channel_description": "Robert Todd Hurst, MD, FACC, FASE is a Preventive Cardiologist and founder of HealthspanMD, a medical practice focused on reversing heart disease and preventing heart attacks.\n\nDr. Hurst is a pioneer in proactive cardiovascular care, emphasizing advanced diagnostics, early detection, and precision treatment to stop heart disease before it becomes life threatening. His mission is simple: no one should die of a heart attack.\n\nSubscribe to follow the Healthspan Podcast, featuring solo episodes from Dr. Hurst along with conversations with leading experts in longevity, cardiovascular prevention, and cutting edge medical science.\n\nThis channel also includes educational videos and clips from Dr. Hurst and the HealthspanMD team focused on helping people live longer, healthier lives.\n\nTo learn more about becoming a patient at HealthspanMD, visit\nHealthspanMD.com\n\n",
+        "latest_video_at": "2026-08-04T18:00:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC-LVcVqLW4-JzUkz0YlL5kg",
+      "external_id": "UC-LVcVqLW4-JzUkz0YlL5kg",
+      "name": "Hack You Media",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC-LVcVqLW4-JzUkz0YlL5kg",
+      "discovered_on": "2026-08-05",
+      "score": 59.46,
+      "metrics": {
+        "subscribers": 5000,
+        "total_views": 471983,
+        "video_count": 229,
+        "avg_views_per_video": 2061.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "51VJH3t_Tu0",
+            "title": "The &quot;Peptide King&quot;: The Right Protocol For Fat Loss, Muscle &amp; Aesthetics (+ Mistakes to Avoid)",
+            "description": "Anthony Castore knows peptides better than almost anyone alive, but stacking them without the right foundation nearly killed him.",
+            "published_at": "2026-08-04T13:47:58Z",
+            "url": "https://www.youtube.com/watch?v=51VJH3t_Tu0"
+          }
+        ],
+        "channel_description": "Co-hosted by Mike Thurston and Vadim Fedotov, Hack You is a space for real conversations with world-class experts on what you can do to optimise your health and performance.",
+        "latest_video_at": "2026-08-04T13:47:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCtHnn_FX8K6-99c0qiHWrVg",
+      "external_id": "UCtHnn_FX8K6-99c0qiHWrVg",
+      "name": "Patrick Denard, MD",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCtHnn_FX8K6-99c0qiHWrVg",
+      "discovered_on": "2026-08-05",
+      "score": 58.21,
+      "metrics": {
+        "subscribers": 2200,
+        "total_views": 638373,
+        "video_count": 175,
+        "avg_views_per_video": 3647.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "MqhB3sW_Z5g",
+            "title": "BPC-157: A Shoulder Surgeon&#39;s Honest Take",
+            "description": "BPC-157 is generating massive interest in the recovery and sports medicine world — but almost no board-certified surgeons are ...",
+            "published_at": "2026-08-05T11:45:30Z",
+            "url": "https://www.youtube.com/watch?v=MqhB3sW_Z5g"
+          }
+        ],
+        "channel_description": "Rotator cuff tears. Shoulder replacements. Shoulder pain that won't go away. If you're trying to understand your diagnosis, decide whether you need surgery, or recover faster — you're in the right place.\n\nI'm Dr. Patrick Denard, Expert-scape ranked #2 in North America for rotator cuff repair and #17 globally for shoulder replacement. I've performed over 10,000 shoulder surgeries at the Oregon Shoulder Institute in Medford, Oregon.\n\nThis channel covers:\n→ Rotator cuff tears — who needs surgery and how to recover\n→ Shoulder replacement — anatomic, reverse, and same-day discharge\n→ Shoulder arthritis, instability, and labrum injuries\n→ Rehab and exercises after shoulder surgery\n\nNot sure if you need surgery? Send me your MRI for a remote review — I'll evaluate it personally:\nhttps://www.oregonshoulder.com/product/mrireview\n\nReady to talk to a specialist? Request a virtual consultation: https://www.oregonshoulder.com/request-an-appointment\n\nwww.oregonshoulder.com\n541-608-2595\n\n",
+        "latest_video_at": "2026-08-05T11:45:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCEW6d1i7WUb5JgkzQEk5zEw",
+      "external_id": "UCEW6d1i7WUb5JgkzQEk5zEw",
+      "name": "darknessofthetwilightmoon",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCEW6d1i7WUb5JgkzQEk5zEw",
+      "discovered_on": "2026-08-05",
+      "score": 58.08,
+      "metrics": {
+        "subscribers": 8270,
+        "total_views": 309938,
+        "video_count": 576,
+        "avg_views_per_video": 538.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "TFaUO9buZ-s",
+            "title": "I compared the pro-collagen peptide treatment, eye serum, and lip care and saw a real glow after",
+            "description": "I compared the pro-collagen peptide treatment, eye serum, and lip care and saw a real glow after days on the road. Hydration ...",
+            "published_at": "2026-08-04T23:51:00Z",
+            "url": "https://www.youtube.com/watch?v=TFaUO9buZ-s"
+          }
+        ],
+        "channel_description": "Welcome to Darkness of the Twilightmoon ☕🌙\n\nWe’re a small business dedicated to gourmet coffee, loose leaf tea, and cozy coffee-inspired merchandise. Here you’ll find everything from rich, aromatic coffee blends to brewing tips, coffee facts, recipes, and cozy lifestyle inspiration you can enjoy at home.\n\nWhether you’re a casual coffee drinker or a true coffee enthusiast, this channel is your place to learn, sip, and unwind.\n☕ New videos for coffee lovers\n⬇️ Shop our favorites & explore below",
+        "latest_video_at": "2026-08-04T23:51:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC-t5XaeOAj-CTzc_9SfwOOA",
+      "external_id": "UC-t5XaeOAj-CTzc_9SfwOOA",
+      "name": "infosudest",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC-t5XaeOAj-CTzc_9SfwOOA",
+      "discovered_on": "2026-08-05",
+      "score": 57.55,
+      "metrics": {
+        "subscribers": 2860,
+        "total_views": 924577,
+        "video_count": 495,
+        "avg_views_per_video": 1867.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "4AmsQwxwXt4",
+            "title": "Peptidele nereglementate promovate drept ”soluții-minune”",
+            "description": "Peptidele promovate intens pe social media sunt prezentate ca soluții-minune, însă multe dintre ele nu sunt aprobate pentru ...",
+            "published_at": "2026-08-04T15:00:17Z",
+            "url": "https://www.youtube.com/watch?v=4AmsQwxwXt4"
+          }
+        ],
+        "channel_description": "Află de la noi! \n\nInfo Sud-Est (ISE) este o publicație independentă de presă locală, axată pe analize, reportaje și investigații. \n\nDe-a lungul timpului, a derulat campanii jurnalistice cu impact în comunitate și a dezvoltat proiecte dedicate patrimoniului cultural și jurnalismului de investigație. \n",
+        "latest_video_at": "2026-08-04T15:00:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC21rcBFo6jirZ1JgA2ebvkA",
+      "external_id": "UC21rcBFo6jirZ1JgA2ebvkA",
+      "name": "Top Doctor Magazine ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC21rcBFo6jirZ1JgA2ebvkA",
+      "discovered_on": "2026-08-05",
+      "score": 53.55,
+      "metrics": {
+        "subscribers": 6250,
+        "total_views": 4601,
+        "video_count": 47,
+        "avg_views_per_video": 97.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "DcseHAC0Bmo",
+            "title": "Four Peptides the Research Actually Supports",
+            "description": "Four Peptides the Research Actually Supports The conversation around peptides in oncology has shifted considerably in recent ...",
+            "published_at": "2026-08-04T17:05:33Z",
+            "url": "https://www.youtube.com/watch?v=DcseHAC0Bmo"
+          }
+        ],
+        "channel_description": "🩺 The latest in medicine\n🧬 Health • Wellness • Longevity\n🎙️ Featuring leading physicians\n👇 See the latest",
+        "latest_video_at": "2026-08-04T17:05:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCv6qPYuiMS1lyWSny3eqhIQ",
       "external_id": "UCv6qPYuiMS1lyWSny3eqhIQ",
