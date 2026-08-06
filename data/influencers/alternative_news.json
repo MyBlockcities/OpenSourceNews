@@ -2,19 +2,578 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-05T12:20:02Z",
-  "new_this_run": 18,
-  "total_influencers": 38,
+  "updated_at": "2026-08-06T12:22:13Z",
+  "new_this_run": 13,
+  "total_influencers": 51,
   "run_summary": {
-    "run_started_at": "2026-08-05T12:19:53Z",
-    "candidate_count": 24,
-    "existing_count": 20,
-    "selected_new_count": 18,
+    "run_started_at": "2026-08-06T12:22:04Z",
+    "candidate_count": 22,
+    "existing_count": 38,
+    "selected_new_count": 13,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCC9ujS6Df0LzSuImKhiO-Bw",
+      "external_id": "UCC9ujS6Df0LzSuImKhiO-Bw",
+      "name": "Andrés Ortiz",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCC9ujS6Df0LzSuImKhiO-Bw",
+      "discovered_on": "2026-08-06",
+      "score": 73.59,
+      "metrics": {
+        "subscribers": 46500,
+        "total_views": 11237223,
+        "video_count": 185,
+        "avg_views_per_video": 60741.75,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "fiQpnKv8BrI",
+            "title": "¿CENSURA? Gobierno de México aplicará REGLAS a medios | #noticias #viral",
+            "description": "La presidenta comentó que hay muchos espacios de comunicación que mienten, por lo que establecerán nuevas reglas para ...",
+            "published_at": "2026-08-05T13:15:20Z",
+            "url": "https://www.youtube.com/watch?v=fiQpnKv8BrI"
+          }
+        ],
+        "channel_description": "Conductor y editor de TV | Creador de contenido digital",
+        "latest_video_at": "2026-08-05T13:15:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCajPfXohuBQr_jpRNIJBQ4w",
+      "external_id": "UCajPfXohuBQr_jpRNIJBQ4w",
+      "name": "POSTAmx",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCajPfXohuBQr_jpRNIJBQ4w",
+      "discovered_on": "2026-08-06",
+      "score": 67.15,
+      "metrics": {
+        "subscribers": 55800,
+        "total_views": 29782750,
+        "video_count": 12277,
+        "avg_views_per_video": 2425.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "04ChDc-lTZ8",
+            "title": "Los censurados de ayer son los censores de hoy | Azucena Uresti para POSTA",
+            "description": "Ayer denunciaban censura; hoy son señalados de censurar. La libertad de expresión no depende de un partido político, sino de ...",
+            "published_at": "2026-08-05T21:52:41Z",
+            "url": "https://www.youtube.com/watch?v=04ChDc-lTZ8"
+          }
+        ],
+        "channel_description": "¡Bienvenidos a POSTAmx! Aquí encontrarás desde entretenimiento, deportes, viajes, política, podcast y mucho más.\n\n",
+        "latest_video_at": "2026-08-05T21:52:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC04kdw8N1mZU-6kdnBgh9Hg",
+      "external_id": "UC04kdw8N1mZU-6kdnBgh9Hg",
+      "name": "The Kacee Allen Show",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC04kdw8N1mZU-6kdnBgh9Hg",
+      "discovered_on": "2026-08-06",
+      "score": 66.92,
+      "metrics": {
+        "subscribers": 14900,
+        "total_views": 22831341,
+        "video_count": 1647,
+        "avg_views_per_video": 13862.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "4ozogxqZPfc",
+            "title": "Doug Chico says He Has a Framework for A Digital Bill Of Rights. #Censorship #BillofRights #News",
+            "description": "",
+            "published_at": "2026-08-06T01:08:30Z",
+            "url": "https://www.youtube.com/watch?v=4ozogxqZPfc"
+          }
+        ],
+        "channel_description": "The Kacee Allen Show is an American Independent Podcast Hosted by Kacee Allen on YouTube Since March 2023.\n\nThe show discusses Trending News, Geopolitics, Culture, and more. Featuring Exclusive Guests, Breakdowns, Livestreams, Debates, and Documentaries.\n\nTheKaceeAllenShow@gmail.com for collaborations and sponsorships 📤",
+        "latest_video_at": "2026-08-06T01:08:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCc09wbkVr2gZnXuWsZL4QJw",
+      "external_id": "UCc09wbkVr2gZnXuWsZL4QJw",
+      "name": "Yo Influyo",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCc09wbkVr2gZnXuWsZL4QJw",
+      "discovered_on": "2026-08-06",
+      "score": 66.52,
+      "metrics": {
+        "subscribers": 25800,
+        "total_views": 29970697,
+        "video_count": 5624,
+        "avg_views_per_video": 5329.07,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "BkvHIzpaSkA",
+            "title": "¿Quién verifica a quien verifica? Nueva censura disfrazada de verdad en México #fypシ #mexico #news",
+            "description": "El gobierno quiere ser guardián de la verdad. Pero ¿quién verifica al verificador? Analizamos la nueva ley de censura mexicana ...",
+            "published_at": "2026-08-05T20:49:47Z",
+            "url": "https://www.youtube.com/watch?v=BkvHIzpaSkA"
+          }
+        ],
+        "channel_description": "Somos una revista electrónica que promueve la participación solidaria y subsidiaria de la sociedad",
+        "latest_video_at": "2026-08-05T20:49:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC-J_uDJHIxE_JGOnMC87tEg",
+      "external_id": "UC-J_uDJHIxE_JGOnMC87tEg",
+      "name": "Toolszu ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC-J_uDJHIxE_JGOnMC87tEg",
+      "discovered_on": "2026-08-06",
+      "score": 64.51,
+      "metrics": {
+        "subscribers": 2780,
+        "total_views": 1626760,
+        "video_count": 34,
+        "avg_views_per_video": 47845.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "1JxxnnzDjsk",
+            "title": "Best Linktree Alternative | Create a Free Link in Bio Page Online",
+            "description": "Create a professional Link in Bio page for free and share all your important links in one place. Perfect for Instagram, TikTok, ...",
+            "published_at": "2026-08-05T14:00:26Z",
+            "url": "https://www.youtube.com/watch?v=1JxxnnzDjsk"
+          }
+        ],
+        "channel_description": "Toolszu is a powerful online platform offering 1000+ premium tools — completely free. From PDF and image converters to SEO tools, generators, and more, everything you need is in one place.\nSimplify your workflow and get things done faster with Toolszu.\n\n📩 Enquiries: support@toolszu.com\n",
+        "latest_video_at": "2026-08-05T14:00:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCtHdLL2vrejUpIRAwmjJeAQ",
+      "external_id": "UCtHdLL2vrejUpIRAwmjJeAQ",
+      "name": "The War Index",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCtHdLL2vrejUpIRAwmjJeAQ",
+      "discovered_on": "2026-08-06",
+      "score": 63.17,
+      "metrics": {
+        "subscribers": 4040,
+        "total_views": 14192377,
+        "video_count": 586,
+        "avg_views_per_video": 24219.07,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "-802AXnhxNo",
+            "title": "Britain&#39;s Worst Ship Disaster Was Censored and Never Properly Announced #short #history #ww2",
+            "description": "Bombed off the French coast while evacuating troops and civilians after Dunkirk, she sank in about 20 minutes. Estimates of the ...",
+            "published_at": "2026-08-05T12:21:50Z",
+            "url": "https://www.youtube.com/watch?v=-802AXnhxNo"
+          }
+        ],
+        "channel_description": "Welcome to The War Index, your definitive visual index for military history.\n\nWe specialize in creating comprehensive, no-nonsense catalogs of the hardware that defined global conflicts. Our mission is to move beyond the famous highlights and build a complete video encyclopedia of military assets.\n\nWe cover everything from front-line combat vehicles and experimental weapon prototypes to the crucial, often-overlooked world of logistics trucks and standard-issue infantry gear.\n\nIf you are a modeler, a gamer looking for reference material, or a student of history who wants the complete picture without the fluff, subscribe and join the archive.\n\n\n",
+        "latest_video_at": "2026-08-05T12:21:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqes1J64F2Dxzw-Q7CCJ5-A",
+      "external_id": "UCqes1J64F2Dxzw-Q7CCJ5-A",
+      "name": "Cerebral Asset",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCqes1J64F2Dxzw-Q7CCJ5-A",
+      "discovered_on": "2026-08-06",
+      "score": 61.94,
+      "metrics": {
+        "subscribers": 4180,
+        "total_views": 12587179,
+        "video_count": 1517,
+        "avg_views_per_video": 8297.42,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "rXIuU2dkbjo",
+            "title": "Is independent journalism impossible in Gaza? The debate heats up.",
+            "description": "The struggle for objective reporting in conflict zones remains a flashpoint of contention. This segment examines the intense friction ...",
+            "published_at": "2026-08-05T18:00:33Z",
+            "url": "https://www.youtube.com/watch?v=rXIuU2dkbjo"
+          }
+        ],
+        "channel_description": "Welcome to Cerebral Asset where intellectuals share their lifetime stories to educate and inspire our cognitive prowess. Feel free to join our community and share your genius ideas.",
+        "latest_video_at": "2026-08-05T18:00:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCUmVJND9mWeBDRlg4adjkTw",
+      "external_id": "UCUmVJND9mWeBDRlg4adjkTw",
+      "name": "El Diario de Juarez",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCUmVJND9mWeBDRlg4adjkTw",
+      "discovered_on": "2026-08-06",
+      "score": 59.34,
+      "metrics": {
+        "subscribers": 3950,
+        "total_views": 1780716,
+        "video_count": 658,
+        "avg_views_per_video": 2706.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "UsafSiUA5Qo",
+            "title": "Protestan partidos vs ‘Ley censura’",
+            "description": "PAN, PRI y MC la califican como una medida regresiva y autoritaria.",
+            "published_at": "2026-08-05T20:03:40Z",
+            "url": "https://www.youtube.com/watch?v=UsafSiUA5Qo"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-05T20:03:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRpJIJUvOAXE3tqopn8CH5A",
+      "external_id": "UCRpJIJUvOAXE3tqopn8CH5A",
+      "name": "Camarada Ro",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCRpJIJUvOAXE3tqopn8CH5A",
+      "discovered_on": "2026-08-06",
+      "score": 56.44,
+      "metrics": {
+        "subscribers": 2790,
+        "total_views": 52010,
+        "video_count": 45,
+        "avg_views_per_video": 1155.78,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "gSj-3rPvpis",
+            "title": "Los reporteros y medios independientes protegen al ciudadano de la desinformación",
+            "description": "",
+            "published_at": "2026-08-06T01:00:10Z",
+            "url": "https://www.youtube.com/watch?v=gSj-3rPvpis"
+          }
+        ],
+        "channel_description": "Reacciones y opiniones personales sobre los sucesos más importantes de México o los temas del momento.\n\n\n\n📱REDES SOCIALES📱\nhttps://linktr.ee/Camarada_Ro\n\n\n",
+        "latest_video_at": "2026-08-06T01:00:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC2wOfgFEVLyeKLlPNl-zgIg",
+      "external_id": "UC2wOfgFEVLyeKLlPNl-zgIg",
+      "name": "The Red Ensign",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC2wOfgFEVLyeKLlPNl-zgIg",
+      "discovered_on": "2026-08-06",
+      "score": 56.26,
+      "metrics": {
+        "subscribers": 2590,
+        "total_views": 140427,
+        "video_count": 119,
+        "avg_views_per_video": 1180.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "KYv6sAsP4s4",
+            "title": "The Taming of Social Media - The Harvest is Past Part III",
+            "description": "In the third installement of the series “The Harvest is Past”, we look at how the Canadian Ruling Class got a handle on social ...",
+            "published_at": "2026-08-05T14:19:30Z",
+            "url": "https://www.youtube.com/watch?v=KYv6sAsP4s4"
+          }
+        ],
+        "channel_description": "Welcome to The Red Ensign; a publication dedicated to highlighting the achievements, and advancing the future of the Anglo-Canadian people. This Substack is the production of a small team of Canadians dedicated to preserving a posterity for future generations of Canadians, and to ensuring that the memory of achievements of our fathers is kept in honour. The Red Ensign was the flag of Canada from Confederation until 1965 and is a symbol of our people, all that has made them great, and all that could be again.",
+        "latest_video_at": "2026-08-05T14:19:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UChIuhkkpvko96tBYzRU9pyQ",
+      "external_id": "UChIuhkkpvko96tBYzRU9pyQ",
+      "name": "Express 24-7",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UChIuhkkpvko96tBYzRU9pyQ",
+      "discovered_on": "2026-08-06",
+      "score": 54.96,
+      "metrics": {
+        "subscribers": 4740,
+        "total_views": 1074114,
+        "video_count": 3859,
+        "avg_views_per_video": 278.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "-6eHcketHYU",
+            "title": "Former Delhi CM Arvind Kejriwal Accuses Meta Of Censoring Account In India | Express247",
+            "description": "Former Delhi CM Arvind Kejriwal Accuses Meta Of Censoring Account In India | Express247 Former Delhi Chief Minister and Aam ...",
+            "published_at": "2026-08-06T11:01:33Z",
+            "url": "https://www.youtube.com/watch?v=-6eHcketHYU"
+          }
+        ],
+        "channel_description": "Express 24/7 is Pakistan’s definitive English-language news platform, engineered for a global audience that demands precision over noise. We deliver real-time reporting, rigorous analysis, and a sophisticated perspective on Pakistan’s political, economic, and social landscape. From the power centers of Islamabad to the global stage, we bridge the gap between local complexity and international clarity. Unbiased. Analytical. Always on.",
+        "latest_video_at": "2026-08-06T11:01:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCE_o0t02mZ67Q6M4zqetbKg",
+      "external_id": "UCE_o0t02mZ67Q6M4zqetbKg",
+      "name": "The No Cap Press",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCE_o0t02mZ67Q6M4zqetbKg",
+      "discovered_on": "2026-08-06",
+      "score": 54.44,
+      "metrics": {
+        "subscribers": 4560,
+        "total_views": 1771230,
+        "video_count": 4827,
+        "avg_views_per_video": 366.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "woSROts25KA",
+            "title": "The New Censorship: How Governments Try to Control Protests in the Digital Age | CJP Protests",
+            "description": "As the Cockroach Janta party protests in Delhi escalated following police brutality against students, the state executed a digital ...",
+            "published_at": "2026-08-05T06:30:37Z",
+            "url": "https://www.youtube.com/watch?v=woSROts25KA"
+          }
+        ],
+        "channel_description": "The world is always in transition, just that incumbently that transition is fast and visible. At The No Cap Press we breakdown the complex, read between lines as nation states reassess & recalibrate their ties with each other. How does a geopolitical event impacts us the citizen; this question remains at the core of our editorial approach.\n#geopolitics #news #foreignpolicy \n\nThe No Cap Press® is a trademark owned by Core Media Group, a company registered in the United Kingdom.\n\n\nCORE MEDIA GROUP LTD\n6 North Parade\nBath\nBath And North East Somerset\nBA1 1LF\nUnited Kingdom\n\n",
+        "latest_video_at": "2026-08-05T06:30:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZiH3iGqk-auDqh4duRkjQA",
+      "external_id": "UCZiH3iGqk-auDqh4duRkjQA",
+      "name": "efecto noticias",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCZiH3iGqk-auDqh4duRkjQA",
+      "discovered_on": "2026-08-06",
+      "score": 53.63,
+      "metrics": {
+        "subscribers": 2610,
+        "total_views": 2884361,
+        "video_count": 5233,
+        "avg_views_per_video": 551.19,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "BzvT1FWqd6g",
+            "title": "NO HAY CENSURA; EL DERECHO DE LAS AUDIENCIAS ES UN PRINCIPIO CONSTITUCIONAL: PDTA CLAUDIA SHEINBAUM",
+            "description": "NO HAY CENSURA; EL DERECHO DE LAS AUDIENCIAS ES UN PRINCIPIO CONSTITUCIONAL: PRESIDENTA CLAUDIA ...",
+            "published_at": "2026-08-05T07:39:20Z",
+            "url": "https://www.youtube.com/watch?v=BzvT1FWqd6g"
+          }
+        ],
+        "channel_description": "La información que necesitas",
+        "latest_video_at": "2026-08-05T07:39:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC-ukVAxXLGfKQZdymFOHD7Q",
       "external_id": "UC-ukVAxXLGfKQZdymFOHD7Q",

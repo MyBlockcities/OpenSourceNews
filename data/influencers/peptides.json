@@ -2,19 +2,523 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-05T12:20:11Z",
-  "new_this_run": 12,
-  "total_influencers": 22,
+  "updated_at": "2026-08-06T12:22:22Z",
+  "new_this_run": 11,
+  "total_influencers": 33,
   "run_summary": {
-    "run_started_at": "2026-08-05T12:19:53Z",
-    "candidate_count": 14,
-    "existing_count": 10,
-    "selected_new_count": 12,
+    "run_started_at": "2026-08-06T12:22:04Z",
+    "candidate_count": 13,
+    "existing_count": 22,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC-IwcJPYNhUopC6M0VsURGw",
+      "external_id": "UC-IwcJPYNhUopC6M0VsURGw",
+      "name": "The Journey Podcast",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC-IwcJPYNhUopC6M0VsURGw",
+      "discovered_on": "2026-08-06",
+      "score": 71.12,
+      "metrics": {
+        "subscribers": 83300,
+        "total_views": 17501960,
+        "video_count": 2032,
+        "avg_views_per_video": 8613.17,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "xaxBOsrMqi4",
+            "title": "Experience with GLP-1’s #glp1 #peptides",
+            "description": "",
+            "published_at": "2026-08-05T22:00:33Z",
+            "url": "https://www.youtube.com/watch?v=xaxBOsrMqi4"
+          }
+        ],
+        "channel_description": "Welcome to The Journey Podcast hosted by Zachary Cummings and John Scafiddi Jr where we explore the various aspects of personal development, self-improvement, mental health, and pursuing your dreams. Join us as we embark on a journey of self-discovery, growth, and transformation, and share inspiring stories and insights from individuals who have overcome challenges, faced adversity, and achieved success in their personal and professional lives. Whether you're struggling with mental health issues, seeking to improve your relationships, or looking to pursue your passion, this is the pod for you! ",
+        "latest_video_at": "2026-08-05T22:00:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCDowGnRUIAn5QfPlC-PZNjA",
+      "external_id": "UCDowGnRUIAn5QfPlC-PZNjA",
+      "name": "Empire Medical Training",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCDowGnRUIAn5QfPlC-PZNjA",
+      "discovered_on": "2026-08-06",
+      "score": 68.85,
+      "metrics": {
+        "subscribers": 48100,
+        "total_views": 5881113,
+        "video_count": 902,
+        "avg_views_per_video": 6520.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "yMTF8erfzSM",
+            "title": "The future of aesthetic medicine goes beyond injectables—it&#39;s about optimizing the body from within.",
+            "description": "Join Dr. Cosentino and Dr. Valerie Civelli as they discuss the expanding role of peptide therapies in aesthetic and regenerative ...",
+            "published_at": "2026-08-05T19:34:09Z",
+            "url": "https://www.youtube.com/watch?v=yMTF8erfzSM"
+          }
+        ],
+        "channel_description": "Empire Medical Training is the nation's leading provider of continuing medical education, specializing in Aesthetics, Pain Management, Anti-Aging, and Practice Development. With over 175,000 graduates and 700+ seminars held annually, we deliver hands-on, CME-accredited training in advanced procedures like Botox, dermal fillers, and cutting-edge anti-aging treatments. In addition to clinical expertise, we provide essential business and marketing training to help healthcare professionals grow and scale their practices. Since 1998, we’ve been empowering physicians, nurses, and dentists with the tools and knowledge to succeed in today's competitive medical landscape. Subscribe to our channel for weekly training videos and exclusive insights to transform your practice!\n",
+        "latest_video_at": "2026-08-05T19:34:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCQx2MkYiayaxyi4uhyOOdug",
+      "external_id": "UCQx2MkYiayaxyi4uhyOOdug",
+      "name": "Josh Holyfield",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCQx2MkYiayaxyi4uhyOOdug",
+      "discovered_on": "2026-08-06",
+      "score": 68.58,
+      "metrics": {
+        "subscribers": 65500,
+        "total_views": 7412381,
+        "video_count": 1982,
+        "avg_views_per_video": 3739.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "w1vEnHA6XG4",
+            "title": "Can&#39;t Tolerate GLP-1s? Try This Peptide for Fat Loss",
+            "description": "If GLP-1s make you sick, you still have peptide options for fat loss. Here's what to know about cagrilintide before you try it.",
+            "published_at": "2026-08-05T21:02:06Z",
+            "url": "https://www.youtube.com/watch?v=w1vEnHA6XG4"
+          }
+        ],
+        "channel_description": "Welcome to the official YouTube channel of Josh Holyfield, your destination for reclaiming confidence, health, and purpose.\n\nI created this channel to share the tools, support, and accountability you need to elevate your life. Here, you'll find resources to help you transform physically and mentally, ensuring you become the best version of yourself.\n\nThrough weekly group coaching calls, personalized workout plans, and comprehensive meal plans, I guide men to take the guesswork out of health and fitness. Our custom mobile app tracks your progress, while expert advice ensures you're getting the best support. Join a community of like-minded, high-achieving men who hold each other accountable.\n\nSubscribe for motivational content, expert advice, and actionable strategies. Hit the notification bell so you never miss an update.\n\nTransform your life. Reclaim your confidence. Lead with purpose. Welcome to the Josh Holyfield channel\n",
+        "latest_video_at": "2026-08-05T21:02:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCz-OapwzbMa0f9t2TkGuhcw",
+      "external_id": "UCz-OapwzbMa0f9t2TkGuhcw",
+      "name": "BrainMD Health",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCz-OapwzbMa0f9t2TkGuhcw",
+      "discovered_on": "2026-08-06",
+      "score": 68.37,
+      "metrics": {
+        "subscribers": 43000,
+        "total_views": 2760137,
+        "video_count": 451,
+        "avg_views_per_video": 6120.04,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "bXhmyRcCRnA",
+            "title": "Rating Today’s Biggest Wellness Trends…",
+            "description": "With so much wellness advice online, it's easy to feel like you need to try everything. The truth is, there's no one-size-fits-all ...",
+            "published_at": "2026-08-05T16:00:12Z",
+            "url": "https://www.youtube.com/watch?v=bXhmyRcCRnA"
+          }
+        ],
+        "channel_description": "The Brain Health Company 🧠\nFounded by Dr. Daniel Amen\nBacked by 300,000+ brain scans\nSupplements by the World’s Leading Brain Doctor\n\nOur mission: to educate the world on brain care so everyone can make smarter choices for their health, wellness, and success — starting with you!\n",
+        "latest_video_at": "2026-08-05T16:00:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCzsK6GUbIM2u-6fZtbwduMw",
+      "external_id": "UCzsK6GUbIM2u-6fZtbwduMw",
+      "name": "Dr. Pedro Nunes",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCzsK6GUbIM2u-6fZtbwduMw",
+      "discovered_on": "2026-08-06",
+      "score": 64.7,
+      "metrics": {
+        "subscribers": 2030,
+        "total_views": 274057,
+        "video_count": 85,
+        "avg_views_per_video": 3224.2,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "POEt7ui6VfI",
+            "title": "Tier List de Peptídeos: O Que Realmente Funciona (GLP-1, HGH, BPC-157)",
+            "description": "Entenda a realidade sobre os peptídeos que viralizaram nas redes sociais. Saiba quais realmente funcionam para ganho de ...",
+            "published_at": "2026-08-05T22:30:33Z",
+            "url": "https://www.youtube.com/watch?v=POEt7ui6VfI"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "POEt7ui6VfI",
+            "title": "Tier List de Peptídeos: O Que Realmente Funciona (GLP-1, HGH, BPC-157)",
+            "description": "Entenda a realidade sobre os peptídeos que viralizaram nas redes sociais. Saiba quais realmente funcionam para ganho de ...",
+            "published_at": "2026-08-05T22:30:33Z",
+            "url": "https://www.youtube.com/watch?v=POEt7ui6VfI"
+          }
+        ],
+        "channel_description": "Olá! Eu sou o Dr. Pedro Nunes, médico especializado em reposição hormonal e emagrecimento.\n\nCriei este canal para compartilhar com você tudo o que aprendi ao longo dos anos na prática clínica, ajudando milhares de pacientes a transformarem suas vidas com saúde, equilíbrio hormonal e autoestima.\n\nAqui, você vai encontrar vídeos com dicas, orientações e explicações sobre tratamentos que realmente funcionam — sempre com base científica, linguagem acessível e foco no seu bem-estar.\n\nSe você busca mais energia, qualidade de vida e quer entender como cuidar melhor do seu corpo e da sua mente, este canal é pra você.\n\nSe inscreve, ativa o sininho e vem comigo nessa jornada pela saúde plena!\n",
+        "latest_video_at": "2026-08-05T22:30:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCiyp78-BVQYsIlUgIUjX24A",
+      "external_id": "UCiyp78-BVQYsIlUgIUjX24A",
+      "name": "Calling In Sick",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCiyp78-BVQYsIlUgIUjX24A",
+      "discovered_on": "2026-08-06",
+      "score": 64.65,
+      "metrics": {
+        "subscribers": 19200,
+        "total_views": 4507170,
+        "video_count": 1321,
+        "avg_views_per_video": 3411.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "oyL60inhZa4",
+            "title": "ENDO GIRLIES… stop scrolling 👇 ENDO-205 is a pH-sensitive peptide currently heading into Phase 1",
+            "description": "ENDO GIRLIES… stop scrolling ENDO-205 is a pH-sensitive peptide currently heading into Phase 1 clinical trials for ...",
+            "published_at": "2026-08-05T16:57:31Z",
+            "url": "https://www.youtube.com/watch?v=oyL60inhZa4"
+          }
+        ],
+        "channel_description": "Welcome to the Calling in Sick, hosted by Alex Wildeson and produced by Just Media. On this podcast, Alex shares her unfiltered personal journey battling several autoimmune and chronic conditions including Polyarteritis Nodosa (PAN) Vasculitis, Mixed Connective Tissue Disease (MCTD) / Lupus, Endometriosis, and Complex Regional Pain Syndrome (CRPS). She also provides practical “how-to” guides, explores hot topics, and welcomes other warriors, medical professionals, advocates and creators on the show to shed light on the latest healing modalities, promising treatments, and myth bust popular misconceptions and trendy health hacks. Tune in for some laughs, tears, and growth… but stay for the camaraderie and community. You can engage with Alex and the community through social media @callinginsickpod. We promise, you don’t need a doctor’s note for this one!",
+        "latest_video_at": "2026-08-05T16:57:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCMXHNueK6rUWWcJyynKvsyA",
+      "external_id": "UCMXHNueK6rUWWcJyynKvsyA",
+      "name": "Dr. Hany Demian",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCMXHNueK6rUWWcJyynKvsyA",
+      "discovered_on": "2026-08-06",
+      "score": 64.38,
+      "metrics": {
+        "subscribers": 4300,
+        "total_views": 6469492,
+        "video_count": 264,
+        "avg_views_per_video": 24505.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "jIUkAvncYQU",
+            "title": "Peptides I Actually Use and Believe In",
+            "description": "Not every peptide has the same evidence, purpose or place in medicine. These are several options I use, believe in or continue to ...",
+            "published_at": "2026-08-05T16:57:34Z",
+            "url": "https://www.youtube.com/watch?v=jIUkAvncYQU"
+          }
+        ],
+        "channel_description": "I’m Dr. Hany Demian, a board-certified pain and regenerative medicine physician. I help patients heal with PRP, stem cells and guided injections, and I empower clinicians to bring innovative, evidence-based care into practice. For patients, it’s about getting your life back. For clinicians, it’s about breaking the old playbook and leading with science that works. Subscribe now to rethink medicine and be part of the future of healing.\n\n\n",
+        "latest_video_at": "2026-08-05T16:57:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCmmOQDBu4iyi5hBb1hhkp_g",
+      "external_id": "UCmmOQDBu4iyi5hBb1hhkp_g",
+      "name": "Breno Azevedo Consultoria Online",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCmmOQDBu4iyi5hBb1hhkp_g",
+      "discovered_on": "2026-08-06",
+      "score": 63.13,
+      "metrics": {
+        "subscribers": 12700,
+        "total_views": 968418,
+        "video_count": 321,
+        "avg_views_per_video": 3016.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "XFK5FNW4uF8",
+            "title": "BPC-157 + TB-500: Você Foi Enganado Pelo Wolverine Stack",
+            "description": "Consultoria Online: https://brenoazevedo.com.br/ Instagram: ...",
+            "published_at": "2026-08-05T21:00:37Z",
+            "url": "https://www.youtube.com/watch?v=XFK5FNW4uF8"
+          }
+        ],
+        "channel_description": "Treinador & Consultor Metabólico — Breno Azevedo\n\nAtuo na raiz do problema:\nmetabolismo, resistência à insulina, inflamação e disfunção mitocondrial.\n\nProtocolos individualizados com:\n• Treino estruturado\n• Dieta estratégica\n• Análise de exames\n• Peptídeos & otimização metabólica\n\n📍 Consultoria online:\nhttps://brenoazevedo.com.br/consultoria-yt\n\n📲 Conteúdo diário:\nInstagram: @brenoazevedo347",
+        "latest_video_at": "2026-08-05T21:00:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCnGA04_Hz5fxCmhyHXsXixQ",
+      "external_id": "UCnGA04_Hz5fxCmhyHXsXixQ",
+      "name": "Просто хочу жить ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCnGA04_Hz5fxCmhyHXsXixQ",
+      "discovered_on": "2026-08-06",
+      "score": 60.77,
+      "metrics": {
+        "subscribers": 2250,
+        "total_views": 4225031,
+        "video_count": 368,
+        "avg_views_per_video": 11481.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "m8bqmQqxLL8",
+            "title": "Пептиды гормон роста ТВ-500 отзыв обзор ",
+            "description": "Обзор о пептидах ТВ-500 и другие пептиды , делаю личное испытание на своём организме, делюсь мнением , кто нибудь ...",
+            "published_at": "2026-08-05T14:03:59Z",
+            "url": "https://www.youtube.com/watch?v=m8bqmQqxLL8"
+          }
+        ],
+        "channel_description": "Уважаемый мой друг, приветствую тебя на моём канале , мои видео про будни Сибири ,про спорт ,про питание ,про автомобили, вообще про всё хорошее кроме политики .",
+        "latest_video_at": "2026-08-05T14:03:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCquHJRlh2EE-FguSwibS4Xg",
+      "external_id": "UCquHJRlh2EE-FguSwibS4Xg",
+      "name": "Pump Mafia",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCquHJRlh2EE-FguSwibS4Xg",
+      "discovered_on": "2026-08-06",
+      "score": 59.77,
+      "metrics": {
+        "subscribers": 4140,
+        "total_views": 895978,
+        "video_count": 290,
+        "avg_views_per_video": 3089.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "xWF1R6ioUyE",
+            "title": "GLP-1 Peptide richtig absetzen OHNE Fett zu werden!?",
+            "description": "Glp-1 Peptide richtig absetzen ohne heftigen Rebound und ohne wieder fett zu werden nach deiner Diät. Ich zeige euch, wie ich ...",
+            "published_at": "2026-08-05T15:46:41Z",
+            "url": "https://www.youtube.com/watch?v=xWF1R6ioUyE"
+          }
+        ],
+        "channel_description": "Fitness & Bodybuilding Reactions - roh & ungefiltert\n•Real Talk statt Fitness-Märchen\n•Fake Nattys Exposed – öffentlich & gnadenlos\n•Mythen zerstört – kein Bullshit\n•Beef & Stoff – Klartext über Szene & Substanzen\nWAS BALLERN FITNESS-INFLUENCER ?\n\nNo Fake. No Filter. Just Real Talk.\n",
+        "latest_video_at": "2026-08-05T15:46:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCEodwhDYhGge5Coe8S5eahw",
+      "external_id": "UCEodwhDYhGge5Coe8S5eahw",
+      "name": "PHYSIOGENETIK",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCEodwhDYhGge5Coe8S5eahw",
+      "discovered_on": "2026-08-06",
+      "score": 57.49,
+      "metrics": {
+        "subscribers": 2230,
+        "total_views": 2644098,
+        "video_count": 1027,
+        "avg_views_per_video": 2574.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "DnOsDAREgtg",
+            "title": "#Peptide #Biohacking #Longevity #Fitness #Gesundheit #Retatrutide #MOTSC #GHKCU #BPC157 #Selank",
+            "description": "Peptide für Einsteiger – der einfache Überblick Die Welt der Peptide wächst rasant – und immer mehr Menschen interessieren ...",
+            "published_at": "2026-08-05T17:03:38Z",
+            "url": "https://www.youtube.com/watch?v=DnOsDAREgtg"
+          }
+        ],
+        "channel_description": "Willkommen auf PHYSIOGENETIK! 💪✨\ndeinem Kanal für echte Transformation.\nIch bin Armin Physiotherapeut mit über 25 Jahren Erfahrung und Coach für ganzheitliche Gesundheit, Hormonbalance & Stoffwechsel.\n\n🎯 Mein Ziel: Dir zu zeigen, wie du ohne Diäten, Stress oder Verzicht endlich in deine Kraft kommst – körperlich & mental.\n\nHier findest du Videos zu:\n🧬 Hormonbalance & Stoffwechselregulation\n🥗 nachhaltigem Abnehmen ohne Jo-Jo-Effekt\n💪 Muskelaufbau & funktionelle Bewegung\n😌 Stress, Regeneration & echte Energie\nIch begleite Menschen auf ihrem Weg zurück zu echter Gesundheit.\nWenn du dich müde, frustriert oder festgefahren fühlst.\n\n💻 In meinem 1:1 Online-Coaching unterstütze ich dich ganzheitlich & wissenschaftlich fundiert individuell anpassbar für Anfänger und Fortgeschrittene.\n\n📩 Interesse? Schreib mir einfach über WhatsApp oder INSTA. L!NK zum Coaching findest Du HIER!!\n⬇️⬇️⬇️⬇️\n",
+        "latest_video_at": "2026-08-05T17:03:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UC918R-DfuIJD85QqHzSit_A",
       "external_id": "UC918R-DfuIJD85QqHzSit_A",
