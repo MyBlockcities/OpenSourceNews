@@ -2,19 +2,424 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-06T12:22:22Z",
-  "new_this_run": 11,
-  "total_influencers": 33,
+  "updated_at": "2026-08-07T11:11:54Z",
+  "new_this_run": 8,
+  "total_influencers": 41,
   "run_summary": {
-    "run_started_at": "2026-08-06T12:22:04Z",
-    "candidate_count": 13,
-    "existing_count": 22,
-    "selected_new_count": 11,
+    "run_started_at": "2026-08-07T11:11:36Z",
+    "candidate_count": 14,
+    "existing_count": 33,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC2ShR_aS8W_tMGSXOSVnK4Q",
+      "external_id": "UC2ShR_aS8W_tMGSXOSVnK4Q",
+      "name": "LifeofKamal",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC2ShR_aS8W_tMGSXOSVnK4Q",
+      "discovered_on": "2026-08-07",
+      "score": 79.56,
+      "metrics": {
+        "subscribers": 23200,
+        "total_views": 100539638,
+        "video_count": 518,
+        "avg_views_per_video": 194091.97,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "4BfhAp0lI08",
+            "title": "Peptide Injection | BPC-157 &amp; TB-500 Pen Administration Technique",
+            "description": "Learn the correct BPC 157 dosage and TB500 preparation techniques. This guide shows you how to safely inject your peptides ...",
+            "published_at": "2026-08-07T09:52:58Z",
+            "url": "https://www.youtube.com/watch?v=4BfhAp0lI08"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "4BfhAp0lI08",
+            "title": "Peptide Injection | BPC-157 &amp; TB-500 Pen Administration Technique",
+            "description": "Learn the correct BPC 157 dosage and TB500 preparation techniques. This guide shows you how to safely inject your peptides ...",
+            "published_at": "2026-08-07T09:52:58Z",
+            "url": "https://www.youtube.com/watch?v=4BfhAp0lI08"
+          }
+        ],
+        "channel_description": "@LifeofKamal everywhere else",
+        "latest_video_at": "2026-08-07T09:52:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCn7CbQeoS6Iyh--SvUz5MDQ",
+      "external_id": "UCn7CbQeoS6Iyh--SvUz5MDQ",
+      "name": "JhowRJ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCn7CbQeoS6Iyh--SvUz5MDQ",
+      "discovered_on": "2026-08-07",
+      "score": 77.02,
+      "metrics": {
+        "subscribers": 7750,
+        "total_views": 413464,
+        "video_count": 72,
+        "avg_views_per_video": 5742.56,
+        "matched_queries": 3,
+        "sample_videos": 3
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "QxBVzrLYlaY",
+            "title": "TRATAMENTO PEPTÍDEOS - ÚMERO E RADIAL - TB 500 / BPC 157",
+            "description": "Canal OFICIAL do Jhow!! Me siga nas redes sociais: https://linktr.ee/ojhowrj 🖥️ Faça parte do nosso discord: ...",
+            "published_at": "2026-08-06T21:22:10Z",
+            "url": "https://www.youtube.com/watch?v=QxBVzrLYlaY"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "QxBVzrLYlaY",
+            "title": "TRATAMENTO PEPTÍDEOS - ÚMERO E RADIAL - TB 500 / BPC 157",
+            "description": "Canal OFICIAL do Jhow!! Me siga nas redes sociais: https://linktr.ee/ojhowrj 🖥️ Faça parte do nosso discord: ...",
+            "published_at": "2026-08-06T21:22:10Z",
+            "url": "https://www.youtube.com/watch?v=QxBVzrLYlaY"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "QxBVzrLYlaY",
+            "title": "TRATAMENTO PEPTÍDEOS - ÚMERO E RADIAL - TB 500 / BPC 157",
+            "description": "Canal OFICIAL do Jhow!! Me siga nas redes sociais: https://linktr.ee/ojhowrj 🖥️ Faça parte do nosso discord: ...",
+            "published_at": "2026-08-06T21:22:10Z",
+            "url": "https://www.youtube.com/watch?v=QxBVzrLYlaY"
+          }
+        ],
+        "channel_description": "Vídeo novo toda segunda, quarta e sábado.",
+        "latest_video_at": "2026-08-06T21:22:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCdQtmsrPpstdqkPh7kAZzrg",
+      "external_id": "UCdQtmsrPpstdqkPh7kAZzrg",
+      "name": "Артём Яшин",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCdQtmsrPpstdqkPh7kAZzrg",
+      "discovered_on": "2026-08-07",
+      "score": 70.8,
+      "metrics": {
+        "subscribers": 22900,
+        "total_views": 18342095,
+        "video_count": 404,
+        "avg_views_per_video": 45401.23,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "qVJHRQm6fGg",
+            "title": "Что помогает при воспалении ЖКТ?",
+            "description": "Два пептида для восстановления и снижения воспаления. Видео не является медицинской рекомендацией.",
+            "published_at": "2026-08-06T14:30:17Z",
+            "url": "https://www.youtube.com/watch?v=qVJHRQm6fGg"
+          }
+        ],
+        "channel_description": "Артём Яшин — кандидат биологических наук,  биолог, эксперт в области пептидной биорегуляции и интегративной суплементарной медицины, нутрициолог. Основатель школы Peptide Science Academy. Автор научно-популярного проекта о пептидах, биорегуляции и долголетии.\n\nНа канале — доказательная медицина, механизмы регенерации, питание, стресс, гормоны и всё, что формирует современный взгляд на здоровье и качество жизни.\n\nНомер заявления РКН: №6491746846\n\nМой телеграм-канал с авторскими постами о здоровье: @peptid_boss\nОригинальные БАД и пептидные комплексы Хавинсона — vitual.ru\nКурс о возможностях пептидной биорегуляции в современной медицине — thepeptides.ru\n",
+        "latest_video_at": "2026-08-06T14:30:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCnytxIobBmUuWf1kf8GiX4g",
+      "external_id": "UCnytxIobBmUuWf1kf8GiX4g",
+      "name": "비만주치의, 닥터JM",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCnytxIobBmUuWf1kf8GiX4g",
+      "discovered_on": "2026-08-07",
+      "score": 68.5,
+      "metrics": {
+        "subscribers": 21100,
+        "total_views": 14433863,
+        "video_count": 818,
+        "avg_views_per_video": 17645.31,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "ABUMB3X4-Gk",
+            "title": "삼성바이오로직스가 2.7조 투자한 펩타이드❓마운자로 이후 비만약의 미래 닥터JM이 쉽게 알려드립니다✨",
+            "description": "삼성바이오로직스가 2.7조 투자한 펩타이드❓마운자로 이후 비만약의 미래 닥터JM이 쉽게 알려드립니다✨ #마운자로 #삼성바이오 ...",
+            "published_at": "2026-08-07T09:00:01Z",
+            "url": "https://www.youtube.com/watch?v=ABUMB3X4-Gk"
+          }
+        ],
+        "channel_description": "마운자로 부작용 솔루션 = 다이어트 실패를 가장 잘 이해하는 의사\n\n✅\n본 콘텐츠는 일반적인 건강 정보 제공을 목적으로 하며, 치료·진단·처방을 대체하지 않습니다.\n영상에 소개되는 내용은 Dr. JM의 개인적인 의견으로\n개인의 건강 상태에 따라 모든 분께 동일하게 적용되지 않을 수 있으니 참고용으로만 활용해 주세요.\n만약 특정 질환이 있거나 부작용, 기타 건강 문제가 있으신 경우에는 지체하지 말고\n의료기관을 방문하여 정확한 진료를 받으시고, 증상에 맞는 전문의와 상담하시길 권장드립니다.\n\n✅\n영양제는 개인의 건강 상태, 복용 중인 약, 생활습관 등에 따라 \n필요성이 달라지기 때문에 특정 제품을 추천드리긴 어려워요🥲\n그래서 브랜드나 제품에 대한 개별 추천은 드리지 않고 있으며\n본인에게 꼭 맞는 성분과 용량을 가까운 주치의와 상담 후 복용하시는 걸 권장드립니다.\n\n🔍\n비즈니스 문의\n대표메일: fmdoctorjm@naver.com\n담당자메일: suhyun14@bizmeka.com / ehgns9505@bizmeka.com\n",
+        "latest_video_at": "2026-08-07T09:00:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC2f5hpwiqIFZojRmmPY3dVQ",
+      "external_id": "UC2f5hpwiqIFZojRmmPY3dVQ",
+      "name": "Dr. Mike Hart",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC2f5hpwiqIFZojRmmPY3dVQ",
+      "discovered_on": "2026-08-07",
+      "score": 64.99,
+      "metrics": {
+        "subscribers": 5210,
+        "total_views": 847450,
+        "video_count": 858,
+        "avg_views_per_video": 987.7,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "YT8weUdnyTg",
+            "title": "The Ultimate Peptide Stack for Tendon and Ligament Healing",
+            "description": "BPC-157 and TB-500 get most of the attention, but healing may require more than simply combining popular peptides. Dr. Kyle ...",
+            "published_at": "2026-08-06T16:00:12Z",
+            "url": "https://www.youtube.com/watch?v=YT8weUdnyTg"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "YT8weUdnyTg",
+            "title": "The Ultimate Peptide Stack for Tendon and Ligament Healing",
+            "description": "BPC-157 and TB-500 get most of the attention, but healing may require more than simply combining popular peptides. Dr. Kyle ...",
+            "published_at": "2026-08-06T16:00:12Z",
+            "url": "https://www.youtube.com/watch?v=YT8weUdnyTg"
+          }
+        ],
+        "channel_description": "The Hart2Heart Podcast is hosted by family physician Dr. Michael Hart and is focused on cutting through the noise around health, longevity, and performance.\n\nEach episode explores practical, evidence-based strategies for improving your life, including hormone health, peptides, sleep optimization, nutrition, supplements, exercise, sunlight, psychedelics, and smarter medication use. The goal is simple: help you understand what actually works so you can make better decisions for your health.\n\nThe show also looks at the bigger picture, including how public health policy and politics influence personal well-being, and what you can do to take back control.\n\nIf you want clear, actionable, no-BS conversations about living healthier, performing better, and thinking for yourself, this podcast is for you.\n",
+        "latest_video_at": "2026-08-06T16:00:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCZDXL3qEoTN2N-bbMchwu5A",
+      "external_id": "UCZDXL3qEoTN2N-bbMchwu5A",
+      "name": "Beauty & The Brain® ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCZDXL3qEoTN2N-bbMchwu5A",
+      "discovered_on": "2026-08-07",
+      "score": 61.39,
+      "metrics": {
+        "subscribers": 3210,
+        "total_views": 476735,
+        "video_count": 1292,
+        "avg_views_per_video": 368.99,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "i2FUUL4UWpY",
+            "title": "A Smarter Guide to Peptides for Skin, Weight, and Wellness",
+            "description": "Peptides are everywhere right now but what are they, what can they actually do, and how do you know whether the product you're ...",
+            "published_at": "2026-08-06T21:48:11Z",
+            "url": "https://www.youtube.com/watch?v=i2FUUL4UWpY"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "i2FUUL4UWpY",
+            "title": "A Smarter Guide to Peptides for Skin, Weight, and Wellness",
+            "description": "Peptides are everywhere right now but what are they, what can they actually do, and how do you know whether the product you're ...",
+            "published_at": "2026-08-06T21:48:11Z",
+            "url": "https://www.youtube.com/watch?v=i2FUUL4UWpY"
+          }
+        ],
+        "channel_description": "Leading the way in beauty, health, and wellness\n\nBeauty & The Brain is a podcast that covers all aspects of medical aesthetics, from the latest trends and treatments to ethical dilemmas and industry news. The show features expert guests who provide their perspectives on these topics and share their experiences in the field. Chris & Jerry hope to educate and empower listeners with valuable information about aesthetics and wellness.\n\nListeners can expect lively discussions and debates about controversial topics in medical aesthetics and informative interviews with expert guests. The hosts aim to provide a balanced and nuanced perspective on these issues and to help listeners make informed decisions about their own aesthetic journeys. Whether you're a seasoned beauty enthusiast or starting out, Beauty & The Brain has something for you.\n\nDon't forget to subscribe and leave a review if you enjoy what you hear!\n\nBrought to you by The Youth Booth™\n",
+        "latest_video_at": "2026-08-06T21:48:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCVDLKEfCv2qrwf8q1R-3dKA",
+      "external_id": "UCVDLKEfCv2qrwf8q1R-3dKA",
+      "name": "BODY COACH. Нутрициология. Фитнес. ЛФК. ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCVDLKEfCv2qrwf8q1R-3dKA",
+      "discovered_on": "2026-08-07",
+      "score": 61.17,
+      "metrics": {
+        "subscribers": 11700,
+        "total_views": 1269026,
+        "video_count": 922,
+        "avg_views_per_video": 1376.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "4hhfgyKnnmI",
+            "title": "Семаглутид поможет при РПП?",
+            "description": "«Похудеть на уколах, не чувствуя голода» — звучит как мечта ✨ Агонисты рецепторов ГПП-1 действительно помогают ...",
+            "published_at": "2026-08-06T17:34:16Z",
+            "url": "https://www.youtube.com/watch?v=4hhfgyKnnmI"
+          }
+        ],
+        "channel_description": "Разбираем вопросы питания, фитнеса и психологии. Без мифов — только доказательная база, исследования и практика.\n\n👋Мы Body Coach — образовательная платформа №1 в области нутрициологии и фитнеса. Более 20 000 выпускников за 5 лет. \n\nЗдесь ты найдешь:\n- лекции от практикующих врачей и экспертов\n- ответы на частые вопросы специалистов и разбор ошибок\n- способы улучшить практику и выйти на новый уровень\n\n🔗 Все курсы: https://bodycoach.pro/?rs=smm-youtube_profil_landing_bio_&utm_source=smm&utm_medium=youtube&utm_campaign=academia&\n\nПодписывайся на наш телеграм канал https://telegram.me/bodycoach_school\n\nОбразовательная лицензия: Л035-01218-23/00592537\n\n",
+        "latest_video_at": "2026-08-06T17:34:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC37yMVAa8iFXhTM8A6ej6Fg",
+      "external_id": "UC37yMVAa8iFXhTM8A6ej6Fg",
+      "name": "Stronger Bones Lifestyle",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC37yMVAa8iFXhTM8A6ej6Fg",
+      "discovered_on": "2026-08-07",
+      "score": 58.57,
+      "metrics": {
+        "subscribers": 9380,
+        "total_views": 506588,
+        "video_count": 896,
+        "avg_views_per_video": 565.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "2pYYv0erFP4",
+            "title": "Peptides Explained in 30 Seconds",
+            "description": "What exactly are peptides—and why is everyone talking about them? Dr. Rajka Galbraith offers a simple analogy: Think of a ...",
+            "published_at": "2026-08-06T22:26:19Z",
+            "url": "https://www.youtube.com/watch?v=2pYYv0erFP4"
+          }
+        ],
+        "channel_description": "You are not fragile. Learn how to build stronger bones, move confidently, and age powerfully.\n\nJoin functional bone health expert and yoga therapist Debi Robinson for practical guidance on osteoporosis, osteopenia, bone-building nutrition, strength, balance, mobility, and healthy aging.\n\nNew videos every week featuring expert interviews, movement practices, lifestyle strategies, and real-world solutions to help you stay active, independent, and strong for life.\n",
+        "latest_video_at": "2026-08-06T22:26:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UC-IwcJPYNhUopC6M0VsURGw",
       "external_id": "UC-IwcJPYNhUopC6M0VsURGw",

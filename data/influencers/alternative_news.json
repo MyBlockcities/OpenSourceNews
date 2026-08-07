@@ -2,19 +2,755 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-06T12:22:13Z",
-  "new_this_run": 13,
-  "total_influencers": 51,
+  "updated_at": "2026-08-07T11:11:45Z",
+  "new_this_run": 17,
+  "total_influencers": 68,
   "run_summary": {
-    "run_started_at": "2026-08-06T12:22:04Z",
-    "candidate_count": 22,
-    "existing_count": 38,
-    "selected_new_count": 13,
+    "run_started_at": "2026-08-07T11:11:36Z",
+    "candidate_count": 24,
+    "existing_count": 51,
+    "selected_new_count": 17,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCiHyhxpSBMuOBdq0paJ_6qw",
+      "external_id": "UCiHyhxpSBMuOBdq0paJ_6qw",
+      "name": "Indianews124",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCiHyhxpSBMuOBdq0paJ_6qw",
+      "discovered_on": "2026-08-07",
+      "score": 74.85,
+      "metrics": {
+        "subscribers": 49300,
+        "total_views": 49379312,
+        "video_count": 192,
+        "avg_views_per_video": 257183.92,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "pbVdKY3X7Y4",
+            "title": "Jharkhand Student Protest: Abhinav Pandey Exposes Media Double Standards #JSSC #News",
+            "description": "Jharkhand ke Ranchi me chal rahe student protests se independent journalist Abhinav Pandey (News Pinch) ka ek video social ...",
+            "published_at": "2026-08-07T09:34:43Z",
+            "url": "https://www.youtube.com/watch?v=pbVdKY3X7Y4"
+          }
+        ],
+        "channel_description": "🌍 India se duniya tak — har khabar, seedhi aur saaf.\nBreaking news, big stories, aur woh sab jo matter karta hai — Hindi & English mein.\nSubscribe karo, informed raho. 🔔\n\ncontact: indianews1224@gmail.com",
+        "latest_video_at": "2026-08-07T09:34:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCrApxpW6w4_tziAT6JYVeTQ",
+      "external_id": "UCrApxpW6w4_tziAT6JYVeTQ",
+      "name": "World Defence update",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCrApxpW6w4_tziAT6JYVeTQ",
+      "discovered_on": "2026-08-07",
+      "score": 74.27,
+      "metrics": {
+        "subscribers": 42800,
+        "total_views": 75332772,
+        "video_count": 809,
+        "avg_views_per_video": 93118.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "aQQUXnbzFEA",
+            "title": "Netanyahu Signals Israel&#39;s Independent Position | Iran Update | Middle East News 2026",
+            "description": "This video covers the latest Middle East developments, including Israeli Prime Minister Benjamin Netanyahu's recent statement, ...",
+            "published_at": "2026-08-07T04:03:32Z",
+            "url": "https://www.youtube.com/watch?v=aQQUXnbzFEA"
+          }
+        ],
+        "channel_description": "Welcome to World Defence Update – Your ultimate destination for global military intelligence, strategic defense analysis, and breaking international news! 🔍🎖️\nWe bring you daily updates and high-impact content covering the world's most critical geopolitical shifts, advanced weapon systems, naval warfare, missile technologies, and international conflicts involving global superpowers like the US, Russia, China, and Iran. 🌍🛡️\nWhat We Cover:\n• Military & Defense Tech: Cutting-edge jets, submarines, and missile systems.\n• Geopolitical Analysis: Global security strategies and alliances.\n• Global News Updates: Quick, precise, and verified international reports.\n⚡ New Content Uploaded Daily! Subscribe now to stay informed about the forces shaping our world. 🚀\n.\n.\n🌐 Connect & Follow:\n#WorldDefenceUpdate #DefenseNews #MilitaryTech #Geopolitics #GlobalNews #Shorts\n",
+        "latest_video_at": "2026-08-07T04:03:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCPEviRPVHoYsBfcg-IHVqVQ",
+      "external_id": "UCPEviRPVHoYsBfcg-IHVqVQ",
+      "name": "TrendVerse",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCPEviRPVHoYsBfcg-IHVqVQ",
+      "discovered_on": "2026-08-07",
+      "score": 73.69,
+      "metrics": {
+        "subscribers": 34300,
+        "total_views": 446242626,
+        "video_count": 4578,
+        "avg_views_per_video": 97475.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "N1YX1lfJfko",
+            "title": "What August 11 Means for Balochistan #Balochistan #Independence",
+            "description": "What August 11 Means for Balochistan #Balochistan #Independence August 11 holds significant importance for Balochistan, ...",
+            "published_at": "2026-08-07T02:30:25Z",
+            "url": "https://www.youtube.com/watch?v=N1YX1lfJfko"
+          }
+        ],
+        "channel_description": "Welcome to TrendVerse, your hub for the latest news, viral news, and trending topics! From in-depth coverage of major events to the most talked-about stories, we bring you engaging and up-to-date content. Stay informed, stay entertained—subscribe now and be part of the trend!\n\n",
+        "latest_video_at": "2026-08-07T02:30:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCyGLsGw0ojO3FBrLc8W7_UA",
+      "external_id": "UCyGLsGw0ojO3FBrLc8W7_UA",
+      "name": "Raja Editor 1",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCyGLsGw0ojO3FBrLc8W7_UA",
+      "discovered_on": "2026-08-07",
+      "score": 70.58,
+      "metrics": {
+        "subscribers": 49900,
+        "total_views": 3493012,
+        "video_count": 254,
+        "avg_views_per_video": 13752.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "YKXsL5CmYo4",
+            "title": "From Jantar Mantar to Jharkhand: Ground-Level Reporting That Matters ✊",
+            "description": "From reporting live from the Jantar Mantar student protests to ground coverage of the JPSC and JSSC student agitations in ...",
+            "published_at": "2026-08-07T09:05:09Z",
+            "url": "https://www.youtube.com/watch?v=YKXsL5CmYo4"
+          }
+        ],
+        "channel_description": "Welcome to Nasir daily updated, your go-to source for the latest news and real-time updates! We bring you breaking news, trending stories, and in-depth analysis across politics, sports, entertainment, technology, and more. Stay informed with daily updates and exclusive cricket coverage, all in one place. Subscribe now and be the first to know what’s happening around the world!🤟🤟🤟🤟",
+        "latest_video_at": "2026-08-07T09:05:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCR14EAtMEGCBMwoIzDcJwlA",
+      "external_id": "UCR14EAtMEGCBMwoIzDcJwlA",
+      "name": "CHAKRAWAT NEWS GUJARATI",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCR14EAtMEGCBMwoIzDcJwlA",
+      "discovered_on": "2026-08-07",
+      "score": 67.62,
+      "metrics": {
+        "subscribers": 58600,
+        "total_views": 38486588,
+        "video_count": 8628,
+        "avg_views_per_video": 4460.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "SB3Ts27M5ac",
+            "title": "મેટાના સેન્સરશિપ સામે કેજરીવાલનો હુંકાર",
+            "description": "અમારી સાથે જોડાઓ facebook - https://www.facebook.com/profile.php?id=61574814216628 instagram - chakrawat.in/ ...",
+            "published_at": "2026-08-06T07:59:52Z",
+            "url": "https://www.youtube.com/watch?v=SB3Ts27M5ac"
+          }
+        ],
+        "channel_description": "ચક્રવાત ન્યૂઝ માત્ર સમાચાર જ નહીં, પરંતુ દરેક સમાચારનો સાચો સાર અને સત્ય તમારી સામે લાવવાનો પ્રયાસ કરે છે. ગુજરાતથી લઈને દેશ-વિદેશ સુધીના રાજકારણ, સામાજિક મુદ્દાઓ, ગ્રાઉન્ડ રિપોર્ટિંગ, બ્રેકિંગ ન્યૂઝ અને જનહિતના પ્રશ્નો પર અમે નિર્ભય અને તથ્ય આધારિત પત્રકારિતા કરીએ છીએ. સત્તાને સવાલ હોય, જનતાનો અવાજ હોય કે પછી સત્યની લડત, આ જ અમારી ઓળખ છે. \n\nઝડપથી ઉભરતા ચક્રવાત ન્યૂઝ સચોટ સમાચાર માટે જોડાઓ.... ચેનલને સબ્સ્ક્રાઇબ કરો અને દરેક મહત્વપૂર્ણ અપડેટ સૌથી પહેલા મેળવો....",
+        "latest_video_at": "2026-08-06T07:59:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDqCEE2AhcBTKL9JyNbxvxg",
+      "external_id": "UCDqCEE2AhcBTKL9JyNbxvxg",
+      "name": "Clipkart_India",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDqCEE2AhcBTKL9JyNbxvxg",
+      "discovered_on": "2026-08-07",
+      "score": 67.57,
+      "metrics": {
+        "subscribers": 13800,
+        "total_views": 14251561,
+        "video_count": 433,
+        "avg_views_per_video": 32913.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "Gv0b4QLwtJM",
+            "title": "Big Question On Social Media Journalist #trending #latestnews #news #viral #youtube",
+            "description": "Video Credit - Respected Owner Journalist Aman Chopra has sparked a fresh debate after taking aim at YouTube-based ...",
+            "published_at": "2026-08-05T12:03:28Z",
+            "url": "https://www.youtube.com/watch?v=Gv0b4QLwtJM"
+          }
+        ],
+        "channel_description": "For business - clipkart18officialjamui@132",
+        "latest_video_at": "2026-08-05T12:03:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCHwWi-Q6PKFXBPrMLIjhF6Q",
+      "external_id": "UCHwWi-Q6PKFXBPrMLIjhF6Q",
+      "name": "Mind Rashtra",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCHwWi-Q6PKFXBPrMLIjhF6Q",
+      "discovered_on": "2026-08-07",
+      "score": 63.88,
+      "metrics": {
+        "subscribers": 5030,
+        "total_views": 15906368,
+        "video_count": 1018,
+        "avg_views_per_video": 15625.12,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "sWFK2yRawOA",
+            "title": "WHY IS THE MEDIA SILENT?",
+            "description": "Description: Why is the media silent about this issue? In this video, we explore the facts, ask the difficult questions, and encourage ...",
+            "published_at": "2026-08-07T03:04:43Z",
+            "url": "https://www.youtube.com/watch?v=sWFK2yRawOA"
+          }
+        ],
+        "channel_description": "Welcome to MindRashtra — the channel for students, dreamers, and disciplined minds who refuse to stay average.\n\nHere you’ll find powerful shorts on: • Study discipline\n• Mental toughness\n• Focus & productivity\n• Psychology of success\n• Harsh truths about life\n• self-improvement\n\nNo fake luxury. No empty quotes.\nOnly mindset shifts, discipline, and real growth.\n\nIf you want to stop procrastinating, control your mind, and build a stronger future — subscribe and start improving every day.\n\n🔥 New Shorts Daily\n🎯 Focus. Discipline. Success.",
+        "latest_video_at": "2026-08-07T03:04:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCcMeLQzk4d0Lal2dhNbZd5w",
+      "external_id": "UCcMeLQzk4d0Lal2dhNbZd5w",
+      "name": "Matt Bunting",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCcMeLQzk4d0Lal2dhNbZd5w",
+      "discovered_on": "2026-08-07",
+      "score": 63.61,
+      "metrics": {
+        "subscribers": 3420,
+        "total_views": 2456939,
+        "video_count": 1038,
+        "avg_views_per_video": 2366.99,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/realmattbunting",
+        "tiktok": "https://www.tiktok.com/@realmattbunting"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "ihe6Ig1WYRY",
+            "title": "We’re witnessing the end of an era in rock and alternative media. Alt Press / Brooklyn Vegan",
+            "description": "",
+            "published_at": "2026-08-07T02:45:09Z",
+            "url": "https://www.youtube.com/watch?v=ihe6Ig1WYRY"
+          }
+        ],
+        "channel_description": "🥤 Hey, I'm Matt\n🎙️ Music News & Reviews\n💍👸🏻 @nicki.bunting\n\nFollow Me On:\n\nTikTok ⏰: https://www.tiktok.com/@realmattbunting?_t=8dyaq9Ttrl0&_r=1\n\nIG 🤳: https://www.instagram.com/realmattbunting/?igshid=YmMyMTA2M2Y%3D\n\nDistilled Spirits Store 👻: https://distilledspirits.printful.me/\n\nSpotify 🟢: https://open.spotify.com/user/captainbunts?si=k8z2De-HTsCwh_4gBwbLAg",
+        "latest_video_at": "2026-08-07T02:45:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC_aZkyF-dt-bdkZlK09V5UQ",
+      "external_id": "UC_aZkyF-dt-bdkZlK09V5UQ",
+      "name": "Soberanía: The Mexican Politics Podcast",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC_aZkyF-dt-bdkZlK09V5UQ",
+      "discovered_on": "2026-08-07",
+      "score": 61.41,
+      "metrics": {
+        "subscribers": 13800,
+        "total_views": 719981,
+        "video_count": 373,
+        "avg_views_per_video": 1930.24,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ohvInU7pDnM",
+            "title": "Exposing Mexican Media&#39;s Bogus &#39;Censorship&#39; Claims - Ep 118",
+            "description": "In episode 118 of Soberanía, hosts José Luis Granados Ceja and Kurt Hackbarth dive into Mexico's new audience rights ...",
+            "published_at": "2026-08-06T05:10:09Z",
+            "url": "https://www.youtube.com/watch?v=ohvInU7pDnM"
+          }
+        ],
+        "channel_description": "Weekly podcast featuring news and analysis about Mexican politics and a monthly interview series diving into the most important political questions of our time.",
+        "latest_video_at": "2026-08-06T05:10:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJg-1AhMGXkDqeUrG_A7P6w",
+      "external_id": "UCJg-1AhMGXkDqeUrG_A7P6w",
+      "name": "Nexinfo",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJg-1AhMGXkDqeUrG_A7P6w",
+      "discovered_on": "2026-08-07",
+      "score": 61.09,
+      "metrics": {
+        "subscribers": 2500,
+        "total_views": 304236,
+        "video_count": 265,
+        "avg_views_per_video": 1148.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/channel/UCJg-1AhMGXkDqeUrG_A7P6w"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "rstoRwT3Xlw",
+            "title": "France : Liberté d&#39;expression en recul?",
+            "description": "",
+            "published_at": "2026-08-06T16:55:39Z",
+            "url": "https://www.youtube.com/watch?v=rstoRwT3Xlw"
+          }
+        ],
+        "channel_description": "Tout savoir sur l’actualité française et internationale. Notre mission est de rendre l’information claire et  fiable, que ce soit à travers des analyses détaillées, des reportages fascinants ou des résumés rapides pour rester à jour.\n\nRejoignez NexInfo et découvrez le monde autrement : chaque vidéo est conçue pour éveiller votre curiosité, stimuler votre réflexion et vous tenir informé des dernières nouvelles.\n\nAbonner vous https://www.youtube.com/channel/UCJg-1AhMGXkDqeUrG_A7P6w\n\n",
+        "latest_video_at": "2026-08-06T16:55:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqxHYmUYn_E45GEJJl6i5Vw",
+      "external_id": "UCqxHYmUYn_E45GEJJl6i5Vw",
+      "name": "Héctor Raúl González",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCqxHYmUYn_E45GEJJl6i5Vw",
+      "discovered_on": "2026-08-07",
+      "score": 60.58,
+      "metrics": {
+        "subscribers": 10300,
+        "total_views": 5177006,
+        "video_count": 4140,
+        "avg_views_per_video": 1250.48,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "0uMkrunXsjI",
+            "title": "Ley de Medios: ¿Censura o Acceso Ciudadano? #shorts",
+            "description": "La ley permite a las empresas designar portavoces para atender quejas sobre noticias u opiniones, sin influencia estatal.",
+            "published_at": "2026-08-06T13:14:26Z",
+            "url": "https://www.youtube.com/watch?v=0uMkrunXsjI"
+          }
+        ],
+        "channel_description": "Reportero y contador de historias. Periodista. Director en Desde Otro Ángulo Mx. Fundador de Central de Noticias Mx. Conductor en ALM Noticias. Moderador en Panorama 360.\nVisita https://desdeotroangulo.mx",
+        "latest_video_at": "2026-08-06T13:14:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqMEhxJQQaFwLH4PUtXjQcw",
+      "external_id": "UCqMEhxJQQaFwLH4PUtXjQcw",
+      "name": "Samachar4Media ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCqMEhxJQQaFwLH4PUtXjQcw",
+      "discovered_on": "2026-08-07",
+      "score": 59.92,
+      "metrics": {
+        "subscribers": 11000,
+        "total_views": 2321375,
+        "video_count": 2751,
+        "avg_views_per_video": 843.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "E9O6uhkM10k",
+            "title": "From Employee to Entrepreneur: Sanket Upadhyay&#39;s Inspiring Journey",
+            "description": "Can a journalist become an entrepreneur? In this inspiring conversation, Sanket Upadhyay reflects on how India's legacy media ...",
+            "published_at": "2026-08-07T08:25:41Z",
+            "url": "https://www.youtube.com/watch?v=E9O6uhkM10k"
+          }
+        ],
+        "channel_description": "samachar4media is the Hindi Portal of exchange4media media group. samachar4media has made remarkable success in media news specially in languages media.\n\n",
+        "latest_video_at": "2026-08-07T08:25:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0uOlfXCqmP26BaILsXoi_w",
+      "external_id": "UC0uOlfXCqmP26BaILsXoi_w",
+      "name": "TV OCL",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0uOlfXCqmP26BaILsXoi_w",
+      "discovered_on": "2026-08-07",
+      "score": 58.52,
+      "metrics": {
+        "subscribers": 11100,
+        "total_views": 2523089,
+        "video_count": 5793,
+        "avg_views_per_video": 435.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "SbhjiHfTl18",
+            "title": "A perigosa realidade da autocensura: até onde vai o medo nas redes sociais?",
+            "description": "O debate sobre a autocensura ganha contornos preocupantes quando empresas e figuras públicas começam a restringir ...",
+            "published_at": "2026-08-06T21:29:30Z",
+            "url": "https://www.youtube.com/watch?v=SbhjiHfTl18"
+          }
+        ],
+        "channel_description": "📺 Bem-vindos à TV OCL: A Voz das Regiões e dos Municípios\nA TV OCL nasce com um propósito claro: trazer o debate cultural, social e político para onde a vida acontece. Acreditamos que o futuro do país passa pelo fortalecimento do municipalismo e pela valorização das identidades regionalistas.\n\n🎯 O que você encontra aqui:\n\nPolíticas Municipalistas;\nPerspectiva Regionalista;\nConfederalismo,\nLiberdade de Expressão;\nIndependência Editorial.\n\nSe você acredita que a política deve ser feita de baixo para cima e busca uma fonte de informação que respeite a sua inteligência e o seu direito ao contraditório, inscreva-se e ative as notificações.\n\n",
+        "latest_video_at": "2026-08-06T21:29:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCIWPjfn_G3o8RG91gWSL-nw",
+      "external_id": "UCIWPjfn_G3o8RG91gWSL-nw",
+      "name": "Gladwonders",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCIWPjfn_G3o8RG91gWSL-nw",
+      "discovered_on": "2026-08-07",
+      "score": 58.47,
+      "metrics": {
+        "subscribers": 4470,
+        "total_views": 1107562,
+        "video_count": 726,
+        "avg_views_per_video": 1525.57,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "4y6JZeKnTdY",
+            "title": "Unboxing Independent India&#39;s First Newspaper! 🗞️🇮🇳 | The Hindu 15 Aug 1947 (Zepto)",
+            "description": "Product Link: ...",
+            "published_at": "2026-08-07T09:34:52Z",
+            "url": "https://www.youtube.com/watch?v=4y6JZeKnTdY"
+          }
+        ],
+        "channel_description": "Gladwonders is about the journey, and everything worth noticing along the way.\nI travel by whatever gets me there: bike, train, bus, on foot. I share the experience of the road itself, and capture the places I find in cinematic views. Hidden villages, quiet landscapes, and the stories behind them. I hunt down good food too, from roadside snacks to local favourites, and tell you honestly what's worth trying. And in between, I share what I'm reading: books on life, growth, and faith, and the small lessons that show up in everyday moments.\nPart travel, part food, part reflection. Stories from the road, told slowly, with a little wonder and gratitude underneath it all.\n🌿 New videos and Shorts every week.\nSubscribe and wander along.\n\n📍 Based in Bangalore, India\n✉️ gladwonders1@gmail.com for collabs & business\n",
+        "latest_video_at": "2026-08-07T09:34:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCLb2dKEVG4WxS3zAJ32TcYA",
+      "external_id": "UCLb2dKEVG4WxS3zAJ32TcYA",
+      "name": "Ahmed & Sukaram, Criminal Defense Attorneys",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCLb2dKEVG4WxS3zAJ32TcYA",
+      "discovered_on": "2026-08-07",
+      "score": 57.8,
+      "metrics": {
+        "subscribers": 5500,
+        "total_views": 1183571,
+        "video_count": 892,
+        "avg_views_per_video": 1326.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "eMd1ASAByME",
+            "title": "Alternative Way to Get Social Media Content",
+            "description": "Law-enforcement has much easier access to social media content than a criminal defendant does. #criminallawyer ...",
+            "published_at": "2026-08-06T00:37:56Z",
+            "url": "https://www.youtube.com/watch?v=eMd1ASAByME"
+          }
+        ],
+        "channel_description": "Our firm practices criminal defense, representing clients in DUI cases, domestic violence matters, drug charges, theft, assault, and all misdemeanor and felony offenses.\n\nAhmed & Sukaram, Criminal Defense Attorneys - San Jose \n1625 The Alameda, Suite 405 San Jose, CA 95126\n(408) 217-8818\n\nAhmed & Sukaram, Criminal Defense Attorneys - Redwood City \n600 Allerton Street, Suite 201G. Redwood City, CA 94063\n(650) 299-0500\n\nSan Jose Criminal Defense Attorney:\nhttps://ahmedandsukaram.com/san-jose-criminal-defense-attorney/\nRedwood City Criminal Defense Attorney:\nhttps://ahmedandsukaram.com/redwood-city-criminal-defense-attorney/\nSan Jose DUI Lawyer:\nhttps://ahmedandsukaram.com/san-jose-dui-attorney/\nRedwood City DUI Lawyer:\nhttps://ahmedandsukaram.com/redwood-city-dui-attorney/\nSan Jose Domestic Violence Lawyer:\nhttps://ahmedandsukaram.com/san-jose-domestic-violence-attorney/\nRedwood City Domestic Violence Lawyer:\nhttps://ahmedandsukaram.com/redwood-city-domestic-violence-attorney/\n",
+        "latest_video_at": "2026-08-06T00:37:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC3R-zYbRQnWOEpAG0waEEsA",
+      "external_id": "UC3R-zYbRQnWOEpAG0waEEsA",
+      "name": "Bangla۝Tech",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC3R-zYbRQnWOEpAG0waEEsA",
+      "discovered_on": "2026-08-07",
+      "score": 56.28,
+      "metrics": {
+        "subscribers": 3130,
+        "total_views": 88806,
+        "video_count": 97,
+        "avg_views_per_video": 915.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "RRIXmflbNbU",
+            "title": "Btreend Review: Trusted Income Social Media | Facebook Alternative? 💰",
+            "description": "Btreend #BtreendReview #SocialMedia #FacebookAlternative #OnlineEarning #EarnMoneyOnline #PassiveIncome ...",
+            "published_at": "2026-08-07T10:01:53Z",
+            "url": "https://www.youtube.com/watch?v=RRIXmflbNbU"
+          }
+        ],
+        "channel_description": "Here you get all types of mobile tips and tricks,games,mobile app,Technology videos.Plz subscribe us",
+        "latest_video_at": "2026-08-07T10:01:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1UTt9wnzUtcUdaJv4kIHow",
+      "external_id": "UC1UTt9wnzUtcUdaJv4kIHow",
+      "name": "Sindh Voice",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC1UTt9wnzUtcUdaJv4kIHow",
+      "discovered_on": "2026-08-07",
+      "score": 56.16,
+      "metrics": {
+        "subscribers": 4060,
+        "total_views": 728036,
+        "video_count": 1208,
+        "avg_views_per_video": 602.68,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "oj024KyLhs4",
+            "title": "Power of Independent Journalism Senior Analyst Naseer Gopang Shares Eye-Opening Example",
+            "description": "SindhVoice #PowerOfJournalism #NaseerGopang #MediaImpact #Journalism Sindh Voice, Sindhi Media News is a Reliable and ...",
+            "published_at": "2026-08-07T11:04:49Z",
+            "url": "https://www.youtube.com/watch?v=oj024KyLhs4"
+          }
+        ],
+        "channel_description": "Sindh Voice, Sindhi Media News is a Reliable and Fast-Growing News Channel in Sindhi Media Region  \nDedicated to Bringing You The Latest Updates From Sindh and Around The World. We Provide Breaking News, Political Insights, Social Issues, Cultural Highlights, and In-Depth Coverage Of Current Affairs.\n\nOur Mission Is To Deliver Accurate, Honest, And Responsible Journalism So You Stay Informed At All Times. \nSindh Voice is Not Just a Channel—it’s the Voice Of The People.\n\nBreaking News\nLatest Updates\nSindh & Global News\nExclusive Reports\nPodcast \nInterviews \nEntertainment\n",
+        "latest_video_at": "2026-08-07T11:04:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCC9ujS6Df0LzSuImKhiO-Bw",
       "external_id": "UCC9ujS6Df0LzSuImKhiO-Bw",
