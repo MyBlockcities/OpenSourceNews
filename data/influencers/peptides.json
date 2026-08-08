@@ -2,19 +2,443 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-07T11:11:54Z",
-  "new_this_run": 8,
-  "total_influencers": 41,
+  "updated_at": "2026-08-08T10:55:30Z",
+  "new_this_run": 9,
+  "total_influencers": 50,
   "run_summary": {
-    "run_started_at": "2026-08-07T11:11:36Z",
-    "candidate_count": 14,
-    "existing_count": 33,
-    "selected_new_count": 8,
+    "run_started_at": "2026-08-08T10:55:13Z",
+    "candidate_count": 15,
+    "existing_count": 41,
+    "selected_new_count": 9,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCghkghSo3dJbr2YQTxHq4Ng",
+      "external_id": "UCghkghSo3dJbr2YQTxHq4Ng",
+      "name": "Infini Cosmetic Associates",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCghkghSo3dJbr2YQTxHq4Ng",
+      "discovered_on": "2026-08-08",
+      "score": 86.81,
+      "metrics": {
+        "subscribers": 48600,
+        "total_views": 128496891,
+        "video_count": 358,
+        "avg_views_per_video": 358929.86,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@infiniskin"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "D1caTUedhpY",
+            "title": "Support Your Recovery with Peptide Therapy 🧬🌱",
+            "description": "If you are looking to support your body's natural recovery process, you should know about BPC 157. At Infini, we offer peptide ...",
+            "published_at": "2026-08-07T18:03:33Z",
+            "url": "https://www.youtube.com/watch?v=D1caTUedhpY"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "D1caTUedhpY",
+            "title": "Support Your Recovery with Peptide Therapy 🧬🌱",
+            "description": "If you are looking to support your body's natural recovery process, you should know about BPC 157. At Infini, we offer peptide ...",
+            "published_at": "2026-08-07T18:03:33Z",
+            "url": "https://www.youtube.com/watch?v=D1caTUedhpY"
+          }
+        ],
+        "channel_description": "William J. Hall, M.D. - Liposuction Expert \n\nDr. Hall and the staff at Infini Cosmetic Associates (located in Scottsdale, Arizona) follow one philosophy: every individual deserves to get the best from their skin and body.\n\nThe staff strives to be the expert resource for women and men who need information, treatments, or procedures to help make their bodies and skin look better, last longer and feel great. We remain current with technology and techniques to provide our patients with safe, effective, and minimally invasive procedures.\n\nOur staff of registered nurses and aestheticians continue to gain education in the medical field to provide the most professional service possible.\n\nFor Collaboration and Business inquiries, please use the contact information below:\n\n📩  Email: info@infiniskin.com \n\n🔔Subscribe for the Best Skin Treatments and Body Enhancement in Scottsdale with Dr William J. Hall: https://www.youtube.com/@infiniskin/\n",
+        "latest_video_at": "2026-08-07T18:03:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCMcGFPjX2aQy31KYdEvT2-Q",
+      "external_id": "UCMcGFPjX2aQy31KYdEvT2-Q",
+      "name": "Barbell Medicine",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCMcGFPjX2aQy31KYdEvT2-Q",
+      "discovered_on": "2026-08-08",
+      "score": 73.56,
+      "metrics": {
+        "subscribers": 74800,
+        "total_views": 7914244,
+        "video_count": 1022,
+        "avg_views_per_video": 7743.88,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "66EtTTAfTMg",
+            "title": "The FDA Voted for 6 Peptides. Its Own Scientists Said No",
+            "description": "An FDA advisory committee just voted to open a legal compounding supply line for six of seven peptides, including BPC-157 and ...",
+            "published_at": "2026-08-07T17:24:49Z",
+            "url": "https://www.youtube.com/watch?v=66EtTTAfTMg"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "KwPlmH8HORg",
+            "title": "The FDA Voted for 6 Peptides. Its Own Scientists Said No",
+            "description": "An FDA advisory committee just voted to open a legal compounding supply line for six of seven peptides, including BPC-157 and ...",
+            "published_at": "2026-08-07T17:18:45Z",
+            "url": "https://www.youtube.com/watch?v=KwPlmH8HORg"
+          }
+        ],
+        "channel_description": "Barbell Medicine is the vertical integration of medicine,  lifestyle modification, and strength and conditioning. Preventative medicine is the future and by connecting with others, we can really make a difference. Thanks for tuning in!",
+        "latest_video_at": "2026-08-07T17:24:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCjGUiLV7IfsH7IV4s0V7DQA",
+      "external_id": "UCjGUiLV7IfsH7IV4s0V7DQA",
+      "name": "Vitality Unfiltered",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCjGUiLV7IfsH7IV4s0V7DQA",
+      "discovered_on": "2026-08-08",
+      "score": 61.54,
+      "metrics": {
+        "subscribers": 8650,
+        "total_views": 291054,
+        "video_count": 117,
+        "avg_views_per_video": 2487.64,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "Y_PwEL9kAvc",
+            "title": "Vitality Unfiltered LIVE: AI Cancer Detection, GLP-1 Longevity &amp; the Future of Peptides",
+            "description": "What happens when AI, GLP-1 medications, peptides, and longevity science all start moving at the same time? Join David J.",
+            "published_at": "2026-08-08T05:09:08Z",
+            "url": "https://www.youtube.com/watch?v=Y_PwEL9kAvc"
+          }
+        ],
+        "channel_description": "Vitality Unfiltered is where real medicine meets real conversation. Hosted by David Bauder, PA-C—founder of Weight Loss & Vitality—this channel breaks down hormones, metabolism, mental health, longevity science, precision medicine, and aesthetics in a way that’s clear, evidence-based, and practical. We go beyond surface-level advice to explore how thyroid function, estrogen, testosterone, cortisol, insulin, sleep, nutrition, stress, and lifestyle all connect.\n\nIf you’ve ever been told “your labs are normal” but you don’t feel normal, this is for you. Each episode challenges conventional thinking, explains the physiology behind symptoms, and empowers you with deeper understanding—not hype.\n\nFrom GLP-1 science to bioidentical hormones, from brain health to body composition, we unpack complex topics without filters. Follow for weekly episodes, and honest discussions about how to optimize health, performance, and long-term vitality.  \"Powered by Weight Loss and Vitality\"\n",
+        "latest_video_at": "2026-08-08T05:09:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCXU1-QaY3nhu37KIv17cnRQ",
+      "external_id": "UCXU1-QaY3nhu37KIv17cnRQ",
+      "name": "Forum Health",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCXU1-QaY3nhu37KIv17cnRQ",
+      "discovered_on": "2026-08-08",
+      "score": 60.52,
+      "metrics": {
+        "subscribers": 7430,
+        "total_views": 938359,
+        "video_count": 487,
+        "avg_views_per_video": 1926.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "P9nosjV4xkc",
+            "title": "Peptide Therapy for Cellular &amp; Metabolic Health",
+            "description": "Peptides can be a powerful tool — but they work best as part of a bigger picture. Cellular health is rarely influenced by just one ...",
+            "published_at": "2026-08-07T20:15:37Z",
+            "url": "https://www.youtube.com/watch?v=P9nosjV4xkc"
+          }
+        ],
+        "channel_description": "Welcome to the Forum Health YouTube channel, your go-to destination for integrative health and wellness insights. Discover expert advice, tips, and strategies from leading integrative health practitioners on topics ranging from functional medicine and natural remedies to nutrition, fitness, and mental well-being. Explore our diverse collection of videos designed to empower you on your journey to optimal health. \n\nSubscribe to stay updated on the latest in integrative healthcare and unlock the keys to living a vibrant and balanced life.\n",
+        "latest_video_at": "2026-08-07T20:15:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCPSOO54hcCvfcxP-EmMDlTA",
+      "external_id": "UCPSOO54hcCvfcxP-EmMDlTA",
+      "name": "Peptide Science Institute",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCPSOO54hcCvfcxP-EmMDlTA",
+      "discovered_on": "2026-08-08",
+      "score": 58.66,
+      "metrics": {
+        "subscribers": 8090,
+        "total_views": 576407,
+        "video_count": 795,
+        "avg_views_per_video": 725.04,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "o6NTtmETxeQ",
+            "title": "Peptides, Joints, Bones &amp; Healing LIVE Q&amp;A - Brenden Henry &amp; Dr. Ali Mazloum",
+            "description": "Join the Private Research Order here: https://pro.peptidescienceinstitute.com/ Dr. Ali Mazloum, Brenden Henry and Dan Fox of the ...",
+            "published_at": "2026-08-07T18:28:46Z",
+            "url": "https://www.youtube.com/watch?v=o6NTtmETxeQ"
+          }
+        ],
+        "channel_description": "Welcome to the home of the most scientifically accurate biological enhancement information, courses & transformation programs in the world. This is the home of Brenden Henry, the world’s number one authority on peptide science and Dr Ali Mazloum, the Human MRI. We research and use the power of peptides to help you optimize your healthspan, lifespan and performance.\n\nWith peptides, we can do things like regenerate organs, reverse aging, restore brain function, eliminate 'incurable' diseases like autoimmune conditions, diabetes and arthritis, destroy cancer cells, reverse vision loss, activate your own stem cells, and elevate your physical and mental performance to \"superhuman\" levels.\n\n\nWe recommend you go through our Youtube channel, go to our website and devour as much free information as you can. Then, when you’re ready, you move up to experience the life-changing magic of peptides with our higher level programs. Check it all out here: https://peptides.link/home\n\n\n",
+        "latest_video_at": "2026-08-07T18:28:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCL5KHBSpVVPm7DMTr0nzSqg",
+      "external_id": "UCL5KHBSpVVPm7DMTr0nzSqg",
+      "name": "The Aspen Institute for Anti-Aging & Regenerative Medicine",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCL5KHBSpVVPm7DMTr0nzSqg",
+      "discovered_on": "2026-08-08",
+      "score": 57.25,
+      "metrics": {
+        "subscribers": 9090,
+        "total_views": 246799,
+        "video_count": 770,
+        "avg_views_per_video": 320.52,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "-yqHxlUG9HY",
+            "title": "Peptide Therapy vs Hormone Therapy",
+            "description": "Peptide therapy and hormone therapy are not interchangeable. Certain peptides may help stimulate the body's natural production ...",
+            "published_at": "2026-08-07T13:00:24Z",
+            "url": "https://www.youtube.com/watch?v=-yqHxlUG9HY"
+          }
+        ],
+        "channel_description": "Dr. Julian Gershon, a triple board-certified Doctor of Family Medicine, Sports Medicine, and Anti Aging and Regenerative Medicine has been helping patients for decades. In the last decade or so, he has really started to focus on Anti Aging and Regenerative Medicine, especially to help alleviate major joint pain for people who want to stay active and live life to their full potential.",
+        "latest_video_at": "2026-08-07T13:00:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCLmdmYzLnJeAFPufDy1ti8w",
+      "external_id": "UCLmdmYzLnJeAFPufDy1ti8w",
+      "name": "Kwadcast: Prevention Over Prescription with Dr. K",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCLmdmYzLnJeAFPufDy1ti8w",
+      "discovered_on": "2026-08-08",
+      "score": 57.07,
+      "metrics": {
+        "subscribers": 4320,
+        "total_views": 1048067,
+        "video_count": 1248,
+        "avg_views_per_video": 839.8,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "UhjnPapXvb8",
+            "title": "Peptides Explained: Your Doctor&#39;s Guide to What&#39;s New #shorts",
+            "description": "Peptides are short-chained amino acids, some produced by your own body like insulin. Learn about popular types like BPC-157 ...",
+            "published_at": "2026-08-07T19:56:31Z",
+            "url": "https://www.youtube.com/watch?v=UhjnPapXvb8"
+          }
+        ],
+        "channel_description": "Welcome to Prevention Over Prescription with Dr. K, where we empower you to take control of your health and feel better than ever before. As an ICU doctor with years of experience on the front lines, I’ve seen firsthand how lifestyle choices can determine whether someone ends up in the intensive care unit—or avoids it entirely.\n\nThis channel is your go-to source for practical tools, expert advice, and actionable steps to prevent illness, build resilience, and live a healthier life. From nutrition and fitness to stress management and community building, we’re here to help you take ownership of your health journey.\n\nJoin us to learn how small changes today can lead to a healthier, stronger tomorrow. It’s time to prioritize prevention over prescription!\n\nSubscribe for weekly videos that inspire, educate, and empower.",
+        "latest_video_at": "2026-08-07T19:56:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCEhNeNr-g79gWReXEctVE4A",
+      "external_id": "UCEhNeNr-g79gWReXEctVE4A",
+      "name": "Wellness Wave Club ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCEhNeNr-g79gWReXEctVE4A",
+      "discovered_on": "2026-08-08",
+      "score": 56.79,
+      "metrics": {
+        "subscribers": 5950,
+        "total_views": 204594,
+        "video_count": 435,
+        "avg_views_per_video": 470.33,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "4nYTpNXqpps",
+            "title": "How Healthcare Providers Should Evaluate a Peptide Supply Partner",
+            "description": "As interest in peptide medicine continues to grow, so does the number of companies offering peptide products and programs.",
+            "published_at": "2026-08-07T19:26:51Z",
+            "url": "https://www.youtube.com/watch?v=4nYTpNXqpps"
+          }
+        ],
+        "channel_description": "Welcome to the Wellness Wave Club Channel - your gateway to unlocking your full wellness potential through innovative, scientifically-sound and evidence-based solutions. The scope of Wellness we cover includes optimal physical, mental, and emotional well-being. It's about thriving, not just surviving! True wellness transcends health by promoting flourishing in all aspects of life. This channel is dedicated to empowering viewers with cutting-edge yet proven, drug-free approaches that transcend mere coping and disease management. Our mission is to equip you with the knowledge, tools, and mental perspective to effectively pursue lifelong wellness, pain-free living, longevity, and optimized mind-body performance  - regardless of age or existing conditions.\n\nYou can expect in-depth explanations, real-world case studies, practical implementation advice, and invaluable insights from experts in groundbreaking natural modalities, biotech wellness, and lifestyle strategies.\n\n\n",
+        "latest_video_at": "2026-08-07T19:26:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UClFktw3TpnSzo5Pkgm2us8A",
+      "external_id": "UClFktw3TpnSzo5Pkgm2us8A",
+      "name": "Maraya Brown | Women's Health And Wellness Expert",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UClFktw3TpnSzo5Pkgm2us8A",
+      "discovered_on": "2026-08-08",
+      "score": 53.68,
+      "metrics": {
+        "subscribers": 4940,
+        "total_views": 156204,
+        "video_count": 1077,
+        "avg_views_per_video": 145.04,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "6meSm1_nU8o",
+            "title": "Peptides Are Not Just Ozempic",
+            "description": "Ready to feel energized, clear, and fully alive in your body again? Start here: ...",
+            "published_at": "2026-08-07T19:00:34Z",
+            "url": "https://www.youtube.com/watch?v=6meSm1_nU8o"
+          }
+        ],
+        "channel_description": "Helping women move from exhausted to energized, balance their hormones, and feel turned on by their life, their lover, and themselves.\n\nThe Women's Vibrancy Code is dedicated to women's health and wellness AND helping women live their most vibrant lives.\n\nI'm Maraya Brown - a Yale and functional medicine trained women's health and wellness expert, midwife, mom, keynote speaker and self-made seven-figure entrepreneur. \n\nYou’re here for a more holistic and functional medicine approach because you find yourself lost amidst the multitude of options and the growing health challenges women face today. I promise that you've come to the right place.\n\nAmong the many subjects for women's health and wellness, we'll cover topics like energy, hormones, libido, embracing feminine power, gut, adrenal, and thyroid issues and explore strategies for dealing with anxiety, depression, insomnia, and loss of libido. \n\nYes, you can feel vibrant and excited about the future.\n",
+        "latest_video_at": "2026-08-07T19:00:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UC2ShR_aS8W_tMGSXOSVnK4Q",
       "external_id": "UC2ShR_aS8W_tMGSXOSVnK4Q",
