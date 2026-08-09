@@ -2,19 +2,624 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-08T10:55:22Z",
-  "new_this_run": 20,
-  "total_influencers": 88,
+  "updated_at": "2026-08-09T10:56:43Z",
+  "new_this_run": 14,
+  "total_influencers": 102,
   "run_summary": {
-    "run_started_at": "2026-08-08T10:55:13Z",
-    "candidate_count": 27,
-    "existing_count": 68,
-    "selected_new_count": 20,
+    "run_started_at": "2026-08-09T10:56:34Z",
+    "candidate_count": 20,
+    "existing_count": 88,
+    "selected_new_count": 14,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCvkvmhYrP0N4fnT_qXDP7OQ",
+      "external_id": "UCvkvmhYrP0N4fnT_qXDP7OQ",
+      "name": "AVANTE MEU TRICOLOR - SÃO PAULO FUTEBOL CLUBE",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCvkvmhYrP0N4fnT_qXDP7OQ",
+      "discovered_on": "2026-08-09",
+      "score": 77.79,
+      "metrics": {
+        "subscribers": 76500,
+        "total_views": 140506769,
+        "video_count": 6708,
+        "avg_views_per_video": 20946.15,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://x.com/avantmtricolor",
+        "instagram": "https://www.instagram.com/avantemeutricolor.spfc"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "5izqDG6U2kE",
+            "title": "DORIVAL ESCANCARA DIFICULDADES EM MEIO À CRISE E FALA EM &quot;FRUSTRAÇÃO QUE SE RETROALIMENTA&quot;",
+            "description": "SEJA MEMBRO DO CANAL AVANTE MEU TRICOLOR POR APENAS R$ 3.99 MÊS O AVANTE MEU TRICOLOR PRECISA DE ...",
+            "published_at": "2026-08-09T00:02:26Z",
+            "url": "https://www.youtube.com/watch?v=5izqDG6U2kE"
+          }
+        ],
+        "channel_description": "O SEU CANAL PARA SABER TUDO SOBRE O SÃO PAULO! Acesse nosso site https://avantemeutricolor.com.br\n\nQuer notícias em primeira mão? Vire membro do canal. Apenas R$ 3,99 por mês. Clique no botão SEJA MEMBRO em nossa página inicial e entre agora mesmo para nosso grupo exclusivo de Avantelovers no WhatsApp!\n\nContato para parcerias e publis: avantemt.spfc@gmail.com\n\nAJUDE O AVANTE MEU TRICOLOR PELO APOIA-SE. AJUDE O JORNALISMO INDEPENDENTE DE QUALIDADE! CLIQUE ABAIXO:\nhttps://apoia.se/avantemeutricolor\n\nVocê já segue o AVANTE MEU TRICOLOR nas redes sociais? Siga o nosso trabalho:\n\n* X\nhttps://x.com/avantmtricolor \n\n* Canal de Whats\nhttps://whatsapp.com/channel/0029VaFC3GOF1YlbrWkyDb38\n\n* Facebook\nhttps://www.facebook.com/avantemtricolor\n\n* Blue Sky\nhttps://bsky.app/profile/avantemeutricolor.bsky.social\n\n* Instagram\nhttps://www.instagram.com/avantemeutricolor.spfc/\n",
+        "latest_video_at": "2026-08-09T00:02:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCxRPg9tBixi4XtNbFEBN_PA",
+      "external_id": "UCxRPg9tBixi4XtNbFEBN_PA",
+      "name": "Punjab Reporter",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCxRPg9tBixi4XtNbFEBN_PA",
+      "discovered_on": "2026-08-09",
+      "score": 70.19,
+      "metrics": {
+        "subscribers": 33400,
+        "total_views": 30445069,
+        "video_count": 1508,
+        "avg_views_per_video": 20189.04,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ThlBjs6YEto",
+            "title": "ਭਗਵੰਤ ਮਾਨ ਦੇ ਦਫ਼ਤਰ ਤੋਂ ਤੈਅ ਹੁੰਦੀ ਹੈ ਮੀਡੀਆ ਦੀ ਖ਼ਬਰ!  #punjabpolitics",
+            "description": "ਪੰਜਾਬ ਵਿੱਚ ਮੀਡੀਆ ਦੀ ਆਜ਼ਾਦੀ ਅਤੇ ਸਰਕਾਰ ਵੱਲੋਂ ਕਥਿਤ ਦਖ਼ਲਅੰਦਾਜ਼ੀ ਨੂੰ ਲੈ ...",
+            "published_at": "2026-08-09T04:24:50Z",
+            "url": "https://www.youtube.com/watch?v=ThlBjs6YEto"
+          }
+        ],
+        "channel_description": "ਪੰਜਾਬ ਰਿਪੋਰਟਰ (Punjab Reporter) — ਪੰਜਾਬ ਦੀ ਹਰ ਵੱਡੀ ਖ਼ਬਰ ਅਤੇ ਸਟੀਕ ਵਿਸ਼ਲੇਸ਼ਣ।\n\nਜੀ ਆਇਆਂ ਨੂੰ! 'ਪੰਜਾਬ ਰਿਪੋਰਟਰ' (@punjabreporter - ਪਹਿਲਾਂ ਨੌਰਥ ਇੰਡੀਆ ਟਾਈਮਜ਼) ਪੰਜਾਬ ਦਾ ਇੱਕ ਪ੍ਰਮੁੱਖ ਡਿਜੀਟਲ ਨਿਊਜ਼ ਪਲੇਟਫਾਰਮ ਹੈ। ਸਾਡਾ ਮਕਸਦ ਤੁਹਾਡੇ ਤੱਕ ਪੰਜਾਬ ਦੀ ਸਿਆਸਤ, ਸਮਾਜਿਕ ਮੁੱਦਿਆਂ ਅਤੇ ਜ਼ਮੀਨੀ ਹਕੀਕਤ ਨਾਲ ਜੁੜੀ ਹਰ ਛੋਟੀ-ਵੱਡੀ ਖ਼ਬਰ ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਪਹੁੰਚਾਉਣਾ ਹੈ।\n\nਅਸੀਂ ਸਿਰਫ਼ ਖ਼ਬਰਾਂ ਦਿਖਾਉਂਦੇ ਹੀ ਨਹੀਂ, ਬਲਕਿ ਨਿਰਪੱਖ ਨਿਊਜ਼ ਵਿਸ਼ਲੇਸ਼ਣ (News Analysis) ਰਾਹੀਂ ਹਰ ਸੱਚਾਈ ਨੂੰ ਪੂਰੀ ਪਾਰਦਰਸ਼ਤਾ ਨਾਲ ਤੁਹਾਡੇ ਸਾਹਮਣੇ ਲਿਆਉਂਦੇ ਹਾਂ। ਮੁੱਖ ਮੰਤਰੀ ਭਗਵੰਤ ਮਾਨ (CM Bhagwant Mann) ਅਤੇ ਆਮ ਆਦਮੀ ਪਾਰਟੀ (AAP) ਸਰਕਾਰ ਦੇ ਵੱਡੇ ਫੈਸਲਿਆਂ ਤੋਂ ਲੈ ਕੇ, ਪੰਜਾਬ ਦੀ ਸਿਆਸੀ ਹਲਚਲ, ਰਾਜਨੀਤਿਕ ਵਿਅੰਗ (Political Satire), ਅਤੇ ਲੋਕਾਂ ਦੇ ਹੱਕਾਂ ਦੀ ਬੁਲੰਦ ਆਵਾਜ਼ ਤੁਹਾਨੂੰ ਇੱਥੇ ਦੇਖਣ ਨੂੰ ਮਿਲੇਗੀ।\n\nਪੰਜਾਬ ਦੀ ਹਰ ਤਾਜ਼ਾ ਖ਼ਬਰ ਅਤੇ ਲਾਈਵ ਅਪਡੇਟਸ ਲਈ ਚੈਨਲ ਨੂੰ ਸਬਸਕ੍ਰਾਈਬ (Subscribe) ਜ਼ਰੂਰ ਕਰੋ।\n",
+        "latest_video_at": "2026-08-09T04:24:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCan3CwOJSxJOErKJyp0jHqA",
+      "external_id": "UCan3CwOJSxJOErKJyp0jHqA",
+      "name": "Darío Suarez",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCan3CwOJSxJOErKJyp0jHqA",
+      "discovered_on": "2026-08-09",
+      "score": 70.11,
+      "metrics": {
+        "subscribers": 28600,
+        "total_views": 75357982,
+        "video_count": 1972,
+        "avg_views_per_video": 38213.99,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ySqlCEEpyNA",
+            "title": "Otra vez el mismo discurso del PAN #amlo, #claudiasheinbaum, #cuartatransformación",
+            "description": "Damián Zepeda volvió a recurrir al discurso de que México vive bajo un gobierno autoritario que persigue a la oposición y ataca ...",
+            "published_at": "2026-08-08T02:00:09Z",
+            "url": "https://www.youtube.com/watch?v=ySqlCEEpyNA"
+          }
+        ],
+        "channel_description": "Apoyemos a México\nApoyando a #claudiasheinbaum \nApoyando a la #cuartatransformación \nApoyando a #amlo  \n\ndariosuarez6728@gmail.com \n\nWhatsApp 3311957170",
+        "latest_video_at": "2026-08-08T02:00:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCW9CSfmP6gEjqtOdGTD_JKw",
+      "external_id": "UCW9CSfmP6gEjqtOdGTD_JKw",
+      "name": "Conversations Among The Ruins",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCW9CSfmP6gEjqtOdGTD_JKw",
+      "discovered_on": "2026-08-09",
+      "score": 68.38,
+      "metrics": {
+        "subscribers": 54900,
+        "total_views": 9070060,
+        "video_count": 2079,
+        "avg_views_per_video": 4362.7,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "4m7NdqfMwck",
+            "title": "My Dad Believed Mainstream News Until This Happened",
+            "description": "Peter Erickson shares the exact moment he lost all faith in mainstream media. During the 2008 Georgia War, his son was ...",
+            "published_at": "2026-08-08T18:30:28Z",
+            "url": "https://www.youtube.com/watch?v=4m7NdqfMwck"
+          }
+        ],
+        "channel_description": "My father's got a brilliant mind, but he keeps it hidden away in the backwoods of Tennessee. Every Monday, Wednesday, and Friday I sit down for an hour with my old man and ask him what the hell is going on in the world. The Israeli-Palestine conflict and the Russia-Ukraine conflict are our primary topics.\n",
+        "latest_video_at": "2026-08-08T18:30:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJjeO4Dq8RJAPUOZYmFXPtg",
+      "external_id": "UCJjeO4Dq8RJAPUOZYmFXPtg",
+      "name": "The Philippines They Erased  ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJjeO4Dq8RJAPUOZYmFXPtg",
+      "discovered_on": "2026-08-09",
+      "score": 67.35,
+      "metrics": {
+        "subscribers": 15500,
+        "total_views": 4749253,
+        "video_count": 297,
+        "avg_views_per_video": 15990.75,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "rNWWZ4bPUSw",
+            "title": "The Radio That Wasn&#39;t Supposed to Exist #philippines #ww2 #censorship",
+            "description": "Learn how citizens during the WW2 Philippines occupation used a dangerous whisper network to bypass Japanese censorship.",
+            "published_at": "2026-08-09T03:30:21Z",
+            "url": "https://www.youtube.com/watch?v=rNWWZ4bPUSw"
+          }
+        ],
+        "channel_description": "The Philippines They Erased uncovers the history, culture, and heritage that were never taught in school.\n\nFrom pre-colonial Filipino civilizations to lost traditions, ancient beliefs, and suppressed stories, this channel dives into the untold past of the Philippines — before colonization reshaped its identity.\nExpect:\nHidden Filipino history\nPre-colonial Philippines & indigenous culture\nAncient civilizations & forgotten knowledge\nTruths they erased from textbooks\nThis channel is for Filipinos, history lovers, and anyone curious about who we were before we were rewritten.\n\n👉 Subscribe and rediscover the Philippines they tried to erase.\n\n",
+        "latest_video_at": "2026-08-09T03:30:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCuNoVT7vCKmPE6p6wThk5KQ",
+      "external_id": "UCuNoVT7vCKmPE6p6wThk5KQ",
+      "name": "Giuseppe Salamone",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCuNoVT7vCKmPE6p6wThk5KQ",
+      "discovered_on": "2026-08-09",
+      "score": 66.79,
+      "metrics": {
+        "subscribers": 16500,
+        "total_views": 8110643,
+        "video_count": 716,
+        "avg_views_per_video": 11327.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "S6c-Ioy8QRs",
+            "title": "CEUTA: LA PISTA CENSURATA DAI SERVI! #italia #spagna #eu #schengen #meloni #sanchez #usa #israel",
+            "description": "Attiva la campanellina e iscriviti al canale per restare aggiornato sui prossimi video. Seguimi sui miei canali: TELEGRAM: ...",
+            "published_at": "2026-08-09T09:55:14Z",
+            "url": "https://www.youtube.com/watch?v=S6c-Ioy8QRs"
+          }
+        ],
+        "channel_description": "✍️ Senza padroni\n🎓 Scienze Politiche e Relazioni internazionali\n📍 In elenco AGCOM\n",
+        "latest_video_at": "2026-08-09T09:55:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEDiE4_WZBXsN5qpGPjLIsg",
+      "external_id": "UCEDiE4_WZBXsN5qpGPjLIsg",
+      "name": "देशकाल प्लस - Dr. Mukesh Kumar",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCEDiE4_WZBXsN5qpGPjLIsg",
+      "discovered_on": "2026-08-09",
+      "score": 66.65,
+      "metrics": {
+        "subscribers": 24500,
+        "total_views": 2687434,
+        "video_count": 440,
+        "avg_views_per_video": 6107.8,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "tOYj4gUwVyw",
+            "title": "Thousands of Posts Removed? The Censorship Question",
+            "description": "Has the Modi government become increasingly unsettled by the protests at Jantar Mantar—and has that raised a bigger question ...",
+            "published_at": "2026-08-09T09:15:27Z",
+            "url": "https://www.youtube.com/watch?v=tOYj4gUwVyw"
+          }
+        ],
+        "channel_description": "देशकाल और देशकाल प्लस का निर्माण समाचार और समसामयिक विषयों पर आधारित सामग्री उपलब्ध कराने के लिए किया गया है। इसमें जाने-माने टीवी पत्रकार और एंकर डॉ. मुकेश कुमार द्वारा महत्वपूर्ण घटनाओं और ज्वलंत मुद्दों का विश्लेषण किया गया है। \n\nदेशकाल और देशकाल प्लस - फेक एनकाउंटर नामक एक काल्पनिक व्यंग्यात्मक साक्षात्कार भी उपलब्ध करा रहा है जो दर्शकों के बीच काफी लोकप्रिय है। इसके अलावा, यह साहित्यिक सामग्री भी तैयार कर रहा है जिसमें कविता और लेखकों से बातचीत शामिल है। \n\nयह मीडिया वॉच नामक एक नया कार्यक्रम शुरू करेगा जिसमें डॉ. मुकेश महत्वपूर्ण घटनाओं के मीडिया कवरेज का आलोचनात्मक विश्लेषण करेंगे। इसमें पत्रकारिता और मीडिया उद्योग के क्षेत्र में विकास पर भी चर्चा होगी। \n\nडॉ. मुकेश की छवि निष्पक्ष और निर्भीक पत्रकार की है। वे अपनी लेखनी के लिए भी जाने जाते हैं। वे एक स्थापित लेखक, शिक्षाविद और मीडिया विशेषज्ञ भी हैं। उन्होंने कई समाचार चैनल लॉन्च किए, विभिन्न समाचार चैनलों पर हजारों टीवी शो प्रस्तुत किए और कई किताबें लिखीं।\n",
+        "latest_video_at": "2026-08-09T09:15:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC6RdzW9epdjuXq5VDr1CFcw",
+      "external_id": "UC6RdzW9epdjuXq5VDr1CFcw",
+      "name": "L'Impertinent TV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC6RdzW9epdjuXq5VDr1CFcw",
+      "discovered_on": "2026-08-09",
+      "score": 64.75,
+      "metrics": {
+        "subscribers": 13400,
+        "total_views": 2101076,
+        "video_count": 355,
+        "avg_views_per_video": 5918.52,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "8laRNCqY1PA",
+            "title": "Médias mainstream vs alternatifs : la censure pour seule arme #shorts",
+            "description": "Un regard critique sur la défiance envers les médias alternatifs, et pourquoi les médias traditionnels craignent la vérification des ...",
+            "published_at": "2026-08-09T06:58:40Z",
+            "url": "https://www.youtube.com/watch?v=8laRNCqY1PA"
+          }
+        ],
+        "channel_description": "Média 100% indépendant, 100% grâce à nos abonnés 💥\n\nIci, on fait ce qu’on n’a plus le droit de faire ailleurs: du journalisme libre, exigeant, et vraiment indépendant.\n\nNé de la censure pendant la crise Covid 😷, L’Impertinent s’est construit autour d’une idée simple: remettre l’information au service du public, pas des puissants.\n\n🚀 Enquêtes, entretiens exclusifs, analyses dérangeantes et voix interdites ailleurs: on couvre ce que d’autres préfèrent taire.\n\n🛎️ Abonnez-vous à notre chaîne pour nous soutenir\nEt suivez nos actus via notre newsletter gratuite: https://www.limpertinentmedia.com/newsletter\n",
+        "latest_video_at": "2026-08-09T06:58:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEfXlHVpLpG3ZYvEg5Yf7Jw",
+      "external_id": "UCEfXlHVpLpG3ZYvEg5Yf7Jw",
+      "name": "Akarshan",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCEfXlHVpLpG3ZYvEg5Yf7Jw",
+      "discovered_on": "2026-08-09",
+      "score": 63.38,
+      "metrics": {
+        "subscribers": 2360,
+        "total_views": 1608086,
+        "video_count": 45,
+        "avg_views_per_video": 35735.24,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "YmjI00ojpSc",
+            "title": "India 157 in Press Freedom. Is It Costing Us Growth?",
+            "description": "Media democracy ka fourth pillar hai. Lekin jab journalism par political, legal, economic aur social pressure badhta hai, toh sirf ...",
+            "published_at": "2026-08-08T17:11:01Z",
+            "url": "https://www.youtube.com/watch?v=YmjI00ojpSc"
+          }
+        ],
+        "channel_description": "Hi, I'm Akarshan.\n\nIndia has incredible talent, ambition, and potential. Yet many of our biggest challenges are not technological or economic. They are challenges of thinking, culture, incentives, leadership, and responsibility.\n\nOn this channel, I explore the deeper reasons behind why people behave the way they do, why societies succeed or fail, and what it takes to rebuild stronger individuals, communities, and nations.\n\nTopics include:\n• India & Society\n• Psychology & Human Behavior\n• Leadership & Power\n• Culture & Identity\n• Nation Building\n\nUnderstanding India. Rebuilding India.\n",
+        "latest_video_at": "2026-08-08T17:11:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCnN8kbIDiRGXnqgd43IqOQA",
+      "external_id": "UCnN8kbIDiRGXnqgd43IqOQA",
+      "name": "Smarty Boy ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCnN8kbIDiRGXnqgd43IqOQA",
+      "discovered_on": "2026-08-09",
+      "score": 61.79,
+      "metrics": {
+        "subscribers": 4950,
+        "total_views": 8771700,
+        "video_count": 1437,
+        "avg_views_per_video": 6104.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "iIypUQmjqIs",
+            "title": "Dance teacher &amp; Independence day 👩‍🏫🤣🏫 #shorts​ #school​ #sejalgabashorts​ #independenceday",
+            "description": "Dance teacher & Independence day ‍       #shorts​ #school​ #sejalgabashorts​ #independenceday one poor student in ...",
+            "published_at": "2026-08-09T05:58:18Z",
+            "url": "https://www.youtube.com/watch?v=iIypUQmjqIs"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-09T05:58:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCCk1CsHYrTuMsuiU9cc8PwA",
+      "external_id": "UCCk1CsHYrTuMsuiU9cc8PwA",
+      "name": "VOCES DEL LEGADO ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCCk1CsHYrTuMsuiU9cc8PwA",
+      "discovered_on": "2026-08-09",
+      "score": 61.74,
+      "metrics": {
+        "subscribers": 4850,
+        "total_views": 3216902,
+        "video_count": 525,
+        "avg_views_per_video": 6127.43,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "Kxvsfe3F0Ko",
+            "title": "🚨 LO DEJA COMO P3ND3J0 ¡LUIS CARDENAS TRAICIONA A ALAZRAKI! ADMITE QUE NO HUBO CENSURA",
+            "description": "REVELACIÓN DEVASTADORA: LA SALIDA DE LUIS CÁRDENAS DE MVS NOTICIAS DEJA EN RIDÍCULO LA CENSURA.",
+            "published_at": "2026-08-09T03:13:04Z",
+            "url": "https://www.youtube.com/watch?v=Kxvsfe3F0Ko"
+          }
+        ],
+        "channel_description": "🚨 HARFUCH CONTRAATACA 🚨\nEn un país marcado por la violencia, la corrupción y el crecimiento del crimen organizado, Harfuch Contraataca ofrece un análisis claro y directo sobre los acontecimientos que definen la seguridad en México. Aquí examinamos operativos relevantes, estrategias contra el narcotráfico, avances en inteligencia y el papel de las instituciones responsables de proteger al país. Nuestro objetivo es presentar hechos con contexto, rigor y seriedad, alejándonos del sensacionalismo y enfocándonos en información útil y verificable.\nSi buscas comprender lo que realmente ocurre detrás de los titulares y cómo impactan estas decisiones en la vida diaria de los mexicanos, este canal es tu espacio.\n📢 Suscríbete y activa la campana para recibir reportes confiables, análisis profundos y actualizaciones sobre seguridad y justicia.\nDescargo de responsabilidad: Este canal es informativo; no nos responsabilizamos por interpretaciones personales o cambios posteriores en los hechos.\n",
+        "latest_video_at": "2026-08-09T03:13:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqXdTEEtUeDJejt7kJNoePA",
+      "external_id": "UCqXdTEEtUeDJejt7kJNoePA",
+      "name": "thevault.business",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCqXdTEEtUeDJejt7kJNoePA",
+      "discovered_on": "2026-08-09",
+      "score": 59.27,
+      "metrics": {
+        "subscribers": 2400,
+        "total_views": 2018355,
+        "video_count": 383,
+        "avg_views_per_video": 5269.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "HHHprJYNYqE",
+            "title": "Foreign countries are controlling American Social Media. | Alex Bruesewitz",
+            "description": "Alexander William Bruesewitz (born March 12, 1997) is an American political consultant. He is the co-founder and chief executive ...",
+            "published_at": "2026-08-08T18:00:16Z",
+            "url": "https://www.youtube.com/watch?v=HHHprJYNYqE"
+          }
+        ],
+        "channel_description": "The leading source for all things business, motivation , & news. Don't forget to subscribe to not miss anything!\n📩info@thevault.media\n",
+        "latest_video_at": "2026-08-08T18:00:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOlFd183qkqmPIpPHpczBNQ",
+      "external_id": "UCOlFd183qkqmPIpPHpczBNQ",
+      "name": "Rachel.Lannyy",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCOlFd183qkqmPIpPHpczBNQ",
+      "discovered_on": "2026-08-09",
+      "score": 57.83,
+      "metrics": {
+        "subscribers": 4280,
+        "total_views": 462344,
+        "video_count": 383,
+        "avg_views_per_video": 1207.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ieNtJ7v1hy0",
+            "title": "Alleged Media Censorship &amp; 2020 Election Integrity #shorts",
+            "description": "Exploring claims of intentional censorship of Donald Trump's speech by mainstream media and questioning the integrity of the ...",
+            "published_at": "2026-08-08T13:04:25Z",
+            "url": "https://www.youtube.com/watch?v=ieNtJ7v1hy0"
+          }
+        ],
+        "channel_description": "Hey!  My name is Rachel, and I'm a Witch 🧙🏻 \nI investigate rabbit holes with dowsing rods,\n& I pull collective tarot readings.\nCome join the party! 🎉",
+        "latest_video_at": "2026-08-08T13:04:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCBsTgaKi9f9fiMpfd0imtBw",
+      "external_id": "UCBsTgaKi9f9fiMpfd0imtBw",
+      "name": "Think with Kunal",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCBsTgaKi9f9fiMpfd0imtBw",
+      "discovered_on": "2026-08-09",
+      "score": 57.28,
+      "metrics": {
+        "subscribers": 2580,
+        "total_views": 428590,
+        "video_count": 225,
+        "avg_views_per_video": 1904.84,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "W9AqpNnPF_4",
+            "title": "Modi ji पैसे दे दो 😂",
+            "description": "A viral discussion surrounding Ravish Kumar has been gaining significant attention on social media after his comments about ...",
+            "published_at": "2026-08-08T12:15:09Z",
+            "url": "https://www.youtube.com/watch?v=W9AqpNnPF_4"
+          }
+        ],
+        "channel_description": "\nThink with Kunal | Politics • Current Affairs • News • Reactions • Documentaries 🇮🇳\n\nyour destination for powerful, thought-provoking, and engaging content on Politics, Current Affairs, Breaking News, Viral Topics, Social Issues, Reactions, Satire, Comedy, and Documentaries.\n\nOn this channel, you'll find:\n\n🔥 Breaking News & Daily News Updates\n🎯 Political Analysis & Current Affairs\n⚡ Viral & Trending Topics\n🎥 Honest Reaction Videos\n😂 Political & Social Satire / Comedy\n📖 Powerful Documentary-Style Explainers\n🌍 National & International Affairs\n🧠 Facts, Context & In-Depth Analysis\n\nNo unnecessary noise. No boring explanations. Just impactful storytelling, powerful analysis, and content that matters.\n\nSubscribe now and join thousands of viewers who want to understand what's really happening—not just what's trending !\n\nemail : ogtuber1@gmail.com",
+        "latest_video_at": "2026-08-08T12:15:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC1voVAUgEKoRxLcJ8wTXbwQ",
       "external_id": "UC1voVAUgEKoRxLcJ8wTXbwQ",

@@ -2,19 +2,393 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-08T10:55:34Z",
-  "new_this_run": 20,
-  "total_influencers": 785,
+  "updated_at": "2026-08-09T10:56:55Z",
+  "new_this_run": 10,
+  "total_influencers": 795,
   "run_summary": {
-    "run_started_at": "2026-08-08T10:55:13Z",
-    "candidate_count": 51,
-    "existing_count": 765,
-    "selected_new_count": 20,
+    "run_started_at": "2026-08-09T10:56:34Z",
+    "candidate_count": 47,
+    "existing_count": 785,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UChxeIzexamaKP8QS81BjS_Q",
+      "external_id": "UChxeIzexamaKP8QS81BjS_Q",
+      "name": "Klinik Doctor House",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UChxeIzexamaKP8QS81BjS_Q",
+      "discovered_on": "2026-08-09",
+      "score": 71.64,
+      "metrics": {
+        "subscribers": 28900,
+        "total_views": 9662056,
+        "video_count": 201,
+        "avg_views_per_video": 48069.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "SuriBjhR7KA",
+            "title": "Kenapa Growth Hormone Kita Berhenti Diproduksi Sejak Usia 30? Ini yang Bisa Dilakukan",
+            "description": "Growth hormone kita mulai menurun sejak usia 30-an, dan ini berdampak langsung ke massa otot, tulang, sampai elastisitas kulit.",
+            "published_at": "2026-08-09T04:00:29Z",
+            "url": "https://www.youtube.com/watch?v=SuriBjhR7KA"
+          }
+        ],
+        "channel_description": "THE DOCTOR HOUSE⁣⁣⁣⁣⁣⁣ - Lifestyle Clinic\n⁣⁣⁣⁣⁣⁣\nRuko Prominence Blok 38F No. 6\nAlam Sutera, Kota Tangerang⁣⁣⁣⁣⁣\n\nInformasi dan appointment:⁣\n0878-9090-2827\n",
+        "latest_video_at": "2026-08-09T04:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC6Lez526DY5_5XWUwrj9HuA",
+      "external_id": "UC6Lez526DY5_5XWUwrj9HuA",
+      "name": "FitDad",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC6Lez526DY5_5XWUwrj9HuA",
+      "discovered_on": "2026-08-09",
+      "score": 67.83,
+      "metrics": {
+        "subscribers": 13800,
+        "total_views": 1217466,
+        "video_count": 52,
+        "avg_views_per_video": 23412.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "f8aYsyuNRp0",
+            "title": "Dads Who Don&#39;t Want To Spend Hours In The Gym. One Kettlebell. 30 Min EMOM.",
+            "description": "Follow the link below for a FREE week of kettlebell training from my 8-week program. Get A Free Week Of Kettlebell Training On ...",
+            "published_at": "2026-08-09T04:09:34Z",
+            "url": "https://www.youtube.com/watch?v=f8aYsyuNRp0"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-09T04:09:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCezcjoQyQzDt5qLGhFyaj_A",
+      "external_id": "UCezcjoQyQzDt5qLGhFyaj_A",
+      "name": "Valentina Mishina - Russian Machine",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCezcjoQyQzDt5qLGhFyaj_A",
+      "discovered_on": "2026-08-09",
+      "score": 65.81,
+      "metrics": {
+        "subscribers": 20900,
+        "total_views": 2354185,
+        "video_count": 455,
+        "avg_views_per_video": 5174.03,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "tP-pmc6TWGQ",
+            "title": "РАЗБИРАЮ БИОХАКИНГ РОНАЛДУ И ХОЛАННА КАК ТРЕНЕР",
+            "description": "Беллингем, Холанд, Ямаль, Роналду — у каждого свой путь, своя рутина и своя цена результата. После ЧМ-2026 я ...",
+            "published_at": "2026-08-08T16:00:13Z",
+            "url": "https://www.youtube.com/watch?v=tP-pmc6TWGQ"
+          }
+        ],
+        "channel_description": "No Brain No Gain. Knowledge is power! \n\nMy Instagram @Mishina_Valentina_IFBB_Pro\nMy Telegram @Valentina_Mishina_Pro\n",
+        "latest_video_at": "2026-08-08T16:00:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC_RXlY2PeQvw6ZYielJ-qqQ",
+      "external_id": "UC_RXlY2PeQvw6ZYielJ-qqQ",
+      "name": "The Movement Code ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC_RXlY2PeQvw6ZYielJ-qqQ",
+      "discovered_on": "2026-08-09",
+      "score": 57.67,
+      "metrics": {
+        "subscribers": 11600,
+        "total_views": 1386,
+        "video_count": 5,
+        "avg_views_per_video": 277.2,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "LxMkBsXKWjU",
+            "title": "What Does Being Truly Fit Mean? 👀 | The Movement Code #shorts #fitness",
+            "description": "What does it really mean to be fit? It's not just about looking strong. It's strength, movement, endurance, recovery and nutrition ...",
+            "published_at": "2026-08-09T05:42:28Z",
+            "url": "https://www.youtube.com/watch?v=LxMkBsXKWjU"
+          }
+        ],
+        "channel_description": "Welcome to The Movement Code 🖤\n\nStrength. Mobility. Fitness.\n\nWe break down fitness into practical, useful ideas you can actually apply.\n\n🏋️ Strength training\n🧘 Mobility & movement\n🔥 Workouts\n🥗 Nutrition\n🧠 Fitness science\n🐾 Functional movement & Animal Flow\n💭 Mindset & consistency\n\nNo extreme challenges. No crash diets. No fitness nonsense.\n\nJust smarter training, better movement and a stronger body.\n\nTrain smart. Move better. Get stronger.\n\nSubscribe and become part of The Movement Code.",
+        "latest_video_at": "2026-08-09T05:42:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCALzatxRamV6ejyJm93eq1w",
+      "external_id": "UCALzatxRamV6ejyJm93eq1w",
+      "name": "Femme Fitale Fit Club TV",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCALzatxRamV6ejyJm93eq1w",
+      "discovered_on": "2026-08-09",
+      "score": 56.22,
+      "metrics": {
+        "subscribers": 4500,
+        "total_views": 554169,
+        "video_count": 1033,
+        "avg_views_per_video": 536.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "csGe93L2Pzo",
+            "title": "Functional Fitness For Women 60 and Up #seniorfitness #functionalfitness",
+            "description": "Hey friends we are back with more functional fitness. Here is a practical workout you can perform to improve strength, balance and ...",
+            "published_at": "2026-08-09T00:16:57Z",
+            "url": "https://www.youtube.com/watch?v=csGe93L2Pzo"
+          }
+        ],
+        "channel_description": "Hi!!  I’m Coach Dee  and a certified personal trainer.  I help women 40 and up live healthier, fitter and fuller lives.  If you are going through perimenopause, menopause or post-menopause this is the channel for you as I share workouts for women and tips to keep you  strong, mobile and independent during the aging process.  I also include some fun line dances in there for you to learn to keep you active.  \n\nTry my free 7-day kickstarter program today:\n\nhttps://www.trainerize.me/checkout/femmefitalefitclub/Diatta.Harris?planGUID=723d4dd7ceda4719a4d77039f27776c5\n\nThank you for stopping by and subscribing.  \n\n#menopausecoach #healthcoach #wellnesscoach #aginggracefully #movement #functionalfitness",
+        "latest_video_at": "2026-08-09T00:16:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYrTzOIQ9Epv9AznrxT5AXA",
+      "external_id": "UCYrTzOIQ9Epv9AznrxT5AXA",
+      "name": "iTTreasure",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCYrTzOIQ9Epv9AznrxT5AXA",
+      "discovered_on": "2026-08-09",
+      "score": 55.11,
+      "metrics": {
+        "subscribers": 3080,
+        "total_views": 55007,
+        "video_count": 101,
+        "avg_views_per_video": 544.62,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "FPMiQKQOBDg",
+            "title": "The Secret &quot;2026 Formula&quot; for Ultimate Longevity",
+            "description": "iTTreasure The Secret \"2026 Formula\" for Ultimate Longevity Description In this comprehensive 39-minute masterclass, we unveil ...",
+            "published_at": "2026-08-09T09:13:19Z",
+            "url": "https://www.youtube.com/watch?v=FPMiQKQOBDg"
+          }
+        ],
+        "channel_description": "Welcome to iTTreasure – Where Science Meets Longevity!\n\nWe   have important scientific videos related to HBOT, AI, EV, Battery Energy Storage, BMS, BESS, PCS, Inverters, High Voltage Box, EMS, Engineering, how to, Chimp-pig Model with DNA analysis to explain diverse humans like Denisovans, Neanderthals, Homo-sapiens, blacks, whites, Indians and Chinese.\n\nWe uncover powerful, research-backed solutions for anti-aging, regeneration, and disease reversal—without surgery.\n\n🧬 Explore cutting-edge therapies like Hyperbaric Oxygen Therapy (HBOT), stem cell activation, and natural biohacks that can help regenerate organs, boost longevity, and stop age-related decline.\n\n🔔 One click could change your health forever and learn new Technologies.\n\n",
+        "latest_video_at": "2026-08-09T09:13:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:1c8869ea34b458c28df4",
+      "external_id": "1c8869ea34b458c28df4",
+      "name": "PratyushRT",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Ccq8cqoXYfsRv6AKe/glimpses-of-superintelligence",
+      "discovered_on": "2026-08-09",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/PratyushRT"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Glimpses of superintelligence"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a0be4cd78bb3c91694cc",
+      "external_id": "a0be4cd78bb3c91694cc",
+      "name": "Jakub Halmeš",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/XzfseL3RgaZ4xJFKW/ai-escaped-its-sandbox-what-does-that-actually-mean",
+      "discovered_on": "2026-08-09",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/lifeofjer"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "'AI Escaped Its Sandbox' — What Does That Actually Mean?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:58510cded562ed999b8b",
+      "external_id": "58510cded562ed999b8b",
+      "name": "Marc Carauleanu",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/qLe7T2njnpGYt5D7a/inducing-self-other-overlap-with-sft-reduces-deception-at-2",
+      "discovered_on": "2026-08-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Inducing self-other overlap with SFT reduces deception at scale, but generalization remains uneven"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f90f089f3e20cc39833e",
+      "external_id": "f90f089f3e20cc39833e",
+      "name": "LoopGameScrollMonkey",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/u6ajuvLsixJLyMdPw/why-low-fertility-rates-are-a-positive-feedback-loop",
+      "discovered_on": "2026-08-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Why Low Fertility Rates Are a Positive Feedback Loop"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCghkghSo3dJbr2YQTxHq4Ng",
       "external_id": "UCghkghSo3dJbr2YQTxHq4Ng",
