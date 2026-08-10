@@ -2,19 +2,559 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-09T10:56:55Z",
-  "new_this_run": 10,
-  "total_influencers": 795,
+  "updated_at": "2026-08-10T11:28:27Z",
+  "new_this_run": 15,
+  "total_influencers": 810,
   "run_summary": {
-    "run_started_at": "2026-08-09T10:56:34Z",
-    "candidate_count": 47,
-    "existing_count": 785,
-    "selected_new_count": 10,
+    "run_started_at": "2026-08-10T11:28:05Z",
+    "candidate_count": 46,
+    "existing_count": 795,
+    "selected_new_count": 15,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCykK8RZIl8BkoiTGIbufbjQ",
+      "external_id": "UCykK8RZIl8BkoiTGIbufbjQ",
+      "name": "John Camacho",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCykK8RZIl8BkoiTGIbufbjQ",
+      "discovered_on": "2026-08-10",
+      "score": 64.63,
+      "metrics": {
+        "subscribers": 16000,
+        "total_views": 440546,
+        "video_count": 101,
+        "avg_views_per_video": 4361.84,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "BAaJlF6nvHU",
+            "title": "Camacho Iron Discipline, Grass-Fed Hydrolyzed Collagen Peptides",
+            "description": "me, sipping on vibes: Camacho Iron Discipline, Grass-Fed Hydrolyzed Collagen Peptides ✨   lowkey iconic, very calm chaos ...",
+            "published_at": "2026-08-09T12:39:40Z",
+            "url": "https://www.youtube.com/watch?v=BAaJlF6nvHU"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-09T12:39:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC-WJp10b0cInZm2q6DnbRlw",
+      "external_id": "UC-WJp10b0cInZm2q6DnbRlw",
+      "name": "Meme & Melody",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC-WJp10b0cInZm2q6DnbRlw",
+      "discovered_on": "2026-08-10",
+      "score": 62.93,
+      "metrics": {
+        "subscribers": 2280,
+        "total_views": 3331854,
+        "video_count": 109,
+        "avg_views_per_video": 30567.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "r5X9R6pQ77E",
+            "title": "10 Fitness Tests That Reveal How Fit You REALLY Are 💀🔥",
+            "description": "Think you're actually fit? Try these 10 real-world fitness tests and find out where you REALLY stand. Description Think ...",
+            "published_at": "2026-08-10T05:01:01Z",
+            "url": "https://www.youtube.com/watch?v=r5X9R6pQ77E"
+          }
+        ],
+        "channel_description": "Where music meets memes and every beat comes with a smile! From hilarious meme edits and relatable comedy to guitar covers, trending songs, musical reels, and creative entertainment—this is your daily dose of laughter and melody.\n\n✨ What you’ll find here:\n• Funny memes & viral edits 😂\n• Music & guitar content 🎸\n• Trending reels & shorts 🎬\n• Comedy sketches 🤣\n• Creative entertainment 🎭\n• Feel-good vibes every day ❤️\n\nIf you love memes, music, comedy, guitar, trending videos, viral shorts, and entertainment, you’re in the right place!\n\n🔔 Subscribe to Meme & Melody and join our growing community. New videos and Shorts uploaded regularly!\n\nKeywords: memes, funny videos, comedy, music, guitar, viral reels, trending shorts, meme edits, entertainment, hilarious moments, music lovers, guitar covers, viral content, funny shorts, meme compilation.",
+        "latest_video_at": "2026-08-10T05:01:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYur-0JccshlS90RO2ZfuUg",
+      "external_id": "UCYur-0JccshlS90RO2ZfuUg",
+      "name": "The Brave Table Podcast by Dr. Neeta Bhushan",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCYur-0JccshlS90RO2ZfuUg",
+      "discovered_on": "2026-08-10",
+      "score": 60.57,
+      "metrics": {
+        "subscribers": 14000,
+        "total_views": 1076982,
+        "video_count": 1328,
+        "avg_views_per_video": 810.98,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "hPJi3B7KnkU",
+            "title": "The Japanese Wellness Secret - Outperforms Peptides, Ice Baths &amp;  Every Support You&#39;re Taking | Taka",
+            "description": "What if Japan has been sitting on one of the greatest longevity secrets of our time — and the West is only now waking up to it?",
+            "published_at": "2026-08-10T10:00:09Z",
+            "url": "https://www.youtube.com/watch?v=hPJi3B7KnkU"
+          }
+        ],
+        "channel_description": "Welcome to The Brave Table Podcast with Dr. Neeta Bhushan.\n\nA place for honest conversations about healing, emotional wellness, resilience, relationships, and personal growth. Hosted by Dr. Neeta Bhushan, a world-renowned emotional health educator, bestselling author, and transformation expert, this podcast explores the real stories and lessons that help us navigate life’s challenges with courage and clarity.\n\nJoin inspiring conversations with thought leaders, entrepreneurs, experts, and change-makers as we talk about mental health, self-worth, mindset, leadership, trauma healing, confidence, and creating a more meaningful life.\n\nWhether you are rebuilding, growing, or searching for deeper connection, The Brave Table is here to help you become stronger, more resilient, and the bravest version of yourself.\n\nSubscribe and join the table for conversations that inspire real change.\n \n",
+        "latest_video_at": "2026-08-10T10:00:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC6uK2wuelCnCnw3F4C1vrvw",
+      "external_id": "UC6uK2wuelCnCnw3F4C1vrvw",
+      "name": "Heinz Senior",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC6uK2wuelCnCnw3F4C1vrvw",
+      "discovered_on": "2026-08-10",
+      "score": 60.39,
+      "metrics": {
+        "subscribers": 6380,
+        "total_views": 719092,
+        "video_count": 202,
+        "avg_views_per_video": 3559.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "kKYZ8riM1zk",
+            "title": "Péptidos + Nutrición | Sesión Zoom en Vivo – Optimización Nutricional",
+            "description": "Sesión especial en vivo sobre péptidos, nutrición y optimización nutricional. En esta sesión realizada el 8 de agosto de 2026, ...",
+            "published_at": "2026-08-08T20:00:06Z",
+            "url": "https://www.youtube.com/watch?v=kKYZ8riM1zk"
+          }
+        ],
+        "channel_description": "HEINZ’S P3AK DAY LIFESTYLE PROGRAM OFFERS:\n✅ MEAL PLANS\nTailored made nutrition programs. You can check them in the app or download them weekly.\n✅ GROCERY LIST\nYou will receive your shopping list weekly directly to your email.\n✅ WORKOUTS\nYou will get daily updated workouts with video guidance to help you understand each exercise and learn its proper form.\n✅ ACCOUNTABILITY\nWe will communicate through the app, and upload progress data and updates, all in your hand.\n✅ REPORTS\nWithin the app, you will find all your progress reports, goals, etc.\n✅ GOALS\nWe will define your goals together and achieve them step by step.\n",
+        "latest_video_at": "2026-08-08T20:00:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCiZrLPXYdtvlVdgU2gUnpgQ",
+      "external_id": "UCiZrLPXYdtvlVdgU2gUnpgQ",
+      "name": "oral peptides",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCiZrLPXYdtvlVdgU2gUnpgQ",
+      "discovered_on": "2026-08-10",
+      "score": 59.74,
+      "metrics": {
+        "subscribers": 3760,
+        "total_views": 2885824,
+        "video_count": 826,
+        "avg_views_per_video": 3493.73,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "uffXyJGIkrc",
+            "title": "KPV Peptide:  Inflammation &amp; Gut Health Benefits",
+            "description": "Get the peptide cheat sheet: https://sethkardosofficial.com/cheat-sheet Discover KPV, a peptide transforming gut health and ...",
+            "published_at": "2026-08-10T03:03:53Z",
+            "url": "https://www.youtube.com/watch?v=uffXyJGIkrc"
+          }
+        ],
+        "channel_description": "👉 Free access to peptide resources below ",
+        "latest_video_at": "2026-08-10T03:03:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCyEgpapfTg0gPhw8q39ajeA",
+      "external_id": "UCyEgpapfTg0gPhw8q39ajeA",
+      "name": "Drew Hopper",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCyEgpapfTg0gPhw8q39ajeA",
+      "discovered_on": "2026-08-10",
+      "score": 59.44,
+      "metrics": {
+        "subscribers": 7840,
+        "total_views": 1428098,
+        "video_count": 1319,
+        "avg_views_per_video": 1082.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "JAeFMKerYcU",
+            "title": "Wake Up &amp; Warm Up the Body | Gentle Functional Fitness, Follow Along",
+            "description": "Gentle morning movement to wake up and warm up the body, follow along functional fitness to build a stronger, more mobile body ...",
+            "published_at": "2026-08-09T18:03:26Z",
+            "url": "https://www.youtube.com/watch?v=JAeFMKerYcU"
+          }
+        ],
+        "channel_description": "Helping you build strength, balance, and energy through daily, low-impact movement. This channel is all about consistency.\n\nFind beginner-friendly, no-equipment workouts you can do at home, short strength sessions, and simple daily movement habits to help you move with less pain, build confidence, and feel stronger every day.\n\nWant more support? Book a free 1-on-1 discovery call:\nhttps://calendly.com/drewhopper/discoverycall\n\nJoin the community for daily workouts:\nhttps://www.skool.com/intentional-living-community-3317/about?ref=8b3013cf6eab4ddbb8f323adb76fa12a\n\n\n\n\n\n\n\n\n\n \n\n",
+        "latest_video_at": "2026-08-09T18:03:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCF3CFcA-8aXgjwYQWTdf99w",
+      "external_id": "UCF3CFcA-8aXgjwYQWTdf99w",
+      "name": "Iron Addicted",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCF3CFcA-8aXgjwYQWTdf99w",
+      "discovered_on": "2026-08-10",
+      "score": 57.15,
+      "metrics": {
+        "subscribers": 3810,
+        "total_views": 549165,
+        "video_count": 529,
+        "avg_views_per_video": 1038.12,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "9VVfCqEMO5E",
+            "title": "ENTRENA 10 min x dia +40",
+            "description": "Los ejercicios son muy importantes para todos nosotros y para nuestra salud. En este sshort te digo porque el hacer ejercicio ...",
+            "published_at": "2026-08-10T11:16:34Z",
+            "url": "https://www.youtube.com/watch?v=9VVfCqEMO5E"
+          }
+        ],
+        "channel_description": "Mi nombre es Jose Avila. Soy una persona sencilla que aplica conocimientos adquiridos en la vida y sobre todo en mis entrenamientos para motivar a otros a alcanzar sus objetivos. ",
+        "latest_video_at": "2026-08-10T11:16:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCgGua6f8pxYO2EU6-LHz0MQ",
+      "external_id": "UCgGua6f8pxYO2EU6-LHz0MQ",
+      "name": "JoshMcGeesr",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCgGua6f8pxYO2EU6-LHz0MQ",
+      "discovered_on": "2026-08-10",
+      "score": 55.09,
+      "metrics": {
+        "subscribers": 2400,
+        "total_views": 1832925,
+        "video_count": 2384,
+        "avg_views_per_video": 768.84,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "EYhrzsKhPDE",
+            "title": "Your 40s are the best time to build durability #functional #fitness #strengthtraining",
+            "description": "It is not too late to start rebuilding physical durability, regardless of your age. Many people wait for a return to their past fitness ...",
+            "published_at": "2026-08-09T23:00:38Z",
+            "url": "https://www.youtube.com/watch?v=EYhrzsKhPDE"
+          }
+        ],
+        "channel_description": "Helping adults 40+ build strength, preserve muscle, move pain-free, and stay independent for life. New workouts, mobility, and longevity training every week.\n\nThis channel is built for people dealing with:\n\nback pain\nshoulder pain\nmobility limitations\nold injuries\nstiff joints\nlong work hours\nbusy schedules\n\nYou’ll learn how to build strength, conditioning, muscle, and durability without destroying your body in the process.\n\nHere you’ll find:\n\nExercise swaps for painful movements\nfunctional strength training\njoint-friendly workouts\nmobility-focused strength routines\nfunctional fitness exercises\nfunctional workout programs\npain-aware training strategies\ndurable athlete training systems\n\n",
+        "latest_video_at": "2026-08-09T23:00:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:088c8a236b061e8a7f62",
+      "external_id": "088c8a236b061e8a7f62",
+      "name": "casimirwypyski",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/B5HANRTfbJeRBfBFa/ai-amplified-democratic-backsliding-an-exploration",
+      "discovered_on": "2026-08-10",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "AI-amplified democratic backsliding: an exploration"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:fe4e248b0713d1703fb0",
+      "external_id": "fe4e248b0713d1703fb0",
+      "name": "Zheng Jiyong",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/why-china-worries-about-north-korea",
+      "discovered_on": "2026-08-10",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Why China Worries About North Korea"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:22ea1b84ef01eaa97cc3",
+      "external_id": "22ea1b84ef01eaa97cc3",
+      "name": "Ruben Castaing",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Wty5mcDBEmypap8o2/how-to-be-an-ai-safety-research-engineer",
+      "discovered_on": "2026-08-10",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How to be an AI safety research engineer"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:0c5bd35007833b317dfb",
+      "external_id": "0c5bd35007833b317dfb",
+      "name": "Kieron Kretschmar",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/gvNYAHcWiezZs8QvD/is-eval-gaming-downstream-of-verbalized-eval-awareness-not",
+      "discovered_on": "2026-08-10",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Is Eval Gaming Downstream of Verbalized Eval Awareness? Not when it's reflexive."
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:792f7aab066c90f049ff",
+      "external_id": "792f7aab066c90f049ff",
+      "name": "Jack Hopkins",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/7iKpyEMxTvxrTKxeT/overthinking-amplifying-reasoning-weights-makes-models",
+      "discovered_on": "2026-08-10",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Overthinking: Amplifying reasoning weights makes models reveal their secrets"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:85365a9aa98ee48a7dd4",
+      "external_id": "85365a9aa98ee48a7dd4",
+      "name": "Elijah",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/d8YYEXBD8C7LNFTSZ/how-to-get-answers-to-questions-that-confuse-you-maybe",
+      "discovered_on": "2026-08-10",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How to get answers to questions that confuse you (maybe)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:08a3b08b13a033480f7f",
+      "external_id": "08a3b08b13a033480f7f",
+      "name": "Chapin Lenthall-Cleary",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/n8B2bxYhkjhjzyrgh/the-agentic-clusterfuck",
+      "discovered_on": "2026-08-10",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Agentic Clusterfuck"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UChxeIzexamaKP8QS81BjS_Q",
       "external_id": "UChxeIzexamaKP8QS81BjS_Q",

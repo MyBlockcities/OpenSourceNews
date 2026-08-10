@@ -2,19 +2,489 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-09T10:56:51Z",
-  "new_this_run": 6,
-  "total_influencers": 56,
+  "updated_at": "2026-08-10T11:28:23Z",
+  "new_this_run": 10,
+  "total_influencers": 66,
   "run_summary": {
-    "run_started_at": "2026-08-09T10:56:34Z",
-    "candidate_count": 9,
-    "existing_count": 50,
-    "selected_new_count": 6,
+    "run_started_at": "2026-08-10T11:28:05Z",
+    "candidate_count": 14,
+    "existing_count": 56,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCTJXMoehEPDTsRwme-IpbMQ",
+      "external_id": "UCTJXMoehEPDTsRwme-IpbMQ",
+      "name": "Chris Duffin",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCTJXMoehEPDTsRwme-IpbMQ",
+      "discovered_on": "2026-08-10",
+      "score": 78.18,
+      "metrics": {
+        "subscribers": 93500,
+        "total_views": 13688403,
+        "video_count": 1822,
+        "avg_views_per_video": 7512.84,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "1C0vd8gfsAI",
+            "title": "How to Layer Peptides &amp; Shockwave Therapy for Superhuman Healing",
+            "description": "Can you unlock superhuman healing by combining shockwave therapy with targeted peptides? In this deep dive, Dr. Gerald ...",
+            "published_at": "2026-08-09T19:37:05Z",
+            "url": "https://www.youtube.com/watch?v=1C0vd8gfsAI"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "1C0vd8gfsAI",
+            "title": "How to Layer Peptides &amp; Shockwave Therapy for Superhuman Healing",
+            "description": "Can you unlock superhuman healing by combining shockwave therapy with targeted peptides? In this deep dive, Dr. Gerald ...",
+            "published_at": "2026-08-09T19:37:05Z",
+            "url": "https://www.youtube.com/watch?v=1C0vd8gfsAI"
+          }
+        ],
+        "channel_description": "ENGINEERED WITH PURPOSE\nChris Duffin is a leading scientific advisor, award-winning inventor, and expert in human biomechanics, known for engineering human performance from the ground up.\n\nHis work is built on precision, innovation, and real world application.\nwww.chrisduffin.com\n",
+        "latest_video_at": "2026-08-09T19:37:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCRVT1XOSdM4DhTUdA7Y9OSw",
+      "external_id": "UCRVT1XOSdM4DhTUdA7Y9OSw",
+      "name": "Joshua Smith - GSD Mode",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCRVT1XOSdM4DhTUdA7Y9OSw",
+      "discovered_on": "2026-08-10",
+      "score": 69.14,
+      "metrics": {
+        "subscribers": 31400,
+        "total_views": 2915534,
+        "video_count": 2147,
+        "avg_views_per_video": 1357.96,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://instagram.com/joshuasmithgsd"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "56AeJ6nH5SM",
+            "title": "Peptide Update - Q&amp;A: High Dose BPC-157 For Muscle Tears, GHK-Cu, DSIP, Retatrutide &amp; More...",
+            "description": "Check Out BioVitalis Peptides: https://biovitalis.org/ (Use Promo Code: GSD10 for 10% off) Check Out Jim Brown's Substack Blog: ...",
+            "published_at": "2026-08-09T13:22:18Z",
+            "url": "https://www.youtube.com/watch?v=56AeJ6nH5SM"
+          }
+        ],
+        "channel_description": "🡆 Want To Learn More About Partnering With Me at eXp (Get all my Training & Coaching For Free) Schedule a Zero Pressure, Fully Confidential Zoom Call with me: https://go.oncehub.com/PartnerwithJoshuaSmithGSD\n    \n🡆 Check Out More Content + Free Resources: https://www.gsdmode.com/\n\n🡆 Connect With Me On Social Media:\nFacebook: https://www.facebook.com/JoshuaSmithGSD\nInstagram: https://instagram.com/joshuasmithgsd/\n",
+        "latest_video_at": "2026-08-09T13:22:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCekD0vi0biqmC2HegotdN1g",
+      "external_id": "UCekD0vi0biqmC2HegotdN1g",
+      "name": "OleHenriksen",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCekD0vi0biqmC2HegotdN1g",
+      "discovered_on": "2026-08-10",
+      "score": 65.85,
+      "metrics": {
+        "subscribers": 12400,
+        "total_views": 8945883,
+        "video_count": 819,
+        "avg_views_per_video": 10922.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "F5VCGNUyKZE",
+            "title": "Want a taste of @cphfw? Try Pout Preserve, the peptide treatment on everyone&#39;s lips. ​",
+            "description": "With long-lasting hydration and a range of shades and scents, there's a reason it kept coming up in the top three! ​",
+            "published_at": "2026-08-09T17:06:53Z",
+            "url": "https://www.youtube.com/watch?v=F5VCGNUyKZE"
+          }
+        ],
+        "channel_description": "OLEHENRIKSEN Skincare is founded on loving yourself AND your skin. We are inspired by our effervescent Danish founder, Ole Henriksen, who first learned how to transform his own skin, then took that expertise to Hollywood to bring results—and joy—to his celebrity clientele.",
+        "latest_video_at": "2026-08-09T17:06:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC28pQS7vRVO2X0tnFxzkgCQ",
+      "external_id": "UC28pQS7vRVO2X0tnFxzkgCQ",
+      "name": "VALOR Media Network",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC28pQS7vRVO2X0tnFxzkgCQ",
+      "discovered_on": "2026-08-10",
+      "score": 65.79,
+      "metrics": {
+        "subscribers": 54400,
+        "total_views": 2685244,
+        "video_count": 1997,
+        "avg_views_per_video": 1344.64,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "w66QTHq9XUo",
+            "title": "Why is Blood Flow the Key to Healing Injuries? | Men Talking Mindfulness",
+            "description": "BPC157 #Healing #Shorts.",
+            "published_at": "2026-08-09T17:02:54Z",
+            "url": "https://www.youtube.com/watch?v=w66QTHq9XUo"
+          }
+        ],
+        "channel_description": "At VALOR Media Network, our mission is to empower voices that resonate with men, fostering a culture of authenticity, strength, and civic responsibility.\n\n",
+        "latest_video_at": "2026-08-09T17:02:54Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCOecAik89KwRnS_93nG3Fiw",
+      "external_id": "UCOecAik89KwRnS_93nG3Fiw",
+      "name": "EESystem™",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCOecAik89KwRnS_93nG3Fiw",
+      "discovered_on": "2026-08-10",
+      "score": 63.76,
+      "metrics": {
+        "subscribers": 29500,
+        "total_views": 571082,
+        "video_count": 460,
+        "avg_views_per_video": 1241.48,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "8upS65VwxQQ",
+            "title": "The GLP-1 Mistake Nobody Talks About | Everything&#39;s Energy Ep-49",
+            "description": "Meet the EE System—called a \"miracle device\" for a reason. Learn more at https://www.eesystem.com/ Michael and Roland get ...",
+            "published_at": "2026-08-09T14:15:42Z",
+            "url": "https://www.youtube.com/watch?v=8upS65VwxQQ"
+          }
+        ],
+        "channel_description": "The Energy Enhancement System™ (EESystem™) generates multiple bio-active life enhancing energy fields, including “scalar waves” which can allow cell regeneration, improve immune function, provide relief from pain, detoxify the body, elevate moods, and assist in balancing right and left hemispheres of the brain to increase energy levels.\n\nThis stunning technology, developed over 20 years by Dr. Sandra Rose Michael, DNM, DCSJl, uses custom-installed computers to generate morphogenic energy fields that can promote healing. The EESystem™ has been recognized at dozens of medical, scientific and professional conferences around the world. The EESystem™ combines mind, body, spirit and science to help you achieve peak performance and reach higher states of health, consciousness and self-actualization. The future is here.\n\n\n\n",
+        "latest_video_at": "2026-08-09T14:15:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCpmkay9AwlUTM8z8VE-X8Pw",
+      "external_id": "UCpmkay9AwlUTM8z8VE-X8Pw",
+      "name": "Daniel Enderli",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCpmkay9AwlUTM8z8VE-X8Pw",
+      "discovered_on": "2026-08-10",
+      "score": 62.41,
+      "metrics": {
+        "subscribers": 2010,
+        "total_views": 356224,
+        "video_count": 313,
+        "avg_views_per_video": 1138.1,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "AsucbZj_CSo",
+            "title": "Der Wolverine-Stack: Was BPC-157 &amp; TB-500 wirklich können",
+            "description": "WOLVERINE STACK – BPC-157 + TB-500: Hype oder steckt mehr dahinter?** Der sogenannte **Wolverine Stack** aus ...",
+            "published_at": "2026-08-09T16:32:29Z",
+            "url": "https://www.youtube.com/watch?v=AsucbZj_CSo"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "AsucbZj_CSo",
+            "title": "Der Wolverine-Stack: Was BPC-157 &amp; TB-500 wirklich können",
+            "description": "WOLVERINE STACK – BPC-157 + TB-500: Hype oder steckt mehr dahinter?** Der sogenannte **Wolverine Stack** aus ...",
+            "published_at": "2026-08-09T16:32:29Z",
+            "url": "https://www.youtube.com/watch?v=AsucbZj_CSo"
+          }
+        ],
+        "channel_description": "💥 Willkommen bei Daniel Enderli – deinem Guide für Gesundheit, Biohacking & Longevity!\nHier dreht sich alles um Peptide, Biohacking, optimaler Gesundheit und Longevity.\n\nErfahre, wie du mit Biohacking deine Leistung, Gesundheit & Energie maximierst – ohne Mainstream-Floskeln, dafür mit echtem Wissen.\n\nAuf diesem Kanal dreht sich alles um:\n🔬 Peptide & moderne Wirkstoffe\n🧠 Biohacking für maximale Performance\n💪 Langlebigkeit & gesunde Zellalterung (Longevity)\n🔥 Strategien zur Regeneration, Hormonbalance & Energieoptimierung\n\nIch zeige dir, wie du mit fundierten Ansätzen, Selbstexperimenten & den neuesten Tools deine Gesundheit nachhaltig optimierst.\n\n📩 Für persönliche Fragen/Coaching: Schreib mir auf Instagram [@daniel_enderli_]\n🔔 Neue Videos jede Woche – abonnieren & Glocke aktivieren!\n\n💬 Hinweis: Ich bin kein Arzt. Alle Inhalte dienen der Information & Unterhaltung. Verwende keine Substanzen ohne ärztliche Rücksprache.\n\n#health #peptide #biohacking #gesundheit #longevity #antiaging \n",
+        "latest_video_at": "2026-08-09T16:32:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC38o662zPmbASMUdRT4Gw2Q",
+      "external_id": "UC38o662zPmbASMUdRT4Gw2Q",
+      "name": "Wilhelm",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC38o662zPmbASMUdRT4Gw2Q",
+      "discovered_on": "2026-08-10",
+      "score": 58.06,
+      "metrics": {
+        "subscribers": 2410,
+        "total_views": 607716,
+        "video_count": 203,
+        "avg_views_per_video": 2993.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "7-mg1kH2Ois",
+            "title": "Peptid Debatte: Tim Gabel vs. Iron Mike",
+            "description": "Tim Gabel warnt vor Peptiden wie BPC-157 und tausenden Erblindungen durch Ozempic, Iron Mike hält mit einem Faktencheck ...",
+            "published_at": "2026-08-09T15:56:45Z",
+            "url": "https://www.youtube.com/watch?v=7-mg1kH2Ois"
+          }
+        ],
+        "channel_description": "Als angehender Arzt und zertifizierter Ernährungsberater ist es mein Ziel, wertvolle Inhalte zu liefern und eine Community aufzubauen, die ein längeres und gesünderes Leben führt.",
+        "latest_video_at": "2026-08-09T15:56:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC4wwvQkaaSlxIvXYOJgWaTA",
+      "external_id": "UC4wwvQkaaSlxIvXYOJgWaTA",
+      "name": "Savannah Bananas",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC4wwvQkaaSlxIvXYOJgWaTA",
+      "discovered_on": "2026-08-10",
+      "score": 57.88,
+      "metrics": {
+        "subscribers": 2570,
+        "total_views": 567671,
+        "video_count": 225,
+        "avg_views_per_video": 2522.98,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "K_ISxnPQgFg",
+            "title": "I TRIED A NEW PEPTIDE SHOT… AND I DID NOT EXPECT THIS 😳💉 | NAD+ + 5-Amino-1MQ",
+            "description": "I've been on my GLP-1 journey for a while now, but the fatigue after my shots has been REAL… so I decided to try something ...",
+            "published_at": "2026-08-09T19:00:37Z",
+            "url": "https://www.youtube.com/watch?v=K_ISxnPQgFg"
+          }
+        ],
+        "channel_description": "Hi friends! This channel is a behind the scenes look into how God is transforming me! \n\nI share my journey of faith and wellness while discovering new adventures.🤍\n\nFor any business inquiries or collaborations, feel free to reach out at:  \n📧 info@savannahfranklin.com\n",
+        "latest_video_at": "2026-08-09T19:00:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCMX0Va3miNYgxEqYHQRDntQ",
+      "external_id": "UCMX0Va3miNYgxEqYHQRDntQ",
+      "name": "Doc Niko Blekic",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCMX0Va3miNYgxEqYHQRDntQ",
+      "discovered_on": "2026-08-10",
+      "score": 54.75,
+      "metrics": {
+        "subscribers": 2110,
+        "total_views": 223487,
+        "video_count": 285,
+        "avg_views_per_video": 784.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "oJQ9BsSlKn8",
+            "title": "Peptide: Der ultimative Guide!",
+            "description": "Peptide sind gerade in aller Munde – doch kaum einer blickt bei den komplizierten Namen, undurchsichtigen Wirkmechanismen ...",
+            "published_at": "2026-08-10T04:01:24Z",
+            "url": "https://www.youtube.com/watch?v=oJQ9BsSlKn8"
+          }
+        ],
+        "channel_description": "Mein Name ist Niko Blekic, ich bin Arzt und befasse mich mit der Optimierung der körperlichen und psychischen Gesundheit von Männern. \n\nAuf diesem Kanal lernst du über:\n✅ Männergesundheit\n✅ Haarausfall\n✅ Testosteron\n✅ Potenz\n\n▬▬ EMPFOHLENE PRODUKTE\n\nAlle Produkte und Services, die ich nutze:\n👉 https://nikoblekic.com\n\n▬▬ DISCLAIMER ⚠️\n\nDie Inhalte dieses Videos stellen keine Empfehlung bzw. Bewerbung der beschriebenen Methoden, Behandlungen oder Arzneimittel dar. Sie ersetzen nicht die fachliche Beratung durch einen Arzt oder Apotheker und dürfen nicht als Grundlage für eine eigenständige Diagnose und Behandlung verwendet werden. Konsultieren Sie bei gesundheitlichen Fragen oder Beschwerden immer Ihren Arzt!\n\nIch befinde mich in der Endphase meiner Promotion und werde meinen Doktortitel nach erfolgreicher Verteidigung und Verleihung durch die Universität offiziell führen. Bis dahin nutze ich die Bezeichnung „Doc Niko Blekic“ lediglich als Hinweis.\n",
+        "latest_video_at": "2026-08-10T04:01:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCCJBh0f29CcXUhHhBpIikTA",
+      "external_id": "UCCJBh0f29CcXUhHhBpIikTA",
+      "name": "Deckerlesscarbs",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCCJBh0f29CcXUhHhBpIikTA",
+      "discovered_on": "2026-08-10",
+      "score": 54.47,
+      "metrics": {
+        "subscribers": 2470,
+        "total_views": 102992,
+        "video_count": 186,
+        "avg_views_per_video": 553.72,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "n2H74QRs2uU",
+            "title": "BPC-157",
+            "description": "BPC 157 explained simply — what the 2025 science review actually says. Animal studies show promising healing and protective ...",
+            "published_at": "2026-08-09T22:52:37Z",
+            "url": "https://www.youtube.com/watch?v=n2H74QRs2uU"
+          }
+        ],
+        "channel_description": "Wife, Mom, Nurse Practitioner, Farmers Daughter. Low Carb, Keto, & Carnivore to reverse chronic disease.",
+        "latest_video_at": "2026-08-09T22:52:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCy6qHcih_9VGrL7MgkmvEfA",
       "external_id": "UCy6qHcih_9VGrL7MgkmvEfA",
