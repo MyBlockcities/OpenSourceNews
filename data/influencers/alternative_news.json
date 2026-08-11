@@ -2,19 +2,449 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-10T11:28:14Z",
-  "new_this_run": 8,
-  "total_influencers": 110,
+  "updated_at": "2026-08-11T11:08:58Z",
+  "new_this_run": 10,
+  "total_influencers": 120,
   "run_summary": {
-    "run_started_at": "2026-08-10T11:28:05Z",
+    "run_started_at": "2026-08-11T11:08:50Z",
     "candidate_count": 22,
-    "existing_count": 102,
-    "selected_new_count": 8,
+    "existing_count": 110,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCxZx6Isseg00ksG8skNcJpw",
+      "external_id": "UCxZx6Isseg00ksG8skNcJpw",
+      "name": "R&S Coaching Centre ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCxZx6Isseg00ksG8skNcJpw",
+      "discovered_on": "2026-08-11",
+      "score": 75.33,
+      "metrics": {
+        "subscribers": 75700,
+        "total_views": 148243861,
+        "video_count": 2170,
+        "avg_views_per_video": 68315.14,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "sq56MD_MkC4",
+            "title": "independent press #india #protest #delhi #education #motivation #news #cjp #modi",
+            "description": "",
+            "published_at": "2026-08-11T07:49:12Z",
+            "url": "https://www.youtube.com/watch?v=sq56MD_MkC4"
+          }
+        ],
+        "channel_description": "Welcome to *R&S Coaching Centre* ✨ \n– Your _One-Stop Destination* \n        for ▫️Current Affairs\n               ▶️News Updates\n               ◻️Exam Updates\n               🔷Exam-focused Content for\n               🔰One-Day Competitive Exams.\n\n                              Led by ⭐ RD Sir ✨ \n     We provide Daily Analysis,\n          In-depth Explanations, and \n            👁️‍🗨️Expert Guidance to help you \n                    Stey Ahead in your preparation.\n\n            ⭐ Stay Updated, Stay Ahead! ⭐\n\n Subscribe now for the best resources on\n   GK,📒Current Affairs, Exam Strategies.\n\n            📚 Mathematics, Science nd \n        English classes for *Class-IX to XII \n                      🔰  UP BOARD🔰\n📌 FOR SERIOUS ASPIRANTS, BY EXPERTS!",
+        "latest_video_at": "2026-08-11T07:49:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCbSqbYqymLpptqRvdGX7FTw",
+      "external_id": "UCbSqbYqymLpptqRvdGX7FTw",
+      "name": "مفتاح",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCbSqbYqymLpptqRvdGX7FTw",
+      "discovered_on": "2026-08-11",
+      "score": 70.81,
+      "metrics": {
+        "subscribers": 33600,
+        "total_views": 26597743,
+        "video_count": 632,
+        "avg_views_per_video": 42085.04,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "B6yScE08NQ4",
+            "title": "🟥 إعلام عبري: &quot;دولة إقليمية تدفع أخرى لتطبيع العلاقات مع إسرائيل، كخطوة تضليل، بينما تستعد هي للحرب&quot;",
+            "description": "روعي كايس على كان نيوز: \"دولة إقليمية مهمة تدفع أخرى أقل أهمية لتطبيع العلاقات مع إسرائيل، كخطوة تضليل، بينما تستعد هي للحرب\" ...",
+            "published_at": "2026-08-10T09:40:57Z",
+            "url": "https://www.youtube.com/watch?v=B6yScE08NQ4"
+          }
+        ],
+        "channel_description": "لن يكون هناك باب موصد بعد الآن على فضائح ابن سلمان التي يكشفها الإعلام الغربي ورجال السياسة والاقتصاد باللغات الأجنبية .. فأنا المفتاح.",
+        "latest_video_at": "2026-08-10T09:40:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOLiHEvcx4Srz-cs1kGYlGA",
+      "external_id": "UCOLiHEvcx4Srz-cs1kGYlGA",
+      "name": "VOCES CLIPS",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCOLiHEvcx4Srz-cs1kGYlGA",
+      "discovered_on": "2026-08-11",
+      "score": 69.77,
+      "metrics": {
+        "subscribers": 23600,
+        "total_views": 5811312,
+        "video_count": 215,
+        "avg_views_per_video": 27029.36,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ZZMXkk0L5ZM",
+            "title": "¿CENSURA? Marcela Lecuona Revela Secretos de Televisa y TV Azteca",
+            "description": "Marcela Lecuona llega al programa para romper el pacto y contar la verdad sobre los medios tradicionales en México. ¿Cómo es ...",
+            "published_at": "2026-08-10T23:00:18Z",
+            "url": "https://www.youtube.com/watch?v=ZZMXkk0L5ZM"
+          }
+        ],
+        "channel_description": "Voces Clips reúne los clips más directos, incómodos y sin filtro de Voces Podcast con Alejandro Helguera. Fragmentos clave de entrevistas, debates y conversaciones donde se habla claro sobre política, poder, medios de comunicación, desigualdad e ideología, sin maquillaje ni corrección política.\n\nAquí encontrarás análisis breves y contundentes de las voces que marcan la conversación pública en México y Latinoamérica. Opiniones que cuestionan narrativas dominantes, exponen contradicciones y provocan reflexión en pocos minutos.\n\nSi buscas contenido político corto, intenso y con postura, este es tu espacio. Suscríbete y forma parte de una comunidad que prefiere la discusión honesta antes que el discurso cómodo.\n",
+        "latest_video_at": "2026-08-10T23:00:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCtYWoR-C-oAceQse9Wam_fQ",
+      "external_id": "UCtYWoR-C-oAceQse9Wam_fQ",
+      "name": "intheMatrixxx",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCtYWoR-C-oAceQse9Wam_fQ",
+      "discovered_on": "2026-08-11",
+      "score": 69.73,
+      "metrics": {
+        "subscribers": 69800,
+        "total_views": 4876894,
+        "video_count": 840,
+        "avg_views_per_video": 5805.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "n_odniXeaNI",
+            "title": "Future Proves Past: MARCH TOLL Files Expose the Scheme Against AG Sessions Q Proof",
+            "description": "Jeff & Shannon tear into the declassified MARCH TOLL files proving the FBI fabricated a probe against AG Sessions the day after ...",
+            "published_at": "2026-08-10T18:24:33Z",
+            "url": "https://www.youtube.com/watch?v=n_odniXeaNI"
+          }
+        ],
+        "channel_description": "Welcome to the MG Show – where the truth is learned and never told. Since 2019, Jeffrey Pedersen and Shannon Townsend have been exposing what the mainstream hides: government overreach, constitutional erosion, and the stories they don’t want you to know. No scripts. No spin. Just raw intel, fearless interviews, and unfiltered facts. We don’t report the news — we uncover it. Subscribe, wake up, and join the fight.\n",
+        "latest_video_at": "2026-08-10T18:24:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCXwoB2kL7Yl2e7Qumr2Fu1w",
+      "external_id": "UCXwoB2kL7Yl2e7Qumr2Fu1w",
+      "name": "Reporter's Desk",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCXwoB2kL7Yl2e7Qumr2Fu1w",
+      "discovered_on": "2026-08-11",
+      "score": 67.97,
+      "metrics": {
+        "subscribers": 9410,
+        "total_views": 8021668,
+        "video_count": 188,
+        "avg_views_per_video": 42668.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "kw_Z9SNKejI",
+            "title": "JHARKHAND POLICE LATHICHARGE STUDENT PROTESTORS",
+            "description": "Jharkhand govt didn't learn any lessons from the Delhi Police brutality against CJP protestors on July 20. Lathicharge, water ...",
+            "published_at": "2026-08-10T16:40:36Z",
+            "url": "https://www.youtube.com/watch?v=kw_Z9SNKejI"
+          }
+        ],
+        "channel_description": "📌 Short explainers on current affairs\n🏛️ Socio-politics | 🎬 Cinema | 🏏 Sports\n📰 A News Initiative by journalist @arjundeodia\n\n",
+        "latest_video_at": "2026-08-10T16:40:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZ7fWfx_8xjDD9LG3yhToKA",
+      "external_id": "UCZ7fWfx_8xjDD9LG3yhToKA",
+      "name": "Volusena",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCZ7fWfx_8xjDD9LG3yhToKA",
+      "discovered_on": "2026-08-11",
+      "score": 67.33,
+      "metrics": {
+        "subscribers": 4160,
+        "total_views": 3200402,
+        "video_count": 26,
+        "avg_views_per_video": 123092.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "I7bcyLz8jQg",
+            "title": "China just built different",
+            "description": "China has an insane amount of censorship for developers to adhere to. This video discusses a bunch of them.",
+            "published_at": "2026-08-10T19:51:02Z",
+            "url": "https://www.youtube.com/watch?v=I7bcyLz8jQg"
+          }
+        ],
+        "channel_description": "\n",
+        "latest_video_at": "2026-08-10T19:51:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCgldz6KTe_9b_3IOcxefDIg",
+      "external_id": "UCgldz6KTe_9b_3IOcxefDIg",
+      "name": "CreAiToons Studio",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCgldz6KTe_9b_3IOcxefDIg",
+      "discovered_on": "2026-08-11",
+      "score": 66.58,
+      "metrics": {
+        "subscribers": 10100,
+        "total_views": 2878743,
+        "video_count": 141,
+        "avg_views_per_video": 20416.62,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "_YY265tVrhw",
+            "title": "K&amp;K Ep 18 | SAT WARS II: El Despertar de la Censura 🚀🌌",
+            "description": "La censura ha llegado al Sistema México! En este nuevo episodio de SAT WARS, el Imperio Guinda colapsa entre las ...",
+            "published_at": "2026-08-11T01:00:33Z",
+            "url": "https://www.youtube.com/watch?v=_YY265tVrhw"
+          }
+        ],
+        "channel_description": "Bienvenido a **CreAiToons Studio**, el rincón más ácido del internet donde la Inteligencia Artificial y el humor negro se dan la mano para retratar la realidad nacional. Aquí no perdonamos a nadie. \n\nSi buscas noticias serias, sigue buscando. Si buscas parodias animadas que dicen lo que otros callan (y con una calidad que ya quisiera Hollywood), suscríbete y activa la campana. 🔔🔥\n**Toda semejanza con la realidad es intencional, ¡pero legalmente ficticia!** 🇲🇽💀\n\n **AVISO LEGAL:** Todo el contenido de este canal es una parodia con fines de entretenimiento, crítica social y sátira política. Los personajes, nombres, situaciones y voces son creaciones artísticas generadas con apoyo de Inteligencia Artificial. Cualquier parecido con personas reales, vivas o muertas, o hechos reales, se utiliza exclusivamente dentro del marco de la libertad de expresión y el uso legítimo (Fair Use). CreAiToons Studio es un proyecto independiente y \"legalmente ficticio\".\n\n\n",
+        "latest_video_at": "2026-08-11T01:00:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZfoGTKFzyjUuZNyiiH6Hrw",
+      "external_id": "UCZfoGTKFzyjUuZNyiiH6Hrw",
+      "name": "The Second Act",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCZfoGTKFzyjUuZNyiiH6Hrw",
+      "discovered_on": "2026-08-11",
+      "score": 64.88,
+      "metrics": {
+        "subscribers": 12600,
+        "total_views": 589248,
+        "video_count": 86,
+        "avg_views_per_video": 6851.72,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "r7854smFJFU",
+            "title": "Can democracy survive without independent News?",
+            "description": "shorts #ytshorts #news #thesecondact #journalism Can democracy survive without independent News?",
+            "published_at": "2026-08-10T13:53:31Z",
+            "url": "https://www.youtube.com/watch?v=r7854smFJFU"
+          }
+        ],
+        "channel_description": "SUBSCRIBE TO THINK BETTER, DECIDE BETTER, AND WIN LONG-TERM. \n\nThis is The Second Act, India’s fastest growing talkshow on business and entrepreneurship, produced as a cinematic business podcast hosted by Sunny Sen — former CNBC and Economic Times journalist, and tech entrepreneur.\n\nSunny speaks to founders, CEOs, investors, and operators on entrepreneurship, startups, leadership, business strategy, scaling, and decision-making under pressure.\n\nThese are not startup stories. These are survival playbooks.\n\nHe also features politicians and policymakers — because leadership at scale, whether in business or government, follows similar principles: capital allocation, competing priorities, and long-term thinking.\n\nNo hype. No shortcuts. No motivation.\nOnly real insights, mental models, and frameworks you can apply.\n\nIf you want to build, scale, and sustain — this is for you.\n\nFor partnerships, mailto: serenyacollective@gmail.com\n",
+        "latest_video_at": "2026-08-10T13:53:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCa5-GiLrEnOn6j_Xz7_QixQ",
+      "external_id": "UCa5-GiLrEnOn6j_Xz7_QixQ",
+      "name": "UEMS | L'UE in Modo Semplice",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCa5-GiLrEnOn6j_Xz7_QixQ",
+      "discovered_on": "2026-08-11",
+      "score": 62.85,
+      "metrics": {
+        "subscribers": 6060,
+        "total_views": 486636,
+        "video_count": 65,
+        "avg_views_per_video": 7486.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "HTUdI-qXFPw",
+            "title": "Le alternative europee a Youtube, WhatsApp e Instagram",
+            "description": "L'Europa usa app americane per quasi tutto. YouTube. Instagram. WhatsApp. Facebook. Perfino il software usato per creare ...",
+            "published_at": "2026-08-10T12:30:41Z",
+            "url": "https://www.youtube.com/watch?v=HTUdI-qXFPw"
+          }
+        ],
+        "channel_description": "Esplora l'UE semplificata: spiegazioni chiare sull'Unione europea. Iscriviti per saperne di più!\n\nBenvenuti nell'UE in modo semplice!\n\nIl nostro canale è dedicato a fornire spiegazioni semplici e di facile comprensione su tutto ciò che riguarda l'Unione Europea. Dalla storia dell'UE alle sue politiche e iniziative attuali, ci impegniamo a rendere argomenti complessi accessibili a tutti. Che tu sia uno studente, un professionista o semplicemente curioso sull'UE, i nostri video sono il modo perfetto per saperne di più su questa importante organizzazione.\n\nQuindi, iscriviti al nostro canale e resta sintonizzato per contenuti più informativi e coinvolgenti sull'UE!\n",
+        "latest_video_at": "2026-08-10T12:30:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCSEwethA1abARpLQt6KeYww",
+      "external_id": "UCSEwethA1abARpLQt6KeYww",
+      "name": "Shivendra Yadav",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCSEwethA1abARpLQt6KeYww",
+      "discovered_on": "2026-08-11",
+      "score": 54.57,
+      "metrics": {
+        "subscribers": 2280,
+        "total_views": 106486,
+        "video_count": 164,
+        "avg_views_per_video": 649.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "1YxXThebo5A",
+            "title": "In India, accurate news and freedom of speech have been murdered. #DigitalCensorship#ContentTakedown",
+            "description": "In India, accurate news and freedom of speech have been murdered. Addressing content censorship and freedom of speech, this ...",
+            "published_at": "2026-08-11T05:42:51Z",
+            "url": "https://www.youtube.com/watch?v=1YxXThebo5A"
+          }
+        ],
+        "channel_description": "**Welcome to Shivendra Speaks!**\n\nPolitics isn't just about elections—it's about your rights, your future, and the decisions that shape our society.\n\nOn this channel, you'll find well-researched videos that simplify:\n\n* 🇮🇳 Indian Politics\n* 📰 Current Affairs\n* 📜 Indian Constitution & Laws\n* 🏛️ History & Political Thought\n* 🌍 Social & Public Policy Issues\n* 📊 Fact-based Analysis & Explainers\n\nEvery video is created to encourage critical thinking through evidence, context, and clear explanations.\n\nIf you're interested in understanding the stories behind the headlines rather than just reading them, you're in the right place.\n\n**Subscribe and join the conversation.**\n\n**New videos Everyday.**\n\n",
+        "latest_video_at": "2026-08-11T05:42:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC1VePXy26HN3MY4at-xD7Sw",
       "external_id": "UC1VePXy26HN3MY4at-xD7Sw",

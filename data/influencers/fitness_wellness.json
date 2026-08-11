@@ -2,19 +2,705 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-10T11:28:27Z",
-  "new_this_run": 15,
-  "total_influencers": 810,
+  "updated_at": "2026-08-11T11:09:11Z",
+  "new_this_run": 19,
+  "total_influencers": 829,
   "run_summary": {
-    "run_started_at": "2026-08-10T11:28:05Z",
-    "candidate_count": 46,
-    "existing_count": 795,
-    "selected_new_count": 15,
+    "run_started_at": "2026-08-11T11:08:50Z",
+    "candidate_count": 50,
+    "existing_count": 810,
+    "selected_new_count": 19,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCkC046-ObmMlz6R11Yr9CPA",
+      "external_id": "UCkC046-ObmMlz6R11Yr9CPA",
+      "name": "Christian Pelster",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCkC046-ObmMlz6R11Yr9CPA",
+      "discovered_on": "2026-08-11",
+      "score": 74.77,
+      "metrics": {
+        "subscribers": 87400,
+        "total_views": 117245043,
+        "video_count": 2712,
+        "avg_views_per_video": 43231.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "i2WidnJV-OM",
+            "title": "FUNCTIONAL LEG MOVEMENT 💥#fitnesstips #hybridathlete #functionaltraining #fitness #gym #viral",
+            "description": "",
+            "published_at": "2026-08-11T06:00:39Z",
+            "url": "https://www.youtube.com/watch?v=i2WidnJV-OM"
+          }
+        ],
+        "channel_description": "Willkommen bei ChrisFitInk – deinem Kanal für echten Muskelaufbau, Fitness und einen einzigartigen Lifestyle.\n\nAuf diesem Channel dreht sich alles um Science-Based Training und Fitnesswissen, das wirklich funktioniert. Mit über 10 Jahren Erfahrung als Coach und unzähligen Transformationen zeige ich dir, wie du deinen Körper auf das nächste Level bringst – ohne Bullshit, nur echte Ergebnisse.\n\nDoch das ist nicht alles:\n💪 Muskelaufbau & Fitness – Klar strukturiert, wissenschaftlich fundiert, und maximal effektiv.\n🥊 Boxen – Mein Hobby, das dir explosiven Antrieb und mentale Stärke liefert.\n🌍 Lifestyle – Bali, Reisen durch über 50 Länder, und ein Leben, das weit weg von der Stange ist.\n\nChrisFitInk ist der Ort, wo Fitness und Wahnsinn aufeinandertreffen. Hier bekommst du Einblicke in einen Lifestyle, der Disziplin, Abenteuer und absolute Freiheit vereint.\n\n",
+        "latest_video_at": "2026-08-11T06:00:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOfRYPGFKWALen-n8k8DESA",
+      "external_id": "UCOfRYPGFKWALen-n8k8DESA",
+      "name": "Limitless Sapiens",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCOfRYPGFKWALen-n8k8DESA",
+      "discovered_on": "2026-08-11",
+      "score": 74.23,
+      "metrics": {
+        "subscribers": 28300,
+        "total_views": 6816811,
+        "video_count": 417,
+        "avg_views_per_video": 16347.27,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/alterlife.phuket"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "-yJKDOwrHxM",
+            "title": "You Won’t Regret Missing One Workout—Until You Lose Your Movement",
+            "description": "You won't regret skipping one workout today. You'll regret waiting until your body can no longer do what you once took for granted ...",
+            "published_at": "2026-08-11T05:20:27Z",
+            "url": "https://www.youtube.com/watch?v=-yJKDOwrHxM"
+          }
+        ],
+        "channel_description": "\nMobility & strength coach \nMovement teacher \nInstagram : https://www.instagram.com/alterlife.phuket?igsh=MWZlazljN2N3b2psbw==\nApp Link : https://my.trybe.fit/limitless-sapiens",
+        "latest_video_at": "2026-08-11T05:20:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UClYcsJ_hmbrOJwoaG7vPx-Q",
+      "external_id": "UClYcsJ_hmbrOJwoaG7vPx-Q",
+      "name": "Fitness ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UClYcsJ_hmbrOJwoaG7vPx-Q",
+      "discovered_on": "2026-08-11",
+      "score": 70.08,
+      "metrics": {
+        "subscribers": 69300,
+        "total_views": 31782107,
+        "video_count": 4606,
+        "avg_views_per_video": 6900.15,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "9xTbowEf_5w",
+            "title": "Waking up your butt &amp; ankles before exercise🔥",
+            "description": "Waking up your butt & ankles before exercise   1️⃣ Wide Squat Soleus Raise 3 x 10 reps 2️⃣ Heel up Lunge 3 x ...",
+            "published_at": "2026-08-11T03:54:57Z",
+            "url": "https://www.youtube.com/watch?v=9xTbowEf_5w"
+          }
+        ],
+        "channel_description": "🏋️💪 welcome to my channel 🏋️💪\nFitness related video.\nWorkout short.\nYoga short.\nMotivation short.\nAthlete workout short.\nFemale bodybuilder workout short.\n\n\nTake control of your thoughts and emotions. Subscribe for actionable advice on developing a strong and healthy mindset.\n\nPLAYIST@G145D2",
+        "latest_video_at": "2026-08-11T03:54:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCa3SrZ7kG2Z49dUc8BIFbYw",
+      "external_id": "UCa3SrZ7kG2Z49dUc8BIFbYw",
+      "name": "Dr. Hasti Singh",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCa3SrZ7kG2Z49dUc8BIFbYw",
+      "discovered_on": "2026-08-11",
+      "score": 65.53,
+      "metrics": {
+        "subscribers": 73200,
+        "total_views": 2066536,
+        "video_count": 2631,
+        "avg_views_per_video": 785.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "TFZonP34fHc",
+            "title": "Strong Legs = Heart Health &amp; Cellular Longevity! 🫀 Safe Leg Workout Protocol | Dr. Hasti Singh",
+            "description": "Strong Legs = Heart Health & Cellular Longevity! Safe Leg Workout Protocol | Dr. Hasti Singh YouTube Video Description Stop ...",
+            "published_at": "2026-08-11T09:12:59Z",
+            "url": "https://www.youtube.com/watch?v=TFZonP34fHc"
+          }
+        ],
+        "channel_description": "Dr. Hasti Singh is a Longevity & Anti-Ageing Specialist, Elite Holistic Wellness Expert, and a Mental & Maternity Psychological Health Authority.\nHe helps individuals age slower, stay mentally resilient, hormonally balanced, and physically energetic through a root-cause–based, preventive, and lifestyle-focused approach.\n\nThis channel is dedicated to Anti-Ageing, Longevity, and Preventive Wellness, integrating mental health therapy, maternity psychological care, lifestyle correction, nutrition, fitness, oral wellness, and longevity science for long-term, sustainable health.\n⸻\n\n🧠 Mental Health for Long Life\n\n• Anxiety, depression & chronic stress management\n• Nervous system balance & brain health\n• Mental resilience for longevity and healthy ageing\n\n🤰 Mental & Maternity Psychological Health\n\n• Pregnancy-related stress & emotional wellbeing\n• Postpartum depression & psychological recovery\n• Long-term mental and emotional health for mother & child\n⸻\n📞 Consultation / Appointment: 9355706655",
+        "latest_video_at": "2026-08-11T09:12:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCnKYBTzfcyzIsd9aqczP0JQ",
+      "external_id": "UCnKYBTzfcyzIsd9aqczP0JQ",
+      "name": "KY3 News - Springfield, Mo.",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCnKYBTzfcyzIsd9aqczP0JQ",
+      "discovered_on": "2026-08-11",
+      "score": 62.14,
+      "metrics": {
+        "subscribers": 26300,
+        "total_views": 12578688,
+        "video_count": 18206,
+        "avg_views_per_video": 690.91,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "ou-EkkbKU00",
+            "title": "SPONSORED The Place: Feel Stronger with Make Wellness!",
+            "description": "SPONSORED The Place: Feel Stronger with Make Wellness! For more Local News from KY3: https://www.ky3.com/ For more ...",
+            "published_at": "2026-08-10T14:37:14Z",
+            "url": "https://www.youtube.com/watch?v=ou-EkkbKU00"
+          }
+        ],
+        "channel_description": "KY3 in Springfield, Mo., delivers the latest news, weather and sports.",
+        "latest_video_at": "2026-08-10T14:37:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCSFa2GRAufbeCy7_JULEBaA",
+      "external_id": "UCSFa2GRAufbeCy7_JULEBaA",
+      "name": "EyeShield",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCSFa2GRAufbeCy7_JULEBaA",
+      "discovered_on": "2026-08-11",
+      "score": 59.17,
+      "metrics": {
+        "subscribers": 3060,
+        "total_views": 942769,
+        "video_count": 263,
+        "avg_views_per_video": 3584.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "vqjI-0XSPlk",
+            "title": "𝗢𝗸𝘂𝗹𝗮𝗿𝘆 𝗯𝗹𝗼𝗸𝘂𝗷𝗮̨𝗰𝗲 𝟭𝟬𝟬% 𝘀́𝘄𝗶𝗮𝘁ł𝗮 𝗻𝗶𝗲𝗯𝗶𝗲𝘀𝗸𝗶𝗲𝗴𝗼 𝘁𝗼 𝘄𝗶𝗲𝗰𝘇𝗼",
+            "description": "Okulary blokujące 100% światła niebieskiego to wieczorny must ...",
+            "published_at": "2026-08-10T18:31:39Z",
+            "url": "https://www.youtube.com/watch?v=vqjI-0XSPlk"
+          }
+        ],
+        "channel_description": "Witaj na oficjalnym kanale EyeShield®!\n\nCzy wiesz, że światło ma kluczowy wpływ na Twój organizm? W dzisiejszym świecie jesteśmy otoczeni sztucznym światłem niemal przez całą dobę – od ekranów komputerów i smartfonów po oświetlenie LED. Nadmierna ekspozycja na światło niebieskie może zaburzać rytm dobowy, pogarszać jakość snu i wpływać na poziom energii.\n\nNaszą misją jest edukacja i uświadamianie społeczeństwa na temat wpływu światła na zdrowie oraz skuteczna ochrona przed szkodliwym sztucznym światłem niebieskim.\nTechnologia EyeShield® jest jedyną w Europie, której skuteczność została potwierdzona przez naukowców Politechniki Śląskiej w Gliwicach.\n\n🎥 Na naszym kanale znajdziesz:\n✅ Ekspercką wiedzę na temat światła i jego wpływu na organizm\n✅ Badania naukowe dotyczące rytmu dobowego i zdrowia\n✅ Praktyczne porady, jak chronić wzrok i poprawić jakość snu\n✅ Testy i recenzje produktów EyeShield®\nSubskrybuj nasz kanał i dołącz do społeczności świadomych ludzi, którzy dbają o swoje zdrowie!\n",
+        "latest_video_at": "2026-08-10T18:31:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCdbu5WQ1iSSQ_paXq9QGHSg",
+      "external_id": "UCdbu5WQ1iSSQ_paXq9QGHSg",
+      "name": "Jackson Hightower - Natural Jackson",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCdbu5WQ1iSSQ_paXq9QGHSg",
+      "discovered_on": "2026-08-11",
+      "score": 58.19,
+      "metrics": {
+        "subscribers": 5940,
+        "total_views": 1250289,
+        "video_count": 1392,
+        "avg_views_per_video": 898.2,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "IGrz7yM-nKE",
+            "title": "You can optimize every part of your routine, but the basics still decide everything.",
+            "description": "Cold plunges, saunas, and biohacks can help, but they cannot outwork a poor diet and bad sleep. What you do every single day ...",
+            "published_at": "2026-08-10T22:30:30Z",
+            "url": "https://www.youtube.com/watch?v=IGrz7yM-nKE"
+          }
+        ],
+        "channel_description": "Peptides for optimal health, longevity and great sex.\n\n \n",
+        "latest_video_at": "2026-08-10T22:30:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCN7gK1ShcPNUxvCctxZv_4w",
+      "external_id": "UCN7gK1ShcPNUxvCctxZv_4w",
+      "name": "Gitanah",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCN7gK1ShcPNUxvCctxZv_4w",
+      "discovered_on": "2026-08-11",
+      "score": 57.79,
+      "metrics": {
+        "subscribers": 2590,
+        "total_views": 62103,
+        "video_count": 26,
+        "avg_views_per_video": 2388.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "wFgC3JXczA8",
+            "title": "Ya en el 4 😩 #fitness #ejercicio #funcional # #anagastelum #aldoarturo",
+            "description": "",
+            "published_at": "2026-08-11T05:01:03Z",
+            "url": "https://www.youtube.com/watch?v=wFgC3JXczA8"
+          }
+        ],
+        "channel_description": "\nIG: @gitanah_\nTiktok: @gitanah_\nFacebook: Gitanah ",
+        "latest_video_at": "2026-08-11T05:01:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoTs2WzbpPFf_2f-p6fs3wA",
+      "external_id": "UCoTs2WzbpPFf_2f-p6fs3wA",
+      "name": "Root Cause Doctor- Dr. Priti Nanda Sibal ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCoTs2WzbpPFf_2f-p6fs3wA",
+      "discovered_on": "2026-08-11",
+      "score": 56.17,
+      "metrics": {
+        "subscribers": 5510,
+        "total_views": 264108,
+        "video_count": 670,
+        "avg_views_per_video": 394.19,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "yCbPRhEVA3c",
+            "title": "Are Peptides Better Than GLP-1? #peptides #glp1 #weightloss",
+            "description": "Are Peptides Better Than GLP-1? #peptides #glp1 #weightloss Peptides are one of the hottest topics in health and weight loss ...",
+            "published_at": "2026-08-10T14:15:23Z",
+            "url": "https://www.youtube.com/watch?v=yCbPRhEVA3c"
+          }
+        ],
+        "channel_description": "Dr. Priti is among the 1st few fellowship holders in anti-aging and regenerative medicine. She is MBBS, MBA, Harvard and A4M graduate. She is an expert in bio-hormonal therapy, detoxification, diabetes reversal and creator of cyclic Keto program.\n\nAn upbeat look at solutions for the largest problems of our times Dr. Priti is leading a health revolution—one revolved around using food as medicine to support longevity, energy, mental clarity, happiness, and so much more. Dr. Priti is a practising family physician and an internationally recognised author, speaker, educator, and advocate in the field of Functional Medicine.",
+        "latest_video_at": "2026-08-10T14:15:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCPOlk-OAa_bayZt2wf5nzFw",
+      "external_id": "UCPOlk-OAa_bayZt2wf5nzFw",
+      "name": "Tampa Bay's Morning Blend",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCPOlk-OAa_bayZt2wf5nzFw",
+      "discovered_on": "2026-08-11",
+      "score": 52.41,
+      "metrics": {
+        "subscribers": 2270,
+        "total_views": 898388,
+        "video_count": 3735,
+        "avg_views_per_video": 240.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "DfJT3TOqZFo",
+            "title": "The Peptide Trend",
+            "description": "Peptides have quickly become one of the biggest conversations in beauty, wellness, and longevity. From healthier skin and ...",
+            "published_at": "2026-08-10T14:41:45Z",
+            "url": "https://www.youtube.com/watch?v=DfJT3TOqZFo"
+          }
+        ],
+        "channel_description": "Tampa Bay’s Morning Blend is an original, local lifestyle show focused on providing our audience with informative, useful and entertaining content. It features a variety of community organizations, businesses and happenings in the Bay area. It is a marketing-friendly program dedicated to offering businesses the opportunity to showcase their company/products, reach potential customers and gain results.\n\n\nGrow Your Business With Us!\n\nFor Sponsor Information:\nEmail | TMorningBlend@wfts.com\n\n",
+        "latest_video_at": "2026-08-10T14:41:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:4d49ed068721799c7f6d",
+      "external_id": "4d49ed068721799c7f6d",
+      "name": "Luke Nicholls",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/oKSAT5Bn5zcJAREDB/what-claude-saw-below",
+      "discovered_on": "2026-08-11",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/merlindru"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "What Claude Saw Below"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c451913083aeead3421d",
+      "external_id": "c451913083aeead3421d",
+      "name": "tandemocracy",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/YtuPGcZxTsABopndR/canadian-nuclear-emancipation-canada-s-role-amidst-global",
+      "discovered_on": "2026-08-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Canadian Nuclear Emancipation: Canada's role amidst global dreams of energy security and nuclear development"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c6134e3dc6c619d3ce0d",
+      "external_id": "c6134e3dc6c619d3ce0d",
+      "name": "mehnoor",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/LLebzjrxuRzji6zhk/probing-knowledge-recovery-in-unlearned-models",
+      "discovered_on": "2026-08-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Probing Knowledge Recovery in Unlearned Models"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4d7317b4be22b9e4181e",
+      "external_id": "4d7317b4be22b9e4181e",
+      "name": "Melchior de Polignac",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/GZCMmCHZiF8vhsczr/a-topic-detector-not-a-lie-detector-what-j-space-monitoring",
+      "discovered_on": "2026-08-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Topic Detector, Not a Lie Detector: what J-space monitoring actually tracks"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2f71520b1248bdc1f1a4",
+      "external_id": "2f71520b1248bdc1f1a4",
+      "name": "Keira Leal",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/tdZyjrappcEaQuM4A/before-we-defer-research-to-ai-measuring-apparent-success",
+      "discovered_on": "2026-08-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Before We Defer Research to AI: Measuring Apparent-Success-Seeking"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2c5a758f536902553f78",
+      "external_id": "2c5a758f536902553f78",
+      "name": "Eghosa E. Osaghae",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/path-development-post-aid-world",
+      "discovered_on": "2026-08-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Path to Development in a Post-Aid World"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c59460e90ce12884da9e",
+      "external_id": "c59460e90ce12884da9e",
+      "name": "David Lorell",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/TgboJpeN95bs84odk/redux-stochastic-natural-latent-implies-deterministic",
+      "discovered_on": "2026-08-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Redux: (∃ Stochastic Natural Latent) Implies (∃ Deterministic Natural Latent)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:66ca75413c729d23edda",
+      "external_id": "66ca75413c729d23edda",
+      "name": "Caitlin Welsh, Brian Hart",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/chinas-hunger-games",
+      "discovered_on": "2026-08-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "China’s Hunger Games"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f755127d63a6971fac13",
+      "external_id": "f755127d63a6971fac13",
+      "name": "0Chris5R",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/rZ8BnYETitEWimHju/models-inherit-the-writer-not-who-the-writer-was-imitating",
+      "discovered_on": "2026-08-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Models inherit the writer, not who the writer was imitating"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCykK8RZIl8BkoiTGIbufbjQ",
       "external_id": "UCykK8RZIl8BkoiTGIbufbjQ",

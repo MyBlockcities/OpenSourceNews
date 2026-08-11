@@ -2,19 +2,415 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-08-10T11:28:20Z",
-  "new_this_run": 6,
-  "total_influencers": 212,
+  "updated_at": "2026-08-11T11:09:05Z",
+  "new_this_run": 9,
+  "total_influencers": 221,
   "run_summary": {
-    "run_started_at": "2026-08-10T11:28:05Z",
-    "candidate_count": 34,
-    "existing_count": 206,
-    "selected_new_count": 6,
+    "run_started_at": "2026-08-11T11:08:50Z",
+    "candidate_count": 41,
+    "existing_count": 212,
+    "selected_new_count": 9,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCNp5hvXunca4VzHJsMtw08g",
+      "external_id": "UCNp5hvXunca4VzHJsMtw08g",
+      "name": "Roadcast Live",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCNp5hvXunca4VzHJsMtw08g",
+      "discovered_on": "2026-08-11",
+      "score": 67.49,
+      "metrics": {
+        "subscribers": 25100,
+        "total_views": 5759837,
+        "video_count": 665,
+        "avg_views_per_video": 8661.41,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "mEuvytTIsjM",
+            "title": "The Fact That There&#39;s Now a Regulated Stablecoin",
+            "description": "The fact that there's now a regulated stablecoin, because if you think about it, all those 200000 Filipinos in Hong Kong could have ...",
+            "published_at": "2026-08-11T10:01:50Z",
+            "url": "https://www.youtube.com/watch?v=mEuvytTIsjM"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-11T10:01:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCzB1zddYDI_A_7eqf6W7khQ",
+      "external_id": "UCzB1zddYDI_A_7eqf6W7khQ",
+      "name": "SMC Tutors",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCzB1zddYDI_A_7eqf6W7khQ",
+      "discovered_on": "2026-08-11",
+      "score": 67.32,
+      "metrics": {
+        "subscribers": 12100,
+        "total_views": 731332,
+        "video_count": 824,
+        "avg_views_per_video": 887.54,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "RWA tokenization",
+          "real world assets crypto"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real world assets crypto",
+            "video_id": "mT95rzbg9bQ",
+            "title": "What Are Real World Assets Doing On The Blockchain?",
+            "description": "stablecoins #cryptoexplained #cryptocurrency #bitcoin #cryptocasey #RealWorldAssets #RWA What is RWA (REAL World Asset) ...",
+            "published_at": "2026-08-10T16:22:52Z",
+            "url": "https://www.youtube.com/watch?v=mT95rzbg9bQ"
+          },
+          {
+            "query": "RWA tokenization",
+            "video_id": "mT95rzbg9bQ",
+            "title": "What Are Real World Assets Doing On The Blockchain?",
+            "description": "stablecoins #cryptoexplained #cryptocurrency #bitcoin #cryptocasey #RealWorldAssets #RWA What is RWA (REAL World Asset) ...",
+            "published_at": "2026-08-10T16:22:52Z",
+            "url": "https://www.youtube.com/watch?v=mT95rzbg9bQ"
+          }
+        ],
+        "channel_description": "We are a community of Believers creating value for everyone in the digital economy. \n\nWe simplify the future of money, technology, AI, crypto, and digital innovation through tutorials, documentaries, and financial education designed for everyday people.\n\nOn this channel, you'll find:\n• Crypto tutorials and wallet guides\n• Blockchain, trading, and DeFi education\n• Technology, finance, and innovation documentaries\n• Financial literacy and digital economy insights\n• Practical guides for Web3 and emerging technologies\n\nWhether you're new to Web3 or already exploring the digital economy, our goal is to make complex technology simple, practical, and accessible.\n\nSUBSCRIBE and STAY AHEAD.\n\nDisclaimer: Content is for educational and informational purposes only and should not be considered financial or investment advice. Always do your own research before making financial decisions.\n",
+        "latest_video_at": "2026-08-10T16:22:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCrXSQcexofkeCu90q1EdohQ",
+      "external_id": "UCrXSQcexofkeCu90q1EdohQ",
+      "name": "Fireblocks",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCrXSQcexofkeCu90q1EdohQ",
+      "discovered_on": "2026-08-11",
+      "score": 66.12,
+      "metrics": {
+        "subscribers": 6900,
+        "total_views": 3467666,
+        "video_count": 123,
+        "avg_views_per_video": 28192.41,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real world assets crypto"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real world assets crypto",
+            "video_id": "ZNtPTx7JiDQ",
+            "title": "SPARK 25: US Digital Asset Policy: Inside Treasury&#39;s Approach",
+            "description": "Where is US digital asset policy actually headed? In this SPARK 2025 Main Stage fireside chat, a US Treasury official, Tyler ...",
+            "published_at": "2026-08-10T18:05:10Z",
+            "url": "https://www.youtube.com/watch?v=ZNtPTx7JiDQ"
+          }
+        ],
+        "channel_description": "Infrastructure that powers financial possibility. Trusted by 2,400+ institutions to scale stablecoins, custody, and digital asset operations.",
+        "latest_video_at": "2026-08-10T18:05:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCtVyehxT3jpV8a8oS1z6z0A",
+      "external_id": "UCtVyehxT3jpV8a8oS1z6z0A",
+      "name": "Schylar Brook",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCtVyehxT3jpV8a8oS1z6z0A",
+      "discovered_on": "2026-08-11",
+      "score": 63.64,
+      "metrics": {
+        "subscribers": 10000,
+        "total_views": 796327,
+        "video_count": 149,
+        "avg_views_per_video": 5344.48,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "YzuTiLDpy6s",
+            "title": "LIVE: Brad Garlinghouse on the CLARITY Act — What It Means for XRP, Ripple &amp; Crypto Regulation",
+            "description": "Join us for a live session featuring Ripple CEO Brad Garlinghouse as he discusses the latest developments surrounding the ...",
+            "published_at": "2026-08-11T06:06:16Z",
+            "url": "https://www.youtube.com/watch?v=YzuTiLDpy6s"
+          }
+        ],
+        "channel_description": "welcome,\ni hope ya'll decide to subscribe and stick around, it would mean a lot to me! \nlots of love,\nschylar brook",
+        "latest_video_at": "2026-08-11T06:06:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCnWnTw5WvCQGmMWAxu-30mw",
+      "external_id": "UCnWnTw5WvCQGmMWAxu-30mw",
+      "name": "Desi Urdu TV ",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCnWnTw5WvCQGmMWAxu-30mw",
+      "discovered_on": "2026-08-11",
+      "score": 62.53,
+      "metrics": {
+        "subscribers": 41600,
+        "total_views": 2639031,
+        "video_count": 6062,
+        "avg_views_per_video": 435.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "P2-xIGHXEvo",
+            "title": "Pakistan Sets New Crypto Rules to Protect Investors!",
+            "description": "Pakistan is moving toward a modern regulatory framework for virtual assets and crypto services. The new system is expected to ...",
+            "published_at": "2026-08-11T01:00:12Z",
+            "url": "https://www.youtube.com/watch?v=P2-xIGHXEvo"
+          }
+        ],
+        "channel_description": "Desi Urdu tv Keeps you fully informed and updated on the latest news and infotainment particularly from South Asian countries and all over the world in general and particularly Desi Communities abroad in North America , Europe , Australia & Middle East  . We are expanding all over the World and seeking representatives in every Country .If you are passionate media activist please do contact us and become our representative in your City or Country. Contact 713 447 1537 or email : tppigroup@gmail.com \nDesi Urdu TV is  the subsidiary of Pakistan Publications Inc A Texas Corporation since 1999 \n",
+        "latest_video_at": "2026-08-11T01:00:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCvWJW34zf6xljerK8uQ3eQw",
+      "external_id": "UCvWJW34zf6xljerK8uQ3eQw",
+      "name": "Markas Trader",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCvWJW34zf6xljerK8uQ3eQw",
+      "discovered_on": "2026-08-11",
+      "score": 62.03,
+      "metrics": {
+        "subscribers": 23500,
+        "total_views": 244697,
+        "video_count": 318,
+        "avg_views_per_video": 769.49,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "5J_sfYS1soM",
+            "title": "Putin Sahkan UU Crypto! Belanja Ritel Dibatasi! 🇷🇺🚨 #Shorts #RegulasiCrypto #BeritaCrypto",
+            "description": "",
+            "published_at": "2026-08-11T10:00:25Z",
+            "url": "https://www.youtube.com/watch?v=5J_sfYS1soM"
+          }
+        ],
+        "channel_description": "🔗 Gabung komunitas & grup exclusive bersama 35K+ trader lewat link di bawah👇🏻",
+        "latest_video_at": "2026-08-11T10:00:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC3PN16bp92qeSn3kw0VpVEg",
+      "external_id": "UC3PN16bp92qeSn3kw0VpVEg",
+      "name": "Mudrex",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UC3PN16bp92qeSn3kw0VpVEg",
+      "discovered_on": "2026-08-11",
+      "score": 61.55,
+      "metrics": {
+        "subscribers": 13600,
+        "total_views": 810463,
+        "video_count": 611,
+        "avg_views_per_video": 1326.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real world assets crypto"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real world assets crypto",
+            "video_id": "R5sHGfGB7mA",
+            "title": "Biggest Breakout Moment of My Life | #IndiaKaBreakout",
+            "description": "Kabhi socha hai aapka apna \"breakout moment\" kya tha? Is Independence Day, humne apne Mudrex leaders se ye sawaal ...",
+            "published_at": "2026-08-10T12:00:11Z",
+            "url": "https://www.youtube.com/watch?v=R5sHGfGB7mA"
+          }
+        ],
+        "channel_description": "Welcome to Mudrex, the best crypto trading app in India and an FIU-registered crypto exchange trusted by over 3 million users worldwide. 🚀\nOur mission is to make crypto trading & investing simple, transparent, and secure for everyone, from beginners taking their first step to experienced traders managing large portfolios.\n\n📈 Learn how to buy Bitcoin in India, buy crypto in India, and trade confidently on the safest crypto exchange built for long-term success.\n\n🎥 On this channel, you’ll find:\n👉 Step-by-step tutorials on using Mudrex — India’s most reliable platform for spot, futures, and automated trading.\n👉 Weekly market analysis packed with insights, trend breakdowns, and expert commentary.\n👉 Crypto tax and compliance guides to help Indian investors stay informed and file easily.\n\nSubscribe to Mudrex, your trusted partner for effortless crypto trading in India.\n\n⚠️ Disclaimer: Crypto is risky. Content is educational, not financial advice. Always do your own research before investing.\n",
+        "latest_video_at": "2026-08-10T12:00:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCaKmSZUZC9dGNMfg8E1vHuQ",
+      "external_id": "UCaKmSZUZC9dGNMfg8E1vHuQ",
+      "name": "10X-Analytics | Crypto",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCaKmSZUZC9dGNMfg8E1vHuQ",
+      "discovered_on": "2026-08-11",
+      "score": 57.94,
+      "metrics": {
+        "subscribers": 6500,
+        "total_views": 877988,
+        "video_count": 1245,
+        "avg_views_per_video": 705.21,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real world assets crypto"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real world assets crypto",
+            "video_id": "VJVTIKD7eTc",
+            "title": "ONDO News: The BIG battle for control is on! (PREPARE NOW)",
+            "description": "Get a comprehensive Ondo Finance update covering the latest protocol changes and team news. Learn how they bring assets ...",
+            "published_at": "2026-08-10T13:45:28Z",
+            "url": "https://www.youtube.com/watch?v=VJVTIKD7eTc"
+          }
+        ],
+        "channel_description": "Crypto analysis, altcoin analysis: data-driven, no hype.\n\nThis channel is your reliable source for funded crypto analysis focused on smart, long-term investing. Using a structured rating system, you get clear insights based on data, key metrics and realistic market scenarios. No opinions, no hype.\n\nMy name is Marius. I come from a background in quality management and have a strong passion for data analysis. On this channel you will regularly find content about Bitcoin, Ethereum, Solana and altcoins.\n\nWhether it is altcoin analysis, crypto market insights or long-term investing strategies: my goal is to give you clear insights into real market opportunities. If you want to invest systematically without relying on emotions or hype, subscribe to the channel.\n\n⚠️ No financial advice. Content is for informational purposes only. Trading is risky. Trade responsibly.\n\n📩 For business inquiries please use the email under \"More information\".\n",
+        "latest_video_at": "2026-08-10T13:45:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCa-pXg9MBSOb5KBQ1u7GRpQ",
+      "external_id": "UCa-pXg9MBSOb5KBQ1u7GRpQ",
+      "name": "Justkuro Finance",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCa-pXg9MBSOb5KBQ1u7GRpQ",
+      "discovered_on": "2026-08-11",
+      "score": 57.45,
+      "metrics": {
+        "subscribers": 37500,
+        "total_views": 238,
+        "video_count": 5,
+        "avg_views_per_video": 47.6,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "c4nQ7xDumuM",
+            "title": "CLARITY Act: Why September Could Change U.S. Crypto Regulation 🇺🇸",
+            "description": "The CLARITY Act could become one of the most important pieces of U.S. crypto legislation — but its future is still uncertain.",
+            "published_at": "2026-08-11T02:43:01Z",
+            "url": "https://www.youtube.com/watch?v=c4nQ7xDumuM"
+          }
+        ],
+        "channel_description": "Welcome to JustKuro Finance\n\nYour trusted source for the latest updates on Bitcoin, Cryptocurrency, Investing, Personal Finance, and Global Markets.\n\nAt JustKuro Finance, we deliver short, informative, and easy-to-understand videos that help you stay ahead of the financial world.\n\n📈 What you’ll find on this channel:\n\n* Bitcoin & Crypto News\n* Market Analysis\n* Price Predictions\n* Investment Strategies\n* Stock Market Updates\n* Passive Income Ideas\n* Financial Education\n* Breaking Crypto News\n\n\nSubscribe and turn on notifications so you never miss the next market opportunity\n\nNew Shorts uploaded every day.\n\n\n⚠️ Disclaimer: The content on this channel is for educational and informational purposes only and should not be considered financial or investment advice. Always do your own research before making any investment decisions.\n\n#Bitcoin #Crypto #Finance #Investing #Ethereum #Blockchain #Trading #StockMarket #FinancialFreedom #PassiveIncome #Money #CryptoNews #BitcoinNews",
+        "latest_video_at": "2026-08-11T02:43:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCLVg3gS_lVVWhr23omBwAKg",
       "external_id": "UCLVg3gS_lVVWhr23omBwAKg",

@@ -2,19 +2,442 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-10T11:28:23Z",
-  "new_this_run": 10,
-  "total_influencers": 66,
+  "updated_at": "2026-08-11T11:09:07Z",
+  "new_this_run": 9,
+  "total_influencers": 75,
   "run_summary": {
-    "run_started_at": "2026-08-10T11:28:05Z",
+    "run_started_at": "2026-08-11T11:08:50Z",
     "candidate_count": 14,
-    "existing_count": 56,
-    "selected_new_count": 10,
+    "existing_count": 66,
+    "selected_new_count": 9,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCbQMRGjuPsBvvamrsHMS0Jg",
+      "external_id": "UCbQMRGjuPsBvvamrsHMS0Jg",
+      "name": "Ismael Galancho",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCbQMRGjuPsBvvamrsHMS0Jg",
+      "discovered_on": "2026-08-11",
+      "score": 76.94,
+      "metrics": {
+        "subscribers": 42900,
+        "total_views": 2392904,
+        "video_count": 189,
+        "avg_views_per_video": 12660.87,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "J5JgDtrLpQQ",
+            "title": "La verdad sobre los péptidos: mucho ruido, poca evidencia",
+            "description": "Muchos de los péptidos que ves en redes no están demostrados en humanos… y aun así la gente los está usando. Si te estás ...",
+            "published_at": "2026-08-10T17:30:06Z",
+            "url": "https://www.youtube.com/watch?v=J5JgDtrLpQQ"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "J5JgDtrLpQQ",
+            "title": "La verdad sobre los péptidos: mucho ruido, poca evidencia",
+            "description": "Muchos de los péptidos que ves en redes no están demostrados en humanos… y aun así la gente los está usando. Si te estás ...",
+            "published_at": "2026-08-10T17:30:06Z",
+            "url": "https://www.youtube.com/watch?v=J5JgDtrLpQQ"
+          }
+        ],
+        "channel_description": "Mi nombre es Ismael Galancho y en este canal podrás encontrar vídeos sobre investigación, nutrición y entrenamiento basados en la evidencia científica más actualizada.",
+        "latest_video_at": "2026-08-10T17:30:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCDtOb4YVyYOIrRCHZ9wfaLg",
+      "external_id": "UCDtOb4YVyYOIrRCHZ9wfaLg",
+      "name": "Dr. William Wallace",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCDtOb4YVyYOIrRCHZ9wfaLg",
+      "discovered_on": "2026-08-11",
+      "score": 68.58,
+      "metrics": {
+        "subscribers": 13900,
+        "total_views": 369035,
+        "video_count": 283,
+        "avg_views_per_video": 1304.01,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "eoZoL8jPBTo",
+            "title": "The Peptide That Seems to Heal Everything",
+            "description": "BPC-157 is now used as a recovery peptide for tendon injuries, muscle strains, and stubborn joint problems. Some people report ...",
+            "published_at": "2026-08-11T11:00:06Z",
+            "url": "https://www.youtube.com/watch?v=eoZoL8jPBTo"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "eoZoL8jPBTo",
+            "title": "The Peptide That Seems to Heal Everything",
+            "description": "BPC-157 is now used as a recovery peptide for tendon injuries, muscle strains, and stubborn joint problems. Some people report ...",
+            "published_at": "2026-08-11T11:00:06Z",
+            "url": "https://www.youtube.com/watch?v=eoZoL8jPBTo"
+          }
+        ],
+        "channel_description": "The Active Site is an investigative science show hosted by Dr. William Wallace, examining the claims shaping health, medicine, nutrition, and human biology. Through scientific history, landmark studies, hidden contradictions, competing interpretations, and unresolved questions, each episode asks not only whether a belief is true—but how we came to believe it in the first place.\n",
+        "latest_video_at": "2026-08-11T11:00:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCQXTnRyMogisuOplVz6KkJw",
+      "external_id": "UCQXTnRyMogisuOplVz6KkJw",
+      "name": "ロイヤルカナン ROYAL CANIN",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCQXTnRyMogisuOplVz6KkJw",
+      "discovered_on": "2026-08-11",
+      "score": 67.08,
+      "metrics": {
+        "subscribers": 3830,
+        "total_views": 21571321,
+        "video_count": 123,
+        "avg_views_per_video": 175376.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "OoL0FsgQBmA",
+            "title": "皮膚の専門獣医師が解説　食物アレルギーのための療法食 アミノペプチドフォーミュラ",
+            "description": "皮膚の専門獣医師が解説 ― 食物アレルギーのための療法食 アミノペプチドフォーミュラ ペットオーナーさんにとって心配な ...",
+            "published_at": "2026-08-11T11:00:29Z",
+            "url": "https://www.youtube.com/watch?v=OoL0FsgQBmA"
+          }
+        ],
+        "channel_description": "【公式】ロイヤルカナンのユーチューブ チャンネルです。\n▼ロイヤルカナン\nhttps://www.royalcanin.com/jp\n\n▼マイ ロイヤルカナン〈ロイヤルカナン公式通販サイト〉\nhttps://my.royalcanin.jp/\n\n▼利用規約\nhttp://www.mars.com/global/policies/legal/ld-japanese\n\n▼プライバシーポリシー\nhttps://www.mars.com/privacy-policy-japan\n",
+        "latest_video_at": "2026-08-11T11:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UClCh812K1-UudYisxiqwnfA",
+      "external_id": "UClCh812K1-UudYisxiqwnfA",
+      "name": "Talkin_with_tay",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UClCh812K1-UudYisxiqwnfA",
+      "discovered_on": "2026-08-11",
+      "score": 65.1,
+      "metrics": {
+        "subscribers": 4740,
+        "total_views": 2983439,
+        "video_count": 100,
+        "avg_views_per_video": 29834.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "qC_tUm_ZHeo",
+            "title": "#peppers #weightloss #weightlossjourney  #glp1  #peptides",
+            "description": "",
+            "published_at": "2026-08-11T04:35:07Z",
+            "url": "https://www.youtube.com/watch?v=qC_tUm_ZHeo"
+          }
+        ],
+        "channel_description": "Tik tok  @talkin.with.tay ",
+        "latest_video_at": "2026-08-11T04:35:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCnQSwBuLWwn3U5CpWb0UiIw",
+      "external_id": "UCnQSwBuLWwn3U5CpWb0UiIw",
+      "name": "Pharma Blog",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCnQSwBuLWwn3U5CpWb0UiIw",
+      "discovered_on": "2026-08-11",
+      "score": 61.53,
+      "metrics": {
+        "subscribers": 6210,
+        "total_views": 1235573,
+        "video_count": 314,
+        "avg_views_per_video": 3934.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "9frrpLp0jIw",
+            "title": "🚨 PEPTIDE AUS DEM INTERNET: DAS MUSST DU WISSEN! Mehr Endotoxine?! 😳Retatrutid, TB-500",
+            "description": "560 % mehr Endotoxine?! Retatrutid, TB-500 & andere „Research Peptides“ boomen im Internet. Aber was steckt wirklich im ...",
+            "published_at": "2026-08-10T12:26:13Z",
+            "url": "https://www.youtube.com/watch?v=9frrpLp0jIw"
+          }
+        ],
+        "channel_description": "Persönliche Erfahrungen & Nachricht aus der Welt der Pharmazie und Apotheke.  Neue Arzneimittel und Medikamente in der Pipeline.\n\nDisclaimer: Ich agiere als Privatperson und übe hier nicht meinen Beruf aus. Beiträge und Kommentare auf dieser Seite/Gruppe basieren auf persönlichen Erfahrungen und Meinungen. Sie stellen keine medizinische Beratung dar und ersetzen nicht den Besuch bei einem Arzt oder Apotheker. Bei gesundheitlichen Beschwerden oder Fragen zur Medikation wendet euch bitte immer an eine medizinische Fachkraft.\n",
+        "latest_video_at": "2026-08-10T12:26:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCHw7jjaJE_QGk2Mg3i4KEtA",
+      "external_id": "UCHw7jjaJE_QGk2Mg3i4KEtA",
+      "name": "Professor G - Pharmacology",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCHw7jjaJE_QGk2Mg3i4KEtA",
+      "discovered_on": "2026-08-11",
+      "score": 61.26,
+      "metrics": {
+        "subscribers": 4950,
+        "total_views": 651403,
+        "video_count": 136,
+        "avg_views_per_video": 4789.73,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "cMOhIibMkjQ",
+            "title": "Foundayo: The New GLP-1 Pill Explained",
+            "description": "The UK has just approved Foundayo (orforglipron), a new once-daily oral GLP-1 receptor agonist for weight management and ...",
+            "published_at": "2026-08-11T00:44:59Z",
+            "url": "https://www.youtube.com/watch?v=cMOhIibMkjQ"
+          }
+        ],
+        "channel_description": "Learn pharmacology and physiology the easy way — with clear, in-depth explanations from Professor G.\n\nWith over 40 years of experience teaching medical, pharmacy, dentistry, and biomedical students at leading UK universities, Professor G makes complex concepts simple. Each video walks you step-by-step through the mechanisms behind how the body works and how drugs act, so you truly understand — not just memorize.\n\nWhether you’re preparing for exams, pursuing research, or simply curious about how therapeutic drugs and biological systems work, this channel will help you master the science behind medicine.\n\nTopics include: pharmacodynamics, pharmacokinetics, receptor theory, autonomic pharmacology, drug discovery, and much more.\n\nSubscribe to make sense of the difficult parts of pharmacology and physiology — one concept at a time.\n\n",
+        "latest_video_at": "2026-08-11T00:44:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC_dJ5ThfEhj39zkEPQbNdPg",
+      "external_id": "UC_dJ5ThfEhj39zkEPQbNdPg",
+      "name": "Mind & Matter Podcast: Science, Health, Metabolism",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC_dJ5ThfEhj39zkEPQbNdPg",
+      "discovered_on": "2026-08-11",
+      "score": 60.38,
+      "metrics": {
+        "subscribers": 17300,
+        "total_views": 1433293,
+        "video_count": 2597,
+        "avg_views_per_video": 551.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "oYQ6rtoDFxQ",
+            "title": "Why pharmacological doses of GLP-1 change your biology",
+            "description": "Episode 298: The distinction between endogenous physiology and pharmacological intervention is crucial, particularly ...",
+            "published_at": "2026-08-10T19:12:56Z",
+            "url": "https://www.youtube.com/watch?v=oYQ6rtoDFxQ"
+          }
+        ],
+        "channel_description": "Food, drugs, or ideas: what you consume shapes who you become. Join neuroscientist Nick Jikomes, PhD, for interviews with top scientists on neuroscience, nutrition, metabolism, hormones, evolution, behavior, psychology, cannabis science, and health optimization.\n\nWeekly Episodes\n\nIn-depth talks on:  \nNeuroscience & brain science  \nNutrition, metabolism & hormones  \nPsychology, behavior & evolution  \nPsychedelics & psychoactives\nHealth, wellness & human performance\n\nNot medical advice.\n\nHost: Nick Jikomes, PhD\nHarvard PhD in Neuroscience, UW-Madison BS in Genetics. Former Director of Science & Innovation at a legalmarijuana tech startup.\n\nMore Content\nEpisodes, articles on Substack: https://mindandmatter.substack.com (Questions/comments here!)Support Us\nLove the podcast? Help grow it: http://tiny.cc/supportmm  \n\nSubscribe for science updates.\n\n#Neuroscience #Nutrition #Psychedelics #Metabolism #HealthPodcast #Evolution #Diet #Behavior #Psychology\n\n\n",
+        "latest_video_at": "2026-08-10T19:12:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCCHIK7jY4dls_ugyfjaphJA",
+      "external_id": "UCCHIK7jY4dls_ugyfjaphJA",
+      "name": "Identidad Infinita",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCCHIK7jY4dls_ugyfjaphJA",
+      "discovered_on": "2026-08-11",
+      "score": 57.29,
+      "metrics": {
+        "subscribers": 2200,
+        "total_views": 328998,
+        "video_count": 138,
+        "avg_views_per_video": 2384.04,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "f2aKk67IjGI",
+            "title": "La verdad detrás de la MODA de los PÉPTIDOS #shorts #trending #psicologia",
+            "description": "Realmente sabes qué es el uso de péptidos antes de probarlos? Muchos siguen la tendencia sin entender los riesgos reales.",
+            "published_at": "2026-08-11T01:00:15Z",
+            "url": "https://www.youtube.com/watch?v=f2aKk67IjGI"
+          }
+        ],
+        "channel_description": "*¿Qué sucede cuando la identidad que creaste para sobrevivir ya no te sirve?*\n\nSoy Karo Lama, psicóloga y autora de ¿Por qué no puedo parar de comer? (Penguin Random House) y Quiero ser flaca y feliz (Planeta).\n\nEn este podcast exploramos sobre:\n• Crisis de identidad y momentos de quiebre\n• El costo psicológico del éxito vacío\n• Duelos, migraciones y decisiones difíciles\n• Herramientas para la reinvención personal\n\nPorque hay una versión de ti por cada verdad que te atreves a mirar.\n\n📅 *NUEVOS EPISODIOS:* Cada semana\n\n📱 COMUNIDAD: ► Instagram: @podcast.identidadinfinita ► Newsletter: https://identidad-infinita.beehiiv.com/\n\n🔔 Suscríbete y activa notificaciones\n\n─────────────────\n\nContenido educativo. No sustituye atención profesional.\n\n#IdentidadInfinita #PsicologíaEnEspañol #TransformaciónPersonal #KaroLama #PodcastEnEspañol\n",
+        "latest_video_at": "2026-08-11T01:00:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCPOlk-OAa_bayZt2wf5nzFw",
+      "external_id": "UCPOlk-OAa_bayZt2wf5nzFw",
+      "name": "Tampa Bay's Morning Blend",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCPOlk-OAa_bayZt2wf5nzFw",
+      "discovered_on": "2026-08-11",
+      "score": 52.41,
+      "metrics": {
+        "subscribers": 2270,
+        "total_views": 898388,
+        "video_count": 3735,
+        "avg_views_per_video": 240.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "DfJT3TOqZFo",
+            "title": "The Peptide Trend",
+            "description": "Peptides have quickly become one of the biggest conversations in beauty, wellness, and longevity. From healthier skin and ...",
+            "published_at": "2026-08-10T14:41:45Z",
+            "url": "https://www.youtube.com/watch?v=DfJT3TOqZFo"
+          }
+        ],
+        "channel_description": "Tampa Bay’s Morning Blend is an original, local lifestyle show focused on providing our audience with informative, useful and entertaining content. It features a variety of community organizations, businesses and happenings in the Bay area. It is a marketing-friendly program dedicated to offering businesses the opportunity to showcase their company/products, reach potential customers and gain results.\n\n\nGrow Your Business With Us!\n\nFor Sponsor Information:\nEmail | TMorningBlend@wfts.com\n\n",
+        "latest_video_at": "2026-08-10T14:41:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCTJXMoehEPDTsRwme-IpbMQ",
       "external_id": "UCTJXMoehEPDTsRwme-IpbMQ",
