@@ -1,9 +1,9 @@
 {
   "schema": "open_source_news_manifest.v2",
   "report_schema": "open_source_news_daily_report.v2",
-  "latest_report_date": "2026-08-11",
-  "latest_report_path": "outputs/daily/2026-08-11.json",
-  "item_count": 422,
+  "latest_report_date": "2026-08-12",
+  "latest_report_path": "outputs/daily/2026-08-12.json",
+  "item_count": 415,
   "topics": [
     "General News & Research",
     "AI / AI Tools / AI Agents",
@@ -13,40 +13,40 @@
     "Peptides / Wellness / Longevity"
   ],
   "bucket_counts": {
-    "general": 75,
-    "ai": 79,
-    "blockchain": 64,
-    "sense_making": 65,
+    "general": 72,
+    "ai": 83,
+    "blockchain": 65,
+    "sense_making": 62,
     "alternative_news": 40,
-    "peptides": 99
+    "peptides": 93
   },
-  "generated_at": "2026-08-11T08:17:21Z",
-  "report_sha256": "d1d5c4544185c756d87c9c866b94e83c7819c1164e22e15554238da025028338",
-  "report_bytes": 629418,
-  "unique_signal_count": 405,
-  "unique_cluster_count": 421,
+  "generated_at": "2026-08-12T08:41:26Z",
+  "report_sha256": "e61ccb71ebf7e517fdbfe69d96545fbdd27d3e7da57a70de1f240a14ef11db4b",
+  "report_bytes": 617009,
+  "unique_signal_count": 395,
+  "unique_cluster_count": 413,
   "source_counts": {
     "RSS": 75,
-    "YouTube": 167,
+    "YouTube": 166,
     "GitHub Trending": 20,
     "Hacker News": 99,
-    "PubMed": 24,
-    "ClinicalTrials.gov": 37
+    "PubMed": 15,
+    "ClinicalTrials.gov": 40
   },
-  "enrichment_pending_count": 422,
+  "enrichment_pending_count": 415,
   "artifacts": {
-    "atoms_jsonl": "outputs/atoms/2026-08-11.jsonl",
+    "atoms_jsonl": "outputs/atoms/2026-08-12.jsonl",
     "atoms_latest": "outputs/atoms/latest.jsonl",
-    "embedding_ready_jsonl": "outputs/embedding_ready/2026-08-11.jsonl",
+    "embedding_ready_jsonl": "outputs/embedding_ready/2026-08-12.jsonl",
     "embedding_ready_latest": "outputs/embedding_ready/latest.jsonl",
-    "topics": "outputs/topics/2026-08-11.json",
-    "entities": "outputs/entities/2026-08-11.json",
-    "consensus": "outputs/consensus/2026-08-11.json",
-    "source_trust": "outputs/source_trust/2026-08-11.json",
+    "topics": "outputs/topics/2026-08-12.json",
+    "entities": "outputs/entities/2026-08-12.json",
+    "consensus": "outputs/consensus/2026-08-12.json",
+    "source_trust": "outputs/source_trust/2026-08-12.json",
     "github_traction": "outputs/github_traction/latest.json",
     "github_traction_top": "outputs/github_traction/top_this_week.json",
     "hermes_contract": "HERMES_CONTRACT.md"
   },
-  "workflow_run_id": "31472514014",
-  "commit_sha": "182f66d0e2372bc5ada524974ddcfa5e8c1edff4"
+  "workflow_run_id": "31579457343",
+  "commit_sha": "b3ce9be600a501c362ea330c7c4f314a5fac71e1"
 }
