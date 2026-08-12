@@ -2,19 +2,417 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-11T11:09:07Z",
-  "new_this_run": 9,
-  "total_influencers": 75,
+  "updated_at": "2026-08-12T11:12:57Z",
+  "new_this_run": 8,
+  "total_influencers": 83,
   "run_summary": {
-    "run_started_at": "2026-08-11T11:08:50Z",
-    "candidate_count": 14,
-    "existing_count": 66,
-    "selected_new_count": 9,
+    "run_started_at": "2026-08-12T11:12:40Z",
+    "candidate_count": 13,
+    "existing_count": 75,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCCI0tSMloc65xjEN1TGkZQQ",
+      "external_id": "UCCI0tSMloc65xjEN1TGkZQQ",
+      "name": "Tony Swedberg",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCCI0tSMloc65xjEN1TGkZQQ",
+      "discovered_on": "2026-08-12",
+      "score": 82.86,
+      "metrics": {
+        "subscribers": 45800,
+        "total_views": 5217688,
+        "video_count": 743,
+        "avg_views_per_video": 7022.46,
+        "matched_queries": 3,
+        "sample_videos": 3
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "OQ9tc-SZFDI",
+            "title": "KLOW Peptide Explained: Benefits &amp; Results | Does It Really Work? #klow #ghkcu #bpc157 #tb500 #kpv",
+            "description": "What is KLOW peptide and why is everyone talking about it? In this video, I explain what's inside the KLOW peptide blend, ...",
+            "published_at": "2026-08-11T21:11:45Z",
+            "url": "https://www.youtube.com/watch?v=OQ9tc-SZFDI"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "OQ9tc-SZFDI",
+            "title": "KLOW Peptide Explained: Benefits &amp; Results | Does It Really Work? #klow #ghkcu #bpc157 #tb500 #kpv",
+            "description": "What is KLOW peptide and why is everyone talking about it? In this video, I explain what's inside the KLOW peptide blend, ...",
+            "published_at": "2026-08-11T21:11:45Z",
+            "url": "https://www.youtube.com/watch?v=OQ9tc-SZFDI"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "OQ9tc-SZFDI",
+            "title": "KLOW Peptide Explained: Benefits &amp; Results | Does It Really Work? #klow #ghkcu #bpc157 #tb500 #kpv",
+            "description": "What is KLOW peptide and why is everyone talking about it? In this video, I explain what's inside the KLOW peptide blend, ...",
+            "published_at": "2026-08-11T21:11:45Z",
+            "url": "https://www.youtube.com/watch?v=OQ9tc-SZFDI"
+          }
+        ],
+        "channel_description": "Welcome to the channel — where real fitness meets real results.\n\nI’m Tony Swedberg, and this channel is all about pushing your body to the next level through smart training, discipline, and cutting-edge strategies. Here you’ll find daily fitness vlogs, intense workouts, and straightforward advice on building muscle, burning fat, and optimizing performance.\n\nI also break down peptides — what they are, how they’re used, and how they fit into a serious fitness lifestyle — in a simple, no-BS way so you can actually understand what works and why.\n\nWhether you’re trying to get leaner, stronger, or just stay consistent, this channel gives you the mindset, tools, and knowledge to level up.\n\nNo fluff. No excuses. Just results.\n\nSubscribe and let’s get better every day.\n",
+        "latest_video_at": "2026-08-11T21:11:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCbs7VRA2hQGCBl6JLVbuZ2Q",
+      "external_id": "UCbs7VRA2hQGCBl6JLVbuZ2Q",
+      "name": "Peptide Buddy",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCbs7VRA2hQGCBl6JLVbuZ2Q",
+      "discovered_on": "2026-08-12",
+      "score": 73.09,
+      "metrics": {
+        "subscribers": 17100,
+        "total_views": 999781,
+        "video_count": 128,
+        "avg_views_per_video": 7810.79,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "3KhtVTYopLw",
+            "title": "Scientists Compared BPC-157 and TB-500 for the First Time",
+            "description": "Scientists Compared BPC-157 and TB-500 for the First Time: https://pubmed.ncbi.nlm.nih.gov/42542926/ #BPC157 #TB500 ...",
+            "published_at": "2026-08-11T21:33:47Z",
+            "url": "https://www.youtube.com/watch?v=3KhtVTYopLw"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "3KhtVTYopLw",
+            "title": "Scientists Compared BPC-157 and TB-500 for the First Time",
+            "description": "Scientists Compared BPC-157 and TB-500 for the First Time: https://pubmed.ncbi.nlm.nih.gov/42542926/ #BPC157 #TB500 ...",
+            "published_at": "2026-08-11T21:33:47Z",
+            "url": "https://www.youtube.com/watch?v=3KhtVTYopLw"
+          }
+        ],
+        "channel_description": "Seeking to understand evidence-based peptide research in the realms of physical, mental and biologic health.\n\nThanks for watching!\n\nBusiness inquiries: PeptideBuddyYT@gmail.com\n\nDISCLAIMER: The content provided in this video is for informational, educational and entertainment purposes only. It is not intended to be, nor should it be considered, medical advice, diagnosis, or treatment. While we strive to present accurate and up-to-date information, the content is based on publicly available research and personal opinions. Medical knowledge is constantly evolving, and new research may affect the validity of the information provided. Always consult a qualified healthcare professional for advice tailored to your individual health needs.\n\n",
+        "latest_video_at": "2026-08-11T21:33:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCuiOXwhDPa5OcvZRZ59mw4A",
+      "external_id": "UCuiOXwhDPa5OcvZRZ59mw4A",
+      "name": "Nip & Tuck Plastic Surgery",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCuiOXwhDPa5OcvZRZ59mw4A",
+      "discovered_on": "2026-08-12",
+      "score": 68.52,
+      "metrics": {
+        "subscribers": 4560,
+        "total_views": 2629801,
+        "video_count": 435,
+        "avg_views_per_video": 6045.52,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "siMvRhyKs3o",
+            "title": "Did the FDA Approve BPC-157? Not So Fast.",
+            "description": "You may have seen headlines claiming the FDA approved BPC-157 and other popular peptides. That's not what happened.",
+            "published_at": "2026-08-11T19:35:58Z",
+            "url": "https://www.youtube.com/watch?v=siMvRhyKs3o"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "l_IGxGHv_yA",
+            "title": "The Truth About the FDA&#39;s Peptide Decision",
+            "description": "Did the FDA actually approve BPC-157, TB-500, MOTS-c, Semax, KPV and Epitalon? Despite what you may have seen on social ...",
+            "published_at": "2026-08-11T15:00:34Z",
+            "url": "https://www.youtube.com/watch?v=l_IGxGHv_yA"
+          }
+        ],
+        "channel_description": "Nip & Tuck Plastic Surgery — Dr. Nicholas Jones, MD, FACS | Board-Certified Plastic Surgeon in Atlanta, GA.\n\nI'm Dr. Nicholas Jones, a board-certified Atlanta plastic surgeon specializing in body contouring, tummy tuck (abdominoplasty), arm lift (brachioplasty), liposuction, breast augmentation, mommy makeovers, body contouring after weight loss, and medical weight loss. On this channel I educate, entertain, and answer your real questions about plastic surgery — the procedures, the recovery, and the results — so you can make confident, informed decisions about your body.\n\nBeyond surgery, I share my life, my family, and my faith, and I'm passionate about inspiring the next generation of surgeons — especially young people of color — to know they can achieve anything with hard work, consistency, and focus.\n\nAtlanta, GA\nBook a consultation at drnipandtuck.com\nSubscribe for honest plastic surgery education from a board-certified surgeon — new videos and Shorts every week.\n",
+        "latest_video_at": "2026-08-11T19:35:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCmFnEfTMIdUoIQy0jYlu55g",
+      "external_id": "UCmFnEfTMIdUoIQy0jYlu55g",
+      "name": "Elżbieta Krzyżaniak",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCmFnEfTMIdUoIQy0jYlu55g",
+      "discovered_on": "2026-08-12",
+      "score": 64.21,
+      "metrics": {
+        "subscribers": 25400,
+        "total_views": 2759276,
+        "video_count": 1464,
+        "avg_views_per_video": 1884.75,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "BlmWSS-8bjo",
+            "title": "GLP-1, GLP-2, GIP: 3 sygnały, które zmieniają spojrzenie na metabolizm ORYGN i co ma do tego łosoś ",
+            "description": "Czym naprawdę są peptydy? Jak można pozyskać bioaktywne peptydy z białka łososia? I dlaczego mówi się o inteligentnej ...",
+            "published_at": "2026-08-11T17:27:08Z",
+            "url": "https://www.youtube.com/watch?v=BlmWSS-8bjo"
+          }
+        ],
+        "channel_description": "Moja, Twoja droga zawsze prowadzi do Źródła - JAM JEST. To podróż, w której każdy krok przybliża do światła i harmonii. Mnie zróżnicowane ścieżki wiodły przez Mont Blanc, książki i bajkę terapeutyczną, warsztaty w całej Europie dla dzieci, młodzieży, nauczycieli oraz tysiące spotkań indywidualnych. Te doświadczenia pokazały, że spełnienie i uzdrowienie stają się możliwe, gdy ciało, umysł i duch spotykają się w jedności.\n\nEnergia tej przestrzeni obejmuje nie tylko tych, którzy tu zaglądają – moje intencje płyną dalej, otulając wszystkich spokojem i inspiracją.\n\nELYvoice\n\n🤍🫶🤍\n",
+        "latest_video_at": "2026-08-11T17:27:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC7r8f7feMnv_BSriZPHoI3w",
+      "external_id": "UC7r8f7feMnv_BSriZPHoI3w",
+      "name": "Resilient Alpha - IvyFON  Video",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC7r8f7feMnv_BSriZPHoI3w",
+      "discovered_on": "2026-08-12",
+      "score": 63.05,
+      "metrics": {
+        "subscribers": 54100,
+        "total_views": 1608060,
+        "video_count": 4197,
+        "avg_views_per_video": 383.15,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "5N4N1a9_TXk",
+            "title": "Resilient Alpha: A New Peptide Targets the Cell’s Energy System! ⚡🧬#shorts #science #research",
+            "description": "Could a new peptide drug targeting mitochondrial dysfunction open a new path for researchers studying nerve pain? ⚡   In this ...",
+            "published_at": "2026-08-11T23:00:22Z",
+            "url": "https://www.youtube.com/watch?v=5N4N1a9_TXk"
+          }
+        ],
+        "channel_description": "Resilient Alpha is an innovative Financial Podcast for 2026 and beyond, featuring top guests like Alan Patricof, Kevin Ryan, Fred Nazem, and Peter Lewis.With legacy speakers such as Mike Novogratz, Dan Morehead, Barry Silbert, Ron Baron, and Tim Draper, Family Offices and Institutions discover forward-leaning Finance Community Insights. Covering alternative topics and private market strategies.  Watch on YouTube, Spotify, Apple Podcasts, LinkedIn, Substack, Instagram Reels, and TikTok. Subscribe for new trends in Investing, innovation, and business leadership in 2026 and beyond.",
+        "latest_video_at": "2026-08-11T23:00:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCoQ8nfGaDIveq8sJDizJ4Bw",
+      "external_id": "UCoQ8nfGaDIveq8sJDizJ4Bw",
+      "name": "Down to Health",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCoQ8nfGaDIveq8sJDizJ4Bw",
+      "discovered_on": "2026-08-12",
+      "score": 62.66,
+      "metrics": {
+        "subscribers": 3400,
+        "total_views": 2770448,
+        "video_count": 180,
+        "avg_views_per_video": 15391.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "8Y6QbQf_v4k",
+            "title": "Inside the Gray Market Making Your Peptides - Phil Cowley | Down To Health",
+            "description": "Gray market peptides. GLP-1s. The slow death of your neighborhood pharmacy. This episode makes the case that all three come ...",
+            "published_at": "2026-08-11T19:00:09Z",
+            "url": "https://www.youtube.com/watch?v=8Y6QbQf_v4k"
+          }
+        ],
+        "channel_description": "Down to Health is the intelligent filter between cutting-edge research, fringe communities, and the person who wants a life instead of an unhealthy obsession. Hosted by Ilon (dentist & NOBS founder), Calvin (military vet & NOBS CEO), and TJ (The Outgoing Co. founder).",
+        "latest_video_at": "2026-08-11T19:00:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC_LcMpAX93nvtUd9pEzwhwg",
+      "external_id": "UC_LcMpAX93nvtUd9pEzwhwg",
+      "name": "Bel Jashari",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC_LcMpAX93nvtUd9pEzwhwg",
+      "discovered_on": "2026-08-12",
+      "score": 61.87,
+      "metrics": {
+        "subscribers": 6750,
+        "total_views": 3276613,
+        "video_count": 798,
+        "avg_views_per_video": 4106.03,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "-PgReqZe_hs",
+            "title": "Ich habe TB500 &amp; BPC157 getestet - das ist meine Erfahrung.",
+            "description": "Ich habe die peptide TB500 & BPC157 über sechs Wochen getestet und habe folgende Erfahrung gemacht. Alles über die ...",
+            "published_at": "2026-08-11T15:00:35Z",
+            "url": "https://www.youtube.com/watch?v=-PgReqZe_hs"
+          }
+        ],
+        "channel_description": "Willkommen auf meinem Kanal.\nHier sprechen wir über die Realität hinter Erfolg, mentaler Stärke und einem unabhängigen Lebensstil.\nMein Name ist Bel aka Belisimo. \nIch bin Profi-Tänzer und Unternehmer. Nach über zwei Jahrzehnten im Leistungssport und auf internationalen Show-Bühnen kenne ich den Preis für Erfolg, den Umgang mit schweren Verletzungen und den Druck von außen.\nAlle Inhalte und Informationen auf diesem Kanal stammen zu 100 % aus meiner persönlichen Erfahrung und Praxis. Es geht um drei fundamentale Bereiche:\n\n🧠 Mentale Stärke & Disziplin\n🌱 Lebensphilosophie & Freiheit\n🤝🏽 Beziehungen & Connection\n\nDieser Content ist für alle, die abseits der Masse ihren eigenen Weg gehen wollen. Es ist nie zu spät, die eigenen Regeln zu schreiben.",
+        "latest_video_at": "2026-08-11T15:00:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCpQnvp6elTXSOp4bJpjctoQ",
+      "external_id": "UCpQnvp6elTXSOp4bJpjctoQ",
+      "name": "Real Science with Chris Neal",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCpQnvp6elTXSOp4bJpjctoQ",
+      "discovered_on": "2026-08-12",
+      "score": 60.94,
+      "metrics": {
+        "subscribers": 2950,
+        "total_views": 101316,
+        "video_count": 75,
+        "avg_views_per_video": 1350.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@team360Health_"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "FnBlUr0pJEU",
+            "title": "FDA votes about Peptides in Summer &#39;26 - What is the Truth???",
+            "description": "FDA Peptide “Approval” Rumors Explained: What the July 2026 PCAC Vote Really Means Chris Neal explains that the FDA did ...",
+            "published_at": "2026-08-10T23:00:06Z",
+            "url": "https://www.youtube.com/watch?v=FnBlUr0pJEU"
+          }
+        ],
+        "channel_description": "If you are seeking professional medical optimization for your health, fitness, and performance needs, check out www.Team360Health.com!  \n\nWe are a team that loves to help people reach their goals, whatever they might be!  We are happy to walk this journey with you and provide the knowledge to keep you healthy and optimized!\n\nCheck out my new podcast, Living360 at https://www.youtube.com/@team360Health_\n",
+        "latest_video_at": "2026-08-10T23:00:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCbQMRGjuPsBvvamrsHMS0Jg",
       "external_id": "UCbQMRGjuPsBvvamrsHMS0Jg",

@@ -2,19 +2,685 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-11T11:08:58Z",
-  "new_this_run": 10,
-  "total_influencers": 120,
+  "updated_at": "2026-08-12T11:12:48Z",
+  "new_this_run": 15,
+  "total_influencers": 135,
   "run_summary": {
-    "run_started_at": "2026-08-11T11:08:50Z",
-    "candidate_count": 22,
-    "existing_count": 110,
-    "selected_new_count": 10,
+    "run_started_at": "2026-08-12T11:12:40Z",
+    "candidate_count": 19,
+    "existing_count": 120,
+    "selected_new_count": 15,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCrtMQWiL5rTHFMOoxc3_zPg",
+      "external_id": "UCrtMQWiL5rTHFMOoxc3_zPg",
+      "name": "RNN SACH AAP TAK",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCrtMQWiL5rTHFMOoxc3_zPg",
+      "discovered_on": "2026-08-12",
+      "score": 73.49,
+      "metrics": {
+        "subscribers": 88800,
+        "total_views": 43129940,
+        "video_count": 1835,
+        "avg_views_per_video": 23504.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "jUIIhJIcFP8",
+            "title": "IIT Delhi जाने पर Pm Modi के ऊपर छपा Telegraph का रिपोर्ट क्यों डिलीट #pmmodi #ytshorts",
+            "description": "IIT Delhi जाने पर Pm Modi के ऊपर छपा Telegraph का रिपोर्ट क्यों डिलीट #pmmodi #ytshorts ...",
+            "published_at": "2026-08-12T08:45:39Z",
+            "url": "https://www.youtube.com/watch?v=jUIIhJIcFP8"
+          }
+        ],
+        "channel_description": "🔴 RNN Sach Aap Tak - ना कोई पक्ष, ना कोई विपक्ष, केवल सच आप तक !\n\nहम हैं RNN Sach Aap Tak, एक ऐसा न्यूज प्लेटफॉर्म जो देश, दुनिया और भारत के हर कोने से जुड़ी बड़ी और अहम खबरों को निष्पक्षता के साथ आपके सामने रखते हैं !\n\n📌 हमारा लक्ष्य:\n\nसच को दबने नहीं देना और जनहित की आवाज को बुलंद करना।\n\n📌 हमारा सिद्धांत:\n\nना किसी पार्टी के पक्ष में, ना किसी दल के विपक्ष में — हमारा एक ही मकसद है: सिर्फ सच आप तक पहुँचे !\n\n📌 क्या पाते हैं हमारे चैनल पर ?\n\n* देश-विदेश की बड़ी खबरें\n* राज्य स्तरीय अपडेट्स\n* राजनीति, समाज, प्रशासन और आम जनता की सच्ची आवाज\n*ग्राउंड रिपोर्ट्स और एक्सक्लूसिव कवरेज\n\n👉 अगर आप भी चाहते हैं सच्ची खबरों तक पहुंच — तो जुड़िए हमारे साथ !\nसब्सक्राइब कीजिए और बेल आइकन दबाइए ताकि कोई भी सच आपसे छूट न जाए।\n\n",
+        "latest_video_at": "2026-08-12T08:45:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCtQG0vmZ7suK0NHNOnMzCxA",
+      "external_id": "UCtQG0vmZ7suK0NHNOnMzCxA",
+      "name": "Patriotischer Puls",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCtQG0vmZ7suK0NHNOnMzCxA",
+      "discovered_on": "2026-08-12",
+      "score": 73.29,
+      "metrics": {
+        "subscribers": 18700,
+        "total_views": 16156808,
+        "video_count": 852,
+        "avg_views_per_video": 18963.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/channel/UCtQG0vmZ7suK0NHNOnMzCxA"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "9xswk5RDWZQ",
+            "title": "Höcke warnt: Zensur ist zurück! #afd #Reden #höcke",
+            "description": "Kanalmitglied werden und exklusive Vorteile erhalten: https://www.youtube.com/channel/UCtQG0vmZ7suK0NHNOnMzCxA/join ...",
+            "published_at": "2026-08-11T16:00:02Z",
+            "url": "https://www.youtube.com/watch?v=9xswk5RDWZQ"
+          }
+        ],
+        "channel_description": "Willkommen bei Patriotischer Puls – deinem Kanal für echte Meinungen, klare Worte und politische Diskussionen! Hier dreht sich alles um Deutschland und die alternative Sicht auf Politik und Gesellschaft.\n\nWir bieten dir:\n\nReden und Interviews mit Politikern, die Mut zur Wahrheit haben.\nSatirische Nachrichten und Analysen, die das politische Geschehen kritisch beleuchten.\nAktuelle Themen, die das Land bewegen – unzensiert und direkt.\nUnsere Mission ist es, patriotische Werte zu stärken, ehrliche Debatten zu fördern und dir eine Plattform zu bieten, die das ausspricht, was andere verschweigen.\n\n⚠️ Haftungsausschluss: In unseren Videos diskutieren wir über Informationen und theoretische Perspektiven, die im Internet kursieren und von verschiedenen Nachrichtenquellen berichtet wurden. Diese Inhalte dienen ausschließlich Bildungs- und Informationszwecken und sollten nicht als bestätigte Fakten oder absolute Wahrheiten interpretiert werden.\n\n\n\n",
+        "latest_video_at": "2026-08-11T16:00:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCvPbHiqhLtpNWA_cg_1NULw",
+      "external_id": "UCvPbHiqhLtpNWA_cg_1NULw",
+      "name": "Public Enquiry",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCvPbHiqhLtpNWA_cg_1NULw",
+      "discovered_on": "2026-08-12",
+      "score": 73.27,
+      "metrics": {
+        "subscribers": 25800,
+        "total_views": 13040707,
+        "video_count": 1726,
+        "avg_views_per_video": 7555.45,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media",
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "2GU_zdzFF4c",
+            "title": "Independent media is beset by saboteurs who enable ever worse atrocities. Richie Allen, Tony Gosling",
+            "description": "Richie is joined by broadcast journalist and author, Tony Gosling.",
+            "published_at": "2026-08-11T01:55:01Z",
+            "url": "https://www.youtube.com/watch?v=2GU_zdzFF4c"
+          },
+          {
+            "query": "independent journalism",
+            "video_id": "2GU_zdzFF4c",
+            "title": "Independent media is beset by saboteurs who enable ever worse atrocities. Richie Allen, Tony Gosling",
+            "description": "Richie is joined by broadcast journalist and author, Tony Gosling.",
+            "published_at": "2026-08-11T01:55:01Z",
+            "url": "https://www.youtube.com/watch?v=2GU_zdzFF4c"
+          }
+        ],
+        "channel_description": "Documentary makers are just about the only public interest investigators left in the NATO zone. From the top down, our mainstream media, police, political parties & intelligence services are being compromised by feudal banksters, secret societies and the Mafia. Key people intimidated by psychopathic black magic types and their pliable drones who will even kill to take over positions of power? Just search for \"John Scarlett\" and \"Dodgy Dossier\" and you'll see what I mean. The Zionists are every bit as fundamentalist and twisted as the leaders and followers of ISIS.\n\nRegister here and join us in the discussion as the cell divides and we wriggle free of the psychopaths, back to sanity http://www.911forum.org.uk",
+        "latest_video_at": "2026-08-11T01:55:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC6FsLCSXBwt4Wxtd8fYGhOw",
+      "external_id": "UC6FsLCSXBwt4Wxtd8fYGhOw",
+      "name": "informodisha",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC6FsLCSXBwt4Wxtd8fYGhOw",
+      "discovered_on": "2026-08-12",
+      "score": 72.19,
+      "metrics": {
+        "subscribers": 52700,
+        "total_views": 74922846,
+        "video_count": 2803,
+        "avg_views_per_video": 26729.52,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "Ci8o0RaI7hk",
+            "title": "Practice for 15th August independent day celebration#smartodishareport #news #infipendentday",
+            "description": "Practice for 15th August independent day celebration #smartodishareport #news #infipendentday.",
+            "published_at": "2026-08-12T04:43:38Z",
+            "url": "https://www.youtube.com/watch?v=Ci8o0RaI7hk"
+          }
+        ],
+        "channel_description": "This channel is a information  base News & education channel . Please subscribe my channel for update news just like crime news, political news , Film news , weather news etc. \nFacebook: Informodisha\n Instagram: informodisha",
+        "latest_video_at": "2026-08-12T04:43:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC9-5iwBKxTAW8d0dQxX1L-A",
+      "external_id": "UC9-5iwBKxTAW8d0dQxX1L-A",
+      "name": "DER ZAUBERBLICK",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC9-5iwBKxTAW8d0dQxX1L-A",
+      "discovered_on": "2026-08-12",
+      "score": 72.18,
+      "metrics": {
+        "subscribers": 27300,
+        "total_views": 19197268,
+        "video_count": 287,
+        "avg_views_per_video": 66889.44,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "38_cK-7Rf78",
+            "title": "💥&quot;DER ÖRR WILL MICH ZERSTÖREN&quot; - Hardal Schmidt bricht das TABU!",
+            "description": "Willkommen bei Zauberblick – dem unabhängigen Politik-Kanal für alle, die Klarheit statt Filter, Fakten statt Schönreden wollen.",
+            "published_at": "2026-08-11T16:20:28Z",
+            "url": "https://www.youtube.com/watch?v=38_cK-7Rf78"
+          }
+        ],
+        "channel_description": "Willkommen bei DER ZAUBERBLICK,  dem unabhängigen Politik-Kanal für alle, die Klarheit statt Filter und Fakten statt Schönreden wollen.\n\nUnd ja, neben Politik bin ich auch Comedian. Das heißt: Hier bekommt ihr harte Analysen, aber immer mit einer Prise Humor, Satire und gesunder Ironie.\n\nHier findest du scharfe, witzige und satirische, aber dennoch realitätsnahe Videos zu den wichtigsten politischen Entwicklungen in Deutschland und der Welt. Kritisch, ehrlich, unerschrocken.\n",
+        "latest_video_at": "2026-08-11T16:20:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWxdhSIVMreBHJTQlVdg9lA",
+      "external_id": "UCWxdhSIVMreBHJTQlVdg9lA",
+      "name": "Frontline Magazine",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWxdhSIVMreBHJTQlVdg9lA",
+      "discovered_on": "2026-08-12",
+      "score": 69.04,
+      "metrics": {
+        "subscribers": 56200,
+        "total_views": 10447792,
+        "video_count": 1824,
+        "avg_views_per_video": 5727.96,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "q2gm5LOCOfY",
+            "title": "Gen Z Protests: How digital surveillance and censorship are changing India’s internet | Apar Gupta",
+            "description": "In this episode of Frontline Conversations, Apar Gupta, lawyer, digital rights activist and founder-director of the Internet Freedom ...",
+            "published_at": "2026-08-11T17:30:33Z",
+            "url": "https://www.youtube.com/watch?v=q2gm5LOCOfY"
+          }
+        ],
+        "channel_description": "Frontline, the fortnightly English magazine from the stable of The Hindu, has been a distinguished presence in the media world since 1984. Its journalism is characterised by in-depth, insightful reporting and analysis of issues and events at the regional, national, and international levels. It excels in long-form journalism.\n",
+        "latest_video_at": "2026-08-11T17:30:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7P7f7YPvJasow4LrVGwgMQ",
+      "external_id": "UC7P7f7YPvJasow4LrVGwgMQ",
+      "name": "eCornell",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7P7f7YPvJasow4LrVGwgMQ",
+      "discovered_on": "2026-08-12",
+      "score": 67.48,
+      "metrics": {
+        "subscribers": 12500,
+        "total_views": 17270294,
+        "video_count": 753,
+        "avg_views_per_video": 22935.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "LE_Y-uK3is4",
+            "title": "Empowering Local News: A Coalition To Strengthen Independent Journalism",
+            "description": "Local journalism in Western Pennsylvania is at a pivotal moment. As legacy news institutions have closed in recent decades, ...",
+            "published_at": "2026-08-11T20:44:34Z",
+            "url": "https://www.youtube.com/watch?v=LE_Y-uK3is4"
+          }
+        ],
+        "channel_description": "At Cornell, Great Teaching Matters.\n\nAs Cornell University’s professional education unit, eCornell offers a robust learning experience unlike any other.  While many online course providers offer “certificate programs,” you will find a wide range of variability in the quality and rigor of the programs.  With minimal human interaction and feedback, these programs are often little more than self-paced, click-through learning experiences that may not challenge you or enable you to achieve your goals. When you want IMPACT, choosing a program that provides structure, support, and engagement is a proven path to success.\n\n\n",
+        "latest_video_at": "2026-08-11T20:44:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoPSgK9CC9IkTIVJX9MnJiA",
+      "external_id": "UCoPSgK9CC9IkTIVJX9MnJiA",
+      "name": "Ben Swann",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCoPSgK9CC9IkTIVJX9MnJiA",
+      "discovered_on": "2026-08-12",
+      "score": 67.05,
+      "metrics": {
+        "subscribers": 21700,
+        "total_views": 617994,
+        "video_count": 283,
+        "avg_views_per_video": 2183.72,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "exfBx4RMNss",
+            "title": "RFK Jr. Live On CNN: What Is The Media’s Real Job?",
+            "description": "When news anchors try to steer interviews away from inconvenient topics, what is the media's actual responsibility? During a live ...",
+            "published_at": "2026-08-11T20:01:51Z",
+            "url": "https://www.youtube.com/watch?v=exfBx4RMNss"
+          },
+          {
+            "query": "censorship news",
+            "video_id": "ApvrRJq5lTA",
+            "title": "RFK Jr. Turns the Tables on Mainstream Media",
+            "description": "When news anchors attempt to steer interviews away from inconvenient topics, what is the media's actual responsibility? During a ...",
+            "published_at": "2026-08-11T17:02:38Z",
+            "url": "https://www.youtube.com/watch?v=ApvrRJq5lTA"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-11T20:01:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCwo_d8sNBWDsfxn49Hv3x1g",
+      "external_id": "UCwo_d8sNBWDsfxn49Hv3x1g",
+      "name": "Haryan Gláeddyv",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCwo_d8sNBWDsfxn49Hv3x1g",
+      "discovered_on": "2026-08-12",
+      "score": 66.12,
+      "metrics": {
+        "subscribers": 11000,
+        "total_views": 1464454,
+        "video_count": 1002,
+        "avg_views_per_video": 1461.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://x.com/NotHaryan"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "el9eDRLMLJI",
+            "title": "Novara Media Forced to Admit Cambridge’s Jason Arday Scandal Is a Humiliation",
+            "description": "In this video I break down Novara Media's coverage of the Jason Arday affair. Once celebrated as Cambridge's youngest Black ...",
+            "published_at": "2026-08-11T12:45:00Z",
+            "url": "https://www.youtube.com/watch?v=el9eDRLMLJI"
+          }
+        ],
+        "channel_description": "Vote Reform\n\nI have some links here:\n\nTwitter:               - https://x.com/NotHaryan",
+        "latest_video_at": "2026-08-11T12:45:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOqz2yJ1vKX_u3VZOIsAIVw",
+      "external_id": "UCOqz2yJ1vKX_u3VZOIsAIVw",
+      "name": "Nitesh Verma official ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCOqz2yJ1vKX_u3VZOIsAIVw",
+      "discovered_on": "2026-08-12",
+      "score": 66.1,
+      "metrics": {
+        "subscribers": 22000,
+        "total_views": 698666,
+        "video_count": 127,
+        "avg_views_per_video": 5501.31,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "Upl-w36SlAo",
+            "title": "Balochistan Independence? 🇵🇰🔥 #Shorts #news",
+            "description": "Balochistan Independence? #Shorts #news.",
+            "published_at": "2026-08-12T08:44:29Z",
+            "url": "https://www.youtube.com/watch?v=Upl-w36SlAo"
+          }
+        ],
+        "channel_description": "🚀 Welcome to Nitesh Verma Official ❤️\n\n🙏 Namaste! Main Nitesh Verma hoon. Aapka swagat hai Nitesh Verma Official YouTube Channel par. Yahan aapko Latest News 📰 | Breaking News 🚨 | Viral Updates 🔥 | Social Issues 🇮🇳 | Trending Topics 📈 | 🎥 sabse pehle aur aasaan bhasha mein dekhne ko milenge.\n\n✨ Nitesh Verma Official ka maksad hai aap tak har zaroori update jaldi aur sahi tareeke se pahunchana.\n\n📌 Is Channel Par Milega:\n📰 Latest News\n🚨 Breaking News\n🔥 Viral News\n🇮🇳 Social Issues\n📈 Trending Topics\n🎥 Daily Shorts & Videos\n\n❤️ Agar aapko Nitesh Verma ki videos pasand aati hain, to Nitesh Verma Official ko Subscribe zarur karein aur 🔔 Bell Icon daba dein, taaki har nayi video sabse pehle aap tak pahunch sake.\n\n🙏 Thank You for Supporting Nitesh Verma! ❤️\nNiteshkumarverma@886@gmail.com\n1      :- subscribe :- 2 /12 /2024\n100 :- SUBSCRIBE  :- 19 / 12 / 2024 \n1000 :- SUBSCRIBE  :- 01 / 01 / 2025\n10000 :- Subscribe :-  07/ 02 / 2025\n20000:- subscribe :- 17/3/2025\n\nMobile9631\n",
+        "latest_video_at": "2026-08-12T08:44:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCcpjXFELs1LwfiH0KfhdFCg",
+      "external_id": "UCcpjXFELs1LwfiH0KfhdFCg",
+      "name": "KS MOVIE UPDATES ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCcpjXFELs1LwfiH0KfhdFCg",
+      "discovered_on": "2026-08-12",
+      "score": 62.71,
+      "metrics": {
+        "subscribers": 6120,
+        "total_views": 3163787,
+        "video_count": 456,
+        "avg_views_per_video": 6938.13,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "47aWfmkqK6A",
+            "title": "Why Did Censor Team Cut 4 Mins For Yash&#39;s Toxic? 🤯 | Yash | Geetu Mohandas",
+            "description": "Video Description : Toxic movie ki release mundhe two big problems start ayinaya? Matter enti antey, Toxic movie censor ...",
+            "published_at": "2026-08-11T17:05:52Z",
+            "url": "https://www.youtube.com/watch?v=47aWfmkqK6A"
+          }
+        ],
+        "channel_description": "Hey Cinema Lovers! 📽️\n\nWelcome to KS MOVIE UPDATES!\nMee lanti hardcore movie buffs kosam, anni Latest Movie Updates ikkada okka chota dorukuthayi 😱 . Cinema kaburlu, box office collections, big star movie release dates, and shooting updates—edhaina sare, fast ga and genuine ga mana channel lo untadhi . Movie updates miss avvakudadhu ante ventane mana channel ni SUBSCRIBE chesi, aa bell icon ni kotti active ga undandi!\nCinema ante pichi unna vallandhariki idhe correct place! 😀 \n\nStay Tuned.\n",
+        "latest_video_at": "2026-08-11T17:05:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEgZLXusFh1CLJwq3jqAPQA",
+      "external_id": "UCEgZLXusFh1CLJwq3jqAPQA",
+      "name": "Angloid",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCEgZLXusFh1CLJwq3jqAPQA",
+      "discovered_on": "2026-08-12",
+      "score": 61.19,
+      "metrics": {
+        "subscribers": 5970,
+        "total_views": 135552,
+        "video_count": 24,
+        "avg_views_per_video": 5648.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "Nl8PEbQRMCY",
+            "title": "Restore Britain vs Main Stream Media",
+            "description": "Patreon ...",
+            "published_at": "2026-08-10T17:00:02Z",
+            "url": "https://www.youtube.com/watch?v=Nl8PEbQRMCY"
+          }
+        ],
+        "channel_description": "19 year old patriot, support my work 👇",
+        "latest_video_at": "2026-08-10T17:00:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCt54LdclDChwe4mjK0N6VeQ",
+      "external_id": "UCt54LdclDChwe4mjK0N6VeQ",
+      "name": "FamousFacesScoopTv",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCt54LdclDChwe4mjK0N6VeQ",
+      "discovered_on": "2026-08-12",
+      "score": 61.05,
+      "metrics": {
+        "subscribers": 11100,
+        "total_views": 2050315,
+        "video_count": 1463,
+        "avg_views_per_video": 1401.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "B_3_RcOArcE",
+            "title": "Erika Kirk&#39;s Repetitive Speeches &amp; Censorship",
+            "description": "In this video, we delve into the concept of repetitive speeches and censorship, particularly focusing on Erika Kirk's approach to ...",
+            "published_at": "2026-08-11T15:42:28Z",
+            "url": "https://www.youtube.com/watch?v=B_3_RcOArcE"
+          }
+        ],
+        "channel_description": "Join us on a captivating journey at FamousFacesScoopTv channel. At FamousFacesScoopTv, we're your ultimate destination for all things celebrity, lifestyle, and entertainment news.\nOur channel is your go-to source for exclusive interviews, behind-the-scenes access, and the latest updates on your favorite stars from Hollywood, the music industry, fashion, and beyond. Whether you're curious about the latest red-carpet looks, or exclusive celebrity interviews, or want to stay in the loop with the hottest gossip, we've got you covered. But we're not just about the superficial. FamousFacesScoopTv also delves into the inspiring stories behind the fame, highlighting the philanthropic efforts, humanitarian work, and personal journeys of the celebrities you admire.\nSo, whether you're a die-hard fan, a casual observer, or simply love to stay in the know, subscribe to FamousFacesScoopTv. Get ready to indulge in the ultimate celebrity experience with FamousFacesScoopTv!\n",
+        "latest_video_at": "2026-08-11T15:42:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCcMfZ3Pt4nbkGoeTNV1fXpw",
+      "external_id": "UCcMfZ3Pt4nbkGoeTNV1fXpw",
+      "name": "RED365NOTICIAS",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCcMfZ3Pt4nbkGoeTNV1fXpw",
+      "discovered_on": "2026-08-12",
+      "score": 59.8,
+      "metrics": {
+        "subscribers": 11800,
+        "total_views": 6792984,
+        "video_count": 9413,
+        "avg_views_per_video": 721.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "CbhfpcdYUbw",
+            "title": "¿DERECHO DE RÉPLICA O CENSURA? LA LÍNEA QUE DIVIDE INFORMACIÓN Y OPINIÓN",
+            "description": "Dónde termina una nota con elementos comprobables y dónde comienza la opinión? El fragmento pone sobre la mesa la ...",
+            "published_at": "2026-08-11T19:10:31Z",
+            "url": "https://www.youtube.com/watch?v=CbhfpcdYUbw"
+          }
+        ],
+        "channel_description": "Noticias, Política y Opinión ",
+        "latest_video_at": "2026-08-11T19:10:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCnfMEYwmJinNkAtxK4YfhLQ",
+      "external_id": "UCnfMEYwmJinNkAtxK4YfhLQ",
+      "name": " El Momento Mx",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCnfMEYwmJinNkAtxK4YfhLQ",
+      "discovered_on": "2026-08-12",
+      "score": 56.79,
+      "metrics": {
+        "subscribers": 7230,
+        "total_views": 8285523,
+        "video_count": 23161,
+        "avg_views_per_video": 357.74,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "wEwr1STWNFM",
+            "title": "¿Dónde está la censura? | Fernando Chamizo Guerrero",
+            "description": "DÓNDE ESTÁ LA CENSURA?” Ante la gritería, el enfado y la altanería de algunos medios por la Ley de Protección a las ...",
+            "published_at": "2026-08-11T15:46:32Z",
+            "url": "https://www.youtube.com/watch?v=wEwr1STWNFM"
+          }
+        ],
+        "channel_description": "Somos \"El Momento Diario a tu Alcance\", un grupo de medios comprometidos con la información objetiva y veraz. integrado por un equipo de profesionales desplegados en diferentes partes de México. \n\nEncuentra nuestras ediciones impresas en Quintana Roo, Yucatán y Tabasco, y mantente informado en nuestras plataformas digitales en Quintana Roo, Yucatán, Campeche, Tabasco, Chiapas, Veracruz y Baja California Sur. \n",
+        "latest_video_at": "2026-08-11T15:46:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCxZx6Isseg00ksG8skNcJpw",
       "external_id": "UCxZx6Isseg00ksG8skNcJpw",
