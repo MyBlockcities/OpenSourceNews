@@ -2,19 +2,385 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-12T11:13:00Z",
-  "new_this_run": 18,
-  "total_influencers": 847,
+  "updated_at": "2026-08-13T11:13:54Z",
+  "new_this_run": 12,
+  "total_influencers": 859,
   "run_summary": {
-    "run_started_at": "2026-08-12T11:12:40Z",
-    "candidate_count": 48,
-    "existing_count": 829,
-    "selected_new_count": 18,
+    "run_started_at": "2026-08-13T11:13:33Z",
+    "candidate_count": 44,
+    "existing_count": 847,
+    "selected_new_count": 12,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC4XXEoULD0AiiuPHdRw-Efg",
+      "external_id": "UC4XXEoULD0AiiuPHdRw-Efg",
+      "name": "Brad Kearns",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC4XXEoULD0AiiuPHdRw-Efg",
+      "discovered_on": "2026-08-13",
+      "score": 61.52,
+      "metrics": {
+        "subscribers": 23600,
+        "total_views": 965289,
+        "video_count": 1598,
+        "avg_views_per_video": 604.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "XxSJ4hEFiD0",
+            "title": "The secret to staying upright as you age #functionalfitness #shorts",
+            "description": "Aging isn't just about losing muscle. It's about losing the ability to **use the muscle quickly.** You can have plenty of muscle in ...",
+            "published_at": "2026-08-12T21:30:42Z",
+            "url": "https://www.youtube.com/watch?v=XxSJ4hEFiD0"
+          }
+        ],
+        "channel_description": "Join Brad Kearns, host of the B.rad Podcast (Apple Podcasts top-10 \"Fitness\" category), New York Times bestselling author, world-ranked masters track&field 60+ high jumper & sprinter, Speedgolf Guinness World Record holder, and former US national champion and world #3-ranked pro triathlete, in pursuing peak performance with passion throughout life. \n\nBrad delivers an engaging mix of step-by-step education on important health topics like staying fit, strong and powerful as you age; transforming diet to lose body fat and increase energy; sorting through hype and misinformation to make simple, sustainable lifestyle changes; and broadening your perspective beyond a fit body to experience happy relationships, nonstop personal growth, and ultimately a happy, healthy, long life. \n\nLet’s explore beyond shortcuts, hacks, and crushing competition to laugh, have fun, appreciate the journey, and not take ourselves too seriously. It’s time to B.rad!\n",
+        "latest_video_at": "2026-08-12T21:30:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1NGFso7iz54VrzR_F_hd0A",
+      "external_id": "UC1NGFso7iz54VrzR_F_hd0A",
+      "name": "Stray Dog",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC1NGFso7iz54VrzR_F_hd0A",
+      "discovered_on": "2026-08-13",
+      "score": 52.9,
+      "metrics": {
+        "subscribers": 2440,
+        "total_views": 23763,
+        "video_count": 87,
+        "avg_views_per_video": 273.14,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "WVPmuwKLCtQ",
+            "title": "HIMS Just Named A Shipping Date For Longevity Peptides #stockmarket #trader #hims #health #investing",
+            "description": "HIMS CEO Andrew Dudum confirmed on the Q2 earnings call that sermorelin, glutathione and NAD plus wellness peptides ...",
+            "published_at": "2026-08-13T10:30:34Z",
+            "url": "https://www.youtube.com/watch?v=WVPmuwKLCtQ"
+          }
+        ],
+        "channel_description": "Most investors lose money chasing stories. We find the ones that actually compound.\n\nOur lens: Chris Mayer's 100 Baggers framework. Six conditions that historically produced 100x returns. We run every stock through all six — and we're honest about the ones that don't pass.\n\nTopics covered: value investing, growth stocks, ROCE analysis, owner-operators, competitive moats, long-term compounding.\n\nCurrent focus: Hims & Hers Health (HIMS) \n\nNew video every week. \n",
+        "latest_video_at": "2026-08-13T10:30:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:29761cb694eb4b6c0f60",
+      "external_id": "29761cb694eb4b6c0f60",
+      "name": "larry-dial",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/6i4Y9gg6uEkHrG5k3/the-descenders-and-the-absorbers-two-perspectives-on-deep",
+      "discovered_on": "2026-08-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Descenders and the Absorbers: Two Perspectives on Deep Learning"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4bc0a3722d09e37656e4",
+      "external_id": "4bc0a3722d09e37656e4",
+      "name": "finitude",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/YyKovtBvd7AceG2j2/what-happened-when-i-tried-to-be-vegan",
+      "discovered_on": "2026-08-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "What happened when I tried to be vegan"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:78cd51338e09e3c3230c",
+      "external_id": "78cd51338e09e3c3230c",
+      "name": "dl27",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/vtMCTjH76DYMjAKYu/chessformer_lens-app-demo-paul-morphy-s-opera-game-sacrifice",
+      "discovered_on": "2026-08-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "chessformer_lens app demo: Paul Morphy's Opera Game sacrifice"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:353d6f04e14d6733d310",
+      "external_id": "353d6f04e14d6733d310",
+      "name": "Roman Ross",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/DhD8sqvwDp6ooTddc/how-valuable-are-botecs",
+      "discovered_on": "2026-08-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How Valuable are BOTECs?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8b1b9cf097bae53eef34",
+      "external_id": "8b1b9cf097bae53eef34",
+      "name": "Optimization Process",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/JSteskb3Lgp9Be69o/free-will-is-like-temperature",
+      "discovered_on": "2026-08-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Free will is like temperature"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:57e009038d5c5d1ac126",
+      "external_id": "57e009038d5c5d1ac126",
+      "name": "Michael B. G. Froman",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/next-global-economic-crisis-made-china-michael-froman",
+      "discovered_on": "2026-08-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Next Global Economic Crisis Could Be Made in China"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e9ee6f8b76af0980c30f",
+      "external_id": "e9ee6f8b76af0980c30f",
+      "name": "Matt Waldman, Samuel Charap",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/ukraine/how-broker-peace-ukraine",
+      "discovered_on": "2026-08-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "How to Broker Peace in Ukraine"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:6e071225dcb8665fc903",
+      "external_id": "6e071225dcb8665fc903",
+      "name": "Marek Kowalski",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/HgvwxjzgwvsEvAiBH/measuring-activation-control-in-llms",
+      "discovered_on": "2026-08-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Measuring Activation Control in LLMs"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8a1bf098c05f90f89ab9",
+      "external_id": "8a1bf098c05f90f89ab9",
+      "name": "Edward Cant",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/tdLzCtgYceEFfdbW4/llms-have-the-capacity-for-self-imposed-steganography",
+      "discovered_on": "2026-08-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "LLMs have the capacity for self-imposed steganography"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:243079b038a9c0943af8",
+      "external_id": "243079b038a9c0943af8",
+      "name": "Achu Menon",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/pGGdLGZ9uJFSo5GN3/measuring-eval-awareness-the-realism-win-rate-is-fragile",
+      "discovered_on": "2026-08-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Measuring Eval Awareness: The Realism Win Rate is Fragile"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCY5oX18H3YzVrWZMiMiM4Bg",
       "external_id": "UCY5oX18H3YzVrWZMiMiM4Bg",
