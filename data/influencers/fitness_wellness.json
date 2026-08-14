@@ -2,19 +2,305 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-13T11:13:54Z",
-  "new_this_run": 12,
-  "total_influencers": 859,
+  "updated_at": "2026-08-14T11:11:52Z",
+  "new_this_run": 10,
+  "total_influencers": 869,
   "run_summary": {
-    "run_started_at": "2026-08-13T11:13:33Z",
-    "candidate_count": 44,
-    "existing_count": 847,
-    "selected_new_count": 12,
+    "run_started_at": "2026-08-14T11:11:33Z",
+    "candidate_count": 31,
+    "existing_count": 859,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:ef362763eabdbdc51d7c",
+      "external_id": "ef362763eabdbdc51d7c",
+      "name": "Mayowa Osibodu",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/jT2GmiFsmG8yK8zTP/what-if-we-enforced-ai-model-safety-at-the-level-of-gpus",
+      "discovered_on": "2026-08-14",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/Zai_org"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "What If We Enforced AI Model Safety At the Level Of GPUs?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e51232da21f5b1a91e9d",
+      "external_id": "e51232da21f5b1a91e9d",
+      "name": "Kabir Kumar",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/g9PNBCkfHAcyMcobz/how-to-answer-a-question-without-answering-the-question",
+      "discovered_on": "2026-08-14",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/KKumar_ai_plans"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How to Answer a Question Without Answering The Question"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c94f63ee8ede25ca1973",
+      "external_id": "c94f63ee8ede25ca1973",
+      "name": "Harry Waterman",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Lu3uu8hBjsebFm6nK/concrete-generalist-projects-in-ai-safety-and-how-to-do-them",
+      "discovered_on": "2026-08-14",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/reel"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Concrete Generalist Projects in AI Safety (and how to do them)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ef0b774456f8e08734eb",
+      "external_id": "ef0b774456f8e08734eb",
+      "name": "sarahconstantin",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/CuNtKAuLDGxNeanBi/some-ways-i-think-about-evaluating-grant-applications",
+      "discovered_on": "2026-08-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Some Ways I Think About Evaluating Grant Applications"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a474da2dc06c3fb6fef3",
+      "external_id": "a474da2dc06c3fb6fef3",
+      "name": "Savannah Harlan",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/N36uzXxfmtoFLbzbN/is-alignment-even-falsifiable-middle-alignment-an-alignment",
+      "discovered_on": "2026-08-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Is Alignment Even Falsifiable? Middle Alignment, An Alignment Taxonomy, and Breaking The Problem Down Into Steps"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:95a8345a396b49f4adf0",
+      "external_id": "95a8345a396b49f4adf0",
+      "name": "Rina Amiri",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/afghanistan/standing-afghan-women",
+      "discovered_on": "2026-08-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Standing With Afghan Women"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b8c638eb3809eaff1c62",
+      "external_id": "b8c638eb3809eaff1c62",
+      "name": "Philip Dowdell",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/NRcicBTDegBdmbuGE/comparing-congress-s-two-ai-emergency-shutdown-mechanisms",
+      "discovered_on": "2026-08-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Comparing Congress's Two AI Emergency Shutdown Mechanisms"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:bc5ca803d55caa696565",
+      "external_id": "bc5ca803d55caa696565",
+      "name": "Jason Bordoff, Meghan L. O’Sullivan",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/iran/long-shadow-iran-shock",
+      "discovered_on": "2026-08-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Long Shadow of the Iran Shock"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a027e92cf150f1e18bf7",
+      "external_id": "a027e92cf150f1e18bf7",
+      "name": "Jacob Brinton",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/xzhzHhLSg9nSGLk5f/what-mormons-get-right-about-community-building",
+      "discovered_on": "2026-08-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "What Mormons get right about community building"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:cc7bbd92ffd8ae8b3b8b",
+      "external_id": "cc7bbd92ffd8ae8b3b8b",
+      "name": "Aditya",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/events/FQhgeoWaimrdkppzi/chatting-with-ais-a-breakdown",
+      "discovered_on": "2026-08-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Chatting With AIs: A Breakdown"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC4XXEoULD0AiiuPHdRw-Efg",
       "external_id": "UC4XXEoULD0AiiuPHdRw-Efg",

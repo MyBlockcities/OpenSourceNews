@@ -2,19 +2,477 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-08-13T11:13:47Z",
-  "new_this_run": 9,
-  "total_influencers": 242,
+  "updated_at": "2026-08-14T11:11:47Z",
+  "new_this_run": 11,
+  "total_influencers": 253,
   "run_summary": {
-    "run_started_at": "2026-08-13T11:13:33Z",
-    "candidate_count": 42,
-    "existing_count": 233,
-    "selected_new_count": 9,
+    "run_started_at": "2026-08-14T11:11:33Z",
+    "candidate_count": 44,
+    "existing_count": 242,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC7H3LGAlRWd3_fm5yOS_piw",
+      "external_id": "UC7H3LGAlRWd3_fm5yOS_piw",
+      "name": "디파이 농부 조선생 | Professor Jo",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UC7H3LGAlRWd3_fm5yOS_piw",
+      "discovered_on": "2026-08-14",
+      "score": 69.88,
+      "metrics": {
+        "subscribers": 54800,
+        "total_views": 5020687,
+        "video_count": 575,
+        "avg_views_per_video": 8731.63,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "RWA tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "RWA tokenization",
+            "video_id": "fsEdIO2etw0",
+            "title": "RWA, 이걸 누가 사지? 월가가 안 사는 진짜 이유",
+            "description": "정작 월가는 안 산다? RWA가 허상인 진짜 이유 RWA 토큰화는 올해 크립토 시장에서 가장 뜨거운 내러티브였습니다. 국채도, 사모 ...",
+            "published_at": "2026-08-14T10:00:16Z",
+            "url": "https://www.youtube.com/watch?v=fsEdIO2etw0"
+          }
+        ],
+        "channel_description": "블록체인 시장의 역사부터 하나씩, 쉽고 재밌게 알려드립니다.\n해외 블록체인 기업들과 현업에서 일하는 '진짜' 전문가 입니다.\n",
+        "latest_video_at": "2026-08-14T10:00:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCd96QinRgYdN91ieLprKt6Q",
+      "external_id": "UCd96QinRgYdN91ieLprKt6Q",
+      "name": "Insalubres",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCd96QinRgYdN91ieLprKt6Q",
+      "discovered_on": "2026-08-14",
+      "score": 65.92,
+      "metrics": {
+        "subscribers": 52700,
+        "total_views": 4062559,
+        "video_count": 2732,
+        "avg_views_per_video": 1487.03,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "onchain analysis"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "onchain analysis",
+            "video_id": "svAbkoBaNRY",
+            "title": "O QUE ESTA ACONTECENDO NOS DADOS ONCHAIN DO BITCOIN ?",
+            "description": "Faça sua conta na Blofin, corretora sem KYC https://partner.blofin.com/d/insalubrescript O QUE ESTA ACONTECENDO NOS ...",
+            "published_at": "2026-08-13T15:54:08Z",
+            "url": "https://www.youtube.com/watch?v=svAbkoBaNRY"
+          }
+        ],
+        "channel_description": "Canal Insalubres - Voltado para o mundo de Criptomoedas, Defi, e tudo relacionado à bitcoin. Dicas sobre farms, stakes, lançamento de novas criptomoedas.\n\nFazemos lives todos os dias as 10h30 analisando os gráficos de bitcoin e altcoins, além de trazer as principais notícias do mercado cripto. E lives a tarde para prováveis trades de criptomoedas, e vídeos de DEFI, Altcoins.\n\nVenha fazer parte da comunidade mais Insalubre do youtube e do mundo Crypto.\n\nFaça sua conta na bybit com bonus e melhores taxas, a melhor corretora para compra de criptomoedas, e operar futuros: https://partner.bybit.com/b/insalubrescripto\n\n#criptomoeda #defi\n",
+        "latest_video_at": "2026-08-13T15:54:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEOv-8wHvYC6mzsY2Gm5WcQ",
+      "external_id": "UCEOv-8wHvYC6mzsY2Gm5WcQ",
+      "name": "Empire",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCEOv-8wHvYC6mzsY2Gm5WcQ",
+      "discovered_on": "2026-08-14",
+      "score": 64.26,
+      "metrics": {
+        "subscribers": 20100,
+        "total_views": 1523511,
+        "video_count": 569,
+        "avg_views_per_video": 2677.52,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "uKzFs-1YTTg",
+            "title": "Crypto’s Speculation Problem, Regulation Without CLARITY &amp; The Gambling Economy",
+            "description": "Crypto adoption is accelerating, but does that mean token prices follow? This week, we unpack growing institutional interest in ...",
+            "published_at": "2026-08-14T10:00:17Z",
+            "url": "https://www.youtube.com/watch?v=uKzFs-1YTTg"
+          }
+        ],
+        "channel_description": "Welcome to Empire, hosted by Jason Yanowitz and Santiago Santos, where we share the real crypto stories that aren’t heard elsewhere. \n\nIf you're looking for the best content in crypto - with insights from the top founders, investors and builders in the space - you just found it. Tune in for our new episodes every Monday and Friday!\n\nBuilt by Blockworks.\n\n\n\n\n",
+        "latest_video_at": "2026-08-14T10:00:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCifoN29jvPJvuww4swLL1VA",
+      "external_id": "UCifoN29jvPJvuww4swLL1VA",
+      "name": "OnChainSchool",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCifoN29jvPJvuww4swLL1VA",
+      "discovered_on": "2026-08-14",
+      "score": 62.13,
+      "metrics": {
+        "subscribers": 15200,
+        "total_views": 1029264,
+        "video_count": 694,
+        "avg_views_per_video": 1483.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "onchain analysis"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "onchain analysis",
+            "video_id": "aT-sgsSbWg0",
+            "title": "Lo que Nadie Te Ha Contado de lo que Está Pasando Dentro del XRP Ledger",
+            "description": "INFORME COMPLETO EN TELEGRAM https://t.me/+qYki8DMVHSEyMzNi ¿QUIERES APRENDER ONCHAIN?",
+            "published_at": "2026-08-13T15:28:51Z",
+            "url": "https://www.youtube.com/watch?v=aT-sgsSbWg0"
+          }
+        ],
+        "channel_description": "Academia y comunidad de análisis onchain. Conocimientos y herramientas para dominar el mercado cripto, potenciar tus finanzas y desarrollarte como profesional.",
+        "latest_video_at": "2026-08-13T15:28:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZR6-g1ddITf3560oh3683w",
+      "external_id": "UCZR6-g1ddITf3560oh3683w",
+      "name": "The New Financial World: Powering Tomorrow Podcast",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCZR6-g1ddITf3560oh3683w",
+      "discovered_on": "2026-08-14",
+      "score": 60.21,
+      "metrics": {
+        "subscribers": 5570,
+        "total_views": 112583,
+        "video_count": 45,
+        "avg_views_per_video": 2501.84,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "ZyPAsRbGurs",
+            "title": "Crypto Without Clarity? #clarityact #senate #zebec #solana #superfluid #ethereum",
+            "description": "Crypto sentiment is weak. Prices are under pressure. And much of the industry is waiting for regulatory clarity. But development ...",
+            "published_at": "2026-08-14T06:43:02Z",
+            "url": "https://www.youtube.com/watch?v=ZyPAsRbGurs"
+          }
+        ],
+        "channel_description": "If you’re curious about energy, blockchain, AI, and  how other digital systems actually work in the real world, this channel explores the energy, infrastructure, and physical constraints that make them possible.\n\nThis channel focuses on systems-level education around energy, infrastructure, technology, and capital flows.\nNo investment advice, no hype. Just context to help you understand how the modern economy works.\n\nContent is based on publicly available information, historical trends, and high-level industry analysis. The views expressed are solely those of the host and do not represent any employer or affiliated organization.\nThis channel is for viewers seeking context, clarity, and systems-level thinking.\n\nEducational, entertainment, and informational content only. Not financial, legal, or investment advice.\n",
+        "latest_video_at": "2026-08-14T06:43:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCp9zq5au6xV12P2cqt-i9aA",
+      "external_id": "UCp9zq5au6xV12P2cqt-i9aA",
+      "name": "\bCoinEasy 코인이지",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCp9zq5au6xV12P2cqt-i9aA",
+      "discovered_on": "2026-08-14",
+      "score": 57.48,
+      "metrics": {
+        "subscribers": 6170,
+        "total_views": 525544,
+        "video_count": 854,
+        "avg_views_per_video": 615.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "D8rnnMEVwIk",
+            "title": "BTC 6.4만서 횡보, 한국 규제·M&amp;A 부각 | 8월 14일 코인이지 #Shorts",
+            "description": "8월 14일 금요일 저녁 코인이지 데일리 인사이트 핵심: Delio CEO, 5천만달러 사기로 징역 15년 확인: 검찰 구형 20년보다 짧아, 주요 ...",
+            "published_at": "2026-08-14T09:07:02Z",
+            "url": "https://www.youtube.com/watch?v=D8rnnMEVwIk"
+          }
+        ],
+        "channel_description": "🌐 Your all-in-one 🇰🇷 Korean Web3 hub  \n🔗 Simplifying Web3 for Web2 \n📚Crypto education & Web3 community  \n🇰🇷Helping enter the Korean market \n💬 크립토 쉽게 배우자!\n\nJoin now 👇\n\nlinktr.ee/CoinEasy",
+        "latest_video_at": "2026-08-14T09:07:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCLaZZyHhl8zIUIQLEg-ZdEA",
+      "external_id": "UCLaZZyHhl8zIUIQLEg-ZdEA",
+      "name": "Jerry Banfield Crypto Reviews",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCLaZZyHhl8zIUIQLEg-ZdEA",
+      "discovered_on": "2026-08-14",
+      "score": 56.22,
+      "metrics": {
+        "subscribers": 2130,
+        "total_views": 200088,
+        "video_count": 131,
+        "avg_views_per_video": 1527.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "sqau9qK9VRM",
+            "title": "Crypto Regulation Is Coming—Most Altcoins Should Be Terrified",
+            "description": "The US government is about to define what decentralized actually means, and most altcoins faking it should be terrified — talk ...",
+            "published_at": "2026-08-14T04:00:28Z",
+            "url": "https://www.youtube.com/watch?v=sqau9qK9VRM"
+          }
+        ],
+        "channel_description": "I’m Jerry Banfield, and on this channel I review crypto honestly so retail investors can stop getting wrecked by hype, bad tokenomics, fake decentralization, weak technology, exchange narratives, and influencer marketing.\n\nI look at Bitcoin, Ethereum, Solana, XRP, Cardano, BNB, Hyperliquid, AI coins, DeFi, meme coins, exchange tokens, and altcoins through a value-based lens. I ask what the project actually does, who benefits, how the token captures value, what risks holders face, and whether there is a better opportunity.\n\nI’m an ICP maxi because I believe Internet Computer has the best technology in crypto, but I review the whole market to help you think clearly before buying or holding any coin.\n\nThis is not financial advice. These are my opinions, research, and brutally honest crypto reviews.\n\n",
+        "latest_video_at": "2026-08-14T04:00:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCdeIe_YA-fzzp0bMf_pHwyg",
+      "external_id": "UCdeIe_YA-fzzp0bMf_pHwyg",
+      "name": "QUASA",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCdeIe_YA-fzzp0bMf_pHwyg",
+      "discovered_on": "2026-08-14",
+      "score": 55.21,
+      "metrics": {
+        "subscribers": 8240,
+        "total_views": 151121,
+        "video_count": 663,
+        "avg_views_per_video": 227.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "onchain analysis"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "onchain analysis",
+            "video_id": "xaMkwLxsd_c",
+            "title": "Nansen Review on Quasa: Smart Money On-Chain Analytics",
+            "description": "Nansen is a leading blockchain analytics and trading platform that turns raw on-chain data into actionable intelligence. Its core ...",
+            "published_at": "2026-08-12T19:23:58Z",
+            "url": "https://www.youtube.com/watch?v=xaMkwLxsd_c"
+          }
+        ],
+        "channel_description": "QUASA — AI & Web3 Tools | Neural Networks | Automation \n\nWelcome to the community of those building the future! We provide regular reviews of the best AI tools for video creation, copywriting, and business automation.\n\nWho is this channel for?\n— Content Creators (bloggers, designers, copywriters).\n— Entrepreneurs implementing AI into their workflow.\n— New-wave Freelancers (Web3 & AI).\n\nDiscover how AI can work for you.\n\nPowered by Quasa Connect\n\n🔔 Subscribe to stay updated with our weekly deep dives into the latest AI services!\n\n🌐https://quasa.io | Join the movement\n💬 Telegram: https://t.me/quasachats\n\n#ArtificialIntelligence #AItools #ContentCreation #AIforBusiness #VideoAI #AImarketing #QUASA #QuasaConnect #Web3 #Freelance #Blockchain #TechTrends #DigitalTransformation #futuretech \n",
+        "latest_video_at": "2026-08-12T19:23:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCf_kmcBITdQWKmJSabSlhwg",
+      "external_id": "UCf_kmcBITdQWKmJSabSlhwg",
+      "name": "Suisse Crypto",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCf_kmcBITdQWKmJSabSlhwg",
+      "discovered_on": "2026-08-14",
+      "score": 55.0,
+      "metrics": {
+        "subscribers": 3190,
+        "total_views": 410157,
+        "video_count": 832,
+        "avg_views_per_video": 492.98,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real world assets crypto"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real world assets crypto",
+            "video_id": "UpgK8_l5a7E",
+            "title": "Les RWA explosent déjà sur les marchés crypto #Shorts",
+            "description": "Les actions tokenisées et autres actifs du monde réel arrivent sur les plateformes crypto. Volatilité, volumes et poids sur ...",
+            "published_at": "2026-08-13T16:30:32Z",
+            "url": "https://www.youtube.com/watch?v=UpgK8_l5a7E"
+          }
+        ],
+        "channel_description": "Je vous partage mon expérience dans les Crypto depuis 2016.\n",
+        "latest_video_at": "2026-08-13T16:30:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCilNeTwQIQDCNvFVdTAXNbQ",
+      "external_id": "UCilNeTwQIQDCNvFVdTAXNbQ",
+      "name": "WallStreetPulse01",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCilNeTwQIQDCNvFVdTAXNbQ",
+      "discovered_on": "2026-08-14",
+      "score": 54.41,
+      "metrics": {
+        "subscribers": 4660,
+        "total_views": 488588,
+        "video_count": 2210,
+        "avg_views_per_video": 221.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "RWA tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "RWA tokenization",
+            "video_id": "5xyorqpj8Yo",
+            "title": "DATAVAULT AI&#39;S $1B TOKENIZATION BET — WHAT COMES NEXT?",
+            "description": "W@WallStreetPulse01 Datavault AI is entering one of the most important moments of 2026. The company is trying to build a ...",
+            "published_at": "2026-08-13T17:00:10Z",
+            "url": "https://www.youtube.com/watch?v=5xyorqpj8Yo"
+          }
+        ],
+        "channel_description": "Welcome to WallStreet Pulse — This channel creates original content with personal voice, commentary and editing.\n\nFOR US STOCK MARKET\n",
+        "latest_video_at": "2026-08-13T17:00:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:c4e713d2ad9122edc3b7",
+      "external_id": "c4e713d2ad9122edc3b7",
+      "name": "Joyce Lai",
+      "platform": "rss_author",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-for-advisors-the-crypto-advice-gap",
+      "discovered_on": "2026-08-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto for Advisors: The crypto advice gap"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCT2ZyrFL2JyLIdwwTUG_zpg",
       "external_id": "UCT2ZyrFL2JyLIdwwTUG_zpg",
