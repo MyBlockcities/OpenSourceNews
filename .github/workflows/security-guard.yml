@@ -33,3 +33,23 @@ jobs:
           fi
 
           echo "Browser token guard passed."
+
+  source-registry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install PyYAML
+        run: pip install pyyaml
+
+      - name: Validate sources and feeds export
+        run: |
+          python scripts/validate_sources.py
+          python scripts/compile_feeds_compat.py --check

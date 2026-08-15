@@ -1,0 +1,3381 @@
+schema: source_registry_file.v1
+file: current_collection.yaml
+notes: Migrated current feeds.yaml entries with explicit tiers. Aggregators demoted
+  to T3/T4.
+sources:
+- schema: source_definition.v1
+  topics:
+  - open_source
+  - technology
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hnrss_frontpage
+  name: Hacker News Frontpage RSS
+  publisher: HN RSS
+  homepage: https://hnrss.org/
+  adapter: rss
+  endpoints:
+  - https://hnrss.org/frontpage
+  tier: T3
+  source_kind: aggregator
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - technology
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: the_verge
+  name: The Verge
+  publisher: Vox Media
+  homepage: https://www.theverge.com/
+  adapter: rss
+  endpoints:
+  - https://www.theverge.com/rss/index.xml
+  tier: T3
+  source_kind: newsroom
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - startups
+  - venture
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: techcrunch
+  name: TechCrunch
+  publisher: TechCrunch
+  homepage: https://techcrunch.com/
+  adapter: rss
+  endpoints:
+  - https://techcrunch.com/feed/
+  tier: T3
+  source_kind: newsroom
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - technology
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: wired
+  name: Wired
+  publisher: Condé Nast
+  homepage: https://www.wired.com/
+  adapter: rss
+  endpoints:
+  - https://www.wired.com/feed/rss
+  tier: T3
+  source_kind: newsroom
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - technology
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ars_technica
+  name: Ars Technica
+  publisher: Condé Nast
+  homepage: https://arstechnica.com/
+  adapter: rss
+  endpoints:
+  - https://arstechnica.com/feed/
+  tier: T2
+  source_kind: specialist_newsroom
+  permitted_use: discovery_and_interpretation
+  feeds_topic: General News & Research
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - open_source
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: github_trending_typescript
+  name: GitHub Trending TypeScript
+  publisher: GitHub
+  homepage: https://github.com/trending/typescript
+  adapter: github_trending
+  endpoints:
+  - typescript
+  tier: T3
+  source_kind: code_index
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: github_sources
+- schema: source_definition.v1
+  topics:
+  - open_source
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: github_trending_python
+  name: GitHub Trending Python
+  publisher: GitHub
+  homepage: https://github.com/trending/python
+  adapter: github_trending
+  endpoints:
+  - python
+  tier: T3
+  source_kind: code_index
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: github_sources
+- schema: source_definition.v1
+  topics:
+  - open_source
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: github_trending_rust
+  name: GitHub Trending Rust
+  publisher: GitHub
+  homepage: https://github.com/trending/rust
+  adapter: github_trending
+  endpoints:
+  - rust
+  tier: T3
+  source_kind: code_index
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: github_sources
+- schema: source_definition.v1
+  topics:
+  - open_source
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_open_source
+  name: Hacker News open source
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - open source
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - startups
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_startup_funding
+  name: Hacker News startup funding
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - startup funding
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - developer_tools
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_developer_tools
+  name: Hacker News developer tools
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - developer tools
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - technology
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_tech_industry
+  name: Hacker News tech industry
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - tech industry
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - developer_tools
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_fireship
+  name: Fireship
+  publisher: Fireship
+  homepage: https://www.youtube.com/@Fireship
+  adapter: youtube
+  endpoints:
+  - '@Fireship'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - developer_tools
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_primeagen
+  name: The Primeagen
+  publisher: The Primeagen
+  homepage: https://www.youtube.com/@ThePrimeTimeagen
+  adapter: youtube
+  endpoints:
+  - '@ThePrimeTimeagen'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - developer_tools
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_t3dotgg
+  name: Theo - t3.gg
+  publisher: Theo
+  homepage: https://www.youtube.com/@t3dotgg
+  adapter: youtube
+  endpoints:
+  - '@t3dotgg'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: General News & Research
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: google_ai_blog
+  name: Google AI Blog
+  publisher: Google
+  homepage: https://blog.google/technology/ai/
+  adapter: rss
+  endpoints:
+  - https://blog.google/technology/ai/rss/
+  tier: T1
+  source_kind: official_lab
+  permitted_use: factual_support
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: huggingface_blog
+  name: Hugging Face Blog
+  publisher: Hugging Face
+  homepage: https://huggingface.co/blog
+  adapter: rss
+  endpoints:
+  - https://huggingface.co/blog/feed.xml
+  tier: T1
+  source_kind: official_lab
+  permitted_use: factual_support
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: marktechpost
+  name: MarkTechPost
+  publisher: MarkTechPost
+  homepage: https://www.marktechpost.com/
+  adapter: rss
+  endpoints:
+  - https://www.marktechpost.com/feed/
+  tier: T4
+  source_kind: aggregator
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: rss_sources
+  notes: Demoted to T4 discovery; do not treat as primary AI evidence.
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ai_news_ainews
+  name: Artificial Intelligence News
+  publisher: AI News
+  homepage: https://www.artificialintelligence-news.com/
+  adapter: rss
+  endpoints:
+  - https://www.artificialintelligence-news.com/feed/
+  tier: T4
+  source_kind: aggregator
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: rundown_ai
+  name: The Rundown AI
+  publisher: The Rundown
+  homepage: https://www.rundown.ai/
+  adapter: rss
+  endpoints:
+  - https://www.rundown.ai/rss
+  tier: T4
+  source_kind: newsletter_aggregator
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - ai_agents
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: marktechpost_agents
+  name: AI Agent News
+  publisher: MarkTechPost
+  homepage: https://aiagent.marktechpost.com/
+  adapter: rss
+  endpoints:
+  - https://aiagent.marktechpost.com/feed/
+  tier: T4
+  source_kind: aggregator
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: github_trending_python_ai
+  name: GitHub Trending Python (AI bucket)
+  publisher: GitHub
+  homepage: https://github.com/trending/python
+  adapter: github_trending
+  endpoints:
+  - python
+  tier: T3
+  source_kind: code_index
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: github_sources
+- schema: source_definition.v1
+  topics:
+  - ai_agents
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_ai_agent
+  name: Hacker News AI agent
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - AI agent
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_llm
+  name: Hacker News LLM
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - LLM
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_gpt
+  name: Hacker News GPT
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - GPT
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_machine_learning
+  name: Hacker News machine learning
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - machine learning
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_two_minute_papers
+  name: Two Minute Papers
+  publisher: Two Minute Papers
+  homepage: https://www.youtube.com/@TwoMinutePapers
+  adapter: youtube
+  endpoints:
+  - '@TwoMinutePapers'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_wes_roth
+  name: Wes Roth
+  publisher: Wes Roth
+  homepage: https://www.youtube.com/@mreflow
+  adapter: youtube
+  endpoints:
+  - '@mreflow'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_nate_herk
+  name: Nate Herk
+  publisher: Nate Herk
+  homepage: https://www.youtube.com/@NateHerk
+  adapter: youtube
+  endpoints:
+  - '@NateHerk'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_ai_explained
+  name: AI Explained
+  publisher: AI Explained
+  homepage: https://www.youtube.com/@AIExplained
+  adapter: youtube
+  endpoints:
+  - '@AIExplained'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_indydevdan
+  name: indydevdan
+  publisher: indydevdan
+  homepage: https://www.youtube.com/indydevdan
+  adapter: youtube
+  endpoints:
+  - indydevdan
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_arseny_shatokhin
+  name: Arseny Shatokhin
+  publisher: Arseny Shatokhin
+  homepage: https://www.youtube.com/UC_x36zCEGilGpB1m-V4gmjg
+  adapter: youtube
+  endpoints:
+  - UC_x36zCEGilGpB1m-V4gmjg
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_matthew_berman
+  name: Matthew Berman
+  publisher: Matthew Berman
+  homepage: https://www.youtube.com/UCSv4qL8vmoSH7GaPjuqRiCQ
+  adapter: youtube
+  endpoints:
+  - UCSv4qL8vmoSH7GaPjuqRiCQ
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_worldofai
+  name: WorldofAI
+  publisher: WorldofAI
+  homepage: https://www.youtube.com/UCawZsQWqfGSbCI5yjkdVkTA
+  adapter: youtube
+  endpoints:
+  - UCawZsQWqfGSbCI5yjkdVkTA
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_matt_wolfe
+  name: Matt Wolfe
+  publisher: Matt Wolfe
+  homepage: https://www.youtube.com/UC2WmuBuFq6gL08QYG-JjXKw
+  adapter: youtube
+  endpoints:
+  - UC2WmuBuFq6gL08QYG-JjXKw
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_ai_channel_extra
+  name: Additional AI channel
+  publisher: Additional AI channel
+  homepage: https://www.youtube.com/UCAl9Ld79qaZxp9JzEOwd3aA
+  adapter: youtube
+  endpoints:
+  - UCAl9Ld79qaZxp9JzEOwd3aA
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: coindesk
+  name: CoinDesk
+  publisher: CoinDesk
+  homepage: https://www.coindesk.com/
+  adapter: rss
+  endpoints:
+  - https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml
+  tier: T3
+  source_kind: newsroom
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: cointelegraph
+  name: Cointelegraph
+  publisher: Cointelegraph
+  homepage: https://cointelegraph.com/
+  adapter: rss
+  endpoints:
+  - https://cointelegraph.com/rss
+  tier: T4
+  source_kind: newsroom
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: rss_sources
+  notes: Demoted to T4 promotional/interpretation discovery.
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: dailycoin
+  name: DailyCoin
+  publisher: DailyCoin
+  homepage: https://dailycoin.com/
+  adapter: rss
+  endpoints:
+  - https://dailycoin.com/feed/
+  tier: T4
+  source_kind: newsroom
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: bankless_rss
+  name: Bankless
+  publisher: Bankless
+  homepage: https://www.bankless.com/
+  adapter: rss
+  endpoints:
+  - https://www.bankless.com/feed
+  tier: T3
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: blockchain_app_factory
+  name: Blockchain App Factory
+  publisher: Blockchain App Factory
+  homepage: https://www.blockchainappfactory.com/
+  adapter: rss
+  endpoints:
+  - https://www.blockchainappfactory.com/blog/feed/
+  tier: T4
+  source_kind: promotional
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: github_trending_solana
+  name: GitHub Trending Solana
+  publisher: GitHub
+  homepage: https://github.com/trending/solana
+  adapter: github_trending
+  endpoints:
+  - solana
+  tier: T3
+  source_kind: code_index
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: github_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_crypto_funding
+  name: Hacker News crypto funding
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - crypto funding
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_blockchain_funding
+  name: Hacker News blockchain funding
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - blockchain funding
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_web3
+  name: Hacker News web3
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - web3
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - tokenization
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_tokenization
+  name: Hacker News tokenization
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - tokenization
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_coinbureau
+  name: Coin Bureau
+  publisher: Coin Bureau
+  homepage: https://www.youtube.com/@CoinBureau
+  adapter: youtube
+  endpoints:
+  - '@CoinBureau'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_bankless
+  name: Bankless
+  publisher: Bankless
+  homepage: https://www.youtube.com/@Bankless
+  adapter: youtube
+  endpoints:
+  - '@Bankless'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_ivan_on_tech
+  name: Ivan on Tech
+  publisher: Ivan on Tech
+  homepage: https://www.youtube.com/@IvanOnTech
+  adapter: youtube
+  endpoints:
+  - '@IvanOnTech'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_bitboy_legacy
+  name: BitBoy X legacy id
+  publisher: BitBoy X legacy id
+  homepage: https://www.youtube.com/UChpleBmo18P08aKCIgti38g
+  adapter: youtube
+  endpoints:
+  - UChpleBmo18P08aKCIgti38g
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_coinbureau_id
+  name: Coin Bureau channel id
+  publisher: Coin Bureau channel id
+  homepage: https://www.youtube.com/UCuV9EB4I9L-xmRoaXd8tmuA
+  adapter: youtube
+  endpoints:
+  - UCuV9EB4I9L-xmRoaXd8tmuA
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_bankless_id
+  name: Bankless channel id
+  publisher: Bankless channel id
+  homepage: https://www.youtube.com/UCqK_GSMbpiV8spgD3ZGloSw
+  adapter: youtube
+  endpoints:
+  - UCqK_GSMbpiV8spgD3ZGloSw
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - technology
+  - geopolitics
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: bbc_tech
+  name: BBC Technology
+  publisher: BBC
+  homepage: https://www.bbc.co.uk/news/technology
+  adapter: rss
+  endpoints:
+  - https://www.bbc.co.uk/news/technology/rss.xml
+  tier: T3
+  source_kind: newsroom
+  permitted_use: discovery_only
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - geopolitics
+  - markets
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: reuters_rss
+  name: Reuters
+  publisher: Reuters
+  homepage: https://www.reuters.com/
+  adapter: rss
+  endpoints:
+  - https://www.reuters.com/arc/outboundfeeds/v3/all/rss.xml
+  tier: T3
+  source_kind: newsroom
+  permitted_use: discovery_only
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - epistemics
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: lesswrong
+  name: LessWrong
+  publisher: LessWrong
+  homepage: https://www.lesswrong.com/
+  adapter: rss
+  endpoints:
+  - https://www.lesswrong.com/feed.xml
+  tier: T3
+  source_kind: essay
+  permitted_use: discovery_and_interpretation
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - epistemics
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: astral_codex_ten
+  name: Astral Codex Ten
+  publisher: Scott Alexander
+  homepage: https://www.astralcodexten.com/
+  adapter: rss
+  endpoints:
+  - https://www.astralcodexten.com/feed
+  tier: T3
+  source_kind: essay
+  permitted_use: discovery_and_interpretation
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - geopolitics
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: foreign_affairs
+  name: Foreign Affairs
+  publisher: CFR
+  homepage: https://www.foreignaffairs.com/
+  adapter: rss
+  endpoints:
+  - https://www.foreignaffairs.com/rss.xml
+  tier: T2
+  source_kind: journal
+  permitted_use: discovery_and_interpretation
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - geopolitics
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_geopolitics
+  name: Hacker News geopolitics
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - geopolitics
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - media
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_misinformation
+  name: Hacker News misinformation
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - misinformation
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - media
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_media_analysis
+  name: Hacker News media analysis
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - media analysis
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - institutions
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_institutional
+  name: Hacker News institutional
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - institutional
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - geopolitics
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_all_in_podcast
+  name: All-In Podcast
+  publisher: All-In Podcast
+  homepage: https://www.youtube.com/@AllInPodcast
+  adapter: youtube
+  endpoints:
+  - '@AllInPodcast'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - geopolitics
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_lex_fridman
+  name: Lex Fridman
+  publisher: Lex Fridman
+  homepage: https://www.youtube.com/@LexFridman
+  adapter: youtube
+  endpoints:
+  - '@LexFridman'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - geopolitics
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_johnny_harris_sm
+  name: Johnny Harris
+  publisher: Johnny Harris
+  homepage: https://www.youtube.com/@JohnnyHarris
+  adapter: youtube
+  endpoints:
+  - '@JohnnyHarris'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - geopolitics
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_bloomberg_tv
+  name: Bloomberg Television
+  publisher: Bloomberg Television
+  homepage: https://www.youtube.com/@BloombergTelevision
+  adapter: youtube
+  endpoints:
+  - '@BloombergTelevision'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - geopolitics
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_visual_capitalist
+  name: Visual Capitalist
+  publisher: Visual Capitalist
+  homepage: https://www.youtube.com/@VisualCapitalist
+  adapter: youtube
+  endpoints:
+  - '@VisualCapitalist'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_coffeezilla
+  name: Coffeezilla
+  publisher: Coffeezilla
+  homepage: https://www.youtube.com/@Coffeezilla
+  adapter: youtube
+  endpoints:
+  - '@Coffeezilla'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Alternative News & Independent Commentary
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_breaking_points
+  name: Breaking Points
+  publisher: Breaking Points
+  homepage: https://www.youtube.com/@breakingpoints
+  adapter: youtube
+  endpoints:
+  - '@breakingpoints'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Alternative News & Independent Commentary
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_nick_shirley
+  name: Nick Shirley
+  publisher: Nick Shirley
+  homepage: https://www.youtube.com/@NickShirley
+  adapter: youtube
+  endpoints:
+  - '@NickShirley'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Alternative News & Independent Commentary
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_johnny_harris_alt
+  name: Johnny Harris alt
+  publisher: Johnny Harris alt
+  homepage: https://www.youtube.com/@johnnyharris
+  adapter: youtube
+  endpoints:
+  - '@johnnyharris'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Alternative News & Independent Commentary
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_tldr_podcasts
+  name: TLDR podcasts
+  publisher: TLDR podcasts
+  homepage: https://www.youtube.com/@tldrpodcasts
+  adapter: youtube
+  endpoints:
+  - '@tldrpodcasts'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Alternative News & Independent Commentary
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_the_independent
+  name: The Independent
+  publisher: The Independent
+  homepage: https://www.youtube.com/theindependent
+  adapter: youtube
+  endpoints:
+  - theindependent
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Alternative News & Independent Commentary
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_diary_of_a_ceo
+  name: The Diary Of A CEO
+  publisher: The Diary Of A CEO
+  homepage: https://www.youtube.com/@TheDiaryOfACEO
+  adapter: youtube
+  endpoints:
+  - '@TheDiaryOfACEO'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Alternative News & Independent Commentary
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: pubmed_peptides_wellness
+  name: PubMed peptides wellness
+  publisher: NCBI
+  homepage: https://pubmed.ncbi.nlm.nih.gov/
+  adapter: pubmed
+  endpoints:
+  - (peptides[Title/Abstract] OR peptide therapeutics[Title/Abstract]) AND wellness
+  tier: T0
+  source_kind: research_database
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: pubmed_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: pubmed_bpc157
+  name: PubMed BPC-157
+  publisher: NCBI
+  homepage: https://pubmed.ncbi.nlm.nih.gov/
+  adapter: pubmed
+  endpoints:
+  - BPC-157 peptide
+  tier: T0
+  source_kind: research_database
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: pubmed_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: pubmed_ghkcu
+  name: PubMed GHK-Cu
+  publisher: NCBI
+  homepage: https://pubmed.ncbi.nlm.nih.gov/
+  adapter: pubmed
+  endpoints:
+  - GHK-Cu peptide
+  tier: T0
+  source_kind: research_database
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: pubmed_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: pubmed_kpv
+  name: PubMed KPV
+  publisher: NCBI
+  homepage: https://pubmed.ncbi.nlm.nih.gov/
+  adapter: pubmed
+  endpoints:
+  - KPV peptide
+  tier: T0
+  source_kind: research_database
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: pubmed_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: pubmed_nad
+  name: PubMed NAD+
+  publisher: NCBI
+  homepage: https://pubmed.ncbi.nlm.nih.gov/
+  adapter: pubmed
+  endpoints:
+  - NAD+ peptide
+  tier: T0
+  source_kind: research_database
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: pubmed_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: pubmed_glp1
+  name: PubMed GLP-1
+  publisher: NCBI
+  homepage: https://pubmed.ncbi.nlm.nih.gov/
+  adapter: pubmed
+  endpoints:
+  - GLP-1 peptide
+  tier: T0
+  source_kind: research_database
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: pubmed_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: pubmed_collagen
+  name: PubMed collagen peptides
+  publisher: NCBI
+  homepage: https://pubmed.ncbi.nlm.nih.gov/
+  adapter: pubmed
+  endpoints:
+  - collagen peptides
+  tier: T0
+  source_kind: research_database
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: pubmed_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: pubmed_thymosin
+  name: PubMed thymosin alpha-1
+  publisher: NCBI
+  homepage: https://pubmed.ncbi.nlm.nih.gov/
+  adapter: pubmed
+  endpoints:
+  - thymosin alpha-1 peptide
+  tier: T0
+  source_kind: research_database
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: pubmed_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ct_peptide_therapy
+  name: ClinicalTrials peptide therapy
+  publisher: ClinicalTrials.gov
+  homepage: https://clinicaltrials.gov/
+  adapter: clinical_trials
+  endpoints:
+  - peptide therapy
+  tier: T0
+  source_kind: clinical_trial_registry
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: clinical_trials_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ct_bpc157
+  name: ClinicalTrials BPC-157
+  publisher: ClinicalTrials.gov
+  homepage: https://clinicaltrials.gov/
+  adapter: clinical_trials
+  endpoints:
+  - BPC-157
+  tier: T0
+  source_kind: clinical_trial_registry
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: clinical_trials_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ct_ghkcu
+  name: ClinicalTrials GHK-Cu
+  publisher: ClinicalTrials.gov
+  homepage: https://clinicaltrials.gov/
+  adapter: clinical_trials
+  endpoints:
+  - GHK-Cu
+  tier: T0
+  source_kind: clinical_trial_registry
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: clinical_trials_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ct_nad
+  name: ClinicalTrials NAD+
+  publisher: ClinicalTrials.gov
+  homepage: https://clinicaltrials.gov/
+  adapter: clinical_trials
+  endpoints:
+  - NAD+
+  tier: T0
+  source_kind: clinical_trial_registry
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: clinical_trials_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ct_glp1
+  name: ClinicalTrials GLP-1
+  publisher: ClinicalTrials.gov
+  homepage: https://clinicaltrials.gov/
+  adapter: clinical_trials
+  endpoints:
+  - GLP-1
+  tier: T0
+  source_kind: clinical_trial_registry
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: clinical_trials_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ct_collagen
+  name: ClinicalTrials collagen peptides
+  publisher: ClinicalTrials.gov
+  homepage: https://clinicaltrials.gov/
+  adapter: clinical_trials
+  endpoints:
+  - collagen peptides
+  tier: T0
+  source_kind: clinical_trial_registry
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: clinical_trials_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ct_semaglutide
+  name: ClinicalTrials semaglutide
+  publisher: ClinicalTrials.gov
+  homepage: https://clinicaltrials.gov/
+  adapter: clinical_trials
+  endpoints:
+  - semaglutide peptide
+  tier: T0
+  source_kind: clinical_trial_registry
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: clinical_trials_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ct_tirzepatide
+  name: ClinicalTrials tirzepatide
+  publisher: ClinicalTrials.gov
+  homepage: https://clinicaltrials.gov/
+  adapter: clinical_trials
+  endpoints:
+  - tirzepatide
+  tier: T0
+  source_kind: clinical_trial_registry
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: clinical_trials_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ct_retatrutide
+  name: ClinicalTrials retatrutide
+  publisher: ClinicalTrials.gov
+  homepage: https://clinicaltrials.gov/
+  adapter: clinical_trials
+  endpoints:
+  - retatrutide
+  tier: T0
+  source_kind: clinical_trial_registry
+  permitted_use: factual_support
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: clinical_trials_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_peptides
+  name: Hacker News peptides
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - peptides
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_glp1
+  name: Hacker News GLP-1
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - GLP-1
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - longevity
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_longevity
+  name: Hacker News longevity
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - longevity
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: hn_fda_peptide
+  name: Hacker News FDA peptide
+  publisher: Y Combinator
+  homepage: https://news.ycombinator.com/
+  adapter: hackernews
+  endpoints:
+  - FDA peptide
+  tier: T3
+  source_kind: community_index
+  permitted_use: discovery_only
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: hackernews_sources
+- schema: source_definition.v1
+  topics:
+  - health
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: eric_topol_ground_truths
+  name: Ground Truths / Eric Topol
+  publisher: Eric Topol
+  homepage: https://erictopol.substack.com/
+  adapter: rss
+  endpoints:
+  - https://erictopol.substack.com/feed
+  tier: T2
+  source_kind: expert_interpretation
+  permitted_use: discovery_and_interpretation
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_ben_greenfield_peptides
+  name: Ben Greenfield peptides
+  publisher: Ben Greenfield peptides
+  homepage: https://www.youtube.com/
+  adapter: youtube
+  endpoints:
+  - Ben Greenfield peptides
+  tier: T4
+  source_kind: trend_listening
+  permitted_use: discovery_only
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: youtube_sources
+  notes: Trend/listening query only; never a medical evidence source.
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_dave_asprey_peptides
+  name: Dave Asprey peptides
+  publisher: Dave Asprey peptides
+  homepage: https://www.youtube.com/
+  adapter: youtube
+  endpoints:
+  - Dave Asprey peptides
+  tier: T4
+  source_kind: trend_listening
+  permitted_use: discovery_only
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: youtube_sources
+  notes: Trend/listening query only; never a medical evidence source.
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_peptides_physician
+  name: peptides physician lecture
+  publisher: peptides physician lecture
+  homepage: https://www.youtube.com/
+  adapter: youtube
+  endpoints:
+  - peptides physician lecture
+  tier: T4
+  source_kind: trend_listening
+  permitted_use: discovery_only
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: youtube_sources
+  notes: Trend/listening query only; never a medical evidence source.
+- schema: source_definition.v1
+  topics:
+  - peptides
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: yt_glp1_science
+  name: GLP-1 peptide science
+  publisher: GLP-1 peptide science
+  homepage: https://www.youtube.com/
+  adapter: youtube
+  endpoints:
+  - GLP-1 peptide science
+  tier: T4
+  source_kind: trend_listening
+  permitted_use: discovery_only
+  feeds_topic: Peptides / Wellness / Longevity
+  feeds_key: youtube_sources
+  notes: Trend/listening query only; never a medical evidence source.

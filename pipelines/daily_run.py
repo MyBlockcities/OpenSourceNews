@@ -29,6 +29,9 @@ from services.news_schema import (
     truncate_excerpt,
     utc_now_iso,
 )
+from services.outbound_evidence import attach_outbound_evidence
+from services.source_policy import annotate_item
+from services.source_registry import SourceRegistryError, load_sources
 
 # --- CONFIGURATION ---
 CONFIG_PATH = ROOT_DIR / 'config' / 'feeds.yaml'
@@ -627,6 +630,8 @@ BUCKET_MAP = {
     "Sense-Making & Narrative Analysis": "sense_making",
     "Alternative News & Independent Commentary": "alternative_news",
     "Peptides / Wellness / Longevity": "peptides",
+    "Official Records & Primary Sources": "official_records",
+    "Investigative Documents & Public Records": "investigative_documents",
 }
 
 
@@ -677,6 +682,32 @@ def apply_bucket_metadata(item: dict, topic_name: str) -> dict:
             or "Peptide and wellness content is medically sensitive; trend claims require verification before reuse.",
         }
 
+    if bucket == "official_records":
+        return {
+            **item,
+            "bucket": "official_records",
+            "mode": item.get("mode") or "primary_record",
+            "stance": item.get("stance") or "official",
+            "affiliation": item.get("affiliation") or "institutional",
+            "risk_level": item.get("risk_level") or "low",
+            "verification_mode": item.get("verification_mode") or "primary_source",
+            "trust_layer": item.get("trust_layer") or "truth",
+            "content_use": item.get("content_use") or "factual_support",
+        }
+
+    if bucket == "investigative_documents":
+        return {
+            **item,
+            "bucket": "investigative_documents",
+            "mode": item.get("mode") or "documentary_lead",
+            "stance": item.get("stance") or "investigative",
+            "affiliation": item.get("affiliation") or "independent",
+            "risk_level": item.get("risk_level") or "needs_review",
+            "verification_mode": item.get("verification_mode") or "needs_review",
+            "content_warning": item.get("content_warning")
+            or "Investigative interpretation is not a primary record. Follow document links and require corroboration before reuse.",
+        }
+
     if bucket != "alternative_news":
         return item
 
@@ -704,6 +735,10 @@ def classify_item(item: dict, topic_name: str) -> dict:
         default_content_type = "commentary" if default_bucket == "alternative_news" else "news"
         if default_bucket == "peptides":
             default_content_type = item.get("content_type") or "medical_information"
+        elif default_bucket == "official_records":
+            default_content_type = item.get("content_type") or "regulatory_update"
+        elif default_bucket == "investigative_documents":
+            default_content_type = item.get("content_type") or "investigation"
         fallback = {
             **item,
             "bucket": default_bucket,
@@ -726,7 +761,7 @@ Topic group: {topic_name}
 
 Return:
 {{
-  "bucket": "<general|ai|blockchain|sense_making|alternative_news|peptides>",
+  "bucket": "<general|ai|blockchain|sense_making|alternative_news|peptides|official_records|investigative_documents>",
   "content_type": "<news|tutorial|product_release|opinion|commentary|interview|investigation|speculative_claim|research|clinical_trial|regulatory_update|safety_warning|consumer_medical_education|medical_information|market_narrative>",
   "processing_mode": "<standard_summary|wisdom_extraction|claim_mapping>",
   "confidence": <0.0-1.0>
@@ -734,6 +769,8 @@ Return:
 
 Rules:
 - alternative_news is reserved for independent/personality-led commentary and must not be mixed into mainstream reporting.
+- official_records is reserved for regulator, statistical-agency, and official-lab records.
+- investigative_documents is reserved for FOIA/archive/investigative discovery; do not treat commentary as a primary record.
 - peptides is reserved for peptide, GLP-1, wellness, longevity, safety, clinical trial, PubMed, FDA, and market/demand signals.
 - wisdom_extraction: for tutorials, educational explainers, technical walkthroughs
 - claim_mapping: for contested narratives, speculative claims, medical/wellness claims, safety concerns, and alternative-health commentary
@@ -747,6 +784,10 @@ Rules:
             if default_bucket == "alternative_news"
             else "peptides"
             if default_bucket == "peptides"
+            else "official_records"
+            if default_bucket == "official_records"
+            else "investigative_documents"
+            if default_bucket == "investigative_documents"
             else classification.get("bucket", default_bucket)
         )
         classified = {
@@ -758,6 +799,10 @@ Rules:
                 if classified_bucket == "alternative_news"
                 else (item.get("content_type") or "medical_information")
                 if classified_bucket == "peptides"
+                else (item.get("content_type") or "regulatory_update")
+                if classified_bucket == "official_records"
+                else (item.get("content_type") or "investigation")
+                if classified_bucket == "investigative_documents"
                 else "news",
             ),
             "processing_mode": classification.get("processing_mode", "standard_summary"),
@@ -774,6 +819,10 @@ Rules:
         if default_bucket == "alternative_news"
         else (item.get("content_type") or "medical_information")
         if default_bucket == "peptides"
+        else (item.get("content_type") or "regulatory_update")
+        if default_bucket == "official_records"
+        else (item.get("content_type") or "investigation")
+        if default_bucket == "investigative_documents"
         else "news",
         "processing_mode": "standard_summary",
         "classification_confidence": 0.5,
@@ -1057,6 +1106,13 @@ def deduplicate_items(items: list) -> list:
 
 # --- MAIN ORCHESTRATOR ---
 def main():
+    try:
+        source_registry = load_sources()
+        print(f"Loaded source registry ({len(source_registry)} definitions).")
+    except SourceRegistryError as exc:
+        print(f"ERROR: source registry invalid:\n{exc}")
+        sys.exit(30)
+
     with open(CONFIG_PATH, 'r', encoding="utf-8") as f:
         config = yaml.safe_load(f)
 
@@ -1085,6 +1141,12 @@ def main():
                 try:
                     fetched_items = fetcher_func(source_value)
                     if fetched_items:
+                        for item in fetched_items:
+                            annotate_item(
+                                item,
+                                endpoint=source_value,
+                                sources=source_registry,
+                            )
                         all_raw_content.extend(fetched_items)
                 except Exception as e:
                     print(f"ERROR: Failed during fetch for {source_type} '{source_value}': {e}")
@@ -1114,6 +1176,7 @@ def main():
             if COLLECT_ONLY or not processed.get("enrichment_status"):
                 processed["enrichment_status"] = "pending"
             processed = add_item_ids(processed)
+            processed = attach_outbound_evidence(processed)
             mode = item.get("processing_mode", "standard_summary")
             mode_counts[mode] = mode_counts.get(mode, 0) + 1
             processed_content.append(processed)

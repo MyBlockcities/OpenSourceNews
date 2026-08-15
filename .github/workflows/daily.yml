@@ -24,7 +24,7 @@ concurrency:
 jobs:
   run-research:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -48,12 +48,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Validate source registry
+        run: |
+          python scripts/validate_sources.py
+          python scripts/compile_feeds_compat.py --check
+
       - name: Run research pipeline
         env:
-          # Collection-first: GitHub collects; Hermes enriches locally.
-          # Do not point this workflow at a live Hermes Qdrant or Gemini embed key.
+          # Collection-first: GitHub collects; Agency/Hermes enrich privately.
+          # Do not set QDRANT_API_KEY, SUPABASE_SECRET_KEY, or SUPABASE_SERVICE_ROLE_KEY here.
           COLLECT_ONLY: "1"
-          # LLM vars retained for local/manual non-collect runs; ignored when COLLECT_ONLY=1.
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'ollama' }}
           OPENROUTER_API_KEY: ${{ (vars.LLM_PROVIDER == 'openrouter' || vars.LLM_PROVIDER == 'rotating') && secrets.OPENROUTER_API_KEY || '' }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'openrouter/free' }}
@@ -64,13 +68,12 @@ jobs:
           ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
           MAILAROO_API_KEY: ${{ secrets.MAILAROO_API_KEY }}
           MAILAROO_TO_EMAIL: ${{ secrets.MAILAROO_TO_EMAIL }}
-          # Closed-loop destination ingest (skips cleanly when unset — safe for public clones).
-          # Existing Academy / God's Eye consumers keep working; Hermes should pull via git.
           ACADEMY_INGEST_URL: ${{ secrets.ACADEMY_INGEST_URL }}
           ACADEMY_INGEST_BEARER_TOKEN: ${{ secrets.ACADEMY_INGEST_TOKEN }}
           GODSEYE_INGEST_URL: ${{ secrets.GODSEYE_INGEST_URL }}
           GODSEYE_INGEST_BEARER_TOKEN: ${{ secrets.GODSEYE_INGEST_TOKEN }}
-          # Optional later: AGENCY_INGEST_URL / AGENCY_INGEST_BEARER_TOKEN when Hermes has public HTTPS.
+          AGENCY_INGEST_URL: ${{ secrets.AGENCY_INGEST_URL }}
+          AGENCY_INGEST_BEARER_TOKEN: ${{ secrets.AGENCY_INGEST_BEARER_TOKEN }}
         run: python pipelines/daily_run.py
 
       - name: Build mission briefs
@@ -78,8 +81,6 @@ jobs:
 
       - name: Extract atoms + public intelligence sidecars
         env:
-          # Set ATOMS_LLM=1 in repo vars to enable cheap LLM atom extraction.
-          # When unset, the pipeline is deterministic-only (fast + free).
           ATOMS_LLM: ${{ vars.ATOMS_LLM || '0' }}
           ATOM_LLM: ${{ vars.ATOMS_LLM || '0' }}
           OPENROUTER_API_KEY: ${{ vars.ATOMS_LLM == '1' && secrets.OPENROUTER_API_KEY || '' }}
@@ -87,8 +88,20 @@ jobs:
           LLM_PROVIDER: openrouter
         run: python scripts/export_atoms.py
 
+      - name: Identify public document links
+        run: python scripts/extract_document_links.py
+
       - name: Export embedding-ready JSONL
         run: python scripts/export_embedding_ready.py
+
+      - name: Build IntelligenceEnvelope
+        run: python scripts/export_intelligence_envelope.py
+
+      - name: Build report manifest
+        env:
+          GITHUB_RUN_ID: ${{ github.run_id }}
+          GITHUB_SHA: ${{ github.sha }}
+        run: python scripts/build_report_manifest.py
 
       - name: Commit and push report
         if: ${{ github.event_name != 'workflow_dispatch' || inputs.no_commit != 'true' }}
@@ -98,7 +111,8 @@ jobs:
           git add outputs/daily/*.json outputs/transcripts/*.json outputs/briefs \
               outputs/atoms/** outputs/embedding_ready/** outputs/topics/** \
               outputs/entities/** outputs/entity_pages/** outputs/consensus/** \
-              outputs/source_trust/** || true
+              outputs/source_trust/** outputs/document_leads/** outputs/envelopes/** \
+              outputs/manifests/latest.json || true
           git commit -m "Daily intelligence report for $(date -u +'%Y-%m-%d')" || echo "No changes to commit"
           for attempt in 1 2 3; do
             git pull --rebase origin main

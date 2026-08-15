@@ -84,6 +84,8 @@ def build_manifest(
         "source_trust": _artifact(f"outputs/source_trust/{date}.json"),
         "github_traction": _artifact("outputs/github_traction/latest.json"),
         "github_traction_top": _artifact("outputs/github_traction/top_this_week.json"),
+        "document_leads": _artifact(f"outputs/document_leads/{date}.jsonl"),
+        "intelligence_envelope": _artifact(f"outputs/envelopes/{date}.json"),
         "hermes_contract": "HERMES_CONTRACT.md",
     }
     artifacts = {k: v for k, v in artifacts.items() if v}

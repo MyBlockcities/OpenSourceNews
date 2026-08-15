@@ -1,0 +1,105 @@
+schema: source_registry_file.v1
+file: ai_experts.yaml
+notes: T2 expert interpretation. Follow links to code/papers before treating as evidence.
+sources:
+- schema: source_definition.v1
+  topics:
+  - ai
+  - ai_agents
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: simon_willison
+  name: Simon Willison
+  publisher: Simon Willison
+  homepage: https://simonwillison.net/
+  adapter: rss
+  endpoints:
+  - https://simonwillison.net/atom/everything/
+  tier: T2
+  source_kind: expert_interpretation
+  permitted_use: discovery_and_interpretation
+  disabled_reason: Wave C expert feed; enable after quota/yield review
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: chip_huyen
+  name: Chip Huyen
+  publisher: Chip Huyen
+  homepage: https://huyenchip.com/
+  adapter: site_change
+  endpoints:
+  - https://huyenchip.com/blog/
+  tier: T2
+  source_kind: expert_interpretation
+  permitted_use: discovery_and_interpretation
+  license_or_terms_url: https://huyenchip.com/
+  disabled_reason: No verified RSS in this rollout
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: import_ai
+  name: Import AI / Jack Clark
+  publisher: Jack Clark
+  homepage: https://importai.substack.com/
+  adapter: rss
+  endpoints:
+  - https://importai.substack.com/feed
+  tier: T2
+  source_kind: expert_interpretation
+  permitted_use: discovery_and_interpretation
+  disabled_reason: Wave C expert feed; enable after quota/yield review

@@ -94,6 +94,17 @@ cat outputs/manifests/latest.json
 
 Ledger file (Hermes-private): `~/.hermes/news/ingest_ledger.json`
 
+### 2b. IntelligenceEnvelope.v1 (additive)
+
+After atoms and embedding-ready export, Actions also writes:
+
+- `outputs/envelopes/{date}.json` and `outputs/envelopes/latest.json`
+- `outputs/document_leads/{date}.jsonl`
+
+The envelope is the compact Agency ingest contract: producer git SHA, `report_hash`, `source_registry_hash`, per-item `source_id` / `source_tier` / `permitted_use`, artifact hashes, and source health. Unique ingest key remains `(producer, report_hash)`. Agency must validate hashes before embedding or writing Qdrant. OpenSourceNews still does **not** receive Qdrant or Supabase keys.
+
+Optional HTTPS push uses `AGENCY_INGEST_URL` + `AGENCY_INGEST_BEARER_TOKEN` only. Preferred production path is Agency pulling git + envelope locally.
+
 ### 3. Run the Hermes nightly CLI
 
 From the Hermes Agency checkout (after its OSN nightly PR is on `main`, or from the feature branch already verified locally):
@@ -201,7 +212,9 @@ cd /Users/brian/Documents/opensourcenews && python3 -m mcp.server
 |--------|--------|----------------|
 | `YT_API_KEY` | GitHub Actions secrets (+ optional local `.env`) | **Never** |
 | `ACADEMY_INGEST_*` / `GODSEYE_INGEST_*` | Actions secrets | **Never** |
+| `AGENCY_INGEST_URL` / `AGENCY_INGEST_BEARER_TOKEN` | Actions secrets only if HTTPS push is enabled | **Never** |
 | Hermes `QDRANT_URL` / `QDRANT_API_KEY` | `~/.hermes/.env` only | **Never on this repo** |
+| `SUPABASE_SECRET_KEY` / `SUPABASE_SERVICE_ROLE_KEY` | Agency only | **Never on this repo** |
 | Private prompts, XO Pure deals, buyer names | Hermes only | **Never** |
 
 Watchlists in this repo stay **generalized** (AI agents, RWA, peptides). Private strategy stays in Hermes.

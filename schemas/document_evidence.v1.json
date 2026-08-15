@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MyBlockcities/OpenSourceNews/schemas/document_evidence.v1.json",
+  "title": "OpenSourceNews document_evidence.v1",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema",
+    "evidence_id",
+    "parent_signal_id",
+    "url",
+    "canonical_url",
+    "classification",
+    "provenance_status",
+    "policy_status"
+  ],
+  "properties": {
+    "schema": { "const": "document_evidence.v1" },
+    "evidence_id": { "type": "string", "minLength": 8 },
+    "parent_signal_id": { "type": "string" },
+    "url": { "type": "string" },
+    "canonical_url": { "type": "string" },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "primary_record_candidate",
+        "agency_filing",
+        "court_record",
+        "patent_record",
+        "research_repository",
+        "document_file",
+        "archive_index",
+        "secondary_commentary",
+        "unknown"
+      ]
+    },
+    "originating_institution": { "type": ["string", "null"] },
+    "jurisdiction": { "type": ["string", "null"] },
+    "document_identifier": { "type": ["string", "null"] },
+    "mime_hint": { "type": ["string", "null"] },
+    "provenance_status": {
+      "type": "string",
+      "enum": ["official_hosted", "archive_hosted", "mirrored", "unverified"]
+    },
+    "authenticity": {
+      "type": "string",
+      "enum": ["official", "archive_attributed", "disputed", "unknown"]
+    },
+    "policy_status": {
+      "type": "string",
+      "enum": ["allowed_metadata", "blocked_sensitive", "needs_review"]
+    },
+    "download_allowed": { "type": "boolean" },
+    "corroboration": { "type": "boolean" },
+    "notes": { "type": "string" }
+  }
+}

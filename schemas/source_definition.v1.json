@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MyBlockcities/OpenSourceNews/schemas/source_definition.v1.json",
+  "title": "OpenSourceNews source_definition.v1",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema",
+    "id",
+    "name",
+    "publisher",
+    "homepage",
+    "adapter",
+    "endpoints",
+    "tier",
+    "source_kind",
+    "permitted_use",
+    "corroboration_required",
+    "rate_limit",
+    "enabled",
+    "owner",
+    "reviewed_at"
+  ],
+  "properties": {
+    "schema": { "const": "source_definition.v1" },
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9_]{1,80}$" },
+    "name": { "type": "string", "minLength": 1 },
+    "publisher": { "type": "string", "minLength": 1 },
+    "homepage": { "type": "string", "minLength": 1 },
+    "adapter": {
+      "type": "string",
+      "enum": [
+        "rss",
+        "youtube",
+        "github",
+        "github_trending",
+        "hackernews",
+        "pubmed",
+        "clinical_trials",
+        "json_api",
+        "site_change",
+        "document_index",
+        "foia_archive",
+        "sec_edgar",
+        "federal_register",
+        "fred",
+        "gdelt",
+        "geoevent",
+        "ocds",
+        "x",
+        "twitch",
+        "manual_link_watch"
+      ]
+    },
+    "endpoints": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "topics": { "type": "array", "items": { "type": "string" } },
+    "regions": { "type": "array", "items": { "type": "string" } },
+    "languages": { "type": "array", "items": { "type": "string" } },
+    "tier": { "type": "string", "enum": ["T0", "T1", "T2", "T3", "T4", "T5"] },
+    "source_kind": { "type": "string", "minLength": 1 },
+    "permitted_use": {
+      "type": "string",
+      "enum": [
+        "factual_support",
+        "documentary_lead",
+        "discovery_and_interpretation",
+        "discovery_only",
+        "metadata_discovery_only",
+        "quarantined_discovery"
+      ]
+    },
+    "corroboration_required": { "type": "boolean" },
+    "license_or_terms_url": { "type": "string" },
+    "robots_policy": { "type": "string", "enum": ["obey", "none", "unknown"] },
+    "rate_limit": {
+      "type": "object",
+      "required": ["requests_per_second"],
+      "properties": {
+        "requests_per_second": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    },
+    "retention": {
+      "type": "object",
+      "properties": {
+        "raw_days": { "type": "integer", "minimum": 0 },
+        "normalized_days": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "project_hints": { "type": "array", "items": { "type": "string" } },
+    "feeds_topic": { "type": "string" },
+    "feeds_key": { "type": "string" },
+    "collection_mode": {
+      "type": "string",
+      "enum": [
+        "scheduled",
+        "rotation",
+        "manual_link_watch",
+        "discovery_only",
+        "disabled"
+      ]
+    },
+    "extract_outbound_evidence_links": { "type": "boolean" },
+    "classify_attachments_independently": { "type": "boolean" },
+    "extract_document_metadata": { "type": "boolean" },
+    "download_attachments": { "type": "boolean" },
+    "extract_personal_data": { "type": "boolean" },
+    "human_legal_security_review_required": { "type": "boolean" },
+    "membership_content": { "type": "string", "enum": ["exclude", "include", "unknown"] },
+    "automatic_content_eligible": { "type": "boolean" },
+    "automatic_evidence_promotion": { "type": "boolean" },
+    "allow_http": { "type": "boolean" },
+    "enabled": { "type": "boolean" },
+    "disabled_reason": { "type": "string" },
+    "owner": { "type": "string", "minLength": 1 },
+    "reviewed_at": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "notes": { "type": "string" }
+  }
+}

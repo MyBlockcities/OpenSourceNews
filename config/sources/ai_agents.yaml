@@ -1,0 +1,246 @@
+schema: source_registry_file.v1
+file: ai_agents.yaml
+notes: Wave A official AI/research sources. Existing Hugging Face and Google AI live
+  in current_collection.yaml.
+sources:
+- schema: source_definition.v1
+  topics:
+  - ai
+  - research
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: arxiv_cs_ai
+  name: arXiv cs.AI
+  publisher: arXiv
+  homepage: https://arxiv.org/
+  adapter: rss
+  endpoints:
+  - https://rss.arxiv.org/rss/cs.AI
+  tier: T0
+  source_kind: research_repository
+  permitted_use: factual_support
+  license_or_terms_url: https://info.arxiv.org/help/license/index.html
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: openai_news
+  name: OpenAI news
+  publisher: OpenAI
+  homepage: https://openai.com/news/
+  adapter: rss
+  endpoints:
+  - https://openai.com/news/rss.xml
+  tier: T1
+  source_kind: official_lab
+  permitted_use: factual_support
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: deepmind_blog
+  name: Google DeepMind blog
+  publisher: Google DeepMind
+  homepage: https://deepmind.google/blog/
+  adapter: rss
+  endpoints:
+  - https://deepmind.google/blog/rss.xml
+  tier: T1
+  source_kind: official_lab
+  permitted_use: factual_support
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - developer_tools
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: github_blog
+  name: GitHub Blog
+  publisher: GitHub
+  homepage: https://github.blog/
+  adapter: rss
+  endpoints:
+  - https://github.blog/feed/
+  tier: T1
+  source_kind: official_product
+  permitted_use: factual_support
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: anthropic_news
+  name: Anthropic news
+  publisher: Anthropic
+  homepage: https://www.anthropic.com/news
+  adapter: site_change
+  endpoints:
+  - https://www.anthropic.com/news
+  tier: T1
+  source_kind: official_lab
+  permitted_use: factual_support
+  license_or_terms_url: https://www.anthropic.com/
+  disabled_reason: No verified RSS; site_change not in daily_run
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: mistral_news
+  name: Mistral news
+  publisher: Mistral AI
+  homepage: https://mistral.ai/news/
+  adapter: site_change
+  endpoints:
+  - https://mistral.ai/news/
+  tier: T1
+  source_kind: official_lab
+  permitted_use: factual_support
+  license_or_terms_url: https://mistral.ai/
+  disabled_reason: No verified RSS; site_change not in daily_run
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: meta_ai_blog
+  name: Meta AI blog
+  publisher: Meta
+  homepage: https://ai.meta.com/blog/
+  adapter: site_change
+  endpoints:
+  - https://ai.meta.com/blog/
+  tier: T1
+  source_kind: official_lab
+  permitted_use: factual_support
+  license_or_terms_url: https://ai.meta.com/
+  disabled_reason: RSS 404; site_change not in daily_run

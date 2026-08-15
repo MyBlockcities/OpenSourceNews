@@ -1,0 +1,599 @@
+schema: source_registry_file.v1
+file: social_watch.yaml
+notes: Social/livestream identities. Recorded for watch metadata; not collected by
+  Actions.
+sources:
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_whitney_webb
+  name: Whitney Webb on X
+  publisher: Whitney Webb
+  homepage: https://x.com/_whitneywebb
+  adapter: manual_link_watch
+  endpoints:
+  - _whitneywebb
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: No compliant free X API; identity watch only
+- schema: source_definition.v1
+  topics:
+  - foia
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_theblackvault
+  name: The Black Vault on X
+  publisher: The Black Vault
+  homepage: https://x.com/theblackvault
+  adapter: manual_link_watch
+  endpoints:
+  - theblackvault
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: No compliant free X API; identity watch only
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_thegrayzone
+  name: The Grayzone on X
+  publisher: The Grayzone
+  homepage: https://x.com/TheGrayzoneNews
+  adapter: manual_link_watch
+  endpoints:
+  - TheGrayzoneNews
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: No compliant free X API; identity watch only
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_max_blumenthal
+  name: Max Blumenthal on X
+  publisher: Max Blumenthal
+  homepage: https://x.com/MaxBlumenthal
+  adapter: manual_link_watch
+  endpoints:
+  - MaxBlumenthal
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: No compliant free X API; identity watch only
+- schema: source_definition.v1
+  topics:
+  - commentary
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_ian_carroll
+  name: Ian Carroll on X
+  publisher: Ian Carroll
+  homepage: https://x.com/IanCarrollShow
+  adapter: manual_link_watch
+  endpoints:
+  - IanCarrollShow
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: No compliant free X API; identity watch only
+- schema: source_definition.v1
+  topics:
+  - alternative_commentary
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_david_icke
+  name: David Icke on X
+  publisher: David Icke
+  homepage: https://x.com/davidicke
+  adapter: manual_link_watch
+  endpoints:
+  - davidicke
+  tier: T5
+  source_kind: social_profile
+  permitted_use: quarantined_discovery
+  disabled_reason: T5 quarantine; identity watch only
+- schema: source_definition.v1
+  topics:
+  - commentary
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: twitch_ian_carroll
+  name: Ian Carroll on Twitch
+  publisher: Ian Carroll
+  homepage: https://www.twitch.tv/canceliancarroll
+  adapter: twitch
+  endpoints:
+  - canceliancarroll
+  tier: T4
+  source_kind: livestream
+  permitted_use: discovery_only
+  disabled_reason: No free reliable Twitch collection in GitHub Actions
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_sauain
+  name: Sauain
+  publisher: Sauain
+  homepage: https://x.com/Sauain
+  adapter: manual_link_watch
+  endpoints:
+  - Sauain
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: Existing feeds.yaml X identities; no automated collection
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_levelsio
+  name: levelsio
+  publisher: levelsio
+  homepage: https://x.com/levelsio
+  adapter: manual_link_watch
+  endpoints:
+  - levelsio
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: Existing feeds.yaml X identities; no automated collection
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_swiftonsecurity
+  name: SwiftOnSecurity
+  publisher: SwiftOnSecurity
+  homepage: https://x.com/SwiftOnSecurity
+  adapter: manual_link_watch
+  endpoints:
+  - SwiftOnSecurity
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: Existing feeds.yaml X identities; no automated collection
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_kaitoai
+  name: Kaito AI
+  publisher: Kaito AI
+  homepage: https://x.com/_kaitoai
+  adapter: manual_link_watch
+  endpoints:
+  - _kaitoai
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: Existing feeds.yaml X identities; no automated collection
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_marktechpost
+  name: Marktechpost
+  publisher: Marktechpost
+  homepage: https://x.com/Marktechpost
+  adapter: manual_link_watch
+  endpoints:
+  - Marktechpost
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: Existing feeds.yaml X identities; no automated collection
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_a16zcrypto
+  name: a16z crypto
+  publisher: a16z crypto
+  homepage: https://x.com/a16zcrypto
+  adapter: manual_link_watch
+  endpoints:
+  - a16zcrypto
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: Existing feeds.yaml X identities; no automated collection
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_paradigm
+  name: Paradigm
+  publisher: Paradigm
+  homepage: https://x.com/paradigm
+  adapter: manual_link_watch
+  endpoints:
+  - paradigm
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: Existing feeds.yaml X identities; no automated collection
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_multicoin
+  name: Multicoin Capital
+  publisher: Multicoin Capital
+  homepage: https://x.com/multicoincap
+  adapter: manual_link_watch
+  endpoints:
+  - multicoincap
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: Existing feeds.yaml X identities; no automated collection
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_cointelegraph
+  name: Cointelegraph
+  publisher: Cointelegraph
+  homepage: https://x.com/cointelegraph
+  adapter: manual_link_watch
+  endpoints:
+  - cointelegraph
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: Existing feeds.yaml X identities; no automated collection
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_coinlaunchspace
+  name: CoinLaunchSpace
+  publisher: CoinLaunchSpace
+  homepage: https://x.com/CoinLaunchSpace
+  adapter: manual_link_watch
+  endpoints:
+  - CoinLaunchSpace
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: Existing feeds.yaml X identities; no automated collection
+- schema: source_definition.v1
+  topics:
+  - crypto
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: x_timbeiko
+  name: Tim Beiko
+  publisher: Tim Beiko
+  homepage: https://x.com/TimBeiko
+  adapter: manual_link_watch
+  endpoints:
+  - TimBeiko
+  tier: T4
+  source_kind: social_profile
+  permitted_use: discovery_only
+  disabled_reason: Existing feeds.yaml X identities; no automated collection

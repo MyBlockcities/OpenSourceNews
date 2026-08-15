@@ -276,6 +276,17 @@ def normalize_item(topic_name: str, item: Dict[str, Any]) -> Dict[str, Any]:
         "content_use": item_with_ids.get("content_use") or "",
         "safe_framing": item_with_ids.get("safe_framing") or "",
         "medical_claim_policy": item_with_ids.get("medical_claim_policy") or "",
+        "source_id": item_with_ids.get("source_id") or "",
+        "source_tier": item_with_ids.get("source_tier") or "",
+        "permitted_use": item_with_ids.get("permitted_use") or "",
+        "corroboration_required": bool(item_with_ids.get("corroboration_required", False)),
+        "automatic_content_eligible": bool(item_with_ids.get("automatic_content_eligible", False)),
+        "source_kind": item_with_ids.get("source_kind") or "",
+        "publisher": item_with_ids.get("publisher") or "",
+        "primary_record_link_count": int(item_with_ids.get("primary_record_link_count") or 0),
+        "outbound_evidence": item_with_ids.get("outbound_evidence")
+        if isinstance(item_with_ids.get("outbound_evidence"), list)
+        else [],
         "classification_confidence": item_with_ids.get("classification_confidence"),
         "quality_score": item_with_ids.get("quality_score"),
         "has_transcript": bool(item_with_ids.get("has_transcript")),

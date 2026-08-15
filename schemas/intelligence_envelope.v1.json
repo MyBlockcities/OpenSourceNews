@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/MyBlockcities/OpenSourceNews/schemas/intelligence_envelope.v1.json",
+  "title": "OpenSourceNews intelligence_envelope.v1",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema",
+    "producer",
+    "producer_version",
+    "run_id",
+    "started_at",
+    "completed_at",
+    "source_registry_hash",
+    "config_hash",
+    "report_hash",
+    "item_count",
+    "items",
+    "artifacts",
+    "health"
+  ],
+  "properties": {
+    "schema": { "const": "intelligence_envelope.v1" },
+    "producer": { "const": "opensourcenews" },
+    "producer_version": { "type": "string", "minLength": 1 },
+    "run_id": { "type": "string", "minLength": 8 },
+    "started_at": { "type": "string" },
+    "completed_at": { "type": "string" },
+    "source_registry_hash": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+    "config_hash": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+    "report_hash": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+    "item_count": { "type": "integer", "minimum": 0 },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "signal_id",
+          "content_hash",
+          "source_id",
+          "source_tier",
+          "permitted_use",
+          "canonical_url",
+          "title"
+        ],
+        "properties": {
+          "signal_id": { "type": "string" },
+          "content_hash": { "type": "string" },
+          "source_id": { "type": "string" },
+          "source_tier": { "type": "string" },
+          "permitted_use": { "type": "string" },
+          "canonical_url": { "type": "string" },
+          "published_at": { "type": ["string", "null"] },
+          "fetched_at": { "type": "string" },
+          "title": { "type": "string" },
+          "excerpt": { "type": "string" },
+          "language": { "type": "string" },
+          "topics": { "type": "array", "items": { "type": "string" } },
+          "raw_archive_ref": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "artifacts": { "type": "object" },
+    "health": {
+      "type": "object",
+      "required": ["expected_sources", "successful_sources", "degraded_sources", "failed_sources"],
+      "properties": {
+        "expected_sources": { "type": "integer", "minimum": 0 },
+        "successful_sources": { "type": "integer", "minimum": 0 },
+        "degraded_sources": { "type": "integer", "minimum": 0 },
+        "failed_sources": { "type": "integer", "minimum": 0 },
+        "stale_sources": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "signature": { "type": ["string", "null"] }
+  }
+}

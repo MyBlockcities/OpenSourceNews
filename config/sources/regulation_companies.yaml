@@ -1,0 +1,286 @@
+schema: source_registry_file.v1
+file: regulation_companies.yaml
+notes: Wave A regulation and company-record sources.
+sources:
+- schema: source_definition.v1
+  topics:
+  - regulation
+  - legal
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: federal_register_articles
+  name: Federal Register articles
+  publisher: National Archives
+  homepage: https://www.federalregister.gov/
+  adapter: rss
+  endpoints:
+  - https://www.federalregister.gov/api/v1/articles.rss
+  tier: T0
+  source_kind: regulator_record
+  permitted_use: factual_support
+  license_or_terms_url: https://www.federalregister.gov/reader-aids/government-policy-and-ofr-procedures
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - regulation
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: govinfo_federal_register
+  name: GovInfo Federal Register
+  publisher: U.S. Government Publishing Office
+  homepage: https://www.govinfo.gov/
+  adapter: rss
+  endpoints:
+  - https://www.govinfo.gov/rss/fr.xml
+  tier: T0
+  source_kind: regulator_record
+  permitted_use: factual_support
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - markets
+  - companies
+  - tokenization
+  - legal
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: sec_press
+  name: SEC press releases
+  publisher: U.S. Securities and Exchange Commission
+  homepage: https://www.sec.gov/
+  adapter: rss
+  endpoints:
+  - https://www.sec.gov/news/pressreleases.rss
+  tier: T1
+  source_kind: regulator_news
+  permitted_use: factual_support
+  license_or_terms_url: https://www.sec.gov/os/accessing-edgar-data
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - markets
+  - companies
+  - tokenization
+  - legal
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: sec_edgar
+  name: SEC EDGAR submissions
+  publisher: U.S. Securities and Exchange Commission
+  homepage: https://www.sec.gov/search-filings
+  adapter: sec_edgar
+  endpoints:
+  - https://data.sec.gov/submissions/
+  tier: T0
+  source_kind: regulator_record
+  permitted_use: factual_support
+  license_or_terms_url: https://www.sec.gov/os/accessing-edgar-data
+  disabled_reason: sec_edgar adapter is not wired into daily_run yet
+- schema: source_definition.v1
+  topics:
+  - regulation
+  - markets
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: cftc_press
+  name: CFTC press
+  publisher: CFTC
+  homepage: https://www.cftc.gov/
+  adapter: rss
+  endpoints:
+  - https://www.cftc.gov/RSS
+  tier: T0
+  source_kind: regulator_record
+  permitted_use: factual_support
+  disabled_reason: TLS verification failed during endpoint check
+- schema: source_definition.v1
+  topics:
+  - regulation
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: finra_news
+  name: FINRA news
+  publisher: FINRA
+  homepage: https://www.finra.org/
+  adapter: site_change
+  endpoints:
+  - https://www.finra.org/media-center
+  tier: T1
+  source_kind: sro_record
+  permitted_use: factual_support
+  license_or_terms_url: https://www.finra.org/legal-notices
+  disabled_reason: No verified RSS; site_change not in daily_run
+- schema: source_definition.v1
+  topics:
+  - aml
+  - regulation
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: fincen_news
+  name: FinCEN
+  publisher: FinCEN
+  homepage: https://www.fincen.gov/
+  adapter: site_change
+  endpoints:
+  - https://www.fincen.gov/news-room
+  tier: T0
+  source_kind: regulator_record
+  permitted_use: factual_support
+  license_or_terms_url: https://www.fincen.gov/
+  disabled_reason: No verified public RSS; site_change not in daily_run
+- schema: source_definition.v1
+  topics:
+  - sanctions
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ofac_updates
+  name: OFAC
+  publisher: U.S. Treasury OFAC
+  homepage: https://ofac.treasury.gov/
+  adapter: site_change
+  endpoints:
+  - https://ofac.treasury.gov/recent-actions
+  tier: T0
+  source_kind: regulator_record
+  permitted_use: factual_support
+  license_or_terms_url: https://ofac.treasury.gov/
+  disabled_reason: No verified RSS; site_change not in daily_run

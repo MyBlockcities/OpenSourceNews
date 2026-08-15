@@ -121,3 +121,38 @@ repos:
   - full_name: "expo/expo"
     tier: 3
     bucket: "developer_tools"
+
+  # ── Wave B: agent / inference ecosystem ──────────────────────────────────
+  - full_name: "a2aproject/A2A"
+    tier: 2
+    bucket: "ai"
+    notes: "Agent-to-agent protocol"
+  - full_name: "pydantic/pydantic-ai"
+    tier: 2
+    bucket: "ai"
+    notes: "PydanticAI agent framework"
+  - full_name: "All-Hands-AI/OpenHands"
+    tier: 2
+    bucket: "ai"
+    notes: "OpenHands coding agents"
+  - full_name: "browser-use/browser-use"
+    tier: 2
+    bucket: "ai"
+  - full_name: "sgl-project/sglang"
+    tier: 2
+    bucket: "ai"
+  - full_name: "qdrant/qdrant"
+    tier: 2
+    bucket: "ai"
+  - full_name: "neo4j/neo4j"
+    tier: 3
+    bucket: "developer_tools"
+  - full_name: "maplibre/maplibre-gl-js"
+    tier: 2
+    bucket: "real_estate_tech"
+  - full_name: "CesiumGS/cesium"
+    tier: 2
+    bucket: "real_estate_tech"
+  - full_name: "postgis/postgis"
+    tier: 2
+    bucket: "real_estate_tech"

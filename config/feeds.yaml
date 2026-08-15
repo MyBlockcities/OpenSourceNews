@@ -1,182 +1,160 @@
-# config/feeds.yaml
-# Five major topic buckets for OpenSourceNews daily ingestion
+# GENERATED FILE. Edit config/sources/*.yaml and run
+#   python scripts/compile_feeds_compat.py --write
+# Compatibility export for pipelines/daily_run.py.
+# Policy, tiers, and disabled sources live in the typed registry.
 
 topics:
-  # ──────────────────────────────────────────────────────────
-  # Bucket 1: General News & Research
-  # Broad tech, open source, startup/product releases, macro platform shifts
-  # ──────────────────────────────────────────────────────────
-  - topic_name: "General News & Research"
-    github_sources:
-      - "typescript"
-      - "python"
-      - "rust"
-    hackernews_sources:
-      - "open source"
-      - "startup funding"
-      - "developer tools"
-      - "tech industry"
-    rss_sources:
-      - "https://hnrss.org/frontpage"                             # Hacker News front page
-      - "https://www.theverge.com/rss/index.xml"                  # The Verge
-      - "https://techcrunch.com/feed/"                             # TechCrunch
-      - "https://www.wired.com/feed/rss"                          # Wired
-      - "https://arstechnica.com/feed/"                            # Ars Technica
-    youtube_sources:
-      - "@Fireship"                                                # Fireship - tech news
-      - "@ThePrimeTimeagen"                                        # ThePrimeTime
-      - "@t3dotgg"                                                 # Theo - React/Next/TS
-
-  # ──────────────────────────────────────────────────────────
-  # Bucket 2: AI / AI Tools / AI Agents
-  # AI tools, agents, model releases, frameworks, evals, inference/training
-  # ──────────────────────────────────────────────────────────
-  - topic_name: "AI / AI Tools / AI Agents"
-    github_sources:
-      - "python"
-    hackernews_sources:
-      - "AI agent"
-      - "LLM"
-      - "GPT"
-      - "machine learning"
-    rss_sources:
-      # Core AI Research & News
-      - "https://blog.google/technology/ai/rss/"                   # Google AI Blog
-      - "https://www.marktechpost.com/feed/"                       # MarkTechPost - AI News
-      - "https://huggingface.co/blog/feed.xml"                     # HuggingFace Blog
-      # AI Industry & Business
-      - "https://www.artificialintelligence-news.com/feed/"        # AI News
-      - "https://www.rundown.ai/rss"                               # The Rundown AI
-      # Agent-Specific
-      - "https://aiagent.marktechpost.com/feed/"                   # AI Agent News
-    youtube_sources:
-      - "@TwoMinutePapers"
-      - "@mreflow"                                                 # Wes Roth
-      - "@NateHerk"                                                # Nate Herk — agents / n8n
-      - "@AIExplained"                                             # AI Explained
-      - "indydevdan"
-      - "UC_x36zCEGilGpB1m-V4gmjg"                                # Arseny Shatokhin
-      - "UCSv4qL8vmoSH7GaPjuqRiCQ"                                # Matthew Berman
-      - "UCawZsQWqfGSbCI5yjkdVkTA"                                # WorldofAI
-      - "UC2WmuBuFq6gL08QYG-JjXKw"                                # Matt Wolfe
-      - "UCAl9Ld79qaZxp9JzEOwd3aA"                                # Additional AI channel
-    x_sources:
-      - "Sauain"
-      - "levelsio"
-      - "SwiftOnSecurity"
-      - "_kaitoai"
-      - "Marktechpost"
-
-  # ──────────────────────────────────────────────────────────
-  # Bucket 3: Blockchain / Crypto / DAOs / Tokenization / Web3
-  # Crypto, tokenization, DAOs, wallets, custody, stablecoins, regulatory
-  # ──────────────────────────────────────────────────────────
-  - topic_name: "Blockchain / Crypto / Web3"
-    github_sources:
-      - "solana"
-    hackernews_sources:
-      - "crypto funding"
-      - "blockchain funding"
-      - "web3"
-      - "tokenization"
-    rss_sources:
-      - "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"  # CoinDesk
-      - "https://cointelegraph.com/rss"                            # Cointelegraph
-      - "https://dailycoin.com/feed/"                              # DailyCoin
-      - "https://www.bankless.com/feed"                            # Bankless
-      - "https://www.blockchainappfactory.com/blog/feed/"          # Blockchain App Factory
-    youtube_sources:
-      - "@CoinBureau"                                              # Coin Bureau
-      - "@Bankless"                                                # Bankless
-      - "@IvanOnTech"                                              # Ivan on Tech
-      - "UChpleBmo18P08aKCIgti38g"                                 # BitBoy X (legacy id)
-      - "UCuV9EB4I9L-xmRoaXd8tmuA"                                # Coin Bureau (channel id)
-      - "UCqK_GSMbpiV8spgD3ZGloSw"                                # Bankless (channel id)
-    x_sources:
-      - "a16zcrypto"
-      - "paradigm"
-      - "multicoincap"
-      - "cointelegraph"
-      - "CoinLaunchSpace"
-      - "TimBeiko"
-
-  # ──────────────────────────────────────────────────────────
-  # Bucket 4: Sense-Making & Narrative Analysis
-  # Contested narratives, geopolitics, institutional critique,
-  # alternative interpretations, media framing analysis
-  # ──────────────────────────────────────────────────────────
-  - topic_name: "Sense-Making & Narrative Analysis"
-    hackernews_sources:
-      - "geopolitics"
-      - "misinformation"
-      - "media analysis"
-      - "institutional"
-    rss_sources:
-      - "https://www.bbc.co.uk/news/technology/rss.xml"           # BBC Tech (mainstream baseline)
-      - "https://www.reuters.com/arc/outboundfeeds/v3/all/rss.xml"  # Reuters (mainstream baseline)
-      - "https://www.lesswrong.com/feed.xml"                        # Long-form reasoning / epistemics
-      - "https://www.astralcodexten.com/feed"                       # Slate Star Codex / ACX essays
-      - "https://www.foreignaffairs.com/rss.xml"                    # International relations framing
-    youtube_sources:
-      - "@AllInPodcast"                                            # All-In Podcast
-      - "@LexFridman"                                              # Long-form interviews
-      - "@JohnnyHarris"                                            # Narrative / explainers
-      - "@BloombergTelevision"                                     # Macro / markets baseline
-      - "@VisualCapitalist"                                        # Data viz macro / energy
-
-  # ──────────────────────────────────────────────────────────
-  # Bucket 5: Alternative News & Independent Commentary
-  # Lower-risk public-repo sources only. High-controversy
-  # personality channels are intentionally excluded from the
-  # open collection surface (Hermes can still track privately).
-  # Keep separate so downstream apps can label commentary needing review.
-  # ──────────────────────────────────────────────────────────
-  - topic_name: "Alternative News & Independent Commentary"
-    youtube_sources:
-      - "@Coffeezilla"                                             # Fraud/scam investigations
-      - "@breakingpoints"                                          # Anti-establishment political coverage
-      - "@NickShirley"                                             # Street interviews / independent journalism
-      - "@johnnyharris"                                            # Independent documentary explainers
-      - "@tldrpodcasts"                                            # World news and policy summaries
-      - "theindependent"                                           # Conventional independent newsroom
-      - "@TheDiaryOfACEO"                                          # Business, psychology, culture interviews
-      - "Ian Carroll"                                              # Independent commentary (cross-check claims)
-
-  # ──────────────────────────────────────────────────────────
-  # Bucket 6: Peptides / Wellness / Longevity
-  # Medically sensitive peptide research, safety, regulatory,
-  # and market-demand signals. Keep truth-layer sources distinct
-  # from trend/listening sources for downstream compliance review.
-  # ──────────────────────────────────────────────────────────
-  - topic_name: "Peptides / Wellness / Longevity"
-    pubmed_sources:
-      - "(peptides[Title/Abstract] OR peptide therapeutics[Title/Abstract]) AND wellness"
-      - "BPC-157 peptide"
-      - "GHK-Cu peptide"
-      - "KPV peptide"
-      - "NAD+ peptide"
-      - "GLP-1 peptide"
-      - "collagen peptides"
-      - "thymosin alpha-1 peptide"
-    clinical_trials_sources:
-      - "peptide therapy"
-      - "BPC-157"
-      - "GHK-Cu"
-      - "NAD+"
-      - "GLP-1"
-      - "collagen peptides"
-      - "semaglutide peptide"
-      - "tirzepatide"
-      - "retatrutide"
-    hackernews_sources:
-      - "peptides"
-      - "GLP-1"
-      - "longevity"
-      - "FDA peptide"
-    rss_sources:
-      - "https://erictopol.substack.com/feed"                      # Ground Truths / medical interpretation
-    youtube_sources:
-      - "Ben Greenfield peptides"                                  # Trend/listening only
-      - "Dave Asprey peptides"                                      # Trend/listening only
-      - "peptides physician lecture"                                # Educational/trend monitoring
-      - "GLP-1 peptide science"                                     # Educational/trend monitoring
+- topic_name: General News & Research
+  rss_sources:
+  - https://hnrss.org/frontpage
+  - https://www.theverge.com/rss/index.xml
+  - https://techcrunch.com/feed/
+  - https://www.wired.com/feed/rss
+  - https://arstechnica.com/feed/
+  github_sources:
+  - typescript
+  - python
+  - rust
+  hackernews_sources:
+  - open source
+  - startup funding
+  - developer tools
+  - tech industry
+  youtube_sources:
+  - '@Fireship'
+  - '@ThePrimeTimeagen'
+  - '@t3dotgg'
+- topic_name: AI / AI Tools / AI Agents
+  rss_sources:
+  - https://blog.google/technology/ai/rss/
+  - https://huggingface.co/blog/feed.xml
+  - https://www.marktechpost.com/feed/
+  - https://www.artificialintelligence-news.com/feed/
+  - https://www.rundown.ai/rss
+  - https://aiagent.marktechpost.com/feed/
+  github_sources:
+  - python
+  hackernews_sources:
+  - AI agent
+  - LLM
+  - GPT
+  - machine learning
+  youtube_sources:
+  - '@TwoMinutePapers'
+  - '@mreflow'
+  - '@NateHerk'
+  - '@AIExplained'
+  - indydevdan
+  - UC_x36zCEGilGpB1m-V4gmjg
+  - UCSv4qL8vmoSH7GaPjuqRiCQ
+  - UCawZsQWqfGSbCI5yjkdVkTA
+  - UC2WmuBuFq6gL08QYG-JjXKw
+  - UCAl9Ld79qaZxp9JzEOwd3aA
+- topic_name: Blockchain / Crypto / Web3
+  rss_sources:
+  - https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml
+  - https://cointelegraph.com/rss
+  - https://dailycoin.com/feed/
+  - https://www.bankless.com/feed
+  - https://www.blockchainappfactory.com/blog/feed/
+  github_sources:
+  - solana
+  hackernews_sources:
+  - crypto funding
+  - blockchain funding
+  - web3
+  - tokenization
+  youtube_sources:
+  - '@CoinBureau'
+  - '@Bankless'
+  - '@IvanOnTech'
+  - UChpleBmo18P08aKCIgti38g
+  - UCuV9EB4I9L-xmRoaXd8tmuA
+  - UCqK_GSMbpiV8spgD3ZGloSw
+- topic_name: Sense-Making & Narrative Analysis
+  rss_sources:
+  - https://www.bbc.co.uk/news/technology/rss.xml
+  - https://www.reuters.com/arc/outboundfeeds/v3/all/rss.xml
+  - https://www.lesswrong.com/feed.xml
+  - https://www.astralcodexten.com/feed
+  - https://www.foreignaffairs.com/rss.xml
+  hackernews_sources:
+  - geopolitics
+  - misinformation
+  - media analysis
+  - institutional
+  youtube_sources:
+  - '@AllInPodcast'
+  - '@LexFridman'
+  - '@JohnnyHarris'
+  - '@BloombergTelevision'
+  - '@VisualCapitalist'
+- topic_name: Alternative News & Independent Commentary
+  youtube_sources:
+  - '@Coffeezilla'
+  - '@breakingpoints'
+  - '@NickShirley'
+  - '@johnnyharris'
+  - '@tldrpodcasts'
+  - theindependent
+  - '@TheDiaryOfACEO'
+- topic_name: Peptides / Wellness / Longevity
+  pubmed_sources:
+  - (peptides[Title/Abstract] OR peptide therapeutics[Title/Abstract]) AND wellness
+  - BPC-157 peptide
+  - GHK-Cu peptide
+  - KPV peptide
+  - NAD+ peptide
+  - GLP-1 peptide
+  - collagen peptides
+  - thymosin alpha-1 peptide
+  clinical_trials_sources:
+  - peptide therapy
+  - BPC-157
+  - GHK-Cu
+  - NAD+
+  - GLP-1
+  - collagen peptides
+  - semaglutide peptide
+  - tirzepatide
+  - retatrutide
+  hackernews_sources:
+  - peptides
+  - GLP-1
+  - longevity
+  - FDA peptide
+  rss_sources:
+  - https://erictopol.substack.com/feed
+  youtube_sources:
+  - Ben Greenfield peptides
+  - Dave Asprey peptides
+  - peptides physician lecture
+  - GLP-1 peptide science
+- topic_name: Official Records & Primary Sources
+  rss_sources:
+  - https://rss.arxiv.org/rss/cs.AI
+  - https://openai.com/news/rss.xml
+  - https://deepmind.google/blog/rss.xml
+  - https://github.blog/feed/
+  - https://reliefweb.int/updates/rss.xml
+  - https://www.gdacs.org/xml/rss.xml
+  - https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom
+  - https://news.un.org/feed/subscribe/en/news/all/rss.xml
+  - https://earthobservatory.nasa.gov/feeds/earth-observatory.rss
+  - https://www.federalreserve.gov/feeds/press_all.xml
+  - https://home.treasury.gov/rss.xml
+  - https://www.bis.org/doclist/rss_all_categories.rss
+  - https://fredblog.stlouisfed.org/feed/
+  - https://www.federalregister.gov/api/v1/articles.rss
+  - https://www.govinfo.gov/rss/fr.xml
+  - https://www.sec.gov/news/pressreleases.rss
+  - https://www.eia.gov/rss/todayinenergy.xml
+- topic_name: Investigative Documents & Public Records
+  rss_sources:
+  - https://unlimitedhangout.com/feed/
+  - https://newsletter.unlimitedhangout.com/rss/
+  - https://corbettreport.com/feed/
+  - https://usrtk.org/feed/
+  - https://www.theblackvault.com/documentarchive/feed/
+  - https://www.theblackvault.com/casefiles/feed/
+  - https://thegrayzone.com/feed/

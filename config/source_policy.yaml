@@ -1,0 +1,95 @@
+# Canonical T0–T5 and permitted-use rules for OpenSourceNews.
+# Agency may apply stricter private multipliers; it must not weaken these defaults.
+
+schema: source_policy.v1
+reviewed_at: 2026-08-15
+
+tiers:
+  T0:
+    label: primary_official_record
+    description: Regulator, statistical agency, or official registry records.
+    default_permitted_use: factual_support
+    automatic_content_eligible: true
+    automatic_evidence_promotion: true
+    corroboration_required: false
+  T1:
+    label: official_or_archival_primary
+    description: Official publications, peer-reviewed indexes, or archival document hosts.
+    default_permitted_use: factual_support
+    automatic_content_eligible: true
+    automatic_evidence_promotion: true
+    corroboration_required: false
+  T2:
+    label: expert_or_investigative_interpretation
+    description: Specialist analysis or investigative journalism. Follow links to records.
+    default_permitted_use: discovery_and_interpretation
+    automatic_content_eligible: false
+    automatic_evidence_promotion: false
+    corroboration_required: true
+  T3:
+    label: mainstream_or_trade_reporting
+    description: Newsroom or trade reporting. Useful discovery; primary record preferred.
+    default_permitted_use: discovery_only
+    automatic_content_eligible: false
+    automatic_evidence_promotion: false
+    corroboration_required: true
+  T4:
+    label: social_promotional_or_community_discovery
+    description: Social, influencer, promotional, or aggregator discovery. Cannot establish facts.
+    default_permitted_use: discovery_only
+    automatic_content_eligible: false
+    automatic_evidence_promotion: false
+    corroboration_required: true
+  T5:
+    label: quarantined
+    description: Quarantined commentary. Manual-monitor only; never auto-promote.
+    default_permitted_use: quarantined_discovery
+    automatic_content_eligible: false
+    automatic_evidence_promotion: false
+    corroboration_required: true
+
+allowed_permitted_use_by_tier:
+  T0:
+    - factual_support
+    - documentary_lead
+  T1:
+    - factual_support
+    - documentary_lead
+    - discovery_and_interpretation
+  T2:
+    - documentary_lead
+    - discovery_and_interpretation
+    - discovery_only
+  T3:
+    - discovery_and_interpretation
+    - discovery_only
+  T4:
+    - discovery_only
+    - metadata_discovery_only
+  T5:
+    - quarantined_discovery
+    - discovery_only
+
+rules:
+  - id: t4_cannot_establish_facts
+    description: T4 cannot use permitted_use factual_support.
+  - id: t5_quarantined
+    description: T5 is excluded from automatic content and evidence promotion.
+  - id: disabled_requires_reason
+    description: enabled=false requires disabled_reason.
+  - id: https_unless_approved
+    description: URL endpoints must be HTTPS unless allow_http is true.
+  - id: no_credentials_in_url
+    description: Endpoints must not contain credentials or secret query keys.
+  - id: scraper_requires_terms
+    description: site_change, document_index, and foia_archive require robots_policy and license_or_terms_url.
+  - id: fail_closed_sensitive
+    description: Sensitive document policy blocks download and redistribution by default.
+
+unknown_source_defaults:
+  source_id: unmatched
+  tier: T3
+  permitted_use: discovery_only
+  corroboration_required: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false

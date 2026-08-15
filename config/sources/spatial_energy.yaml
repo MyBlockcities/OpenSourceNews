@@ -1,0 +1,142 @@
+schema: source_registry_file.v1
+file: spatial_energy.yaml
+notes: Wave A energy and spatial primary sources.
+sources:
+- schema: source_definition.v1
+  topics:
+  - energy
+  regions:
+  - US
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: eia_today_in_energy
+  name: EIA Today in Energy
+  publisher: U.S. Energy Information Administration
+  homepage: https://www.eia.gov/
+  adapter: rss
+  endpoints:
+  - https://www.eia.gov/rss/todayinenergy.xml
+  tier: T0
+  source_kind: statistical_agency
+  permitted_use: factual_support
+  license_or_terms_url: https://www.eia.gov/about/copyrights_reuse.php
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - energy
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: nrel_news
+  name: NREL news
+  publisher: NREL
+  homepage: https://www.nrel.gov/
+  adapter: rss
+  endpoints:
+  - https://www.nrel.gov/news/rss.xml
+  tier: T1
+  source_kind: national_lab
+  permitted_use: factual_support
+  disabled_reason: DNS lookup failed during 2026-08-15 verification
+- schema: source_definition.v1
+  topics:
+  - energy
+  - research
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: doe_osti
+  name: DOE OSTI
+  publisher: U.S. Department of Energy
+  homepage: https://www.osti.gov/
+  adapter: site_change
+  endpoints:
+  - https://www.osti.gov/
+  tier: T1
+  source_kind: research_repository
+  permitted_use: factual_support
+  license_or_terms_url: https://www.osti.gov/disclaimer
+  disabled_reason: No verified RSS; site_change not in daily_run
+- schema: source_definition.v1
+  topics:
+  - energy
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: global_energy_monitor
+  name: Global Energy Monitor
+  publisher: Global Energy Monitor
+  homepage: https://globalenergymonitor.org/
+  adapter: site_change
+  endpoints:
+  - https://globalenergymonitor.org/
+  tier: T1
+  source_kind: project_database
+  permitted_use: documentary_lead
+  license_or_terms_url: https://globalenergymonitor.org/
+  disabled_reason: No verified RSS; site_change not in daily_run

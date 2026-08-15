@@ -1,0 +1,215 @@
+schema: source_registry_file.v1
+file: panama_latam.yaml
+notes: Panama official sources. Disabled until site/OCDS adapters are production-ready.
+  No buyer or CRM data.
+sources:
+- schema: source_definition.v1
+  topics:
+  - panama
+  - regulation
+  regions:
+  - PA
+  languages:
+  - es
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: gaceta_oficial_panama
+  name: Gaceta Oficial de Panamá
+  publisher: Gobierno de Panamá
+  homepage: https://www.gacetaoficial.gob.pa/
+  adapter: site_change
+  endpoints:
+  - https://www.gacetaoficial.gob.pa/
+  tier: T0
+  source_kind: official_gazette
+  permitted_use: factual_support
+  license_or_terms_url: https://www.gacetaoficial.gob.pa/
+  disabled_reason: No verified RSS; site_change not in daily_run
+- schema: source_definition.v1
+  topics:
+  - panama
+  - procurement
+  regions:
+  - PA
+  languages:
+  - es
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: panamacompra_ocds
+  name: PanamaCompra OCDS
+  publisher: PanamaCompra
+  homepage: https://www.panamacompra.gob.pa/
+  adapter: ocds
+  endpoints:
+  - https://www.panamacompra.gob.pa/
+  tier: T0
+  source_kind: procurement_record
+  permitted_use: factual_support
+  disabled_reason: ocds adapter is not wired into daily_run yet
+- schema: source_definition.v1
+  topics:
+  - panama
+  - markets
+  regions:
+  - PA
+  languages:
+  - es
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: smv_panama
+  name: SMV Panamá
+  publisher: Superintendencia del Mercado de Valores
+  homepage: https://www.supervalores.gob.pa/
+  adapter: site_change
+  endpoints:
+  - https://www.supervalores.gob.pa/
+  tier: T0
+  source_kind: securities_regulator
+  permitted_use: factual_support
+  license_or_terms_url: https://www.supervalores.gob.pa/
+  disabled_reason: No verified RSS; site_change not in daily_run
+- schema: source_definition.v1
+  topics:
+  - panama
+  - banking
+  regions:
+  - PA
+  languages:
+  - es
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: sbp_panama
+  name: Superintendencia de Bancos de Panamá
+  publisher: SBP
+  homepage: https://www.superbancos.gob.pa/
+  adapter: site_change
+  endpoints:
+  - https://www.superbancos.gob.pa/
+  tier: T0
+  source_kind: banking_regulator
+  permitted_use: factual_support
+  license_or_terms_url: https://www.superbancos.gob.pa/
+  disabled_reason: No verified RSS; site_change not in daily_run
+- schema: source_definition.v1
+  topics:
+  - panama
+  - statistics
+  regions:
+  - PA
+  languages:
+  - es
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: inec_panama
+  name: INEC Panamá
+  publisher: Instituto Nacional de Estadística y Censo
+  homepage: https://www.inec.gob.pa/
+  adapter: site_change
+  endpoints:
+  - https://www.inec.gob.pa/
+  tier: T0
+  source_kind: statistical_agency
+  permitted_use: factual_support
+  license_or_terms_url: https://www.inec.gob.pa/
+  disabled_reason: No verified RSS; site_change not in daily_run
+- schema: source_definition.v1
+  topics:
+  - panama
+  - logistics
+  regions:
+  - PA
+  languages:
+  - es
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: canal_de_panama
+  name: Canal de Panamá
+  publisher: Autoridad del Canal de Panamá
+  homepage: https://www.pancanal.com/
+  adapter: site_change
+  endpoints:
+  - https://www.pancanal.com/
+  tier: T1
+  source_kind: infrastructure_operator
+  permitted_use: factual_support
+  license_or_terms_url: https://www.pancanal.com/
+  disabled_reason: No verified RSS; site_change not in daily_run

@@ -1,0 +1,281 @@
+schema: source_registry_file.v1
+file: macro_markets.yaml
+notes: Wave A macro and official market sources.
+sources:
+- schema: source_definition.v1
+  topics:
+  - macro
+  - markets
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: federal_reserve_press
+  name: Federal Reserve press
+  publisher: Board of Governors of the Federal Reserve System
+  homepage: https://www.federalreserve.gov/
+  adapter: rss
+  endpoints:
+  - https://www.federalreserve.gov/feeds/press_all.xml
+  tier: T0
+  source_kind: central_bank
+  permitted_use: factual_support
+  license_or_terms_url: https://www.federalreserve.gov/website-policies.htm
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - macro
+  - fiscal
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: us_treasury_rss
+  name: U.S. Treasury RSS
+  publisher: U.S. Department of the Treasury
+  homepage: https://home.treasury.gov/
+  adapter: rss
+  endpoints:
+  - https://home.treasury.gov/rss.xml
+  tier: T0
+  source_kind: finance_ministry
+  permitted_use: factual_support
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - macro
+  - tokenization
+  - regulation
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: bis_all
+  name: Bank for International Settlements
+  publisher: BIS
+  homepage: https://www.bis.org/
+  adapter: rss
+  endpoints:
+  - https://www.bis.org/doclist/rss_all_categories.rss
+  tier: T0
+  source_kind: intergovernmental
+  permitted_use: factual_support
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - macro
+  - data
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: fred_blog
+  name: FRED Blog
+  publisher: Federal Reserve Bank of St. Louis
+  homepage: https://fredblog.stlouisfed.org/
+  adapter: rss
+  endpoints:
+  - https://fredblog.stlouisfed.org/feed/
+  tier: T1
+  source_kind: statistical_commentary
+  permitted_use: factual_support
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - macro
+  - labor
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: bls_latest
+  name: U.S. Bureau of Labor Statistics
+  publisher: BLS
+  homepage: https://www.bls.gov/
+  adapter: rss
+  endpoints:
+  - https://www.bls.gov/feed/bls_latest.rss
+  tier: T0
+  source_kind: statistical_agency
+  permitted_use: factual_support
+  disabled_reason: Feed returned HTTP 403 during 2026-08-15 endpoint verification
+- schema: source_definition.v1
+  topics:
+  - macro
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: bea_news
+  name: U.S. Bureau of Economic Analysis
+  publisher: BEA
+  homepage: https://www.bea.gov/
+  adapter: site_change
+  endpoints:
+  - https://www.bea.gov/news/releases
+  tier: T0
+  source_kind: statistical_agency
+  permitted_use: factual_support
+  license_or_terms_url: https://www.bea.gov/about/policies-and-notices
+  disabled_reason: No verified RSS; site_change adapter not in daily_run
+- schema: source_definition.v1
+  topics:
+  - macro
+  regions:
+  - EU
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ecb_press
+  name: European Central Bank press
+  publisher: ECB
+  homepage: https://www.ecb.europa.eu/
+  adapter: rss
+  endpoints:
+  - https://www.ecb.europa.eu/rss/press.html
+  tier: T0
+  source_kind: central_bank
+  permitted_use: factual_support
+  disabled_reason: TLS verification failed from the audit host; re-check on Actions
+    before enabling
+- schema: source_definition.v1
+  topics:
+  - macro
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: imf_news
+  name: IMF News
+  publisher: IMF
+  homepage: https://www.imf.org/
+  adapter: rss
+  endpoints:
+  - https://www.imf.org/en/News/rss
+  tier: T0
+  source_kind: intergovernmental
+  permitted_use: factual_support
+  disabled_reason: Feed returned HTTP 403 during endpoint verification

@@ -1,0 +1,216 @@
+schema: source_registry_file.v1
+file: global_events.yaml
+notes: Wave A global event and geospatial primary sources.
+sources:
+- schema: source_definition.v1
+  topics:
+  - humanitarian
+  - global_events
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: reliefweb_updates
+  name: ReliefWeb Updates
+  publisher: UN OCHA
+  homepage: https://reliefweb.int/
+  adapter: rss
+  endpoints:
+  - https://reliefweb.int/updates/rss.xml
+  tier: T0
+  source_kind: humanitarian_index
+  permitted_use: factual_support
+  license_or_terms_url: https://reliefweb.int/terms-and-conditions
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - disasters
+  - global_events
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: gdacs_rss
+  name: GDACS
+  publisher: European Commission / UN
+  homepage: https://www.gdacs.org/
+  adapter: rss
+  endpoints:
+  - https://www.gdacs.org/xml/rss.xml
+  tier: T0
+  source_kind: geoevent
+  permitted_use: factual_support
+  license_or_terms_url: https://www.gdacs.org/
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - earthquakes
+  - geospatial
+  regions:
+  - US
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: usgs_significant_week
+  name: USGS significant earthquakes
+  publisher: U.S. Geological Survey
+  homepage: https://earthquake.usgs.gov/
+  adapter: rss
+  endpoints:
+  - https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom
+  tier: T0
+  source_kind: scientific_agency
+  permitted_use: factual_support
+  license_or_terms_url: https://www.usgs.gov/information-policies-and-instructions
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - global_events
+  - diplomacy
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: un_news
+  name: UN News
+  publisher: United Nations
+  homepage: https://news.un.org/
+  adapter: rss
+  endpoints:
+  - https://news.un.org/feed/subscribe/en/news/all/rss.xml
+  tier: T1
+  source_kind: intergovernmental
+  permitted_use: factual_support
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - earth_observation
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: nasa_eonet
+  name: NASA EONET
+  publisher: NASA
+  homepage: https://eonet.gsfc.nasa.gov/
+  adapter: json_api
+  endpoints:
+  - https://eonet.gsfc.nasa.gov/api/v3/events
+  tier: T0
+  source_kind: scientific_agency
+  permitted_use: factual_support
+  disabled_reason: json_api adapter is not wired into daily_run yet
+  license_or_terms_url: https://earthdata.nasa.gov/earth-observation-data/near-real-time/eonet
+- schema: source_definition.v1
+  topics:
+  - earth_observation
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: earth_observatory
+  name: NASA Earth Observatory
+  publisher: NASA
+  homepage: https://earthobservatory.nasa.gov/
+  adapter: rss
+  endpoints:
+  - https://earthobservatory.nasa.gov/feeds/earth-observatory.rss
+  tier: T1
+  source_kind: scientific_agency
+  permitted_use: factual_support
+  feeds_topic: Official Records & Primary Sources
+  feeds_key: rss_sources

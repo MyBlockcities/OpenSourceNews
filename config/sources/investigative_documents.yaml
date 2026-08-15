@@ -1,0 +1,645 @@
+schema: source_registry_file.v1
+file: investigative_documents.yaml
+notes: Investigative journalism and document-discovery sources. T4/T5 cannot become
+  content-eligible from discovery alone.
+sources:
+- schema: source_definition.v1
+  topics:
+  - investigations
+  - finance
+  - technology
+  - national_security
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: unlimited_hangout_site
+  name: Unlimited Hangout
+  publisher: Unlimited Hangout
+  homepage: https://unlimitedhangout.com/
+  adapter: rss
+  endpoints:
+  - https://unlimitedhangout.com/feed/
+  tier: T2
+  source_kind: investigative_publisher
+  permitted_use: discovery_and_interpretation
+  membership_content: exclude
+  feeds_topic: Investigative Documents & Public Records
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: unlimited_hangout_newsletter
+  name: Unlimited Hangout newsletter
+  publisher: Unlimited Hangout
+  homepage: https://newsletter.unlimitedhangout.com/
+  adapter: rss
+  endpoints:
+  - https://newsletter.unlimitedhangout.com/rss/
+  tier: T2
+  source_kind: investigative_publisher
+  permitted_use: discovery_and_interpretation
+  membership_content: exclude
+  feeds_topic: Investigative Documents & Public Records
+  feeds_key: rss_sources
+  notes: Validated public RSS on 2026-08-15. Membership content excluded.
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: unlimited_hangout_podcast_rssblue
+  name: Unlimited Hangout podcast (RSSBlue)
+  publisher: Unlimited Hangout
+  homepage: https://unlimitedhangout.com/
+  adapter: rss
+  endpoints:
+  - https://feeds.rssblue.com/unlimited-hangout
+  tier: T2
+  source_kind: podcast
+  permitted_use: discovery_and_interpretation
+  disabled_reason: Endpoint returned HTTP 404 on 2026-08-15; do not pretend it is
+    monitored
+- schema: source_definition.v1
+  topics:
+  - investigations
+  - media
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: corbett_report_site
+  name: The Corbett Report
+  publisher: The Corbett Report
+  homepage: https://corbettreport.com/
+  adapter: rss
+  endpoints:
+  - https://corbettreport.com/feed/
+  tier: T3
+  source_kind: analysis
+  permitted_use: discovery_only
+  feeds_topic: Investigative Documents & Public Records
+  feeds_key: rss_sources
+  notes: Official directory https://corbettreport.com/rssfeeds/. Main feed validated.
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: corbett_report_articles
+  name: Corbett Report articles
+  publisher: The Corbett Report
+  homepage: https://corbettreport.com/
+  adapter: rss
+  endpoints:
+  - https://corbettreport.com/category/articles/feed/
+  tier: T3
+  source_kind: analysis
+  permitted_use: discovery_only
+  disabled_reason: Subset of main site feed; kept dark until yield is measured
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: corbett_report_videos
+  name: Corbett Report videos
+  publisher: The Corbett Report
+  homepage: https://corbettreport.com/
+  adapter: rss
+  endpoints:
+  - https://corbettreport.com/category/videos/feed/
+  tier: T3
+  source_kind: analysis
+  permitted_use: discovery_only
+  disabled_reason: Validated but held out of daily rotation to avoid duplicating the
+    main feed
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: corbett_report_interviews
+  name: Corbett Report interviews
+  publisher: The Corbett Report
+  homepage: https://corbettreport.com/
+  adapter: rss
+  endpoints:
+  - https://corbettreport.com/category/interviews/feed/
+  tier: T3
+  source_kind: analysis
+  permitted_use: discovery_only
+  disabled_reason: Validated but held out of daily rotation to avoid duplicating the
+    main feed
+- schema: source_definition.v1
+  topics:
+  - investigations
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: corbett_report_podcast
+  name: Corbett Report podcast
+  publisher: The Corbett Report
+  homepage: https://corbettreport.com/
+  adapter: rss
+  endpoints:
+  - https://www.corbettreport.com/feed/podcast/
+  tier: T3
+  source_kind: podcast
+  permitted_use: discovery_only
+  disabled_reason: Validated; enable on weekly rotation after yield measurement
+- schema: source_definition.v1
+  topics:
+  - investigations
+  - health
+  - foia
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: us_right_to_know
+  name: U.S. Right to Know
+  publisher: U.S. Right to Know
+  homepage: https://usrtk.org/
+  adapter: rss
+  endpoints:
+  - https://usrtk.org/feed/
+  tier: T2
+  source_kind: investigative_organization
+  permitted_use: documentary_lead
+  feeds_topic: Investigative Documents & Public Records
+  feeds_key: rss_sources
+  notes: Health claims require scientific/regulatory corroboration.
+- schema: source_definition.v1
+  topics:
+  - foia
+  - declassified_documents
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: the_black_vault_documentarchive
+  name: The Black Vault document archive
+  publisher: The Black Vault
+  homepage: https://www.theblackvault.com/documentarchive/
+  adapter: rss
+  endpoints:
+  - https://www.theblackvault.com/documentarchive/feed/
+  tier: T1
+  source_kind: document_archive
+  permitted_use: documentary_lead
+  classify_attachments_independently: true
+  extract_document_metadata: true
+  feeds_topic: Investigative Documents & Public Records
+  feeds_key: rss_sources
+  notes: Archive page is T1/T2; attached government records are classified independently.
+- schema: source_definition.v1
+  topics:
+  - foia
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: the_black_vault_casefiles
+  name: The Black Vault casefiles
+  publisher: The Black Vault
+  homepage: https://www.theblackvault.com/
+  adapter: rss
+  endpoints:
+  - https://www.theblackvault.com/casefiles/feed/
+  tier: T2
+  source_kind: document_archive
+  permitted_use: documentary_lead
+  feeds_topic: Investigative Documents & Public Records
+  feeds_key: rss_sources
+- schema: source_definition.v1
+  topics:
+  - declassified_documents
+  - foreign_policy
+  - national_security
+  regions:
+  - global
+  - US
+  languages:
+  - en
+  corroboration_required: false
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: true
+  automatic_evidence_promotion: true
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: national_security_archive
+  name: National Security Archive
+  publisher: George Washington University
+  homepage: https://nsarchive.gwu.edu/
+  adapter: site_change
+  endpoints:
+  - https://nsarchive.gwu.edu/
+  tier: T1
+  source_kind: document_archive
+  permitted_use: documentary_lead
+  classify_attachments_independently: true
+  extract_document_metadata: true
+  license_or_terms_url: https://nsarchive.gwu.edu/
+  disabled_reason: No verified RSS; site_change adapter not in daily_run
+- schema: source_definition.v1
+  topics:
+  - foia
+  regions:
+  - US
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: muckrock
+  name: MuckRock
+  publisher: MuckRock
+  homepage: https://www.muckrock.com/
+  adapter: foia_archive
+  endpoints:
+  - https://www.muckrock.com/
+  tier: T2
+  source_kind: foia_platform
+  permitted_use: documentary_lead
+  license_or_terms_url: https://www.muckrock.com/terms/
+  disabled_reason: No verified public RSS; foia_archive adapter not in daily_run
+- schema: source_definition.v1
+  topics:
+  - investigations
+  - geopolitics
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: the_grayzone
+  name: The Grayzone
+  publisher: The Grayzone
+  homepage: https://thegrayzone.com/
+  adapter: rss
+  endpoints:
+  - https://thegrayzone.com/feed/
+  tier: T3
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Investigative Documents & Public Records
+  feeds_key: rss_sources
+  notes: Discovery only until cited records and independent context are retrieved.
+- schema: source_definition.v1
+  topics:
+  - leaks
+  - public_interest_documents
+  - cybersecurity
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.1
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ddosecrets_catalog
+  name: Distributed Denial of Secrets
+  publisher: Distributed Denial of Secrets
+  homepage: https://ddosecrets.org/
+  adapter: site_change
+  endpoints:
+  - https://ddosecrets.org/
+  tier: T4
+  source_kind: restricted_archive_catalog
+  permitted_use: metadata_discovery_only
+  download_attachments: false
+  extract_personal_data: false
+  human_legal_security_review_required: true
+  license_or_terms_url: https://ddosecrets.org/
+  disabled_reason: Metadata-only catalog; requires legal/security approval before
+    any collection
+- schema: source_definition.v1
+  topics:
+  - commentary
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: discovery_only
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ian_carroll_site
+  name: Ian Carroll
+  publisher: Ian Carroll
+  homepage: https://iancarroll.org/
+  adapter: site_change
+  endpoints:
+  - https://iancarroll.org/
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  license_or_terms_url: https://iancarroll.org/
+  disabled_reason: No verified RSS; site_change not in daily_run; never auto-promote
+    claims
+- schema: source_definition.v1
+  topics:
+  - commentary
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: ian_carroll_alias_candidate
+  name: Ian Carroll alias candidate
+  publisher: Ian Carroll
+  homepage: https://www.canceliancarroll.com/
+  adapter: site_change
+  endpoints:
+  - https://www.canceliancarroll.com/
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  license_or_terms_url: https://www.canceliancarroll.com/
+  disabled_reason: Candidate alias until HTTPS fetch, redirect target, and ownership
+    pass validation
+- schema: source_definition.v1
+  topics:
+  - alternative_commentary
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.1
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: manual_link_watch
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-15'
+  id: david_icke_manual_watch
+  name: David Icke
+  publisher: David Icke
+  homepage: https://davidicke.com/
+  adapter: site_change
+  endpoints:
+  - https://davidicke.com/
+  tier: T5
+  source_kind: commentary
+  permitted_use: quarantined_discovery
+  license_or_terms_url: https://davidicke.com/
+  disabled_reason: manual-monitor-only until explicit operator activation

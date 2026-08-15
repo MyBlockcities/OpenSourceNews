@@ -94,3 +94,41 @@ watchlists:
       - product_launch
       - regulation
       - evidence_upgrade
+
+  - name: investigative_documents
+    persona: "Public-records and investigative-document analyst"
+    entities:
+      - FOIA
+      - declassified
+      - National Security Archive
+      - MuckRock
+      - The Black Vault
+      - U.S. Right to Know
+      - Unlimited Hangout
+      - Federal Register
+      - SEC EDGAR
+      - USPTO
+    topics:
+      - investigations
+      - foia
+      - declassified_documents
+      - national_security
+      - regulation
+    evidence_policy:
+      truth_layer:
+        - SEC EDGAR
+        - Federal Register
+        - court records
+        - official gazette
+      discovery_layer:
+        - investigative publishers
+        - document archives
+        - podcasts
+      prohibited_framing:
+        - auto_promote_t4_t5_claims
+        - cite_commentary_when_primary_record_exists
+    alert_rules:
+      - new_investigation
+      - foia_release
+      - declassified_record
+      - regulatory_filing
