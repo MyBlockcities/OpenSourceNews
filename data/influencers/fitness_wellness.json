@@ -2,19 +2,776 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-14T11:11:52Z",
-  "new_this_run": 10,
-  "total_influencers": 869,
+  "updated_at": "2026-08-15T10:43:50Z",
+  "new_this_run": 20,
+  "total_influencers": 889,
   "run_summary": {
-    "run_started_at": "2026-08-14T11:11:33Z",
-    "candidate_count": 31,
-    "existing_count": 859,
-    "selected_new_count": 10,
+    "run_started_at": "2026-08-15T10:43:28Z",
+    "candidate_count": 53,
+    "existing_count": 869,
+    "selected_new_count": 20,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UClUGVr8hOMrRY-UzMaxx6SA",
+      "external_id": "UClUGVr8hOMrRY-UzMaxx6SA",
+      "name": "The Longevist",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UClUGVr8hOMrRY-UzMaxx6SA",
+      "discovered_on": "2026-08-15",
+      "score": 71.52,
+      "metrics": {
+        "subscribers": 43100,
+        "total_views": 4766286,
+        "video_count": 1154,
+        "avg_views_per_video": 4130.23,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "tiktok": "https://www.tiktok.com/@thelongevist"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "lVXdHGRYOz0",
+            "title": "Hyrox recovery protocol #longevity #หมออั๋น #thelongevist #longevity",
+            "description": "",
+            "published_at": "2026-08-14T05:44:33Z",
+            "url": "https://www.youtube.com/watch?v=lVXdHGRYOz0"
+          }
+        ],
+        "channel_description": "ช่องของ นพ.นรินทร สุรสินธน (หมออั้น) ผู้บุกเบิก Longevity ในไทย ด้วยการดูแล Longevity 5 Levels\n\n1. Lifestyle+\n2. Longevity Biomarkers Test\n3. Longevity Supplement\n4. Longevity Intervention\n5. Longevity Research\n\n📚 หนังสือโดยหมออั้น\n📖 Longevity by Design: https://www.naiin.com/product/detail/634295\n📖 หนังสือทั้งหมด: https://www.naiin.com/writer/059633\n\n🔗 ติดตาม The Longevist\n📌 Website: https://thelongevist.com\n📌 Facebook: https://www.facebook.com/TheLongevist\n📌 LINE OA: @thelongevist\n📌 Instagram: @thelongevist\n📌 TikTok: https://www.tiktok.com/@thelongevist\n\n💊 The Longevist Clinic – คลินิกดูแลสุขภาพเชิงป้องกันและชะลอวัย\n\nเลขที่อนุมัติ ผสพ.สบส. ๔๗/๒๕๖๔\n",
+        "latest_video_at": "2026-08-14T05:44:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVWnieUGDgNdFWB_DbEjmCw",
+      "external_id": "UCVWnieUGDgNdFWB_DbEjmCw",
+      "name": "Aquarius Rising Africa Ⅱ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCVWnieUGDgNdFWB_DbEjmCw",
+      "discovered_on": "2026-08-15",
+      "score": 65.69,
+      "metrics": {
+        "subscribers": 26800,
+        "total_views": 4334131,
+        "video_count": 1253,
+        "avg_views_per_video": 3459.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "SwCbVDioOKo",
+            "title": "Peptides &amp; Frequency Medicine: A New Frontier in Healing? | Dr. Jörg Prinz",
+            "description": "In this special LIVE broadcast, streaming simultaneously on SOULutions with Chanti and Aquarius Rising Africa, Chanti is joined ...",
+            "published_at": "2026-08-14T20:48:48Z",
+            "url": "https://www.youtube.com/watch?v=SwCbVDioOKo"
+          }
+        ],
+        "channel_description": " Welcome to Aquarius Rising! Some call this time The Great Awakening and the birthing of the Age of Aquarius. I completely agree. \n\n",
+        "latest_video_at": "2026-08-14T20:48:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCnU1oHDVKpEDStRyGALkHXw",
+      "external_id": "UCnU1oHDVKpEDStRyGALkHXw",
+      "name": "MiNi TG",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCnU1oHDVKpEDStRyGALkHXw",
+      "discovered_on": "2026-08-15",
+      "score": 64.02,
+      "metrics": {
+        "subscribers": 26800,
+        "total_views": 12137826,
+        "video_count": 4785,
+        "avg_views_per_video": 2536.64,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "QgahZkdQioY",
+            "title": "Magnali Longevity Protocol Review – Does It Really Work or Is It Legit?",
+            "description": "Magnali Longevity Protocol Review – Does It Really Work or Is It Legit? Magnali Longevity Protocol is marketed as a complete ...",
+            "published_at": "2026-08-14T07:05:40Z",
+            "url": "https://www.youtube.com/watch?v=QgahZkdQioY"
+          }
+        ],
+        "channel_description": "Welcome to MiNiTG, \n\nyour go-to destination for fast-paced, high-impact investigations into the products and platforms trending across the USA, Canada, and Australia. In a world of digital noise, we provide the 'Mini Truth' you need before making any online commitment.\n\nWe specialize in deep-diving into viral ads, suspicious e-commerce sites, and new digital trends to see if they hold up to the hype. Our mission is to provide concise, evidence-based verdicts to keep the global consumer community safe from scams and deceptive marketing.\n\nShort. Sharp. Truthful. That’s MiNiTG. ---",
+        "latest_video_at": "2026-08-14T07:05:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCSn5ltUx-8gY7SISRdaOvpA",
+      "external_id": "UCSn5ltUx-8gY7SISRdaOvpA",
+      "name": "Wellness Is Life Podcast by Natalia Naila",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCSn5ltUx-8gY7SISRdaOvpA",
+      "discovered_on": "2026-08-15",
+      "score": 63.86,
+      "metrics": {
+        "subscribers": 26100,
+        "total_views": 885436,
+        "video_count": 573,
+        "avg_views_per_video": 1545.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "yHBnXvpzc0E",
+            "title": "Blood Cleansing and Apheresis - Longevity Trip",
+            "description": "Another stop on my longevity trip with @alexandergrinbergmd, this time exploring advanced blood cleansing and apheresis ...",
+            "published_at": "2026-08-14T19:01:06Z",
+            "url": "https://www.youtube.com/watch?v=yHBnXvpzc0E"
+          }
+        ],
+        "channel_description": "I’m Natalia Naila, host of the Wellness Is Life Podcast, and I’m so happy you’re here.\n\nI started this podcast to invite you into meaningful conversations about what it truly means to feel healthier, happier, and more connected to your body.\n\nOn Wellness Is Life, we explore topics like longevity, anti-aging, gut health, fasting, detoxification, nutrition, mindset, biohacking, mental health, inflammation, healthy routines, relationships, and overall wellness.\n\nYou’ll hear from experts, thought leaders, practitioners, and inspiring voices in the health and wellness space as we learn how to build better habits, support our bodies, improve our mindset, and live with more vitality.\n\nApply to be a guest on the show: https://www.wellnessislifepodcast.com/guest-application\n\nClick the Subscribe button to join the Wellness Is Life community and help us share these conversations with more people.\n",
+        "latest_video_at": "2026-08-14T19:01:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCNEu2R6yGOW3D3TfijR6mxw",
+      "external_id": "UCNEu2R6yGOW3D3TfijR6mxw",
+      "name": "LifeAfter50",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCNEu2R6yGOW3D3TfijR6mxw",
+      "discovered_on": "2026-08-15",
+      "score": 63.42,
+      "metrics": {
+        "subscribers": 6670,
+        "total_views": 4715428,
+        "video_count": 553,
+        "avg_views_per_video": 8526.99,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "e5t-o4mAAjs",
+            "title": "Oral Peptides for Men: The Easy Alternative to Injections​#Peptides #OralPeptides #MenOver50 #shorts",
+            "description": "Helping older men optimize energy, recovery, and healthy aging with Make Wellness oral peptides. Subscribe for daily biohacking ...",
+            "published_at": "2026-08-14T15:51:19Z",
+            "url": "https://www.youtube.com/watch?v=e5t-o4mAAjs"
+          }
+        ],
+        "channel_description": "Leave A Tip 👍\nhttps://ko-fi.com/lifeafter50\n\nAmazon Store 🛍 Everything I Use 👍\nhttps://a.co/d/087jF28Q \n\nAll My Links 👌\nhttps://linktr.ee/lifeafterfifty \n\nWelcome to 60 Something Blueprint — your open forum for real dialogue, practical advice, and lived experience on building a strong, vibrant, and healthy lifestyle!\n\nWhether you're looking to reboot your fitness, drop body fat, or naturally optimize your energy and vitality, this channel is built on simple, effective strategies that actually work.\n\nWhat We Focus On:\n🔸 Quality Food – Simple, nutritious, and practical healthy eating habits 💥\n🔸 Quality Exercise – Effective workouts to build strength and drop body fat 💥\n🔸 Quality Supplements – Smart, practical choices for natural wellness 💥\n🔸 Quality Sleep – Rest, recovery, and optimizing natural testosterone naturally💥\n\n👉 Please subscribe, comment, and like to help grow the community!\n\nIf you are interested in a\n❎️ Free Consultation ❎️\n\nPlease Call 702 509 1360 ☎️ \n",
+        "latest_video_at": "2026-08-14T15:51:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCrheogGbebfd9QzLSs5gnNA",
+      "external_id": "UCrheogGbebfd9QzLSs5gnNA",
+      "name": "Natural Mobility",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCrheogGbebfd9QzLSs5gnNA",
+      "discovered_on": "2026-08-15",
+      "score": 59.79,
+      "metrics": {
+        "subscribers": 6410,
+        "total_views": 611099,
+        "video_count": 362,
+        "avg_views_per_video": 1688.12,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "dtCL3yRBTYI",
+            "title": "Been working on this.. #precisionjump #naturalmovement #parkour #naturaltraining #functionalfitness",
+            "description": "Finally able to make this leap after working on this jump and precision landing for the last few park sessions. Now time to clean it ...",
+            "published_at": "2026-08-15T02:14:22Z",
+            "url": "https://www.youtube.com/watch?v=dtCL3yRBTYI"
+          }
+        ],
+        "channel_description": "Welcome to Natural Mobility, a channel dedicated to learning how to take care of your body through simple hands-on methods, stretching, joint rotations, and natural movement.\n\nThe goal is to help you reduce pain and stiffness, move more comfortably, and develop a personal practice you can rely on long-term. Most videos are lessons you can follow along with or return to whenever you need them, along with guidance for building your own movement practice plan.\n\nMy name is Alex Schenker. I’m a Shiatsu & Sotai therapist and mobility guide based in Toronto, working one-on-one with clients to restore comfortable movement and build practical self-care skills. This channel shares the same techniques, philosophy, and approach I use with clients so you can apply them on your own.\n\nVisit the website to learn more about working with me directly or explore the online Movement Practice Guides.\n",
+        "latest_video_at": "2026-08-15T02:14:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UClN3fb4TKYIfSXec3kO65dQ",
+      "external_id": "UClN3fb4TKYIfSXec3kO65dQ",
+      "name": "InYour20’s Show",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UClN3fb4TKYIfSXec3kO65dQ",
+      "discovered_on": "2026-08-15",
+      "score": 59.31,
+      "metrics": {
+        "subscribers": 7280,
+        "total_views": 2148514,
+        "video_count": 1891,
+        "avg_views_per_video": 1136.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "84ZJiFcGmXE",
+            "title": "Peptide Protocol: Skin, Tan, and Fat Loss Secrets Revealed #shorts",
+            "description": "Exploring a daily peptide routine: GHK-Cu for skin quality and collagen, MT1 for a natural tan, and Retta (GLP agonist) for fat loss ...",
+            "published_at": "2026-08-15T00:54:43Z",
+            "url": "https://www.youtube.com/watch?v=84ZJiFcGmXE"
+          }
+        ],
+        "channel_description": "InYourr20s is for EVERYONE. Everyone Has a Story to be Heard. whether you’re wildly successful or still trying to figure it all out. Your 20s open a lot of doors, and everyone has a story worth telling. With my background in psychology, this platform gives you tools, support, and a space to share your journey as you navigate growth, setbacks, and everything in between. Let’s walk this path together.\n",
+        "latest_video_at": "2026-08-15T00:54:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDxFndoY2IOSmy2RZ8lsWKw",
+      "external_id": "UCDxFndoY2IOSmy2RZ8lsWKw",
+      "name": "Andrew Panella",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCDxFndoY2IOSmy2RZ8lsWKw",
+      "discovered_on": "2026-08-15",
+      "score": 58.99,
+      "metrics": {
+        "subscribers": 6100,
+        "total_views": 944650,
+        "video_count": 475,
+        "avg_views_per_video": 1988.74,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "rhdtqEbOmj4",
+            "title": "The 40-Minute Workout Backed by Science",
+            "description": "What if 40 minutes of exercise twice a week could dramatically improve your heart health? Researchers followed sedentary adults ...",
+            "published_at": "2026-08-13T21:30:10Z",
+            "url": "https://www.youtube.com/watch?v=rhdtqEbOmj4"
+          }
+        ],
+        "channel_description": "I’m Andrew Panella -- Functional Health & Performance Coach, and Founder of Longevity Lifestyle. I'm Certified in Wellness and Nutrition Coaching, Personal Training, and Corrective Exercise / Injury Prevention.\n\nWith a degree in Economics, I was trained to analyze data, separate correlation from causation, and cut through bad information. Paired with years of hands-on health coaching, this data-driven approach helps me uncover simple, sustainable systems that actually work -- so that's EXACTLY what I share on the channel. 🎯\n\nMy MISSION is simple: 👇\n\nI want to empower you with the knowledge, tools, and key frameworks that will help you live a ✅ HAPPIER ✅ HEALTHIER, and ✅ LONGER LIFE.\n\nBecause when YOU are happy and healthy...\nThe WORLD is happy and healthy. 🌎\n\nWe all win. 🙏\n\nIf that's what you're looking for -- be sure to subscribe! 🤝\n\n⚠️ Disclaimer: All content is for educational and entertainment purposes only. None of this is medical advice. Always consult your doctor.\n",
+        "latest_video_at": "2026-08-13T21:30:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqyZ2XM1wPqYi7YWdUqAKWg",
+      "external_id": "UCqyZ2XM1wPqYi7YWdUqAKWg",
+      "name": "Fit with Karlakattai",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCqyZ2XM1wPqYi7YWdUqAKWg",
+      "discovered_on": "2026-08-15",
+      "score": 57.44,
+      "metrics": {
+        "subscribers": 2690,
+        "total_views": 464863,
+        "video_count": 241,
+        "avg_views_per_video": 1928.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "KzDPVEr7D8g",
+            "title": "Single Hand Karla Front Swing with Ab Twist | Core &amp; Functional Training #gym #fitness #karlakattai",
+            "description": "Learn the Single Hand Karla Front Swing with Ab Twist, a dynamic functional exercise that combines a powerful swing with ...",
+            "published_at": "2026-08-15T04:13:52Z",
+            "url": "https://www.youtube.com/watch?v=KzDPVEr7D8g"
+          }
+        ],
+        "channel_description": "Hi! I’m Vinoth Bhaskaran. 🔥 Discover the Secret to High-Energy Workouts with Karlakattai, Samtola & Gada! 🔥 In this transformative video, we unveil the ultimate guide to enhancing your mobility and fitness through comprehensive workout routines that anyone can follow. Whether you’re a gym rat or just starting your fitness journey, our expert tips will help you boost flexibility, build strength, and unlock your full potential! 🌟 Get ready to move, groove, and feel incredible! Don't forget to LIKE, COMMENT, and SUBSCRIBE for more fitness inspiration and drills! 💪✨ Join our community today and elevate your health game by incorporating Karlakattai into your routine—the fun way to get fit! Empower yourself and transform your body today with Karlakattai! #Workout #Mobility #Fitness #Karlakattai\n\nInstagram: @fitwithkarlakattai\n",
+        "latest_video_at": "2026-08-15T04:13:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCIqw7cbyjlYIs49-G2qaYCg",
+      "external_id": "UCIqw7cbyjlYIs49-G2qaYCg",
+      "name": "BioHackers Longevity",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCIqw7cbyjlYIs49-G2qaYCg",
+      "discovered_on": "2026-08-15",
+      "score": 57.29,
+      "metrics": {
+        "subscribers": 3520,
+        "total_views": 225596,
+        "video_count": 182,
+        "avg_views_per_video": 1239.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "12KalMfVq2g",
+            "title": "Reverse your Insulin Resistance with one mineral: The Evening Protocol",
+            "description": "Discover a natural backdoor for muscle glucose uptake that functions independently of insulin. Optimize your metabolic health by ...",
+            "published_at": "2026-08-14T18:00:12Z",
+            "url": "https://www.youtube.com/watch?v=12KalMfVq2g"
+          }
+        ],
+        "channel_description": " Videos about longevity, biohacking, lifespan, healthspan, and supplements. Welcome to our YouTube channel, \"BioHackers-Longevity.\" Here at BioHackers-Longevity, we are dedicated to providing you with insightful and informative videos about longevity, biohacking, lifespan, healthspan, and supplements. Our goal is to empower you with the knowledge and tools to optimize your health and well-being, so you can live a longer, healthier, and more fulfilling life.\nEach week, we bring you engaging and well-researched content on a wide range of topics related to longevity and biohacking. Our videos feature expert interviews, in-depth analysis, and practical tips that you can incorporate into your daily routine. Whether you're interested in the latest scientific breakthroughs, exploring different biohacking techniques, or seeking guidance on supplements and lifestyle choices, BioHackers-Longevity is your go-to resource.\n\n",
+        "latest_video_at": "2026-08-14T18:00:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCNVWem5nuKkdeA_8kxbT1Vg",
+      "external_id": "UCNVWem5nuKkdeA_8kxbT1Vg",
+      "name": "UNBROKENSHOPcom",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCNVWem5nuKkdeA_8kxbT1Vg",
+      "discovered_on": "2026-08-15",
+      "score": 56.86,
+      "metrics": {
+        "subscribers": 2010,
+        "total_views": 3050997,
+        "video_count": 1370,
+        "avg_views_per_video": 2227.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "B0g0-f1XrI0",
+            "title": "Why Every Functional Fitness Athlete Needs Shin Sleeves l Unbrokenshop.com",
+            "description": "Looking for shin sleeves for functional fitness? In this video, we explain how shin sleeves can help protect your shins during rope ...",
+            "published_at": "2026-08-14T15:55:09Z",
+            "url": "https://www.youtube.com/watch?v=B0g0-f1XrI0"
+          }
+        ],
+        "channel_description": "*Gear to workout better*\nUNBROKENSHOP.com is proud to be a USA company founded by athletes and coaches. A better quality gear to have better training is what you genuinely need to enjoy your WOD as much as we do.",
+        "latest_video_at": "2026-08-14T15:55:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRbynIEayekgmjflV0OL6zQ",
+      "external_id": "UCRbynIEayekgmjflV0OL6zQ",
+      "name": "Martial Pratyaksh",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCRbynIEayekgmjflV0OL6zQ",
+      "discovered_on": "2026-08-15",
+      "score": 56.25,
+      "metrics": {
+        "subscribers": 2290,
+        "total_views": 1765507,
+        "video_count": 1261,
+        "avg_views_per_video": 1400.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "ZIwAN-Zli0g",
+            "title": "Best Core Workout with TRX 🔥 | Strong Abs &amp; Stability",
+            "description": "Best Core Workout with TRX | Strong Abs & Stability Best Core Workout with TRX! Is workout se improve karein: ✔️ Core ...",
+            "published_at": "2026-08-15T07:00:40Z",
+            "url": "https://www.youtube.com/watch?v=ZIwAN-Zli0g"
+          }
+        ],
+        "channel_description": "Hi Friends\nThis is  Pratyaksh jha here.🥋🥊\n\n5 Time State Champion in KARATE.🥇🏆🥋\n\nNational Player in KARATE.\n\nI have achieved BLACK BELT in KARATE.🥋\n\nI have achieved BEST KARTAE AWARD IN 2011.🏆\n\n11 Years Experience of Martial Arts.👊\n\nI m a Professional Martial Arts & Fitness Trainer. I am under training of FREERUNNING PARKOUR & CALISTHENICS.\n\n* MARTIAL ARTS\n* PARKOUR\n* FITNESS\n\nOn my Youtube Channel 👉Martial Arts & Fitness Studio👈 you will find the Videos related to \n\n●MARTIAL ARTS\n\n●BODYWEIGHT\n\n●CROSSFIT \n\n●STRENGTH\n\n●STEMINA\n \n●FUNCTIONAL\n \n●CARDIO\n\n●PARKOUR\n \n●CALISTHENICS\n \n●ANIMAL FLOW\n \n●ANIMAL WALK\n\n● MOTIVATIONS\n \n●STUNTS\n\nCONTACT FOR PERSONAL ONLINE TRAINING\n\n📧 pratyakshkumarjha@gmail.com\n\n👉My Discipline Will be My Success👈",
+        "latest_video_at": "2026-08-15T07:00:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoweC67OGT706lpaI0E6Wyw",
+      "external_id": "UCoweC67OGT706lpaI0E6Wyw",
+      "name": "Official Scalarwave Laser - Experience Stillpoint",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCoweC67OGT706lpaI0E6Wyw",
+      "discovered_on": "2026-08-15",
+      "score": 55.2,
+      "metrics": {
+        "subscribers": 2400,
+        "total_views": 392596,
+        "video_count": 307,
+        "avg_views_per_video": 1278.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "WOgJLatlS4Q",
+            "title": "Key to Longevity  Thymus Gland Protocol",
+            "description": "",
+            "published_at": "2026-08-14T00:00:17Z",
+            "url": "https://www.youtube.com/watch?v=WOgJLatlS4Q"
+          }
+        ],
+        "channel_description": "Unwind and dissolve into Stillpoint and experience the Scalarwave Laser Family of Products. Our unique approach using red, infra-red and violet lasers unwinds the cranial sacral rhythm and induces the subtlestate where the alchemy of healing and transformation takes place. Clearing cellular memory and old injuries and insults from the body.  888-423-8922",
+        "latest_video_at": "2026-08-14T00:00:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:64081382631924888f2d",
+      "external_id": "64081382631924888f2d",
+      "name": "interstice",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/XN2B3rapcjzHL3bJr/metaphilosophy-ii-empirical-flywheels-1",
+      "discovered_on": "2026-08-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Metaphilosophy II: Empirical Flywheels"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:838cfd973a5fd9c01a97",
+      "external_id": "838cfd973a5fd9c01a97",
+      "name": "derelict5432",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Nj9jzMBFzEZAbBpo4/do-it-like-darwin",
+      "discovered_on": "2026-08-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Do It Like Darwin"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:edd5f37f94a6b4f5c553",
+      "external_id": "edd5f37f94a6b4f5c553",
+      "name": "Zephaniah Roe",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/oKxc8maZGtnzgpNzx/rerunning-ai-safety-papers-on-every-frontier-release-would-1",
+      "discovered_on": "2026-08-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Rerunning AI safety papers on every frontier release would be pretty easy and valuable"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b97ff7a77f48994c5d34",
+      "external_id": "b97ff7a77f48994c5d34",
+      "name": "Michael Ofengenden",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/eAbuPXbjakop5rSJx/your-agents-are-not-time-aware",
+      "discovered_on": "2026-08-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Your Agents Are Not Time Aware"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:6d360eb2a7e0f09f8165",
+      "external_id": "6d360eb2a7e0f09f8165",
+      "name": "Kevin Zhang",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/iHYZF2jweXb2E7X3Y/training-a-conceptual-reasoning-judge",
+      "discovered_on": "2026-08-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Training a Conceptual Reasoning Judge"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:992e6510d666a58ce1b9",
+      "external_id": "992e6510d666a58ce1b9",
+      "name": "Jesse Li",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/a5hkSyi9JDjkMdNBa/toy-model-of-activation-obfuscation",
+      "discovered_on": "2026-08-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Toy Model of Activation Obfuscation"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:5568d7f56534198ee76b",
+      "external_id": "5568d7f56534198ee76b",
+      "name": "Bentham's Bulldog",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/3Ad3LqFibkfcMzC2u/the-day-humanity-died-parody-of-american-pie",
+      "discovered_on": "2026-08-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Day Humanity Died (Parody of American Pie)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:ef362763eabdbdc51d7c",
       "external_id": "ef362763eabdbdc51d7c",

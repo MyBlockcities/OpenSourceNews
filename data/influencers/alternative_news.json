@@ -2,19 +2,676 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-14T11:11:42Z",
-  "new_this_run": 16,
-  "total_influencers": 165,
+  "updated_at": "2026-08-15T10:43:37Z",
+  "new_this_run": 15,
+  "total_influencers": 180,
   "run_summary": {
-    "run_started_at": "2026-08-14T11:11:33Z",
-    "candidate_count": 21,
-    "existing_count": 149,
-    "selected_new_count": 16,
+    "run_started_at": "2026-08-15T10:43:28Z",
+    "candidate_count": 24,
+    "existing_count": 165,
+    "selected_new_count": 15,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCsE1D4wRSH0mZIwhazvyTUQ",
+      "external_id": "UCsE1D4wRSH0mZIwhazvyTUQ",
+      "name": "Matthias' Meinung",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCsE1D4wRSH0mZIwhazvyTUQ",
+      "discovered_on": "2026-08-15",
+      "score": 75.95,
+      "metrics": {
+        "subscribers": 64500,
+        "total_views": 25695918,
+        "video_count": 897,
+        "avg_views_per_video": 28646.51,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "ww7ExChbIuM",
+            "title": "Reporter direkt mit seiner Berichterstattung konfrontiert!",
+            "description": "Reporter direkt mit seiner Berichterstattung konfrontiert! Die Medienwelt verändert sich – und der öffentliche Diskurs findet längst ...",
+            "published_at": "2026-08-15T07:00:11Z",
+            "url": "https://www.youtube.com/watch?v=ww7ExChbIuM"
+          },
+          {
+            "query": "alternative media",
+            "video_id": "e0ogdlhtrUo",
+            "title": "Millionen für NGOs, Druck auf alternative Medien? Was vor der Sachsen-Anhalt-Wahl passiert!",
+            "description": "Millionen für NGOs, Druck auf alternative Medien? Was vor der Sachsen-Anhalt-Wahl passiert! Vor der Landtagswahl in ...",
+            "published_at": "2026-08-14T15:00:06Z",
+            "url": "https://www.youtube.com/watch?v=e0ogdlhtrUo"
+          }
+        ],
+        "channel_description": "Der Meinungskanal von Matthias (ehemals kitchennews).\nHier läuft von Montag bis Samstag immer um 9.00 Uhr der Podcast \"Matthias' Meinung\", bei dem ich ungezwungen meine Meinung zu politischen und gesellschaftlichen Themen abgebe.\nUm 17:00 Uhr gibt es dann den Nachschlag, sprich die zweite Folge des Tages!\n",
+        "latest_video_at": "2026-08-15T07:00:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCjMzi5YEXXTzF0H4CEPr3pw",
+      "external_id": "UCjMzi5YEXXTzF0H4CEPr3pw",
+      "name": "Poesía Política Mx",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCjMzi5YEXXTzF0H4CEPr3pw",
+      "discovered_on": "2026-08-15",
+      "score": 73.85,
+      "metrics": {
+        "subscribers": 81600,
+        "total_views": 78570990,
+        "video_count": 2517,
+        "avg_views_per_video": 31216.13,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "md7TPwFXGag",
+            "title": "Carmen Aristegui da razon de censura del prian #noticias #politica #mexico",
+            "description": "Carmen Aristegui le da la razon a la presidenta Claudia Sheinbaum sobre la crnsurs que Aristegui padeció en los gobiernos ...",
+            "published_at": "2026-08-15T04:20:39Z",
+            "url": "https://www.youtube.com/watch?v=md7TPwFXGag"
+          }
+        ],
+        "channel_description": "Poesía Política Mx es una canal que expresa lo mas relevante de la Política y Noticias de Mexico.\nAcompáñame a hacer esta travesía política desde un punto de vista Cívico.\nno olvides subscribirte, comentar y compartir este canal.\n\n",
+        "latest_video_at": "2026-08-15T04:20:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC98ROHJqkYFL0DK-BRqXDsQ",
+      "external_id": "UC98ROHJqkYFL0DK-BRqXDsQ",
+      "name": "Les News de Samir",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC98ROHJqkYFL0DK-BRqXDsQ",
+      "discovered_on": "2026-08-15",
+      "score": 72.17,
+      "metrics": {
+        "subscribers": 88200,
+        "total_views": 24471521,
+        "video_count": 1897,
+        "avg_views_per_video": 12900.12,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "zMjtHhR1OGg",
+            "title": "Le Conseil constitutionnel annule la censure des réseaux, Macron en colère contre les Pompiers",
+            "description": "Le Conseil constitutionnel a censuré le 14 août 2026 l'article 1er de la loi visant à interdire l'accès aux réseaux sociaux aux ...",
+            "published_at": "2026-08-14T18:25:58Z",
+            "url": "https://www.youtube.com/watch?v=zMjtHhR1OGg"
+          }
+        ],
+        "channel_description": "Pour me soutenir, Abonnez vous et faites un Don sur Twitch ici\nhttps://www.twitch.tv/subs/samirtpmy\nEn Live du Lundi au Jeudi de 22h à 23h, ICI:\n https://www.twitch.tv/samirtpmy\n----------\nPour retrouver Mes Réseaux sociaux et ma chaîne secondaire : \nhttps://linktr.ee/SamirTpmy\n\n",
+        "latest_video_at": "2026-08-14T18:25:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCCTsGBqIq7uDROFimFT5J0A",
+      "external_id": "UCCTsGBqIq7uDROFimFT5J0A",
+      "name": "The Mystery Project",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCCTsGBqIq7uDROFimFT5J0A",
+      "discovered_on": "2026-08-15",
+      "score": 71.48,
+      "metrics": {
+        "subscribers": 42200,
+        "total_views": 7521093,
+        "video_count": 2855,
+        "avg_views_per_video": 2634.36,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://x.com/ImMeme0",
+        "instagram": "https://www.instagram.com/hauntedside",
+        "tiktok": "https://www.tiktok.com/@thehauntedside"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "32rG0dxUkjs",
+            "title": "EXPOSED: Paid Influencers Pushing the SAME Anti Trump Script?! 😳🚨",
+            "description": "Source: https://x.com/ImMeme0/status/2087954160150860261 #youtubeshorts #breakingnews #trending All portions of these ...",
+            "published_at": "2026-08-15T00:19:23Z",
+            "url": "https://www.youtube.com/watch?v=32rG0dxUkjs"
+          }
+        ],
+        "channel_description": "True Crime | Politics | Breaking News | Reactions\n\nhttps://www.tiktok.com/@thehauntedside\nhttps://www.facebook.com/groups/themysteryproject\nhttps://www.patreon.com/themysteryproject\nhttps://www.instagram.com/hauntedside\n\nAll portions of these videos are made for Entertainment and Educational purposes only.\n\nCopyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research. Fair use is a use permitted by copyright statute that might otherwise be infringing.\n",
+        "latest_video_at": "2026-08-15T00:19:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCiltSKbWgDdAqEwXmzGWhbA",
+      "external_id": "UCiltSKbWgDdAqEwXmzGWhbA",
+      "name": "News Gujarat Official",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCiltSKbWgDdAqEwXmzGWhbA",
+      "discovered_on": "2026-08-15",
+      "score": 67.57,
+      "metrics": {
+        "subscribers": 30900,
+        "total_views": 18756845,
+        "video_count": 2782,
+        "avg_views_per_video": 6742.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "rLjbO2Y20hE",
+            "title": "Amreli News | અમરેલીમાં ભવ્ય સ્વાતંત્ર્ય પર્વની ઉજવણી | Independence Day",
+            "description": "Amreli News | અમરેલીમાં ભવ્ય સ્વાતંત્ર્ય પર્વની ઉજવણી | Independence Day ...",
+            "published_at": "2026-08-15T09:30:37Z",
+            "url": "https://www.youtube.com/watch?v=rLjbO2Y20hE"
+          }
+        ],
+        "channel_description": "News Gujarat Official માં આપનું સ્વાગત છે. ગુજરાત, ભારત અને વિશ્વની લેટેસ્ટ અને વિશ્વસનીય સમાચાર અપડેટ્સ માટે તમારું વિશ્વાસુ પ્લેટફોર્મ.\nઅહીં તમને મળશે ગુજરાતની પળેપળની ખબર, રાજકારણ, ક્રાઈમ સ્ટોરી, લાઈવ સમાચાર, બોલીવુડ, ક્રિકેટ અને દેશ-વિદેશની મહત્વપૂર્ણ માહિતી.\nતો આજે જ અમને સોશિયલ મીડિયા પર Follow કરો:\n \n",
+        "latest_video_at": "2026-08-15T09:30:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCLo0RruVgM9U398sFq0xxqA",
+      "external_id": "UCLo0RruVgM9U398sFq0xxqA",
+      "name": "Chamra Linda Fans",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCLo0RruVgM9U398sFq0xxqA",
+      "discovered_on": "2026-08-15",
+      "score": 67.02,
+      "metrics": {
+        "subscribers": 7810,
+        "total_views": 8415018,
+        "video_count": 235,
+        "avg_views_per_video": 35808.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "qitLx8KoUL8",
+            "title": "15 August |Independence Day 2026 |#reels #trending #15august #independenceday #news #latestnews",
+            "description": "15 August |Independence Day 2026 |#reels #trending #15august #independenceday #news #latestnews #nagpurisong ...",
+            "published_at": "2026-08-15T08:04:38Z",
+            "url": "https://www.youtube.com/watch?v=qitLx8KoUL8"
+          }
+        ],
+        "channel_description": "\" जोहार झारखण्ड !🙏\n\nइस चैनल पर आपका स्वागत है। यहाँ आपको *झारखंड सरकार के अनुसूचित जनजाति, अनुसूचित जाति एवं पिछड़ा वर्ग कल्याण विभाग मंत्री, श्री चमरा लिंडा *जी के आधिकारिक कार्यक्रमों, जन-कल्याणकारी योजनाओं और महत्वपूर्ण संबोधनों के वीडियो देखने को मिलेंगे।\n\nझारखंड के विकास और मंत्री जी की गतिविधियों से जुड़े रहने के लिए हमारे चैनल को 𝐋𝐢𝐤𝐞 और 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 ज़रूर करें |\n\n\" सभी को झारखंडी जोहार !🏹\"",
+        "latest_video_at": "2026-08-15T08:04:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0NSuvrwL98JSParYBI8-yQ",
+      "external_id": "UC0NSuvrwL98JSParYBI8-yQ",
+      "name": "Ezra Levant",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0NSuvrwL98JSParYBI8-yQ",
+      "discovered_on": "2026-08-15",
+      "score": 66.25,
+      "metrics": {
+        "subscribers": 30000,
+        "total_views": 2392419,
+        "video_count": 626,
+        "avg_views_per_video": 3821.76,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "GghQbW-fmO0",
+            "title": "Canada is taking censorship lessons from the U.K.",
+            "description": "https://StopTheCensorship.ca | Help us keep fighting for free speech! Ezra Levant looks at how Canada's \"social cohesion\" plan ...",
+            "published_at": "2026-08-14T23:30:14Z",
+            "url": "https://www.youtube.com/watch?v=GghQbW-fmO0"
+          }
+        ],
+        "channel_description": "Host of the popular online series the Ezra Levant show and Founder of Rebel News, Ezra Levant has been providing truthful news and news commentary for years. He is a Canadian media personality, political activist, best-selling writer, and broadcaster.\n\nWhile he's “not to everyone’s tastes,” Ezra reports news honestly when it comes to talking about difficult issues including politics, free speech, foreign policy and more. He appears regularly on Rebel News and their YouTube channel and posts more content here on the Ezra Levant channel.\n\nEzra offers his insight on various political and newsworthy stories with long-form commentary. He regularly calls out mainstream media and prioritizes honest reporting, even if it means not shying away from “controversial takes.\"\n\nEzra regularly reports on important issues happening in Canada and the United States, tackling subjects that mainstream media won’t touch. He is a pillar of free-speech and isn't afraid to speak his mind on important topics.\n",
+        "latest_video_at": "2026-08-14T23:30:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOAvyRqE4-pke7QqhKVWaXw",
+      "external_id": "UCOAvyRqE4-pke7QqhKVWaXw",
+      "name": "MVAAFF Color Of Conversation",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCOAvyRqE4-pke7QqhKVWaXw",
+      "discovered_on": "2026-08-15",
+      "score": 65.82,
+      "metrics": {
+        "subscribers": 18200,
+        "total_views": 3280793,
+        "video_count": 521,
+        "avg_views_per_video": 6297.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "I5QXzu7tO8c",
+            "title": "Joy Reid on Black Storytelling, Muhammad Ali &amp; Building Independent Media",
+            "description": "Joy Reid joins us at the 24th Annual Martha's Vineyard African American Film Festival for a powerful conversation about film, ...",
+            "published_at": "2026-08-14T21:51:31Z",
+            "url": "https://www.youtube.com/watch?v=I5QXzu7tO8c"
+          }
+        ],
+        "channel_description": "About Martha’s Vineyard African-American Film Festival \nEstablished in 2003, the Martha’s Vineyard African American Film Festival (MVAAFF) is an Academy-Award® accredited Black Film Festival where independent and established African American filmmakers can showcase, screen and promote emerging feature, documentary, and short films from across the world. The brainchild of husband and wife team, Floyd and Stephanie Rance, the MVAAFF provides a nurturing environment for African American filmmakers to test their creativity, while providing sponsors a captive audience to promote their brands among a highly discerning community of people of color.\n\n\n#SummersFinestFilmFestival  #MVAAFF",
+        "latest_video_at": "2026-08-14T21:51:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC9EKTOjlLuqh17LUmuQ2E2Q",
+      "external_id": "UC9EKTOjlLuqh17LUmuQ2E2Q",
+      "name": "Harry Cole Saves The West",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC9EKTOjlLuqh17LUmuQ2E2Q",
+      "discovered_on": "2026-08-15",
+      "score": 65.81,
+      "metrics": {
+        "subscribers": 15400,
+        "total_views": 9223126,
+        "video_count": 1162,
+        "avg_views_per_video": 7937.29,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "cWfaMVzrkkQ",
+            "title": "Jeremy Boreing: Media Elites Created This Populist Backlash",
+            "description": "Jeremy Boreing (former Daily Wire CEO) says elite media's condescension fuelled the rise of alternative media — but now warns ...",
+            "published_at": "2026-08-14T15:57:17Z",
+            "url": "https://www.youtube.com/watch?v=cWfaMVzrkkQ"
+          }
+        ],
+        "channel_description": "From Washington DC comes an unflinching, no-apology show confronting the crises shaking the US and UK - open borders, cultural collapse, economic chaos, and threats to our security. Here, American grit meets British backbone to defend faith, family, freedom, and the future of the West.",
+        "latest_video_at": "2026-08-14T15:57:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCBPNzixAMsNRH5m7o6qQeDQ",
+      "external_id": "UCBPNzixAMsNRH5m7o6qQeDQ",
+      "name": "Litoral Norte - Ubatuba, Caraguatatuba e Região",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCBPNzixAMsNRH5m7o6qQeDQ",
+      "discovered_on": "2026-08-15",
+      "score": 65.18,
+      "metrics": {
+        "subscribers": 30500,
+        "total_views": 13232014,
+        "video_count": 5810,
+        "avg_views_per_video": 2277.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "Ow3F39Puzb8",
+            "title": "Canal do Nikolas Ferreira foi censurado?  #news #censura #reels",
+            "description": "",
+            "published_at": "2026-08-15T04:36:47Z",
+            "url": "https://www.youtube.com/watch?v=Ow3F39Puzb8"
+          }
+        ],
+        "channel_description": "Este canal foi criado para apoiar os comércios locais, lugares, passeios, hospedagens, dicas, informações do tempo, notícias e dia-a-dia de nossa vida no Litoral Norte.\n\nNós Regiane de Camargo e Cristhyan Salles, faremos de tudo para prover conteúdos que apoiam e contribuem de alguma forma a vida de turistas e moradores.\n\nSeja membro de nosso canal, apoie e tenha benefícios, caso queira contribuir de alguma forma,  ficaremos felizes de receber seu apoio.\n\nCaso queira divulgar sua empresa no www.portallitoralnorte.com.br ou em nossos vídeos, seja um de nossos patrocinadores, ficaremos felizes de ter sua marca conosco.\n\nConte conosco para divulgação no portallitoralnorte.com.br, estamos cada dia buscando recursos para ampliar resultados para o comércio local.\n\nDivulgação 12 99139-1915 no Litoral Norte de São Paulo para todo Brasil.\n\nDeus abençoe a todos.\n\n\n",
+        "latest_video_at": "2026-08-15T04:36:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCET4MrIq8oHeNFERkoYnVng",
+      "external_id": "UCET4MrIq8oHeNFERkoYnVng",
+      "name": "ÉcoBrief",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCET4MrIq8oHeNFERkoYnVng",
+      "discovered_on": "2026-08-15",
+      "score": 64.55,
+      "metrics": {
+        "subscribers": 3070,
+        "total_views": 16587646,
+        "video_count": 391,
+        "avg_views_per_video": 42423.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "9jigsM30Z8E",
+            "title": "Réseaux sociaux, le Conseil constitutionnel censure Macron | #RéseauxSociaux #ConseilConstitutionnel",
+            "description": "Ecobrief RÉSEAUX SOCIAUX : LE CONSEIL CONSTITUTIONNEL CENSURE L'INTERDICTION POUR LES MOINS DE 15 ...",
+            "published_at": "2026-08-15T08:43:36Z",
+            "url": "https://www.youtube.com/watch?v=9jigsM30Z8E"
+          }
+        ],
+        "channel_description": "ÉcoBrief analyzes global economic developments and geopolitical events in a clear, documentary-style format.\nThe channel focuses on explaining major shifts in the global economy, energy markets, financial systems, and international trade using data, historical context, and publicly available information.\n\nOur goal is to simplify complex global events so viewers can better understand how the world economy is evolving.\n\nDisclaimer \nThis channel provides informational and educational content only.\nÉcoBrief does not offer financial advice, investment recommendations, personal opinions, or predictions. All analysis is based on publicly available information, historical data, and current economic developments.\n\nViewers should conduct their own research before making financial or investment decisions.\n",
+        "latest_video_at": "2026-08-15T08:43:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UClBrMnCZ18IJ9IdXSPEvTcQ",
+      "external_id": "UClBrMnCZ18IJ9IdXSPEvTcQ",
+      "name": "Divergentes - Periodismo de Investigación",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UClBrMnCZ18IJ9IdXSPEvTcQ",
+      "discovered_on": "2026-08-15",
+      "score": 63.48,
+      "metrics": {
+        "subscribers": 12700,
+        "total_views": 2946583,
+        "video_count": 828,
+        "avg_views_per_video": 3558.68,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "dvGbBq5YG5c",
+            "title": "¿Apareció o fue presión internacional? La verdad detrás del video de Monseñor Abelardo Mata ⚠️⚖️",
+            "description": "Ante las acusaciones contra el periodismo independiente, los hechos hablan por sí solos: Monseñor Abelardo Mata fue detenido ...",
+            "published_at": "2026-08-14T16:32:54Z",
+            "url": "https://www.youtube.com/watch?v=dvGbBq5YG5c"
+          }
+        ],
+        "channel_description": "“DIVERGENTES, Periodismo narrativo y de investigación” es un proyecto que apuesta por el periodismo de largo aliento para informar y explicar sobre los fenómenos que afectan a la región centroamericana. Nos proponemos contar historias con enfoque regional, intentando seguir el hilo de los conflictos que como sociedad centroamericana compartimos. ",
+        "latest_video_at": "2026-08-14T16:32:54Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCxTtdy3jbPg6ni0D-08KUUQ",
+      "external_id": "UCxTtdy3jbPg6ni0D-08KUUQ",
+      "name": "n4t",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCxTtdy3jbPg6ni0D-08KUUQ",
+      "discovered_on": "2026-08-15",
+      "score": 58.89,
+      "metrics": {
+        "subscribers": 9510,
+        "total_views": 5287696,
+        "video_count": 8213,
+        "avg_views_per_video": 643.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "SaOJhTHZkM8",
+            "title": "¿Censura o Verdad? 🔥",
+            "description": "MKT CTA === 🖥️ Soporte Para Laptop Plegable Con Ruedas y Altura Ajustable: https://meli.la/2xuxn5h # === /MKT CTA ...",
+            "published_at": "2026-08-14T21:00:18Z",
+            "url": "https://www.youtube.com/watch?v=SaOJhTHZkM8"
+          }
+        ],
+        "channel_description": "Noticias de la 4T. Solo buenas noticias. ",
+        "latest_video_at": "2026-08-14T21:00:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJQerdNd19rfZqlIX9AUrmA",
+      "external_id": "UCJQerdNd19rfZqlIX9AUrmA",
+      "name": "Politikk og kommunikasjon m/ Daniel Haugerud  ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJQerdNd19rfZqlIX9AUrmA",
+      "discovered_on": "2026-08-15",
+      "score": 58.24,
+      "metrics": {
+        "subscribers": 4950,
+        "total_views": 2245267,
+        "video_count": 1891,
+        "avg_views_per_video": 1187.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "DQElkGraPeQ",
+            "title": "TOTALITÆRT HYKLERI FRA SKJERVØ OG VENSTRESIDEN",
+            "description": "TOTALITÆRT HYKLERI. Når folk vender ryggen til de etablerte mediene og oppsøker alternative stemmer, kommer advarslene.",
+            "published_at": "2026-08-14T12:05:43Z",
+            "url": "https://www.youtube.com/watch?v=DQElkGraPeQ"
+          }
+        ],
+        "channel_description": "❤️ Støtt arbeidet på Vipps 👉 35769 eller PayPal: www.paypal.me/danielhaugerud \n\nPolitisk kommentator og reporter • Uavhengig journalist  👉 Dine nyheter. Dine analyser. Din stemme.\n",
+        "latest_video_at": "2026-08-14T12:05:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTCTsJPpnLl2_BvXTbIfJAA",
+      "external_id": "UCTCTsJPpnLl2_BvXTbIfJAA",
+      "name": "IdiYasu",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCTCTsJPpnLl2_BvXTbIfJAA",
+      "discovered_on": "2026-08-15",
+      "score": 57.68,
+      "metrics": {
+        "subscribers": 3110,
+        "total_views": 3943431,
+        "video_count": 2236,
+        "avg_views_per_video": 1763.61,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "pf9itTIsydA",
+            "title": "🚨 L’interdiction des réseaux sociaux aux moins de 15 ans CENSURÉE !",
+            "description": "Le Conseil constitutionnel censure l'article qui prévoyait d'interdire l'accès aux réseaux sociaux aux moins de 15 ans avec ...",
+            "published_at": "2026-08-14T16:38:58Z",
+            "url": "https://www.youtube.com/watch?v=pf9itTIsydA"
+          }
+        ],
+        "channel_description": "Une chaîne pour les otakus, gamers, fans de séries, de foot… et de débats qui piquent.\nIci, on délire, on s’informe, et surtout… on ne se prend pas au sérieux 😁\n\n🎮 Jeux vidéo & culture geek\n📺 Anime, séries & pop culture\n⚽ Foot & clashs d’actu\n🔥 Débats d’idées & politique sans filtre\n\n👉 Abonne-toi si t’aimes rigoler ET réfléchir\n",
+        "latest_video_at": "2026-08-14T16:38:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCuhZlxtHTQ7tZuy5foq5cZA",
       "external_id": "UCuhZlxtHTQ7tZuy5foq5cZA",
