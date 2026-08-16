@@ -2,19 +2,154 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-15T10:43:46Z",
-  "new_this_run": 7,
-  "total_influencers": 106,
+  "updated_at": "2026-08-16T10:43:57Z",
+  "new_this_run": 3,
+  "total_influencers": 109,
   "run_summary": {
-    "run_started_at": "2026-08-15T10:43:28Z",
-    "candidate_count": 13,
-    "existing_count": 99,
-    "selected_new_count": 7,
+    "run_started_at": "2026-08-16T10:43:39Z",
+    "candidate_count": 10,
+    "existing_count": 106,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCShK8KBOjED1Qs_PLkiKXxA",
+      "external_id": "UCShK8KBOjED1Qs_PLkiKXxA",
+      "name": "Moritz Hessel | Total Return Finanzen",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCShK8KBOjED1Qs_PLkiKXxA",
+      "discovered_on": "2026-08-16",
+      "score": 71.76,
+      "metrics": {
+        "subscribers": 54200,
+        "total_views": 7263210,
+        "video_count": 344,
+        "avg_views_per_video": 21113.98,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "SvZtKUF_caQ",
+            "title": "Peptide: Dieses Wundermittel wird die Börse für immer verändern!",
+            "description": "Der Ausblick auf die nächsten Monate - Melde dich jetzt zum Live-Webinar an: https://my.demio.com/ref/dx1i6LLFpQU1SpZe ...",
+            "published_at": "2026-08-16T08:56:22Z",
+            "url": "https://www.youtube.com/watch?v=SvZtKUF_caQ"
+          }
+        ],
+        "channel_description": "Seine Leidenschaft für die Börse begleitet Moritz Hessel bereits seit seiner frühen Jugend. In den vergangenen Jahren konnte er mit seinen Depots stets Überrenditen im Vergleich zum Markt erzielen und war als Advisor beratend für prämierte Hedgefonds tätig.\n\nZu seinen Kernaufgaben zählen Value Investing, Total-Return-Strategie, Corporate Finance und Honorarberatung.\n\nHessel strebt danach, Über- und Untertreibungen am Markt zu erkennen und gleichzeitig den fairen Wert einer Anlage einzuschätzen. In allen Marktphasen Rendite zu erzielen, hat für ihn höchste Priorität. Seit knapp einem Jahrzehnt berät er Privatpersonen, Unternehmen, Spitzensportler, Family Offices und Stiftungen rund um Vermögenssicherung und Asset-Allokation.\n\nImpressum:\nMH Total Return AG \nLuzernerstrasse 26\n6330 Cham, Schweiz\n",
+        "latest_video_at": "2026-08-16T08:56:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCXitUIxYw_U-foxbSXSh04Q",
+      "external_id": "UCXitUIxYw_U-foxbSXSh04Q",
+      "name": "Philipp Karner",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCXitUIxYw_U-foxbSXSh04Q",
+      "discovered_on": "2026-08-16",
+      "score": 67.85,
+      "metrics": {
+        "subscribers": 30100,
+        "total_views": 2068881,
+        "video_count": 261,
+        "avg_views_per_video": 7926.75,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "cyvUns4Vbmk",
+            "title": "3 Things you might have missed this week! Longevity News",
+            "description": "This week in longevity: BioAge Labs goes public, a new paper exposes the risks of the unregulated peptide market fueled by ...",
+            "published_at": "2026-08-15T15:29:30Z",
+            "url": "https://www.youtube.com/watch?v=cyvUns4Vbmk"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-15T15:29:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCG48MVUO_-WUSdTy60l1w6w",
+      "external_id": "UCG48MVUO_-WUSdTy60l1w6w",
+      "name": "RennLea",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCG48MVUO_-WUSdTy60l1w6w",
+      "discovered_on": "2026-08-16",
+      "score": 58.14,
+      "metrics": {
+        "subscribers": 4000,
+        "total_views": 1050045,
+        "video_count": 432,
+        "avg_views_per_video": 2430.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "GoNPKzZcEF8",
+            "title": "I Finally Had A Shower And I Wasn&#39;t Scared",
+            "description": "",
+            "published_at": "2026-08-15T05:17:27Z",
+            "url": "https://www.youtube.com/watch?v=GoNPKzZcEF8"
+          }
+        ],
+        "channel_description": "Welcome! Bienvenido! Hey!",
+        "latest_video_at": "2026-08-15T05:17:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UC2_1-AEU4WXK-5pTV0423oQ",
       "external_id": "UC2_1-AEU4WXK-5pTV0423oQ",

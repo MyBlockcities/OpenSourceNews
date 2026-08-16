@@ -2,19 +2,432 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-15T10:43:50Z",
-  "new_this_run": 20,
-  "total_influencers": 889,
+  "updated_at": "2026-08-16T10:44:01Z",
+  "new_this_run": 12,
+  "total_influencers": 901,
   "run_summary": {
-    "run_started_at": "2026-08-15T10:43:28Z",
-    "candidate_count": 53,
-    "existing_count": 869,
-    "selected_new_count": 20,
+    "run_started_at": "2026-08-16T10:43:39Z",
+    "candidate_count": 49,
+    "existing_count": 889,
+    "selected_new_count": 12,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCrkqmi0qi0nrOnPNZp5QD9w",
+      "external_id": "UCrkqmi0qi0nrOnPNZp5QD9w",
+      "name": "Aunie Sauce",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCrkqmi0qi0nrOnPNZp5QD9w",
+      "discovered_on": "2026-08-16",
+      "score": 67.58,
+      "metrics": {
+        "subscribers": 12300,
+        "total_views": 7127262,
+        "video_count": 290,
+        "avg_views_per_video": 24576.77,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "2CXnkHH8k7s",
+            "title": "POV: Your next Hyrox workout",
+            "description": "Your next HYROX workout. ‍     3 rounds: → 400m run → 40 burpee box jumps → 400m SkiErg → 40 walking lunges → 400m ...",
+            "published_at": "2026-08-16T01:03:00Z",
+            "url": "https://www.youtube.com/watch?v=2CXnkHH8k7s"
+          }
+        ],
+        "channel_description": "I'm Aunie. Mama, Military Airman & Hybrid Athlete. Real training • Real life. Join me. \n\nhttps://linktr.ee/anneliserowe",
+        "latest_video_at": "2026-08-16T01:03:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEFYgpj5Zy21DVhRn_nQWFg",
+      "external_id": "UCEFYgpj5Zy21DVhRn_nQWFg",
+      "name": "Дыгын БОРЬБА САХА Дягилев ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCEFYgpj5Zy21DVhRn_nQWFg",
+      "discovered_on": "2026-08-16",
+      "score": 64.44,
+      "metrics": {
+        "subscribers": 9460,
+        "total_views": 1953561,
+        "video_count": 234,
+        "avg_views_per_video": 8348.55,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "cMjyRyhcFqA",
+            "title": "Чемпионат Азии по функциональному многоборью Астана часть 2",
+            "description": "Комплекс №2: работа с собственным весом AMRAP — 12 минут Выполнить как можно больше повторений за 12 минут: ...",
+            "published_at": "2026-08-15T17:30:52Z",
+            "url": "https://www.youtube.com/watch?v=cMjyRyhcFqA"
+          }
+        ],
+        "channel_description": "Активный образ жизни, спорт, путешествия, бизнес, охота, гто, борьба, хапсагай, ГТО.",
+        "latest_video_at": "2026-08-15T17:30:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCfSZSQ3XHrzRfIUfdzXsdTA",
+      "external_id": "UCfSZSQ3XHrzRfIUfdzXsdTA",
+      "name": "Traces of Twaun's Life",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCfSZSQ3XHrzRfIUfdzXsdTA",
+      "discovered_on": "2026-08-16",
+      "score": 64.13,
+      "metrics": {
+        "subscribers": 22700,
+        "total_views": 4616515,
+        "video_count": 2174,
+        "avg_views_per_video": 2123.51,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "P15XNZMrcuo",
+            "title": "Why I Added NAD+ to My Wellness Routine",
+            "description": "NAD + https://get.gimme.care/start-online-visit/nad?referral-campaign=tracesoftwaun-nad&referral-source=affiliate MIC B 12 ...",
+            "published_at": "2026-08-16T02:30:39Z",
+            "url": "https://www.youtube.com/watch?v=P15XNZMrcuo"
+          }
+        ],
+        "channel_description": "I’ve loss 143 lbs by living a healthy lifestyle journey while using GLP1 medications, Walking 8-12K steps per day, riding my Peloton Bike and Weight training.\n\nIf you're interested in Peloton Bike workouts, Plus Size Fashion Hauls, All Things Health, Home, Decor and more.  This is the right channel if you’re wondering HOW to start a weight loss journey, How to lose weight, How many calories to eat per day?\n\nPlease feel free to send me an email at Twaunslifetv@gmail.com\n\nIf you would like to support this channel:\n\nCashapp: $TracesOfTwaunsLife\n\nGimme Care GLP https://intake.gimme.care/wl?referral-campaign=tracesoftwaun&referral-source=affiliate\n\nhttps://linktr.ee/twaunslifetv",
+        "latest_video_at": "2026-08-16T02:30:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoQFOLueVAU-rzf5L0rGmrA",
+      "external_id": "UCoQFOLueVAU-rzf5L0rGmrA",
+      "name": "ATLETICA",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCoQFOLueVAU-rzf5L0rGmrA",
+      "discovered_on": "2026-08-16",
+      "score": 63.96,
+      "metrics": {
+        "subscribers": 5530,
+        "total_views": 6211778,
+        "video_count": 438,
+        "avg_views_per_video": 14182.14,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "NtycDxMMLF8",
+            "title": "20 Seconds of Intensity training with Pro HYROX Athlete Alina",
+            "description": "Get a glimpse into high-intensity training using the professional-grade gear found in our latest ATLETICA setup. This 20-second ...",
+            "published_at": "2026-08-16T09:30:18Z",
+            "url": "https://www.youtube.com/watch?v=NtycDxMMLF8"
+          }
+        ],
+        "channel_description": "Fitness Equipment Engineered in Germany | Designed for Precision | Built to Move a Nation\nATLETICA - Empowering Your Fitness Journey!\n\nWelcome to our channel! Dive into our premium-quality training equipment, engaging workout videos, and expert advice crafted to inspire a healthier lifestyle for everyone. Whether you're building your home gym or advancing your fitness journey, count on us to be your trusted partner every step of the way. Let's make your fitness goals a reality.\nExplore more on our website: www.atletica.de \n\n\n\n\n\n\n",
+        "latest_video_at": "2026-08-16T09:30:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCn_qNoHMB_4qIEfMBN_03xw",
+      "external_id": "UCn_qNoHMB_4qIEfMBN_03xw",
+      "name": "AVONETICS",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCn_qNoHMB_4qIEfMBN_03xw",
+      "discovered_on": "2026-08-16",
+      "score": 43.27,
+      "metrics": {
+        "subscribers": 4060,
+        "total_views": 256,
+        "video_count": 432,
+        "avg_views_per_video": 0.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "x_1O4Uaa04Q",
+            "title": "Functional Fitness Wins &amp; Calorie Math: From Couch Potato to Obstacle Course Sprint | Gut Check",
+            "description": "In this episode of Gut Check, we analyze two remarkable health journeys that expose the reality of physical transformations. First ...",
+            "published_at": "2026-08-15T23:08:46Z",
+            "url": "https://www.youtube.com/watch?v=x_1O4Uaa04Q"
+          }
+        ],
+        "channel_description": "Gripping true-to-life story podcasts and original songs — new episodes every day, in 70+ languages, free on Spotify and youtube. 🎧 avonetics.com\n\n",
+        "latest_video_at": "2026-08-15T23:08:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:af838e8e8b02f1ea1c96",
+      "external_id": "af838e8e8b02f1ea1c96",
+      "name": "yatharth",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ewYEAoxEqCqED9pYY/are-questions-allowed-on-lesswrong",
+      "discovered_on": "2026-08-16",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/AskYatharth"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Are questions allowed on LessWrong?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f66bf34c996ce6eaaff5",
+      "external_id": "f66bf34c996ce6eaaff5",
+      "name": "sid.the.manne@gmail.com",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/JzX2oizpdToWrA3wP/luck-is-a-function-of-surface-area",
+      "discovered_on": "2026-08-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Luck is a function of surface area."
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e7bb50c65a0d7eaa6852",
+      "external_id": "e7bb50c65a0d7eaa6852",
+      "name": "sfereido",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/orMEvTgtRig9qnsdL/using-chunked-monitoring-to-detect-deception-in-long",
+      "discovered_on": "2026-08-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Using Chunked Monitoring to Detect Deception in Long Transcripts"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:3deb358f598a2ab24fce",
+      "external_id": "3deb358f598a2ab24fce",
+      "name": "jenn",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Fjfa8JG43CrYtcL3p/mom-s-advice-for-hosting-a-class-reunion",
+      "discovered_on": "2026-08-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Mom's Advice For Hosting A Class Reunion"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ae34c4578a69270287dc",
+      "external_id": "ae34c4578a69270287dc",
+      "name": "Jan Bauer",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
+      "discovered_on": "2026-08-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Does DiffusionGemma do latent reasoning?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:1bbc1f2e15124a745718",
+      "external_id": "1bbc1f2e15124a745718",
+      "name": "Goutham Nalagatla",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/8peYRGxHtmYsTe6Le/how-to-catch-a-distilled-model",
+      "discovered_on": "2026-08-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How To Catch a Distilled Model"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:638c1f25e3a7dcd8e578",
+      "external_id": "638c1f25e3a7dcd8e578",
+      "name": "Chris_Leong",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Eo8YxwDYZX2xALMAM/should-less-wrong-add-subtitles",
+      "discovered_on": "2026-08-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Should Less Wrong add subtitles?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UClUGVr8hOMrRY-UzMaxx6SA",
       "external_id": "UClUGVr8hOMrRY-UzMaxx6SA",
