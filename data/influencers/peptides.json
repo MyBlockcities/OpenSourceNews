@@ -2,19 +2,433 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-16T10:43:57Z",
-  "new_this_run": 3,
-  "total_influencers": 109,
+  "updated_at": "2026-08-17T10:52:12Z",
+  "new_this_run": 9,
+  "total_influencers": 118,
   "run_summary": {
-    "run_started_at": "2026-08-16T10:43:39Z",
-    "candidate_count": 10,
-    "existing_count": 106,
-    "selected_new_count": 3,
+    "run_started_at": "2026-08-17T10:51:56Z",
+    "candidate_count": 18,
+    "existing_count": 109,
+    "selected_new_count": 9,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCLXjINL1hfayHfX7oOy7--Q",
+      "external_id": "UCLXjINL1hfayHfX7oOy7--Q",
+      "name": "Dr. Constantin",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCLXjINL1hfayHfX7oOy7--Q",
+      "discovered_on": "2026-08-17",
+      "score": 71.47,
+      "metrics": {
+        "subscribers": 69000,
+        "total_views": 21369755,
+        "video_count": 1621,
+        "avg_views_per_video": 13183.07,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "wqFvDLWU1k4",
+            "title": "Peptides: Real Medicine or the Next Big Hype?",
+            "description": "1. Peptide medicine is not new Insulin, oxytocin, desmopressin, octreotide, leuprolide, teriparatide, semaglutide and tirzepatide ...",
+            "published_at": "2026-08-17T06:51:33Z",
+            "url": "https://www.youtube.com/watch?v=wqFvDLWU1k4"
+          }
+        ],
+        "channel_description": "Doctor Longevity Health explains medicine in human language — through clear visual stories, educational animations, and scientific truth.\nHere you’ll find how your heart, brain, and metabolism change after 40 — and what you can do to stay healthy, strong, and sharp for decades.\n\nEach video is based on real medical research and shows the mechanism of action behind everyday conditions — from blood pressure, cholesterol, and diabetes to hormones, sleep, and memory. \n\nDoctor explains • Longevity • Health after 50 • Healthy aging • Medical education • Mechanism of action • Senior health • Preventive medicine\n",
+        "latest_video_at": "2026-08-17T06:51:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCgCX-_7YmZCW8BQwVWuj9IQ",
+      "external_id": "UCgCX-_7YmZCW8BQwVWuj9IQ",
+      "name": "Thyroid Pharmacist - Dr. Izabella Wentz",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCgCX-_7YmZCW8BQwVWuj9IQ",
+      "discovered_on": "2026-08-17",
+      "score": 66.92,
+      "metrics": {
+        "subscribers": 41500,
+        "total_views": 1565266,
+        "video_count": 474,
+        "avg_views_per_video": 3302.25,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "HgEtrMbIHGw",
+            "title": "Peptides for Thyroid Health, Longevity &amp; Healthy Aging With Michael Antonelli",
+            "description": "In this episode of Thyroid Pharmacist Healing Conversations, Dr. Izabella Wentz speaks with Michael Antonelli, founder and CEO ...",
+            "published_at": "2026-08-17T10:00:01Z",
+            "url": "https://www.youtube.com/watch?v=HgEtrMbIHGw"
+          }
+        ],
+        "channel_description": "Through my research, I've discovered that there is more to Hashimoto's than just your thyroid. \n\nMost patients with Hashimoto's and hypothyroidism will have acid reflux, nutrient deficiencies, anemia, leaky gut, food allergies and adrenal insufficiency. Symptoms of impaired digestion/absorption, anxiety, chronic fatigue and chemical/environmental allergies may be seen as well.  \n\nHashimoto's is a complicated condition with many layers that need to be unraveled. While conventional medicine only looks at each body system as a separate category, and is only concerned with the thyroid's ability to produce thyroid hormone, Hashimoto's is more than just hypothyroidism.\n\nIt took me three years to figure out the lifestyle interventions for Hashimoto's and Hypothyroidism. My website, blog, and Facebook is a great place to begin.\n\nHOW DO YOU FIND THE ROOT CAUSE OF YOUR CONDITION?\n\nYou have to DIG AT IT.",
+        "latest_video_at": "2026-08-17T10:00:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCEa_dPMYHk6wUe5NyXdZvQQ",
+      "external_id": "UCEa_dPMYHk6wUe5NyXdZvQQ",
+      "name": "Peptides-explained-easy",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCEa_dPMYHk6wUe5NyXdZvQQ",
+      "discovered_on": "2026-08-17",
+      "score": 65.52,
+      "metrics": {
+        "subscribers": 5470,
+        "total_views": 378276,
+        "video_count": 322,
+        "avg_views_per_video": 1174.77,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "lWyKD8WJzvw",
+            "title": "Can Peptides Clear Artery Plaque? The Science Is More Complicated",
+            "description": "Can peptides help clear cholesterol from your arteries? This is one of the most tempting claims in the peptide space, because the ...",
+            "published_at": "2026-08-16T16:00:00Z",
+            "url": "https://www.youtube.com/watch?v=lWyKD8WJzvw"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "lWyKD8WJzvw",
+            "title": "Can Peptides Clear Artery Plaque? The Science Is More Complicated",
+            "description": "Can peptides help clear cholesterol from your arteries? This is one of the most tempting claims in the peptide space, because the ...",
+            "published_at": "2026-08-16T16:00:00Z",
+            "url": "https://www.youtube.com/watch?v=lWyKD8WJzvw"
+          }
+        ],
+        "channel_description": "📱 Get the PEX App https://app.peptidesexplainedeasy.com\n\nPeptides explained in plain English, honest evidence grades, educational calculator, journal and more. Free to start → https://app.peptidesexplainedeasy.com\n\nPeptides Explained Easy breaks down peptides and human biology in simple, easy-to-understand language.\n\nNo medical advice. No dosing. \nJust clear explanations so anyone can understand how the body works.\n\n🎯 Free peptide guide + weekly newsletter:\nhttps://peptidesexplainedeasy.com\n\nsome links may be affiliate links.\n\n#peptides #peptidescience #peptideskincare #peptidesmusclegrowth #peptidessleep #musclebuilding #muscle #musclegrowth #musclerecovery #musclerepair #tendoninjury #tendonhealth #biohackinglife #cellreceptorsexplained #howcellsignalingworks  #peptidesandreceptors #cellcommunication #biology   #6thgradescience \n",
+        "latest_video_at": "2026-08-16T16:00:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCFGK5bmvxtMyP0-01Tcp0hQ",
+      "external_id": "UCFGK5bmvxtMyP0-01Tcp0hQ",
+      "name": "Эндокринолог Роман Терушкин",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCFGK5bmvxtMyP0-01Tcp0hQ",
+      "discovered_on": "2026-08-17",
+      "score": 65.35,
+      "metrics": {
+        "subscribers": 17200,
+        "total_views": 583782,
+        "video_count": 106,
+        "avg_views_per_video": 5507.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "HrHiza6dldM",
+            "title": "Пептиды Бони",
+            "description": "ДРУЗЬЯ! Так же жду вас на своем Boosty и в закрытом клубе «Терушкин ОС»: ...",
+            "published_at": "2026-08-16T14:00:29Z",
+            "url": "https://www.youtube.com/watch?v=HrHiza6dldM"
+          }
+        ],
+        "channel_description": "Записаться на консультацию ⬇️⬇️⬇️\n\nРоман Терушкин — врач-эндокринолог, эксперт интегративной медицины и автора более 20 научных публикаций в области эндокринологии и биохимии.\n\nНа канале — доказательная эндокринология и практические рекомендации по восстановлению гормонального здоровья. Простым языком о сложных процессах в организме: гормоны, обмен веществ, энергия, стресс и метаболическое здоровье.\n\nРазбираем анализы, симптомы и причины нарушений, которые влияют на самочувствие, вес, сон и уровень энергии.\n\nОсновные темы канала:\n • заболевания щитовидной железы\n • гормональные нарушения и гипогонадизм\n • лишний вес и метаболические нарушения\n • хроническая усталость, тревожность и стресс\n • депрессия и нарушения сна\n • анемии и гипоксия\n • состояние кожи, волос и ногтей\n • головные боли\n • планирование и ведение беременности\n\nМедицина, основанная на науке и 10+ лет клинического опыта.\n",
+        "latest_video_at": "2026-08-16T14:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCnU1oHDVKpEDStRyGALkHXw",
+      "external_id": "UCnU1oHDVKpEDStRyGALkHXw",
+      "name": "MiNi TG",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCnU1oHDVKpEDStRyGALkHXw",
+      "discovered_on": "2026-08-17",
+      "score": 65.0,
+      "metrics": {
+        "subscribers": 26800,
+        "total_views": 12151243,
+        "video_count": 4833,
+        "avg_views_per_video": 2514.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "TQh7nV99H8U",
+            "title": "Korean Skin Therapy Collagen Peptide Serum Review – Scam or Legit?",
+            "description": "Korean Skin Therapy Collagen Peptide Serum Review – Scam or Legit? Korean Skin Therapy Collagen Peptide Serum is a ...",
+            "published_at": "2026-08-16T16:57:57Z",
+            "url": "https://www.youtube.com/watch?v=TQh7nV99H8U"
+          }
+        ],
+        "channel_description": "Welcome to MiNiTG, \n\nyour go-to destination for fast-paced, high-impact investigations into the products and platforms trending across the USA, Canada, and Australia. In a world of digital noise, we provide the 'Mini Truth' you need before making any online commitment.\n\nWe specialize in deep-diving into viral ads, suspicious e-commerce sites, and new digital trends to see if they hold up to the hype. Our mission is to provide concise, evidence-based verdicts to keep the global consumer community safe from scams and deceptive marketing.\n\nShort. Sharp. Truthful. That’s MiNiTG. ---",
+        "latest_video_at": "2026-08-16T16:57:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCdWEXUCmSvVrfVSw0Q-IGCQ",
+      "external_id": "UCdWEXUCmSvVrfVSw0Q-IGCQ",
+      "name": "The Vital Shift Wellness",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCdWEXUCmSvVrfVSw0Q-IGCQ",
+      "discovered_on": "2026-08-17",
+      "score": 64.42,
+      "metrics": {
+        "subscribers": 10500,
+        "total_views": 1317941,
+        "video_count": 184,
+        "avg_views_per_video": 7162.72,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "PiLvSg3MtQM",
+            "title": "I Finally Found A Place I Trust.",
+            "description": "I FINALLY FOUND A PLACE I TRUST. After years of researching health, hormones, longevity, and wellness — and sharing what ...",
+            "published_at": "2026-08-17T00:06:12Z",
+            "url": "https://www.youtube.com/watch?v=PiLvSg3MtQM"
+          }
+        ],
+        "channel_description": "’m Colleen McGrath. I educate physicians, nurse practitioners, and physician assistants on hormonal health, perimenopause, menopause, and functional wellness. I also serve as a consultant for emerging and established businesses in health, hormone optimization, and integrative care.\nMy work is grounded in both clinical education and lived experience. After navigating early life challenges, I developed a deep interest in the relationship between the nervous system, emotional health, and physiological function.\nI have trained in meditation, sound healing, and integrative wellness, studying with leading experts and institutions including the HeartMath Institute and the teachings of Paramahansa Yogananda. This foundation informs my approach to supporting balance, energy, and long-term vitality.\nMy book Standing Ovation reflects this journey of resilience and transformation.\n\n",
+        "latest_video_at": "2026-08-17T00:06:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UClWocLV9ZiC1jrFFa9QGasQ",
+      "external_id": "UClWocLV9ZiC1jrFFa9QGasQ",
+      "name": "Amanda Hooper",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UClWocLV9ZiC1jrFFa9QGasQ",
+      "discovered_on": "2026-08-17",
+      "score": 61.78,
+      "metrics": {
+        "subscribers": 4420,
+        "total_views": 824262,
+        "video_count": 116,
+        "avg_views_per_video": 7105.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "xS368okUmKE",
+            "title": "Your injector won’t tell you this, but… When I hit 45, my face fell off a cliff and I aged 10 years",
+            "description": "Your injector won't tell you this, but… When I hit 45, my face fell off a cliff and I aged 10 years overnight. Lines and wrinkles ...",
+            "published_at": "2026-08-16T18:11:36Z",
+            "url": "https://www.youtube.com/watch?v=xS368okUmKE"
+          }
+        ],
+        "channel_description": "Instagram: amanda.hooper\nFacebook page: Amanda.hooper ",
+        "latest_video_at": "2026-08-16T18:11:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCkTOAdRWKrPTCZm5ObRF-0g",
+      "external_id": "UCkTOAdRWKrPTCZm5ObRF-0g",
+      "name": "SocalUrology",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCkTOAdRWKrPTCZm5ObRF-0g",
+      "discovered_on": "2026-08-17",
+      "score": 61.48,
+      "metrics": {
+        "subscribers": 7930,
+        "total_views": 5715470,
+        "video_count": 1317,
+        "avg_views_per_video": 4339.76,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "MzEpNxXToBU",
+            "title": "Peptides? What are your goals? #menshealth #peptides #peptidescience #lowt #bpc #bioactivepeptides",
+            "description": "",
+            "published_at": "2026-08-15T20:48:56Z",
+            "url": "https://www.youtube.com/watch?v=MzEpNxXToBU"
+          }
+        ],
+        "channel_description": "Southern California Urology Institute, Director Dr. Gary Bellman, Specializes in: Minimally Invasive Robotic Surgery, Diagnosis & Treatment of Prostate Cancer, Vasectomy & No-Scalpel Vasectomy, Kidney Stone Treatment, Enlarged Prostate (Benign Prostatic Hyperplasia), Microwave Therapy for BPH, Erectile Dysfuncion, Premature Ejaculation (PE)\n",
+        "latest_video_at": "2026-08-15T20:48:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCvpFvxDVr7LYNYFakZlJMeQ",
+      "external_id": "UCvpFvxDVr7LYNYFakZlJMeQ",
+      "name": "Robert J Russell",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCvpFvxDVr7LYNYFakZlJMeQ",
+      "discovered_on": "2026-08-17",
+      "score": 55.98,
+      "metrics": {
+        "subscribers": 2870,
+        "total_views": 453939,
+        "video_count": 504,
+        "avg_views_per_video": 900.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "dgIO7EcUkiE",
+            "title": "The Truth About GLP1 and Peptides",
+            "description": "peptides #glp1medications #telehealthcare The Optima MD Health Facebook Page is designed to give you a place to learn about ...",
+            "published_at": "2026-08-16T18:21:49Z",
+            "url": "https://www.youtube.com/watch?v=dgIO7EcUkiE"
+          }
+        ],
+        "channel_description": "Welcome to the Robert J Russell Companies!\n\nRobert J Russell, ICREA, IRES, LAS, LUTCF has been helping people since 1985. Find out how Robert has literally helped people all over the world. \n\nTo find out more visit: http://www.robertjrussellcompanies.com",
+        "latest_video_at": "2026-08-16T18:21:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCShK8KBOjED1Qs_PLkiKXxA",
       "external_id": "UCShK8KBOjED1Qs_PLkiKXxA",

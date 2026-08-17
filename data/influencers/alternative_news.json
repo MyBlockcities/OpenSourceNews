@@ -2,19 +2,578 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-16T10:43:49Z",
-  "new_this_run": 11,
-  "total_influencers": 191,
+  "updated_at": "2026-08-17T10:52:04Z",
+  "new_this_run": 13,
+  "total_influencers": 204,
   "run_summary": {
-    "run_started_at": "2026-08-16T10:43:39Z",
+    "run_started_at": "2026-08-17T10:51:56Z",
     "candidate_count": 25,
-    "existing_count": 180,
-    "selected_new_count": 11,
+    "existing_count": 191,
+    "selected_new_count": 13,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCuGYzny60VHKD7BaLIy4clw",
+      "external_id": "UCuGYzny60VHKD7BaLIy4clw",
+      "name": "Dom Macharet",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCuGYzny60VHKD7BaLIy4clw",
+      "discovered_on": "2026-08-17",
+      "score": 75.19,
+      "metrics": {
+        "subscribers": 98300,
+        "total_views": 95217609,
+        "video_count": 2144,
+        "avg_views_per_video": 44411.2,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "EU6WcZAcRe4",
+            "title": "MORAES É AFRONTADO APÓS CENSURAR JORNALISTA",
+            "description": "MORAES É AFRONTADO APÓS CENSURAR JORNALISTA #alexandredemoraes #stf Acesse https://www.DomB3.com.br ...",
+            "published_at": "2026-08-16T19:00:14Z",
+            "url": "https://www.youtube.com/watch?v=EU6WcZAcRe4"
+          }
+        ],
+        "channel_description": "Bem-Vindo! Nosso canal é focado em dividir o conhecimento na leitura e análise pelo gráfico de ações e ou índices. Sempre pensando em compartilhar o máximo de conteúdo temos vídeos todos os dias. Para que possa levar o seu aprendizado ao mais alto nível pode acessar nosso site, Domb3.com.br nele vai encontrar conteúdo por escrito, imagens e vídeos todos no youtube. Comece a aprender agora!",
+        "latest_video_at": "2026-08-16T19:00:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCFtl_80UmCKQRCWqVejUKOw",
+      "external_id": "UCFtl_80UmCKQRCWqVejUKOw",
+      "name": "Surya Chandra Times",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCFtl_80UmCKQRCWqVejUKOw",
+      "discovered_on": "2026-08-17",
+      "score": 73.48,
+      "metrics": {
+        "subscribers": 69100,
+        "total_views": 44184710,
+        "video_count": 1333,
+        "avg_views_per_video": 33146.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "WsDSjRXJ_YM",
+            "title": "Students Faint Amid Heat During Independence Day Event |#independenceday #news |@suryachandratimes",
+            "description": "Several school students reportedly fell unconscious amid intense heat during the Independence Day celebrations held at JTS ...",
+            "published_at": "2026-08-16T15:26:01Z",
+            "url": "https://www.youtube.com/watch?v=WsDSjRXJ_YM"
+          }
+        ],
+        "channel_description": "Welcome to Surya Chandra Times – Your One-Stop Channel for Everything!\n\nI’m an LLB student with a background in Mass Communication and Journalism (MA), passionate about creating content that informs, inspires, and entertains. \n\nMy mission.? To deliver value to society through diverse and engaging videos! From gripping crime stories and soulful devotional tales to hard-hitting political news, vibrant travel blogs, deep dives into Indian culture, insightful educational content, and fun entertainment — we’ve got it all!\n\nGet a mix of knowledge, inspiration, and fun in one place! Whether you love true crime, spirituality, current affairs, or travel adventures, Surya Chandra Times is for everyone.\n\n#suryachandratimes\n",
+        "latest_video_at": "2026-08-16T15:26:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCLijG19uJ4cgDsrdJjmanvg",
+      "external_id": "UCLijG19uJ4cgDsrdJjmanvg",
+      "name": "Omya Production",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCLijG19uJ4cgDsrdJjmanvg",
+      "discovered_on": "2026-08-17",
+      "score": 69.7,
+      "metrics": {
+        "subscribers": 20200,
+        "total_views": 13215087,
+        "video_count": 406,
+        "avg_views_per_video": 32549.48,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "Onfeekr7DzU",
+            "title": "Toxic Movie Gets Major Censor Cuts! Rocky Bhai Fans Shocked!😱🔥 #toxicmovie #yash #shorts",
+            "description": "Toxic fans have a major update! After the CBFC reviewed the movie, several scenes were reportedly cut, reducing the Indian ...",
+            "published_at": "2026-08-16T14:30:32Z",
+            "url": "https://www.youtube.com/watch?v=Onfeekr7DzU"
+          }
+        ],
+        "channel_description": "Hello guy's..👋\n\nWelcome to Our Channel Omya Production...\n\nIf you are interested in films then you have come to the right place. Here you will get to see and hear a lot of updated theories of upcoming films and already released films..!!🎬\n\nSubscribe for more updates...🔉",
+        "latest_video_at": "2026-08-16T14:30:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC_wg5YzfjRx0Xt5j5o1kbjw",
+      "external_id": "UC_wg5YzfjRx0Xt5j5o1kbjw",
+      "name": "The Western Spirit - With Ariel Whitman ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC_wg5YzfjRx0Xt5j5o1kbjw",
+      "discovered_on": "2026-08-17",
+      "score": 69.64,
+      "metrics": {
+        "subscribers": 53800,
+        "total_views": 5642045,
+        "video_count": 701,
+        "avg_views_per_video": 8048.57,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "saZe8B2l7Hc",
+            "title": "Why Is Tucker Carlson Suddenly Defending Islam? | Dana Loesch",
+            "description": "Why has Tucker Carlson's rhetoric on Islam changed so dramatically? In this clip from my conversation with Dana Loesch, I ask ...",
+            "published_at": "2026-08-16T13:58:54Z",
+            "url": "https://www.youtube.com/watch?v=saZe8B2l7Hc"
+          }
+        ],
+        "channel_description": "My name is Ariel Whitman and I live in the heart of Israel.\n\nI am the host of a podcast series focusing on the challenges of the West, in the 21st century, from a conservative, classically liberal, and libertarian perspective.\n\nWe will touch on all current issues while giving emphasis to our lives here in the State of Israel and, more broadly,  in the West.\n\nAmongst the interviews you will hear from world famous philosophers, intellectuals, government officials, and even ordinary citizens with fascinating stories, from here in Israel and from around the world.\n\n",
+        "latest_video_at": "2026-08-16T13:58:54Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCdOqbJqJ9beXdn0v1YEzPEA",
+      "external_id": "UCdOqbJqJ9beXdn0v1YEzPEA",
+      "name": "Babel TV ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCdOqbJqJ9beXdn0v1YEzPEA",
+      "discovered_on": "2026-08-17",
+      "score": 68.14,
+      "metrics": {
+        "subscribers": 38300,
+        "total_views": 4443693,
+        "video_count": 687,
+        "avg_views_per_video": 6468.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "sGJYFkuuBL0",
+            "title": "Elon Musk force la transparence : la censure de l’UE et de la France sera bientôt visible…",
+            "description": "Elon Musk vient de basculer la donne. Toute censure algorithmique exigée par un gouvernement doit maintenant apparaître en ...",
+            "published_at": "2026-08-17T10:09:46Z",
+            "url": "https://www.youtube.com/watch?v=sGJYFkuuBL0"
+          }
+        ],
+        "channel_description": "Bienvenue sur Babel TV , le média indépendant face aux puissances industrielles et financières.\n\nFondé grâce à l’investissement bénévole de citoyens désireux d'une information fiable sans filtre. \n\nCette chaîne en accès libre s’adresse au monde francophone proposant deux Lives d'information hebdomadaire disponible en direct le lundi et le jeudi a partir de 21h15.\n\nEngagé en faveur des causes sociales, d'une libre information pour tous et en toute transparence, Babel TV vous propose un regard différent sur l'information par rapport à celui véhiculé par les médias dominants.\n\nBabel TV a été conçu et créé comme un canal arrière vers le public, loin du contrôle mental de longue date des médias biaisés pour une transparence hors de la pensée de groupe.\n \n",
+        "latest_video_at": "2026-08-17T10:09:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCY15tBoCnU1lSE1rsCJja8Q",
+      "external_id": "UCY15tBoCnU1lSE1rsCJja8Q",
+      "name": "FOFOCA GTS",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCY15tBoCnU1lSE1rsCJja8Q",
+      "discovered_on": "2026-08-17",
+      "score": 66.76,
+      "metrics": {
+        "subscribers": 3440,
+        "total_views": 13199927,
+        "video_count": 89,
+        "avg_views_per_video": 148313.79,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "fkJoZPoX2zc",
+            "title": "🚨 André Mendonça acusa Moraes de agir como “ditador” e critica censura e prisões",
+            "description": "André Mendonça faz duras críticas às decisões de Alexandre de Moraes e questiona medidas que, segundo ele, estariam ...",
+            "published_at": "2026-08-17T04:00:22Z",
+            "url": "https://www.youtube.com/watch?v=fkJoZPoX2zc"
+          }
+        ],
+        "channel_description": "🔥 As maiores fofocas e notícias do momento! 📢 Famosos, entretenimento, celebridades e tudo o que está bombando nas redes.\n⚡ Atualizações rápidas e conteúdo todos os dias. Bem-vindo ao FOFOCA GTS!",
+        "latest_video_at": "2026-08-17T04:00:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UChI_bAPBg-mhnN_99CfA1LA",
+      "external_id": "UChI_bAPBg-mhnN_99CfA1LA",
+      "name": "Corte Libertário",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UChI_bAPBg-mhnN_99CfA1LA",
+      "discovered_on": "2026-08-17",
+      "score": 66.29,
+      "metrics": {
+        "subscribers": 89900,
+        "total_views": 462373,
+        "video_count": 554,
+        "avg_views_per_video": 834.61,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "8CAbjZ6VuYo",
+            "title": "[A CENSURA PERDEU!] (SUPREMA CORTE DA FRANÇA HUMILHA PROJETO DE MACRON)",
+            "description": "Neste vídeo, Peter Turguniev analisa a vitória da liberdade na França! A Suprema Corte francesa derrubou a lei de identificação ...",
+            "published_at": "2026-08-16T12:00:29Z",
+            "url": "https://www.youtube.com/watch?v=8CAbjZ6VuYo"
+          }
+        ],
+        "channel_description": "Bem-vindo ao Corte Libertário!\nAqui, exploramos temas de libertarianismo, anarco-capitalismo e discutimos as principais notícias do momento sob a ótica da liberdade individual e do mercado livre. Se você quer entender como esses conceitos podem influenciar a política, economia e sociedade, este é o lugar certo. Acompanhe nossas análises críticas e aprofundadas, sempre questionando o status quo e defendendo a soberania do indivíduo. Inscreva-se e venha debater com a gente!\n",
+        "latest_video_at": "2026-08-16T12:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCmQYbHpbfiBdmXa4S1-8YKA",
+      "external_id": "UCmQYbHpbfiBdmXa4S1-8YKA",
+      "name": "Green and Red Podcast",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCmQYbHpbfiBdmXa4S1-8YKA",
+      "discovered_on": "2026-08-17",
+      "score": 62.47,
+      "metrics": {
+        "subscribers": 12900,
+        "total_views": 2137261,
+        "video_count": 978,
+        "avg_views_per_video": 2185.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "Fw62QEgsD8w",
+            "title": "Reporting Miscarriages The New Legislative Nightmare",
+            "description": "Don't like liberal media attacks on the Left? Then support independent media channels like the Green and Red Podcast at ...",
+            "published_at": "2026-08-16T13:28:39Z",
+            "url": "https://www.youtube.com/watch?v=Fw62QEgsD8w"
+          }
+        ],
+        "channel_description": "Welcome to our scrappy channel. Bob Buzzanco and Scott Parkin co-host a regular talk podcast to discuss radical environmental and anti-capitalist politics.\n\nBob Buzzanco is a professor of history at the University of Houston. He specializes in, writes about and talks on the Vietnam War era, foreign policy, Vietnam, radical social movements, economics, and other stuff.\n\nScott Parkin is climate organizer based in the San Francisco Bay Area. He has organized campaigns against Wall Street banks, mountaintop removal coal mining and the Keystone XL pipeline.\n\nSupport us at https://www.patreon.com/greenredpodcast\n\n",
+        "latest_video_at": "2026-08-16T13:28:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCLQfTfj_LdogEciU0wVJ8Cw",
+      "external_id": "UCLQfTfj_LdogEciU0wVJ8Cw",
+      "name": "1분브리핑룸",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCLQfTfj_LdogEciU0wVJ8Cw",
+      "discovered_on": "2026-08-17",
+      "score": 61.62,
+      "metrics": {
+        "subscribers": 4670,
+        "total_views": 6923123,
+        "video_count": 1130,
+        "avg_views_per_video": 6126.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "3Up0jD8tMxQ",
+            "title": "김어준 뉴스공장 매출 400억에 신문사 10개 살 판이라며 난리 난 이유",
+            "description": "김어준 #뉴스공장 #레거시미디어 #김성회 #시사평론 김어준 뉴스공장이 400억대 매출로 신문사 10개를 집어삼킬 체급이 됐는데도 ...",
+            "published_at": "2026-08-16T13:00:14Z",
+            "url": "https://www.youtube.com/watch?v=3Up0jD8tMxQ"
+          }
+        ],
+        "channel_description": "\"그래서 결론이 뭔데?\" 바쁜 당신을 위한 1분 시사 압축기 ⏱️\n\n🔥 매일 쏟아지는 국내 정치 논란, 그 이면의 진실은?\n🌍 내 지갑에 영향을 미치는 국제 정세와 경제 흐름\n📊 누구보다 쉽게 풀어주는 핵심 정책 분석과 팩트체크\n\n딱딱한 뉴스는 가라! 재미와 깊이를 동시에 잡은 60초 숏폼 시사 평론. 지금 바로 구독하고 트렌드를 앞서가세요.\n\n#정치 #시사 #이슈 #팩트체크 #정책분석 #국내정치 #국제정세 #뉴스공장 #매불쇼\n",
+        "latest_video_at": "2026-08-16T13:00:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCfBkcBxj-C8qTJf4T7LyuYg",
+      "external_id": "UCfBkcBxj-C8qTJf4T7LyuYg",
+      "name": "Wareeh Official",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCfBkcBxj-C8qTJf4T7LyuYg",
+      "discovered_on": "2026-08-17",
+      "score": 61.27,
+      "metrics": {
+        "subscribers": 7640,
+        "total_views": 628470,
+        "video_count": 240,
+        "avg_views_per_video": 2618.62,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "AAovrywx6CE",
+            "title": "DECLARATION OF INDEPENDENT OF ACHEH-SUMATRA #news",
+            "description": "",
+            "published_at": "2026-08-16T11:22:50Z",
+            "url": "https://www.youtube.com/watch?v=AAovrywx6CE"
+          }
+        ],
+        "channel_description": "National Interest\n\nAssalamualaikum wa rahmatullahi wa barakatuh.\n\n\nIf you guys have any question about my video or wanna give good idea for MY YouTube video please leave msg or comment :) or u can send me by Email : wareehdk@gmail.com\n\nAhhhh, you guys! \n\nFOLLOW ALONG.\nFacebook : http://tiny.cc/iig2kz\nInstagram: http://tiny.cc/skg2kz\nPinterest: http://tiny.cc/5kg2kz\nCheck webside - http://tiny.cc/yrg2kz\n\nAnd make sure you subscribe to my channel!\n\nThank you for supporting (MY Channel ) so I can continue to provide you with free content each week!\n合 人 ～ \n噩（＿）会会噩\n噩同噩画[]][[]噩\n\nMENGHARGAI REUSAM ACEH\n Wareeh Official\n\nDenmark\n\nHelt almindelig og helt specie\nSmile and be happy\n\n",
+        "latest_video_at": "2026-08-16T11:22:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCaYVo4xKKnIAHTCwmdSkuxg",
+      "external_id": "UCaYVo4xKKnIAHTCwmdSkuxg",
+      "name": "Karachi Port Trust - official",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCaYVo4xKKnIAHTCwmdSkuxg",
+      "discovered_on": "2026-08-17",
+      "score": 59.92,
+      "metrics": {
+        "subscribers": 9810,
+        "total_views": 461641,
+        "video_count": 466,
+        "avg_views_per_video": 990.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "8Z3FUNqrRNc",
+            "title": "Independence Day Celebrations at Karachi Port Trust coverage by PTV News",
+            "description": "",
+            "published_at": "2026-08-16T17:55:10Z",
+            "url": "https://www.youtube.com/watch?v=8Z3FUNqrRNc"
+          }
+        ],
+        "channel_description": "Karachi Port Trust (KPT) is a major seaport located in Karachi, Pakistan. It is one of the largest and busiest ports in South Asia, serving as a vital gateway for trade and commerce in the region. The port plays a crucial role in handling a significant portion of Pakistan's import and export activities.\n\nKarachi Port Trust manages and operates the port facilities, overseeing various aspects such as cargo handling, shipping, and port infrastructure. It provides services to facilitate the movement of goods, including container handling, bulk cargo, and general cargo. The port serves as a key transportation hub, connecting Pakistan to international markets and facilitating the flow of goods to and from the country.\n\nThe Karachi Port Trust contributes significantly to Pakistan's economy by supporting trade and commerce, creating employment opportunities, and fostering economic development in the region.\n",
+        "latest_video_at": "2026-08-16T17:55:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC5lIXDTVc1iBSZAEhel2KZA",
+      "external_id": "UC5lIXDTVc1iBSZAEhel2KZA",
+      "name": "Talk Reviews हिंदी",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC5lIXDTVc1iBSZAEhel2KZA",
+      "discovered_on": "2026-08-17",
+      "score": 57.66,
+      "metrics": {
+        "subscribers": 3700,
+        "total_views": 1394092,
+        "video_count": 1017,
+        "avg_views_per_video": 1370.79,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "cnjtxIIW7cQ",
+            "title": "Toxic Movie पास! Censor Board ने दे दिया Certificate 😱 बड़ा अपडेट!",
+            "description": "टॉक्सिक फिल्म सेंसर बोर्ड से बिना किसी कट के पास हो गई है! क्या आप ...",
+            "published_at": "2026-08-17T04:09:55Z",
+            "url": "https://www.youtube.com/watch?v=cnjtxIIW7cQ"
+          }
+        ],
+        "channel_description": "🎬 Welcome to Talk Reviews हिंदी! 🎥\nNamaste doston! Main hoon Vikas Singh, aur is channel par aapko milenge fresh, honest aur entertaining reviews har naye film aur gaane ke.\nChahe woh ho Bollywood, Hollywood, ya phir Indian regional cinema – main laata hoon har naye release ka taza review, bina kisi bias ke.\n\n🎵 New Song Reviews – Lyrics se le kar music aur vocals tak, har angle se analysis.\n🎞 Film Reviews – Storyline, acting, direction aur cinematography ka deep dive.\n\nAgar aap bhi ek movie buff ho ya music lover, to yeh channel hai specially aapke liye!\nSubscribe karo aur bane raho mere saath har naye release par honest opinion ke liye.\n📅 New videos every Day!\n\n👉 Let’s celebrate cinema and music together.\n\n#FilmReview #SongReview #VikasSinghReviews #talkreviewsहिंदी \n\n",
+        "latest_video_at": "2026-08-17T04:09:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCdDNWyZunwbCNEQj5FAI15Q",
+      "external_id": "UCdDNWyZunwbCNEQj5FAI15Q",
+      "name": "Uttar KarnatakaTv",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCdDNWyZunwbCNEQj5FAI15Q",
+      "discovered_on": "2026-08-17",
+      "score": 57.64,
+      "metrics": {
+        "subscribers": 4720,
+        "total_views": 2000204,
+        "video_count": 2073,
+        "avg_views_per_video": 964.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "PSKsd-1xpeY",
+            "title": "ಭೀಮಣ್ಣ ನಾಯಕ್ ಸಮ್ಮುಖದಲ್ಲಿ ಅದ್ಧೂರಿ ಆಚರಣೆ | Independence Day | Kannada News | Uttar Karnataka TV",
+            "description": "ಭೀಮಣ್ಣ ನಾಯಕ್ ಸಮ್ಮುಖದಲ್ಲಿ ಅದ್ಧೂರಿ ಆಚರಣೆ | Independence Day | Kannada News | Uttar ...",
+            "published_at": "2026-08-16T14:30:23Z",
+            "url": "https://www.youtube.com/watch?v=PSKsd-1xpeY"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-16T14:30:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCnw2NoyMxSGNNg1AqckY7AQ",
       "external_id": "UCnw2NoyMxSGNNg1AqckY7AQ",

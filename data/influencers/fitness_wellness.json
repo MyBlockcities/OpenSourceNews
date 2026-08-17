@@ -2,19 +2,485 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-16T10:44:01Z",
-  "new_this_run": 12,
-  "total_influencers": 901,
+  "updated_at": "2026-08-17T10:52:16Z",
+  "new_this_run": 13,
+  "total_influencers": 914,
   "run_summary": {
-    "run_started_at": "2026-08-16T10:43:39Z",
-    "candidate_count": 49,
-    "existing_count": 889,
-    "selected_new_count": 12,
+    "run_started_at": "2026-08-17T10:51:56Z",
+    "candidate_count": 48,
+    "existing_count": 901,
+    "selected_new_count": 13,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCUsZwPAK0arKSZz5ccWqUGA",
+      "external_id": "UCUsZwPAK0arKSZz5ccWqUGA",
+      "name": "The Longevity Researcher",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCUsZwPAK0arKSZz5ccWqUGA",
+      "discovered_on": "2026-08-17",
+      "score": 68.77,
+      "metrics": {
+        "subscribers": 42500,
+        "total_views": 7781169,
+        "video_count": 1041,
+        "avg_views_per_video": 7474.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "lBy1MBgImmA",
+            "title": "#1 Best Drink Before A Cheat Meal That Flattens Blood Sugar Spikes",
+            "description": "GET MY FREE LONGEVITY NEWSLETTER HERE https://www.ayuswellness.co.uk/pages/the-longevity-breakdown-with-zib In ...",
+            "published_at": "2026-08-16T12:45:25Z",
+            "url": "https://www.youtube.com/watch?v=lBy1MBgImmA"
+          }
+        ],
+        "channel_description": "Hi, I’m Zib — The Longevity Researcher.\n\nI’m completing a PhD in Longevity research, alongside an MSc in Molecular Medicine, a BSc in Human Bioscience, and a Diploma in Clinical Nutrition. I also have 19 years experience coaching people to improve their health in the real world.\n\nMy research focuses on the pathways that determine how we age — metabolism, autophagy, DNA damage, oxidative stress, and epigenetic alterations.\n\nThis channel translates that research into strategies you can actually use.\n\n• Longevity science explained from inside the research\n• Evidence-based strategies to improve energy, metabolism & healthspan\n• What works, what doesn’t, and why\n• Practical tools to slow ageing\n\nIf you want to understand how your body ages and what you can do about it, you’re in the right place.\n\nBelow you’ll find the supplements I personally take, the only omega-3 with evidence to back it up, my metabolic health guide used by 100,000+ people, and all the longevity tools I’ve developed. 👇",
+        "latest_video_at": "2026-08-16T12:45:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOLG9SK7RJpqWl1ZtNb3dCg",
+      "external_id": "UCOLG9SK7RJpqWl1ZtNb3dCg",
+      "name": "The Nation Thailand",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCOLG9SK7RJpqWl1ZtNb3dCg",
+      "discovered_on": "2026-08-17",
+      "score": 66.27,
+      "metrics": {
+        "subscribers": 38800,
+        "total_views": 14076684,
+        "video_count": 5241,
+        "avg_views_per_video": 2685.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "FU298J-11O4",
+            "title": "Hyrox 2026",
+            "description": "BYD HYROX Bangkok is back for its second edition in 2026 at Queen Sirikit National Convention Center! Get ready for an exciting ...",
+            "published_at": "2026-08-17T07:49:44Z",
+            "url": "https://www.youtube.com/watch?v=FU298J-11O4"
+          }
+        ],
+        "channel_description": "Thailand travel, news and politics ",
+        "latest_video_at": "2026-08-17T07:49:44Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTHhpiv-Dbygi3qxBnVCDhw",
+      "external_id": "UCTHhpiv-Dbygi3qxBnVCDhw",
+      "name": "Chopping it up with Chris Champion",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCTHhpiv-Dbygi3qxBnVCDhw",
+      "discovered_on": "2026-08-17",
+      "score": 62.78,
+      "metrics": {
+        "subscribers": 22600,
+        "total_views": 2750538,
+        "video_count": 9559,
+        "avg_views_per_video": 287.74,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "0oLTyU4M10c",
+            "title": "Longevity Secrets: Peptides, Health, and Aging with Sal Amato",
+            "description": "Explore the cutting edge of health and longevity with Sal Amato. Discover how peptides, proper diet, and lifestyle choices can ...",
+            "published_at": "2026-08-17T06:18:25Z",
+            "url": "https://www.youtube.com/watch?v=0oLTyU4M10c"
+          },
+          {
+            "query": "wellness peptides",
+            "video_id": "FAj40sdWJzM",
+            "title": "Peptides, TRT &amp; Longevity: Unlocking Your Health Potential",
+            "description": "Navigating the explosive growth of peptides and longevity science. Understanding biology vs. marketing, and why health is the ...",
+            "published_at": "2026-08-17T06:00:21Z",
+            "url": "https://www.youtube.com/watch?v=FAj40sdWJzM"
+          }
+        ],
+        "channel_description": "Chris Champion: The Juggernaut of Grit & Determination\n\nChris Sweis—aka Chris Champion—is a force: a veteran investor with 120+ software and crypto ventures, ruling Las Vegas with razor-sharp instincts. A values-driven badass, he backs leaders with vision. Founder of Champion Connections, he’s hosted 268 epic meals, linking titans via text. His AI tool, Champion AI, cranks 40,000+ man-hours daily, blasting brands onto podcasts. “AI or die” is his 2025 creed—adapt or drown.\n\nFaith fuels him, inspired by his grandmother’s no-BS wisdom. Win This Day and Faith Matters are his raw playbooks for triumph. A dog lover—Theo, Gracie, and Jesse James by his side—he’s on a mission to free shelter pups. “God sends angels as dogs,” he says. A trailblazer with bite, Chris focuses on winning each and every day and making them all count.\n\n\n\n",
+        "latest_video_at": "2026-08-17T06:18:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEaCticOls03GoX4oRpn1ug",
+      "external_id": "UCEaCticOls03GoX4oRpn1ug",
+      "name": "FitFlex",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCEaCticOls03GoX4oRpn1ug",
+      "discovered_on": "2026-08-17",
+      "score": 61.78,
+      "metrics": {
+        "subscribers": 6710,
+        "total_views": 1737591,
+        "video_count": 438,
+        "avg_views_per_video": 3967.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "20a2quPjkIA",
+            "title": "Shoulder Stability Routine for Better Everyday Movement | Functional Fitness",
+            "description": "Build stronger, more controlled shoulders with this simple stability routine. These movements challenge shoulder control through ...",
+            "published_at": "2026-08-17T04:00:35Z",
+            "url": "https://www.youtube.com/watch?v=20a2quPjkIA"
+          }
+        ],
+        "channel_description": "My goal is simple: to help you transform your body, boost your energy, and stay inspired every single day. Whether you’re just starting your fitness journey or looking to level up, this channel is for YOU.\n\nSubscribe today and let’s get fitter, healthier, and stronger together!\n\nCertified Fitness Coach | Nutrition & Posture Specialist\n\nsubash.sk139@gmail.com \n\n",
+        "latest_video_at": "2026-08-17T04:00:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCw4Q6L0VLUqSC0jlc9mgRSA",
+      "external_id": "UCw4Q6L0VLUqSC0jlc9mgRSA",
+      "name": "Modern Arjuna ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCw4Q6L0VLUqSC0jlc9mgRSA",
+      "discovered_on": "2026-08-17",
+      "score": 60.64,
+      "metrics": {
+        "subscribers": 2300,
+        "total_views": 255434,
+        "video_count": 243,
+        "avg_views_per_video": 1051.17,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/modernwarrior.arjuna"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "ZEVmGAEXxVE",
+            "title": "VO2 Max 37 → 52 in 4 Months 😳 Mobility + 8K Run | Day 52",
+            "description": "Day 52 of my hybrid athlete journey — mobility work + 8km run, aur VO2 max ka progress jo khud maine expect nahi kiya tha.",
+            "published_at": "2026-08-17T01:30:08Z",
+            "url": "https://www.youtube.com/watch?v=ZEVmGAEXxVE"
+          }
+        ],
+        "channel_description": "\nWelcome to Modern Arjuna ⚔️\n\nThis channel is about building a powerful mind, strong discipline, and a life with purpose.\n\nWe break down:\n\n* Mindset & self-mastery\n* Fitness & performance\n* Real-life stories & lessons\n* Practical strategies for growth\n\nNo fluff. No fake motivation. Only real transformation.\n\n👉 Become your inner warrior.\n\n\nhttps://www.instagram.com/modernwarrior.arjuna?igsh=ZW00cHJyaGRzcTh5&utm_source=qr\n",
+        "latest_video_at": "2026-08-17T01:30:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYJRM-KmHujXoFtmdSx3EPg",
+      "external_id": "UCYJRM-KmHujXoFtmdSx3EPg",
+      "name": "Edward Witkowski",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCYJRM-KmHujXoFtmdSx3EPg",
+      "discovered_on": "2026-08-17",
+      "score": 58.91,
+      "metrics": {
+        "subscribers": 6920,
+        "total_views": 912798,
+        "video_count": 902,
+        "avg_views_per_video": 1011.97,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "tnWUJjxOleI",
+            "title": "Bryan Johnson NAD protocol bundle is available now! #longevity #TikTokShopCreatorPicks #newdrops",
+            "description": "Bryan Johnson NAD protocol bundle is available now! #longevity #TikTokShopCreatorPicks #newdrops #springbreak ...",
+            "published_at": "2026-08-16T19:09:02Z",
+            "url": "https://www.youtube.com/watch?v=tnWUJjxOleI"
+          }
+        ],
+        "channel_description": "There is so much to explore right around you. Whether you are sitting on your couch, in your office, or on vacation, you are just a few miles away from adventure. Join my family as we explore around us. We hope you will be inspired to do the same!",
+        "latest_video_at": "2026-08-16T19:09:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:ebbf58b99c3747deab6a",
+      "external_id": "ebbf58b99c3747deab6a",
+      "name": "simeon_c",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/6bwmw5avg2mb5gG2f/will-there-be-an-ai-hegemon-a-mental-model-for-ai-power",
+      "discovered_on": "2026-08-17",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/GavinSBaker"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Will There Be an AI Hegemon? A Mental Model for AI Power Concentration"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:589ce55e622f8c538353",
+      "external_id": "589ce55e622f8c538353",
+      "name": "mmKALLL",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/bZb2okCZpt3bJmhdY/case-for-funding-ai-safety-in-japan",
+      "discovered_on": "2026-08-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Case for Funding AI Safety in Japan"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a80778bba5cda256b266",
+      "external_id": "a80778bba5cda256b266",
+      "name": "brendanhalstead",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ZPSsmRH5oMwLPXys4/q2-5-2026-timelines-update-uplift-and-revenue",
+      "discovered_on": "2026-08-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Q2.5 2026 Timelines Update: Uplift and Revenue"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d4277188a4c5b68eed56",
+      "external_id": "d4277188a4c5b68eed56",
+      "name": "ashesfall",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/vvGKtaGCd7ryXH5b7/study-update-does-post-training-quantization-change-welfare",
+      "discovered_on": "2026-08-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Study Update: Does post-training quantization change welfare-relevant indicators in open-weight language models?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:fe544521fb6b2294d43a",
+      "external_id": "fe544521fb6b2294d43a",
+      "name": "Peter Cowhey, Meg Rithmire",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/cost-keeping-china-out",
+      "discovered_on": "2026-08-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Cost of Keeping China Out"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:345aa1dfe1625f7b6e28",
+      "external_id": "345aa1dfe1625f7b6e28",
+      "name": "Jakkie Cilliers",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/africa/africa-cant-afford-squander-its-demographic-opportunity",
+      "discovered_on": "2026-08-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Africa Can’t Afford to Squander Its Demographic Opportunity"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e40915c9f9b26cfe9286",
+      "external_id": "e40915c9f9b26cfe9286",
+      "name": "Amy_",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/nkwNc4YujY2wpfSYo/untie-squared-relu-variant",
+      "discovered_on": "2026-08-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Untie Squared ReLU variant"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCrkqmi0qi0nrOnPNZp5QD9w",
       "external_id": "UCrkqmi0qi0nrOnPNZp5QD9w",
