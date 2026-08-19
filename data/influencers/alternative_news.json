@@ -2,19 +2,632 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-18T10:51:16Z",
-  "new_this_run": 15,
-  "total_influencers": 219,
+  "updated_at": "2026-08-19T10:50:29Z",
+  "new_this_run": 14,
+  "total_influencers": 233,
   "run_summary": {
-    "run_started_at": "2026-08-18T10:50:50Z",
-    "candidate_count": 22,
-    "existing_count": 204,
-    "selected_new_count": 15,
+    "run_started_at": "2026-08-19T10:50:21Z",
+    "candidate_count": 24,
+    "existing_count": 219,
+    "selected_new_count": 14,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCK-Pc1DNwJcGmrNNKm9-5aA",
+      "external_id": "UCK-Pc1DNwJcGmrNNKm9-5aA",
+      "name": "Milson Alves - Brasil",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCK-Pc1DNwJcGmrNNKm9-5aA",
+      "discovered_on": "2026-08-19",
+      "score": 80.5,
+      "metrics": {
+        "subscribers": 58400,
+        "total_views": 18625950,
+        "video_count": 698,
+        "avg_views_per_video": 26684.74,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/milson_alves_",
+        "tiktok": "https://www.tiktok.com/@milson_alves_"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "YC4v1-LQRVE",
+            "title": "Governo TRUMP ATACA o TSE no 1º dia por censura nas eleições brasileiras",
+            "description": "Ajude o canal. Contribuições pelo Pix: parcerias.milson@gmail.com Descrição... Sobre: Milson Alves é um internacionalista que ...",
+            "published_at": "2026-08-19T01:03:33Z",
+            "url": "https://www.youtube.com/watch?v=YC4v1-LQRVE"
+          },
+          {
+            "query": "censorship news",
+            "video_id": "beudwLIa95k",
+            "title": "Governo TRUMP ATACA o TSE no 1º dia por censura nas eleições brasileiras",
+            "description": "Ajude o canal. Contribuições pelo Pix: parcerias.milson@gmail.com 00:00 - Acusação internacional 01:20 - Bloqueio do X 02:40 ...",
+            "published_at": "2026-08-18T18:49:49Z",
+            "url": "https://www.youtube.com/watch?v=beudwLIa95k"
+          }
+        ],
+        "channel_description": "Sobre: Milson Alves é um internacionalista que produz vídeos jornalísticos independentes, criados para simplificar a política/geopolítica e tornar compreensíveis questões complexas. Seu objetivo é oferecer análises acessíveis e informativas sobre eventos globais e nacionais, desvendando notícias de uma forma que todos possam entender.\n\n- onde me encontrar:\nInstagram: https://www.instagram.com/milson_alves_/\nTikTok: https://www.tiktok.com/@milson_alves_\n",
+        "latest_video_at": "2026-08-19T01:03:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCUESzS5352lUoGFfKumEZaA",
+      "external_id": "UCUESzS5352lUoGFfKumEZaA",
+      "name": "Öteki Meydan",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCUESzS5352lUoGFfKumEZaA",
+      "discovered_on": "2026-08-19",
+      "score": 73.35,
+      "metrics": {
+        "subscribers": 60400,
+        "total_views": 79965495,
+        "video_count": 2122,
+        "avg_views_per_video": 37684.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "YsKb2NVKFAQ",
+            "title": "AKP’ye geçen Tuzla Bel. Bşk, geçmeden önce geçeceğini söyleyenlere dava açmış! 😅",
+            "description": "AKP'ye geçen Tuzla Bel. Bşk, geçmeden önce geçeceğini söyleyenlere dava açmış! Türkiye'nin bu karanlık döneminde ...",
+            "published_at": "2026-08-19T09:40:02Z",
+            "url": "https://www.youtube.com/watch?v=YsKb2NVKFAQ"
+          }
+        ],
+        "channel_description": "Türkiye gündemine dair her şey.",
+        "latest_video_at": "2026-08-19T09:40:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWp6x-JGFn2mVjgEpE84KcQ",
+      "external_id": "UCWp6x-JGFn2mVjgEpE84KcQ",
+      "name": "Fox Noticias",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWp6x-JGFn2mVjgEpE84KcQ",
+      "discovered_on": "2026-08-19",
+      "score": 71.89,
+      "metrics": {
+        "subscribers": 87100,
+        "total_views": 17164623,
+        "video_count": 1485,
+        "avg_views_per_video": 11558.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "sWRLesiCU0Y",
+            "title": "SHEINBAUM: SI HUBIÉRAMOS QUERIDO CENSURAR, YA LO HUBIÉRAMOS HECHO",
+            "description": "Critican al gobierno de Sheinbaum y alertan sobre posibles amenazas a la libertad de prensa en México. Fox Noticias se ...",
+            "published_at": "2026-08-18T21:30:33Z",
+            "url": "https://www.youtube.com/watch?v=sWRLesiCU0Y"
+          }
+        ],
+        "channel_description": "Fox Noticias se transmite de lunes a viernes a las 4pm E en Fox Deportes, foxnoticias.com, y en la página de Youtube de Fox Noticias. Fox Noticias examina los temas importantes de la comunidad hispana: la economía, la política, la inmigración, y las tendencias culturales. ",
+        "latest_video_at": "2026-08-18T21:30:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCIvgIxJ1-91m4oy5657dzzQ",
+      "external_id": "UCIvgIxJ1-91m4oy5657dzzQ",
+      "name": "IndiFokus Media",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCIvgIxJ1-91m4oy5657dzzQ",
+      "discovered_on": "2026-08-19",
+      "score": 68.09,
+      "metrics": {
+        "subscribers": 31100,
+        "total_views": 6760808,
+        "video_count": 797,
+        "avg_views_per_video": 8482.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "ZicvU_5WpDU",
+            "title": "With Western Media Losing Credibility, RT is Today&#39;s Alt media",
+            "description": "In the latest episode of India, Russia and the World with Runjhun Sharma, Kanchan Gupta examines why Western media often ...",
+            "published_at": "2026-08-18T15:30:31Z",
+            "url": "https://www.youtube.com/watch?v=ZicvU_5WpDU"
+          }
+        ],
+        "channel_description": "We are a Delhi-based global affairs and geopolitics channel dedicated to rigorous analysis of international politics, strategic affairs, and global power dynamics.\n\nOur work focuses on geopolitics, foreign policy, defense and security, international economics, diplomacy, and emerging multipolar trends. We go beyond breaking news to examine why events unfold, how decisions are made, and what they mean for regional and global stability.\n\nCombining on-ground reporting from India with structured analysis, expert commentary, and historical context, we aim to bridge journalism and policy research. Our content is designed to inform decision-makers, academics, professionals, and globally engaged citizens seeking depth over noise.\n\nIn an era of shifting alliances and strategic uncertainty, we provide clear, evidence-based perspectives to help audiences understand the evolving world order.\n\n📍 Based in Delhi, India | Global analysis, independent perspective\n",
+        "latest_video_at": "2026-08-18T15:30:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC4j1g1gUv6jgJH49nJwEGIw",
+      "external_id": "UC4j1g1gUv6jgJH49nJwEGIw",
+      "name": "Midwestern Marx",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC4j1g1gUv6jgJH49nJwEGIw",
+      "discovered_on": "2026-08-19",
+      "score": 67.51,
+      "metrics": {
+        "subscribers": 63100,
+        "total_views": 7251583,
+        "video_count": 1903,
+        "avg_views_per_video": 3810.61,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "dc6ycZkjKXQ",
+            "title": "Candace vs Wilson Debate Reaction and MORE!",
+            "description": "Support the stream: Patreon.com/MidwesternMarx https://streamlabs.com/midwesternmarx1 Visit MidwesternMarx.com to learn ...",
+            "published_at": "2026-08-18T10:10:55Z",
+            "url": "https://www.youtube.com/watch?v=dc6ycZkjKXQ"
+          }
+        ],
+        "channel_description": "This is the official YouTube channel of the Midwestern Marx Institute for Marxist Theory and Political Analysis | Home of the Midwestern Marx Publishing Press and the Journal of American Socialist Studies. \n\nSupport our peoples funded institute here: https://www.patreon.com/MidwesternMarx?utm_campaign=creatorshare_creator",
+        "latest_video_at": "2026-08-18T10:10:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCzahOIlAqj6Wc5T3VsnuIEw",
+      "external_id": "UCzahOIlAqj6Wc5T3VsnuIEw",
+      "name": "GamePulse TV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCzahOIlAqj6Wc5T3VsnuIEw",
+      "discovered_on": "2026-08-19",
+      "score": 65.05,
+      "metrics": {
+        "subscribers": 4530,
+        "total_views": 21584468,
+        "video_count": 697,
+        "avg_views_per_video": 30967.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "lufG4ConONY",
+            "title": "Decoding The Viral &quot;r/WNBA Censorship Allegations&quot; Post! 🚨🏀. #shorts",
+            "description": "Why do political commentary accounts frame online forum moderation rules as culture war censors to drive explosive ...",
+            "published_at": "2026-08-18T20:26:10Z",
+            "url": "https://www.youtube.com/watch?v=lufG4ConONY"
+          }
+        ],
+        "channel_description": "Welcome to GamePulse TV ⚽🏀🔥 \n\n\nThe home of fast, exciting, and powerful sports and USA politics content from around the world.\n\nContent on this channel is creatively edited and\ntransformed with commentary, narration, visuals,\nand storytelling for educational and entertainment\npurposes.\nCopyright Disclaimer under Section 107 of the\nCopyright Act 1976:\nFair use is allowed for criticism, comment, news\nreporting, teaching, scholarship, education, and\nresearch.\nIf any owner wants content reviewed or removed,\nplease contact us through YouTube comment before\ntaking action. We will respond respectfully and\nprofessionally.\n\n👉 Subscribe and join the GamePulse community\nFeel the game. Live the pulse. ",
+        "latest_video_at": "2026-08-18T20:26:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCx2Gf5Dw72VVU3E65CG-Unw",
+      "external_id": "UCx2Gf5Dw72VVU3E65CG-Unw",
+      "name": "Life News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCx2Gf5Dw72VVU3E65CG-Unw",
+      "discovered_on": "2026-08-19",
+      "score": 64.81,
+      "metrics": {
+        "subscribers": 16900,
+        "total_views": 5778056,
+        "video_count": 1318,
+        "avg_views_per_video": 4383.96,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "T3k0Te2ZV30",
+            "title": "Pakistan Independent Day #shorts #viral #14august #news",
+            "description": "",
+            "published_at": "2026-08-18T14:16:41Z",
+            "url": "https://www.youtube.com/watch?v=T3k0Te2ZV30"
+          }
+        ],
+        "channel_description": "Life news About Information,advertising and latest news update or Current Affairs and Public Question/Answers\nYou can entertain with some random Public answers about Funny Questions. You can also Update from Current situation of Government and Public Review about Government. Our Channel Create funny videos on common sense question From public and doing motovational And informative Stories\nWorking On Following Video: \nCurrent Affairs\nPublic Talks\nPublic Question/Answers\nLatest News About Government\nSome Random Common Sense Question From Public \nCopyrights : All videos on this channel are owned rights. Every video Shoot from own camera (canon 250D Mark ii) also use mobil camra  use dji gamble and Boya wireless Mic etc etc.\n",
+        "latest_video_at": "2026-08-18T14:16:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UChhxqp_frTnNffED5_t77Cg",
+      "external_id": "UChhxqp_frTnNffED5_t77Cg",
+      "name": "Patrícia Santos ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UChhxqp_frTnNffED5_t77Cg",
+      "discovered_on": "2026-08-19",
+      "score": 64.33,
+      "metrics": {
+        "subscribers": 26400,
+        "total_views": 15260618,
+        "video_count": 8089,
+        "avg_views_per_video": 1886.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "nMeImidQdD0",
+            "title": "Shadowban e Desmonetização no Jornalismo Independente do dia 17/08/2026🐊✨",
+            "description": "quando o dinheiro do canal some… você nem imagina o que rola por trás #jornalismoindependente #censura #shadowban ...",
+            "published_at": "2026-08-19T05:08:39Z",
+            "url": "https://www.youtube.com/watch?v=nMeImidQdD0"
+          }
+        ],
+        "channel_description": "Mãe de 4 filhos ",
+        "latest_video_at": "2026-08-19T05:08:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWbD75COMZwBUpZ7u3KYnfA",
+      "external_id": "UCWbD75COMZwBUpZ7u3KYnfA",
+      "name": "Freedom of the Press Foundation",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWbD75COMZwBUpZ7u3KYnfA",
+      "discovered_on": "2026-08-19",
+      "score": 62.26,
+      "metrics": {
+        "subscribers": 6150,
+        "total_views": 1420808,
+        "video_count": 254,
+        "avg_views_per_video": 5593.73,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ZomJXfLYES4",
+            "title": "It’s about time: FCC is SUED for censorship",
+            "description": "ABC is suing the FCC for violating its First Amendment rights. Other license holders that Brendan Carr has bullied into silence ...",
+            "published_at": "2026-08-18T22:40:42Z",
+            "url": "https://www.youtube.com/watch?v=ZomJXfLYES4"
+          }
+        ],
+        "channel_description": "Freedom of the Press Foundation (FPF) is an nonprofit organization that defends and supports public-interest journalism in the 21st century.\n\nAt FPF, we build secure communications tools used by many of the world’s top investigative news organizations. We teach journalists how to keep themselves and their sources safe in the digital age. We monitor and document virtually every press freedom violation in the U.S. And we engage in advocacy to defend the public’s right to know. In defense of democracy, we protect press freedom.\n\nLicensed under Creative Commons CC-BY 4.0 where not otherwise indicated.\n",
+        "latest_video_at": "2026-08-18T22:40:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCHZk4ssFM4efiKZqSoT42ww",
+      "external_id": "UCHZk4ssFM4efiKZqSoT42ww",
+      "name": "Tully Rinckey",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCHZk4ssFM4efiKZqSoT42ww",
+      "discovered_on": "2026-08-19",
+      "score": 58.98,
+      "metrics": {
+        "subscribers": 5900,
+        "total_views": 2082550,
+        "video_count": 1596,
+        "avg_views_per_video": 1304.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "6JRC69iMpBo",
+            "title": "Can a School Censor an Approved Student Speech?",
+            "description": "Can a School Censor an Approved Student Speech? A Fayetteville-Manlius student is suing the school district after administrators ...",
+            "published_at": "2026-08-18T16:00:09Z",
+            "url": "https://www.youtube.com/watch?v=6JRC69iMpBo"
+          }
+        ],
+        "channel_description": "Tully Rinckey PLLC has offices in Albany, NY,  Austin, TX, Buffalo, NY, Houston, TX, Ladera Ranch, CA, Manhattan, NY, Rochester, NY, Saratoga Springs, NY, Syracuse, NY, Washington, DC and White Plains, NY; our mission is to provide effective legal representation and customer service to individuals, families and businesses nationwide and overseas.",
+        "latest_video_at": "2026-08-18T16:00:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCgKjOxgEyGvUQ5d7I8ctc_Q",
+      "external_id": "UCgKjOxgEyGvUQ5d7I8ctc_Q",
+      "name": "Vallarta Independiente",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCgKjOxgEyGvUQ5d7I8ctc_Q",
+      "discovered_on": "2026-08-19",
+      "score": 58.94,
+      "metrics": {
+        "subscribers": 12800,
+        "total_views": 1043491,
+        "video_count": 2411,
+        "avg_views_per_video": 432.8,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "K10uU06ctCM",
+            "title": "Sheinbaum niega “lista de malos periodistas” y rechaza censura",
+            "description": "Durante la Mañanera de este 18 de agosto de 2026, la presidenta Claudia Sheinbaum fue cuestionada por las reacciones y ...",
+            "published_at": "2026-08-18T20:45:42Z",
+            "url": "https://www.youtube.com/watch?v=K10uU06ctCM"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-18T20:45:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCx7siuVUYk7vddpaqdHN89w",
+      "external_id": "UCx7siuVUYk7vddpaqdHN89w",
+      "name": "PLAYMASTERMOVIE",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCx7siuVUYk7vddpaqdHN89w",
+      "discovered_on": "2026-08-19",
+      "score": 58.16,
+      "metrics": {
+        "subscribers": 6250,
+        "total_views": 356957,
+        "video_count": 272,
+        "avg_views_per_video": 1312.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "ZP3hSo5Tplk",
+            "title": "Essere un giornalista indipendente oggi - Franco Fracassi",
+            "description": "In un contesto in cui pochi soggetti posseggono l'85% di tutta l'informazione mondiale essere un giornalista indipendente è una ...",
+            "published_at": "2026-08-18T08:57:37Z",
+            "url": "https://www.youtube.com/watch?v=ZP3hSo5Tplk"
+          }
+        ],
+        "channel_description": "www.playmastermovie.com",
+        "latest_video_at": "2026-08-18T08:57:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCzHWvifM7tfTIwrhoIYimkw",
+      "external_id": "UCzHWvifM7tfTIwrhoIYimkw",
+      "name": "eNewsroom India",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCzHWvifM7tfTIwrhoIYimkw",
+      "discovered_on": "2026-08-19",
+      "score": 57.19,
+      "metrics": {
+        "subscribers": 2750,
+        "total_views": 793135,
+        "video_count": 475,
+        "avg_views_per_video": 1669.76,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "xDd1MLoFdpg",
+            "title": "A Weak Media Means a Weak Democracy | Why Independent Journalism Matters",
+            "description": "What happens when the watchdog becomes weak? When the media stops questioning power, who holds powerful people and ...",
+            "published_at": "2026-08-18T16:59:12Z",
+            "url": "https://www.youtube.com/watch?v=xDd1MLoFdpg"
+          }
+        ],
+        "channel_description": "eNewsroom India is a digital media organization, which brings to you meaningful, well researched, factually correct videos. In an era, when media is constantly criticised by many for its corporate-like approach, we are making an attempt of catering to the demand of undiluted news. We are a not for profit media organisation. \n\nVisit us at - www.enewsroom.in\nLike our Facebook Page - https://www.facebook.com/enewsroom.in\nFollow us on Twitter: @enewsroomindia\nOn Instagram: @enewsroomindia\nLinkedIn: eNewsroom India\n",
+        "latest_video_at": "2026-08-18T16:59:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1GMzSlTlBX-Cyq-FdvZ76A",
+      "external_id": "UC1GMzSlTlBX-Cyq-FdvZ76A",
+      "name": "Media News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC1GMzSlTlBX-Cyq-FdvZ76A",
+      "discovered_on": "2026-08-19",
+      "score": 49.76,
+      "metrics": {
+        "subscribers": 2080,
+        "total_views": 110300,
+        "video_count": 1386,
+        "avg_views_per_video": 79.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "2phq88uZnYU",
+            "title": "Juan Manuel Ledesma Corresponsal de Guerra de Media News",
+            "description": "Support independent journalism. Subscribe to #MediaNews. In an age of misinformation and controlled narratives, Media News ...",
+            "published_at": "2026-08-18T19:01:39Z",
+            "url": "https://www.youtube.com/watch?v=2phq88uZnYU"
+          }
+        ],
+        "channel_description": "Media News | The Unfiltered Truth\n\nIn a world of controlled narratives and pervasive media censorship, Media News is established in the heart of Switzerland to present reality exactly as it is. From international conflicts across Africa to the complex political landscapes of Mexico and beyond, our commitment is to the unvarnished truth—without bias, without agendas.\n\n🇨🇭 Headquartered in Switzerland | Global Coverage\n\nWe are more than just a news outlet; we are the record of what others choose to hide.\n\nSubscribe to witness the reality that mainstream media ignores.\n",
+        "latest_video_at": "2026-08-18T19:01:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCRnWhlauseJpobLnpCCOQ-w",
       "external_id": "UCRnWhlauseJpobLnpCCOQ-w",

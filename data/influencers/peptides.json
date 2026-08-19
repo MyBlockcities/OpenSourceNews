@@ -2,19 +2,201 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-18T10:52:01Z",
-  "new_this_run": 12,
-  "total_influencers": 130,
+  "updated_at": "2026-08-19T10:50:38Z",
+  "new_this_run": 4,
+  "total_influencers": 134,
   "run_summary": {
-    "run_started_at": "2026-08-18T10:50:50Z",
-    "candidate_count": 16,
-    "existing_count": 118,
-    "selected_new_count": 12,
+    "run_started_at": "2026-08-19T10:50:21Z",
+    "candidate_count": 7,
+    "existing_count": 130,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCxXL0BRBJGwdashVGwzzF6A",
+      "external_id": "UCxXL0BRBJGwdashVGwzzF6A",
+      "name": "MounjaGO",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCxXL0BRBJGwdashVGwzzF6A",
+      "discovered_on": "2026-08-19",
+      "score": 75.15,
+      "metrics": {
+        "subscribers": 14300,
+        "total_views": 64949,
+        "video_count": 1,
+        "avg_views_per_video": 64949.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/mounjago"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "8SfK5NmJBls",
+            "title": "Peptides vendus en ligne : ce que dit l&#39;alerte de l&#39;ANSM #Shorts",
+            "description": "L'analyse complète de l'alerte : https://mounjago.com/blog/dangers-peptides-alerte-ansm/ Le 2 juillet 2026, l'ANSM a publié une ...",
+            "published_at": "2026-08-19T10:36:53Z",
+            "url": "https://www.youtube.com/watch?v=8SfK5NmJBls"
+          }
+        ],
+        "channel_description": "MounjaGO — le suivi de traitement GLP-1, sans collecte de données.\n\nUne application créée par un patient, pour les patients : poids, injections, effets secondaires, alimentation et photos de progression, réunis dans un rapport PDF à présenter à votre médecin. Chiffré, hors-ligne, disponible en français, anglais, espagnol et portugais.\n\nSur cette chaîne : l'actualité vérifiée des traitements GLP-1 (tirzépatide, sémaglutide), le décryptage des alertes sanitaires, et ce que disent réellement les études et les agences du médicament. Chaque chiffre avancé est sourcé.\n\nL'application : https://mounjago.com/\nLe blog : https://mounjago.com/blog/\nInstagram : https://www.instagram.com/mounjago/\nFacebook : https://www.facebook.com/profile.php?id=61587015585575\nContact : support@mounjago.com\n\nMounjaGO est un outil de suivi personnel. Ni dispositif médical, ni avis médical. Les contenus publiés ici sont informatifs et ne remplacent pas l'avis d'un professionnel de santé.\n",
+        "latest_video_at": "2026-08-19T10:36:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCZNs9Pc5XILjLUD_9B8TNRw",
+      "external_id": "UCZNs9Pc5XILjLUD_9B8TNRw",
+      "name": "Menachemk ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCZNs9Pc5XILjLUD_9B8TNRw",
+      "discovered_on": "2026-08-19",
+      "score": 60.26,
+      "metrics": {
+        "subscribers": 2890,
+        "total_views": 1171113,
+        "video_count": 183,
+        "avg_views_per_video": 6399.52,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "zFSDGvnJ7Xc",
+            "title": "Fat, Faith, and Peptides with  Rabbi Dr. Daniel Ganjian MD",
+            "description": "Can weight-loss medication be a Torah obligation? In this episode, I sit down with Rabbi Dr. Daniel Ganjian MD — a rare ...",
+            "published_at": "2026-08-19T02:16:47Z",
+            "url": "https://www.youtube.com/watch?v=zFSDGvnJ7Xc"
+          }
+        ],
+        "channel_description": "Understanding God, and our experience with Him, one thought at a time\n\nFacebook: Menachem Kashanian \nInstagram: menachemk",
+        "latest_video_at": "2026-08-19T02:16:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCi8dDEIYcSoFJPM9lsWbkCA",
+      "external_id": "UCi8dDEIYcSoFJPM9lsWbkCA",
+      "name": "Dr Elizabeth Yurth",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCi8dDEIYcSoFJPM9lsWbkCA",
+      "discovered_on": "2026-08-19",
+      "score": 56.56,
+      "metrics": {
+        "subscribers": 4040,
+        "total_views": 147148,
+        "video_count": 202,
+        "avg_views_per_video": 728.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "Dk3N3RjNQ3M",
+            "title": "Stop Buying These Peptides",
+            "description": "Where your peptides come from matters. With the growing popularity of peptide therapy, we're also seeing more people ...",
+            "published_at": "2026-08-18T19:13:41Z",
+            "url": "https://www.youtube.com/watch?v=Dk3N3RjNQ3M"
+          }
+        ],
+        "channel_description": "Dr. Elizabeth Yurth is a world-renowned speaker, longevity expert, and board-certified orthopedist. As Co-Founder and Chief Medical Officer of Boulder Longevity Institute, she’s on a mission to bring tomorrow’s medicine to today’s patients—blending cutting-edge science with real-world results. With advanced training in regenerative, anti-aging, and cellular medicine, Dr. Yurth is a global thought leader transforming the way we approach aging, injury, and healthspan.\n\n\n",
+        "latest_video_at": "2026-08-18T19:13:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCsI_jGBdWgCFdDRoiWnaAlQ",
+      "external_id": "UCsI_jGBdWgCFdDRoiWnaAlQ",
+      "name": "The Trail To Health",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCsI_jGBdWgCFdDRoiWnaAlQ",
+      "discovered_on": "2026-08-19",
+      "score": 56.3,
+      "metrics": {
+        "subscribers": 9580,
+        "total_views": 350420,
+        "video_count": 1819,
+        "avg_views_per_video": 192.64,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "mCxHVxEmFos",
+            "title": "Why Sensitive Patients Do Better With Bioregulators!",
+            "description": "Standard peptides are five to fifty amino acids. Bioregulators are two to four, and that difference changes how the body responds ...",
+            "published_at": "2026-08-18T22:00:22Z",
+            "url": "https://www.youtube.com/watch?v=mCxHVxEmFos"
+          }
+        ],
+        "channel_description": "Health Coach, Blogger, Podcaster & Cookbook Author sharing healthy recipes and health tips that I learned on my Trail To Health.",
+        "latest_video_at": "2026-08-18T22:00:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UC_5DItAW3az9hhsBgQ90eeQ",
       "external_id": "UC_5DItAW3az9hhsBgQ90eeQ",
