@@ -2,19 +2,881 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-19T10:50:29Z",
-  "new_this_run": 14,
-  "total_influencers": 233,
+  "updated_at": "2026-08-20T10:51:48Z",
+  "new_this_run": 20,
+  "total_influencers": 253,
   "run_summary": {
-    "run_started_at": "2026-08-19T10:50:21Z",
-    "candidate_count": 24,
-    "existing_count": 219,
-    "selected_new_count": 14,
+    "run_started_at": "2026-08-20T10:51:40Z",
+    "candidate_count": 28,
+    "existing_count": 233,
+    "selected_new_count": 20,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCbSv8v63SWbywtdMm0ohOiQ",
+      "external_id": "UCbSv8v63SWbywtdMm0ohOiQ",
+      "name": "Positive Politics Tamil",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCbSv8v63SWbywtdMm0ohOiQ",
+      "discovered_on": "2026-08-20",
+      "score": 74.49,
+      "metrics": {
+        "subscribers": 38100,
+        "total_views": 4858058,
+        "video_count": 399,
+        "avg_views_per_video": 12175.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@positivegeopolitics"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "ZgJkZJ5ZOyI",
+            "title": "Made in India - Modiji Independence Day Speech #modi #news #shorts",
+            "description": "Prime Minister Narendra Modi's Independence Day speech highlights | India's Vision, Development & Future In this video, we ...",
+            "published_at": "2026-08-19T11:30:38Z",
+            "url": "https://www.youtube.com/watch?v=ZgJkZJ5ZOyI"
+          }
+        ],
+        "channel_description": "Our Other Channels:\n\nGeo Politics: https://www.youtube.com/@positivegeopolitics\nBooks: https://www.youtube.com/@Positivebookstamil\nFinance: https://www.youtube.com/@PositiveFinance_Tamil\nPodcast: https://www.youtube.com/@Positivepodcast_tam\nFamily: https://www.youtube.com/@PositiveFamilyCouple\n\n\nWelcome to Positive Politics Tamil  Tamil Nadu’s fastest-growing platform for honest, balanced, and meaningful political updates.\n\n\n\n",
+        "latest_video_at": "2026-08-19T11:30:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UChVMVY_cMsjvs6HaxN16M-Q",
+      "external_id": "UChVMVY_cMsjvs6HaxN16M-Q",
+      "name": "Femina Magazine",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UChVMVY_cMsjvs6HaxN16M-Q",
+      "discovered_on": "2026-08-20",
+      "score": 72.75,
+      "metrics": {
+        "subscribers": 100000,
+        "total_views": 62432235,
+        "video_count": 4428,
+        "avg_views_per_video": 14099.42,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "qdz8wAkidp0",
+            "title": "Why Was Usman Peerzada’s Book Censored? | Actor Reveals the Inside Story",
+            "description": "Why Was Usman Peerzada's Book Censored? | Actor Reveals the Inside Story #UsmanPeerzada #UsmanPeerzadaBook ...",
+            "published_at": "2026-08-19T15:30:03Z",
+            "url": "https://www.youtube.com/watch?v=qdz8wAkidp0"
+          }
+        ],
+        "channel_description": "Femina is a Fashion oriented & Lifestyle Digital Magazine for all ages.\n\n",
+        "latest_video_at": "2026-08-19T15:30:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCzBs702BAVaLW2tia1mbnTw",
+      "external_id": "UCzBs702BAVaLW2tia1mbnTw",
+      "name": "THOUGHT CRIMEZ🧿",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCzBs702BAVaLW2tia1mbnTw",
+      "discovered_on": "2026-08-20",
+      "score": 72.34,
+      "metrics": {
+        "subscribers": 81100,
+        "total_views": 4541291,
+        "video_count": 289,
+        "avg_views_per_video": 15713.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "T_JBZCRapgA",
+            "title": "HAYDEN PANETTIERE v. HOLLYWOOD INDUSTRY | HIP HOP MEDIA’S AGENT SMITHS, LEBRON AND KOBE SWITCH PRT 1",
+            "description": "HAYDEN PANETTIERE v. HOLLYWOOD INDUSTRY | HIP HOP MEDIA'S AGENT SMITHS, LEBRON AND KOBE SWITCH ...",
+            "published_at": "2026-08-19T14:22:37Z",
+            "url": "https://www.youtube.com/watch?v=T_JBZCRapgA"
+          }
+        ],
+        "channel_description": "Thought Crimez is a media company that delves into Hip Hop, The Culture, Comedy, and Political Comedy. We keep it fresh, real, creative, and free. #animations #cartoons \n#thoughtcrimez #thinktank\n",
+        "latest_video_at": "2026-08-19T14:22:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCmDIeBNLrOCbCfENBlDfyvw",
+      "external_id": "UCmDIeBNLrOCbCfENBlDfyvw",
+      "name": "Mr Sai Sklm",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCmDIeBNLrOCbCfENBlDfyvw",
+      "discovered_on": "2026-08-20",
+      "score": 70.71,
+      "metrics": {
+        "subscribers": 36100,
+        "total_views": 43665876,
+        "video_count": 1897,
+        "avg_views_per_video": 23018.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "0yfQoCSbHKc",
+            "title": "Irumudi Movie Censor Talk వచ్చేసింది 🥵🔥#raviteja #priyabhavanisankar #shivanirvana #irumudi",
+            "description": "Irumudi Movie Censor Talk వచ్చేసింది #raviteja #priyabhavanisankar #shivanirvana #irumudi #gvprakash ...",
+            "published_at": "2026-08-19T10:52:05Z",
+            "url": "https://www.youtube.com/watch?v=0yfQoCSbHKc"
+          }
+        ],
+        "channel_description": "Check here for more videos👇the best content please support me\nU Want Better Content About Villages And u want Remember Your Childhood Day's\nAnd Also Know About Wonderful Facts In My Daily Life\nPlease Subscribe To My Channel Thank you❤. \n And movie updates movie reviews please support me guys 🩵\n",
+        "latest_video_at": "2026-08-19T10:52:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYeBDk92E9i56x-gWEj2OdQ",
+      "external_id": "UCYeBDk92E9i56x-gWEj2OdQ",
+      "name": "Realidad politica",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCYeBDk92E9i56x-gWEj2OdQ",
+      "discovered_on": "2026-08-20",
+      "score": 70.64,
+      "metrics": {
+        "subscribers": 29200,
+        "total_views": 10745071,
+        "video_count": 358,
+        "avg_views_per_video": 30014.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "qZRm8bEBo8I",
+            "title": "🚨 PETRISTAS PIDEN CENSURAR BOMBARDEOS GUERRILLEROS ",
+            "description": "Petristas quieren censurar los bombardeos de Abelardo de la Espriella hoy a los campamentos guerrilleros amigos del petrismo, ...",
+            "published_at": "2026-08-19T13:00:37Z",
+            "url": "https://www.youtube.com/watch?v=qZRm8bEBo8I"
+          }
+        ],
+        "channel_description": "Realidad Publica es un canal creado con el fin de dar una batalla cultural en contra del progresismo que en este tiempo le esta haciendo daño a la familia tradicional y en contra de las políticas de izquierda , el comunismo y el socialismo del siglo XXI todos debemos de aportar un grano de arena para ganar esta batalla, que no es fácil pero con la ayuda de Dios todo lo podemos ,que esta de nuestro lado , defendamos nuestras creencias y el futuro de nuestros niños … no dejemos que los delincuentes se apoderen de nuestras vidas y desde este canal vamos a dar la batalla cultural para obtener la victoria con la voluntad de Dios . GRACIAS DIOS LES BENDIGA ",
+        "latest_video_at": "2026-08-19T13:00:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCQGQvSxoDCQtrQADkBzj_OQ",
+      "external_id": "UCQGQvSxoDCQtrQADkBzj_OQ",
+      "name": "REVUELVO",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCQGQvSxoDCQtrQADkBzj_OQ",
+      "discovered_on": "2026-08-20",
+      "score": 70.45,
+      "metrics": {
+        "subscribers": 35300,
+        "total_views": 51717154,
+        "video_count": 2462,
+        "avg_views_per_video": 21006.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "2RqaS6jX6d4",
+            "title": "El periodismo independiente es el cordón umbilical del ciudadano",
+            "description": "La labor de los medios independientes representa el último vínculo de la ciudadanía con la verdad. Se plantea la urgencia de ...",
+            "published_at": "2026-08-20T02:53:47Z",
+            "url": "https://www.youtube.com/watch?v=2RqaS6jX6d4"
+          }
+        ],
+        "channel_description": "Noticias, análisis y polémicas de chile\nPublicamos todos los días a las 6 pm.\n\n",
+        "latest_video_at": "2026-08-20T02:53:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCFKRgcFCioUkbqcsNwXYE6w",
+      "external_id": "UCFKRgcFCioUkbqcsNwXYE6w",
+      "name": "Gustavo Nenesk",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCFKRgcFCioUkbqcsNwXYE6w",
+      "discovered_on": "2026-08-20",
+      "score": 69.72,
+      "metrics": {
+        "subscribers": 61800,
+        "total_views": 12828926,
+        "video_count": 1873,
+        "avg_views_per_video": 6849.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "R8LRqfFaji8",
+            "title": "Minecraft tá Burlando Censura de Governos!",
+            "description": "Minecraft tá Burlando Censura de Governos! Parece só uma construção gigante de Minecraft, mas dentro dela existe uma ...",
+            "published_at": "2026-08-20T00:31:38Z",
+            "url": "https://www.youtube.com/watch?v=R8LRqfFaji8"
+          }
+        ],
+        "channel_description": "Ex-bombeiro 🚒 | Gamer desde os 3 anos\nCriador de conteúdo há 5 anos\n\n🎮 Jogos e entretenimento em lives, análises e guias\n🗓️ Conteúdo quase diário\n\nTô construindo uma comunidade pra trocar ideia de verdade\nAqui a gente fala de games, vida, rotina e o que mais surgir\n\nSegue o canal e vem acompanhar 👊\n",
+        "latest_video_at": "2026-08-20T00:31:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCBU4AiTcw56Ptal3MNpo6vA",
+      "external_id": "UCBU4AiTcw56Ptal3MNpo6vA",
+      "name": "GEZwungen zur Wahrheit",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCBU4AiTcw56Ptal3MNpo6vA",
+      "discovered_on": "2026-08-20",
+      "score": 69.1,
+      "metrics": {
+        "subscribers": 36000,
+        "total_views": 16425733,
+        "video_count": 941,
+        "avg_views_per_video": 17455.61,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "hWY79JXprvw",
+            "title": "🔥 MDR WAHLARENA: MANIPULATION FLIEGT AUF! ULRICH GESCHOCKT",
+            "description": "Was lief bei der MDR-Wahlarena wirklich ab? In diesem Video schauen wir uns die Aussagen rund um Ulrich Siegmund und die ...",
+            "published_at": "2026-08-18T14:10:25Z",
+            "url": "https://www.youtube.com/watch?v=hWY79JXprvw"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-18T14:10:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC6glCYzxNGCFCH-QnSejnDQ",
+      "external_id": "UC6glCYzxNGCFCH-QnSejnDQ",
+      "name": "Did You Know World",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC6glCYzxNGCFCH-QnSejnDQ",
+      "discovered_on": "2026-08-20",
+      "score": 68.39,
+      "metrics": {
+        "subscribers": 9080,
+        "total_views": 48729344,
+        "video_count": 894,
+        "avg_views_per_video": 54507.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "6R3Lqgxvlx0",
+            "title": "Decoding The Viral &quot;Sophie Cunningham Censorship Claim&quot; Post!  🚨🏀. #shorts",
+            "description": "How do political commentary pages frame online forum moderation as political censorship to mobilize conservative sports ...",
+            "published_at": "2026-08-19T19:59:20Z",
+            "url": "https://www.youtube.com/watch?v=6R3Lqgxvlx0"
+          }
+        ],
+        "channel_description": "Welcome to Did You Know World!\n\nDiscover amazing 🤩 Oval News, USA Politics, trump News , republic and democrats battles ,unbelievable history, Sports 🏈🏀,science 🔭 mysteries , leftist and Rightist controversy,world records, and incredible stories from around the world 🌎.\nNew Shorts uploaded regularly to help you learn something surprising every day.\n\nContent on this channel is creatively edited and\ntransformed with commentary, narration, visuals,\nand storytelling for educational and entertainment\npurposes.\nCopyright Disclaimer under Section 107 of the\nCopyright Act 1976:\nFair use is allowed for criticism, comment, news\nreporting, teaching, scholarship, education, and\nresearch.\nIf any owner wants content reviewed or removed,\nplease contact us through YouTube comment before\ntaking action. We will respond respectfully and\nprofessionally.\n\nSubscribe and join thousands of curious minds exploring the world's most fascinating facts especially USA politics ",
+        "latest_video_at": "2026-08-19T19:59:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCECBPzZIZ2X3n7LK6Nx78hQ",
+      "external_id": "UCECBPzZIZ2X3n7LK6Nx78hQ",
+      "name": "sportsPK",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCECBPzZIZ2X3n7LK6Nx78hQ",
+      "discovered_on": "2026-08-20",
+      "score": 68.32,
+      "metrics": {
+        "subscribers": 12400,
+        "total_views": 20262782,
+        "video_count": 594,
+        "avg_views_per_video": 34112.43,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "j5oJck7rAIk",
+            "title": "Usman Peerzada Reveals Why His Autobiography or Biopic Could Face Censorship! 😮🎬",
+            "description": "Senior Pakistani actor and director Usman Peerzada has made a surprising revelation about the possibility of a film or ...",
+            "published_at": "2026-08-20T06:15:06Z",
+            "url": "https://www.youtube.com/watch?v=j5oJck7rAIk"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-20T06:15:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCAMmyvzXUHmvnPizsu8l1MA",
+      "external_id": "UCAMmyvzXUHmvnPizsu8l1MA",
+      "name": "Krishna Dhamaka Reviews 😍🙌 ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCAMmyvzXUHmvnPizsu8l1MA",
+      "discovered_on": "2026-08-20",
+      "score": 64.67,
+      "metrics": {
+        "subscribers": 5790,
+        "total_views": 6921960,
+        "video_count": 375,
+        "avg_views_per_video": 18458.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "OZAVZNxJHgE",
+            "title": "😱 TOXIC Runtime 3 Hours 15 Min?! 🤯 25 Min Censor Cut Talk! | Advance Bookings Tomorrow 🎟️🔥|#shorts",
+            "description": "OMG! TOXIC Movie runtime ekanga 3 Hours 15 Minutes ani talk! Alage censor side nunchi around 25 minutes cut ayyayi ...",
+            "published_at": "2026-08-20T06:30:33Z",
+            "url": "https://www.youtube.com/watch?v=OZAVZNxJHgE"
+          }
+        ],
+        "channel_description": "🎬 Welcome to Krishna Dhamaka Reviews! 🔥\n\nKrishna Dhamaka Reviews is a Telugu movie review and entertainment channel dedicated to the latest updates from Tollywood, Bollywood, Pan-India cinema, and Hollywood.\n\nHere you'll find:\n🎥 Honest Movie Reviews\n🔥 Movie Updates & Breaking News\n🎬 Trailer Reviews & Reactions\n🤯 Unknown Facts About Actors & Movies\n📈 Box Office Updates\n🎭 Tollywood Buzz & Industry News\n🎞️ Movie Explanations & Analysis\n📱 Viral Movie Shorts\n\nFrom Mahesh Babu, Prabhas, Allu Arjun, Pawan Kalyan, Jr NTR, Ram Charan, Chiranjeevi, Balakrishna and other stars to the latest movie updates, this channel brings everything a cinema lover needs.\n\nIf you love movies, reviews, trailers, cinema facts, and entertainment updates, Krishna Dhamaka Reviews is the perfect place for you.\n\n❤️ Subscribe and join the Krishna Dhamaka Reviews family for daily movie content!",
+        "latest_video_at": "2026-08-20T06:30:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCAYM7lIXVbOpCkXKSOBB44A",
+      "external_id": "UCAYM7lIXVbOpCkXKSOBB44A",
+      "name": "Goemkarponn TV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCAYM7lIXVbOpCkXKSOBB44A",
+      "discovered_on": "2026-08-20",
+      "score": 64.67,
+      "metrics": {
+        "subscribers": 32800,
+        "total_views": 35676149,
+        "video_count": 21946,
+        "avg_views_per_video": 1625.63,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "ySiD2kkIWb8",
+            "title": "Satyawan Talwadkar Stands With Media Freedom, Justice &amp; Democracy",
+            "description": "Goa_News_Channel #Konkani_News #GOEMKARPONN #GOANEWS #NEWSINGOA #GOA #KONKANI #NEWS ...",
+            "published_at": "2026-08-20T08:26:24Z",
+            "url": "https://www.youtube.com/watch?v=ySiD2kkIWb8"
+          }
+        ],
+        "channel_description": "Media, Scams, Scandals, Live TV, Breaking News ll Beware - Goemkar is watching now",
+        "latest_video_at": "2026-08-20T08:26:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCeNFLCUJ2lM1S_H32ICVs4w",
+      "external_id": "UCeNFLCUJ2lM1S_H32ICVs4w",
+      "name": "Conscious Caracal",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCeNFLCUJ2lM1S_H32ICVs4w",
+      "discovered_on": "2026-08-20",
+      "score": 64.35,
+      "metrics": {
+        "subscribers": 17800,
+        "total_views": 1146205,
+        "video_count": 347,
+        "avg_views_per_video": 3303.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "qGM8LhQn0jU",
+            "title": "Building an alternative media empire: The Biznews Story | Alec Hogg",
+            "description": "I am joined by Alec Hogg, an alternative media entrepreneur who founded and runs Biznews.com. Hogg also founded Moneyweb ...",
+            "published_at": "2026-08-19T13:16:57Z",
+            "url": "https://www.youtube.com/watch?v=qGM8LhQn0jU"
+          }
+        ],
+        "channel_description": "Greetings from the Dark Continent - I'm here to shine a light on the goings-on at the Southern tip of Africa.\n\nHou moed, hou koers, dink vir jouself en dink vooruit.\n\n- Ernst J. van Zyl",
+        "latest_video_at": "2026-08-19T13:16:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCcgg5oVHV3ktWzbkbc52urQ",
+      "external_id": "UCcgg5oVHV3ktWzbkbc52urQ",
+      "name": "Egberto Willies (Politics Done Right)",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCcgg5oVHV3ktWzbkbc52urQ",
+      "discovered_on": "2026-08-20",
+      "score": 63.92,
+      "metrics": {
+        "subscribers": 44000,
+        "total_views": 22632948,
+        "video_count": 18704,
+        "avg_views_per_video": 1210.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "rAOEY1rcxGk",
+            "title": "MAGA Has No Answers: Voters Eye DSA as Trump Splurges $900M and Independent Media Pushes Back",
+            "description": "A Republican strategist sees voters open to DSA as a protest against MAGA failure; Trump's $900M D.C. splurge and dubious Iran ...",
+            "published_at": "2026-08-19T09:06:32Z",
+            "url": "https://www.youtube.com/watch?v=rAOEY1rcxGk"
+          }
+        ],
+        "channel_description": "Are looking for a place where you can find news and opinion you can trust? If that is the case please subscribe to my channel. I won’t disappoint you. I have covered the movement that made State Senator Wendy Davis the icon she is today. I have covered the ascent and descent of both the Tea Party and Occupy Wall Street. I will be embedding whenever I am able to and bring you a solid point of view.",
+        "latest_video_at": "2026-08-19T09:06:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCrEfOlAzm8TWrqIYi5TuTQQ",
+      "external_id": "UCrEfOlAzm8TWrqIYi5TuTQQ",
+      "name": "DD NEWS Telangana",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCrEfOlAzm8TWrqIYi5TuTQQ",
+      "discovered_on": "2026-08-20",
+      "score": 63.58,
+      "metrics": {
+        "subscribers": 62400,
+        "total_views": 25693054,
+        "video_count": 64379,
+        "avg_views_per_video": 399.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "c-QDwDNkSOQ",
+            "title": "Demand for Independent Judicial Probe into Section 22A Prohibited Property List Issues in Telangana",
+            "description": "సిట్టింగ్ జడ్జితో విచారణ జరపాలి: తాడూరి శ్రీనివాస్, బీజేపీ అధికార ...",
+            "published_at": "2026-08-19T13:10:05Z",
+            "url": "https://www.youtube.com/watch?v=c-QDwDNkSOQ"
+          }
+        ],
+        "channel_description": "Official YouTube Channel of Doordarshan (DD) News Telangana, Hyderabad",
+        "latest_video_at": "2026-08-19T13:10:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCeRcvRLvfKR8O6kQXmO4cLQ",
+      "external_id": "UCeRcvRLvfKR8O6kQXmO4cLQ",
+      "name": "Extended Orbiter Universe",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCeRcvRLvfKR8O6kQXmO4cLQ",
+      "discovered_on": "2026-08-20",
+      "score": 61.2,
+      "metrics": {
+        "subscribers": 5460,
+        "total_views": 308784,
+        "video_count": 48,
+        "avg_views_per_video": 6433.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "9jglyXKD5AI",
+            "title": "Destiny LOSES IT On Alt-Media Grifters - Absolute Ghouls!",
+            "description": "Are independent media platforms worse than corporate news? Destiny holds nothing back as he exposes the dark side of ...",
+            "published_at": "2026-08-19T06:15:51Z",
+            "url": "https://www.youtube.com/watch?v=9jglyXKD5AI"
+          }
+        ],
+        "channel_description": "This is an independent fan channel featuring edited highlights, reactions, and commentary inspired by public livestreams and online discussions.\n\nAll videos are significantly transformed through editing, including cuts, captions, graphics, audio, and other creative elements to provide original, value-added content in line with YouTube's policies.",
+        "latest_video_at": "2026-08-19T06:15:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCUmEhijb8fmlEflMH2GU35w",
+      "external_id": "UCUmEhijb8fmlEflMH2GU35w",
+      "name": "Rant Boys",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCUmEhijb8fmlEflMH2GU35w",
+      "discovered_on": "2026-08-20",
+      "score": 58.69,
+      "metrics": {
+        "subscribers": 2030,
+        "total_views": 396600,
+        "video_count": 78,
+        "avg_views_per_video": 5084.62,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "F3cN4Bvglag",
+            "title": "Adei CBFC manasachi illaiya daa?🤦🏻Nee censor broad&#39;ah illa sang...🏃🏻‍♂️ | Rant boys🎙️🤙🏼 | #shorts",
+            "description": "Ellarukkum Vanakkam Makkaley Welcome To @RantBoys 🎙️     CBFC vs Cinema | Censor broad rules evlo varaikum?",
+            "published_at": "2026-08-19T12:30:16Z",
+            "url": "https://www.youtube.com/watch?v=F3cN4Bvglag"
+          }
+        ],
+        "channel_description": "Ranters🤙🏻\n\nRants - Cinema 🎥, Cricket 🏏, nostalgia 🧖🏻‍♂️, Vibe 🕺🏻\n\nRant Kekka🎙️Ready'ah Guys😎\n",
+        "latest_video_at": "2026-08-19T12:30:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCnIg-BMrs3yRxPOr8I3mrhg",
+      "external_id": "UCnIg-BMrs3yRxPOr8I3mrhg",
+      "name": "Mackinac Center",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCnIg-BMrs3yRxPOr8I3mrhg",
+      "discovered_on": "2026-08-20",
+      "score": 58.58,
+      "metrics": {
+        "subscribers": 4380,
+        "total_views": 3363547,
+        "video_count": 1283,
+        "avg_views_per_video": 2621.63,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "OzbL0PkCPLc",
+            "title": "The Alternatives: New Media",
+            "description": "How New Media Are Transforming the Political Landscape with John Fund, Henry Payne, Frank Beckmann, Ken Braun and Kathy ...",
+            "published_at": "2026-08-18T14:47:11Z",
+            "url": "https://www.youtube.com/watch?v=OzbL0PkCPLc"
+          }
+        ],
+        "channel_description": "Advancing liberty and opportunity for all people.",
+        "latest_video_at": "2026-08-18T14:47:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEA8UFekQecn4i4fqSF706w",
+      "external_id": "UCEA8UFekQecn4i4fqSF706w",
+      "name": "jornalismo independente ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCEA8UFekQecn4i4fqSF706w",
+      "discovered_on": "2026-08-20",
+      "score": 58.09,
+      "metrics": {
+        "subscribers": 2220,
+        "total_views": 480872,
+        "video_count": 141,
+        "avg_views_per_video": 3410.44,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "3IAUnRy0mME",
+            "title": "Jornalismo independente 19/08/2026",
+            "description": "",
+            "published_at": "2026-08-19T16:56:45Z",
+            "url": "https://www.youtube.com/watch?v=3IAUnRy0mME"
+          }
+        ],
+        "channel_description": "conteúdo jornalístico ",
+        "latest_video_at": "2026-08-19T16:56:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEmkhRGntw9vTaPtQd5h2Hw",
+      "external_id": "UCEmkhRGntw9vTaPtQd5h2Hw",
+      "name": "JournalismPakistan",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCEmkhRGntw9vTaPtQd5h2Hw",
+      "discovered_on": "2026-08-20",
+      "score": 50.89,
+      "metrics": {
+        "subscribers": 2230,
+        "total_views": 18279,
+        "video_count": 150,
+        "avg_views_per_video": 121.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "8unRCgHmVyo",
+            "title": "Can Pakistan’s Planned Alliance Defend Free Speech?",
+            "description": "When the institutions meant to defend journalists appear divided, compromised or silent, who protects the right to speak?",
+            "published_at": "2026-08-20T09:55:36Z",
+            "url": "https://www.youtube.com/watch?v=8unRCgHmVyo"
+          }
+        ],
+        "channel_description": "Discover JournalismPakistan.com, trailblazers in media-oriented reporting since 2009. \n",
+        "latest_video_at": "2026-08-20T09:55:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCK-Pc1DNwJcGmrNNKm9-5aA",
       "external_id": "UCK-Pc1DNwJcGmrNNKm9-5aA",
