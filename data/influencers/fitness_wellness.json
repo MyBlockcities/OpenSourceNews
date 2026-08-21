@@ -2,19 +2,546 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-20T10:52:02Z",
+  "updated_at": "2026-08-21T10:52:39Z",
   "new_this_run": 14,
-  "total_influencers": 960,
+  "total_influencers": 974,
   "run_summary": {
-    "run_started_at": "2026-08-20T10:51:40Z",
-    "candidate_count": 46,
-    "existing_count": 946,
+    "run_started_at": "2026-08-21T10:52:15Z",
+    "candidate_count": 42,
+    "existing_count": 960,
     "selected_new_count": 14,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC-sAw37onoHuMDtdGliXbVg",
+      "external_id": "UC-sAw37onoHuMDtdGliXbVg",
+      "name": "Major Calisthenics",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC-sAw37onoHuMDtdGliXbVg",
+      "discovered_on": "2026-08-21",
+      "score": 69.65,
+      "metrics": {
+        "subscribers": 54000,
+        "total_views": 18189650,
+        "video_count": 2267,
+        "avg_views_per_video": 8023.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "iv9vO-4EXV8",
+            "title": "Build Muscle Up and Front Lever Strength",
+            "description": "Muscle Up + Front Lever Hack in 60 Seconds Want to build strength for both the muscleup and front lever with one movement?",
+            "published_at": "2026-08-21T06:28:44Z",
+            "url": "https://www.youtube.com/watch?v=iv9vO-4EXV8"
+          }
+        ],
+        "channel_description": "Helping men 45+ build real strength, master cali skills and stay injury free.\n",
+        "latest_video_at": "2026-08-21T06:28:44Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYTOWkvxGvo0cZbctFz2fMg",
+      "external_id": "UCYTOWkvxGvo0cZbctFz2fMg",
+      "name": "Dra. Maryna Landim Borges",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCYTOWkvxGvo0cZbctFz2fMg",
+      "discovered_on": "2026-08-21",
+      "score": 66.08,
+      "metrics": {
+        "subscribers": 29200,
+        "total_views": 1516071,
+        "video_count": 413,
+        "avg_views_per_video": 3670.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "cJMKePVDBhg",
+            "title": "O melhor protocolo sempre começa pela base:",
+            "description": "A pergunta que mais chega aqui é: \"Dra., qual peptídeo eu devo usar?\" E a resposta que eu sempre dou é: depende, mas ...",
+            "published_at": "2026-08-20T14:17:34Z",
+            "url": "https://www.youtube.com/watch?v=cJMKePVDBhg"
+          }
+        ],
+        "channel_description": "Medicina do Corpo Inteiro. Aqui eu falo em prevenção de doenças e promoção de SAÚDE.\n\nDesde o início, o ato de cuidar sempre esteve presente em minha jornada. O profundo sentimento de doação e amor ao próximo é o que incendiou minha paixão pela medicina. Acredito firmemente que nossa existência neste plano terrestre é transitória e que reconhecer nossa conexão divina, entendendo que ao cuidarmos do próximo, estamos cuidando de nós mesmos, nos aproxima do nosso propósito verdadeiro: oferecer amor incondicional a todos.\n\nPara mim, ser médica transcende o simples ato de tratar doenças. É ver cada paciente como um ser humano único, um ser espiritual, apreciando-o em sua totalidade, tanto em momentos de saúde quanto nos de doença. Meu objetivo e paixão não se limitam a acrescentar dias à vida, mas sim, vida aos dias daqueles que buscam minha ajuda.\n\nSejam bem-vindos ao meu canal, e juntos, embarquemos nesta jornada de autoconhecimento e bem-estar.\n",
+        "latest_video_at": "2026-08-20T14:17:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC3mCvS5tEQ9C7kUU1Op55xQ",
+      "external_id": "UC3mCvS5tEQ9C7kUU1Op55xQ",
+      "name": "The Physical Culturalist",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC3mCvS5tEQ9C7kUU1Op55xQ",
+      "discovered_on": "2026-08-21",
+      "score": 66.0,
+      "metrics": {
+        "subscribers": 19100,
+        "total_views": 1266850,
+        "video_count": 198,
+        "avg_views_per_video": 6398.23,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "F56qDAwy3Ls",
+            "title": "The Most OVERRATED Kettlebell Core Exercise",
+            "description": "The kettlebell round-the-body pass is useful for a few things. But building you a rock solid core ain't one of 'em. #kettlebelltraining ...",
+            "published_at": "2026-08-20T22:41:13Z",
+            "url": "https://www.youtube.com/watch?v=F56qDAwy3Ls"
+          }
+        ],
+        "channel_description": "Welcome to The Physical Culturalist\n\nHi, I’m Adam. \n\nFor the past two decades, I’ve made a living doing two things really well:\n\n- Playing bass in the hardcore band H2O.\n- Helping people get strong, lean, and mobile without wrecking their joints.\n\nThis channel is for men 40+ who want to reclaim their edge - physically and mentally, using minimalist, time-honored tools like kettlebells, bodyweight training, and gymnastic rings.\n\nNo fluff. No gimmicks. \n\nJust joint-friendly strength, mobility, and power training rooted in the philosophy of old-school physical culture and updated with what we now know about longevity, hormone health, and sustainable training.\n\nIf you’re ready to build a body that performs as good as it looks, and keeps going for decades to come, you’re in the right place.\n\nGrab the FREE 7½ Minute Morning Mobility Routine in the link below to get started.\n",
+        "latest_video_at": "2026-08-20T22:41:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCiJfZNlwTzEfcZt-KFIngoQ",
+      "external_id": "UCiJfZNlwTzEfcZt-KFIngoQ",
+      "name": "Julie Gibson Clark",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCiJfZNlwTzEfcZt-KFIngoQ",
+      "discovered_on": "2026-08-21",
+      "score": 63.8,
+      "metrics": {
+        "subscribers": 21500,
+        "total_views": 286960,
+        "video_count": 92,
+        "avg_views_per_video": 3119.13,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "x5KdFCUGRz4",
+            "title": "E19 How to &quot;exercise&quot; while sitting still. All the benes of heat therapy.",
+            "description": "CONNECT WITH ME Join my email list for detailed study notes for each episode: https://www.juliegibsonclark.com/contact-6 If this ...",
+            "published_at": "2026-08-19T14:33:29Z",
+            "url": "https://www.youtube.com/watch?v=x5KdFCUGRz4"
+          }
+        ],
+        "channel_description": "Forget expensive supplements and crazy diets—what if your kitchen already holds the secret to living longer and healthier? I'm a reluctant biohacker proving you don't need to spend thousands to slow aging. Each week, I show you exactly how to cook for longevity: fermented foods, fasting protocols, nutrient-dense meals, and the science-backed strategies that help me rank #2 in the Rejuvenation Olympics. Real food. Real results. Actually doable.\n\n",
+        "latest_video_at": "2026-08-19T14:33:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCeEINLNlGvIceFOP7aAZk5A",
+      "external_id": "UCeEINLNlGvIceFOP7aAZk5A",
+      "name": "Gabby Reece",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCeEINLNlGvIceFOP7aAZk5A",
+      "discovered_on": "2026-08-21",
+      "score": 63.77,
+      "metrics": {
+        "subscribers": 20300,
+        "total_views": 1595035,
+        "video_count": 758,
+        "avg_views_per_video": 2104.27,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "Kw6bzseupWM",
+            "title": "A Healthy Birth Outperforms Every Longevity Protocol | Dave Asprey",
+            "description": "The biological advantage of a healthy gestation outweighs most of the longevity interventions you are probably already investing ...",
+            "published_at": "2026-08-20T13:00:01Z",
+            "url": "https://www.youtube.com/watch?v=Kw6bzseupWM"
+          }
+        ],
+        "channel_description": "Entrepreneur, Former Pro Athlete, NY Times Best Selling Author + Award Winning Podcast Host\n",
+        "latest_video_at": "2026-08-20T13:00:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJUX088sYKeC9KTo0oL-Rqg",
+      "external_id": "UCJUX088sYKeC9KTo0oL-Rqg",
+      "name": "Donna Forbes Fitness",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCJUX088sYKeC9KTo0oL-Rqg",
+      "discovered_on": "2026-08-21",
+      "score": 58.43,
+      "metrics": {
+        "subscribers": 2300,
+        "total_views": 1276733,
+        "video_count": 336,
+        "avg_views_per_video": 3799.8,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "xGPfLchq2AY",
+            "title": "Master stabilty. Build strength. Move with confidence #functionalfitness #balancetraining #mobility",
+            "description": "",
+            "published_at": "2026-08-20T20:10:16Z",
+            "url": "https://www.youtube.com/watch?v=xGPfLchq2AY"
+          }
+        ],
+        "channel_description": "Hi my name is Donna!! Nice to meet you all ❤️ I’m a Scottish Amazonian in Wonder Woman. I am a natural athlete who likes to create fitness Content and crazy challenges for you all to have fun with. I thank god for all my blessings and I hope you all enjoy what I have to share 😊 \nAs always stay healthy, stay active and stay blessed 😉 \n\n@donz107 IG page \n@donz107 tiktok\n@unstoppablefitness1 tiktok\n@donnforbesfitness IG ",
+        "latest_video_at": "2026-08-20T20:10:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCtI_tiqFY72bLuzkuONoSTw",
+      "external_id": "UCtI_tiqFY72bLuzkuONoSTw",
+      "name": "Balance Physical Therapy & Human Performance Centr",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCtI_tiqFY72bLuzkuONoSTw",
+      "discovered_on": "2026-08-21",
+      "score": 58.14,
+      "metrics": {
+        "subscribers": 4880,
+        "total_views": 1012847,
+        "video_count": 874,
+        "avg_views_per_video": 1158.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "4UOqdwMLJdY",
+            "title": "Aging + Osteoporosis + Exercise",
+            "description": "Aging, Osteoporosis, and Exercise Aging doesn't mean you have to accept losing strength, mobility, or bone health. As we age ...",
+            "published_at": "2026-08-20T22:35:45Z",
+            "url": "https://www.youtube.com/watch?v=4UOqdwMLJdY"
+          }
+        ],
+        "channel_description": "Balance Physical Therapy® and Human Performance Center is dedicated to being the most patient-focused, result-oriented rehab facility in Monterey County.\nMonterey: 2260 N Fremont St Monterey, CA 93940 https://www.balancept.com/our-locations/monterey/\nSalinas: 143 John St Salinas, CA 93901 https://www.balancept.com/our-locations/salinas-ca/",
+        "latest_video_at": "2026-08-20T22:35:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCXPZmbPtiUKa4jbekqg1qSA",
+      "external_id": "UCXPZmbPtiUKa4jbekqg1qSA",
+      "name": "mPower Physical Therapy",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCXPZmbPtiUKa4jbekqg1qSA",
+      "discovered_on": "2026-08-21",
+      "score": 54.33,
+      "metrics": {
+        "subscribers": 2550,
+        "total_views": 623404,
+        "video_count": 1259,
+        "avg_views_per_video": 495.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "ZpkxE7sR9uw",
+            "title": "Peptides, TRT &amp; the Truth About Men&#39;s Hormones",
+            "description": "What happens when a routine blood test upends everything you thought you knew about your own health? That's exactly what ...",
+            "published_at": "2026-08-20T14:00:07Z",
+            "url": "https://www.youtube.com/watch?v=ZpkxE7sR9uw"
+          }
+        ],
+        "channel_description": "It shouldn't be this hard to avoid surgery, injections, and medications, but it doesn't have to be this way! \n\nThat's why we have created a step-by-step plan to find what others missed and fix it!\n\nWe help when nothing else has worked!\n\nInstead of feeling 80 years old... you will feel 10-20 years younger!\n\nTake control back of your health, so you can live without hesitation! \n",
+        "latest_video_at": "2026-08-20T14:00:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYj1CZKOpxuccQATzBIFzHA",
+      "external_id": "UCYj1CZKOpxuccQATzBIFzHA",
+      "name": "Biohack Yourself Media",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCYj1CZKOpxuccQATzBIFzHA",
+      "discovered_on": "2026-08-21",
+      "score": 52.78,
+      "metrics": {
+        "subscribers": 2690,
+        "total_views": 814239,
+        "video_count": 3625,
+        "avg_views_per_video": 224.62,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "JPuUh2tshtI",
+            "title": "🧪🔬🚨 XTEND CENTER: &quot;THE LONGEVITY INDUSTRY HAS A TRUST PROBLEM&quot;",
+            "description": "Everyone is selling the future of your health. New clinics. New technologies. New protocols. New promises. So how do you know ...",
+            "published_at": "2026-08-20T23:30:27Z",
+            "url": "https://www.youtube.com/watch?v=JPuUh2tshtI"
+          }
+        ],
+        "channel_description": "The Voice of Longevity\nYour #1 source for distilled science communication and education.  \n\nWhat started as feature- length documentary, has spiraled into what will be considered the most influential health documentary of our lifetime. This ground-breaking documentary series follows The Lollis as they embark on a journey to unlock the world of Biohacking. The aim… to empower individuals with the knowledge and tools they need to optimize their health, performance, and well-being.\n\n⚠️Disclaimer:  The information provided here is for entertainment and educational purposes only. It is not intended to substitute medical professional advice, diagnosis, or treatment. \n\nAlways seek the advice of your physician or another qualified health provider with any questions you may have regarding a medical condition. Visit the disclaimer link for more details: https://www.biohackyourself.com/termsanddisclaimers.\n",
+        "latest_video_at": "2026-08-20T23:30:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:e8a541d7a0a225a300a5",
+      "external_id": "e8a541d7a0a225a300a5",
+      "name": "jehan",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/9r3SSsEZbbbRHzCf6/if-aliens-exist-we-should-expect-to-find-them-around-now",
+      "discovered_on": "2026-08-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "If Aliens Exist, We Should Expect to Find Them Around Now"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b52ffb83d3a28886a368",
+      "external_id": "b52ffb83d3a28886a368",
+      "name": "Nathalie Kirch",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/JdNjeYC5bk83Kf2Cw/the-fourth-humiliation",
+      "discovered_on": "2026-08-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Fourth Humiliation"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:942d103907714d5ad5bb",
+      "external_id": "942d103907714d5ad5bb",
+      "name": "Kartikay Luthra",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/JL6jsxGMMzbtSapsH/creativity-beyond-the-manifold",
+      "discovered_on": "2026-08-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Creativity Beyond the Manifold"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8eddb45947b34fd85e45",
+      "external_id": "8eddb45947b34fd85e45",
+      "name": "Jollen Dai",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/MFdGxip7TdQS8eNc2/cross-dataset-transfer-evaluation-of-deception-probes-in",
+      "discovered_on": "2026-08-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Cross-Dataset Transfer Evaluation of Deception Probes in Smaller Models"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2645a2001271e4cfe961",
+      "external_id": "2645a2001271e4cfe961",
+      "name": "Alvin Camba",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/why-criminals-love-chinese-economy",
+      "discovered_on": "2026-08-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Why Criminals Love the Chinese Economy"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCfDoXdtJ41CPHBq-PiS-B8w",
       "external_id": "UCfDoXdtJ41CPHBq-PiS-B8w",

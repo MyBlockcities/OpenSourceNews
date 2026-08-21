@@ -2,19 +2,672 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-20T10:51:48Z",
-  "new_this_run": 20,
-  "total_influencers": 253,
+  "updated_at": "2026-08-21T10:52:25Z",
+  "new_this_run": 15,
+  "total_influencers": 268,
   "run_summary": {
-    "run_started_at": "2026-08-20T10:51:40Z",
-    "candidate_count": 28,
-    "existing_count": 233,
-    "selected_new_count": 20,
+    "run_started_at": "2026-08-21T10:52:15Z",
+    "candidate_count": 32,
+    "existing_count": 253,
+    "selected_new_count": 15,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCfW3M_Kj2gstNPqGmlvGSuA",
+      "external_id": "UCfW3M_Kj2gstNPqGmlvGSuA",
+      "name": "Saho Case",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCfW3M_Kj2gstNPqGmlvGSuA",
+      "discovered_on": "2026-08-21",
+      "score": 76.24,
+      "metrics": {
+        "subscribers": 77900,
+        "total_views": 24266339,
+        "video_count": 106,
+        "avg_views_per_video": 228927.73,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "lNfjqmDlcko",
+            "title": "Modi vs Independent Media 🚨 | Godi Media Roast 😂 | Misuse of IT Act? 🤯",
+            "description": "Modi vs Independent Media | Godi Media Roast | Misuse of IT Act? In this video, we discuss the ongoing debate around ...",
+            "published_at": "2026-08-20T12:30:37Z",
+            "url": "https://www.youtube.com/watch?v=lNfjqmDlcko"
+          }
+        ],
+        "channel_description": "Welcome to Saho Case  – Your Ultimate Destination for True Crime Documentaries\n\nStep into the darker side of reality. On this channel, we explore every corner of the criminal world — from notorious serial killers and mysterious unsolved cases to shocking heists, chilling kidnappings, and deep dives into cold cases that still haunt investigators.\n\nWhether you're fascinated by psychological profiles, forensics, criminal investigations, or courtroom drama — you’ll find it all here.\n\nWhat you can expect:\n\nTrue crime documentaries\nReal police interrogations and case files\nUnsolved mysteries & cold cases\nInfamous criminal profiles\nHeists, frauds & white-collar crimes\nDark web & cybercrime stories\nDeep dives into motive, mindset & method\n\n\nEvery video is carefully researched and presented to give you the full picture — not just what happened, but why it happened.\n\nNew crime S̶t̶o̶r̶i̶e̶s̶ O̶f̶ every C̶a̶s̶e̶. Subscribe and hit the bell icon so you never miss an episode. \n\nThanks For Your Love",
+        "latest_video_at": "2026-08-20T12:30:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCIPbDQYm0gjlN5jXOO0XmzA",
+      "external_id": "UCIPbDQYm0gjlN5jXOO0XmzA",
+      "name": "Noow Media",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCIPbDQYm0gjlN5jXOO0XmzA",
+      "discovered_on": "2026-08-21",
+      "score": 67.83,
+      "metrics": {
+        "subscribers": 35900,
+        "total_views": 2353275,
+        "video_count": 242,
+        "avg_views_per_video": 9724.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "eaPG-IIEpho",
+            "title": "The Media Lynching of Professor Jason Arday w/ Barry Malone",
+            "description": "Live w/ esteemed jounralist Barry Malone Contact us: notonourwatch.media@gmail.com 🎙️ New to streaming or looking to level ...",
+            "published_at": "2026-08-20T03:59:49Z",
+            "url": "https://www.youtube.com/watch?v=eaPG-IIEpho"
+          }
+        ],
+        "channel_description": "Sometimes serious, oftentimes satirical, always anti-imperialist.",
+        "latest_video_at": "2026-08-20T03:59:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC_HZITCXWjRhteLUphZ9tzg",
+      "external_id": "UC_HZITCXWjRhteLUphZ9tzg",
+      "name": "CANAL FALANDO EM PORTUGUÊS",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC_HZITCXWjRhteLUphZ9tzg",
+      "discovered_on": "2026-08-21",
+      "score": 65.93,
+      "metrics": {
+        "subscribers": 90700,
+        "total_views": 4641818,
+        "video_count": 6629,
+        "avg_views_per_video": 700.23,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "2OcLaJluYXU",
+            "title": "CENSURA #polêmicas #seguidores #eleições2026 #notícias #políticas",
+            "description": "polêmicas #seguidores #eleições2026 #notícias #políticas.",
+            "published_at": "2026-08-21T00:00:19Z",
+            "url": "https://www.youtube.com/watch?v=2OcLaJluYXU"
+          }
+        ],
+        "channel_description": "ARTE, MÚSICA, POLÍTICA, DANÇA, LÍNGUA PORTUGUESA E MUITA DIVERSIDADE.",
+        "latest_video_at": "2026-08-21T00:00:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCimMerdwFNqr_gZn-q9nJUQ",
+      "external_id": "UCimMerdwFNqr_gZn-q9nJUQ",
+      "name": "BenDanielPodcast Quick Hits",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCimMerdwFNqr_gZn-q9nJUQ",
+      "discovered_on": "2026-08-21",
+      "score": 65.61,
+      "metrics": {
+        "subscribers": 8970,
+        "total_views": 1973284,
+        "video_count": 128,
+        "avg_views_per_video": 15416.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "IxJrNlZ5afg",
+            "title": "F*CK CENSORSHIP! Seattle Times EXPOSED MUZZLING JOURNALIST! Hiding 8th Grade GIRLS Competing Vs BOYS",
+            "description": "",
+            "published_at": "2026-08-20T21:48:41Z",
+            "url": "https://www.youtube.com/watch?v=IxJrNlZ5afg"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-20T21:48:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRXJB_Nu2CvuQR8Q27ee56A",
+      "external_id": "UCRXJB_Nu2CvuQR8Q27ee56A",
+      "name": "Capital News America",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCRXJB_Nu2CvuQR8Q27ee56A",
+      "discovered_on": "2026-08-21",
+      "score": 65.5,
+      "metrics": {
+        "subscribers": 3590,
+        "total_views": 24054629,
+        "video_count": 455,
+        "avg_views_per_video": 52867.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "heWTPP8MxMA",
+            "title": "Government censorship should never hide in the shadows. Do you support Elon exposing it?",
+            "description": "Government censorship should never hide in the shadows. Do you support Elon exposing it?",
+            "published_at": "2026-08-20T15:59:33Z",
+            "url": "https://www.youtube.com/watch?v=heWTPP8MxMA"
+          }
+        ],
+        "channel_description": "🇺🇸 Welcome to Capital News America! 🏛️📰\n\nStay ahead with breaking news, politics, business, economy, world affairs, and the stories shaping America today. Capital News America delivers timely, accurate, and easy-to-understand coverage from Washington, D.C. to communities across the nation.\n\nOur mission is to provide trusted reporting, insightful analysis, and real stories that matter to everyday Americans. Whether it's major government decisions, market trends, international developments, or trending headlines, we bring you the facts you need to stay informed.\n\nSubscribe and join a growing community that values reliable news, informed perspectives, and daily updates from the heart of America.\n\nCapital News America — Where America’s Headlines Come First. 🇺🇸⭐🗽\n",
+        "latest_video_at": "2026-08-20T15:59:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYK3F9E4PKyBRZnWfVTQ5lQ",
+      "external_id": "UCYK3F9E4PKyBRZnWfVTQ5lQ",
+      "name": "the reporters' collective",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCYK3F9E4PKyBRZnWfVTQ5lQ",
+      "discovered_on": "2026-08-21",
+      "score": 65.03,
+      "metrics": {
+        "subscribers": 18800,
+        "total_views": 251073,
+        "video_count": 60,
+        "avg_views_per_video": 4184.55,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "LNH4p9QW_lQ",
+            "title": "AAP’s Double Standard: Cries Censorship in Delhi, Sends Copyright Strikes in Punjab",
+            "description": "Aam Aadmi Party chief Arvind Kejriwal recently criticised the Narendra Modi government for crackdown of social media posts to ...",
+            "published_at": "2026-08-20T15:56:03Z",
+            "url": "https://www.youtube.com/watch?v=LNH4p9QW_lQ"
+          }
+        ],
+        "channel_description": "a deep-dive journalism collaborative.\ninvestigative reportage in many languages and mediums. without fear.\n",
+        "latest_video_at": "2026-08-20T15:56:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCROawrZGEW4PD3bQ_Z_MEGQ",
+      "external_id": "UCROawrZGEW4PD3bQ_Z_MEGQ",
+      "name": "Black Star Network",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCROawrZGEW4PD3bQ_Z_MEGQ",
+      "discovered_on": "2026-08-21",
+      "score": 64.5,
+      "metrics": {
+        "subscribers": 59100,
+        "total_views": 11767231,
+        "video_count": 17822,
+        "avg_views_per_video": 660.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "qhRvVanOu34",
+            "title": "ABC SUES TRUMP! Fighting Back Against Censorship! #shorts",
+            "description": "ABC News sues the FCC, alleging Donald Trump orchestrated a retaliatory campaign to suppress the network's First Amendment ...",
+            "published_at": "2026-08-20T21:58:32Z",
+            "url": "https://www.youtube.com/watch?v=qhRvVanOu34"
+          }
+        ],
+        "channel_description": "Black Star Network (BSN) is a media network that produces and delivers streaming content to global consumers engaged by the political, business and cultural insights and perspectives of Black thought leaders, influencers and opinion makers. \n\n",
+        "latest_video_at": "2026-08-20T21:58:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC9rpjNIrG2WddGGrLYWsyNg",
+      "external_id": "UC9rpjNIrG2WddGGrLYWsyNg",
+      "name": "Marston Quinn",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC9rpjNIrG2WddGGrLYWsyNg",
+      "discovered_on": "2026-08-21",
+      "score": 64.2,
+      "metrics": {
+        "subscribers": 8870,
+        "total_views": 3376802,
+        "video_count": 261,
+        "avg_views_per_video": 12937.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "k4Yzgr9aHUA",
+            "title": "Consider this AI alternative available to all of us #ai #socialmedia #lotr #aragorn #contentcreator",
+            "description": "",
+            "published_at": "2026-08-19T23:26:02Z",
+            "url": "https://www.youtube.com/watch?v=k4Yzgr9aHUA"
+          }
+        ],
+        "channel_description": "Writing and making videos about books, men, and culture. Join my Book Club and subscribe to Pound Foolish (my Substack).\n\nOther links available here!\n👉 https://linktr.ee/marstonquinn\n",
+        "latest_video_at": "2026-08-19T23:26:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCpENPEmFHFXrSg3LMA0TvRw",
+      "external_id": "UCpENPEmFHFXrSg3LMA0TvRw",
+      "name": "Luke Rudkowski",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCpENPEmFHFXrSg3LMA0TvRw",
+      "discovered_on": "2026-08-21",
+      "score": 63.2,
+      "metrics": {
+        "subscribers": 14400,
+        "total_views": 1329570,
+        "video_count": 202,
+        "avg_views_per_video": 6582.03,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "y9Kj4eKTnZc",
+            "title": "Alex Jones vs Tim Pool Just Went NUCLEAR...",
+            "description": "Subscribe to the main channel - https://www.youtube.com/wearechange Get the shirts at - https://thebestpoliticalshirts.com/ Alex ...",
+            "published_at": "2026-08-18T18:11:43Z",
+            "url": "https://www.youtube.com/watch?v=y9Kj4eKTnZc"
+          }
+        ],
+        "channel_description": "“Mr. Rudkowski is no shrinking violet. Armed with a video camera and a YouTube account.” — NY Times",
+        "latest_video_at": "2026-08-18T18:11:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCllhNWR1bXaRRvRKl39b4JA",
+      "external_id": "UCllhNWR1bXaRRvRKl39b4JA",
+      "name": "Suno FM 89.4",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCllhNWR1bXaRRvRKl39b4JA",
+      "discovered_on": "2026-08-21",
+      "score": 61.44,
+      "metrics": {
+        "subscribers": 32900,
+        "total_views": 3362199,
+        "video_count": 9185,
+        "avg_views_per_video": 366.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "AthNydN05Q4",
+            "title": "Afghanistan’s Media Under Pressure: Are Women and Independent Journalism Being Silenced?",
+            "description": "On Dialogue with Arslan Khalid, the discussion examines Afghanistan's deteriorating media environment, restrictions on women ...",
+            "published_at": "2026-08-20T15:30:30Z",
+            "url": "https://www.youtube.com/watch?v=AthNydN05Q4"
+          }
+        ],
+        "channel_description": "Suno FM 89.4 is the largest & most listened to FM Radio Channel of Pakistan. We broadcast a diversified range of programs promoting infotainment, social awareness, health tips, sports, peace and harmony and motivation with a blend of entertainment through super hit music. We broadcast in 13 languages  namely Urdu, English, Pashto, Punjabi, Balochi, Sindhi, Balti, Shina, Potohari, Broshuski, Siraiki, Brahvi & Waziri. Suno FM covers almost entire geography of Pakistan reaching approximately 150 million people with 92 transmission stations and 24 broadcasting houses\n",
+        "latest_video_at": "2026-08-20T15:30:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCPhDVM0Fv9zcC2F9BJQzlpA",
+      "external_id": "UCPhDVM0Fv9zcC2F9BJQzlpA",
+      "name": "Doa a  quem Doer  por Fátima Ribeiro ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCPhDVM0Fv9zcC2F9BJQzlpA",
+      "discovered_on": "2026-08-21",
+      "score": 59.87,
+      "metrics": {
+        "subscribers": 3660,
+        "total_views": 2093606,
+        "video_count": 544,
+        "avg_views_per_video": 3848.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "ObqCwCubCm8",
+            "title": "William Bonner não é jornalista? #noticias #jornalismoindependente #feedshorts",
+            "description": "",
+            "published_at": "2026-08-20T20:55:21Z",
+            "url": "https://www.youtube.com/watch?v=ObqCwCubCm8"
+          }
+        ],
+        "channel_description": "Aqui é bem claro:doa a quem doer pq a verdade vai ser dita!Vem comigo e sejam todos bem vindos ao meu canal! Jornalismo independente e notícias diariamente ao vivo!📚 estudante de jornalismo e amante de política e de Deus!",
+        "latest_video_at": "2026-08-20T20:55:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCaEK0dxlc2ZJx41WfedT6lw",
+      "external_id": "UCaEK0dxlc2ZJx41WfedT6lw",
+      "name": "AMB NEWS ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCaEK0dxlc2ZJx41WfedT6lw",
+      "discovered_on": "2026-08-21",
+      "score": 57.62,
+      "metrics": {
+        "subscribers": 5550,
+        "total_views": 383319,
+        "video_count": 2011,
+        "avg_views_per_video": 190.61,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "gxPNVmQj2-I",
+            "title": "BIG Pakistan Independence Day Celebration #uk #news #foryou #follow #pakistan #birmingham #foryou",
+            "description": "",
+            "published_at": "2026-08-20T21:05:25Z",
+            "url": "https://www.youtube.com/watch?v=gxPNVmQj2-I"
+          },
+          {
+            "query": "independent news",
+            "video_id": "zh7pFjAQBZo",
+            "title": "#Proud #celebrate 80th #Pakistan #Independence Day #uk #news #foryou #pakistan #birmingham #follow",
+            "description": "",
+            "published_at": "2026-08-20T21:01:57Z",
+            "url": "https://www.youtube.com/watch?v=zh7pFjAQBZo"
+          }
+        ],
+        "channel_description": "AMB News with Asif Mehmood Bratlvi \n#AMB #News #AMB_productions / AMB News & media time digital marketing \n\nAMB NEWS is a local community news channel that focuses on highlighting the problems, issues, and news updates within the Pakistani community in the United Kingdom. The channel provides coverage of various topics such as politics, social issues, culture, and lifestyle, with a particular emphasis on the perspectives and concerns of the Pakistani community. AMB NEWS serves as a reliable source of information for people who are interested in staying up-to-date with the latest news and events within the community.\n",
+        "latest_video_at": "2026-08-20T21:05:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCpTIo-wzf58wFLmFRMcEZXw",
+      "external_id": "UCpTIo-wzf58wFLmFRMcEZXw",
+      "name": "Sudarshan Yadav ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCpTIo-wzf58wFLmFRMcEZXw",
+      "discovered_on": "2026-08-21",
+      "score": 56.95,
+      "metrics": {
+        "subscribers": 2140,
+        "total_views": 366512,
+        "video_count": 109,
+        "avg_views_per_video": 3362.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "1rVTArZjKvs",
+            "title": "राजभवन मार्च वाला पोस्ट #India में #ban कर दिया गया।#TejashwiYadav #BiharPolitics #RajBhavanMarch",
+            "description": "राजभवन मार्च वाला पोस्ट #India में #ban कर दिया गया। #TejashwiYadav #BiharPolitics ...",
+            "published_at": "2026-08-20T07:59:54Z",
+            "url": "https://www.youtube.com/watch?v=1rVTArZjKvs"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-20T07:59:54Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCBWm_Y02SJ2UXhaWgJtCpeQ",
+      "external_id": "UCBWm_Y02SJ2UXhaWgJtCpeQ",
+      "name": "Opinativo Político",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCBWm_Y02SJ2UXhaWgJtCpeQ",
+      "discovered_on": "2026-08-21",
+      "score": 56.4,
+      "metrics": {
+        "subscribers": 2050,
+        "total_views": 699417,
+        "video_count": 400,
+        "avg_views_per_video": 1748.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "rx9krGz9ey8",
+            "title": "CENSURA À IMPRENSA NO TOCANTINS?",
+            "description": "Em todos esses anos cobrindo os bastidores da política e fazendo comunicação, o nosso compromisso sempre foi com a ...",
+            "published_at": "2026-08-20T16:29:00Z",
+            "url": "https://www.youtube.com/watch?v=rx9krGz9ey8"
+          }
+        ],
+        "channel_description": "Opiniões políticas conservadoras, notícias comentadas, cursos e dicas de desenvolvimento nos conhecimentos relativos a política, direito, comentários sobre assuntos diversos, como cultura pop ou em cultura em geral, notícias comentadas.\nO canal apresentará ainda, quadros com humor relativos a notícias relevantes ou de grande repercussão.",
+        "latest_video_at": "2026-08-20T16:29:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC79jz_NQbGIfd3JwefLCNdA",
+      "external_id": "UC79jz_NQbGIfd3JwefLCNdA",
+      "name": "Truth In the Barrel Podcast",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC79jz_NQbGIfd3JwefLCNdA",
+      "discovered_on": "2026-08-21",
+      "score": 56.0,
+      "metrics": {
+        "subscribers": 3650,
+        "total_views": 189834,
+        "video_count": 293,
+        "avg_views_per_video": 647.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "OXF5WKE6qx4",
+            "title": "Independent Journalism In Wartime | Unfiltered w Aaron Parnas",
+            "description": "This week, Amy is joined by creator-journalist Aaron Parnas to talk about the state of the war in Iran, the Trump family's blatant war ...",
+            "published_at": "2026-08-21T01:00:00Z",
+            "url": "https://www.youtube.com/watch?v=OXF5WKE6qx4"
+          }
+        ],
+        "channel_description": "Amy McGrath is a veteran, mom, and educator with an interest in policy and a taste for whiskey. She loves Kentucky, and she loves the United States of America.\n\nTruth in the Barrel was born of Amy’s commitment to country, the Constitution, and a well-curated collection of the world’s finest bourbon.\n\nJoin Truth in the Barrel for weekly deep dives into timely topics, interviews with recognizable guests, and the occasional dose of live fun.\n\nwww.TruthintheBarrel.com\n",
+        "latest_video_at": "2026-08-21T01:00:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCbSv8v63SWbywtdMm0ohOiQ",
       "external_id": "UCbSv8v63SWbywtdMm0ohOiQ",
