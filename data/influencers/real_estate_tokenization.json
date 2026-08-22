@@ -2,19 +2,135 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-08-21T10:52:22Z",
+  "updated_at": "2026-08-22T10:43:58Z",
   "new_this_run": 3,
-  "total_influencers": 215,
+  "total_influencers": 218,
   "run_summary": {
-    "run_started_at": "2026-08-21T10:52:15Z",
-    "candidate_count": 45,
-    "existing_count": 212,
+    "run_started_at": "2026-08-22T10:43:53Z",
+    "candidate_count": 43,
+    "existing_count": 215,
     "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCcFsKGzneHJrT4ooLQbvh4Q",
+      "external_id": "UCcFsKGzneHJrT4ooLQbvh4Q",
+      "name": "Bolsa Desde El Inicio",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCcFsKGzneHJrT4ooLQbvh4Q",
+      "discovered_on": "2026-08-22",
+      "score": 74.92,
+      "metrics": {
+        "subscribers": 65700,
+        "total_views": 4190422,
+        "video_count": 606,
+        "avg_views_per_video": 6914.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/channel/UCH5Lao5ZU4cIkpbSoDAnWug"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "tokenized real estate"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "tokenized real estate",
+            "video_id": "fQIHsNG2RRI",
+            "title": "Cómo Genero INGRESOS MENSUALES en 2026 (3 Formas que estoy Utilizando)",
+            "description": "Mi otro canal: https://www.youtube.com/channel/UCH5Lao5ZU4cIkpbSoDAnWug ✍️ Puedes unirte GRATIS a mi newsletter ...",
+            "published_at": "2026-08-21T15:00:11Z",
+            "url": "https://www.youtube.com/watch?v=fQIHsNG2RRI"
+          }
+        ],
+        "channel_description": "-¡Hola, soy Iván! En este canal encontrarás información del mercado de valores, noticias, tesis de inversión o conceptos entre otras cosas. ¡Suscríbete y te mantendré informado de lo que sucede en la bolsa!\n\n- Twitter: @Ivan_Bolsa \n- Instagram: @bolsa_inicio\n",
+        "latest_video_at": "2026-08-21T15:00:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC5jkldzAwX37MJqugfB1PVg",
+      "external_id": "UC5jkldzAwX37MJqugfB1PVg",
+      "name": "불장 듀오",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UC5jkldzAwX37MJqugfB1PVg",
+      "discovered_on": "2026-08-22",
+      "score": 55.65,
+      "metrics": {
+        "subscribers": 2480,
+        "total_views": 406912,
+        "video_count": 270,
+        "avg_views_per_video": 1507.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate RWA"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate RWA",
+            "video_id": "dIUCAEM-JlA",
+            "title": "리플 XRP 투자자라면 반드시 봐야 합니다. 리플코인 다음은 어디인가? 리플전망 알아보겠습니다",
+            "description": "리플 XRP 관심을 가지고 계신 분들이라면 지금부터 나타나고 있는 RWA 시장의 변화를 반드시 확인할 필요가 있습니다 현재 국채, ...",
+            "published_at": "2026-08-21T09:57:43Z",
+            "url": "https://www.youtube.com/watch?v=dIUCAEM-JlA"
+          }
+        ],
+        "channel_description": "코인과 주식에 대한 유익한 정보들을 제공하는 채널입니다\n투자로 대박 수익 나는 그날까지\n여러분들과 정보를 공유해 가며 함께 걸어 나가겠습니다\n",
+        "latest_video_at": "2026-08-21T09:57:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:255f5290a963d21b1491",
+      "external_id": "255f5290a963d21b1491",
+      "name": "Hermine Wong",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/08/21/the-hard-truth-is-that-the-clarity-act-is-an-anti-crypto-bill",
+      "discovered_on": "2026-08-22",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "The hard truth is that the Clarity Act is an anti-crypto bill"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCYMYW2JHiQy-n0OMzMYmB9w",
       "external_id": "UCYMYW2JHiQy-n0OMzMYmB9w",
