@@ -2,19 +2,631 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-22T10:44:01Z",
-  "new_this_run": 8,
-  "total_influencers": 276,
+  "updated_at": "2026-08-23T10:45:18Z",
+  "new_this_run": 14,
+  "total_influencers": 290,
   "run_summary": {
-    "run_started_at": "2026-08-22T10:43:53Z",
+    "run_started_at": "2026-08-23T10:45:09Z",
     "candidate_count": 21,
-    "existing_count": 268,
-    "selected_new_count": 8,
+    "existing_count": 276,
+    "selected_new_count": 14,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCHCpzrgaW9vFS4dGrmPmZNw",
+      "external_id": "UCHCpzrgaW9vFS4dGrmPmZNw",
+      "name": "Навколо Кіно",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCHCpzrgaW9vFS4dGrmPmZNw",
+      "discovered_on": "2026-08-23",
+      "score": 79.43,
+      "metrics": {
+        "subscribers": 89100,
+        "total_views": 11993012,
+        "video_count": 210,
+        "avg_views_per_video": 57109.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@NavkoloKino"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "qLlnfVTlPRU",
+            "title": "Як КИТАЙ купив ГОЛЛІВУД / ЗАБОРОНЕНІ ФІЛЬМИ та ЦЕНЗУРА",
+            "description": "ДОДАТКОВІ відео для спонсорів     Спонсорство YOUTUBE ➤ https://www.youtube.com/@NavkoloKino/join Або через ...",
+            "published_at": "2026-08-22T09:00:17Z",
+            "url": "https://www.youtube.com/watch?v=qLlnfVTlPRU"
+          }
+        ],
+        "channel_description": "Всім привіт! На моєму каналі \"Навколо Кіно\" ви знайдете огляди / добірки фільмів, серіалів та мультиків, дізнаєтесь гарячі новини та маловідомі факти дивовижного кіносвіту.\nПошта для співпраці: navkolokinoad@gmail.com\n",
+        "latest_video_at": "2026-08-22T09:00:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCW7MHxYWfjVof-r-d1O8Zrw",
+      "external_id": "UCW7MHxYWfjVof-r-d1O8Zrw",
+      "name": "Star News USA",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCW7MHxYWfjVof-r-d1O8Zrw",
+      "discovered_on": "2026-08-23",
+      "score": 70.93,
+      "metrics": {
+        "subscribers": 13600,
+        "total_views": 98082378,
+        "video_count": 827,
+        "avg_views_per_video": 118600.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "VqKDQa3dY68",
+            "title": "Elon Musk’s transparency push on government censorship demands sparks debate over free speech",
+            "description": "Elon Musk just forced total transparency by publishing every censorship demand from foreign governments on X. Britain and ...",
+            "published_at": "2026-08-22T16:28:16Z",
+            "url": "https://www.youtube.com/watch?v=VqKDQa3dY68"
+          }
+        ],
+        "channel_description": "⭐ Welcome to Star News USA! 🇺🇸\n\nYour trusted source for breaking news, politics, business, world events, and trending stories across America. We deliver fast, accurate, and engaging updates to keep you informed every day. Subscribe and join our growing community for the latest headlines, real stories, and important news that matters to you.\n\nStar News USA — Your Voice. Your Nation. Your News. 📰✨🇺🇸\n",
+        "latest_video_at": "2026-08-22T16:28:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCSREu7Oidzr0NDs1gI0S6dQ",
+      "external_id": "UCSREu7Oidzr0NDs1gI0S6dQ",
+      "name": "Grilla en Corto",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCSREu7Oidzr0NDs1gI0S6dQ",
+      "discovered_on": "2026-08-23",
+      "score": 70.89,
+      "metrics": {
+        "subscribers": 16100,
+        "total_views": 18676475,
+        "video_count": 242,
+        "avg_views_per_video": 77175.52,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "TgiKpNNuw-0",
+            "title": "Latinus tiene miedo Acusan censura de Sheinbaum 🚨🧐 #noticiasmexico #ultimahora",
+            "description": "El gobierno exhibió una lista de cuentas digitales y Latinus saltó de inmediato acusando \"persecución\". Mientras Sheinbaum ...",
+            "published_at": "2026-08-22T17:43:44Z",
+            "url": "https://www.youtube.com/watch?v=TgiKpNNuw-0"
+          }
+        ],
+        "channel_description": "¿Cansado de los discursos aburridos y los rollos mareadores? En \"Grilla en corto\" destapamos la realidad del poder, los acuerdos bajo la mesa y los movimientos clave del tablero político. Información precisa, sin pelos en la lengua y en pocos minutos.",
+        "latest_video_at": "2026-08-22T17:43:44Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC39wDqrRwtgVtWUPZmbJ0hw",
+      "external_id": "UC39wDqrRwtgVtWUPZmbJ0hw",
+      "name": "Wild Smile",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC39wDqrRwtgVtWUPZmbJ0hw",
+      "discovered_on": "2026-08-23",
+      "score": 70.47,
+      "metrics": {
+        "subscribers": 46700,
+        "total_views": 15796365,
+        "video_count": 695,
+        "avg_views_per_video": 22728.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "leNOPZ5ZC3o",
+            "title": "The Midnight Show - 8/22/26 - Pooltard Tries Hard Pt. 2",
+            "description": "Tonight, we discuss some current events and internet personalities.",
+            "published_at": "2026-08-21T22:45:22Z",
+            "url": "https://www.youtube.com/watch?v=leNOPZ5ZC3o"
+          }
+        ],
+        "channel_description": "Live every other week Monday nights at 12:30 AM PST. Topics include a variety of things including news and other stories that have gotten my attention. We might be the punchline, but at least we're in on the joke.\n\nIt's always midnight somewhere. ",
+        "latest_video_at": "2026-08-21T22:45:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKiKwF7OnUMfGPLUfUWUyUA",
+      "external_id": "UCKiKwF7OnUMfGPLUfUWUyUA",
+      "name": "We The Governed",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCKiKwF7OnUMfGPLUfUWUyUA",
+      "discovered_on": "2026-08-23",
+      "score": 69.76,
+      "metrics": {
+        "subscribers": 65900,
+        "total_views": 6619509,
+        "video_count": 1038,
+        "avg_views_per_video": 6377.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "-lf5mIqU62A",
+            "title": "Seattle Times columnist resigns over censorship and political bias...",
+            "description": "The Seattle Times continues to demonstrate that it is primarily an agent of the state and a propaganda arm for the Leftist ...",
+            "published_at": "2026-08-23T00:15:38Z",
+            "url": "https://www.youtube.com/watch?v=-lf5mIqU62A"
+          }
+        ],
+        "channel_description": "We are dedicated to helping government whistleblowers expose the truth in local government and Washington State.   We aspire to more open, honest, and efficient local, state and Federal government.   We want to encourage elected officials and bureaucrats who are willing to do the right thing.  We will expose those who won't.  We are located in Olympia, Washington, but these principles are universal.  Our aspiration is to bring common sense reforms and solutions to governing problems so that We the Governed can begin to live like We the People...",
+        "latest_video_at": "2026-08-23T00:15:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJYpBp2wRYUVU1EqcQ7tPnA",
+      "external_id": "UCJYpBp2wRYUVU1EqcQ7tPnA",
+      "name": "Darkweapon",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJYpBp2wRYUVU1EqcQ7tPnA",
+      "discovered_on": "2026-08-23",
+      "score": 69.13,
+      "metrics": {
+        "subscribers": 31700,
+        "total_views": 14457497,
+        "video_count": 1085,
+        "avg_views_per_video": 13324.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "DDccvHdoSao",
+            "title": "CENSURARON A LAS 100 NOVIAS",
+            "description": "CENSURARON A LAS 100 NOVIAS ¿Censuraron una escena de Las 100 Novias? En este Short te cuento qué pasó con esta ...",
+            "published_at": "2026-08-22T13:00:21Z",
+            "url": "https://www.youtube.com/watch?v=DDccvHdoSao"
+          }
+        ],
+        "channel_description": "Voy por la vida subiendo lo que me apetezca",
+        "latest_video_at": "2026-08-22T13:00:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC5YcV7lDV5QllsuHkdavs_Q",
+      "external_id": "UC5YcV7lDV5QllsuHkdavs_Q",
+      "name": "Clutch Queens",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC5YcV7lDV5QllsuHkdavs_Q",
+      "discovered_on": "2026-08-23",
+      "score": 66.62,
+      "metrics": {
+        "subscribers": 16200,
+        "total_views": 34602650,
+        "video_count": 3228,
+        "avg_views_per_video": 10719.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "UGjkKOB--n8",
+            "title": "SOPHIE CUNNINGHAM FAN CENSORED BY LIBERTY?! 😳",
+            "description": "SOPHIE CUNNINGHAM FAN CENSORED BY LIBERTY?! The WNBA has another controversy… and this time it involves a ...",
+            "published_at": "2026-08-23T01:00:11Z",
+            "url": "https://www.youtube.com/watch?v=UGjkKOB--n8"
+          }
+        ],
+        "channel_description": "Welcome to Clutch Queens – The Home of WNBA Excellence!\nAt Clutch Queens, we celebrate the fierce, unstoppable women of the WNBA who always deliver in the clutch. Get ready for high-energy highlights, exclusive player spotlights, game breakdowns, and all the latest news from the world of women’s basketball. Whether it’s a last-second buzzer-beater or a legendary play, we bring you closer to the action and give you an insider’s look at the athletes who are rewriting the game. Join the Clutch Queens community and stay tuned for the best in women’s hoops!\n\n\n",
+        "latest_video_at": "2026-08-23T01:00:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC-BJx_0um7cpaIpfXqqKEIA",
+      "external_id": "UC-BJx_0um7cpaIpfXqqKEIA",
+      "name": "Sarabangla News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC-BJx_0um7cpaIpfXqqKEIA",
+      "discovered_on": "2026-08-23",
+      "score": 66.03,
+      "metrics": {
+        "subscribers": 77900,
+        "total_views": 5293418,
+        "video_count": 5847,
+        "avg_views_per_video": 905.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "6jFJEHfEWtY",
+            "title": "স্বতন্ত্র তিতুমীর বিশ্ববিদ্যালয়ের দাবিতে সড়ক অবরোধ",
+            "description": "স্বতন্ত্র তিতুমীর বিশ্ববিদ্যালয়ের দাবিতে সড়ক অবরোধ ...",
+            "published_at": "2026-08-23T09:45:48Z",
+            "url": "https://www.youtube.com/watch?v=6jFJEHfEWtY"
+          }
+        ],
+        "channel_description": "Sarabangla.net is a multimedia platform of real-time journalism with news, views and entertainment. Breaking the stories and diversifying the contents are the major commitments of this media outlet from Bangladesh.\n#sarabangla\n#sarabanglanews\n#news\n#bangla_news\n#bdnews\n#newsupdate    bd news, atn bd news, bd news today, bd hot news, bdnews, news, timebd news, bd newspaper, bnp news, bbc news, atn news, updated news, live news, news live, today news, viral news, news today, crime news, news ajker, ajker news, atn tv news, daily news, atn news tv, bangla news, google news, update news, latest news, jamuna news, jamaat news, desh tv news, current news, atn live news, somoy sangbad news, breaking news, trending news, election news, bangla tv news, news trending, jamuna tv news, news bulletin\n",
+        "latest_video_at": "2026-08-23T09:45:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCLZcKa__ibDYIy8NqdGrIVw",
+      "external_id": "UCLZcKa__ibDYIy8NqdGrIVw",
+      "name": "The Scoop",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCLZcKa__ibDYIy8NqdGrIVw",
+      "discovered_on": "2026-08-23",
+      "score": 66.02,
+      "metrics": {
+        "subscribers": 18000,
+        "total_views": 5295575,
+        "video_count": 3010,
+        "avg_views_per_video": 1759.33,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "tU5BcRAXc_g",
+            "title": "Miller on Stars and Stripes Firings: White House Responds to Censorship #Shorts",
+            "description": "Stephen Miller responds to questions about Stars and Stripes journalists who were reportedly fired after speaking out against ...",
+            "published_at": "2026-08-23T04:06:51Z",
+            "url": "https://www.youtube.com/watch?v=tU5BcRAXc_g"
+          },
+          {
+            "query": "censorship news",
+            "video_id": "06SZ4_cRNnE",
+            "title": "Stephen Miller Pressed on Stars and Stripes Staff Fired Over Censorship #Shorts",
+            "description": "Stephen Miller is asked at the White House whether Stars and Stripes should retain its editorial independence after staff were ...",
+            "published_at": "2026-08-23T03:36:56Z",
+            "url": "https://www.youtube.com/watch?v=06SZ4_cRNnE"
+          }
+        ],
+        "channel_description": "The Voice of the New Counter-Culture",
+        "latest_video_at": "2026-08-23T04:06:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVmMay7WC6ewTUFiNGxkRvw",
+      "external_id": "UCVmMay7WC6ewTUFiNGxkRvw",
+      "name": "박보검백과사전",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCVmMay7WC6ewTUFiNGxkRvw",
+      "discovered_on": "2026-08-23",
+      "score": 64.06,
+      "metrics": {
+        "subscribers": 2730,
+        "total_views": 12754073,
+        "video_count": 319,
+        "avg_views_per_video": 39981.42,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "eyU48fAJKWg",
+            "title": "정부 통제 개무시하고 진실 보도한 언론사",
+            "description": "",
+            "published_at": "2026-08-22T12:00:09Z",
+            "url": "https://www.youtube.com/watch?v=eyU48fAJKWg"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-22T12:00:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0AaApLb8aya3FnZ7jrJ38g",
+      "external_id": "UC0AaApLb8aya3FnZ7jrJ38g",
+      "name": "VOD News ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0AaApLb8aya3FnZ7jrJ38g",
+      "discovered_on": "2026-08-23",
+      "score": 62.59,
+      "metrics": {
+        "subscribers": 29700,
+        "total_views": 16605192,
+        "video_count": 23161,
+        "avg_views_per_video": 716.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "N3VuT6b5a0I",
+            "title": "‘ডট ডট ডট’ শব্দটা উচ্চারণ করতেও ভয় পাচ্ছি: মিডিয়া | Tanha Shanta | NCP | VOD News",
+            "description": "'ডট ডট ডট' শব্দটা উচ্চারণ করতেও ভয় পাচ্ছি: মিডিয়া | Tanha Shanta | VOD News ...",
+            "published_at": "2026-08-23T04:00:08Z",
+            "url": "https://www.youtube.com/watch?v=N3VuT6b5a0I"
+          }
+        ],
+        "channel_description": "VOD News (Voice of Democracy) is a leading Bangla news channel delivering the latest Bangladesh news, breaking news, political news, and current affairs updates in real time.\n\nWe provide fast, reliable, and unbiased news coverage from Bangladesh and around the world. Our channel focuses on breaking news, political developments, government updates, international news, and viral trending stories in Bangla.\n\nIf you are looking for Bangladesh news today, breaking news Bangladesh, political news Bangladesh, and latest Bangla news updates, then VOD News is your trusted source.\n\n📰 We Cover:\nBreaking News Bangladesh\nLatest Bangla News & Updates\nPolitical News Bangladesh\nBangladesh Current Affairs\nNational & International News\nViral & Trending News Bangla\n🔔 Subscribe VOD News (vodnewsbd)\n\nStay updated with the latest Bangla news, breaking stories, and political updates. Turn on notifications to get instant news alerts.\n",
+        "latest_video_at": "2026-08-23T04:00:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCD-SPMhNYIoIAhVKi7knnqQ",
+      "external_id": "UCD-SPMhNYIoIAhVKi7knnqQ",
+      "name": "The Truth Table",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCD-SPMhNYIoIAhVKi7knnqQ",
+      "discovered_on": "2026-08-23",
+      "score": 60.1,
+      "metrics": {
+        "subscribers": 3270,
+        "total_views": 2688541,
+        "video_count": 536,
+        "avg_views_per_video": 5015.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "7Xmudgpfnls",
+            "title": "Erik Slavin Speaks Out After Pentagon Firing 🚨",
+            "description": "Stars and Stripes Editor-in-Chief Erik Slavin is speaking out after being fired by the Pentagon, saying the dispute centered on his ...",
+            "published_at": "2026-08-22T21:05:35Z",
+            "url": "https://www.youtube.com/watch?v=7Xmudgpfnls"
+          }
+        ],
+        "channel_description": "Welcome to The Truth Table – where facts meet clarity.\n\nWe deliver daily news coverage and deep-dive analysis on the stories shaping America and the world. From breaking political developments to major cultural shifts, we cut through the noise to bring you verified information you can trust.\n\n🎯 What We Cover:\n- US Politics & Policy\n- Breaking News Analysis\n- Economic & Business Updates\n- Social & Cultural Issues\n- In-Depth Investigations\n\n\n- Deep Dive Analysis: Weekly\n- Breaking News: As it happens\n\nAt The Truth Table, everyone has a seat. We bring different perspectives to one conversation, because truth emerges when we examine stories from all angles.\n\nSubscribe for fact-based journalism powered by AI technology and human oversight. No bias. No agenda. Just the truth.\n\n---\n\n#News #USPolitics #Analysis #BreakingNews #TruthMatters\n",
+        "latest_video_at": "2026-08-22T21:05:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCkip7kcCrGLQqvyN-67PEew",
+      "external_id": "UCkip7kcCrGLQqvyN-67PEew",
+      "name": "Poonam Lifestyles",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCkip7kcCrGLQqvyN-67PEew",
+      "discovered_on": "2026-08-23",
+      "score": 57.77,
+      "metrics": {
+        "subscribers": 4910,
+        "total_views": 2961241,
+        "video_count": 3063,
+        "avg_views_per_video": 966.78,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "PDFs9lZ3rZQ",
+            "title": "हेलो गाइस मुझे पहचान लिया 😨🤪 #independent # #entertament  #youtubeshorts #news #viral",
+            "description": "",
+            "published_at": "2026-08-22T16:12:50Z",
+            "url": "https://www.youtube.com/watch?v=PDFs9lZ3rZQ"
+          }
+        ],
+        "channel_description": "💐💐Welcome to my YouTube channel Poonam lifestyle Vlog all friends.💐💐 My name is Poonam Cooking Receipe, lifestyle vlog dekne ke liya Please subscribe.🙏🙏",
+        "latest_video_at": "2026-08-22T16:12:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCK3S5SF-AaHfmmofZMQEEKA",
+      "external_id": "UCK3S5SF-AaHfmmofZMQEEKA",
+      "name": "Shunyatax Global ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCK3S5SF-AaHfmmofZMQEEKA",
+      "discovered_on": "2026-08-23",
+      "score": 56.74,
+      "metrics": {
+        "subscribers": 4680,
+        "total_views": 729573,
+        "video_count": 1135,
+        "avg_views_per_video": 642.8,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "OBva6vEmTa0",
+            "title": "From Climate Strikes to Civil Society: The Lifecycle of Full-Time Activism Analyzed",
+            "description": "Ever wondered how certain public figures and professional activists manage to transition seamlessly between diverse ...",
+            "published_at": "2026-08-22T11:31:55Z",
+            "url": "https://www.youtube.com/watch?v=OBva6vEmTa0"
+          }
+        ],
+        "channel_description": "Shunyatax Global | 1000 days : 1000 vids | Riding the Millennium Falcon, into the unknown to infinity and beyond. Come Aboard! Swimming in Financial Services from Fundraising to taxation, Auditing,Offshore Tax & NRI Taxation. \nhttps://shunyatax.in\n\n",
+        "latest_video_at": "2026-08-22T11:31:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCnosrfP8oR52egd0D9ECIpg",
       "external_id": "UCnosrfP8oR52egd0D9ECIpg",
