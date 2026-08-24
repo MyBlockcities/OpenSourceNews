@@ -2,19 +2,196 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-23T10:45:28Z",
-  "new_this_run": 6,
-  "total_influencers": 163,
+  "updated_at": "2026-08-24T10:57:46Z",
+  "new_this_run": 3,
+  "total_influencers": 166,
   "run_summary": {
-    "run_started_at": "2026-08-23T10:45:09Z",
-    "candidate_count": 13,
-    "existing_count": 157,
-    "selected_new_count": 6,
+    "run_started_at": "2026-08-24T10:57:27Z",
+    "candidate_count": 9,
+    "existing_count": 163,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCv6ABGZYKyU20f1DNMWQOOA",
+      "external_id": "UCv6ABGZYKyU20f1DNMWQOOA",
+      "name": "Kim Constable ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCv6ABGZYKyU20f1DNMWQOOA",
+      "discovered_on": "2026-08-24",
+      "score": 82.57,
+      "metrics": {
+        "subscribers": 37300,
+        "total_views": 4266776,
+        "video_count": 1307,
+        "avg_views_per_video": 3264.56,
+        "matched_queries": 2,
+        "sample_videos": 5
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "n1BxMJTM2mw",
+            "title": "The KGLOW Stack Reconstitution (KLOW)",
+            "description": "50mg GHKCu 10mg KPV 10mg BPC157 10mg TB500 10ml BAC water Disclaimer: This content is for educational and ...",
+            "published_at": "2026-08-23T14:49:42Z",
+            "url": "https://www.youtube.com/watch?v=n1BxMJTM2mw"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "n1BxMJTM2mw",
+            "title": "The KGLOW Stack Reconstitution (KLOW)",
+            "description": "50mg GHKCu 10mg KPV 10mg BPC157 10mg TB500 10ml BAC water Disclaimer: This content is for educational and ...",
+            "published_at": "2026-08-23T14:49:42Z",
+            "url": "https://www.youtube.com/watch?v=n1BxMJTM2mw"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "MrDALOtjz7c",
+            "title": "BPC157 5mg Reconstitution",
+            "description": "5mg BPC157 1ml BAC water Disclaimer: This content is for educational and informational purposes only and does not constitute ...",
+            "published_at": "2026-08-23T13:51:36Z",
+            "url": "https://www.youtube.com/watch?v=MrDALOtjz7c"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "PYDgGUnOVME",
+            "title": "BPC157 10mg Reconstitution",
+            "description": "10mg BPC157 2ml BAC water Disclaimer: This content is for educational and informational purposes only and does not constitute ...",
+            "published_at": "2026-08-23T13:48:05Z",
+            "url": "https://www.youtube.com/watch?v=PYDgGUnOVME"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "Wgl8WHjl7bE",
+            "title": "TB500 5mg Reconstitution",
+            "description": "5mg TB500 1ml BAC water Disclaimer: This content is for educational and informational purposes only and does not constitute ...",
+            "published_at": "2026-08-23T13:47:05Z",
+            "url": "https://www.youtube.com/watch?v=Wgl8WHjl7bE"
+          }
+        ],
+        "channel_description": "Get fit with me\nwww.thesculptedvegan.com \n",
+        "latest_video_at": "2026-08-23T14:49:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCVRqF4H7agcJ3c5l949vZ7Q",
+      "external_id": "UCVRqF4H7agcJ3c5l949vZ7Q",
+      "name": "Tarannum A Khan ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCVRqF4H7agcJ3c5l949vZ7Q",
+      "discovered_on": "2026-08-24",
+      "score": 70.25,
+      "metrics": {
+        "subscribers": 27000,
+        "total_views": 41859064,
+        "video_count": 1499,
+        "avg_views_per_video": 27924.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "dZHpflAQ1hc",
+            "title": "Peptide Lip Treatment #viralvideo #youtubeshorts #shorts #trending #short #ytshorts #shortvideo #fyp",
+            "description": "Olehenriksen Pout Preserve Peptide Lip Treatment.",
+            "published_at": "2026-08-24T08:53:17Z",
+            "url": "https://www.youtube.com/watch?v=dZHpflAQ1hc"
+          }
+        ],
+        "channel_description": "Subscribe & Follow To Get Makeup & Beauty Related Contents Daily. Trying To Keep It Aesthetic & girly 🩷✨🎀",
+        "latest_video_at": "2026-08-24T08:53:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCuhATf1s2NDCG6HjK1WgU9g",
+      "external_id": "UCuhATf1s2NDCG6HjK1WgU9g",
+      "name": "Richard P. Jacoby, DPM Unglued",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCuhATf1s2NDCG6HjK1WgU9g",
+      "discovered_on": "2026-08-24",
+      "score": 61.11,
+      "metrics": {
+        "subscribers": 3160,
+        "total_views": 75540,
+        "video_count": 228,
+        "avg_views_per_video": 331.32,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "Eo3NpAyrEas",
+            "title": "Get your Peptides and Stem Cells in Scottsdale 480 841 8185",
+            "description": "Call 480 841 8185 Now Doctor Richard Jacoby uses naturally occurring peptides, such as BPC one five seven, to support ...",
+            "published_at": "2026-08-24T07:00:27Z",
+            "url": "https://www.youtube.com/watch?v=Eo3NpAyrEas"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "Eo3NpAyrEas",
+            "title": "Get your Peptides and Stem Cells in Scottsdale 480 841 8185",
+            "description": "Call 480 841 8185 Now Doctor Richard Jacoby uses naturally occurring peptides, such as BPC one five seven, to support ...",
+            "published_at": "2026-08-24T07:00:27Z",
+            "url": "https://www.youtube.com/watch?v=Eo3NpAyrEas"
+          }
+        ],
+        "channel_description": "Do you wonder why you're sick?\nAll those chips you're eating, the Cokes you're drinking, the snacks you have at your disposal, the coffee, the whipped cream, and sugar as you drink and drive?\nI'm telling you that's what's making you sick. It's not fat, it's sugar. And in my Academy, \nhttps://drjacoby.academy\n\nI will tell you how to get off of those products and I'll tell you in my new book, Un-Glued, the details behind this phenomenon.\n\nGet the PREVIEW for less than $20 !!\n",
+        "latest_video_at": "2026-08-24T07:00:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCFm-iPapnNySqnalxTotFwg",
       "external_id": "UCFm-iPapnNySqnalxTotFwg",
