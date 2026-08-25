@@ -2,19 +2,463 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-24T10:57:51Z",
-  "new_this_run": 12,
-  "total_influencers": 1009,
+  "updated_at": "2026-08-25T10:54:46Z",
+  "new_this_run": 13,
+  "total_influencers": 1022,
   "run_summary": {
-    "run_started_at": "2026-08-24T10:57:27Z",
-    "candidate_count": 46,
-    "existing_count": 997,
-    "selected_new_count": 12,
+    "run_started_at": "2026-08-25T10:54:23Z",
+    "candidate_count": 41,
+    "existing_count": 1009,
+    "selected_new_count": 13,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCdGEz3D_GgB_GzZQ-0Gpi-g",
+      "external_id": "UCdGEz3D_GgB_GzZQ-0Gpi-g",
+      "name": "Serdar Kovancı",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCdGEz3D_GgB_GzZQ-0Gpi-g",
+      "discovered_on": "2026-08-25",
+      "score": 69.57,
+      "metrics": {
+        "subscribers": 11400,
+        "total_views": 718264,
+        "video_count": 105,
+        "avg_views_per_video": 6840.61,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/analitikfitness",
+        "youtube": "https://www.youtube.com/@AnalitikFitness"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "9-s5m7oOCQc",
+            "title": "12 Tekrar Yapıyorsan Kasların Hiç UYANMIYOR! 50 Yaş Üstü İçin DOĞRU Sayı?",
+            "description": "https://www.youtube.com/@AnalitikFitness https://www.instagram.com/analitikfitness/ Katıl butonuna basarak kanalın devam ...",
+            "published_at": "2026-08-24T18:00:23Z",
+            "url": "https://www.youtube.com/watch?v=9-s5m7oOCQc"
+          }
+        ],
+        "channel_description": "Hoş Geldiniz.\n50 yaşına gelmenin bir \"durak\" değil, yeni ve daha akıllıca bir stratejinin başlangıcı olduğuna inanıyorum.\nBen kimim? Yıllarca Jandarma Genel Komutanlığı'nda çalışmış emekli bir subayım. 20 senedir eğitmen seviyesinde fitness yapıyorum. Meslek hayatım boyunca \"hazırlıklı olmanın\" ve \"stratejik düşünmenin\" hayat kurtardığını gördüm. Şimdi bu analitik disiplini, hayatımın en büyük tutkusu olan fitness ve sağlıklı yaşamla birleştiriyorum.\nAnalitik Fitness Nedir? YouTube’da binlerce fitness kanalı bulabilirsiniz. Ancak burada \"boş motivasyon\" veya \"rastgele antrenman\" yok.\nBenim için fitness bir hobi değil, bir \"hazır olma\" meselesidir. Eğer siz de 40’lı, 50’li yaşlarda ve sonrasında; daha dinç, daha güçlü ve kendi vücudunun egemeni bir birey olmak istiyorsanız, doğru yerdesiniz. Yeniden başlıyoruz.\n#SerdarKovancı #longevity  #SağlıklıYaşam #fitness \n",
+        "latest_video_at": "2026-08-24T18:00:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCQvTfuoVPyoB94pCZ8DMTdg",
+      "external_id": "UCQvTfuoVPyoB94pCZ8DMTdg",
+      "name": "Yaya Tshuma",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCQvTfuoVPyoB94pCZ8DMTdg",
+      "discovered_on": "2026-08-25",
+      "score": 68.35,
+      "metrics": {
+        "subscribers": 23800,
+        "total_views": 3769031,
+        "video_count": 271,
+        "avg_views_per_video": 13907.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "or9DFQruPq8",
+            "title": "THE REBRAND EP 13 | entering my hybrid era - training for HYROX, new oner active + lunch date",
+            "description": "hey girls, welcome back to my youtube channel and a new episode of the rebrand… episode 13 NEW PROGRAM: use code ...",
+            "published_at": "2026-08-24T21:35:27Z",
+            "url": "https://www.youtube.com/watch?v=or9DFQruPq8"
+          }
+        ],
+        "channel_description": "📍htx | online coach | fitness | lifestyle \n@oneractive athlete | CODE YAYA\n💌: ayandatshuma08@gmail.com",
+        "latest_video_at": "2026-08-24T21:35:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCrOf6-WciHB1KOb6Q30Rd2w",
+      "external_id": "UCrOf6-WciHB1KOb6Q30Rd2w",
+      "name": "Undaunted.Life: A Man's Podcast",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCrOf6-WciHB1KOb6Q30Rd2w",
+      "discovered_on": "2026-08-25",
+      "score": 65.41,
+      "metrics": {
+        "subscribers": 41500,
+        "total_views": 2439923,
+        "video_count": 1485,
+        "avg_views_per_video": 1643.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "OoyqL_tD4XU",
+            "title": "ERNIE COLLING | The Truth About Peptides (Ep. 961)",
+            "description": "In this episode, we welcome Ernie Colling to the show. He is a United State Army Veteran and the CEO of Victrix Wellness.",
+            "published_at": "2026-08-25T08:00:11Z",
+            "url": "https://www.youtube.com/watch?v=OoyqL_tD4XU"
+          }
+        ],
+        "channel_description": "Most content created “for men” fails to equip men to be spiritually, mentally, and physically resilient in the face of life’s obstacles. The content is usually too feminine, secular, broad, or corny. Undaunted.Life produces content specifically designed for the rugged Christian looking for ways to improve as a man. The men that consume our content stand ready to push back spiritual and cultural darkness. We will seek the Lion of Judah. Let's get into it...\n\n#UndauntedLife #AMansPodcast #KyleThompson\n",
+        "latest_video_at": "2026-08-25T08:00:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCa8rR1ll79lumCI3_oS2I1A",
+      "external_id": "UCa8rR1ll79lumCI3_oS2I1A",
+      "name": "Greater Baltimore Medical Center",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCa8rR1ll79lumCI3_oS2I1A",
+      "discovered_on": "2026-08-25",
+      "score": 61.5,
+      "metrics": {
+        "subscribers": 7600,
+        "total_views": 4622402,
+        "video_count": 1577,
+        "avg_views_per_video": 2931.14,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "c6nTlgGJDiI",
+            "title": "Wellness Advice That Works With Dr. Ashley Yuen",
+            "description": "Every week there's a new wellness trend, a new supplement, a new reason to feel behind on your health. Dr. Ashley Yuen, a ...",
+            "published_at": "2026-08-24T21:18:20Z",
+            "url": "https://www.youtube.com/watch?v=c6nTlgGJDiI"
+          }
+        ],
+        "channel_description": "In this era of healthcare reform, GBMC is moving toward a patient-centered, evidence-based medicine model where physicians and care teams focus on a patient's overall wellness and long-term care rather than episodic care. To accomplish this, we are making significant investments in healthcare information technology (EMR, CPOE) and are building a network of hospital and community-based healthcare providers (GBHA) to deliver integrated and coordinated care.\n\nThe Mission of GBMC is to provide medical care and service of the highest quality to each patient and to educate the next generation of clinicians, leading to health, healing and hope for the community.",
+        "latest_video_at": "2026-08-24T21:18:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC4FJqQhJBTnc8T_2UUXKtUA",
+      "external_id": "UC4FJqQhJBTnc8T_2UUXKtUA",
+      "name": "Bulet News",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC4FJqQhJBTnc8T_2UUXKtUA",
+      "discovered_on": "2026-08-25",
+      "score": 57.14,
+      "metrics": {
+        "subscribers": 4550,
+        "total_views": 212191,
+        "video_count": 264,
+        "avg_views_per_video": 803.75,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "FMrvcgsJVA4",
+            "title": "Sustainable Movement: Why Functional Strength and Recovery Beat Punishing Workouts",
+            "description": "Stop using exercise as a punishment. 🏋️‍♂️✨ Modern fitness has moved away from chronic exhaustion. Here is how ...",
+            "published_at": "2026-08-25T08:46:36Z",
+            "url": "https://www.youtube.com/watch?v=FMrvcgsJVA4"
+          }
+        ],
+        "channel_description": "The Bu•let – Just the Gist. No Fluff.\n\nWelcome to The Bulet YouTube channel — your evening wrap-up for everything you actually care about. Think of this as your PM edition, perfectly paired with the AM Bulet, our newsletter that hits your inbox with sharp, customized bullet points covering news, pop culture, finance, fashion, health, and more — all tailored to you.\n\nTired of scrolling to find what matters? We get it. That’s why The Bulet cuts through the noise and curates only the essentials in a clean, bold, and bite-sized style — just like our iconic orange dot.\n\n🔸 Start your mornings right with the newsletter\n🔸 Catch up in the evenings right here on YouTube\n🔸 Never miss a beat on the topics you actually follow\n\n📩 Sign up at TheBulet.com\n to get your custom Bulet Briefing delivered daily.\n🎯 Curated. Concise. Completely yours.\n",
+        "latest_video_at": "2026-08-25T08:46:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:aeb21509a4d721c232d7",
+      "external_id": "aeb21509a4d721c232d7",
+      "name": "Hariom Tatsat",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Zd4zNxHoJwZmmuLrq/rogue-ai-agents-is-surface-level-monitoring-enough",
+      "discovered_on": "2026-08-25",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/Thom_Wolf"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Rogue AI Agents: Is Surface-Level Monitoring Enough?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8fe9345d73cbcfde155c",
+      "external_id": "8fe9345d73cbcfde155c",
+      "name": "greeshma ranjeev",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/zHJQJEH2vBhPFjfHX/dual-layer-approach-to-mitigating-ai-generated-biological-1",
+      "discovered_on": "2026-08-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Dual-Layer Approach to Mitigating AI-Generated Biological Threats"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9e2d8be4c9f1806f5611",
+      "external_id": "9e2d8be4c9f1806f5611",
+      "name": "Towards_Keeperhood",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/H7FB9rYGHTvQutHc9/distillation-of-the-ai2040-alignment-roadmap",
+      "discovered_on": "2026-08-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Distillation of the AI2040 Alignment Roadmap"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:54891618b7849796ec72",
+      "external_id": "54891618b7849796ec72",
+      "name": "Mikewins",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/NjLQf3QC4q4DD67kD/the-forkmakers",
+      "discovered_on": "2026-08-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Forkmakers"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a6c8502b2ddf0c787930",
+      "external_id": "a6c8502b2ddf0c787930",
+      "name": "Leonard A. Schuette",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/new-rights-grand-strategy-after-trump",
+      "discovered_on": "2026-08-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The New Right's Grand Strategy After Trump"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e721187b0cc4b879e343",
+      "external_id": "e721187b0cc4b879e343",
+      "name": "Latha jaswanth",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ebDmizZpDKFEJLzRA/your-evaluation-s-fake-names-should-be-unclaimable-not",
+      "discovered_on": "2026-08-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Your Evaluation's Fake names Should Be Unclaimable ,Not Merely Used"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:3a9e2211c0431df903cb",
+      "external_id": "3a9e2211c0431df903cb",
+      "name": "Elan Kluger",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Px6njTJL4iN4AEe7M/magazine-fundraising",
+      "discovered_on": "2026-08-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Magazine Fundraising"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e01f5a1b746c92d810f7",
+      "external_id": "e01f5a1b746c92d810f7",
+      "name": "Ana Leonescu",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/tRY2DDv8yDtfnazM8/an-ai4chemist-s-perspective-on-biosecurity",
+      "discovered_on": "2026-08-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "An AI4Chemist’s perspective on biosecurity"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCq9BpdnRIC5Jm1hGQZJzlQg",
       "external_id": "UCq9BpdnRIC5Jm1hGQZJzlQg",
