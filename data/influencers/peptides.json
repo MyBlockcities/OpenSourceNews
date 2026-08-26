@@ -2,19 +2,334 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-25T10:54:42Z",
-  "new_this_run": 5,
-  "total_influencers": 171,
+  "updated_at": "2026-08-26T10:54:55Z",
+  "new_this_run": 7,
+  "total_influencers": 178,
   "run_summary": {
-    "run_started_at": "2026-08-25T10:54:23Z",
-    "candidate_count": 10,
-    "existing_count": 166,
-    "selected_new_count": 5,
+    "run_started_at": "2026-08-26T10:54:37Z",
+    "candidate_count": 14,
+    "existing_count": 171,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCO92suM8nwC-h_53NLH_sWQ",
+      "external_id": "UCO92suM8nwC-h_53NLH_sWQ",
+      "name": "Overheard Beauty",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCO92suM8nwC-h_53NLH_sWQ",
+      "discovered_on": "2026-08-26",
+      "score": 70.46,
+      "metrics": {
+        "subscribers": 17300,
+        "total_views": 15726583,
+        "video_count": 274,
+        "avg_views_per_video": 57396.29,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "XfhEFndt0AI",
+            "title": "Treatment peptide di Youth Beauty biar awet muda kayak Jennifer Aniston",
+            "description": "",
+            "published_at": "2026-08-26T07:40:15Z",
+            "url": "https://www.youtube.com/watch?v=XfhEFndt0AI"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-26T07:40:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCVH8kt_psY4XcZWhgK0IKrw",
+      "external_id": "UCVH8kt_psY4XcZWhgK0IKrw",
+      "name": "Repechage",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCVH8kt_psY4XcZWhgK0IKrw",
+      "discovered_on": "2026-08-26",
+      "score": 65.79,
+      "metrics": {
+        "subscribers": 17400,
+        "total_views": 2934382,
+        "video_count": 443,
+        "avg_views_per_video": 6623.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "KuW0gvYgcYA",
+            "title": "Repêchage Cryo Peptide Facial + IV Wellness Training",
+            "description": "Beauty meets wellness—from the inside out. Our hands-on training explored combining the Repêchage Cryo Peptide Facial ...",
+            "published_at": "2026-08-25T23:35:35Z",
+            "url": "https://www.youtube.com/watch?v=KuW0gvYgcYA"
+          }
+        ],
+        "channel_description": "Watch our videos for skin care advice, beauty tips, beauty how-tos and step by step tutorials from our team of licensed estheticians and trained skin care experts.\n\nAbout us: We are a leading skin care company in the professional beauty industry for over 35 years! One of our top priorities is skin care education. We offer esthetic training around the globe to beauty industry professionals, and want to share our skin care knowledge with you!\n\nFeel free to leave questions and feedback our videos. We’d be happy to answer any questions you have!\n\nNew video every Wednesday - Subscribe and get notified! \n\nVisit our other sites, the links are below.",
+        "latest_video_at": "2026-08-25T23:35:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCdpBN-0w6wxGqULXHhEjbQA",
+      "external_id": "UCdpBN-0w6wxGqULXHhEjbQA",
+      "name": "The Zero Downside",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCdpBN-0w6wxGqULXHhEjbQA",
+      "discovered_on": "2026-08-26",
+      "score": 61.43,
+      "metrics": {
+        "subscribers": 10700,
+        "total_views": 631576,
+        "video_count": 360,
+        "avg_views_per_video": 1754.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "13kcwcLuSR4",
+            "title": "EP. 55 | Who Controls Your Peptides?: Big Pharma, Patents &amp; The Fight For Access | MOABTexas.com",
+            "description": "In this episode of The Zero Downside Podcast, Dr. Wade McKenna breaks down what Eli Lilly's massive earnings reveal about the ...",
+            "published_at": "2026-08-25T23:00:19Z",
+            "url": "https://www.youtube.com/watch?v=13kcwcLuSR4"
+          }
+        ],
+        "channel_description": "Welcome to the official Zero Downside YouTube channel.\n\nThe Zero Downside Podcast is hosted by MOABTexas founder Dr. Wade McKenna, a Fellowship Trained Orthopedic Trauma Surgeon who co-founded Biologic Therapies, a product development research company dedicated to the advancement of autologous stem cell therapy, as well as patented the BioMac bone marrow aspiration catheter. The podcast discusses regenerative medicine and its’ science-based techniques, including innovative medical approaches to optimize your body's resources to heal, correct injuries, and restore balance.\n \nDr McKenna, a patient-centered advocate, aims to venture into an alternative healthcare narrative that prioritizes the well-being of individuals.\n\nCollaborating with his team members, fellow health experts, and patient advocates, he reveals the undeniable absence of any downsides to holistic medicine compared to traditional forms of care.\n",
+        "latest_video_at": "2026-08-25T23:00:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCi_REsYTNozmZrtfpmZB2lw",
+      "external_id": "UCi_REsYTNozmZrtfpmZB2lw",
+      "name": "Progressive Warrior Monster",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCi_REsYTNozmZrtfpmZB2lw",
+      "discovered_on": "2026-08-26",
+      "score": 56.13,
+      "metrics": {
+        "subscribers": 2370,
+        "total_views": 2048677,
+        "video_count": 1626,
+        "avg_views_per_video": 1259.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "yRi1lJv6a1U",
+            "title": "How Larry Must heal his biceps with stem cell therapy and peptides #larry #youtubesearch #shortsfeed",
+            "description": "",
+            "published_at": "2026-08-25T19:41:59Z",
+            "url": "https://www.youtube.com/watch?v=yRi1lJv6a1U"
+          }
+        ],
+        "channel_description": "YOUR WORKOUT PARTNER , FITNESS MOTIVATOR, ETERNAL STUDENT OF FITNESS, Medium to High intensity Cardio workouts, philosophical training, Mixed Martial Arts, Crossfit, Powerlifting, sparring sessions, Bodybuilding , Boxing, High Strength Endurance Training, Developing Theories and Testing, Mixing Reality , Anime Workouts and theoretical result to test real life feasibility, HUMAN LIMIT PUSHING And BUILDING A COMMUNITY OF FITNESS WARRIORS.  \n\n\nWEIGHT TRANSFORMATION \nRECORD: 105KG - 61KG , 97KG - 75KG \nCURRENT WEIGHT : 75KG \nAIM: 300KG BENCH, DEADLIFT AND OVERHEAD..\n\nLET'S EVOLVE AND CRUSH LIMITS AND DIVE DEEP INTO THE ABYSS OF THE FITNESS WORLD\nP\n",
+        "latest_video_at": "2026-08-25T19:41:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCXipWcR8Pit6vYHd1ZcKgKg",
+      "external_id": "UCXipWcR8Pit6vYHd1ZcKgKg",
+      "name": "Eyes Wide Open with Nick Thompson",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCXipWcR8Pit6vYHd1ZcKgKg",
+      "discovered_on": "2026-08-26",
+      "score": 54.56,
+      "metrics": {
+        "subscribers": 2400,
+        "total_views": 374475,
+        "video_count": 624,
+        "avg_views_per_video": 600.12,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "stZCDx22pos",
+            "title": "What Peptides &amp; Stem Cells Actually Do with Dr. Joy Kong",
+            "description": "StemCells #RegenerativeMedicine #Peptides Stem Cell Therapy Explained: What Stem Cells & Peptides Actually Do - Dr. Joy ...",
+            "published_at": "2026-08-25T15:48:51Z",
+            "url": "https://www.youtube.com/watch?v=stZCDx22pos"
+          }
+        ],
+        "channel_description": "Are you going through life blind?\n\nThis is Eyes Wide Open with Nick Thompson, your destination for unfiltered truth and societal change. We bridge the gap between reality TV fame and real-world impact, stripping away the stigmas surrounding mental health, holistic wellness, culture, politics, and free speech.\n\nHosted by Nick Thompson (Netflix’s Love is Blind Season 2), this platform is for the curious and gritty. Nick is a Storyteller building a forum for raw conversations that challenge the status quo.\n\nWhat to expect:\n- Eyes On: Current events, news, and politics shaping our culture.\n- Weekly Deep Dives: Expert interviews on longevity, holistic wellness, and personal growth.\n- Media Accountability: Exposing reality TV exploitation and the UCAN Foundation mission.\n\nFrom regenerative medicine to media ethics, we dive into issues that matter. Don’t settle for a manufactured narrative. Do the work. Show up with your Eyes Wide Open.\n\nSubscribe for daily commentary and weekly episodes.\n",
+        "latest_video_at": "2026-08-25T15:48:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCbzw_2M4PEPtpgK2kYlV6zQ",
+      "external_id": "UCbzw_2M4PEPtpgK2kYlV6zQ",
+      "name": "Lea Llovio",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCbzw_2M4PEPtpgK2kYlV6zQ",
+      "discovered_on": "2026-08-26",
+      "score": 54.01,
+      "metrics": {
+        "subscribers": 2310,
+        "total_views": 165361,
+        "video_count": 337,
+        "avg_views_per_video": 490.69,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "ZXWewpU4pTo",
+            "title": "Healing, peptides and advanced wellness therapies as well as life optimization require optimizing",
+            "description": "Healing, peptides and advanced wellness therapies as well as life optimization require optimizing your thought processes.",
+            "published_at": "2026-08-26T00:40:48Z",
+            "url": "https://www.youtube.com/watch?v=ZXWewpU4pTo"
+          }
+        ],
+        "channel_description": "Thought Leader | Keynote Speaker | Mind + Body + Spirit Optimization Advisor to the Most Influential Global and Wellness Leaders for Accelerated Healing and Optimized High-Impact Living.\n\nConscious Wellness™ for Conscious Leaders™\nThe Dance Between Scientific Medicine & Spiritual Medicine™ \nDo the Blessing Work + Live the Blessing Way™ \nLive Your Sacred Medicine™\n",
+        "latest_video_at": "2026-08-26T00:40:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCqxoEtHdf7IQw5A4G7D4muw",
+      "external_id": "UCqxoEtHdf7IQw5A4G7D4muw",
+      "name": "Daretodreamit",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCqxoEtHdf7IQw5A4G7D4muw",
+      "discovered_on": "2026-08-26",
+      "score": 52.09,
+      "metrics": {
+        "subscribers": 2240,
+        "total_views": 169400,
+        "video_count": 801,
+        "avg_views_per_video": 211.49,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "t4QJw3KkQps",
+            "title": "Asterwood Peptide Lip Plumper Treatment - Volulip + Matrixyl 3000 + Hyaluronic Acid - Fuller-Looking",
+            "description": "On Sale! https://urlgeni.us/tiktok/HpdtwQ Fuller lips shouldn't come with that burning sensation — this peptide-powered balm ...",
+            "published_at": "2026-08-26T09:56:39Z",
+            "url": "https://www.youtube.com/watch?v=t4QJw3KkQps"
+          }
+        ],
+        "channel_description": "Home | Beauty | Health & Wellness | Personal Care\n",
+        "latest_video_at": "2026-08-26T09:56:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCYAYCTdFgVDukUMTvHWx1uQ",
       "external_id": "UCYAYCTdFgVDukUMTvHWx1uQ",

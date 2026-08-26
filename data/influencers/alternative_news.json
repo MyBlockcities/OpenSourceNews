@@ -2,19 +2,593 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-25T10:54:32Z",
+  "updated_at": "2026-08-26T10:54:46Z",
   "new_this_run": 13,
-  "total_influencers": 320,
+  "total_influencers": 333,
   "run_summary": {
-    "run_started_at": "2026-08-25T10:54:23Z",
-    "candidate_count": 30,
-    "existing_count": 307,
+    "run_started_at": "2026-08-26T10:54:37Z",
+    "candidate_count": 29,
+    "existing_count": 320,
     "selected_new_count": 13,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC-uCV5UTtCwrjnFalOfhLkg",
+      "external_id": "UC-uCV5UTtCwrjnFalOfhLkg",
+      "name": "Björn Banane",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC-uCV5UTtCwrjnFalOfhLkg",
+      "discovered_on": "2026-08-26",
+      "score": 73.23,
+      "metrics": {
+        "subscribers": 91200,
+        "total_views": 40184656,
+        "video_count": 2008,
+        "avg_views_per_video": 20012.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "KWtuTBElPMA",
+            "title": "MEDIENSKANDAL #björnbanane #klartext #alternativemedien #anschlag #afd",
+            "description": "ABONNIEREN und GLOCKE aktivieren, um keine Videos zu verpassen! ▻Ich freue mich sehr über deine Unterstützung!",
+            "published_at": "2026-08-25T14:00:32Z",
+            "url": "https://www.youtube.com/watch?v=KWtuTBElPMA"
+          }
+        ],
+        "channel_description": "📢 WILLKOMMEN BEI BJÖRN BANANE - KLARE WORTE UND KRITISCHE TÖNE 📢\n\nAuf diesem Kanal spreche ich Klartext zu politischen und gesellschaftlichen Themen, die in den Mainstream-Medien oft zu kurz kommen oder einseitig dargestellt werden. Hier biete ich dir:\n\n🎵 POLITISCHE MUSIK mit Botschaft - wie \"Alice für Deutschland\", \"Ostdeutschland\" und \"Mein Herz schlägt blau\"\n\n🎙️ EXKLUSIVE INTERVIEWS mit politischen Persönlichkeiten und mutigen Bürgern, die ihre unzensierte Meinung teilen\n\n💬 POLITISCHE ANALYSEN zu aktuellen Ereignissen - direkt, ungeschminkt und ohne Filter\n\n📰 MEDIEN- UND JUSTIZ-KRITIK - Hinterfrage mit mir die etablierten Strukturen\n\nFast täglich neue Videos. ABONNIERE jetzt und aktiviere die Glocke, um keine neue Veröffentlichung zu verpassen!\n\nAngaben gemäß § 5 TMG\n \nBjörn Winter\nDJ, Entertainment und Vertrieb\nMühlenstrasse 8a\nGebäude 44\n14167 Berlin\n\n#BjörnBanane #\n",
+        "latest_video_at": "2026-08-25T14:00:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJ6sRg6aB_6FIx88mHvnGOQ",
+      "external_id": "UCJ6sRg6aB_6FIx88mHvnGOQ",
+      "name": "POLITIK BÄR",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJ6sRg6aB_6FIx88mHvnGOQ",
+      "discovered_on": "2026-08-26",
+      "score": 71.93,
+      "metrics": {
+        "subscribers": 45800,
+        "total_views": 149907809,
+        "video_count": 5178,
+        "avg_views_per_video": 28950.91,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "oweemP8mgIA",
+            "title": "Alternative Medien immer beliebter – Bürger wenden sich vom ÖRR ab",
+            "description": "",
+            "published_at": "2026-08-26T07:37:35Z",
+            "url": "https://www.youtube.com/watch?v=oweemP8mgIA"
+          }
+        ],
+        "channel_description": "Dieser Kanal bietet Bundestagsreden, Talkshow-Ausschnitte und aktuelle politische Nachrichten aus unterschiedlichen politischen Lagern. Ziel ist es, politische Themen und Debatten für mehr Menschen zugänglich zu machen und zur eigenen Meinungsbildung beizutragen.\nDie gezeigten Inhalte dienen ausschließlich der Information und spiegeln nicht zwangsläufig die Meinung des Kanalbetreibers wider.\nBitte bleibt unabhängig von eurer politischen Einstellung respektvoll und sachlich im Umgang miteinander.\n\n",
+        "latest_video_at": "2026-08-26T07:37:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCB5aqOetGShRd8COycdf_PQ",
+      "external_id": "UCB5aqOetGShRd8COycdf_PQ",
+      "name": "Vasantham TV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCB5aqOetGShRd8COycdf_PQ",
+      "discovered_on": "2026-08-26",
+      "score": 70.45,
+      "metrics": {
+        "subscribers": 80300,
+        "total_views": 5178193,
+        "video_count": 3099,
+        "avg_views_per_video": 1670.92,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "uum6lMSe-_w",
+            "title": "சுயாதீன செய்திப்பார்வை | வசந்தம் டிவி | தினமும் காலை 6.30 மணிக்கு நேரலையாக",
+            "description": "Watch Vasantham TV Programmes & More Updates at https://www.vasantham.lk VASANTHAM TV ON SOCIAL Follow on ...",
+            "published_at": "2026-08-26T10:30:01Z",
+            "url": "https://www.youtube.com/watch?v=uum6lMSe-_w"
+          },
+          {
+            "query": "independent news",
+            "video_id": "hz81HH_7ISg",
+            "title": "சுயாதீன செய்திப்பார்வை | வசந்தம் டிவி | தினமும் காலை 6.30 மணிக்கு நேரலையாக",
+            "description": "Watch Vasantham TV Programmes & More Updates at https://www.vasantham.lk VASANTHAM TV ON SOCIAL Follow on ...",
+            "published_at": "2026-08-26T06:30:33Z",
+            "url": "https://www.youtube.com/watch?v=hz81HH_7ISg"
+          }
+        ],
+        "channel_description": "Vasantham TV (வசந்தம் தொலைக்காட்சி), also known as Wasanthan TV, is a Tamil language television channel in Sri Lanka, operated by the state-governed Independent Television Network Limited (ITN Ltd). Since its launch on 25 June 2009, Vasantham TV has been dedicated to serving the Tamil-speaking community with a diverse range of programs, including News and Current Affairs, Tele-Dramas, Discussions, Educational content, Entertainment, Magazines, and Sports. Special emphasis is placed on Children's, Women's, and religious programs to ensure inclusivity and enrichment.\n\nJoin us on Vasantham TV, where tradition meets innovation, and every story matters.\n",
+        "latest_video_at": "2026-08-26T10:30:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0x58b8W1OdhFcr3RJmJbmg",
+      "external_id": "UC0x58b8W1OdhFcr3RJmJbmg",
+      "name": "DZXL News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0x58b8W1OdhFcr3RJmJbmg",
+      "discovered_on": "2026-08-26",
+      "score": 69.96,
+      "metrics": {
+        "subscribers": 99600,
+        "total_views": 23754365,
+        "video_count": 60717,
+        "avg_views_per_video": 391.23,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://x.com/DZXL_News",
+        "instagram": "https://www.instagram.com/dzxlnews",
+        "tiktok": "https://www.tiktok.com/@dzxlnews",
+        "youtube": "https://www.youtube.com/@dzxlnews"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "T5wLj-gLvZU",
+            "title": "Paplanuhing batas sa social media platforms, hindi censorship kundi pagkontrol at pagparusa lang",
+            "description": "'LAHAT GUSTONG MAGING JOURNALIST' #StraightToThePoint: Binigyang-diin ni Senator Erwin Tulfo na kailangan nang ...",
+            "published_at": "2026-08-26T02:36:58Z",
+            "url": "https://www.youtube.com/watch?v=T5wLj-gLvZU"
+          }
+        ],
+        "channel_description": "Welcome to the official YouTube channel of DZXL News 558 kHz, the flagship AM radio station of RMN Networks, Inc. in Manila. Stay updated with the latest news, current affairs, and in-depth discussions from one of the country's most trusted radio stations.\n\nSubscribe to the DZXL News channel! -  https://www.youtube.com/@dzxlnews\n\nVisit our website - https://rmn.ph/rmn-news-nationwide/\nFacebook - https://www.facebook.com/DZXLNews\nTikTok - https://www.tiktok.com/@dzxlnews\nInstagram - https://www.instagram.com/dzxlnews/\nTwitter/X - https://x.com/DZXL_News\n",
+        "latest_video_at": "2026-08-26T02:36:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCCJre0097H6d4-Ej1kViduw",
+      "external_id": "UCCJre0097H6d4-Ej1kViduw",
+      "name": "Arab News PK",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCCJre0097H6d4-Ej1kViduw",
+      "discovered_on": "2026-08-26",
+      "score": 69.36,
+      "metrics": {
+        "subscribers": 25900,
+        "total_views": 10784424,
+        "video_count": 5489,
+        "avg_views_per_video": 1964.73,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://twitter.com/arabnewspk"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "DfFwgVTzy0Y",
+            "title": "Pakistani film on ‘ghost schools’ awaits fresh review after Sindh censorship row",
+            "description": "Report: https://arab.news/c9r96 •Website: https://www.arabnews.pk •Twitter: https://twitter.com/arabnewspk •Facebook: ...",
+            "published_at": "2026-08-25T11:32:08Z",
+            "url": "https://www.youtube.com/watch?v=DfFwgVTzy0Y"
+          }
+        ],
+        "channel_description": "The Official Arab News Pakistan YouTube Channel\n\nArab News launched its online Pakistan edition on Feb. 8, 2018. It has become the Riyadh-based newspaper’s most successful digital expansion project which arrived on the Pakistani media landscape as part of the newspaper’s ongoing global and digital expansion.\n\nThe promotion of quality over quantity, fact debunking fiction, and attracting readers without sensationalizing stories are the bedrocks on which Arab News was built. It was the Kingdom’s first English-language daily, and the Pakistan edition carries on this tradition through the practice of ethical journalism, while diligently navigating the country’s complexities and its vibrant media landscape. The backbone of its success is its talented team of reporters, editors and social media producers who sort through the news, checking facts and covering developments as they happen.",
+        "latest_video_at": "2026-08-25T11:32:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYRwJnCWfBqFHEHrgc18FFw",
+      "external_id": "UCYRwJnCWfBqFHEHrgc18FFw",
+      "name": "Decoder with Nilay Patel",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCYRwJnCWfBqFHEHrgc18FFw",
+      "discovered_on": "2026-08-26",
+      "score": 68.96,
+      "metrics": {
+        "subscribers": 19600,
+        "total_views": 9346892,
+        "video_count": 388,
+        "avg_views_per_video": 24089.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "iBJiGzBk1Ig",
+            "title": "Do audiences understand independent coverage?",
+            "description": "Do audiences understand independent coverage? Semafor editor-in-chief Ben Smith says “they understand what we're doing ...",
+            "published_at": "2026-08-25T14:00:39Z",
+            "url": "https://www.youtube.com/watch?v=iBJiGzBk1Ig"
+          }
+        ],
+        "channel_description": "Decoder is a show from The Verge about big ideas — and other problems. Verge editor-in-chief Nilay Patel talks to a diverse cast of innovators and policymakers at the frontiers of business and technology to reveal how they’re navigating an ever-changing landscape, what keeps them up at night, and what it all means for our shared future.",
+        "latest_video_at": "2026-08-25T14:00:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTtIXqJrMCj7XyePEBSNFyA",
+      "external_id": "UCTtIXqJrMCj7XyePEBSNFyA",
+      "name": "POLITIK EULE",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCTtIXqJrMCj7XyePEBSNFyA",
+      "discovered_on": "2026-08-26",
+      "score": 68.44,
+      "metrics": {
+        "subscribers": 36200,
+        "total_views": 15311624,
+        "video_count": 757,
+        "avg_views_per_video": 20226.72,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "-bDVi6CulfM",
+            "title": "Vor Jahren SCHON von Regierung GEPLANT! Tino schockt mit INTERNEN Infos zu GEPLANTER MAUER in DEU?!",
+            "description": "Vor Jahren SCHON GEPLANT! Tino schockt mit INTERNEN ERKENNTNISSEN zu GEPLANTER MAUER in DEU?! Während ...",
+            "published_at": "2026-08-23T19:08:52Z",
+            "url": "https://www.youtube.com/watch?v=-bDVi6CulfM"
+          }
+        ],
+        "channel_description": "Die Politik Eule für Politik und News",
+        "latest_video_at": "2026-08-23T19:08:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDoiDUfGITqItw-CyK0RC0g",
+      "external_id": "UCDoiDUfGITqItw-CyK0RC0g",
+      "name": "Cătă și Lori",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDoiDUfGITqItw-CyK0RC0g",
+      "discovered_on": "2026-08-26",
+      "score": 68.07,
+      "metrics": {
+        "subscribers": 27400,
+        "total_views": 25105250,
+        "video_count": 2506,
+        "avg_views_per_video": 10018.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "DXJqp4ghmN4",
+            "title": "BOBBY D DĂ ALARMA! Videoclipurile postate de el ar fi cenzurate! ",
+            "description": "bobbyd #mesajexploziv #cenzura #videoclipuri #libertatedeexprimare #socialmedia #romania #actualitate #stiri #romani #viral ...",
+            "published_at": "2026-08-25T13:36:36Z",
+            "url": "https://www.youtube.com/watch?v=DXJqp4ghmN4"
+          }
+        ],
+        "channel_description": "Salutare! 👋\nSuntem Cătălin și Loredana.\n🎥 Facem vloguri despre diverse evenimente din viața noastră și ne-am propus să împărtășim cu voi experiențele noastre de zi cu zi.\n\n🎥 👉 Dacă vă place conținutul nostru, nu ezitați să vă abonați la acest canal, să ne dați un like și să apăsați pe clopoțel, ca să nu ratați nimic nou!🤗 E gratis, dar ne ajută enorm! 🙏 Mulțumim! 🤗",
+        "latest_video_at": "2026-08-25T13:36:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRoL9MBjGvkEH8UCYpyiBmA",
+      "external_id": "UCRoL9MBjGvkEH8UCYpyiBmA",
+      "name": "The Free Speech Union",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCRoL9MBjGvkEH8UCYpyiBmA",
+      "discovered_on": "2026-08-26",
+      "score": 67.65,
+      "metrics": {
+        "subscribers": 33900,
+        "total_views": 2352344,
+        "video_count": 384,
+        "avg_views_per_video": 6125.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "o9lnShTubSM",
+            "title": "Jason Arday’s death is tragic, but state-sponsored press censorship is never the answer",
+            "description": "Journalists should not be emotionally blackmailed out of doing their jobs — to ask difficult and important questions. Two things ...",
+            "published_at": "2026-08-26T08:43:37Z",
+            "url": "https://www.youtube.com/watch?v=o9lnShTubSM"
+          }
+        ],
+        "channel_description": "Non-partisan, mass membership organisation that protects the speech rights of its members.",
+        "latest_video_at": "2026-08-26T08:43:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC8XjkYMZMc5p2MFOcb8Kvhw",
+      "external_id": "UC8XjkYMZMc5p2MFOcb8Kvhw",
+      "name": "NULLROUTE NEWS 2.0",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC8XjkYMZMc5p2MFOcb8Kvhw",
+      "discovered_on": "2026-08-26",
+      "score": 62.31,
+      "metrics": {
+        "subscribers": 4080,
+        "total_views": 6160092,
+        "video_count": 607,
+        "avg_views_per_video": 10148.42,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ujgVhOtjT-o",
+            "title": "Минцифры УБРАЛО авторизацию по номеру телефона — почему тихо",
+            "description": "Минцифры тихо убрало из законопроекта норму об авторизации по номеру телефона. Что произошло: из документа ...",
+            "published_at": "2026-08-25T16:30:00Z",
+            "url": "https://www.youtube.com/watch?v=ujgVhOtjT-o"
+          }
+        ],
+        "channel_description": "Новости цифровых ограничений РФ и мира!\nТвой стабильный доступ к сервисам 👇🏻👇🏻👇🏻\n",
+        "latest_video_at": "2026-08-25T16:30:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJaojYDDR6iaSoFKecmXUNw",
+      "external_id": "UCJaojYDDR6iaSoFKecmXUNw",
+      "name": "Authority Watch",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJaojYDDR6iaSoFKecmXUNw",
+      "discovered_on": "2026-08-26",
+      "score": 61.65,
+      "metrics": {
+        "subscribers": 2030,
+        "total_views": 1733163,
+        "video_count": 55,
+        "avg_views_per_video": 31512.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "KBn84sT03Ek",
+            "title": "🚨COP DEMANDS ID — JOURNALIST REFUSES TO GIVE UP HIS NAME #firstamendment #idrefusal #copwatch",
+            "description": "A self-described independent journalist filming from public property is approached by police after people nearby complain about ...",
+            "published_at": "2026-08-25T04:45:07Z",
+            "url": "https://www.youtube.com/watch?v=KBn84sT03Ek"
+          }
+        ],
+        "channel_description": "Authority Watch provides professional analysis of real police encounters, ID Refusal, First Amendment Audits, Public Photography, Traffic Stops, and Police Accountability through the lens of the U.S. Constitution. Our videos break down constitutional rights, lawful authority, reasonable suspicion, probable cause, unlawful detention, and civil liberties using objective commentary and legal analysis. Every episode is created for education, journalism, and public awareness, helping viewers better understand where government authority ends and individual rights begin. We do not encourage confrontation or unlawful behavior. Instead, we focus on facts, constitutional principles, and respectful discussion. Some footage is used under Fair Use (17 U.S.C. §107) with original narration, research, editing, and transformative commentary. Know the Law. Know Your Rights. Hold Authority Accountable.\n",
+        "latest_video_at": "2026-08-25T04:45:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJYLqRpfVUypqX6XiP76t0g",
+      "external_id": "UCJYLqRpfVUypqX6XiP76t0g",
+      "name": "Nico Lagan",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJYLqRpfVUypqX6XiP76t0g",
+      "discovered_on": "2026-08-26",
+      "score": 60.78,
+      "metrics": {
+        "subscribers": 12400,
+        "total_views": 2748768,
+        "video_count": 2599,
+        "avg_views_per_video": 1057.63,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "tcb9ZmfzyTc",
+            "title": "Is CTV News Trying to Silence Independent Media Through Copyright Trolling?",
+            "description": "CTV News takes millions in taxpayer money every year. Then they turn around and copyright strike independent creators ...",
+            "published_at": "2026-08-25T16:03:03Z",
+            "url": "https://www.youtube.com/watch?v=tcb9ZmfzyTc"
+          }
+        ],
+        "channel_description": "Nico Lagan | Founder and Host of The Political Orphans\n\nMost political commentators focus on the headlines. I focus on the systems behind them.\n\nMy goal isn't to tell you what to think. It's to help you understand how the system actually works.\n\nAs a former Sales Engineer in the telecommunications industry, I break down complex topics like censorship, surveillance, AI, digital identity, legislation, government power, gun rights and self-defense into language everyday Canadians can understand.\n\nOn this channel you'll find:\n• Free Speech & Censorship\n• Surveillance & Digital Identity\n• AI & Emerging Technologies\n• Gun Rights & Self-Defense\n• Immigration, Energy & Cost of Living\n• Hidden Implementation Mechanisms\n• Political Analysis & Current Events\n\nStop following narratives and start connecting the dots.\n\n🔴 LIVE Sunday - Tuesday - Thursday | 7PM EST\n\n☕ Support Independent Media\nbuymeacoffee.com/nicolagan\n\n📩 Media & Guest Suggestions:\ninfo@nicolagan.com\n",
+        "latest_video_at": "2026-08-25T16:03:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UChiVMDZtKPhOmLVZ6dCR1DA",
+      "external_id": "UChiVMDZtKPhOmLVZ6dCR1DA",
+      "name": "Sky Jack Morgan",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UChiVMDZtKPhOmLVZ6dCR1DA",
+      "discovered_on": "2026-08-26",
+      "score": 60.61,
+      "metrics": {
+        "subscribers": 16600,
+        "total_views": 11197178,
+        "video_count": 10876,
+        "avg_views_per_video": 1029.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "eydbRpu-FzQ",
+            "title": "The Death of Media: ABC Sues Trump Over FCC Censorship",
+            "description": "The two-party system isn't broken. It's working exactly as designed — to protect the people who built it. Trump, Elon, the ...",
+            "published_at": "2026-08-24T20:12:52Z",
+            "url": "https://www.youtube.com/watch?v=eydbRpu-FzQ"
+          }
+        ],
+        "channel_description": "I am a universal liberationist. I advocate for the right to challenge power.\n\nAre you ready to question authority?\n\nThis isn’t independent news. It’s a rejection of power and its lies. I offer honest analysis and gallows humor as our information systems collapse under propaganda, profit, and fear.\n\nWill you crumble under the weight of tyrants, or will you choose to be unruled?",
+        "latest_video_at": "2026-08-24T20:12:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCgbBPg_lsrxD5CD_BNnQESw",
       "external_id": "UCgbBPg_lsrxD5CD_BNnQESw",

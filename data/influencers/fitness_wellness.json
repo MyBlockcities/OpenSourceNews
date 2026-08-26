@@ -2,19 +2,701 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-25T10:54:46Z",
-  "new_this_run": 13,
-  "total_influencers": 1022,
+  "updated_at": "2026-08-26T10:54:59Z",
+  "new_this_run": 19,
+  "total_influencers": 1041,
   "run_summary": {
-    "run_started_at": "2026-08-25T10:54:23Z",
-    "candidate_count": 41,
-    "existing_count": 1009,
-    "selected_new_count": 13,
+    "run_started_at": "2026-08-26T10:54:37Z",
+    "candidate_count": 45,
+    "existing_count": 1022,
+    "selected_new_count": 19,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC0K9NV_lLTT_nxaQiHrNVDg",
+      "external_id": "UC0K9NV_lLTT_nxaQiHrNVDg",
+      "name": "Online Revolution. Школа танцев и спорта онлайн. ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC0K9NV_lLTT_nxaQiHrNVDg",
+      "discovered_on": "2026-08-26",
+      "score": 72.64,
+      "metrics": {
+        "subscribers": 81200,
+        "total_views": 27242664,
+        "video_count": 1516,
+        "avg_views_per_video": 17970.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "_7zx2fssjxk",
+            "title": "Функциональная тренировка",
+            "description": "",
+            "published_at": "2026-08-25T19:14:52Z",
+            "url": "https://www.youtube.com/watch?v=_7zx2fssjxk"
+          }
+        ],
+        "channel_description": "Привет, друзья! Меня зовут Кристина Мацкевич. Со мной Вы научитесь красиво танцевать, иметь замечательную растяжку и многое другое. Много полезных онлайн уроков уже есть на нашем канале. \n\nЯ руководитель шоу-балета \"Культурная революция\" Несмотря на то, что наш коллектив еще молодой, мы много чего достигли. Своим опытом в танцах онлайн я готова поделиться с Вами.  \n\nНовые уроки и челленджи каждую неделю!\nПОДПИСЫВАЙСЯ на наш канал - это даст стимул снимать новые уроки для Вас! Приятного просмотра :)\n\n10ee249f-d033-4d7d-bca7-4b74e9df7c86",
+        "latest_video_at": "2026-08-25T19:14:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCR9FTpidP_ITfAgC9HLnpLA",
+      "external_id": "UCR9FTpidP_ITfAgC9HLnpLA",
+      "name": "Tomo Marjanovic",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCR9FTpidP_ITfAgC9HLnpLA",
+      "discovered_on": "2026-08-26",
+      "score": 70.41,
+      "metrics": {
+        "subscribers": 29400,
+        "total_views": 27322894,
+        "video_count": 1025,
+        "avg_views_per_video": 26656.48,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "jIirHbeK3Ew",
+            "title": "Peptides Are &#39;Dangerous.&#39; Alcohol Isn&#39;t. Got It.",
+            "description": "Peptides are dangerous. Alcohol isn't. That's the story right now. My clinic has prescribed Rx peptides since 2019. I've used them ...",
+            "published_at": "2026-08-25T23:02:29Z",
+            "url": "https://www.youtube.com/watch?v=jIirHbeK3Ew"
+          }
+        ],
+        "channel_description": "Tomo Marjanovic — Former police officer turned healthcare CEO. \nFounder of Aspire Rejuvenation Clinic. \nAuthor of Operation Optimal: Health, Wellness, & Becoming Your Best You \n\nNew episodes of Tomo Talks every week — hormone optimization, longevity, entrepreneurship, and the mindset to build a life worth living.\n\n🔗 Book: tomomarjanovic.com/product/operation-optimal/\n🔗 Clinic: aspirerejuvenation.com\n🔗 Newsletter: tomomarjanovic.substack.com\n\n",
+        "latest_video_at": "2026-08-25T23:02:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC_Gf9VrysL3aCPooHteIs0g",
+      "external_id": "UC_Gf9VrysL3aCPooHteIs0g",
+      "name": "World Fitness Project",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC_Gf9VrysL3aCPooHteIs0g",
+      "discovered_on": "2026-08-26",
+      "score": 68.5,
+      "metrics": {
+        "subscribers": 33400,
+        "total_views": 3597836,
+        "video_count": 389,
+        "avg_views_per_video": 9248.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "NbhrYtMZHhI",
+            "title": "PRO 1 | Grand Park Pro – Tour Stop 2 Workout Flows | World Fitness Tour 2026",
+            "description": "Grand Park Pro 1 is presented by Turtlebox. Livestream will be available on our YouTube channel and on watchwfp.com.",
+            "published_at": "2026-08-25T20:00:03Z",
+            "url": "https://www.youtube.com/watch?v=NbhrYtMZHhI"
+          }
+        ],
+        "channel_description": "The official YouTube page of the World Fitness Project (WFP).\n\nThe World Fitness Project is an international functional fitness competition series bringing athletes together across Pro, Challenger, and Competitor divisions. Watch workouts, livestreams, highlights, exclusive athlete content, and behind-the-scenes content on the WFP channel.\n\nSubscribe to see the newest content first!\n",
+        "latest_video_at": "2026-08-25T20:00:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVH8kt_psY4XcZWhgK0IKrw",
+      "external_id": "UCVH8kt_psY4XcZWhgK0IKrw",
+      "name": "Repechage",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCVH8kt_psY4XcZWhgK0IKrw",
+      "discovered_on": "2026-08-26",
+      "score": 65.79,
+      "metrics": {
+        "subscribers": 17400,
+        "total_views": 2934382,
+        "video_count": 443,
+        "avg_views_per_video": 6623.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "KuW0gvYgcYA",
+            "title": "Repêchage Cryo Peptide Facial + IV Wellness Training",
+            "description": "Beauty meets wellness—from the inside out. Our hands-on training explored combining the Repêchage Cryo Peptide Facial ...",
+            "published_at": "2026-08-25T23:35:35Z",
+            "url": "https://www.youtube.com/watch?v=KuW0gvYgcYA"
+          }
+        ],
+        "channel_description": "Watch our videos for skin care advice, beauty tips, beauty how-tos and step by step tutorials from our team of licensed estheticians and trained skin care experts.\n\nAbout us: We are a leading skin care company in the professional beauty industry for over 35 years! One of our top priorities is skin care education. We offer esthetic training around the globe to beauty industry professionals, and want to share our skin care knowledge with you!\n\nFeel free to leave questions and feedback our videos. We’d be happy to answer any questions you have!\n\nNew video every Wednesday - Subscribe and get notified! \n\nVisit our other sites, the links are below.",
+        "latest_video_at": "2026-08-25T23:35:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCyEHOAQuTMQqgXMt_0fMlsg",
+      "external_id": "UCyEHOAQuTMQqgXMt_0fMlsg",
+      "name": "SplitsOnTheSide",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCyEHOAQuTMQqgXMt_0fMlsg",
+      "discovered_on": "2026-08-26",
+      "score": 63.92,
+      "metrics": {
+        "subscribers": 10400,
+        "total_views": 4463736,
+        "video_count": 777,
+        "avg_views_per_video": 5744.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "X42M3LnPbTE",
+            "title": "Why not train my foot to hit a light switch with leg raises? #functionalfitness #functionaltraining",
+            "description": "We've been doing functional fitness all wrong.. This is what training at home actually prepares you for. I've been doing leg raises ...",
+            "published_at": "2026-08-25T21:00:31Z",
+            "url": "https://www.youtube.com/watch?v=X42M3LnPbTE"
+          }
+        ],
+        "channel_description": "💪 Helping you master your body through consistency\n🤸‍♂️ Live Daily Side Splits Workout (12 months+ strong!)\n🗓️ Building fitness habits one day at a time\nContact: Ken@SplitsOnTheSide.com\n\nThink of me as your training partner. I'm just someone who discovered that consistency unlocks things you didn't think were possible. Here you'll find quick workouts, calisthenics tutorials, stretching routines, habit building videos designed for busy people who want to build strength, flexibility, consistency, and confidence. Fitness is for everyone, and we're figuring it out together!\n\nSubscribe for regular videos and Stretch with me live at 9 PM EST/6 PM PST👇🏻\n",
+        "latest_video_at": "2026-08-25T21:00:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCHwNfJsDJkNa3D-Bk__pYKw",
+      "external_id": "UCHwNfJsDJkNa3D-Bk__pYKw",
+      "name": "Sarah Girl Strong",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCHwNfJsDJkNa3D-Bk__pYKw",
+      "discovered_on": "2026-08-26",
+      "score": 60.94,
+      "metrics": {
+        "subscribers": 6550,
+        "total_views": 645320,
+        "video_count": 232,
+        "avg_views_per_video": 2781.55,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "WbfeNzUTbdY",
+            "title": "MorningRoutine #taichi #morningroutine #lymphaticdrainage #mobility #functionalfitness #fyp #fitness",
+            "description": "",
+            "published_at": "2026-08-26T03:06:40Z",
+            "url": "https://www.youtube.com/watch?v=WbfeNzUTbdY"
+          }
+        ],
+        "channel_description": "\nMovement for Longevity. Strength for Life\nTai Chi-Inspired + Functional Strength\nFollow-along guided routines in minutes \nExplore My App⬇️\nAll-access or individual routines  \nNo membership required ",
+        "latest_video_at": "2026-08-26T03:06:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCbWD8cOA4kp9JvQEhxJ4ctQ",
+      "external_id": "UCbWD8cOA4kp9JvQEhxJ4ctQ",
+      "name": "LichaCas",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCbWD8cOA4kp9JvQEhxJ4ctQ",
+      "discovered_on": "2026-08-26",
+      "score": 59.86,
+      "metrics": {
+        "subscribers": 3300,
+        "total_views": 2430547,
+        "video_count": 550,
+        "avg_views_per_video": 4419.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "qIjCUGxq9vw",
+            "title": "🔥 Plancha con deslizador: desafía tu core al máximo 💥#CoreWorkout #FunctionalFitness #AbChallenge",
+            "description": "Plancha con deslizador: desafía tu core al máximo #CoreWorkout #FunctionalFitness #AbChallenge ‍♀️ PLANCHA CON ...",
+            "published_at": "2026-08-25T22:00:30Z",
+            "url": "https://www.youtube.com/watch?v=qIjCUGxq9vw"
+          }
+        ],
+        "channel_description": "Welcome to LichaCas, your ultimate guide to health and wellness! Our channel is dedicated to helping you achieve a balanced and fulfilling life through expert advice on fitness, nutrition, mental health, and overall well-being. Whether you're looking to adopt a healthier lifestyle, manage stress, or simply find inspiration for a happier life, we've got you covered. Join our community and embark on a journey towards a healthier, happier you. Don't forget to subscribe for weekly tips, workouts, recipes, and motivational content to keep you on track!",
+        "latest_video_at": "2026-08-25T22:00:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCSc4RhnEa9d7HJpxnkvqu6w",
+      "external_id": "UCSc4RhnEa9d7HJpxnkvqu6w",
+      "name": "Cooksea",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCSc4RhnEa9d7HJpxnkvqu6w",
+      "discovered_on": "2026-08-26",
+      "score": 58.6,
+      "metrics": {
+        "subscribers": 2430,
+        "total_views": 2608004,
+        "video_count": 686,
+        "avg_views_per_video": 3801.76,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "ibg_breTtpw",
+            "title": "90-Year-Old Grandpa Shocks the Gym With INSANE Kettlebell Mobility! 🤯💪 #Shorts",
+            "description": "Unbelievable balance, joint mobility, and core strength! Watch this 100-year-old athlete perform ground-to-standing kettlebell ...",
+            "published_at": "2026-08-25T18:03:47Z",
+            "url": "https://www.youtube.com/watch?v=ibg_breTtpw"
+          }
+        ],
+        "channel_description": "Welcome to CookSea, your culinary voyage across the world! Join us as we explore diverse cuisines, blending flavors, techniques, and cultures into delightful dishes. From mouthwatering recipes to cooking tips and tricks, our channel is a haven for food enthusiasts seeking inspiration and innovation in the kitchen. Whether you're a beginner or a seasoned chef, dive into our kitchen adventures to discover the art of cooking and unleash your inner culinary maestro. Subscribe now and embark on a flavorful journey with CookSea! #curryrecipes #foodrecipes",
+        "latest_video_at": "2026-08-25T18:03:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC3WFBYHtfeoOVaSjgkdOrvQ",
+      "external_id": "UC3WFBYHtfeoOVaSjgkdOrvQ",
+      "name": "Fit On Three",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC3WFBYHtfeoOVaSjgkdOrvQ",
+      "discovered_on": "2026-08-26",
+      "score": 56.12,
+      "metrics": {
+        "subscribers": 2350,
+        "total_views": 282674,
+        "video_count": 223,
+        "avg_views_per_video": 1267.6,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "Emv5-LqYN64",
+            "title": "Survival Fitness: Is Your Body &amp; Mind Actually Prepared⁉️",
+            "description": "Survival fitness, functional fitness & physical preparedness for men over 40. No gym required. Build real-world strength, ...",
+            "published_at": "2026-08-25T22:00:23Z",
+            "url": "https://www.youtube.com/watch?v=Emv5-LqYN64"
+          }
+        ],
+        "channel_description": "Functional Fitness for Outdoorsmen helping men over 40 and over 50 stay strong, capable, and combat ready for real life. I'm Jason Salyer with Fit On 3. For over three decades I've coached Division I athletes at UC Riverside, worked in human performance with Naval Special Warfare, and spent countless hours in fitness, preparedness, hiking, backpacking, hunting, homesteading, motorcycle adventure riding, and the outdoors.\n\nYour body is your most important survival tool.\n\nMost of my workouts are 30 minutes or less, only three days a week. The rest of the week I stay active through hiking, mountain running, homestead projects, outdoor work, and family activities. No expensive gym. No fancy equipment. Just practical strength, endurance, mobility, resilience, and longevity.\n\nIf you're an outdoorsman, prepper, hiker, hunter, backpacker, or simply want to stay physically prepared as you age on a budget, you're in the right place.\n\nBuild stronger communities.\n\nBe Fit to Survive.\n",
+        "latest_video_at": "2026-08-25T22:00:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCbzw_2M4PEPtpgK2kYlV6zQ",
+      "external_id": "UCbzw_2M4PEPtpgK2kYlV6zQ",
+      "name": "Lea Llovio",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCbzw_2M4PEPtpgK2kYlV6zQ",
+      "discovered_on": "2026-08-26",
+      "score": 54.01,
+      "metrics": {
+        "subscribers": 2310,
+        "total_views": 165361,
+        "video_count": 337,
+        "avg_views_per_video": 490.69,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "ZXWewpU4pTo",
+            "title": "Healing, peptides and advanced wellness therapies as well as life optimization require optimizing",
+            "description": "Healing, peptides and advanced wellness therapies as well as life optimization require optimizing your thought processes.",
+            "published_at": "2026-08-26T00:40:48Z",
+            "url": "https://www.youtube.com/watch?v=ZXWewpU4pTo"
+          }
+        ],
+        "channel_description": "Thought Leader | Keynote Speaker | Mind + Body + Spirit Optimization Advisor to the Most Influential Global and Wellness Leaders for Accelerated Healing and Optimized High-Impact Living.\n\nConscious Wellness™ for Conscious Leaders™\nThe Dance Between Scientific Medicine & Spiritual Medicine™ \nDo the Blessing Work + Live the Blessing Way™ \nLive Your Sacred Medicine™\n",
+        "latest_video_at": "2026-08-26T00:40:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:9ec98ba2c62aef2832ea",
+      "external_id": "9ec98ba2c62aef2832ea",
+      "name": "arradiat",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/pDzwRCAPkn8LAxGse/ai-safety-through-the-lens-of-uncertainty-quantification-uq",
+      "discovered_on": "2026-08-26",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "AI safety through the lens of uncertainty quantification (UQ)."
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:1da2164640709fc4ee0e",
+      "external_id": "1da2164640709fc4ee0e",
+      "name": "Ronen Bar",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/2JaiDAYcPaW3X7Fd2/the-reified-referent-how-the-saturation-view-values-the",
+      "discovered_on": "2026-08-26",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Reified Referent: How the Saturation View Values the Taste of Someone Who Does Not Exist"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:092256f2693b027cfc85",
+      "external_id": "092256f2693b027cfc85",
+      "name": "Rishub Jain",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/A8Cyax9Zoa4sEm86D/sampura-research-human-ai-complementarity-for-alignment",
+      "discovered_on": "2026-08-26",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Sampura Research: Human-AI Complementarity for Alignment"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:013102524f149e759f47",
+      "external_id": "013102524f149e759f47",
+      "name": "R U",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ozqsjiijrGAyx6spr/would-this-research-outline-be-interesting-i-would-like-to",
+      "discovered_on": "2026-08-26",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Would this research outline be interesting? I would like to hear your opinions."
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ea6e89dbb73989524e48",
+      "external_id": "ea6e89dbb73989524e48",
+      "name": "Noga Aharony",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/cAMuRdisEGhwrshd5/we-need-more-empirical-research-on-biological-ai-model",
+      "discovered_on": "2026-08-26",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "We need more empirical research on biological AI model safety"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f9efb01dba9defba0a03",
+      "external_id": "f9efb01dba9defba0a03",
+      "name": "Nataliya Gumenyuk",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/ukraine/future-ukraines-drone-democracy",
+      "discovered_on": "2026-08-26",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Future of Ukraine’s Drone Democracy"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b090acb7c22392fba5fe",
+      "external_id": "b090acb7c22392fba5fe",
+      "name": "Molly",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/MjHvZ3AdrzDgBJEav/integrated-strategic-forecasting-a-new-rand-x-metaculus",
+      "discovered_on": "2026-08-26",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Integrated Strategic Forecasting: A New RAND x Metaculus Methodology"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e5efba2dc8a796d95170",
+      "external_id": "e5efba2dc8a796d95170",
+      "name": "Erin D. Dumbacher",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/america-doesnt-need-more-nuclear-weapons",
+      "discovered_on": "2026-08-26",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "America Doesn’t Need More Nuclear Weapons"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:891a49fc6cfa80561cb5",
+      "external_id": "891a49fc6cfa80561cb5",
+      "name": "Adam Chlipala",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/hQHCMHtRDPRkyQgfd/ai-alignment-at-which-abstraction-level",
+      "discovered_on": "2026-08-26",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "AI Alignment at Which Abstraction Level?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCdGEz3D_GgB_GzZQ-0Gpi-g",
       "external_id": "UCdGEz3D_GgB_GzZQ-0Gpi-g",
