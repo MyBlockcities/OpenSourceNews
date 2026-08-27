@@ -2,19 +2,505 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-26T10:54:59Z",
-  "new_this_run": 19,
-  "total_influencers": 1041,
+  "updated_at": "2026-08-27T20:36:11Z",
+  "new_this_run": 13,
+  "total_influencers": 1054,
   "run_summary": {
-    "run_started_at": "2026-08-26T10:54:37Z",
-    "candidate_count": 45,
-    "existing_count": 1022,
-    "selected_new_count": 19,
+    "run_started_at": "2026-08-27T20:35:49Z",
+    "candidate_count": 46,
+    "existing_count": 1041,
+    "selected_new_count": 13,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCjUd2liibEFEBxLAGlrgJqQ",
+      "external_id": "UCjUd2liibEFEBxLAGlrgJqQ",
+      "name": "Jumpshot Media",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCjUd2liibEFEBxLAGlrgJqQ",
+      "discovered_on": "2026-08-27",
+      "score": 66.84,
+      "metrics": {
+        "subscribers": 28800,
+        "total_views": 32982582,
+        "video_count": 3916,
+        "avg_views_per_video": 8422.52,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "ZgrnLAgGQ4Q",
+            "title": "LeBron James’ $1.5M Routine Is Raising Eyebrows—But Why?",
+            "description": "LeBron's extreme routine comes with a shocking price tag. Would you do it? #LeBronJames #NBA #NBANews #Basketball ...",
+            "published_at": "2026-08-26T17:30:41Z",
+            "url": "https://www.youtube.com/watch?v=ZgrnLAgGQ4Q"
+          }
+        ],
+        "channel_description": "Dive into the heart of the NBA with Jumpshot Media! Your go-to for the latest highlights, expert analyses, and engaging discussions. Subscribe for curated NBA moments, insightful breakdowns, and up-to-the-minute basketball news. Join the community, relive top plays, and stay connected throughout the entire NBA season. Maximize your NBA experience—subscribe, turn on notifications, and celebrate the passion with Jumpshot Media! 🏀 #Basketball #NBAHighlights\n",
+        "latest_video_at": "2026-08-26T17:30:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCSn-puR0ehwuHLFpfNxh-tQ",
+      "external_id": "UCSn-puR0ehwuHLFpfNxh-tQ",
+      "name": "EntrenAI",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCSn-puR0ehwuHLFpfNxh-tQ",
+      "discovered_on": "2026-08-27",
+      "score": 65.64,
+      "metrics": {
+        "subscribers": 3430,
+        "total_views": 9070760,
+        "video_count": 151,
+        "avg_views_per_video": 60071.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "eYiuLcWwil4",
+            "title": "Sydney Mclaughlin #deporte",
+            "description": "Entrenamiento funcional de la mejor del mundo de 400 metros vallas y 400 metros lisos. Todo adaptado a correr más rápido y ...",
+            "published_at": "2026-08-27T17:38:25Z",
+            "url": "https://www.youtube.com/watch?v=eYiuLcWwil4"
+          }
+        ],
+        "channel_description": "Implemento la tecnología en el deporte. Más de 100 personas ya están entrenando con mi app 💪⬇️\n",
+        "latest_video_at": "2026-08-27T17:38:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCMtx8WiMhKJbrJVKbtWVieA",
+      "external_id": "UCMtx8WiMhKJbrJVKbtWVieA",
+      "name": "Functional Medicine Coaching Academy",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCMtx8WiMhKJbrJVKbtWVieA",
+      "discovered_on": "2026-08-27",
+      "score": 64.15,
+      "metrics": {
+        "subscribers": 24400,
+        "total_views": 789656,
+        "video_count": 408,
+        "avg_views_per_video": 1935.43,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "GCLOocqoo48",
+            "title": "Health Coaching’s Role in the New Longevity Era, With Andrea Corleto",
+            "description": "As lab testing, peptides, hormone therapies, and other health optimization tools become more accessible, where do health ...",
+            "published_at": "2026-08-27T14:00:32Z",
+            "url": "https://www.youtube.com/watch?v=GCLOocqoo48"
+          }
+        ],
+        "channel_description": "The Functional Medicine Coaching Academy (FMCA) offers 100% online health coach training and education. Their FMCA Health Coach Certification™ Program fully prepares you with the training, experience, tools, and expertise to hit the ground running as a Functional Medicine Certified Health Coach (FMCHC) in 12 months.\n\nFMCA is the only Health Coach Certification Program designed in collaboration with The Institute for Functional Medicine (IFM) and fully approved by the National Board for Health & Wellness Coaching (NBHWC). In addition to Health Coach Certification, FMCA offers innovative online Specialty Courses in health and wellness topics from a functional medicine and positive psychology coaching perspective.\n",
+        "latest_video_at": "2026-08-27T14:00:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCrtqEOmrX0z9DX8MpvG6AvA",
+      "external_id": "UCrtqEOmrX0z9DX8MpvG6AvA",
+      "name": "JT Zen",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCrtqEOmrX0z9DX8MpvG6AvA",
+      "discovered_on": "2026-08-27",
+      "score": 62.89,
+      "metrics": {
+        "subscribers": 6940,
+        "total_views": 1194268,
+        "video_count": 189,
+        "avg_views_per_video": 6318.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "h7ltR7KgQ5E",
+            "title": "5 Rounds to Build Strength + Mobility | Kettlebell Workout 🔥",
+            "description": "Want to get stronger without getting stiff? Try this 5-round kettlebell workout. 1. Squat → Forward Lunge 10 2. Squat Swing ...",
+            "published_at": "2026-08-27T16:08:37Z",
+            "url": "https://www.youtube.com/watch?v=h7ltR7KgQ5E"
+          }
+        ],
+        "channel_description": "Welcome to Keep It Zen 🌞\nBy Julian Turner aka as JT & “ JT ZEN” \n\nI believe movement is more than exercise.\n\nIt’s a way to build strength, resilience, confidence, and a deeper connection with yourself.\n\nOn this channel you’ll find:\n• Strength training & kettlebells\n• Running, mobility & flow\n• Performance & longevity\n• Conversations about movement, mindset & living well\n\nWhether your goal is to get stronger, move better, or simply enjoy the process again, you’re in the right place.\n\nKeep moving. Keep growing. Keep It Zen.\n\n⬇️ Train with me & shop my favorite gear:\n\nhttps://linktr.ee/jt_zen",
+        "latest_video_at": "2026-08-27T16:08:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC-J9ub04IQxlSliKrTQ6nOQ",
+      "external_id": "UC-J9ub04IQxlSliKrTQ6nOQ",
+      "name": "PCLA",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC-J9ub04IQxlSliKrTQ6nOQ",
+      "discovered_on": "2026-08-27",
+      "score": 62.16,
+      "metrics": {
+        "subscribers": 8420,
+        "total_views": 635363,
+        "video_count": 185,
+        "avg_views_per_video": 3434.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "eSDkqqRf6CA",
+            "title": "Functional Fitness for Parkinson’s",
+            "description": "Functional exercise involves multi-joint body movements that replicate the demands of ADLs rather than training muscle groups in ...",
+            "published_at": "2026-08-27T18:02:25Z",
+            "url": "https://www.youtube.com/watch?v=eSDkqqRf6CA"
+          }
+        ],
+        "channel_description": "Live Your Absolute Best Life!\n\nHelping people impacted by Parkinson’s with tools, strategies, and connections to the Los Angeles PD community and beyond.\n\nPCLA is a 501(c)(3) non-profit organization.\n\nLearn more at https://pcla.org/\nDonate https://pcla.org/donate/\n",
+        "latest_video_at": "2026-08-27T18:02:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRo_FJ3kClQoeLWaOqoVkbA",
+      "external_id": "UCRo_FJ3kClQoeLWaOqoVkbA",
+      "name": "Neural Edge Lab",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCRo_FJ3kClQoeLWaOqoVkbA",
+      "discovered_on": "2026-08-27",
+      "score": 57.1,
+      "metrics": {
+        "subscribers": 2110,
+        "total_views": 181323,
+        "video_count": 78,
+        "avg_views_per_video": 2324.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "UP2PtvtI8no",
+            "title": "Dr. Andy Galpin: Complete Endurance| Health Protocol",
+            "description": "endurancetraining #longevity #fatburning #vo2max #metabolism #fitness In this video, we detail how to create a comprehensive ...",
+            "published_at": "2026-08-27T13:04:02Z",
+            "url": "https://www.youtube.com/watch?v=UP2PtvtI8no"
+          }
+        ],
+        "channel_description": "Neural Edge Lab is dedicated to translating cutting-edge neuroscience into practical tools for everyday life. This channel explores how brain systems influence focus, motivation, sleep, and emotional balance, offering science-backed strategies to improve cognitive performance and overall well-being. Each episode breaks down complex topics like neuroplasticity, dopamine regulation, and stress adaptation into clear, actionable insights you can apply immediately. Whether you're aiming to enhance productivity, sharpen your thinking, or build sustainable habits, Neural Edge Lab provides evidence-based guidance without unnecessary complexity. By combining research insights with real-world application, the channel empowers you to better understand your brain and unlock higher levels of mental clarity, resilience, and performance.",
+        "latest_video_at": "2026-08-27T13:04:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCxHRFfgfX44bbvlWSD5kG1w",
+      "external_id": "UCxHRFfgfX44bbvlWSD5kG1w",
+      "name": "Renée Risselada",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCxHRFfgfX44bbvlWSD5kG1w",
+      "discovered_on": "2026-08-27",
+      "score": 56.16,
+      "metrics": {
+        "subscribers": 2580,
+        "total_views": 490165,
+        "video_count": 432,
+        "avg_views_per_video": 1134.64,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "Z1SfCNvbsi0",
+            "title": "Day 19: 20 Min Full Body Functional Fitness Dumbbell Workout - Strength &amp; Balance",
+            "description": "Day 19: 20 Min Full Body Functional Fitness Dumbbell Workout - Strength & Balance. Welcome to Day 19 of the August Strong ...",
+            "published_at": "2026-08-27T12:00:39Z",
+            "url": "https://www.youtube.com/watch?v=Z1SfCNvbsi0"
+          }
+        ],
+        "channel_description": "Welcome to RissRock Wellness — your ultimate destination for fitness, wellness, and motivation at home!\n\nHere you’ll find fun, effective, and beginner-friendly workouts designed to help you burn fat, build strength, and feel confident in your body. Whether you’re into HIIT workouts, kettlebell training, strength sessions, or mobility flows, every video is crafted to help you stay consistent and energized.\n\nWhat You’ll Find on This Channel:\n    → Quick 10–20 minute fat-burning full body workouts\n    → Kettlebell, strength & HIIT training for all fitness levels\n    → Glute, leg & core sculpting routines to tone and shape\n    → Mobility and flexibility flows for recovery and balance\n    → Wellness tips & motivation to keep you inspired every day\n\nJoin the RissRock Wellness community and start your journey to a stronger, happier, and healthier you! Don’t forget to subscribe and turn on the 🔔 for weekly workouts, fitness challenges, and wellness inspiration.\n",
+        "latest_video_at": "2026-08-27T12:00:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEb5v-5PTJeQ4vSMT_0KoBg",
+      "external_id": "UCEb5v-5PTJeQ4vSMT_0KoBg",
+      "name": "Kelly Davies Homes Team LPT Realty",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCEb5v-5PTJeQ4vSMT_0KoBg",
+      "discovered_on": "2026-08-27",
+      "score": 54.33,
+      "metrics": {
+        "subscribers": 2640,
+        "total_views": 210150,
+        "video_count": 444,
+        "avg_views_per_video": 473.31,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "ZhCxzILl0Fg",
+            "title": "Western Medicine",
+            "description": "HRT and peptides might sound outside the box, but are they becoming the next evolution of wellness? In this clip, Kelly and Nick ...",
+            "published_at": "2026-08-27T13:06:19Z",
+            "url": "https://www.youtube.com/watch?v=ZhCxzILl0Fg"
+          }
+        ],
+        "channel_description": "Welcome to Kelly Davies Homes Team with LPT Realty! Enjoy watching & remember to contact us for ALL of your buying & selling needs!! 920.791.9047 / kelly@kellydavieshomes.com / www.kellydavieshomes.com / 3984 E Endeavor Dr, Appleton",
+        "latest_video_at": "2026-08-27T13:06:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:7ca816ed5f5cb353db70",
+      "external_id": "7ca816ed5f5cb353db70",
+      "name": "Christopher King",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/6kLLZZN5a3dJdtTgK/self-sacrifice-in-an-ai-agent-swarm-is-individually-rational",
+      "discovered_on": "2026-08-27",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/SkyeSharkie"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Self-sacrifice in an AI agent swarm is individually rational"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a48a5d86128f72cc3a1e",
+      "external_id": "a48a5d86128f72cc3a1e",
+      "name": "Seth Herd",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/oMwkcNP4MJh4rry3s/the-2028-presidential-primaries-could-be-crucial-for-ai",
+      "discovered_on": "2026-08-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The 2028 presidential primaries could be crucial for AI outcomes"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f6455919657fa3a0f969",
+      "external_id": "f6455919657fa3a0f969",
+      "name": "Dina Esfandiary, Becca Wasser, Ziad Daoud",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/middle-east/impossible-middle-east",
+      "discovered_on": "2026-08-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Impossible Middle East"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:7cd9d489ba9150f278d9",
+      "external_id": "7cd9d489ba9150f278d9",
+      "name": "C. Raja Mohan",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/india/india-sticking-america-now",
+      "discovered_on": "2026-08-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "India Is Sticking With America—for Now"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:cee2824461cdf07f3018",
+      "external_id": "cee2824461cdf07f3018",
+      "name": "Ben Saudek",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/8Z4ajAi6CjBxZbGMK/why-should-corrigible-agents-favor-the-present",
+      "discovered_on": "2026-08-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Why Should Corrigible Agents Favor the Present?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC0K9NV_lLTT_nxaQiHrNVDg",
       "external_id": "UC0K9NV_lLTT_nxaQiHrNVDg",

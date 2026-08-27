@@ -2,19 +2,676 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-26T10:54:46Z",
-  "new_this_run": 13,
-  "total_influencers": 333,
+  "updated_at": "2026-08-27T20:35:59Z",
+  "new_this_run": 15,
+  "total_influencers": 348,
   "run_summary": {
-    "run_started_at": "2026-08-26T10:54:37Z",
-    "candidate_count": 29,
-    "existing_count": 320,
-    "selected_new_count": 13,
+    "run_started_at": "2026-08-27T20:35:49Z",
+    "candidate_count": 24,
+    "existing_count": 333,
+    "selected_new_count": 15,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCEN-UZhpy-Xy9-XMPK6Mppw",
+      "external_id": "UCEN-UZhpy-Xy9-XMPK6Mppw",
+      "name": "Infinite Cut",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCEN-UZhpy-Xy9-XMPK6Mppw",
+      "discovered_on": "2026-08-27",
+      "score": 76.41,
+      "metrics": {
+        "subscribers": 39700,
+        "total_views": 49789490,
+        "video_count": 4510,
+        "avg_views_per_video": 11039.8,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news",
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "gLzLYDHQ1U0",
+            "title": "The Real Reason Independent Media Matters",
+            "description": "Tucker Carlson's recent departure from the Republican Party signals deeper fractures within the MAGA coalition. Beyond the ...",
+            "published_at": "2026-08-27T12:03:36Z",
+            "url": "https://www.youtube.com/watch?v=gLzLYDHQ1U0"
+          },
+          {
+            "query": "censorship news",
+            "video_id": "gLzLYDHQ1U0",
+            "title": "The Real Reason Independent Media Matters",
+            "description": "Tucker Carlson's recent departure from the Republican Party signals deeper fractures within the MAGA coalition. Beyond the ...",
+            "published_at": "2026-08-27T12:03:36Z",
+            "url": "https://www.youtube.com/watch?v=gLzLYDHQ1U0"
+          }
+        ],
+        "channel_description": "Infinite Cut – Your ultimate source for the latest news, global discussions, and current affairs! Stay informed and ride the waves of today's world with us.\n\nWatch this Space!\n\nSo please Subscribe, like and Share! ",
+        "latest_video_at": "2026-08-27T12:03:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCR6N1x-TY7K722Fpr-iaQtQ",
+      "external_id": "UCR6N1x-TY7K722Fpr-iaQtQ",
+      "name": "Bakari Sellers",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCR6N1x-TY7K722Fpr-iaQtQ",
+      "discovered_on": "2026-08-27",
+      "score": 71.39,
+      "metrics": {
+        "subscribers": 40300,
+        "total_views": 11630079,
+        "video_count": 431,
+        "avg_views_per_video": 26983.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "56S8RnAcIxg",
+            "title": "Don Lemon on Elon Musk, Independent Media &amp; the Future of Journalism | The Bakari Sellers Show",
+            "description": "Don Lemon joins Bakari Sellers for a wide-ranging conversation about what happens when you stop asking permission.",
+            "published_at": "2026-08-27T15:15:31Z",
+            "url": "https://www.youtube.com/watch?v=56S8RnAcIxg"
+          }
+        ],
+        "channel_description": "Bakari Sellers made history in 2006 when, at just 22 years old, he defeated a 26-year incumbent State Representative to become the youngest member of the South Carolina state legislature and the youngest African American elected official in the nation. His political career did not stop there. In 2014, Sellers won the Democratic nomination for Lt. Governor in South Carolina, and has also worked for United States Congressman James Clyburn and former Atlanta Mayor Shirley Franklin. \n\nSellers is the author of The New York Times best-selling book My Vanishing Country: A Memoir, which has been described as part memoir, part historical and cultural analysis – illustrating the lives of America’s forgotten black working-class men and women. He has also expanded his audience with the Bakari Sellers Podcast, a twice-a-week show part of The Ringer Podcast Network that addresses a variety of topics.  He is also a prominent political contributor for CNN.\n\n\n\n\n\n",
+        "latest_video_at": "2026-08-27T15:15:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0qVV5AwJR2L8vPlQjhatJw",
+      "external_id": "UC0qVV5AwJR2L8vPlQjhatJw",
+      "name": "Recta Al Pecho",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0qVV5AwJR2L8vPlQjhatJw",
+      "discovered_on": "2026-08-27",
+      "score": 69.56,
+      "metrics": {
+        "subscribers": 18000,
+        "total_views": 3896016,
+        "video_count": 1087,
+        "avg_views_per_video": 3584.19,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://www.twitter.com/RectaAlPecho",
+        "instagram": "https://www.instagram.com/rectaalpecho"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "RCFTZymo0oA",
+            "title": "&quot;Los medios independientes superaron a la pelota cubana &quot;.⚾️&#39;&#39;MICHEL CONTRERAS&#39;&#39;.",
+            "description": "Episodio completo aquí :https://youtu.be/5I7xajTMsVk Michel Contreras analiza cómo los medios alternativos en Cuba han ...",
+            "published_at": "2026-08-27T19:00:21Z",
+            "url": "https://www.youtube.com/watch?v=RCFTZymo0oA"
+          }
+        ],
+        "channel_description": "Béisbol latino sin filtro: Recta al Pecho es el canal de entrevistas y análisis donde la pelota se vive a 100 millas por hora. La verdad, a la recta. ⚾️\n\nNacimos contando las historias de las leyendas del béisbol cubano — la Serie Nacional, las Grandes Ligas y todo el sacrificio del camino. Hoy esa misma mirada se abre a toda la pelota latina: de La Habana a Caracas, de Santo Domingo a las Mayores.\n\n⚾ Entrevistas exclusivas con las leyendas del deporte\n⚾ Análisis de MLB y Grandes Ligas en español\n⚾ Las historias humanas detrás de cada pelotero latino\n\n▶️ SUSCRÍBETE — Estrenos todos los Jueves:\nhttps://www.RectaenYoutube.com\n📰 Noticias de béisbol: https://www.RectaAlPecho.com\n\n📲 Redes:\nFacebook: https://www.facebook.com/RectaAlPecho\nInstagram: https://www.instagram.com/rectaalpecho\nX: https://www.twitter.com/RectaAlPecho\n\n📩 Negocios: info@marrerobernalmedia.com\n\n¡Activa la campana y vamos pa'l terreno! ⚾🔥\n\n#BeisbolLatino #BeisbolCubano #MLBenEspañol #PeloterosCubanos #RectaAlPecho\n",
+        "latest_video_at": "2026-08-27T19:00:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCjq6eawdNB4oDLQQaM7Sk7w",
+      "external_id": "UCjq6eawdNB4oDLQQaM7Sk7w",
+      "name": "California Post",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCjq6eawdNB4oDLQQaM7Sk7w",
+      "discovered_on": "2026-08-27",
+      "score": 69.36,
+      "metrics": {
+        "subscribers": 31800,
+        "total_views": 17621320,
+        "video_count": 1194,
+        "avg_views_per_video": 14758.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "LyaxgPJRMcw",
+            "title": "Nick Shirley and California Republicans vow to fight against &#39;censorship&#39; law",
+            "description": "YouTube personality Nick Shirley and California Republicans threatened legal fights with a law recently signed by Gov.",
+            "published_at": "2026-08-26T22:40:54Z",
+            "url": "https://www.youtube.com/watch?v=LyaxgPJRMcw"
+          }
+        ],
+        "channel_description": "The California Post offers readers a unique and indispensable combination of fearless, common-sense journalism, celebrity and entertainment news, world class sports reporting and the legendary covers people expect from The New York Post — but from a distinctly Californian perspective.",
+        "latest_video_at": "2026-08-26T22:40:54Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC9RPN4xM3N_aUrrHR_x7iEw",
+      "external_id": "UC9RPN4xM3N_aUrrHR_x7iEw",
+      "name": "Mana Praja Velugu",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC9RPN4xM3N_aUrrHR_x7iEw",
+      "discovered_on": "2026-08-27",
+      "score": 68.89,
+      "metrics": {
+        "subscribers": 24200,
+        "total_views": 32721410,
+        "video_count": 1880,
+        "avg_views_per_video": 17405.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "RCruYN80ll4",
+            "title": "పుల్ల రవీందర్‌పై దాడి..! #journalistraghu #shorts #reels #trending #viral #latestnews #breakingnews",
+            "description": "పుల్ల రవీందర్‌పై దాడి..! #journalistraghu #shorts #reels #trending #viral #latestnews #breakingnews ...",
+            "published_at": "2026-08-27T06:17:47Z",
+            "url": "https://www.youtube.com/watch?v=RCruYN80ll4"
+          }
+        ],
+        "channel_description": "ప్రతి నిమిషం ప్రజల కోసం ప్రజా గొంతుక..\n \"ప్రజా సమస్యలపై పోరాటమే లక్ష్యంగా..\n 'మీ ముందుకు వస్తున్న మన ప్రజా వెలుగు ని ఆదరించండి…\nనా ఒక్కడితోనే మొదలైన ఈ వేదిక రేపటి రోజు లక్షలమందికి వేదికగా నిలుస్తుంది ఇది నా ప్రమాణం...\n\nదయచేసి మీ సపోర్ట్ నాకు కావాలి🙏🙏\nజర్నలిస్ట్ వెంకట్ 🔥🔥\n",
+        "latest_video_at": "2026-08-27T06:17:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDyf6EQ3wn67wP897gv7e6g",
+      "external_id": "UCDyf6EQ3wn67wP897gv7e6g",
+      "name": "Alexander von Bismarck",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDyf6EQ3wn67wP897gv7e6g",
+      "discovered_on": "2026-08-27",
+      "score": 65.52,
+      "metrics": {
+        "subscribers": 19900,
+        "total_views": 5872299,
+        "video_count": 763,
+        "avg_views_per_video": 7696.33,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "M3CcMoa3__U",
+            "title": "Alternative Medien: Kampf gegen Zensur &amp; Regierung #shorts",
+            "description": "Alternative Medien sehen sich ständigen Anfeindungen von Regierung und EU gegenüber. Trotzdem kämpfen ihre Gründer mit ...",
+            "published_at": "2026-08-26T06:56:42Z",
+            "url": "https://www.youtube.com/watch?v=M3CcMoa3__U"
+          }
+        ],
+        "channel_description": "\nBismarck-Dialog – Für Diplomatie und  Frieden\n\nAuf diesem Kanal lade ich interessante Persönlichkeiten aus Politik, Wissenschaft, Kultur und Gesellschaft ein, um mich in Gesprächen, auf Augenhöhe auszutauschen. \n\nMein Ziel: Verständnis fördern, Brücken bauen und neue Perspektiven entdecken.\n\nIn einer Welt voller Meinungen und Missverständnisse setzt dieser Kanal auf Diplomatie, respektvollen Dialog und den Willen, einander zuzuhören. \n\nAbonniere „Bismarck Dialog“ fördere den Dialog: als Schlüssel zu einer besseren Zukunft! \n\nUnd mich findet ihr hier:\nhttps://www.bismarck-doebbelin.de/\n\n",
+        "latest_video_at": "2026-08-26T06:56:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRsN95JWuHHZpG4GAA97BJg",
+      "external_id": "UCRsN95JWuHHZpG4GAA97BJg",
+      "name": "CBC News Manitoba",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCRsN95JWuHHZpG4GAA97BJg",
+      "discovered_on": "2026-08-27",
+      "score": 65.41,
+      "metrics": {
+        "subscribers": 40000,
+        "total_views": 22406771,
+        "video_count": 8167,
+        "avg_views_per_video": 2743.57,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "jqynbnMUghk",
+            "title": "Young Palestinian-Canadian fights censorship",
+            "description": "Winnipegger Tareq Barhoumeh hosted a fundraiser and a TEDx talk to speak about the plight of Palestinians at his high school in ...",
+            "published_at": "2026-08-26T19:30:32Z",
+            "url": "https://www.youtube.com/watch?v=jqynbnMUghk"
+          }
+        ],
+        "channel_description": "Watch CBC Manitoba videos, news and stories that matter to you.\nHead to https:https://www.cbc.ca/news/canada/manitoba to learn more. \n\n",
+        "latest_video_at": "2026-08-26T19:30:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVxwHf24mv5kQUBvt_GUWHw",
+      "external_id": "UCVxwHf24mv5kQUBvt_GUWHw",
+      "name": "ON THE LINE MEDIA",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCVxwHf24mv5kQUBvt_GUWHw",
+      "discovered_on": "2026-08-27",
+      "score": 65.29,
+      "metrics": {
+        "subscribers": 21500,
+        "total_views": 1125237,
+        "video_count": 287,
+        "avg_views_per_video": 3920.69,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "E5IEYnQOjwk",
+            "title": "CANADA BANS ISRAELI DEPUTY MAYOR FROM ENTERING THE COUNTRY",
+            "description": "The Canadian government revoked he visa of Jerusalem Deputy mayor, Arieh King. Canada understood that its inadmissibility ...",
+            "published_at": "2026-08-26T22:01:08Z",
+            "url": "https://www.youtube.com/watch?v=E5IEYnQOjwk"
+          }
+        ],
+        "channel_description": "Informed commentary coupled with critical and contextual journalism. On The Line Media brings you the voices and news you most need to know, now. Unfettered and unfiltered. \n\nBECOME A PATRON:  https://www.patreon.com/OnTheLineMedia\n\nSUPPORT THE SHOW: https://donateopen.com/@samira_mohyeddin\n",
+        "latest_video_at": "2026-08-26T22:01:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCQ30Ahy2VywOb3VhHrEBEMA",
+      "external_id": "UCQ30Ahy2VywOb3VhHrEBEMA",
+      "name": "Geopolitics & Empire",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCQ30Ahy2VywOb3VhHrEBEMA",
+      "discovered_on": "2026-08-27",
+      "score": 64.72,
+      "metrics": {
+        "subscribers": 35800,
+        "total_views": 2096109,
+        "video_count": 898,
+        "avg_views_per_video": 2334.2,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "qYN7wB2lij4",
+            "title": "I Fought the Law and I Won",
+            "description": "Dutch journalist and podcaster Rico Brouwer discusses the fallout of COVID-19 and his successful legal battle against the Dutch ...",
+            "published_at": "2026-08-26T20:29:33Z",
+            "url": "https://www.youtube.com/watch?v=qYN7wB2lij4"
+          }
+        ],
+        "channel_description": "The Geopolitics & Empire Podcast conducts interviews with prominent int'l experts on a wide-range of topics. Past guests have included diplomats, officials, whistleblowers, soldiers, spies, economists, academics, scientists, investors, dissidents, journalists, and musicians.\n\nThe broadcast seeks to gain insight from guests who come from the left, right, and beyond. It should go without saying that the host does not always agree with beliefs espoused by podcast invitees, but maintains an open mind, and believes it important to respectfully listen to a multitude of voices and let listeners come to their own conclusions.\n\nYou can support the broadcast by becoming a member, sponsor, donor, or subbing to the ad-free version! Follow on social media https://linktr.ee/geopoliticsandempire\n\n*Podcast intro music used with permission is from the song \"Queens Jig\" by \"Musicke & Mirth\" from their album \"Music for Two Lyra Viols\": musicke-mirth.de/en/recordings.html (available on iTunes or Amazon)",
+        "latest_video_at": "2026-08-26T20:29:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC10X-ysypMADRkLOxmv9NQA",
+      "external_id": "UC10X-ysypMADRkLOxmv9NQA",
+      "name": "Trump Trending Today",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC10X-ysypMADRkLOxmv9NQA",
+      "discovered_on": "2026-08-27",
+      "score": 64.52,
+      "metrics": {
+        "subscribers": 5270,
+        "total_views": 20570987,
+        "video_count": 662,
+        "avg_views_per_video": 31074.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "0o4ztPjGQ-I",
+            "title": "🚨 Fauci&#39;s Daughter Worked At Twitter During The Covid Censorship Debate Should Be Investigated? 🔎 #B",
+            "description": "Breaking news today in the United States. Fast update on the latest US news and trending events happening right now.",
+            "published_at": "2026-08-26T15:44:36Z",
+            "url": "https://www.youtube.com/watch?v=0o4ztPjGQ-I"
+          }
+        ],
+        "channel_description": "TrumpTrending provides educational, informative, and creative news coverage for its audience through original narration and editorial presentation.\n\nAll video footage is originally recorded by the Trump Trending team. Every video, infographic, subtitle, and visual element is manually edited to add context and improve viewer understanding.\n\nOur content is based on factual information gathered from publicly available online sources, official statements, and reputable news reports. The purpose of this channel is to inform, educate, and encourage respectful discussion.\n\nSubscribe and stay ahead of what’s trending.\n\nTrump Trending\nDonald Trump News\nTrump Viral\nTrump Headlines\nUS Politics Trending\nTrump Today\nTrump Shorts\nBreaking Trump News",
+        "latest_video_at": "2026-08-26T15:44:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZSXDDkm0dsxcQPE2Ap9puA",
+      "external_id": "UCZSXDDkm0dsxcQPE2Ap9puA",
+      "name": "The Unfettered Speech Podcast",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCZSXDDkm0dsxcQPE2Ap9puA",
+      "discovered_on": "2026-08-27",
+      "score": 62.97,
+      "metrics": {
+        "subscribers": 11000,
+        "total_views": 1004479,
+        "video_count": 293,
+        "avg_views_per_video": 3428.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "pYlFFm-6WtM",
+            "title": "Mnar Adley : The Censorship Agenda. How MintPress News Took On War Propaganda",
+            "description": "A nine-year-old crosses checkpoints, watches classmates disappear from school when roads close, and learns what it feels like to ...",
+            "published_at": "2026-08-27T20:00:06Z",
+            "url": "https://www.youtube.com/watch?v=pYlFFm-6WtM"
+          }
+        ],
+        "channel_description": "Integrity Media's Leonard Goodman and Patrick Sullivan talk to the biggest stars in independent journalism about the free speech and censorship issues of the day.",
+        "latest_video_at": "2026-08-27T20:00:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCwoDmea2ns-lDPyDSGS-3iQ",
+      "external_id": "UCwoDmea2ns-lDPyDSGS-3iQ",
+      "name": "TheEricTConversation",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCwoDmea2ns-lDPyDSGS-3iQ",
+      "discovered_on": "2026-08-27",
+      "score": 62.94,
+      "metrics": {
+        "subscribers": 13900,
+        "total_views": 7814311,
+        "video_count": 3195,
+        "avg_views_per_video": 2445.79,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "KLcm3a4XS6I",
+            "title": "This Is Why Trust In Legacy Media Is Collapsing",
+            "description": "Nick Shirley Puts The Legacy Media On The Spot Nick Shirley challenges a New York Times reporter over California's AB 2624, ...",
+            "published_at": "2026-08-27T18:15:33Z",
+            "url": "https://www.youtube.com/watch?v=KLcm3a4XS6I"
+          }
+        ],
+        "channel_description": "🎙️ Welcome to The Eric T Conversation – where politics, culture, and comedy collide.\nOn this channel, you’ll find:\nStraight talk on U.S. politics, news, and trending topics\nBold opinions and debates on Democrats vs Republicans\nDeep dives into freedom of speech, crime, culture, and government accountability\nA mix of political commentary, satire, and comedy that cuts through the noise\n\nWhether it’s breaking down a new executive order, exposing the truth behind mainstream media spin, or just giving you an honest laugh with raw commentary — this is where the real conversation happens.\n\n✅ New episodes every week\n✅ Shorts, debates, and monologues daily\n👉 Subscribe now and join the movement — The Eric T Conversation: your home for political truth and comedy.\n",
+        "latest_video_at": "2026-08-27T18:15:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCAP6_l5iw73HUnZA_UKEUew",
+      "external_id": "UCAP6_l5iw73HUnZA_UKEUew",
+      "name": "TheSheroesTV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCAP6_l5iw73HUnZA_UKEUew",
+      "discovered_on": "2026-08-27",
+      "score": 56.61,
+      "metrics": {
+        "subscribers": 2370,
+        "total_views": 545484,
+        "video_count": 347,
+        "avg_views_per_video": 1572.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "US3zulGZcdk",
+            "title": "Can Independent Media Save Journalism? | India Today Dean Prerna Koul | Podcast | The Sheroes TV",
+            "description": "In this insightful podcast, India Today Media Institute Dean and Director Prerna Koul Mishra takes us through her journey in ...",
+            "published_at": "2026-08-27T09:00:11Z",
+            "url": "https://www.youtube.com/watch?v=US3zulGZcdk"
+          }
+        ],
+        "channel_description": "We're a feminist media platform led by the incredible strength of acid attack survivors. Our mission: to challenge narratives, inspire change, and empower women.\nAn Initiative by Chhanv Foundation\n",
+        "latest_video_at": "2026-08-27T09:00:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC3He5n8jWovSqLDsKYJ70LA",
+      "external_id": "UC3He5n8jWovSqLDsKYJ70LA",
+      "name": "Andhravilas Movie News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC3He5n8jWovSqLDsKYJ70LA",
+      "discovered_on": "2026-08-27",
+      "score": 52.78,
+      "metrics": {
+        "subscribers": 3520,
+        "total_views": 3022740,
+        "video_count": 12322,
+        "avg_views_per_video": 245.31,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "xPsLT7XRZTM",
+            "title": "Yash Toxic Shocking Censorship: Uncut &#39;A&#39; Certificate Sparks Massive Internet Debate!",
+            "description": "BREAKING TOLLLYWOOD NEWS: Kannada star Yash is starring in the high-octane action film 'Toxic', directed by Geetu ...",
+            "published_at": "2026-08-26T11:09:03Z",
+            "url": "https://www.youtube.com/watch?v=xPsLT7XRZTM"
+          }
+        ],
+        "channel_description": "🎬 Welcome to Andhravilas Movie News! 🎥\n\nYour ultimate source for the latest updates from Tollywood, Kollywood, and Indian cinema. We bring you breaking movie news, exclusive celebrity interviews, trailer reviews, box office reports, film analyses, and all the trending buzz from the world of entertainment.\n\nWhether you're a fan of Telugu, Tamil, or Hindi films, we’ve got you covered with accurate, timely, and entertaining movie updates.\n\n💫 Stay connected for daily news, honest reviews, and inside stories from your favorite stars and filmmakers.\n\n👉 Subscribe now to Andhravilas Movie News — your daily dose of cinema!\n",
+        "latest_video_at": "2026-08-26T11:09:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC17nHguS9KElNRNxkM5RCeA",
+      "external_id": "UC17nHguS9KElNRNxkM5RCeA",
+      "name": "Breaking Info",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC17nHguS9KElNRNxkM5RCeA",
+      "discovered_on": "2026-08-27",
+      "score": 51.43,
+      "metrics": {
+        "subscribers": 4290,
+        "total_views": 247065,
+        "video_count": 3984,
+        "avg_views_per_video": 62.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "8EXCzA_kQqo",
+            "title": "Nick Shirley Challenges California Law: Free Speech &amp; Journalism Debate",
+            "description": "Independent journalist Nick Shirley is speaking out against California's Assembly Bill 2624, a law critics have dubbed the “Stop ...",
+            "published_at": "2026-08-27T01:33:10Z",
+            "url": "https://www.youtube.com/watch?v=8EXCzA_kQqo"
+          }
+        ],
+        "channel_description": "राष्ट्र पहले 🇮🇳, जियोपॉलिटिक्स, नवीनतम अपडेट प्राप्त करें, जब समाचार मायने रखता है, तो यह मायने रखता है कि आप अपना समाचार कहां से प्राप्त करते हैं !!",
+        "latest_video_at": "2026-08-27T01:33:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC-uCV5UTtCwrjnFalOfhLkg",
       "external_id": "UC-uCV5UTtCwrjnFalOfhLkg",
