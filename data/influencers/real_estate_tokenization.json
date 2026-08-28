@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-08-27T20:35:56Z",
-  "new_this_run": 4,
-  "total_influencers": 235,
+  "updated_at": "2026-08-28T21:11:59Z",
+  "new_this_run": 1,
+  "total_influencers": 236,
   "run_summary": {
-    "run_started_at": "2026-08-27T20:35:49Z",
-    "candidate_count": 42,
-    "existing_count": 231,
-    "selected_new_count": 4,
+    "run_started_at": "2026-08-28T21:11:54Z",
+    "candidate_count": 41,
+    "existing_count": 235,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:34bd196b0cdad610b6fd",
+      "external_id": "34bd196b0cdad610b6fd",
+      "name": "Vassilis Tziokas",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/08/28/the-clarity-act-slipped-to-september-banks-are-building-anyway",
+      "discovered_on": "2026-08-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "The Clarity Act slipped to September. Banks are building anyway"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCkPcrzInYvO5yRnUQ093g4A",
       "external_id": "UCkPcrzInYvO5yRnUQ093g4A",

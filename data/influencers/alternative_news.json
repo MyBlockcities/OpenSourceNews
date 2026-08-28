@@ -2,19 +2,621 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-27T20:35:59Z",
-  "new_this_run": 15,
-  "total_influencers": 348,
+  "updated_at": "2026-08-28T21:12:02Z",
+  "new_this_run": 14,
+  "total_influencers": 362,
   "run_summary": {
-    "run_started_at": "2026-08-27T20:35:49Z",
-    "candidate_count": 24,
-    "existing_count": 333,
-    "selected_new_count": 15,
+    "run_started_at": "2026-08-28T21:11:54Z",
+    "candidate_count": 27,
+    "existing_count": 348,
+    "selected_new_count": 14,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCbNRQwlZ7T0OXVSc96Pih8A",
+      "external_id": "UCbNRQwlZ7T0OXVSc96Pih8A",
+      "name": "Smita Sharma Journalist",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCbNRQwlZ7T0OXVSc96Pih8A",
+      "discovered_on": "2026-08-28",
+      "score": 71.14,
+      "metrics": {
+        "subscribers": 72900,
+        "total_views": 24386605,
+        "video_count": 2330,
+        "avg_views_per_video": 10466.35,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "6YYWV9Z0KGQ",
+            "title": "Independent. On Ground. Unfiltered. | Smita Sharma Reports From Flood-Hit Nepal",
+            "description": "नेपाल की विनाशकारी बाढ़ के बीच Smita Sharma की ground reporting जारी है।",
+            "published_at": "2026-08-28T15:21:52Z",
+            "url": "https://www.youtube.com/watch?v=6YYWV9Z0KGQ"
+          }
+        ],
+        "channel_description": "For advertisements and sponsporships write to- connectwithsmitasharma@gmail.com \nX /@smita_sharma . Facebook/Insta- @SmitaSharmaJournalist\nSenior Independent Journalist/Columnist/ TV Commentator. Writes on Foreign Policy & Security Issues in English and Hindi. \nVisiting Faculty- Kautilya School of Public Policy \nFormer Deputy Editor - The Tribune \nFormer  Foreign Policy Ed/ Anchor- India Today TV/ Aajtak / IBN7/ CNN-IBN/  DD News / TV 9 \nBylines and Comments- Deccan Herald/ The Hindu/ BBC / The Red Mike / News;aundry \nWinner Ramnath Goenka Award in 2010 For Kashmir Coverage  and ENBA in 2014 for Shahbagh Protests in Bangladesh. \n\n",
+        "latest_video_at": "2026-08-28T15:21:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCAHlQMx1f3TbRImhHHGPNKA",
+      "external_id": "UCAHlQMx1f3TbRImhHHGPNKA",
+      "name": "Freedom Watch USA",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCAHlQMx1f3TbRImhHHGPNKA",
+      "discovered_on": "2026-08-28",
+      "score": 70.04,
+      "metrics": {
+        "subscribers": 80300,
+        "total_views": 9211415,
+        "video_count": 1671,
+        "avg_views_per_video": 5512.52,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "xn3w5Bvsa8c",
+            "title": "Scandal at Fox News: Censorship &amp; Sexual Abuse Cover Up by CEO Scott!!!",
+            "description": "It's more important than ever for patriots to stay informed on what's happening in our country and around the world — but we can't ...",
+            "published_at": "2026-08-28T16:01:21Z",
+            "url": "https://www.youtube.com/watch?v=xn3w5Bvsa8c"
+          }
+        ],
+        "channel_description": "Founded in 2004 by Larry Klayman, Freedom Watch works to protect and promote freedom in the U.S. and around the world. Klayman, who also founded Judicial Watch, is a prominent attorney, media figure, syndicated radio talk show host, and columnist.  In 2013, he won a landmark case against the National Security Agency over the agency's collection of private citizens' telephonic metadata. Klayman hosts Special Prosecutor with Larry Klayman and makes regular appearances on Fox News Channel and Fox Business. He writes regularly for Newsmax and WND.\n\nSubscribe to our podcast at https://www.spreaker.com/show/special-prosecutor-with-larry-klayman",
+        "latest_video_at": "2026-08-28T16:01:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCiHGkCJ2BPzI94xIFMYB4tQ",
+      "external_id": "UCiHGkCJ2BPzI94xIFMYB4tQ",
+      "name": "pizowell",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCiHGkCJ2BPzI94xIFMYB4tQ",
+      "discovered_on": "2026-08-28",
+      "score": 69.62,
+      "metrics": {
+        "subscribers": 67700,
+        "total_views": 18930792,
+        "video_count": 3276,
+        "avg_views_per_video": 5778.63,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "EG0RwW1u-FE",
+            "title": "Are Limited Edition 4Ks Too Expensive? | Physcial Media Censorship",
+            "description": "Support my channel on Patreon: https://patreon.com/pizowell ✓ Become a channel member and receive exclusive badges and ...",
+            "published_at": "2026-08-28T03:12:33Z",
+            "url": "https://www.youtube.com/watch?v=EG0RwW1u-FE"
+          }
+        ],
+        "channel_description": "I grew up in the video stores of the late 80's and 90's, fully immersed in the VHS explosion of that era, and awash in the plethora of horror, exploitation, sleaze, B-movies and trash that flooded the home video market. I have a fondness for horror movies, but love all genres of film. I am a collector of and advocate for physical media and an avid convention-goer. I have been sharing my love of movies on my YouTube channel since 2009. ",
+        "latest_video_at": "2026-08-28T03:12:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCnXBULlNglrAORtwJq5PoVQ",
+      "external_id": "UCnXBULlNglrAORtwJq5PoVQ",
+      "name": "The Ben Press",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCnXBULlNglrAORtwJq5PoVQ",
+      "discovered_on": "2026-08-28",
+      "score": 69.28,
+      "metrics": {
+        "subscribers": 13600,
+        "total_views": 55797456,
+        "video_count": 1193,
+        "avg_views_per_video": 46770.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "aCYTGTd13tE",
+            "title": "Angel Reese Speaks Out on What It Takes to Date an Independent Woman! 💬✨ #shorts",
+            "description": "WNBA star Angel Reese dropped a candid message on relationships, independence, and finding the right partner! ❤️ What ...",
+            "published_at": "2026-08-28T17:04:39Z",
+            "url": "https://www.youtube.com/watch?v=aCYTGTd13tE"
+          }
+        ],
+        "channel_description": "Welcome to The Ben Press ! This is your go-to place for the latest news, trending stories, entertainment, and celebrity gossip. We bring you breaking news, viral moments, and everything in between. Thank you for stopping by! Don’t forget to subscribe so you never miss an update. ",
+        "latest_video_at": "2026-08-28T17:04:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC8W9Sjy5gyBEQTSPJjfSq5g",
+      "external_id": "UC8W9Sjy5gyBEQTSPJjfSq5g",
+      "name": "RÁDIO +BRASIL",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC8W9Sjy5gyBEQTSPJjfSq5g",
+      "discovered_on": "2026-08-28",
+      "score": 68.18,
+      "metrics": {
+        "subscribers": 70500,
+        "total_views": 10956764,
+        "video_count": 3900,
+        "avg_views_per_video": 2809.43,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "GpYKmf5t854",
+            "title": "Em 2022, jairmessiasbolsonaro falou sobre a censura imposta pelo Judiciário a toda a imprensa",
+            "description": "Programa Agora Brasil / Segunda à sexta, 07h às 09h. Programa +Brasil MUNDO/ Segunda à sexta, 09h às 10h. Programa ...",
+            "published_at": "2026-08-28T12:00:01Z",
+            "url": "https://www.youtube.com/watch?v=GpYKmf5t854"
+          }
+        ],
+        "channel_description": "Programa Agora Brasil / Segunda à sexta, 07h às 09h.\nPrograma +Brasil / Segunda à sexta, 13h às 15h.\nPrograma 5a7/ Segunda à sexta, 17h às 19h (Este programa está sendo transmitido pelo nosso canal de variedades, o Tudo+Brasil).\n\nA Rádio +BRASIL é um canal que apresenta e comenta noticias de política e economia, do Brasil e do mundo, a partir de uma visão liberal/conservadora. Uma “ágora” onde a opinião e a expressão são livres. Temos o grande propósito de fazer a defesa intransigente das nossas liberdades. Aqui a opinião é livre!\n\nBaixe o APP iPhone: https://apps.apple.com/app/r%C3%A1dio-mais-brasil/id6474753101\nBaixe o APP Android: https://play.google.com/store/apps/details?id=com.radiomaisbrasil.app\n\nSiga o canal do 5 a 7!\nYoutube.com/@TudoMaisBrasilOficial\n\n",
+        "latest_video_at": "2026-08-28T12:00:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC38J8wMPUJVxlxZrMTzxXmw",
+      "external_id": "UC38J8wMPUJVxlxZrMTzxXmw",
+      "name": "Michekyakeymi",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC38J8wMPUJVxlxZrMTzxXmw",
+      "discovered_on": "2026-08-28",
+      "score": 65.08,
+      "metrics": {
+        "subscribers": 18100,
+        "total_views": 51195763,
+        "video_count": 11323,
+        "avg_views_per_video": 4521.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "CnWkj0Dvbqk",
+            "title": "Why American Media Censorship Hides the Truth About Israel",
+            "description": "The contrast between foreign reporting and domestic American coverage reveals a stark reality. While journalists within certain ...",
+            "published_at": "2026-08-28T02:13:56Z",
+            "url": "https://www.youtube.com/watch?v=CnWkj0Dvbqk"
+          }
+        ],
+        "channel_description": "MichekyaKeymi is your go-to destination for bold, unfiltered perspectives on the stories that shape our world. From breaking news and in-depth sports analysis to the latest in entertainment, culture, and trending topics, we bring you clarity, context, and authenticity every single day. But we don’t stop there—we also share health & fitness tips, wellness insights, and empowering content designed to help you live your best life, both physically and mentally.\n\nOur mission is simple: to cut through the noise, challenge the status quo, and deliver content that informs, inspires, and keeps it real. Whether you’re here for fearless commentary on current events, motivational insights, or practical advice to improve your lifestyle, MichekyaKeymi is the channel that brings it all together.\n\n\n",
+        "latest_video_at": "2026-08-28T02:13:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCaMhW0NoFWBzTvqBBpqutig",
+      "external_id": "UCaMhW0NoFWBzTvqBBpqutig",
+      "name": "Gaonkaari",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCaMhW0NoFWBzTvqBBpqutig",
+      "discovered_on": "2026-08-28",
+      "score": 63.16,
+      "metrics": {
+        "subscribers": 13500,
+        "total_views": 3936966,
+        "video_count": 1398,
+        "avg_views_per_video": 2816.14,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "5kbfwFXZYB8",
+            "title": "Citizen Journalism Poses a Challenge to Mainstream Media",
+            "description": "Join this channel to get access to support independent Journalism ...",
+            "published_at": "2026-08-28T10:27:41Z",
+            "url": "https://www.youtube.com/watch?v=5kbfwFXZYB8"
+          }
+        ],
+        "channel_description": "Gaonkaari is a media platform offering in-depth commentary and analysis on the latest events in Goa. Our mission is to explore topics like culture, heritage, and environment through engaging dialogues and special episodes. We provide a comprehensive perspective on issues affecting the state and its people.\n\nPurpose and Vision\n\nGaonkaari aims to highlight Goan stories and issues often overlooked by mainstream media. We raise awareness of the region's rich history and challenges, helping preserve and grow Goan identity.\n\nWho We Are\n\nI, Mr. Kishor Naik Gaonkar, serve as the editor of this platform. With nearly 20 years of experience in media, I founded Gaonkaari to focus on underreported topics important to the Goan community.\n\nIf you are interested in working with us or sharing your expertise to help achieve our mission, please reach out to us through:\n\n-  Email: gaonkarigoa@gmail.com\n-  Instagram: @gaonkaari\n-  Phone: +91 7972462026\n\nLet’s join efforts to illuminate Goa's future!\n\n",
+        "latest_video_at": "2026-08-28T10:27:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCE5d9sr4vIofvYuFYclY3KA",
+      "external_id": "UCE5d9sr4vIofvYuFYclY3KA",
+      "name": "India Today Media Institute",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCE5d9sr4vIofvYuFYclY3KA",
+      "discovered_on": "2026-08-28",
+      "score": 60.87,
+      "metrics": {
+        "subscribers": 7260,
+        "total_views": 1071147,
+        "video_count": 458,
+        "avg_views_per_video": 2338.75,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "PcOMJBYzTbE",
+            "title": "Can Independent Media Save Journalism ? | India Today Dean Prerna Koul | Podcast | The Sheroes TV",
+            "description": "In this insightful podcast, India Today Media Institute Dean and Director Prerna Koul Mishra takes us through her journey in ...",
+            "published_at": "2026-08-28T06:25:04Z",
+            "url": "https://www.youtube.com/watch?v=PcOMJBYzTbE"
+          }
+        ],
+        "channel_description": "In one line, the India Today Media Institute is about learning from the best. \nPlease visit our website : https://www.indiatoday.in/itmi/ \nClick and do live chat with our subject expert : https://wa.link/xlw56h \nCall: 9354535319\n\nITMI was established in 2005 under the aegis of India Today Group and the tutelage of the Group Founder Aroon Purie – who is a leading light in the world of Journalism. The Institute is commemorating 20 years of academic excellence. With a robust alumni network of over 1,200 students, the institute has made its mark with professionals creating success stories across many prestigious brands like  BBC, Sputnik, TOI, NDTV, ABP News, Start Sports, CNN News, TV9 Bharatvarsh, Republic TV, Network 18, Mirror Now, Times Now Navbharat, ZEE News, India TV, News Nation, ANI, PTI,  Dainik Bhaskar,  The Quint, BRUT India, Amar Ujala, Jagran New Media, The Indian Express, Live Law,  Scoop Woop, Axis My India, Accenture, Publicis Media etc. \n\n\n\n\n",
+        "latest_video_at": "2026-08-28T06:25:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEkBfgy7UlNcjtZEO9FzSiA",
+      "external_id": "UCEkBfgy7UlNcjtZEO9FzSiA",
+      "name": "Eu&Ela Podcast",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCEkBfgy7UlNcjtZEO9FzSiA",
+      "discovered_on": "2026-08-28",
+      "score": 59.77,
+      "metrics": {
+        "subscribers": 10500,
+        "total_views": 1635128,
+        "video_count": 1950,
+        "avg_views_per_video": 838.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "DSXqiRlH-Yo",
+            "title": "SERÁ QUE TEREMOS MAIS CENSURAS NO BRASIL? EU&amp;ELA NEWS.",
+            "description": "SERÁ QUE TEREMOS MAIS CENSURAS NO BRASIL? EU&ELA NEWS.",
+            "published_at": "2026-08-27T23:00:04Z",
+            "url": "https://www.youtube.com/watch?v=DSXqiRlH-Yo"
+          }
+        ],
+        "channel_description": "🎙️ Eu&Ela Podcast | O melhor casal pra tirar a verdade de quem constrói, decide e disputa.\n\nAqui, Léo provoca e Diana acolhe, e é nesse atrito com estrutura que a verdade aparece. Recebemos empreendedores, figuras públicas, atletas e quem mais estiver no jogo de verdade: gente que constrói algo do zero, que decide por muita gente, ou que disputa no mais alto nível.\n\nSem discurso institucional, sem papo mole. Cada episódio traz uma história real como ponto de partida e o que essa história ensina, na prática, pra sua vida.\n\n📍 Gravado no coração de Copacabana, Rio de Janeiro.\n🧠 Papo real sobre carreira, dinheiro, poder, propósito e comportamento humano.\n🔥 Verdade com foco: menos enrolação, mais clareza sobre o que realmente importa.\n\n📅 Episódios novos toda semana.\n\nSe você busca conversa real, sem filtro e sem blindagem institucional esse é o canal que fala o que muitos pensam e poucos têm coragem de dizer.\n\n👉 Inscreva-se e faça parte dessa conversa.\n",
+        "latest_video_at": "2026-08-27T23:00:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCP0x7I9avrH6PV_VWC5T4Ww",
+      "external_id": "UCP0x7I9avrH6PV_VWC5T4Ww",
+      "name": "Les Vidéos d'Alix©️",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCP0x7I9avrH6PV_VWC5T4Ww",
+      "discovered_on": "2026-08-28",
+      "score": 58.42,
+      "metrics": {
+        "subscribers": 6050,
+        "total_views": 1711255,
+        "video_count": 1752,
+        "avg_views_per_video": 976.74,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "vXTzgP_9ia0",
+            "title": "Loi contre la désinformation : Un risque certain de censure et shadowban ! #actu #info #vérité",
+            "description": "Pensez à activer la cloche pour recevoir une notification pour chacune de mes vidéos !",
+            "published_at": "2026-08-28T15:00:03Z",
+            "url": "https://www.youtube.com/watch?v=vXTzgP_9ia0"
+          }
+        ],
+        "channel_description": "Pourquoi j'ai si peu d'abonnés ?\nC'est simple, les gens en général sont des lâches et des pleutres qui n'aiment pas qu'on leur mette le réel face à eux et donc ils préfèrent se défiler, car ça les obligerait à assumer leur couardise et leur collaborationnisme avec ce système qui les maltraite pourtant si fort.\nCela m'importe guère, je suis un homme droit, honnête et j'assume d'être le narrateur de la vérité, puisse-t-elle déplaire à la majorité de lâches qui composent mon pays et qui chercheront toutes les excuses pour tenter de me salir voir de nier la vérité.\nPlaton disait : Personne n'est plus détesté que celui qui dit la vérité. \nCar il vaut mieux un mensonge qui rassure qu'une vérité qui fait peur.\nMéditez cela.\n\nPour ceux et celles qui veulent participer à démontrer qu'ils ne sont pas des lâches, le premier pas est de me soutenir : \nMon \"Tipeee\" : https://www.tipeee.com/officiel-alixator \nOu mon Paypal : https://www.paypal.com/paypalme/alixator \n",
+        "latest_video_at": "2026-08-28T15:00:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCkSA3ePU4A7oRpS9QGoK8ZQ",
+      "external_id": "UCkSA3ePU4A7oRpS9QGoK8ZQ",
+      "name": "VTDigger",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCkSA3ePU4A7oRpS9QGoK8ZQ",
+      "discovered_on": "2026-08-28",
+      "score": 56.78,
+      "metrics": {
+        "subscribers": 3480,
+        "total_views": 1535444,
+        "video_count": 1548,
+        "avg_views_per_video": 991.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "9YiL3u1aMjQ",
+            "title": "Alternative media pioneer Nat Winthrop on a half-century of covering Vermont",
+            "description": "Journalist Nat Winthrop has been covering Vermont for a half-century, reporting stories that have surprised, infuriated and ...",
+            "published_at": "2026-08-27T22:08:05Z",
+            "url": "https://www.youtube.com/watch?v=9YiL3u1aMjQ"
+          }
+        ],
+        "channel_description": "VTDigger is a statewide news website that publishes watchdog reports on state government, politics, consumer affairs, business and public policy.",
+        "latest_video_at": "2026-08-27T22:08:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCGtjLm7jETL66vdhb-UQ4Bw",
+      "external_id": "UCGtjLm7jETL66vdhb-UQ4Bw",
+      "name": "Mak-Tube ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCGtjLm7jETL66vdhb-UQ4Bw",
+      "discovered_on": "2026-08-28",
+      "score": 56.24,
+      "metrics": {
+        "subscribers": 3990,
+        "total_views": 2595815,
+        "video_count": 4055,
+        "avg_views_per_video": 640.15,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "aBeWBTPakn8",
+            "title": "Alternative Media",
+            "description": "Alternative Media #newshorts #ginews #gishorts #worldnews #shortvideo #reels #Journalism #News #Journalism #News ...",
+            "published_at": "2026-08-27T23:45:23Z",
+            "url": "https://www.youtube.com/watch?v=aBeWBTPakn8"
+          }
+        ],
+        "channel_description": "Mak-Tube is a podcast Network\nHome of \nThe Big Dookie Chain  (Music) Podcast\nThe Chris Tash Pawtcast (C@nnabis) Podcast\nStill Out Here Tho (Self Help/Motivation) Podcast\nNot The Worst Place (Travel Vlog)\n\n\n#boston #rapmusic #rap #podcast #interview #lyrics #mass #massachusetts #beats #dj #fiveelements #bboy #microphone #mc #rapper #rhymes #oldschool #newschool #bars #mediachains #conversation #jokes #funny #vibe #big #dookie #chain #bigdookiechain #tash #vanstylez #pawtheads #maktub #classic #interesting #rhymes #graffiti #radio #breakdance #style #90s #shorts #shortsvideo #shortsfeed #shortsviral #shortsyoutube #short #reels #reel #youtubeshorts #viral #music #song #lyricist #reel #reels #pawtcast #christash #pawthead #pothead #podcast #cannabis #weed #pot #cannabissaves #life #lifestyle #terps #smoke #munchies #preroll #flower #plant #green #edible #infused #adult #dispensary #cultivate #culture #joint #blunt #glass #indica #sativa #bud #legal #discussion #debate #youtube\n",
+        "latest_video_at": "2026-08-27T23:45:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCiFZQbFpvY4Sh0-EWHl-D7A",
+      "external_id": "UCiFZQbFpvY4Sh0-EWHl-D7A",
+      "name": "The Freedom People",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCiFZQbFpvY4Sh0-EWHl-D7A",
+      "discovered_on": "2026-08-28",
+      "score": 55.55,
+      "metrics": {
+        "subscribers": 2090,
+        "total_views": 526777,
+        "video_count": 458,
+        "avg_views_per_video": 1150.17,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "MsFBbjybh90",
+            "title": "Is Independent Journalism 📰 Revealing Truths? 🤔 #shorts",
+            "description": "It starts with waking up as an individual to understand what's going on. Real strength comes from strong communities. You won't ...",
+            "published_at": "2026-08-27T23:00:29Z",
+            "url": "https://www.youtube.com/watch?v=MsFBbjybh90"
+          }
+        ],
+        "channel_description": "We are a community that values and protects individual liberties.  We strive to reveal Truth in a time of mass deceit.",
+        "latest_video_at": "2026-08-27T23:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC5IxWEvo3qMN2ug3t1DclUQ",
+      "external_id": "UC5IxWEvo3qMN2ug3t1DclUQ",
+      "name": "RCR | Reality Check Radio NZ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC5IxWEvo3qMN2ug3t1DclUQ",
+      "discovered_on": "2026-08-28",
+      "score": 54.83,
+      "metrics": {
+        "subscribers": 7350,
+        "total_views": 982272,
+        "video_count": 2754,
+        "avg_views_per_video": 356.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "hkJ0-qDYBg8",
+            "title": "MEDIA MATTERS",
+            "description": "Former National MP and RCR host Simon O'Connor joins Marty Gibson to examine how fear-driven narratives shape public ...",
+            "published_at": "2026-08-26T13:08:13Z",
+            "url": "https://www.youtube.com/watch?v=hkJ0-qDYBg8"
+          }
+        ],
+        "channel_description": "Only one in three Kiwis trusts the media. Trust matters. RCR delivers. 🎙 www.rcr.media",
+        "latest_video_at": "2026-08-26T13:08:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCEN-UZhpy-Xy9-XMPK6Mppw",
       "external_id": "UCEN-UZhpy-Xy9-XMPK6Mppw",
