@@ -2,19 +2,90 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-08-28T21:11:59Z",
-  "new_this_run": 1,
-  "total_influencers": 236,
+  "updated_at": "2026-08-29T15:07:15Z",
+  "new_this_run": 2,
+  "total_influencers": 238,
   "run_summary": {
-    "run_started_at": "2026-08-28T21:11:54Z",
+    "run_started_at": "2026-08-29T15:07:09Z",
     "candidate_count": 41,
-    "existing_count": 235,
-    "selected_new_count": 1,
+    "existing_count": 236,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCh-tNyivccxM7O4SqyLKXOA",
+      "external_id": "UCh-tNyivccxM7O4SqyLKXOA",
+      "name": "Stay Cast podcast do mercado imobiliário",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCh-tNyivccxM7O4SqyLKXOA",
+      "discovered_on": "2026-08-29",
+      "score": 58.54,
+      "metrics": {
+        "subscribers": 11800,
+        "total_views": 271688,
+        "video_count": 424,
+        "avg_views_per_video": 640.77,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "mQOsO_XogY4",
+            "title": "Mercado imobiliario e os tokens",
+            "description": "shorts.",
+            "published_at": "2026-08-27T19:01:29Z",
+            "url": "https://www.youtube.com/watch?v=mQOsO_XogY4"
+          }
+        ],
+        "channel_description": "Bem-vindo ao nosso canal do YouTube dedicado ao mercado imobiliário, onde cada programa desbloqueia oportunidades ilimitadas e insights valiosos! Contamos com convidados que são importantes para o mercado desde os diretores até os corretores.\n\n",
+        "latest_video_at": "2026-08-27T19:01:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:d728c5bb3267fe37a2f6",
+      "external_id": "d728c5bb3267fe37a2f6",
+      "name": "Matthew Fisher",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/08/29/tokenized-assets-are-busier-than-the-data-shows",
+      "discovered_on": "2026-08-29",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Tokenized assets are busier than the data shows"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:34bd196b0cdad610b6fd",
       "external_id": "34bd196b0cdad610b6fd",

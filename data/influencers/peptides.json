@@ -2,19 +2,64 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-28T21:12:11Z",
-  "new_this_run": 10,
-  "total_influencers": 194,
+  "updated_at": "2026-08-29T15:07:28Z",
+  "new_this_run": 1,
+  "total_influencers": 195,
   "run_summary": {
-    "run_started_at": "2026-08-28T21:11:54Z",
-    "candidate_count": 16,
-    "existing_count": 184,
-    "selected_new_count": 10,
+    "run_started_at": "2026-08-29T15:07:09Z",
+    "candidate_count": 13,
+    "existing_count": 194,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCbxl6EvMfGX6ze--ZH-eUqA",
+      "external_id": "UCbxl6EvMfGX6ze--ZH-eUqA",
+      "name": "Peter Jin",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCbxl6EvMfGX6ze--ZH-eUqA",
+      "discovered_on": "2026-08-29",
+      "score": 60.99,
+      "metrics": {
+        "subscribers": 4550,
+        "total_views": 99924,
+        "video_count": 21,
+        "avg_views_per_video": 4758.29,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "kvU90m3yROA",
+            "title": "How Rhode&#39;s packagings shape brand vibe?-Episode2 #jmindustries#odm#oem#mold#manufacturer#brand",
+            "description": "How Rhode's packagings shape brand vibe?-Episode2 lip peptide treatment packaging is basically a soft tube—10 milliliters, ...",
+            "published_at": "2026-08-29T14:26:09Z",
+            "url": "https://www.youtube.com/watch?v=kvU90m3yROA"
+          }
+        ],
+        "channel_description": "We're Your Trusted Supply Chain Partner \n15+ Yrs Experience | 5,000+ Cross-Category Factories \nProduct Design | QC | Logistics \n📧 infojm@126.com",
+        "latest_video_at": "2026-08-29T14:26:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCl42yQd8UpyyotX9ukXAj3Q",
       "external_id": "UCl42yQd8UpyyotX9ukXAj3Q",
