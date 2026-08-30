@@ -2,19 +2,300 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-29T15:07:28Z",
-  "new_this_run": 1,
-  "total_influencers": 195,
+  "updated_at": "2026-08-30T14:54:24Z",
+  "new_this_run": 6,
+  "total_influencers": 201,
   "run_summary": {
-    "run_started_at": "2026-08-29T15:07:09Z",
-    "candidate_count": 13,
-    "existing_count": 194,
-    "selected_new_count": 1,
+    "run_started_at": "2026-08-30T14:54:06Z",
+    "candidate_count": 15,
+    "existing_count": 195,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCZj1GQBWFM5sRAL0iQfcMAQ",
+      "external_id": "UCZj1GQBWFM5sRAL0iQfcMAQ",
+      "name": "Joy Kong MD",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCZj1GQBWFM5sRAL0iQfcMAQ",
+      "discovered_on": "2026-08-30",
+      "score": 74.17,
+      "metrics": {
+        "subscribers": 47200,
+        "total_views": 3298983,
+        "video_count": 1065,
+        "avg_views_per_video": 3097.64,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "u5r1UipyHtI",
+            "title": "BPC-157, Tesamorelin, GLP-1: Muscle, Fat Loss, and Blood Sugar | #197",
+            "description": "Which peptides does Dr. Joy Kong actually use herself? She walks entrepreneur Mike Cormier through her personal stack, then ...",
+            "published_at": "2026-08-30T14:00:35Z",
+            "url": "https://www.youtube.com/watch?v=u5r1UipyHtI"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "u5r1UipyHtI",
+            "title": "BPC-157, Tesamorelin, GLP-1: Muscle, Fat Loss, and Blood Sugar | #197",
+            "description": "Which peptides does Dr. Joy Kong actually use herself? She walks entrepreneur Mike Cormier through her personal stack, then ...",
+            "published_at": "2026-08-30T14:00:35Z",
+            "url": "https://www.youtube.com/watch?v=u5r1UipyHtI"
+          }
+        ],
+        "channel_description": "Dr. Joy Kong, MD is a triple board-certified physician in the fields of Psychiatry, Addiction Medicine, and Anti-aging & Regenerative Medicine. She was named Top Doctor of the Year in Stem Cell Therapy 2019, Empowered Woman of the Year 2019, Stem Cell Doctor of the Decade in 2021, and her memoir Tiger of Beijing was named \"Book of the Year\" in 2020.\n\nMany people want to know how stem cell therapy works and look for the best stem cell treatment in the world. In search of such treatment, it's important to find the best stem cell therapy doctor who can guide you and customize regenerative medicine & anti-aging treatment to your specific needs. Stem cell therapy research studies have been very promising. \n\nWould you like to learn more? Be sure to visit: drjoykong.com\n\nSubscribe to Dr. Joy Kong's YouTube channel to never miss a new episode.\n",
+        "latest_video_at": "2026-08-30T14:00:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC44CLSdWwcUspLW06P94QqQ",
+      "external_id": "UC44CLSdWwcUspLW06P94QqQ",
+      "name": "Dr. Jean Carlos Cruz",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC44CLSdWwcUspLW06P94QqQ",
+      "discovered_on": "2026-08-30",
+      "score": 63.82,
+      "metrics": {
+        "subscribers": 6270,
+        "total_views": 438491,
+        "video_count": 248,
+        "avg_views_per_video": 1768.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/dr.jcruz"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "HKeFRgxbG6U",
+            "title": "Lo que los médicos no te dicen sobre los péptidos. #bajardepeso",
+            "description": "Sabías que los péptidos pueden ser el cambio que tu cuerpo necesita? En este video te cuento mi experiencia personal: de ...",
+            "published_at": "2026-08-29T14:40:18Z",
+            "url": "https://www.youtube.com/watch?v=HKeFRgxbG6U"
+          }
+        ],
+        "channel_description": "El Dr. Jean Carlos Cruz es un quiropráctico licenciado  en el estado de Florida, EEUU. \n\nInstagram: https://www.instagram.com/dr.jcruz/\nFacebook: https://m.facebook.com/DoctorJCruz/\n\nDESCARGO DE RESPONSABILIDAD MÉDICA\nLa información proporcionada no pretende sustituir el asesoramiento, diagnóstico o tratamiento médico profesional. Nunca ignore el consejo médico profesional, ni demore en buscarlo, debido a algo que haya leído en este sitio web. Nunca confíe en la información de este sitio web en lugar de buscar asesoramiento médico profesional.\n",
+        "latest_video_at": "2026-08-29T14:40:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC4Z8TY_7J3QTjDwko1IoqLg",
+      "external_id": "UC4Z8TY_7J3QTjDwko1IoqLg",
+      "name": "Christopher Drummond",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC4Z8TY_7J3QTjDwko1IoqLg",
+      "discovered_on": "2026-08-30",
+      "score": 62.83,
+      "metrics": {
+        "subscribers": 6930,
+        "total_views": 1575291,
+        "video_count": 162,
+        "avg_views_per_video": 9724.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "qCasrBqCl9s",
+            "title": "My Best Microneedling Aftercare Secret: Neuvian NMF+ GHK-cu  peptides  #facial #skincare #peptides",
+            "description": "As a licensed medical aesthetician, I performed microneedling and LED Therapy using Neuian's NMF+ Serum the exact science ...",
+            "published_at": "2026-08-29T14:05:37Z",
+            "url": "https://www.youtube.com/watch?v=qCasrBqCl9s"
+          }
+        ],
+        "channel_description": "Welcome to CD Medical Aesthetics by Christopher Drummond—your definitive authority on regenerative aesthetics (peptides, exosomes, PRP), hair loss, scalp micropigmentation,  clinical skin health, and corrective aesthetics.\n\nLed by Christopher Drummond—celebrity medical makeup artist, melanated skin expert, and licensed master aesthetician with 20 years of clinical expertise, providing elite, evidence-based education and professional training.\n\nWhether you are a beauty professional or medical provider looking to master advanced treatments and scale your practice, you are in the right place. 💼✨\n\nWhat You'll Find:\n💉 Skin & Scars: Clinical skincare, microneedling & scar revision 🧬\n🧠 Hair & Scalp: Hair loss solutions, advanced SMP & follicle restoration\n💋 Aesthetics: Parametrical tattooing & areola restoration\n\n#RegenerativeAesthetics #HairLoss #SMP #MedicalAesthetics #HairRestoration #ClinicalSkincare #ScarRevision #MasterAesthetician #GLPHairLoss #HairLossSolutions #MelanatedSkinExpert\n",
+        "latest_video_at": "2026-08-29T14:05:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCo5w5QRo0wc6qtLT_pUxOzQ",
+      "external_id": "UCo5w5QRo0wc6qtLT_pUxOzQ",
+      "name": "Dr. Rosh",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCo5w5QRo0wc6qtLT_pUxOzQ",
+      "discovered_on": "2026-08-30",
+      "score": 61.45,
+      "metrics": {
+        "subscribers": 6530,
+        "total_views": 230357,
+        "video_count": 65,
+        "avg_views_per_video": 3543.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "OUx--m-jVao",
+            "title": "Think peptides are automatically safe? Think again.",
+            "description": "I use peptides myself, but there are three situations where I would tell someone to stay completely away from them: Active cancer ...",
+            "published_at": "2026-08-30T12:37:43Z",
+            "url": "https://www.youtube.com/watch?v=OUx--m-jVao"
+          }
+        ],
+        "channel_description": "Dr Rosh is a U.K educated doctor specialising in aesthetic and longevity medicine.\n\nThis YouTube page is dedicated to educating patients about skincare, longevity and common aesthetic procedures. It is also a safe place to answer any questions you may have. \n\nWe also provide free online video consultations to discuss your concerns and establish effective treatment plans. All longevity and skincare consultations can be carried out online within the comfort of your own home.\n\nIf you prefer the personal touch of an in-person consultation, we also offer our services in multiple clinics throughout West London including Chiswick, Windsor and Iver.\n\n",
+        "latest_video_at": "2026-08-30T12:37:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCSwCAHjWta7w4yxmfhhDunA",
+      "external_id": "UCSwCAHjWta7w4yxmfhhDunA",
+      "name": "Александра Борзых",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCSwCAHjWta7w4yxmfhhDunA",
+      "discovered_on": "2026-08-30",
+      "score": 59.42,
+      "metrics": {
+        "subscribers": 5360,
+        "total_views": 1574190,
+        "video_count": 859,
+        "avg_views_per_video": 1832.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "FiLcbMCOZDM",
+            "title": "Подобрать пептиды или записаться на консультацию можно по ссылке в шапке профиля",
+            "description": "Как можно доверить ЭТО chatGPT Первое и самое важное правило в пептидной терапии, проходить ее под контролем ...",
+            "published_at": "2026-08-29T16:52:42Z",
+            "url": "https://www.youtube.com/watch?v=FiLcbMCOZDM"
+          }
+        ],
+        "channel_description": "АЛЕКСАНДРА БОРЗЫХ- эксперт по снижению веса и биохакингу , сооснователь RE:SOURCE CLINIC ; \n\nДелюсь своим опытом использования пептидов ( похудела на 15 кг на ГПП-1 пептидах) и просвещаю об инновациях в теме снижения веса , клеточного омоложения и прокачки энергии вместе со специалистами моей клиники .\n\nЗаписаться на консультацию по пептидам для снижения веса к врачу-эндокринологу ( онлайн или офлайн в Мск) или узнать про пептиды можно по ссылке в описание\n",
+        "latest_video_at": "2026-08-29T16:52:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC87bMmdxbAfGHtUuL9Jo4fw",
+      "external_id": "UC87bMmdxbAfGHtUuL9Jo4fw",
+      "name": "tamrino",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC87bMmdxbAfGHtUuL9Jo4fw",
+      "discovered_on": "2026-08-30",
+      "score": 54.78,
+      "metrics": {
+        "subscribers": 2990,
+        "total_views": 921582,
+        "video_count": 1888,
+        "avg_views_per_video": 488.13,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "4vOxe6kjL-A",
+            "title": "پپتاید BPC-157 را مصرف کنیم یا نه؟ (نسخه هوش مصنوعی)",
+            "description": "پپتاید BPC-157 را مصرف کنیم یا نه؟ پپتاید BPC-157 یکی از محبوب‌ترین پپتایدها برای بهبود جراحات و افزایش سرعت ریکاوری ...",
+            "published_at": "2026-08-30T13:34:42Z",
+            "url": "https://www.youtube.com/watch?v=4vOxe6kjL-A"
+          }
+        ],
+        "channel_description": "تمرینو ناشر تخصصی بدنسازی و ارائه دهنده برنامه‌های روز بدنسازی است\n\n\n",
+        "latest_video_at": "2026-08-30T13:34:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCbxl6EvMfGX6ze--ZH-eUqA",
       "external_id": "UCbxl6EvMfGX6ze--ZH-eUqA",
