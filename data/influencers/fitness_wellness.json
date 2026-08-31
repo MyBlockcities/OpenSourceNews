@@ -2,19 +2,463 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-30T14:54:28Z",
-  "new_this_run": 11,
-  "total_influencers": 1086,
+  "updated_at": "2026-08-31T17:39:34Z",
+  "new_this_run": 12,
+  "total_influencers": 1098,
   "run_summary": {
-    "run_started_at": "2026-08-30T14:54:06Z",
-    "candidate_count": 47,
-    "existing_count": 1075,
-    "selected_new_count": 11,
+    "run_started_at": "2026-08-31T17:39:11Z",
+    "candidate_count": 50,
+    "existing_count": 1086,
+    "selected_new_count": 12,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCPbeu964LKFfhBfHpTuxKxQ",
+      "external_id": "UCPbeu964LKFfhBfHpTuxKxQ",
+      "name": "Amura Health",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCPbeu964LKFfhBfHpTuxKxQ",
+      "discovered_on": "2026-08-31",
+      "score": 67.87,
+      "metrics": {
+        "subscribers": 16700,
+        "total_views": 420110,
+        "video_count": 23,
+        "avg_views_per_video": 18265.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "yC9M25WmT1o",
+            "title": "Ep#05 Sandra Kaufmann: 18 nutrients for longevity",
+            "description": "Dr. Sandra Kaufmann is an anesthesiologist who wrote the book The Kaufmann Protocol: Why We Age and How to Stop It. The ...",
+            "published_at": "2026-08-31T06:42:35Z",
+            "url": "https://www.youtube.com/watch?v=yC9M25WmT1o"
+          }
+        ],
+        "channel_description": "Amura Health is a hospital on the cloud, built to help you get healthy from lifestyle and chronic conditions. Our understanding of the human body allows our medical doctors to help people reverse their chronic diseases using Natural Molecule Therapy (NMT) protocols, using evidence-based science to achieve optimal health. \n\nCall @ 062622 62222\nEmail: care@amura.ai\nhttps://amura.ai/\n",
+        "latest_video_at": "2026-08-31T06:42:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCGHh5RGHyDNEu-vsAUpcUig",
+      "external_id": "UCGHh5RGHyDNEu-vsAUpcUig",
+      "name": "Viña del Mar Chile",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCGHh5RGHyDNEu-vsAUpcUig",
+      "discovered_on": "2026-08-31",
+      "score": 67.07,
+      "metrics": {
+        "subscribers": 14200,
+        "total_views": 2947420,
+        "video_count": 1855,
+        "avg_views_per_video": 1588.91,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "http://www.twitter.com/vinadelmar",
+        "instagram": "https://www.instagram.com/municipiovina"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "F_sAxETvrhE",
+            "title": "Participa en nuestras clases de Entrenamiento Funcional - Viña del Mar",
+            "description": "Participa en nuestras clases de Entrenamiento Funcional! En este reel, el profesor Marcelo Fernández nos explica en qué ...",
+            "published_at": "2026-08-31T14:50:10Z",
+            "url": "https://www.youtube.com/watch?v=F_sAxETvrhE"
+          }
+        ],
+        "channel_description": "Bienvenidas y bienvenidos al canal Youtube oficial del Municipio de Cuidados de Viña del Mar.\nEn conjunto construimos una ciudad transformadora, más democrática y verdaderamente integradora.\n\r\nActividades turísticas, sociales, culturales y deportivas de la Capital Turística de Chile.\n\n\r\nhttps://www.munivina.cl/\nhttp://www.twitter.com/vinadelmar\r\nhttp://www.facebook.com/munivina\r\nhttp://www.youtube.com/municipalidaddevina\nhttps://www.instagram.com/municipiovina/\nhttps://visitavina.munivina.cl/\n",
+        "latest_video_at": "2026-08-31T14:50:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCCmYTjMJmez7yQveck-K9rw",
+      "external_id": "UCCmYTjMJmez7yQveck-K9rw",
+      "name": "The Misbehaved Women Podcast",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCCmYTjMJmez7yQveck-K9rw",
+      "discovered_on": "2026-08-31",
+      "score": 59.59,
+      "metrics": {
+        "subscribers": 3050,
+        "total_views": 409494,
+        "video_count": 94,
+        "avg_views_per_video": 4356.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "ho-AxC969I4",
+            "title": "The Misbehaved Women Pod S2 Ep. 3 The one with Eden peptides",
+            "description": "Eden, an RN who specializes in peptides and aesthetics sits down with Dawna and Jessica to discuss vanity and wellness, aging, ...",
+            "published_at": "2026-08-31T03:26:32Z",
+            "url": "https://www.youtube.com/watch?v=ho-AxC969I4"
+          }
+        ],
+        "channel_description": "It's been said that \"Well behaved women rarely make history.\" Meet two Misbehaved Women; Jiu Jitsu and self defense coach Dawna Gonzales and MMA Icon Jessica Penne. They discuss all things women and more.  No subject is off the table money, sex, relationships, fighting, pop culture, gossip, and you never know who is going to end up on the guest list.",
+        "latest_video_at": "2026-08-31T03:26:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCeBHCrF6Uvu_2037bbbba4g",
+      "external_id": "UCeBHCrF6Uvu_2037bbbba4g",
+      "name": "Return on Health",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCeBHCrF6Uvu_2037bbbba4g",
+      "discovered_on": "2026-08-31",
+      "score": 59.21,
+      "metrics": {
+        "subscribers": 8220,
+        "total_views": 40164,
+        "video_count": 44,
+        "avg_views_per_video": 912.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "wsJAcIUmFPg",
+            "title": "AUBREY DE GREY ON HIS OWN LONGEVITY ESCAPE VELOCITY PROTOCOL",
+            "description": "Longevity Expert Aubrey de Grey on his own Longevity Escape Velocity protocol. What Longevity Escape Velocity is, why it ...",
+            "published_at": "2026-08-31T17:07:40Z",
+            "url": "https://www.youtube.com/watch?v=wsJAcIUmFPg"
+          }
+        ],
+        "channel_description": "90% of listeners are not subscribed - please double check, thank you!!\n\nHealth is full of strong claims, conflicting voices, and bold promises. Most people end up overwhelmed and unsure who to trust. Return on Health aims to bring clarity by listening to every side, asking hard questions, and keeping science and common sense at the center.\n\nHosted by Niko Hems and Miguel Medina Stanivukovic, the podcast takes a clear look at longevity, prevention, performance, and the future of health. We invite researchers, founders, clinicians, skeptics, and innovators, then pressure-test their ideas. Some viewpoints will align. Others will clash. That is the point.\n",
+        "latest_video_at": "2026-08-31T17:07:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZa9RHAyc8jQSHp4ZVpPigQ",
+      "external_id": "UCZa9RHAyc8jQSHp4ZVpPigQ",
+      "name": "BonG Nutri-Fit",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCZa9RHAyc8jQSHp4ZVpPigQ",
+      "discovered_on": "2026-08-31",
+      "score": 58.43,
+      "metrics": {
+        "subscribers": 3510,
+        "total_views": 4099923,
+        "video_count": 1954,
+        "avg_views_per_video": 2098.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "OkEL_5x33dw",
+            "title": "This Workout Builds More Than Muscle! 💪🔥Where Comfort Ends, Progress Begins! 🔥",
+            "description": "Some workouts build muscles. Some workouts build you. ⚡ Nearly two hours of compound movements, functional training and ...",
+            "published_at": "2026-08-31T12:30:28Z",
+            "url": "https://www.youtube.com/watch?v=OkEL_5x33dw"
+          }
+        ],
+        "channel_description": "🏋️ Bong Nutri-Fit | Fitness • Nutrition • Bengali Food 🍛\n\nWelcome to Bong Nutri-Fit, where fitness meets the authentic taste of Bengal.\n\nThis channel is dedicated to helping you build a healthier lifestyle through practical fitness tips, home gym workouts, balanced nutrition, healthy Bengali meals, and everyday wellness habits.\n\nYou'll find workout motivation, muscle-building and fat-loss guidance, nutritious recipes, meal plating ideas, and the rich flavors of traditional Bengali cuisine—all in one place.\n\nFit Body • Healthy Mind • Bengali Soul\n\nSubscribe and join the journey toward better health, strength, and nutrition. 💪❤️🍛 #WorkoutMotivation #HealthyEating #MuscleBuilding #FatLoss",
+        "latest_video_at": "2026-08-31T12:30:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTaLODzPGMMCHELzCMIrVgQ",
+      "external_id": "UCTaLODzPGMMCHELzCMIrVgQ",
+      "name": "RAJHANS FITNESS59",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCTaLODzPGMMCHELzCMIrVgQ",
+      "discovered_on": "2026-08-31",
+      "score": 58.09,
+      "metrics": {
+        "subscribers": 3200,
+        "total_views": 625113,
+        "video_count": 306,
+        "avg_views_per_video": 2042.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "N8L-Hq9Oyl4",
+            "title": "“Functional Training ke naam pe mehenga charge mat do#fitness  #strenghttraining #functionaltraining",
+            "description": "",
+            "published_at": "2026-08-31T14:56:07Z",
+            "url": "https://www.youtube.com/watch?v=N8L-Hq9Oyl4"
+          }
+        ],
+        "channel_description": "Welcome to Rajhans Fitness! 💪\nI’m Raj Hans, a fitness trainer with over 7 years of experience in the gym. My goal is to help you transform your body and lifestyle through simple, effective, and science-backed workouts.\n\nOn this channel, you’ll find:\n✅ Full workout routines (beginner to advanced)\n✅ Muscle-building tips & techniques\n✅ Nutrition and fitness guidance\n✅ Motivation to stay consistent on your fitness journey\n\n“Certified fitness trainer sharing workouts, tips & motivation to help you transform 💪”\n\nWhether you want to build strength, improve endurance, or achieve your dream physique, Rajhans Fitness is here to guide you every step of the way.\n\n👉 Subscribe now and let’s grow together. ",
+        "latest_video_at": "2026-08-31T14:56:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC6T9t0QApk_ySJ5ebPGFebQ",
+      "external_id": "UC6T9t0QApk_ySJ5ebPGFebQ",
+      "name": "Mphoo Maliga",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC6T9t0QApk_ySJ5ebPGFebQ",
+      "discovered_on": "2026-08-31",
+      "score": 56.06,
+      "metrics": {
+        "subscribers": 2310,
+        "total_views": 207747,
+        "video_count": 164,
+        "avg_views_per_video": 1266.75,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "_HKuczSXtIo",
+            "title": "Beginner friendly  functional workout #gym #workout  #beginners",
+            "description": "",
+            "published_at": "2026-08-31T13:24:19Z",
+            "url": "https://www.youtube.com/watch?v=_HKuczSXtIo"
+          }
+        ],
+        "channel_description": "A glimpse of my life and everything nice . ☀️🦄\n\n#happinessshouldbeabirthright",
+        "latest_video_at": "2026-08-31T13:24:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:585e0b4da62149eb0457",
+      "external_id": "585e0b4da62149eb0457",
+      "name": "vals tutor",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/dp8oT3QwkRuHoYKge/why-autonomous-replicating-agents-are-probably-not-an",
+      "discovered_on": "2026-08-31",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Why autonomous replicating agents are probably not an existential risk (on the contrary)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8057322988dfc2783f2b",
+      "external_id": "8057322988dfc2783f2b",
+      "name": "Zsolt Kelly-Bene",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/DzrRKdPJdyo9ZSCjb/the-openai-hugging-face-incident-was-metal",
+      "discovered_on": "2026-08-31",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The OpenAI/Hugging Face incident was metal"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:47f33ef57d0d84385bfa",
+      "external_id": "47f33ef57d0d84385bfa",
+      "name": "Jesse Marks, Nicholas Lyall",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/syria/road-through-damascus",
+      "discovered_on": "2026-08-31",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Road Through Damascus"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e97ad155edbe24063f72",
+      "external_id": "e97ad155edbe24063f72",
+      "name": "Felix Moses",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/KC84bMPBL9XWpaiMj/a-catalogue-of-corrigibility-counter-arguments",
+      "discovered_on": "2026-08-31",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Catalogue of Corrigibility Counter Arguments"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9a256f550945e99f6e9a",
+      "external_id": "9a256f550945e99f6e9a",
+      "name": "Andrei Soldatov, Irina Borogan",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/russia/price-russian-paranoia",
+      "discovered_on": "2026-08-31",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Price of Russian Paranoia"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC8BrSXMAiTz1A5X45aJ30yg",
       "external_id": "UC8BrSXMAiTz1A5X45aJ30yg",

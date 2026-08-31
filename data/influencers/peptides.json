@@ -2,19 +2,154 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-08-30T14:54:24Z",
-  "new_this_run": 6,
-  "total_influencers": 201,
+  "updated_at": "2026-08-31T17:39:29Z",
+  "new_this_run": 3,
+  "total_influencers": 204,
   "run_summary": {
-    "run_started_at": "2026-08-30T14:54:06Z",
-    "candidate_count": 15,
-    "existing_count": 195,
-    "selected_new_count": 6,
+    "run_started_at": "2026-08-31T17:39:11Z",
+    "candidate_count": 11,
+    "existing_count": 201,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCMqIHbtOVp7yoef8qrBq1qw",
+      "external_id": "UCMqIHbtOVp7yoef8qrBq1qw",
+      "name": "Dietetyka oparta na faktach",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCMqIHbtOVp7yoef8qrBq1qw",
+      "discovered_on": "2026-08-31",
+      "score": 67.38,
+      "metrics": {
+        "subscribers": 31200,
+        "total_views": 2301292,
+        "video_count": 379,
+        "avg_views_per_video": 6072.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "U949Lu2ibUw",
+            "title": "Peptydy: rewolucja w regeneracji czy niebezpieczny eksperyment? | Bartłomiej Pomorski",
+            "description": "BPC-157, GLP-1, kolagen i insulina to wszystko peptydy - ale dowody naukowe za każdym z nich wyglądają zupełnie inaczej.",
+            "published_at": "2026-08-31T13:08:05Z",
+            "url": "https://www.youtube.com/watch?v=U949Lu2ibUw"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-08-31T13:08:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCHI8IisuAV0zduaUwNzBizQ",
+      "external_id": "UCHI8IisuAV0zduaUwNzBizQ",
+      "name": "Chris Powell",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCHI8IisuAV0zduaUwNzBizQ",
+      "discovered_on": "2026-08-31",
+      "score": 65.9,
+      "metrics": {
+        "subscribers": 31800,
+        "total_views": 2616230,
+        "video_count": 874,
+        "avg_views_per_video": 2993.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "LBabOSa4MjY",
+            "title": "This peptide is doing something wild to injured tissue…",
+            "description": "Okay, this BPC-157 breakdown from @explainingourbody is quite interesting. Let me walk you through it. When you get injured ...",
+            "published_at": "2026-08-30T20:30:07Z",
+            "url": "https://www.youtube.com/watch?v=LBabOSa4MjY"
+          }
+        ],
+        "channel_description": "Chris Powell is widely known as the transformation specialist and host of ABC’s hit documentary-style series, “Extreme Weight Loss.” Beyond the show, Chris has become a leading authority on achieving optimal health and lifelong transformation. He is a two-time NY Times Bestselling author and appears regularly on nationally syndicated television shows including “Good Morning America.” He has been featured on the cover of several publications to date and has written numerous articles for publications such as Men’s Health, Men’s Fitness, SHAPE, and Women’s Health. Chris holds a degree in Exercise Science from Arizona State University, with concentrations in biomechanics and physiology. He also holds the respected Certified Strength and Conditioning Specialist (CSCS) certification from the NSCA, and just recently received his Certified Wellness Coach Credential from NASM (National Academy of Sports Medicine).\n",
+        "latest_video_at": "2026-08-30T20:30:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCO_8BCfFo2bI5jp_w--tKDA",
+      "external_id": "UCO_8BCfFo2bI5jp_w--tKDA",
+      "name": "Miracle Mile Shops Las Vegas",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCO_8BCfFo2bI5jp_w--tKDA",
+      "discovered_on": "2026-08-31",
+      "score": 56.89,
+      "metrics": {
+        "subscribers": 2190,
+        "total_views": 151921,
+        "video_count": 76,
+        "avg_views_per_video": 1998.96,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "zp2FfW8qfa0",
+            "title": "Royal Miracle Mile Healing Peptides‼️ Worldwide Drop shipping available. 🧪 BPC-157, TB-500, GHK-Cu",
+            "description": "Royal Miracle Mile Healing Peptides‼️ Worldwide Drop shipping available. ✈️ BPC-157 for Healing & Recovery, CJC-1295 ...",
+            "published_at": "2026-08-30T18:25:33Z",
+            "url": "https://www.youtube.com/watch?v=zp2FfW8qfa0"
+          }
+        ],
+        "channel_description": "Miracle Mile Shops Las Vegas ",
+        "latest_video_at": "2026-08-30T18:25:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCZj1GQBWFM5sRAL0iQfcMAQ",
       "external_id": "UCZj1GQBWFM5sRAL0iQfcMAQ",

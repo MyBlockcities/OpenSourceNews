@@ -2,19 +2,371 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-30T14:54:15Z",
-  "new_this_run": 12,
-  "total_influencers": 384,
+  "updated_at": "2026-08-31T17:39:20Z",
+  "new_this_run": 8,
+  "total_influencers": 392,
   "run_summary": {
-    "run_started_at": "2026-08-30T14:54:06Z",
-    "candidate_count": 21,
-    "existing_count": 372,
-    "selected_new_count": 12,
+    "run_started_at": "2026-08-31T17:39:11Z",
+    "candidate_count": 17,
+    "existing_count": 384,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UChf6TIaegrgPN9aOereCiGA",
+      "external_id": "UChf6TIaegrgPN9aOereCiGA",
+      "name": "Priyanka Sharma",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UChf6TIaegrgPN9aOereCiGA",
+      "discovered_on": "2026-08-31",
+      "score": 73.03,
+      "metrics": {
+        "subscribers": 97900,
+        "total_views": 50762356,
+        "video_count": 3061,
+        "avg_views_per_video": 16583.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "PeUtvh6wMFo",
+            "title": "Nepal Flood पर China के खिलाफ बड़े सवाल! Tibet की तबाही के Videos क्यों हटाए गए? #nepalflood #china",
+            "description": "नेपाल-चीन सीमा पर आई विनाशकारी Flash Flood के बाद अब Tibet में Information Control और ...",
+            "published_at": "2026-08-30T18:14:07Z",
+            "url": "https://www.youtube.com/watch?v=PeUtvh6wMFo"
+          }
+        ],
+        "channel_description": "Journalist | News Adda | The Priyanka Show | Podcast | Explainers | News Updates\n\nPriyanka Sharma is a seasoned journalist, anchor and producer with a career span of 8+ years in mainstream news media. She worked with leading names in the industry like India Today, Zee and Republic Media.\n\nNow, a leading public affairs journalist ventured into her own editorial voice with digital-first channel exclusive on YT. Her niche is forming leadership discourse in the lines of politics & social governance, where contexts & diverse viewpoints bring depth, clarity, purpose & impact. Her contents forms & nurture a thinking audience, not a demographic bucket, it transcends culture, community and nation.\n\nFor partnerships: brandcollab@newsaddabypriyankasharma.com\nWebsite: www.newsaddabypriyankasharma.com",
+        "latest_video_at": "2026-08-30T18:14:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCLzqFhoSnO6FgE7yi8KDkMg",
+      "external_id": "UCLzqFhoSnO6FgE7yi8KDkMg",
+      "name": "UK LIVE",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCLzqFhoSnO6FgE7yi8KDkMg",
+      "discovered_on": "2026-08-31",
+      "score": 65.89,
+      "metrics": {
+        "subscribers": 21600,
+        "total_views": 1406020,
+        "video_count": 274,
+        "avg_views_per_video": 5131.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "0SJI5sNBWC4",
+            "title": "Jessaline Caine on why the young generations are SHIFTING to conservatism!",
+            "description": "Paul Cox is joined on UKLIVE by political commentator Jessaline Caine to discuss a growing political shift among younger voters ...",
+            "published_at": "2026-08-31T15:00:31Z",
+            "url": "https://www.youtube.com/watch?v=0SJI5sNBWC4"
+          }
+        ],
+        "channel_description": "UK LIVE is the home of The Mike Graham Show, The Kelvin Mackenzie Show, The Quirk Report, Mark Littlewood's World Cuppa & more!\nLive news, politics, sport and debate.\n\nTHE REVOLUTION WILL BE TELEVISED.",
+        "latest_video_at": "2026-08-31T15:00:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC4ku2tf7akxlp25PQ4VuQ7g",
+      "external_id": "UC4ku2tf7akxlp25PQ4VuQ7g",
+      "name": "True News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC4ku2tf7akxlp25PQ4VuQ7g",
+      "discovered_on": "2026-08-31",
+      "score": 61.47,
+      "metrics": {
+        "subscribers": 36700,
+        "total_views": 1106,
+        "video_count": 14,
+        "avg_views_per_video": 79.0,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "80YYnJ06rHs",
+            "title": "9 Crore Price Tag? Mohsin Naqvi Speech Censorship Sparks Questions | True News",
+            "description": "9 Crore Price Tag? Mohsin Naqvi Speech Censorship Sparks Questions | True News True News – Pakistan's Digital News ...",
+            "published_at": "2026-08-31T10:55:11Z",
+            "url": "https://www.youtube.com/watch?v=80YYnJ06rHs"
+          },
+          {
+            "query": "censorship news",
+            "video_id": "6E010aRh8lY",
+            "title": "Censoring Mohsin Naqvi&#39;s Speech Rewards 90 million - True News",
+            "description": "Censoring Mohsin Naqvi's Speech Rewards 90 million - True News True News – Pakistan's Digital News Channel Welcome to ...",
+            "published_at": "2026-08-31T10:47:21Z",
+            "url": "https://www.youtube.com/watch?v=6E010aRh8lY"
+          }
+        ],
+        "channel_description": "\n",
+        "latest_video_at": "2026-08-31T10:55:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC2-Wad82H5GVWf0MGttBEvg",
+      "external_id": "UC2-Wad82H5GVWf0MGttBEvg",
+      "name": "CNI NEWS",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC2-Wad82H5GVWf0MGttBEvg",
+      "discovered_on": "2026-08-31",
+      "score": 60.64,
+      "metrics": {
+        "subscribers": 15500,
+        "total_views": 3320603,
+        "video_count": 4564,
+        "avg_views_per_video": 727.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "FUzGri1yToE",
+            "title": "Pakistan Independence Day Celebrations organised by Jhelum Forum — A special report by CNI News",
+            "description": "Pakistan Independence Day Celebrations organised by Jhelum Forum — A special report by CNI News.",
+            "published_at": "2026-08-31T11:21:44Z",
+            "url": "https://www.youtube.com/watch?v=FUzGri1yToE"
+          }
+        ],
+        "channel_description": "CNI News Network – Bridging News Across Languages\n\nCommunication Network International (CNI News Network) is a leading multilingual news platform delivering timely, accurate news in Urdu, English, and Punjabi for audiences in Pakistan, the UK, Europe, and worldwide. Founded on journalistic integrity, inclusivity, and accessibility, CNI covers politics, economy, Kashmir news, technology, environment, sports (especially cricket and football), health, and entertainment. Its bilingual and trilingual model makes it a trusted source for Pakistani and Punjabi diaspora globally. With a strong digital presence on YouTube, Facebook, Instagram, and TikTok, CNI provides breaking news, live coverage, and community reports. Known for UK Pakistani community news, cultural events, and social issues, CNI bridges linguistic divides, making it a go-to for Urdu News UK, Punjabi News UK, and English News Pakistan.\r\n",
+        "latest_video_at": "2026-08-31T11:21:44Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCpSU9JdljgsH02unPQdDdpw",
+      "external_id": "UCpSU9JdljgsH02unPQdDdpw",
+      "name": "what's trending",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCpSU9JdljgsH02unPQdDdpw",
+      "discovered_on": "2026-08-31",
+      "score": 56.6,
+      "metrics": {
+        "subscribers": 3020,
+        "total_views": 4013731,
+        "video_count": 3605,
+        "avg_views_per_video": 1113.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "n6_3S2x9xFY",
+            "title": "Right-Wing Media&#39;s Epstein Promise Collapse",
+            "description": "The Jeffrey Epstein case has become one of the most significant and controversial legal matters in modern American history.",
+            "published_at": "2026-08-30T20:34:25Z",
+            "url": "https://www.youtube.com/watch?v=n6_3S2x9xFY"
+          }
+        ],
+        "channel_description": "make your own clips with yolt\n",
+        "latest_video_at": "2026-08-30T20:34:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1w6SMLYEzFXhlUEsa35yzQ",
+      "external_id": "UC1w6SMLYEzFXhlUEsa35yzQ",
+      "name": "O Ancapixaba",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC1w6SMLYEzFXhlUEsa35yzQ",
+      "discovered_on": "2026-08-31",
+      "score": 55.45,
+      "metrics": {
+        "subscribers": 5340,
+        "total_views": 531468,
+        "video_count": 1799,
+        "avg_views_per_video": 295.42,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "s5TzTcveB6w",
+            "title": "Liberdade de Expressão  Minha Luta Contra Censura e Fake News",
+            "description": "O mundo está de cabeça pra baixo — você está preparado? No canal Fábio Pirajá | O Observador, política, economia e os ...",
+            "published_at": "2026-08-31T11:19:39Z",
+            "url": "https://www.youtube.com/watch?v=s5TzTcveB6w"
+          }
+        ],
+        "channel_description": "O Mundo Tá Virando de Cabeça Pra Cima – Você Está Preparado?  \nAqui, no canal de Fábio Pirajá, a política, a economia e os acontecimentos globais não ficam no superficial. Vamos direto ao ponto! Não tem conversa fiada, é análise crua e sem filtros sobre o que realmente importa.  \n  \n💥 O que você acha da economia que está bombando e desabando ao mesmo tempo?  \n💡 Como os bastidores da política afetam o seu bolso?  \n🌍 O que está rolando lá fora que pode mudar tudo aqui?  \n  \nSe você quer ver tudo isso de uma forma diferente, **inscreva-se agora e venha para o jogo!**\n\n🌎 Política, Economia, Geopolítica e Sociedade com Fábio Pirajá!  \nAnálises claras, diretas e sem enrolação sobre os principais temas que impactam o Brasil e o mundo.  \n📊 Entenda o cenário político, a economia global, a demografia e os desafios da sociedade atual.  \n🔔 Inscreva-se no canal e ative as notificações para não perder nenhuma atualização!  \n👤 Apresentação: Fábio Pirajá – informação com conteúdo e responsabilidade.",
+        "latest_video_at": "2026-08-31T11:19:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCB_HTN3n0ZltXHTPuSKeevw",
+      "external_id": "UCB_HTN3n0ZltXHTPuSKeevw",
+      "name": "PEP Radio",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCB_HTN3n0ZltXHTPuSKeevw",
+      "discovered_on": "2026-08-31",
+      "score": 52.14,
+      "metrics": {
+        "subscribers": 2110,
+        "total_views": 1696408,
+        "video_count": 7222,
+        "avg_views_per_video": 234.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "iNQv6Ot9prY",
+            "title": "US Treasury blocks certain journalists from G20 meeting in North Carolina",
+            "description": "US Treasury blocks certain journalists from G20 meeting in North Carolina From the PEP Radio Newsroom, we have this news ...",
+            "published_at": "2026-08-31T00:15:10Z",
+            "url": "https://www.youtube.com/watch?v=iNQv6Ot9prY"
+          }
+        ],
+        "channel_description": "We are the new radio station for the LGBTQ+ community and our allies in Pennsylvania. We have been granted our construction permit by the FCC and will be going live as 95.7 FM in Meadville, Pennsylvania. We are now available on the Live365 app, Roku and Alexa. Search for PEP Radio.",
+        "latest_video_at": "2026-08-31T00:15:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCsP7n-3TsVuhEk8-boNzv0w",
+      "external_id": "UCsP7n-3TsVuhEk8-boNzv0w",
+      "name": "Bangladesh Sangbad Sangstha (BSS)",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCsP7n-3TsVuhEk8-boNzv0w",
+      "discovered_on": "2026-08-31",
+      "score": 51.35,
+      "metrics": {
+        "subscribers": 2590,
+        "total_views": 124947,
+        "video_count": 1019,
+        "avg_views_per_video": 122.62,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "s94GwZoq7sw",
+            "title": "Abdus Salam was a unique example of independent, objective journalism: Rizvi || Headline || 31.08.26",
+            "description": "Journalist Abdus Salam Honored: BNP's Ruhul Kabir Rizvi praised veteran journalist Abdus Salam on his 116th birth anniversary, ...",
+            "published_at": "2026-08-31T09:15:54Z",
+            "url": "https://www.youtube.com/watch?v=s94GwZoq7sw"
+          }
+        ],
+        "channel_description": "Bangladesh Sangbad Sangstha (BSS) @BSSAudioVisual\nWelcome to the official YouTube channel of Bangladesh Sangbad Sangstha (BSS) @BSSAudioVisual, the sole national news agency of Bangladesh. Established on January 1, 1972, BSS has been the most reliable and primary source of news for the nation and the global community for over five decades.\nWhat We Offer:\nOur channel delivers objective, fact-based reporting and high-quality visual coverage of the nation's progress:\nNational & Economy: Latest updates on politics, economic shifts, education, and culture across all 64 districts.\nInternational Relations: Bangladesh’s role in the global arena, UN updates, and diplomatic missions.\nSubscribe and hit the bell icon 🔔 to stay updated with the heartbeat of the nation.\n🔗 Official Links:\nWeb: www.bssnews.net\nFacebook: www.facebook.com/bssaudiovisual\nX (Twitter): x.com/BSS_News_Agency\nInstagram: instagram.com/bss_news_agency\n\nAuthentic Information, Empowered Nation.\nBangladesh Sangbad Sangstha (BSS)\n",
+        "latest_video_at": "2026-08-31T09:15:54Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC_dnLeurUZSE9fMboaVmlew",
       "external_id": "UC_dnLeurUZSE9fMboaVmlew",
