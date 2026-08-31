@@ -59,12 +59,16 @@ jobs:
           # Do not set QDRANT_API_KEY, SUPABASE_SECRET_KEY, or SUPABASE_SERVICE_ROLE_KEY here.
           COLLECT_ONLY: "1"
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'ollama' }}
-          OPENROUTER_API_KEY: ${{ (vars.LLM_PROVIDER == 'openrouter' || vars.LLM_PROVIDER == 'rotating') && secrets.OPENROUTER_API_KEY || '' }}
+          OPENROUTER_API_KEY: ${{ (vars.LLM_PROVIDER == 'openrouter' || vars.LLM_PROVIDER == 'rotating') && secrets.OPENROUTER_API_KEYS || '' }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'openrouter/free' }}
           OPENROUTER_MAX_REQUESTS_PER_RUN: ${{ vars.OPENROUTER_MAX_REQUESTS_PER_RUN || '0' }}
           OPENROUTER_MIN_INTERVAL_SECONDS: ${{ vars.OPENROUTER_MIN_INTERVAL_SECONDS || '0' }}
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YT_API_KEY }}
+          # NCBI: raises PubMed from 3 to 10 req/sec and stops the nightly 429s.
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+          HOST_MIN_INTERVAL_SECONDS: ${{ vars.HOST_MIN_INTERVAL_SECONDS || '0.7' }}
           ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
           MAILAROO_API_KEY: ${{ secrets.MAILAROO_API_KEY }}
           MAILAROO_TO_EMAIL: ${{ secrets.MAILAROO_TO_EMAIL }}
@@ -83,7 +87,7 @@ jobs:
         env:
           ATOMS_LLM: ${{ vars.ATOMS_LLM || '0' }}
           ATOM_LLM: ${{ vars.ATOMS_LLM || '0' }}
-          OPENROUTER_API_KEY: ${{ vars.ATOMS_LLM == '1' && secrets.OPENROUTER_API_KEY || '' }}
+          OPENROUTER_API_KEY: ${{ vars.ATOMS_LLM == '1' && secrets.OPENROUTER_API_KEYS || '' }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'openrouter/free' }}
           LLM_PROVIDER: openrouter
         run: python scripts/export_atoms.py
@@ -112,6 +116,7 @@ jobs:
               outputs/atoms/** outputs/embedding_ready/** outputs/topics/** \
               outputs/entities/** outputs/entity_pages/** outputs/consensus/** \
               outputs/source_trust/** outputs/document_leads/** outputs/envelopes/** \
+              outputs/source_health/** \
               outputs/manifests/latest.json || true
           git commit -m "Daily intelligence report for $(date -u +'%Y-%m-%d')" || echo "No changes to commit"
           for attempt in 1 2 3; do
@@ -121,6 +126,12 @@ jobs:
             sleep 5
           done
           exit 1
+
+      - name: Enforce source-health thresholds
+        env:
+          SOURCE_HEALTH_MAX_FAILED_PCT: ${{ vars.SOURCE_HEALTH_MAX_FAILED_PCT || '10' }}
+          SOURCE_HEALTH_MAX_FAILED_ABS: ${{ vars.SOURCE_HEALTH_MAX_FAILED_ABS || '25' }}
+        run: python scripts/check_source_health.py
 
       - name: Notify on failure
         if: failure()

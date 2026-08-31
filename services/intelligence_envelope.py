@@ -76,6 +76,38 @@ def compact_item(item: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
+def _load_source_health(report_date: str, enabled_count: int) -> Dict[str, Any]:
+    """Load the run's real source-health snapshot.
+
+    Falls back to an explicitly *unknown* block rather than claiming success —
+    a missing snapshot must never be reported as a clean run.
+    """
+    path = ROOT_DIR / "outputs" / "source_health" / f"{report_date}.json"
+    if path.exists():
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            return {
+                "expected_sources": data.get("expected_sources", enabled_count),
+                "successful_sources": data.get("successful_sources", 0),
+                "degraded_sources": data.get("degraded_sources", 0),
+                "failed_sources": data.get("failed_sources", 0),
+                "stale_sources": data.get("stale_sources", []),
+                "failures": data.get("failures", []),
+                "health_source": "source_health.v1",
+            }
+        except Exception:  # noqa: BLE001
+            pass
+    return {
+        "expected_sources": enabled_count,
+        "successful_sources": None,
+        "degraded_sources": None,
+        "failed_sources": None,
+        "stale_sources": [],
+        "failures": [],
+        "health_source": "unavailable",
+    }
+
+
 def build_envelope(
     *,
     report: Dict[str, Any],
@@ -124,14 +156,7 @@ def build_envelope(
         "item_count": len(items),
         "items": items,
         "artifacts": artifacts,
-        "health": health
-        or {
-            "expected_sources": len(enabled),
-            "successful_sources": len(enabled),
-            "degraded_sources": 0,
-            "failed_sources": 0,
-            "stale_sources": [],
-        },
+        "health": health or _load_source_health(report_date, len(enabled)),
         "signature": None,
         "collect_only": True,
     }

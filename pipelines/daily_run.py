@@ -1,11 +1,13 @@
 import os
 import sys
+import time
 import yaml
 import json
 import datetime
 import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
+from urllib.parse import urlparse
 from dotenv import load_dotenv
 
 # Add parent directory to path to enable imports
@@ -47,8 +49,78 @@ COLLECT_ONLY = os.getenv("COLLECT_ONLY", "0") == "1"
 # --- HTTP DEFAULTS ---
 HTTP_TIMEOUT = 20
 HTTP_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (research-bot; +https://github.com/user/repo)"
+    "User-Agent": (
+        "Mozilla/5.0 (compatible; OpenSourceNewsBot/1.0; "
+        "+https://github.com/MyBlockcities/OpenSourceNews)"
+    ),
+    "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
 }
+
+# --- POLITE FETCHING ---------------------------------------------------------
+# Per-host minimum interval. Without this the run fires every request back to
+# back, which is what triggers NCBI 429s on the PubMed queries.
+HOST_MIN_INTERVAL = float(os.getenv("HOST_MIN_INTERVAL_SECONDS", "0.7"))
+_last_host_call: dict = {}
+
+
+def _throttle(url_or_host: str) -> None:
+    """Sleep just enough to keep per-host request spacing polite."""
+    try:
+        host = urlparse(url_or_host).netloc or str(url_or_host)
+    except Exception:  # noqa: BLE001
+        host = str(url_or_host)
+    now = time.time()
+    prev = _last_host_call.get(host, 0.0)
+    wait = HOST_MIN_INTERVAL - (now - prev)
+    if wait > 0:
+        time.sleep(wait)
+    _last_host_call[host] = time.time()
+
+
+# --- SOURCE HEALTH -----------------------------------------------------------
+# Every collector records its outcome here so the run (and the
+# IntelligenceEnvelope) can report real health instead of assuming success.
+SOURCE_HEALTH: dict = {}
+
+
+def record_source_health(endpoint, status: str, *, count: int = 0, error: str = "") -> None:
+    """Record one collector outcome. status: ok | empty | failed."""
+    key = str(endpoint)
+    entry = SOURCE_HEALTH.setdefault(
+        key, {"endpoint": key, "status": status, "item_count": 0, "error": ""}
+    )
+    entry["status"] = status
+    entry["item_count"] = int(count or 0)
+    entry["error"] = (error or "")[:300]
+
+
+def summarize_source_health(expected_total: int | None = None) -> dict:
+    """Aggregate SOURCE_HEALTH into the envelope's health block shape.
+
+    ``expected_total`` is the number of sources the run *intended* to fetch.
+    Passing it matters: if the loop exits early, counting only attempted
+    sources would make the failure rate look artificially healthy.
+    """
+    entries = list(SOURCE_HEALTH.values())
+    failed = [e for e in entries if e["status"] == "failed"]
+    empty = [e for e in entries if e["status"] == "empty"]
+    ok = [e for e in entries if e["status"] == "ok"]
+    expected = max(int(expected_total or 0), len(entries))
+    not_attempted = expected - len(entries)
+    return {
+        "expected_sources": expected,
+        "not_attempted": not_attempted,
+        "successful_sources": len(ok),
+        "degraded_sources": len(empty),
+        "failed_sources": len(failed),
+        "stale_sources": sorted(e["endpoint"] for e in empty),
+        "failures": [
+            {"endpoint": e["endpoint"], "error": e["error"]}
+            for e in sorted(failed, key=lambda x: x["endpoint"])
+        ],
+        "sources": {e["endpoint"]: e["status"] for e in entries},
+    }
 
 # --- LLM (Ollama default; cloud providers are optional) ---
 llm = None if COLLECT_ONLY else try_get_llm_client()
@@ -133,6 +205,7 @@ def _rss_feed_title(soup) -> str:
 
 
 def fetch_rss(url: str, limit: int = 5):
+    _throttle(url)
     if not url:
         return []
     try:
@@ -168,6 +241,7 @@ def fetch_rss(url: str, limit: int = 5):
             )
         return items
     except Exception as e:
+        record_source_health(url, "failed", error=str(e))
         print(f"ERROR: RSS fetch failed for {url}: {e}")
         return []
 
@@ -187,13 +261,18 @@ def fetch_youtube(identifier: str):
                         **video,
                         "published_at": video.get("publishedAt"),
                         "author": video.get("channelTitle") or "",
+                        # summary must be set explicitly: without it every
+                        # YouTube item shipped with an empty body, which is what
+                        # starved the Hermes knowledge-base bridge.
                         "excerpt": truncate_excerpt(video.get("description") or video.get("title") or ""),
+                        "summary": truncate_excerpt(video.get("description") or video.get("title") or ""),
                     },
                     fetched_at=fetched_at,
                 )
             )
         return items
     except Exception as e:
+        record_source_health(identifier, "failed", error=str(e))
         print(f"ERROR: YouTube fetch failed for '{identifier}': {e}")
         return []
 
@@ -252,6 +331,7 @@ def _github_repo_metadata(owner: str, repo_name: str) -> dict:
 
 
 def fetch_github_trending(language: str):
+    _throttle("https://github.com")
     if not language:
         return []
     url = f"https://github.com/trending/{language}"
@@ -313,11 +393,13 @@ def fetch_github_trending(language: str):
             )
         return items
     except Exception as e:
+        record_source_health(language, "failed", error=str(e))
         print(f"ERROR: GitHub trending fetch for '{language}' failed: {e}")
         return []
 
 
 def fetch_hackernews(keyword: str):
+    _throttle("https://hn.algolia.com")
     if not keyword:
         return []
     url = f"https://hn.algolia.com/api/v1/search?query={keyword}&tags=story"
@@ -358,6 +440,7 @@ def fetch_hackernews(keyword: str):
             )
         return items
     except Exception as e:
+        record_source_health(keyword, "failed", error=str(e))
         print(f"ERROR: Hacker News fetch for '{keyword}' failed: {e}")
         return []
 
@@ -373,6 +456,7 @@ def _ncbi_params(params: dict) -> dict:
     return enriched
 
 def fetch_pubmed_query(query: str, limit: int = 5):
+    _throttle("https://eutils.ncbi.nlm.nih.gov")
     """Fetch recent PubMed records for peptide/wellness monitoring."""
     if not query:
         return []
@@ -396,6 +480,7 @@ def fetch_pubmed_query(query: str, limit: int = 5):
         if not ids:
             return []
 
+        _throttle("https://eutils.ncbi.nlm.nih.gov")
         summary_resp = requests.get(
             "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
             params=_ncbi_params(
@@ -463,10 +548,12 @@ def fetch_pubmed_query(query: str, limit: int = 5):
             )
         return items
     except Exception as e:
+        record_source_health(query, "failed", error=str(e))
         print(f"ERROR: PubMed fetch for '{query}' failed: {e}")
         return []
 
 def fetch_clinical_trials_query(query: str, limit: int = 5):
+    _throttle("https://clinicaltrials.gov")
     """Fetch ClinicalTrials.gov study records for peptide/wellness monitoring."""
     if not query:
         return []
@@ -543,6 +630,7 @@ def fetch_clinical_trials_query(query: str, limit: int = 5):
             )
         return items
     except Exception as e:
+        record_source_health(query, "failed", error=str(e))
         print(f"ERROR: ClinicalTrials.gov fetch for '{query}' failed: {e}")
         return []
 
@@ -1148,7 +1236,14 @@ def main():
                                 sources=source_registry,
                             )
                         all_raw_content.extend(fetched_items)
+                        record_source_health(
+                            source_value, "ok", count=len(fetched_items)
+                        )
+                    elif SOURCE_HEALTH.get(str(source_value), {}).get("status") != "failed":
+                        # Reached the source but it yielded nothing usable.
+                        record_source_health(source_value, "empty")
                 except Exception as e:
+                    record_source_health(source_value, "failed", error=str(e))
                     print(f"ERROR: Failed during fetch for {source_type} '{source_value}': {e}")
 
         # Deduplicate before triage
@@ -1196,6 +1291,30 @@ def main():
     report_path = OUTPUT_DIR / f"{timestamp}.json"
     with open(report_path, 'w', encoding="utf-8") as f:
         json.dump(final_report, f, indent=2, ensure_ascii=False)
+
+    # --- SOURCE HEALTH SNAPSHOT ---
+    # Written before any threshold check so a failing run still leaves evidence.
+    expected_total = sum(
+        len(topic.get(src_type) or [])
+        for topic in config.get("topics", [])
+        for src_type in fetcher_map
+    )
+    health = summarize_source_health(expected_total)
+    health["report_date"] = timestamp
+    health["generated_at"] = utc_now_iso()
+    health["schema_version"] = "source_health.v1"
+    health_dir = ROOT_DIR / "outputs" / "source_health"
+    health_dir.mkdir(parents=True, exist_ok=True)
+    for target in (health_dir / f"{timestamp}.json", health_dir / "latest.json"):
+        with open(target, "w", encoding="utf-8") as f:
+            json.dump(health, f, indent=2, ensure_ascii=False)
+    print(
+        f"\nSource health: {health['successful_sources']} ok, "
+        f"{health['degraded_sources']} empty, {health['failed_sources']} failed "
+        f"(of {health['expected_sources']})"
+    )
+    for fail in health["failures"]:
+        print(f"  FAILED: {fail['endpoint']} — {fail['error'][:120]}")
 
     # --- OPTIONAL: Markdown export for humans ---
     md_lines = [f"# Daily Research — {timestamp}", ""]

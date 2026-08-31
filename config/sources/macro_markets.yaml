@@ -94,9 +94,9 @@ sources:
   extract_outbound_evidence_links: true
   automatic_content_eligible: true
   automatic_evidence_promotion: true
-  enabled: true
+  enabled: false
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: bis_all
   name: Bank for International Settlements
   publisher: BIS
@@ -109,6 +109,7 @@ sources:
   permitted_use: factual_support
   feeds_topic: Official Records & Primary Sources
   feeds_key: rss_sources
+  disabled_reason: BIS retired doclist RSS (404); needs a re-verified BIS feed URL before re-enabling
 - schema: source_definition.v1
   topics:
   - macro

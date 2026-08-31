@@ -441,7 +441,7 @@ sources:
   homepage: https://www.youtube.com/@Fireship
   adapter: youtube
   endpoints:
-  - '@Fireship'
+  - 'UC2Xd-TjJByJyK2w1zNwY0zQ'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -475,7 +475,7 @@ sources:
   homepage: https://www.youtube.com/@ThePrimeTimeagen
   adapter: youtube
   endpoints:
-  - '@ThePrimeTimeagen'
+  - 'UC8ENHE5xdFSwx71u3fDH5Xw'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -509,7 +509,7 @@ sources:
   homepage: https://www.youtube.com/@t3dotgg
   adapter: youtube
   endpoints:
-  - '@t3dotgg'
+  - 'UCtuO2h6OwDueF7h3p8DYYjQ'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -602,9 +602,9 @@ sources:
   extract_outbound_evidence_links: true
   automatic_content_eligible: false
   automatic_evidence_promotion: false
-  enabled: true
+  enabled: false
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: marktechpost
   name: MarkTechPost
   publisher: MarkTechPost
@@ -617,6 +617,7 @@ sources:
   permitted_use: discovery_only
   feeds_topic: AI / AI Tools / AI Agents
   feeds_key: rss_sources
+  disabled_reason: Returns 403 to non-browser agents; robots_policy=obey so we do not spoof a browser UA
   notes: Demoted to T4 discovery; do not treat as primary AI evidence.
 - schema: source_definition.v1
   topics:
@@ -637,9 +638,9 @@ sources:
   extract_outbound_evidence_links: true
   automatic_content_eligible: false
   automatic_evidence_promotion: false
-  enabled: true
+  enabled: false
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: ai_news_ainews
   name: Artificial Intelligence News
   publisher: AI News
@@ -652,6 +653,7 @@ sources:
   permitted_use: discovery_only
   feeds_topic: AI / AI Tools / AI Agents
   feeds_key: rss_sources
+  disabled_reason: Returns 403 to non-browser agents; robots_policy=obey so we do not spoof a browser UA
 - schema: source_definition.v1
   topics:
   - ai
@@ -673,14 +675,14 @@ sources:
   automatic_evidence_promotion: false
   enabled: true
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: rundown_ai
   name: The Rundown AI
   publisher: The Rundown
   homepage: https://www.rundown.ai/
   adapter: rss
   endpoints:
-  - https://www.rundown.ai/rss
+  - https://www.therundown.ai/feed
   tier: T4
   source_kind: newsletter_aggregator
   permitted_use: discovery_only
@@ -705,9 +707,9 @@ sources:
   extract_outbound_evidence_links: true
   automatic_content_eligible: false
   automatic_evidence_promotion: false
-  enabled: true
+  enabled: false
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: marktechpost_agents
   name: AI Agent News
   publisher: MarkTechPost
@@ -720,6 +722,7 @@ sources:
   permitted_use: discovery_only
   feeds_topic: AI / AI Tools / AI Agents
   feeds_key: rss_sources
+  disabled_reason: Endpoint 404 since 2026-08; subdomain retired
 - schema: source_definition.v1
   topics:
   - ai
@@ -918,7 +921,7 @@ sources:
   homepage: https://www.youtube.com/@TwoMinutePapers
   adapter: youtube
   endpoints:
-  - '@TwoMinutePapers'
+  - 'UCbfYPyITQ-7l4upoX8nvctg'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -945,14 +948,14 @@ sources:
   automatic_evidence_promotion: false
   enabled: true
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: yt_wes_roth
   name: Wes Roth
   publisher: Wes Roth
-  homepage: https://www.youtube.com/@mreflow
+  homepage: https://www.youtube.com/@WesRoth
   adapter: youtube
   endpoints:
-  - '@mreflow'
+  - 'UCqcbQf6yw5KzRoDDcZ_wBSw'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -986,7 +989,7 @@ sources:
   homepage: https://www.youtube.com/@NateHerk
   adapter: youtube
   endpoints:
-  - '@NateHerk'
+  - 'UC2ojq-nuP8ceeHqiroeKhBA'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -1013,14 +1016,14 @@ sources:
   automatic_evidence_promotion: false
   enabled: true
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: yt_ai_explained
   name: AI Explained
   publisher: AI Explained
-  homepage: https://www.youtube.com/@AIExplained
+  homepage: https://www.youtube.com/@aiexplained-official
   adapter: youtube
   endpoints:
-  - '@AIExplained'
+  - 'UCNJ1Ymd5yFuUPtn21xtRbbw'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -1047,14 +1050,14 @@ sources:
   automatic_evidence_promotion: false
   enabled: true
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: yt_indydevdan
   name: indydevdan
   publisher: indydevdan
-  homepage: https://www.youtube.com/indydevdan
+  homepage: https://www.youtube.com/@indydevdan
   adapter: youtube
   endpoints:
-  - indydevdan
+  - 'UC_x36zCEGilGpB1m-V4gmjg'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -1081,14 +1084,14 @@ sources:
   automatic_evidence_promotion: false
   enabled: true
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: yt_arseny_shatokhin
-  name: Arseny Shatokhin
-  publisher: Arseny Shatokhin
-  homepage: https://www.youtube.com/UC_x36zCEGilGpB1m-V4gmjg
+  name: VRSEN (Arseny Shatokhin)
+  publisher: VRSEN (Arseny Shatokhin)
+  homepage: https://www.youtube.com/@vrsen
   adapter: youtube
   endpoints:
-  - UC_x36zCEGilGpB1m-V4gmjg
+  - 'UCSv4qL8vmoSH7GaPjuqRiCQ'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -1115,14 +1118,14 @@ sources:
   automatic_evidence_promotion: false
   enabled: true
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: yt_matthew_berman
   name: Matthew Berman
   publisher: Matthew Berman
-  homepage: https://www.youtube.com/UCSv4qL8vmoSH7GaPjuqRiCQ
+  homepage: https://www.youtube.com/@matthew_berman
   adapter: youtube
   endpoints:
-  - UCSv4qL8vmoSH7GaPjuqRiCQ
+  - 'UCawZsQWqfGSbCI5yjkdVkTA'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -1149,14 +1152,14 @@ sources:
   automatic_evidence_promotion: false
   enabled: true
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: yt_worldofai
   name: WorldofAI
   publisher: WorldofAI
-  homepage: https://www.youtube.com/UCawZsQWqfGSbCI5yjkdVkTA
+  homepage: https://www.youtube.com/@intheworldofai
   adapter: youtube
   endpoints:
-  - UCawZsQWqfGSbCI5yjkdVkTA
+  - 'UCYwLV1gDwzGbg7jXQ52bVnQ'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -1183,48 +1186,14 @@ sources:
   automatic_evidence_promotion: false
   enabled: true
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: yt_matt_wolfe
   name: Matt Wolfe
   publisher: Matt Wolfe
-  homepage: https://www.youtube.com/UC2WmuBuFq6gL08QYG-JjXKw
+  homepage: https://www.youtube.com/@mreflow
   adapter: youtube
   endpoints:
-  - UC2WmuBuFq6gL08QYG-JjXKw
-  tier: T4
-  source_kind: commentary
-  permitted_use: discovery_only
-  feeds_topic: AI / AI Tools / AI Agents
-  feeds_key: youtube_sources
-- schema: source_definition.v1
-  topics:
-  - ai
-  regions:
-  - global
-  languages:
-  - en
-  corroboration_required: true
-  robots_policy: obey
-  rate_limit:
-    requests_per_second: 0.2
-  retention:
-    raw_days: 90
-    normalized_days: 0
-  project_hints: []
-  collection_mode: scheduled
-  extract_outbound_evidence_links: true
-  automatic_content_eligible: false
-  automatic_evidence_promotion: false
-  enabled: true
-  owner: intelligence
-  reviewed_at: '2026-08-15'
-  id: yt_ai_channel_extra
-  name: Additional AI channel
-  publisher: Additional AI channel
-  homepage: https://www.youtube.com/UCAl9Ld79qaZxp9JzEOwd3aA
-  adapter: youtube
-  endpoints:
-  - UCAl9Ld79qaZxp9JzEOwd3aA
+  - 'UChpleBmo18P08aKCIgti38g'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -1599,7 +1568,7 @@ sources:
   homepage: https://www.youtube.com/@CoinBureau
   adapter: youtube
   endpoints:
-  - '@CoinBureau'
+  - 'UCnThE8FLrlN-tYvZhZL0uaA'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -1633,7 +1602,7 @@ sources:
   homepage: https://www.youtube.com/@Bankless
   adapter: youtube
   endpoints:
-  - '@Bankless'
+  - 'UCCRxYlYOmLE2l5wxs3ckJtg'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -1667,7 +1636,7 @@ sources:
   homepage: https://www.youtube.com/@IvanOnTech
   adapter: youtube
   endpoints:
-  - '@IvanOnTech'
+  - 'UCrYmtJBtLdtm2ov84ulV-yg'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -1694,82 +1663,14 @@ sources:
   automatic_evidence_promotion: false
   enabled: true
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: yt_bitboy_legacy
-  name: BitBoy X legacy id
-  publisher: BitBoy X legacy id
-  homepage: https://www.youtube.com/UChpleBmo18P08aKCIgti38g
+  name: BitBoy X
+  publisher: BitBoy X
+  homepage: https://www.youtube.com/@BitBoy_Crypto
   adapter: youtube
   endpoints:
-  - UChpleBmo18P08aKCIgti38g
-  tier: T4
-  source_kind: commentary
-  permitted_use: discovery_only
-  feeds_topic: Blockchain / Crypto / Web3
-  feeds_key: youtube_sources
-- schema: source_definition.v1
-  topics:
-  - crypto
-  regions:
-  - global
-  languages:
-  - en
-  corroboration_required: true
-  robots_policy: obey
-  rate_limit:
-    requests_per_second: 0.2
-  retention:
-    raw_days: 90
-    normalized_days: 0
-  project_hints: []
-  collection_mode: scheduled
-  extract_outbound_evidence_links: true
-  automatic_content_eligible: false
-  automatic_evidence_promotion: false
-  enabled: true
-  owner: intelligence
-  reviewed_at: '2026-08-15'
-  id: yt_coinbureau_id
-  name: Coin Bureau channel id
-  publisher: Coin Bureau channel id
-  homepage: https://www.youtube.com/UCuV9EB4I9L-xmRoaXd8tmuA
-  adapter: youtube
-  endpoints:
-  - UCuV9EB4I9L-xmRoaXd8tmuA
-  tier: T4
-  source_kind: commentary
-  permitted_use: discovery_only
-  feeds_topic: Blockchain / Crypto / Web3
-  feeds_key: youtube_sources
-- schema: source_definition.v1
-  topics:
-  - crypto
-  regions:
-  - global
-  languages:
-  - en
-  corroboration_required: true
-  robots_policy: obey
-  rate_limit:
-    requests_per_second: 0.2
-  retention:
-    raw_days: 90
-    normalized_days: 0
-  project_hints: []
-  collection_mode: scheduled
-  extract_outbound_evidence_links: true
-  automatic_content_eligible: false
-  automatic_evidence_promotion: false
-  enabled: true
-  owner: intelligence
-  reviewed_at: '2026-08-15'
-  id: yt_bankless_id
-  name: Bankless channel id
-  publisher: Bankless channel id
-  homepage: https://www.youtube.com/UCqK_GSMbpiV8spgD3ZGloSw
-  adapter: youtube
-  endpoints:
-  - UCqK_GSMbpiV8spgD3ZGloSw
+  - 'UCuV9EB4I9L-xmRoaXd8tmuA'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -1830,9 +1731,9 @@ sources:
   extract_outbound_evidence_links: true
   automatic_content_eligible: false
   automatic_evidence_promotion: false
-  enabled: true
+  enabled: false
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: reuters_rss
   name: Reuters
   publisher: Reuters
@@ -1845,6 +1746,7 @@ sources:
   permitted_use: discovery_only
   feeds_topic: Sense-Making & Narrative Analysis
   feeds_key: rss_sources
+  disabled_reason: Reuters retired public RSS (404 since 2026-08); replace with a licensed or alternative wire feed
 - schema: source_definition.v1
   topics:
   - epistemics
@@ -2108,10 +2010,10 @@ sources:
   id: yt_all_in_podcast
   name: All-In Podcast
   publisher: All-In Podcast
-  homepage: https://www.youtube.com/@AllInPodcast
+  homepage: https://www.youtube.com/@allin
   adapter: youtube
   endpoints:
-  - '@AllInPodcast'
+  - 'UCESLZhusAkFfsNsApnjF_Cg'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -2145,7 +2047,7 @@ sources:
   homepage: https://www.youtube.com/@LexFridman
   adapter: youtube
   endpoints:
-  - '@LexFridman'
+  - 'UCJIfeSCssxSC_Dhc5s7woww'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -2176,10 +2078,10 @@ sources:
   id: yt_johnny_harris_sm
   name: Johnny Harris
   publisher: Johnny Harris
-  homepage: https://www.youtube.com/@JohnnyHarris
+  homepage: https://www.youtube.com/@johnnyharris
   adapter: youtube
   endpoints:
-  - '@JohnnyHarris'
+  - 'UC7KbIaEOuY7H2j-cvhJ3mYA'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -2206,14 +2108,14 @@ sources:
   automatic_evidence_promotion: false
   enabled: true
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: yt_bloomberg_tv
   name: Bloomberg Television
   publisher: Bloomberg Television
-  homepage: https://www.youtube.com/@BloombergTelevision
+  homepage: https://www.youtube.com/@markets
   adapter: youtube
   endpoints:
-  - '@BloombergTelevision'
+  - 'UCIALMKvObZNtJ6AmdCLP7Lg'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -2281,7 +2183,7 @@ sources:
   homepage: https://www.youtube.com/@Coffeezilla
   adapter: youtube
   endpoints:
-  - '@Coffeezilla'
+  - 'UC9WQRw8jgJhag-vkDNTDMRg'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -2315,7 +2217,7 @@ sources:
   homepage: https://www.youtube.com/@breakingpoints
   adapter: youtube
   endpoints:
-  - '@breakingpoints'
+  - 'UCDRIjKy6eZOvKtOELtTdeUA'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -2349,41 +2251,7 @@ sources:
   homepage: https://www.youtube.com/@NickShirley
   adapter: youtube
   endpoints:
-  - '@NickShirley'
-  tier: T4
-  source_kind: commentary
-  permitted_use: discovery_only
-  feeds_topic: Alternative News & Independent Commentary
-  feeds_key: youtube_sources
-- schema: source_definition.v1
-  topics:
-  - investigations
-  regions:
-  - global
-  languages:
-  - en
-  corroboration_required: true
-  robots_policy: obey
-  rate_limit:
-    requests_per_second: 0.2
-  retention:
-    raw_days: 90
-    normalized_days: 0
-  project_hints: []
-  collection_mode: scheduled
-  extract_outbound_evidence_links: true
-  automatic_content_eligible: false
-  automatic_evidence_promotion: false
-  enabled: true
-  owner: intelligence
-  reviewed_at: '2026-08-15'
-  id: yt_johnny_harris_alt
-  name: Johnny Harris alt
-  publisher: Johnny Harris alt
-  homepage: https://www.youtube.com/@johnnyharris
-  adapter: youtube
-  endpoints:
-  - '@johnnyharris'
+  - 'UC2Uioh1tYQkNuHLSBpzdfCg'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -2417,7 +2285,7 @@ sources:
   homepage: https://www.youtube.com/@tldrpodcasts
   adapter: youtube
   endpoints:
-  - '@tldrpodcasts'
+  - 'UCSMqateX8OA2s1wsOR2EgJA'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -2444,14 +2312,14 @@ sources:
   automatic_evidence_promotion: false
   enabled: true
   owner: intelligence
-  reviewed_at: '2026-08-15'
+  reviewed_at: '2026-08-31'
   id: yt_the_independent
   name: The Independent
   publisher: The Independent
-  homepage: https://www.youtube.com/theindependent
+  homepage: https://www.youtube.com/@theindependent
   adapter: youtube
   endpoints:
-  - theindependent
+  - 'UCYGb-tZvIulJeC5caIG-H_A'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -2485,7 +2353,7 @@ sources:
   homepage: https://www.youtube.com/@TheDiaryOfACEO
   adapter: youtube
   endpoints:
-  - '@TheDiaryOfACEO'
+  - 'UCnjgxChqYYnyoqO4k_Q1d6Q'
   tier: T4
   source_kind: commentary
   permitted_use: discovery_only
@@ -3379,3 +3247,627 @@ sources:
   feeds_topic: Peptides / Wellness / Longevity
   feeds_key: youtube_sources
   notes: Trend/listening query only; never a medical evidence source.
+- schema: source_definition.v1
+  topics:
+  - ai
+  - ai_agents
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_cole_medin
+  name: Cole Medin
+  publisher: Cole Medin
+  homepage: https://www.youtube.com/@ColeMedin
+  adapter: youtube
+  endpoints:
+  - 'UCMwVTLZIRRUyyVrkjDpn4pA'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  - ai_agents
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_ai_engineer
+  name: AI Engineer
+  publisher: AI Engineer
+  homepage: https://www.youtube.com/@aiDotEngineer
+  adapter: youtube
+  endpoints:
+  - 'UCLKPca3kwwd-B59HNr-_lvA'
+  tier: T3
+  source_kind: expert_interpretation
+  permitted_use: discovery_and_interpretation
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  - ai_agents
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_sam_witteveen
+  name: Sam Witteveen
+  publisher: Sam Witteveen
+  homepage: https://www.youtube.com/@samwitteveenai
+  adapter: youtube
+  endpoints:
+  - 'UC55ODQSvARtgSyc8ThfiepQ'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  - creator_economy
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_greg_isenberg
+  name: Greg Isenberg
+  publisher: Greg Isenberg
+  homepage: https://www.youtube.com/@GregIsenberg
+  adapter: youtube
+  endpoints:
+  - 'UCPjNBjflYl0-HQtUvOx0Ibw'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_bycloud
+  name: bycloud
+  publisher: bycloud
+  homepage: https://www.youtube.com/@bycloudAI
+  adapter: youtube
+  endpoints:
+  - 'UCgfe2ooZD3VJPB6aJAnuQng'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  - ai_agents
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_ai_labs
+  name: AI LABS
+  publisher: AI LABS
+  homepage: https://www.youtube.com/@AILABS-393
+  adapter: youtube
+  endpoints:
+  - 'UCelfWQr9sXVMTvBzviPGlFw'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  - ai_agents
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_riley_brown
+  name: Riley Brown
+  publisher: Riley Brown
+  homepage: https://www.youtube.com/@rileybrownai
+  adapter: youtube
+  endpoints:
+  - 'UCMcoud_ZW7cfxeIugBflSBw'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  - ai_agents
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_echohive
+  name: echohive
+  publisher: echohive
+  homepage: https://www.youtube.com/@echohive
+  adapter: youtube
+  endpoints:
+  - 'UCL7przoMtZTmiQMhc9ifIww'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: AI / AI Tools / AI Agents
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - creator_economy
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_alex_hormozi
+  name: Alex Hormozi
+  publisher: Alex Hormozi
+  homepage: https://www.youtube.com/@AlexHormozi
+  adapter: youtube
+  endpoints:
+  - 'UCrvchO1h6lWZAuGaa1LqX9Q'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - ai
+  - creator_economy
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_peter_diamandis
+  name: Peter Diamandis
+  publisher: Peter Diamandis
+  homepage: https://www.youtube.com/@peterdiamandis
+  adapter: youtube
+  endpoints:
+  - 'UCCpNQKYvrnWQNjZprabMJlw'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Sense-Making & Narrative Analysis
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - blockchain
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_altcoin_daily
+  name: Altcoin Daily
+  publisher: Altcoin Daily
+  homepage: https://www.youtube.com/@AltcoinDaily
+  adapter: youtube
+  endpoints:
+  - 'UCbLhGKVY-bJPcawebgtNfbw'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - blockchain
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_solana_official
+  name: Solana
+  publisher: Solana
+  homepage: https://www.youtube.com/@solana
+  adapter: youtube
+  endpoints:
+  - 'UC9AdQPUe4BdVJ8M9X7wxHUA'
+  tier: T2
+  source_kind: official_lab
+  permitted_use: discovery_and_interpretation
+  feeds_topic: Blockchain / Crypto / Web3
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - investigative
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_shawn_ryan_show
+  name: Shawn Ryan Show
+  publisher: Shawn Ryan Show
+  homepage: https://www.youtube.com/@ShawnRyanShow
+  adapter: youtube
+  endpoints:
+  - 'UC1vUksRWfEfd6V4pPDIQ0jw'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Alternative News & Independent Commentary
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - investigative
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: true
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_ian_carroll
+  name: Ian Carroll
+  publisher: Ian Carroll
+  homepage: https://www.youtube.com/@Iancarrollshow
+  adapter: youtube
+  endpoints:
+  - 'UCCgpGpylCfrJIV-RwA_L7tg'
+  tier: T4
+  source_kind: commentary
+  permitted_use: discovery_only
+  feeds_topic: Alternative News & Independent Commentary
+  feeds_key: youtube_sources
+- schema: source_definition.v1
+  topics:
+  - investigative
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_london_real
+  name: London Real
+  publisher: London Real
+  homepage: https://www.youtube.com/@LondonRealTV
+  adapter: youtube
+  endpoints:
+  - 'UCCZVmatSqIMTTB8uExk8xEg'
+  tier: T5
+  source_kind: commentary
+  permitted_use: quarantined_discovery
+  feeds_topic: Alternative News & Independent Commentary
+  feeds_key: youtube_sources
+  disabled_reason: T5 quarantined commentary; staged 2026-08-31 awaiting explicit owner activation
+- schema: source_definition.v1
+  topics:
+  - investigative
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_robert_edward_grant
+  name: Robert Edward Grant
+  publisher: Robert Edward Grant
+  homepage: https://www.youtube.com/@Robert_Edward_Grant
+  adapter: youtube
+  endpoints:
+  - 'UC2MN4AlpbY9NYxuYH-ecoCQ'
+  tier: T5
+  source_kind: commentary
+  permitted_use: quarantined_discovery
+  feeds_topic: Alternative News & Independent Commentary
+  feeds_key: youtube_sources
+  disabled_reason: T5 quarantined commentary; staged 2026-08-31 awaiting explicit owner activation
+- schema: source_definition.v1
+  topics:
+  - investigative
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_only_the_savvy
+  name: Only The SAVVY
+  publisher: Only The SAVVY
+  homepage: https://www.youtube.com/@OnlyTheSAVVY
+  adapter: youtube
+  endpoints:
+  - 'UCtKPFtUPf6ol9Lw4XvX4iQQ'
+  tier: T5
+  source_kind: commentary
+  permitted_use: quarantined_discovery
+  feeds_topic: Alternative News & Independent Commentary
+  feeds_key: youtube_sources
+  disabled_reason: T5 quarantined commentary; staged 2026-08-31 awaiting explicit owner activation
+- schema: source_definition.v1
+  topics:
+  - investigative
+  regions:
+  - global
+  languages:
+  - en
+  corroboration_required: true
+  robots_policy: obey
+  rate_limit:
+    requests_per_second: 0.2
+  retention:
+    raw_days: 90
+    normalized_days: 0
+  project_hints: []
+  collection_mode: scheduled
+  extract_outbound_evidence_links: true
+  automatic_content_eligible: false
+  automatic_evidence_promotion: false
+  enabled: false
+  owner: intelligence
+  reviewed_at: '2026-08-31'
+  id: yt_newsupdates4real
+  name: newsupdates4real
+  publisher: newsupdates4real
+  homepage: https://www.youtube.com/@newupdates4real
+  adapter: youtube
+  endpoints:
+  - 'UCWL91oqW3z6-A045ZjJMYHA'
+  tier: T5
+  source_kind: commentary
+  permitted_use: quarantined_discovery
+  feeds_topic: Alternative News & Independent Commentary
+  feeds_key: youtube_sources
+  disabled_reason: T5 quarantined commentary; staged 2026-08-31 awaiting explicit owner activation

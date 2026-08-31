@@ -1,4 +1,23 @@
-# Logs
+# ---------------------------------------------------------------------------
+# OpenSourceNews .gitignore
+#
+# This is a PUBLIC repo and the nightly Action commits generated output into it.
+# Rule of thumb: commit anything Hermes/Agency must pull; ignore anything that
+# is a local cache, a secret, or regenerable noise.
+# ---------------------------------------------------------------------------
+
+# --- Secrets & environment -------------------------------------------------
+.env*
+!.env.example
+*.pem
+*.key
+!**/public*.key
+credentials.json
+service-account*.json
+*.credentials
+secrets.y*ml
+
+# --- Logs ------------------------------------------------------------------
 logs
 *.log
 npm-debug.log*
@@ -7,7 +26,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# --- Python ----------------------------------------------------------------
 __pycache__/
 *.pyc
 *.pyo
@@ -16,28 +35,72 @@ __pycache__/
 *.so
 *.egg
 *.egg-info/
-dist/
-build/
-.env*
-!.env.example
 .venv/
 venv/
-outputs/knowledge_base/
-outputs/qdrant_export/
-outputs/ingest_receipts/
-outputs/site_change_state/
-docs/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.orig
+*.rej
+
+# --- Node / frontend -------------------------------------------------------
+node_modules
 dist
+dist/
+build/
 dist-ssr
 *.local
 
-# Editor directories and files
+# --- Editor / OS -----------------------------------------------------------
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+**/.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# ---------------------------------------------------------------------------
+# Generated outputs
+#
+# COMMITTED on purpose (Hermes/Agency pull these over git — do NOT ignore):
+#   outputs/daily/           outputs/atoms/          outputs/embedding_ready/
+#   outputs/manifests/       outputs/envelopes/      outputs/document_leads/
+#   outputs/topics/          outputs/entities/       outputs/entity_pages/
+#   outputs/consensus/       outputs/source_trust/   outputs/source_health/
+#   outputs/briefs/          outputs/github_traction/
+# ---------------------------------------------------------------------------
+
+# Local-only / regenerable working state
+outputs/ingest_receipts/
+outputs/site_change_state/
+outputs/knowledge_base/
+outputs/tmp/
+outputs/**/*.tmp
+outputs/**/*.json.tmp
+
+# NOTE: outputs/qdrant_export/ is ignored here but the qdrant-export workflow
+# force-adds it with `git add -f`, so it IS committed (~68 MB rewritten nightly).
+# Nothing in Hermes reads it — it is regenerable from outputs/embedding_ready/.
+# See docs/OPERATIONS.md "Repo size" before changing this.
+outputs/qdrant_export/
+
+# Unreferenced binary media (kept on disk, not tracked)
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.webp
+outputs/*.gif
+outputs/*.mp4
+outputs/*.mov
+outputs/scripts/*.jpeg
+outputs/scripts/*.jpg
+outputs/scripts/*.png
+
+# --- Docs build ------------------------------------------------------------
+docs/generated/

@@ -325,6 +325,48 @@ scored 0-1.
 
 ---
 
+## 8b. Source health (the honest run report)
+
+`outputs/source_health/{YYYY-MM-DD}.json` + `outputs/source_health/latest.json`
+
+**Added 2026-08-31.** Records the real per-source outcome of the nightly
+collection run. Before this artifact existed the IntelligenceEnvelope
+reported `successful_sources == expected_sources` unconditionally, so a run
+with a third of its feeds failing was indistinguishable from a clean one.
+
+```json
+{
+  "schema_version": "source_health.v1",
+  "report_date": "YYYY-MM-DD",
+  "generated_at": "2026-08-31T07:20:00Z",
+  "expected_sources": 128,
+  "successful_sources": 120,
+  "degraded_sources": 3,
+  "failed_sources": 5,
+  "stale_sources": ["https://example.com/feed"],
+  "failures": [
+    {"endpoint": "https://dead.example/rss", "error": "404 Client Error"}
+  ],
+  "sources": {"https://example.com/feed": "ok"}
+}
+```
+
+Status values: `ok` (items returned), `empty` (reached, nothing usable),
+`failed` (fetch raised).
+
+**Consumer rules**
+
+- Treat `failed_sources / expected_sources > 0.10` as a degraded run.
+  Ingest it, but do not treat that day's absence of a topic as signal.
+- `outputs/envelopes/{date}.json` now carries the same numbers under
+  `health`, plus `health_source`:
+  - `"source_health.v1"` — real measured health.
+  - `"unavailable"` — snapshot missing; `successful_sources`,
+    `degraded_sources` and `failed_sources` are `null`.
+    **`null` means unknown, never zero.** Do not coerce it to a clean run.
+
+---
+
 ## 9. Atomic-write rule
 
 Every artifact under `outputs/` is written atomically: the file is
@@ -357,6 +399,8 @@ symlink support fall back to a copy of the contents.
 | Empty daily report          | All `outputs/{date}.jsonl` empty, symlink intact |
 | LLM returns malformed JSON  | Atom count lower than deterministic baseline  |
 | Repo deleted                | That `repo_id` simply absent from snapshot    |
+| Feed 404 / 403 / rate-limit | Listed in `source_health` `failures[]`; run still commits |
+| Collection step crashed     | `source_health` absent; envelope `health_source: unavailable` |
 
 Hermes treats a missing artifact as "I have no data for this dimension,"
 not as a fatal error. Each pipeline is independently resettable.
@@ -382,4 +426,6 @@ This is the first thing Hermes calls on startup to plan its work.
 | Trust a source on a topic              | `outputs/source_trust/latest.json`         |
 | Find new repos to evaluate             | `outputs/github_traction/fastest_30d.json` |
 | Top trending                            | `outputs/github_traction/top_this_week.json`|
+| Which sources failed tonight?          | `outputs/source_health/latest.json`        |
+| Is this run trustworthy?               | `envelopes/latest.json` → `health`         |
 | Pipeline health                        | MCP `hermes_status`                        |

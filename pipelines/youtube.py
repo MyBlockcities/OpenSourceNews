@@ -69,13 +69,35 @@ def fetch_latest_videos(identifier: str, max_results: int = 5) -> List[Dict]:
         "maxResults": max(1, min(max_results, 10))
     })
     out = []
+    ids = []
     for it in data.get("items", []):
         sn = it["snippet"]
+        vid = it["id"]["videoId"]
+        ids.append(vid)
         out.append({
             "title": sn["title"],
-            "url": f"https://youtu.be/{it['id']['videoId']}",
+            "url": f"https://youtu.be/{vid}",
             "publishedAt": sn["publishedAt"],
             "channelTitle": sn["channelTitle"],
+            # search.list truncates description to ~160 chars; videos.list below
+            # replaces this with the full text where available.
+            "description": (sn.get("description") or "").strip(),
             "source": "YouTube"
         })
+
+    # Full descriptions via videos.list. This costs 1 quota unit for the whole
+    # batch (search.list costs 100), so it is cheap insurance against the
+    # empty-summary problem that left every YouTube item with no body text.
+    if ids:
+        try:
+            full = _get("videos", {"part": "snippet", "id": ",".join(ids), "maxResults": len(ids)})
+            desc_by_id = {
+                v["id"]: (v.get("snippet", {}).get("description") or "").strip()
+                for v in full.get("items", [])
+            }
+            for row, vid in zip(out, ids):
+                if desc_by_id.get(vid):
+                    row["description"] = desc_by_id[vid]
+        except Exception as exc:  # noqa: BLE001 — keep the truncated description
+            print(f"WARN: videos.list description fetch failed: {exc}")
     return out

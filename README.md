@@ -166,8 +166,12 @@ python3 -m mcp.server
 - `outputs/briefs/{watchlist}/*.md`: human-readable mission briefs
 - `outputs/knowledge_base/knowledge_base.json`: aggregate corpus export
 - `outputs/knowledge_base/knowledge_base.jsonl`: normalized line-delimited records
+- `outputs/source_health/*.json`: per-source outcome of each nightly run (`ok` / `empty` / `failed`)
+- `outputs/envelopes/*.json`: IntelligenceEnvelope — the Agency ingest contract
+- `outputs/document_leads/*.jsonl`: extracted public-document links
 
-Generated markdown reports and archived notes are written under local `docs/`, which is ignored by git.
+Generated markdown reports are written under `docs/generated/`, which is ignored by git.
+Checked-in operational docs live in `docs/` — see [`docs/OPERATIONS.md`](docs/OPERATIONS.md).
 
 Preview output pruning without deleting files:
 
@@ -262,8 +266,26 @@ from public descriptions or feed content. It does not query paid social APIs.
 - The ignored `docs/` tree is intended for private notes, audits, and generated markdown artifacts
 - Review `config/feeds.yaml` before publishing if the source list contains anything you do not want to ship by default
 
+## Operations
+
+- [`docs/OPERATIONS.md`](docs/OPERATIONS.md) — schedules, source health, adding sources, secrets, repo size
+- [`HERMES_CONTRACT.md`](HERMES_CONTRACT.md) — the artifact contract consumers depend on
+- [`HERMES_INTEGRATION.md`](HERMES_INTEGRATION.md) — how Hermes Agency pulls from this repo
+- [`PIPELINE_AUDIT_2026-08-31.md`](PIPELINE_AUDIT_2026-08-31.md) — full pipeline audit and grades
+
+Check the health of the most recent run:
+
+```bash
+python3 scripts/check_source_health.py
+```
+
 ## Current limitations
 
+- Scheduled Actions on the free tier drift by up to ~12 h; consumers on a fixed
+  timer may ingest the previous day's report (see `docs/OPERATIONS.md`)
+- `consensus` and `source_trust` stay empty unless `ATOMS_LLM=1` — deterministic
+  atom extraction produces no `claim` atoms for them to work from
+- Every collector is capped at 5 items per source per run
 - Transcript availability still depends on YouTube and fallback service behavior
 - The `DailyFeedViewer` currently loads a small fixed set of known report dates rather than auto-indexing all generated reports
 - Search results for the mission UI are fetched server-side and depend on the external search provider remaining reachable

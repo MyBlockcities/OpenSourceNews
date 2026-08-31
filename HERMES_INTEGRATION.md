@@ -32,6 +32,35 @@ This file is the ops / integration guide.
 | Hermes pull path | Git clone/pull + ledger (no public Hermes webhook required) |
 | Hermes Qdrant collection | `news_signals` (Hermes-owned embeddings; not Gemini sync from this repo) |
 | Academy / God's Eye push | Optional via Actions secrets; digest schema stays `open_source_news_daily_digest.v1` |
+| Source health telemetry | **Shipped 2026-08-31** — `outputs/source_health/{date}.json`; envelope `health` is now measured, not assumed |
+| Nightly health gate | `scripts/check_source_health.py` runs **after** commit; fails the run above 10% / 25 failed sources |
+| YouTube channel IDs pinned | **2026-08-31** — handles resolved via fuzzy search caused wrong-channel collection; see below |
+
+---
+
+## ⚠️ Attribution rule for consumers (changed 2026-08-31)
+
+`pipelines/youtube.py:resolve_channel_id()` resolves a bare `@handle` or plain
+name through the **YouTube search API and takes the first result**. Search
+ranking drifts, so several sources silently collected the wrong channel — the
+`yt_wes_roth` entry fetched Matt Wolfe for months, and `@BloombergTelevision`
+resolved to an unrelated personal vlog.
+
+Two consequences for Hermes:
+
+1. **`publisher` is a config label. `author` is the real channel.**
+   For YouTube items, `publisher` comes from the source registry while `author`
+   comes from the fetched feed. When they disagree, **`author` is authoritative.**
+   Prefer `author` for any attribution that reaches published content.
+
+2. Historical `outputs/daily/*.json` before 2026-08-31 contain mis-attributed
+   `publisher` values for the channels listed in
+   `YOUTUBE_SOURCE_AUDIT_AND_ADDITIONS_2026-08-31.md` §2. The `author` field in
+   those same records is correct, so the data is repairable in place — no
+   re-collection needed.
+
+All YouTube sources except four deliberate topic searches are now pinned to
+stable `UC…` channel IDs, which bypass search resolution entirely.
 
 ---
 
@@ -43,6 +72,7 @@ GitHub Actions @ 07:17 UTC
   → fetch RSS / HN / GitHub / YouTube / PubMed / ClinicalTrials
   → normalize + signal_id / cluster_id
   → commit outputs/daily/{YYYY-MM-DD}.json
+  → write outputs/source_health/{YYYY-MM-DD}.json
   → mission briefs
         ↓
   report-manifest.yml → outputs/manifests/latest.json (+ report_sha256)
