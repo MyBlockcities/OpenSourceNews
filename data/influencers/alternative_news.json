@@ -2,19 +2,452 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-08-31T17:39:20Z",
-  "new_this_run": 8,
-  "total_influencers": 392,
+  "updated_at": "2026-09-01T14:58:41Z",
+  "new_this_run": 10,
+  "total_influencers": 402,
   "run_summary": {
-    "run_started_at": "2026-08-31T17:39:11Z",
-    "candidate_count": 17,
-    "existing_count": 384,
-    "selected_new_count": 8,
+    "run_started_at": "2026-09-01T14:58:32Z",
+    "candidate_count": 21,
+    "existing_count": 392,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCZgq9x4I2USHERyambVh_lQ",
+      "external_id": "UCZgq9x4I2USHERyambVh_lQ",
+      "name": "Missão Avança",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCZgq9x4I2USHERyambVh_lQ",
+      "discovered_on": "2026-09-01",
+      "score": 69.63,
+      "metrics": {
+        "subscribers": 37900,
+        "total_views": 10567760,
+        "video_count": 811,
+        "avg_views_per_video": 13030.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "qY7i-EpWoVU",
+            "title": "OS RATOS BOLSONARISTAS ESTÃO COMEMORANDO A CENSURA DE RENAN SANTOS!",
+            "description": "Aprenda a GANHAR Dinheiro com Canal de Cortes: https://bit.ly/missaoavancacurso Listas de Ofertas: ...",
+            "published_at": "2026-09-01T10:52:38Z",
+            "url": "https://www.youtube.com/watch?v=qY7i-EpWoVU"
+          }
+        ],
+        "channel_description": "Melhores cortes e opiniões políticas do Movimento Brasil Livre - MBL!\n\nPela Missão! ⬛🟨⬜\n\n#mbl #cortesmbl #mblcortes #partidomissão #política\n",
+        "latest_video_at": "2026-09-01T10:52:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCGQBaCAOXrmDKJCkBCSiNPg",
+      "external_id": "UCGQBaCAOXrmDKJCkBCSiNPg",
+      "name": "HALİL FERAH İLE SESLİ KÖŞE",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCGQBaCAOXrmDKJCkBCSiNPg",
+      "discovered_on": "2026-09-01",
+      "score": 69.22,
+      "metrics": {
+        "subscribers": 33300,
+        "total_views": 18788016,
+        "video_count": 14539,
+        "avg_views_per_video": 1292.25,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://twitter.com/halil_ferah",
+        "youtube": "https://www.youtube.com/channel/UCGQBaCAOXrmDKJCkBCSiNPg"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "hnJUSkhICpM",
+            "title": "Deniz Zeyrek: İmamoğlu’nun Kitabına Şok Yasak!",
+            "description": "Ayrıcalıklardan yararlanmak için bu kanala katılın: https://www.youtube.com/channel/UCGQBaCAOXrmDKJCkBCSiNPg/join 00:00 ...",
+            "published_at": "2026-09-01T06:10:57Z",
+            "url": "https://www.youtube.com/watch?v=hnJUSkhICpM"
+          }
+        ],
+        "channel_description": "Günü ve gündemi takip ederken iş stresi, yoğunluk ve/veya yaşam telaşı içinde hiç bir şeyi ıskalamayın. Okumaya vakit ayıramadığınız seçkin yazarları Halil Ferah sizler için seslendiriyor. Dinleyin, beğenin, yorum yapın ve abone olun.\n\nBizi sosyal medyada takip edin!\ninstagram: instagram.com/halilferahileseslikose/\nfacebook: https://www.facebook.com/halilferahileseslikose/\ntwitter: https://twitter.com/halil_ferah \nMail: halilferah16@gmail.com\n",
+        "latest_video_at": "2026-09-01T06:10:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCB7m5ebDde3jqSXOMood4Og",
+      "external_id": "UCB7m5ebDde3jqSXOMood4Og",
+      "name": "Times Axis",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCB7m5ebDde3jqSXOMood4Og",
+      "discovered_on": "2026-09-01",
+      "score": 68.95,
+      "metrics": {
+        "subscribers": 21100,
+        "total_views": 12237591,
+        "video_count": 564,
+        "avg_views_per_video": 21697.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "g___DAxVhSI",
+            "title": "China &#39;Censors&#39; Disaster Truth: Vanishing Data, Censorship, Lockdown As Nepal Counts Its Dead",
+            "description": "Nepal is counting the dead after a glacier-linked flash flood tore through the Himalayan borderlands. Its government reported 734 ...",
+            "published_at": "2026-08-31T15:17:04Z",
+            "url": "https://www.youtube.com/watch?v=g___DAxVhSI"
+          }
+        ],
+        "channel_description": "AXIS is where the world is explained through India’s lens. For decades, global narratives have been shaped by Western media... told through Washington, London or Beijing. But as India rises as a major economic, military and diplomatic power, why should others define the world for us? Why shouldn’t India shape its own voice, own perspective, and own narrative?\n\nThat’s where AXIS comes in. We decode global power shifts, wars and conflicts, the India-China rivalry, Pakistan, West Asia, oil shocks, trade battles and neighbourhood politics - with one key question: What does this mean for India and for you?\n\nIf India is rising, its share of voice must rise too. Subscribe to AXIS - The world through INDIA'S LENS.\n\n#india #geopolitics #china #worldnews #defence #pakistan #toiaxis\n",
+        "latest_video_at": "2026-08-31T15:17:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCwNl_mtAk4p87Oh2lLfh82w",
+      "external_id": "UCwNl_mtAk4p87Oh2lLfh82w",
+      "name": "Aupan ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCwNl_mtAk4p87Oh2lLfh82w",
+      "discovered_on": "2026-09-01",
+      "score": 66.14,
+      "metrics": {
+        "subscribers": 65600,
+        "total_views": 12529385,
+        "video_count": 10305,
+        "avg_views_per_video": 1215.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "HyYF5N4lUUk",
+            "title": "Aupan: Festival Nacional de Televisión Comunitaria, Radio y Medios Alternativos I Informativo Aupan",
+            "description": "Aupan participó en el Festival Nacional de Televisión Comunitaria, Radio y Medios Alternativos, un espacio que reconoce el ...",
+            "published_at": "2026-08-31T16:41:13Z",
+            "url": "https://www.youtube.com/watch?v=HyYF5N4lUUk"
+          }
+        ],
+        "channel_description": "Somos el medio de comunicación líder en el municipio de Andes, Antioquia, ofreciendo un servicio integral de televisión e internet de la más alta calidad, con el compromiso de mantener a nuestra comunidad conectada y bien informada.",
+        "latest_video_at": "2026-08-31T16:41:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDLQcgi16Ws2InMYIhqrYiw",
+      "external_id": "UCDLQcgi16Ws2InMYIhqrYiw",
+      "name": "Demokratie am Limit",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDLQcgi16Ws2InMYIhqrYiw",
+      "discovered_on": "2026-09-01",
+      "score": 66.11,
+      "metrics": {
+        "subscribers": 11700,
+        "total_views": 2608187,
+        "video_count": 123,
+        "avg_views_per_video": 21204.77,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "k8R48IGE628",
+            "title": "🚨 CAMPACT gegen Andersdenkende: „Alles, was nicht passt, muss weg!“ Krall warnt vor totaler ZENSUR!!",
+            "description": "Demokratie am Limit berichtet über Politik-News aus Deutschland, unabhängig von Mainstream und Establishment. Aktuelle ...",
+            "published_at": "2026-08-31T10:58:16Z",
+            "url": "https://www.youtube.com/watch?v=k8R48IGE628"
+          }
+        ],
+        "channel_description": "Herzlich Willkommen zu Demokratie am Limit.\n\n📰Wir publizieren täglich unabhängige Politik News zu den Themen innerdeutsche Politik, Wirtschaft, Opposition und Regierungskritik. Wir geben persönliche Kommentare zu politischen Entscheidungen.\n\nWir berichten über AfD Politik, politische Entwicklungen, Systemkritik und Themen, die Mainstream-Medien auslassen oder verzerren.\n🔍Für Zuschauer, die patriotische Politik, demokratische Opposition und unabhängige Medienberichterstattung suchen.\n\n⚠️AfD Umfrageergebnisse , AfD Deutschland, Politik Deutschland, Bundestag, Wahlen, Migration, Meinungsfreiheit, alternative Medien, Regierungskritik, Establishmentkritik, Demokratie, Opposition, politische Nachrichten\n\n📢 Drücke jetzt auf Abonnieren, wenn du Politik jenseits des Mainstreams willst.🔔🔥\n",
+        "latest_video_at": "2026-08-31T10:58:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCjbG-zeFtYu_oN6BEX_2ZpQ",
+      "external_id": "UCjbG-zeFtYu_oN6BEX_2ZpQ",
+      "name": "Qasim Rashid",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCjbG-zeFtYu_oN6BEX_2ZpQ",
+      "discovered_on": "2026-09-01",
+      "score": 65.86,
+      "metrics": {
+        "subscribers": 32100,
+        "total_views": 3196752,
+        "video_count": 1102,
+        "avg_views_per_video": 2900.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "vJBI2NAeOSY",
+            "title": "Corporate Media Promoting Anti-Muslim Hate with Impunity",
+            "description": "CBS and corporate media are in a mask off moment, again, promoting anti-Muslim hate with impunity. This is how media ...",
+            "published_at": "2026-08-31T21:26:49Z",
+            "url": "https://www.youtube.com/watch?v=vJBI2NAeOSY"
+          }
+        ],
+        "channel_description": "Human Rights, Politics, and Dad Jokes\n(@QasimRashid on Substack, Threads, Mastodon, Twitter, TikTok, Facebook, & Instagram)\n\nSubscribe to my human rights newsletter at www.qasimrashid.com/subscribe for FREE or for $6/mo. ",
+        "latest_video_at": "2026-08-31T21:26:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDq0Oh0arbCdK2aCpqQFQAw",
+      "external_id": "UCDq0Oh0arbCdK2aCpqQFQAw",
+      "name": "ME CANSO GANSO SIN FILTRO",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDq0Oh0arbCdK2aCpqQFQAw",
+      "discovered_on": "2026-09-01",
+      "score": 64.52,
+      "metrics": {
+        "subscribers": 10000,
+        "total_views": 9547552,
+        "video_count": 750,
+        "avg_views_per_video": 12730.07,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "OkAp3hvp1ck",
+            "title": "“Pedir honestidad a los medios no es censura… es lo mínimo”👈‼️‼️",
+            "description": "Durante años hemos visto cómo rumores, opiniones y hasta publicidad pueden confundirse con información periodística.",
+            "published_at": "2026-08-31T12:00:26Z",
+            "url": "https://www.youtube.com/watch?v=OkAp3hvp1ck"
+          }
+        ],
+        "channel_description": "“Canal de comentario y sátira editorial sobre temas de actualidad.\nContenido original, narrativo y transformativo.”\n\n",
+        "latest_video_at": "2026-08-31T12:00:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoGRzJ_hcAXSAdl-j0QcmvA",
+      "external_id": "UCoGRzJ_hcAXSAdl-j0QcmvA",
+      "name": "Alternative Interactions",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCoGRzJ_hcAXSAdl-j0QcmvA",
+      "discovered_on": "2026-09-01",
+      "score": 63.51,
+      "metrics": {
+        "subscribers": 15600,
+        "total_views": 892507,
+        "video_count": 331,
+        "avg_views_per_video": 2696.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "rYOqwOj8pVE",
+            "title": "September 2026 Pendulum Reading ",
+            "description": "Welcome back, everyone. This month's pendulum forecast has been one of the most intricate and challenging readings I've done.",
+            "published_at": "2026-09-01T12:45:06Z",
+            "url": "https://www.youtube.com/watch?v=rYOqwOj8pVE"
+          }
+        ],
+        "channel_description": "Looking at a wide range of subjects to expand the mind, letting go of the programming with fresh eyes and possibilities. \n\nFind me on telegram at,\n\nhttps://t.me/AlternativeInteractions\n\nhttps://www.paypal.me/GaryHumphries1\n\nThanks Gary H. ❤🙏❤\n\nDisclaimer\nBy law, I must state that this is for entertainment purposes only and not to be used in place of actual legal advice/financial advice/mental health/medical advice or that of any professional organisation or body.  Please be aware I am not responsible for any decisions made based off this or an of my video or channel content.\n\nalternativeinteraction247@gmail.com ",
+        "latest_video_at": "2026-09-01T12:45:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCvR1-oEKTSFTdOvprVfU6aQ",
+      "external_id": "UCvR1-oEKTSFTdOvprVfU6aQ",
+      "name": "The Journeyman Media Network",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCvR1-oEKTSFTdOvprVfU6aQ",
+      "discovered_on": "2026-09-01",
+      "score": 53.99,
+      "metrics": {
+        "subscribers": 2790,
+        "total_views": 161940,
+        "video_count": 434,
+        "avg_views_per_video": 373.13,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "T8camgmY2_c",
+            "title": "Who Owns Independent Media? Money, Power, and the Politics Behind the Platform",
+            "description": "Citizens' Arrest examines what happens when power operates without accountability—especially in the workplace. Hosted by ...",
+            "published_at": "2026-09-01T08:34:16Z",
+            "url": "https://www.youtube.com/watch?v=T8camgmY2_c"
+          }
+        ],
+        "channel_description": "The Journeyman Media Network (JMN) is a creator-owned media collective built on independent analysis, lived experience, and accountability.\n\nFounded by Marlon Weems, JMN brings together a cohort of independent journalists and creators producing sharp, unfiltered conversations on politics, economics, culture, and democracy.\n\nThis is not legacy media. This is independent opinion—with receipts.\n\nSubscribe for original shows, livestreams, and collaborative reporting you won’t find anywhere else.\n\n",
+        "latest_video_at": "2026-09-01T08:34:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCQDXTGzmzo1fvzkAk5IRYhw",
+      "external_id": "UCQDXTGzmzo1fvzkAk5IRYhw",
+      "name": "Dirty4andahalf",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCQDXTGzmzo1fvzkAk5IRYhw",
+      "discovered_on": "2026-09-01",
+      "score": 53.73,
+      "metrics": {
+        "subscribers": 3230,
+        "total_views": 888113,
+        "video_count": 3284,
+        "avg_views_per_video": 270.44,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "uG3O8E_OqII",
+            "title": "Why we must support independent media in our culture #HSA #comedy #fyp #podclips",
+            "description": "",
+            "published_at": "2026-08-31T20:01:19Z",
+            "url": "https://www.youtube.com/watch?v=uG3O8E_OqII"
+          }
+        ],
+        "channel_description": "#KnoxKnox Hey Cuzzo and Cuzzette it's your favorite cuzzo from an auntie or uncle you didn't know you had. It's me @dirty4andahalf_rsc. This is my channel were the goal is to spread postivity through laughter with content like #60secjokes or the study of numerology through a gangster prospective #GSA. Battle rap recaps through visual breakdown or the nightly gangster cast and more different content to come. Stay tuned don't forget to like, comment and subscribe.",
+        "latest_video_at": "2026-08-31T20:01:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UChf6TIaegrgPN9aOereCiGA",
       "external_id": "UChf6TIaegrgPN9aOereCiGA",

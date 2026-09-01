@@ -2,19 +2,518 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-08-31T17:39:34Z",
-  "new_this_run": 12,
-  "total_influencers": 1098,
+  "updated_at": "2026-09-01T14:58:54Z",
+  "new_this_run": 14,
+  "total_influencers": 1112,
   "run_summary": {
-    "run_started_at": "2026-08-31T17:39:11Z",
-    "candidate_count": 50,
-    "existing_count": 1086,
-    "selected_new_count": 12,
+    "run_started_at": "2026-09-01T14:58:32Z",
+    "candidate_count": 48,
+    "existing_count": 1098,
+    "selected_new_count": 14,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCejkeeVPwnfja8rIRfJTngw",
+      "external_id": "UCejkeeVPwnfja8rIRfJTngw",
+      "name": "Serra",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCejkeeVPwnfja8rIRfJTngw",
+      "discovered_on": "2026-09-01",
+      "score": 66.42,
+      "metrics": {
+        "subscribers": 11000,
+        "total_views": 5884113,
+        "video_count": 350,
+        "avg_views_per_video": 16811.75,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "g64Fw-_jX6s",
+            "title": "Are all peptides the same?",
+            "description": "Not all peptides are the same, and that distinction matters. When I mention peptides, one of the first things people say is, \"I don't ...",
+            "published_at": "2026-09-01T14:33:56Z",
+            "url": "https://www.youtube.com/watch?v=g64Fw-_jX6s"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-01T14:33:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCbMwaW4WgqzvADVp83UxHRA",
+      "external_id": "UCbMwaW4WgqzvADVp83UxHRA",
+      "name": "The Chris & Mike Show",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCbMwaW4WgqzvADVp83UxHRA",
+      "discovered_on": "2026-09-01",
+      "score": 60.27,
+      "metrics": {
+        "subscribers": 14700,
+        "total_views": 1247847,
+        "video_count": 1889,
+        "avg_views_per_video": 660.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "q2f3ExQOOMc",
+            "title": "Personalized Aging Protocol | Dr. Sandra Kaufmann Explains the Science of Living Longer",
+            "description": "What if aging isn't something that simply happens to you, but something you can influence at the cellular level? In this fascinating ...",
+            "published_at": "2026-09-01T13:00:22Z",
+            "url": "https://www.youtube.com/watch?v=q2f3ExQOOMc"
+          }
+        ],
+        "channel_description": "Welcome to the Chris & Mike Show, where two seasoned musicians dive deep into the rhythms of life, music, and everything in between. Join Chris and Mike as they share their unfiltered perspectives on the highs and lows of the creative journey, navigating the intricate tapestry of existence with candid conversations that resonate with authenticity.\n\nIn this riveting podcast, these musical maestros open up about their personal experiences, exploring themes like addiction and recovery with raw honesty. The duo doesn't shy away from sharing compelling stories about life's twists and turns, offering a unique blend of humor, heart, and hard-won wisdom.\n\nWhether you're a music enthusiast or someone seeking relatable tales of triumph and resilience, the Chris and Mike Podcast has something for everyone. Expect to be serenaded by anecdotes from their own lives, touching on the importance of family, the challenges of the music industry, and the profound impact of creativity on their journeys.\n\n\n",
+        "latest_video_at": "2026-09-01T13:00:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqEZi_FVnZX9qG4OO0nhT_g",
+      "external_id": "UCqEZi_FVnZX9qG4OO0nhT_g",
+      "name": "Wenner Sports",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCqEZi_FVnZX9qG4OO0nhT_g",
+      "discovered_on": "2026-09-01",
+      "score": 58.85,
+      "metrics": {
+        "subscribers": 7330,
+        "total_views": 192907,
+        "video_count": 212,
+        "avg_views_per_video": 909.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "P75oGNfqexk",
+            "title": "Treinamento Funcional",
+            "description": "Treinamento funcional trabalha força, equilíbrio e mobilidade de um jeito completo e o efeito continua muito depois que o treino ...",
+            "published_at": "2026-09-01T00:55:17Z",
+            "url": "https://www.youtube.com/watch?v=P75oGNfqexk"
+          }
+        ],
+        "channel_description": "Cursos completos e gratuitos de futebol, wrestling, kickboxing, calistenia, treino funcional, musculação e exercícios para 60+. Aulas guiadas por professores especialistas, do iniciante ao avançado.\n\nAqui você treina de verdade: cada curso tem aulas completas em sequência, organizadas em playlists — é só dar o play e acompanhar.\n\nNovas aulas toda semana. Inscreva-se e comece hoje.\n\n📲 Quer treinar pelo celular com a experiência completa? Baixe o aplicativo Wenner nos links abaixo.\n\nWenner 🏆 Vencendo Juntos.\n\n",
+        "latest_video_at": "2026-09-01T00:55:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCzOZaTdOfFzDBpMWK0BT1TA",
+      "external_id": "UCzOZaTdOfFzDBpMWK0BT1TA",
+      "name": "Eunice Unscripted - Inspired  Life After 60",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCzOZaTdOfFzDBpMWK0BT1TA",
+      "discovered_on": "2026-09-01",
+      "score": 57.99,
+      "metrics": {
+        "subscribers": 3070,
+        "total_views": 331385,
+        "video_count": 160,
+        "avg_views_per_video": 2071.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "8nAZHFk-4No",
+            "title": "60 lbs of Honey! Functional Fitness!",
+            "description": "Part of why I need to maintain and increase muscle is lifting 60 lbs of honey to process! It's never too late to get stronger!",
+            "published_at": "2026-09-01T07:36:56Z",
+            "url": "https://www.youtube.com/watch?v=8nAZHFk-4No"
+          }
+        ],
+        "channel_description": "Changing how we engage with life after 60! This channel follows my real, unscripted life after 60! From health & beauty to  taking on new challenges to keep my mind and body engaged and looking forward to my senior years! \n\nFor great info on travel gear and packing, visit my travel channel: https://www.youtube.com/c/TheoryofSimple\n\n",
+        "latest_video_at": "2026-09-01T07:36:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCsNvNh7URXDNJitjuEWKTAA",
+      "external_id": "UCsNvNh7URXDNJitjuEWKTAA",
+      "name": "Alpha Health Clinics",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCsNvNh7URXDNJitjuEWKTAA",
+      "discovered_on": "2026-09-01",
+      "score": 56.97,
+      "metrics": {
+        "subscribers": 2640,
+        "total_views": 398293,
+        "video_count": 249,
+        "avg_views_per_video": 1599.57,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "_Q_POeCoQjI",
+            "title": "Last Day: National Wellness Month Peptide Sale #shorts",
+            "description": "Last day. National Wellness Month pricing ends tonight. All packs on sale: BPC + TB4 - 2x10/10mg GLP-3 - 10mg Gluta 1200 ...",
+            "published_at": "2026-08-31T19:05:10Z",
+            "url": "https://www.youtube.com/watch?v=_Q_POeCoQjI"
+          }
+        ],
+        "channel_description": "Demystifying hormone optimization, Peptide Therapy, HGH, and longevity for men and women. Welcome to Alpha Health Clinics—your guide to peak vitality.\n\nWe believe getting older shouldn't mean slowing down. Too many men and women accept chronic exhaustion, stubborn weight gain, brain fog, and a crashing sex drive as \"just aging.\" We don’t.\n\nSubscribe for clear, evidence-based breakdowns on:\n* Hormone Optimization (HRT & TRT): Safe protocols for men and women to balance mood and libido (menopause, perimenopause, low-T).\n* Peptide Therapy: Cellular messengers to speed up fat loss, repair joints, boost collagen, and focus.\n* HGH Replacement: Reversing age-related growth hormone deficiency for full-body rejuvenation.\n* IV Hydration: High-absorption nutrients for immunity, mood, and recovery.\n\nHit SUBSCRIBE and drop your questions below!\n\n(Disclaimer: Content is for educational purposes only and is not professional medical advice.)\n",
+        "latest_video_at": "2026-08-31T19:05:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCxl-EVFENsxHTCYmxL7IkXw",
+      "external_id": "UCxl-EVFENsxHTCYmxL7IkXw",
+      "name": "INJOY Live Workout",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCxl-EVFENsxHTCYmxL7IkXw",
+      "discovered_on": "2026-09-01",
+      "score": 53.88,
+      "metrics": {
+        "subscribers": 2510,
+        "total_views": 666326,
+        "video_count": 1615,
+        "avg_views_per_video": 412.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "G4DrQKHrMgI",
+            "title": "#233 // 55 Minuten FUNCTIONAL TRAINING  〢  INJOY LIVE WORKOUT  〢  mit EVA-MARIA",
+            "description": "Der Kurs startet am Montag, dem 31. August um ⌚ 09:15 Uhr und dauert 55 Minuten. Das erwartet DICH. Gezieltes ...",
+            "published_at": "2026-08-31T20:29:10Z",
+            "url": "https://www.youtube.com/watch?v=G4DrQKHrMgI"
+          }
+        ],
+        "channel_description": "WELCOME! 🔥 Das hier ist der offizielle YouTube-Kanal vom INJOY Dorsten! ✌️💙\n\n🔹 INJOY Live Workout 🔹\n\n👉 Das steht für...\n\n✅ täglich neue spannende LIVE WORKOUTS\n✅ KOSTENLOSES mitmachen von zu Hause\n✅ 100% Spaß & Motivation\n✅ Qualifizierte TOP Trainer*innen\n\nLasst uns gerne ein Like & Abo da! 😉👍\n\n#weareinjoy #INJOY #injoydorsten #INJOYliveWorkout #kurse #sport #training #motivation \n",
+        "latest_video_at": "2026-08-31T20:29:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRYSldf4W402RoMZn-swLSg",
+      "external_id": "UCRYSldf4W402RoMZn-swLSg",
+      "name": "NATGYM",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCRYSldf4W402RoMZn-swLSg",
+      "discovered_on": "2026-09-01",
+      "score": 52.73,
+      "metrics": {
+        "subscribers": 4720,
+        "total_views": 130750,
+        "video_count": 130,
+        "avg_views_per_video": 1005.77,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "uUM2Y5pOHfM",
+            "title": "Selbstmanagement: Beherrsche dich selbst (Clemens Gugl)",
+            "description": "In dieser Episode spricht Clemens Gugl über die Bedeutung von Mindset und Selbstkontrolle sowie praktische Tipps zur digitalen ...",
+            "published_at": "2026-08-27T12:42:21Z",
+            "url": "https://www.youtube.com/watch?v=uUM2Y5pOHfM"
+          }
+        ],
+        "channel_description": "Leckere Proteinshakes aus rein natürlichen Zutaten\n🌱 Nur natürliche Zutaten\n🥗 Reich an echten Nährstoffen\n🚫 Ohne künstliche Süßstoffe\n✨ Mehr als nur ein Proteinshake\n\n",
+        "latest_video_at": "2026-08-27T12:42:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:2abd6c7a01e4240f7dfd",
+      "external_id": "2abd6c7a01e4240f7dfd",
+      "name": "JonathanErhardt",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/xerB6CnKN7hcfkNCD/the-cognitive-dynamics-of-ai-philosophy",
+      "discovered_on": "2026-09-01",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/Strife212"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Cognitive Dynamics of AI Philosophy"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9b07fd1c1e46365d8818",
+      "external_id": "9b07fd1c1e46365d8818",
+      "name": "laniakea",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/YDPQGKqWMM8wz2dGA/a-new-version-of-the-petrov-day-booklet",
+      "discovered_on": "2026-09-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A new version of the Petrov Day booklet"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:a3b2839e579786fffb89",
+      "external_id": "a3b2839e579786fffb89",
+      "name": "KatSpartz",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/e6LEYbXw4H7ozgz7A/i-tracked-my-emotions-for-11-years-and-here-s-what-i-found",
+      "discovered_on": "2026-09-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "I tracked my emotions for 11 years and here’s what I found out about mental health"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f0fbee637f9e22ef3bb4",
+      "external_id": "f0fbee637f9e22ef3bb4",
+      "name": "Jeffrey Lewis",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/powder-keg-outer-space",
+      "discovered_on": "2026-09-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Powder Keg in Outer Space"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:832e77c783896934c5dc",
+      "external_id": "832e77c783896934c5dc",
+      "name": "David Litman",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/QQbgxawsEmcweKNZF/insights-into-curry-s-paradox",
+      "discovered_on": "2026-09-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Insights into Curry's Paradox?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9cd8207015e700903db7",
+      "external_id": "9cd8207015e700903db7",
+      "name": "Chad P. Bown",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/real-risk-trade-war-canada",
+      "discovered_on": "2026-09-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Real Risk of a Trade War With Canada"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4bbb856a5fb070247c65",
+      "external_id": "4bbb856a5fb070247c65",
+      "name": "849",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/egdjBmcMFFDN44qbs/images-and-ai-out-of-the-loop",
+      "discovered_on": "2026-09-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Images and AI: out of the loop"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCPbeu964LKFfhBfHpTuxKxQ",
       "external_id": "UCPbeu964LKFfhBfHpTuxKxQ",
