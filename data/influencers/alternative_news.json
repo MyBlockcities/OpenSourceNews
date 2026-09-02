@@ -2,19 +2,500 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-01T14:58:41Z",
-  "new_this_run": 10,
-  "total_influencers": 402,
+  "updated_at": "2026-09-02T14:33:40Z",
+  "new_this_run": 11,
+  "total_influencers": 413,
   "run_summary": {
-    "run_started_at": "2026-09-01T14:58:32Z",
+    "run_started_at": "2026-09-02T14:33:30Z",
     "candidate_count": 21,
-    "existing_count": 392,
-    "selected_new_count": 10,
+    "existing_count": 402,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC82-AR3h-vsSzZgZ8pvAVkQ",
+      "external_id": "UC82-AR3h-vsSzZgZ8pvAVkQ",
+      "name": "AGORA TVNEWS",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC82-AR3h-vsSzZgZ8pvAVkQ",
+      "discovered_on": "2026-09-02",
+      "score": 76.8,
+      "metrics": {
+        "subscribers": 99300,
+        "total_views": 25092127,
+        "video_count": 1085,
+        "avg_views_per_video": 23126.38,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "Y5dfwCNViVU",
+            "title": "Attali en panique exige la suppression des réseaux sociaux et l’interdiction des médias alternatifs",
+            "description": "C'est terminé pour Attali, ils ont eu le contrôle pendant 40 ans qui a mené les pays occidentaux à la faillite tout en engraissant des ...",
+            "published_at": "2026-09-02T09:37:09Z",
+            "url": "https://www.youtube.com/watch?v=Y5dfwCNViVU"
+          },
+          {
+            "query": "alternative media",
+            "video_id": "XqOZQsP__kQ",
+            "title": "L’avenir politique de Macron, Merz, Burnham et d’Ursula dépend de la guerre. Le peuple refuse.",
+            "description": "Une analyse interdite dans les médias traditionnels, c'est pour cette raison que les médias alternatifs sont de plus en plus suivis.",
+            "published_at": "2026-09-02T08:53:25Z",
+            "url": "https://www.youtube.com/watch?v=XqOZQsP__kQ"
+          }
+        ],
+        "channel_description": "Une nouvelle chaîne de Télévision Web Franco Suisse indépendante : agoratv.ch.\n\nAgora TV est un média alternatif qui propose :\n- des interviews avec des personnes qui souhaitent témoigner sans censure et sans interprétation\n- des reportages sur le terrain, d'événements, de manifestations qui ne sont pas couverts par les autres médias\n\n🤔Notre mission et nos objectifs\n\nDonner la parole à toutes les personnes qui ont des témoignages, des messages qui ne ont pas diffusés ailleurs, souvent refusés par les médias traditionnels\nGarantir une information libre et proche du terrain\nUne équipe de journalistes et d'intervenants qui se déplace\n\n🎁Ce que nous vous offrons\n\nFournir de l'information indépendante et de qualité qui se démarque des médias traditionnels\nNous allons là ou les autres n'osent pas aller et diffusons dans l'esprit de la liberté d'expression.\nAgora TV fournit des informations sourcées et détaillées\nAgora TV collabore avec d'autres médias alternatifs qui recherchent la vérité\n\n\n\n",
+        "latest_video_at": "2026-09-02T09:37:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqwnOr-8xRL99w1lzcdDfNA",
+      "external_id": "UCqwnOr-8xRL99w1lzcdDfNA",
+      "name": "Breaking Barriers with Aaliya 2.0",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCqwnOr-8xRL99w1lzcdDfNA",
+      "discovered_on": "2026-09-02",
+      "score": 72.1,
+      "metrics": {
+        "subscribers": 56600,
+        "total_views": 12817372,
+        "video_count": 553,
+        "avg_views_per_video": 23177.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "co5QU9prikU",
+            "title": "SCO Summit OR RIC ? Russia China India Together",
+            "description": "aliyashah #livenews #breakingnews This channel to support Independent Journalism we bring unbiased new for you and this ...",
+            "published_at": "2026-09-02T08:55:53Z",
+            "url": "https://www.youtube.com/watch?v=co5QU9prikU"
+          }
+        ],
+        "channel_description": "                                                                                           Welcome To Channel 20\nAnchor : Aaliya Shah \n\n\"News 20\" is a YouTube channel dedicated to delivering the latest updates and in-depth analyses on people, travels, global news, science, world events, and politics. With anchor Aaliya Shah at the forefront, the channel dives into essential current affairs, covering both national and international stories. Expect engaging talk shows that bring in experts, commentators, and thought leaders to provide well-rounded perspectives. From breaking news to in-depth reports and insightful analytics, News 20 brings you closer to the events shaping our world with integrity, clarity, and a commitment to staying current.",
+        "latest_video_at": "2026-09-02T08:55:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC-DDTB3ESxnfuYe86aj8SCA",
+      "external_id": "UC-DDTB3ESxnfuYe86aj8SCA",
+      "name": "Michael Meyen",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC-DDTB3ESxnfuYe86aj8SCA",
+      "discovered_on": "2026-09-02",
+      "score": 69.85,
+      "metrics": {
+        "subscribers": 26900,
+        "total_views": 1960210,
+        "video_count": 84,
+        "avg_views_per_video": 23335.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "yXobF4J-Hcg",
+            "title": "Walter van Rossum über den neuen Mainstream und die mediale Unterwelt",
+            "description": "Walter van Rossum spricht mit Michael Meyen über seine Karriere beim öffentlich-rechtlichen Rundfunk, den Journalismus der ...",
+            "published_at": "2026-09-01T16:00:11Z",
+            "url": "https://www.youtube.com/watch?v=yXobF4J-Hcg"
+          }
+        ],
+        "channel_description": "Medienwelt, Ideenwelt, Gespräche: Ich öffne die Matrix, die Journalismus und Digitalplattformen weben, tauche ein in die Geschichte der Erzählungen, die Gesellschaften stabilisieren sollen, und interviewe Menschen, die mir dabei helfen können. Mein Hintergrund: Nach einem Journalistikstudium (Diplom 1992) bin ich in Leipzig promoviert (1995) und habilitiert (2001) und 2002 als Professor für Kommunikationswissenschaft an die LMU München berufen worden.\n\nFreie Akademie für Medien und Journalismus\nc/o Grosch Postflex #2506\nEmsdettener Str. 10\n48268 Greven\n\nUnterstützen: https://www.freie-medienakademie.de/unterstuetzen\n",
+        "latest_video_at": "2026-09-01T16:00:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJgVDRW4YlZ7LwspYMwtJlg",
+      "external_id": "UCJgVDRW4YlZ7LwspYMwtJlg",
+      "name": "The Squirrels",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJgVDRW4YlZ7LwspYMwtJlg",
+      "discovered_on": "2026-09-02",
+      "score": 67.69,
+      "metrics": {
+        "subscribers": 99000,
+        "total_views": 2614822,
+        "video_count": 1877,
+        "avg_views_per_video": 1393.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "KGiQgBAQ1WY",
+            "title": "How PM Modi &amp; BJP Are Targeting Gen-Z Creators!",
+            "description": "The BJP is doubling down on a massive new-age digital media strategy, shifting its political messaging beyond traditional ...",
+            "published_at": "2026-09-02T12:41:18Z",
+            "url": "https://www.youtube.com/watch?v=KGiQgBAQ1WY"
+          }
+        ],
+        "channel_description": "Welcome to The Squirrels — where news meets clarity.\n\nWe cut through noise, spin, and political theatre to bring you sharp, data-driven commentary on India, US, and global affairs. From breaking headlines to deep analysis, from politics and policy to business, tech, and culture — we track the stories that matter, with precision and perspective.\n\n🎙️ What you’ll find here:\n\nOpinionated explainers on Indian & global politics\n\nCrisp shorts on top news & controversies\n\nData-backed analysis of economy, policy & geopolitics\n\nUnfiltered takes that challenge the mainstream\n\nWe’re not here to shout. We’re here to decode power, expose spin, and ask hard questions.\n\n👉 Subscribe and join a community that values clarity over chaos.\n📌 Because in today’s media, noise is plenty — but clarity is rare.\n",
+        "latest_video_at": "2026-09-02T12:41:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCgJ9RjkfrhXqIkkVqTq0lXQ",
+      "external_id": "UCgJ9RjkfrhXqIkkVqTq0lXQ",
+      "name": "Rolando Espinal",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCgJ9RjkfrhXqIkkVqTq0lXQ",
+      "discovered_on": "2026-09-02",
+      "score": 64.28,
+      "metrics": {
+        "subscribers": 27400,
+        "total_views": 1473345,
+        "video_count": 531,
+        "avg_views_per_video": 2774.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "cfYfG-JhEs4",
+            "title": "¿Por qué políticos evitan medios alternativos? #shorts",
+            "description": "Políticos como Leonel, Omar Santiago, y David Collado parecen evitar entrevistas con medios alternativos. ¿Miedo a hablar o ...",
+            "published_at": "2026-09-01T06:54:21Z",
+            "url": "https://www.youtube.com/watch?v=cfYfG-JhEs4"
+          }
+        ],
+        "channel_description": "Rolando Espinal | Estrategia y Liderazgo Empresarial\n\nMi nombre es Rolando Espinal. Durante más de cuarenta años, mi profesión ha sido la estrategia, la competencia y la construcción de empresas en el campo de batalla real de los negocios. He dedicado mi vida a entender cómo transformar pequeñas operaciones en grandes corporaciones.\n\nEste canal es la evolución de mi misión. Mi objetivo es transferir el conocimiento práctico y las lecciones aprendidas a la nueva generación de empresarios y líderes que hoy enfrentan sus propios retos. Aquí no encontrará teoría abstracta, sino los principios de negocio y las tácticas de liderazgo que he aplicado personalmente para obtener resultados medibles.\n\n- Análisis Estratégico y Político\n- Principios de Liderazgo\n- Decisiones de Negocio\n",
+        "latest_video_at": "2026-09-01T06:54:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCn4t2rS2nk0YcMRtL5MEOBQ",
+      "external_id": "UCn4t2rS2nk0YcMRtL5MEOBQ",
+      "name": "Adil YT Page ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCn4t2rS2nk0YcMRtL5MEOBQ",
+      "discovered_on": "2026-09-02",
+      "score": 62.53,
+      "metrics": {
+        "subscribers": 4140,
+        "total_views": 10935560,
+        "video_count": 991,
+        "avg_views_per_video": 11034.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ggCGKmH7Csc",
+            "title": "मिर्ज़ापुर: द मूवी&#39; पर चली सेंसर बोर्ड की कैंची#MirzapurTheMovie #Mirzapur #MirzapurMovie #shorts",
+            "description": "बहुप्रतीक्षित 'मिर्ज़ापुर: द मूवी' को लेकर रिलीज़ से पहले बड़ी खबर ...",
+            "published_at": "2026-09-02T01:30:35Z",
+            "url": "https://www.youtube.com/watch?v=ggCGKmH7Csc"
+          }
+        ],
+        "channel_description": "Welcome to Adil YT Page! 🎬\nबॉलीवुड क्रिकेट और वायरल न्यूज़ की सबसे ताज़ा और सच्ची खबरें सिर्फ यहाँ!\nअपने पसंदीदा Stars और Players की असली कहानियाँ जानने के लिए Subscribe करें!\nLike करें Share करें और Subscribe करें ❤️",
+        "latest_video_at": "2026-09-02T01:30:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCk8vhp2eB76BCy9x1_ZXjvQ",
+      "external_id": "UCk8vhp2eB76BCy9x1_ZXjvQ",
+      "name": "Sports Static Podcast",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCk8vhp2eB76BCy9x1_ZXjvQ",
+      "discovered_on": "2026-09-02",
+      "score": 61.24,
+      "metrics": {
+        "subscribers": 4930,
+        "total_views": 3768787,
+        "video_count": 793,
+        "avg_views_per_video": 4752.57,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "Fw-AerttRoo",
+            "title": "They cut this Brock Lesnar moment?! 😡 #wwe #brocklesnar #netflix",
+            "description": "",
+            "published_at": "2026-09-01T17:43:10Z",
+            "url": "https://www.youtube.com/watch?v=Fw-AerttRoo"
+          }
+        ],
+        "channel_description": "Welcome to Sports Static your home for live sports talk, breaking sports news, game analysis, hot takes, and honest opinions. We cover the NFL, NBA, MLB, college football, college basketball, and the biggest stories from across the sports world.\n\nHosted by David Ricks, Sports Static delivers real conversations with no script and no filter. From live reactions and game breakdowns to trade rumors, rankings, debates, fantasy sports, and championship coverage, we keep you informed and entertained.\n\nIf you love football, basketball, baseball, sports podcasts, ESPN-style discussions, and interactive live streams, you’ve found your home.\n\n🎙️ Live Shows • Breaking News • Game Analysis • Hot Takes • Fan Interaction\n\nSubscribe and join the conversation because every opinion counts.\n",
+        "latest_video_at": "2026-09-01T17:43:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCH67w232WPTFbnfHX_lI_Ww",
+      "external_id": "UCH67w232WPTFbnfHX_lI_Ww",
+      "name": "The Grimerica Show",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCH67w232WPTFbnfHX_lI_Ww",
+      "discovered_on": "2026-09-02",
+      "score": 59.9,
+      "metrics": {
+        "subscribers": 17600,
+        "total_views": 2730632,
+        "video_count": 6330,
+        "avg_views_per_video": 431.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "27aoLoIWreo",
+            "title": "Why Mainstream Media is losing to Independent Influencers",
+            "description": "The landscape of information is shifting rapidly, but with that change comes a complex set of risks. As ad revenues flee traditional ...",
+            "published_at": "2026-09-01T19:44:59Z",
+            "url": "https://www.youtube.com/watch?v=27aoLoIWreo"
+          }
+        ],
+        "channel_description": "Welcome to Grimerica—your go-to podcast for exploring the mysteries of the universe through candid, on-demand conversations. We dive into topics that captivate and challenge, often venturing into the fringe and unconventional. Our guests, chosen for their unique perspectives, help us uncover hidden truths and ignite meaningful discussions. Listener-driven and solely supported through the Value-for-Value model!\n\n ⚠️ Consider this your trigger warning!\n\n\nDon’t forget to like, share, and subscribe to stay updated on our latest episodes!\n",
+        "latest_video_at": "2026-09-01T19:44:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7XHqxMALieDI-lR2IRWl7g",
+      "external_id": "UC7XHqxMALieDI-lR2IRWl7g",
+      "name": "Sahil Rahman",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7XHqxMALieDI-lR2IRWl7g",
+      "discovered_on": "2026-09-02",
+      "score": 57.3,
+      "metrics": {
+        "subscribers": 2380,
+        "total_views": 572921,
+        "video_count": 267,
+        "avg_views_per_video": 2145.77,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "eO4z1Kj43vc",
+            "title": "Rajasthan School Media Ban Exposed #shorts",
+            "description": "Rajasthan School Media Ban Exposed #shorts DESCRIPTION:- The Rajasthan education department recently issued strict ...",
+            "published_at": "2026-09-02T03:30:25Z",
+            "url": "https://www.youtube.com/watch?v=eO4z1Kj43vc"
+          }
+        ],
+        "channel_description": "Welcome to Sahil Rahman!\n\nMain hoon Sahil, aur mere channel ka maqsad hai aapko business ki hidden truths aur economic insights se avagat karana. Yahaan aapko current affairs ki sachai aur market analysis ke through sach se rubaroo karaya jata hai.\n\nAgar aap bhi sach ka sath dena chahte hain, toh subscribe karein aur videos ko like aur share karna na bhulein!\n",
+        "latest_video_at": "2026-09-02T03:30:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCN9em1FY03nO7tMV4D2lb-g",
+      "external_id": "UCN9em1FY03nO7tMV4D2lb-g",
+      "name": "Vietnam News Agency (VNA)",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCN9em1FY03nO7tMV4D2lb-g",
+      "discovered_on": "2026-09-02",
+      "score": 56.9,
+      "metrics": {
+        "subscribers": 11500,
+        "total_views": 2654284,
+        "video_count": 13534,
+        "avg_views_per_video": 196.12,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "iBavrKV2RX4",
+            "title": "Birthplace of Vietnam’s Declaration of Independence",
+            "description": "Amid the bustle of Hanoi's old quarter, the house at 48 Hang Ngang street stands as a historic landmark where President Ho Chi ...",
+            "published_at": "2026-09-02T10:31:59Z",
+            "url": "https://www.youtube.com/watch?v=iBavrKV2RX4"
+          }
+        ],
+        "channel_description": "The official news provider of the Socialist Republic of Vietnam.\n",
+        "latest_video_at": "2026-09-02T10:31:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCBe7qzGO2R3Am8sisHya-Zg",
+      "external_id": "UCBe7qzGO2R3Am8sisHya-Zg",
+      "name": "Opperman Report",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCBe7qzGO2R3Am8sisHya-Zg",
+      "discovered_on": "2026-09-02",
+      "score": 52.65,
+      "metrics": {
+        "subscribers": 3490,
+        "total_views": 351979,
+        "video_count": 1506,
+        "avg_views_per_video": 233.72,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "WHl6jA3m9ag",
+            "title": "Burying the Lead: The Media and the JFK Assassination",
+            "description": "The Cold War ushered in a time of secrecy—and willing media cooperation to keep those secrets. But even after winning that war, ...",
+            "published_at": "2026-08-31T17:05:44Z",
+            "url": "https://www.youtube.com/watch?v=WHl6jA3m9ag"
+          }
+        ],
+        "channel_description": "Join Ed Opperman with expert guests and authors as they discuss true crime stories in the news, conspiracy theories, issues of social injustice and NWO resistance. ",
+        "latest_video_at": "2026-08-31T17:05:44Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCZgq9x4I2USHERyambVh_lQ",
       "external_id": "UCZgq9x4I2USHERyambVh_lQ",

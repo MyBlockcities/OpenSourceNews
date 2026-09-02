@@ -2,19 +2,417 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-09-01T14:58:54Z",
-  "new_this_run": 14,
-  "total_influencers": 1112,
+  "updated_at": "2026-09-02T14:33:55Z",
+  "new_this_run": 11,
+  "total_influencers": 1123,
   "run_summary": {
-    "run_started_at": "2026-09-01T14:58:32Z",
-    "candidate_count": 48,
-    "existing_count": 1098,
-    "selected_new_count": 14,
+    "run_started_at": "2026-09-02T14:33:30Z",
+    "candidate_count": 49,
+    "existing_count": 1112,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCT_xKYbygpY2ZYfuPo7JXSA",
+      "external_id": "UCT_xKYbygpY2ZYfuPo7JXSA",
+      "name": "Анастасия Талан ko_sha ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCT_xKYbygpY2ZYfuPo7JXSA",
+      "discovered_on": "2026-09-02",
+      "score": 71.34,
+      "metrics": {
+        "subscribers": 45100,
+        "total_views": 13312495,
+        "video_count": 592,
+        "avg_views_per_video": 22487.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "HTHFkzmUxZg",
+            "title": "Базовый минимум в ванной после пробуждения! (5-7 минут) #утренняярутина #массажлица #биохакинг",
+            "description": "Чистим зубы + разминаем стопы • Наносим крема + разглаживаем лицо и массируем там где чувствуем напряжение • Уши, ...",
+            "published_at": "2026-09-02T09:34:05Z",
+            "url": "https://www.youtube.com/watch?v=HTHFkzmUxZg"
+          }
+        ],
+        "channel_description": "Привет 👋🏻 Меня зовут Анастасия Талан и я холистический косметолог, специалист по массажу лица, владелец спа салона в Лос-Анджелесе Kosha Spa и автор бренда массажной продукции Kosha. \n\nНа моем канале вы узнаете, как сохранить красоту и молодость с помощью натуральных методик без инъекций и болезненных процедур. \n\nРассказываю всё о\n🔹бережном подходе в косметологии\n🔹техниках омоложения (гуаша, буккальный массаж, вакуумный, остеопатический, миофасциальный, фейс йога и т.д.)\n🔹поддержании осанки и фигуры\n🔹обучении для профессионалов \n🔹и просто жизни звездного косметолога в Лос-Анджелесe\n\n",
+        "latest_video_at": "2026-09-02T09:34:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCN_BhRgJTqjbFOvab5APRRA",
+      "external_id": "UCN_BhRgJTqjbFOvab5APRRA",
+      "name": "Arcos Fitness Club",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCN_BhRgJTqjbFOvab5APRRA",
+      "discovered_on": "2026-09-02",
+      "score": 71.16,
+      "metrics": {
+        "subscribers": 43500,
+        "total_views": 3457603,
+        "video_count": 159,
+        "avg_views_per_video": 21745.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "mcpXKhRYbec",
+            "title": "Que es el entrenamiento funcional y que es el entrenamiento de fuerza. #gym #fitness #workout",
+            "description": "El entrenamiento funcional es diferente al entrenamiento de fuerza.",
+            "published_at": "2026-09-02T01:58:18Z",
+            "url": "https://www.youtube.com/watch?v=mcpXKhRYbec"
+          }
+        ],
+        "channel_description": "Gimnasio de Primer Nivel en Paseo Arcos Bosques en Bosques de las Lomas.",
+        "latest_video_at": "2026-09-02T01:58:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCrgBjbhwpSYEVYVzm-r2ogw",
+      "external_id": "UCrgBjbhwpSYEVYVzm-r2ogw",
+      "name": "Ketty & Markus | Holistic Fitness",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCrgBjbhwpSYEVYVzm-r2ogw",
+      "discovered_on": "2026-09-02",
+      "score": 66.98,
+      "metrics": {
+        "subscribers": 11200,
+        "total_views": 12138100,
+        "video_count": 571,
+        "avg_views_per_video": 21257.62,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "o0Co3c2s_vw",
+            "title": "How To Actually Use Peptides For Your Goals #peptides #wellness",
+            "description": "Stop wasting money by using peptides without a clear, intentional plan. Most people start a regimen without understanding the ...",
+            "published_at": "2026-09-02T13:00:37Z",
+            "url": "https://www.youtube.com/watch?v=o0Co3c2s_vw"
+          }
+        ],
+        "channel_description": "Welcome to our Holistic Fitness Channel!😃\n\nWe are Ketty & Markus and help you go beyond the gym and discover true, sustainable health through holistic fitness coaching. \n\nOur channel is here to guide you in creating balance in your body, mind, and lifestyle so that you don’t just get fit, you transform from the inside out.\n\nHere you’ll find:\n→ Holistic Workouts | functional strength training, mobility, & mindful movement practices\n→ Nutrition for Energy, Health, and Performance | simple, Mediterranean inspired & science-backed tips for balanced eating\n→ Somatic Movements for Stress Management | meditation, breathwork, & mental fitness strategies\n→ Lifestyle Coaching | sustainable habits, recovery, rest, and self-care routines.\n\nWhether your goal is to build strength, increase energy, reduce stress, lose weight, or create lasting habits, we give you the tools to design a healthier, more vibrant life, without extremes or quick fixes.\n\nReady to\n✔ get fit \n✔ stay energized \n✔ feel calm\n",
+        "latest_video_at": "2026-09-02T13:00:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCkPJlKdT0Y3hfsdCeaYtdmg",
+      "external_id": "UCkPJlKdT0Y3hfsdCeaYtdmg",
+      "name": "The Guru of Abs ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCkPJlKdT0Y3hfsdCeaYtdmg",
+      "discovered_on": "2026-09-02",
+      "score": 61.74,
+      "metrics": {
+        "subscribers": 22900,
+        "total_views": 166083,
+        "video_count": 238,
+        "avg_views_per_video": 697.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "TDNQuSBszLM",
+            "title": "9.2.26: Senior Body Sculpting Live - Back + Abs &amp; Core",
+            "description": "Senior Body Sculpting LIVE is GOA F.I.T.T. Club's signature virtual low-impact functional fitness workout designed specifically for ...",
+            "published_at": "2026-09-02T14:04:30Z",
+            "url": "https://www.youtube.com/watch?v=TDNQuSBszLM"
+          }
+        ],
+        "channel_description": "The Guru of Abs F.I.I.T Club is a local + virtual fitness club that provides an inclusive environment where fitness enthusiasts of all fitness level and body types can engage in diverse group workout options.",
+        "latest_video_at": "2026-09-02T14:04:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UClMnhpUr7yBQuTtXwhaHeiw",
+      "external_id": "UClMnhpUr7yBQuTtXwhaHeiw",
+      "name": "RefinedMD",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UClMnhpUr7yBQuTtXwhaHeiw",
+      "discovered_on": "2026-09-02",
+      "score": 59.52,
+      "metrics": {
+        "subscribers": 3500,
+        "total_views": 982849,
+        "video_count": 282,
+        "avg_views_per_video": 3485.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "BkvJ77SjjFM",
+            "title": "What Does a Medical Wellness Center Offer? | IV Therapy, Weight Loss, Peptides &amp; More 🩺",
+            "description": "What if your next appointment could be about more than just how you look? Welcome to the RefinedMD Wellness Center - a ...",
+            "published_at": "2026-09-02T02:15:06Z",
+            "url": "https://www.youtube.com/watch?v=BkvJ77SjjFM"
+          }
+        ],
+        "channel_description": "Welcome to RefinedMD, a unique clinic that offers a comprehensive approach to skin care with advanced aesthetic services for both non-surgical Cosmetic Dermatology and Facial Plastic Surgery. When you have access to aesthetic dermatology, medical dermatology, and facial plastic surgery in one clinic, you enjoy peace of mind knowing that leading experts in multiple facial rejuvenation fields are collaborating to achieve your goals. \n\nRefinedMD is home to highly qualified board certified medical providers as well as a suite knowledgeable and passionate staff. The depth of the providers’ skills and the decades of combined experience are key to ensuring every patient achieves the natural and long-lasting results they deserve. We invite you to learn more about board certified dermatologists Dr. Steven Swengel and Dr. Lindsey Yeh, as well as board certified facial plastic surgeon, Dr. Sudeep Roy.  Get started today by visiting our website and scheduling a consultation.\n",
+        "latest_video_at": "2026-09-02T02:15:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC-1Kwd_20lcuot4dxqezDqg",
+      "external_id": "UC-1Kwd_20lcuot4dxqezDqg",
+      "name": "AquaViva Fitness",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC-1Kwd_20lcuot4dxqezDqg",
+      "discovered_on": "2026-09-02",
+      "score": 57.77,
+      "metrics": {
+        "subscribers": 2840,
+        "total_views": 343567,
+        "video_count": 165,
+        "avg_views_per_video": 2082.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "_yNezWFU7lw",
+            "title": "Functional Exercise: Scoop Squat with AquaFit Paddles #shorts",
+            "description": "Keep a neutral spine with your squat, go down on your heels and scoop the water up with aquafit paddles. Another functional ...",
+            "published_at": "2026-09-02T01:56:21Z",
+            "url": "https://www.youtube.com/watch?v=_yNezWFU7lw"
+          }
+        ],
+        "channel_description": "Welcome Aqua Athletes!\n\nI'm Justin Gauthier (BSc. HK), certified Exercise Physiologist (ACSM-EP) & Aqua Fit Coach. Come for the workout, stay for the fun! \n\nOn this channel, you'll find pool workouts that range from low to high intensity with focus on full-body and repetition. I often use workout equipment like water dumbbells, aqua-fit gloves, noodles, and resistance paddles to add more water drag and work against buoyancy - this is key for muscle conditioning & endurance training. \n\nRepetition is important for two reasons: 1. It targets muscle strengthening & endurance more effectively; 2. It makes the workout less focussed on choreography and easier to follow-along.\n\nI'm a big fan of explosive power moves like jumps and tucks that target leg and core strength whilst also reminding you to maintain good form and proper landing for joint health (I also give variations on exercises for lower-impact on joints).\n\nFeel free to email me your questions & LET'S MAKE WAVES TOGETHER! \n",
+        "latest_video_at": "2026-09-02T01:56:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:0c68a2ab9ef88133e1b3",
+      "external_id": "0c68a2ab9ef88133e1b3",
+      "name": "drnickbone",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/3qjS2zLvTS7d5SHex/ai-co-operation-and-ai-alignment",
+      "discovered_on": "2026-09-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "AI Co-operation and AI Alignment"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f9ca7dccfaef1df634cf",
+      "external_id": "f9ca7dccfaef1df634cf",
+      "name": "N.C. Young",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/aotXh2a7NqWZaeBEF/a-semitechnical-interlude-on-the-equivalence-of",
+      "discovered_on": "2026-09-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Semitechnical Interlude on the Equivalence of Probabilistic and Deterministic Solomonoff Induction"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2775bc9171345d51a177",
+      "external_id": "2775bc9171345d51a177",
+      "name": "Logan Riggs",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/expsAXaBgiqgitFe6/if-you-re-interpreting-less-than-1b-parameter-models-you",
+      "discovered_on": "2026-09-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "If you're interpreting <1B parameter models, you should use a tensor transformer"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:27891231b2fae0694729",
+      "external_id": "27891231b2fae0694729",
+      "name": "Amos Harel",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/israel/can-israel-end-its-forever-wars",
+      "discovered_on": "2026-09-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Can Israel End Its Forever Wars?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:fb53641dca3911446326",
+      "external_id": "fb53641dca3911446326",
+      "name": "Adam Y. Liu",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/how-does-world-really-view-china",
+      "discovered_on": "2026-09-02",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "How Does the World Really View China?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCejkeeVPwnfja8rIRfJTngw",
       "external_id": "UCejkeeVPwnfja8rIRfJTngw",
