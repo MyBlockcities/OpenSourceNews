@@ -2,19 +2,90 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-09-02T14:33:37Z",
-  "new_this_run": 4,
-  "total_influencers": 246,
+  "updated_at": "2026-09-03T14:37:54Z",
+  "new_this_run": 2,
+  "total_influencers": 248,
   "run_summary": {
-    "run_started_at": "2026-09-02T14:33:30Z",
-    "candidate_count": 38,
-    "existing_count": 242,
-    "selected_new_count": 4,
+    "run_started_at": "2026-09-03T14:37:48Z",
+    "candidate_count": 43,
+    "existing_count": 246,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCdCCOEPOJpzLMu_pT0--r5w",
+      "external_id": "UCdCCOEPOJpzLMu_pT0--r5w",
+      "name": "Corporate Decoder",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCdCCOEPOJpzLMu_pT0--r5w",
+      "discovered_on": "2026-09-03",
+      "score": 50.51,
+      "metrics": {
+        "subscribers": 5550,
+        "total_views": 540978,
+        "video_count": 19425,
+        "avg_views_per_video": 27.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate RWA"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate RWA",
+            "video_id": "5pii2-dpyh4",
+            "title": "ADBT Crypto &amp; RWA Pivot: My Take on the 8-K",
+            "description": "ADBT Advasa Holdings, Inc. (ADBT) — 8-K Live case file for $ADBT: https://decoded.report/ADBT?utm_source=youtube ...",
+            "published_at": "2026-09-02T23:19:43Z",
+            "url": "https://www.youtube.com/watch?v=5pii2-dpyh4"
+          }
+        ],
+        "channel_description": "Do you hate corporate jargon? so do I, especially when it comes inside important financial reports.\nSo I made a channel where I will explain as most financial reports as I  can",
+        "latest_video_at": "2026-09-02T23:19:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:175c7761a6318634c6a3",
+      "external_id": "175c7761a6318634c6a3",
+      "name": "Varun Datta",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/09/02/crypto-long-and-short-crypto-vcs-are-mistaking-consensus-for-discipline",
+      "discovered_on": "2026-09-03",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCjaAUsLHmbDXNfujRi4whTQ",
       "external_id": "UCjaAUsLHmbDXNfujRi4whTQ",
