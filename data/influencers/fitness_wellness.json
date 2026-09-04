@@ -2,19 +2,262 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-09-03T14:38:11Z",
-  "new_this_run": 7,
-  "total_influencers": 1130,
+  "updated_at": "2026-09-04T14:25:26Z",
+  "new_this_run": 8,
+  "total_influencers": 1138,
   "run_summary": {
-    "run_started_at": "2026-09-03T14:37:48Z",
-    "candidate_count": 44,
-    "existing_count": 1123,
-    "selected_new_count": 7,
+    "run_started_at": "2026-09-04T14:24:58Z",
+    "candidate_count": 41,
+    "existing_count": 1130,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCOfcPr8LOC6GW7zK-eH1fXQ",
+      "external_id": "UCOfcPr8LOC6GW7zK-eH1fXQ",
+      "name": "Cherian",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCOfcPr8LOC6GW7zK-eH1fXQ",
+      "discovered_on": "2026-09-04",
+      "score": 67.84,
+      "metrics": {
+        "subscribers": 6790,
+        "total_views": 4835798,
+        "video_count": 76,
+        "avg_views_per_video": 63628.92,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "fmnqotgIQNA",
+            "title": "Highest T-Level Boosting Workout! 🔥",
+            "description": "Want to naturally biohack your body to build muscle faster and optimize your hormones? Stop jogging and start SPRINTING.",
+            "published_at": "2026-09-04T13:01:41Z",
+            "url": "https://www.youtube.com/watch?v=fmnqotgIQNA"
+          }
+        ],
+        "channel_description": "\n\nMy goal is simple: to help you engineer a more productive, examined, and high-performance life.\n\nOn this channel, I deconstruct the systems, mental models, and habits that drive the top 1% of creators and thinkers. I treat my 20s as a laboratory—testing, iterating, and documenting the data so you don't have to start from scratch.\n\nExpect videos on:\n⚡ Systems Design: Building a \"Second Brain\" and organizing digital chaos.\n📈 Compound Growth: The math behind getting 1% better every day.\n🧠 Deep Research: Synthesizing books, podcasts, and complex ideas into usable frameworks.\n\nI am a 23-year-old builder and researcher obsessed with turning nothing into something. If you are obsessed with growth, you’re in the right place.\n\nJoin the journey 👇\n",
+        "latest_video_at": "2026-09-04T13:01:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:13553e46116c10d13273",
+      "external_id": "13553e46116c10d13273",
+      "name": "WillPetillo",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/tav7xgnhqWx5dTqCo/abstraction-equivocation",
+      "discovered_on": "2026-09-04",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/dwarkesh_sp"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Abstraction Equivocation"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:3024d69eb09633cf0388",
+      "external_id": "3024d69eb09633cf0388",
+      "name": "JohnGreer",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/qvT8ySkiHWdWNDyjA/a-therapist-for-people-who-think-the-world-might-end-an",
+      "discovered_on": "2026-09-04",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@johncgreer"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Therapist for People Who Think the World Might End: An Interview with Daystar Eld (Damon Sasi)"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:cdc21d68f4a2cdd9781d",
+      "external_id": "cdc21d68f4a2cdd9781d",
+      "name": "emiliob",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/omA8rRgMynBnXbo6d/societal-impacts-research-has-no-timeline",
+      "discovered_on": "2026-09-04",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Societal impacts research has no timeline"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9d939c2533e1c9b7f5cd",
+      "external_id": "9d939c2533e1c9b7f5cd",
+      "name": "Ozyrus",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/KfuxpPeJbCx7EbThZ/we-still-need-a-lot-more-rogue-agent-honeypots",
+      "discovered_on": "2026-09-04",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "We (still) need a lot more rogue agent honeypots"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:3be5b5bd6c8cedc2befa",
+      "external_id": "3be5b5bd6c8cedc2befa",
+      "name": "Nition",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/y892yPYTLinvESNGz/the-last-interview",
+      "discovered_on": "2026-09-04",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Last Interview"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:299f4f12f5f411028565",
+      "external_id": "299f4f12f5f411028565",
+      "name": "Holmes Liao, Dennis Blair",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/taiwan/how-taiwan-can-win-strait",
+      "discovered_on": "2026-09-04",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "How Taiwan Can Win the Strait"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:da5dca477f59cc806df1",
+      "external_id": "da5dca477f59cc806df1",
+      "name": "Anna Nelson, Cary Fowler",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/how-avoid-next-famine",
+      "discovered_on": "2026-09-04",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "How to Avoid the Next Famine"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCQ6Rb2xnzwC7xOf-BuBU3lw",
       "external_id": "UCQ6Rb2xnzwC7xOf-BuBU3lw",
