@@ -2,19 +2,90 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-09-04T14:25:08Z",
+  "updated_at": "2026-09-05T13:28:37Z",
   "new_this_run": 2,
-  "total_influencers": 250,
+  "total_influencers": 252,
   "run_summary": {
-    "run_started_at": "2026-09-04T14:24:58Z",
-    "candidate_count": 38,
-    "existing_count": 248,
+    "run_started_at": "2026-09-05T13:28:32Z",
+    "candidate_count": 39,
+    "existing_count": 250,
     "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCV66K7_5D4nJaQE6IvUxMZw",
+      "external_id": "UCV66K7_5D4nJaQE6IvUxMZw",
+      "name": "negocio y inversión online",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCV66K7_5D4nJaQE6IvUxMZw",
+      "discovered_on": "2026-09-05",
+      "score": 54.21,
+      "metrics": {
+        "subscribers": 3580,
+        "total_views": 189745,
+        "video_count": 650,
+        "avg_views_per_video": 291.92,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "PN0BqwKg5iE",
+            "title": "🛑EESTATE TUTORIAL SECRETOS ESTRATEGIAS HAZTE AGENTE Y GANA MAS ESTATE ATENTO A OFERTAS 2026 2027 28",
+            "description": "LINK DE REGISTRO participa y aprendes sobre la marcha https://e-estate.co/agent/182294494269 ...",
+            "published_at": "2026-09-04T17:02:21Z",
+            "url": "https://www.youtube.com/watch?v=PN0BqwKg5iE"
+          }
+        ],
+        "channel_description": "\n.............................................................................\n\n💥 GRUPO dinero pasivo unete al grupo\nhttps://t.me/+mcHvyK0q6184Mzg8\n\n#fastmoney #bestcompany #trading #networkmarketing #bitcoin #ganadinero #negocios #negociosrentables #workfromhome #digitalmoney #crypto #trabajardesdecasa #trabajoenequipo #dineropasivo \n#passiveincome #dinero  #investment  #negocios\n#Success #invest #nfts #crypto   #bitcoins\n#makemoney  #networkmarketing\n#btc  #Affiliates #easymoney \n#invest #money \n\n\n\n\n",
+        "latest_video_at": "2026-09-04T17:02:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:040f4a681a4b90541af7",
+      "external_id": "040f4a681a4b90541af7",
+      "name": "Victor Fabusola",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://dailycoin.com/top-5-crypto-market-making-firms/",
+      "discovered_on": "2026-09-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "dailycoin.com",
+        "feed_urls": [
+          "https://dailycoin.com/feed/"
+        ],
+        "sample_titles": [
+          "Top 5 Crypto Market Makers in 2026"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC7FyYyYCs8Fzyo-UQhSG2fA",
       "external_id": "UC7FyYyYCs8Fzyo-UQhSG2fA",

@@ -2,19 +2,322 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-04T14:25:11Z",
-  "new_this_run": 15,
-  "total_influencers": 434,
+  "updated_at": "2026-09-05T13:28:40Z",
+  "new_this_run": 7,
+  "total_influencers": 441,
   "run_summary": {
-    "run_started_at": "2026-09-04T14:24:58Z",
-    "candidate_count": 19,
-    "existing_count": 419,
-    "selected_new_count": 15,
+    "run_started_at": "2026-09-05T13:28:32Z",
+    "candidate_count": 20,
+    "existing_count": 434,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC3UKrpqsrgTsqk0C3hbd-EQ",
+      "external_id": "UC3UKrpqsrgTsqk0C3hbd-EQ",
+      "name": "Man In Shorts - Minecraft",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC3UKrpqsrgTsqk0C3hbd-EQ",
+      "discovered_on": "2026-09-05",
+      "score": 68.37,
+      "metrics": {
+        "subscribers": 18600,
+        "total_views": 6205683,
+        "video_count": 3130,
+        "avg_views_per_video": 1982.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/channel/UCynPAXzEgSONrTSofo0D9cg"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "G6luC6oh8lQ",
+            "title": "Man In Shorts News: Hololive, Nijisanji &amp; Independent VTubers Collab Leaks",
+            "description": "Hololive, Nijisanji & Independent VTubers Collab Has Been Leaks Which Hololive, Nijisanji & Independent VTubers Well Be ...",
+            "published_at": "2026-09-05T10:41:21Z",
+            "url": "https://www.youtube.com/watch?v=G6luC6oh8lQ"
+          }
+        ],
+        "channel_description": "Check Out of My Complete Videos Playlist At https://www.youtube.com/playlist?list=PL2Tpve7VlZFKKLpeiZKSpmOvnMzS2RFho . & Check Poool157's Videos Playlist At https://www.youtube.com/playlist?list=PL2Tpve7VlZFLqm9vbEgVBxXxLeRUINyVb . & Please Subscribe To My & Poool157's Channels. Please At Like & Favourite My & Poool157's Videos Please. & Check Out of My First 2 Channels At https://www.youtube.com/channel/UCynPAXzEgSONrTSofo0D9cg/featured?disable_polymer=1 & At https://www.youtube.com/channel/UC3UKrpqsrgTsqk0C3hbd-EQ/featured?disable_polymer=1 . Okay! :D",
+        "latest_video_at": "2026-09-05T10:41:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVQEebzcuLXH24aJwGEbG4w",
+      "external_id": "UCVQEebzcuLXH24aJwGEbG4w",
+      "name": "The Center Square",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCVQEebzcuLXH24aJwGEbG4w",
+      "discovered_on": "2026-09-05",
+      "score": 67.5,
+      "metrics": {
+        "subscribers": 74500,
+        "total_views": 21789809,
+        "video_count": 11451,
+        "avg_views_per_video": 1902.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "Ekj9JTnaR8g",
+            "title": "WA Press Credential Lawsuit Settled in Major Win for Independent Journalists",
+            "description": "A major Washington press freedom lawsuit has reached a settlement in a legal battle over who qualifies as a journalist and who ...",
+            "published_at": "2026-09-04T16:00:34Z",
+            "url": "https://www.youtube.com/watch?v=Ekj9JTnaR8g"
+          }
+        ],
+        "channel_description": "The focus of The Center Square's work is state and local level government and economic reporting. A taxpayer sensibility distinguishes our work from other coverage of state and local issues. As a result of this approach, our audiences are better informed about the focus of state and local government and its cost to the citizens whose tax dollars fund governmental decisions.\n",
+        "latest_video_at": "2026-09-04T16:00:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC10a1GdUNtl4-dsjTL_LhfQ",
+      "external_id": "UC10a1GdUNtl4-dsjTL_LhfQ",
+      "name": "Syed habeeb83",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC10a1GdUNtl4-dsjTL_LhfQ",
+      "discovered_on": "2026-09-05",
+      "score": 65.71,
+      "metrics": {
+        "subscribers": 13700,
+        "total_views": 3383725,
+        "video_count": 380,
+        "avg_views_per_video": 8904.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "KKzv1lhuQeI",
+            "title": "Muslim Muslim Muslim — 4PM News journalist incident, Delhi Police allegations, Shaheen Khan Nafisa",
+            "description": "Muslim Muslim Muslim — 4PM News journalist incident, Delhi Police allegations, Shaheen Khan and Nafisa Khan | Hindi Protest ...",
+            "published_at": "2026-09-05T01:30:21Z",
+            "url": "https://www.youtube.com/watch?v=KKzv1lhuQeI"
+          }
+        ],
+        "channel_description": "Importance of friendship",
+        "latest_video_at": "2026-09-05T01:30:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1lzDLfe1aDij51fpfad0SA",
+      "external_id": "UC1lzDLfe1aDij51fpfad0SA",
+      "name": "The chanakya tv rajasthan",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC1lzDLfe1aDij51fpfad0SA",
+      "discovered_on": "2026-09-05",
+      "score": 64.09,
+      "metrics": {
+        "subscribers": 15500,
+        "total_views": 21098889,
+        "video_count": 5916,
+        "avg_views_per_video": 3566.41,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "-YhcQiqnz-w",
+            "title": "पृथ्वीराज सिंह का बड़ा दावा—वार्ड 24 की जनता इस बार निर्दलीय के साथ....||",
+            "description": "पृथ्वीराज सिंह का बड़ा दावा—वार्ड 24 की जनता इस बार निर्दलीय के साथ.",
+            "published_at": "2026-09-05T09:15:56Z",
+            "url": "https://www.youtube.com/watch?v=-YhcQiqnz-w"
+          }
+        ],
+        "channel_description": "Welcome to The Chanakya T.V Rajasthan – your trusted source for fast, factual, and fearless journalism.\n\nWe deliver the latest news from Rajasthan and across India with accuracy, credibility, and in-depth analysis. Inspired by the vision and wisdom of Acharya Chanakya, our mission is to inform, educate, and empower viewers through responsible journalism.\n\nOn this channel, you'll find:\n\nBreaking News & Live Updates\nRajasthan News & Ground Reports\nNational News & Current Affairs\nPolitical Analysis & Public Issues\nExclusive Interviews & Special Reports\nEducational & General Knowledge Content\nChanakya Niti, Motivation & Cultural Programs\nDocumentaries & Inspiring Stories\n\nAt The Chanakya T.V Rajasthan, we believe that informed citizens build a stronger nation. Subscribe and stay connected for news that matters—delivered with integrity, clarity, and impact.\n",
+        "latest_video_at": "2026-09-05T09:15:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKPxmVNmf7bgs5W0S60_n3A",
+      "external_id": "UCKPxmVNmf7bgs5W0S60_n3A",
+      "name": "Daily City News (DCN)",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCKPxmVNmf7bgs5W0S60_n3A",
+      "discovered_on": "2026-09-05",
+      "score": 61.32,
+      "metrics": {
+        "subscribers": 9980,
+        "total_views": 6416003,
+        "video_count": 3481,
+        "avg_views_per_video": 1843.15,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "qgcqwVIN1CU",
+            "title": "A Journalist, A Police Dispute &amp; V-Dem’s Warning on India’s Democracy",
+            "description": "Democracy isn't tested only when we vote. It's tested when journalists ask questions, citizens dissent and people in power are ...",
+            "published_at": "2026-09-04T14:30:03Z",
+            "url": "https://www.youtube.com/watch?v=qgcqwVIN1CU"
+          }
+        ],
+        "channel_description": "The Daily City News (DCN) is an Indian news portal based in the Peshwa City with a readership that transcends borders and timelines. DCN presents the readers around the world with an immediate access of the 360 degrees daily news offerings of Pune, state, country and the world at large. Your city, your news. Shared with you by India’s best hyperlocal news portal. Share your news and views with us directly or to advertise with us WhatsApp on +91 7066522178",
+        "latest_video_at": "2026-09-04T14:30:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDBIxnkgJkIO1lo2i-ndn0w",
+      "external_id": "UCDBIxnkgJkIO1lo2i-ndn0w",
+      "name": "CPDI Digital",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDBIxnkgJkIO1lo2i-ndn0w",
+      "discovered_on": "2026-09-05",
+      "score": 60.0,
+      "metrics": {
+        "subscribers": 7960,
+        "total_views": 1751688,
+        "video_count": 1275,
+        "avg_views_per_video": 1373.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "LW-Kq56OY-I",
+            "title": "Worst on Freedom of Press Index in South Asia | Pak Ranks Second Worst | Importance of Media Freedom",
+            "description": "The latest Reporters Without Borders (RSF) World Press Freedom Index 2026 highlights continuing challenges for independent ...",
+            "published_at": "2026-09-05T08:00:23Z",
+            "url": "https://www.youtube.com/watch?v=LW-Kq56OY-I"
+          }
+        ],
+        "channel_description": "CPDI Digital is dedicated to sharing authentic information and promoting informed debate and dialogue in society and among opinion leaders. It provides a platform to experts, academics and civil society leaders to discuss important issues and challenges of our times, and generate ideas for building inclusive, resilient and peaceful societies. CPDI Digital was established by the Centre for Peace and Development Initiatives (CPDI), which is a not-for-profit organisation registered under Section 42 of the Companies Ordinance 1984 (later substituted by the Companies Act 2017) in Pakistan.\n",
+        "latest_video_at": "2026-09-05T08:00:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCGR9dnojORtvWkZiSaawkng",
+      "external_id": "UCGR9dnojORtvWkZiSaawkng",
+      "name": "Cardinal & Pine",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCGR9dnojORtvWkZiSaawkng",
+      "discovered_on": "2026-09-05",
+      "score": 59.8,
+      "metrics": {
+        "subscribers": 5620,
+        "total_views": 2064263,
+        "video_count": 1011,
+        "avg_views_per_video": 2041.8,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "NNHzyTnGkbI",
+            "title": "The Russian government as welcomed at Trump&#39;s G20 event. Journalists, not so much",
+            "description": "This week, the Trump administration hosted the world's finance ministers and tech leaders in North Carolina as part of the United ...",
+            "published_at": "2026-09-04T19:00:01Z",
+            "url": "https://www.youtube.com/watch?v=NNHzyTnGkbI"
+          }
+        ],
+        "channel_description": "We are a left-leaning news outlet that puts people over politics. And we care about North Carolinians because we are North Carolinians.",
+        "latest_video_at": "2026-09-04T19:00:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCSRbW-eSuIzyH3aD8CS8UAA",
       "external_id": "UCSRbW-eSuIzyH3aD8CS8UAA",

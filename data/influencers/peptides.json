@@ -2,19 +2,208 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-04T14:25:22Z",
-  "new_this_run": 9,
-  "total_influencers": 236,
+  "updated_at": "2026-09-05T13:28:49Z",
+  "new_this_run": 4,
+  "total_influencers": 240,
   "run_summary": {
-    "run_started_at": "2026-09-04T14:24:58Z",
+    "run_started_at": "2026-09-05T13:28:32Z",
     "candidate_count": 15,
-    "existing_count": 227,
-    "selected_new_count": 9,
+    "existing_count": 236,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCGxg1YWN0R-M9DEdQPCd3fA",
+      "external_id": "UCGxg1YWN0R-M9DEdQPCd3fA",
+      "name": "Dewey Briscoe",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCGxg1YWN0R-M9DEdQPCd3fA",
+      "discovered_on": "2026-09-05",
+      "score": 73.36,
+      "metrics": {
+        "subscribers": 30200,
+        "total_views": 9552741,
+        "video_count": 43,
+        "avg_views_per_video": 222156.77,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "sQsKruct-Tk",
+            "title": "Finally Recovering Again | 4 weeks with @BodyLabsMDTexas changed  everything #Tesamorelin #BPC157",
+            "description": "The last few years have been a damn revolving door of injuries. Knee. Shoulder. Back. Little wear-and-tear issues that turn into ...",
+            "published_at": "2026-09-05T03:12:28Z",
+            "url": "https://www.youtube.com/watch?v=sQsKruct-Tk"
+          }
+        ],
+        "channel_description": "Home of Yaad Mon Tings. Real food. Real fire. Backyard cooking with Caribbean influence and Texas attitude.",
+        "latest_video_at": "2026-09-05T03:12:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCe9lvoG3ofwaQ4rkbC8BTxw",
+      "external_id": "UCe9lvoG3ofwaQ4rkbC8BTxw",
+      "name": "Fitness Wisdom Podcast",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCe9lvoG3ofwaQ4rkbC8BTxw",
+      "discovered_on": "2026-09-05",
+      "score": 65.59,
+      "metrics": {
+        "subscribers": 4530,
+        "total_views": 415768,
+        "video_count": 263,
+        "avg_views_per_video": 1580.87,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "KrXOuqxuBls",
+            "title": "Dr. Jack Kruse Exposes GLP-1s, Peptides, Insulin, HRT &amp; Supplements | Biophysics of Diabetes",
+            "description": "Dr. Jack Kruse exposes the hidden biological costs of GLP-1 weight loss drugs, peptides, insulin, hormone replacement therapy ...",
+            "published_at": "2026-09-05T06:22:27Z",
+            "url": "https://www.youtube.com/watch?v=KrXOuqxuBls"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "KrXOuqxuBls",
+            "title": "Dr. Jack Kruse Exposes GLP-1s, Peptides, Insulin, HRT &amp; Supplements | Biophysics of Diabetes",
+            "description": "Dr. Jack Kruse exposes the hidden biological costs of GLP-1 weight loss drugs, peptides, insulin, hormone replacement therapy ...",
+            "published_at": "2026-09-05T06:22:27Z",
+            "url": "https://www.youtube.com/watch?v=KrXOuqxuBls"
+          }
+        ],
+        "channel_description": "Take control of your health, performance, and longevity with the Fitness Wisdom Podcast 🎙️🔥 We bring you in-depth discussions on circadian biology, quantum biology, mitochondrial health, alternative health, and fitness with expert guests who share the latest research and practical tools.\n\nWe dive into holistic strategies to optimize energy, enhance recovery, and live a longer, healthier life. From cutting-edge science to actionable wellness tips, this podcast empowers you to reclaim your health, make informed choices, and truly thrive—mind, body, and soul ✨🧠",
+        "latest_video_at": "2026-09-05T06:22:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCv90SVNil5CbXmXh_wTLmWw",
+      "external_id": "UCv90SVNil5CbXmXh_wTLmWw",
+      "name": "PEPtalks with Mike",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCv90SVNil5CbXmXh_wTLmWw",
+      "discovered_on": "2026-09-05",
+      "score": 62.68,
+      "metrics": {
+        "subscribers": 2680,
+        "total_views": 137573,
+        "video_count": 4,
+        "avg_views_per_video": 34393.25,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "bTaEpqJJ12I",
+            "title": "Retatrutide Tested: 17 Out of 18 Samples FAILED — Here&#39;s What They Found",
+            "description": "17 out of 18 Retatrutide samples independently tested by an Australian laboratory failed to match their label claim. And that wasn't ...",
+            "published_at": "2026-09-03T22:00:38Z",
+            "url": "https://www.youtube.com/watch?v=bTaEpqJJ12I"
+          }
+        ],
+        "channel_description": "Welcome to PEPtalks with Mike — straightforward education and independent analysis of the rapidly changing peptide research world.\n\nWe look beyond the hype and focus on testing, evidence, transparency, and what’s actually happening in the industry.\n\nOn this channel, we cover:\n\n• Independent laboratory testing and COA reviews\n• Peptide purity, identity, and quality-control topics\n• Research-market pricing and industry trends\n• Regulatory and industry developments\n• Red flags and quality concerns researchers should understand\n\nI also share results from independent testing we conduct on research products so you can see the data for yourself — not just marketing claims.\n\nDon’t follow the hype. Follow the evidence.\n\nFor additional testing results, educational resources, research discussions, and community access, check out the Verified Research Society.\n\nFor laboratory research and educational purposes only. Not for human consumption. Nothing presented on this channel is medical advice.",
+        "latest_video_at": "2026-09-03T22:00:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC-IAALokeJNroO1Dk0BIc1A",
+      "external_id": "UC-IAALokeJNroO1Dk0BIc1A",
+      "name": "Allanda",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC-IAALokeJNroO1Dk0BIc1A",
+      "discovered_on": "2026-09-05",
+      "score": 60.42,
+      "metrics": {
+        "subscribers": 6850,
+        "total_views": 986384,
+        "video_count": 478,
+        "avg_views_per_video": 2063.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "UNvqw4O_hXA",
+            "title": "The Scale Moved! GLP-1 Weekly Update: Why Scaling Back On Peptides &amp; Exercise Dropped My Weight",
+            "description": "It is a very common and frustrating paradox in fitness and weight loss: doing the \"right\" thing like working out hard can sometimes ...",
+            "published_at": "2026-09-04T20:00:30Z",
+            "url": "https://www.youtube.com/watch?v=UNvqw4O_hXA"
+          }
+        ],
+        "channel_description": "Meet Allanda, a determined individual on a transformative weight loss journey towards a healthier version of herself. With a resolute spirit and a clear goal in mind, Allanda is embarking on a weight loss expedition filled with dedication and perseverance. With the help of the a GLP-1, she is tackling the journey. Through mindful choices, consistent exercise, and a balanced diet, she aims to shed excess weight and embrace a lifestyle brimming with vitality and well-being. Join Allanda as she navigates the challenges and triumphs of her weight loss odyssey, inspiring others with her unwavering commitment to personal growth and self-improvement. Together, witness her remarkable evolution towards a healthier, happier future.\n\nDisclaimer:\nThe content provided in this video is intended for entertainment purposes only. Viewers are encouraged to consult with a qualified healthcare provider for any medical concerns or questions. \n\n",
+        "latest_video_at": "2026-09-04T20:00:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCXuYnEeQeKPiRhE6OHL7vzw",
       "external_id": "UCXuYnEeQeKPiRhE6OHL7vzw",

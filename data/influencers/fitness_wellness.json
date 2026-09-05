@@ -2,19 +2,578 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-09-04T14:25:26Z",
-  "new_this_run": 8,
-  "total_influencers": 1138,
+  "updated_at": "2026-09-05T13:28:52Z",
+  "new_this_run": 16,
+  "total_influencers": 1154,
   "run_summary": {
-    "run_started_at": "2026-09-04T14:24:58Z",
-    "candidate_count": 41,
-    "existing_count": 1130,
-    "selected_new_count": 8,
+    "run_started_at": "2026-09-05T13:28:32Z",
+    "candidate_count": 45,
+    "existing_count": 1138,
+    "selected_new_count": 16,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCW9rJwJ2ymskQsxJ7r_t_XQ",
+      "external_id": "UCW9rJwJ2ymskQsxJ7r_t_XQ",
+      "name": "Samuel Asuquo",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCW9rJwJ2ymskQsxJ7r_t_XQ",
+      "discovered_on": "2026-09-05",
+      "score": 74.57,
+      "metrics": {
+        "subscribers": 99600,
+        "total_views": 47463776,
+        "video_count": 1446,
+        "avg_views_per_video": 32824.19,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "nXYp_4m7cu4",
+            "title": "Improve Hip Mobility 🛠️ #hipmobility #mobility #functionalfitness #hipflexibility #hiprotation",
+            "description": "",
+            "published_at": "2026-09-05T09:03:28Z",
+            "url": "https://www.youtube.com/watch?v=nXYp_4m7cu4"
+          }
+        ],
+        "channel_description": "Fitness | Nutrition | Lifestyle | Fashion\n\nI’m here to provide information, motivation, inspiration & entertainment.\n\nAs always I love hearing from you! So Please SUBSCRIBE & follow my journey. Also, Leave a comment and let me know what type of video content you would like to see from me!",
+        "latest_video_at": "2026-09-05T09:03:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVJabLlAYojGBePsYAPieUQ",
+      "external_id": "UCVJabLlAYojGBePsYAPieUQ",
+      "name": "ChancyFit",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCVJabLlAYojGBePsYAPieUQ",
+      "discovered_on": "2026-09-05",
+      "score": 69.09,
+      "metrics": {
+        "subscribers": 62400,
+        "total_views": 11142853,
+        "video_count": 2202,
+        "avg_views_per_video": 5060.33,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "jFYbGndyqBo",
+            "title": "REVOLUTION PLANKS",
+            "description": "Transform your core and upper body with the Single-Arm Plank Pull. This advanced cable machine variation challenges your ...",
+            "published_at": "2026-09-05T12:29:13Z",
+            "url": "https://www.youtube.com/watch?v=jFYbGndyqBo"
+          }
+        ],
+        "channel_description": "Welcome to ChancyFit—where smart training delivers real results.\nI’m Chancy Bolo, an IFBB Pro Men’s Physique athlete, certified fitness trainer, Brazilian Jiu-Jitsu black belt, and fitness professional with over 25 years of experience.\nMy mission is to help people of all ages and fitness levels become stronger, healthier, more confident, and more capable. Whether you are just beginning, returning after time away, or ready to break through a plateau, you’ll find practical workouts, expert instruction, motivation, and proven training strategies to help you succeed.\nI believe fitness should be challenging, enjoyable, positive, and free from judgment. Real results require consistent work, proper guidance, and accountability—and I’m here to help you every step of the way.\nNew videos are posted regularly. Subscribe to ChancyFit and let’s get stronger together.\nAge Changes. The Standard Doesn’t.\nTrain. Evolve. Inspire.",
+        "latest_video_at": "2026-09-05T12:29:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCpvF0e0SGjWHgXTTYYiadCg",
+      "external_id": "UCpvF0e0SGjWHgXTTYYiadCg",
+      "name": "Senior Health Matters",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCpvF0e0SGjWHgXTTYYiadCg",
+      "discovered_on": "2026-09-05",
+      "score": 62.03,
+      "metrics": {
+        "subscribers": 3430,
+        "total_views": 3157784,
+        "video_count": 277,
+        "avg_views_per_video": 11399.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "qV3EIrDwEo8",
+            "title": "12 Simple Tests That Reveal How Fast Your Body Is Aging After 60 #seniorhealth",
+            "description": "How well can your body handle balance, strength, mobility, and coordination? These simple everyday movements can give you ...",
+            "published_at": "2026-09-05T09:21:15Z",
+            "url": "https://www.youtube.com/watch?v=qV3EIrDwEo8"
+          }
+        ],
+        "channel_description": "Senior Health Matters\n\nWelcome to Senior Health Matters, your trusted source for improving your well-being through smarter food choices and practical health strategies. This channel is dedicated to helping you stay strong, energized, and independent by focusing on the right nutrition and lifestyle habits for seniors.\n\nWe simplify complex health information and cut through the noise of misleading advice. Here, you’ll find practical, reliable, and empowering insights designed to help you make confident decisions about your diet and daily routine—without confusion or overwhelm.\n\n* Nutrition tips tailored for seniors\n* Expert advice you can trust\n* Wellness guidance backed by science\n\n\nThis channel is created for everyone from 60 to 90 and beyond—whether you're just starting your health journey or looking to maintain vitality.\n\nSubscribe now and join us for new videos  to stay informed, inspired, and in control of your health.\n\n",
+        "latest_video_at": "2026-09-05T09:21:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCz5BRVp8Wu4C2XDs_-X1XTQ",
+      "external_id": "UCz5BRVp8Wu4C2XDs_-X1XTQ",
+      "name": "Ecos del Quinceo",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCz5BRVp8Wu4C2XDs_-X1XTQ",
+      "discovered_on": "2026-09-05",
+      "score": 59.76,
+      "metrics": {
+        "subscribers": 8980,
+        "total_views": 3540472,
+        "video_count": 3400,
+        "avg_views_per_video": 1041.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "xfAMAGUS34c",
+            "title": "PRESENTAN Panamericano de Funcional Fitness en Morelia",
+            "description": "",
+            "published_at": "2026-09-04T18:15:31Z",
+            "url": "https://www.youtube.com/watch?v=xfAMAGUS34c"
+          }
+        ],
+        "channel_description": "Encapsulamos el acontecer de Monarcas Morelia y lo ponemos a disposición de su activo más valioso: su AFICIÓN.",
+        "latest_video_at": "2026-09-04T18:15:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UChcCfYSVkkCeOyefj9xAgtA",
+      "external_id": "UChcCfYSVkkCeOyefj9xAgtA",
+      "name": "Strength Coach Podcast",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UChcCfYSVkkCeOyefj9xAgtA",
+      "discovered_on": "2026-09-05",
+      "score": 58.66,
+      "metrics": {
+        "subscribers": 6680,
+        "total_views": 431191,
+        "video_count": 454,
+        "avg_views_per_video": 949.76,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "q2okTdu8fwE",
+            "title": "Functional Training for Sports Revisited with Mike Boyle-  Episode 450 of the Strength Coach Podcast",
+            "description": "Welcome to episode 450 of the Strength Coach Podcast with host Anthony Renna. In this episode, we dive deep into the evolution ...",
+            "published_at": "2026-09-05T11:00:05Z",
+            "url": "https://www.youtube.com/watch?v=q2okTdu8fwE"
+          }
+        ],
+        "channel_description": "The Strength Coach Podcast is one of the longest running (since 2007) Strength & Conditioning and Fitness podcasts. Episodes alternate between Coach Michael Boyle and top industry Strength Coaches and Trainers to get an insight into real world strength training. \n\nThis is the best place to stay informed about the most cutting edge training techniques.\n",
+        "latest_video_at": "2026-09-05T11:00:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCIg-L7TdjsBr-7VEt6Blqww",
+      "external_id": "UCIg-L7TdjsBr-7VEt6Blqww",
+      "name": "TOY COLLECTOR HERO\nT.C.H. ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCIg-L7TdjsBr-7VEt6Blqww",
+      "discovered_on": "2026-09-05",
+      "score": 57.43,
+      "metrics": {
+        "subscribers": 2870,
+        "total_views": 2509973,
+        "video_count": 1427,
+        "avg_views_per_video": 1758.92,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "_PPi3qwTEB8",
+            "title": "Throwback: Nia Jax’s Travel Workout Functional Fitness Circuit (9/1/17) #niajax #wwe #wweedit",
+            "description": "Copyright ©️ @onedirectionchannel & Lina Fanene & Instagram User Preewor Stockholm Syndrome Song by One Direction ...",
+            "published_at": "2026-09-05T00:05:55Z",
+            "url": "https://www.youtube.com/watch?v=_PPi3qwTEB8"
+          }
+        ],
+        "channel_description": "Welcome to ToyCollectorHero! We are your premier destination for the best in toy collecting, pop-culture deep dives, and engaging entertainment. We invite you to subscribe and join our rapidly expanding community of enthusiasts dedicated to high-quality content.\n\n #dreamworks #cartoons #marvellegends #marvel #starwars #wwe #niajax #wwe #michaeljackson #juanes #rhearipley #livmorgan #raquelrodriguez #queenofficial #retrotv #thethreestooges #thejacksons #shehulk #shehulkseries #marvelzombies #princessfiona #shrek #spidermanbrandnewday ",
+        "latest_video_at": "2026-09-05T00:05:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCvQcQhtZkVNEDTen6jHb9cw",
+      "external_id": "UCvQcQhtZkVNEDTen6jHb9cw",
+      "name": "LIVETHEFUEL",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCvQcQhtZkVNEDTen6jHb9cw",
+      "discovered_on": "2026-09-05",
+      "score": 52.86,
+      "metrics": {
+        "subscribers": 2340,
+        "total_views": 235018,
+        "video_count": 521,
+        "avg_views_per_video": 451.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "OkW9ub53x0E",
+            "title": "Why We Age: Cellular Health, Renewed Energy &amp; Longevity with Dr. William Haas",
+            "description": "The conversation between Scott and Dr. William Haas focused on health optimization, with a deep dive into cellular health, ...",
+            "published_at": "2026-09-04T12:00:05Z",
+            "url": "https://www.youtube.com/watch?v=OkW9ub53x0E"
+          }
+        ],
+        "channel_description": "LIVETHEFUEL is a podcast and brand focused on balancing Health, Business, & Lifestyle to FUEL UP our fans who listen and watch this show. Founded in 2014 by Scott W. Mulvaney, the initial messaging was around inspirational content since the brand stands for \"Live The Fired Up Epic Life!\". Scott's passions were fired up and hardened through sweat equity roots growing up on a farm and then his adventurous years serving as Hotshot Wildland Firefighter with the United States Forest Service. He is also an Author of his charitable book that funds his charity, FUEL Foundations. You can find the book on Amazon by using http://hotshotbook.com and learn more about his Boots Refuel Fund by visiting https://fuelfoundations.org to support our Wildland Firefighters. ",
+        "latest_video_at": "2026-09-04T12:00:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:eac539cd8d3a73ca5a2b",
+      "external_id": "eac539cd8d3a73ca5a2b",
+      "name": "utilistrutil",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/tDmgBEnfpgeAXtGos/ai-librarians-lower-the-bar-for-sharing-your-writing",
+      "discovered_on": "2026-09-05",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/deanwball"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "AI Librarians Lower the Bar for Sharing Your Writing"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:83eb7ef809ba7808ee36",
+      "external_id": "83eb7ef809ba7808ee36",
+      "name": "dh",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/YGCnPgyZzfP5qxTyY/a-superintelligence-bill-was-just-introduced-now-is-the-time",
+      "discovered_on": "2026-09-05",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/SprengmEAcc"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A superintelligence bill was just introduced - now is the time to act"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:5a0df752c81f2c576aaf",
+      "external_id": "5a0df752c81f2c576aaf",
+      "name": "William Harrison",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/tpLBiFKe62HZu5x7B/openai-s-astra-alignment-claims-are-dubious-and-there-is",
+      "discovered_on": "2026-09-05",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/RyanGreenblatt"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "OpenAI's Astra alignment claims are dubious and there is good evidence it is misaligned"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:43d46e6d7f73393b21cb",
+      "external_id": "43d46e6d7f73393b21cb",
+      "name": "Vael Gates",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/bs4ayLuE5aAhnBArL/announcing-humans-in-control-cross-partisan-grassroots",
+      "discovered_on": "2026-09-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Announcing Humans in Control: cross-partisan grassroots organizing for AI safeguards ahead of 2028"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:928d2f660a8645c7e38b",
+      "external_id": "928d2f660a8645c7e38b",
+      "name": "Simone:",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/S5wE8xEdAiDypGKuX/open-telemetry-as-a-first-metrological-layer-for-technical",
+      "discovered_on": "2026-09-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Open Telemetry as a First Metrological Layer for Technical AI Governance"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:58d94887386a2bbba6c7",
+      "external_id": "58d94887386a2bbba6c7",
+      "name": "Ryan Kidd",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/TfqMs3AarsHnHiwai/should-safety-researchers-quit-frontier-labs",
+      "discovered_on": "2026-09-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Should safety researchers quit frontier labs?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:0f5c1af4a454e3bfd54a",
+      "external_id": "0f5c1af4a454e3bfd54a",
+      "name": "CamilleBerger",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/CsHMgKXB9QPqDR2Mm/a-layman-friendly-summary-of-alignment-research-and-its-1",
+      "discovered_on": "2026-09-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A layman-friendly summary of alignment research and its difficulties"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b26445854e2121a18435",
+      "external_id": "b26445854e2121a18435",
+      "name": "Bharath Sethuraman",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/tg4swjFusvrqeZHWc/a-classifier-for-quaternion-algebras-and-local-hilbert",
+      "discovered_on": "2026-09-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Classifier for Quaternion Algebras, and Local Hilbert Symbols: A Short Experiment in Interpretability"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:7474280d0253461302cb",
+      "external_id": "7474280d0253461302cb",
+      "name": "AdamYedidia",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/S5de2LJoZ6KqJ4eTi/ban-ai-superintelligence-form-letter",
+      "discovered_on": "2026-09-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Ban AI Superintelligence Form Letter"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCOfcPr8LOC6GW7zK-eH1fXQ",
       "external_id": "UCOfcPr8LOC6GW7zK-eH1fXQ",
