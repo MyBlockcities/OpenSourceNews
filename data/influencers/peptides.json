@@ -2,19 +2,373 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-05T13:28:49Z",
-  "new_this_run": 4,
-  "total_influencers": 240,
+  "updated_at": "2026-09-06T13:43:39Z",
+  "new_this_run": 7,
+  "total_influencers": 247,
   "run_summary": {
-    "run_started_at": "2026-09-05T13:28:32Z",
-    "candidate_count": 15,
-    "existing_count": 236,
-    "selected_new_count": 4,
+    "run_started_at": "2026-09-06T13:43:20Z",
+    "candidate_count": 17,
+    "existing_count": 240,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCKo6x-6tyjIc8tXtlUxhNxg",
+      "external_id": "UCKo6x-6tyjIc8tXtlUxhNxg",
+      "name": "Quinn Stillson MD ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCKo6x-6tyjIc8tXtlUxhNxg",
+      "discovered_on": "2026-09-06",
+      "score": 90.96,
+      "metrics": {
+        "subscribers": 61200,
+        "total_views": 5177771,
+        "video_count": 167,
+        "avg_views_per_video": 31004.62,
+        "matched_queries": 4,
+        "sample_videos": 4
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "GLP-1 peptides",
+          "TB-500 peptide",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "BsC_lNBHiX4",
+            "title": "Do Peptides Cause Cancer? BPC-157, TB-500, CJC-1295 &amp; More",
+            "description": "\"Do peptides cause cancer?\" is one of the most common questions about BPC-157, TB-500, and the GH peptides—and it's also ...",
+            "published_at": "2026-09-05T15:00:12Z",
+            "url": "https://www.youtube.com/watch?v=BsC_lNBHiX4"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "BsC_lNBHiX4",
+            "title": "Do Peptides Cause Cancer? BPC-157, TB-500, CJC-1295 &amp; More",
+            "description": "\"Do peptides cause cancer?\" is one of the most common questions about BPC-157, TB-500, and the GH peptides—and it's also ...",
+            "published_at": "2026-09-05T15:00:12Z",
+            "url": "https://www.youtube.com/watch?v=BsC_lNBHiX4"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "BsC_lNBHiX4",
+            "title": "Do Peptides Cause Cancer? BPC-157, TB-500, CJC-1295 &amp; More",
+            "description": "\"Do peptides cause cancer?\" is one of the most common questions about BPC-157, TB-500, and the GH peptides—and it's also ...",
+            "published_at": "2026-09-05T15:00:12Z",
+            "url": "https://www.youtube.com/watch?v=BsC_lNBHiX4"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "BsC_lNBHiX4",
+            "title": "Do Peptides Cause Cancer? BPC-157, TB-500, CJC-1295 &amp; More",
+            "description": "\"Do peptides cause cancer?\" is one of the most common questions about BPC-157, TB-500, and the GH peptides—and it's also ...",
+            "published_at": "2026-09-05T15:00:12Z",
+            "url": "https://www.youtube.com/watch?v=BsC_lNBHiX4"
+          }
+        ],
+        "channel_description": "Physician-led longevity medicine — peptide therapy, hormone optimization, metabolic health, and evidence-based protocols for extending healthspan. \n\nI'm Quinn Stillson, MD. A4M Fellowship-trained in Longevity Medicine, Board-Certified in Anti-Aging and Regenerative Medicine, with a clinical Peptide Therapy Certification from A4M. I work with real patients, read the primary literature, and translate both into content that's actually usable. \n\nWhat I cover: peptide protocols (BPC-157, TB-500, GLP-1s, and beyond), hormone optimization, metabolic health, performance training, longevity supplements, and the clinical frameworks that sit underneath all of it. New videos released regularly. \n\nCredentials: A4M Board-Certified · Anti-Aging & Regenerative Medicine | A4M Fellowship · Longevity Medicine | A4M Peptide Therapy Certified | MD · University of Chicago Pritzker School of Medicine | NSCA CSCS | BS Biomedical Engineering · Purdue University\n\nquinnstillsonmd.com\n",
+        "latest_video_at": "2026-09-05T15:00:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC2iFhd5sn38u_gzlUucTr6Q",
+      "external_id": "UC2iFhd5sn38u_gzlUucTr6Q",
+      "name": "Sol Brah",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC2iFhd5sn38u_gzlUucTr6Q",
+      "discovered_on": "2026-09-06",
+      "score": 71.87,
+      "metrics": {
+        "subscribers": 24400,
+        "total_views": 1312251,
+        "video_count": 193,
+        "avg_views_per_video": 6799.23,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://www.x.com/SolBrah",
+        "instagram": "https://www.instagram.com/solbrah"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "yLKUVZ0xSko",
+            "title": "The Peptide Deception: GLP-1s, Vitamins and the Synthetic Agenda | Solcast Ep. 77",
+            "description": "Seems like everyone is on peptides now. GLP-1s for fat loss, synthetic vitamins in everything, lab-made shortcuts sold as health.",
+            "published_at": "2026-09-05T21:35:46Z",
+            "url": "https://www.youtube.com/watch?v=yLKUVZ0xSko"
+          }
+        ],
+        "channel_description": "CREATION THROUGH LIFE FORCE\n\n🌞 Shop everything Sol at the Sol Department: https://www.soldept.com/\n📖 Read my book 'The Sol Way' here: https://a.co/d/2l0DHV7\n\nMy Social Media:\n✖️ X: https://www.x.com/SolBrah\n📷 INSTAGRAM: https://www.instagram.com/solbrah\n",
+        "latest_video_at": "2026-09-05T21:35:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCc1vmyuRq8Ja5PFy00giN0Q",
+      "external_id": "UCc1vmyuRq8Ja5PFy00giN0Q",
+      "name": "Dr. Mohammed Paika",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCc1vmyuRq8Ja5PFy00giN0Q",
+      "discovered_on": "2026-09-06",
+      "score": 67.45,
+      "metrics": {
+        "subscribers": 6580,
+        "total_views": 354246,
+        "video_count": 101,
+        "avg_views_per_video": 3507.39,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "i2WDx1rXAtY",
+            "title": "Peptide Doctor Gives a Peptide Masterclass in Just 12 Minutes",
+            "description": "Peptides #PeptideTherapy #GLP1 #AntiAgingMedicine #bpc157 Peptides didn't start with a wellness influencer — they started ...",
+            "published_at": "2026-09-05T13:30:12Z",
+            "url": "https://www.youtube.com/watch?v=i2WDx1rXAtY"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "i2WDx1rXAtY",
+            "title": "Peptide Doctor Gives a Peptide Masterclass in Just 12 Minutes",
+            "description": "Peptides #PeptideTherapy #GLP1 #AntiAgingMedicine #bpc157 Peptides didn't start with a wellness influencer — they started ...",
+            "published_at": "2026-09-05T13:30:12Z",
+            "url": "https://www.youtube.com/watch?v=i2WDx1rXAtY"
+          }
+        ],
+        "channel_description": "Where Obesity Medicine, Metabolic Science, Longevity & Real-World Health Meet\n\nI’m Dr. Mohammed Paika — double board-certified in Internal Medicine & Obesity Medicine with over 20 years of experience helping patients overcome obesity, metabolic disease, and weight-related health risks.\n\nThis channel translates the science of fat loss, muscle, metabolism, longevity, nutrition, and exercise into clear, practical guidance for real life.\n\nLearn how obesity truly works, lose fat while preserving muscle, improve metabolic health, extend healthspan, and train safely at any age or BMI.\n\nBecause obesity is treatable — and muscle is medicine.\n\n— Dr. Paika\nBoard-Certified Internal Medicine & Obesity Medicine\nCertified Personal Trainer & Nutrition Coach\n\nDisclaimer: All content is for general education only and does not constitute medical advice or professional health services. No doctor-patient relationship is formed.\n\n",
+        "latest_video_at": "2026-09-05T13:30:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCGVd29igJy5vFaf6ZV8TGfA",
+      "external_id": "UCGVd29igJy5vFaf6ZV8TGfA",
+      "name": "Lexi Rosenstein",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCGVd29igJy5vFaf6ZV8TGfA",
+      "discovered_on": "2026-09-06",
+      "score": 62.47,
+      "metrics": {
+        "subscribers": 9380,
+        "total_views": 8987077,
+        "video_count": 2635,
+        "avg_views_per_video": 3410.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "R3bWFlxdNnw",
+            "title": "a shimmer Korean peptide plumping lip treatment?? Immediately yes!! Shade sour berry jelly (none of",
+            "description": "a shimmer Korean peptide plumping lip treatment?? Immediately yes!! Shade sour berry jelly (none of the other shades have ...",
+            "published_at": "2026-09-05T23:04:01Z",
+            "url": "https://www.youtube.com/watch?v=R3bWFlxdNnw"
+          }
+        ],
+        "channel_description": "no BS product reviews and recommendations 🩷\nyou can shop all on my ltk + tiktok ",
+        "latest_video_at": "2026-09-05T23:04:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCiZvlpbsru5Qx8kkz8GOusg",
+      "external_id": "UCiZvlpbsru5Qx8kkz8GOusg",
+      "name": "Laura Balzer",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCiZvlpbsru5Qx8kkz8GOusg",
+      "discovered_on": "2026-09-06",
+      "score": 60.81,
+      "metrics": {
+        "subscribers": 9240,
+        "total_views": 602150,
+        "video_count": 372,
+        "avg_views_per_video": 1618.68,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "IdsH7tkYJ6U",
+            "title": "Unlock Youth: The Peptide Secret to Aging Gracefully! #shorts",
+            "description": "Discover the peptide hailed as the secret to graceful aging. Unlock your body's potential for a more youthful, vibrant life. Explore ...",
+            "published_at": "2026-09-06T00:32:22Z",
+            "url": "https://www.youtube.com/watch?v=IdsH7tkYJ6U"
+          }
+        ],
+        "channel_description": "Hello, I’m Laura! ✨\n\nFor over five decades, I’ve been devoted to the health and wellness field... teaching, coaching, and guiding people worldwide to unlock their body’s true potential. My journey took a profound turn in 2017 when I was diagnosed with Stage III Breast Cancer.\n\nInstead of accepting limitations, I pursued a holistic path focused on nutrition, detoxification, IV vitamin therapy, and natural methods. In just six months, I was healed... an experience that transformed my life and deepened my mission.\n\nToday, I empower others to discover the body’s ability to regenerate, repair, and thrive. By combining proven lifestyle strategies with cutting-edge wellness technologies, I help people achieve balance, energy, and longevity... Globally.\n\n🌿 If you’re ready to embrace a new path to health and vitality, you’ve come to the right place!\n\n📞 Call/Text: 804-218-0342\n🌐 LauraBalzer.com\n\n\n\n",
+        "latest_video_at": "2026-09-06T00:32:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCLnf2yiipN_OHjCWC0A1kgw",
+      "external_id": "UCLnf2yiipN_OHjCWC0A1kgw",
+      "name": "Stefano Parenti",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCLnf2yiipN_OHjCWC0A1kgw",
+      "discovered_on": "2026-09-06",
+      "score": 60.03,
+      "metrics": {
+        "subscribers": 6110,
+        "total_views": 1330791,
+        "video_count": 658,
+        "avg_views_per_video": 2022.48,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "UYc_OUyTRyg",
+            "title": "IL BUONO E IL CATTIVO DEL BPC-157",
+            "description": "",
+            "published_at": "2026-09-06T12:07:19Z",
+            "url": "https://www.youtube.com/watch?v=UYc_OUyTRyg"
+          }
+        ],
+        "channel_description": "Ogni martedì alle 18:00 un NUOVO VIDEO! Attiva le notifiche per non perderlo!\n\nCOACH ONLINE 🏋🏻‍♂️\n\n✅ BODY TRANSFORMATION EXPERT\n\n✅ PROTOCOLLI PERSONALIZZATI DI ALLENAMENTO\n \n✅PROTOCOLLI PERSONALIZZATI DI ALIMENTAZIONE \n\n✅PROTOCOLLI PERSONALIZZATI INTEGRAZIONE\n\nCHI SONO?\n\n🔖 PERSONAL TRAINER QUALIFICATO E CERTIFICATO A LONDRA\n\n🖋 NUTRITION QUALIFICATION\n\n🕒 OLTRE 10 ANNI DI ESPERIENZA E RISULTATI \n\nPER INFO SUL MIO COACHING ONLINE CONTATTAMI\n\n\n⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️\n\nE-mail: parentis544@gmail.com\n\nInstagram: Stefanoparentiofficial",
+        "latest_video_at": "2026-09-06T12:07:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCGAcdi8U6Abtcfgl5jLTGuQ",
+      "external_id": "UCGAcdi8U6Abtcfgl5jLTGuQ",
+      "name": "WBAY TV-2 | Green Bay, WI",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCGAcdi8U6Abtcfgl5jLTGuQ",
+      "discovered_on": "2026-09-06",
+      "score": 59.31,
+      "metrics": {
+        "subscribers": 13900,
+        "total_views": 10107582,
+        "video_count": 22035,
+        "avg_views_per_video": 458.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "8gLALSBRzUw",
+            "title": "Compounded GLP-1s and unapproved peptide products in the market",
+            "description": "Weight loss drugs have been in high demand for years now and there are plenty of companies ready to sell you the popular ...",
+            "published_at": "2026-09-06T01:43:17Z",
+            "url": "https://www.youtube.com/watch?v=8gLALSBRzUw"
+          }
+        ],
+        "channel_description": "Welcome to WBAY's official YouTube channel. WBAY is your First Alert Station for Northeast Wisconsin. Subscribe for local news, weather, health, sports -- information you need and information you can count on.",
+        "latest_video_at": "2026-09-06T01:43:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCGxg1YWN0R-M9DEdQPCd3fA",
       "external_id": "UCGxg1YWN0R-M9DEdQPCd3fA",
