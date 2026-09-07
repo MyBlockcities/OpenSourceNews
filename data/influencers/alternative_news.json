@@ -2,19 +2,624 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-06T13:43:29Z",
-  "new_this_run": 5,
-  "total_influencers": 446,
+  "updated_at": "2026-09-07T15:55:32Z",
+  "new_this_run": 14,
+  "total_influencers": 460,
   "run_summary": {
-    "run_started_at": "2026-09-06T13:43:20Z",
-    "candidate_count": 14,
-    "existing_count": 441,
-    "selected_new_count": 5,
+    "run_started_at": "2026-09-07T15:55:24Z",
+    "candidate_count": 20,
+    "existing_count": 446,
+    "selected_new_count": 14,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCeO1r1w60KQvSCFYWNNXetg",
+      "external_id": "UCeO1r1w60KQvSCFYWNNXetg",
+      "name": "내로남불시러",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCeO1r1w60KQvSCFYWNNXetg",
+      "discovered_on": "2026-09-07",
+      "score": 76.46,
+      "metrics": {
+        "subscribers": 84200,
+        "total_views": 97846500,
+        "video_count": 985,
+        "avg_views_per_video": 99336.55,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "VnOLZZsScvI",
+            "title": "여당 부패정치세력에 경고하는 한동훈 무소속 의원#Shorts",
+            "description": "김승원 #법무부장관후보 #민주당 오빠 #룸싸롱 여동생 #양모씨 #제약회사 #부패정치세력 #보수재건 #한동훈 #채널A News #shorts.",
+            "published_at": "2026-09-07T13:25:53Z",
+            "url": "https://www.youtube.com/watch?v=VnOLZZsScvI"
+          }
+        ],
+        "channel_description": "대한민국은 자유민주주의 국가입니다.\n공정과 상식이 통하고 내로남불이 없는 세상을 꿈꾸며....\n",
+        "latest_video_at": "2026-09-07T13:25:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCW88A5jU9lfHxCVzlo3MUJw",
+      "external_id": "UCW88A5jU9lfHxCVzlo3MUJw",
+      "name": "Feed TV News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCW88A5jU9lfHxCVzlo3MUJw",
+      "discovered_on": "2026-09-07",
+      "score": 72.35,
+      "metrics": {
+        "subscribers": 29300,
+        "total_views": 43447716,
+        "video_count": 663,
+        "avg_views_per_video": 65532.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "qnL2GlEOZpA",
+            "title": "GLOBO ACUSADA DE CENSURA NO ROCK IN RIO",
+            "description": "Globo é acusada de censura durante show no Rock in Rio O Canal Bis, do Grupo Globo, foi acusado nas redes sociais de ...",
+            "published_at": "2026-09-06T20:13:01Z",
+            "url": "https://www.youtube.com/watch?v=qnL2GlEOZpA"
+          }
+        ],
+        "channel_description": "Feed TV News\n\nO Feed surgiu no final de 2022, com a intenção de trazer notícia de qualidade com rapidez.\n\nNosso portal é um feed de notícias completo para você. Saiba os principais assuntos no que diz respeito a famosos, televisão, música, filmes & séries, política e muito mais.\n\nFeed, por Felipe Reis\n\nO Feed foi criado pelo jornalista e radialista Felipe Reis, que começou no mercado da comunicação em 2011. Tem passagens por canais de TV como TV Aparecida, Record News, NGT, TV 8, TVC (afiliada da TV Gazeta) e TV Universo (afiliada da TV Cultura). Também atuou na Rádio Bandeirantes e Rádio Cultural. Na comunicação digital passou por portais afiliados ao iG, UOL e também escreveu no R7.",
+        "latest_video_at": "2026-09-06T20:13:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDYLYjonxVV141oq7PZyJkw",
+      "external_id": "UCDYLYjonxVV141oq7PZyJkw",
+      "name": "Premium Gaming",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDYLYjonxVV141oq7PZyJkw",
+      "discovered_on": "2026-09-07",
+      "score": 72.24,
+      "metrics": {
+        "subscribers": 36200,
+        "total_views": 29657555,
+        "video_count": 639,
+        "avg_views_per_video": 46412.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "f4QWnUPc5Og",
+            "title": "The Most Creative Way To Fight Censorship #gaming #news #shorts",
+            "description": "When independent news outlets were restricted in Russia, journalists needed a way to get uncensored information to people ...",
+            "published_at": "2026-09-07T00:30:09Z",
+            "url": "https://www.youtube.com/watch?v=f4QWnUPc5Og"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-07T00:30:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCxhga-E6XxEiWnpqEIwBLIA",
+      "external_id": "UCxhga-E6XxEiWnpqEIwBLIA",
+      "name": "Wrestling Flash",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCxhga-E6XxEiWnpqEIwBLIA",
+      "discovered_on": "2026-09-07",
+      "score": 71.47,
+      "metrics": {
+        "subscribers": 73700,
+        "total_views": 33361474,
+        "video_count": 1755,
+        "avg_views_per_video": 19009.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "kFbUT6MuCNA",
+            "title": "BREAKING: AEW Star Butcher Passes On…Heavy Censorship Ruins WWE...Bron Breakker BAD News…Triple H…",
+            "description": "Thank you for watching 00:00 -Headlines. 00:29 -A wrestler collapsed during a match. 01:49 -Triple H is being called out for ...",
+            "published_at": "2026-09-06T15:38:44Z",
+            "url": "https://www.youtube.com/watch?v=kFbUT6MuCNA"
+          }
+        ],
+        "channel_description": "Wrestling News & Rumors in the best quality.  Subscribe for daily videos with all the latest news and rumors. \nThank You For watching & taking the time to view our channel.\n\n",
+        "latest_video_at": "2026-09-06T15:38:44Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCMkZdnsuOLOcE0SjuCLqovA",
+      "external_id": "UCMkZdnsuOLOcE0SjuCLqovA",
+      "name": "Tirando uma onda.",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCMkZdnsuOLOcE0SjuCLqovA",
+      "discovered_on": "2026-09-07",
+      "score": 69.24,
+      "metrics": {
+        "subscribers": 46300,
+        "total_views": 39059675,
+        "video_count": 4749,
+        "avg_views_per_video": 8224.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "wB3_lmjkmcg",
+            "title": "A censura #noticias #podcastdf #politics #investment #dólar",
+            "description": "",
+            "published_at": "2026-09-07T13:44:22Z",
+            "url": "https://www.youtube.com/watch?v=wB3_lmjkmcg"
+          }
+        ],
+        "channel_description": "Comentar coisas sérias com humor.. \nInstagram : @joaopedrofilho10\nE-mail: joaopedrofilho10@hotmail.com",
+        "latest_video_at": "2026-09-07T13:44:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKZNxnpvNlNC3tIVvN90avw",
+      "external_id": "UCKZNxnpvNlNC3tIVvN90avw",
+      "name": "Alejandro Marcano Santelli",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCKZNxnpvNlNC3tIVvN90avw",
+      "discovered_on": "2026-09-07",
+      "score": 68.04,
+      "metrics": {
+        "subscribers": 72200,
+        "total_views": 17313759,
+        "video_count": 6790,
+        "avg_views_per_video": 2549.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "wOqN2v7AlhM",
+            "title": "    ¿ESTÁ CUBA A PUNTO DE ESTALLAR? HABLA UN PERIODISTA INDEPENDIENTE",
+            "description": "CUBA SIN FILTRO: LA VERDAD CONTADA DESDE ADENTRO Invitado: Agustín López, periodista independiente. Conversamos ...",
+            "published_at": "2026-09-06T19:00:06Z",
+            "url": "https://www.youtube.com/watch?v=wOqN2v7AlhM"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-06T19:00:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC582987a-VBHFtAalBaqNwQ",
+      "external_id": "UC582987a-VBHFtAalBaqNwQ",
+      "name": "GodFireBreakdowns",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC582987a-VBHFtAalBaqNwQ",
+      "discovered_on": "2026-09-07",
+      "score": 66.36,
+      "metrics": {
+        "subscribers": 13100,
+        "total_views": 7345092,
+        "video_count": 574,
+        "avg_views_per_video": 12796.33,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "cnyl2VR0C24",
+            "title": "The Trial, The Censorship, The Politics Explained | Ghost In The Shell Episode 9 Breakdown",
+            "description": "Ghost in the Shell Episode 9 puts the Major on trial. This episode gets deep into real-world politics, a courtroom showdown that ...",
+            "published_at": "2026-09-07T08:18:31Z",
+            "url": "https://www.youtube.com/watch?v=cnyl2VR0C24"
+          }
+        ],
+        "channel_description": "Welcome to my Breakdown Channel! You may notice the name. I am also the same GodFire who made AMV's over the years. But now I am getting into breakdown videos. I love everything the NieR franchise has to offer. So I am going to start with that series then the Sailor Moon Crystal Anime and Movies. Hope you guys enjoy! ",
+        "latest_video_at": "2026-09-07T08:18:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCrN4d_p7vSP3Hf8NSFMfLPQ",
+      "external_id": "UCrN4d_p7vSP3Hf8NSFMfLPQ",
+      "name": "Sombra3D",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCrN4d_p7vSP3Hf8NSFMfLPQ",
+      "discovered_on": "2026-09-07",
+      "score": 65.63,
+      "metrics": {
+        "subscribers": 5500,
+        "total_views": 2310905,
+        "video_count": 75,
+        "avg_views_per_video": 30812.07,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "T4nNp4A6bpo",
+            "title": "Censura ou Prevenção? #política # #viral #mariadapenhalaw #Sombra3D",
+            "description": "",
+            "published_at": "2026-09-07T12:00:37Z",
+            "url": "https://www.youtube.com/watch?v=T4nNp4A6bpo"
+          }
+        ],
+        "channel_description": "Olá senhores, sejam bem vindos ao Sombra3D, um canal geek. Aqui poderão ter acesso aos mais variados tutoriais, de músicas até programação e design, além de gameplays de alta qualidade.\n",
+        "latest_video_at": "2026-09-07T12:00:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC3jvdYx_FbLzQ8Ntcx95AQg",
+      "external_id": "UC3jvdYx_FbLzQ8Ntcx95AQg",
+      "name": "البلاغ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC3jvdYx_FbLzQ8Ntcx95AQg",
+      "discovered_on": "2026-09-07",
+      "score": 64.4,
+      "metrics": {
+        "subscribers": 33500,
+        "total_views": 9618057,
+        "video_count": 6897,
+        "avg_views_per_video": 1394.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "gGygZ8Cv6ow",
+            "title": "عامر عياد: الإعلام البديل ليس ذراعًا للمعارضة.. مهمته كشف الحقيقة",
+            "description": "عامر عياد: الإعلام البديل ليس ذراعًا للمعارضة.. مهمته كشف الحقيقة يشرح الصحفي والإعلامي عامر عياد رؤيته لدور الإعلام البديل في تونس، ...",
+            "published_at": "2026-09-07T00:34:42Z",
+            "url": "https://www.youtube.com/watch?v=gGygZ8Cv6ow"
+          }
+        ],
+        "channel_description": "منبر إعلامي مستقل لطرح القضايا السياسية والفكرية والشرعية في تونس، يهدف إلى نقل المعلومة الدقيقة والحقيقة كما هي، وهي فضاء مفتوح للرأي والرأي الآخر في كنف أدب الحوار وأصوله ",
+        "latest_video_at": "2026-09-07T00:34:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCyWBHGitRvP3PW9X_33r2AA",
+      "external_id": "UCyWBHGitRvP3PW9X_33r2AA",
+      "name": "TRIPLE TTT",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCyWBHGitRvP3PW9X_33r2AA",
+      "discovered_on": "2026-09-07",
+      "score": 63.34,
+      "metrics": {
+        "subscribers": 19700,
+        "total_views": 2606643,
+        "video_count": 1448,
+        "avg_views_per_video": 1800.17,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "UXsmDOfVfJQ",
+            "title": "The Real Independent Music and Country Rap News Hosted by TripleT",
+            "description": "Triple TTT Merch Store: https://triple-ttt-shop.fourthwall.com The Real Independent Music and Country Rap News Hosted by ...",
+            "published_at": "2026-09-07T07:42:47Z",
+            "url": "https://www.youtube.com/watch?v=UXsmDOfVfJQ"
+          }
+        ],
+        "channel_description": "Welcome to The Triple TTT Channel, your top destination for independent music news, country rap updates, & underground artist coverage. We are a legal news broadcast company delivering accurate reporting & high‑energy entertainment across the indie music world. What We Cover - Independent music news and industry updates Country rap (country‑rap/country hip‑hop) artist news Music release announcements & reactions Artist interviews & spotlight feature independent label updates & music business insights Trending topics, viral moments, & breaking music stories. If you're searching for the latest in country rap news, underground hip‑hop, or independent music trends, this is the channel built for you. We highlight rising artists, independent movements, & music scenes often ignored by mainstream media. So Join the Triple TTT Community & stay informed with the latest independent music news, country rap updates, and underground music coverage. Stay updated. Stay informed. Stay Triple TTT.\n\r\n",
+        "latest_video_at": "2026-09-07T07:42:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCfX4ibAiTHS-wUC6kZXONGQ",
+      "external_id": "UCfX4ibAiTHS-wUC6kZXONGQ",
+      "name": "Piauí News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCfX4ibAiTHS-wUC6kZXONGQ",
+      "discovered_on": "2026-09-07",
+      "score": 61.77,
+      "metrics": {
+        "subscribers": 3440,
+        "total_views": 2907717,
+        "video_count": 289,
+        "avg_views_per_video": 10061.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "SJoIejbWQJE",
+            "title": "ALERTA NA CNN: JORNALISTA E JURISTA DA FGV DENUNCIAM ‘AUTOCENSURA’: ‘NÃO PODEMOS FALAR TUDO’",
+            "description": "Um alerta forte sobre a liberdade de imprensa no Brasil. Durante o WW Especial, o jornalista Mário Sabino, com 42 anos de ...",
+            "published_at": "2026-09-07T14:19:07Z",
+            "url": "https://www.youtube.com/watch?v=SJoIejbWQJE"
+          }
+        ],
+        "channel_description": "🗞️ Oi, eu sou Wagner Albuquerque, jornalista, e aqui a notícia é levada a sério. 🌍\n\nNeste canal, você acompanha os principais fatos do Piauí, Brasil e do mundo com clareza, contexto e credibilidade. Política, economia, conflitos, cultura e tudo o que está em pauta, sem enrolação, sem filtro. Informação de verdade, todos os dias. \n\nInscreva-se e fique por dentro!",
+        "latest_video_at": "2026-09-07T14:19:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZsoDClTDl1F22dQwNXZd9g",
+      "external_id": "UCZsoDClTDl1F22dQwNXZd9g",
+      "name": "Cidadania SA",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCZsoDClTDl1F22dQwNXZd9g",
+      "discovered_on": "2026-09-07",
+      "score": 58.73,
+      "metrics": {
+        "subscribers": 7720,
+        "total_views": 1139635,
+        "video_count": 1426,
+        "avg_views_per_video": 799.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "sPFuRlRhsqA",
+            "title": "Juiz censura ICL para proteger Nikolas!",
+            "description": "Juiz censura ICL para proteger Nikolas! https://iclnoticias.com.br/juiz-censura-icl-a-pedido-de-nikolas-ferreira/ ...",
+            "published_at": "2026-09-07T13:34:29Z",
+            "url": "https://www.youtube.com/watch?v=sPFuRlRhsqA"
+          }
+        ],
+        "channel_description": "CIDADANIA SA — Informação, transparência e análise política.\n🗓️ Novos vídeos todos os dias sobre o Congresso, o governo e os temas que impactam sua vida.\n📌 Inscreva-se para não perder nenhum episódio.\n",
+        "latest_video_at": "2026-09-07T13:34:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVz1BfJiN0q4FA5QgHMkv2w",
+      "external_id": "UCVz1BfJiN0q4FA5QgHMkv2w",
+      "name": "theworkersrights",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCVz1BfJiN0q4FA5QgHMkv2w",
+      "discovered_on": "2026-09-07",
+      "score": 58.48,
+      "metrics": {
+        "subscribers": 3130,
+        "total_views": 745226,
+        "video_count": 2962,
+        "avg_views_per_video": 251.6,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://twitter.com/TheWorkersRigh1",
+        "instagram": "https://www.instagram.com/the_workers"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "j7rwZbeag3A",
+            "title": "Police Warn Person Filming Protest | Free Speech &amp; Independent Media Debate",
+            "description": "A single viral video has sparked a national debate in Canada. Footage circulating online appears to show Toronto police warning ...",
+            "published_at": "2026-09-07T06:36:17Z",
+            "url": "https://www.youtube.com/watch?v=j7rwZbeag3A"
+          }
+        ],
+        "channel_description": "All about Workers Rights and those violating it  \nWebsite: https://theworkersrights.com\n\nRead More on Labour Rights: https://www.theworkersrights.com/labo...\n\nRead More on Human Rights: https://www.theworkersrights.com/huma...\n\nRead More on Migrant Workers: https://www.theworkersrights.com/migr...\n\nRead More on Work Life Balance: https://www.theworkersrights.com/work...\n\nFollow us on Twitter: https://twitter.com/TheWorkersRigh1\n\nFollow us on Facebook: https://www.facebook.com/The-Workers-...\n\nFollow us on Instagram: https://www.instagram.com/the_workers...\n\nWebsite: https://www.theworkersrights.com\n\nFOR BUSINESS ENQUIRES CONTACT ON: info.theworkersrights@gmail.com\n",
+        "latest_video_at": "2026-09-07T06:36:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCliBE72qTXdct74ds4KxPTQ",
+      "external_id": "UCliBE72qTXdct74ds4KxPTQ",
+      "name": "With Antone MotoGP",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCliBE72qTXdct74ds4KxPTQ",
+      "discovered_on": "2026-09-07",
+      "score": 57.52,
+      "metrics": {
+        "subscribers": 2820,
+        "total_views": 705322,
+        "video_count": 376,
+        "avg_views_per_video": 1875.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "bf4NWLWwQ1E",
+            "title": "MotoGP News: Which is the BEST Independent Team for 2027? Ranked!",
+            "description": "Which Independent team will be the strongest in MotoGP for 2027? In this episode of With Antone MotoGP, we rank all six ...",
+            "published_at": "2026-09-07T12:00:02Z",
+            "url": "https://www.youtube.com/watch?v=bf4NWLWwQ1E"
+          }
+        ],
+        "channel_description": "With Antone MotoGP™ analyses each team's and riders performance and strategies.  News and action from the race track, plus we explore whats going on in the paddock! Whether you're a hardcore fan or just getting into the sport, this is your go-to channel for everything MotoGP.\n\n🏆 Subscribe now and let’s follow the season together! 🏍️💨\n\n#MotoGP2026 #grandprix #MotoGPNews #marcmarquez #Racing #motogppaddock #toprak #ducati #hrc #yamaha #ktm #aprilia #fabio #pecco #libertymedia #lcrhonda #pramacracing #gresiniracing #tech3 #vr46racingteam #valentinorossi \n\n* MotoGP is a registered trademark of Dorna Sports SL | copyright © DORNA Sports SL All rights reserved \n",
+        "latest_video_at": "2026-09-07T12:00:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCia4yh2wZlT0UmfiMIzJRLg",
       "external_id": "UCia4yh2wZlT0UmfiMIzJRLg",

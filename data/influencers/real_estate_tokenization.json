@@ -2,19 +2,62 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-09-05T13:28:37Z",
-  "new_this_run": 2,
-  "total_influencers": 252,
+  "updated_at": "2026-09-07T15:55:30Z",
+  "new_this_run": 1,
+  "total_influencers": 253,
   "run_summary": {
-    "run_started_at": "2026-09-05T13:28:32Z",
-    "candidate_count": 39,
-    "existing_count": 250,
-    "selected_new_count": 2,
+    "run_started_at": "2026-09-07T15:55:24Z",
+    "candidate_count": 34,
+    "existing_count": 252,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCVGE0wSdQ1-tBNMgnPcBKJw",
+      "external_id": "UCVGE0wSdQ1-tBNMgnPcBKJw",
+      "name": "The Long Form Podcast",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCVGE0wSdQ1-tBNMgnPcBKJw",
+      "discovered_on": "2026-09-07",
+      "score": 68.59,
+      "metrics": {
+        "subscribers": 42900,
+        "total_views": 3529046,
+        "video_count": 520,
+        "avg_views_per_video": 6786.63,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate RWA"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate RWA",
+            "video_id": "qtnzX4u3TTM",
+            "title": "Is Kigali’s Property Boom Getting Out of Control? | Jonathan Shafer, Investor &amp; Entrepreneur",
+            "description": "While I don't think it's a bubble, I think it poses a lot of risks for Kigali and for the country.” — Jonathan Shafer, Investor ...",
+            "published_at": "2026-09-07T15:25:22Z",
+            "url": "https://www.youtube.com/watch?v=qtnzX4u3TTM"
+          }
+        ],
+        "channel_description": "An LF Media Production\n\nThe Long Form is a weekly podcast hosted by Sanny Ntayombya, featuring in-depth conversations on politics, business, sports, entertainment, arts, and culture, with a special focus on African stories and perspectives.\n\nLF Media is a Rwanda-based podcast production company building Africa’s podcast network through world-class storytelling, production, and partnerships.\n\nNew episodes every week.\n\nBusiness inquiries: commercial@sannyntayombya.com\n\nSupport our work on Patreon:\nhttps://www.patreon.com/cw/TheLongFormPod\n\nYou can also support the podcast via MTN MoMo code 95462 or directly at +250 795462739.\n",
+        "latest_video_at": "2026-09-07T15:25:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCV66K7_5D4nJaQE6IvUxMZw",
       "external_id": "UCV66K7_5D4nJaQE6IvUxMZw",
