@@ -2,19 +2,494 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-09-07T15:55:38Z",
-  "new_this_run": 6,
-  "total_influencers": 449,
+  "updated_at": "2026-09-08T14:38:56Z",
+  "new_this_run": 11,
+  "total_influencers": 460,
   "run_summary": {
-    "run_started_at": "2026-09-07T15:55:24Z",
-    "candidate_count": 44,
-    "existing_count": 443,
-    "selected_new_count": 6,
+    "run_started_at": "2026-09-08T14:38:39Z",
+    "candidate_count": 50,
+    "existing_count": 449,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCLyA-2p3V8yoI_rBYyoQgPQ",
+      "external_id": "UCLyA-2p3V8yoI_rBYyoQgPQ",
+      "name": "World of Value",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCLyA-2p3V8yoI_rBYyoQgPQ",
+      "discovered_on": "2026-09-08",
+      "score": 74.72,
+      "metrics": {
+        "subscribers": 93200,
+        "total_views": 15853008,
+        "video_count": 411,
+        "avg_views_per_video": 38571.8,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "bEebdAPzNss",
+            "title": "Deutschland will die Bitcoin-Regel ändern",
+            "description": "Was würde passieren, wenn Deutschland die Ein-Jahres-Haltefrist für Bitcoin abschafft? Roman Reher warnt: Deutschland ...",
+            "published_at": "2026-09-08T10:00:23Z",
+            "url": "https://www.youtube.com/watch?v=bEebdAPzNss"
+          }
+        ],
+        "channel_description": "World of Value ist kein klassisches Medienformat – sondern ein Netzwerk.\n\nWir bringen Investoren, Unternehmer und Kapitalverantwortliche zusammen, die wirtschaftliche Entwicklungen verstehen und eigenständig entscheiden wollen.\n\nUnsere Inhalte stehen für fundierte Analyse, langfristiges Denken und offenen Austausch – jenseits von Schlagzeilen und kurzfristigen Trends.\n\nDabei geht es nicht um fertige Antworten, sondern um bessere Fragen, unterschiedliche Perspektiven und echte Diskussionen.\n\nAuf diesem Kanal finden Sie Interviews, Einordnungen und Gespräche mit Persönlichkeiten aus Wirtschaft, Finanzwelt und Unternehmertum.\n\n🎓 World of Value Investmentkonferenz\n🎙️ alphaTrio Podiumsdiskussion\n🔑 „Im Verhör“ – Gespräche im kleinen Kreis\n💎 alphaNovum Investmentportal\n\nFür Menschen, die Kapital bewusst einsetzen und Verantwortung für ihre Entscheidungen übernehmen.\n",
+        "latest_video_at": "2026-09-08T10:00:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCu7TdPmDF93U5CqfzxyRPCw",
+      "external_id": "UCu7TdPmDF93U5CqfzxyRPCw",
+      "name": "코인 니엘",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCu7TdPmDF93U5CqfzxyRPCw",
+      "discovered_on": "2026-09-08",
+      "score": 72.11,
+      "metrics": {
+        "subscribers": 31800,
+        "total_views": 2541182,
+        "video_count": 486,
+        "avg_views_per_video": 5228.77,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@CoinNiel"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "onchain analysis"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "onchain analysis",
+            "video_id": "OPKMZSSm7-A",
+            "title": "이더리움 온체인 / 공급 쇼크 가능성 분석",
+            "description": "코인니엘 채널 구독: https://www.youtube.com/@CoinNiel?sub_confirmation=1 니엘 스토어: ...",
+            "published_at": "2026-09-07T22:00:24Z",
+            "url": "https://www.youtube.com/watch?v=OPKMZSSm7-A"
+          }
+        ],
+        "channel_description": "CryptoQuant Verified Author / 온체인 분석 전문가\n",
+        "latest_video_at": "2026-09-07T22:00:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKBknIMjyDBuCCMesl1F0Yw",
+      "external_id": "UCKBknIMjyDBuCCMesl1F0Yw",
+      "name": "Gazeta Wyborcza",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCKBknIMjyDBuCCMesl1F0Yw",
+      "discovered_on": "2026-09-08",
+      "score": 69.86,
+      "metrics": {
+        "subscribers": 52900,
+        "total_views": 39410102,
+        "video_count": 4327,
+        "avg_views_per_video": 9107.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "-kLv82a8YYA",
+            "title": "Drugi projekt Nawrockiego o kryptoaktywach. &quot; Można tę sprawę kompromisowo rozwiązać&quot; #shorts",
+            "description": "Zbigniew Bogucki ogłasza kolejny krok Karola Nawrockiego w sporze o regulację rynku kryptoaktywów - nowy projekt ma być ...",
+            "published_at": "2026-09-08T09:04:21Z",
+            "url": "https://www.youtube.com/watch?v=-kLv82a8YYA"
+          }
+        ],
+        "channel_description": "Każdego dnia dostarczamy nowe materiały wideo, w których dziennikarze \"Gazety Wyborczej\" poruszają najbardziej aktualne tematy. \nWszystkie materiały znajdziesz na oficjalnym kanale YouTube „Gazety Wyborczej\", a także na stronie internetowej Wyborcza.pl.  \n\nAgora S.A. z siedzibą w Warszawie przetwarza Twoje dane osobowe w związku z prowadzeniem profilu, informowania o aktywności Administratora, promowania różnego rodzaju wydarzeń, usług oraz produktów oraz obsługi zapytań i komentarzy, statystycznym i analitycznym. Więcej informacji w Zasadach Ochrony Prywatności. \nPolityka Prywatności na https://wyborcza.pl/centrumpomocygw/7,134956,23413995,polityka-prywatnosci.html \n\nDostawca VOD:  https://agora.pl/informacje-o-uslugach-medialnych\n\n\n",
+        "latest_video_at": "2026-09-08T09:04:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJgNVXQPAKzch6JjeZPEmCg",
+      "external_id": "UCJgNVXQPAKzch6JjeZPEmCg",
+      "name": "The Power Dialogue Africa With Zeddy Bariti",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCJgNVXQPAKzch6JjeZPEmCg",
+      "discovered_on": "2026-09-08",
+      "score": 67.52,
+      "metrics": {
+        "subscribers": 25300,
+        "total_views": 877236,
+        "video_count": 101,
+        "avg_views_per_video": 8685.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real world assets crypto"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real world assets crypto",
+            "video_id": "74tkES6UNw4",
+            "title": "The Last Cash Generation",
+            "description": "What if your grandchildren grow up in a world where paper money feels as outdated as a cheque does today? That possibility is ...",
+            "published_at": "2026-09-08T07:00:33Z",
+            "url": "https://www.youtube.com/watch?v=74tkES6UNw4"
+          }
+        ],
+        "channel_description": "AFRICA. TOLD DIFFERENTLY.\nStories that move Africa.\n🎙️ The Power Dialogue Africa is a stage for Africans redefining what’s possible.\nWe spotlight remarkable people, ideas, places and cultures through conversations on Leadership, Innovation & Culture  from leaders and entrepreneurs to creators, innovators and cultural custodians.\nWe go beyond the obvious to uncover stories shaping how Africa sees itself and how the world sees Africa.\nOddity is a superpower. We seek out the unconventional, unexpected and overlooked.\nBecause narratives are infrastructure. The stories we tell shape perceptions, expand possibilities and can move societies forward.\nWith Zeddy Bariti, we explore the people and ideas changing the conversation about Africa, one dialogue at a time.\n🔔 Subscribe. New episodes every two weeks.\nThe Power Dialogue Africa: thepowerdialogue.co.ke\n\n",
+        "latest_video_at": "2026-09-08T07:00:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC8FCcWDNe2N8EfEiVd7AwtA",
+      "external_id": "UC8FCcWDNe2N8EfEiVd7AwtA",
+      "name": "KoinX - Simplifying Crypto Taxes",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UC8FCcWDNe2N8EfEiVd7AwtA",
+      "discovered_on": "2026-09-08",
+      "score": 65.69,
+      "metrics": {
+        "subscribers": 37800,
+        "total_views": 2727736,
+        "video_count": 1276,
+        "avg_views_per_video": 2137.72,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "gFlk1i0oSPQ",
+            "title": "This Crypto Loophole Lets Indians Buy Gold Without a Bank Account | KoinX",
+            "description": "Some Indians are using crypto to buy groceries, fuel and gold, and they're not going through Indian banks to do it. This video ...",
+            "published_at": "2026-09-08T14:01:49Z",
+            "url": "https://www.youtube.com/watch?v=gFlk1i0oSPQ"
+          }
+        ],
+        "channel_description": "KoinX is a global crypto tax, accounting, and compliance platform helping investors stay clear, compliant, and in control.\n\nUsed across 100+ countries, KoinX has processed 600M+ crypto transactions, generated 250K+ tax reports and supports 25,000+ crypto assets across 800+ wallets and exchanges.\n\nOn this channel, we simplify crypto taxes, reporting, and regulations without jargon or panic. You’ll find clear guides, verified updates, practical explainers, and calm breakdowns of what actually matters in crypto finance.\n\nWhether you’re filing crypto taxes, managing a growing portfolio, or trying to understand global crypto rules, this channel is built to replace confusion with clarity.\n\nCrypto can be complex.\nYour crypto finances shouldn’t be.\n\n\n",
+        "latest_video_at": "2026-09-08T14:01:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC37iLRglIoIPvIYuo37O1qQ",
+      "external_id": "UC37iLRglIoIPvIYuo37O1qQ",
+      "name": "Bens BTC",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UC37iLRglIoIPvIYuo37O1qQ",
+      "discovered_on": "2026-09-08",
+      "score": 60.84,
+      "metrics": {
+        "subscribers": 5960,
+        "total_views": 118422,
+        "video_count": 39,
+        "avg_views_per_video": 3036.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real world assets crypto"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real world assets crypto",
+            "video_id": "0Y52m-5fqcs",
+            "title": "Crypto&#39;s REAL Game Changer: Mortgages Go Digital on Injective! #shorts #INJ #INJTOKEN",
+            "description": "Pineapple Financial just tokenized over $1 billion in mortgage records on the Injective blockchain. This milestone bolsters the ...",
+            "published_at": "2026-09-08T12:39:45Z",
+            "url": "https://www.youtube.com/watch?v=0Y52m-5fqcs"
+          }
+        ],
+        "channel_description": "An informed Crypto enthusiast with years of experience navigating different market cycles.\n\nFollow my journey through investing, trading and everything Crypto. I share what I’ve learned from previous cycles alongside my thoughts on Bitcoin, Altcoins, trading and the wider Crypto market.\n\nThe goal is simple: share my experience, keep learning and help others stay informed along the way.\n\nFor any questions or enquiries: ben@btcblueprint.com\n\nCommunity Group BensBTC Market Room (See Video Descriptions)\n",
+        "latest_video_at": "2026-09-08T12:39:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1-JKNpq2ZyzGJ_X91T23Pg",
+      "external_id": "UC1-JKNpq2ZyzGJ_X91T23Pg",
+      "name": "Risk Takers",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UC1-JKNpq2ZyzGJ_X91T23Pg",
+      "discovered_on": "2026-09-08",
+      "score": 60.81,
+      "metrics": {
+        "subscribers": 7680,
+        "total_views": 924001,
+        "video_count": 439,
+        "avg_views_per_video": 2104.79,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real world assets crypto"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real world assets crypto",
+            "video_id": "RVxtcnO6khg",
+            "title": "Crypto.com Boss: You&#39;re Not Late. 90% Of The World Hasn&#39;t Bought Bitcoin | Iskandar Vanblarcum",
+            "description": "Iskandar Vanblarcum, Managing Director of the Crypto.com Exchange, joins Risk Takers to explain why crypto adoption has ...",
+            "published_at": "2026-09-08T11:28:10Z",
+            "url": "https://www.youtube.com/watch?v=RVxtcnO6khg"
+          }
+        ],
+        "channel_description": "In-depth conversations about the things that actually matter for building long-term wealth.\n\nEvery week, Alessandro sits down with people who have put something on the line for what they believe, whether that is their money, their name, or years of their life. Investors, founders, and the contrarians who were early. People who take real risks for a living, and understand what that takes.\n\nThe conversations follow where the money is really going. Why the cash in your account quietly buys less every year, and what the smartest people are doing to protect and grow their wealth. Why Bitcoin and hard assets sit at the centre of that, and how crypto is becoming the next version of the financial system itself, with real businesses being built on it. What is moving markets right now, and what AI is about to do to all of it.\n\nThe kind of conversations worth your time, with people who have skin in the game.\n\nFor partnership enquiries - alessandro@cryptobanter.com\n",
+        "latest_video_at": "2026-09-08T11:28:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCN_YDHGz40DIoHm2KeHi5pA",
+      "external_id": "UCN_YDHGz40DIoHm2KeHi5pA",
+      "name": "REM -  Real Estate Metaverse",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCN_YDHGz40DIoHm2KeHi5pA",
+      "discovered_on": "2026-09-08",
+      "score": 60.02,
+      "metrics": {
+        "subscribers": 18600,
+        "total_views": 137066,
+        "video_count": 324,
+        "avg_views_per_video": 423.04,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real world assets crypto"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real world assets crypto",
+            "video_id": "2qjuCkoUgrw",
+            "title": "The Future of Ownership Is Changing: Why Real-World Assets Are Going Digital",
+            "description": "Digital ownership is evolving, and Real World Assets (RWAs) could play a major role in what comes next. From stablecoins and ...",
+            "published_at": "2026-09-08T10:23:04Z",
+            "url": "https://www.youtube.com/watch?v=2qjuCkoUgrw"
+          }
+        ],
+        "channel_description": "REM Ecosystem aims to establish a comprehensive ecosystem enabling users to acquire real-life properties globally, leveraging - blockchain technology.",
+        "latest_video_at": "2026-09-08T10:23:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCIJJ6xkrEglfWO_IWiaTIhw",
+      "external_id": "UCIJJ6xkrEglfWO_IWiaTIhw",
+      "name": "비트스푼 Bitspoon_Edu",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCIJJ6xkrEglfWO_IWiaTIhw",
+      "discovered_on": "2026-09-08",
+      "score": 59.76,
+      "metrics": {
+        "subscribers": 10500,
+        "total_views": 183959,
+        "video_count": 220,
+        "avg_views_per_video": 836.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "RWA tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "RWA tokenization",
+            "video_id": "pQ7gdkBA2aA",
+            "title": "은행·증권사·코인거래소가 붙는다…RWA 토큰화가 만드는 새로운 금융전쟁",
+            "description": "문의: [jjaa74593@gmail.com](mailto:jjaa74593@gmail.com) Telegram: @jjjcryptoo 재테크가 어렵고 복잡하게 느껴지셨다면 비트 ...",
+            "published_at": "2026-09-08T05:15:18Z",
+            "url": "https://www.youtube.com/watch?v=pQ7gdkBA2aA"
+          }
+        ],
+        "channel_description": "비트코인이 막막하게 느껴지셨다면\n비트스푼에서 첫걸음을 시작해 보세요.\n\n비트스푼은 초보자 눈높이에 맞춘 무료 온라인 강의 및 자료를 한곳에 제공합니다.\n복잡한 차트나 용어 대신 ‘한 입 크기’로 나눈 10분 내외 강의로, 쉽고 정확하게 이해하실 수 있습니다.\n\n\n\n\n＊ 본 채널에서 제공하는 모든 정보는 학습과 정보 전달을 위한 교육용 자료입니다. 투자 권유 또는 재무적 조언의 목적은 없습니다.\n＊ 콘텐츠의 내용을 근거로 한 수익은 보장되지 않으며, 이 채널은 유사수신 또는 유사행위를 일체 하지 않습니다.\n＊ 암호화폐 투자는 높은 위험을 수반하므로, 모든 투자 결정은 각자의 판단이며 결과에 대한 책임도 사용자 본인에게 있습니다.\n＊ 채널 내에서는 금전 거래, 개인 정보 교환, 계좌 공유 등의 행위를 엄격히 금지합니다.\n＊ 해외 거래소는 국내에서 공식적인 인허가를 받은 기관이 아니므로, 이용 시 각종 리스크에 유의해 주시기 바랍니다.\n＊ 특히 해외 거래소 이용 시 계정 제한, 자산 동결, 플랫폼 파산 등의 위험이 존재할 수 있으므로 신중한 판단이 요구됩니다.\n＊ 비인가 거래소의 서비스 이용은 권장하지 않으며, 관련 피해에 대해서 본 채널은 책임지지 않습니다.\n＊ 이 채널은 해외 거래소의 추천인 프로그램을 통해 일정 수수료를 받을 수 있으며, 추천 링크를 통한 가입 여부는 회원님의 자유로운 선택입니다.\n＊ 미성년자의 참여 및 타인의 정보를 이용한 모든 행위는 금지되어 있으며, 위반 시 법적 제재를 받을 수 있습니다.\n＊ 이 채널에서 제작한 모든 콘텐츠는 \"비트스푼\"에게 저작권이 있으며, 사전 동의 없이 무단 복제·배포 시 법적 책임이 따를 수 있습니다.\n\n",
+        "latest_video_at": "2026-09-08T05:15:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1MLL9L3-mDi3lAfjSjakUA",
+      "external_id": "UC1MLL9L3-mDi3lAfjSjakUA",
+      "name": "FAIQ FOREX",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UC1MLL9L3-mDi3lAfjSjakUA",
+      "discovered_on": "2026-09-08",
+      "score": 58.53,
+      "metrics": {
+        "subscribers": 12700,
+        "total_views": 466351,
+        "video_count": 1288,
+        "avg_views_per_video": 362.07,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "Q_lz2oNM3Ec",
+            "title": "🚨 CRYPTO BAN IN PAKISTAN? PVARA NOC Ka Bara Update!",
+            "description": "CryptoBan #Binance #OKX Pakistan mein crypto exchanges ke hawale se PVARA ka bara update! Kin exchanges ko NOC ...",
+            "published_at": "2026-09-08T10:44:07Z",
+            "url": "https://www.youtube.com/watch?v=Q_lz2oNM3Ec"
+          }
+        ],
+        "channel_description": "Welcome to FaiqForex Trading, your go-to source for forex trading insights, analysis, and education! I'm Faiq, a professional forex trader with a passion for helping others navigate the markets. On this channel, you'll find a variety of content, including:\n\nMarket analysis and updates\nTrading strategies and techniques\nEducational tutorials and guides\nQ&A sessions and live trading sessions\n\nMy goal is to provide you with the knowledge and tools you need to succeed in the forex market. Whether you're a beginner or an experienced trader, I'm here to help you improve your skills and achieve your financial goals. So subscribe now and join the FaiqForex Trading community!\"\n\nFeel free to customize it as per your preference and branding. Good luck with your YouTube channel!\n\nFree Forex Education , Forex basics course , forex indicator Forex Accurate signal And any thing that you want About forex we provide 100% Free.\n\nwa.me/923464070730\n\n@faiqforex\n  \nContact.    faiqfxoffice@gmail.com",
+        "latest_video_at": "2026-09-08T10:44:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCsfeADv82dixwtrFxEwxtYQ",
+      "external_id": "UCsfeADv82dixwtrFxEwxtYQ",
+      "name": "Crypto World",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCsfeADv82dixwtrFxEwxtYQ",
+      "discovered_on": "2026-09-08",
+      "score": 56.98,
+      "metrics": {
+        "subscribers": 6880,
+        "total_views": 173290,
+        "video_count": 413,
+        "avg_views_per_video": 419.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "LuvapYxNUfQ",
+            "title": "Kaspa +120,000% While Brazil Banks Move $98B in Crypto With ZERO Exposure",
+            "description": "Kaspa just quietly went institutional, and Brazil's biggest banks are moving almost $100 billion in crypto without holding a single ...",
+            "published_at": "2026-09-08T09:57:31Z",
+            "url": "https://www.youtube.com/watch?v=LuvapYxNUfQ"
+          }
+        ],
+        "channel_description": "Welcome to Crypto World – your go-to channel for insightful and easy-to-understand cryptocurrency education. Whether you’re just getting started in the world of digital currencies or you’re looking to deepen your understanding of blockchain technology, we’ve got you covered.\n\nFrom beginner tutorials and in-depth guides to the latest news and expert insights, we aim to empower you with the knowledge to navigate the evolving crypto landscape with confidence.\n\nJoin us on this journey as we break down complex topics into simple, actionable information. Don't miss out on the latest updates, tips, and strategies to maximize your crypto potential!\n\nSubscribe now and take your first step towards becoming a crypto expert. Let’s explore the future of finance together!\n",
+        "latest_video_at": "2026-09-08T09:57:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCueqKGLZo8JpKDrCXlv_Zyg",
       "external_id": "UCueqKGLZo8JpKDrCXlv_Zyg",

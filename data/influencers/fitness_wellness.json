@@ -2,19 +2,488 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-09-07T15:55:45Z",
-  "new_this_run": 10,
-  "total_influencers": 1172,
+  "updated_at": "2026-09-08T14:39:02Z",
+  "new_this_run": 13,
+  "total_influencers": 1185,
   "run_summary": {
-    "run_started_at": "2026-09-07T15:55:24Z",
-    "candidate_count": 41,
-    "existing_count": 1162,
-    "selected_new_count": 10,
+    "run_started_at": "2026-09-08T14:38:39Z",
+    "candidate_count": 45,
+    "existing_count": 1172,
+    "selected_new_count": 13,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCnevsEHB13fOW6vzYU320Ew",
+      "external_id": "UCnevsEHB13fOW6vzYU320Ew",
+      "name": "Molly Sims",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCnevsEHB13fOW6vzYU320Ew",
+      "discovered_on": "2026-09-08",
+      "score": 73.51,
+      "metrics": {
+        "subscribers": 90300,
+        "total_views": 16468896,
+        "video_count": 713,
+        "avg_views_per_video": 23098.03,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "DyrlC9ddKbc",
+            "title": "The Truth About Peptides &amp; Hormones by &quot;Peptide Princess&quot; Dr. Amanda Kahn",
+            "description": "What if feeling better—not endlessly “optimizing” yourself—is the real goal? Dr. Amanda Kahn is a board-certified internist and ...",
+            "published_at": "2026-09-08T07:00:37Z",
+            "url": "https://www.youtube.com/watch?v=DyrlC9ddKbc"
+          }
+        ],
+        "channel_description": "Welcome to my channel! Throughout my career, I've learned a lot about the beauty and fashion industry. And I want to share these #supermodelsecrets with all of you! Here you'll find everything from beauty tutorials, fashion advice, healthy recipes, parenting tips, and more!",
+        "latest_video_at": "2026-09-08T07:00:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC2KIbPHfA8oLuAlSKOctJ7g",
+      "external_id": "UC2KIbPHfA8oLuAlSKOctJ7g",
+      "name": "Judd Lienhard",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC2KIbPHfA8oLuAlSKOctJ7g",
+      "discovered_on": "2026-09-08",
+      "score": 72.68,
+      "metrics": {
+        "subscribers": 92200,
+        "total_views": 8230267,
+        "video_count": 536,
+        "avg_views_per_video": 15354.98,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "M3_vybsupSk",
+            "title": "Functional vs. Non-Functional Exercises: The TRUTH About Training for Athleticism | Judd Lienhard",
+            "description": "YouTube Viewer Exclusive: Get Judd's MASS METHOD Fitness & Nutrition App for just $8/month with code: YOUTUBE Get The ...",
+            "published_at": "2026-09-08T10:00:34Z",
+            "url": "https://www.youtube.com/watch?v=M3_vybsupSk"
+          }
+        ],
+        "channel_description": "Training. Mindset. High Performance.\nJudd Lienhard is a former U.S. Army Ranger, college linebacker, and Strength & Conditioning Coach with 15+ years of experience developing athletes and high performers. With a degree in Exercise Physiology and combat-tested leadership, Judd teaches how to build lasting strength, athleticism, and discipline.\n\nHis MASS Method — Movement, Athleticism, Strength & Speed — combines science, performance training, and mindset coaching to help you move better, get stronger, and stay durable for life.\n\nSubscribe for weekly videos on functional strength, mobility, conditioning, and performance, plus The Judd Lienhard Podcast, where Judd explores the mindset & principles behind elite training and leadership.\n\nAlways Be An Athlete.\nTrain for strength, athleticism, endurance, and performance through functional workouts, mindset coaching, mobility, recovery, conditioning, and discipline — fitness built for athletes who want to move better, live stronger, and lead.\n",
+        "latest_video_at": "2026-09-08T10:00:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UChBLFbZpw18xG2SJazOkQ7w",
+      "external_id": "UChBLFbZpw18xG2SJazOkQ7w",
+      "name": "Sri Sugguna",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UChBLFbZpw18xG2SJazOkQ7w",
+      "discovered_on": "2026-09-08",
+      "score": 64.15,
+      "metrics": {
+        "subscribers": 4380,
+        "total_views": 1180090,
+        "video_count": 55,
+        "avg_views_per_video": 21456.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "2hyherjew9U",
+            "title": "What is HYROX?😱 | GYM కంటే HYROX ఎందుకు Different? | ప్రపంచం మొత్తం ఎందుకు ఈ CRAZE!? ఎవరు చేయగలరు? 💪",
+            "description": "HYROX అంటే ఏంటి? ఈ మధ్య Fitness world లో ఎక్కడ చూసినా HYROX గురించి ఎందుకు ...",
+            "published_at": "2026-09-08T06:45:01Z",
+            "url": "https://www.youtube.com/watch?v=2hyherjew9U"
+          }
+        ],
+        "channel_description": "Welcome to my channel, I’m Sri. The Telugu guy in America who loves fitness, family, healthy food, gym, travel and having fun! 💪🔥🏋\nFrom gym workouts and fitness journeys to healthy meals, lifestyle, travel, funny moments and everyday adventures!! I’m here to share it all with you!\nSubscribe and join me on this crazy, healthy & fun journey! 🚀💪\n\nInstagram:\n@Sriinconway \n\nనమస్తే, నేను మీ శ్రీ సుగ్గున. అమెరికాలో ఉంటూ ఫిట్‌నెస్, ఫ్యామిలీ, హెల్తీ ఫుడ్, జిమ్, ట్రావెల్, లైఫ్‌స్టైల్ మరియు ఫన్ వీడియోలను మీతో షేర్ చేసుకుంటూ ఉంటాను. అమెరికాలో ఒక తెలుగు అబ్బాయి జీవితం ఎలా ఉంటుందో నా వీడియోల ద్వారా మీతో కలిసి పంచుకోవాలనుకుంటున్నాను.\nనా వీడియోలు నచ్చితే నా ఛానల్‌ను సబ్‌స్క్రైబ్ చేసి ఈ అందమైన ప్రయాణంలో నాతో కలిసి రండి!\n\n",
+        "latest_video_at": "2026-09-08T06:45:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEhguBGCiIF_N05UJ3LvZ7g",
+      "external_id": "UCEhguBGCiIF_N05UJ3LvZ7g",
+      "name": "primetrendy",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCEhguBGCiIF_N05UJ3LvZ7g",
+      "discovered_on": "2026-09-08",
+      "score": 64.04,
+      "metrics": {
+        "subscribers": 3890,
+        "total_views": 18539992,
+        "video_count": 768,
+        "avg_views_per_video": 24140.61,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "StKd5QwNQW4",
+            "title": "Bryan Johnson’s anti-aging routine is wild but at least he stopped looking British 💀🧬 #shorts #viral",
+            "description": "Bryan Johnson's extreme biohacking is polarizing—but one fan pointed out the real win: “he managed to stop looking British.",
+            "published_at": "2026-09-08T04:02:06Z",
+            "url": "https://www.youtube.com/watch?v=StKd5QwNQW4"
+          }
+        ],
+        "channel_description": "Yo, welcome to PRIMETRENDY  where real-life stories actually feel real , This is the good stuff they don't show you on the news. No filters, no fluff. Just everyday people opening up about the moments that stuck with them. Heartbreaking stuff, comeback stories that’ll give you chills, random acts of kindness that restore your faith in people, and wild true events you won't believe actually happened. Every story here hits different  and trust me, they're worth remembering.\n",
+        "latest_video_at": "2026-09-08T04:02:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCdyg4YoipoStmpcn85T0Crw",
+      "external_id": "UCdyg4YoipoStmpcn85T0Crw",
+      "name": "Two Cities Church",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCdyg4YoipoStmpcn85T0Crw",
+      "discovered_on": "2026-09-08",
+      "score": 59.34,
+      "metrics": {
+        "subscribers": 9010,
+        "total_views": 1720228,
+        "video_count": 2018,
+        "avg_views_per_video": 852.44,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "Ij7av4Gsbes",
+            "title": "Fitness: Is Your Heaven, Their Hell? Religious Devotion Explained! #shorts",
+            "description": "For those feeling trapped in a 'functional hell' of being overweight, fitness becomes a 'functional heaven.' This intense motivation ...",
+            "published_at": "2026-09-08T11:04:38Z",
+            "url": "https://www.youtube.com/watch?v=Ij7av4Gsbes"
+          }
+        ],
+        "channel_description": "Welcome to Two Cities Church! This Channel is where you can find all of our weekly messages and other content. Go to TwoCitiesChurch.net for more info!",
+        "latest_video_at": "2026-09-08T11:04:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCv0BIAw9D2O7p_5ig-ahCpA",
+      "external_id": "UCv0BIAw9D2O7p_5ig-ahCpA",
+      "name": "NicheLore",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCv0BIAw9D2O7p_5ig-ahCpA",
+      "discovered_on": "2026-09-08",
+      "score": 57.39,
+      "metrics": {
+        "subscribers": 4560,
+        "total_views": 29785,
+        "video_count": 33,
+        "avg_views_per_video": 902.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "CLevCGNcb1g",
+            "title": "I Tracked a Longevity Biohacker&#39;s Protocol For 30 Days",
+            "description": "What happens when you swap normal life for 30 days of extreme longevity biohacking? Strict bedtimes, cold plunges, dozens of ...",
+            "published_at": "2026-09-07T19:00:22Z",
+            "url": "https://www.youtube.com/watch?v=CLevCGNcb1g"
+          }
+        ],
+        "channel_description": "Nichelore tells the stories of the legends the internet forgot — the cult figures, overlooked geniuses, and quiet influencers history left in the footnotes.\n\nSubscribe and find out who history left in the footnotes.\n",
+        "latest_video_at": "2026-09-07T19:00:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCG1Zi9KPjmL7wM-BDkfn-pg",
+      "external_id": "UCG1Zi9KPjmL7wM-BDkfn-pg",
+      "name": "MOVE Smarter",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCG1Zi9KPjmL7wM-BDkfn-pg",
+      "discovered_on": "2026-09-08",
+      "score": 57.11,
+      "metrics": {
+        "subscribers": 5000,
+        "total_views": 693234,
+        "video_count": 994,
+        "avg_views_per_video": 697.42,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "VMNIKc_B66o",
+            "title": "😣 Feeling sore, stiff, or unsteady? #ChairExercise #FunctionalFitness #AccessibleFitness #shorts",
+            "description": "Feeling sore, stiff, or unsteady? Does your body feel like it's not working the way it used to? Join MOVE Smarter LIVE — our ...",
+            "published_at": "2026-09-08T12:06:00Z",
+            "url": "https://www.youtube.com/watch?v=VMNIKc_B66o"
+          }
+        ],
+        "channel_description": "Move Smarter is about retraining how you move — not forcing your body to stretch, strengthen, or push through pain.\n\nUsing the science of brain plasticity, we create exercises that retrain how the nervous system organizes movement. Many aches, stiffness, and injuries aren’t caused by damage — they’re caused by poor or protective movement patterns the brain learned over time. Through brain-plasticity-based exercises, we retrain those patterns into healthier, more efficient ways of moving.\n\nThese gentle, intelligent exercises are designed to:\n• Reduce chronic pain\n• Improve mobility and balance\n• Restore confidence in movement\n• Support movement for people with neurological conditions\n• Help prevent future injuries before they start\n\nThis channel is for adults who feel stiff, guarded, sore, or “older than they should,” and want a smarter approach that respects the nervous system and improves the quality of movement.\n\nMove smarter — not harder.\nGentle. Intelligent. Effective movement.\n\n\n",
+        "latest_video_at": "2026-09-08T12:06:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:290edeb276fc2a774df0",
+      "external_id": "290edeb276fc2a774df0",
+      "name": "marek357",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ymoiZjekF9g9ExKoA/do-llms-have-opinions-about-other-llms-and-do-they-act-on",
+      "discovered_on": "2026-09-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Do LLMs have opinions about other LLMs (and do they act on them)?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:456ebf54c61b89aebdba",
+      "external_id": "456ebf54c61b89aebdba",
+      "name": "benjaminalt",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/FzpqBA8Q6bDKf85cF/building-safe-physical-ai-open-questions-risks-and-a-call-1",
+      "discovered_on": "2026-09-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Building safe physical AI: Open questions, risks, and a call for collaboration"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ed6338fc4ac673732677",
+      "external_id": "ed6338fc4ac673732677",
+      "name": "Yilin1010",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/wJntRN9DLdwwpwYvz/llm-retrospective-preferences-can-diverge-from-turn-by-turn-1",
+      "discovered_on": "2026-09-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "LLM retrospective preferences can diverge from turn-by-turn state ratings"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e8ddb681e7bcd1f9f133",
+      "external_id": "e8ddb681e7bcd1f9f133",
+      "name": "Tomás Gimenez Molina",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/s3a856fx6wmRPnBCx/avoiding-steering-awareness-by-optimizing-steering",
+      "discovered_on": "2026-09-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Avoiding steering awareness by optimizing steering parameters"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:93af8aaaea33d2afce30",
+      "external_id": "93af8aaaea33d2afce30",
+      "name": "Esfandyar Batmanghelidj",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/iran/why-america-cant-strangle-iran",
+      "discovered_on": "2026-09-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Why America Can’t Strangle Iran"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f97298b7edd4ab03ef00",
+      "external_id": "f97298b7edd4ab03ef00",
+      "name": "Daniel Byman",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/rise-and-fall-global-jihadism",
+      "discovered_on": "2026-09-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Rise and Fall of Global Jihadism"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCkHMN1rQvoP6pRLfN1wxn9A",
       "external_id": "UCkHMN1rQvoP6pRLfN1wxn9A",

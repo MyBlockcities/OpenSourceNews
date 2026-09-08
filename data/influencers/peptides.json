@@ -2,19 +2,379 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-07T15:55:42Z",
-  "new_this_run": 9,
-  "total_influencers": 256,
+  "updated_at": "2026-09-08T14:38:59Z",
+  "new_this_run": 8,
+  "total_influencers": 264,
   "run_summary": {
-    "run_started_at": "2026-09-07T15:55:24Z",
-    "candidate_count": 17,
-    "existing_count": 247,
-    "selected_new_count": 9,
+    "run_started_at": "2026-09-08T14:38:39Z",
+    "candidate_count": 15,
+    "existing_count": 256,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCKhjbhDUcE3cGE_sjXzUduQ",
+      "external_id": "UCKhjbhDUcE3cGE_sjXzUduQ",
+      "name": "APP TEC",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCKhjbhDUcE3cGE_sjXzUduQ",
+      "discovered_on": "2026-09-08",
+      "score": 74.97,
+      "metrics": {
+        "subscribers": 51300,
+        "total_views": 30868832,
+        "video_count": 135,
+        "avg_views_per_video": 228658.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "qnfNyix4hto",
+            "title": "Anti-aging NAD+ peptide reusable pens &amp; vials US &amp; European shipping #retatrutide #nad+  mots-c",
+            "description": "Here's an SEO-focused YouTube description you can copy and paste. I've kept the wording suitable for a peptide business by ...",
+            "published_at": "2026-09-08T03:49:45Z",
+            "url": "https://www.youtube.com/watch?v=qnfNyix4hto"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-08T03:49:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCnevsEHB13fOW6vzYU320Ew",
+      "external_id": "UCnevsEHB13fOW6vzYU320Ew",
+      "name": "Molly Sims",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCnevsEHB13fOW6vzYU320Ew",
+      "discovered_on": "2026-09-08",
+      "score": 73.51,
+      "metrics": {
+        "subscribers": 90300,
+        "total_views": 16468896,
+        "video_count": 713,
+        "avg_views_per_video": 23098.03,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "DyrlC9ddKbc",
+            "title": "The Truth About Peptides &amp; Hormones by &quot;Peptide Princess&quot; Dr. Amanda Kahn",
+            "description": "What if feeling better—not endlessly “optimizing” yourself—is the real goal? Dr. Amanda Kahn is a board-certified internist and ...",
+            "published_at": "2026-09-08T07:00:37Z",
+            "url": "https://www.youtube.com/watch?v=DyrlC9ddKbc"
+          }
+        ],
+        "channel_description": "Welcome to my channel! Throughout my career, I've learned a lot about the beauty and fashion industry. And I want to share these #supermodelsecrets with all of you! Here you'll find everything from beauty tutorials, fashion advice, healthy recipes, parenting tips, and more!",
+        "latest_video_at": "2026-09-08T07:00:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCEcq8mZYDtQVXW6H0fivq9g",
+      "external_id": "UCEcq8mZYDtQVXW6H0fivq9g",
+      "name": "Urology Times",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCEcq8mZYDtQVXW6H0fivq9g",
+      "discovered_on": "2026-09-08",
+      "score": 72.04,
+      "metrics": {
+        "subscribers": 58000,
+        "total_views": 15757417,
+        "video_count": 721,
+        "avg_views_per_video": 21854.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "SwTN1bbFsyM",
+            "title": "TRT, GLP-1s, and peptides: How to counsel patients stacking longevity therapies",
+            "description": "Rising patient interest in TRT, GLP-1s, and peptide stacking requires clinicians to anchor conversations in evidence tiers, use ...",
+            "published_at": "2026-09-08T13:26:08Z",
+            "url": "https://www.youtube.com/watch?v=SwTN1bbFsyM"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-08T13:26:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCKKK694UbVEPEVa0gjdAaXA",
+      "external_id": "UCKKK694UbVEPEVa0gjdAaXA",
+      "name": "Slaughda Radio LLC",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCKKK694UbVEPEVa0gjdAaXA",
+      "discovered_on": "2026-09-08",
+      "score": 68.11,
+      "metrics": {
+        "subscribers": 29000,
+        "total_views": 6873683,
+        "video_count": 729,
+        "avg_views_per_video": 9428.92,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "QLONN0sBF5Y",
+            "title": "The Playground Lab – Episode 12 | KLOW Blend Explained",
+            "description": "The Playground Lab – Episode 12 | KLOW Blend Explained (KPV • GHK-Cu • TB-500 • BPC-157) Welcome back to The ...",
+            "published_at": "2026-09-08T00:07:55Z",
+            "url": "https://www.youtube.com/watch?v=QLONN0sBF5Y"
+          }
+        ],
+        "channel_description": "Welcome to Slaughda Radio's Main YouTube Channel ! We are here to promote all the latest in entertainment! #hiphop #hiphopmusic #hiphopculter",
+        "latest_video_at": "2026-09-08T00:07:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC89Dboynev-hfYFHi4dwVpw",
+      "external_id": "UC89Dboynev-hfYFHi4dwVpw",
+      "name": "Marcelo Mendes Fit",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC89Dboynev-hfYFHi4dwVpw",
+      "discovered_on": "2026-09-08",
+      "score": 67.9,
+      "metrics": {
+        "subscribers": 14300,
+        "total_views": 3108441,
+        "video_count": 135,
+        "avg_views_per_video": 23025.49,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "2MsGF-Zt0AI",
+            "title": "Peptídeo é igual hormonio?",
+            "description": "",
+            "published_at": "2026-09-07T22:31:27Z",
+            "url": "https://www.youtube.com/watch?v=2MsGF-Zt0AI"
+          }
+        ],
+        "channel_description": "Oi, pra você que não me conhece meu nome é Marcelo Mendes. Sou engenheiro de software e amante da musculaçao. \nTreino desde os meus 17 anos, e posso dizer que toda a minha vida adulta esteve envolvida com a musculação, com dietas para emagrecimento, ganho de massa muscular, e tudo ligado a esse hobby.\n\nAqui você vai encontrar muito humor ligado a vida de maromba.",
+        "latest_video_at": "2026-09-07T22:31:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCcmZ2sEuzfmZjl0pRsR0Ong",
+      "external_id": "UCcmZ2sEuzfmZjl0pRsR0Ong",
+      "name": "MUSCLEBUILDING  PRO",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCcmZ2sEuzfmZjl0pRsR0Ong",
+      "discovered_on": "2026-09-08",
+      "score": 56.96,
+      "metrics": {
+        "subscribers": 2570,
+        "total_views": 1949098,
+        "video_count": 1181,
+        "avg_views_per_video": 1650.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "ndLpRd851KM",
+            "title": "BPC-157 pra articulações #gym #workout #bodybuilding",
+            "description": "",
+            "published_at": "2026-09-08T00:58:05Z",
+            "url": "https://www.youtube.com/watch?v=ndLpRd851KM"
+          }
+        ],
+        "channel_description": "⚔️ BEM-VINDO AO MUSCLEBUILDING PRO\nAqui não é motivação… é DISCIPLINA.\n💀 Treino pesado até a falha\n🔥 Bodybuilding lifestyle\n🧠 Mente forte. Corpo bruto.\n🚫 Conteúdo pra quem quer resultado de verdade\n📩 Quer treinar sério? Fale comigo no direct",
+        "latest_video_at": "2026-09-08T00:58:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCVG8KMRxEZ3GM5Cf1oGnwSA",
+      "external_id": "UCVG8KMRxEZ3GM5Cf1oGnwSA",
+      "name": "HealthFit Physical Therapy & Chiropractic Pasadena",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCVG8KMRxEZ3GM5Cf1oGnwSA",
+      "discovered_on": "2026-09-08",
+      "score": 55.86,
+      "metrics": {
+        "subscribers": 2970,
+        "total_views": 1944536,
+        "video_count": 2391,
+        "avg_views_per_video": 813.27,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "EDEwb-pPXtg",
+            "title": "Arthritic Knee Peptide: Ozempic &amp; Wegovy Weight Loss Secret? #shorts",
+            "description": "The drugs everyone's talking about might hold a secret to knee pain. Discover what scientists found in arthritic knees and how it ...",
+            "published_at": "2026-09-07T15:31:26Z",
+            "url": "https://www.youtube.com/watch?v=EDEwb-pPXtg"
+          }
+        ],
+        "channel_description": "HealthFit Physical Therapy & Chiropractic — Pasadena's premier integrated rehab, recovery & longevity clinic. Serving Pasadena, South Pasadena, Altadena, Sierra Madre, Arcadia, San Marino, Monrovia, Alhambra, San Gabriel & La Cañada Flintridge.\n\nLed by Dr. Jason Han, DPT (former U.S. National Team Taekwondo athlete), delivering pro-level care for everyday people.\n\nWHAT YOU'LL FIND HERE:\n- Physical Therapy & Chiropractic\n- HBOT (Hyperbaric Oxygen Therapy)\n- Regenerative Stack: Radial Pressure Wave + Focused Shockwave + EMTT\n- VO2 Max & metabolic testing\n- Red light, PEMF & peptides\n- Pro-athlete rehab for real life\n\n📍 145 Vista Ave, Suite 103, Pasadena, CA 91107\n📞 626-365-1380\n🌐 healthfitinc.com  \n\nServing 91101–91108 · 91107 · 91030 · 91001 · 91024 · 91006 · 91007 ·\n91016 · 91775 · 91776 · 91801 · 91803 · 91011\n\nSource · Cause · Stack. Test, don't guess.\nTissue healing deserves real tools, not just hope.\n\nDisclaimer: Educational content only — not medical advice.\n",
+        "latest_video_at": "2026-09-07T15:31:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCYj1CZKOpxuccQATzBIFzHA",
+      "external_id": "UCYj1CZKOpxuccQATzBIFzHA",
+      "name": "Biohack Yourself Media",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCYj1CZKOpxuccQATzBIFzHA",
+      "discovered_on": "2026-09-08",
+      "score": 53.65,
+      "metrics": {
+        "subscribers": 3060,
+        "total_views": 1040586,
+        "video_count": 3699,
+        "avg_views_per_video": 281.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "tvamX4MloE0",
+            "title": "🧬 Regen Therapy - Regenerative Medicine Is Entering the Group Chat",
+            "description": "Regen Therapy - Regenerative Medicine Is Entering the Group Chat Hormones, peptides, GLPs, regenerative medicine... the ...",
+            "published_at": "2026-09-07T18:07:20Z",
+            "url": "https://www.youtube.com/watch?v=tvamX4MloE0"
+          }
+        ],
+        "channel_description": "The Voice of Longevity\nYour #1 source for distilled science communication and education.  \n\nWhat started as feature- length documentary, has spiraled into what will be considered the most influential health documentary of our lifetime. This ground-breaking documentary series follows The Lollis as they embark on a journey to unlock the world of Biohacking. The aim… to empower individuals with the knowledge and tools they need to optimize their health, performance, and well-being.\n\n⚠️Disclaimer:  The information provided here is for entertainment and educational purposes only. It is not intended to substitute medical professional advice, diagnosis, or treatment. \n\nAlways seek the advice of your physician or another qualified health provider with any questions you may have regarding a medical condition. Visit the disclaimer link for more details: https://www.biohackyourself.com/termsanddisclaimers.\n",
+        "latest_video_at": "2026-09-07T18:07:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCcPn2fPnvVXuTT-60w6MiQw",
       "external_id": "UCcPn2fPnvVXuTT-60w6MiQw",

@@ -2,19 +2,449 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-07T15:55:32Z",
-  "new_this_run": 14,
-  "total_influencers": 460,
+  "updated_at": "2026-09-08T14:38:49Z",
+  "new_this_run": 10,
+  "total_influencers": 470,
   "run_summary": {
-    "run_started_at": "2026-09-07T15:55:24Z",
+    "run_started_at": "2026-09-08T14:38:39Z",
     "candidate_count": 20,
-    "existing_count": 446,
-    "selected_new_count": 14,
+    "existing_count": 460,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCoZJ-5MBbbQz3BDGySs4PjQ",
+      "external_id": "UCoZJ-5MBbbQz3BDGySs4PjQ",
+      "name": "Alex Hera",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCoZJ-5MBbbQz3BDGySs4PjQ",
+      "discovered_on": "2026-09-08",
+      "score": 70.83,
+      "metrics": {
+        "subscribers": 14700,
+        "total_views": 2479355,
+        "video_count": 29,
+        "avg_views_per_video": 85495.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "gD_gP_bMEtw",
+            "title": "Anatomy 1963: Lost Media From an Alternate Reality",
+            "description": "This macabre indie animated series is one of my favorite ARGs… Anatomy (1963) by Dragonfly takes place in an alternate reality ...",
+            "published_at": "2026-09-07T17:09:22Z",
+            "url": "https://www.youtube.com/watch?v=gD_gP_bMEtw"
+          }
+        ],
+        "channel_description": "Writer, Film Director, Alternate Reality Game Developer // Unfiction & Horror.",
+        "latest_video_at": "2026-09-07T17:09:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCkVKGn0hIiucDKsAQ9ix2Nw",
+      "external_id": "UCkVKGn0hIiucDKsAQ9ix2Nw",
+      "name": "Kangaroo Court of Australia",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCkVKGn0hIiucDKsAQ9ix2Nw",
+      "discovered_on": "2026-09-08",
+      "score": 68.8,
+      "metrics": {
+        "subscribers": 40000,
+        "total_views": 7213062,
+        "video_count": 875,
+        "avg_views_per_video": 8243.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "wOq9x1xhamw",
+            "title": "Anthony Albanese versus Pauline Hanson - Latest polls 7-9-26",
+            "description": "Admin: This YouTube channel and the Kangaroo Court of Australia website stay fully independent without corporate backing or ...",
+            "published_at": "2026-09-08T05:47:19Z",
+            "url": "https://www.youtube.com/watch?v=wOq9x1xhamw"
+          }
+        ],
+        "channel_description": "Kangaroo Court of Australia is published by independent journalist Shane Dowling. It is focused on investigating and reporting political corruption, judicial corruption and associated police corruption.\nI also publish videos on recent news, court cases, independent media, National Anti-Corruption Commission, AUKUS and Robodebt etc. \n \n",
+        "latest_video_at": "2026-09-08T05:47:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCmWB3ZAQS7NY0AyizdAu1UA",
+      "external_id": "UCmWB3ZAQS7NY0AyizdAu1UA",
+      "name": "新聞直擊",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCmWB3ZAQS7NY0AyizdAu1UA",
+      "discovered_on": "2026-09-08",
+      "score": 68.07,
+      "metrics": {
+        "subscribers": 48700,
+        "total_views": 19281092,
+        "video_count": 4309,
+        "avg_views_per_video": 4474.61,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "1PX3s8FNbQg",
+            "title": "膠帶封嘴雙手鼓掌 廣東網民默劇諷審查 #新聞直擊",
+            "description": "新聞直擊 #新聞快訊 #新闻直击 #新闻快讯 = 本節目由普瑞堂「玄寶黑蔘」贊助   購滿【普瑞堂】商品滿500美元，可獲贈九蒸九 ...",
+            "published_at": "2026-09-08T00:00:14Z",
+            "url": "https://www.youtube.com/watch?v=1PX3s8FNbQg"
+          }
+        ],
+        "channel_description": "🔥新聞直擊\n掌握全球新聞脈動，聚焦突發事件與政經局勢。從國際大事到紅牆內幕，快速、深入、為你解析真相。\n",
+        "latest_video_at": "2026-09-08T00:00:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC2rv0-wps_fjS1hLA-Ehm6w",
+      "external_id": "UC2rv0-wps_fjS1hLA-Ehm6w",
+      "name": "Wormy VPN",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC2rv0-wps_fjS1hLA-Ehm6w",
+      "discovered_on": "2026-09-08",
+      "score": 65.89,
+      "metrics": {
+        "subscribers": 2750,
+        "total_views": 7900527,
+        "video_count": 86,
+        "avg_views_per_video": 91866.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "DCn3Zro6YXo",
+            "title": "Мизулина устала от цензуры 🤡",
+            "description": "Екатерина Мизулина столкнулась с той самой цензурой, которую сама неоднократно поддерживала. Теперь её ...",
+            "published_at": "2026-09-07T18:05:25Z",
+            "url": "https://www.youtube.com/watch?v=DCn3Zro6YXo"
+          }
+        ],
+        "channel_description": "Ваш ключ к безопасности и свободе!\nПо вопросам сотрудничества - telegram: @wormybusiness\n",
+        "latest_video_at": "2026-09-07T18:05:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCK2pPbKHh0xYVM6KtwkG4Vw",
+      "external_id": "UCK2pPbKHh0xYVM6KtwkG4Vw",
+      "name": "MaxKelevra",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCK2pPbKHh0xYVM6KtwkG4Vw",
+      "discovered_on": "2026-09-08",
+      "score": 63.59,
+      "metrics": {
+        "subscribers": 4100,
+        "total_views": 5464719,
+        "video_count": 301,
+        "avg_views_per_video": 18155.21,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "v5Ny3nZTs88",
+            "title": "🈲 Запрещенная версия GTA 6 в Китае #gta6 #игры #shorts #short #shortvideo #bilibili",
+            "description": "Цензура в GTA 6 Китай оказалась жестче, чем мы ожидали! На платформе Bilibili показали 27-минутный геймплей, где ...",
+            "published_at": "2026-09-08T05:00:16Z",
+            "url": "https://www.youtube.com/watch?v=v5Ny3nZTs88"
+          }
+        ],
+        "channel_description": "🎮 Добро пожаловать на мой канал, посвящённый легендарной серии игр Grand Theft Auto!\nЗдесь ты найдёшь ролики по всем частям GTA — от GTA 3, Vice City, San Andreas, GTA 4 и GTA 5 до самых свежих новостей и геймплея GTA 6.\n\n🚗 На канале тебя ждёт:\n\n🔥 Прохождения и обзоры всех игр серии\n\n🕵️ Секреты, пасхалки и факты о GTA\n\n📈 Сравнения графики и эволюция GTA от старых частей до новых\n\n📰 Все новости и слухи о GTA 6\n\n🎥 Топы, теории и интересные факты о мире Grand Theft Auto\n\nПодписывайся, если любишь GTA так же, как я — впереди ещё много контента по GTA 6 и другим играм Rockstar Games! 🚀\n",
+        "latest_video_at": "2026-09-08T05:00:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCMoiGGT1tDzkFDbnM_2-RcQ",
+      "external_id": "UCMoiGGT1tDzkFDbnM_2-RcQ",
+      "name": "Blacknificent News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCMoiGGT1tDzkFDbnM_2-RcQ",
+      "discovered_on": "2026-09-08",
+      "score": 63.21,
+      "metrics": {
+        "subscribers": 5430,
+        "total_views": 3494740,
+        "video_count": 339,
+        "avg_views_per_video": 10308.97,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "0u2ncVDUYH4",
+            "title": "Don Lemon Launches His Own FREE Streaming Network 📺",
+            "description": "Don Lemon is expanding his independent media business with the launch of his own free streaming network. The veteran ...",
+            "published_at": "2026-09-08T05:09:19Z",
+            "url": "https://www.youtube.com/watch?v=0u2ncVDUYH4"
+          }
+        ],
+        "channel_description": "Shifting the narrative, showcasing Black excellence. #BlacknificentNews",
+        "latest_video_at": "2026-09-08T05:09:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCFyKMyO71zrc38_1XNSvrXA",
+      "external_id": "UCFyKMyO71zrc38_1XNSvrXA",
+      "name": "Senior Advocate Vikas Singh",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCFyKMyO71zrc38_1XNSvrXA",
+      "discovered_on": "2026-09-08",
+      "score": 62.26,
+      "metrics": {
+        "subscribers": 8900,
+        "total_views": 969822,
+        "video_count": 291,
+        "avg_views_per_video": 3332.72,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "EKUb7-cVS2o",
+            "title": "During Emergency News was Openly Censored, today it is  manipulated | Senior Advocate Vikas Singh",
+            "description": "How does news reporting today compare with the reporting during the Emergency? In my view, the difference is significant.",
+            "published_at": "2026-09-08T14:30:10Z",
+            "url": "https://www.youtube.com/watch?v=EKUb7-cVS2o"
+          }
+        ],
+        "channel_description": "Mr. Vikas Singh has built a distinguished legal career spanning over thirty five years at the Supreme Court of India. He was elevated to the rank of Senior Advocate in 2004 and later served as the Additional Solicitor General for the Government of India from 2005 to 2008.  His story is an inspiration to first generation young lawyers who wish to make it big in the legal profession. He has served as the President of the Supreme Court Bar Association for four terms\n\nA steadfast believer in fostering emerging talent, Mr. Singh has played a pivotal role in promoting the inclusion of marginalized youth in sports and education. He actively endorses initiatives aimed at improving the lives of underprivileged and differently-abled children, supporting organizations such as CRY and the Handicapped Children’s Association of India. A fervent supporter of female education and women rights.",
+        "latest_video_at": "2026-09-08T14:30:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCI--k5XkQ8fh91h33LI87eQ",
+      "external_id": "UCI--k5XkQ8fh91h33LI87eQ",
+      "name": " Aus Politics Report",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCI--k5XkQ8fh91h33LI87eQ",
+      "discovered_on": "2026-09-08",
+      "score": 58.97,
+      "metrics": {
+        "subscribers": 2700,
+        "total_views": 237723,
+        "video_count": 61,
+        "avg_views_per_video": 3897.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "hB690LMoZgQ",
+            "title": "BREAKING 🚨! Albanese government EXPOSED for internet censorship as Pauline Hanson rise",
+            "description": "Anthony Albanese is under fire as Australian politics explodes over cost of living, housing and free speech. While voters rank the ...",
+            "published_at": "2026-09-08T00:00:35Z",
+            "url": "https://www.youtube.com/watch?v=hB690LMoZgQ"
+          }
+        ],
+        "channel_description": "Welcome to Aus Politics Report – your home for raw, no-nonsense Australian political news and analysis. \n\nWe go deep into the heart of Canberra to bring you the truth behind the headlines. From the intense parliamentary clashes in Question Time to the policy battles between Anthony Albanese’s Labor government and Pauline Hanson’s One Nation party, we dissect the political movements shaping Australia’s future.\n\nWe focus strictly on the debates, the power shifts, and the accountability needed in our parliament. If you want a clear-eyed look at Australian politics, you are in the right place.\n\nSubscribe now for daily updates and analysis on the state of the nation.\n\n---\nFocus: Australian Politics | Anthony Albanese | Pauline Hanson | One Nation | Labor Party | Australian Parliament | Question Time | Canberra News.\n",
+        "latest_video_at": "2026-09-08T00:00:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCeRpXb78D0BplrIZ9p0uEiQ",
+      "external_id": "UCeRpXb78D0BplrIZ9p0uEiQ",
+      "name": "TOV- כותרות היום",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCeRpXb78D0BplrIZ9p0uEiQ",
+      "discovered_on": "2026-09-08",
+      "score": 58.15,
+      "metrics": {
+        "subscribers": 7200,
+        "total_views": 3956779,
+        "video_count": 5863,
+        "avg_views_per_video": 674.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "oHuuC-Zot_g",
+            "title": "יוני בן מנחם: &quot;משהו גדול מתרחש ברצועת עזה הצנזורה מונעת מאיתנו לספר&quot;",
+            "description": "לנופש Tov https://bit.ly/nofeshCYT הצטרפו למועדון החברים שלנו, מועדון היחידה: https://bit.ly/hayechidaCYT אהבתם? תעזרו לנו להמשיך ...",
+            "published_at": "2026-09-08T04:00:13Z",
+            "url": "https://www.youtube.com/watch?v=oHuuC-Zot_g"
+          }
+        ],
+        "channel_description": "ברוכים הבאים לערוץ היוטיוב 'TOV כותרות היום' מבית ערוץ TOV אקטואליה יהודית!\nלעמוד יעלו כותרות וידאו מתוך הראיונות המתקיימים בערוץ עם המרואיינים המבוקשים ביותר ובנושאים שעל סדר היום: ביטחון, פוליטיקה, משפט, יהדות וחברה. \nאנו מזמינים אתכם להירשם כמנויים לערוץ ולהישאר מעודכנים בכותרות בלעדיות!\n\n",
+        "latest_video_at": "2026-09-08T04:00:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCj8XpW7h-x6bXJkKoSxpTdQ",
+      "external_id": "UCj8XpW7h-x6bXJkKoSxpTdQ",
+      "name": "𝘮𝘢𝘪𝘥𝘦𝘯 & 𝘚𝘢𝘨𝘦",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCj8XpW7h-x6bXJkKoSxpTdQ",
+      "discovered_on": "2026-09-08",
+      "score": 56.73,
+      "metrics": {
+        "subscribers": 2380,
+        "total_views": 162271,
+        "video_count": 98,
+        "avg_views_per_video": 1655.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "MgS5EQZda0o",
+            "title": "Weaponization of Personal Relationship To Retaliate Video Of News &amp;  Independent Personal Exp",
+            "description": "",
+            "published_at": "2026-09-08T06:02:52Z",
+            "url": "https://www.youtube.com/watch?v=MgS5EQZda0o"
+          }
+        ],
+        "channel_description": "I channel for a collective of spiritual warriors. \nA collective of women and men who have endured injustice and perserved to become the hero they needed. We have become leaders in spirituality & religion, psychology, sociology, economics & politics. We are the leaders of the new age and our graduate school was systemic corruption.\n\n☕️ Buy Me A Coffee: \nhttps://buymeacoffee.com/novasophia\n💫Book a session: astraevena.com\n🖊️ Email: conversionsoflight@gmail.com\n⚖️PayPal.me/avsoultech\n\n🙏🏻God bless you\n\n\n***content should not and does not replace the counsel of licensed medical, psychological and legal professionals.\n***channeled messages are for entertainment purposes only \n\n#channeledmessages #psychicmedium #channeler #oracle #chosenones #starseed\n#tarot #medium #newearth #guidedmessages #aries #taurus #gemini #cancer #leo #virgo #libra #scorpio #Sagittarius #capricorn #aquarius #pisces #spirituality #lightworkers #ascension #lyran \n\n\n\n",
+        "latest_video_at": "2026-09-08T06:02:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCeO1r1w60KQvSCFYWNNXetg",
       "external_id": "UCeO1r1w60KQvSCFYWNNXetg",
