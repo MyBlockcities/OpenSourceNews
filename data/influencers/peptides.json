@@ -2,19 +2,332 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-08T14:38:59Z",
-  "new_this_run": 8,
-  "total_influencers": 264,
+  "updated_at": "2026-09-09T14:40:22Z",
+  "new_this_run": 6,
+  "total_influencers": 270,
   "run_summary": {
-    "run_started_at": "2026-09-08T14:38:39Z",
-    "candidate_count": 15,
-    "existing_count": 256,
-    "selected_new_count": 8,
+    "run_started_at": "2026-09-09T14:40:03Z",
+    "candidate_count": 14,
+    "existing_count": 264,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCVzsGTHcYSVjIpts7oaaKtw",
+      "external_id": "UCVzsGTHcYSVjIpts7oaaKtw",
+      "name": "Pain Specialists Australia | Pain Education Lab",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCVzsGTHcYSVjIpts7oaaKtw",
+      "discovered_on": "2026-09-09",
+      "score": 77.77,
+      "metrics": {
+        "subscribers": 12700,
+        "total_views": 1105082,
+        "video_count": 172,
+        "avg_views_per_video": 6424.9,
+        "matched_queries": 2,
+        "sample_videos": 4
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "sZXyLqeDTfs",
+            "title": "The Peptide That Could Kill You",
+            "description": "The peptide doctors use every day that can kill you if misused. And the one peptide FDA-approved for chronic pain, made from ...",
+            "published_at": "2026-09-09T02:00:24Z",
+            "url": "https://www.youtube.com/watch?v=sZXyLqeDTfs"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "sZXyLqeDTfs",
+            "title": "The Peptide That Could Kill You",
+            "description": "The peptide doctors use every day that can kill you if misused. And the one peptide FDA-approved for chronic pain, made from ...",
+            "published_at": "2026-09-09T02:00:24Z",
+            "url": "https://www.youtube.com/watch?v=sZXyLqeDTfs"
+          },
+          {
+            "query": "peptide therapy",
+            "video_id": "oj_IqA_B-1U",
+            "title": "This Peptide Can Harm If Misused. The Only FDA Approved One for Pain",
+            "description": "Are peptides for chronic pain actually effective? Specialists review the evidence, risks, & the only FDA-approved option. BPC-157 ...",
+            "published_at": "2026-09-08T20:00:30Z",
+            "url": "https://www.youtube.com/watch?v=oj_IqA_B-1U"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "oj_IqA_B-1U",
+            "title": "This Peptide Can Harm If Misused. The Only FDA Approved One for Pain",
+            "description": "Are peptides for chronic pain actually effective? Specialists review the evidence, risks, & the only FDA-approved option. BPC-157 ...",
+            "published_at": "2026-09-08T20:00:30Z",
+            "url": "https://www.youtube.com/watch?v=oj_IqA_B-1U"
+          }
+        ],
+        "channel_description": "We are a specialist chronic pain practice based in Melbourne (Richmond, Heidelberg, Bayside). Led by Specialist Pain Medicine Physicians (FFPMANZCA), our \"Diagnosis First\" philosophy aims to help patients understand the cause of pain.\n\n​Conditions managed include:\n• Chronic back & neck pain\n• Nerve pain & Neuropathy\n• CRPS & Trigeminal Neuralgia\n• Persistent pain after surgery (Spinal, Knee, and other)\n• Cancer pain\n\n​Educational Insights:\nOur channel explores evidence-base for various interventional management options, including targeted injections, radiofrequency (RFA) & more. \n\nLearn more: https://painspecialistsaustralia.com.au\n\n​Full Disclaimer: Content for educational purposes only; not a substitute for professional medical advice, diagnosis, or treatment. No doctor-patient relationship is established. Clinical cases discussed are de-identified or composite examples. In accordance with AHPRA, comments are moderated to prevent prohibited testimonials.",
+        "latest_video_at": "2026-09-09T02:00:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCr916X0FYsVrO6e15VJSQNw",
+      "external_id": "UCr916X0FYsVrO6e15VJSQNw",
+      "name": "The Longevity Experts",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCr916X0FYsVrO6e15VJSQNw",
+      "discovered_on": "2026-09-09",
+      "score": 69.27,
+      "metrics": {
+        "subscribers": 36100,
+        "total_views": 9129382,
+        "video_count": 770,
+        "avg_views_per_video": 11856.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "EFjGCVqgi04",
+            "title": "Why You Should Never Buy Cheap Peptides #healthtips #wellness #safety",
+            "description": "Are you sure about the peptide safety of what you are injecting? Many compounds on the market suffer from contamination and ...",
+            "published_at": "2026-09-09T01:30:17Z",
+            "url": "https://www.youtube.com/watch?v=EFjGCVqgi04"
+          }
+        ],
+        "channel_description": "📺 Welcome to The Longevity Experts\nYour daily source for science-based tips to help you age better, live longer, and feel stronger.\n\n🔬 What you’ll find here:\n• 🧬 Longevity science explained simply\n• 🕒 Anti-aging breakthroughs and real-time updates\n• 💊 The latest on supplements like NMN, resveratrol, and more..\n• 🥗 Lifestyle habits for longer healthspan\n• 💡 Expert clips, research highlights, and practical tips\n\n🎯 Our mission:\nTo give you the tools and knowledge to take control of your aging, and thrive at every age.\n\n👉 SUBSCRIBE NOW and join thousands of others optimizing their healthspan and future!\n\n🔥FOLLOW US:\nFacebook: The Longevity Experts\nInstagram: longevity2.0\n\n\n",
+        "latest_video_at": "2026-09-09T01:30:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC1MdABsireqRNa4tjzMWriw",
+      "external_id": "UC1MdABsireqRNa4tjzMWriw",
+      "name": "Todd Vande Hei",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC1MdABsireqRNa4tjzMWriw",
+      "discovered_on": "2026-09-09",
+      "score": 65.68,
+      "metrics": {
+        "subscribers": 5570,
+        "total_views": 233976,
+        "video_count": 190,
+        "avg_views_per_video": 1231.45,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "zGWuYttHgjw",
+            "title": "The Inside Story on Peptides: 16 Years, Real Cases, and What the FDA just did",
+            "description": "Peptides are completely reshaping longevity medicine, but how much do we actually know about them? In this video, Todd ...",
+            "published_at": "2026-09-09T07:40:21Z",
+            "url": "https://www.youtube.com/watch?v=zGWuYttHgjw"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "zGWuYttHgjw",
+            "title": "The Inside Story on Peptides: 16 Years, Real Cases, and What the FDA just did",
+            "description": "Peptides are completely reshaping longevity medicine, but how much do we actually know about them? In this video, Todd ...",
+            "published_at": "2026-09-09T07:40:21Z",
+            "url": "https://www.youtube.com/watch?v=zGWuYttHgjw"
+          }
+        ],
+        "channel_description": "Health is a skill. Most people just never learned it.\n\nI'm Todd Vande Hei--CEO of Stark, 15 years in health optimization. I've run operations at scale where the margin for error was thin, and my health almost broke before I figured out what actually works.\n\nThis channel is for business leaders who perform at a high level but treat their health like an afterthought. I'm here to change that--not with motivation, but with mechanism.\n\nNew episodes every Tuesday and Thursday.\n\nWhat you'll find here:\n- The science behind lifestyle, exercise, nutrition, stress management and hormones--explained plainly\n- What high-level performers actually get wrong about their bodies\n- The frameworks I use to optimize health without blowing up your schedule\n\nHealth is a skill.  And skills can be learned.\n",
+        "latest_video_at": "2026-09-09T07:40:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCeYcaUWp11Y_qM8gmLjjraQ",
+      "external_id": "UCeYcaUWp11Y_qM8gmLjjraQ",
+      "name": "Veterinary Channel",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCeYcaUWp11Y_qM8gmLjjraQ",
+      "discovered_on": "2026-09-09",
+      "score": 63.61,
+      "metrics": {
+        "subscribers": 21300,
+        "total_views": 1528077,
+        "video_count": 834,
+        "avg_views_per_video": 1832.23,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "R_z7U8y1Pnc",
+            "title": "Can Peptides Change the Future of Veterinary Cardiology? The Science May Surprise You",
+            "description": "Can peptides transform the future of veterinary cardiology? In this in-depth veterinary cardiology lecture, we explore one of the ...",
+            "published_at": "2026-09-09T13:00:27Z",
+            "url": "https://www.youtube.com/watch?v=R_z7U8y1Pnc"
+          }
+        ],
+        "channel_description": "Veterinary Channel delivers expert guidance on veterinary medicine and pet health. Run by a practicing veterinarian, we demystify dog health, cat health, equine medicine and exotic animal care through clear tutorials and case studies. Our playlists cover everything from veterinary neurology, dermatology, cardiology, oncology and nutrition to endocrinology, pharmacology, toxicology and gastroenterology. You’ll also find vet school lectures, NAVLE and ECFVG review sessions, zoonotic disease discussions, public health topics and inspiring pet rescue stories. Short “veterinary capsules” offer quick tips, while longer lectures dive into internal medicine, surgery and behavioral issues. Whether you’re a veterinarian, student or pet owner, subscribe to learn, stay updated and join a community dedicated to better animal care\n\n",
+        "latest_video_at": "2026-09-09T13:00:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCQ1vfTm4bKW-zP0zw4OzR2g",
+      "external_id": "UCQ1vfTm4bKW-zP0zw4OzR2g",
+      "name": "Access Labs",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCQ1vfTm4bKW-zP0zw4OzR2g",
+      "discovered_on": "2026-09-09",
+      "score": 60.18,
+      "metrics": {
+        "subscribers": 2020,
+        "total_views": 143289,
+        "video_count": 354,
+        "avg_views_per_video": 404.77,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "LSjUDYxO0qI",
+            "title": "Peptide Therapy Without Guesswork: Labs, Risks, and Readiness",
+            "description": "In this solo episode, we examine how Dr. Ivan Rusilko uses lab testing to decide when peptide therapy may be appropriate and ...",
+            "published_at": "2026-09-08T19:42:20Z",
+            "url": "https://www.youtube.com/watch?v=LSjUDYxO0qI"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "LSjUDYxO0qI",
+            "title": "Peptide Therapy Without Guesswork: Labs, Risks, and Readiness",
+            "description": "In this solo episode, we examine how Dr. Ivan Rusilko uses lab testing to decide when peptide therapy may be appropriate and ...",
+            "published_at": "2026-09-08T19:42:20Z",
+            "url": "https://www.youtube.com/watch?v=LSjUDYxO0qI"
+          }
+        ],
+        "channel_description": "Access is the nation's premier specialty diagnostic laboratory. We offer a broad menu of testing from blood, saliva, urine and swab samples. Tests are performed at our 25,000 square-foot ultra-automated facility in Jupiter, Florida. By providing your test results within 24 hours, we are able to deliver the most up-to-date information on your patients with speed, mobility, and convenience. Access provides our clients with solutions to save time, draw less blood on each patient and get faster results to improve patient care. With our broad menu of testing and products, we are able to simplify the lab process in each office allowing our clients to focus on their patients.",
+        "latest_video_at": "2026-09-08T19:42:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC9Z8lsMUW9Qq1No7rJXOUhQ",
+      "external_id": "UC9Z8lsMUW9Qq1No7rJXOUhQ",
+      "name": "Puppies and Horsepower",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC9Z8lsMUW9Qq1No7rJXOUhQ",
+      "discovered_on": "2026-09-09",
+      "score": 59.98,
+      "metrics": {
+        "subscribers": 4400,
+        "total_views": 1866043,
+        "video_count": 596,
+        "avg_views_per_video": 3130.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "-ZcYdUEkC7Q",
+            "title": "I Gave My Dog BPC-157 For A Year- Here&#39;s What Happened",
+            "description": "In this video, I share our honest one-year experience using BPC-157 with my dog and the changes I've noticed over time. I explain ...",
+            "published_at": "2026-09-08T21:23:21Z",
+            "url": "https://www.youtube.com/watch?v=-ZcYdUEkC7Q"
+          }
+        ],
+        "channel_description": "\n\nThis channel is Real Barn life, rescue dogs and a some cars. \n\nI made Puppies & Horsepower in hopes to save more rescues, inspire others to get involved and one day buy a horse from auction and save its life. \n\nThanks for being here🐴🐾\nPlease subscribe ❤️",
+        "latest_video_at": "2026-09-08T21:23:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCKhjbhDUcE3cGE_sjXzUduQ",
       "external_id": "UCKhjbhDUcE3cGE_sjXzUduQ",
