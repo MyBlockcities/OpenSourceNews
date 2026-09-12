@@ -2,19 +2,397 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-11T14:30:04Z",
-  "new_this_run": 6,
-  "total_influencers": 276,
+  "updated_at": "2026-09-12T13:39:08Z",
+  "new_this_run": 8,
+  "total_influencers": 284,
   "run_summary": {
-    "run_started_at": "2026-09-11T14:29:47Z",
-    "candidate_count": 14,
-    "existing_count": 270,
-    "selected_new_count": 6,
+    "run_started_at": "2026-09-12T13:38:50Z",
+    "candidate_count": 19,
+    "existing_count": 276,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCLtiTEKec-0Z1Gor_stI_-g",
+      "external_id": "UCLtiTEKec-0Z1Gor_stI_-g",
+      "name": "The Plastic Surgery Channel",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCLtiTEKec-0Z1Gor_stI_-g",
+      "discovered_on": "2026-09-12",
+      "score": 74.46,
+      "metrics": {
+        "subscribers": 27500,
+        "total_views": 14024034,
+        "video_count": 1860,
+        "avg_views_per_video": 7539.8,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "WHuWJlnrkNc",
+            "title": "Are Peptides the “Wild West” of Medicine? 😳💉",
+            "description": "Dr. Rod Rohrich and Dr. William Adams discuss the peptide boom, BPC-157, safety concerns, limited clinical research, and why ...",
+            "published_at": "2026-09-11T18:06:24Z",
+            "url": "https://www.youtube.com/watch?v=WHuWJlnrkNc"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "WHuWJlnrkNc",
+            "title": "Are Peptides the “Wild West” of Medicine? 😳💉",
+            "description": "Dr. Rod Rohrich and Dr. William Adams discuss the peptide boom, BPC-157, safety concerns, limited clinical research, and why ...",
+            "published_at": "2026-09-11T18:06:24Z",
+            "url": "https://www.youtube.com/watch?v=WHuWJlnrkNc"
+          }
+        ],
+        "channel_description": "The Plastic Surgery Channel is the world's 1st high end content creator devoted exclusively to Full Throttle Edutainment(sm) programming about Plastic and Cosmetic Surgery and beyond.  Our goal is to provide credible, up-to-date information,  bust the myths,  identify what is safe, as well as analyze the latest news and hot topics from the field of plastic surgery.",
+        "latest_video_at": "2026-09-11T18:06:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCdtcVbT54ZBGYraG-fgUUdA",
+      "external_id": "UCdtcVbT54ZBGYraG-fgUUdA",
+      "name": "РАЗБИРАТОР",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCdtcVbT54ZBGYraG-fgUUdA",
+      "discovered_on": "2026-09-12",
+      "score": 71.77,
+      "metrics": {
+        "subscribers": 9060,
+        "total_views": 2972024,
+        "video_count": 288,
+        "avg_views_per_video": 10319.53,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "NmeYXlS9R1Y",
+            "title": "Коротко и по делу про работу пептидов TB 500, BPC 157, GHRP, Melanotan. Купить Отзывы Как принимать",
+            "description": "",
+            "published_at": "2026-09-12T04:00:12Z",
+            "url": "https://www.youtube.com/watch?v=NmeYXlS9R1Y"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "NmeYXlS9R1Y",
+            "title": "Коротко и по делу про работу пептидов TB 500, BPC 157, GHRP, Melanotan. Купить Отзывы Как принимать",
+            "description": "",
+            "published_at": "2026-09-12T04:00:12Z",
+            "url": "https://www.youtube.com/watch?v=NmeYXlS9R1Y"
+          }
+        ],
+        "channel_description": "Разбор спортивного питания и БАДов. Состав, отзывы, как принимать и многое другое. \nХочешь заказать качественное и сертифицированное спортивное питание или просто задать вопросы, тогда вступайте в нашу телеграм группу https://t.me/sportpitdeshevle\n\n\n",
+        "latest_video_at": "2026-09-12T04:00:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCMfz_N4fTetS7dpYsjGEomQ",
+      "external_id": "UCMfz_N4fTetS7dpYsjGEomQ",
+      "name": "Salud Prolonga tu Vida",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCMfz_N4fTetS7dpYsjGEomQ",
+      "discovered_on": "2026-09-12",
+      "score": 70.21,
+      "metrics": {
+        "subscribers": 67500,
+        "total_views": 9802990,
+        "video_count": 1289,
+        "avg_views_per_video": 7605.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "iUgK0rcca_g",
+            "title": "OZEMPIC barato ya existe! #ozempic #glp-1 #semaglutida #patente #barato #medicamentos #péptidos",
+            "description": "El OZEMPIC barato ya existe!",
+            "published_at": "2026-09-11T15:37:13Z",
+            "url": "https://www.youtube.com/watch?v=iUgK0rcca_g"
+          }
+        ],
+        "channel_description": "En este canal podras encontrar informacion sobre salud, alimentacion, con algunas recetas y recomendaciones sobre los alimentos que son mejores para tu cuerpo y los peores, avances medicos mas recientes,  sobre todo en el tema de antienvejecimiento, dietas, especialmente sobre el ayuno intermitente, motivacion explicado de una manera sencilla y concisa.",
+        "latest_video_at": "2026-09-11T15:37:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC7TxsLKDZhTrSB7ytb1a1eA",
+      "external_id": "UC7TxsLKDZhTrSB7ytb1a1eA",
+      "name": "Pharmacy Central",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC7TxsLKDZhTrSB7ytb1a1eA",
+      "discovered_on": "2026-09-12",
+      "score": 63.7,
+      "metrics": {
+        "subscribers": 7810,
+        "total_views": 1056620,
+        "video_count": 136,
+        "avg_views_per_video": 7769.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "gImZIIfcklI",
+            "title": "BPC 157. Educational content only. Not medical advice. Talk to your own clinician.",
+            "description": "What the research shows: promising angiogenesis and tissue-repair signaling in animal models. What it doesn't show: human ...",
+            "published_at": "2026-09-11T21:02:03Z",
+            "url": "https://www.youtube.com/watch?v=gImZIIfcklI"
+          }
+        ],
+        "channel_description": "Welcome to Pharmacy Central! We’ve been rebranded so we can help more people! We want to make videos that help people understand medications! Check out the videos! Ask questions! Get educated on your meds! Let us help!",
+        "latest_video_at": "2026-09-11T21:02:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCB6u3naQNqx9qKvpqfye59Q",
+      "external_id": "UCB6u3naQNqx9qKvpqfye59Q",
+      "name": "Tina Haupert",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCB6u3naQNqx9qKvpqfye59Q",
+      "discovered_on": "2026-09-12",
+      "score": 61.17,
+      "metrics": {
+        "subscribers": 7480,
+        "total_views": 3188307,
+        "video_count": 1240,
+        "avg_views_per_video": 2571.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "tV329sfpkJk",
+            "title": "When I first started learning about peptides, I had NO idea what I was doing.",
+            "description": "When I first started learning about peptides, I had NO idea what I was doing. I made plenty of mistakes along the way, which is ...",
+            "published_at": "2026-09-11T15:55:58Z",
+            "url": "https://www.youtube.com/watch?v=tV329sfpkJk"
+          }
+        ],
+        "channel_description": "Certified Nutrition Coach and Functional Diagnostic Nutrition Practitioner (FDN-P). Hi, I’m Tina Haupert owner of Carrots ‘N’ Cake.\n\nOn this channel, you’ll find health and wellness tips, hormone education, macro nutrition, at-home workouts, and so much more! \n\nPlease subscribe to my channel and turn on the notifications option so that you’re notified every time I upload a new video. \n\nWelcome to my channel!\n",
+        "latest_video_at": "2026-09-11T15:55:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCOGT_-kFToXvW0TsIpasrvg",
+      "external_id": "UCOGT_-kFToXvW0TsIpasrvg",
+      "name": "Dr. Gabriel Almeida",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCOGT_-kFToXvW0TsIpasrvg",
+      "discovered_on": "2026-09-12",
+      "score": 58.81,
+      "metrics": {
+        "subscribers": 6930,
+        "total_views": 266755,
+        "video_count": 277,
+        "avg_views_per_video": 963.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "3G1MwYZ0U-Q",
+            "title": "A diferença entre peptídeo que virou medicamento e peptídeo que ficou famoso na internet",
+            "description": "Peptídeo é uma palavra que aparece cada vez mais, mas nem sempre com a distinção que ela exige. De um lado estão os ...",
+            "published_at": "2026-09-11T21:00:13Z",
+            "url": "https://www.youtube.com/watch?v=3G1MwYZ0U-Q"
+          }
+        ],
+        "channel_description": "Médico, Escritor, Palestrante, Professor e Empresário\nCRM-BA 18381 | RQE 17758\n",
+        "latest_video_at": "2026-09-11T21:00:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCIHXs26n5V_rNugxGjE0AoQ",
+      "external_id": "UCIHXs26n5V_rNugxGjE0AoQ",
+      "name": "Всё о Здоровье и Возрасте ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCIHXs26n5V_rNugxGjE0AoQ",
+      "discovered_on": "2026-09-12",
+      "score": 57.46,
+      "metrics": {
+        "subscribers": 4220,
+        "total_views": 757000,
+        "video_count": 728,
+        "avg_views_per_video": 1039.84,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "roXpv0duyes",
+            "title": "Чем ПЕПТИДЫ отличаются от гормональных препаратов",
+            "description": "Пептиды и гормоны - не две противоположные группы веществ. Некоторые гормоны по своей химической природе ...",
+            "published_at": "2026-09-12T10:00:22Z",
+            "url": "https://www.youtube.com/watch?v=roXpv0duyes"
+          }
+        ],
+        "channel_description": "Канал \"Всё о Здоровье и Возрасте \" – ваш источник проверенной информации о поддержании здоровья и качества жизни. Ведущие канала – профессор Андрей Ильницкий и профессор Кирилл Прощаев, признанные эксперты в области геронтологии и гериатрии с международным опытом и участием в мировых научных сообществах.\n\nВ основе нашего подхода – научные данные и многолетний опыт работы в области возрастной медицины.\n\nНа канале вы найдете:\n\n💊Экспертные рекомендации по поддержанию здоровья после 35 лет\n💊Советы по профилактике возрастных заболеваний\n💊Современные методы замедления старения\n💊Актуальные исследования и практические рекомендации от профессоров медицины \n\nПодписывайтесь, чтобы узнать, как сохранить здоровье и высокое качество жизни на долгие годы🥇\n",
+        "latest_video_at": "2026-09-12T10:00:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCJnc30MJIv4M2gaoRHbSfGQ",
+      "external_id": "UCJnc30MJIv4M2gaoRHbSfGQ",
+      "name": "BrainHeal(th)",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCJnc30MJIv4M2gaoRHbSfGQ",
+      "discovered_on": "2026-09-12",
+      "score": 55.02,
+      "metrics": {
+        "subscribers": 3270,
+        "total_views": 197164,
+        "video_count": 410,
+        "avg_views_per_video": 480.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "PQGFBwKak-o",
+            "title": "Can This Anti-Microbial Peptide Stop Alzheimer&#39;s In It&#39;s Tracks? | Dr. Annelise Barron",
+            "description": "Today, I am very honored to introduce Dr. Annelise Barron. Annelise E. Barron is the W.M. Keck Associate Professor of ...",
+            "published_at": "2026-09-11T20:59:43Z",
+            "url": "https://www.youtube.com/watch?v=PQGFBwKak-o"
+          }
+        ],
+        "channel_description": "My father was diagnosed with Early-onset Alzheimer's Disease in 2018 at the age of 53.  I am sharing what my family has learned in caregiving for him and helping him with the Bredesen Protocol since then.  Hope this is helpful to others!\n",
+        "latest_video_at": "2026-09-11T20:59:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCf40TAyZKPBMAykhY3RBHZQ",
       "external_id": "UCf40TAyZKPBMAykhY3RBHZQ",

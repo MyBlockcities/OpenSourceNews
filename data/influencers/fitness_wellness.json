@@ -2,19 +2,536 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-09-11T14:30:08Z",
-  "new_this_run": 12,
-  "total_influencers": 1226,
+  "updated_at": "2026-09-12T13:39:12Z",
+  "new_this_run": 13,
+  "total_influencers": 1239,
   "run_summary": {
-    "run_started_at": "2026-09-11T14:29:47Z",
-    "candidate_count": 41,
-    "existing_count": 1214,
-    "selected_new_count": 12,
+    "run_started_at": "2026-09-12T13:38:50Z",
+    "candidate_count": 51,
+    "existing_count": 1226,
+    "selected_new_count": 13,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC6nW8frXtSAmx64TZqV7eTQ",
+      "external_id": "UC6nW8frXtSAmx64TZqV7eTQ",
+      "name": "Oussama Shop1 💧",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC6nW8frXtSAmx64TZqV7eTQ",
+      "discovered_on": "2026-09-12",
+      "score": 73.81,
+      "metrics": {
+        "subscribers": 33000,
+        "total_views": 40453577,
+        "video_count": 1481,
+        "avg_views_per_video": 27315.04,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "UcZJepwLbtk",
+            "title": "What Does “For Research Only” Actually Mean?",
+            "description": "Some peptide products are sold online labeled “for research purposes only.” But what does that actually mean, and what happens ...",
+            "published_at": "2026-09-11T22:29:28Z",
+            "url": "https://www.youtube.com/watch?v=UcZJepwLbtk"
+          },
+          {
+            "query": "wellness peptides",
+            "video_id": "6vUwBFA8GPU",
+            "title": "Why Is Everyone Talking About Peptides?",
+            "description": "Peptide therapy has exploded in popularity, but what exactly are peptides — and what should we know about them?",
+            "published_at": "2026-09-11T16:41:44Z",
+            "url": "https://www.youtube.com/watch?v=6vUwBFA8GPU"
+          }
+        ],
+        "channel_description": "\n",
+        "latest_video_at": "2026-09-11T22:29:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJyW_DBrj59QwxhKSyFxptw",
+      "external_id": "UCJyW_DBrj59QwxhKSyFxptw",
+      "name": "Doctor Michael Mueller",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCJyW_DBrj59QwxhKSyFxptw",
+      "discovered_on": "2026-09-12",
+      "score": 69.09,
+      "metrics": {
+        "subscribers": 27700,
+        "total_views": 1138935,
+        "video_count": 72,
+        "avg_views_per_video": 15818.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "olT0xcAjKdg",
+            "title": "Dr. Mike Calls Out Peptides... My Response",
+            "description": "Welcome to the ultimate resource for Longevity, Hormone Optimization, and Biohacking, led by a Mayo Clinic Trained Family ...",
+            "published_at": "2026-09-11T22:26:04Z",
+            "url": "https://www.youtube.com/watch?v=olT0xcAjKdg"
+          }
+        ],
+        "channel_description": "Welcome to the ultimate resource for Longevity, Hormone Optimization, and Biohacking, led by a Mayo Clinic Trained Family Physician. I'm here to provide evidence-based strategies for extending your healthspan and dramatically improving your quality of life. My background in Longevity and Wellness Medicine allows me to deep-dive into the science behind the most effective therapies—from understanding the nuances of Peptide Therapy (like Sermorelin, Ipamorelin, and Tesamorelin) and Hormone Replacement (TRT), to maximizing performance with cutting-edge Biohacking techniques.\n\nSubscribe now to unlock expert insights on:\n\n🔬 Peptide Science: How specific peptides enhance muscle, recovery, and deep sleep.\n\n🧬 Hormone Health: Balancing testosterone, estrogen, and thyroid for peak vitality.\n\n⚡ Biohacking: Practical, science-backed protocols for energy and focus.\n\n🍎 Preventative & Wellness Medicine: Strategies to prevent disease and live longer, healthier.\n\n\n",
+        "latest_video_at": "2026-09-11T22:26:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC4GT37lESfvP9kuSeTGXwGg",
+      "external_id": "UC4GT37lESfvP9kuSeTGXwGg",
+      "name": "Alice Veglio",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC4GT37lESfvP9kuSeTGXwGg",
+      "discovered_on": "2026-09-12",
+      "score": 68.74,
+      "metrics": {
+        "subscribers": 43300,
+        "total_views": 5695963,
+        "video_count": 791,
+        "avg_views_per_video": 7200.96,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "LbSvbkEa51c",
+            "title": "5 upgrade di longevity e biohacking per un corpo più performante, non semplicemente più magro",
+            "description": "A settembre riparte tutto: il lavoro, gli impegni di famiglia, gli allenamenti e gli obiettivi da raggiungere entro fine anno. E spesso ...",
+            "published_at": "2026-09-12T06:59:25Z",
+            "url": "https://www.youtube.com/watch?v=LbSvbkEa51c"
+          }
+        ],
+        "channel_description": "Alice Veglio è Founder di Elevate, un ecosistema dedicato alla Human Performance, Longevity e Preventive Health. Da oltre dieci anni studia e applica le più avanzate strategie di ottimizzazione della salute, integrando preparazione atletica, nutrizione sportiva, medicina preventiva, recovery, biohacking e lifestyle optimization nel metodo proprietario Performance Operating System™. Attraverso il suo lavoro ha accompagnato oltre 65.000 persone in percorsi di trasformazione della salute e della performance, affiancando oggi imprenditori, executive e atleti nella costruzione di uno stile di vita sostenibile e ad alte prestazioni. È autrice di due bestseller, speaker internazionale, atleta di endurance con oltre 60 podi tra competizioni nazionali e internazionali, Miss Multiverse 2023 e 2nd Runner-Up Miss UAE 2026. Su questo canale condivide strategie evidence-based per aiutarti a vivere più a lungo, con più energia e a costruire un corpo capace di sostenere una vita straordinaria.",
+        "latest_video_at": "2026-09-12T06:59:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCM7LSQR3Huu0VeCEP2MlMCA",
+      "external_id": "UCM7LSQR3Huu0VeCEP2MlMCA",
+      "name": "Better Years",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCM7LSQR3Huu0VeCEP2MlMCA",
+      "discovered_on": "2026-09-12",
+      "score": 67.36,
+      "metrics": {
+        "subscribers": 7300,
+        "total_views": 4415991,
+        "video_count": 96,
+        "avg_views_per_video": 45999.91,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "tUv9OeNKvFo",
+            "title": "12 Simple Tests That Reveal If Your Body Is Aging Too Fast ⚠️ | Healthy Aging",
+            "description": "How well is your body actually aging? These 12 simple movement and balance tests can give you a quick look at areas such as ...",
+            "published_at": "2026-09-12T01:00:35Z",
+            "url": "https://www.youtube.com/watch?v=tUv9OeNKvFo"
+          }
+        ],
+        "channel_description": "Welcome to Better Years — where small daily habits can lead to a healthier, stronger and more fulfilling life.\n\nWe share simple, practical health and wellness tips focused on healthy aging, nutrition, fitness, mobility, sleep, brain health, heart health, longevity, and everyday habits.\n\nFrom foods that support your body to simple movements that help you stay strong, our goal is to make healthy living easy to understand and easy to apply.\n\nDiscover practical wellness ideas, learn something new, and build better habits — one day at a time.\n\nLive well. Age well. Make your years better.\n\nContent is for general informational and educational purposes only and is not a substitute for professional medical advice. \n",
+        "latest_video_at": "2026-09-12T01:00:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCvs38DNY3jqJM7t4U0OKrNg",
+      "external_id": "UCvs38DNY3jqJM7t4U0OKrNg",
+      "name": "Wellness Journey",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCvs38DNY3jqJM7t4U0OKrNg",
+      "discovered_on": "2026-09-12",
+      "score": 65.0,
+      "metrics": {
+        "subscribers": 7820,
+        "total_views": 2218826,
+        "video_count": 157,
+        "avg_views_per_video": 14132.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "vX8Ui9nedQc",
+            "title": "The Truth About Peptides: What We Still Don’t Know ⚠️ | Part 2",
+            "description": "Peptides are gaining huge popularity — but there's still a lot we don't know. In Part 2, Dr. Mike explains why the long-term safety ...",
+            "published_at": "2026-09-11T17:17:20Z",
+            "url": "https://www.youtube.com/watch?v=vX8Ui9nedQc"
+          }
+        ],
+        "channel_description": "Welcome to Wellness Journey — science-backed insights for a healthier, stronger & longer life. 🧠💪\n\nWe explore health, nutrition, longevity, fitness, sleep, mental performance and healthy aging, featuring insights from leading doctors, scientists, researchers and health experts.\n\nFrom muscle and metabolic health to supplements, brain health and the science of longevity, we turn complex health topics into simple, actionable insights.\n\nFollow the journey. Learn the science. Build a better life.\n\n🧬 Longevity & healthy aging\n💪 Muscle, strength & performance\n🥗 Nutrition & metabolic health\n🧠 Brain, sleep & mental wellness\n💊 Supplements & health science\n\nSubscribe to Wellness Journey for new health & wellness Shorts.\n\n\n",
+        "latest_video_at": "2026-09-11T17:17:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYSr0F-hz3Qz40bkpTJmf8A",
+      "external_id": "UCYSr0F-hz3Qz40bkpTJmf8A",
+      "name": "Marcio Indica",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCYSr0F-hz3Qz40bkpTJmf8A",
+      "discovered_on": "2026-09-12",
+      "score": 61.44,
+      "metrics": {
+        "subscribers": 49300,
+        "total_views": 259236,
+        "video_count": 1251,
+        "avg_views_per_video": 207.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "2Kxh_I-uq3A",
+            "title": "Battle Rope Sem Fio Alta Resistência para Treino Funcional HIIT Cardio Fitness em Casa Corpo Inteiro",
+            "description": "",
+            "published_at": "2026-09-11T20:53:18Z",
+            "url": "https://www.youtube.com/watch?v=2Kxh_I-uq3A"
+          }
+        ],
+        "channel_description": "Trazendo ótimos produtos para seu trabalho e dia a dia...\n",
+        "latest_video_at": "2026-09-11T20:53:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC013-i4w1FmhdeobIatFKug",
+      "external_id": "UC013-i4w1FmhdeobIatFKug",
+      "name": "S_NULYA_FIT",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC013-i4w1FmhdeobIatFKug",
+      "discovered_on": "2026-09-12",
+      "score": 61.27,
+      "metrics": {
+        "subscribers": 3160,
+        "total_views": 1258121,
+        "video_count": 140,
+        "avg_views_per_video": 8986.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "yHuPmDse69k",
+            "title": "🔥 ФУНКЦИОНАЛЬНАЯ ТРЕНИРОВКА С РЕЗИНОЙ #похудение #fitness #sports #workout #bodybuilding",
+            "description": "ФУНКЦИОНАЛЬНАЯ ТРЕНИРОВКА С РЕЗИНОЙ Резина — простой инструмент, который отлично добавляет нагрузку и ...",
+            "published_at": "2026-09-12T07:53:55Z",
+            "url": "https://www.youtube.com/watch?v=yHuPmDse69k"
+          }
+        ],
+        "channel_description": "ОЙБЕК | С НУЛЯ ФИТ 🧪\nХудею дома на глазах у всех.\n100 дней проверяю фитнес-мифы, тренировки и привычки на себе.\n\nКаждый день делаю базу: отжимания, приседания, пресс и упражнения для похудения дома.\nБез зала, без идеальных условий — просто дисциплина, движение и честный результат.\n\n🔥 БЕСПЛАТНЫЕ ОНЛАЙН ЗАРЯДКИ в 7:00 по МСК\n⏱ 15 минут ежедневно\n💪 Для бодрости, энергии и нормального старта дня, для тех кто чувствует себя разбитым;вялым;выжитым как лимон по утрам. \n\nЗдесь про то, как начать с нуля, победить лень, добавить движение в жизнь и постепенно привести себя в форму.\n\nХочешь присоединиться к зарядке — переходи по ссылке ниже:\n«Зарядка онлайн»\n\nНачинаем с нуля и становимся лучше вместе.\n",
+        "latest_video_at": "2026-09-12T07:53:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCT0otnPDbu4pK5WqvgPpP5g",
+      "external_id": "UCT0otnPDbu4pK5WqvgPpP5g",
+      "name": "Healthspan",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCT0otnPDbu4pK5WqvgPpP5g",
+      "discovered_on": "2026-09-12",
+      "score": 57.64,
+      "metrics": {
+        "subscribers": 2030,
+        "total_views": 81078,
+        "video_count": 103,
+        "avg_views_per_video": 787.17,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "_0eRnqg80w4",
+            "title": "Im not interested in 0",
+            "description": "Your cellular energy declines 10% per decade Yet 95% of people don't track the biology behind that decline. Healthspan helps ...",
+            "published_at": "2026-09-11T23:30:57Z",
+            "url": "https://www.youtube.com/watch?v=_0eRnqg80w4"
+          },
+          {
+            "query": "longevity protocol",
+            "video_id": "V-hE8UqcrE0",
+            "title": "Honest Review of GetHealthspan.com Longevity Protocols",
+            "description": "GetHealthspan is a best in class Longevity and Hormone Optimization company that specializes in personal care approaches to ...",
+            "published_at": "2026-09-11T22:42:36Z",
+            "url": "https://www.youtube.com/watch?v=V-hE8UqcrE0"
+          }
+        ],
+        "channel_description": "Healthspan optimizes human performance by targeting the biological mechanisms of aging. We empower our patients to re-gain control over the levers of aging that are at the foundation of most age-related chronic diseases.\n\nOur team of physicians and analysts review the most promising longevity science to make sense of what works and what doesn't, so you don't have to. Work with our doctors to discover science-based approaches designed to prolong your healthspan.\n",
+        "latest_video_at": "2026-09-11T23:30:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZ-Hnq2FpoRIA3TN386MSTg",
+      "external_id": "UCZ-Hnq2FpoRIA3TN386MSTg",
+      "name": "Gladyscoveries",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCZ-Hnq2FpoRIA3TN386MSTg",
+      "discovered_on": "2026-09-12",
+      "score": 53.88,
+      "metrics": {
+        "subscribers": 2810,
+        "total_views": 84732,
+        "video_count": 241,
+        "avg_views_per_video": 351.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "QPHWOKrst_Q",
+            "title": "Add this to your wellness routine 💙 #collagen #peptides #wellness #wellnesstips #multivitamins",
+            "description": "",
+            "published_at": "2026-09-12T00:10:46Z",
+            "url": "https://www.youtube.com/watch?v=QPHWOKrst_Q"
+          }
+        ],
+        "channel_description": "Learn how to travel and enjoy life! 💛",
+        "latest_video_at": "2026-09-12T00:10:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:fb39ee9e938a9b2978dc",
+      "external_id": "fb39ee9e938a9b2978dc",
+      "name": "MarkelKori",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/W4kkGaKMx9owiXHKy/comprehensive-faq-on-ai-risks",
+      "discovered_on": "2026-09-12",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/ylecun"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Comprehensive FAQ on AI risks"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d109fe03cabc6bcf64d0",
+      "external_id": "d109fe03cabc6bcf64d0",
+      "name": "beren",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/tgcooi77NXMquCR5L/mitigating-reward-hacking-as-institutional-design",
+      "discovered_on": "2026-09-12",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Mitigating Reward Hacking as Institutional Design"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:00527830c3ef6cd24872",
+      "external_id": "00527830c3ef6cd24872",
+      "name": "Ruby",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/LAPa2jxoq3n63GzTr/some-ways-ai-could-kill-us-all",
+      "discovered_on": "2026-09-12",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Some ways AI could kill us all"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e092952253a7e7059ca1",
+      "external_id": "e092952253a7e7059ca1",
+      "name": "Melanie",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/EenKC8JRRBTFvXhch/germany-s-got-talent-how-do-we-get-it-to-work-on-ai-safety",
+      "discovered_on": "2026-09-12",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Germany's Got Talent. How do we get it to work on AI safety?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCgA2iNaf5FudMwvMKbRhrRg",
       "external_id": "UCgA2iNaf5FudMwvMKbRhrRg",

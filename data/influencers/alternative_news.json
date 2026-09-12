@@ -2,19 +2,327 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-11T14:29:55Z",
-  "new_this_run": 3,
-  "total_influencers": 482,
+  "updated_at": "2026-09-12T13:38:59Z",
+  "new_this_run": 7,
+  "total_influencers": 489,
   "run_summary": {
-    "run_started_at": "2026-09-11T14:29:47Z",
-    "candidate_count": 12,
-    "existing_count": 479,
-    "selected_new_count": 3,
+    "run_started_at": "2026-09-12T13:38:50Z",
+    "candidate_count": 17,
+    "existing_count": 482,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC8PJeDW6y-7U3i1kYPvG6mw",
+      "external_id": "UC8PJeDW6y-7U3i1kYPvG6mw",
+      "name": "AV9 MARATHI",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC8PJeDW6y-7U3i1kYPvG6mw",
+      "discovered_on": "2026-09-12",
+      "score": 70.91,
+      "metrics": {
+        "subscribers": 47800,
+        "total_views": 24675440,
+        "video_count": 1448,
+        "avg_views_per_video": 17041.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "Mezl2Q0cUso",
+            "title": "काही वेळातच मधुर हत्ती नांदणीत दाखल होणार",
+            "description": "Welcome to AV9 Marathi News – your trusted source for the latest updates from Maharashtra, India, and around the world.",
+            "published_at": "2026-09-11T17:47:57Z",
+            "url": "https://www.youtube.com/watch?v=Mezl2Q0cUso"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-11T17:47:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCvg_a8AJiAFMJIyQjgJ6YvA",
+      "external_id": "UCvg_a8AJiAFMJIyQjgJ6YvA",
+      "name": "Pop7line",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCvg_a8AJiAFMJIyQjgJ6YvA",
+      "discovered_on": "2026-09-12",
+      "score": 69.91,
+      "metrics": {
+        "subscribers": 58000,
+        "total_views": 73708,
+        "video_count": 9,
+        "avg_views_per_video": 8189.78,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "CXWs-zUiInE",
+            "title": "Is TikTok Censoring Creators 🚨👀 #Shorts #TikTok #ContentCreator",
+            "description": "Is TikTok Censoring Creators? #Shorts #TikTok #ContentCreator Creators are raising concerns about censorship, while ...",
+            "published_at": "2026-09-12T11:04:48Z",
+            "url": "https://www.youtube.com/watch?v=CXWs-zUiInE"
+          }
+        ],
+        "channel_description": "\nBienvenue sur la chaîne Pop7line !\nIci, vous trouverez un contenu rempli de défis quotidiens, de projets créatifs et d'idées innovantes pour vous inspirer et vous divertir ! Que vous cherchiez des astuces pour réaliser de nouvelles choses ou que vous aimiez regarder des défis passionnants, cette chaîne est faite pour vous.\n\nN'oubliez pas de vous abonner à la chaîne pour ne rien manquer de nos nouveautés.\n\nPour nous contacter ou nous faire part de vos suggestions, rendez-vous sur notre page Facebook via ce lien : https://www.facebook.com/profile.php?id=61569272978868&mibextid=ZbWKwL",
+        "latest_video_at": "2026-09-12T11:04:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCctAbp36Kn3eKvCH6I14vMA",
+      "external_id": "UCctAbp36Kn3eKvCH6I14vMA",
+      "name": "BBN News Digital",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCctAbp36Kn3eKvCH6I14vMA",
+      "discovered_on": "2026-09-12",
+      "score": 67.83,
+      "metrics": {
+        "subscribers": 68600,
+        "total_views": 39811258,
+        "video_count": 16050,
+        "avg_views_per_video": 2480.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "v3cCfNqLEiA",
+            "title": "Prakash Raj slams modern censorship, calls SIR ‘bloodless genocide’",
+            "description": "Follow BBN NEWS channel on WhatsApp: https://whatsapp.com/channel/0029VaisXu0B4hdbaz3DNS1L BBN NEWS AND ...",
+            "published_at": "2026-09-11T16:00:10Z",
+            "url": "https://www.youtube.com/watch?v=v3cCfNqLEiA"
+          }
+        ],
+        "channel_description": "Welcome to BBN NEWS (BHOJANI BROADCASTING NETWORK)  for breaking news, live events, and in-depth analysis from around the world. Our team of experienced journalists works around the clock to bring you the latest updates on politics, business, technology, sports, entertainment, and more.\n\n\n",
+        "latest_video_at": "2026-09-11T16:00:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC9DcQw93PokRzT0BZMz5JIg",
+      "external_id": "UC9DcQw93PokRzT0BZMz5JIg",
+      "name": "Mankulem Goa",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC9DcQw93PokRzT0BZMz5JIg",
+      "discovered_on": "2026-09-12",
+      "score": 64.71,
+      "metrics": {
+        "subscribers": 23500,
+        "total_views": 19242805,
+        "video_count": 7289,
+        "avg_views_per_video": 2639.98,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "ga1yMUyTfac",
+            "title": "Independent journalism has kept the Fourth Pillar of Democracy intact, says activist Xencor Polgi.",
+            "description": "",
+            "published_at": "2026-09-11T17:13:38Z",
+            "url": "https://www.youtube.com/watch?v=ga1yMUyTfac"
+          }
+        ],
+        "channel_description": "Mankulem GOA\nTumche Vichar... Tumcho Samachar... \nYour Views... Your News...\nThe aim of my channel is to give the ordinary Goans a voice to air their genuine grievances. ",
+        "latest_video_at": "2026-09-11T17:13:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7fkrI1BIrPfdO34H9Cd7qA",
+      "external_id": "UC7fkrI1BIrPfdO34H9Cd7qA",
+      "name": "Rxan Smith",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7fkrI1BIrPfdO34H9Cd7qA",
+      "discovered_on": "2026-09-12",
+      "score": 63.27,
+      "metrics": {
+        "subscribers": 2210,
+        "total_views": 1173037,
+        "video_count": 315,
+        "avg_views_per_video": 3723.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://instagram.com/RxanSmithUncomfortable"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "RsZzFzCs2h4",
+            "title": "Alternative: “The Problem With Being Afraid to Say ‘Terrorist’”",
+            "description": "What Are We Supposed to Call 9/11? What happens when journalists become so concerned about politically charged language ...",
+            "published_at": "2026-09-12T04:04:02Z",
+            "url": "https://www.youtube.com/watch?v=RsZzFzCs2h4"
+          }
+        ],
+        "channel_description": "Welcome to Rxan Smith: Uncomfortable: where narratives get tested, not repeated.\n\nThis channel breaks down politics, culture, economics, and society without partisan blinders or ideological loyalty. No team sports. No talking points. Just evidence, contradictions, and uncomfortable truths.\n\nIf you’re tired of being told what to think instead of how to think, you’re in the right place.\nNew episodes, breakdowns, and short-form takes weekly.\n\nTruth > Comfort.\n\nSubstack:\nhttps://uncomfortable.rxansmithmedia.com\n\nInstagram:\nhttps://instagram.com/RxanSmithUncomfortable\n\nX/🐦 :\nhttps://x.com/@rxaNNsmith\n\nFacebook:\nhttps://Facebook.com/Ryan.X.Smith \n\nHomepage:\nhttps://rxansmithmedia.com/\n\nMy Live Debt Clock\nhttps://rxansmithmedia.com/debtclock/\n\nSupport Me:\nhttps://buymeacoffee.com/rxansmith",
+        "latest_video_at": "2026-09-12T04:04:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqPOKwqdciAGCmpbMQMY0-g",
+      "external_id": "UCqPOKwqdciAGCmpbMQMY0-g",
+      "name": "THE Voice of Islam ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCqPOKwqdciAGCmpbMQMY0-g",
+      "discovered_on": "2026-09-12",
+      "score": 61.93,
+      "metrics": {
+        "subscribers": 2230,
+        "total_views": 248479,
+        "video_count": 125,
+        "avg_views_per_video": 1987.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@voiceofislam_AH"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "JrXyP2HK6GA",
+            "title": "7th September 1974: Victory or Historical Defeat? | Independent Journalism | Voice of Islam",
+            "description": "Is 7th September a Victory or a Defeat? | Independent Journalism Analysis | Voice of Islam 7 September 1974: Celebration or ...",
+            "published_at": "2026-09-12T12:59:56Z",
+            "url": "https://www.youtube.com/watch?v=JrXyP2HK6GA"
+          }
+        ],
+        "channel_description": "Welcome to Voice of Islam.\nThis channel presents the true teachings of Islam based on the Holy Quran and the life of Prophet Muhammad (PBUH).\nWe also explain Islam in the light of the teachings of Mirza Ghulam Ahmad (AS) with references and authentic sources.\n\nThis is a faceless channel using AI voice, where original videos are created with research, proofs, and clear explanations to promote truth, peace, and guidance for humanity.\n\nVoice of Islam par Islam ki asal taleemat pesh ki jati hain jo Quran aur Nabi Kareem ﷺ ki zindagi par mabni hain.\nYahan Ahmadiyya taleemat ke hawale se bhi Islam ki wazahat ki jati hai, Hazrat Mirza Ghulam Ahmad (AS) ki roshni mein.\n\nYe ek faceless channel hai jahan AI voice ke zariye apni original videos banai jati hain, mukammal hawala jat aur research ke sath.\n\nhttps://www.youtube.com/@voiceofislam_AH",
+        "latest_video_at": "2026-09-12T12:59:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCk9NnWzQoClSaw0LpW3MaZw",
+      "external_id": "UCk9NnWzQoClSaw0LpW3MaZw",
+      "name": "Mirror7 News | Breaking News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCk9NnWzQoClSaw0LpW3MaZw",
+      "discovered_on": "2026-09-12",
+      "score": 58.26,
+      "metrics": {
+        "subscribers": 9910,
+        "total_views": 5499617,
+        "video_count": 77530,
+        "avg_views_per_video": 70.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://www.twitter.com/mirror7news",
+        "youtube": "https://www.youtube.com/@mirror7news"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "PApuyLDv2VU",
+            "title": "Democratic Senate Candidate Blasts FCC Censorship After ABC Pulls Interview",
+            "description": "Jimmy Kimmel Censored Interview - Democratic candidate James Talarico slams government censorship after his interview with ...",
+            "published_at": "2026-09-11T02:34:29Z",
+            "url": "https://www.youtube.com/watch?v=PApuyLDv2VU"
+          }
+        ],
+        "channel_description": "🌟 Stay Updated with Mirror7 News 🌟\n\nGet the most comprehensive, up-to-date coverage on everything happening around the globe! 🗞️ From National 🏠 to World News 🌍, from Sports 🏅 to Entertainment 🎬, we’ve got it all! Dive into breaking news, trending stories, celebrity gossip, political updates, and so much more! 📰✨\n\nFor More interesting latest news and updates, Stay Connected with us.\n🔔 SUBSCRIBE NOW: https://www.youtube.com/@mirror7news\n👉 Follow us on Social Media:\nFacebook: https://www.facebook.com/mirror7news1\nTwitter: https://www.twitter.com/mirror7news\nTelegram: https://t.me/mirror7news\n\n📌 Categories Covered:\n🏠 National News\n🌍 World News\n⚽ Sports News\n🎬 Celebrity News & Gossip\n🗳️ Political News\n🎉 Events & Entertainment\n🎥 Cinema\n🔥 And much more!\n\n#LiveNews #BreakingNews #TrendingNews #Entertainment #CelebrityGossip #SportsNews #NationalNews #WorldNews #LatestUpdates #Mirror7News #IndiaNews #PoliticalNews #HotTopics #LiveUpdates #SubscribeNow #TrendingNow\n",
+        "latest_video_at": "2026-09-11T02:34:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCtAwSz4C20IR5zBA07WvsNA",
       "external_id": "UCtAwSz4C20IR5zBA07WvsNA",
