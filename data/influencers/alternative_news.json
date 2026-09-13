@@ -2,19 +2,624 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-12T13:38:59Z",
-  "new_this_run": 7,
-  "total_influencers": 489,
+  "updated_at": "2026-09-13T14:28:35Z",
+  "new_this_run": 14,
+  "total_influencers": 503,
   "run_summary": {
-    "run_started_at": "2026-09-12T13:38:50Z",
-    "candidate_count": 17,
-    "existing_count": 482,
-    "selected_new_count": 7,
+    "run_started_at": "2026-09-13T14:28:27Z",
+    "candidate_count": 23,
+    "existing_count": 489,
+    "selected_new_count": 14,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCygWVrkNHcCL_KC7rOnrRyw",
+      "external_id": "UCygWVrkNHcCL_KC7rOnrRyw",
+      "name": "JoseLDJ Galer-IA Musical",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCygWVrkNHcCL_KC7rOnrRyw",
+      "discovered_on": "2026-09-13",
+      "score": 72.54,
+      "metrics": {
+        "subscribers": 50800,
+        "total_views": 1157659,
+        "video_count": 35,
+        "avg_views_per_video": 33075.97,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "EykfqjX9V_Y",
+            "title": "El Corrido de Manuel Pedrero: El Periodista Independiente que Enfrenta al PRIAN",
+            "description": "Amigas y amigos! Les presento un corrido muy especial dedicado al joven periodista mexicano Manuel Pedrero. Una canción ...",
+            "published_at": "2026-09-12T21:00:05Z",
+            "url": "https://www.youtube.com/watch?v=EykfqjX9V_Y"
+          }
+        ],
+        "channel_description": "¡Bienvenidos a JoseLDJ Galer-IA Musical! 🎧 Tu espacio donde la creatividad humana, la tecnología y la música se unen sin límites.\n\nSoy JoseL, productor y director del canal. Aquí encontrarás una inmensa variedad de géneros: desde cumbias, bachatas, salsa y rock, hasta mariachi y fusiones. Creamos canciones románticas, música para bailar, temas para reflexionar y canciones de temporada. Además, mantenemos viva la crónica popular con nuestros corridos políticos, apoyando con orgullo la transformación de nuestro país y los ideales de la 4T. 🇲🇽\n\n🤖 ¿Por qué \"GalerIA\"?\nUso Inteligencia Artificial (IA) como apoyo técnico, pero el alma de este proyecto es 100% humana y original. Yo me encargo personalmente de:\n✍️ Investigar los temas y escribir todas las letras.\n🎨 Dirigir el arte visual conceptual.\n🎬 Realizar el montaje y la edición manual en video en FILMORA PRO\n\nAl final de cada lanzamiento te muestro mi \"detrás de cámaras\" para que veas el proceso de creación. ¡Suscríbete y acompáñame! 🚀🎶",
+        "latest_video_at": "2026-09-12T21:00:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7OcBcyFQs4Uqh5q9Y-SV7g",
+      "external_id": "UC7OcBcyFQs4Uqh5q9Y-SV7g",
+      "name": "La minute info",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7OcBcyFQs4Uqh5q9Y-SV7g",
+      "discovered_on": "2026-09-13",
+      "score": 71.98,
+      "metrics": {
+        "subscribers": 29700,
+        "total_views": 22581916,
+        "video_count": 4171,
+        "avg_views_per_video": 5414.03,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://twitter.com/yt_laminuteinfo",
+        "tiktok": "https://www.tiktok.com/@yt_laminuteinfo"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "6Rw2bwXaK-Y",
+            "title": "LA CENSURE DÉLIRANTE DES ATHLÈTES FÉMININES , LES PREMIÈRES ÉMISSIONS SONT LA, LE CAMÉRAMAN EN SUEUR",
+            "description": "Le lien de mon TIPEE si tu souhaites me soutenir : https://fr.tipeee.com/la-minute-info Ma chaîne de secours si un jour celle-ci ...",
+            "published_at": "2026-09-13T09:45:30Z",
+            "url": "https://www.youtube.com/watch?v=6Rw2bwXaK-Y"
+          }
+        ],
+        "channel_description": "Cette chaîne a pour but de parler de l'actualité, que ça soit dans les jeux vidéos ou la politique. \n\nVoici le lien de mon tipee pour me soutenir : https://fr.tipeee.com/la-minute-info/description\n\nVoici mon twitter : https://twitter.com/yt_laminuteinfo\n\nVoici mon tiktok : https://www.tiktok.com/@yt_laminuteinfo\n",
+        "latest_video_at": "2026-09-13T09:45:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWHwGMurxJDpov3lduGT4ng",
+      "external_id": "UCWHwGMurxJDpov3lduGT4ng",
+      "name": "BERLIN247",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWHwGMurxJDpov3lduGT4ng",
+      "discovered_on": "2026-09-13",
+      "score": 65.81,
+      "metrics": {
+        "subscribers": 9260,
+        "total_views": 3808489,
+        "video_count": 236,
+        "avg_views_per_video": 16137.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "DVykm8dfzfU",
+            "title": "Cancel Culture ist Teil eines Zensurregimes gegen Alternativmedien: Michael Meyen",
+            "description": "Am 30. August 2026 fand in Magdeburg das Festival der Meinungsfreiheit - Gemeinsam gegen Cancel Culture statt. Es war eine ...",
+            "published_at": "2026-09-12T18:11:35Z",
+            "url": "https://www.youtube.com/watch?v=DVykm8dfzfU"
+          }
+        ],
+        "channel_description": "BERLIN24/7 Nachrichten aus Berlin - ist ein unabhängiges Nachrichten- und Informationsportal \n\nIm Zentrum unserer Berichterstattung stehen Nachrichten, Meinungsbeiträge, Analysen und Interviews zum aktuellen Zeitgeschehen in Berlin, Deutschland, Europa und der Welt.\nWer sich differenzierte Sichtweisen aus verschiedenen Perspektiven interessiert ist bei uns richtig.\n\nUm nichts zu verpassten abonnieren Sie unseren Kanal und/oder folgen Sie uns auf: \nOffizielle Webseite: https://berlin247.net\nFacebook: https://www.facebook.com/profile.php?id=61556336081860\nTelegram: @Berlin247nachrichten\n\nHier können Sie unsere Arbeit unterstützen:\nPaypal: https://paypal.me/berlin247net\noder\nBerlin 24/7 GmbH\nDE22 8105 0555 0101 0400 24\n",
+        "latest_video_at": "2026-09-12T18:11:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRMwGiNw5N5MqfYSfHeVIKw",
+      "external_id": "UCRMwGiNw5N5MqfYSfHeVIKw",
+      "name": "Не По Плану",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCRMwGiNw5N5MqfYSfHeVIKw",
+      "discovered_on": "2026-09-13",
+      "score": 65.76,
+      "metrics": {
+        "subscribers": 4130,
+        "total_views": 5239568,
+        "video_count": 107,
+        "avg_views_per_video": 48967.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "DhX3qHOSi7g",
+            "title": "🚪 «Здесь живет предатель»: Как надписи на дверях и травля стали оружием против журналистов",
+            "description": "ХУК И ОСНОВНОЙ ТЕЗИС Истории журналистки Оксаны Акмаевой о травле, надписях «Здесь живет предатель» на ...",
+            "published_at": "2026-09-13T14:00:37Z",
+            "url": "https://www.youtube.com/watch?v=DhX3qHOSi7g"
+          }
+        ],
+        "channel_description": " 🚨 НЕ ПО ПЛАНУ\nДобро пожаловать на канал, где новости заканчиваются, а здравый смысл только начинается.\nЗдесь мы разбираем самые громкие события, политические заявления, российскую пропаганду, уличные опросы, экономику, кризисы, громкие обещания и то, как реальность иногда расходится с телевизионной картинкой.\nБез истерики. Без лозунгов. Зато с иронией, сарказмом и неудобными вопросами.\n📌 На канале вы найдете:\n• разбор новостей и громких заявлений;\n• реакции на интервью и выступления политиков;\n• уличные опросы и мнения обычных людей;\n• анализ пропаганды и информационных манипуляций;\n• обсуждение экономики, цен, бензина, санкций и жизни обычных граждан.\n🎭 Иногда реальность оказывается смешнее любого анекдота. Мы лишь обращаем на это внимание.\nЕсли вам близок критический взгляд, если вы предпочитаете думать самостоятельно, а не повторять готовые лозунги — вы по адресу.\n📺 Новые видео выходят ежедневно\n🔔 Подписывайтесь\nНе по плану. Потому что жизнь редко идет по методичке.\n\n",
+        "latest_video_at": "2026-09-13T14:00:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCAPkZk1r9pm9NTel8tIR8ZQ",
+      "external_id": "UCAPkZk1r9pm9NTel8tIR8ZQ",
+      "name": "Clip Spark",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCAPkZk1r9pm9NTel8tIR8ZQ",
+      "discovered_on": "2026-09-13",
+      "score": 63.62,
+      "metrics": {
+        "subscribers": 2070,
+        "total_views": 18015174,
+        "video_count": 376,
+        "avg_views_per_video": 47912.7,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "tVPWi06ZU84",
+            "title": "London, 1973. The censors saw sin. PaulaWilcox...#shorts#shortvideo#actor#history",
+            "description": "London, 1973. The censors saw sin. Paula Wilcox saw something simpler: three kids splitting rent. Man About The House put a ...",
+            "published_at": "2026-09-13T03:40:32Z",
+            "url": "https://www.youtube.com/watch?v=tVPWi06ZU84"
+          }
+        ],
+        "channel_description": "We don't just share clips we spark conversations.\n\nClip Spark digs deeper, verifies facts, and connects the dots so each story is told with authenticity. Real stories. Real insights. Real connections.\n\n",
+        "latest_video_at": "2026-09-13T03:40:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCANoJ9MLB0MZ2HIl_7Gp8lg",
+      "external_id": "UCANoJ9MLB0MZ2HIl_7Gp8lg",
+      "name": "cortedoscortes75",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCANoJ9MLB0MZ2HIl_7Gp8lg",
+      "discovered_on": "2026-09-13",
+      "score": 63.31,
+      "metrics": {
+        "subscribers": 11000,
+        "total_views": 10248904,
+        "video_count": 2547,
+        "avg_views_per_video": 4023.91,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "gOLFZfrZCsY",
+            "title": "Censura na Mídia: Como Autoridades Controlam Notícias #shorts",
+            "description": "Juízes e ministros ligam para redações exigindo censura, cortando verbas e ditando pautas. A liberdade de imprensa sob ...",
+            "published_at": "2026-09-12T19:03:42Z",
+            "url": "https://www.youtube.com/watch?v=gOLFZfrZCsY"
+          }
+        ],
+        "channel_description": "Cortes mais populares da Internet Brasileira",
+        "latest_video_at": "2026-09-12T19:03:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCGkZYR3m-aDLQFpx0XaRb8Q",
+      "external_id": "UCGkZYR3m-aDLQFpx0XaRb8Q",
+      "name": "Jose Silva ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCGkZYR3m-aDLQFpx0XaRb8Q",
+      "discovered_on": "2026-09-13",
+      "score": 59.89,
+      "metrics": {
+        "subscribers": 2110,
+        "total_views": 3008473,
+        "video_count": 358,
+        "avg_views_per_video": 8403.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "UFHCrfzJvuY",
+            "title": "Jornalismo Independente: Saindo da Globo para Criar Algo Melhor #shorts",
+            "description": "",
+            "published_at": "2026-09-13T12:13:52Z",
+            "url": "https://www.youtube.com/watch?v=UFHCrfzJvuY"
+          }
+        ],
+        "channel_description": "🚀 Vídeos curtos que prendem sua atenção!\nEntretenimento, curiosidades e momentos épicos em poucos segundos ⏱️\n🔥 Conteúdo novo todo dia\n👉 Inscreva-se e faça parte!\n",
+        "latest_video_at": "2026-09-13T12:13:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCMSZqiMQpL-KP6M8iFYU-Ug",
+      "external_id": "UCMSZqiMQpL-KP6M8iFYU-Ug",
+      "name": "비사(秘史)극장[역사정주행]",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCMSZqiMQpL-KP6M8iFYU-Ug",
+      "discovered_on": "2026-09-13",
+      "score": 58.94,
+      "metrics": {
+        "subscribers": 2340,
+        "total_views": 2090295,
+        "video_count": 281,
+        "avg_views_per_video": 7438.77,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "1eD6YGs3Fks",
+            "title": "둘리는 원래 사람 아이였다 — 심의를 피해 공룡이 된 1983년 #한국사 #역사쇼츠 #비사극장",
+            "description": "2003년 4월, 부천시가 만화 주인공에게 명예 주민등록증을 발급했습니다. 생년월일 1983년 4월 22일. 8년 뒤 서울 도봉구는 같은 공룡 ...",
+            "published_at": "2026-09-12T08:30:05Z",
+            "url": "https://www.youtube.com/watch?v=1eD6YGs3Fks"
+          }
+        ],
+        "channel_description": "비사극장은 교과서 한 줄로 지나쳤던 역사 속 순간들을 짧고 강렬한 이야기로 다시 보여주는 역사 쇼츠 채널입니다.\n\n전쟁, 왕조, 인물, 사건, 야사와 숨겨진 기록까지.\n긴 설명보다 한 장면의 몰입감, 어려운 해설보다 기억에 남는 스토리로 전합니다.\n\n우리가 몰랐던 선택, 잊힌 희생, 기록 뒤에 가려진 진실.\n비사극장은 과거의 이야기를 오늘의 시선으로 재구성해, 짧은 시간 안에 역사적 울림을 남깁니다.\n\n역사를 지루한 암기가 아니라, 한 편의 장면처럼 보고 싶다면\n지금 비사극장에서 숨겨진 역사의 문을 열어보세요.\n",
+        "latest_video_at": "2026-09-12T08:30:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCW5r5uf27-jBetrlkNqc7IA",
+      "external_id": "UCW5r5uf27-jBetrlkNqc7IA",
+      "name": "Sarkari Rojgar Mission ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCW5r5uf27-jBetrlkNqc7IA",
+      "discovered_on": "2026-09-13",
+      "score": 58.53,
+      "metrics": {
+        "subscribers": 7650,
+        "total_views": 2081005,
+        "video_count": 2823,
+        "avg_views_per_video": 737.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "yyrltUFEbC4",
+            "title": "CM Yogi से सवाल पूछना पड़ा भारी? Journalist Divya Shrivastava का बड़ा दावा! 😱 #CMYogi",
+            "description": "CM Yogi से सवाल पूछना पड़ा भारी? Journalist Divya Shrivastava का बड़ा दावा! #CMYogi ...",
+            "published_at": "2026-09-13T10:52:28Z",
+            "url": "https://www.youtube.com/watch?v=yyrltUFEbC4"
+          }
+        ],
+        "channel_description": "   🙏 Sarkari Rojgar Mission में आपका स्वागत है!\nयह चैनल उन सभी विद्यार्थियों के लिए है जो\nसरकारी नौकरी (Sarkari Naukri) का सपना देखते हैं । \nयहाँ आपको मिलेगा:\n✔️ SSC (GD, CGL, CHSL, MTS) की पूरी तैयारी\n✔️ Banking (IBPS, SBI, RRB) Exam Guidance\n✔️ Railway (NTPC, Group D) की रणनीति\n✔️ Police & Defence Exam तैयारी\n✔️ Daily Practice Questions\n✔️ Previous Year Questions (PYQ)\n✔️ Exam Tips, Tricks & Strategy\n✔️ Hindi माध्यम में आसान और स्पष्ट समझाना\n🎯 हमारा उद्देश्य:\nहर मेहनती छात्र तक सही मार्गदर्शन, सटीक जानकारी और गुणवत्तापूर्ण शिक्षा पहुँचाना, ताकि आप अपना सरकारी नौकरी का सपना पूरा कर सकें।\nSarkari Rojgar Mission – आपकी सफलता का साथी!\n#SarkariRojgarMission\n#SarkariRojgar\n#SarkariNaukri\n#SarkariJob\n#GovtJob\n#GovtJobAlert\n#SarkariBharti\n#RojgarSamachar\n#EmploymentNews\n#LatestSarkariJob\n#NewVacancy\n#OnlineForm\n#ExamNotification\n#FreeJobAlert\n#CompetitiveExam\n#SSCJob\n#RailwayJob\n#BankJob\n#PoliceBharti\n#DefenceJob\n#TeachingJob\n#10thPassJob\n#12thPassJob\n#GraduateJob\n#JobAlertHindi",
+        "latest_video_at": "2026-09-13T10:52:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCvf1oDtt1iOcRnjLoCA8ozg",
+      "external_id": "UCvf1oDtt1iOcRnjLoCA8ozg",
+      "name": "Chats with Colesy",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCvf1oDtt1iOcRnjLoCA8ozg",
+      "discovered_on": "2026-09-13",
+      "score": 58.26,
+      "metrics": {
+        "subscribers": 2070,
+        "total_views": 3194173,
+        "video_count": 784,
+        "avg_views_per_video": 4074.2,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "QhtYqQrrGeQ",
+            "title": "Labor’s Duty of Care: The Slippery Slope to China-Style Online Censorship",
+            "description": "Labor's new Digital Duty of Care laws are not about safety — they're about control. After the under-16 social media ban, the ...",
+            "published_at": "2026-09-12T20:00:12Z",
+            "url": "https://www.youtube.com/watch?v=QhtYqQrrGeQ"
+          }
+        ],
+        "channel_description": "My views on news, politics, culture and social issues both in Australia and around the world.\n",
+        "latest_video_at": "2026-09-12T20:00:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWLzLroFiWy5bJfFTeK4G2g",
+      "external_id": "UCWLzLroFiWy5bJfFTeK4G2g",
+      "name": "NoboDoy",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWLzLroFiWy5bJfFTeK4G2g",
+      "discovered_on": "2026-09-13",
+      "score": 58.14,
+      "metrics": {
+        "subscribers": 3820,
+        "total_views": 830526,
+        "video_count": 510,
+        "avg_views_per_video": 1628.48,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "TetfB9ykURs",
+            "title": "সেল্ফ সেন্সরশিপের কারণও মালিকানার ধরন।। Nobodoy",
+            "description": "মুক্ত সাংবাদিকতার বড় অন্তরায় সেলফ সেন্সরশিপ: স্বাধীন গণমাধ্যম ও ...",
+            "published_at": "2026-09-13T12:00:22Z",
+            "url": "https://www.youtube.com/watch?v=TetfB9ykURs"
+          }
+        ],
+        "channel_description": "Nobodoy is an analysis-first, public-interest digital media platform based in Bangladesh. In a crowded environment dominated by speed, virality, and reactive reporting, Nobodoy takes a different approach. It focuses on explaining events rather than simply reporting them. Every story is built around context, data, and relevance, with an emphasis on why something happened, who it affects, and what it means going forward.\n\nNobodoy does not treat news as a one-time event. It follows stories over time, tracks developments, and examines outcomes. This follow-up culture ensures that issues are not forgotten once they fade from public attention.\n\nThe platform works across multiple formats—including video, text, podcasts, and documentaries—to present layered storytelling. From short-form explainers to long-form investigative content, each format is designed to serve a clear editorial purpose.\n",
+        "latest_video_at": "2026-09-13T12:00:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCLdLzvZuPsgipUnynd-IIew",
+      "external_id": "UCLdLzvZuPsgipUnynd-IIew",
+      "name": "Mad Black Entertainment",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCLdLzvZuPsgipUnynd-IIew",
+      "discovered_on": "2026-09-13",
+      "score": 56.96,
+      "metrics": {
+        "subscribers": 2580,
+        "total_views": 432397,
+        "video_count": 264,
+        "avg_views_per_video": 1637.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "TocF6lwMa5c",
+            "title": "Chibi Reviews Keeps Pushing Censorship Fear — Let’s Run The Receipts",
+            "description": "Chibi Reviews keeps talking about anime censorship, but how much of the fear is actually backed by the evidence? Tonight, we're ...",
+            "published_at": "2026-09-13T06:42:35Z",
+            "url": "https://www.youtube.com/watch?v=TocF6lwMa5c"
+          }
+        ],
+        "channel_description": "🔴 MAD BLACK ENTERTAINMENT 🔴\n\nCommentary with receipts. I hold anime and Dragon Ball creators accountable — no fake leaks, no manufactured hype, no \"CONFIRMED\" in the title and hedging in the video.\n\nI call out the grifters, the liars, and the fanboys who turned their audience into an ATM. If you're tired of being lied to for six, seven years straight, you're in the right place.\n\nJust evidence, played back and broken down. This is the altar of the real.\n\nPart of the league, part of the crew.\n\n\n\n\n\n\n\n\n\n\n",
+        "latest_video_at": "2026-09-13T06:42:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UClbDqE3hsbCP0x8uM0fJXow",
+      "external_id": "UClbDqE3hsbCP0x8uM0fJXow",
+      "name": "KNOW iT",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UClbDqE3hsbCP0x8uM0fJXow",
+      "discovered_on": "2026-09-13",
+      "score": 53.08,
+      "metrics": {
+        "subscribers": 3260,
+        "total_views": 1883448,
+        "video_count": 9568,
+        "avg_views_per_video": 196.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "uuFChAXXEAI",
+            "title": "What Is Social Media Censorship? 📱🚫",
+            "description": "Social media has become one of the biggest ways people share news, opinions, videos, and ideas. But not everything posted ...",
+            "published_at": "2026-09-13T00:41:25Z",
+            "url": "https://www.youtube.com/watch?v=uuFChAXXEAI"
+          }
+        ],
+        "channel_description": "Welcome to your ultimate destination for mind-expanding facts, brain-twisting riddles, powerful knowledge, and fun learning! 🎓✨ On this channel, we explore fascinating facts from science, history, space, psychology, technology, food, and more—no topic is off-limits! You'll also enjoy thought-provoking riddles, clever puzzles, and creative abbreviations that sharpen your mind and challenge your logic. Whether you're a curious learner, a trivia lover, or just someone who enjoys fun, fast, and factual content, there’s something here for you. Our goal is to make learning exciting and entertaining, one video at a time. So if you love discovering new things, solving smart challenges, and feeding your curiosity, subscribe now and join a growing community that celebrates knowledge in all its forms!\n\n🧠🔔 New videos uploaded regularly—don’t miss out!\n\nChannel is solely dedicated to gaining Knowledge especially targeted towards young Minds.\n\nHope, you all will support this cause.",
+        "latest_video_at": "2026-09-13T00:41:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqh7qo0KuSnut8NMhoFIjNw",
+      "external_id": "UCqh7qo0KuSnut8NMhoFIjNw",
+      "name": "SBS South Asian",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCqh7qo0KuSnut8NMhoFIjNw",
+      "discovered_on": "2026-09-13",
+      "score": 50.17,
+      "metrics": {
+        "subscribers": 4300,
+        "total_views": 1248378,
+        "video_count": 22751,
+        "avg_views_per_video": 54.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "I3shi9Zi064",
+            "title": "Censorship or child safety? The fight over Australia&#39;s Digital Duty of Care bill | SBS Hindi",
+            "description": "The Coalition calls it a 'Trojan horse' for censorship, while the Greens say they'll work with Labor to strengthen it.",
+            "published_at": "2026-09-12T09:00:11Z",
+            "url": "https://www.youtube.com/watch?v=I3shi9Zi064"
+          }
+        ],
+        "channel_description": "SBS is the national multilingual, multicultural and Indigenous media organisation for all Australians. \n\nUse of this account is subject to SBS Terms and Conditions: https://sbs.com.au/terms\nFeedback or complaints: https://sbs.com.au/complaints\n\nHOUSE RULES\n\nThis account shares news, information, and stories in your language.\nWe'd love for you to leave comments. However, please always be respectful of others otherwise or we might need to remove your comments.\nWe also reserve the right to remove spam, reposts, repetitive comments, and those that attempt to interrupt or derail a conversation between other members of the community. Whilst we welcome contributions, we do not endorse the content of those contributions.\nContributions should comply with SBS' Network Terms and Conditions and Privacy Policy which are linked clearly below.\n\nNetwork Terms and Conditions:\nhttps://sbs.com.au/terms\n\nPrivacy Policy\nhttps://sbs.com.au/privacy\n",
+        "latest_video_at": "2026-09-12T09:00:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC8PJeDW6y-7U3i1kYPvG6mw",
       "external_id": "UC8PJeDW6y-7U3i1kYPvG6mw",

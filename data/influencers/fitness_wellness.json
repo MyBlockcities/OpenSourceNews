@@ -2,19 +2,407 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-09-12T13:39:12Z",
-  "new_this_run": 13,
-  "total_influencers": 1239,
+  "updated_at": "2026-09-13T14:28:48Z",
+  "new_this_run": 10,
+  "total_influencers": 1249,
   "run_summary": {
-    "run_started_at": "2026-09-12T13:38:50Z",
-    "candidate_count": 51,
-    "existing_count": 1226,
-    "selected_new_count": 13,
+    "run_started_at": "2026-09-13T14:28:27Z",
+    "candidate_count": 50,
+    "existing_count": 1239,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCWt8iaWEqOQXgABJwxomGyA",
+      "external_id": "UCWt8iaWEqOQXgABJwxomGyA",
+      "name": "BlancoDickyVerse",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCWt8iaWEqOQXgABJwxomGyA",
+      "discovered_on": "2026-09-13",
+      "score": 69.58,
+      "metrics": {
+        "subscribers": 8720,
+        "total_views": 36914124,
+        "video_count": 176,
+        "avg_views_per_video": 209739.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "F8CnlLr7_kg",
+            "title": "Bryan Johnson just called out everyone’s bedtime routine, and Lil Dicky spoke for all of us 💀",
+            "description": "While sitting down on Friends Keep Secrets, longevity pioneer Bryan Johnson listed off the top things that elevate your heart rate ...",
+            "published_at": "2026-09-13T14:15:09Z",
+            "url": "https://www.youtube.com/watch?v=F8CnlLr7_kg"
+          }
+        ],
+        "channel_description": "Fan page dedicated to Friends Keep Secrets. Featuring content inspired by @friendskeepsecrets, @bennyblanco, and @lildickyrap.\n\nFKS Moments curates short clips and standout highlights from Friends Keep Secrets, edited into quick, easy-to-watch videos.\n\nThis page is run by a fan who enjoys the content and aims to showcase some of the best moments—especially those involving Benny Blanco, Lil Dicky, and related appearances.\n\nAll content is edited and shared for entertainment purposes.\n\nShort clips, clean edits, consistent uploads.\n",
+        "latest_video_at": "2026-09-13T14:15:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDd0QNR-W2176BkmvO6ms4A",
+      "external_id": "UCDd0QNR-W2176BkmvO6ms4A",
+      "name": "Kochi Traveller ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCDd0QNR-W2176BkmvO6ms4A",
+      "discovered_on": "2026-09-13",
+      "score": 61.58,
+      "metrics": {
+        "subscribers": 4950,
+        "total_views": 1693217,
+        "video_count": 306,
+        "avg_views_per_video": 5533.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "LF2gN0IMfrk",
+            "title": "#gym #workout #motivation #fitness #powerlifting #legday #shorts",
+            "description": "Deadlifts, squats, and leg presses are powerful lower-body compound exercises that build maximum strength, muscle size, and ...",
+            "published_at": "2026-09-13T06:30:21Z",
+            "url": "https://www.youtube.com/watch?v=LF2gN0IMfrk"
+          }
+        ],
+        "channel_description": "Those who love travel, please subscribe to the channel and join us 😍😍",
+        "latest_video_at": "2026-09-13T06:30:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCuztUObIftL0PcqkB9oZRtw",
+      "external_id": "UCuztUObIftL0PcqkB9oZRtw",
+      "name": "빌더 사전",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCuztUObIftL0PcqkB9oZRtw",
+      "discovered_on": "2026-09-13",
+      "score": 61.51,
+      "metrics": {
+        "subscribers": 2830,
+        "total_views": 12424169,
+        "video_count": 1058,
+        "avg_views_per_video": 11743.07,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "Sg-2kzgdYhc",
+            "title": "기능성 운동인가?",
+            "description": "운동 #오운완 #운동상식 #운동지식 #스쿼트 #데드리프트 #벤치프레스 #3대운동 #꿀팁 영상 및 사진 원본은 인스타 ...",
+            "published_at": "2026-09-13T11:00:02Z",
+            "url": "https://www.youtube.com/watch?v=Sg-2kzgdYhc"
+          }
+        ],
+        "channel_description": "당신이 몰랐던 여러선수들의 소식을 전해봐요\n\n💌메일:whalsdn888@gmail.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n🐶🌜🧔📣✸\n",
+        "latest_video_at": "2026-09-13T11:00:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCC_mbgJsuqX3laWXe24N3ww",
+      "external_id": "UCC_mbgJsuqX3laWXe24N3ww",
+      "name": "StrongCast",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCC_mbgJsuqX3laWXe24N3ww",
+      "discovered_on": "2026-09-13",
+      "score": 59.69,
+      "metrics": {
+        "subscribers": 8160,
+        "total_views": 1348714,
+        "video_count": 1169,
+        "avg_views_per_video": 1153.73,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "5R9dt1icG5I",
+            "title": "Bodybuilding + fitness funcional + wellness",
+            "description": "El 74.º Clásico Mr. México vuelve al WTC dentro de Wellness Weekend 2026, programado del 1 al 4 de octubre. DEKA STRONG ...",
+            "published_at": "2026-09-13T02:42:10Z",
+            "url": "https://www.youtube.com/watch?v=5R9dt1icG5I"
+          }
+        ],
+        "channel_description": "El podcast para desbloquear tu potencial fitness.",
+        "latest_video_at": "2026-09-13T02:42:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCzU_XRl7TBfvyAiKaHfVRMw",
+      "external_id": "UCzU_XRl7TBfvyAiKaHfVRMw",
+      "name": "RachelsThriving",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCzU_XRl7TBfvyAiKaHfVRMw",
+      "discovered_on": "2026-09-13",
+      "score": 59.27,
+      "metrics": {
+        "subscribers": 5820,
+        "total_views": 1719848,
+        "video_count": 712,
+        "avg_views_per_video": 2415.52,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "nrz1BdK6HMs",
+            "title": "Which is Best? Collagen peptides for skin &amp; joints",
+            "description": "Looking for the best deal on NATURE TARGET Multi Collagen Peptides Powder, 50 Servings? Grab it here: ...",
+            "published_at": "2026-09-11T19:00:14Z",
+            "url": "https://www.youtube.com/watch?v=nrz1BdK6HMs"
+          }
+        ],
+        "channel_description": "I’m Rachel—a busy mom of 5, master multitasker, and lover of all things that make life simpler; sharing practical tips, time-saving hacks, and budget-friendly finds to help you thrive, not just survive. From home organization to everyday must-haves, I share real solutions for real life—mom-tested, life-approved, and ready to make your days easier!",
+        "latest_video_at": "2026-09-11T19:00:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCd81miJkjKOzT46UFBJNxWg",
+      "external_id": "UCd81miJkjKOzT46UFBJNxWg",
+      "name": "Johanna Koelle",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCd81miJkjKOzT46UFBJNxWg",
+      "discovered_on": "2026-09-13",
+      "score": 55.05,
+      "metrics": {
+        "subscribers": 3100,
+        "total_views": 138595,
+        "video_count": 264,
+        "avg_views_per_video": 524.98,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "ci4jdvHeV6A",
+            "title": "Poco tiempo para ejercitarse? Vea las mejores opciones sin lesiones pero con resultados!",
+            "description": "johannakoelle enlace al artículo completo con las alternativas más eficaces si no tiene mucho tiempo pero desea entrenarse de ...",
+            "published_at": "2026-09-13T08:00:34Z",
+            "url": "https://www.youtube.com/watch?v=ci4jdvHeV6A"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-13T08:00:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1uqemmurHwZl6UTDFt0tjA",
+      "external_id": "UC1uqemmurHwZl6UTDFt0tjA",
+      "name": "Round Table Wellness Guild",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC1uqemmurHwZl6UTDFt0tjA",
+      "discovered_on": "2026-09-13",
+      "score": 53.66,
+      "metrics": {
+        "subscribers": 6160,
+        "total_views": 61189,
+        "video_count": 580,
+        "avg_views_per_video": 105.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "XQr5ZlIO5rc",
+            "title": "The Truth About Peptides and Weight Loss",
+            "description": "Peptides are the new fitness craze sweeping North America. How much do you know about it and how much are you willing to ...",
+            "published_at": "2026-09-12T17:30:47Z",
+            "url": "https://www.youtube.com/watch?v=XQr5ZlIO5rc"
+          }
+        ],
+        "channel_description": "The Round Table Wellness Guild (formerly Universal Citizen Media) empowers individuals from all walks of life to reclaim their health through a radically inclusive, community-driven approach where every member's voice, story, and wisdom holds equal weight. We unite practitioners, seekers, and advocates in a shared circle of support, education, and transformative well-being. We envision a world where wellness is not a privilege reserved for the few, but a living, breathing community practice accessible to everyone — a global guild where healing is collective, knowledge is shared freely, and no one walks the path to health alone.",
+        "latest_video_at": "2026-09-12T17:30:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:f3e238be399624458f0a",
+      "external_id": "f3e238be399624458f0a",
+      "name": "L3moncak3",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/wTA8eYK8isetdiLyi/we-need-a-the-day-after-moment-for-ai-x-risk",
+      "discovered_on": "2026-09-13",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/DouglasYaoDY",
+        "youtube": "https://www.youtube.com/@AISpecies"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "We need a ‘The Day After’ moment for AI X-risk"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9fba026b99f5ccc31e27",
+      "external_id": "9fba026b99f5ccc31e27",
+      "name": "Logan Zoellner",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/DijcCYaTHFmwjDFGd/a-helpful-alignment-gadget",
+      "discovered_on": "2026-09-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A helpful alignment gadget"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:09e136732a3463171680",
+      "external_id": "09e136732a3463171680",
+      "name": "Akshay Iyer",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/aHcu8qAwA8aYd3RkW/what-pacing-the-frontier-means-for-china",
+      "discovered_on": "2026-09-13",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "What pacing the frontier means for China"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC6nW8frXtSAmx64TZqV7eTQ",
       "external_id": "UC6nW8frXtSAmx64TZqV7eTQ",

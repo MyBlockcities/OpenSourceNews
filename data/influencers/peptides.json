@@ -2,19 +2,336 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-12T13:39:08Z",
-  "new_this_run": 8,
-  "total_influencers": 284,
+  "updated_at": "2026-09-13T14:28:44Z",
+  "new_this_run": 7,
+  "total_influencers": 291,
   "run_summary": {
-    "run_started_at": "2026-09-12T13:38:50Z",
-    "candidate_count": 19,
-    "existing_count": 276,
-    "selected_new_count": 8,
+    "run_started_at": "2026-09-13T14:28:27Z",
+    "candidate_count": 24,
+    "existing_count": 284,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCkp7UpF4WKcczHB0S-3G1VA",
+      "external_id": "UCkp7UpF4WKcczHB0S-3G1VA",
+      "name": "Dr. Amy Myers",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCkp7UpF4WKcczHB0S-3G1VA",
+      "discovered_on": "2026-09-13",
+      "score": 72.4,
+      "metrics": {
+        "subscribers": 30500,
+        "total_views": 3570173,
+        "video_count": 563,
+        "avg_views_per_video": 6341.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/amymyersmd"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "-XpBgmGhHWY",
+            "title": "The Dangers of Buying GLP-1s Online: Gray Market, Contamination, and Compounding Pharmacies",
+            "description": "Thinking about ordering a GLP-1 online? In this segment, McCall McPherson of Modern Thyroid Clinic explains what's actually ...",
+            "published_at": "2026-09-13T12:00:34Z",
+            "url": "https://www.youtube.com/watch?v=-XpBgmGhHWY"
+          }
+        ],
+        "channel_description": "I am Amy Myers, MD, a functional medicine physician and 2x New York Times best-selling author of The Autoimmune Solution and The Thyroid Connection. \n\nConventional medicine failed me and it is my mission to not let it fail you too! My approach is to address the environmental root causes of chronic illness - diet, gut health, toxins, infections, and stress, rather than masking symptoms with harsh medications.\n\nAnd to help as many people as possible overcome their autoimmune disease, Hashimoto's, Graves, thyroid conditions, Candida overgrowth, gut issues, and other chronic health concerns, I share all that I can through my articles, videos, books, and programs. \n\nSo, let’s get started–and Take Back Your Health(R)\n \nVisit my website: http://www.amymyersmd.com and  http://www.dramymyers.com \n\nFacebook: https://www.facebook.com/amymyersmd and https://www.facebook.com/dramymyers\nInstagram: https://www.instagram.com/amymyersmd/  and https://www.instagram.com/dramymyers\n",
+        "latest_video_at": "2026-09-13T12:00:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UChcJOUpYQUpvHeJRygjStNg",
+      "external_id": "UChcJOUpYQUpvHeJRygjStNg",
+      "name": "Passport Dog",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UChcJOUpYQUpvHeJRygjStNg",
+      "discovered_on": "2026-09-13",
+      "score": 66.03,
+      "metrics": {
+        "subscribers": 14900,
+        "total_views": 1756967,
+        "video_count": 191,
+        "avg_views_per_video": 9198.78,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "ikWEJ61ElB4",
+            "title": "How To Start A Peptide Business: How To Run Peptide Ads In 2026",
+            "description": "Welcome to our channel — an educational resource on peptide research. Source --- https://linktr.ee/Peptides.my In this video, we ...",
+            "published_at": "2026-09-12T16:16:53Z",
+            "url": "https://www.youtube.com/watch?v=ikWEJ61ElB4"
+          }
+        ],
+        "channel_description": "Instagram @Passportdog \nDonate Cashapp $Passportdog",
+        "latest_video_at": "2026-09-12T16:16:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCmVEa1uvKbj5tj7DyDIQzWQ",
+      "external_id": "UCmVEa1uvKbj5tj7DyDIQzWQ",
+      "name": "Optimal Health Medical Group",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCmVEa1uvKbj5tj7DyDIQzWQ",
+      "discovered_on": "2026-09-13",
+      "score": 65.17,
+      "metrics": {
+        "subscribers": 9290,
+        "total_views": 3095203,
+        "video_count": 258,
+        "avg_views_per_video": 11996.91,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "K4pOp8maBDk",
+            "title": "Peptides: Why source matters more than you think",
+            "description": "Are medical grade peptides actually safe to use? The danger isn't the molecule itself, but the reality of peptide sourcing.",
+            "published_at": "2026-09-12T16:00:06Z",
+            "url": "https://www.youtube.com/watch?v=K4pOp8maBDk"
+          }
+        ],
+        "channel_description": "Doctor-Led Hormone Health Protocols For Modern Men\nPersonalized by Dr. Nielsen\n\nReclaim Energy. Restore Drive.\nTestosterone • Peptides • Sexual Health\n\nGet Free Hormone Assessment Today!\n\nInformative & instructional videos on testosterone replacement therapy, genetic testing, and anti-aging medicine from Optimal Health Medical Group in La Jolla, California.",
+        "latest_video_at": "2026-09-12T16:00:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCs8MlPInCZwH391Jd7pGXiA",
+      "external_id": "UCs8MlPInCZwH391Jd7pGXiA",
+      "name": "The Peptide Enthusiast",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCs8MlPInCZwH391Jd7pGXiA",
+      "discovered_on": "2026-09-13",
+      "score": 58.44,
+      "metrics": {
+        "subscribers": 3380,
+        "total_views": 638905,
+        "video_count": 287,
+        "avg_views_per_video": 2226.15,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "IcWV2T8Opv8",
+            "title": "There’s a sweet spot with your Glp-1. Peps in bio code WILL20",
+            "description": "",
+            "published_at": "2026-09-12T18:51:31Z",
+            "url": "https://www.youtube.com/watch?v=IcWV2T8Opv8"
+          }
+        ],
+        "channel_description": "Peptides and big discounts found in my link tree! https://linktr.ee/ThePeptideEnthusiast Feel free to reach out to me via DM on Tik Tok at @PepEnthusiast.  Hope you stick around to learn a little more and thank you for watching my content!  ",
+        "latest_video_at": "2026-09-12T18:51:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC1kKLoEZv74mBo6qi0kv45A",
+      "external_id": "UC1kKLoEZv74mBo6qi0kv45A",
+      "name": "MediSol Pharmacy | Pharmacist Stan",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC1kKLoEZv74mBo6qi0kv45A",
+      "discovered_on": "2026-09-13",
+      "score": 58.43,
+      "metrics": {
+        "subscribers": 2910,
+        "total_views": 771302,
+        "video_count": 282,
+        "avg_views_per_video": 2735.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "bhfUXtu2cM8",
+            "title": "BPC-157: What Does the Human Evidence Show? ",
+            "description": "BPC-157 is often called the “Wolverine peptide” because of claims involving tendon, muscle, ligament, and gut repair. But what ...",
+            "published_at": "2026-09-13T04:35:23Z",
+            "url": "https://www.youtube.com/watch?v=bhfUXtu2cM8"
+          }
+        ],
+        "channel_description": "MediSol Pharmacy in Glendale, AZ. I'm Pharmacist Stan, and I make medication education easier to understand. Compounding, hormone therapy, pain management, sexual health, vaccines, and everyday prescription questions answered by a licensed pharmacist.\n\nVisit us: \n6666 W Peoria Ave, Suite 101, Glendale, AZ 85302\nCall: 623-299-8054\nmedisolpharmacy.com\n\nEducational content only. Not medical advice. Talk to your own pharmacist or prescriber about your situation.",
+        "latest_video_at": "2026-09-13T04:35:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCwZl8aW0hzc7NQMQkPa5BYw",
+      "external_id": "UCwZl8aW0hzc7NQMQkPa5BYw",
+      "name": "DrGregHealth",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCwZl8aW0hzc7NQMQkPa5BYw",
+      "discovered_on": "2026-09-13",
+      "score": 58.06,
+      "metrics": {
+        "subscribers": 2960,
+        "total_views": 302663,
+        "video_count": 85,
+        "avg_views_per_video": 3560.74,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "4azR7Si8bIw",
+            "title": "Are Peptides Actually Dangerous? The Honest Answer",
+            "description": "Peptides aren't inherently dangerous — some, like collagen peptides, have decades of safety data. But many of today's hyped ...",
+            "published_at": "2026-09-12T13:45:07Z",
+            "url": "https://www.youtube.com/watch?v=4azR7Si8bIw"
+          }
+        ],
+        "channel_description": "Welcome to Dr. Greg Functional Medicine, where we dig deeper to uncover the real reasons behind your symptoms.\n\nDr. Greg is a functional medicine practitioner with over 25 years of experience helping people find clarity after years of frustration, misdiagnosis, and being told that their labs are “normal.” Through a root-cause approach, he helps uncover what your body has been trying to say all along.\n\nOn this channel, you’ll learn how to understand the signals your body is sending, from hormone imbalances and autoimmune conditions to fatigue, gut issues, brain fog, and chronic inflammation. \n\nDr. Greg breaks down complex health topics so you can finally understand why your body feels how it does and what to do about it. Instead of masking symptoms, we focus on identifying the underlying causes and build a clear path back to energy, resilience, and long-term health.\n\nIf you’ve been searching for real answers and a different perspective on healing, you’re in the right place.\n",
+        "latest_video_at": "2026-09-12T13:45:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCh0vFmg5-N9bojIGmSO1L7w",
+      "external_id": "UCh0vFmg5-N9bojIGmSO1L7w",
+      "name": "Dr. Rajeev Tanwar's - The Oasis of Healthy Living",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCh0vFmg5-N9bojIGmSO1L7w",
+      "discovered_on": "2026-09-13",
+      "score": 54.86,
+      "metrics": {
+        "subscribers": 4530,
+        "total_views": 26031,
+        "video_count": 92,
+        "avg_views_per_video": 282.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "Pl-g21plv28",
+            "title": "&quot;1922 का Insulin Miracle: क्या Peptides भविष्य का इलाज हैं या सिर्फ Gym का धोखा?&quot;",
+            "description": "क्या आपको लगता है कि आपकी बीमारी सिर्फ शरीर का एक 'गलत सिग्नल' है? Medical ...",
+            "published_at": "2026-09-13T10:30:12Z",
+            "url": "https://www.youtube.com/watch?v=Pl-g21plv28"
+          }
+        ],
+        "channel_description": "Welcome to The Human Files — where medicine meets forensic investigation.\n\nEvery human body holds a crime scene, and every rare disease tells an impossible story. Hosted by Consulting Physician Dr. Rajeev Tanwar (MBBS, MS Orthopaedics), we investigate medical mysteries, forensic poisonings, bizarre biological anomalies, and historical health catastrophes.\n\nFrom the 1982 Chicago Tylenol murders to the cellular secrets of the human mind, this is not a lecture — this is an investigation.\n\nNew Case File unlocked every Sunday at 4:00 PM.\n\nReal cases. Forensic evidence. Impossible truths.\nNew video Har Sunday 4 pm — Subscribe karein - 🔔 bell dabayein!\nDr. Rajeev Tanwar\nQualifications: MBBS, MS (Orthopaedics) — Nagpur University IGGMC | PGD Applied Nutrition & Dietetics — Symbiosis Pune | AYUSH Certified Ozone Therapy Doctor | More than 36 years of Experience \n\nE-mail: rajeevtanwaryoutube@gmail.com",
+        "latest_video_at": "2026-09-13T10:30:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCLtiTEKec-0Z1Gor_stI_-g",
       "external_id": "UCLtiTEKec-0Z1Gor_stI_-g",
