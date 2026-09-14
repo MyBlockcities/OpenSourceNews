@@ -2,19 +2,90 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-09-13T14:28:33Z",
-  "new_this_run": 4,
-  "total_influencers": 284,
+  "updated_at": "2026-09-14T16:24:25Z",
+  "new_this_run": 2,
+  "total_influencers": 286,
   "run_summary": {
-    "run_started_at": "2026-09-13T14:28:27Z",
-    "candidate_count": 44,
-    "existing_count": 280,
-    "selected_new_count": 4,
+    "run_started_at": "2026-09-14T16:24:19Z",
+    "candidate_count": 40,
+    "existing_count": 284,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC4keVLu0VE5cJkbEybw8y3w",
+      "external_id": "UC4keVLu0VE5cJkbEybw8y3w",
+      "name": "Forever young with Dr Anmol Kapoor",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UC4keVLu0VE5cJkbEybw8y3w",
+      "discovered_on": "2026-09-14",
+      "score": 64.58,
+      "metrics": {
+        "subscribers": 99700,
+        "total_views": 29514,
+        "video_count": 90,
+        "avg_views_per_video": 327.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "7Zo2LgemkHQ",
+            "title": "Golden Sands PropTech is here AI,innovation &amp; tokenization shaping the future of real estate. #ai",
+            "description": "",
+            "published_at": "2026-09-14T11:14:10Z",
+            "url": "https://www.youtube.com/watch?v=7Zo2LgemkHQ"
+          }
+        ],
+        "channel_description": "Welcome to Forever Young with Dr. Anmol Kapoor, a transformative YouTube channel dedicated to inspiring a healthier, happier, and longer life. Dr. Kapoor, a renowned cardiologist and health advocate, brings his expertise to guide you on a journey toward optimal wellness, ageless vitality, and enduring strength.\n\n\nThrough engaging discussions, practical tips, and empowering stories, you’ll uncover:\n\n• The secrets to slowing down aging and boosting longevity.\n\n• Proven strategies to maintain a healthy heart, body, and mind.\n\n• Insightful conversations with individuals who’ve transformed their lives.\n\n• Simple lifestyle habits that lead to lasting energy and resilience.\n\n\n\nWhether you’re looking for inspiration to enhance your health, explore groundbreaking wellness practices, or embark on a journey to redefine what it means to live “Forever Young,” this channel is your ultimate destination.\n\nSubscribe now and take the first step toward unlocking your healthiest and most vibrant self!\n",
+        "latest_video_at": "2026-09-14T11:14:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:45cacff97e42cd639ed2",
+      "external_id": "45cacff97e42cd639ed2",
+      "name": "Muriel Médard",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/09/13/quantum-proof-blockchain-why-math-not-machines-holds-the-key",
+      "discovered_on": "2026-09-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Quantum-proof blockchain: why math, not machines, holds the key"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCNGmBbeEBvszFsW5Z-2HVIw",
       "external_id": "UCNGmBbeEBvszFsW5Z-2HVIw",

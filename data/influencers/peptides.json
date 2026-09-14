@@ -2,19 +2,163 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-13T14:28:44Z",
-  "new_this_run": 7,
-  "total_influencers": 291,
+  "updated_at": "2026-09-14T16:24:36Z",
+  "new_this_run": 3,
+  "total_influencers": 294,
   "run_summary": {
-    "run_started_at": "2026-09-13T14:28:27Z",
-    "candidate_count": 24,
-    "existing_count": 284,
-    "selected_new_count": 7,
+    "run_started_at": "2026-09-14T16:24:19Z",
+    "candidate_count": 14,
+    "existing_count": 291,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCbB4QnYFDWHzoKVcRVFyJMw",
+      "external_id": "UCbB4QnYFDWHzoKVcRVFyJMw",
+      "name": "ExcelMale",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCbB4QnYFDWHzoKVcRVFyJMw",
+      "discovered_on": "2026-09-14",
+      "score": 72.68,
+      "metrics": {
+        "subscribers": 14700,
+        "total_views": 1668657,
+        "video_count": 209,
+        "avg_views_per_video": 7984.0,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "ZVQZ45FHINE",
+            "title": "Peptide Underground: Men Skipping Doctors to Hack Aging",
+            "description": "Explore the controversial world of peptide biohacking where thousands of men bypass traditional medical systems to ...",
+            "published_at": "2026-09-14T12:19:27Z",
+            "url": "https://www.youtube.com/watch?v=ZVQZ45FHINE"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "ZVQZ45FHINE",
+            "title": "Peptide Underground: Men Skipping Doctors to Hack Aging",
+            "description": "Explore the controversial world of peptide biohacking where thousands of men bypass traditional medical systems to ...",
+            "published_at": "2026-09-14T12:19:27Z",
+            "url": "https://www.youtube.com/watch?v=ZVQZ45FHINE"
+          }
+        ],
+        "channel_description": "Welcome to ExcelMale—the definitive hub for evidence-based men’s health and hormone optimization.  Moderated by chemical engineer-turned-advocate Nelson Vergel, it leverages 30+ years of research to deliver straight-talk tutorials on testosterone replacement therapy TRT, estradiol balance, HCG, GLP-1 weight-loss meds, lab testing, nutrition, fitness, and longevity science.  Expect myth-busting breakdowns, expert interviews, and real-world Q&A drawn from the 80-plus videos that have already helped thousands reclaim their vitality. \n Hit Subscribe, tap the 🔔, and join a thriving community committed to living stronger, longer, and better—one data-driven decision at a time.  (Educational content only; always consult a qualified clinician.)  Visit https://www.excelmale.com/forums/\n#testosterone #trt #menshealth #hormonehealthcoach #hormonehealth #anabolism #muscle #nelsonvergel\n#excelmale #testosteronetherapy #gym #erectiledysfunction #TRTforum\n\n",
+        "latest_video_at": "2026-09-14T12:19:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCDy_LYuMQaas_Cm8hycWeOw",
+      "external_id": "UCDy_LYuMQaas_Cm8hycWeOw",
+      "name": "Body in Shape",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCDy_LYuMQaas_Cm8hycWeOw",
+      "discovered_on": "2026-09-14",
+      "score": 63.3,
+      "metrics": {
+        "subscribers": 6230,
+        "total_views": 1696397,
+        "video_count": 191,
+        "avg_views_per_video": 8881.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "83-rB5EoyOQ",
+            "title": "🎙️ Episode 6: Peptides: The Truth, The Hype &amp; What You Need to Know",
+            "description": "What if peptides could help with recovery, inflammation, weight management, or even how you feel and perform? But before ...",
+            "published_at": "2026-09-13T17:00:13Z",
+            "url": "https://www.youtube.com/watch?v=83-rB5EoyOQ"
+          }
+        ],
+        "channel_description": "Welcome to Body in Shape (formerly EnduranceWorks)!\n\nFounded by Krista Schultz, exercise physiologist, coach, and health & fitness expert, Body in Shape is your complete hub for wellness, performance, and everyday strength.\n\nTriathlon and endurance training remain part of our foundation, but Body in Shape is designed for anyone who wants to feel stronger, healthier, and more energized.\n\nHere you’ll find workouts for strength, mobility, running, cycling, and swimming, along with practical tips on nutrition, recovery, and overall wellness. The focus is on building a body that moves well, feels great, and performs—whether that’s in daily life or on race day.\n\nNo matter your starting point, Body in Shape is your partner for creating lasting fitness and better health.\n",
+        "latest_video_at": "2026-09-13T17:00:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCZ2puxB_hWDNn1Qe3UzOMKg",
+      "external_id": "UCZ2puxB_hWDNn1Qe3UzOMKg",
+      "name": "Natalie Tysdal",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCZ2puxB_hWDNn1Qe3UzOMKg",
+      "discovered_on": "2026-09-14",
+      "score": 58.38,
+      "metrics": {
+        "subscribers": 10600,
+        "total_views": 786898,
+        "video_count": 1806,
+        "avg_views_per_video": 435.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "C2GTnXA0yAI",
+            "title": "What Peptides Can (and Cannot) Do for Midlife Wellness, with Dr. Jeff Gross",
+            "description": "If you're a midlife woman navigating health changes, hormones, or seeking clarity on all the buzz around peptides, this episode is ...",
+            "published_at": "2026-09-14T13:00:29Z",
+            "url": "https://www.youtube.com/watch?v=C2GTnXA0yAI"
+          }
+        ],
+        "channel_description": "I’m Natalie Tysdal, a health journalist helping women over 40 understand stress, hormones, and nervous system health so they can feel steady and informed in midlife.\n\nIf you are navigating perimenopause, cortisol imbalance, sleep disruption, weight gain, fatigue, or health anxiety, this channel offers clear, credible guidance rooted in decades of medical reporting and expert interviews.\n\nWe cover how stress affects hormones in women, how to regulate your nervous system naturally, and how to reduce chronic stress without chasing every new wellness trend.\n\nNo hype. No fear based messaging. Just practical strategies to support hormone balance, resilience, and sustainable midlife wellness.\n\nSubscribe for weekly conversations that help you filter the noise and trust your body with confidence.\n",
+        "latest_video_at": "2026-09-14T13:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCkp7UpF4WKcczHB0S-3G1VA",
       "external_id": "UCkp7UpF4WKcczHB0S-3G1VA",

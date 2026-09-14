@@ -2,19 +2,414 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-13T14:28:35Z",
-  "new_this_run": 14,
-  "total_influencers": 503,
+  "updated_at": "2026-09-14T16:24:27Z",
+  "new_this_run": 9,
+  "total_influencers": 512,
   "run_summary": {
-    "run_started_at": "2026-09-13T14:28:27Z",
-    "candidate_count": 23,
-    "existing_count": 489,
-    "selected_new_count": 14,
+    "run_started_at": "2026-09-14T16:24:19Z",
+    "candidate_count": 26,
+    "existing_count": 503,
+    "selected_new_count": 9,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCv3jMovADG3sWwyWE7AHrkQ",
+      "external_id": "UCv3jMovADG3sWwyWE7AHrkQ",
+      "name": "Tiny Wrestling Media",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCv3jMovADG3sWwyWE7AHrkQ",
+      "discovered_on": "2026-09-14",
+      "score": 73.3,
+      "metrics": {
+        "subscribers": 94600,
+        "total_views": 142882183,
+        "video_count": 7264,
+        "avg_views_per_video": 19669.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ikLLuTrmZaA",
+            "title": "Chelsea Green doesn&#39;t want to be Censor on Netflix",
+            "description": "Support Me: https://buymemomo.com/TinyWrestlingMedia Join this channel to get access to perks: ...",
+            "published_at": "2026-09-14T02:15:03Z",
+            "url": "https://www.youtube.com/watch?v=ikLLuTrmZaA"
+          }
+        ],
+        "channel_description": "Subscribe for Wrestling Content. 😀\n\nWe upload the clips from WWE, AEW, Podcast, Promos, Tribute, Funny Moments, Top Moments, WWE 2K, Streamers Reactions, Fans Reactions, Old clips of WWE and AEW,  etc\n\n\n\n\n📝 NOTE\nIf any video owners would like specific content removed, I have no problem with that. I will take it down immediately upon request. Please avoid giving me a copyright strike—just message me at (tinywwesuperstars@gmail.com) if you have any concerns. Thankyou! \n",
+        "latest_video_at": "2026-09-14T02:15:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWtVKEQ8PmmWjb5VKoY_Q3g",
+      "external_id": "UCWtVKEQ8PmmWjb5VKoY_Q3g",
+      "name": "Shades of Rural India",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWtVKEQ8PmmWjb5VKoY_Q3g",
+      "discovered_on": "2026-09-14",
+      "score": 72.34,
+      "metrics": {
+        "subscribers": 52100,
+        "total_views": 14012751,
+        "video_count": 480,
+        "avg_views_per_video": 29193.23,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "5gOZh8Dat1U",
+            "title": "आज के दौर में स्वतंत्र पत्रकारिता करना कितना मुश्किल है? #independentmedia",
+            "description": "आज के दौर में स्वतंत्र पत्रकारिता करना कितना मुश्किल है? मध्य ...",
+            "published_at": "2026-09-14T14:15:31Z",
+            "url": "https://www.youtube.com/watch?v=5gOZh8Dat1U"
+          }
+        ],
+        "channel_description": "ग्रामीण भारत की महिलाओं, किशोरियों, बच्चों एवं आदिवासी समुदाय की मुखर आवाज़ बनने की एक स्वतंत्र कोशिश। \n\nAn independent effort to be the vocal voice of women, adolescent girls and children of rural India. #RuralIndia #Farmer #Tribal  #women #Journalism #independentjournalist #India #Youtube #HindiNews #FarmersNews #TribalNews  \n#neetusingh #neetusinghjournlist #groundreport ",
+        "latest_video_at": "2026-09-14T14:15:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEvln1SiJehPsulqfAr6fFQ",
+      "external_id": "UCEvln1SiJehPsulqfAr6fFQ",
+      "name": "Sikar 23 news",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCEvln1SiJehPsulqfAr6fFQ",
+      "discovered_on": "2026-09-14",
+      "score": 70.12,
+      "metrics": {
+        "subscribers": 60100,
+        "total_views": 31377774,
+        "video_count": 3653,
+        "avg_views_per_video": 8589.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "kxkgmMRq_SM",
+            "title": "सीकर कांग्रेस निर्दलीय प्रत्याशियो मे पत्थरबाजी || पुलिस ने संभाला मोर्चा",
+            "description": "सीकर नगर निकाय चुनाव परिणाम आने के बाद वार्ड नंबर 17 में कांग्रेस और ...",
+            "published_at": "2026-09-14T10:54:27Z",
+            "url": "https://www.youtube.com/watch?v=kxkgmMRq_SM"
+          }
+        ],
+        "channel_description": "सीकर23न्यूज चैनल में आपका स्वागत है\n\nSikar23news\n\nसीकर शहर में कही भी किसी भी समय खबर कवरेज करवाने के लिए हमारी टीम से संपर्क करें \nआपका साथ हमारी आवाज हमेशा सच के साथ\n\nकिसी भी प्रकार की शिकायत सुझाव के लिए हमे ईमेल कर सकते है आपके द्वारा की गई शिकायत या सुझाव पर विचार किया जायेगा धन्यवाद \ninfosikar23news@gmail.com\nहमारे यूट्यूब चैनल को सब्सक्राइब जरूर करें\nफेसबुक पेज को लाइक और फॉलो करें\nइंस्टाग्राम को फॉलो करे \nट्वीटर को फॉलो करे \nआपका साथ हमारी आवाज हमारे द्वारा चलाई गई वीडियो को ज्यादा से ज्यादा लाइक शेयर करें \n\nसीकर23न्यूज नेटवर्क सीकर 332001 राजस्थान \n",
+        "latest_video_at": "2026-09-14T10:54:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCx6GbemYWIPduPda827MPJg",
+      "external_id": "UCx6GbemYWIPduPda827MPJg",
+      "name": "News Radius",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCx6GbemYWIPduPda827MPJg",
+      "discovered_on": "2026-09-14",
+      "score": 69.33,
+      "metrics": {
+        "subscribers": 9770,
+        "total_views": 9794455,
+        "video_count": 129,
+        "avg_views_per_video": 75926.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "UwODGSpsuHg",
+            "title": "“Name One Modi Achievement” — Amit Shah’s Viral Response",
+            "description": "One question. One sharp exchange. And social media has a lot to say. A viral clip circulating on social media features a journalist ...",
+            "published_at": "2026-09-14T13:55:59Z",
+            "url": "https://www.youtube.com/watch?v=UwODGSpsuHg"
+          }
+        ],
+        "channel_description": "Welcome to News Radius.\n    We bring you the latest current news and deep dives into world affairs. Our mission is to expand your understanding of global events, geopolitics, and breaking stories.\n    Whether it's international conflict, economic updates, or major political shifts, News Radius covers the full scope.\n\n    Subscribe for:\n        Daily World News Updates\n        Geopolitics Explained\n        Fact-based Reporting\n    Stay within the circle of truth.\n",
+        "latest_video_at": "2026-09-14T13:55:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCtZO4SgKqaEFsVOIAkz366A",
+      "external_id": "UCtZO4SgKqaEFsVOIAkz366A",
+      "name": "Addis Standard",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCtZO4SgKqaEFsVOIAkz366A",
+      "discovered_on": "2026-09-14",
+      "score": 68.07,
+      "metrics": {
+        "subscribers": 26800,
+        "total_views": 1485514,
+        "video_count": 572,
+        "avg_views_per_video": 2597.05,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "RQAm1eMLx0s",
+            "title": "Watch the moment independent journalism stood its ground.",
+            "description": "Through it all, Addis Standard has continued to publish. That persistence matters”, Alice Albright, National Democratic Institute ...",
+            "published_at": "2026-09-14T14:08:22Z",
+            "url": "https://www.youtube.com/watch?v=RQAm1eMLx0s"
+          },
+          {
+            "query": "independent journalism",
+            "video_id": "sz5EQjFolog",
+            "title": "Watch the moment independent journalism stood its ground.",
+            "description": "Through it all, Addis Standard has continued to publish. That persistence matters”, Alice Albright, National Democratic Institute ...",
+            "published_at": "2026-09-14T14:01:39Z",
+            "url": "https://www.youtube.com/watch?v=sz5EQjFolog"
+          }
+        ],
+        "channel_description": "An independent online magazine based in Ethiopia and registered under JAKENN Publishing P.L.C. ",
+        "latest_video_at": "2026-09-14T14:08:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCAfILrLNJLGyAcp-d9UuQvA",
+      "external_id": "UCAfILrLNJLGyAcp-d9UuQvA",
+      "name": "Mac's Opinion",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCAfILrLNJLGyAcp-d9UuQvA",
+      "discovered_on": "2026-09-14",
+      "score": 66.2,
+      "metrics": {
+        "subscribers": 15300,
+        "total_views": 6530620,
+        "video_count": 683,
+        "avg_views_per_video": 9561.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "fFsujinU6tg",
+            "title": "They don&#39;t want you to know about the Allison inquiry #censorship #media",
+            "description": "WATCH THE FULL VIDEO HERE:* https://youtu.be/PaQ71bqykRA Why is the CBC ignoring the Allison inquiry? Major Canadian ...",
+            "published_at": "2026-09-14T01:00:20Z",
+            "url": "https://www.youtube.com/watch?v=fFsujinU6tg"
+          }
+        ],
+        "channel_description": "Exposing what the mainstream media refuses to show you. Canadian topics that every Canadian needs to be aware of. Exposing Liberal fails and hoping these videos help open people's eyes, so that they will teach them to make better voting choices in the future. Trending news you won't see on CBC.\nYou can see more crazy stuff on my website https://macsopinion.com",
+        "latest_video_at": "2026-09-14T01:00:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCr7camMzq0SoD0YzUAfvSNw",
+      "external_id": "UCr7camMzq0SoD0YzUAfvSNw",
+      "name": "LULA - Foco no Fato",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCr7camMzq0SoD0YzUAfvSNw",
+      "discovered_on": "2026-09-14",
+      "score": 64.4,
+      "metrics": {
+        "subscribers": 13500,
+        "total_views": 4981750,
+        "video_count": 1002,
+        "avg_views_per_video": 4971.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "58YfKjM1TRs",
+            "title": "Não pode cantar? A censura seletiva da extrema-direita #debate #liberdade",
+            "description": "A hipocrisia da extrema direita sobre a liberdade de expressão não passa de uma contradição flagrante. Nesta análise, exponho ...",
+            "published_at": "2026-09-14T09:15:26Z",
+            "url": "https://www.youtube.com/watch?v=58YfKjM1TRs"
+          }
+        ],
+        "channel_description": "LULA – Foco no Fato é um canal dedicado à análise política, social e histórica do Brasil, com foco em informação baseada em fatos, dados públicos e pensamento crítico.\nO conteúdo apresenta análises responsáveis e argumentadas sobre democracia, economia, políticas públicas e direitos sociais, sempre com compromisso com a verdade, a checagem de informações e o debate qualificado.\nO canal valoriza a pluralidade de ideias, combate a desinformação e incentiva a reflexão, para que cada espectador possa formar suas próprias conclusões a partir da realidade dos fatos.\nConteúdo informativo, opinativo e educativo.",
+        "latest_video_at": "2026-09-14T09:15:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTT0vegTn0kFOLYa4AACzXg",
+      "external_id": "UCTT0vegTn0kFOLYa4AACzXg",
+      "name": "News Yatra Bharat",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCTT0vegTn0kFOLYa4AACzXg",
+      "discovered_on": "2026-09-14",
+      "score": 64.25,
+      "metrics": {
+        "subscribers": 9060,
+        "total_views": 4906612,
+        "video_count": 604,
+        "avg_views_per_video": 8123.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "cqN7LCuzXLQ",
+            "title": "Yogi बाबा से एक सवाल और पत्रकार के घर बुलडोज़र? #yogiadityanath #pressconference",
+            "description": "Yogi बाबा से एक सवाल और पत्रकार के घर बुलडोज़र? #yogiadityanath #pressconference ...",
+            "published_at": "2026-09-14T11:34:49Z",
+            "url": "https://www.youtube.com/watch?v=cqN7LCuzXLQ"
+          }
+        ],
+        "channel_description": "Description\n\nNews Yatra Bharat ना कोई पक्ष, ना कोई विपक्ष, केवल सच आप तक !\n\nहम हैं news Yatra Bharat एक ऐसा न्यूज प्लेटफॉर्म जो देश, दुनिया और भारत के हर कोने से जुड़ी बड़ी और अहम खबरों को निष्पक्षता के साथ आपके सामने रखते हैं !\n\nहमारा लक्ष्यः\n\nसच को दबने नहीं देना और जनहित की आवाज को बुलंद करना।\n\nहमारा सिद्धांतः\n\nना किसी पार्टी के पक्ष में, ना किसी दल के विपक्ष में हमारा एक ही मकसद है: सिर्फ सच आप तक पहुँचे !\n\n* क्या पाते हैं हमारे चैनल पर ?\n\n* देश-विदेश की बड़ी खबरें\n\n* राज्य स्तरीय अपडेट्स\n\n* राजनीति, समाज, प्रशासन और आम जनता की सच्ची आवाज\n\n* ग्राउंड रिपोर्ट्स और एक्सक्लूसिव कवरेज\n\nअगर आप भी चाहते हैं सच्ची खबरों तक पहुंच - तो जुड़िए हमारे साथ !\n\nसब्सक्राइब कीजिए और बेल आइकन दबाइए ताकि कोई भी सच आपसे छूट न जाए।",
+        "latest_video_at": "2026-09-14T11:34:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCuSrQeAJgZL_KQHwM28WiFw",
+      "external_id": "UCuSrQeAJgZL_KQHwM28WiFw",
+      "name": "ZINKGRAFF - KlarText",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCuSrQeAJgZL_KQHwM28WiFw",
+      "discovered_on": "2026-09-14",
+      "score": 59.89,
+      "metrics": {
+        "subscribers": 3850,
+        "total_views": 2049720,
+        "video_count": 358,
+        "avg_views_per_video": 5725.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "Hh42FR5WbJI",
+            "title": "EIL! Viktor Orban ist zurück - kommt jetzt die Abrechnung?",
+            "description": "Meine Empfehlung (ACHTUNG WERBUNG ) für euch: ICH BIN 64 JAHRE: Produkte die ich seit Jahrzehnten zu mir nehme ...",
+            "published_at": "2026-09-13T08:38:23Z",
+            "url": "https://www.youtube.com/watch?v=Hh42FR5WbJI"
+          }
+        ],
+        "channel_description": "Politik, Wirtschaft und Gesellschaft – eingeordnet, analysiert und klar benannt.\nOhne Filter. Ohne Ideologie. Ohne Anbiederung.\n\nWillkommen auf meinen YouTube-Kanal! Hier findet ihr die aktuellsten Nachrichten zu politischen Geschehnissen in Europa & der Welt. Mein Ziel ist es, politische Themen aufzubereiten und euch diese dann zu zeigen. Ich möchte für euch informative Videos zu wichtigen politischen Themen bereitstellen, so dass ihr wichtige Themen nicht verpasst. \nAbonniert meinen Kanal, um keine wichtigen politischen News mehr zu verpassen. Lasst uns eine Diskussion in den Kommentaren führen! \n\nIMPRESSUM\nManfred P. Zinkgraff\nPostfach 11 01\nD–83230 Bernau am Chiemsee -Germany\n\n\n",
+        "latest_video_at": "2026-09-13T08:38:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCygWVrkNHcCL_KC7rOnrRyw",
       "external_id": "UCygWVrkNHcCL_KC7rOnrRyw",
