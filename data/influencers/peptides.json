@@ -2,19 +2,532 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-14T16:24:36Z",
-  "new_this_run": 3,
-  "total_influencers": 294,
+  "updated_at": "2026-09-15T15:05:31Z",
+  "new_this_run": 11,
+  "total_influencers": 305,
   "run_summary": {
-    "run_started_at": "2026-09-14T16:24:19Z",
-    "candidate_count": 14,
-    "existing_count": 291,
-    "selected_new_count": 3,
+    "run_started_at": "2026-09-15T15:05:14Z",
+    "candidate_count": 22,
+    "existing_count": 294,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCNl6TAjCgriOHuZ4dNAxr9g",
+      "external_id": "UCNl6TAjCgriOHuZ4dNAxr9g",
+      "name": "Regan Archibald",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCNl6TAjCgriOHuZ4dNAxr9g",
+      "discovered_on": "2026-09-15",
+      "score": 68.1,
+      "metrics": {
+        "subscribers": 31300,
+        "total_views": 3132472,
+        "video_count": 371,
+        "avg_views_per_video": 8443.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "6fJ-G_KC2EE",
+            "title": "What Does BPC-157 Do For Your Body?",
+            "description": "I'm breaking down what BPC-157 does for the body, what we actually know about this popular peptide, and where the research ...",
+            "published_at": "2026-09-15T14:30:35Z",
+            "url": "https://www.youtube.com/watch?v=6fJ-G_KC2EE"
+          }
+        ],
+        "channel_description": "Regan Archibald, LAc, is a Longevity Coach, and the Founder of Ageless Future. \n\nHis mission is to help you optimize your health in the shortest amount of time possible without putting your future health at risk. \n\nDon’t miss Regan and the Ageless Future team live when they host exclusive longevity retreats in Utah, throughout the US and even in Europe. \n\nAgeless Future Summits give you access to the novel peptide party, unique stem cell and regenerative therapies, and you can even test your Fitness 50 Benchmarks. \n\nDisclaimer: Regan Archibald is a Licensed Acupuncturist and longevity coach. He is not a medical doctor. All diagnosis, lab ordering, and prescribing in our clinic are performed only by our licensed medical team (MD, APRN, PA). Regan’s role in this content is education and lifestyle strategy.\n\nWant to get involved with the community and work with Regan's team at Ageless Future? Apply for Longevity Labs - link below. \n\n\n \n",
+        "latest_video_at": "2026-09-15T14:30:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCZ8bml1Qo952JxcW21oDS6w",
+      "external_id": "UCZ8bml1Qo952JxcW21oDS6w",
+      "name": "Angiogenesis Foundation",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCZ8bml1Qo952JxcW21oDS6w",
+      "discovered_on": "2026-09-15",
+      "score": 67.77,
+      "metrics": {
+        "subscribers": 28700,
+        "total_views": 3044890,
+        "video_count": 372,
+        "avg_views_per_video": 8185.19,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "6Yx5d4Yiqxs",
+            "title": "PEPTIDES EXPLAINED: Exposing The Truth About Peptides",
+            "description": "PEPTIDES EXPLAINED: Exposing The Truth About Peptides Join the Food as Medicine newsletter: https://news.angio.org/ ...",
+            "published_at": "2026-09-15T14:00:14Z",
+            "url": "https://www.youtube.com/watch?v=6Yx5d4Yiqxs"
+          }
+        ],
+        "channel_description": "The Angiogenesis Foundation creates unique video content and tools aimed at patients, their caregivers, and the general public. Our media is designed to improve their level of understanding of angiogenesis-based diseases, and to demystify the modern evidence supporting improved outcomes based on antiangiogenic therapies.\n\nSuch tools empower the user to better advocate for swift diagnosis, effective intervention, and optimal long-term management of their own healthcare pathways.\n\nOur videos are designed to:\n\nClarify state-of-the-art knowledge for the public and healthcare professionals.\nEmpower users and guide them in navigating their own healthcare pathway.\n\nLearn more at http://www.angio.org",
+        "latest_video_at": "2026-09-15T14:00:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCmQCI4lsfVPr4YhrQ0VnA8A",
+      "external_id": "UCmQCI4lsfVPr4YhrQ0VnA8A",
+      "name": "Antonio Tomazini - Cirurgia de Joelho",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCmQCI4lsfVPr4YhrQ0VnA8A",
+      "discovered_on": "2026-09-15",
+      "score": 66.56,
+      "metrics": {
+        "subscribers": 2130,
+        "total_views": 413211,
+        "video_count": 58,
+        "avg_views_per_video": 7124.33,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "Oszb_gAwhMY",
+            "title": "Protocolo Wolverine?",
+            "description": "Você já ouviu falar no chamado \"Protocolo Wolverine\"? Nos últimos meses, alguns pacientes chegaram ao consultório me ...",
+            "published_at": "2026-09-14T23:35:31Z",
+            "url": "https://www.youtube.com/watch?v=Oszb_gAwhMY"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "Oszb_gAwhMY",
+            "title": "Protocolo Wolverine?",
+            "description": "Você já ouviu falar no chamado \"Protocolo Wolverine\"? Nos últimos meses, alguns pacientes chegaram ao consultório me ...",
+            "published_at": "2026-09-14T23:35:31Z",
+            "url": "https://www.youtube.com/watch?v=Oszb_gAwhMY"
+          }
+        ],
+        "channel_description": "Canal informativo do Dr Antonio Tomazini - Ortopedista especialista em Cirurgia do Joelho",
+        "latest_video_at": "2026-09-14T23:35:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCF2A_mtIiBEQoDx1m8k3Dwg",
+      "external_id": "UCF2A_mtIiBEQoDx1m8k3Dwg",
+      "name": "Dr Nighat Arif",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCF2A_mtIiBEQoDx1m8k3Dwg",
+      "discovered_on": "2026-09-15",
+      "score": 65.49,
+      "metrics": {
+        "subscribers": 11300,
+        "total_views": 10774228,
+        "video_count": 1022,
+        "avg_views_per_video": 10542.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "jNslwWmIWrs",
+            "title": "Endo-205 a new treatment for endometriosis?",
+            "description": "ENDO-205 is not another hormone-suppressing pill. So what exactly is it? ENDO-205 is still investigational. Human testing has ...",
+            "published_at": "2026-09-14T20:32:49Z",
+            "url": "https://www.youtube.com/watch?v=jNslwWmIWrs"
+          }
+        ],
+        "channel_description": "NHS GPwSI Women's Health. Just a smiley doctor on TV & Radio. Inclusion .Inspire.Empower\n",
+        "latest_video_at": "2026-09-14T20:32:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCQavCeu7uk3hdGRI03Ye8Mg",
+      "external_id": "UCQavCeu7uk3hdGRI03Ye8Mg",
+      "name": "Nuara Esencia de la Belleza",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCQavCeu7uk3hdGRI03Ye8Mg",
+      "discovered_on": "2026-09-15",
+      "score": 63.19,
+      "metrics": {
+        "subscribers": 2410,
+        "total_views": 912301,
+        "video_count": 721,
+        "avg_views_per_video": 1265.33,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "xMNxN2VT1Us",
+            "title": "Peptidos para Adelgazar ¿Como funcionan? Lo explica la Dra Paula",
+            "description": "Buscando péptidos para adelgazar? Últimamente se habla muchísimo de esto, pero ojo: ¡no todos son iguales ni funcionan ...",
+            "published_at": "2026-09-15T11:30:11Z",
+            "url": "https://www.youtube.com/watch?v=xMNxN2VT1Us"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "xMNxN2VT1Us",
+            "title": "Peptidos para Adelgazar ¿Como funcionan? Lo explica la Dra Paula",
+            "description": "Buscando péptidos para adelgazar? Últimamente se habla muchísimo de esto, pero ojo: ¡no todos son iguales ni funcionan ...",
+            "published_at": "2026-09-15T11:30:11Z",
+            "url": "https://www.youtube.com/watch?v=xMNxN2VT1Us"
+          }
+        ],
+        "channel_description": "Nuara By Minyor Avellaneda Cirujano Plástico Colombia\n📲 WhatsApp +(57) 321 283 2997 - 📩 www.nuarabelleza.com   \nBogotá - Colombia -  Calle 122 # 22-49  \n\nEl Dr. Minyor Avellaneda es un Cirujano Plástico certificado, docente universitario y Fundador de Nuara Esencia de la Belleza (Medical Group). Graduado en Medicina de la Pontificia Universidad Javeriana de Bogotá, obtuvo su título de Médico - Cirujano. Completó su formación en Cirugía Plástica en la Universidad El Bosque de Bogotá, obteniendo el título de Cirujano Plástico, Reconstructivo y Estético. Realizó estudios subespecializados en Cirugía Plástica Estética en la Universidad de Birmingham, Alabama (EE. UU.). Es docente y coordina rotaciones en la Universidad El Bosque. Desde 2010, es voluntario en la Fundación Operación Sonrisa Colombia y forma parte de Operation Smile International. Su formación garantiza calidad y profesionalismo.\n",
+        "latest_video_at": "2026-09-15T11:30:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCLIhpsDob75l9mUWfl0kdsQ",
+      "external_id": "UCLIhpsDob75l9mUWfl0kdsQ",
+      "name": "Dr. Flavia Lazaroni",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCLIhpsDob75l9mUWfl0kdsQ",
+      "discovered_on": "2026-09-15",
+      "score": 61.76,
+      "metrics": {
+        "subscribers": 5290,
+        "total_views": 4159743,
+        "video_count": 759,
+        "avg_views_per_video": 5480.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "xdK6_ejVmRQ",
+            "title": "#peptide #bpc # #imunitate #hashimoto #tiroida",
+            "description": "O întrebare despre stres și stomac a deschis o direcție de cercetare care continuă și astăzi: BPC-157. Această peptidă formată ...",
+            "published_at": "2026-09-15T12:01:11Z",
+            "url": "https://www.youtube.com/watch?v=xdK6_ejVmRQ"
+          }
+        ],
+        "channel_description": "Dr. Flavia Lazaroni – Medicină Funcțională\nExpert Tiroidă · Autoimunitate · Metabolism\n\nAici găsești informații utile și soluții practice dacă te confrunți cu:\n\nprobleme hormonale și tiroidiene\n\nboli autoimune\n\ndezechilibre de metabolism și greutate\n\nScopul meu este să te ajut să înțelegi cauzele profunde și să descoperi pași simpli pentru echilibru, energie și sănătate pe termen lung.\n",
+        "latest_video_at": "2026-09-15T12:01:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCc_w7H5RdFPD1Y9pein_sMA",
+      "external_id": "UCc_w7H5RdFPD1Y9pein_sMA",
+      "name": "Kim & Kalee",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCc_w7H5RdFPD1Y9pein_sMA",
+      "discovered_on": "2026-09-15",
+      "score": 58.61,
+      "metrics": {
+        "subscribers": 2550,
+        "total_views": 2235089,
+        "video_count": 625,
+        "avg_views_per_video": 3576.14,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "PrtSlfCHStM",
+            "title": "#142: Microdosing GLP-1&#39;s: Everything Women Over 35 Should Know",
+            "description": "Curious about GLP-1 microdosing but not sure where to start? In this episode, Kim & Kalee sit down for an honest, easy-to-follow ...",
+            "published_at": "2026-09-15T09:00:00Z",
+            "url": "https://www.youtube.com/watch?v=PrtSlfCHStM"
+          }
+        ],
+        "channel_description": "We’re a mother–daughter creator team sharing honest reviews, product demos, interviews, and taste tests across wellness, lifestyle, home, and everyday favorites.\n\nWe create long-form and short-form review content for Amazon, UGC campaigns, and brands we genuinely use and trust.\n\n📩 Business inquiries & collaborations:\nteam@kimandkalee.com\n\n📱 Connect with us:\nFacebook: Kim and Kalee \nInstagram: thekimandkalee\n\n🔗 Websites:\nsoreyfitness.com\nhappylifeideas.com\nkimandkalee.com\n\n🛍 Amazon Storefront (favorites & reviews):\nhttps://www.amazon.com/shop/soreyfitness\n\n🎁 Current promos & sales:\nhttps://soreyfitness.com/promo/\n\nSoreyFitness is a participant in Amazon Services LLC Influencer/Associates Program, an influencer/affiliate advertising program designed to provide means for sites to earn advertising fees by advertising and linking to https://www.amazon.com/shop/soreyfitness\n",
+        "latest_video_at": "2026-09-15T09:00:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCY15IstM7MS1JYpnf4iRhlg",
+      "external_id": "UCY15IstM7MS1JYpnf4iRhlg",
+      "name": "DrdelaCruzMunoz",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCY15IstM7MS1JYpnf4iRhlg",
+      "discovered_on": "2026-09-15",
+      "score": 58.42,
+      "metrics": {
+        "subscribers": 3210,
+        "total_views": 196880,
+        "video_count": 83,
+        "avg_views_per_video": 2372.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "GwRNc3INeBo",
+            "title": "Exposing the Truth about Peptide BPC‑157: What the Science Actually Says vs. What You’re Being Sold",
+            "description": "BPC‑157 is everywhere in the wellness world — sold for tendon healing, gut repair, inflammation, recovery, and “regeneration.",
+            "published_at": "2026-09-15T12:00:29Z",
+            "url": "https://www.youtube.com/watch?v=GwRNc3INeBo"
+          }
+        ],
+        "channel_description": "National bariatric surgeon Dr. Nestor de la Cruz‑Muñoz Jr. breaks down metabolic health with clarity, honesty, and real surgical expertise.\nThis channel gives you evidence‑based guidance on weight‑loss surgery, hormones, hunger, GLP‑1s, long‑term success, and what actually drives results.\nYou’ll find calm, myth‑busting explanations, real OR insights, patient‑friendly education, and practical strategies for life after surgery.\nWhether you’re researching your options or preparing for your journey, you’ll get trustworthy, expert information from a high‑volume Miami practice that cares deeply about outcomes. \nSubscribe for clear science, real medicine, and guidance you can trust. \nFor Appts: 305-692-0392\n\nDISCLAIMER:\nEducational only. Not medical advice. No doctor‑patient relationship. Always consult your physician before changing your health regimen. Dr. de la Cruz-Munoz is not liable for any loss, injury, or damages from use of this content.\n",
+        "latest_video_at": "2026-09-15T12:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCUr6JLq5fkoevsXrhaQbkPA",
+      "external_id": "UCUr6JLq5fkoevsXrhaQbkPA",
+      "name": "Weekly PEP Talk | Mike Sheffer & Max Plasencia",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCUr6JLq5fkoevsXrhaQbkPA",
+      "discovered_on": "2026-09-15",
+      "score": 56.9,
+      "metrics": {
+        "subscribers": 2380,
+        "total_views": 127129,
+        "video_count": 71,
+        "avg_views_per_video": 1790.55,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "6lEZ2VUNdCM",
+            "title": "The Future of Weight Loss Peptides + ARA-290 for Nerve Recovery | Mike &amp; Max | Ep. 25",
+            "description": "INSTAGRAM: mikesheffer_ Skool: https://www.skool.com/mikes-pep-talk-7413/about?ref=bfd5515888694ea7bfc87cb403a75aa8 ...",
+            "published_at": "2026-09-14T22:08:43Z",
+            "url": "https://www.youtube.com/watch?v=6lEZ2VUNdCM"
+          }
+        ],
+        "channel_description": "Peptides, Fitness Motivation, podcasts",
+        "latest_video_at": "2026-09-14T22:08:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC15FdoCPbrQvzuIaCEOS5hg",
+      "external_id": "UC15FdoCPbrQvzuIaCEOS5hg",
+      "name": "Sigma Nutrition",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC15FdoCPbrQvzuIaCEOS5hg",
+      "discovered_on": "2026-09-15",
+      "score": 56.65,
+      "metrics": {
+        "subscribers": 2700,
+        "total_views": 17353,
+        "video_count": 13,
+        "avg_views_per_video": 1334.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "L45azKTmIGA",
+            "title": "BPC-157 and Peptide Medications: What Do We Know?",
+            "description": "Commonly people are talking about “peptides” to refer to a heterogeneous group of peptide medications or investigational ...",
+            "published_at": "2026-09-15T08:17:35Z",
+            "url": "https://www.youtube.com/watch?v=L45azKTmIGA"
+          }
+        ],
+        "channel_description": "Sigma Nutrition is dedicated to providing objective, high-quality, evidence-based information on nutrition and health science.\n\nOur mission is to serve as a trusted resource for dietitians, nutritionists, health and fitness professionals, researchers, and anyone deeply interested in the science of nutrition.\n\nThrough a diverse range of educational materials—including written articles, lectures, and our podcast Sigma Nutrition Radio—we aim to bridge the gap between cutting-edge scientific research and practical application.\n\nFor over a decade now, the podcast has become a go-to resource for those seeking thoughtful, evidence-driven discussions on nutrition and health topics.\n",
+        "latest_video_at": "2026-09-15T08:17:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCu6v_15NwpwCx-uQnN4G3Zg",
+      "external_id": "UCu6v_15NwpwCx-uQnN4G3Zg",
+      "name": "Jackson Futrell",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCu6v_15NwpwCx-uQnN4G3Zg",
+      "discovered_on": "2026-09-15",
+      "score": 56.17,
+      "metrics": {
+        "subscribers": 2180,
+        "total_views": 1047285,
+        "video_count": 725,
+        "avg_views_per_video": 1444.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "ogcfjrU-kmE",
+            "title": "Risks People Ignore While Using Weight Loss Drugs GLP-1",
+            "description": "Shop Our Merch!   https://glorioushouseofgains.com/ Need Coaching?",
+            "published_at": "2026-09-14T21:45:23Z",
+            "url": "https://www.youtube.com/watch?v=ogcfjrU-kmE"
+          }
+        ],
+        "channel_description": "Certified Coach, Nutritionist, & IPL World Champion.🏆\n\nI help young men build ELITE strength & transform physiques! \n\nI am a World Champion powerlifter & currently hold 9 USPA/IPL records. I have been training since I was 13 years old and have progressed through trial and error. My duty to my subscribers and the fitness community is to help you progress even faster than I did by sharing my experiences and knowledge.\n\nMy current RAW lifts @ 182lbs body weight are:\nBench: 420lbs | Deadlift: 605lbs | Squat: 530lbs\n\nI greatly appreciate your viewership and wish you all the best as you pursue your goals. I hope we can build a strong, positive community of people dedicated to making themselves better by the day. 🤝\n\nStrong Today, Stronger Tomorrow💪🔝\n",
+        "latest_video_at": "2026-09-14T21:45:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCbB4QnYFDWHzoKVcRVFyJMw",
       "external_id": "UCbB4QnYFDWHzoKVcRVFyJMw",
