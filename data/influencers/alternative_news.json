@@ -2,19 +2,481 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-15T15:05:22Z",
-  "new_this_run": 16,
-  "total_influencers": 528,
+  "updated_at": "2026-09-16T15:02:19Z",
+  "new_this_run": 10,
+  "total_influencers": 538,
   "run_summary": {
-    "run_started_at": "2026-09-15T15:05:14Z",
-    "candidate_count": 30,
-    "existing_count": 512,
-    "selected_new_count": 16,
+    "run_started_at": "2026-09-16T15:02:08Z",
+    "candidate_count": 20,
+    "existing_count": 528,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCmzLzI-ROdjxWtBOuJTelug",
+      "external_id": "UCmzLzI-ROdjxWtBOuJTelug",
+      "name": "AfD im EU-Parlament",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCmzLzI-ROdjxWtBOuJTelug",
+      "discovered_on": "2026-09-16",
+      "score": 71.73,
+      "metrics": {
+        "subscribers": 71300,
+        "total_views": 25653010,
+        "video_count": 1806,
+        "avg_views_per_video": 14204.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "2LAEr3blTuw",
+            "title": "Stoppt von der Leyens Zensur-Schild",
+            "description": "Ursula von der Leyen will die Demokratie „schützen“ – mit einem Instrument, das sich gegen die eigenen Bürger richtet. Offiziell ...",
+            "published_at": "2026-09-16T14:34:54Z",
+            "url": "https://www.youtube.com/watch?v=2LAEr3blTuw"
+          }
+        ],
+        "channel_description": "Wir verteidigen die Freiheit, unser christlich-abendländisches Erbe und die Souveränität der Nationalstaaten. Wir stehen für eine schlanke und starke EU, die sich auf ihre Kernkompetenzen beschränkt und nur dort handelt, wo es nötig ist. Wir streiten für ein Europa freier Vaterländer, die ihre Identität und Demokratie schützen. Eine multikulturelle Migrationspolitik und offene Grenzen lehnen wir ab. Europa braucht einen Neustart!\n",
+        "latest_video_at": "2026-09-16T14:34:54Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCARuywo4pL8wlsMLkgd7ecg",
+      "external_id": "UCARuywo4pL8wlsMLkgd7ecg",
+      "name": "Uk Latest News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCARuywo4pL8wlsMLkgd7ecg",
+      "discovered_on": "2026-09-16",
+      "score": 71.12,
+      "metrics": {
+        "subscribers": 36800,
+        "total_views": 1458261,
+        "video_count": 54,
+        "avg_views_per_video": 27004.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "OMm614fdeXU",
+            "title": "Labour’s Online Censorship Plan EXPOSED? Critics Fear State Control of Free Speech",
+            "description": "Labour's Online Censorship Plan EXPOSED? Critics Fear State Control of Free Speech.",
+            "published_at": "2026-09-16T13:07:59Z",
+            "url": "https://www.youtube.com/watch?v=OMm614fdeXU"
+          }
+        ],
+        "channel_description": "Independent news & commentary media Channel,Not affiliated with any government or news organisation",
+        "latest_video_at": "2026-09-16T13:07:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCtgTrj49wi_GrB3t1d9U8Fw",
+      "external_id": "UCtgTrj49wi_GrB3t1d9U8Fw",
+      "name": "Poland Daily Live",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCtgTrj49wi_GrB3t1d9U8Fw",
+      "discovered_on": "2026-09-16",
+      "score": 66.54,
+      "metrics": {
+        "subscribers": 63900,
+        "total_views": 17714987,
+        "video_count": 11710,
+        "avg_views_per_video": 1512.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "C_fhEC4ieyI",
+            "title": "The European Democracy Shield: Solution To Disinformation, Or Brazen Censorship?",
+            "description": "https://bit.ly/Subscribe_Poland_Daily - subscribe and get to the interesting facts: World and Polish daily news, business data, ...",
+            "published_at": "2026-09-15T23:04:16Z",
+            "url": "https://www.youtube.com/watch?v=C_fhEC4ieyI"
+          }
+        ],
+        "channel_description": "Are you interested in Poland? Get to the interesting facts first hand! Poland Daily offers daily news, business data and shows such as culture, travel and history. You need to get to know them if you are going to Poland! Our reporters reach places with fascinating history! Don't forget to check the weather forecast!",
+        "latest_video_at": "2026-09-15T23:04:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCcXngksKUkE4sLl5Jgg9w5w",
+      "external_id": "UCcXngksKUkE4sLl5Jgg9w5w",
+      "name": "New Age BD",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCcXngksKUkE4sLl5Jgg9w5w",
+      "discovered_on": "2026-09-16",
+      "score": 66.28,
+      "metrics": {
+        "subscribers": 32300,
+        "total_views": 4269858,
+        "video_count": 1225,
+        "avg_views_per_video": 3485.6,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "Jy2rNuFxm6A",
+            "title": "PM’s press official says he saw journalists flee country first time  #shorts",
+            "description": "PM's press official says he saw journalists flee country first time #shorts NewAge The outspoken daily www.newagebd.net ...",
+            "published_at": "2026-09-16T12:22:14Z",
+            "url": "https://www.youtube.com/watch?v=Jy2rNuFxm6A"
+          }
+        ],
+        "channel_description": "This YouTube channel belongs to New Age, a Dhaka-based leading English language daily newspaper, which has come a long way, both in terms of the quality of its contents and reach to an ever-expanding readership since the newspaper first hit newsstands in June 2003. Today, New Age has a distinct presence, both in print and electronic version at home and abroad, consistently displaying the courage of espousing strong and fearless journalistic ethos dedicated to discharging democratically oriented intellectual responsibilities in society by way of providing factual news and presenting views that uphold political, economic and cultural interest of the people of Bangladesh and beyond. And New Age has done the job under all circumstances, during all regimes — political or apolitical — irrespective of their ideological colours while it remains committed to the job in the years to come.",
+        "latest_video_at": "2026-09-16T12:22:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCMEjYkGroih0QjEEX-W6xGw",
+      "external_id": "UCMEjYkGroih0QjEEX-W6xGw",
+      "name": "Romulus Marseillais",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCMEjYkGroih0QjEEX-W6xGw",
+      "discovered_on": "2026-09-16",
+      "score": 66.12,
+      "metrics": {
+        "subscribers": 9820,
+        "total_views": 4833309,
+        "video_count": 281,
+        "avg_views_per_video": 17200.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "qawvkTxjvtc",
+            "title": "🚨 REJOINS-MOI SUR MESSENGER ! 🚨Le lien est en bio #humour #romulus #censure",
+            "description": "REJOINS-MOI SUR MESSENGER ! Le lien est en bio. En cas de censure ou si une vidéo disparaît, tu me retrouves ...",
+            "published_at": "2026-09-15T16:16:31Z",
+            "url": "https://www.youtube.com/watch?v=qawvkTxjvtc"
+          }
+        ],
+        "channel_description": "❤️ Soutenez la chaîne ! 🎥\nSi vous aimez mon contenu et que vous souhaitez m’aider à continuer l’aventure, vous pouvez soutenir la chaîne sur le lien ci-dessous Site Romulus marseillais 👇👇https://fr.tipeee.com/romulus-marseillais/",
+        "latest_video_at": "2026-09-15T16:16:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7u4yDb81hT1vCTOFKp7YFQ",
+      "external_id": "UC7u4yDb81hT1vCTOFKp7YFQ",
+      "name": "The Sunday Guardian",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7u4yDb81hT1vCTOFKp7YFQ",
+      "discovered_on": "2026-09-16",
+      "score": 62.93,
+      "metrics": {
+        "subscribers": 22300,
+        "total_views": 9884153,
+        "video_count": 7876,
+        "avg_views_per_video": 1254.97,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "2GnV-lGYl6A",
+            "title": "Mexico Independence Day: Sheinbaum Leads Historic ‘Grito’ Celebration in 2026",
+            "description": "Mexico Independence Day, Claudia Sheinbaum, El Grito: Mexican President Claudia Sheinbaum led the traditional ...",
+            "published_at": "2026-09-16T09:00:28Z",
+            "url": "https://www.youtube.com/watch?v=2GnV-lGYl6A"
+          }
+        ],
+        "channel_description": "The Sunday Guardian is one destination for all the latest news, views and comprehensive coverage from India and around the world. Subscribe and stay updated with breaking news, exclusive interviews, ground reports, explainers, analysis, trending stories and special features, delivered with context, clarity and a distinctive editorial perspective. \n\n#TheSundayGuardian #News #IndiaNews #WorldNews #BreakingNews #Politics #Entertainment #Lifestyle #Health #Business #Sports \n",
+        "latest_video_at": "2026-09-16T09:00:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCHzXO3CZaCab5zWPPXF2Y9Q",
+      "external_id": "UCHzXO3CZaCab5zWPPXF2Y9Q",
+      "name": "Murad News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCHzXO3CZaCab5zWPPXF2Y9Q",
+      "discovered_on": "2026-09-16",
+      "score": 62.79,
+      "metrics": {
+        "subscribers": 2190,
+        "total_views": 66750,
+        "video_count": 559,
+        "avg_views_per_video": 119.41,
+        "matched_queries": 1,
+        "sample_videos": 5
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "oOQww04DXd4",
+            "title": "Murad News, Online News, Live News, Viral News, Breaking News, Independent News, Pakistan News, News",
+            "description": "ممحمد رفیق رپورٹر 11 ہزار کے وی کی تاریں جو کہ مکان سے دو فٹ کی دوری پر ہیں کسی ٹائم کسی جانی نقصان ہو سکتا ہے Murad ...",
+            "published_at": "2026-09-16T14:42:32Z",
+            "url": "https://www.youtube.com/watch?v=oOQww04DXd4"
+          },
+          {
+            "query": "independent news",
+            "video_id": "itR_86QXRJM",
+            "title": "Murad News, Online News, Live News, Viral News, Breaking News, Independent News, Pakistan News, News",
+            "description": "چک جھمرہ، فیصل آباد: ساہیانوالہ انٹرچینج کے قریب موٹروے پل پر چڑھائی چڑھتے ہوئے ایک ٹرالر سے لوہے کے گارڈر سڑک پر گر ...",
+            "published_at": "2026-09-16T12:59:12Z",
+            "url": "https://www.youtube.com/watch?v=itR_86QXRJM"
+          },
+          {
+            "query": "independent news",
+            "video_id": "4AC_EEEj4kk",
+            "title": "Murad News, Online News, Live News, Viral News, Breaking News, Independent News, Pakistan News, News",
+            "description": "پاکستان تحریکِ انصاف تعلقہ کوٹ غلام محمد* کل 5 ستمبر شام 4 بجے عمران خان کے دلیر وزیر اعلیٰ خیبرپختونخوا سہیل خان آفریدی ...",
+            "published_at": "2026-09-16T11:50:28Z",
+            "url": "https://www.youtube.com/watch?v=4AC_EEEj4kk"
+          },
+          {
+            "query": "independent news",
+            "video_id": "pXVSc01QYgo",
+            "title": "Murad News, Online News, Live News, Viral News, Breaking News, Independent News, Pakistan News, News",
+            "description": "خبر: لیاقت پور کے علاقے ٹھل حمزہ میں شاہد محمود شفٹ انچارج پٹرولنگ پولیس کی جانب سے موٹر سائیکل سواروں کو ٹریفک ...",
+            "published_at": "2026-09-16T10:54:04Z",
+            "url": "https://www.youtube.com/watch?v=pXVSc01QYgo"
+          },
+          {
+            "query": "independent news",
+            "video_id": "qTY7o58R-uo",
+            "title": "Murad News, Online News, Live News, Viral News, Breaking News, Independent News, Pakistan News, News",
+            "description": "بھکر/ مبینہ تشدد کا افسوسناک واقعہ چوہان نگر کے رہائشی مزمل نامی نوجوان پر اپنے ہی رشتہ داروں کا مبینہ طور پر بہیمانہ تشدد ...",
+            "published_at": "2026-09-16T08:27:58Z",
+            "url": "https://www.youtube.com/watch?v=qTY7o58R-uo"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-16T14:42:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCt8XZWUl8RDIuPbUDqgodMA",
+      "external_id": "UCt8XZWUl8RDIuPbUDqgodMA",
+      "name": "E RADIO INDIA",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCt8XZWUl8RDIuPbUDqgodMA",
+      "discovered_on": "2026-09-16",
+      "score": 61.49,
+      "metrics": {
+        "subscribers": 17700,
+        "total_views": 3134626,
+        "video_count": 3517,
+        "avg_views_per_video": 891.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "IKIrtIu1pfU",
+            "title": "भोजपुरी बवाल में तेज प्रताप के लुक और अभिनय पर बोलीं अक्षरा #eradioindia #akshrasingh #vairal",
+            "description": "E Radio india: -------------------------------- Join this channel to get access to perks: ...",
+            "published_at": "2026-09-16T12:55:33Z",
+            "url": "https://www.youtube.com/watch?v=IKIrtIu1pfU"
+          }
+        ],
+        "channel_description": "E Radio India – Voice of Real Journalism\n\nWelcome to E Radio India, an independent digital news platform committed to fearless journalism, factual reporting, and ground-level truth.\nEstablished in 2016, we bring you breaking news, political updates, social issues, investigative stories, interviews, documentaries, and unbiased analysis from across India.\n\nLed by Editor Trinath Mishra, E Radio India focuses on delivering stories that matter—stories that impact society, amplify public voice, and strengthen democracy.\n\nStay connected with us for:\n• Real-time news updates\n• Honest and responsible journalism\n• Ground reports from across the nation\n• Social, political, and cultural coverage\n• Digital programs and special features\n\n🌐 Website: eradioindia.com\n📧 Email: info@eradioindia.com\n | eradioindia@gmail.com\n\nSubscribe now and join the community that believes in bold, ethical, and impactful journalism.\n\nClick Here to Know More-\nhttps://eradioindia.com/about-eradio-india/\n",
+        "latest_video_at": "2026-09-16T12:55:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCma6O-4NBzwL_rh5PpmiVzA",
+      "external_id": "UCma6O-4NBzwL_rh5PpmiVzA",
+      "name": "Roberto Valente ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCma6O-4NBzwL_rh5PpmiVzA",
+      "discovered_on": "2026-09-16",
+      "score": 59.92,
+      "metrics": {
+        "subscribers": 5350,
+        "total_views": 1167937,
+        "video_count": 506,
+        "avg_views_per_video": 2308.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "0aLfYYLj6Sc",
+            "title": "IMPRENSA ALTERNATIVA DE PONTA GROSSA SOBRE O DUELO.",
+            "description": "operarioferroviario #nauticope #serieb2026 Apoie este canal para obter acesso aos seguintes benefícios: Grupo VIP no ...",
+            "published_at": "2026-09-15T18:47:03Z",
+            "url": "https://www.youtube.com/watch?v=0aLfYYLj6Sc"
+          }
+        ],
+        "channel_description": "Olá pessoal, sejam bem vindos ao nosso canal.",
+        "latest_video_at": "2026-09-15T18:47:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoN0WxmLAL1-Rc0c7cnDpxw",
+      "external_id": "UCoN0WxmLAL1-Rc0c7cnDpxw",
+      "name": "David Vance",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCoN0WxmLAL1-Rc0c7cnDpxw",
+      "discovered_on": "2026-09-16",
+      "score": 57.99,
+      "metrics": {
+        "subscribers": 7390,
+        "total_views": 640420,
+        "video_count": 670,
+        "avg_views_per_video": 955.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "oND9iF3jMFE",
+            "title": "The David Vance Monday Show with Derek Domino",
+            "description": "Derek Domino discusses President Trump's visit to Ireland and his incendiary claim that Irish Unity is inevitable. 🎙️ New to ...",
+            "published_at": "2026-09-14T20:11:13Z",
+            "url": "https://www.youtube.com/watch?v=oND9iF3jMFE"
+          }
+        ],
+        "channel_description": "Welcome to the  David Vance channel. Independent political commentary on UK politics, US politics, world affairs, free speech, culture, energy, immigration and current events. Expect honest analysis, interviews, podcasts and livestreams without the spin. Subscribe for new videos every week.\n",
+        "latest_video_at": "2026-09-14T20:11:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCuFs5SV22U-xMxbRSe4tuEg",
       "external_id": "UCuFs5SV22U-xMxbRSe4tuEg",

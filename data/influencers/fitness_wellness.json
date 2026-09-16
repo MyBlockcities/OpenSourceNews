@@ -2,19 +2,433 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-09-15T15:05:34Z",
-  "new_this_run": 13,
-  "total_influencers": 1275,
+  "updated_at": "2026-09-16T15:02:35Z",
+  "new_this_run": 11,
+  "total_influencers": 1286,
   "run_summary": {
-    "run_started_at": "2026-09-15T15:05:14Z",
+    "run_started_at": "2026-09-16T15:02:08Z",
     "candidate_count": 50,
-    "existing_count": 1262,
-    "selected_new_count": 13,
+    "existing_count": 1275,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCEl_H9LMQ_m-icQ0xDUUlRA",
+      "external_id": "UCEl_H9LMQ_m-icQ0xDUUlRA",
+      "name": "More Of Shawn Lynch",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCEl_H9LMQ_m-icQ0xDUUlRA",
+      "discovered_on": "2026-09-16",
+      "score": 69.33,
+      "metrics": {
+        "subscribers": 22200,
+        "total_views": 23590287,
+        "video_count": 979,
+        "avg_views_per_video": 24096.31,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "HJMMkMJwxjU",
+            "title": "This isn&#39;t your typical gym..",
+            "description": "School will not teach your kid how to build a life. And here is the part nobody says out loud. Kids do not learn this stuff from a class ...",
+            "published_at": "2026-09-16T14:00:05Z",
+            "url": "https://www.youtube.com/watch?v=HJMMkMJwxjU"
+          }
+        ],
+        "channel_description": "Official Shorts Account of Shawn Lynch \nIf you want different results, take different actions. \nSubscribe to level up your life 💪\n",
+        "latest_video_at": "2026-09-16T14:00:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCW5o8BdBMMSM3_iI9-xHKiw",
+      "external_id": "UCW5o8BdBMMSM3_iI9-xHKiw",
+      "name": "DerrickHenryFit",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCW5o8BdBMMSM3_iI9-xHKiw",
+      "discovered_on": "2026-09-16",
+      "score": 66.71,
+      "metrics": {
+        "subscribers": 22200,
+        "total_views": 790830,
+        "video_count": 110,
+        "avg_views_per_video": 7189.36,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "7r9fE30k4Vg",
+            "title": "Functional fitness. 💪",
+            "description": "",
+            "published_at": "2026-09-16T11:00:39Z",
+            "url": "https://www.youtube.com/watch?v=7r9fE30k4Vg"
+          }
+        ],
+        "channel_description": "Derrick Henry | NASM Certified Personal Trainer\n\nFitness that actually lasts. Training tips, form breakdowns, and the real work behind building a body you can live in for decades. Helping you to look good, feel better, and last longer.\n\nNew videos regularly. Follow along.\n📲 Instagram & TikTok: @DerrickHenryFit\n",
+        "latest_video_at": "2026-09-16T11:00:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCa0SeFtBHLCTzNfHe8ZNRYg",
+      "external_id": "UCa0SeFtBHLCTzNfHe8ZNRYg",
+      "name": "Gene Food",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCa0SeFtBHLCTzNfHe8ZNRYg",
+      "discovered_on": "2026-09-16",
+      "score": 62.89,
+      "metrics": {
+        "subscribers": 2430,
+        "total_views": 3084610,
+        "video_count": 71,
+        "avg_views_per_video": 43445.21,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "TXyUx-plEq8",
+            "title": "Does Bryan Johnson Know Something Attia Doesn&#39;t About Protein?",
+            "description": "Get your Gene Food DNA test, here: https://mygenefood.app Peter Attia says a 155-pound person should eat about 154 grams of ...",
+            "published_at": "2026-09-14T22:46:21Z",
+            "url": "https://www.youtube.com/watch?v=TXyUx-plEq8"
+          }
+        ],
+        "channel_description": "Gene Food is one of the most trusted voices in the personalized health revolution. Since launching our product in 2018, Gene Food has helped thousands of customers personalize their nutrition. Why do some people experience large increases in LDL when eating saturated fat, while others see little or no increase? These are the questions Gene Food is on a mission to help answer. \n",
+        "latest_video_at": "2026-09-14T22:46:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCN3iDc6XPNnRL_J5C-QoaDg",
+      "external_id": "UCN3iDc6XPNnRL_J5C-QoaDg",
+      "name": "Julian Baker",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCN3iDc6XPNnRL_J5C-QoaDg",
+      "discovered_on": "2026-09-16",
+      "score": 61.33,
+      "metrics": {
+        "subscribers": 7510,
+        "total_views": 1080347,
+        "video_count": 392,
+        "avg_views_per_video": 2755.99,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "TLZCBhUUp_Y",
+            "title": "The &#39;Get Up&#39; Test: Predict your longevity",
+            "description": "Functional movement reveals more about long-term health than almost anything else. Simple actions—like rising from a chair ...",
+            "published_at": "2026-09-16T12:55:36Z",
+            "url": "https://www.youtube.com/watch?v=TLZCBhUUp_Y"
+          }
+        ],
+        "channel_description": "Julian Baker BSc (Hons), brings alternative anatomy, health science, body movement and a just a different way of thinking about the human form.  Julian is one of the world's leading experts on fascia and body work and the world's most experienced Bowen Therapist and Bowen Teacher.  \n\nHIs incredible knowledge and insight into pain, movement, anatomy and the human condition, is accompanied with humour and a light hearted and sideways look at the body.  \n\nA qualified Health Scientist, he has been running human dissections in medical schools around the world for manual therapists for over 15 years and has been teaching bodywork and therapy for over 25. Visit https://touchmoveheal.com for more.\n",
+        "latest_video_at": "2026-09-16T12:55:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCFfToNxlaQn4PLVU-WVIpmQ",
+      "external_id": "UCFfToNxlaQn4PLVU-WVIpmQ",
+      "name": "ST Style",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCFfToNxlaQn4PLVU-WVIpmQ",
+      "discovered_on": "2026-09-16",
+      "score": 61.27,
+      "metrics": {
+        "subscribers": 5260,
+        "total_views": 4599477,
+        "video_count": 1045,
+        "avg_views_per_video": 4401.41,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "iA03-Kb5d1o",
+            "title": "ชอบจริงๆ👍 #functionalfitness",
+            "description": "",
+            "published_at": "2026-09-16T12:13:49Z",
+            "url": "https://www.youtube.com/watch?v=iA03-Kb5d1o"
+          }
+        ],
+        "channel_description": "สวัสดีค่ะ สตาร์ท สติทช์ สไตร์ค  ST Style ยูทูปช่องนี้มีแต่ความอบอุ่น น่ารัก สนุกสนาน^_^ อย่าลืมกด Subscribe เพื่อดูคลิปใหม่ๆก่อนใคร สนุกไปด้วยกันนะคะ\nFacebook Fan page  https://www.facebook.com/ST-Style-Channel-100965181483577",
+        "latest_video_at": "2026-09-16T12:13:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJEBRfmqyTqvwMgBRL5gmUA",
+      "external_id": "UCJEBRfmqyTqvwMgBRL5gmUA",
+      "name": "ashar husain",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCJEBRfmqyTqvwMgBRL5gmUA",
+      "discovered_on": "2026-09-16",
+      "score": 59.2,
+      "metrics": {
+        "subscribers": 2560,
+        "total_views": 1278546,
+        "video_count": 275,
+        "avg_views_per_video": 4649.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "1IK4gxPnC2Y",
+            "title": "HYROX: The Fitness Race That Pushes Your Body to the Limit 🔥",
+            "description": "Imagine running 8 kilometers while your body is already exhausted. ‍♂️   HYROX combines running with intense workout ...",
+            "published_at": "2026-09-16T14:58:50Z",
+            "url": "https://www.youtube.com/watch?v=1IK4gxPnC2Y"
+          }
+        ],
+        "channel_description": "This is ASHAR HUSAIN.... \n\nThis is my YouTube channel related to social videos and vlogs. \n\nAge-19 \n\nInsta- _mr.husain__8294_",
+        "latest_video_at": "2026-09-16T14:58:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRfHs540c8BPggQgzUoXo0w",
+      "external_id": "UCRfHs540c8BPggQgzUoXo0w",
+      "name": "Stronger Weekly Podcast",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCRfHs540c8BPggQgzUoXo0w",
+      "discovered_on": "2026-09-16",
+      "score": 58.2,
+      "metrics": {
+        "subscribers": 5160,
+        "total_views": 429753,
+        "video_count": 391,
+        "avg_views_per_video": 1099.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "tvVwztcief0",
+            "title": "What Is Functional Fitness — And Is It Right for You? (with Jon Little, REP Fitness)",
+            "description": "Everywhere you look, the fitness world is selling extremes — train harder, do more, chase the most intense program on the feed.",
+            "published_at": "2026-09-16T11:15:12Z",
+            "url": "https://www.youtube.com/watch?v=tvVwztcief0"
+          }
+        ],
+        "channel_description": "The health and fitness show for parents in the trenches.\n\nYou care about your body. You care about your kids. You care about your career, your marriage, your faith, your friends — and there's not enough of you to go around.\n\nStronger Weekly is the show for you. \n\nEvery Wednesday, in about 30 minutes:\n- Health headlines, translated into what to actually do\n- Workouts that WORK around a sick kid and a 7am meeting\n- Nutrition for a family, not a bodybuilder\n- The stuff nobody talks about — the drink, the burnout, the mental load\n- Fitness experts who respect your time\n\nHosted by Jesse Carrajat — USMC veteran, certified health and fitness coach, healthcare executive, and father of three. Not a guru. A parent doing the work alongside you.\n\nLife is short. Let's spend it wisely — so we're still here, and still strong, when it matters most.\n\nStrong parents. Strong kids. New episodes every Wednesday.\n",
+        "latest_video_at": "2026-09-16T11:15:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:91dd0f75480aec921bd3",
+      "external_id": "91dd0f75480aec921bd3",
+      "name": "Dan MacKinlay",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/granHbSbksXbDXpLD/should-our-journal-publish-ai-drafted-manuscripts",
+      "discovered_on": "2026-09-16",
+      "score": 32.0,
+      "metrics": {
+        "posts_seen_in_fetch": 2,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Should our journal publish AI-drafted manuscripts?",
+          "Who computes?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c39694718b7dfc34f53c",
+      "external_id": "c39694718b7dfc34f53c",
+      "name": "jacob",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/5y3QtAJB2hXpLg9bu/why-would-ai-cause-human-extinction",
+      "discovered_on": "2026-09-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Why would AI cause human extinction?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:debbb0609a46f6485cc4",
+      "external_id": "debbb0609a46f6485cc4",
+      "name": "Orville Schell",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/trump-and-xi-cant-stop-us-china-spiral-orville-schell",
+      "discovered_on": "2026-09-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Trump and Xi Can’t Stop the U.S.-China Spiral"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d1b59261694465e2cc9a",
+      "external_id": "d1b59261694465e2cc9a",
+      "name": "Helena Casademunt",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/NwfGDbRDLsaWpNazH/phantom-transfer-works-via-extremely-subtle-semantic-cues",
+      "discovered_on": "2026-09-16",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Phantom transfer works via extremely subtle semantic cues"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCXQ58QLPHWVur4Lg5OWh0qg",
       "external_id": "UCXQ58QLPHWVur4Lg5OWh0qg",
