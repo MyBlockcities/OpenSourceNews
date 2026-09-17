@@ -2,19 +2,344 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-16T15:02:29Z",
-  "new_this_run": 5,
-  "total_influencers": 310,
+  "updated_at": "2026-09-17T15:05:53Z",
+  "new_this_run": 7,
+  "total_influencers": 317,
   "run_summary": {
-    "run_started_at": "2026-09-16T15:02:08Z",
-    "candidate_count": 14,
-    "existing_count": 305,
-    "selected_new_count": 5,
+    "run_started_at": "2026-09-17T15:05:32Z",
+    "candidate_count": 21,
+    "existing_count": 310,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCKhbCAwMgHVH0b1Y8OIga2A",
+      "external_id": "UCKhbCAwMgHVH0b1Y8OIga2A",
+      "name": "Der ERCM Medizin Podcast",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCKhbCAwMgHVH0b1Y8OIga2A",
+      "discovered_on": "2026-09-17",
+      "score": 72.69,
+      "metrics": {
+        "subscribers": 73900,
+        "total_views": 11713216,
+        "video_count": 557,
+        "avg_views_per_video": 21029.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "f0lB022LsCU",
+            "title": "Was sind Peptide?",
+            "description": "Was sind Peptide eigentlich – und warum wird gerade so viel darüber gesprochen? Prof. Dr. Dr. Simone Kreth erklärt im ERCM ...",
+            "published_at": "2026-09-17T13:30:15Z",
+            "url": "https://www.youtube.com/watch?v=f0lB022LsCU"
+          }
+        ],
+        "channel_description": "Im ERCM Medizin Podcast präsentiert Prof. Dr. med. Alexander Muacevic fundierte Einblicke in die Welt der Medizin. Wir beleuchten die vielfältigen Facetten der medizinischen Wissenschaft, unterstützt durch die jeweils führenden Experten auf ihrem Gebiet. Jede Episode bietet sorgfältig kuratierte Diskussionen über die neuesten medizinischen Entwicklungen, optimalen Therapiemöglichkeiten, Herausforderungen und Fortschritte. Dabei legen wir besonderen Wert auf die Relevanz dieser Themen sowohl für Fachleute als auch für interessierte Laien.\n\nIm Europäischen Radiochirurgie Centrum München (ERCM) setzen wir seit über 20 Jahren auf präzise Tumortherapien: hochmoderne Radiochirurgie und innovative Medizintechnologien zur gezielten und schonenden Behandlung verschiedener Tumoren – gutartige Neubildungen ebenso wie schwere Krebserkrankungen. Jahr für Jahr schenken uns mehr als 1.000 Patientinnen und Patienten ihr Vertrauen auf dem Weg zu einer individuell abgestimmten Therapie.\n",
+        "latest_video_at": "2026-09-17T13:30:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCVLKnJW_1-Z5tHmDW1B4g8Q",
+      "external_id": "UCVLKnJW_1-Z5tHmDW1B4g8Q",
+      "name": "PricePlow",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCVLKnJW_1-Z5tHmDW1B4g8Q",
+      "discovered_on": "2026-09-17",
+      "score": 65.57,
+      "metrics": {
+        "subscribers": 31500,
+        "total_views": 7963421,
+        "video_count": 3051,
+        "avg_views_per_video": 2610.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "rGJbDZUZCcA",
+            "title": "Hydroxycut GLP-1 Elite Shred Unveiled by Iovate&#39;s New CEO Raza Bashir | Episode #235",
+            "description": "SHOW NOTES: https://blog.priceplow.com/podcast/raza-bashir-hydroxycut-glp-235 Iovate has a new CEO, and Raza Bashir ...",
+            "published_at": "2026-09-17T13:17:24Z",
+            "url": "https://www.youtube.com/watch?v=rGJbDZUZCcA"
+          }
+        ],
+        "channel_description": "The thought leaders in the sports nutrition supplement landscape, PricePlow is a tech and media company that covers dietary supplement science and research along with honest supplement ingredient breakdowns, flavor reviews, and industry news. We are on the quest for optimal natural performance and longevity.\n\nAlong with the heavily-researched content on the PricePlow Blog, we do deep dives on various supplement ingredients to help you find the best products and profiles for your needs. We look for clinically-dosed, research-backed profiles to find you the most effective supplements on the market. From protein powders to pre workout supplements to creatine to fat burners and other weight loss aids, PricePlow takes care of it.\n\nFor The BEST Nutrition, Supplementation, and Performance Channel on YouTube, Subscribe to PricePlow and follow https://blog.priceplow.com",
+        "latest_video_at": "2026-09-17T13:17:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCOMgL_gucm5G1LUQRmqRFpg",
+      "external_id": "UCOMgL_gucm5G1LUQRmqRFpg",
+      "name": "JEAN: RUMO AO MEU MELHOR SHAPE",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCOMgL_gucm5G1LUQRmqRFpg",
+      "discovered_on": "2026-09-17",
+      "score": 64.33,
+      "metrics": {
+        "subscribers": 10600,
+        "total_views": 3492492,
+        "video_count": 517,
+        "avg_views_per_video": 6755.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "_qALtHmJ1U8",
+            "title": "O BPC-157 está furando a bolha maromba, estao chamando de  “Wolverine dos peptídeos”…",
+            "description": "O BPC-157 está furando a bolha maromba, mas entre chamar de “Wolverine dos peptídeos” e dizer que não existe ciência ...",
+            "published_at": "2026-09-16T22:10:30Z",
+            "url": "https://www.youtube.com/watch?v=_qALtHmJ1U8"
+          }
+        ],
+        "channel_description": " - 55kg: da obesidade ao fisiculturismo\n🧪 Protocolos de Performance & Consultoria\n📚 Ele: Nutrição\n🏷️ @growthsupplements | @odinfit\n👇 Comece por aqui:",
+        "latest_video_at": "2026-09-16T22:10:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC48uoc0EKRRmSz-I57ns3lg",
+      "external_id": "UC48uoc0EKRRmSz-I57ns3lg",
+      "name": "Straight Outta JerZey - Joe Zapata",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC48uoc0EKRRmSz-I57ns3lg",
+      "discovered_on": "2026-09-17",
+      "score": 59.94,
+      "metrics": {
+        "subscribers": 2310,
+        "total_views": 1147320,
+        "video_count": 1522,
+        "avg_views_per_video": 753.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/jerseyjz74"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "m5FQxMLYVnA",
+            "title": "Peptide Talk: Arnold gives his opinion of Peptides! BPC-157 Verdict!",
+            "description": "In this episode of Peptide Talk, Joe Zapata and Garrett Pope tackle some of the most pressing and controversial headlines ...",
+            "published_at": "2026-09-16T20:00:02Z",
+            "url": "https://www.youtube.com/watch?v=m5FQxMLYVnA"
+          }
+        ],
+        "channel_description": "New Jersey Club\n\nWelcome to Zapata Brand Media. Straight outta JerZey! “Jersey” Joe Zapata represents New Jersey and brings you great content weekly\n\nPro Wrestling interviews with many wrestling legends\n\nBodybuilding legend Gregg Valentino 💪🏻 every Thursday 8pm EST @greggvalentino\n\nMovie Talk Show with Dave “DC” Callari and Screenwriter Rob Alvarenga @hydethewriter Wednesdays 9:30pm EST  🎥🎬\n\nPeptide Talk Every Wednesday 4pm EST 🕓 with Peptide Guru Garrett Pope💉💊💪🏻\n\n📧 joezapatayanks@gmail.com\n\nhttps://www.instagram.com/jerseyjz74 \n\nBe part of the Zapata Brand! \nJoin the Zapata Brothers! \n\nSponsored by Cosa Nostra Brand\nSponsored by Ace Sunglasses\nSponsored by Ringside Products\nSponsored by Equip Protein\n\n",
+        "latest_video_at": "2026-09-16T20:00:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCYTLtkEMlHBePXgO3oTs-kQ",
+      "external_id": "UCYTLtkEMlHBePXgO3oTs-kQ",
+      "name": "Иван Моргунов. Биохакинг и продление жизни. ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCYTLtkEMlHBePXgO3oTs-kQ",
+      "discovered_on": "2026-09-17",
+      "score": 57.35,
+      "metrics": {
+        "subscribers": 4230,
+        "total_views": 269216,
+        "video_count": 274,
+        "avg_views_per_video": 982.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "e-SHSiADEdk",
+            "title": "ТОП непепдиных подходов. Алекс Гринберг. Диагностика, терапии и биобанкинг.",
+            "description": "Продолжаем разговор с Александром Гринбергом, практикующим врачом из Сан-Франциско, о биохакинге и продлении ...",
+            "published_at": "2026-09-17T15:00:23Z",
+            "url": "https://www.youtube.com/watch?v=e-SHSiADEdk"
+          }
+        ],
+        "channel_description": "Привет! Я Иван Моргунов.\n\nБиохакинг день: https://nutrihacking.ru/mainpage\n\nЯ посвятил свою жизнь борьбе со старением и поиску способов продлить активную, здоровую жизнь. Сегодня я создаю биотех проекты, изучаю передовые методы омоложения и тестирую новые подходы — в том числе генетические терапии на себе.\n\nЭто было не всегда. В молодости я жил совсем иначе — нездоровый образ жизни, серьёзные ошибки и даже онкологическое заболевание. Этот опыт полностью изменил мой вектор и стал точкой отсчёта.\n\nСейчас я работаю на передовой темы долголетия и биохакинга, лично знаком с лидерами индустрии в России и мире и имею доступ к самым продвинутым инсайтам и разработкам.\n\nНа этом канале я делюсь:\n— реальными стратегиями замедления старения\n— научными разбором без мифов\n— экспериментами и личным опытом\n— интервью с теми, кто формирует будущее  \n\nЕсли интересно, как жить дольше, сохранять ясность ума, энергию и контроль над своим телом — подписывайтесь.\n\nБудущее долголетия создаётся уже сейчас.\n\n\n",
+        "latest_video_at": "2026-09-17T15:00:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCt1hMGVc6pvzIRWK5-8vdPQ",
+      "external_id": "UCt1hMGVc6pvzIRWK5-8vdPQ",
+      "name": "Mugdha Pradhan",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCt1hMGVc6pvzIRWK5-8vdPQ",
+      "discovered_on": "2026-09-17",
+      "score": 54.62,
+      "metrics": {
+        "subscribers": 2120,
+        "total_views": 2020,
+        "video_count": 11,
+        "avg_views_per_video": 183.64,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "9FoeEJgmAYw",
+            "title": "The Peptide For A Brain That’s Fading #peptide #brainhealth #biohacking #alzheimer",
+            "description": "Cerebrolysin. Crosses the blood-brain barrier. Mimics nerve growth factors. Used in 40+ countries for dementia and brain injury.",
+            "published_at": "2026-09-17T05:21:41Z",
+            "url": "https://www.youtube.com/watch?v=9FoeEJgmAYw"
+          },
+          {
+            "query": "peptide therapy",
+            "video_id": "5teI-S0Bqu4",
+            "title": "Your Immune System Has A Reset Button #thymosine #peptides #biohacking #healthhacks",
+            "description": "Thymosin Alpha-1. Produced by your thymus. Approved in multiple countries. Retrains your immune system instead of ...",
+            "published_at": "2026-09-17T04:45:02Z",
+            "url": "https://www.youtube.com/watch?v=5teI-S0Bqu4"
+          }
+        ],
+        "channel_description": "I help humans remember what they are.\nBy 37, I had Hashimoto's, clinical depression, and a body that had given up on me. I had a Master's in Nutrition and none of it had saved me.\nFunctional medicine did. I lost 37 kg. Reversed the autoimmune condition. Came back to life.\nThen I built iThrive and helped 10,000+ humans across 174 conditions do the same. This channel is where I go deeper. The Shorts hit you with the truth. The long-form shows you the science, the stories, and the system behind it.\nFunctional Medicine · Quantum Biology · Breathwork · Peptides\nCEO and Founder, iThrive · 2x TEDx · Author, Health Inc.\n\nStart your healing: www.ithrivein.com\n",
+        "latest_video_at": "2026-09-17T05:21:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCVPoVVNwsQrJEhUMln-6Y1g",
+      "external_id": "UCVPoVVNwsQrJEhUMln-6Y1g",
+      "name": "Anusandhan National Research Foundation - ANRF",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCVPoVVNwsQrJEhUMln-6Y1g",
+      "discovered_on": "2026-09-17",
+      "score": 52.22,
+      "metrics": {
+        "subscribers": 3030,
+        "total_views": 72399,
+        "video_count": 492,
+        "avg_views_per_video": 147.15,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "WLiOI31nweU",
+            "title": "AI Breakthrough: Healing Diabetic Wounds, Beating Resistance | ANRF PRISM",
+            "description": "Diabetic wounds are a serious global health challenge, often leading to amputations and persistent infections. Dr. Rituparna ...",
+            "published_at": "2026-09-17T04:48:24Z",
+            "url": "https://www.youtube.com/watch?v=WLiOI31nweU"
+          }
+        ],
+        "channel_description": "Anusandhan National Research Foundation (ANRF) - established through an  Act of Parliament: ANRF Act, 2023, to provide high-level strategic directions for research, innovation, and entrepreneurship in the fields of natural sciences, including mathematical sciences, engineering and technology, environmental and earth sciences, health and agriculture, and scientific and technological interfaces of humanities and social sciences. #ANRFIndia\n\n",
+        "latest_video_at": "2026-09-17T04:48:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCDePf302Ax0fNRRTyNMJaHw",
       "external_id": "UCDePf302Ax0fNRRTyNMJaHw",

@@ -2,19 +2,433 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-09-16T15:02:35Z",
-  "new_this_run": 11,
-  "total_influencers": 1286,
+  "updated_at": "2026-09-17T15:05:58Z",
+  "new_this_run": 13,
+  "total_influencers": 1299,
   "run_summary": {
-    "run_started_at": "2026-09-16T15:02:08Z",
-    "candidate_count": 50,
-    "existing_count": 1275,
-    "selected_new_count": 11,
+    "run_started_at": "2026-09-17T15:05:32Z",
+    "candidate_count": 46,
+    "existing_count": 1286,
+    "selected_new_count": 13,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCDzRJAAX_5TGp4Wyfryd_mg",
+      "external_id": "UCDzRJAAX_5TGp4Wyfryd_mg",
+      "name": "Just FKS",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCDzRJAAX_5TGp4Wyfryd_mg",
+      "discovered_on": "2026-09-17",
+      "score": 68.01,
+      "metrics": {
+        "subscribers": 7610,
+        "total_views": 22248994,
+        "video_count": 379,
+        "avg_views_per_video": 58704.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "FErvWB14LJY",
+            "title": "The Pill That Could Give You a Longer and Healthier Life 🌟 #bryanjohnson #blueprint",
+            "description": "Full Episodes → @friendskeepsecrets 🎛️ Benny Blanco → @bennyblanco Lil Dicky → @LilDickyRap Bryan Johnson ...",
+            "published_at": "2026-09-16T19:04:05Z",
+            "url": "https://www.youtube.com/watch?v=FErvWB14LJY"
+          }
+        ],
+        "channel_description": "\n\nWelcome to Just FKS — your source for the best moments, funniest clips, and standout highlights from the Friends Keep Secrets universe.\n\nThis channel features short-form edits, iconic conversations, unexpected moments, and entertaining clips connected to Benny Blanco, Lil Dicky, celebrity guests, and more. Everything is edited into quick, easy-to-watch videos made for fans who enjoy the chaos, humor, and real conversations.\n\n🎬 Short clips\n🔥 Viral moments\n🎧 Podcast highlights\n📅 Regular uploads\n\nAll content is edited and shared for entertainment purposes by a fan of the show.\n",
+        "latest_video_at": "2026-09-16T19:04:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCdp19YW7m8Z-nJ5AORNXxlg",
+      "external_id": "UCdp19YW7m8Z-nJ5AORNXxlg",
+      "name": "Skinside Out",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCdp19YW7m8Z-nJ5AORNXxlg",
+      "discovered_on": "2026-09-17",
+      "score": 58.42,
+      "metrics": {
+        "subscribers": 8130,
+        "total_views": 293919,
+        "video_count": 456,
+        "avg_views_per_video": 644.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "9No9m6XCd_E",
+            "title": "Peptides: Oral and Injectable",
+            "description": "Peptides are everywhere, but how much do we actually know about the oral and injectable versions? Dr. Zain and Courtney ...",
+            "published_at": "2026-09-17T02:18:54Z",
+            "url": "https://www.youtube.com/watch?v=9No9m6XCd_E"
+          }
+        ],
+        "channel_description": "Welcome to Skin-side Out: Where Science Meets Beauty. Hosted by Dr. Zain Husain, a board-certified dermatologist and cosmetic expert, Skin-side Out explores the fascinating intersection of skincare and science.\nFrom the latest advancements in cosmetic treatments to practical advice for achieving healthy, radiant skin, Dr. Husain shares expert insights to help you feel confident in your skincare journey. Discover the truth behind beauty trends, learn how science supports self-care, and get actionable tips to make informed decisions about your skin. Whether you’re a skincare enthusiast or simply looking to elevate your routine, Skin-side Out is your guide to glowing, healthy skin—starting from the inside out.\n\n",
+        "latest_video_at": "2026-09-17T02:18:54Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC81lVxmotWy6P3PBMSZnKYQ",
+      "external_id": "UC81lVxmotWy6P3PBMSZnKYQ",
+      "name": "Through The Line",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC81lVxmotWy6P3PBMSZnKYQ",
+      "discovered_on": "2026-09-17",
+      "score": 56.29,
+      "metrics": {
+        "subscribers": 4390,
+        "total_views": 183747,
+        "video_count": 202,
+        "avg_views_per_video": 909.64,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "4AqlnMO7SVg",
+            "title": "The Peptide Conversation Everyone Should Understand",
+            "description": "Peptides have quickly become one of the biggest conversations in health, wellness, and weight loss. But beyond the headlines, ...",
+            "published_at": "2026-09-16T01:26:11Z",
+            "url": "https://www.youtube.com/watch?v=4AqlnMO7SVg"
+          }
+        ],
+        "channel_description": "DEVELOPMENT ",
+        "latest_video_at": "2026-09-16T01:26:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:7e236f26431f912ce246",
+      "external_id": "7e236f26431f912ce246",
+      "name": "Josh Thorsteinson",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/LQ9wKT9oNeArbwukz/plzdontkillus-fellows-got-2m-ai-safety-views-not-21m",
+      "discovered_on": "2026-09-17",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/joshthor9",
+        "instagram": "https://www.instagram.com/reel"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "plzdontkillus Fellows Got ~2M AI Safety Views, Not 21M"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:10ebf87ea2f5f4cc8ad4",
+      "external_id": "10ebf87ea2f5f4cc8ad4",
+      "name": "DanB",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Rx38cuCpL9hguLCDq/for-love-of-the-lightcone-don-t-partisanize-ai-safety",
+      "discovered_on": "2026-09-17",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/ESYudkowsky"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "For Love of the Lightcone, Don't Partisanize AI Safety"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e88f97542901fc5e8179",
+      "external_id": "e88f97542901fc5e8179",
+      "name": "Will Freeman",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/cuba/cubas-point-no-return",
+      "discovered_on": "2026-09-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Cuba’s Point of No Return"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:dd93353f5c2b509c7720",
+      "external_id": "dd93353f5c2b509c7720",
+      "name": "Nissa Seru",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/woB7hqDPXL8tCYbH9/there-is-no-alignment-without-value-stability",
+      "discovered_on": "2026-09-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "There Is No Alignment Without Value Stability"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:6b07572be390677f3ee7",
+      "external_id": "6b07572be390677f3ee7",
+      "name": "Nikita Kurdiukov",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/7qjGWJcRSfMga46uR/hebbian-learning-through-the-lens-of-sae-traning",
+      "discovered_on": "2026-09-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Hebbian Learning through the lens of SAE traning."
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d5963f7ba7cb34f880a9",
+      "external_id": "d5963f7ba7cb34f880a9",
+      "name": "Laiba Rehman ✦ RJ",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/EKMFkaotMQ3xdvz3o/emergency-media-response-pauseai-protest-speech",
+      "discovered_on": "2026-09-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Emergency Media Response PauseAI Protest Speech"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:eedfafb258ae559d4408",
+      "external_id": "eedfafb258ae559d4408",
+      "name": "Jason Fantl",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/nnYNGiPKrAcFe4DNe/agents-let-ai-safety-share-experiments-hourly-not-just",
+      "discovered_on": "2026-09-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Agents let AI safety share experiments hourly, not just papers monthly"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:528ba069fde0b3ac6f56",
+      "external_id": "528ba069fde0b3ac6f56",
+      "name": "Gideon Chang",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/GDiJAKJK53AmxrmgF/we-are-too-early-for-astra-1",
+      "discovered_on": "2026-09-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "We are too early for Astra"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:5e9e55e01f63efcfca37",
+      "external_id": "5e9e55e01f63efcfca37",
+      "name": "Andrew Mertha",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/chinas-purges-are-working-designed",
+      "discovered_on": "2026-09-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "China’s Purges Are Working as Designed"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:443415b6d7cd43132d7f",
+      "external_id": "443415b6d7cd43132d7f",
+      "name": "Alfred Harwood",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/h8qrA5t4LgZCiuEpK/did-galileo-mistake-saturn-s-rings-for-jupiter-s-moons",
+      "discovered_on": "2026-09-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Did Galileo mistake Saturn's rings for Jupiter's Moons?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCEl_H9LMQ_m-icQ0xDUUlRA",
       "external_id": "UCEl_H9LMQ_m-icQ0xDUUlRA",

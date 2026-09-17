@@ -2,19 +2,90 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-09-16T15:02:16Z",
-  "new_this_run": 5,
-  "total_influencers": 294,
+  "updated_at": "2026-09-17T15:05:39Z",
+  "new_this_run": 2,
+  "total_influencers": 296,
   "run_summary": {
-    "run_started_at": "2026-09-16T15:02:08Z",
-    "candidate_count": 41,
-    "existing_count": 289,
-    "selected_new_count": 5,
+    "run_started_at": "2026-09-17T15:05:32Z",
+    "candidate_count": 39,
+    "existing_count": 294,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC5v7_HYbU_aEzh83f5jlOZw",
+      "external_id": "UC5v7_HYbU_aEzh83f5jlOZw",
+      "name": "Ruzanov LIVE",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UC5v7_HYbU_aEzh83f5jlOZw",
+      "discovered_on": "2026-09-17",
+      "score": 66.9,
+      "metrics": {
+        "subscribers": 33600,
+        "total_views": 2203630,
+        "video_count": 501,
+        "avg_views_per_video": 4398.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "tokenized real estate"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "tokenized real estate",
+            "video_id": "VSg9c0iTAU0",
+            "title": "Покупка нового объекта на BinaryX | Доходная недвижимость на токенизированной платформе BinaryX",
+            "description": "https://app.binaryx.com/en?id=4CB4CBDB регистрация BinaryX https://telegram.me/ruzanovlive Telegram канал ...",
+            "published_at": "2026-09-16T18:42:28Z",
+            "url": "https://www.youtube.com/watch?v=VSg9c0iTAU0"
+          }
+        ],
+        "channel_description": "Инвестирую в акции, криптовалюту, инвестиционные фонды. Создаю пассивный доход благодаря дивидендам, майнингу, стейкингу.",
+        "latest_video_at": "2026-09-16T18:42:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:069273968246366f7b83",
+      "external_id": "069273968246366f7b83",
+      "name": "Glenn Williams Jr.",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/09/17/crypto-for-advisors-beyond-bitcoin-and-ether",
+      "discovered_on": "2026-09-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto for Advisors: Beyond bitcoin and ether"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC0qwQ9Rx2eaUE5wmY7VW2sg",
       "external_id": "UC0qwQ9Rx2eaUE5wmY7VW2sg",

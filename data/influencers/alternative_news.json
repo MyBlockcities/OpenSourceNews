@@ -2,19 +2,337 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-16T15:02:19Z",
-  "new_this_run": 10,
-  "total_influencers": 538,
+  "updated_at": "2026-09-17T15:05:42Z",
+  "new_this_run": 7,
+  "total_influencers": 545,
   "run_summary": {
-    "run_started_at": "2026-09-16T15:02:08Z",
-    "candidate_count": 20,
-    "existing_count": 528,
-    "selected_new_count": 10,
+    "run_started_at": "2026-09-17T15:05:32Z",
+    "candidate_count": 22,
+    "existing_count": 538,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC15ZtULRKUX8Nq-fMo-W1ow",
+      "external_id": "UC15ZtULRKUX8Nq-fMo-W1ow",
+      "name": "NA Drama",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC15ZtULRKUX8Nq-fMo-W1ow",
+      "discovered_on": "2026-09-17",
+      "score": 71.38,
+      "metrics": {
+        "subscribers": 21200,
+        "total_views": 2965197,
+        "video_count": 45,
+        "avg_views_per_video": 65893.27,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "HaqFJARfgtw",
+            "title": "Tom Woods &amp; Dave Smith Full Interview | Censorship, Mark Levin, Israel Lobby &amp; Loomer",
+            "description": "Tom Woods & Dave Smith Full Interview | Censorship, Mark Levin, Israel Lobby & Loomer Dave Smith and I talk a little gossip (the ...",
+            "published_at": "2026-09-17T15:00:09Z",
+            "url": "https://www.youtube.com/watch?v=HaqFJARfgtw"
+          }
+        ],
+        "channel_description": "Assalamu Alaikum everyone love you all 🖤",
+        "latest_video_at": "2026-09-17T15:00:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC6DM_H3IdHHmHPKILWw2N_Q",
+      "external_id": "UC6DM_H3IdHHmHPKILWw2N_Q",
+      "name": "Prime Asia TV News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC6DM_H3IdHHmHPKILWw2N_Q",
+      "discovered_on": "2026-09-17",
+      "score": 69.92,
+      "metrics": {
+        "subscribers": 56400,
+        "total_views": 33303195,
+        "video_count": 3896,
+        "avg_views_per_video": 8548.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "lrog66JKxrs",
+            "title": "ਹੁਣ Preity Zinta ਲਗਾਉਣਗੇ ਫ਼ਿਲਮਾਂ &#39;ਚ CUT! - Censor Board ਦੀ ਨਵੀਂ Team ਤਿਆਰ | Prime Asia TV News",
+            "description": "primeasiatv #cmbhagwantmann #aapsarkar #aamaadmiparty Subscribe Now to Prime Asia TV News: ...",
+            "published_at": "2026-09-17T06:28:27Z",
+            "url": "https://www.youtube.com/watch?v=lrog66JKxrs"
+          }
+        ],
+        "channel_description": "Welcome to Prime Asia TV News – the dedicated 24/7 news channel from Prime Asia TV, delivering real-time Punjabi news and updates from across the globe.\n\nStay informed with unbiased, apolitical, and HD news coverage from Canada, India, and the Punjabi diaspora. Whether it's breaking news, political updates, or global developments, Prime Asia TV News keeps you connected—anytime, anywhere.\n\nSubscribe now to Prime Asia TV News for nonstop Punjabi news you can trust.\n",
+        "latest_video_at": "2026-09-17T06:28:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC65-q2hyA30tEKIE96Mjahg",
+      "external_id": "UC65-q2hyA30tEKIE96Mjahg",
+      "name": "Jumuiya News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC65-q2hyA30tEKIE96Mjahg",
+      "discovered_on": "2026-09-17",
+      "score": 68.43,
+      "metrics": {
+        "subscribers": 4670,
+        "total_views": 964617,
+        "video_count": 172,
+        "avg_views_per_video": 5608.24,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism",
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "rUczP8uedxg",
+            "title": "Jumuiya News—Independent Journalism from Kenya&#39;s Coast",
+            "description": "Jumuiya News is an independent digital newsroom reporting from Kenya's Coast. We cover politics, breaking news, investigations ...",
+            "published_at": "2026-09-17T08:49:26Z",
+            "url": "https://www.youtube.com/watch?v=rUczP8uedxg"
+          },
+          {
+            "query": "independent journalism",
+            "video_id": "rUczP8uedxg",
+            "title": "Jumuiya News—Independent Journalism from Kenya&#39;s Coast",
+            "description": "Jumuiya News is an independent digital newsroom reporting from Kenya's Coast. We cover politics, breaking news, investigations ...",
+            "published_at": "2026-09-17T08:49:26Z",
+            "url": "https://www.youtube.com/watch?v=rUczP8uedxg"
+          }
+        ],
+        "channel_description": "Jumuiya News is an independent digital newsroom reporting from Kenya's Coast. We cover politics, breaking news, investigations, culture, people, environment, blue economy and community affairs across Mombasa, Kilifi, Kwale, Lamu, Tana River and Taita Taveta.\n\nWe ask the questions leaders avoid — from Coast politics and governance to Mijikenda culture, human-interest stories and community affairs that mainstream media overlooks. Jumuiya News brings you credible, people-centred journalism from the Coast.\n\nCoast. People. Stories.\n\nSubscribe for the latest news, documentaries, interviews and explainers from Kenya's Coast.\n\nJumuiya News — Independent journalism from Kenya's Coast.\n\nRead more at: www.jumuiya.co.ke\n",
+        "latest_video_at": "2026-09-17T08:49:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOjgELmVuFLgLwJ9hZZ68Tg",
+      "external_id": "UCOjgELmVuFLgLwJ9hZZ68Tg",
+      "name": "Know Your Rights Group",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCOjgELmVuFLgLwJ9hZZ68Tg",
+      "discovered_on": "2026-09-17",
+      "score": 63.31,
+      "metrics": {
+        "subscribers": 17400,
+        "total_views": 1116187,
+        "video_count": 527,
+        "avg_views_per_video": 2118.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "rIW8We2dIQ0",
+            "title": "Digital Censorship, taxation, work from home laws, potholes, more fines and good news – 17 Sept 2026",
+            "description": "On tonight's video update, we addressed the impact we're already having on the proposed Digital Duty of Care legislation and ...",
+            "published_at": "2026-09-17T12:07:40Z",
+            "url": "https://www.youtube.com/watch?v=rIW8We2dIQ0"
+          }
+        ],
+        "channel_description": "Welcome to the Know Your Rights Group.\n\nFor more than a decade, we've been helping Australians better understand their rights, responsibilities and options when dealing with government departments, councils, banks, police, courts and other institutions that affect everyday life.\n\nOn this channel you'll find videos covering:\n\n⚖️ Rights and freedoms\n\n🚔 Police powers and traffic matters\n\n📸 Fines, cameras and infringements\n\n🏛️ Local government and councils\n\n🏠 Rates, land titles and property issues\n\n🏦 Banking, debt collection and financial matters\n\n🆔 Digital ID and privacy issues\n\n📜 Constitutional and legal topics\n\n🎙️ Weekly updates, webinars, podcasts and educational content\n\nWe also provide books, eBooks, webinars, memberships, AI-powered research tools and a growing library of educational resources.\n\n🌐 [www.knowyourrightsgroup.com.au](http://www.knowyourrightsgroup.com.au)\n\nThose who don't know their rights have none.\n\n",
+        "latest_video_at": "2026-09-17T12:07:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC-Fd22hyIYdgY2uC49q4Nlg",
+      "external_id": "UC-Fd22hyIYdgY2uC49q4Nlg",
+      "name": "NVN MANIA",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC-Fd22hyIYdgY2uC49q4Nlg",
+      "discovered_on": "2026-09-17",
+      "score": 62.96,
+      "metrics": {
+        "subscribers": 4590,
+        "total_views": 4013272,
+        "video_count": 346,
+        "avg_views_per_video": 11599.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "NlTbPPvZ9aI",
+            "title": "𝗧𝗵𝗲 𝗣𝗮𝗿𝗮𝗱𝗶𝘀𝗲 𝗖𝗲𝗻𝘀𝗼𝗿 𝗧𝗮𝗹𝗸 &#39;𝗔&#39; సర్టిఫికెట్ అందుకే ఇచ్చారా?! 🤯🔥 #TheParadise #Shorts #nani #reviews",
+            "description": "The Paradise Censor Talk 'A' సర్టిఫికెట్ అందుకే ఇచ్చారా?! #TheParadise ...",
+            "published_at": "2026-09-16T15:56:10Z",
+            "url": "https://www.youtube.com/watch?v=NlTbPPvZ9aI"
+          }
+        ],
+        "channel_description": "🎬 NVN MANIA - Honest movie reviews, mass moments, cinematic breakdowns\nIf you love  cinema & want straightforward opinions,\nthis channel is for you...\n🔔 Subscribe & stay updated with the real movie scene.\n 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 & 𝗣𝗿𝗼𝗺𝗼𝘁𝗶𝗼𝗻𝘀\nFor collaborations, movie promotions, or inquiries:👇\n\n✉️ Nvntechtrends@gmail.com\n\nCopyright / Content Concerns",
+        "latest_video_at": "2026-09-16T15:56:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UClOBN_7yBnDvM0hNxuMh8OQ",
+      "external_id": "UClOBN_7yBnDvM0hNxuMh8OQ",
+      "name": "Salaamedia",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UClOBN_7yBnDvM0hNxuMh8OQ",
+      "discovered_on": "2026-09-17",
+      "score": 61.88,
+      "metrics": {
+        "subscribers": 19600,
+        "total_views": 3501687,
+        "video_count": 15082,
+        "avg_views_per_video": 232.18,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "7DzIVaxDM74",
+            "title": "#HeardOnAir Unmasking The Hasbara with George Galloway &amp; Dr. Yvonne Ridley",
+            "description": "HeardOnAir Unmasking The Hasbara: Building Media Resilence Journalists & Media Activists in discussion with: George ...",
+            "published_at": "2026-09-17T08:20:34Z",
+            "url": "https://www.youtube.com/watch?v=7DzIVaxDM74"
+          },
+          {
+            "query": "alternative media",
+            "video_id": "ZWZNd27KoRs",
+            "title": "Unmasking The Hasbara: Building Media Resilence",
+            "description": "Unmasking The Hasbara: Building Media Resilence Journalists & Media Activists in discussion with: George Galloway & Dr.",
+            "published_at": "2026-09-17T02:50:36Z",
+            "url": "https://www.youtube.com/watch?v=ZWZNd27KoRs"
+          }
+        ],
+        "channel_description": "Media Agency | Amplifying unheard voices. Official #first Humanitarian Journalism platform. 🇿🇦",
+        "latest_video_at": "2026-09-17T08:20:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCHYLKTgN_unLoY5VlC_KWiA",
+      "external_id": "UCHYLKTgN_unLoY5VlC_KWiA",
+      "name": "BMA +",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCHYLKTgN_unLoY5VlC_KWiA",
+      "discovered_on": "2026-09-17",
+      "score": 55.53,
+      "metrics": {
+        "subscribers": 4830,
+        "total_views": 551762,
+        "video_count": 1565,
+        "avg_views_per_video": 352.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "NEXgU3n78dk",
+            "title": "¡Gobierno Silencia Periodistas! Multas y Ley Mordaza #shorts",
+            "description": "La propuesta de la CRT en México busca sancionar noticias engañosas. Los críticos la ven como un intento de censura que ...",
+            "published_at": "2026-09-17T03:35:56Z",
+            "url": "https://www.youtube.com/watch?v=NEXgU3n78dk"
+          }
+        ],
+        "channel_description": "BMA+ es el primer canal de un Colegio de Abogados, ofreciendo contenido jurídico enfocado en las diferentes áreas del Derecho.",
+        "latest_video_at": "2026-09-17T03:35:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCmzLzI-ROdjxWtBOuJTelug",
       "external_id": "UCmzLzI-ROdjxWtBOuJTelug",
