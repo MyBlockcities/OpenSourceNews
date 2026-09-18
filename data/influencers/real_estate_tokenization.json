@@ -2,19 +2,132 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-09-17T15:05:39Z",
-  "new_this_run": 2,
-  "total_influencers": 296,
+  "updated_at": "2026-09-18T14:33:18Z",
+  "new_this_run": 3,
+  "total_influencers": 299,
   "run_summary": {
-    "run_started_at": "2026-09-17T15:05:32Z",
-    "candidate_count": 39,
-    "existing_count": 294,
-    "selected_new_count": 2,
+    "run_started_at": "2026-09-18T14:33:12Z",
+    "candidate_count": 48,
+    "existing_count": 296,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCbpNKWuYGQmOaa6zeE1p3PQ",
+      "external_id": "UCbpNKWuYGQmOaa6zeE1p3PQ",
+      "name": "Un Peu Moins Pauvre",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCbpNKWuYGQmOaa6zeE1p3PQ",
+      "discovered_on": "2026-09-18",
+      "score": 70.01,
+      "metrics": {
+        "subscribers": 16200,
+        "total_views": 1346377,
+        "video_count": 663,
+        "avg_views_per_video": 2030.73,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate RWA",
+          "tokenized real estate"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "tokenized real estate",
+            "video_id": "rWxJLcdOFIA",
+            "title": "REENTAL : AVIS, SCAM ou BON INVESTISSEMENT ? J’ai enquêté",
+            "description": "J'ai enquêté sur Reental pour analyser son modèle, ses investissements immobiliers, ses rendements, sa transparence et les ...",
+            "published_at": "2026-09-18T10:00:31Z",
+            "url": "https://www.youtube.com/watch?v=rWxJLcdOFIA"
+          },
+          {
+            "query": "real estate RWA",
+            "video_id": "rWxJLcdOFIA",
+            "title": "REENTAL : AVIS, SCAM ou BON INVESTISSEMENT ? J’ai enquêté",
+            "description": "J'ai enquêté sur Reental pour analyser son modèle, ses investissements immobiliers, ses rendements, sa transparence et les ...",
+            "published_at": "2026-09-18T10:00:31Z",
+            "url": "https://www.youtube.com/watch?v=rWxJLcdOFIA"
+          }
+        ],
+        "channel_description": "Bienvenue sur VOTRE chaîne ! Ici, je vous partage des astuces pour augmenter votre patrimoine en faisant moi-même des essais. \n\nJe vous parle d'immobilier, de bourse, d'actions et de cryptomonnaie.\n\n🔍 À savoir :\n\nCe n'est pas une formation : Les contenus sont des expériences personnelles, pas des conseils professionnels.\n\nTransparence : Je teste ces astuces avec vous, pour voir si elles fonctionnent réellement et je vous le montre en vidéo.\n\nLiens de parrainage : pour soutenir la chaîne, j'utilise des liens de parrainage sous chaque vidéo, mais je fais en sorte que vous ayez un bonus sur chaque lien.\n\nL'investissement est risqué et vous pouvez perdre tout ou partie de votre capital. Les informations fournies ne\nconstituent en aucun cas un conseil financier et/ou une recommandation d'investissement.Toute\npersonne qui investit sur la base de ces informations, le fait à ses propres risques.\n\nEnsemble devenons Un Peu Moins Pauvre !\n",
+        "latest_video_at": "2026-09-18T10:00:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:d8e52254ddc4b76043c4",
+      "external_id": "d8e52254ddc4b76043c4",
+      "name": "David Feld",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.bankless.com/read/news/vitalik-says-ai-could-strengthen-cybersecurity",
+      "discovered_on": "2026-09-18",
+      "score": 48.0,
+      "metrics": {
+        "posts_seen_in_fetch": 4,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "bankless.com",
+        "feed_urls": [
+          "https://www.bankless.com/feed"
+        ],
+        "sample_titles": [
+          "Vitalik Says AI Could Strengthen Cybersecurity",
+          "Senate Democrats Seek New CLARITY Talks",
+          "S&P Global Agrees to Acquire OpenZeppelin",
+          "Circle's Arc Mainnet Goes Live"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:caf048d5aa3514af2c23",
+      "external_id": "caf048d5aa3514af2c23",
+      "name": "William Peaster",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.bankless.com/read/the-sec-just-opened-a-legal-lane-for-tokenized-stocks",
+      "discovered_on": "2026-09-18",
+      "score": 40.0,
+      "metrics": {
+        "posts_seen_in_fetch": 3,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "bankless.com",
+        "feed_urls": [
+          "https://www.bankless.com/feed"
+        ],
+        "sample_titles": [
+          "The SEC Just Opened a Legal Lane for Tokenized Stocks",
+          "Fake World Assets Officially Opens Its V2",
+          "Venice Hits 250B Daily Tokens Milestone"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC5v7_HYbU_aEzh83f5jlOZw",
       "external_id": "UC5v7_HYbU_aEzh83f5jlOZw",

@@ -2,19 +2,755 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-17T15:05:42Z",
-  "new_this_run": 7,
-  "total_influencers": 545,
+  "updated_at": "2026-09-18T14:33:20Z",
+  "new_this_run": 17,
+  "total_influencers": 562,
   "run_summary": {
-    "run_started_at": "2026-09-17T15:05:32Z",
-    "candidate_count": 22,
-    "existing_count": 538,
-    "selected_new_count": 7,
+    "run_started_at": "2026-09-18T14:33:12Z",
+    "candidate_count": 28,
+    "existing_count": 545,
+    "selected_new_count": 17,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCB51aDwuoNoWl2lkI-ESeQA",
+      "external_id": "UCB51aDwuoNoWl2lkI-ESeQA",
+      "name": "La Verdad con Diego Caro",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCB51aDwuoNoWl2lkI-ESeQA",
+      "discovered_on": "2026-09-18",
+      "score": 75.66,
+      "metrics": {
+        "subscribers": 71300,
+        "total_views": 132234921,
+        "video_count": 1527,
+        "avg_views_per_video": 86597.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "L3BLpmMaIqQ",
+            "title": "Acusaciones y furia La PELEA DE PETRISTAS por 42 mil millones",
+            "description": "Una cifra astronómica de dinero público acaba de desatar una feroz PELEA DE PETRISTAS frente a los micrófonos.",
+            "published_at": "2026-09-18T02:23:53Z",
+            "url": "https://www.youtube.com/watch?v=L3BLpmMaIqQ"
+          }
+        ],
+        "channel_description": "🚨 La Verdad con Diego Caro – política sin tapujos en Colombia.\nAquí descubrirás los discursos, polémicas y escándalos que los grandes medios no quieren mostrar.\n\n📌 ¿Qué vas a encontrar?\n✔️ Shorts diarios con frases explosivas y debates urgentes  \n✔️ En vivo diario con análisis y participación directa  \n✔️ “Escándalos de la semana”: resumen con todo lo que quebró la agenda política  \n\n🎯 Este canal existe para:\n- Informarte con claridad  \n- Generar debate caliente  \n- Viralizar la verdad, incluso cuando otros la callan  \n\n👉 Suscríbete y activa la campanita 🔔  \n📩 Contacto para prensa/colaboraciones: diegocarop@gmail.com  \n\n#NoticiasHoy #Colombia #DebatePolítico #ResistenciaColombia #ComandanteDeLaVerdad\n\n",
+        "latest_video_at": "2026-09-18T02:23:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCwASWWZ8E2DJQi5IOTCBByw",
+      "external_id": "UCwASWWZ8E2DJQi5IOTCBByw",
+      "name": "Khabri Laal",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCwASWWZ8E2DJQi5IOTCBByw",
+      "discovered_on": "2026-09-18",
+      "score": 73.6,
+      "metrics": {
+        "subscribers": 53500,
+        "total_views": 9115161,
+        "video_count": 1816,
+        "avg_views_per_video": 5019.36,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://twitter.com/aapkakhabrilaal",
+        "instagram": "https://www.instagram.com/aapkakhabrilaal"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "6A_k6PgafVg",
+            "title": "&quot;Godi Media Virus है&quot; मौलाना का बयान हुआ वायरल #AllIndiaMuslimPersonalLawBoard #AbuTalibRahmani",
+            "description": "Please Support us for independent journalism so we can tell you the fact behind the story without any pressure because the duty ...",
+            "published_at": "2026-09-18T09:35:20Z",
+            "url": "https://www.youtube.com/watch?v=6A_k6PgafVg"
+          }
+        ],
+        "channel_description": "Please Support us for independent journalism so we can tell you the fact behind the story without any pressure because the duty of a Journalist is to tell the truth. Journalism means you look into the actual facts, you look at the documents, you discover what the record is, and you report it that way.\n\nDisclaimer : I do use some video clips and articles from different resources to make my own news by improvising it properly. These videos are important as reference to make my news authentic and true. So no personal intention to violate copyright rules or any other policies hereunder.\n\nJoin us on\nFacebook : https://www.facebook.com/aapkakhabrilaal\nTwitter : https://twitter.com/aapkakhabrilaal/\nInstagram : https://www.instagram.com/aapkakhabrilaal/\n\n#khabrilaal \n\n\n",
+        "latest_video_at": "2026-09-18T09:35:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYTuhQta56TImmjtO9s5K3g",
+      "external_id": "UCYTuhQta56TImmjtO9s5K3g",
+      "name": "פודקאסט על המשמעות - תמיר דורטל",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCYTuhQta56TImmjtO9s5K3g",
+      "discovered_on": "2026-09-18",
+      "score": 70.53,
+      "metrics": {
+        "subscribers": 49200,
+        "total_views": 50514245,
+        "video_count": 3678,
+        "avg_views_per_video": 13734.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "Mc6kYTxpRWk",
+            "title": "הכח של תקשורת עצמאית ואי התפשרות על ערכים",
+            "description": "",
+            "published_at": "2026-09-18T04:30:34Z",
+            "url": "https://www.youtube.com/watch?v=Mc6kYTxpRWk"
+          }
+        ],
+        "channel_description": "בפודקאסט \"על המשמעות\", אנו שואפים ליצור שיח חדש ועמוק על הנושאים הטעונים ביותר בחברה שלנו ממבט פילוסופי, ביקורתי, ולא קונבנציונאלי. בוחנים את ההיקף הראוי של חירות הפרט, אחריות אישית ומעורבות אזרחית. \nהפודקאסט עוסק בנושאים רבים שעל סדר היום הישראלי בניהם: המסורת היהודית בחיים המודרניים, היהודים ושמרנות ליברלית, עתיד המשפחה המודרנית, עתיד מדינת הרווחה, ביטחון, לאומיות, מסורת וחופש, דת ומדינה, משבר אירופה המודרנית, הקפיטליזם הדמוקרטי, משילות, משפט ודמוקרטיה, אקטיביזם שיפוטי, המזרח התיכון, תרבות האיסלאם, ועוד.\nרוצים לכתוב? להגיב? זה הטלפון שלי 050-577-0586. תמיר\n",
+        "latest_video_at": "2026-09-18T04:30:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCHZA_aJuGa4jEoJs6KW-_pw",
+      "external_id": "UCHZA_aJuGa4jEoJs6KW-_pw",
+      "name": "Energi Media",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCHZA_aJuGa4jEoJs6KW-_pw",
+      "discovered_on": "2026-09-18",
+      "score": 69.58,
+      "metrics": {
+        "subscribers": 65300,
+        "total_views": 22250908,
+        "video_count": 3740,
+        "avg_views_per_video": 5949.44,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "mBGmIubjEos",
+            "title": "Max Fawcett: Conservatives Are Trapped in Their Own Bubble",
+            "description": "Why are Pierre Poilievre's Conservatives attacking the prospect of closer Canadian economic and strategic ties with Europe?",
+            "published_at": "2026-09-17T18:30:15Z",
+            "url": "https://www.youtube.com/watch?v=mBGmIubjEos"
+          }
+        ],
+        "channel_description": "Thoughtful journalism for a complicated world.\n\nWe interview leading experts, dig into the data, and challenge conventional wisdom to explain not just what is happening, but why it matters and what comes next.\n\nEnergy is increasingly a political story. Governments are using tariffs, subsidies, regulations, industrial policy and public investment to reshape economies and compete for advantage. Energy security has become national security. Trade policy has become energy policy. And political decisions made in Ottawa, Washington, Beijing and provincial capitals increasingly determine which technologies, industries and regions prosper.\n\nOur journalism follows the big structural changes transforming the global economy: electrification, the rise of China, the changing oil and gas industry, the struggle for energy security, new technologies, industrial competition and the increasingly turbulent relationship between Canada and the United States.\n",
+        "latest_video_at": "2026-09-17T18:30:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC71_n5e7nvio2aEEVu7K_5g",
+      "external_id": "UC71_n5e7nvio2aEEVu7K_5g",
+      "name": "RunrunEstudio",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC71_n5e7nvio2aEEVu7K_5g",
+      "discovered_on": "2026-09-18",
+      "score": 68.75,
+      "metrics": {
+        "subscribers": 32700,
+        "total_views": 12079505,
+        "video_count": 1127,
+        "avg_views_per_video": 10718.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "CryQDb70OQg",
+            "title": "“Conatel confirmó su rol como censor”: Doce años de bloqueos y una puerta entreabierta",
+            "description": "Tras el anuncio de Conatel sobre el levantamiento parcial de restricciones a portales informativos, en Runrun.es volvemos a ...",
+            "published_at": "2026-09-17T21:33:01Z",
+            "url": "https://www.youtube.com/watch?v=CryQDb70OQg"
+          }
+        ],
+        "channel_description": "Página Oficial de Videos de Runrun.es",
+        "latest_video_at": "2026-09-17T21:33:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDTU7WnS4vRna7VJVwehxuA",
+      "external_id": "UCDTU7WnS4vRna7VJVwehxuA",
+      "name": "İlke TV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDTU7WnS4vRna7VJVwehxuA",
+      "discovered_on": "2026-09-18",
+      "score": 67.62,
+      "metrics": {
+        "subscribers": 51600,
+        "total_views": 40120227,
+        "video_count": 11958,
+        "avg_views_per_video": 3355.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ejf41k6Iwoo",
+            "title": "Erişim engeliyle gelen büyük &quot;sansür&quot;  #MedyaZamanı (17 Eylül 2026)",
+            "description": "CANLI | Denizcan Abay ve Ercüment Akdeniz ile #MedyaZamanı- #GüncelYorum | 17.09.2026 Medya Zamanı'nda günün sıcak ...",
+            "published_at": "2026-09-17T21:03:46Z",
+            "url": "https://www.youtube.com/watch?v=ejf41k6Iwoo"
+          }
+        ],
+        "channel_description": "İlke TV Haber kanalıdır",
+        "latest_video_at": "2026-09-17T21:03:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7ZKtGXNTcMLaB68SLnr_MQ",
+      "external_id": "UC7ZKtGXNTcMLaB68SLnr_MQ",
+      "name": "Tus Buenas Noticias",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7ZKtGXNTcMLaB68SLnr_MQ",
+      "discovered_on": "2026-09-18",
+      "score": 66.05,
+      "metrics": {
+        "subscribers": 20500,
+        "total_views": 10735320,
+        "video_count": 1808,
+        "avg_views_per_video": 5937.68,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "dndTfTxJLVc",
+            "title": "Elotes y piñatas para los primates del Zoológico de Morelia",
+            "description": "Culiacán #Sinaloa #Noticias ¡Porque las buenas noticias las escribes tú! Tus Buenas Noticias es una agencia de noticias ...",
+            "published_at": "2026-09-17T22:37:25Z",
+            "url": "https://www.youtube.com/watch?v=dndTfTxJLVc"
+          }
+        ],
+        "channel_description": "¡Porque las buenas noticias las escribes tú!\n\nTus Buenas Noticias es una agencia de noticias gratuitas que destaca noticias positivas sobre Culiacán, Sinaloa y México así como de personas sobresalientes que pueden beneficiar a la sociedad y promover la paz.",
+        "latest_video_at": "2026-09-17T22:37:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCCviL9GMm0HN-Tk6Hvw2Zeg",
+      "external_id": "UCCviL9GMm0HN-Tk6Hvw2Zeg",
+      "name": "TNF News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCCviL9GMm0HN-Tk6Hvw2Zeg",
+      "discovered_on": "2026-09-18",
+      "score": 65.97,
+      "metrics": {
+        "subscribers": 9540,
+        "total_views": 153801,
+        "video_count": 92,
+        "avg_views_per_video": 1671.75,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "tiktok": "https://www.tiktok.com/@tnf.news"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "xpCRgN7UXGg",
+            "title": "The Truth About the Makkah Agreement (Reply to Indian Media) tnfnews24",
+            "description": "Welcome to Talib e Nazar – your home for independent news, political analysis, sports, and current affairs in Urdu. Join host ...",
+            "published_at": "2026-09-18T13:32:20Z",
+            "url": "https://www.youtube.com/watch?v=xpCRgN7UXGg"
+          }
+        ],
+        "channel_description": "Welcome to Talib e Nazar – your home for independent news, political analysis, sports, and current affairs in Urdu.\n\nJoin host Shehzad Khan and the team as we break down the biggest stories shaping Pakistan and the world. We cover politics, economy, social issues, and pop culture through an insightful, progressive lens—going beyond the headlines to deliver the real story.\n\nWhat We Cover:\n• Pakistan Politics & Economic Analysis\n• Breaking News & Global Current Affairs\n• Sports Updates & Pop Culture Discussions\n• Live Shows & Q&A\n\nJoin the Community:\nBecome a channel member to support independent media, participate in our live broadcasts, and share your thoughts directly with the hosts through Super Chats and Super Thanks!\n\nSubscribe now and hit the notification bell to never miss an update.\n\nFor business inquiries & contact: [tnfnews323@gmail.com](whatsapp)+923222677163\n\n  please visit on  tiktok tnf :\n\nhttps://www.tiktok.com/@tnf.news?_r=1&_t=ZS-98k4L3kWoy4\n",
+        "latest_video_at": "2026-09-18T13:32:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCG2B6emunc-8ACAChpHv0qQ",
+      "external_id": "UCG2B6emunc-8ACAChpHv0qQ",
+      "name": "New York Stock Exchange",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCG2B6emunc-8ACAChpHv0qQ",
+      "discovered_on": "2026-09-18",
+      "score": 64.97,
+      "metrics": {
+        "subscribers": 62700,
+        "total_views": 13468592,
+        "video_count": 17867,
+        "avg_views_per_video": 753.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "bHWB9YULM0Q",
+            "title": "The New York Times ringing in 175 years of high quality, independent journalism. (NYSE: NYT)",
+            "description": "",
+            "published_at": "2026-09-17T17:18:02Z",
+            "url": "https://www.youtube.com/watch?v=bHWB9YULM0Q"
+          }
+        ],
+        "channel_description": "The New York Stock Exchange is where icons and disruptors come to build on their success and shape the future. We’ve created the world’s largest and most trusted equities exchange, the leading ETF exchange and the world’s most deterministic trading technology. Our data, technology and expertise help today’s leaders and tomorrow’s visionaries capitalize on opportunity in the public markets.",
+        "latest_video_at": "2026-09-17T17:18:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC4B209K3swoXzvF4ZohOPGw",
+      "external_id": "UC4B209K3swoXzvF4ZohOPGw",
+      "name": "American Governance Daily",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC4B209K3swoXzvF4ZohOPGw",
+      "discovered_on": "2026-09-18",
+      "score": 63.46,
+      "metrics": {
+        "subscribers": 2360,
+        "total_views": 11343988,
+        "video_count": 306,
+        "avg_views_per_video": 37071.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "rwhkAYioF5I",
+            "title": "THIS IS INSANE: James Talarico&#39;s interview with Jimmy Kimmel, the one Trump&#39;s own FCC reportedly...",
+            "description": "James Talarico's Jimmy Kimmel Interview Outdraws Trump Convention RatingsTexas Democratic Senate candidate James ...",
+            "published_at": "2026-09-18T04:11:49Z",
+            "url": "https://www.youtube.com/watch?v=rwhkAYioF5I"
+          }
+        ],
+        "channel_description": "Welcome to American Governance Daily — your trusted source for clear, insightful, and engaging coverage of U.S. government, politics, public policy, and current events.\n\nOur mission is to help viewers better understand how American government works, from the Constitution and federal institutions to elections, legislation, and the issues shaping the nation today. Through daily analysis, educational content, and fact-based discussions, we break down complex topics into easy-to-understand explanations.\n\nWhether you're a student, educator, civic enthusiast, or simply someone who wants to stay informed, American Governance Daily provides the knowledge and context you need to follow the decisions and debates that impact our democracy.\n\nSubscribe and join us as we explore American governance—one day at a time.\n\n",
+        "latest_video_at": "2026-09-18T04:11:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDqwDSOGjkOB-r-I9eCZACg",
+      "external_id": "UCDqwDSOGjkOB-r-I9eCZACg",
+      "name": "The Rustic Spirits Podcast",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDqwDSOGjkOB-r-I9eCZACg",
+      "discovered_on": "2026-09-18",
+      "score": 59.57,
+      "metrics": {
+        "subscribers": 3590,
+        "total_views": 175424,
+        "video_count": 51,
+        "avg_views_per_video": 3439.69,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "1W9nr4JaHis",
+            "title": "Oil Supply, A.I Escaping, and More Censorship - all the dashboard lights are on!",
+            "description": "Three stories converging this week — and all of them land on your dinner table, your fuel tank, or your right to talk about either.",
+            "published_at": "2026-09-18T04:51:00Z",
+            "url": "https://www.youtube.com/watch?v=1W9nr4JaHis"
+          }
+        ],
+        "channel_description": "Podcast conversations about homesteading, self-sufficiency and living off-grid in an Australian context.\n\nFollow our journey and weekly videos over on our Homestead channel\n",
+        "latest_video_at": "2026-09-18T04:51:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UClYgqSFiGA8b0-LiDwefonA",
+      "external_id": "UClYgqSFiGA8b0-LiDwefonA",
+      "name": "Gordon Smith Durán",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UClYgqSFiGA8b0-LiDwefonA",
+      "discovered_on": "2026-09-18",
+      "score": 57.9,
+      "metrics": {
+        "subscribers": 7360,
+        "total_views": 540791,
+        "video_count": 926,
+        "avg_views_per_video": 584.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "O4HfZSyJW3s",
+            "title": "Are Candace Owens &amp; Alex Jones Really Telling You the Truth? SHOCKING Answer",
+            "description": "Contact me at: peacefulrebellion11@gmail.com Alternative media and the truth behind today's biggest talking heads are at the ...",
+            "published_at": "2026-09-18T08:49:50Z",
+            "url": "https://www.youtube.com/watch?v=O4HfZSyJW3s"
+          }
+        ],
+        "channel_description": "Welcome to Peaceful Rebellion — a channel dedicated to the Great Awakening, spiritual awakening, consciousness expansion, and the global shift happening right now.\nHere we explore 5D consciousness, ascension energy, inner healing, truth seeking, lightworker activation, starseed awakening, and the deeper transformation humanity is experiencing.\n\nThis channel is created for Awake and Aware souls, for healers, empaths, truth seekers, spiritual rebels, starseeds, mystics, old souls, awakened minds, and anyone experiencing a spiritual awakening or consciousness shift.\n\nOur content focuses on:\n✨ Great Awakening insights\n✨ 5D Ascension & Higher Consciousness\n✨ Awakening symptoms & transformation\n✨ Lightworker missions & starseed purpose\n✨ Inner healing, peace, and soul growth\n✨ Collective awakening & global truth movement\n\nWe believe in a world built on love, unity, acceptance, healing, freedom, and higher awareness.\nTogether we rise, together we awaken—this is your spiritual home.\n",
+        "latest_video_at": "2026-09-18T08:49:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCBlGYLvH39PE-DC0e2MHmkA",
+      "external_id": "UCBlGYLvH39PE-DC0e2MHmkA",
+      "name": "Gordon Smith-Durán",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCBlGYLvH39PE-DC0e2MHmkA",
+      "discovered_on": "2026-09-18",
+      "score": 55.98,
+      "metrics": {
+        "subscribers": 4010,
+        "total_views": 477068,
+        "video_count": 847,
+        "avg_views_per_video": 563.24,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "BC9Ts6cJ-10",
+            "title": "Are Candace Owens &amp; Alex Jones Really Telling You the Truth? SHOCKING Answer",
+            "description": "Contact me at: peacefulrebellion11@gmail.com Alternative media and the truth behind today's biggest talking heads are at the ...",
+            "published_at": "2026-09-18T08:54:02Z",
+            "url": "https://www.youtube.com/watch?v=BC9Ts6cJ-10"
+          }
+        ],
+        "channel_description": "The Great Awakening is upon us and it's time to really begin our transition from our 3D heavy vibrational existence to the new and long awaited 5D  world.",
+        "latest_video_at": "2026-09-18T08:54:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCpGJNsargpJY_jTQiS5kYIQ",
+      "external_id": "UCpGJNsargpJY_jTQiS5kYIQ",
+      "name": "R Hindustan Tv News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCpGJNsargpJY_jTQiS5kYIQ",
+      "discovered_on": "2026-09-18",
+      "score": 54.3,
+      "metrics": {
+        "subscribers": 5480,
+        "total_views": 2241347,
+        "video_count": 13414,
+        "avg_views_per_video": 167.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "EUYZRqU3Bhk",
+            "title": "तखतगढ़ : / News: Independent Candidate Withdraws Nomination In Takhatgarh Municipality Election",
+            "description": "R Hindustan TV News is your trusted destination for the latest Breaking News, National News, Political Updates, Crime Reports, ...",
+            "published_at": "2026-09-18T10:16:20Z",
+            "url": "https://www.youtube.com/watch?v=EUYZRqU3Bhk"
+          }
+        ],
+        "channel_description": "contact no - 9580977506 \nWatch R Hindustan Tv News Live TV and stay tuned for all the breaking news in Hindi !\nR Hindustan Tv News is India's leading Hindi News Channel. R Hindustan Tv News channel covers latest news in Politics, Entertainment, Bollywood, business and sports.\n\nR हिंदुस्तान टीवी न्यूज भारत का सर्वश्रेष्ठ हिंदी न्‍यूज (Hindi News) चैनल है ।\nR हिंदुस्तान टीवी न्यूज चैनल राजनीति, मनोरंजन, बॉलीवुड, व्यापार और खेल में नवीनतम समाचारों (Samachar) को शामिल करता है।\nR हिंदुस्तान टीवी न्यूज चैनल की लाइव खबरें (Live News) एवं ब्रेकिंग न्यूज (Breaking News) के लिए बने रहें ।\n\n\n#hindinews #newsinhindi #hindisamachar #breakingnews #rhindustantvnews #samachar",
+        "latest_video_at": "2026-09-18T10:16:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0C9q1nLbhirDjSDwbEm-4w",
+      "external_id": "UC0C9q1nLbhirDjSDwbEm-4w",
+      "name": "MOKATU NEWS",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0C9q1nLbhirDjSDwbEm-4w",
+      "discovered_on": "2026-09-18",
+      "score": 54.04,
+      "metrics": {
+        "subscribers": 2130,
+        "total_views": 1034577,
+        "video_count": 1851,
+        "avg_views_per_video": 558.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "3hbL9sJ4LQ4",
+            "title": "Venezuela quebra censura digital e libera portais de notícias",
+            "description": "Fonte: ...",
+            "published_at": "2026-09-17T18:43:24Z",
+            "url": "https://www.youtube.com/watch?v=3hbL9sJ4LQ4"
+          }
+        ],
+        "channel_description": "Sua dose horária de notícias rápidas. 1 Short de notícias a cada hora sobre: Ciência, Esportes, Saúde, Negócios, Entretenimento, Brasil e o Mundo. Rápido, direto e informativo. #Mokatunews #News",
+        "latest_video_at": "2026-09-17T18:43:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCG1IvGeThawW9R0LYtbC80A",
+      "external_id": "UCG1IvGeThawW9R0LYtbC80A",
+      "name": "TV BUAP",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCG1IvGeThawW9R0LYtbC80A",
+      "discovered_on": "2026-09-18",
+      "score": 52.76,
+      "metrics": {
+        "subscribers": 4750,
+        "total_views": 936376,
+        "video_count": 9374,
+        "avg_views_per_video": 99.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "wRNlm-uxJGY",
+            "title": "En el púlpito, en el convento o en altamar: posesión, lectura y censura de libros | Informativo BUAP",
+            "description": "En Cultura, Carlos Maceda Gómez habla sobre En el púlpito, en el convento o en altamar: posesión, lectura y censura de libros ...",
+            "published_at": "2026-09-18T00:00:10Z",
+            "url": "https://www.youtube.com/watch?v=wRNlm-uxJGY"
+          }
+        ],
+        "channel_description": "La imagen de la universidad\n\nCanal de televisión educativa y cultural de la Benemérita Universidad Autónoma de Puebla",
+        "latest_video_at": "2026-09-18T00:00:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCPbGUQCzQjdX9SHsqdGCHRw",
+      "external_id": "UCPbGUQCzQjdX9SHsqdGCHRw",
+      "name": "Maciej Piotrowski",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCPbGUQCzQjdX9SHsqdGCHRw",
+      "discovered_on": "2026-09-18",
+      "score": 45.84,
+      "metrics": {
+        "subscribers": 13200,
+        "total_views": 0,
+        "video_count": 2,
+        "avg_views_per_video": 0.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "feV8Ka0zYBg",
+            "title": "Płaci 30 zł za mieszkanie komunalne. Kulisy sprawy",
+            "description": "Minęły 2 miesiące od ujawnienia afery z mieszkaniem socjalnym radnej KO z Zielonej Góry. Co się zmieniło? Zupełnie nic - to ...",
+            "published_at": "2026-09-18T05:00:26Z",
+            "url": "https://www.youtube.com/watch?v=feV8Ka0zYBg"
+          }
+        ],
+        "channel_description": "Maciej Piotrowski – dziennikarz śledczy, reporter i autor interwencji.\n\nNa tym kanale pokazuję historie, których często nikt wcześniej nie chciał pokazać. Jeżdżę w teren, rozmawiam z ludźmi, sprawdzam dokumenty, konfrontuję urzędników i instytucje, a przede wszystkim szukam odpowiedzi tam, gdzie inni odpuszczają.\n\nZnajdziesz tu:\n\nreportaże i interwencje,\nśledztwa dziennikarskie,\nhistorie ludzi walczących z systemem,\nrozmowy i materiały zza kulis,\nkrótkie, mocne Shortsy prosto z terenu.\n\nPresja ma sens.\nBo czasem dopiero wtedy, gdy ktoś zacznie zadawać pytania, zaczynają się dziać rzeczy, które wcześniej „nie były możliwe”.\n\n📩 Kontakt / tematy do reportażu: mpiotrowski.media@gmail.com\n\n",
+        "latest_video_at": "2026-09-18T05:00:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC15ZtULRKUX8Nq-fMo-W1ow",
       "external_id": "UC15ZtULRKUX8Nq-fMo-W1ow",
