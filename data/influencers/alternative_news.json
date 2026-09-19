@@ -2,19 +2,500 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-18T14:33:20Z",
-  "new_this_run": 17,
-  "total_influencers": 562,
+  "updated_at": "2026-09-19T13:56:54Z",
+  "new_this_run": 11,
+  "total_influencers": 573,
   "run_summary": {
-    "run_started_at": "2026-09-18T14:33:12Z",
-    "candidate_count": 28,
-    "existing_count": 545,
-    "selected_new_count": 17,
+    "run_started_at": "2026-09-19T13:56:45Z",
+    "candidate_count": 29,
+    "existing_count": 562,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCiRfPConuXEbPxIOMXenUag",
+      "external_id": "UCiRfPConuXEbPxIOMXenUag",
+      "name": "François COTARD",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCiRfPConuXEbPxIOMXenUag",
+      "discovered_on": "2026-09-19",
+      "score": 70.21,
+      "metrics": {
+        "subscribers": 71800,
+        "total_views": 22015652,
+        "video_count": 3153,
+        "avg_views_per_video": 6982.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "X0_PL1SJ67k",
+            "title": "Les médias alternatifs",
+            "description": "Inscrivez-vous – les amis de François : https://thierrychabenat.fr/carte/ Mon livre est sur le site Amazon voici le lien ...",
+            "published_at": "2026-09-18T16:24:08Z",
+            "url": "https://www.youtube.com/watch?v=X0_PL1SJ67k"
+          }
+        ],
+        "channel_description": "Cette nouvelle chaîne poursuit l'aventure de l'ancienne chaîne \"François COTARD\" consacrée à plusieurs thématiques, notamment l'actualité   et une vision spirituelle dans un monde chaotique. \nFrançois COTARD\n\n\n\n\n\n\n\n",
+        "latest_video_at": "2026-09-18T16:24:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCdCD5SKda-jBciu5ZPw9pOA",
+      "external_id": "UCdCD5SKda-jBciu5ZPw9pOA",
+      "name": "Daniel Martínez ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCdCD5SKda-jBciu5ZPw9pOA",
+      "discovered_on": "2026-09-19",
+      "score": 69.18,
+      "metrics": {
+        "subscribers": 33900,
+        "total_views": 28272090,
+        "video_count": 1438,
+        "avg_views_per_video": 19660.7,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "uLsQfv21TBo",
+            "title": "Periodistas Venezolanos en Miami: ¡Noticias Desbloqueadas! #shorts",
+            "description": "Muchos periodistas venezolanos encuentran en Miami un refugio. Ante la censura en su país, reinventan su labor creando ...",
+            "published_at": "2026-09-18T08:50:41Z",
+            "url": "https://www.youtube.com/watch?v=uLsQfv21TBo"
+          }
+        ],
+        "channel_description": "Bienvenido a mame una mano. en este canal en contraras toda clase tutoriales que te ayudan a resolver tu problrmas        suscribete y deja tu me gusta si te he ayudado y comenta.",
+        "latest_video_at": "2026-09-18T08:50:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC32WHZ4ohhx7Tn5LE_uYMsw",
+      "external_id": "UC32WHZ4ohhx7Tn5LE_uYMsw",
+      "name": "Новости без цензуры",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC32WHZ4ohhx7Tn5LE_uYMsw",
+      "discovered_on": "2026-09-19",
+      "score": 68.95,
+      "metrics": {
+        "subscribers": 35400,
+        "total_views": 7313657,
+        "video_count": 695,
+        "avg_views_per_video": 10523.25,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "rseZ0L4hbAs",
+            "title": "Бензин дорожает на 60 центов, Мерц требует цензуры и автопром теряет 200 тысяч мест",
+            "description": "Берлин и Брюссель объясняют высокие цены на топливо внешними причинами, но с 2028 года углеродный сбор дойдёт и ...",
+            "published_at": "2026-09-18T17:30:27Z",
+            "url": "https://www.youtube.com/watch?v=rseZ0L4hbAs"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-18T17:30:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1kcTyykNZVYE9LajEA8eLw",
+      "external_id": "UC1kcTyykNZVYE9LajEA8eLw",
+      "name": "SACHLICH RICHTIG - der Medien-Podcast",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC1kcTyykNZVYE9LajEA8eLw",
+      "discovered_on": "2026-09-19",
+      "score": 67.66,
+      "metrics": {
+        "subscribers": 21500,
+        "total_views": 1715998,
+        "video_count": 147,
+        "avg_views_per_video": 11673.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "uFaMDGNR_cg",
+            "title": "Ulf Poschardt: Das ist Endspiel für ARD und ZDF",
+            "description": "Wenn Ihnen diese Folge oder auch jede andere unseres Podcasts gefallen hat, unterstützen Sie unsere Arbeit gerne mit einer ...",
+            "published_at": "2026-09-18T16:00:37Z",
+            "url": "https://www.youtube.com/watch?v=uFaMDGNR_cg"
+          }
+        ],
+        "channel_description": "\"Sachlich richtig\" ist ein Medien-Podcast. Wir berichten aus dem Maschinenraum des Journalismus - egal ob Öffentlich-Rechtlicher Rundfunk, Privat-TV oder Alternativmedien.\n\nAnnekatrin Mücke arbeitet seit 1995 für Radio (Radio1) und TV (Tagesthemen, Kika) . Jetzt arbeitet sie für die Berliner Zeitung, das Magazin und den Kontrafunk.\n\nPeter Welchering arbeitete als Journalist für Radio (DLF), TV (ZDF) und Print. Er war im Presserat und im DJV aktiv, hat Lehraufträge an Journalistenschulen und war 8 Jahre Chefredakteur im Konradin-Verlag.\n\nAlexander Teske war 15 Jahre Redakteur bei MDR Aktuell und 6 Jahre bei der Tagesschau. Darüber hat er den Bestseller \"Inside Tagesschau\" geschrieben. Angefangen hat Teske bei Bild, Morgenpost, Sat.1 und Pro.7.\n\nIhr könnt uns mit einer Schenkung unterstützen:\nPaypal: @ATeske812\nIBAN: DE14 2004 1155 0843 5885 00 (Alexander Teske)\n\nKontakt über: kontakt@alexanderteske.de\n",
+        "latest_video_at": "2026-09-18T16:00:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCww2L7m2RpZUc9F6f20qCkA",
+      "external_id": "UCww2L7m2RpZUc9F6f20qCkA",
+      "name": "Manhattan Connection",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCww2L7m2RpZUc9F6f20qCkA",
+      "discovered_on": "2026-09-19",
+      "score": 65.1,
+      "metrics": {
+        "subscribers": 31800,
+        "total_views": 1892332,
+        "video_count": 912,
+        "avg_views_per_video": 2074.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "PbJtxDpXXik",
+            "title": "VENEZUELA DESBLOQUEIA SITES CENSURADOS",
+            "description": "Desbloquear os sites resolve o acesso imediato, mas não apaga anos de censura. Segundo representantes dos veículos, ...",
+            "published_at": "2026-09-18T20:30:33Z",
+            "url": "https://www.youtube.com/watch?v=PbJtxDpXXik"
+          }
+        ],
+        "channel_description": "Assine o MC: https://lp.mconnection.tv/mctv-yt-bio  \n\nO Manhattan Connection evoluiu.\n\nDe um programa semanal, tornou-se uma plataforma contínua de conteúdo, análise e interação para quem quer entender o mundo com profundidade.\n\nA assinatura dá acesso ao programa completo (sem cortes), MC Cast semanal, conteúdos semanais (newsletter e coluna), Q&A ao vivo, lives exclusivas e uma comunidade com networking qualificado.\n\nAlém disso, existe o MC Black — uma comunidade premium, fechada e mediante aprovação, focada em conexão real entre membros, encontros presenciais, discussões aprofundadas e acesso aos bastidores do programa.\n\nNão é apenas conteúdo. É acesso, contexto e proximidade.\n\nSe você quer sair do superficial e entender o que realmente está acontecendo no mundo — esse é o seu lugar.\n",
+        "latest_video_at": "2026-09-18T20:30:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCroBcifwP9mA74fY7a-h9sQ",
+      "external_id": "UCroBcifwP9mA74fY7a-h9sQ",
+      "name": "The Filmy Bee",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCroBcifwP9mA74fY7a-h9sQ",
+      "discovered_on": "2026-09-19",
+      "score": 62.66,
+      "metrics": {
+        "subscribers": 11200,
+        "total_views": 3491004,
+        "video_count": 1200,
+        "avg_views_per_video": 2909.17,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "KtOlO7E23_0",
+            "title": "Ramayana Censored 30 Minute Footage Delete | Ramayana 2026 | Yash | The Filmy Bee",
+            "description": "RAMAYANA 2026 BIG CONTROVERSY! 30 MINUTES OF FOOTAGE DELETED? | YASH AS RAVANA Is Ramayana 2026 ...",
+            "published_at": "2026-09-19T07:36:05Z",
+            "url": "https://www.youtube.com/watch?v=KtOlO7E23_0"
+          }
+        ],
+        "channel_description": "Hey❤️\n\nEkta Jani Here! Let Me Take You To The World Of Movies🎬",
+        "latest_video_at": "2026-09-19T07:36:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCsTbz_J2RmT4FdGIWpSYWPQ",
+      "external_id": "UCsTbz_J2RmT4FdGIWpSYWPQ",
+      "name": "MANGALAMTV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCsTbz_J2RmT4FdGIWpSYWPQ",
+      "discovered_on": "2026-09-19",
+      "score": 61.67,
+      "metrics": {
+        "subscribers": 4300,
+        "total_views": 2106048,
+        "video_count": 1193,
+        "avg_views_per_video": 1765.34,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "rqg23cXIEAg",
+            "title": "ഷൂ നക്കൽ സീനുകൾ ഇനി കാണാൻ കഴിയില്ല | CENSOR BOARD | INDIAN FILM INDUSTRY | BJP",
+            "description": "WELCOME TO MANGALAMTV MANGALAMTV is your trusted 24/7 Malayalam news destination. We deliver unbiased, authentic, ...",
+            "published_at": "2026-09-19T10:00:07Z",
+            "url": "https://www.youtube.com/watch?v=rqg23cXIEAg"
+          },
+          {
+            "query": "censorship news",
+            "video_id": "in6d0Mf3k4w",
+            "title": "ഔട്ട് ഓഫ് ദ ബോക്സ് സിനിമ വീഡിയോകൾ ഇല്ലാതാകുന്നു | CENSOR BOARD | BJP",
+            "description": "WELCOME TO MANGALAMTV MANGALAMTV is your trusted 24/7 Malayalam news destination. We deliver unbiased, authentic, ...",
+            "published_at": "2026-09-19T08:45:04Z",
+            "url": "https://www.youtube.com/watch?v=in6d0Mf3k4w"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-19T10:00:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCd5eWxZOdsjWqL7oKH9m1ow",
+      "external_id": "UCd5eWxZOdsjWqL7oKH9m1ow",
+      "name": "Tariq Talks Wrestling",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCd5eWxZOdsjWqL7oKH9m1ow",
+      "discovered_on": "2026-09-19",
+      "score": 57.5,
+      "metrics": {
+        "subscribers": 2880,
+        "total_views": 848606,
+        "video_count": 470,
+        "avg_views_per_video": 1805.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "h2qqC7BNG24",
+            "title": "WWE NO ONE is a fan of the Censorship…",
+            "description": "The WWE has gone through a lot of changes recently and the fans were not a fan of recent censorship... Copyright Disclaimer ...",
+            "published_at": "2026-09-18T21:47:19Z",
+            "url": "https://www.youtube.com/watch?v=h2qqC7BNG24"
+          }
+        ],
+        "channel_description": "We make WWE videos… Enjoy! ",
+        "latest_video_at": "2026-09-18T21:47:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCeeOWDxU-P8EC89rMsYWaxQ",
+      "external_id": "UCeeOWDxU-P8EC89rMsYWaxQ",
+      "name": "Voice of Sindh News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCeeOWDxU-P8EC89rMsYWaxQ",
+      "discovered_on": "2026-09-19",
+      "score": 55.4,
+      "metrics": {
+        "subscribers": 8410,
+        "total_views": 686062,
+        "video_count": 4511,
+        "avg_views_per_video": 152.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "n7QeWli395M",
+            "title": "New Provinces Debate, Media Censorship &amp; Pakistan&#39;s Global Risk Report 2026",
+            "description": "This episode covers key issues shaping Pakistan's political and social landscape. Anita Panjani questions whether creating new ...",
+            "published_at": "2026-09-19T01:12:39Z",
+            "url": "https://www.youtube.com/watch?v=n7QeWli395M"
+          }
+        ],
+        "channel_description": "سنڌ جي هر مسئلي جي حقيقي آواز اسان جي هن وائيس اف سنڌ نيوز تي ملندي : سهڻا سنڌي هن چينل کي سبسڪرائب ڪري اپڊيٽ رهو.",
+        "latest_video_at": "2026-09-19T01:12:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCH17D9B_P-s76vrXEAQOq5w",
+      "external_id": "UCH17D9B_P-s76vrXEAQOq5w",
+      "name": "ABA Section of Civil Rights and Social Justice",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCH17D9B_P-s76vrXEAQOq5w",
+      "discovered_on": "2026-09-19",
+      "score": 54.3,
+      "metrics": {
+        "subscribers": 3150,
+        "total_views": 241083,
+        "video_count": 664,
+        "avg_views_per_video": 363.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "nJAuVnP5u5A",
+            "title": "A Free Press Under Pressure: Journalism, Democracy, and the Pursuit of Truth | Chair Chat",
+            "description": "What does it take to sustain a free and independent press when journalists and news organizations face political pressure, legal ...",
+            "published_at": "2026-09-18T19:57:58Z",
+            "url": "https://www.youtube.com/watch?v=nJAuVnP5u5A"
+          }
+        ],
+        "channel_description": "Section of Civil Rights and Social Justice | The \"conscience\" of the American Bar Association.\n\nThe Section fulfills our role by raising and addressing often complex and difficult civil rights and civil liberties issues in a changing and diverse society and ensuring that protection of individual rights remains a focus of legal and policy decisions. To learn more, visit ambar.org/crsj\n\nThe ABA encourages you to participate and welcomes constructive engagement between members, provided your conduct is consistent with the ABA Code of Online Conduct https://www.americanbar.org/about_the_aba/codeofconduct/\n\nThis is the YouTube account of the ABA's Section of Civil Rights  and Social Justice and does not contain official ABA policy statements. For official ABA policy, please see the account of the ABA president. \n\nYou can also check us out on our our other social channels - CRSJ is on Facebook LinkedIn, and X!\n\nFor more information about the ABA: https://www.americanbar.org/",
+        "latest_video_at": "2026-09-18T19:57:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCsYsBr7odkJWEZG6BfawGEQ",
+      "external_id": "UCsYsBr7odkJWEZG6BfawGEQ",
+      "name": "Proffessor Predicts",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCsYsBr7odkJWEZG6BfawGEQ",
+      "discovered_on": "2026-09-19",
+      "score": 49.84,
+      "metrics": {
+        "subscribers": 3240,
+        "total_views": 8871,
+        "video_count": 126,
+        "avg_views_per_video": 70.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "ISS3eFaFxUU",
+            "title": "From High School Teacher to 2 Million Subscribers: The Full Story",
+            "description": "My friends from Yale and Harvard looked at me and said, \"We don't understand what you do.\" They are brilliant people. They are ...",
+            "published_at": "2026-09-18T05:25:00Z",
+            "url": "https://www.youtube.com/watch?v=ISS3eFaFxUU"
+          }
+        ],
+        "channel_description": "#ProfessorPredicts | Independent Geopolitical Analysis\n\nWelcome to Professor Predicts.\n\nWe analyze geopolitics, economic trends, energy markets, and international conflicts — breaking them down into simple, actionable insights. Our content is inspired by leading analysts like Jiang Xueqin\n\n✅ Evidence-based analysis using public sources (IEA, EIA, UN, Reuters)\n✅ Historical pattern recognition + economic context\n✅ Clear English explanations — no jargon, no bias\n✅ Educational focus\n\n📚 Reference Content:\nWe occasionally discuss analyses originally presented by Professor Jiang Xueqin (Predictive History channel)\n\n⚠️ Important Disclaimer:\n• This channel is NOT affiliated with, endorsed by, or connected to Jiang Xueqin, Yale University, or any government institution.\n• Content is for educational and analytical purposes only.\n• Views expressed are analytical interpretations based on public data.\n\n#GlobalAnalysis #EconomicForecast #ProfessorPredicts \n#WorldNews #Education\n",
+        "latest_video_at": "2026-09-18T05:25:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCB51aDwuoNoWl2lkI-ESeQA",
       "external_id": "UCB51aDwuoNoWl2lkI-ESeQA",

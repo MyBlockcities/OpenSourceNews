@@ -2,19 +2,397 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-18T14:33:30Z",
-  "new_this_run": 11,
-  "total_influencers": 328,
+  "updated_at": "2026-09-19T13:57:03Z",
+  "new_this_run": 8,
+  "total_influencers": 336,
   "run_summary": {
-    "run_started_at": "2026-09-18T14:33:12Z",
-    "candidate_count": 23,
-    "existing_count": 317,
-    "selected_new_count": 11,
+    "run_started_at": "2026-09-19T13:56:45Z",
+    "candidate_count": 24,
+    "existing_count": 328,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCkIXlSxSiQDjNqNtuM0j2Gw",
+      "external_id": "UCkIXlSxSiQDjNqNtuM0j2Gw",
+      "name": "Рома Малыш",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCkIXlSxSiQDjNqNtuM0j2Gw",
+      "discovered_on": "2026-09-19",
+      "score": 77.81,
+      "metrics": {
+        "subscribers": 40400,
+        "total_views": 17285030,
+        "video_count": 839,
+        "avg_views_per_video": 20601.94,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "CU-Xlf4GNS0",
+            "title": "Пептиды ТБ-500 и БПС-157. Моё восстановление.",
+            "description": "",
+            "published_at": "2026-09-18T20:23:10Z",
+            "url": "https://www.youtube.com/watch?v=CU-Xlf4GNS0"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "CU-Xlf4GNS0",
+            "title": "Пептиды ТБ-500 и БПС-157. Моё восстановление.",
+            "description": "",
+            "published_at": "2026-09-18T20:23:10Z",
+            "url": "https://www.youtube.com/watch?v=CU-Xlf4GNS0"
+          }
+        ],
+        "channel_description": "Снимаю видео по тренировкам и питанию,а так же свои рекорды) собрал собственный тренажерный зал.\nРекордсмен мира по жиму гири 1 рукой.\nГруппа в телеграмме для общения и вопросов: @Malysh5050\nЯ в телеграмме @malykhro, программы тренировок,питания,онлайн ведение,персональные тренировки в Москве. Обращайтесь!\nПоддержать меня: 4279380600150280 сбер!\nПриятного просмотра!",
+        "latest_video_at": "2026-09-18T20:23:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCQUiz2v0QeGdodbNFsNk96Q",
+      "external_id": "UCQUiz2v0QeGdodbNFsNk96Q",
+      "name": "NickDontReply",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCQUiz2v0QeGdodbNFsNk96Q",
+      "discovered_on": "2026-09-19",
+      "score": 70.07,
+      "metrics": {
+        "subscribers": 39000,
+        "total_views": 2059147,
+        "video_count": 134,
+        "avg_views_per_video": 15366.77,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "922x_aK1hpA",
+            "title": "Doctor Mike EXPOSES the Truth About Peptides…",
+            "description": "I reacted to Doctor Mike's “Exposing The Truth About Peptides,” where he breaks down the growing peptide trend and the ...",
+            "published_at": "2026-09-18T18:46:30Z",
+            "url": "https://www.youtube.com/watch?v=922x_aK1hpA"
+          }
+        ],
+        "channel_description": "Subscribe to help this Young and Small Content Creator Make his Dreams Happen!!\nAll Sponsorships/Brands email me - nickdontreply@outlook.com / (SERIOUS INQUIRIES ONLY)\n",
+        "latest_video_at": "2026-09-18T18:46:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCvyvwDOUPgA8B-Oq7Ggcr4Q",
+      "external_id": "UCvyvwDOUPgA8B-Oq7Ggcr4Q",
+      "name": "Brittany Rose GLP1",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCvyvwDOUPgA8B-Oq7Ggcr4Q",
+      "discovered_on": "2026-09-19",
+      "score": 68.91,
+      "metrics": {
+        "subscribers": 42100,
+        "total_views": 5155386,
+        "video_count": 638,
+        "avg_views_per_video": 8080.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "o14ULdvc34g",
+            "title": "Live GLP1 Discussion: Is set point a Thing? A Doctors prospective",
+            "description": "glp1 #weightloss #glp1community BELLE- https://link.joinbelle.com/brittany CODE BRITTANY for 5 percent off Live vital: Book a ...",
+            "published_at": "2026-09-18T18:09:32Z",
+            "url": "https://www.youtube.com/watch?v=o14ULdvc34g"
+          }
+        ],
+        "channel_description": "I’ve lost 115 lb on Tirzepatide since November of 2022. \n\nThis is a safe place for all those looking for real, reliable GLP1 information, encouragement, support and friendship. \n\nJoin along! ",
+        "latest_video_at": "2026-09-18T18:09:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCazZXxbSW1XSzphU8qCDAHQ",
+      "external_id": "UCazZXxbSW1XSzphU8qCDAHQ",
+      "name": "Моето Здраве",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCazZXxbSW1XSzphU8qCDAHQ",
+      "discovered_on": "2026-09-19",
+      "score": 65.81,
+      "metrics": {
+        "subscribers": 28200,
+        "total_views": 2790075,
+        "video_count": 819,
+        "avg_views_per_video": 3406.68,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "7uhb1ursVIY",
+            "title": "ПЕПТИДИТЕ: ФИТНЕС ЧУДО или ОТРОВА?",
+            "description": "Пептидите са най-новата мания във фитнеса и биохакинга. Обещават бързо отслабване, бърз растеж на мускули, ...",
+            "published_at": "2026-09-18T20:12:47Z",
+            "url": "https://www.youtube.com/watch?v=7uhb1ursVIY"
+          }
+        ],
+        "channel_description": "Здравейте и добре дошли! Това е вашето пространство за природно здраве, народна медицина и дълголетие.\n\nТук ще откриете изпитани домашни рецепти с билки, народни лекове и практически съвети за:\n\nЗдравословно отслабване и метаболизъм\n\nСправяне с инсулинова резистентност (ИР) и диабет\n\nСваляне на висок холестерол и кръвна захар\n\nЕстествено облекчаване на подагра и ставни болки\n\nПодсилване на имунитета и вътрешния баланс\n\nАбонирайте се за канала, за да не изпускате новите ни седмични видеа с народни рецепти, предавани от поколение на поколение!\n\nСъдържанието в този канал има единствено информативна и образователна цел и не замества професионална медицинска консултация, диагноза или лечение. При здравословен проблем, хронични заболявания, бременност или прием на лекарства, винаги се консултирайте с квалифициран лекар преди да започнете употреба на билки или домашни средства. Авторите на канала не носят отговорност за последствия от самостоятелно прилагане на споделената информация.\n\n",
+        "latest_video_at": "2026-09-18T20:12:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC0wGvlHQNxMutlwScu6WacA",
+      "external_id": "UC0wGvlHQNxMutlwScu6WacA",
+      "name": "Pat Taylor, MD",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC0wGvlHQNxMutlwScu6WacA",
+      "discovered_on": "2026-09-19",
+      "score": 62.51,
+      "metrics": {
+        "subscribers": 2230,
+        "total_views": 145405,
+        "video_count": 141,
+        "avg_views_per_video": 1031.24,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "5Wf9T8chCrY",
+            "title": "A regulatory detail about peptide therapies that rarely gets mentioned: the World Anti-Doping Agency",
+            "description": "A regulatory detail about peptide therapies that rarely gets mentioned: the World Anti-Doping Agency already restricts several of ...",
+            "published_at": "2026-09-19T00:00:01Z",
+            "url": "https://www.youtube.com/watch?v=5Wf9T8chCrY"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "e1rzv0LoCIA",
+            "title": "Set Point and GLP1s",
+            "description": "https://link.joinbelle.com/DRPAT FREE Peptide in Perimenopause Ebook: http://guides.joinbelle.com/youtube Book a FREE ...",
+            "published_at": "2026-09-18T18:10:11Z",
+            "url": "https://www.youtube.com/watch?v=e1rzv0LoCIA"
+          }
+        ],
+        "channel_description": "Dr. Pat Taylor, Chief Medical Officer of Live Vital and Belle Health, explains all things longevity, GLP1s, peptides, and hormone health.",
+        "latest_video_at": "2026-09-19T00:00:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCC_mbgJsuqX3laWXe24N3ww",
+      "external_id": "UCC_mbgJsuqX3laWXe24N3ww",
+      "name": "StrongCast",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCC_mbgJsuqX3laWXe24N3ww",
+      "discovered_on": "2026-09-19",
+      "score": 59.79,
+      "metrics": {
+        "subscribers": 8410,
+        "total_views": 1354736,
+        "video_count": 1174,
+        "avg_views_per_video": 1153.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "l7PVB0Y8RgQ",
+            "title": "SAMSUNG VENDERÁ PEPTIDOS",
+            "description": "US$1.8 BILLONES en juego alrededor de los péptidos.* Samsung Biologics busca adquirir PolyPeptide, una CDMO ...",
+            "published_at": "2026-09-19T04:00:59Z",
+            "url": "https://www.youtube.com/watch?v=l7PVB0Y8RgQ"
+          }
+        ],
+        "channel_description": "El podcast para desbloquear tu potencial fitness.",
+        "latest_video_at": "2026-09-19T04:00:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCnCX8nFtg5CrVRXIdR93Ggw",
+      "external_id": "UCnCX8nFtg5CrVRXIdR93Ggw",
+      "name": "Доктор Ксения Бутова",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCnCX8nFtg5CrVRXIdR93Ggw",
+      "discovered_on": "2026-09-19",
+      "score": 56.09,
+      "metrics": {
+        "subscribers": 2200,
+        "total_views": 386397,
+        "video_count": 281,
+        "avg_views_per_video": 1375.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "H1E789dHoTE",
+            "title": "ПЕПТИДЫ - панацея или большой обман? Вся правда, которую скрывают!",
+            "description": "Записаться на прием: https://n1391208.alteg.io/select-city/50/select-branch Получить WhatsApp консультацию: ...",
+            "published_at": "2026-09-19T13:00:19Z",
+            "url": "https://www.youtube.com/watch?v=H1E789dHoTE"
+          }
+        ],
+        "channel_description": "На моём канале вы найдёте:\n\n🔹 Видео о медицине в ОАЭ: специфика заболеваний, диагностики, лечения и жизни пациентов в Дубае.\n🔹 Научные подходы к longevity медицине: healthspan, метаболическое здоровье, чекапы, биомаркеры, гормональный баланс, снижение веса, эстетическая медицина и восстановление.\n🔹 Как врачу, предпринимателю или собственнику клиники сохранять энергию, ресурс и здоровье, чтобы бизнес продолжал расти, а вы оставались молодыми и здоровыми.\n🔹 Практические советы по международному медицинскому бизнесу, управлению командами и развитию клиник в ОАЭ.\n🔹 Менторинг для врачей и владельцев клиник: рост дохода, системность и выход на новый уровень.\n\nМеня зовут Ксения Бутова. Я врач, предприниматель, международный бизнес-эксперт, бизнес-ментор и спикер. Основала сеть клиник Longevium в Дубае, сеть семейных клиник Detki, EdTech-платформу для подготовки к Prometric exam, консалтинговую и рекрутинговую компанию Volna.\n\nLongevium — клиника longevity и metabolic health в Дубае.\n",
+        "latest_video_at": "2026-09-19T13:00:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCxUp6EwvcIntKm6o4jn6sIA",
+      "external_id": "UCxUp6EwvcIntKm6o4jn6sIA",
+      "name": "Dr. Melissa Mondala",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCxUp6EwvcIntKm6o4jn6sIA",
+      "discovered_on": "2026-09-19",
+      "score": 55.12,
+      "metrics": {
+        "subscribers": 2600,
+        "total_views": 425483,
+        "video_count": 612,
+        "avg_views_per_video": 695.23,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "Q7HltCsr1qY",
+            "title": "A Doctor&#39;s Honest Talk About Hormones, Peptides &amp; Safety#shorts",
+            "description": "Looking for real answers about hormones and peptides without being shamed for asking? This is an honest conversation about ...",
+            "published_at": "2026-09-19T01:00:31Z",
+            "url": "https://www.youtube.com/watch?v=Q7HltCsr1qY"
+          }
+        ],
+        "channel_description": "Welcome to Dr. Melissa's Kitchen! I am a family and lifestyle medicine physician that LOVES to show you how to make plant based meals.  In this channel, we will also talk about nutrition with a focus on good mood foods, guthealth, and mental health! \n\nWebsite: www.melissamondalamd.com\nEmail: melissamondalamd@gmail.com\n",
+        "latest_video_at": "2026-09-19T01:00:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCsYPPODpac4LGJEzAvzRqAg",
       "external_id": "UCsYPPODpac4LGJEzAvzRqAg",
