@@ -2,19 +2,454 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-19T13:56:54Z",
-  "new_this_run": 11,
-  "total_influencers": 573,
+  "updated_at": "2026-09-20T14:16:40Z",
+  "new_this_run": 10,
+  "total_influencers": 583,
   "run_summary": {
-    "run_started_at": "2026-09-19T13:56:45Z",
-    "candidate_count": 29,
-    "existing_count": 562,
-    "selected_new_count": 11,
+    "run_started_at": "2026-09-20T14:16:30Z",
+    "candidate_count": 20,
+    "existing_count": 573,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UChSOOq76SOWfzuULtjS876g",
+      "external_id": "UChSOOq76SOWfzuULtjS876g",
+      "name": "MeraRanng",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UChSOOq76SOWfzuULtjS876g",
+      "discovered_on": "2026-09-20",
+      "score": 63.66,
+      "metrics": {
+        "subscribers": 13300,
+        "total_views": 1253656,
+        "video_count": 346,
+        "avg_views_per_video": 3623.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "ImX8Yq8wjtE",
+            "title": "लेखिका प्रियंका ओम तंजानिया और भारतीय समाज में फ़र्क़ पर #meraranng #patriarchy",
+            "description": "Mera Ranng Foundation : Website: meraranng.com Email: meraranng@gmail.com Instagram | Facebook | X: ...",
+            "published_at": "2026-09-19T17:16:59Z",
+            "url": "https://www.youtube.com/watch?v=ImX8Yq8wjtE"
+          }
+        ],
+        "channel_description": "Mera Ranng Foundation is a social initiative committed to creating a society free from domestic violence, gender discrimination, and inequality. Through survivor support, counselling, and awareness on rights and legal remedies, we work to break the silence around abuse and promote zero tolerance for violence. \n\nOur efforts focus on building gender awareness by challenging stereotypes, encouraging consent, and upholding constitutional values through education and dialogue- especially among youth and women. Grounded in lived experiences and community realities, we also engage in research and advocacy to strengthen policies and systems that protect women’s rights, support mental health, and ensure dignity, justice, and inclusion for all.\n",
+        "latest_video_at": "2026-09-19T17:16:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCysTY8rCqtGD0BatZywOQ1A",
+      "external_id": "UCysTY8rCqtGD0BatZywOQ1A",
+      "name": "The Scotland Channel",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCysTY8rCqtGD0BatZywOQ1A",
+      "discovered_on": "2026-09-20",
+      "score": 63.16,
+      "metrics": {
+        "subscribers": 16100,
+        "total_views": 1113079,
+        "video_count": 506,
+        "avg_views_per_video": 2199.76,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "ZdI9hE_Jg9w",
+            "title": "SNP branches urge leadership to back fresh approach to independence | NEWS4SCOTLAND",
+            "description": "More than 50 SNP branches have urged First Minister John Swinney to back a fresh independence strategy.",
+            "published_at": "2026-09-19T17:30:30Z",
+            "url": "https://www.youtube.com/watch?v=ZdI9hE_Jg9w"
+          }
+        ],
+        "channel_description": "It's time for Scotland to be properly represented in the media. The Scotland Channel aims to reflect the Scottish people, life, culture and achievements of this great wee country in a way that London-controlled mainstream media in Scotland doesn't. Support our channel: https://donate.stripe.com/cN2aF24cJcLd16E4gg",
+        "latest_video_at": "2026-09-19T17:30:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UClLhz5wGYqoE-X1HF1Xk55A",
+      "external_id": "UClLhz5wGYqoE-X1HF1Xk55A",
+      "name": "Mike Dyson Replays",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UClLhz5wGYqoE-X1HF1Xk55A",
+      "discovered_on": "2026-09-20",
+      "score": 62.36,
+      "metrics": {
+        "subscribers": 3510,
+        "total_views": 375142,
+        "video_count": 293,
+        "avg_views_per_video": 1280.35,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@mikedyson21"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "L9GVL1Y2XOs",
+            "title": "@AntonnActionVideo nous CENSURE ? ON REPOND ! #antonnaction #paranormal #debunk",
+            "description": "Malgré un debunk qui était lourd et fourni en fake, Antonn à décidé de contester un élément de ce dernier (quid des autres ...",
+            "published_at": "2026-09-19T17:17:03Z",
+            "url": "https://www.youtube.com/watch?v=L9GVL1Y2XOs"
+          }
+        ],
+        "channel_description": "Bienvenue sur la chaine de Mike Dyson ! \n\nVous trouverez ici des replays des Lives Twitch ! Mais pas que...\n\nIl y aura également des Shorts des meilleurs moments des Live !\n\nLes vidéos sont regroupées par Playlist afin de vous faciliter la tâche !\n\nRetrouvez moi sur :\nMa chaine YOUTUBE principale : https://www.youtube.com/@mikedyson21\nMa chaine TWITCH : https://twitch.tv/mikedyson21\n",
+        "latest_video_at": "2026-09-19T17:17:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKq2DnWHQselvzr0UrRyLSg",
+      "external_id": "UCKq2DnWHQselvzr0UrRyLSg",
+      "name": "V55 - Vasantham News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCKq2DnWHQselvzr0UrRyLSg",
+      "discovered_on": "2026-09-20",
+      "score": 62.09,
+      "metrics": {
+        "subscribers": 57400,
+        "total_views": 4064590,
+        "video_count": 18032,
+        "avg_views_per_video": 225.41,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "Yk30IuAiQmo",
+            "title": "Suyadheena Seidhi Paarvai- 20-09-2026 | 06.30AM",
+            "description": "Suyadheena Seidhi Paarvai- 20-09-2026 | 06.30AM #VasanthamTVNews #vasanthamnews Subscribe Our Channel: ...",
+            "published_at": "2026-09-20T02:04:14Z",
+            "url": "https://www.youtube.com/watch?v=Yk30IuAiQmo"
+          }
+        ],
+        "channel_description": "Vasantham TV News also known as ITN News is a 24X7 news room dedicated to the reportage of news on various means. We are empowered with a set of talented, skilled individuals who are committed to dedicate their heart and soul towards the betterment of the Sri Lankan society. Vasantham TV News is also concerned about underprivileged sectors in society and thereby compiling news reports that caters to the emotional aspect in life.\n\nWe provide news in the following arenas.\n\nWe have a well interconnected correspondent network which is always on alert and quite responsive.\n\nNews here at home, International News, Sports News, Business News, etc will be posted on this page and you will be able to not only raise awareness of the incidents happening around but also to gain knowledge on various aspects.",
+        "latest_video_at": "2026-09-20T02:04:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC8fII8HzEsywnzQQbIoQJSw",
+      "external_id": "UC8fII8HzEsywnzQQbIoQJSw",
+      "name": "Jim Webb Podcast",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC8fII8HzEsywnzQQbIoQJSw",
+      "discovered_on": "2026-09-20",
+      "score": 61.44,
+      "metrics": {
+        "subscribers": 14600,
+        "total_views": 852450,
+        "video_count": 747,
+        "avg_views_per_video": 1141.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "7NYJhnTfSeY",
+            "title": "Independent Media: From Daily Show to Podcasts &amp; Beyond #shorts",
+            "description": "Was The Daily Show the original independent media? Its clever use of news clips to expose hypocrisy mirrors today's podcast and ...",
+            "published_at": "2026-09-20T10:57:33Z",
+            "url": "https://www.youtube.com/watch?v=7NYJhnTfSeY"
+          }
+        ],
+        "channel_description": "Jim Webb Podcast—where real conversations meet sharp commentary. We dive into the latest trending topics, viral clips, and cultural debates, breaking them down with insight, honesty, and a touch of entertainment. Our goal is to cut through the noise, spark thought, and keep you engaged every step of the way. Hit that subscribe button and join the conversation today!\n\n\n",
+        "latest_video_at": "2026-09-20T10:57:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCSIwYXH-l9YpeyYum9pxvkw",
+      "external_id": "UCSIwYXH-l9YpeyYum9pxvkw",
+      "name": "Digital آواز News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCSIwYXH-l9YpeyYum9pxvkw",
+      "discovered_on": "2026-09-20",
+      "score": 57.05,
+      "metrics": {
+        "subscribers": 4770,
+        "total_views": 836261,
+        "video_count": 1156,
+        "avg_views_per_video": 723.41,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "STgATChJN0Y",
+            "title": "27 September Protest | PTI Ki Tayariyan Tez | Islamabad Mein Containers Nafez",
+            "description": "27 September Protest | PTI Ki Tayariyan Tez | Islamabad Mein Containers Nafez PTI Islamabad March | 27 September PTI Protest ...",
+            "published_at": "2026-09-19T16:30:10Z",
+            "url": "https://www.youtube.com/watch?v=STgATChJN0Y"
+          }
+        ],
+        "channel_description": "Welcome to Digital Awaz News — \"Jahan Nazar Na Jaye, Wahan Se Khabar Laye.\"\n\nWe are an independent Urdu-language digital news platform dedicated to bold, truthful, and people-focused journalism.\nOur mission is to uncover the stories that matter but often remain untold.\n\nAt Digital Awaz News, you’ll find:\n\nBreaking Political Developments\nEconomic Updates & Analysis\nInvestigative Reports\nPublic Interest Stories\nReal-time National & International News\n\nWe believe in fearless reporting, journalistic integrity, and giving voice to the voiceless.\n\nSubscribe now and join the movement for independent, impactful Urdu journalism.\n\nStay informed. Stay empowered.\nDigital Awaz News – Your Voice. Your News.\n\n\n",
+        "latest_video_at": "2026-09-19T16:30:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCw0zRqJm4Bu2rL1NAFc5GWg",
+      "external_id": "UCw0zRqJm4Bu2rL1NAFc5GWg",
+      "name": "NPU NEWS UTTRAKHAND ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCw0zRqJm4Bu2rL1NAFc5GWg",
+      "discovered_on": "2026-09-20",
+      "score": 55.52,
+      "metrics": {
+        "subscribers": 3260,
+        "total_views": 982172,
+        "video_count": 16405,
+        "avg_views_per_video": 59.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/news_portal_uttarakhand",
+        "youtube": "https://www.youtube.com/channel/UCw0zRqJm4Bu2rL1NAFc5GWg"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "OIyX0Uqurxs",
+            "title": "हल्द्वानी :  टिकट नहीं मिला, निर्दलीय उतरे आर्यन",
+            "description": "न्यूज़ पोर्टल यूके उत्तराखंड में आपका स्वागत है। सभी अपडेट समाचार ...",
+            "published_at": "2026-09-20T10:38:57Z",
+            "url": "https://www.youtube.com/watch?v=OIyX0Uqurxs"
+          }
+        ],
+        "channel_description": "न्यूज़ पोर्टल यूके उत्तराखंड में आपका स्वागत है।\nसभी अपडेट समाचार प्राप्त करें।\n\nन्यूज़ पोर्टल उत्तराखंड को सब्सक्राइब करें |\n\nNews Portal Uttarakhand\nहल्द्वानी स्थित न्यूज चैनल और न्यूज वेबसाइट है जो आपको उत्तराखंड की हर खबर आप तक सबसे पहले पहुँचता है |\n\nWelcome To NPU  NEWS\n\n\nUK Uttarakhand .\n\nGet all updated news .\n\nIt's an Uttarakhand based News Channel.\n\nSubscribe to News Portal Uttarakhand.\n\nGET IN TOUCH\nContact us on  newsportaluk.in@gmail.com\nCall Us @9634912113 , 8057536955 . 9690773225\n\nAddress : - News Portal Uttarakhand Office 1st Floor ,\nKaladungi Road , Haldwani  -263139 ,\nDist. Nainital (Uttarakhand)  \n\nDon’t forget to subscribe!\n\nFOLLOW US ON SOCIAL !!\nGet updates or reach out to Get updates on our Social Media Profiles!\n\nwebsite : https://www.newsportaluk.in\n\nInstagram : https://www.instagram.com/news_portal_uttarakhand/?utm_medium=copy_link\n\nFacebook: https://www.facebook.com/newsportaluttarakhand/\n\nYoutube : https://www.youtube.com/channel/UCw0zRqJm4Bu2rL1NAFc5GWg\n",
+        "latest_video_at": "2026-09-20T10:38:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCX6LecfjtCAFd7LpIPKMhtQ",
+      "external_id": "UCX6LecfjtCAFd7LpIPKMhtQ",
+      "name": "The VHS Stash",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCX6LecfjtCAFd7LpIPKMhtQ",
+      "discovered_on": "2026-09-20",
+      "score": 55.51,
+      "metrics": {
+        "subscribers": 2590,
+        "total_views": 2703404,
+        "video_count": 3234,
+        "avg_views_per_video": 835.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "hPSrYCHa1T8",
+            "title": "WNEW, Now WNYW (Independent, Now Fox) &quot;The 10 O&#39;Clock News Nightcast&quot; Sneak Peek 1985 #2",
+            "description": "This is WNEW's sneak peek from 1985 WNYW is licensed to New York City, NY of the New York City market.",
+            "published_at": "2026-09-19T17:00:05Z",
+            "url": "https://www.youtube.com/watch?v=hPSrYCHa1T8"
+          }
+        ],
+        "channel_description": "Hello and welcome to The VHS Stash.\n\nThis channel uploads TV station IDs and promo/station ID compilations from the 1970s through the 2000s.\nIf there are any discrepancies in the video title or description, please let me know in the comments section.\nThanks for visiting, and enjoy!\n\nNotice: I do not own any of the footage on this channel. All clips and videos are the sole copyright of the TV stations and their owners, with first credit to the original uploaders. Any clips that are requested to be taken down on behalf of the stations themselves will be granted.\n",
+        "latest_video_at": "2026-09-19T17:00:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCS5QpoPLpxpQFYm5Kc7SCHA",
+      "external_id": "UCS5QpoPLpxpQFYm5Kc7SCHA",
+      "name": "Paul… The Other One",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCS5QpoPLpxpQFYm5Kc7SCHA",
+      "discovered_on": "2026-09-20",
+      "score": 55.12,
+      "metrics": {
+        "subscribers": 4270,
+        "total_views": 1837302,
+        "video_count": 5288,
+        "avg_views_per_video": 347.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "t-eX49VQ5Ro",
+            "title": "Coffee &amp; Context: The Audience Commodity",
+            "description": "Are you the audience or are you the product when it comes to what is being sold by mainstream media? There's a train of thought ...",
+            "published_at": "2026-09-19T23:14:20Z",
+            "url": "https://www.youtube.com/watch?v=t-eX49VQ5Ro"
+          }
+        ],
+        "channel_description": "A look at the world with award-winning podcaster and political commentator, Paul… \"The Other One\" Barlow. We don't just follow the headlines, we use facts, data, and reporting to pull back the curtain on the narrative.\n\n📊 Election 2026 Analysis: My independent fact-checks and trackers: https://www.election2026.co.nz\n🗳️ Official Voting Info: https://vote.nz\n🔗 Find my content: https://linktr.ee/paul_barlownz\n\n👋 Join in: Please keep comments respectful—I have a zero-tolerance policy for abuse.\n\nViews are my own, not my employer’s. © Paul... The Other One 2026.\n",
+        "latest_video_at": "2026-09-19T23:14:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDQtPB59d01G6NaPRcVq9og",
+      "external_id": "UCDQtPB59d01G6NaPRcVq9og",
+      "name": "Dukta Feelgood",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDQtPB59d01G6NaPRcVq9og",
+      "discovered_on": "2026-09-20",
+      "score": 52.86,
+      "metrics": {
+        "subscribers": 3800,
+        "total_views": 1462286,
+        "video_count": 6413,
+        "avg_views_per_video": 228.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "QTlhIitRyZU",
+            "title": "WHY ARE THE ATTACKS FAILING? | Pauline Hanson, One Nation, Media Outrage &amp; Authenticity",
+            "description": "Why do political attacks that once destroyed careers sometimes seem to bounce straight off their targets? Topher Field argues that ...",
+            "published_at": "2026-09-19T07:43:39Z",
+            "url": "https://www.youtube.com/watch?v=QTlhIitRyZU"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-19T07:43:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCiRfPConuXEbPxIOMXenUag",
       "external_id": "UCiRfPConuXEbPxIOMXenUag",
