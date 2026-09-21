@@ -2,19 +2,669 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-20T14:16:40Z",
-  "new_this_run": 10,
-  "total_influencers": 583,
+  "updated_at": "2026-09-21T16:30:39Z",
+  "new_this_run": 15,
+  "total_influencers": 598,
   "run_summary": {
-    "run_started_at": "2026-09-20T14:16:30Z",
-    "candidate_count": 20,
-    "existing_count": 573,
-    "selected_new_count": 10,
+    "run_started_at": "2026-09-21T16:30:30Z",
+    "candidate_count": 22,
+    "existing_count": 583,
+    "selected_new_count": 15,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCV4MuJHfEXNMjrjwcd4tHEA",
+      "external_id": "UCV4MuJHfEXNMjrjwcd4tHEA",
+      "name": "Slow News Day",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCV4MuJHfEXNMjrjwcd4tHEA",
+      "discovered_on": "2026-09-21",
+      "score": 78.81,
+      "metrics": {
+        "subscribers": 74900,
+        "total_views": 12508999,
+        "video_count": 362,
+        "avg_views_per_video": 34555.25,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "http://twitter.com/tom_nicholas",
+        "instagram": "http://instagram.com/tomnicholaswtf"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "95W-N2mwZec",
+            "title": "Meta&#39;s War With The UK Government",
+            "description": "Watch this video ad-free and sponsor-free on NEBULA at ...",
+            "published_at": "2026-09-21T16:20:22Z",
+            "url": "https://www.youtube.com/watch?v=95W-N2mwZec"
+          }
+        ],
+        "channel_description": "Welcome to Slow News Day, an almost-daily news show breaking down the top stories from the UK and around the world, hosted by Tom Nicholas.\n\nYou can find me in the following places:\n\nMain Channel: http://youtube.com/tomnicholaswtf\nPatreon: http://patreon.com/tomnicholas\nTwitter: http://twitter.com/tom_nicholas\nInstagram: http://instagram.com/tomnicholaswtf",
+        "latest_video_at": "2026-09-21T16:20:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKQMRyThWSNg_F4rML-GP8w",
+      "external_id": "UCKQMRyThWSNg_F4rML-GP8w",
+      "name": "CryptDec",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCKQMRyThWSNg_F4rML-GP8w",
+      "discovered_on": "2026-09-21",
+      "score": 76.01,
+      "metrics": {
+        "subscribers": 98600,
+        "total_views": 104728972,
+        "video_count": 1623,
+        "avg_views_per_video": 64528.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "p10T_Gl7oCE",
+            "title": "Elle se fait censuré pour avoir dénoncé le génocide à Gaza",
+            "description": "Cliquez ici pour être informé de l'actualité en temps réel ...",
+            "published_at": "2026-09-21T08:00:12Z",
+            "url": "https://www.youtube.com/watch?v=p10T_Gl7oCE"
+          }
+        ],
+        "channel_description": "Bienvenue sur la chaîne Cryptdec ! Chaque jour, je réagis, analyse et vous tiens informé(e) de l'actualité en temps réel.\n\n\n",
+        "latest_video_at": "2026-09-21T08:00:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVWm3340kWC0jZ-Fhc0TaMQ",
+      "external_id": "UCVWm3340kWC0jZ-Fhc0TaMQ",
+      "name": "Chandu online77",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCVWm3340kWC0jZ-Fhc0TaMQ",
+      "discovered_on": "2026-09-21",
+      "score": 74.33,
+      "metrics": {
+        "subscribers": 41600,
+        "total_views": 73594882,
+        "video_count": 451,
+        "avg_views_per_video": 163181.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "J5c4y2Jf1ew",
+            "title": "The Paradise Movie Censor Report | A Certificate | 21 Cuts | 9 Songs | Nani #shorts #telugushorts",
+            "description": "The Paradise Movie Censor Report | A Certificate | 21 Cuts | 9 Songs | Nani #shorts #telugushorts The Paradise Movie Censor ...",
+            "published_at": "2026-09-21T14:00:02Z",
+            "url": "https://www.youtube.com/watch?v=J5c4y2Jf1ew"
+          }
+        ],
+        "channel_description": " హాయ్🙏\nనా పేరు చందు ఇది నా యూట్యూబ్ ఛానల్ Chandu online 77 🎥\n\nఇక్కడ మీరు టాలీవుడ్ సినిమాలకు సంబంధించిన లేటెస్ట్ షార్ట్ వీడియోలు చూడవచ్చు:\n🎬 కొత్త సినిమాల రివ్యూలు & ట్రైలర్ రివ్యూలు\n💰 హీరోలు, డైరెక్టర్ల బాక్సాఫీస్ కలెక్షన్స్ (Day 1 & Total)\n💥 హిట్స్ అండ్ ఫ్లాప్స్ విశ్లేషణ\n⚔️ టాలీవుడ్ బాక్సాఫీస్ క్లాషెస్ & రికార్డ్స్\n🎞️ టాలీవుడ్ లేటెస్ట్ అప్‌డేట్స్ \n\n\n👉For any Promotions or Video Removal \nbheempakachanduchandu@gmail.com 👈\n\nప్రతిరోజు లేటెస్ట్ టాలీవుడ్ అప్‌డేట్స్ మరియు రివ్యూస్ కోసం 🔔 Subscribe చేసుకోండి\n👉 Chandu online 77 \n\n",
+        "latest_video_at": "2026-09-21T14:00:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCK3WRTzOPRhMKfoHwMcb1CA",
+      "external_id": "UCK3WRTzOPRhMKfoHwMcb1CA",
+      "name": "ROKAST",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCK3WRTzOPRhMKfoHwMcb1CA",
+      "discovered_on": "2026-09-21",
+      "score": 68.29,
+      "metrics": {
+        "subscribers": 33400,
+        "total_views": 13181692,
+        "video_count": 991,
+        "avg_views_per_video": 13301.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "viVqJtdmhm8",
+            "title": "CENSURA! Augusto Cury expõe boicote das redes sociais contra a direita!",
+            "description": "Bora! Todo dia ao vivo, de segunda a sexta, às 11h da manhã! Augusto Cury expôs uma situação alarmante que atinge ...",
+            "published_at": "2026-09-20T16:15:36Z",
+            "url": "https://www.youtube.com/watch?v=viVqJtdmhm8"
+          }
+        ],
+        "channel_description": "ROKAST NEWS\n\n📰 BORA! AO VIVO | Segunda a sexta, às 11h\n\nAcompanhamento diário dos principais fatos do Brasil e do mundo. Cobertura abrangente sobre política, economia, segurança pública, tecnologia, sociedade e atualidades.\n\n🎙️ Apresentação:\nRony Magrini\n\n🎬 Direção e Produção:\nThyago Magrini\n\n⚡ Linha Editorial e Conteúdo:\n• Notícias em tempo real com precisão factual\n• Análise e contexto dos acontecimentos nacionais e internacionais\n• Bastidores dos poderes e decisões institucionais\n• Economia, indicadores e mercado\n• Segurança pública e prestação de serviço\n• Entrevistas, dados e debate plural\n\n📺 BORA! — Programa diário de notícias ao vivo, de segunda a sexta, às 11h.\n\n🚀 E AÍ? NEWS — Segunda Temporada em breve.\n\n🔔 Inscreva-se e ative as notificações para acompanhar a cobertura diária dos fatos com isenção e credibilidade.\n",
+        "latest_video_at": "2026-09-20T16:15:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCuDnoOvlODbnpiUhzDDa0dg",
+      "external_id": "UCuDnoOvlODbnpiUhzDDa0dg",
+      "name": "MGK 1",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCuDnoOvlODbnpiUhzDDa0dg",
+      "discovered_on": "2026-09-21",
+      "score": 68.29,
+      "metrics": {
+        "subscribers": 25500,
+        "total_views": 6713873,
+        "video_count": 546,
+        "avg_views_per_video": 12296.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "upjW_OSbW9Q",
+            "title": "Mark Sleboda: Was große Medien nicht zeigen | MGK1",
+            "description": "",
+            "published_at": "2026-09-21T08:30:12Z",
+            "url": "https://www.youtube.com/watch?v=upjW_OSbW9Q"
+          }
+        ],
+        "channel_description": "Wir sind wieder da. 11.10.2025 MR !\n\n",
+        "latest_video_at": "2026-09-21T08:30:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCi_gssbKGa1xF4Qq--PxWsA",
+      "external_id": "UCi_gssbKGa1xF4Qq--PxWsA",
+      "name": "Dariusz Matecki",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCi_gssbKGa1xF4Qq--PxWsA",
+      "discovered_on": "2026-09-21",
+      "score": 67.74,
+      "metrics": {
+        "subscribers": 47100,
+        "total_views": 33232641,
+        "video_count": 8224,
+        "avg_views_per_video": 4040.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "Gz64UaPkoW4",
+            "title": "Dlaczego nienawidzą Telewizji Republika?",
+            "description": "Istnieje stacja, której przekaz burzy ustalony od lat medialny porządek. Dla wielu to jedyna prawdziwa alternatywa dla narracji ...",
+            "published_at": "2026-09-20T20:12:36Z",
+            "url": "https://www.youtube.com/watch?v=Gz64UaPkoW4"
+          }
+        ],
+        "channel_description": "Mój główny kanał to Prawicowy Internet. \nDariusz Matecki. Urodziłem się i mieszkam w Szczecinie. Jestem członkiem stowarzyszenia KoLiber. Interesuję się historią Polski, polityką, kinem, planszówkami i nowymi technologiami. \nProwadzę bloga: http://prawicowyinternet.pl\nTo jest mój prywatny kanał na YouTube, na którym zamierzam przedstawiać swoje opinie na tematy społeczno-polityczne.",
+        "latest_video_at": "2026-09-20T20:12:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRuneW0D0WaIlzFSJ0NTnRQ",
+      "external_id": "UCRuneW0D0WaIlzFSJ0NTnRQ",
+      "name": "Delhi Dialogues",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCRuneW0D0WaIlzFSJ0NTnRQ",
+      "discovered_on": "2026-09-21",
+      "score": 67.48,
+      "metrics": {
+        "subscribers": 10000,
+        "total_views": 6319982,
+        "video_count": 202,
+        "avg_views_per_video": 31287.04,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "VhvyNKSxDe8",
+            "title": "ASLI GODI MEDIA🔥 | Ashok Shrivastav on Godhra, Kargil, 26/11 attacks, Radia, media ethics",
+            "description": "\"Who Watches the Watchdogs?\" \"When Journalists Become the Story.\" Ashok Shrivastav discusses some of the most controversial ...",
+            "published_at": "2026-09-21T13:26:13Z",
+            "url": "https://www.youtube.com/watch?v=VhvyNKSxDe8"
+          }
+        ],
+        "channel_description": "The Delhi Dialogues is a platform dedicated to shape India’s intellectual direction, involve the youth in the nation building process, and bring together like minded nationalistic voices.\n\nDelhi Dialogue aims to shape Ideas that Inform, Issues that Matter, & Stories that Inspire.\n\nHosting at Delhi Dialogues are Entrepreneur Sunita Singh, and Bureaucrat Ishaan Sharma.\n\nThis is done through Podcasts, Informative Videos, and  Summits.\n\nLet us contribute to the rise of New India together.\n\n",
+        "latest_video_at": "2026-09-21T13:26:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCld7HZ6k-IGjcgFPLu97kfw",
+      "external_id": "UCld7HZ6k-IGjcgFPLu97kfw",
+      "name": "US Daily News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCld7HZ6k-IGjcgFPLu97kfw",
+      "discovered_on": "2026-09-21",
+      "score": 67.17,
+      "metrics": {
+        "subscribers": 6280,
+        "total_views": 48134672,
+        "video_count": 923,
+        "avg_views_per_video": 52150.24,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "STL0pFgenkI",
+            "title": "BREAKING: HELL YES! CNN, Politico, and MS NOW slam Trump with a massive lawsuit after",
+            "description": "BREAKING: HELL YES! CNN, Politico, and MS NOW slam Trump with a massive lawsuit after he banned their reporters from the ...",
+            "published_at": "2026-09-21T16:16:15Z",
+            "url": "https://www.youtube.com/watch?v=STL0pFgenkI"
+          }
+        ],
+        "channel_description": "🇺🇸 Welcome to US Daily News! 📰\n\nStay informed with the latest breaking news, politics, business, economy, world events, and trending stories from across the United States. We deliver fast, accurate, and easy-to-understand news updates every day, helping you stay connected to the events that shape America and the world.\n\nFrom major headlines and government decisions to community stories and market insights, US Daily News brings you reliable coverage you can trust. Subscribe today and join our growing community of informed viewers.\n\nUS Daily News — Your Nation. Your News. Every Day. ⭐🇺🇸🗽\n",
+        "latest_video_at": "2026-09-21T16:16:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCCY3UBEXzGKbwxx9wqLgN9A",
+      "external_id": "UCCY3UBEXzGKbwxx9wqLgN9A",
+      "name": "Patriota anônimo",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCCY3UBEXzGKbwxx9wqLgN9A",
+      "discovered_on": "2026-09-21",
+      "score": 66.54,
+      "metrics": {
+        "subscribers": 16400,
+        "total_views": 9468869,
+        "video_count": 589,
+        "avg_views_per_video": 16076.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "iV-_jRRuYoI",
+            "title": "Moraes Desmascarado  O Poder e a Censura Explicados #brasil #política #lula",
+            "description": "No canal vamos analisar os principais acontecimentos do cenário político atual no Brasil . Abordamos decisões importantes do ...",
+            "published_at": "2026-09-20T15:00:10Z",
+            "url": "https://www.youtube.com/watch?v=iV-_jRRuYoI"
+          }
+        ],
+        "channel_description": "A Verdade Nua e Crua da Política Brasileira 🇧🇷\n\nAqui a conversa é reta. Sem maquiagem, sem filtro e sem rabo preso com ninguém. O Patriota anônimo é um canal criado para quem está cansado da velha política, das narrativas manipuladas e dos acordos de bastidores que ninguém tem coragem de expor.\n\nNosso compromisso é com a verdade — mesmo que ela incomode.\nAnálises afiadas, opiniões sem medo e denúncias que muita gente gostaria de esconder. Se você quer entender o que realmente está por trás dos discursos e decisões que afetam o Brasil, este é o seu lugar.\n\n📌 Política, bastidores, ideologia, corrupção, liberdade e o futuro do país — tudo isso com coragem e patriotismo.\n\n🛑 Prepare-se: aqui, a verdade dói. Mas é necessária.\n",
+        "latest_video_at": "2026-09-20T15:00:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCUFLYBo9_0ZW25A0wcZczKg",
+      "external_id": "UCUFLYBo9_0ZW25A0wcZczKg",
+      "name": "WLF | Wayanad Literature Festival",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCUFLYBo9_0ZW25A0wcZczKg",
+      "discovered_on": "2026-09-21",
+      "score": 63.68,
+      "metrics": {
+        "subscribers": 10700,
+        "total_views": 4949405,
+        "video_count": 1000,
+        "avg_views_per_video": 4949.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "tU8PinXvgwI",
+            "title": "Independent journalism can thrive with public support despite funding restrictions - Vignesh Vellore",
+            "description": "Independent journalism can thrive with public support despite funding restrictions - Vignesh Vellore Excerpt from the panel ...",
+            "published_at": "2026-09-21T11:30:25Z",
+            "url": "https://www.youtube.com/watch?v=tU8PinXvgwI"
+          }
+        ],
+        "channel_description": "India's first and largest rurally-held literature festival.\n\nWhen the world comes to a Wayanadan village to think, listen, read and talk...\n\nമണ്ണ്. മഞ്ഞ്. മല. കാട്.\nഅതിജീവനം. ആവിഷ്കാരം. പ്രതിനിധാനം. \n\nEarth. Mist. Mountain. Forest.  \nResilience. Expression. Representation. \n\nസാഹിത്യോത്സവം | അന്താരാഷ്ട്ര അക്കാദമിക് കോൺഫറൻസ് | അഖിലേന്ത്യാ ആർട്ട് ആൻ്റ് ക്രാഫ്റ്റ് മേള | ഫിലിം ഫെസ്റ്റിവൽ | പുസ്തകമേള | ഭക്ഷ്യമേള | കാർഷിക വിപണി | പൈതൃക നടത്തം | ആർട്ട് ബിനാലെ | കുട്ടികളുടെ വിനോദ വിജ്ഞാനകളരി | ചെസ്സ് ടൂർണമെന്റ് | മാസ്റ്റർക്ലാസുകൾ: ഫാഷൻ, ഫോട്ടോഗ്രഫി, സംരഭകത്വം | കോളേജ് മാഗസിൻ അവാർഡ്\n\nwlfwayanad.com\nSupport us, donate here : wlfwayanad.com/donation/\n\n",
+        "latest_video_at": "2026-09-21T11:30:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTa6HOnmCnsXAo-xmN15-2A",
+      "external_id": "UCTa6HOnmCnsXAo-xmN15-2A",
+      "name": "Citizen’s Voice: News & Stories",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCTa6HOnmCnsXAo-xmN15-2A",
+      "discovered_on": "2026-09-21",
+      "score": 63.09,
+      "metrics": {
+        "subscribers": 2640,
+        "total_views": 11808200,
+        "video_count": 442,
+        "avg_views_per_video": 26715.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "xo9o2jnUFes",
+            "title": "Media Bias &amp; Free Speech: The Debate Over TV Censorship in America #news",
+            "description": "Media Bias & Free Speech: The Debate Over TV Censorship in America Disclaimer: The views and opinions expressed in this ...",
+            "published_at": "2026-09-20T23:45:36Z",
+            "url": "https://www.youtube.com/watch?v=xo9o2jnUFes"
+          }
+        ],
+        "channel_description": "Welcome to Citizen’s Voice: News & Stories.\nWe are dedicated to bringing you the latest global updates and the most impactful human stories that matter to you. From economic shifts and tax updates to heroic tales and community struggles, we amplify the voice of the citizen. Our mission is to track the truth, one story at a time, providing a platform where every voice is heard and every story counts.\nSubscribe to stay informed and connected to the heartbeat of the world.",
+        "latest_video_at": "2026-09-20T23:45:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCaLm5rwMwe9opkgsosbjF_A",
+      "external_id": "UCaLm5rwMwe9opkgsosbjF_A",
+      "name": "0a Games",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCaLm5rwMwe9opkgsosbjF_A",
+      "discovered_on": "2026-09-21",
+      "score": 62.89,
+      "metrics": {
+        "subscribers": 10900,
+        "total_views": 7233232,
+        "video_count": 2162,
+        "avg_views_per_video": 3345.62,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "KwvpGAJnNWU",
+            "title": "What’s Happening to Shigure Ui on YouTube?",
+            "description": "YouTube search behavior around Shigure Ui has raised questions after some users reported blurred thumbnails and age-related ...",
+            "published_at": "2026-09-21T01:03:21Z",
+            "url": "https://www.youtube.com/watch?v=KwvpGAJnNWU"
+          }
+        ],
+        "channel_description": "I am from Indonesia, and my English is not very good. I apologize, I am still learning. Mistakes are part of the learning process, not the end of everything.\n\n\"When you have happiness, keep it hidden.\"\nDo not compare or boast about your happiness.\n\nHandling (Learning Enjoyment)\n\n\"Pieces of YouTube—from the world of video games to interesting stories from anime, films, and all kinds of unexpected moments.\"\n\n0a Games | Indonesia\n",
+        "latest_video_at": "2026-09-21T01:03:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC5T3sPpgQ8ydeOlkigVaSCw",
+      "external_id": "UC5T3sPpgQ8ydeOlkigVaSCw",
+      "name": "Análisis de Entorno",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC5T3sPpgQ8ydeOlkigVaSCw",
+      "discovered_on": "2026-09-21",
+      "score": 62.6,
+      "metrics": {
+        "subscribers": 38900,
+        "total_views": 2604757,
+        "video_count": 5269,
+        "avg_views_per_video": 494.36,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "YIVD-8fiCXI",
+            "title": "¡Libertad de Prensa YA! ¡Venezuela Quiere Información Sin Censura! #shorts",
+            "description": "Análisis de la situación: ¿Es momento de levantar restricciones y garantizar la libertad de prensa en Venezuela? Un debate ...",
+            "published_at": "2026-09-21T14:03:07Z",
+            "url": "https://www.youtube.com/watch?v=YIVD-8fiCXI"
+          }
+        ],
+        "channel_description": "Análisis de Entorno es un canal de YouTube dedicado al análisis político, económico y geopolítico de Venezuela, América Latina y el contexto internacional. El programa se transmite de lunes a viernes y es moderado por Hernan Porras Molina y Jairo Cuba, quienes examinan a profundidad los principales acontecimientos del día con enfoque crítico, documental y contextual.\n\nEl canal aborda temas clave como la transición política en Venezuela, derechos humanos, presos políticos, relaciones con Estados Unidos, industria petrolera, economía, seguridad regional, geopolítica global y el impacto de las decisiones internacionales en la realidad venezolana. A través del contraste de fuentes, análisis en tiempo real y debates informados, Análisis de Entorno ofrece a la audiencia herramientas para comprender no solo los hechos, sino también sus causas y posibles consecuencias.\n\nAnálisis de Entorno es un espacio para entender qué está ocurriendo, por qué ocurre y hacia dónde puede ir el país\n",
+        "latest_video_at": "2026-09-21T14:03:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoYpf22hdWyIoKYKIQirTBA",
+      "external_id": "UCoYpf22hdWyIoKYKIQirTBA",
+      "name": "Jyotsna Mohan",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCoYpf22hdWyIoKYKIQirTBA",
+      "discovered_on": "2026-09-21",
+      "score": 58.37,
+      "metrics": {
+        "subscribers": 5400,
+        "total_views": 828302,
+        "video_count": 467,
+        "avg_views_per_video": 1773.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "MPC_IE-YZgc",
+            "title": "Why Is Criticism Censored While Hate Gets Amplified?",
+            "description": "Why are some posts critical of the government being taken down or blocked, while hateful content can remain online and even be ...",
+            "published_at": "2026-09-20T12:00:17Z",
+            "url": "https://www.youtube.com/watch?v=MPC_IE-YZgc"
+          }
+        ],
+        "channel_description": "India is at a crossroads, and the questions we ask today will define our tomorrow. Table Talk with Jo, hosted by Jyotsna Mohan, is a safe space for honest, in-depth, and noise-free conversations. Every fortnight, Jo sits down with thinkers, doers, and dreamers as they explore ideas that shape India, a story that is being tested and tweaked. From politics to pop culture, from patriarchy to propaganda, nothing is off the table for these changemakers.\nSecret Lives: Mapping a Confused Generation—a mini-series exploring the crises facing today’s teens as social media dominates their lives continues alongside. Can a society progress if its children are in turmoil? Can we truly support a generation caught in confusion and contradictions? Join us on this journey as well to uncover the truths behind the secret lives of India’s youth. Subscribe, listen, and be a part of conversations that matter. Secret Lives: Mapping a Confused Generation – Honest Conversations. Hidden Realities. Real Growth\n",
+        "latest_video_at": "2026-09-20T12:00:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC_BjW_HEmT93KbIZzo9CDbA",
+      "external_id": "UC_BjW_HEmT93KbIZzo9CDbA",
+      "name": "NEWSPASTE",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC_BjW_HEmT93KbIZzo9CDbA",
+      "discovered_on": "2026-09-21",
+      "score": 57.6,
+      "metrics": {
+        "subscribers": 2190,
+        "total_views": 84667,
+        "video_count": 307,
+        "avg_views_per_video": 275.79,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://x.com/JohnnyVedmore"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "yGmuaCLGbKY",
+            "title": "Money Changes Alt-Media Narratives #substack #shorts",
+            "description": "This is a clip from https://newspaste.substack.com/p/johnny-vedmore-on-dissident-crossfire?utm_source=youtube_shorts #shorts ...",
+            "published_at": "2026-09-20T18:03:03Z",
+            "url": "https://www.youtube.com/watch?v=yGmuaCLGbKY"
+          }
+        ],
+        "channel_description": "Welcome to NEWSPASTE HQ with @JohnnyVedmore! \n\nNEWSPASTE is a base for all Johnny Vedmore’s media work. The channel will include Police Audits, Journalistic Investigations, Media Appearances and The NEWSPASTE Podcast and the Fungi Monkey Podcast. Find all Johnny’s work at NEWSPASTE.com or johnnyvedmore.com..\n\nSupport independent media\n\nFind more from NEWSPASTE and Johnny Vedmore at:\n\nNEWSPASTE - https://newspaste.com/\nJohnny Vedmore: https://johnnyvedmore.com/\nLink Tree https://linktr.ee/JohnnyVedmore\nRokFin: https://rokfin.com/johnnyvedmore\nX: https://x.com/JohnnyVedmore\nYoutube: @Johnny Vedmore @NEWSPASTEHQ\n\nSUPPORT Johnny's Work: https://newspaste.com/home/support-newspaste/\n\nOr send some Crypto to:\n\nEthereum Address: 0x91cC84D58a795482482128681a1Aa0715601512c\n\nBitcoin Address: 3GAPNn9QRYpgcjvYmK46v1thWPQf8exLS8\n\nRAE Address: 0x91cC84D58a795482482128681a1Aa0715601512c",
+        "latest_video_at": "2026-09-20T18:03:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UChSOOq76SOWfzuULtjS876g",
       "external_id": "UChSOOq76SOWfzuULtjS876g",

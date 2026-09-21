@@ -2,19 +2,212 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-20T14:16:49Z",
+  "updated_at": "2026-09-21T16:30:49Z",
   "new_this_run": 4,
-  "total_influencers": 340,
+  "total_influencers": 344,
   "run_summary": {
-    "run_started_at": "2026-09-20T14:16:30Z",
-    "candidate_count": 16,
-    "existing_count": 336,
+    "run_started_at": "2026-09-21T16:30:30Z",
+    "candidate_count": 20,
+    "existing_count": 340,
     "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCs_07pUqQNnoP6aG5oT9dNw",
+      "external_id": "UCs_07pUqQNnoP6aG5oT9dNw",
+      "name": "Oksana Skytalinska",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCs_07pUqQNnoP6aG5oT9dNw",
+      "discovered_on": "2026-09-21",
+      "score": 79.47,
+      "metrics": {
+        "subscribers": 85100,
+        "total_views": 5808185,
+        "video_count": 374,
+        "avg_views_per_video": 15529.91,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "uCVC5Qf6og0",
+            "title": "ЧОМУ ПЕПТИДИ НЕ МОЖНА ПРОСТО ВИПИТИ?",
+            "description": "Подбайте про своє здоров'я заздалегідь! Пройдіть лабораторні обстеження в медичній лабораторії ДІЛА з ...",
+            "published_at": "2026-09-21T03:30:26Z",
+            "url": "https://www.youtube.com/watch?v=uCVC5Qf6og0"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "Xt-6tNiz7gY",
+            "title": "BPC-157: ВАС ОБМАНЮЮТЬ?",
+            "description": "Подбайте про своє здоров'я заздалегідь! Пройдіть лабораторні обстеження в медичній лабораторії ДІЛА з ...",
+            "published_at": "2026-09-20T15:07:53Z",
+            "url": "https://www.youtube.com/watch?v=Xt-6tNiz7gY"
+          }
+        ],
+        "channel_description": "Я, Оксана Скиталінська,  лікар-дієтолог, засновниця Академії Довголіття Dr.Skytalinska, віцепрезидент Асоціації дієтологів України.\nУ сфері здоров'я я 40 років, з них 20  —  лікарем-хірургом. У практиці поєдную не лише лікування ліками та їжею: кожна людина унікальна, тому дотримуюсь персоналізованого підходу.\nМої пацієнти різні — це здорові люди, які хочуть не просто підтримати здоров'я, а збільшити свій функціональний та ментальний резерв. Інші  — люди з глибокими метаболічними порушеннями, онкологічними, автоімунними та іншими захворюваннями. Для кожного - різна стратегія.\nБагато років веду соцмережі, де пояснюю, як їжа працює в організмі — на рівні молекул та  біохімії. Коли людина розуміє, як їжа, рух, сон та емоції впливають на її тіло, вона перестає бути пасивним пацієнтом і починає керувати власним життям.\nОкрім лікування, маю місію: навчати українців науковій дієтології.  Я вірю, що Україна може стати однією з Блакитних зон світу, а українці — нацією довгожителів.\n\n\n",
+        "latest_video_at": "2026-09-21T03:30:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC8_qETGWRNIH01-QEjWYBKw",
+      "external_id": "UC8_qETGWRNIH01-QEjWYBKw",
+      "name": "COSRX 코스알엑스",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC8_qETGWRNIH01-QEjWYBKw",
+      "discovered_on": "2026-09-21",
+      "score": 70.55,
+      "metrics": {
+        "subscribers": 14000,
+        "total_views": 50558505,
+        "video_count": 630,
+        "avg_views_per_video": 80251.6,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "beDlz3B3umY",
+            "title": "[COSRX] 5 Peptide Collagen Lip Fill Tinted Treatment💄| Plump, Hydrate &amp; Glow",
+            "description": "COSRX 5 Peptide Collagen Lip Fill Tinted Treatment combines peptide-powered care with buildable color for lips that look plump, ...",
+            "published_at": "2026-09-21T00:46:53Z",
+            "url": "https://www.youtube.com/watch?v=beDlz3B3umY"
+          }
+        ],
+        "channel_description": "모든 피부 고민을 위한 더마 솔루션\n\n(Global) www.cosrx.com\n(Korea) www.cosrx.co.kr",
+        "latest_video_at": "2026-09-21T00:46:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCI5MSedSCG4Nu_aER5pZrSg",
+      "external_id": "UCI5MSedSCG4Nu_aER5pZrSg",
+      "name": "ListedFit",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCI5MSedSCG4Nu_aER5pZrSg",
+      "discovered_on": "2026-09-21",
+      "score": 70.22,
+      "metrics": {
+        "subscribers": 35100,
+        "total_views": 8468450,
+        "video_count": 280,
+        "avg_views_per_video": 30244.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "9Aii8SYi1k0",
+            "title": "I Almost Bought These Peptides. Here’s Why I Didn’t",
+            "description": "I almost bought these peptides, including BPC-157, TB-500, CJC-1295, Epitalon and MT2 (Melanotan). But after looking into the ...",
+            "published_at": "2026-09-20T14:38:35Z",
+            "url": "https://www.youtube.com/watch?v=9Aii8SYi1k0"
+          }
+        ],
+        "channel_description": "Helping you find the honest truth about fitness gear and supplements to stop you wasting your hard-earned money!\n\nI'm Stuart Patrick, founder of ListedFit. I cut through the marketing hype to deliver truthful, honest reviews of fitness products that actually work for real people.\n\nWHAT I COVER:\n• SUPPLEMENTS: Real testing of products like Shilajit, Ashwagandha, Black Maca, and Sea Moss\n• FITNESS TECH: Honest reviews of workout headphones, earbuds, and training technology\n• WORKOUT GEAR: Detailed breakdowns of gym clothing, footwear, and accessories\n\nThe ListedFit promise: Truth. Honesty. Trust.\nI only recommend products I would use myself to help you make informed decisions.\n\nFor brand partnerships: stuart@listedfit.com\nWebsite: listedfit.com\nInsta: instagram.com/listedfit\nTikTok: tiktok.com/@listedfit \n\n#honestreviews #Supplements #fitness\n",
+        "latest_video_at": "2026-09-20T14:38:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCts-dPG-OFwZVEr21p_qmUQ",
+      "external_id": "UCts-dPG-OFwZVEr21p_qmUQ",
+      "name": "Adriana D'Onghia",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCts-dPG-OFwZVEr21p_qmUQ",
+      "discovered_on": "2026-09-21",
+      "score": 68.82,
+      "metrics": {
+        "subscribers": 33000,
+        "total_views": 1509700,
+        "video_count": 1382,
+        "avg_views_per_video": 1092.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://x.com/adriana_donghia",
+        "instagram": "https://instagram.com/adriana_donghia",
+        "tiktok": "https://tiktok.com/@adriana_donghia"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "JIlXe-3mmYo",
+            "title": "GLP-1 &amp; Peptides After 40: Expert Hormone Advice #shorts",
+            "description": "Experta explica si péptidos y GLP-1 son recomendables para bajar de peso en perimenopausia. No solo para adelgazar, también ...",
+            "published_at": "2026-09-20T23:04:08Z",
+            "url": "https://www.youtube.com/watch?v=JIlXe-3mmYo"
+          }
+        ],
+        "channel_description": "🎙️ Bienvenidos al canal de Adriana D’Onghia y aquí se Habla Paja… Con propósito.\n\nEste canal es un espacio donde las conversaciones fluyen sin filtros pero con mucho corazón. En mis diferentes podcasts te traigo entrevistas con personalidades del mundo artístico en Hablando Paja Live, y también exploramos temas que impactan directamente a nuestra comunidad:\n📌 Seguros de Salud\n📌 Inmigración\n📌 Real Estate\n📌 ¡Y mucho más!\n\nCada episodio está pensado para informarte, inspirarte o simplemente hacerte reír. Porque hablar paja no es perder el tiempo… es entender, compartir y conectar.\n\n🛎️ Suscríbete y únete a esta comunidad donde siempre hay algo interesante (y útil) de qué hablar.\n📩 Para colaboraciones: adriana.donghia@gmail.com\n\n🔗 Sígueme también en redes sociales:\n\t•\t📸 Instagram: https://instagram.com/adriana_donghia\n\t•\t🐦 X (antes Twitter): https://x.com/adriana_donghia\n\t•\t👥 Facebook: https://facebook.com/adriana_donghia\n\t•\t🎵 TikTok: https://tiktok.com/@adriana_donghia\n",
+        "latest_video_at": "2026-09-20T23:04:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCpoo6S_hjrYrENoINxT2-rQ",
       "external_id": "UCpoo6S_hjrYrENoINxT2-rQ",
