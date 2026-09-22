@@ -2,19 +2,544 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-21T16:30:39Z",
-  "new_this_run": 15,
-  "total_influencers": 598,
+  "updated_at": "2026-09-22T15:01:47Z",
+  "new_this_run": 12,
+  "total_influencers": 610,
   "run_summary": {
-    "run_started_at": "2026-09-21T16:30:30Z",
-    "candidate_count": 22,
-    "existing_count": 583,
-    "selected_new_count": 15,
+    "run_started_at": "2026-09-22T15:01:39Z",
+    "candidate_count": 18,
+    "existing_count": 598,
+    "selected_new_count": 12,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC5SghKZiTMBICCA3_fxrHUg",
+      "external_id": "UC5SghKZiTMBICCA3_fxrHUg",
+      "name": "Riley stories",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC5SghKZiTMBICCA3_fxrHUg",
+      "discovered_on": "2026-09-22",
+      "score": 75.18,
+      "metrics": {
+        "subscribers": 58200,
+        "total_views": 189907960,
+        "video_count": 2061,
+        "avg_views_per_video": 92143.6,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "ygZbxuxF-So",
+            "title": "I’m 39, independent farm girl hoping for honest lasting real love.",
+            "description": "Copyright Disclaimer: - Under section 107 of the copyright Act 1976, allowance is mad for FAIR USE for purpose such a as ...",
+            "published_at": "2026-09-22T13:30:02Z",
+            "url": "https://www.youtube.com/watch?v=ygZbxuxF-So"
+          }
+        ],
+        "channel_description": "Hello guy's : \nAll video is created by me and inhanced by gork 4.1 \nCopyright Disclaimer: - Under section 107 of the copyright Act 1976, allowance is mad for FAIR USE for purpose such a as criticism, comment, news reporting, teaching, scholarship and research. Fair use is a use permitted by copyright statues that might otherwise be infringing. Non- Profit, educational or personal use tips the balance in favor of FAIR USE.\n\n\n\nif you have any problem contact us \nif you have any issues then email me \nrealreddystories@gmail.com",
+        "latest_video_at": "2026-09-22T13:30:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCjpzyyIyQoAOUUQ-UvzE2Zg",
+      "external_id": "UCjpzyyIyQoAOUUQ-UvzE2Zg",
+      "name": "En Resumen",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCjpzyyIyQoAOUUQ-UvzE2Zg",
+      "discovered_on": "2026-09-22",
+      "score": 74.06,
+      "metrics": {
+        "subscribers": 48100,
+        "total_views": 197175718,
+        "video_count": 2740,
+        "avg_views_per_video": 71961.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "fff8-jTjCZY",
+            "title": "ONU EXIGE LIBERTAD DE PRENSA   #Ultimahora #shorts #news",
+            "description": "The UN High Commissioner for Human Rights, Volker Türk, called on the Venezuelan government to end censorship and fully ...",
+            "published_at": "2026-09-22T02:45:20Z",
+            "url": "https://www.youtube.com/watch?v=fff8-jTjCZY"
+          }
+        ],
+        "channel_description": "🚨 NOTICIAS GLOBALES AL INSTANTE\n#Noticias #EnResumen\n",
+        "latest_video_at": "2026-09-22T02:45:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCUSrVHoJrz68z3Q5qHZZC4w",
+      "external_id": "UCUSrVHoJrz68z3Q5qHZZC4w",
+      "name": "WNL",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCUSrVHoJrz68z3Q5qHZZC4w",
+      "discovered_on": "2026-09-22",
+      "score": 71.57,
+      "metrics": {
+        "subscribers": 97100,
+        "total_views": 181746687,
+        "video_count": 21298,
+        "avg_views_per_video": 8533.51,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "IgyFF9QzCJ0",
+            "title": "Hyves maakt comeback als alternatief voor sociale media",
+            "description": "Hyves is na dertien jaar terug als sociaal netwerk. Het platform wil inspelen op de groeiende behoefte aan meer echt contact, ...",
+            "published_at": "2026-09-22T08:10:17Z",
+            "url": "https://www.youtube.com/watch?v=IgyFF9QzCJ0"
+          }
+        ],
+        "channel_description": "Omroep WNL is een journalistieke organisatie met een consistente liberale-conservatieve benadering. Nuchter, zonder vooroordeel, altijd met een goed humeur. Met programma's over politiek, economie, veiligheid en onze Nederlandse identiteit. O.a.: Goedemorgen Nederland, WNL op Zondag, Sven Op1, Stand van Nederland, Het Misdaadbureau, In de Kantine, Haagse Lobby en meer..\n\nWNL bedrijft op nuchtere en herkenbare wijze journalistiek. Nieuwsgierig, zonder vooroordeel en altijd met een goed humeur! Geen journalistennieuws, maar programma's over gewone, ondernemende mensen - voor hen die het verschil maken.\n\nHet jonge WNL groeit daarom als kool. Dat is mooi, want WNL vindt dat de Publieke Omroep een eerlijke afspiegeling moet zijn van de Nederlandse bevolking. Wij betalen er allen aan mee. Burgers rechts in het midden moeten zich er ook thuis kunnen voelen.",
+        "latest_video_at": "2026-09-22T08:10:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCauC2OKlRylwETaZJE67Yrg",
+      "external_id": "UCauC2OKlRylwETaZJE67Yrg",
+      "name": "Madeleine Lacsko",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCauC2OKlRylwETaZJE67Yrg",
+      "discovered_on": "2026-09-22",
+      "score": 70.78,
+      "metrics": {
+        "subscribers": 91900,
+        "total_views": 11393912,
+        "video_count": 1775,
+        "avg_views_per_video": 6419.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "yd4HyqRzyok",
+            "title": "Cheirinho, carinha e gostinho de... censura!",
+            "description": "Vote 20800 Madeleine Lacsko deputada estadual 🗳️🗳️🗳️ https://madeleinelacsko20800.com.br/ Grupo de apoiadores da ...",
+            "published_at": "2026-09-22T00:00:29Z",
+            "url": "https://www.youtube.com/watch?v=yd4HyqRzyok"
+          }
+        ],
+        "channel_description": "Candidata a Deputada Estadual 20.800\n🎙️ Jornalista, escritora e mentora\n🛡️ Liberdade de expressão |\n🚫Antissemitismo\n🙏Cristã\nEu vou ser a sua voz.\n\n🗳️🗳️🗳️ Vote 20800 Madeleine Lacsko deputada estadual 🗳️🗳️🗳️\nhttps://madeleinelacsko20800.com.br/\n\nGrupo de apoiadores da campanha QG DA MADÁ 20800\nhttps://chat.whatsapp.com/L9Qm5tqmKNv8yN1lmQEFDF\n\n\nCriadora do método Autodefesa Verbal.\n🧠Garanta já sua vaga: https://p.eduzz.com/2821061\ncupom DEPUTADA\n",
+        "latest_video_at": "2026-09-22T00:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVqwRoRFR_Oy7LaD4vEcMlQ",
+      "external_id": "UCVqwRoRFR_Oy7LaD4vEcMlQ",
+      "name": "Maintenant Media ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCVqwRoRFR_Oy7LaD4vEcMlQ",
+      "discovered_on": "2026-09-22",
+      "score": 69.18,
+      "metrics": {
+        "subscribers": 51200,
+        "total_views": 18354420,
+        "video_count": 2634,
+        "avg_views_per_video": 6968.27,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "NhaPprPZ3CU",
+            "title": "Trump : pourquoi Fox News se CENSURE ! 😱 #shortsfr",
+            "description": "Un sondage commandé par Fox News révèle des chiffres défavorables pour Donald Trump. Face à ces résultats, la chaîne ...",
+            "published_at": "2026-09-22T10:57:21Z",
+            "url": "https://www.youtube.com/watch?v=NhaPprPZ3CU"
+          }
+        ],
+        "channel_description": "Enquêtes  - Politique - Infos - Culture - Démocratie\n\nMaintenant !\nLa Chute\nSentinelles avec Maître Eolas et William Reymond\n\n\n\n\n",
+        "latest_video_at": "2026-09-22T10:57:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEy55AlERdcpswLFwDXBIvA",
+      "external_id": "UCEy55AlERdcpswLFwDXBIvA",
+      "name": "Top Of Mind Florida",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCEy55AlERdcpswLFwDXBIvA",
+      "discovered_on": "2026-09-22",
+      "score": 66.71,
+      "metrics": {
+        "subscribers": 6490,
+        "total_views": 419318,
+        "video_count": 262,
+        "avg_views_per_video": 1600.45,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism",
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "Ycd79oNu1l4",
+            "title": "Why independent journalism matters  #floridapolitics #journalism #firstamendment  #florida #news",
+            "description": "It's not about political party; it's about supporting free press. Veteran Journalists Michael Williams and Brian Crowley ponder this ...",
+            "published_at": "2026-09-21T23:00:25Z",
+            "url": "https://www.youtube.com/watch?v=Ycd79oNu1l4"
+          },
+          {
+            "query": "independent journalism",
+            "video_id": "Ycd79oNu1l4",
+            "title": "Why independent journalism matters  #floridapolitics #journalism #firstamendment  #florida #news",
+            "description": "It's not about political party; it's about supporting free press. Veteran Journalists Michael Williams and Brian Crowley ponder this ...",
+            "published_at": "2026-09-21T23:00:25Z",
+            "url": "https://www.youtube.com/watch?v=Ycd79oNu1l4"
+          }
+        ],
+        "channel_description": "Headlines, hard questions and humor - join veteran journalists Brian Crowley and Michael Williams as they dive into the stories, characters, and chaos that make the Sunshine State shine. Together, we unpack the serious and the silly, the caretakers and the characters — the stories that make our state one of a kind. This is Top of Mind Florida — every week.\n\n",
+        "latest_video_at": "2026-09-21T23:00:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC8Lg5y3YmAcVbkkuA0meA3w",
+      "external_id": "UC8Lg5y3YmAcVbkkuA0meA3w",
+      "name": "WFXR NEWS",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC8Lg5y3YmAcVbkkuA0meA3w",
+      "discovered_on": "2026-09-22",
+      "score": 63.2,
+      "metrics": {
+        "subscribers": 31500,
+        "total_views": 18417521,
+        "video_count": 21079,
+        "avg_views_per_video": 873.74,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "lEqDdwPj2pY",
+            "title": "News organizations sue White House over press access",
+            "description": "News organizations sue White House over press access.",
+            "published_at": "2026-09-21T22:09:51Z",
+            "url": "https://www.youtube.com/watch?v=lEqDdwPj2pY"
+          }
+        ],
+        "channel_description": "https://www.flow.page/wfxrtv.com0",
+        "latest_video_at": "2026-09-21T22:09:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0OOSgTo3L_pbrrsL2g7w7Q",
+      "external_id": "UC0OOSgTo3L_pbrrsL2g7w7Q",
+      "name": "Le Regard Canadien",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0OOSgTo3L_pbrrsL2g7w7Q",
+      "discovered_on": "2026-09-22",
+      "score": 62.76,
+      "metrics": {
+        "subscribers": 7990,
+        "total_views": 10706831,
+        "video_count": 2192,
+        "avg_views_per_video": 4884.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "hjCy9nhW-GQ",
+            "title": "⚠️ CNN et MS NOW bientôt remplacés à la Maison-Blanche ?",
+            "description": "L'administration Trump veut redistribuer les places réservées aux journalistes suivant directement le président. De grands ...",
+            "published_at": "2026-09-22T10:00:04Z",
+            "url": "https://www.youtube.com/watch?v=hjCy9nhW-GQ"
+          }
+        ],
+        "channel_description": "Le Regard Canadien décrypte l’actualité au Canada et au Québec avec recul, rigueur et humanité.\nAnalyses, documentaires et enquêtes pour comprendre les enjeux sociaux, économiques et politiques au-delà des discours officiels.\n",
+        "latest_video_at": "2026-09-22T10:00:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDSXvMjoDBmZ7MIqygxh02g",
+      "external_id": "UCDSXvMjoDBmZ7MIqygxh02g",
+      "name": "VNEIXVER",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDSXvMjoDBmZ7MIqygxh02g",
+      "discovered_on": "2026-09-22",
+      "score": 61.33,
+      "metrics": {
+        "subscribers": 2820,
+        "total_views": 1905303,
+        "video_count": 176,
+        "avg_views_per_video": 10825.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "stxny_q5e80",
+            "title": "Setelah Merdeka, Mengapa Pemuda Indonesia Merebut Percetakan Jepang #youtubeshorts #sejarahindonesia",
+            "description": "INDONESIA SUDAH MERDEKA… TAPI MENGAPA PEMUDA MALAH MEREBUT PERCETAKAN JEPANG?** 17 Agustus ...",
+            "published_at": "2026-09-22T01:48:15Z",
+            "url": "https://www.youtube.com/watch?v=stxny_q5e80"
+          }
+        ],
+        "channel_description": "**VNEIXVER** — tempat musik, sejarah, dan cerita bertemu.\n\nDi sini kamu akan menemukan berbagai **lagu, musik, dan karya audio**, sekaligus konten **sejarah Indonesia dan dunia** yang dikemas dengan cara menarik, singkat, dan mudah dipahami.\n\n🎵 **MUSIC** — lagu, musik, aransemen, dan karya audio dengan berbagai suasana.\n📜 **HISTORY** — kisah sejarah, tokoh, peristiwa, fakta menarik, dan cerita yang mungkin belum banyak diketahui.\n🎬 **STORIES** — cerita-cerita unik yang menghubungkan masa lalu dengan cara kita melihat dunia hari ini.\n\nSubscribe **VNEIXVER** dan temukan suara dari musik, cerita dari masa lalu, dan kisah-kisah yang layak untuk diingat.\n\n**VNEIXVER — SOUND • TIME • STORIES**\n\n",
+        "latest_video_at": "2026-09-22T01:48:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCttkL4fOB8RBq4Vedq04wCg",
+      "external_id": "UCttkL4fOB8RBq4Vedq04wCg",
+      "name": "Pamphlets ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCttkL4fOB8RBq4Vedq04wCg",
+      "discovered_on": "2026-09-22",
+      "score": 58.95,
+      "metrics": {
+        "subscribers": 5950,
+        "total_views": 983449,
+        "video_count": 771,
+        "avg_views_per_video": 1275.55,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "a8B6Zn1PuGk",
+            "title": "🚨🇺🇸 BREAKING — Hasan: Trump’s Censorship Threatens Everyone.",
+            "description": "When an administration targets media, it impacts everyone. Learn why a ban on news organizations leaves even powerful figures ...",
+            "published_at": "2026-09-22T01:14:30Z",
+            "url": "https://www.youtube.com/watch?v=a8B6Zn1PuGk"
+          }
+        ],
+        "channel_description": "🚨Welcome Please Subscribe to Pamphlets.\n\nThe Sharpest Analysis and Primary Source Quotes.\n\nCheck Out A Video!\n",
+        "latest_video_at": "2026-09-22T01:14:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCGhXWZZQyMp5pNacJ7gMggQ",
+      "external_id": "UCGhXWZZQyMp5pNacJ7gMggQ",
+      "name": "The Mikerock Show",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCGhXWZZQyMp5pNacJ7gMggQ",
+      "discovered_on": "2026-09-22",
+      "score": 56.76,
+      "metrics": {
+        "subscribers": 2880,
+        "total_views": 602485,
+        "video_count": 470,
+        "avg_views_per_video": 1281.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "eSr2LPZVbvU",
+            "title": "The truth about online censorship they don&#39;t want you to know #freespeech #digitalrights #censorship",
+            "description": "About Video: Are we losing our free speech to a manufactured gray zone? Governments and tech giants are actively suppressing ...",
+            "published_at": "2026-09-22T01:08:04Z",
+            "url": "https://www.youtube.com/watch?v=eSr2LPZVbvU"
+          }
+        ],
+        "channel_description": "Welcome to The Mikerock Show, where Mikerock — Man of the People — brings honest, blue-collar conversations for people who are tired of political team jerseys, media manipulation, and government nonsense.\n\nSubscribe now for:\n\n- Common Sense Political Commentary\n- Real Talk on Fatherhood, Masculinity & Accountability\n- Truth Over Tribe, People Over Elites, and No-Nonsense Conversation\n\nAnd so much more! Watch now and enjoy.\n\n",
+        "latest_video_at": "2026-09-22T01:08:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7iY5Dctwa3oply0uu39u4w",
+      "external_id": "UC7iY5Dctwa3oply0uu39u4w",
+      "name": "Dean Blundell",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7iY5Dctwa3oply0uu39u4w",
+      "discovered_on": "2026-09-22",
+      "score": 55.22,
+      "metrics": {
+        "subscribers": 3890,
+        "total_views": 599128,
+        "video_count": 1449,
+        "avg_views_per_video": 413.48,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "gI9_NnUQJfQ",
+            "title": "Independent Media Will Find a Way #substack #shorts",
+            "description": "This is a clip from https://deanblundell.substack.com/p/trumps-human-printer-natalie-harp?utm_source=youtube_shorts See the ...",
+            "published_at": "2026-09-22T09:24:25Z",
+            "url": "https://www.youtube.com/watch?v=gI9_NnUQJfQ"
+          }
+        ],
+        "channel_description": "Dragging the wrong through the mud. That's it. \n\nDeanSocials12@gmail.com for business inquiries.\n",
+        "latest_video_at": "2026-09-22T09:24:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCV4MuJHfEXNMjrjwcd4tHEA",
       "external_id": "UCV4MuJHfEXNMjrjwcd4tHEA",

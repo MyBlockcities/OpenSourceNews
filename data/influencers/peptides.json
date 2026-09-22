@@ -2,19 +2,293 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-21T16:30:49Z",
-  "new_this_run": 4,
-  "total_influencers": 344,
+  "updated_at": "2026-09-22T15:01:57Z",
+  "new_this_run": 6,
+  "total_influencers": 350,
   "run_summary": {
-    "run_started_at": "2026-09-21T16:30:30Z",
-    "candidate_count": 20,
-    "existing_count": 340,
-    "selected_new_count": 4,
+    "run_started_at": "2026-09-22T15:01:39Z",
+    "candidate_count": 18,
+    "existing_count": 344,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCIHrsTtxPH5SwWvhQSyPbLQ",
+      "external_id": "UCIHrsTtxPH5SwWvhQSyPbLQ",
+      "name": "Hillary Lin, MD",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCIHrsTtxPH5SwWvhQSyPbLQ",
+      "discovered_on": "2026-09-22",
+      "score": 68.02,
+      "metrics": {
+        "subscribers": 32400,
+        "total_views": 1448084,
+        "video_count": 187,
+        "avg_views_per_video": 7743.76,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "U6q1c3aTfeU",
+            "title": "Peptide FOMO? My Take Beyond GLP-1s",
+            "description": "Beyond GLP-1s, I see more hype than substance around many of the peptides people rave about online. There's still a lot to learn.",
+            "published_at": "2026-09-21T18:33:51Z",
+            "url": "https://www.youtube.com/watch?v=U6q1c3aTfeU"
+          }
+        ],
+        "channel_description": "Longevity medicine should be good medicine.\n\nI'm Dr. Hillary Lin, a board-certified internal medicine physician trained at Stanford. Here I break down the tests, treatments, supplements, medications, and health claims people are being asked to trust.\n\nThe goal is not more data or more products. It is to understand what the evidence shows, what it can miss, what changes the decision, and what needs follow-up.\n\nI host The Longevity Show and co-founded CareCore, where we build better systems for clinicians and health brands delivering longitudinal care.\n\nNew videos cover cardiometabolic risk, cancer screening, exercise, supplements, AI in medicine, and the science of healthy aging.\n\nExplore the library and join The Longevity Letter at hillarylinmd.com.\n\nEducational content only. This is not personal medical advice.\n",
+        "latest_video_at": "2026-09-21T18:33:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC7NPMjV9amT7XM9oiRZBRNw",
+      "external_id": "UC7NPMjV9amT7XM9oiRZBRNw",
+      "name": "Der ERCM Medizin Podcast Clips",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC7NPMjV9amT7XM9oiRZBRNw",
+      "discovered_on": "2026-09-22",
+      "score": 65.64,
+      "metrics": {
+        "subscribers": 7080,
+        "total_views": 759225,
+        "video_count": 349,
+        "avg_views_per_video": 2175.43,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@ERCMPodcast"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "mXqOXMnHRUE",
+            "title": "Peptide: Die neue Wunderwaffe gegen das Altern? Was Peptide sind &amp; was sie wirklich können!",
+            "description": "Peptide gelten als eines der spannendsten Forschungsfelder der modernen Medizin – doch was können sie wirklich? Im ERCM ...",
+            "published_at": "2026-09-21T16:00:33Z",
+            "url": "https://www.youtube.com/watch?v=mXqOXMnHRUE"
+          }
+        ],
+        "channel_description": "Willkommen auf dem offiziellen \"Der ERCM Medizin Podcast\" Clips YouTube-Kanal. Hier finden Sie Clips aus dem ERCM Medizin Podcast.\n\nFür vollständige Episoden des ERCM Medizin Podcasts besuchen Sie bitte:\nhttps://www.youtube.com/@ERCMPodcast\n",
+        "latest_video_at": "2026-09-21T16:00:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCznEerCL6BfjFDCCjnxuoIg",
+      "external_id": "UCznEerCL6BfjFDCCjnxuoIg",
+      "name": "Fireproof AI TV & Films ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCznEerCL6BfjFDCCjnxuoIg",
+      "discovered_on": "2026-09-22",
+      "score": 65.43,
+      "metrics": {
+        "subscribers": 60200,
+        "total_views": 4939141,
+        "video_count": 5007,
+        "avg_views_per_video": 986.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "S8RjAGwZOBU",
+            "title": "Curious about how BPC-157 transformed recovery? 🤔💪 #PEPTIDES #AI",
+            "description": "",
+            "published_at": "2026-09-21T18:31:38Z",
+            "url": "https://www.youtube.com/watch?v=S8RjAGwZOBU"
+          }
+        ],
+        "channel_description": "We are officially doing business as Fireproof AI TV & Films — a full-service creative agency bringing your vision to life from concept to completion.\n\nFrom AI-powered filmmaking to cinematic storytelling, branding, commercials, music videos, and full production… we create your vision completely.\n\nWelcome to the future of filmmaking. Welcome to Fireproof AI TV & Films.\nLet’s build something legendary. 🚀\n\n🔥 Subscribe today and step into a world of AI, TV, films, music, and media that prove one thing: you can’t put out this fire.\n",
+        "latest_video_at": "2026-09-21T18:31:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCP38o-lHWjwzaLibW302MUw",
+      "external_id": "UCP38o-lHWjwzaLibW302MUw",
+      "name": "Shapedepaidefamilia",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCP38o-lHWjwzaLibW302MUw",
+      "discovered_on": "2026-09-22",
+      "score": 61.42,
+      "metrics": {
+        "subscribers": 2090,
+        "total_views": 135769,
+        "video_count": 79,
+        "avg_views_per_video": 1718.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/reidospepsoficial"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "oTDxZQDD_08",
+            "title": "Como regenerar tecidos rápido: Protocolo Wolverine #saude #dicas #performance",
+            "description": "INSTAGRAM: https://www.instagram.com/reidospepsoficial?igsh=cWZ0M3Z6NXQwM3Bt CONSULTORIA PREMIUM: ...",
+            "published_at": "2026-09-22T13:32:14Z",
+            "url": "https://www.youtube.com/watch?v=oTDxZQDD_08"
+          }
+        ],
+        "channel_description": "Médico | Mentor | Empresário🇵🇾\nCONSULTORIA PREMIUM: atletas & não atletas\nFamília •Hombridade •Contra o sistema\nAqui eu te falo a real sem mimimi \n📲 FAÇA PARTE DO TIME agora👇🏻\n",
+        "latest_video_at": "2026-09-22T13:32:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCpOlIgeb8PaDFEiqtd0pgIQ",
+      "external_id": "UCpOlIgeb8PaDFEiqtd0pgIQ",
+      "name": "Dr Neha Bhanusali",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCpOlIgeb8PaDFEiqtd0pgIQ",
+      "discovered_on": "2026-09-22",
+      "score": 55.21,
+      "metrics": {
+        "subscribers": 2020,
+        "total_views": 133381,
+        "video_count": 129,
+        "avg_views_per_video": 1033.96,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "uiXUGnKuWgw",
+            "title": "Ankylosing Spondylitis: Which Natural Treatments Actually Help?",
+            "description": "Ankylosing Spondylitis: Which Natural Treatments Actually Help? (Rheumatologist Ranks the Evidence) Turmeric, omega-3s, ...",
+            "published_at": "2026-09-22T12:00:38Z",
+            "url": "https://www.youtube.com/watch?v=uiXUGnKuWgw"
+          }
+        ],
+        "channel_description": "Dr. Neha Bhanusali, MD, is a board-certified rheumatologist and lifestyle medicine physician who creates educational content on autoimmune disease, inflammatory arthritis, and healthy aging.\n\nHer work focuses on helping patients and the public better understand conditions such as rheumatoid arthritis, psoriatic arthritis, lupus, and related autoimmune disorders, with an emphasis on evidence-based care, anti-inflammatory nutrition, physical activity, and long-term disease management.\n\nThrough this channel, Dr. Bhanusali shares science-informed explanations, practical strategies, and clinical insights drawn from years of patient care, medical education, and academic involvement in rheumatology and lifestyle medicine.\n\nThis channel is intended for educational purposes only and does not replace individualized medical advice. Viewers should consult their own healthcare professionals regarding personal health decisions.\n\n",
+        "latest_video_at": "2026-09-22T12:00:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCdY4n5Y74TrSPSKbmSX077Q",
+      "external_id": "UCdY4n5Y74TrSPSKbmSX077Q",
+      "name": "Moe McCoy",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCdY4n5Y74TrSPSKbmSX077Q",
+      "discovered_on": "2026-09-22",
+      "score": 54.6,
+      "metrics": {
+        "subscribers": 2860,
+        "total_views": 900142,
+        "video_count": 1878,
+        "avg_views_per_video": 479.31,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "sp5MfHLweX8",
+            "title": "Curious about how BPC-157 transformed recovery? 🤔💪 #PEPTIDES #AI",
+            "description": "",
+            "published_at": "2026-09-21T18:31:28Z",
+            "url": "https://www.youtube.com/watch?v=sp5MfHLweX8"
+          }
+        ],
+        "channel_description": "Welcome to the official personal channel of Moe McCoy — actor, filmmaker, comedian, entrepreneur, and the creative force behind Fireproof TV Films￼.\n\nThis channel gives you direct access to the journey, grind, and creativity of Moe Money McCoy through:\n\n* Independent films & movie trailers\n* Behind-the-scenes filmmaking\n* Comedy & storytelling\n* Podcasts & interviews\n* Music & motivational content\n* Real-life adventures, business, and entertainment\n\nFrom producing feature films to building brands and creating viral content, this channel is all about turning vision into reality.\n\n🎬 BOOKING INFO\nLooking to shoot a movie, music video, commercial, podcast, interview, promo, or social media content?\nBook Moe McCoy or Fireproof TV Films￼ for professional video production and creative media services.\n\n📩 Serious inquiries: moemoneymccoy@gmail.com\n\n🔥 Don’t forget to LIKE, COMMENT, and SUBSCRIBE to stay connected with new content dropping regularly.",
+        "latest_video_at": "2026-09-21T18:31:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCs_07pUqQNnoP6aG5oT9dNw",
       "external_id": "UCs_07pUqQNnoP6aG5oT9dNw",
