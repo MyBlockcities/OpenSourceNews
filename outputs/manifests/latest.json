@@ -1,9 +1,9 @@
 {
   "schema": "open_source_news_manifest.v2",
   "report_schema": "open_source_news_daily_report.v2",
-  "latest_report_date": "2026-09-21",
-  "latest_report_path": "outputs/daily/2026-09-21.json",
-  "item_count": 580,
+  "latest_report_date": "2026-09-22",
+  "latest_report_path": "outputs/daily/2026-09-22.json",
+  "item_count": 594,
   "topics": [
     "General News & Research",
     "AI / AI Tools / AI Agents",
@@ -15,44 +15,44 @@
     "Investigative Documents & Public Records"
   ],
   "bucket_counts": {
-    "general": 70,
+    "general": 75,
     "ai": 125,
-    "blockchain": 58,
+    "blockchain": 63,
     "sense_making": 75,
     "alternative_news": 34,
-    "peptides": 116,
+    "peptides": 115,
     "official_records": 72,
-    "investigative_documents": 30
+    "investigative_documents": 35
   },
-  "generated_at": "2026-09-21T14:11:18Z",
-  "report_sha256": "025fc9aad58fed2f2f1e5402886e173cc0fffded63dd5df5c1e7921aeb267cdd",
-  "report_bytes": 2996156,
-  "unique_signal_count": 575,
-  "unique_cluster_count": 578,
+  "generated_at": "2026-09-22T12:38:52Z",
+  "report_sha256": "2faa238143b7047cae260ea290897e96f3117168b02db16fe848cd393f52fdaa",
+  "report_bytes": 2974543,
+  "unique_signal_count": 589,
+  "unique_cluster_count": 592,
   "source_counts": {
-    "RSS": 172,
+    "RSS": 187,
     "YouTube": 212,
     "GitHub Trending": 20,
     "Hacker News": 99,
-    "PubMed": 36,
-    "ClinicalTrials.gov": 41
+    "PubMed": 37,
+    "ClinicalTrials.gov": 39
   },
-  "enrichment_pending_count": 580,
+  "enrichment_pending_count": 594,
   "artifacts": {
-    "atoms_jsonl": "outputs/atoms/2026-09-21.jsonl",
+    "atoms_jsonl": "outputs/atoms/2026-09-22.jsonl",
     "atoms_latest": "outputs/atoms/latest.jsonl",
-    "embedding_ready_jsonl": "outputs/embedding_ready/2026-09-21.jsonl",
+    "embedding_ready_jsonl": "outputs/embedding_ready/2026-09-22.jsonl",
     "embedding_ready_latest": "outputs/embedding_ready/latest.jsonl",
-    "topics": "outputs/topics/2026-09-21.json",
-    "entities": "outputs/entities/2026-09-21.json",
-    "consensus": "outputs/consensus/2026-09-21.json",
-    "source_trust": "outputs/source_trust/2026-09-21.json",
+    "topics": "outputs/topics/2026-09-22.json",
+    "entities": "outputs/entities/2026-09-22.json",
+    "consensus": "outputs/consensus/2026-09-22.json",
+    "source_trust": "outputs/source_trust/2026-09-22.json",
     "github_traction": "outputs/github_traction/latest.json",
     "github_traction_top": "outputs/github_traction/top_this_week.json",
-    "document_leads": "outputs/document_leads/2026-09-21.jsonl",
-    "intelligence_envelope": "outputs/envelopes/2026-09-21.json",
+    "document_leads": "outputs/document_leads/2026-09-22.jsonl",
+    "intelligence_envelope": "outputs/envelopes/2026-09-22.json",
     "hermes_contract": "HERMES_CONTRACT.md"
   },
-  "workflow_run_id": "35610423636",
-  "commit_sha": "e8e84e1f6430b054363034299041c92e2d412583"
+  "workflow_run_id": "35728094383",
+  "commit_sha": "96196cb428f250da6bb17c0f351fe09d3b843871"
 }
