@@ -2,19 +2,277 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-22T15:01:47Z",
-  "new_this_run": 12,
-  "total_influencers": 610,
+  "updated_at": "2026-09-23T15:05:41Z",
+  "new_this_run": 6,
+  "total_influencers": 616,
   "run_summary": {
-    "run_started_at": "2026-09-22T15:01:39Z",
-    "candidate_count": 18,
-    "existing_count": 598,
-    "selected_new_count": 12,
+    "run_started_at": "2026-09-23T15:05:32Z",
+    "candidate_count": 19,
+    "existing_count": 610,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC93rsCnCbL_8XhEf04DhuTA",
+      "external_id": "UC93rsCnCbL_8XhEf04DhuTA",
+      "name": "Máu Đỏ Da Vàng",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC93rsCnCbL_8XhEf04DhuTA",
+      "discovered_on": "2026-09-23",
+      "score": 76.37,
+      "metrics": {
+        "subscribers": 81400,
+        "total_views": 141734325,
+        "video_count": 788,
+        "avg_views_per_video": 179865.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "tdHuweEhyx4",
+            "title": "Tin quân sự | HÙNG CAO: “MỸ ỦNG HỘ MỘT VIỆT NAM MẠNH, ĐỘC LẬP, TỰ CƯỜNG VÀ THỊNH VƯỢNG” #tintuc",
+            "description": "Chính trị mới nhất, tin quân sự quốc tế 24h HÙNG CAO: “MỸ ỦNG HỘ MỘT VIỆT NAM MẠNH, ĐỘC LẬP, TỰ CƯỜNG VÀ THỊNH ...",
+            "published_at": "2026-09-23T11:00:30Z",
+            "url": "https://www.youtube.com/watch?v=tdHuweEhyx4"
+          }
+        ],
+        "channel_description": "Máu đỏ da vàng cập nhật tin tức, thời sự quốc tế trong và ngoài nước nhanh chóng, chính xác\n",
+        "latest_video_at": "2026-09-23T11:00:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCcDv7Yp16zL2z6lzjD5gNTw",
+      "external_id": "UCcDv7Yp16zL2z6lzjD5gNTw",
+      "name": "Shonen Aman",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCcDv7Yp16zL2z6lzjD5gNTw",
+      "discovered_on": "2026-09-23",
+      "score": 72.88,
+      "metrics": {
+        "subscribers": 25800,
+        "total_views": 74517775,
+        "video_count": 538,
+        "avg_views_per_video": 138508.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "70KTTKS2CHg",
+            "title": "Chinese One Piece Is CRAZY 💔",
+            "description": "ONE PIECE CENSORSHIP IN CHINA IS LITERALLY CRAZY. Apparently, certain broadcasts have restrictions on showing ...",
+            "published_at": "2026-09-22T18:08:22Z",
+            "url": "https://www.youtube.com/watch?v=70KTTKS2CHg"
+          }
+        ],
+        "channel_description": "heroo everynyaan.....how are you??",
+        "latest_video_at": "2026-09-22T18:08:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC6fZtKqT-F9Ytw5bAcBrjhA",
+      "external_id": "UC6fZtKqT-F9Ytw5bAcBrjhA",
+      "name": "EBRADI",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC6fZtKqT-F9Ytw5bAcBrjhA",
+      "discovered_on": "2026-09-23",
+      "score": 71.67,
+      "metrics": {
+        "subscribers": 36200,
+        "total_views": 46821619,
+        "video_count": 1317,
+        "avg_views_per_video": 35551.72,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "DQHKXtR86-I",
+            "title": "Liberdade de expressão: onde estão os limites?",
+            "description": "Até onde vai a liberdade de expressão — e quais são os limites impostos pelo Direito? Neste corte do EBRADI News, Aarão ...",
+            "published_at": "2026-09-22T20:32:05Z",
+            "url": "https://www.youtube.com/watch?v=DQHKXtR86-I"
+          }
+        ],
+        "channel_description": " A EBRADI (Escola Brasileira de Direito) é uma instituição de ensino superior especializada na formação e no aperfeiçoamento de profissionais da área jurídica, com cursos de pós-graduação na modalidade a distância.\n\nA proposta pedagógica da instituição é orientada à aplicação prática do Direito, aliando base teórica consistente à realidade da advocacia e do mercado jurídico contemporâneo. Os cursos contam com a chancela de professores, juristas e especialistas com reconhecida atuação acadêmica e profissional, além de supervisão acadêmica criteriosa.\n\nA EBRADI adota uma metodologia própria, que combina a flexibilidade do ensino a distância com acompanhamento qualificado, promovendo um ambiente de aprendizado colaborativo e de troca constante entre alunos e docentes.\n",
+        "latest_video_at": "2026-09-22T20:32:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0VXp0q5i8o-CxL_8Q3HOtQ",
+      "external_id": "UC0VXp0q5i8o-CxL_8Q3HOtQ",
+      "name": "Institute of Public Affairs",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0VXp0q5i8o-CxL_8Q3HOtQ",
+      "discovered_on": "2026-09-23",
+      "score": 71.15,
+      "metrics": {
+        "subscribers": 71000,
+        "total_views": 21280099,
+        "video_count": 1946,
+        "avg_views_per_video": 10935.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "daieq3oqYdE",
+            "title": "Here is why Digital Duty of Care is Government Censorship",
+            "description": "The proposed Digital Duty of Care laws are a clear threat to Australians' freedom of speech, association, and political participation ...",
+            "published_at": "2026-09-23T02:59:18Z",
+            "url": "https://www.youtube.com/watch?v=daieq3oqYdE"
+          }
+        ],
+        "channel_description": "Become a member here: http://join.ipa.org.au/\n\nThe Institute of Public Affairs is Australia’s oldest and most influential free market think tank. Since 1943, the IPA has been at the forefront of public debate, promoting our values of freedom of speech, individual liberty, and the rule of law.\n\nThe IPA undertakes detailed research into the issues that matter to you, and consistently makes the case for greater freedoms, lower taxation, reducing red tape and for individuals to have more control over their own lives.\n\nThe IPA is entirely funded by the voluntary contributions of our members and donors.\n\nAuthorised by Scott Hargreaves, Institute of Public Affairs\nLevel 2, 410 Collins Street, Melbourne, VIC, 3000\n",
+        "latest_video_at": "2026-09-23T02:59:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCymq7NMcB_uteosiHYhc7Cw",
+      "external_id": "UCymq7NMcB_uteosiHYhc7Cw",
+      "name": "Kashmir Uzma",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCymq7NMcB_uteosiHYhc7Cw",
+      "discovered_on": "2026-09-23",
+      "score": 64.4,
+      "metrics": {
+        "subscribers": 42200,
+        "total_views": 9843946,
+        "video_count": 9742,
+        "avg_views_per_video": 1010.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "Y2WXF5tUfCA",
+            "title": "’جمہوریت میں کتابوں پر پابندی خطرناک روایت کو جنم دے سکتی ہے‘: عمر عبداللہ",
+            "description": "'جمہوریت میں کتابوں پر پابندی خطرناک روایت کو جنم دے سکتی ہے': عمر عبداللہ #watch #freeexpression #censorship #democracy ...",
+            "published_at": "2026-09-23T12:45:11Z",
+            "url": "https://www.youtube.com/watch?v=Y2WXF5tUfCA"
+          }
+        ],
+        "channel_description": "Welcome to the official YouTube Channel of  Kashmir Uzma. A place where you find comprehensive coverage and up-to-the-minute news, feature stories, and much more.",
+        "latest_video_at": "2026-09-23T12:45:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCzW1MPurNmEhYOgwfM4F2BQ",
+      "external_id": "UCzW1MPurNmEhYOgwfM4F2BQ",
+      "name": "RAKESH VARMA EX IAS",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCzW1MPurNmEhYOgwfM4F2BQ",
+      "discovered_on": "2026-09-23",
+      "score": 64.18,
+      "metrics": {
+        "subscribers": 21300,
+        "total_views": 1798601,
+        "video_count": 756,
+        "avg_views_per_video": 2379.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "Xxdc6gWRncg",
+            "title": "Indian Media में OBC कहाँ हैं? | Newsrooms, Press Clubs और Representation की पड़ताल",
+            "description": "1. PRESS CLUB या सवर्ण CLUB? | भारतीय मीडिया में OBC Representation का सच 2. Indian Media ...",
+            "published_at": "2026-09-23T08:35:35Z",
+            "url": "https://www.youtube.com/watch?v=Xxdc6gWRncg"
+          }
+        ],
+        "channel_description": "\nAn Ex-IAS Officer's unfiltered lens on India's politics, governance, education, and society.Welcome to Accountable India — where facts meet responsibility, and citizens become empowered.I'm Rakesh Varma, a former Indian Administrative Service (IAS) officer. This channel exists because someone who has worked inside India's system needs to speak the truth about it — without fear, without bias.\nWhat You'll Find Here:\n🔹 UPSC & IAS Reality — The truth about India's bureaucracy, civil services preparation, and what they never teach you in coaching centres\n🔹 Indian Education System — Exposing the failures of NTA, CUET, CBSE, and India's exam culture\n🔹 Political Analysis — Unbiased breakdowns of national policies, parliamentary debates, and government decisions\n🔹 Men's Rights & Legal Awareness — Child custody bias, dowry laws, false cases — the side of the story mainstream media ignores\n🔹 Governance & Accountability — Holding power accountable, one video at a time🎯 Who Is This For?\n\n",
+        "latest_video_at": "2026-09-23T08:35:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC5SghKZiTMBICCA3_fxrHUg",
       "external_id": "UC5SghKZiTMBICCA3_fxrHUg",

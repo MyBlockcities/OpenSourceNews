@@ -2,19 +2,199 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-22T15:01:57Z",
-  "new_this_run": 6,
-  "total_influencers": 350,
+  "updated_at": "2026-09-23T15:05:50Z",
+  "new_this_run": 4,
+  "total_influencers": 354,
   "run_summary": {
-    "run_started_at": "2026-09-22T15:01:39Z",
-    "candidate_count": 18,
-    "existing_count": 344,
-    "selected_new_count": 6,
+    "run_started_at": "2026-09-23T15:05:32Z",
+    "candidate_count": 10,
+    "existing_count": 350,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCDUdJxJAUloEkH_uC8lsPCw",
+      "external_id": "UCDUdJxJAUloEkH_uC8lsPCw",
+      "name": "Ben Huellen 3 x Hall Of Famer",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCDUdJxJAUloEkH_uC8lsPCw",
+      "discovered_on": "2026-09-23",
+      "score": 61.03,
+      "metrics": {
+        "subscribers": 7770,
+        "total_views": 1643778,
+        "video_count": 719,
+        "avg_views_per_video": 2286.2,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "yZC8ip0wZvI",
+            "title": "TB500 das Heilpeptide! Jegliche Knochenprobeme, OPs und Herzprobleme!",
+            "description": "Intro erstellt von Sven Kunz Social Media Marketing Manager Kontaktdaten: FB: https://www.facebook.com/svenkunzmarketing ...",
+            "published_at": "2026-09-23T03:52:22Z",
+            "url": "https://www.youtube.com/watch?v=yZC8ip0wZvI"
+          }
+        ],
+        "channel_description": "Ben Huellen, \nGeschichten eines Bodybuilders und andere Unterhaltung!\nOld School Bodybuilding\nPodcast\nSex Geschichten\nLebens Geschichten\nAnabolika\nTrainingsvideos\nMeisterschaftsberichte",
+        "latest_video_at": "2026-09-23T03:52:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC-nbZRGExGYj53CrvT12pfg",
+      "external_id": "UC-nbZRGExGYj53CrvT12pfg",
+      "name": "MURAD",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC-nbZRGExGYj53CrvT12pfg",
+      "discovered_on": "2026-09-23",
+      "score": 60.93,
+      "metrics": {
+        "subscribers": 18600,
+        "total_views": 1206805,
+        "video_count": 1878,
+        "avg_views_per_video": 642.6,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "PimDWlYkvjs",
+            "title": "¿PÉPTIDOS: MODA O REVOLUCIÓN?",
+            "description": "PÉPTIDOS: MODA O REVOLUCIÓN? La dra. Julieta Moras nos explica que este tratamiento no es para cualquiera y exige un ...",
+            "published_at": "2026-09-23T12:05:16Z",
+            "url": "https://www.youtube.com/watch?v=PimDWlYkvjs"
+          }
+        ],
+        "channel_description": "La Revolución del Bienestar \nEl primer canal de streaming de salud y bienestar \n\nMUCHO MÁS QUE TODO | 🕙MARTES 10 HS\n\nEN MOVIMIENTO | 🕦MARTES 11:30 HS\n\nEL ARTE DE LIDERAR | 🕛MARTES 13:00 HS\n\nDIVINO TESORO | 🕦JUEVES 14:30 HS\n\nEXIJO CLEMENCIA |  🕑JUEVES 16.00 HS\n\nEXHALE | 🕛VIERNES 15:30 HS\n\nNADA ES TAN GRAVE | 🕓VIERNES 16 HS\n\n",
+        "latest_video_at": "2026-09-23T12:05:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCamj0qse9xNUSAu902q8jIw",
+      "external_id": "UCamj0qse9xNUSAu902q8jIw",
+      "name": "Dr. Avi Islur | Plastic Surgeon",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCamj0qse9xNUSAu902q8jIw",
+      "discovered_on": "2026-09-23",
+      "score": 57.79,
+      "metrics": {
+        "subscribers": 2260,
+        "total_views": 1612931,
+        "video_count": 557,
+        "avg_views_per_video": 2895.75,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "TZCHGcc34Lw",
+            "title": "What You NEED To Know About Peptides from a Plastic Surgeon #peptides",
+            "description": "Thinking about Peptides? Seek out professional medical advice from the experts not from plastic surgeons and certainly not from ...",
+            "published_at": "2026-09-23T03:13:03Z",
+            "url": "https://www.youtube.com/watch?v=TZCHGcc34Lw"
+          }
+        ],
+        "channel_description": "Dr. Avi Islur is a Board Certified Plastic & Reconstructive Surgeon in Winnipeg, Manitoba. Specializing in Breast Implants, Breast Augmentation, Breast Lift, Tummy Tuck, and Weight Loss Surgery. Watch these videos to learn all about the procedure you are interested in.",
+        "latest_video_at": "2026-09-23T03:13:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCVYiXj0rVEknZ06bi6E-J9w",
+      "external_id": "UCVYiXj0rVEknZ06bi6E-J9w",
+      "name": "DrZaino",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCVYiXj0rVEknZ06bi6E-J9w",
+      "discovered_on": "2026-09-23",
+      "score": 53.89,
+      "metrics": {
+        "subscribers": 3070,
+        "total_views": 728085,
+        "video_count": 2330,
+        "avg_views_per_video": 312.48,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "JE1dCSIUWRM",
+            "title": "Bioregulator Stacks: The Anti-Aging Peptide Protocol High-Performing Men Over 45 Are Using&quot;",
+            "description": "Bioregulator peptides Our latest video explores the evolution of bioregulator peptides, highlighting their crucial role in supporting ...",
+            "published_at": "2026-09-23T13:51:47Z",
+            "url": "https://www.youtube.com/watch?v=JE1dCSIUWRM"
+          }
+        ],
+        "channel_description": "Rebuilding High-Performing Men 40+ into Unstoppable Stallions — Brain, Body, Business & Bedroom\nYou’ve built your business, your career, your life… but something isn’t keeping up. Your body.\nIf you feel like you’re winning everywhere except here — you’re not alone. Energy crashes, strength fades, drive dips, bedroom confidence slips, mental fog rolls in. Most men accept it as “aging.” High-achievers like you refuse to.\nI’m Dr. Chris Zaino — Former Mr. America, world-renowned speaker, author, entrepreneur, and fellow Stallion — founder of The Stallion Project.\nWe help elite men 40+ reclaim their edge without endless guessing, grinding, or time-wasting protocols. Real strategies used by executives, athletes, and performers to optimize chemistry, recovery, mindset, performance, and power. click here for more : https://go.stallionproject.com/vsl-page\n",
+        "latest_video_at": "2026-09-23T13:51:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCIHrsTtxPH5SwWvhQSyPbLQ",
       "external_id": "UCIHrsTtxPH5SwWvhQSyPbLQ",
