@@ -2,19 +2,208 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-23T15:05:50Z",
+  "updated_at": "2026-09-24T15:16:06Z",
   "new_this_run": 4,
-  "total_influencers": 354,
+  "total_influencers": 358,
   "run_summary": {
-    "run_started_at": "2026-09-23T15:05:32Z",
-    "candidate_count": 10,
-    "existing_count": 350,
+    "run_started_at": "2026-09-24T15:15:27Z",
+    "candidate_count": 12,
+    "existing_count": 354,
     "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCZ5aW0HNL9aKP-cQDaMDKMA",
+      "external_id": "UCZ5aW0HNL9aKP-cQDaMDKMA",
+      "name": "ENSEÑANDO MEDICINA INTERNA ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCZ5aW0HNL9aKP-cQDaMDKMA",
+      "discovered_on": "2026-09-24",
+      "score": 77.03,
+      "metrics": {
+        "subscribers": 40100,
+        "total_views": 9719033,
+        "video_count": 671,
+        "avg_views_per_video": 14484.4,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "smXIbTmlq3M",
+            "title": "¿Adiós a las inyecciones? Orforgliprón, el nuevo GLP-1 oral | ACHIEVE-1",
+            "description": "Un medicamento tipo GLP-1 en una pastilla y sin necesidad de inyecciones? Orforgliprón es un agonista oral del receptor GLP-1 ...",
+            "published_at": "2026-09-24T14:22:53Z",
+            "url": "https://www.youtube.com/watch?v=smXIbTmlq3M"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "smXIbTmlq3M",
+            "title": "¿Adiós a las inyecciones? Orforgliprón, el nuevo GLP-1 oral | ACHIEVE-1",
+            "description": "Un medicamento tipo GLP-1 en una pastilla y sin necesidad de inyecciones? Orforgliprón es un agonista oral del receptor GLP-1 ...",
+            "published_at": "2026-09-24T14:22:53Z",
+            "url": "https://www.youtube.com/watch?v=smXIbTmlq3M"
+          }
+        ],
+        "channel_description": "Soy un Internista con ganas de enseñar y trasmitir un poco de los conocimientos y experiencia que me ha dejado esta hermosa carrera, desde casos clínicos para colegas, información básica para publico en general y temas de interés en el ámbito de salud. Espero que lo disfrutes y sea de tu agrado!\n\nOJO. \n\nAl medico en formación: La información vertida en los videos, no es una verdad absoluta, siempre valdrá la pena corroborar dicha información con algún docente o con la bibliografía correspondiente \n\nAl paciente: Los video son meramente informativos, muchos de ellos para la actualización medica, pero no sustituye la consulta médica, por favor no te automediques o tomes decisiones sin antes acudir con algún profesional de la salud\n",
+        "latest_video_at": "2026-09-24T14:22:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCbhZ0Dx8tQ7Lm2t42g8Gl7w",
+      "external_id": "UCbhZ0Dx8tQ7Lm2t42g8Gl7w",
+      "name": "YT Wake Em Up",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCbhZ0Dx8tQ7Lm2t42g8Gl7w",
+      "discovered_on": "2026-09-24",
+      "score": 70.72,
+      "metrics": {
+        "subscribers": 54300,
+        "total_views": 14562085,
+        "video_count": 1118,
+        "avg_views_per_video": 13025.12,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "uNk135V2GyY",
+            "title": "Watch People Tell Their GLP1 Horror Stories ... THIS IS WHY YOU SHOULDN&#39;T TAKE PEPTIDES",
+            "description": "BUSINESS INQUIRIES: Xcapeuniversity@gmail.com. Earn $25 for making a Sofi account + up to $400 after your first direct ...",
+            "published_at": "2026-09-23T23:03:05Z",
+            "url": "https://www.youtube.com/watch?v=uNk135V2GyY"
+          }
+        ],
+        "channel_description": "Knowledge is power! Subscribe for weekly uploads \n",
+        "latest_video_at": "2026-09-23T23:03:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC1hq6DjdOH-jPuCDU-W156A",
+      "external_id": "UC1hq6DjdOH-jPuCDU-W156A",
+      "name": "Rich Somers",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC1hq6DjdOH-jPuCDU-W156A",
+      "discovered_on": "2026-09-24",
+      "score": 70.65,
+      "metrics": {
+        "subscribers": 51600,
+        "total_views": 31773931,
+        "video_count": 2347,
+        "avg_views_per_video": 13538.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "hFd7TeTR3_0",
+            "title": "Doctor Explains: What Peptides, TRT &amp; GLP-1s Actually Do to Your Body",
+            "description": "In this episode Rich sits down with Dr. Todd Stearns to break down the rapidly changing world of longevity, hormone optimization, ...",
+            "published_at": "2026-09-24T12:00:36Z",
+            "url": "https://www.youtube.com/watch?v=hFd7TeTR3_0"
+          }
+        ],
+        "channel_description": "I took a big risk—cashed out my 401(k)—and went all in on real estate. Now, I run Somers Capital, managing an $80M+ portfolio of boutique hotels & apartments, while leading two powerhouse communities:\n\n🏨 HotelInvesting.com – Helping investors build generational wealth through boutique hotels.\n💰 The 7-Figure Creator Mastermind – Teaching creators & entrepreneurs how to turn content into cash-flowing assets.\n\n🎙️ Host of The Rich Somers Report (Top 1% Podcast) – Interviewing top entrepreneurs, investors & industry disruptors on real estate, business, wealth-building & strategy.\n🍻 Founder of Beers & Deals (San Diego’s Largest RE Networking Event).\n\n💡 I talk about:\n✔️ Why boutique hotels are the next great investment\n✔️ How the greatest transfer of wealth is happening NOW\n✔️ How the internet has leveled the playing field for investors & entrepreneurs\n\n📩 Subscribe to learn about real estate investing, scaling your business, market trends, and wealth-building strategies.\n",
+        "latest_video_at": "2026-09-24T12:00:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCDtpkp-EePK-kzd0Qm3mAPw",
+      "external_id": "UCDtpkp-EePK-kzd0Qm3mAPw",
+      "name": "Dr Haroon Rashid SKP",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCDtpkp-EePK-kzd0Qm3mAPw",
+      "discovered_on": "2026-09-24",
+      "score": 57.02,
+      "metrics": {
+        "subscribers": 4380,
+        "total_views": 339010,
+        "video_count": 422,
+        "avg_views_per_video": 803.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "yLVdQJ-nZAk",
+            "title": "Best peptide for barrier treatment #barriercare #sensitiveskin #sensitiveskincare #peptides #skin",
+            "description": "",
+            "published_at": "2026-09-24T08:40:44Z",
+            "url": "https://www.youtube.com/watch?v=yLVdQJ-nZAk"
+          }
+        ],
+        "channel_description": "Official YouTube channel of Dr Haroon Rashid M.B.B.S (King Edward Medical College Lahore Pakistan) M.C.P.S (College of Physician and Surgeons Pakistan) PhD (saint Petersburg)M.R.C.O.G-P(UK) F.R.S.H(UK) Worked at Letter Keny General Hospital (Ireland) Shaheed Rahimi Teaching Hospital(Iran) Mayo Hospital Lahore (Pakistan)  Sheikh Zyed Hospital (Pakistan).M.C.P.S (FAMILY MEDICINE).Phd (DERMATOLOGY).Currently Working as senior consultant in dermatology and Aesthetic Medicine at Dermavision poly clinic.6 College road.Civil Lines.Sheikhupura Pakistan. For paid online consultation contact No +923078482980\nWriter of famous Book on monotheism Allah Ramooz E Zat And Saffat ",
+        "latest_video_at": "2026-09-24T08:40:44Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCDUdJxJAUloEkH_uC8lsPCw",
       "external_id": "UCDUdJxJAUloEkH_uC8lsPCw",
