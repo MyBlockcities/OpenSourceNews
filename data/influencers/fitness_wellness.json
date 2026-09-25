@@ -2,19 +2,544 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-09-24T15:16:10Z",
-  "new_this_run": 10,
-  "total_influencers": 1376,
+  "updated_at": "2026-09-25T15:22:02Z",
+  "new_this_run": 15,
+  "total_influencers": 1391,
   "run_summary": {
-    "run_started_at": "2026-09-24T15:15:27Z",
-    "candidate_count": 45,
-    "existing_count": 1366,
-    "selected_new_count": 10,
+    "run_started_at": "2026-09-25T15:21:03Z",
+    "candidate_count": 44,
+    "existing_count": 1376,
+    "selected_new_count": 15,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCv0mHE-BBC5VRhfE2yypL3w",
+      "external_id": "UCv0mHE-BBC5VRhfE2yypL3w",
+      "name": "Ancient Nutrition",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCv0mHE-BBC5VRhfE2yypL3w",
+      "discovered_on": "2026-09-25",
+      "score": 74.5,
+      "metrics": {
+        "subscribers": 43900,
+        "total_views": 10049058,
+        "video_count": 35,
+        "avg_views_per_video": 287115.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "l7IQltnLg40",
+            "title": "Peptides Made Simple with Registered Dietitians Edwina Clark &amp; Raegan McGowan | Ancient Nutrition",
+            "description": "Nationally recognized Registered Dietitians Edwina Clark and Raegan McGowan break down the science behind peptides in a ...",
+            "published_at": "2026-09-24T22:56:17Z",
+            "url": "https://www.youtube.com/watch?v=l7IQltnLg40"
+          }
+        ],
+        "channel_description": "At Ancient Nutrition, we have one goal - to transform the health of every individual on the planet with history’s most powerful superfoods. That drives us to create whole food supplements made with real ingredients, for real results you can see and feel. \n\nEvery product we create is rooted in tradition and supported by science. Ancient Nutrition is based on traditional Chinese herbalism and Ayurveda, which are ways of eating and thinking that have survived generations, combined with today’s modern research. Our founders, Dr. Josh Axe and Jordan Rubin, both experienced health journeys that hit close to home - and navigated those with ancient practices. At the time, they couldn’t find supplements that measured up to their standards. Now, they create the high-quality products they wish they'd had to help you transform your health.\n",
+        "latest_video_at": "2026-09-24T22:56:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC-lTQWsj2Ft34kt1imzXFFg",
+      "external_id": "UC-lTQWsj2Ft34kt1imzXFFg",
+      "name": "Real Talk with Marissa Streit",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC-lTQWsj2Ft34kt1imzXFFg",
+      "discovered_on": "2026-09-25",
+      "score": 72.94,
+      "metrics": {
+        "subscribers": 79200,
+        "total_views": 27528994,
+        "video_count": 1286,
+        "avg_views_per_video": 21406.68,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "6h3QjHXyoBI",
+            "title": "Where Do Peptides Come From?",
+            "description": "Peptides are everywhere, but do consumers actually know where they come from? Dr. Jared Ament says the problem is not that ...",
+            "published_at": "2026-09-25T14:20:55Z",
+            "url": "https://www.youtube.com/watch?v=6h3QjHXyoBI"
+          }
+        ],
+        "channel_description": "Join PragerU CEO Marissa Streit as she interviews some of the most significant thought leaders and influential figures from around the world.\n\n",
+        "latest_video_at": "2026-09-25T14:20:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC6nOS2t5eJ3j76q5Hfb5EJw",
+      "external_id": "UC6nOS2t5eJ3j76q5Hfb5EJw",
+      "name": "אמיר פרלמן | צ'י קונג טאי צ'י בריאות ואריכות ימים",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC6nOS2t5eJ3j76q5Hfb5EJw",
+      "discovered_on": "2026-09-25",
+      "score": 67.2,
+      "metrics": {
+        "subscribers": 36400,
+        "total_views": 3589513,
+        "video_count": 794,
+        "avg_views_per_video": 4520.8,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "xwRRWcW_H5g",
+            "title": "אריכות ימים: סאונה כחלק מפרוטוקול לונגביטי שבאמת ישפיע על הגוף שלכם? (Longevity 101)",
+            "description": "סאונה היא חלק מפרוטוקול הבריאות של אמיר פרלמן , ארבע סיבות בגללן כדאי לכם לאמץ את הסאונה כחל מהרגלי החיים הבריאים שיעזרו לכם לחיות ...",
+            "published_at": "2026-09-25T11:00:20Z",
+            "url": "https://www.youtube.com/watch?v=xwRRWcW_H5g"
+          }
+        ],
+        "channel_description": "ברוכים הבאים לערוץ הרשמי של אמיר פרלמן – ערוץ הבית שלכם ללימודי צ'י קונג, טאי צ'י, אומנויות תנועה פנימיות ורפואה בדרך הטבע .\nהערוץ משלב בין ידע וניסיון של עשרות שנים בתרגול אומנויות תנועה מהמזרח, לבין מדע מודרני, תזונה פרואקטיבית ואסטרטגיות לאריכות ימים בריאה ואיכותית (Longevity).\n\nמה מחכה לכם בערוץ?\nתרגולי צ'י קונג רפואי וטאי צ'י: שיעורים מלאים, מדריכים למתחילים ולמתקדמים, ותרגילים ממוקדים להפחתת מתחים, הפגת כאבים, גמישות ושיווי משקל.פעילות גופנית מבריאה לאריכות ימים: כיצד להשתמש בתנועה רכה ומודעת ככלי לשימור הגוף, חיזוק השלד ומניעת שחיקה לאורך השנים.\n\nבריאות שלמה ורפואה טבעית: מדריכים מקצועיים על תזונה פונקציונלית, צמחי מרפא ופטריות מרפא מבית E.B.R.\nפודקאסט בריאות שלמה: שיחות עומק עם מיטב המומחים על בריאות הגוף והנפש.הצטרפו לקהילת הצ'י קונג הגדולה בישראל, הירשמו לערוץ והתחילו לתרגל בריאות ואיכות חיים בכל גיל.",
+        "latest_video_at": "2026-09-25T11:00:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCNwCiORBhdEZ9_XXwhASOPw",
+      "external_id": "UCNwCiORBhdEZ9_XXwhASOPw",
+      "name": "LA FIF",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCNwCiORBhdEZ9_XXwhASOPw",
+      "discovered_on": "2026-09-25",
+      "score": 66.32,
+      "metrics": {
+        "subscribers": 17200,
+        "total_views": 2729507,
+        "video_count": 318,
+        "avg_views_per_video": 8583.36,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "7jy_JCJzhKE",
+            "title": "Kettlebell Clean: Tecnica Corretta ed Errori da Evitare | Functional Training FIF",
+            "description": "Sai riconoscere la differenza tra un Kettlebell Clean eseguito correttamente e uno scorretto? Nel corso Functional Training ...",
+            "published_at": "2026-09-25T14:19:00Z",
+            "url": "https://www.youtube.com/watch?v=7jy_JCJzhKE"
+          }
+        ],
+        "channel_description": "La Federazione Italiana Fitness (F.I.F.) è sorta a Ravenna nel 1987, con l'obiettivo di promuovere e diffondere la cultura del fitness, dell'allenamento e del personal training. \nAttualmente le aree di intervento della F.I.F. racchiudono tutti i settori del fitness, dalla formazione all'aggiornamento sino all'agonismo, con attività distribuite lungo tutto l'arco dell'anno in numerose località italiane.\nAll'interno della nostra attività formativa vengono toccati anche argomenti di carattere olistico, quali il pilates e lo yoga.",
+        "latest_video_at": "2026-09-25T14:19:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC9M_575OJL_r1KVcaZU-ANA",
+      "external_id": "UC9M_575OJL_r1KVcaZU-ANA",
+      "name": "GymBeamTV",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC9M_575OJL_r1KVcaZU-ANA",
+      "discovered_on": "2026-09-25",
+      "score": 60.89,
+      "metrics": {
+        "subscribers": 4140,
+        "total_views": 932112,
+        "video_count": 180,
+        "avg_views_per_video": 5178.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "oXmPX3XF69U",
+            "title": "All You Need to Know About Wellness Peptides | GymBeam",
+            "description": "Are wellness peptides like BPC-157, TB-500, and the “Wolverine stack” a breakthrough in injury recovery—or a risky health ...",
+            "published_at": "2026-09-25T10:00:02Z",
+            "url": "https://www.youtube.com/watch?v=oXmPX3XF69U"
+          }
+        ],
+        "channel_description": "GymBeam’s official Youtube channel - brand of innovative nutritional supplements, exercise accessories and sportswear.\n\nGet inspired by our training plans, motivated by interviews with top athletes, learn to eat better and make right decisions based on product reviews.\n\nWe are Gymbeam.com. We are not only a nutritional supplements, exercise accessories and sportswear brand. We are a community who motivate each other.\n\nYou will find training plans, inspirational interviews with leading athletes, tips on healthy lifestyle and nutrition, fitness recipes, as well as product reviews on our channel. Be a part of our GymBeam team!",
+        "latest_video_at": "2026-09-25T10:00:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCbjQUykC4P8odcUnCO3eRhw",
+      "external_id": "UCbjQUykC4P8odcUnCO3eRhw",
+      "name": "The Fauji",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCbjQUykC4P8odcUnCO3eRhw",
+      "discovered_on": "2026-09-25",
+      "score": 60.16,
+      "metrics": {
+        "subscribers": 4560,
+        "total_views": 1293288,
+        "video_count": 401,
+        "avg_views_per_video": 3225.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "y50Ud68BEXU",
+            "title": "Live highlight",
+            "description": "Live Session on #fitness mainly #Bodyweight exercises #pushups #running #cardio fitness, fitness India, Indian fitness, home ...",
+            "published_at": "2026-09-25T04:49:16Z",
+            "url": "https://www.youtube.com/watch?v=y50Ud68BEXU"
+          }
+        ],
+        "channel_description": "52 Years old, Fitness and Wellness enthusiast. \nMy nick name is Fauji so the channel name.\nFauji in Hindi is used for Army Person who are always fit, Physically and Mentally. so taking the inspiration from them and trying to prove my name (nick) in this fitness and wellness zone. Just doing my bit to motivate people for fitness and wellness.\n\n",
+        "latest_video_at": "2026-09-25T04:49:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOungKYYSAKctc-MlQDDRiA",
+      "external_id": "UCOungKYYSAKctc-MlQDDRiA",
+      "name": "Dr Vyom Wellness",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCOungKYYSAKctc-MlQDDRiA",
+      "discovered_on": "2026-09-25",
+      "score": 57.99,
+      "metrics": {
+        "subscribers": 3940,
+        "total_views": 145805,
+        "video_count": 100,
+        "avg_views_per_video": 1458.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "7_6qjrJwTho",
+            "title": "क्या आपकी उम्र बढ़ रही है, या आपका शरीर जल्दी बूढ़ा हो रहा है?",
+            "description": "इस YouTube Short में Dr. Vyom Bolia बताते हैं कि Functional Fitness क्यों ज़रूरी है और 3 ...",
+            "published_at": "2026-09-25T14:45:34Z",
+            "url": "https://www.youtube.com/watch?v=7_6qjrJwTho"
+          }
+        ],
+        "channel_description": "This channel is dedicated to holistic pain management and functional healing.\nAs a specialist in Acupuncture, Dry Needling, Nutrition, Chiropractic & Osteopathy, I share practical insights, exercises, and lifestyle strategies for long-term relief.\nPhysio-Yogi by passion | Entrepreneur by spirit\nSubscribe to learn how to heal smarter, not harder.\n",
+        "latest_video_at": "2026-09-25T14:45:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:cf5af27a512087ec0942",
+      "external_id": "cf5af27a512087ec0942",
+      "name": "w_jin",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/nnAsPfCrXp8q8qSMq/the-geopolitics-of-an-ai-treaty",
+      "discovered_on": "2026-09-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Geopolitics of an AI Treaty"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:cce084c9e93ccb48ce90",
+      "external_id": "cce084c9e93ccb48ce90",
+      "name": "sdeture",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/b3itBtnCy3CA2jDBS/the-microsoft-code-of-conduct-will-fail-at-its-intention",
+      "discovered_on": "2026-09-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Microsoft Code of Conduct Will Fail at Its Intention"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:13fda589fdd97ee7d023",
+      "external_id": "13fda589fdd97ee7d023",
+      "name": "emharsha1812",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/HPFiGccq8hKWz3eSG/sunday-afternoons",
+      "discovered_on": "2026-09-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Sunday Afternoons"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:28e2f2ebc6612bc9bee6",
+      "external_id": "28e2f2ebc6612bc9bee6",
+      "name": "SeanKessinger",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/mmkSE8hrEcpaoA7f7/recognition-when-an-agent-counts-an-entity-as-itself",
+      "discovered_on": "2026-09-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Recognition: when an agent counts an entity as itself"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:bf2c0cc510e82afb2e98",
+      "external_id": "bf2c0cc510e82afb2e98",
+      "name": "Michael C. Horowitz",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/iran/how-iran-changed-war-united-states-michael-horowitz",
+      "discovered_on": "2026-09-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "How Iran Changed War"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:951070fd33fe4879d15e",
+      "external_id": "951070fd33fe4879d15e",
+      "name": "Martin Radzaj",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ioFYSZbCysLDjH3DN/foundational-premises-of-advanced-ai",
+      "discovered_on": "2026-09-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Foundational premises of advanced AI"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ab0e655eaefae071e6c8",
+      "external_id": "ab0e655eaefae071e6c8",
+      "name": "Kaley Brauer",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Adb55vLqt33LEyBfz/j-lens-shouldn-t-target-the-final-layer-by-default",
+      "discovered_on": "2026-09-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "J-lens shouldn't target the final layer by default"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:6dc6faa2acef39b06a03",
+      "external_id": "6dc6faa2acef39b06a03",
+      "name": "Anya Habana",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/HCpgntjDAE8bycfGn/cognitive-reasoning-diversity-for-robust-ai-juries",
+      "discovered_on": "2026-09-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Cognitive Reasoning Diversity for Robust AI Juries"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCz7Lab-WVlJyGxoHNllTYvw",
       "external_id": "UCz7Lab-WVlJyGxoHNllTYvw",

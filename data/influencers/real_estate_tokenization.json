@@ -2,19 +2,118 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-09-24T15:15:34Z",
-  "new_this_run": 2,
-  "total_influencers": 309,
+  "updated_at": "2026-09-25T15:21:28Z",
+  "new_this_run": 3,
+  "total_influencers": 312,
   "run_summary": {
-    "run_started_at": "2026-09-24T15:15:27Z",
-    "candidate_count": 44,
-    "existing_count": 307,
-    "selected_new_count": 2,
+    "run_started_at": "2026-09-25T15:21:03Z",
+    "candidate_count": 49,
+    "existing_count": 309,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC2WysLnPg6k3t_jXo-YFitg",
+      "external_id": "UC2WysLnPg6k3t_jXo-YFitg",
+      "name": "Talking Tokens Podcast",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UC2WysLnPg6k3t_jXo-YFitg",
+      "discovered_on": "2026-09-25",
+      "score": 58.61,
+      "metrics": {
+        "subscribers": 6810,
+        "total_views": 1050652,
+        "video_count": 735,
+        "avg_views_per_video": 1429.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "tokenized real estate"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "tokenized real estate",
+            "video_id": "YM2aeupEqdo",
+            "title": "Why Tokenization Goes Far Beyond Stocks and Bonds",
+            "description": "In today's episode of Talking Tokens, Jacquelyn sits down with Gregg Bell, Chief Investment Officer at Hashgraph, to discuss what ...",
+            "published_at": "2026-09-24T12:00:29Z",
+            "url": "https://www.youtube.com/watch?v=YM2aeupEqdo"
+          }
+        ],
+        "channel_description": "Talking Tokens goes beyond the headlines to uncover what’s actually happening across crypto, digital assets, and the onchain economy.\n\nHosted by Jacquelyn Melinek—founder & CEO of StrataMedia, former senior crypto reporter at TechCrunch, and award-nominated podcast host—Talking Tokens features conversations with the founders, investors, market makers, institutional leaders, and innovators building the future of finance.\n\nTwice a week, we break down where money is moving, what’s gaining real traction, what’s mostly hype, and the ideas changing how we invest, transact, and build wealth.\n\nThere’s a lot of noise in crypto. We’re here to bring you the insights that matter.\n\nTalking Tokens: Onchain Finance. On the Record.\n\nNew episodes Tuesdays & Thursdays.\n\nSubscribe: https://talkingtokens.beehiiv.com/\nX: @_TalkingTokens | @jacqmelinek\n\nBuilt by StrataMedia.\n",
+        "latest_video_at": "2026-09-24T12:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:0c558da073c61d1faee2",
+      "external_id": "0c558da073c61d1faee2",
+      "name": "Tram Doman",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/09/24/the-stock-token-debate-and-the-gap-nobody-can-close-alone",
+      "discovered_on": "2026-09-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "The stock token debate, and the gap nobody can close alone"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9b78fa5f4f8ef721832d",
+      "external_id": "9b78fa5f4f8ef721832d",
+      "name": "Andrew Cuomo",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/09/25/tokenization-is-moving-faster-than-washington",
+      "discovered_on": "2026-09-25",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Tokenization is moving faster than Washington"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCmkAVnXaRjM0Og4Ge2i81JQ",
       "external_id": "UCmkAVnXaRjM0Og4Ge2i81JQ",
