@@ -1,13 +1,13 @@
 {
   "schema": "open_source_news_qdrant_export.v2",
-  "generated_at": "2026-09-24T12:47:58Z",
+  "generated_at": "2026-09-25T12:49:26Z",
   "days": 30,
   "bucket_filter": [
     "peptides"
   ],
   "topic_filter": "",
-  "canonical_count": 1165,
-  "occurrence_count": 3413,
+  "canonical_count": 1177,
+  "occurrence_count": 3438,
   "combined_count": 0,
   "canonical_jsonl_path": "outputs/qdrant_export/peptides_signals_v2_canonical.jsonl",
   "occurrence_jsonl_path": "outputs/qdrant_export/peptides_signals_v2_occurrences.jsonl",
