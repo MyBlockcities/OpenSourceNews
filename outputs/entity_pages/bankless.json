@@ -3,13 +3,16 @@
   "name": "Bankless",
   "slug": "bankless",
   "first_seen": "2026-08-03",
-  "last_seen": "2026-09-24",
-  "mention_count_total": 351,
-  "mentions_7d_rate": 0.85,
-  "mentions_30d_rate": 1.38,
+  "last_seen": "2026-09-26",
+  "mention_count_total": 352,
+  "mentions_7d_rate": 0.895,
+  "mentions_30d_rate": 1.323,
   "trajectory": "stable",
-  "source_domains": [],
+  "source_domains": [
+    "bankless.com"
+  ],
   "recent_signal_ids": [
+    "fe7f3bb673a27447",
     "b47ecb1ad41d4ff3",
     "b47ecb1ad41d4ff3",
     "db866bce029e907e",
@@ -28,8 +31,7 @@
     "9a5ec87ca13e38e2",
     "9a5ec87ca13e38e2",
     "9a5ec87ca13e38e2",
-    "9a5ec87ca13e38e2",
-    "6844f57a6514461c"
+    "9a5ec87ca13e38e2"
   ],
   "schema_version": "entity.v1"
 }
