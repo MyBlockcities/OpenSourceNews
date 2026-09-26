@@ -2,19 +2,253 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-25T15:21:59Z",
-  "new_this_run": 6,
-  "total_influencers": 364,
+  "updated_at": "2026-09-26T14:34:53Z",
+  "new_this_run": 5,
+  "total_influencers": 369,
   "run_summary": {
-    "run_started_at": "2026-09-25T15:21:03Z",
-    "candidate_count": 21,
-    "existing_count": 358,
-    "selected_new_count": 6,
+    "run_started_at": "2026-09-26T14:34:36Z",
+    "candidate_count": 16,
+    "existing_count": 364,
+    "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCA7tFT-irXLTQAmGQefWaXw",
+      "external_id": "UCA7tFT-irXLTQAmGQefWaXw",
+      "name": "Save Yourself with Dr. Amy Shah ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCA7tFT-irXLTQAmGQefWaXw",
+      "discovered_on": "2026-09-26",
+      "score": 64.56,
+      "metrics": {
+        "subscribers": 22400,
+        "total_views": 2104788,
+        "video_count": 799,
+        "avg_views_per_video": 2634.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "SYRuQ33LZn4",
+            "title": "8 Health Rules I Disagree With: Peptides, Supplements &amp; Gut Health",
+            "description": "What if some of the health “rules” you're trying so hard to follow aren't actually helping you? In this episode, I'm sharing my hot ...",
+            "published_at": "2026-09-26T00:56:42Z",
+            "url": "https://www.youtube.com/watch?v=SYRuQ33LZn4"
+          }
+        ],
+        "channel_description": "Dr. Amy Shah MD\nActively practicing double board-certified physician \nTrained at Cornell, Albert Einstein, Harvard, Columbia\nMy book HORMONE HAVOC released 2026 is a NYT Best Seller\nMy goal is to share with you  transparent, honest, scientific health and wellness information. real, honest methods and tools to help you move forward in your health by using circadian rhythm as the core principle. I truly believe that feeling good and healthy is very easy with just some small habit changes and by prioritizing your health everyday.",
+        "latest_video_at": "2026-09-26T00:56:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCnm7au3x4gvWtNCOqCPd07g",
+      "external_id": "UCnm7au3x4gvWtNCOqCPd07g",
+      "name": "Upgraded Health with Nick Garcia",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCnm7au3x4gvWtNCOqCPd07g",
+      "discovered_on": "2026-09-26",
+      "score": 64.2,
+      "metrics": {
+        "subscribers": 15100,
+        "total_views": 1484205,
+        "video_count": 383,
+        "avg_views_per_video": 3875.21,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "Q11WEePPL7w",
+            "title": "I was skeptical of peptides...until I discovered these 8 benefits",
+            "description": "I was skeptical of peptides at first. With so much talk about peptide therapy, weight loss peptides, recovery, and healthy aging, ...",
+            "published_at": "2026-09-25T20:56:57Z",
+            "url": "https://www.youtube.com/watch?v=Q11WEePPL7w"
+          }
+        ],
+        "channel_description": "At Upgraded Health, the goal is simple: help you lose weight, improve your energy, and fix your metabolism by working with your body, not against it.\n\nWith over 15 years of experience in health and nutrition coaching, I’ve helped more than 20,000 people overcome stubborn fat loss, balance hormones, and finally understand what their body actually needs to see results. This isn’t about extreme diets or quick fixes—it’s about using practical, sustainable strategies that work in real life.\n\nBeyond coaching, I’ve built one of the most widely viewed health content ecosystems online. Through my Pinterest platform alone, I’ve generated millions of monthly impressions and driven hundreds of thousands of people to simple, effective health strategies that actually make a difference.\n\nIf you’ve ever felt like you’re doing everything right but still not seeing progress, you’re not alone—and you’re in the right place.\n",
+        "latest_video_at": "2026-09-25T20:56:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCODdqEVvFEr5V4ODxsz9tMw",
+      "external_id": "UCODdqEVvFEr5V4ODxsz9tMw",
+      "name": "Advanced Aesthetics Lopez Plastic Surgery  ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCODdqEVvFEr5V4ODxsz9tMw",
+      "discovered_on": "2026-09-26",
+      "score": 60.41,
+      "metrics": {
+        "subscribers": 2270,
+        "total_views": 1075911,
+        "video_count": 112,
+        "avg_views_per_video": 9606.35,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "OWhmA9lIWBU",
+            "title": "Let&#39;s talk Peptides with PA Niccole Campbell",
+            "description": "PA Niccole Campbell is introducing one of the newest additions to our practice: Peptide therapy! You may have been seeing ...",
+            "published_at": "2026-09-25T22:00:22Z",
+            "url": "https://www.youtube.com/watch?v=OWhmA9lIWBU"
+          }
+        ],
+        "channel_description": "The San Antonio Facelift Doctor\n\nDr. Manuel A. Lopez offers his patients the finest in facial reconstructive & plastic surgery techniques to achieve your aesthetic and reconstructive goals. Whether the goal is a subtle change in appearance in order to look more youthful or a more elaborate procedure, he is dedicated to providing the highest level of comprehensive care for a functional and beautiful result that you can be proud of. Dr. Lopez combines meticulous technical skill with an artistic eye to give you the best possible outcome.",
+        "latest_video_at": "2026-09-25T22:00:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC5bpjpT-xO3DFx0T0H8NvOQ",
+      "external_id": "UC5bpjpT-xO3DFx0T0H8NvOQ",
+      "name": "Prof. Patrick Treacy",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC5bpjpT-xO3DFx0T0H8NvOQ",
+      "discovered_on": "2026-09-26",
+      "score": 60.12,
+      "metrics": {
+        "subscribers": 10000,
+        "total_views": 1171386,
+        "video_count": 1112,
+        "avg_views_per_video": 1053.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "K8hG3qX8mbU",
+            "title": "Prof Patrick Treacy discusses GLP1 peptides #peptides #GLP1s",
+            "description": "",
+            "published_at": "2026-09-26T01:17:34Z",
+            "url": "https://www.youtube.com/watch?v=K8hG3qX8mbU"
+          }
+        ],
+        "channel_description": "Advancing Aesthetic Safety, Regenerative Medicine & Global Dermatology Leadership.\n\nProf Dr Patrick Treacy shares international lectures, clinical education, injectable safety protocols, regenerative medicine research, and global dermatology initiatives. He is an internationally recognised authority in aesthetic and regenerative medicine, noted for pioneering clinical work, influential research and global educational leadership.  His achievements were acknowledged at the 2019 MyFaceMyBody Awards, where he received both “Top Aesthetic Doctor UK & Ireland” and “Top Global Aesthetic Doctor.” Author of multiple textbooks and over 150 scientific papers, he has trained more than 10,000 medical professionals worldwide. His research spans injectables, PRP, stem-cell therapies, exosomes and vascular occlusion management. He is also recognised for humanitarian work supporting education and clean-water projects in Africa\n\n\nOfficial links, books, research & social media:\nhttps://linktr.ee/ptreacy",
+        "latest_video_at": "2026-09-26T01:17:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCghMZgO9kXmgN4mV36v-bZQ",
+      "external_id": "UCghMZgO9kXmgN4mV36v-bZQ",
+      "name": "The Daily Podcast | Clips",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCghMZgO9kXmgN4mV36v-bZQ",
+      "discovered_on": "2026-09-26",
+      "score": 57.32,
+      "metrics": {
+        "subscribers": 2180,
+        "total_views": 200462,
+        "video_count": 2072,
+        "avg_views_per_video": 96.75,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "boNbm4Oj9hw",
+            "title": "Andrew Huberman on Peptides, Sleep, and the GLP-1 Craze",
+            "description": "Andrew Huberman explores the fascinating world of peptide therapies, specifically focusing on the potential of Pinealon for ...",
+            "published_at": "2026-09-26T05:14:43Z",
+            "url": "https://www.youtube.com/watch?v=boNbm4Oj9hw"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "boNbm4Oj9hw",
+            "title": "Andrew Huberman on Peptides, Sleep, and the GLP-1 Craze",
+            "description": "Andrew Huberman explores the fascinating world of peptide therapies, specifically focusing on the potential of Pinealon for ...",
+            "published_at": "2026-09-26T05:14:43Z",
+            "url": "https://www.youtube.com/watch?v=boNbm4Oj9hw"
+          }
+        ],
+        "channel_description": "Sabiduría diaria de las mentes más poderosas del planeta. \n\nSolamente momentos que valen tu tiempo.\n\nClips nuevos cada día!\n\n🔔 Suscríbete para tu dosis diaria.",
+        "latest_video_at": "2026-09-26T05:14:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCERoe9H9TLK7lppOH0EcgwQ",
       "external_id": "UCERoe9H9TLK7lppOH0EcgwQ",
