@@ -2,19 +2,109 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-26T14:34:53Z",
-  "new_this_run": 5,
-  "total_influencers": 369,
+  "updated_at": "2026-09-27T15:12:58Z",
+  "new_this_run": 2,
+  "total_influencers": 371,
   "run_summary": {
-    "run_started_at": "2026-09-26T14:34:36Z",
-    "candidate_count": 16,
-    "existing_count": 364,
-    "selected_new_count": 5,
+    "run_started_at": "2026-09-27T15:12:20Z",
+    "candidate_count": 15,
+    "existing_count": 369,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCVxL5U2D3bV2OD5J_IWiftQ",
+      "external_id": "UCVxL5U2D3bV2OD5J_IWiftQ",
+      "name": "True Life",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCVxL5U2D3bV2OD5J_IWiftQ",
+      "discovered_on": "2026-09-27",
+      "score": 59.76,
+      "metrics": {
+        "subscribers": 30000,
+        "total_views": 372699,
+        "video_count": 1951,
+        "avg_views_per_video": 191.03,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "-eUtsRNYBn8",
+            "title": "BPC157: Fact or Fiction?",
+            "description": "Is BPC157 a game changer or just fiction? Discover the truth about BPC157's repair properties and its implications on social pain ...",
+            "published_at": "2026-09-27T09:00:56Z",
+            "url": "https://www.youtube.com/watch?v=-eUtsRNYBn8"
+          }
+        ],
+        "channel_description": "Aloha,\nWelcome to my psychedelic world! It is here that I try to translate vision into reality. I’ve been speaking to incredible people from all over the world. Some famous, some infamous, but I tend to gravitate to the hero next door. \n\nI think that genius is everywhere. Sometimes you just need a little help from a heightened state of awareness. Besides interviews you’ll get to hear & see some book reviews, random thoughts, and peculiarities. \n\nDon’t tell anyone,  but I am a conspiracy theorist….However I don’t use the word “conspiracy” as a pejorative. I think it’s all bullshit folks! At least a large part of it. \n\n I love the world & have this crazy idea that the world needs me. In fact I think the world needs everyone….but then again I think we are one.\n\ngeorgepmonty@gmail.com\n\nhttps://linktr.ee/TrueLifepodcast\n\n\n\nFB: @TrueLifefactz\n\n\nhttps://truelife.transistor.fm/\n\n\nhttps://podcasts.apple.com/us/podcast/truelife/id1520149646\n\n\nhttps://open.spotify.com/show/1HI3ncVhfMtcN9Tf7DGoR3",
+        "latest_video_at": "2026-09-27T09:00:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCKzCsyShLzPTX2mR0_IEmbQ",
+      "external_id": "UCKzCsyShLzPTX2mR0_IEmbQ",
+      "name": "Quick Bazar BD",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCKzCsyShLzPTX2mR0_IEmbQ",
+      "discovered_on": "2026-09-27",
+      "score": 58.03,
+      "metrics": {
+        "subscribers": 6640,
+        "total_views": 3691121,
+        "video_count": 5154,
+        "avg_views_per_video": 716.17,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "t5ANb2EWetU",
+            "title": "Dove Peptide Intense Repair Damage Therapy Conditioner",
+            "description": "",
+            "published_at": "2026-09-27T06:20:33Z",
+            "url": "https://www.youtube.com/watch?v=t5ANb2EWetU"
+          }
+        ],
+        "channel_description": "Quick Bazar BD , a place so grand\nWhere goods of all kinds are at hand\nFrom clothes to electronics, all in a row\nYou'll find what you need, don't you know\n\n\nA one-stop shop for all your needs\nWith prices that'll give you the feels\nFrom the latest fashion to household goods\nQuick Bazar BD , where shopping is understood\n\n\nWith friendly staff to help you out\nYou'll have no doubt, you'll find what you're about\nThe aisles are wide, the shelves are tall\nQuick Bazar BD , a shopping mall.\n",
+        "latest_video_at": "2026-09-27T06:20:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCA7tFT-irXLTQAmGQefWaXw",
       "external_id": "UCA7tFT-irXLTQAmGQefWaXw",

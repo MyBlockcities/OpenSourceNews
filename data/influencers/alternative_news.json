@@ -2,19 +2,582 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-26T14:34:44Z",
-  "new_this_run": 10,
-  "total_influencers": 650,
+  "updated_at": "2026-09-27T15:12:30Z",
+  "new_this_run": 13,
+  "total_influencers": 663,
   "run_summary": {
-    "run_started_at": "2026-09-26T14:34:36Z",
-    "candidate_count": 24,
-    "existing_count": 640,
-    "selected_new_count": 10,
+    "run_started_at": "2026-09-27T15:12:20Z",
+    "candidate_count": 20,
+    "existing_count": 650,
+    "selected_new_count": 13,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCLnlT89K2hLuirIAMoOt9kw",
+      "external_id": "UCLnlT89K2hLuirIAMoOt9kw",
+      "name": "The Deep Dive Podcast",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCLnlT89K2hLuirIAMoOt9kw",
+      "discovered_on": "2026-09-27",
+      "score": 70.38,
+      "metrics": {
+        "subscribers": 27600,
+        "total_views": 72267799,
+        "video_count": 2512,
+        "avg_views_per_video": 28769.03,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "5u7n1Q1YxGU",
+            "title": "Why Winnie the Pooh is a Threat to China&#39;s President #winniethepooh #censorship",
+            "description": "Seth Meyers discusses the news that China banned a Winnie the Pooh film after comparisons were made between the cartoon ...",
+            "published_at": "2026-09-27T09:45:12Z",
+            "url": "https://www.youtube.com/watch?v=5u7n1Q1YxGU"
+          }
+        ],
+        "channel_description": "Welcome to The Deep Dive Podcast - Your Ultimate Source for the Latest News Trends!\n\nStay informed and on top of the world's most current events with our in-depth analysis and easy-to-understand explanations. We dive into breaking news, trending topics, and significant global developments to bring you the insights you need. Whether it's politics, tech, entertainment, or global affairs, we’ve got you covered.\n\nSubscribe and join our community to never miss an update. We value your thoughts, so feel free to engage and share your perspectives in the comments section. Let's explore and understand the news that shapes our world, together!\n",
+        "latest_video_at": "2026-09-27T09:45:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCeFyZ3HBU4wtjplD3z2YyxQ",
+      "external_id": "UCeFyZ3HBU4wtjplD3z2YyxQ",
+      "name": "Hete Hangijzers",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCeFyZ3HBU4wtjplD3z2YyxQ",
+      "discovered_on": "2026-09-27",
+      "score": 65.49,
+      "metrics": {
+        "subscribers": 13400,
+        "total_views": 1214059,
+        "video_count": 146,
+        "avg_views_per_video": 8315.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "DVoLmR21OWA",
+            "title": "Zijn Wij Goed Bezig Met De ALTERNATIEVE Media?",
+            "description": "STEUN DE PODCAST Enkel door jouw support kan ik dit blijven doen, dus overweeg om me een steuntje te geven, hoe ...",
+            "published_at": "2026-09-27T04:04:57Z",
+            "url": "https://www.youtube.com/watch?v=DVoLmR21OWA"
+          }
+        ],
+        "channel_description": "Maatschappijkritische podcast zonder censuur met Filip Van Houte.\n\n🎙️ 𝗕𝗘𝗟𝗨𝗜𝗦𝗧𝗘𝗥 𝗗𝗘 𝗣𝗢𝗗𝗖𝗔𝗦𝗧\n● Spotify: https://hetehangijzers.com/spotify\n● Apple Podcasts: https://hetehangijzers.com/apple\n● Google Podcasts: https://hetehangijzers.com/google\n\n",
+        "latest_video_at": "2026-09-27T04:04:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCc2T6Ckdi0esVKXrtQhml8w",
+      "external_id": "UCc2T6Ckdi0esVKXrtQhml8w",
+      "name": "Günün Editi",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCc2T6Ckdi0esVKXrtQhml8w",
+      "discovered_on": "2026-09-27",
+      "score": 65.14,
+      "metrics": {
+        "subscribers": 2710,
+        "total_views": 4046462,
+        "video_count": 610,
+        "avg_views_per_video": 6633.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://x.com/EmreSirin1982"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "uKGzhvldDIg",
+            "title": "Sansüre para vermeyelim! #shorts",
+            "description": "Emre Şirin     https://x.com/EmreSirin1982/status/2103921069069324686?s=20 Türkiye'de neler oluyor, neler konuşuluyor?",
+            "published_at": "2026-09-27T06:00:15Z",
+            "url": "https://www.youtube.com/watch?v=uKGzhvldDIg"
+          }
+        ],
+        "channel_description": "📌Günün editi\nTürkiye'de neler oluyor, neler konuşuluyor? Güzellikler de, şeytan da ayrıntıda gizli. Her gün yenilenen içerikler ve gözden kaçan detaylar için takipte kalın! Abone olmayı unutmayın 🛎️ \n\nPaylaşımlar, gözden kaçan detayları öne çıkarmak ve farklı bir bakış açısı sunmak içindir.\n\n#Türkiye  #gündem #siyaset #analiz \n\nİletişim ve iş birlikleri için\n✉️ gununediti@gmail.com",
+        "latest_video_at": "2026-09-27T06:00:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCItrNXgGLi5RWbZT_meH51A",
+      "external_id": "UCItrNXgGLi5RWbZT_meH51A",
+      "name": "Mayans Magazine",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCItrNXgGLi5RWbZT_meH51A",
+      "discovered_on": "2026-09-27",
+      "score": 64.96,
+      "metrics": {
+        "subscribers": 30700,
+        "total_views": 8318615,
+        "video_count": 4068,
+        "avg_views_per_video": 2044.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "i2swW6GR4Fc",
+            "title": "Pauta y periodismo: ¿Qué es lo que pasa?",
+            "description": "En este video reflexiono sobre la crisis actual de los medios tradicionales, el impacto de los medios alternativos y creadores de ...",
+            "published_at": "2026-09-26T22:00:22Z",
+            "url": "https://www.youtube.com/watch?v=i2swW6GR4Fc"
+          }
+        ],
+        "channel_description": "Analizo y explico lo que ocurre detrás de las noticias y de las figuras de poder. \n\nSuscríbete y forma parte de esta comunidad.\nEscríbeme: marmayans@mayansmagazine.com\nWhatsApp: 3022556384\n\n¿Quieres pautar?\ncomercial@mayansmagazine.com\nWhatsApp: 3022556384\n\nVisita mi página web: www.mayansmagazine.com\n\n\n\n",
+        "latest_video_at": "2026-09-26T22:00:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCO5iUxVoIh_fSlgOOHRSUiQ",
+      "external_id": "UCO5iUxVoIh_fSlgOOHRSUiQ",
+      "name": "Deculturation",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCO5iUxVoIh_fSlgOOHRSUiQ",
+      "discovered_on": "2026-09-27",
+      "score": 64.91,
+      "metrics": {
+        "subscribers": 9350,
+        "total_views": 183316,
+        "video_count": 11,
+        "avg_views_per_video": 16665.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "i5J-5KPnXDs",
+            "title": "Laith Marouf and The Independent Left Medias &quot;Liberal&quot; Zionist Problem! @tvfreepalestine",
+            "description": "Please Donate at https://freepalestine.video/ to Support Real Independent Media doing the Courages and Valuable work you ...",
+            "published_at": "2026-09-26T10:13:59Z",
+            "url": "https://www.youtube.com/watch?v=i5J-5KPnXDs"
+          }
+        ],
+        "channel_description": "Covering The Opportunist: From Liberals to Conservatives\nDictatorship of the Colonized Proletariate.\n",
+        "latest_video_at": "2026-09-26T10:13:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCc6Dy2ljJEC2MKpCgwL4cLA",
+      "external_id": "UCc6Dy2ljJEC2MKpCgwL4cLA",
+      "name": "The Punch Cut",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCc6Dy2ljJEC2MKpCgwL4cLA",
+      "discovered_on": "2026-09-27",
+      "score": 61.99,
+      "metrics": {
+        "subscribers": 4000,
+        "total_views": 14877828,
+        "video_count": 1653,
+        "avg_views_per_video": 9000.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "c9V_C1E3fTU",
+            "title": "Trump&#39;s contradictory rhetoric on government censorship",
+            "description": "The tension between rhetoric and action regarding free speech reaches a boiling point. When major news outlets are barred from ...",
+            "published_at": "2026-09-27T03:00:35Z",
+            "url": "https://www.youtube.com/watch?v=c9V_C1E3fTU"
+          }
+        ],
+        "channel_description": "Welcome to The Punch cut, we bring you professional boxing highlights and ringside intrinsic moments  of the sport. Get your seat and enjoy moments of boxing in world's history.",
+        "latest_video_at": "2026-09-27T03:00:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCXmRXhAEccrei8BMzmby4CA",
+      "external_id": "UCXmRXhAEccrei8BMzmby4CA",
+      "name": "Daily Beltway",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCXmRXhAEccrei8BMzmby4CA",
+      "discovered_on": "2026-09-27",
+      "score": 61.13,
+      "metrics": {
+        "subscribers": 9660,
+        "total_views": 3703912,
+        "video_count": 2094,
+        "avg_views_per_video": 1768.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "HREY1MhH2So",
+            "title": "Donald Trump Faces CNN and Politico Lawsuit Over Press Ban",
+            "description": "Donald Trump and the White House are facing a federal lawsuit from CNN and Politico after their press credentials were revoked.",
+            "published_at": "2026-09-27T02:02:15Z",
+            "url": "https://www.youtube.com/watch?v=HREY1MhH2So"
+          }
+        ],
+        "channel_description": "Welcome to Daily Beltway – Unfiltered Conservative News\n\nThis country was built on faith, family, freedom, and responsibility—but those values are under attack. At Daily Beltway, we fight back with clear, direct reporting that holds the powerful accountable and puts the American people first.\n\nWe bring you hard facts, sharp commentary, and honest reporting the mainstream media won’t touch. From Congress to the courtroom, public schools to the border—we break down what’s happening, why it matters, and how it affects your life.\n\nNo corporate donors. No activist agendas. Just unapologetic conservative coverage—rooted in the Constitution, grounded in truth, and guided by common sense.\n\nHosted by Tom, publisher of the Illinois Review and White House correspondent for the Next News Network.\n\nSubscribe now for updates that defend liberty, protect tradition, and expose government waste, fraud, and overreach.\n\nThis is your news. The way it used to be—and the way it should be again.\n",
+        "latest_video_at": "2026-09-27T02:02:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC9wrCJmG3md-gAADJ_vNCzQ",
+      "external_id": "UC9wrCJmG3md-gAADJ_vNCzQ",
+      "name": "Snap Politics",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC9wrCJmG3md-gAADJ_vNCzQ",
+      "discovered_on": "2026-09-27",
+      "score": 58.88,
+      "metrics": {
+        "subscribers": 7120,
+        "total_views": 88189,
+        "video_count": 92,
+        "avg_views_per_video": 958.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "OM__cpeLx58",
+            "title": "Adam Mockler Humilitates MAGA Troll on CNN Defending Trump&#39;s Media Censorship",
+            "description": "This is Snap Politics! Like, Share, Support and Subscribe! Adam Mockler Humilitates MAGA Troll on CNN Defending Trump's ...",
+            "published_at": "2026-09-26T22:30:02Z",
+            "url": "https://www.youtube.com/watch?v=OM__cpeLx58"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-26T22:30:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWhB00YQZ4iSXMsuj8ydsmQ",
+      "external_id": "UCWhB00YQZ4iSXMsuj8ydsmQ",
+      "name": "Life In Jozi  With  The  MDA's",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWhB00YQZ4iSXMsuj8ydsmQ",
+      "discovered_on": "2026-09-27",
+      "score": 58.27,
+      "metrics": {
+        "subscribers": 3060,
+        "total_views": 123126,
+        "video_count": 52,
+        "avg_views_per_video": 2367.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "Yz6RteslNRU",
+            "title": "THE TRUTH ABOUT ALTERNATIVE AND TRADITIONAL MEDIA A TALK BETWEEN OKAY SWISHER &amp; RASHID K",
+            "description": "THE TRUTH ABOUT ALTERNATIVE AND TRADITIONAL MEDIA A TALK BETWEEN OKAY SWISHER & RASHID K.",
+            "published_at": "2026-09-27T13:44:25Z",
+            "url": "https://www.youtube.com/watch?v=Yz6RteslNRU"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-27T13:44:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCpKygPXdJGFvBV3XWXneJeQ",
+      "external_id": "UCpKygPXdJGFvBV3XWXneJeQ",
+      "name": "The Homeless Left",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCpKygPXdJGFvBV3XWXneJeQ",
+      "discovered_on": "2026-09-27",
+      "score": 58.2,
+      "metrics": {
+        "subscribers": 7310,
+        "total_views": 872496,
+        "video_count": 1291,
+        "avg_views_per_video": 675.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "WqviCpaXvEg",
+            "title": "Censorship &amp; The War Against Anti-Imperialists, Protesting Netanyahu at the U.N. with CALEB MAUPIN",
+            "description": "Censorship & The War Against Anti-Imperialists, Protesting Netanyahu at the U.N. with CALEB MAUPIN Caleb Maupin's YouTube ...",
+            "published_at": "2026-09-27T14:22:41Z",
+            "url": "https://www.youtube.com/watch?v=WqviCpaXvEg"
+          }
+        ],
+        "channel_description": "The Homeless Left (THL) a Non-Tribal Approach to News\n\nLooking for real, unbiased news beyond the usual partisan narratives? THL brings you an in-depth, non-tribal perspective on trending U.S. politics and global events. Join us every Tuesday & Thursday at 12:00 pm PT | 3:00 pm ET as Hollywood director Matt Weinglass hosts from Los Angeles, with co-hosts journalists Craig Pasta, Jay Scott, and health & wellness advocate Stephanie Pierucci\n\nKey Topics:\nBig Pharma Corruption and Health Advocacy\nMedia Censorship and the Free Speech Debate\nThe U.S. Military Industrial Complex\nPolitical Corruption and Corporate Power\n\nEach episode features progressive, populist, and anti-establishment voices from around the world, discussing America’s most controversial issues. From the \"war on the press\" to “government overreach” and “political reform,” our guests bring unique perspectives that challenge mainstream narratives on issues like Big Pharma, media bias, and corporate influence in politics.\n",
+        "latest_video_at": "2026-09-27T14:22:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCb40DNQg0ubJW5r0IPGTNNQ",
+      "external_id": "UCb40DNQg0ubJW5r0IPGTNNQ",
+      "name": "Heart of the Deernicorn",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCb40DNQg0ubJW5r0IPGTNNQ",
+      "discovered_on": "2026-09-27",
+      "score": 58.14,
+      "metrics": {
+        "subscribers": 4080,
+        "total_views": 1071279,
+        "video_count": 720,
+        "avg_views_per_video": 1487.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "ZttrCmEk4jM",
+            "title": "Read The Best Independent Journalism About Tabletop Games!",
+            "description": "Rascal News Year 1 and Year 2 are full independent journalism about tabletop role playing games and the people who make ...",
+            "published_at": "2026-09-27T02:01:08Z",
+            "url": "https://www.youtube.com/watch?v=ZttrCmEk4jM"
+          }
+        ],
+        "channel_description": "Heart of the Deernicorn is a studio and workshop based in downtown Olympia, WA where we design, manufacture, publish, and ship our award-winning games all over the world. We create games where art drives the gameplay and players all have equal share in the story. Many of our game components are handmade in our workshop. We believe in the power of games to inspire creativity and to empower you and your friends to form deep connections.",
+        "latest_video_at": "2026-09-27T02:01:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTiWztEm8HYCwOzG6QP3Fkw",
+      "external_id": "UCTiWztEm8HYCwOzG6QP3Fkw",
+      "name": "Chuck Food Reviews And More",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCTiWztEm8HYCwOzG6QP3Fkw",
+      "discovered_on": "2026-09-27",
+      "score": 56.54,
+      "metrics": {
+        "subscribers": 2020,
+        "total_views": 352737,
+        "video_count": 1860,
+        "avg_views_per_video": 189.64,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "tiktok": "https://www.tiktok.com/@chuckfoodreviews"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "wru_VqH4G8s",
+            "title": "Netflix Censorship  News",
+            "description": "warning this is not witchcraft cause it's not real Jesus heals not anyone else.",
+            "published_at": "2026-09-27T03:18:12Z",
+            "url": "https://www.youtube.com/watch?v=wru_VqH4G8s"
+          }
+        ],
+        "channel_description": "I am Chuck Food Reviews And More. And My. channel is everywhere lol. From Funny skits to reviews and more.\nThanks For being a subscriber.\n\n\nmy tiktok is \nhttps://www.tiktok.com/@chuckfoodreviews?_t=ZP-8trSrS6O0Nj&_r=1",
+        "latest_video_at": "2026-09-27T03:18:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqVs2OHyK44OjF_Ru_LYX1g",
+      "external_id": "UCqVs2OHyK44OjF_Ru_LYX1g",
+      "name": "CNS TRAVEL",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCqVs2OHyK44OjF_Ru_LYX1g",
+      "discovered_on": "2026-09-27",
+      "score": 56.12,
+      "metrics": {
+        "subscribers": 3220,
+        "total_views": 389716,
+        "video_count": 477,
+        "avg_views_per_video": 817.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ytaXQfQIYf4",
+            "title": "UNFILTERED Cruise Secrets &amp; Scandals! 🚫 No Censorship | The Usual Suspects After Dark LIVE",
+            "description": "DISCLAIMER: ADULT CONTENT & LANGUAGE AHEAD! This live stream contains unfiltered commentary, adult language, and ...",
+            "published_at": "2026-09-27T05:40:41Z",
+            "url": "https://www.youtube.com/watch?v=ytaXQfQIYf4"
+          }
+        ],
+        "channel_description": "Welcome to **CNS Travel** — where cruising, travel, and the creator journey come together!\n\nJoin Sherman for cruise reviews, travel tips, destination guides, group cruise adventures, cruise news, and real-world experiences from the road and at sea. We also dive into the world of YouTube, sharing creator tips, channel growth ideas, live-streaming tools, and lessons learned along the way.\n\nCatch **Diving Into the Deep End** on Tuesdays, **Cruise News: Let’s Talk About It!** on Wednesdays, plus new travel videos, cruise adventures, Shorts, and special live streams throughout the week.\n\nWhether you’re planning your first cruise, your next vacation, or growing your own YouTube channel, you’re part of the journey here.\n\n**Subscribe, join the community, and let’s create memories that last a lifetime!**\n\n\n",
+        "latest_video_at": "2026-09-27T05:40:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCpJOgqGvSA1pNRvqjptPBaw",
       "external_id": "UCpJOgqGvSA1pNRvqjptPBaw",
