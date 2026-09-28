@@ -2,19 +2,62 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-09-27T15:12:28Z",
-  "new_this_run": 4,
-  "total_influencers": 318,
+  "updated_at": "2026-09-28T18:11:55Z",
+  "new_this_run": 1,
+  "total_influencers": 319,
   "run_summary": {
-    "run_started_at": "2026-09-27T15:12:20Z",
-    "candidate_count": 44,
-    "existing_count": 314,
-    "selected_new_count": 4,
+    "run_started_at": "2026-09-28T18:11:49Z",
+    "candidate_count": 45,
+    "existing_count": 318,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC7bregx54amP1YNCuDEwmMw",
+      "external_id": "UC7bregx54amP1YNCuDEwmMw",
+      "name": "Prop News Time - News & Research",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UC7bregx54amP1YNCuDEwmMw",
+      "discovered_on": "2026-09-28",
+      "score": 54.58,
+      "metrics": {
+        "subscribers": 4250,
+        "total_views": 218584,
+        "video_count": 805,
+        "avg_views_per_video": 271.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate RWA"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate RWA",
+            "video_id": "8p36Aj59vrc",
+            "title": "What Is an RWA? | Resident Welfare Association Explained | Real Estate in a Minute",
+            "description": "Who takes care of the lift, parking, common areas, maintenance and everyday complaints in a residential community? There's a ...",
+            "published_at": "2026-09-28T14:30:06Z",
+            "url": "https://www.youtube.com/watch?v=8p36Aj59vrc"
+          }
+        ],
+        "channel_description": "Prop News Time is a digital real estate news platform. We cover trending news, events, project launches, and more about the real estate, hospitality, infrastructure and allied industries. Our stories are published in multiple languages across several digital platforms. ",
+        "latest_video_at": "2026-09-28T14:30:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCsCLb9-PoTqAzadoi5bJZmA",
       "external_id": "UCsCLb9-PoTqAzadoi5bJZmA",

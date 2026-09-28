@@ -2,19 +2,334 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-27T15:12:58Z",
-  "new_this_run": 2,
-  "total_influencers": 371,
+  "updated_at": "2026-09-28T18:12:06Z",
+  "new_this_run": 7,
+  "total_influencers": 378,
   "run_summary": {
-    "run_started_at": "2026-09-27T15:12:20Z",
-    "candidate_count": 15,
-    "existing_count": 369,
-    "selected_new_count": 2,
+    "run_started_at": "2026-09-28T18:11:49Z",
+    "candidate_count": 20,
+    "existing_count": 371,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC-lTQWsj2Ft34kt1imzXFFg",
+      "external_id": "UC-lTQWsj2Ft34kt1imzXFFg",
+      "name": "Real Talk with Marissa Streit",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC-lTQWsj2Ft34kt1imzXFFg",
+      "discovered_on": "2026-09-28",
+      "score": 72.94,
+      "metrics": {
+        "subscribers": 79200,
+        "total_views": 27642484,
+        "video_count": 1296,
+        "avg_views_per_video": 21329.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "7LVHXsOxq8g",
+            "title": "Should Young People Take Peptides?",
+            "description": "Is the peptide craze driving young people to find shortcuts before they have even started aging? Dr. Jared Ament says it concerns ...",
+            "published_at": "2026-09-28T12:00:14Z",
+            "url": "https://www.youtube.com/watch?v=7LVHXsOxq8g"
+          }
+        ],
+        "channel_description": "Join PragerU CEO Marissa Streit as she interviews some of the most significant thought leaders and influential figures from around the world.\n\n",
+        "latest_video_at": "2026-09-28T12:00:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCPKPJ-GJhwuKpSXFzVWYPGg",
+      "external_id": "UCPKPJ-GJhwuKpSXFzVWYPGg",
+      "name": "Fitness TM",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCPKPJ-GJhwuKpSXFzVWYPGg",
+      "discovered_on": "2026-09-28",
+      "score": 69.95,
+      "metrics": {
+        "subscribers": 18800,
+        "total_views": 565068,
+        "video_count": 14,
+        "avg_views_per_video": 40362.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "cIr5oruAbZk",
+            "title": "What Do Peptides Actually Do || The Science Explained || Dr Alex Tatem",
+            "description": "What do peptides actually do? In this episode, Dr. Alex Tatem, an internationally recognized urologist and men's health expert, ...",
+            "published_at": "2026-09-28T12:35:53Z",
+            "url": "https://www.youtube.com/watch?v=cIr5oruAbZk"
+          }
+        ],
+        "channel_description": "Welcome to our Fitness TM! Here, we explore ways to stay mentally fit, manage stress effectively, and maintain overall physical health. Join us for tips, workouts, and guidance to lead a healthier, balanced life. Don't forget to subscribe and stay updated with our latest content!",
+        "latest_video_at": "2026-09-28T12:35:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCXpV3jpKCX7tNHn2QYz1_OA",
+      "external_id": "UCXpV3jpKCX7tNHn2QYz1_OA",
+      "name": "Dr Victory",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCXpV3jpKCX7tNHn2QYz1_OA",
+      "discovered_on": "2026-09-28",
+      "score": 66.46,
+      "metrics": {
+        "subscribers": 32800,
+        "total_views": 4715161,
+        "video_count": 1271,
+        "avg_views_per_video": 3709.8,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "Ecs6mwlPsNE",
+            "title": "Could We Treat Endometriosis Without Hormones or Surgery?!",
+            "description": "ENDO-205 is an experimental non-hormonal peptide therapy being developed for endometriosis. The goal is to selectively target ...",
+            "published_at": "2026-09-28T14:13:00Z",
+            "url": "https://www.youtube.com/watch?v=Ecs6mwlPsNE"
+          }
+        ],
+        "channel_description": "Fertility Specialist and OBGYN, Dr. Victory Certified in both Canada and the USA.\n\nDr. Victory enjoys educating others on the most important aspects of fertility care using every media resource available \n\nJoin us every week where we answer your fertility questions live on Facebook, Instagram, Youtube, and Tiktok.  8PM EST Join us for FertilityFactOrFiction.\n\nPCOS, Endometriosis, IVF, IUI, Naturopathic information discussed every single week LIVE on youtube.\n\nSubscribe now #FertilityFactOrFiction is here and DrVictory is ready to help.\n\nInstagram: @rahivictory.md\nTiktok: @rahivictorymd\nFacebook:  https://www.facebook.com/VictoryReproductiveCare\nWebsite: https://www.drvictory.com\n",
+        "latest_video_at": "2026-09-28T14:13:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC0xjITRZk2a7W17W8SITXYA",
+      "external_id": "UC0xjITRZk2a7W17W8SITXYA",
+      "name": "OSAMA DiSCOVER",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC0xjITRZk2a7W17W8SITXYA",
+      "discovered_on": "2026-09-28",
+      "score": 62.4,
+      "metrics": {
+        "subscribers": 7740,
+        "total_views": 1380002,
+        "video_count": 320,
+        "avg_views_per_video": 4312.51,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "e_MfWXVbzV0",
+            "title": "خش عالثقيل #17 : tb500 + bpc157 طريقة الاستخدام و الجرعات و الحقن",
+            "description": "المكملات من آيهيرب ☘️: كود خصم فعال طول السنة ✓ ( CEV3557 ) لا تستخدم اي مكمل او هرمون إلا باستشارة طبيب او مختص. ملاحظة: طريقة ...",
+            "published_at": "2026-09-28T12:10:04Z",
+            "url": "https://www.youtube.com/watch?v=e_MfWXVbzV0"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-28T12:10:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCqrY61dhhDUWxisg6aKO5eA",
+      "external_id": "UCqrY61dhhDUWxisg6aKO5eA",
+      "name": "Holistic Health Haven",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCqrY61dhhDUWxisg6aKO5eA",
+      "discovered_on": "2026-09-28",
+      "score": 61.77,
+      "metrics": {
+        "subscribers": 9500,
+        "total_views": 4248811,
+        "video_count": 1749,
+        "avg_views_per_video": 2429.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "aJaWYyyeOpk",
+            "title": "The Microdosing Trend: What You Need to Know About GLP-1s",
+            "description": "Stanford neuroscientist Andrew Huberman explores the rising interest in microdosing GLP-1s like tirzepatide and retatrutide.",
+            "published_at": "2026-09-27T19:40:40Z",
+            "url": "https://www.youtube.com/watch?v=aJaWYyyeOpk"
+          }
+        ],
+        "channel_description": "Welcome to Holistic Health Haven! \n\nWe are thrilled to have you join us on this journey toward optimal wellness. Our channel is dedicated to helping you find balance and harmony in all aspects of your life. We believe that true health is not just about physical well-being, but encompasses our mental, emotional and spiritual well-being as well. We understand that life can be challenging and it's not always easy to maintain a healthy lifestyle, but with the right tools and knowledge, anything is possible.\n\nOn our channel, you'll find a variety of content that covers everything from nutrition and fitness to stress management and self-care. We will share delicious and nutritious recipes that will help you fuel your body with the right nutrients and keep you feeling satisfied.\n\nWe are here to support you every step of the way, offering you the knowledge and tools you need to create a healthy and happy life.\n",
+        "latest_video_at": "2026-09-27T19:40:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC0fbTLLn8thAyRQoNA0pEGw",
+      "external_id": "UC0fbTLLn8thAyRQoNA0pEGw",
+      "name": "tldraw",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC0fbTLLn8thAyRQoNA0pEGw",
+      "discovered_on": "2026-09-28",
+      "score": 60.82,
+      "metrics": {
+        "subscribers": 4470,
+        "total_views": 409895,
+        "video_count": 91,
+        "avg_views_per_video": 4504.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "2vfWkm2ND7U",
+            "title": "Peptides",
+            "description": "Peptides are short chains of amino acids that the body uses to carry messages between organs, and they have been part of ...",
+            "published_at": "2026-09-27T22:45:32Z",
+            "url": "https://www.youtube.com/watch?v=2vfWkm2ND7U"
+          }
+        ],
+        "channel_description": "The official channel for tldraw (tldraw.dev), an infinite canvas sdk for the web.",
+        "latest_video_at": "2026-09-27T22:45:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCjOXfPzTIudSWbz66k8WgKg",
+      "external_id": "UCjOXfPzTIudSWbz66k8WgKg",
+      "name": "Cole Schwartz",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCjOXfPzTIudSWbz66k8WgKg",
+      "discovered_on": "2026-09-28",
+      "score": 56.11,
+      "metrics": {
+        "subscribers": 2940,
+        "total_views": 4575402,
+        "video_count": 4950,
+        "avg_views_per_video": 924.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "3oeJHemMoA0",
+            "title": "Sanar Naturals Collagen Peptides for Women &amp; Men| Is It Worth It?",
+            "description": "Check the price here: https://geni.us/QbLGUD?tag=coleschwartz-20 #ad #amazoninfluencer As an Amazon Influencer/Affiliate, ...",
+            "published_at": "2026-09-28T12:52:35Z",
+            "url": "https://www.youtube.com/watch?v=3oeJHemMoA0"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-28T12:52:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCVxL5U2D3bV2OD5J_IWiftQ",
       "external_id": "UCVxL5U2D3bV2OD5J_IWiftQ",

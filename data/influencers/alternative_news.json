@@ -2,19 +2,547 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-27T15:12:30Z",
-  "new_this_run": 13,
-  "total_influencers": 663,
+  "updated_at": "2026-09-28T18:11:58Z",
+  "new_this_run": 12,
+  "total_influencers": 675,
   "run_summary": {
-    "run_started_at": "2026-09-27T15:12:20Z",
-    "candidate_count": 20,
-    "existing_count": 650,
-    "selected_new_count": 13,
+    "run_started_at": "2026-09-28T18:11:49Z",
+    "candidate_count": 28,
+    "existing_count": 663,
+    "selected_new_count": 12,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC-DM96m69n_OK1RctaHZqJQ",
+      "external_id": "UC-DM96m69n_OK1RctaHZqJQ",
+      "name": "Oceania Unfiltered",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC-DM96m69n_OK1RctaHZqJQ",
+      "discovered_on": "2026-09-28",
+      "score": 69.47,
+      "metrics": {
+        "subscribers": 47100,
+        "total_views": 170002,
+        "video_count": 19,
+        "avg_views_per_video": 8947.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "uNBj9uFH6aQ",
+            "title": "Trump’s Ultimate Defense of Free Speech Against Global Censorship",
+            "description": "Donald Trump confronts global elites at the World Economic Forum in Davos with a clear message: free speech is non-negotiable.",
+            "published_at": "2026-09-28T05:57:48Z",
+            "url": "https://www.youtube.com/watch?v=uNBj9uFH6aQ"
+          }
+        ],
+        "channel_description": "I'm a Brazilian following Aussie news & content based on local reports & native Aussies' social media opinions, plus Oceania.\nI don't live down under, but follow debates real-time. Why care about Aus? 3 reasons:\n 1-Like Aussies follow global politics, I got hooked on Aus politics. I make content on politics/geopolitics because I love it! As a content creator, it's how I provide for my family. No one works for free, but I do it for love & survival. My English is terrible, so I use AI tech to polish my accent (chose Aussie to connect better) & make it flow. Not a robot—I'm a REAL person! I record & use AI to dub & fine-tune my accent.\n\n 2-When my daughter was diagnosed with severe autism in 2021, we planned to move to Aus for better support. Due to high rent & hurdles, we haven't (honestly, we've given up).\n\n 3-Like my wife, I fell in love with Aussie culture via TV/YouTube, . That pulled me into Aus politics by accident, finding issues like Brazil's due to extreme progressive agendas.\n\n",
+        "latest_video_at": "2026-09-28T05:57:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYoc1PClSAmHRFEzahHjbvA",
+      "external_id": "UCYoc1PClSAmHRFEzahHjbvA",
+      "name": "Остро. Новости",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCYoc1PClSAmHRFEzahHjbvA",
+      "discovered_on": "2026-09-28",
+      "score": 67.56,
+      "metrics": {
+        "subscribers": 12200,
+        "total_views": 20183197,
+        "video_count": 819,
+        "avg_views_per_video": 24643.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "qHbA6o2zGcg",
+            "title": "Неожиданная новость из Дворца Независимости! #лукашенко #батька #политика #новости",
+            "description": "Кадровый день у Александра Лукашенко. #лукашенко #батька #новости #политика #беларусь.",
+            "published_at": "2026-09-28T11:59:05Z",
+            "url": "https://www.youtube.com/watch?v=qHbA6o2zGcg"
+          }
+        ],
+        "channel_description": "Громкие заявления Лукашенко, мировых лидеров. О чем говорят в мире – главные новости.",
+        "latest_video_at": "2026-09-28T11:59:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCR0UlwID_EOfqX-xbjZV1Ow",
+      "external_id": "UCR0UlwID_EOfqX-xbjZV1Ow",
+      "name": "Rapuniversum",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCR0UlwID_EOfqX-xbjZV1Ow",
+      "discovered_on": "2026-09-28",
+      "score": 64.72,
+      "metrics": {
+        "subscribers": 6900,
+        "total_views": 23214998,
+        "video_count": 990,
+        "avg_views_per_video": 23449.49,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "7VOLDTUp9qM",
+            "title": "Die Medien sind unterwandert Sido! #shorts",
+            "description": "",
+            "published_at": "2026-09-27T18:02:09Z",
+            "url": "https://www.youtube.com/watch?v=7VOLDTUp9qM"
+          }
+        ],
+        "channel_description": "Willkommen auf meinem YouTube-Kanal, wo wir uns der aufregenden Welt des Deutschraps widmen! Tauche ein in die vielseitige und pulsierende Kultur der deutschen Hip-Hop-Szene, während wir gemeinsam die neuesten Hits, heißesten Künstler und aufregendsten Trends erkunden. In meinen Videos findest du spannende Rezensionen von Alben und Songs, unterhaltsame Interviews mit aufstrebenden Talenten sowie faszinierende Hintergrundgeschichten über die Entwicklung des Deutschraps. Außerdem teile ich meine persönlichen Empfehlungen, um dir einen umfassenden Überblick über die besten Tracks zu bieten. Egal, ob du ein langjähriger Fan bist oder gerade erst in die Welt des Deutschraps eintauchst, auf meinem Kanal findest du sicherlich interessante und mitreißende Inhalte. Also abonniere jetzt, um nichts zu verpassen, und lass uns gemeinsam die Faszination des Deutschraps entdecken!",
+        "latest_video_at": "2026-09-27T18:02:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCmT7hTV8VJU6CiCGEs6hFbw",
+      "external_id": "UCmT7hTV8VJU6CiCGEs6hFbw",
+      "name": "The Free Thought Project",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCmT7hTV8VJU6CiCGEs6hFbw",
+      "discovered_on": "2026-09-28",
+      "score": 64.08,
+      "metrics": {
+        "subscribers": 55300,
+        "total_views": 65597,
+        "video_count": 110,
+        "avg_views_per_video": 596.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "9diaDOdbrso",
+            "title": "Cutting Through the Distraction: Mark Passio’s Warning",
+            "description": "Recent guest Mark Passio returns with a warning that cuts straight through the noise. He calls out alternative media for feeding the ...",
+            "published_at": "2026-09-28T00:03:36Z",
+            "url": "https://www.youtube.com/watch?v=9diaDOdbrso"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-28T00:03:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1HWOudKiaS2xnXziw5K7yQ",
+      "external_id": "UC1HWOudKiaS2xnXziw5K7yQ",
+      "name": "Queer News Tonight",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC1HWOudKiaS2xnXziw5K7yQ",
+      "discovered_on": "2026-09-28",
+      "score": 62.93,
+      "metrics": {
+        "subscribers": 30900,
+        "total_views": 13317112,
+        "video_count": 16820,
+        "avg_views_per_video": 791.74,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "lreAvc5L8bk",
+            "title": "Sony &amp; Insomniac Censor LGBTQ+ Content in Marvel&#39;s Wolverine for Select International Regions",
+            "description": "Players on Reddit and X reported that Sony Interactive Entertainment and Insomniac Games have censored LGBTQ+ narrative ...",
+            "published_at": "2026-09-28T07:00:39Z",
+            "url": "https://www.youtube.com/watch?v=lreAvc5L8bk"
+          }
+        ],
+        "channel_description": "LIVE from the gayest place on earth, Queer News Tonight is the best LGBTQ tv-series daily news broadcast for the LGBTQ+ community. Hard-hitting and timely global, national, and regional stories that matter most to YOU.\n\nQueer News Tonight Is a product of HOTspots Happening Out Television, a collection of powerful brands that deliver diverse and engaging content.  🚨 Turn on notifications so you never miss a video.",
+        "latest_video_at": "2026-09-28T07:00:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCmuhqIgfk2AW8T836rF7ZAw",
+      "external_id": "UCmuhqIgfk2AW8T836rF7ZAw",
+      "name": "Empact News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCmuhqIgfk2AW8T836rF7ZAw",
+      "discovered_on": "2026-09-28",
+      "score": 62.35,
+      "metrics": {
+        "subscribers": 5460,
+        "total_views": 3186590,
+        "video_count": 2925,
+        "avg_views_per_video": 1089.43,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "tiktok": "https://www.tiktok.com/@empact_news"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "IdLgy7Aeriw",
+            "title": "Albo’s new digital laws: keeping us safe or silencing our voice?",
+            "description": "Follow us on our socials to keep up to date with the latest news! TikTok: https://www.tiktok.com/@empact_news?lang=en ...",
+            "published_at": "2026-09-27T08:14:17Z",
+            "url": "https://www.youtube.com/watch?v=IdLgy7Aeriw"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-27T08:14:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UChnb-Dc92tCgRG0oQy4pN-A",
+      "external_id": "UChnb-Dc92tCgRG0oQy4pN-A",
+      "name": "Independent TV Buzz",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UChnb-Dc92tCgRG0oQy4pN-A",
+      "discovered_on": "2026-09-28",
+      "score": 60.46,
+      "metrics": {
+        "subscribers": 2310,
+        "total_views": 803958,
+        "video_count": 333,
+        "avg_views_per_video": 2414.29,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "l5Hviiv6p-w",
+            "title": "ইংলিশ লেবু এসে বদলে দেবে ‘ব্যাচেলর পয়েন্টের’ গল্প | Bachelor Point | Independent Buzz",
+            "description": "ইংলিশ লেবু এসে বদলে দেবে 'ব্যাচেলর পয়েন্টের' গল্প #itv #independentbuzz ...",
+            "published_at": "2026-09-28T15:19:32Z",
+            "url": "https://www.youtube.com/watch?v=l5Hviiv6p-w"
+          },
+          {
+            "query": "independent news",
+            "video_id": "cKVz6f2Mh98",
+            "title": "অবশেষে চাকরি পেলেন হাসান মাসুদ | Hasan Masood | Independent Buzz",
+            "description": "অবশেষে চাকরি পেলেন হাসান মাসুদ #itv #independentbuzz #hasan #masood Welcome to Independent ...",
+            "published_at": "2026-09-28T15:06:16Z",
+            "url": "https://www.youtube.com/watch?v=cKVz6f2Mh98"
+          }
+        ],
+        "channel_description": "Welcome to the official YouTube channel of Independent TV Buzz, a sister concern of Independent Television (BEXIMCO).\nIn a nation where Entertainment isn't just a game but a heartbeat, we bring you closer to the action than ever before. From the thunderous roar at Mirpur to the tactical masterclasses of the European stage, Independent Sports is your 24/7 destination for everything that moves the scoreboard.\n\n",
+        "latest_video_at": "2026-09-28T15:19:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCXSy9r5ir2SQlse7nIk_xxw",
+      "external_id": "UCXSy9r5ir2SQlse7nIk_xxw",
+      "name": "om shree shyam devaye namh",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCXSy9r5ir2SQlse7nIk_xxw",
+      "discovered_on": "2026-09-28",
+      "score": 60.32,
+      "metrics": {
+        "subscribers": 4210,
+        "total_views": 913065,
+        "video_count": 2349,
+        "avg_views_per_video": 388.7,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@omshreeshyamdevayenamhhttps"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "hlLb0wfVQrM",
+            "title": "dekhiye kya baat #latestnews #CM Rekha Gupta  ji#independence #hindi news#motivation #chief minister",
+            "description": "rent pe rahna hua kathin #yogi ji #independence day #hindi news CM Rekha Gupta ji#Modi ji #latestnews.",
+            "published_at": "2026-09-28T04:36:19Z",
+            "url": "https://www.youtube.com/watch?v=hlLb0wfVQrM"
+          }
+        ],
+        "channel_description": "Radhe Rani sarkaar ki jai🙏🦚▶️\nJai bageshwar dham sarkar ki🙏🙏🙏 👏👏👏@om shree shyam devay namh▶️▶️▶️🔱🙏 YouTube channel ne mujhe ek esa avsar diya hai jiske jariye me apni feeling ko sabi tuk pahucha saku Or me Bahut kuch apne gher ke sadasyon ke liye jo bhi help hogi iss YouTube channel ke jariye karungi shyaam baba kirpa kare hum sabhi per or me YouTube channel ko bahut dil se thank you🙏 kahna chahti hu jinhone mujhe yeh manch diya. Aap sabhi mujhe yu hi support💪 karein jisse me apne shyaam channel ko jayada grow kar paungi bacchon ka bhi bhavishya khatu wale tere hawale baba ji jai shree radhe shyaam 🙏👏\nHar har mahadev 🙏👏👏👏🔱https://www.youtube.com/@omshreeshyamdevayenamhhttps://youtube.com/@omshreeshyamdevayenamh?si=TzO-T8kq9qD22hirhttps://www.youtube.com/@omshreeshyamdevayenamhNew Delhihttps://www.youtube.com/@omshreeshyamdevayenamhjai kamdhenu ma🚩 🔱",
+        "latest_video_at": "2026-09-28T04:36:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC8sr4K1IWk6Er7HwsuXffBw",
+      "external_id": "UC8sr4K1IWk6Er7HwsuXffBw",
+      "name": "Owl My God China Documentary",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC8sr4K1IWk6Er7HwsuXffBw",
+      "discovered_on": "2026-09-28",
+      "score": 59.26,
+      "metrics": {
+        "subscribers": 15700,
+        "total_views": 1004394,
+        "video_count": 1677,
+        "avg_views_per_video": 598.92,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "UEejb0ZzuOQ",
+            "title": "Chinese Airport Staff Calls Taiwanese Traveler a Foreigner",
+            "description": "A Taiwanese YouTuber buying a SIM card at a Shanghai airport was reportedly helped by staff to install a VPN. The employee ...",
+            "published_at": "2026-09-27T17:16:26Z",
+            "url": "https://www.youtube.com/watch?v=UEejb0ZzuOQ"
+          }
+        ],
+        "channel_description": "China government's influence is felt worldwide, affecting politics, economics, technology, and culture, shaping our future. We uncover its actions globally, urging action on this important issue that affects our future and global dynamics.",
+        "latest_video_at": "2026-09-27T17:16:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0-gI3Vh0WdBYGc93gvOmuQ",
+      "external_id": "UC0-gI3Vh0WdBYGc93gvOmuQ",
+      "name": "Cough Country News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0-gI3Vh0WdBYGc93gvOmuQ",
+      "discovered_on": "2026-09-28",
+      "score": 58.9,
+      "metrics": {
+        "subscribers": 7010,
+        "total_views": 1366870,
+        "video_count": 1383,
+        "avg_views_per_video": 988.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "-ndbNDB3zfU",
+            "title": "Cannabis Creator Daniel Soto: Social Media Censorship",
+            "description": "Late Night Green welcomed Daniel Soto of The Re-Up Review for a conversation about cannabis culture, content creation, and ...",
+            "published_at": "2026-09-27T23:00:14Z",
+            "url": "https://www.youtube.com/watch?v=-ndbNDB3zfU"
+          }
+        ],
+        "channel_description": "Your number one news source for everything in Cannabis News.  No Sticks.  No Seeds.  Just News!",
+        "latest_video_at": "2026-09-27T23:00:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0Tt8uHJJEVSQgEvYcfHu4g",
+      "external_id": "UC0Tt8uHJJEVSQgEvYcfHu4g",
+      "name": "Azad krifer 26",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0Tt8uHJJEVSQgEvYcfHu4g",
+      "discovered_on": "2026-09-28",
+      "score": 54.28,
+      "metrics": {
+        "subscribers": 3060,
+        "total_views": 191098,
+        "video_count": 508,
+        "avg_views_per_video": 376.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "pEwyr5L13z4",
+            "title": "GOOD NEWS FOR BKP &amp; INDEPENDENT RAPPERS..💯🔥🎉💎🎤 UDATA TEER@emiwaybantai @ayushmannk #bkp",
+            "description": "",
+            "published_at": "2026-09-28T05:43:41Z",
+            "url": "https://www.youtube.com/watch?v=pEwyr5L13z4"
+          }
+        ],
+        "channel_description": " Alive for Hip Hop.. since 2019....plug to my channel.For more songs....peace. thank you 🙏..xxxkrifer..",
+        "latest_video_at": "2026-09-28T05:43:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCP6xBUPAaKDW4NnHq1e44ww",
+      "external_id": "UCP6xBUPAaKDW4NnHq1e44ww",
+      "name": "LEGALLOGIC BY SAKSHI",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCP6xBUPAaKDW4NnHq1e44ww",
+      "discovered_on": "2026-09-28",
+      "score": 52.54,
+      "metrics": {
+        "subscribers": 2320,
+        "total_views": 26067,
+        "video_count": 105,
+        "avg_views_per_video": 248.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "hfnpq5eFX9M",
+            "title": "Freedom of Press Ka Historic Case | Brij Bhushan 1950 #shorts #trending #legal #law",
+            "description": "Brij Bhushan v. State of Delhi (1950) is one of the earliest landmark Supreme Court judgments on Freedom of Speech, Freedom ...",
+            "published_at": "2026-09-28T07:46:49Z",
+            "url": "https://www.youtube.com/watch?v=hfnpq5eFX9M"
+          }
+        ],
+        "channel_description": "Welcome to LegalLogic by Sakshi! ⚖️\n\nLaw ko samajhna mushkil nahi hona chahiye. LegalLogic by Sakshi ka mission hai legal knowledge ko simple, practical aur easy-to-understand language mein har Indian tak pahunchana.\n\nIs channel par aapko milega:\n\n✅ Indian Laws ki simple explanation\n✅ Legal Rights & Consumer Rights Awareness\n✅ Latest Legal News & Important Court Judgments\n✅ Business, Startup & Corporate Law Insights\n✅ Cyber Law, Digital Safety & Online Fraud Awareness\n✅ Property, Family & Criminal Law Basics\n✅ Law Students aur Legal Career Guidance\n✅ Real-life Legal Cases aur Practical Legal Tips\n\nHumara goal hai ki har viewer law ko confidently samjhe aur apne rights ke baare mein aware rahe.\n\n📌 LegalLogic by Sakshi ke saath judiye aur har hafte naye legal insights, practical guidance aur authentic legal information paaiye.\n\nSubscribe karein, Bell Icon dabaiye, aur baniye LegalLogic Community ka hissa—kyunki awareness hi sabse badi legal protection hai! ⚖️\n",
+        "latest_video_at": "2026-09-28T07:46:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCLnlT89K2hLuirIAMoOt9kw",
       "external_id": "UCLnlT89K2hLuirIAMoOt9kw",
