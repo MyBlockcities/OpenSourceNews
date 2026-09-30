@@ -2,19 +2,490 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-09-29T16:33:46Z",
-  "new_this_run": 8,
-  "total_influencers": 1428,
+  "updated_at": "2026-09-30T16:26:57Z",
+  "new_this_run": 13,
+  "total_influencers": 1441,
   "run_summary": {
-    "run_started_at": "2026-09-29T16:33:24Z",
-    "candidate_count": 49,
-    "existing_count": 1420,
-    "selected_new_count": 8,
+    "run_started_at": "2026-09-30T16:26:35Z",
+    "candidate_count": 51,
+    "existing_count": 1428,
+    "selected_new_count": 13,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCehBUNNX0Tp0udYb_xGLwAg",
+      "external_id": "UCehBUNNX0Tp0udYb_xGLwAg",
+      "name": "Justina Ercole",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCehBUNNX0Tp0udYb_xGLwAg",
+      "discovered_on": "2026-09-30",
+      "score": 71.17,
+      "metrics": {
+        "subscribers": 74800,
+        "total_views": 10846151,
+        "video_count": 1061,
+        "avg_views_per_video": 10222.57,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "hLGF2y-vX1M",
+            "title": "I was wrong about functional training 😬",
+            "description": "In today's video, I'm diving deep into the concept of \"functional fitness\" and how my understanding of it has evolved over the years.",
+            "published_at": "2026-09-30T13:00:19Z",
+            "url": "https://www.youtube.com/watch?v=hLGF2y-vX1M"
+          }
+        ],
+        "channel_description": "Hi all! I'm a NYC based personal trainer hoping to make you stronger and smarter through movement.\n\nTo work with me:\nwww.justinaercole.com",
+        "latest_video_at": "2026-09-30T13:00:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7WmqSUL-ZKn5KFb5tUWAUg",
+      "external_id": "UC7WmqSUL-ZKn5KFb5tUWAUg",
+      "name": "Savage Smile tv",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC7WmqSUL-ZKn5KFb5tUWAUg",
+      "discovered_on": "2026-09-30",
+      "score": 67.43,
+      "metrics": {
+        "subscribers": 8710,
+        "total_views": 3757730,
+        "video_count": 101,
+        "avg_views_per_video": 37205.25,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "ZmB7HaGnUZE",
+            "title": "Power of calisthenics part-102 🥶☠️ #calisthenics #motivation #bodyweight",
+            "description": "Welcome to the world of Calisthenics This video is all about raw strength, discipline, bodyweight power, and street workout ...",
+            "published_at": "2026-09-30T11:45:34Z",
+            "url": "https://www.youtube.com/watch?v=ZmB7HaGnUZE"
+          }
+        ],
+        "channel_description": "Welcome to the world of Calisthenics 💪\nThis video is all about raw strength, discipline, bodyweight power, and street workout mentality.\nCalisthenics is not just a sport — it’s a lifestyle.\nIn this video, you’ll see: ✔️ Bodyweight strength\n✔️ Street workout vibes\n✔️ Muscle control & endurance\n✔️ Motivation to push past your limits\nNo excuses. No shortcuts.\nJust YOU vs YOU.\nWhether you're a beginner or advanced athlete, this calisthenics workout will inspire you to train harder, stay consistent, and build real functional strength.\nTrain anywhere. No gym needed.\nStay strong. Stay disciplined. Become unstoppable.\n👉 Subscribe for more Calisthenics, Street Workout, Motivation & Fitness Content\n👉 Like & Comment if calisthenics is your lifestyle 🔥\n#calisthenics #bodyweight #streetworkout #nogym #workout #fitness #strength\n#calisthenicsmotivation #homeworkout #discipline #mindset",
+        "latest_video_at": "2026-09-30T11:45:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKU_bN76hKx6a9T9zMb1XDA",
+      "external_id": "UCKU_bN76hKx6a9T9zMb1XDA",
+      "name": "DR JAN LIO: MEDICO FUNCIONAL",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCKU_bN76hKx6a9T9zMb1XDA",
+      "discovered_on": "2026-09-30",
+      "score": 61.99,
+      "metrics": {
+        "subscribers": 12300,
+        "total_views": 1313245,
+        "video_count": 444,
+        "avg_views_per_video": 2957.76,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "46hnhs1v9vc",
+            "title": "El secreto de la longevidad: músculo vs grasa #salud #cuerposano #fitness",
+            "description": "Músculo, corazón y grasa visceral: las 3 variables que deciden cómo envejeces. Si solo haces cardio, te falta la más importante.",
+            "published_at": "2026-09-28T23:00:14Z",
+            "url": "https://www.youtube.com/watch?v=46hnhs1v9vc"
+          }
+        ],
+        "channel_description": "¿Sientes que algo no va bien en tu cuerpo, pero tus exámenes salen 'normales'? Soy el Dr. Jan Lio y en este canal de Medicina Funcional buscamos la causa raíz de tus síntomas, no solo taparlos con pastillas.\n\nAquí aprenderás a conectar los puntos entre tu metabolismo, tus hormonas, tu sistema inmune y tu estilo de vida. Hablamos de inflamación crónica, longevidad, nutrición terapéutica, salud mental y cómo recuperar tu energía vital.\n\nLa ciencia ha avanzado: deja de tratar enfermedades y empieza a crear salud. Suscríbete y conviértete en el CEO de tu bienestar.",
+        "latest_video_at": "2026-09-28T23:00:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCyikRI2Kt8SN4JhlcVwvbZA",
+      "external_id": "UCyikRI2Kt8SN4JhlcVwvbZA",
+      "name": "Marcel Simões",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCyikRI2Kt8SN4JhlcVwvbZA",
+      "discovered_on": "2026-09-30",
+      "score": 61.95,
+      "metrics": {
+        "subscribers": 19100,
+        "total_views": 500609,
+        "video_count": 505,
+        "avg_views_per_video": 991.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "Ph2484rVdlo",
+            "title": "Mensalistas virando Pass como equilibrar isso? #gympass #crossfit #treinamentofuncional #dicas",
+            "description": "",
+            "published_at": "2026-09-30T15:00:20Z",
+            "url": "https://www.youtube.com/watch?v=Ph2484rVdlo"
+          }
+        ],
+        "channel_description": "Por aqui eu ensino donos e donas de Box, Studio ou CT de qualquer modalidade a conseguirem um faturamento acima de R$20mil por mês, conseguindo ter mais de 100 alunos ativos!\n\nSe inscreva no canal para acomapnhar mais conteúdos exclusivos por aqui!\n",
+        "latest_video_at": "2026-09-30T15:00:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCBDsPj6a4h_1Oo9DzvjIhYg",
+      "external_id": "UCBDsPj6a4h_1Oo9DzvjIhYg",
+      "name": "KristianKfitness",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCBDsPj6a4h_1Oo9DzvjIhYg",
+      "discovered_on": "2026-09-30",
+      "score": 60.98,
+      "metrics": {
+        "subscribers": 2500,
+        "total_views": 771721,
+        "video_count": 708,
+        "avg_views_per_video": 1090.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/kristiankfitness"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "FPqjizTCCGE",
+            "title": "functional training won&#39;t build your physique (unless you do this)",
+            "description": "Coaching & info: (limited availability) https://kristiankfitness.com/work-with-me/ IG: https://www.instagram.com/kristiankfitness/ ...",
+            "published_at": "2026-09-30T14:19:20Z",
+            "url": "https://www.youtube.com/watch?v=FPqjizTCCGE"
+          }
+        ],
+        "channel_description": "Just a dude living in Thailand, training hard, helping others get fit along the way.\n",
+        "latest_video_at": "2026-09-30T14:19:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCODdqEVvFEr5V4ODxsz9tMw",
+      "external_id": "UCODdqEVvFEr5V4ODxsz9tMw",
+      "name": "Advanced Aesthetics Lopez Plastic Surgery  ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCODdqEVvFEr5V4ODxsz9tMw",
+      "discovered_on": "2026-09-30",
+      "score": 60.39,
+      "metrics": {
+        "subscribers": 2270,
+        "total_views": 1075929,
+        "video_count": 113,
+        "avg_views_per_video": 9521.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "lOaQdaYi2nY",
+            "title": "Let&#39;s talk more about Peptides with Nurse Vicki",
+            "description": "Better rest. Calmer days. Sharper focus. ✨ RN Vicki is breaking down three peptides being explored for sleep, stress support, ...",
+            "published_at": "2026-09-29T16:39:27Z",
+            "url": "https://www.youtube.com/watch?v=lOaQdaYi2nY"
+          }
+        ],
+        "channel_description": "The San Antonio Facelift Doctor\n\nDr. Manuel A. Lopez offers his patients the finest in facial reconstructive & plastic surgery techniques to achieve your aesthetic and reconstructive goals. Whether the goal is a subtle change in appearance in order to look more youthful or a more elaborate procedure, he is dedicated to providing the highest level of comprehensive care for a functional and beautiful result that you can be proud of. Dr. Lopez combines meticulous technical skill with an artistic eye to give you the best possible outcome.",
+        "latest_video_at": "2026-09-29T16:39:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRXmxbm5pAGLPMdJXxzGKuQ",
+      "external_id": "UCRXmxbm5pAGLPMdJXxzGKuQ",
+      "name": "Henrique Wealth Academy",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCRXmxbm5pAGLPMdJXxzGKuQ",
+      "discovered_on": "2026-09-30",
+      "score": 58.28,
+      "metrics": {
+        "subscribers": 4470,
+        "total_views": 446176,
+        "video_count": 319,
+        "avg_views_per_video": 1398.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "ihZCnTYWCPk",
+            "title": "Without THIS, Your Portfolio Is Worth $0",
+            "description": "If a doctor told you that one pill would save your life and it cost $1 million, would you pay? Almost everyone would. That means ...",
+            "published_at": "2026-09-30T08:00:11Z",
+            "url": "https://www.youtube.com/watch?v=ihZCnTYWCPk"
+          }
+        ],
+        "channel_description": "I'm Henrique Centieiro — call me Henri! Hedge Fund Manager at Maverick Capital, wealth educator, and founder of Henrique Wealth Academy.\n🚀 Join my private investing community — trade alerts, exclusive indicators & 15 courses ($8k+ value):\n → https://www.skool.com/be-limitless/\n\nOn this channel, I break down everything I've learned across 20+ years in investing and finance — stocks, crypto, ETFs, leveraged ETFs, blockchain, DeFi, and wealth-building strategies.\n\nWhat you'll find here:\n • Trade ideas & market analysis (stocks, crypto, ETFs)\n • Investing education — beginner to advanced\n • Crypto, blockchain, DeFi & fintech deep dives\n • Investor psychology & wealth-building strategies\n\nI've taught 65,000+ students across 17+ courses, and my mission is simple: help everyday investors achieve real financial freedom.\n\nNew here? Subscribe and let's build some wealth together. 🦾\n",
+        "latest_video_at": "2026-09-30T08:00:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:d3d864a756e4ee5dcde1",
+      "external_id": "d3d864a756e4ee5dcde1",
+      "name": "anaguma",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/DgnQRGeGD27unRcGv/tristan-buckmaster-numberphile-interview-transcript",
+      "discovered_on": "2026-09-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Tristan Buckmaster Numberphile Interview Transcript"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:99ca5d3cda11196eba41",
+      "external_id": "99ca5d3cda11196eba41",
+      "name": "Tom Angsten",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/KeBccWBGXnNXzZFBp/do-vpd-s-explanations-aggregate-an-audit-of-the-released-1",
+      "discovered_on": "2026-09-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Do VPD's Explanations Aggregate? An Audit of the Released Decomposition"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f0739fd380d6f6c37f14",
+      "external_id": "f0739fd380d6f6c37f14",
+      "name": "Michael Albertus",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/oceans-seas/scramble-open-seas",
+      "discovered_on": "2026-09-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Scramble for the Open Seas"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8a2135d6513530f87b6f",
+      "external_id": "8a2135d6513530f87b6f",
+      "name": "Dmytro Kuleba",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/russias-plan-break-ukraine-dmytro-kuleba",
+      "discovered_on": "2026-09-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Russia’s Plan to Break Ukraine"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c78c2fc07eeb2e01ea45",
+      "external_id": "c78c2fc07eeb2e01ea45",
+      "name": "Dan Restrepo, Ricardo Zuniga",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/latin-america/two-shocks-upending-latin-america",
+      "discovered_on": "2026-09-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Two Shocks Upending Latin America"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:640490df6a1fb3cd42ab",
+      "external_id": "640490df6a1fb3cd42ab",
+      "name": "Alex Kastner",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/MzenSrmZ3pT2pCnvp/frontier-models-state-different-decision-theory-preferences-2",
+      "discovered_on": "2026-09-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Frontier models state different decision theory preferences depending on who's asking"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCL1rguERYo-qJ_cDuPef9QA",
       "external_id": "UCL1rguERYo-qJ_cDuPef9QA",

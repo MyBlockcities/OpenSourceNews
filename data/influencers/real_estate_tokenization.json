@@ -2,19 +2,146 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-09-29T16:33:31Z",
-  "new_this_run": 3,
-  "total_influencers": 322,
+  "updated_at": "2026-09-30T16:26:41Z",
+  "new_this_run": 4,
+  "total_influencers": 326,
   "run_summary": {
-    "run_started_at": "2026-09-29T16:33:24Z",
-    "candidate_count": 39,
-    "existing_count": 319,
-    "selected_new_count": 3,
+    "run_started_at": "2026-09-30T16:26:35Z",
+    "candidate_count": 44,
+    "existing_count": 322,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCE97Om5MNMXOph9M4NVTA8w",
+      "external_id": "UCE97Om5MNMXOph9M4NVTA8w",
+      "name": "Crypto Educate ",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCE97Om5MNMXOph9M4NVTA8w",
+      "discovered_on": "2026-09-30",
+      "score": 64.9,
+      "metrics": {
+        "subscribers": 37700,
+        "total_views": 576808,
+        "video_count": 388,
+        "avg_views_per_video": 1486.62,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "XXQMaOfCkVM",
+            "title": "Kaspa vs Bitcoin; Why Covenants++ Changes Everything, 1M KAS At $1 And Beyond, Kaspa vs Bitcoin",
+            "description": "Kaspa is entering real-world real estate. Bayit Development plans to accept KAS for two luxury townhomes in Miami. Covenants++ ...",
+            "published_at": "2026-09-30T15:30:38Z",
+            "url": "https://www.youtube.com/watch?v=XXQMaOfCkVM"
+          }
+        ],
+        "channel_description": "Welcome to my channel CRYPTO EDUCATE, where you get  latest updates and predictions on cryptocurrency based on technical analysis. Click the Red SUBSCRIBE button and tap the LIKE 👍 button for support. \n\nKnowledge is POWER. I’m not a financial advisor, Make sure you do your own research.\nThe crypto market growth is nothing shorts of phenomenal. It’s like watching a sci-fi movie come to life. As we move forward, it’s going to be exciting to see what new innovations and developments will shape the future of finance and technology. Stay educated and informed is key in the fast paced world of crypto. \n\nFor business proposal email\nCryptobullish434@gmail.com",
+        "latest_video_at": "2026-09-30T15:30:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:8ba37098987c3c5ea17a",
+      "external_id": "8ba37098987c3c5ea17a",
+      "name": "Utkarsh Ahuja",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/09/30/crypto-long-and-short-what-will-the-ai-agents-run-on",
+      "discovered_on": "2026-09-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto Long & Short: What will the AI agents run on?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:073ff15aa24c92b04995",
+      "external_id": "073ff15aa24c92b04995",
+      "name": "Joris Delanoue",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/09/30/the-sec-is-finally-modernizing-transfer-agent-rules-wall-street-must-not-repeat-the-paperwork-crisis",
+      "discovered_on": "2026-09-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "The SEC Is finally modernizing transfer-agent rules. Wall Street must not repeat the ‘paperwork crisis’"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:0d97cb7044dbb1a39947",
+      "external_id": "0d97cb7044dbb1a39947",
+      "name": "Cointelegraph by Simon Schneider",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://cointelegraph.com/opinion/a-single-market-worth-protecting-getting-the-mica-review-right?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-09-30",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "A single market worth protecting: Getting the MiCA review right"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCkNZUex-NLCCpUGI5jeXYxQ",
       "external_id": "UCkNZUex-NLCCpUGI5jeXYxQ",

@@ -2,19 +2,424 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-29T16:33:43Z",
-  "new_this_run": 5,
-  "total_influencers": 383,
+  "updated_at": "2026-09-30T16:26:53Z",
+  "new_this_run": 9,
+  "total_influencers": 392,
   "run_summary": {
-    "run_started_at": "2026-09-29T16:33:24Z",
-    "candidate_count": 17,
-    "existing_count": 378,
-    "selected_new_count": 5,
+    "run_started_at": "2026-09-30T16:26:35Z",
+    "candidate_count": 15,
+    "existing_count": 383,
+    "selected_new_count": 9,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCe2B-q7U9wxqSa6_haVeC7g",
+      "external_id": "UCe2B-q7U9wxqSa6_haVeC7g",
+      "name": "Denão Cardoso - Mundo Hormonal",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCe2B-q7U9wxqSa6_haVeC7g",
+      "discovered_on": "2026-09-30",
+      "score": 69.37,
+      "metrics": {
+        "subscribers": 29200,
+        "total_views": 2237153,
+        "video_count": 134,
+        "avg_views_per_video": 16695.17,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "cUzi4gFwRgw",
+            "title": "BPC-157: Será ele o melhor peptídeo de todos?! (Uso sempre)",
+            "description": "______ Contato dos Peptideos e Produtos Premium: https://wa.link/ytdenao ➡️Grupo Gratuito no Telegram: ...",
+            "published_at": "2026-09-29T20:00:08Z",
+            "url": "https://www.youtube.com/watch?v=cUzi4gFwRgw"
+          }
+        ],
+        "channel_description": "🧬️Canal Mundo Hormonal do Denão Cardoso🧬️\n\nO canal número 1 pra quem quer hackear hormônios, mente e metabolismo. Bioquímica aplicada pra performance, longevidade e potência masculina.\n\n✔️Vídeos novos toda semana!\n\nAproveite o canal.\n",
+        "latest_video_at": "2026-09-29T20:00:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC33sA7p7tHPQ3VehpHbdaCQ",
+      "external_id": "UC33sA7p7tHPQ3VehpHbdaCQ",
+      "name": "DokterPhaidon",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC33sA7p7tHPQ3VehpHbdaCQ",
+      "discovered_on": "2026-09-30",
+      "score": 66.86,
+      "metrics": {
+        "subscribers": 27200,
+        "total_views": 1986155,
+        "video_count": 343,
+        "avg_views_per_video": 5790.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "pfA0IntaD44",
+            "title": "waspada soal peptide #langsing #langsingsehat #kurus #kuruscepat #sehat #beratbadan#olahraga",
+            "description": "",
+            "published_at": "2026-09-30T08:31:37Z",
+            "url": "https://www.youtube.com/watch?v=pfA0IntaD44"
+          }
+        ],
+        "channel_description": "Konsultasi kesehatan alami \n\nPraktisi nyeri muskuloskeletal \n\n✓ nyeri pinggang/ saraf kejepit\n✓ nyeri bokong/ piriformis syndrome\n✓ nyeri lutut /knee pain\n✓ nyeri leher / stiff neck\n✓ nyeri bahu/ Frozen shoulder \n\nKonsultasi program kesehatan pria secara alami dengan latar belakang \n✓ diabetes \n✓ hipertensi\n✓ kolesterol\n✓ penuaan \n\nJakarta Anti Aging Center \nHotel Grandhika \nJalan Iskandarsyah Raya no 65 \nJakarta Selatan \n\nAdmin  08180848 9819",
+        "latest_video_at": "2026-09-30T08:31:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCHFQP2OJDi_HlrSDJTgGxUg",
+      "external_id": "UCHFQP2OJDi_HlrSDJTgGxUg",
+      "name": "Gabarra Advocacia Previdenciária",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCHFQP2OJDi_HlrSDJTgGxUg",
+      "discovered_on": "2026-09-30",
+      "score": 60.04,
+      "metrics": {
+        "subscribers": 9660,
+        "total_views": 1278241,
+        "video_count": 1196,
+        "avg_views_per_video": 1068.76,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "MpogTqdTNf0",
+            "title": "Peptídeos: O que são as &quot;canetinhas&quot;? #shorts",
+            "description": "O que são as famosas \"canetinhas\" injetáveis? São peptídeos estudados e desenvolvidos em laboratório, como a insulina, para ...",
+            "published_at": "2026-09-29T22:57:42Z",
+            "url": "https://www.youtube.com/watch?v=MpogTqdTNf0"
+          }
+        ],
+        "channel_description": "Aposentadoria, INSS e Direito Previdenciário de Alta Performance | Gabarra Advocacia\n\nHá mais de 20 anos transformamos ansiedade jurídica em segurança.\n\nCoautor citado +10x no Congresso na Reforma da Previdência. \nHabilidade Extraordinária — Top 1% Mundial (governo americano). \nAutor de \"Meu INSS, Uma OVA\" — playlist no canal.\n\nEspecialistas em:\n✅ Aposentadoria do Servidor Público (RPPS)\n✅ Aposentadoria Especial — Saúde (médicos, dentistas, enfermeiros, farmacêuticos)\n✅ Benefícios por Incapacidade e Acidentes de Trabalho (NTEP)\n✅ Previdência Internacional — Acordo Brasil/EUA\n✅ Planejamento e Revisão de Benefícios\n\nBrasil e brasileiros nos EUA. +100 avaliações 5,0 Google.\n\nPODE+ Brasil 🎙️ com Lilian Gracioli, quartas 20h.\n\n📆 www.gabarra.adv.br\n💬 wa.me/551634422012\n\n#INSS #Previdenciario #Aposentadoria #PodemaisBrasil #AcordoBrasilEUA\n",
+        "latest_video_at": "2026-09-29T22:57:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCfWWN_4IhMZJOXjvj8FDKIQ",
+      "external_id": "UCfWWN_4IhMZJOXjvj8FDKIQ",
+      "name": "Hormone Solution | Menopause & HRT",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCfWWN_4IhMZJOXjvj8FDKIQ",
+      "discovered_on": "2026-09-30",
+      "score": 59.75,
+      "metrics": {
+        "subscribers": 8830,
+        "total_views": 494834,
+        "video_count": 466,
+        "avg_views_per_video": 1061.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "ctp3Q7lj_f4",
+            "title": "The Midlife Peptide Guide: Energy, Muscle, Recovery, Skin, Sleep &amp; Libido",
+            "description": "Peptides are everywhere right now, but which ones actually make sense for women in midlife? In this episode, I sit down with Dr.",
+            "published_at": "2026-09-30T13:24:00Z",
+            "url": "https://www.youtube.com/watch?v=ctp3Q7lj_f4"
+          }
+        ],
+        "channel_description": "The Hormone Solution is a top 1% women’s health podcast focused on perimenopause, menopause, hormone replacement therapy (HRT), midlife weight gain, metabolism, thyroid health, and bioidentical hormones.\nHosted by Certified Hormone Specialist Karen Martel, this channel helps women in their 40s and 50s understand hormone imbalance, estrogen dominance, low progesterone, testosterone decline, brain fog, poor sleep, and menopause weight gain — and what to do about it.\nEach episode features leading experts in women’s health, functional medicine, and hormone therapy who break down complex research into clear, practical strategies for:\n• HRT after 40\n• Perimenopause symptoms\n• Menopause treatment options\n• Weight loss in midlife\n• Thyroid and metabolic health\n• Bioidentical hormone therapy\nKaren is the founder of Midlife Solutions, a functional hormone clinic offering virtual HRT support across all 50 states.\nWatch the video podcast here or listen wherever you get your podcasts.\n\n\n\n\n\n\n\n",
+        "latest_video_at": "2026-09-30T13:24:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC3sD8K0Eetmfa-n8-Z00H6Q",
+      "external_id": "UC3sD8K0Eetmfa-n8-Z00H6Q",
+      "name": "Exiled Medic Wizard",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC3sD8K0Eetmfa-n8-Z00H6Q",
+      "discovered_on": "2026-09-30",
+      "score": 59.65,
+      "metrics": {
+        "subscribers": 4480,
+        "total_views": 3099241,
+        "video_count": 1186,
+        "avg_views_per_video": 2613.19,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "WUmI0ZPQ3Ro",
+            "title": "Peptide Supplements: Die Wahrheit über BPC-157 &amp; mehr",
+            "description": "BPC-157, Lirazutid und KPV – welche Peptide wirklich helfen. Ein Blick auf potenzielle Vorteile bei Entzündungen und ...",
+            "published_at": "2026-09-29T17:55:02Z",
+            "url": "https://www.youtube.com/watch?v=WUmI0ZPQ3Ro"
+          }
+        ],
+        "channel_description": "⚠️ | “Kein Medizinischer Rat” \n🌿 | Entgiftung und Naturheilmittel\n💚 | „WIZARD“ für -10% Rabatt (www.nature-heart.de/WIZARD)\n🎞️ | Clips von @exiled.medic.de\n⬇️ | Supplements & Vitamine ",
+        "latest_video_at": "2026-09-29T17:55:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCwFqWqvL2_15m905YcANF2A",
+      "external_id": "UCwFqWqvL2_15m905YcANF2A",
+      "name": "Dr Adeel Khan & Eterna Health ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCwFqWqvL2_15m905YcANF2A",
+      "discovered_on": "2026-09-30",
+      "score": 59.3,
+      "metrics": {
+        "subscribers": 6610,
+        "total_views": 911910,
+        "video_count": 707,
+        "avg_views_per_video": 1289.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "XbWAI8LRfQU",
+            "title": "What Most People Get Wrong About Peptides #shorts",
+            "description": "Most people have heard of peptides by now, but here's what they actually are: a peptide is essentially a baby protein, a chain of ...",
+            "published_at": "2026-09-29T17:02:14Z",
+            "url": "https://www.youtube.com/watch?v=XbWAI8LRfQU"
+          }
+        ],
+        "channel_description": "Welcome to the official YouTube channel of Dr, Adeel Khan and Eterna Health, your premier destination for cutting-edge regenerative medicine, wellness, and anti-aging solutions. Here, you'll find expert insights, educational content, and the latest advancements in health and wellness designed to help you live your best life at any age. Our channel features in-depth discussions with leading medical professionals, behind-the-scenes looks at innovative treatments, and practical tips for maintaining optimal health and vitality. Whether you're interested in our advanced skincare line, cutting-edge therapies, or holistic wellness strategies, Eterna Health is here to guide you on your journey to a longer, healthier, and more vibrant life. Subscribe now and join our community dedicated to pushing the boundaries of what's possible in health and longevity.",
+        "latest_video_at": "2026-09-29T17:02:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCTDVMjJhkB-u-7gu6ykN9Hg",
+      "external_id": "UCTDVMjJhkB-u-7gu6ykN9Hg",
+      "name": "Long Haul Mentality",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCTDVMjJhkB-u-7gu6ykN9Hg",
+      "discovered_on": "2026-09-30",
+      "score": 58.97,
+      "metrics": {
+        "subscribers": 5890,
+        "total_views": 519494,
+        "video_count": 398,
+        "avg_views_per_video": 1305.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "09wMqgaQKds",
+            "title": "Overnight Experts &amp; Overhyped Peptides | Grey Matter Training | Long Haul Mentality",
+            "description": "Mike White and Paul Romzek of Grey Matter Training are back — this time together — to talk about how to spot a fake expert in the ...",
+            "published_at": "2026-09-29T17:00:01Z",
+            "url": "https://www.youtube.com/watch?v=09wMqgaQKds"
+          }
+        ],
+        "channel_description": "To educate others on how to make fitness last a lifetime",
+        "latest_video_at": "2026-09-29T17:00:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCaXAULzykIQKpmG3vuT2jXg",
+      "external_id": "UCaXAULzykIQKpmG3vuT2jXg",
+      "name": "Health Education TV",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCaXAULzykIQKpmG3vuT2jXg",
+      "discovered_on": "2026-09-30",
+      "score": 58.79,
+      "metrics": {
+        "subscribers": 3560,
+        "total_views": 906408,
+        "video_count": 373,
+        "avg_views_per_video": 2430.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "Fih-XzQTIFo",
+            "title": "GLP-1 Drugs: What Really Happens to Your Body? | Benefits &amp; Risks Explained",
+            "description": "GLP-1 Drugs: What Really Happens to Your Body? | Benefits & Risks Explained GLP-1 medicines have changed the conversation ...",
+            "published_at": "2026-09-29T19:46:39Z",
+            "url": "https://www.youtube.com/watch?v=Fih-XzQTIFo"
+          }
+        ],
+        "channel_description": "Welcome to Health Education TV — your trusted channel for simple, informative, and educational health content.\nAt Health Education TV, we upload daily videos covering a wide range of health topics, including the human body, nutrition, healthy lifestyle, common health facts, medical education, and 3D medical animations. Our goal is to explain complex health information in an easy-to-understand and engaging way.\nHealth Education TV brings you educational videos designed to help you learn more about your body, health, and everyday wellness. Every video focuses on useful information presented in a clear and visually engaging format.\nSubscribe to Health Education TV and turn on notifications 🔔 for daily health education videos, interesting medical facts, and informative content.\nHealth Education TV — Learn More. Understand Your Health.\n",
+        "latest_video_at": "2026-09-29T19:46:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCaIFkfd3ckCZpGM3WXV03jQ",
+      "external_id": "UCaIFkfd3ckCZpGM3WXV03jQ",
+      "name": "The Raw Dose",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCaIFkfd3ckCZpGM3WXV03jQ",
+      "discovered_on": "2026-09-30",
+      "score": 48.63,
+      "metrics": {
+        "subscribers": 2230,
+        "total_views": 6916,
+        "video_count": 64,
+        "avg_views_per_video": 108.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "No1XzJSMlc8",
+            "title": "When BPC Failed the Shoulder | ft. Dr Sam Robbins",
+            "description": "The same peptide that saved his hips did almost nothing for a locked-up shoulder. Then a second vial sitting in the drawer ...",
+            "published_at": "2026-09-27T23:05:56Z",
+            "url": "https://www.youtube.com/watch?v=No1XzJSMlc8"
+          }
+        ],
+        "channel_description": "Welcome to The Raw Dose – your go-to spot for honest, natural beauty and wellness remedies.\n\nThe Raw Dose delivers no-fluff guidance and results you can feel.\n\n🎥 New videos weekly\n🔍 Backed by research, tested by real people\n💬 Simple, practical, and always to the point\n\nSubscribe and get your dose of real beauty — naturally.\n",
+        "latest_video_at": "2026-09-27T23:05:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UC-fWDAObYTwRQ5QIjFmWLcw",
       "external_id": "UC-fWDAObYTwRQ5QIjFmWLcw",

@@ -2,19 +2,363 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-29T16:33:34Z",
-  "new_this_run": 11,
-  "total_influencers": 686,
+  "updated_at": "2026-09-30T16:26:43Z",
+  "new_this_run": 8,
+  "total_influencers": 694,
   "run_summary": {
-    "run_started_at": "2026-09-29T16:33:24Z",
-    "candidate_count": 23,
-    "existing_count": 675,
-    "selected_new_count": 11,
+    "run_started_at": "2026-09-30T16:26:35Z",
+    "candidate_count": 22,
+    "existing_count": 686,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCzDwapMWqoitI9Wv6nA7AYw",
+      "external_id": "UCzDwapMWqoitI9Wv6nA7AYw",
+      "name": "KATVchannel7",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCzDwapMWqoitI9Wv6nA7AYw",
+      "discovered_on": "2026-09-30",
+      "score": 70.92,
+      "metrics": {
+        "subscribers": 95600,
+        "total_views": 68501233,
+        "video_count": 10555,
+        "avg_views_per_video": 6489.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "vY7_BJHTI5A",
+            "title": "CALS to fund defense if librarians charged under obscene material censorship law",
+            "description": "The Central Arkansas Library System board has voted to fund the legal defense of its employees if they are charged under a state ...",
+            "published_at": "2026-09-29T23:45:39Z",
+            "url": "https://www.youtube.com/watch?v=vY7_BJHTI5A"
+          }
+        ],
+        "channel_description": "KATV is Arkansas' #1 source for news and weather. Providing local coverage in Little Rock and Central Arkansas. #ARnews ",
+        "latest_video_at": "2026-09-29T23:45:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTCUEnCvUMWmQBCTq8VSjqg",
+      "external_id": "UCTCUEnCvUMWmQBCTq8VSjqg",
+      "name": "GamesJoshua",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCTCUEnCvUMWmQBCTq8VSjqg",
+      "discovered_on": "2026-09-30",
+      "score": 70.34,
+      "metrics": {
+        "subscribers": 46800,
+        "total_views": 27675901,
+        "video_count": 2050,
+        "avg_views_per_video": 13500.44,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "EfhoH4T_BvQ",
+            "title": "ROBTOP AÑADE CENSURA 🚨 NUEVA VERIFICACIÓN de ZOINK🔥 GUITAR CRITICADO POR...👀 - NEWS DASH",
+            "description": "Linea de tiempo 0:00 Intro 0:20 RobTop hace cambios 1:57 Escalator 62% 2:45 Trick jugará Grief? 4:41 Info sobre Orochi 5:15 ...",
+            "published_at": "2026-09-29T22:00:33Z",
+            "url": "https://www.youtube.com/watch?v=EfhoH4T_BvQ"
+          }
+        ],
+        "channel_description": "🌊ola bienvenido a mi canal\n\n🐧En este canal encontrarás el mejor contenido sobre #geometrydash podrás ver noticias, curiosidades, actualizaciones, gameplays, documentales y mucho más sobre este juego que tanto nos gusta.\n\n👇Redes aquí abajo👇\n",
+        "latest_video_at": "2026-09-29T22:00:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCj5D886bjSUklMNAtcBwenA",
+      "external_id": "UCj5D886bjSUklMNAtcBwenA",
+      "name": "Junket Entretenimiento ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCj5D886bjSUklMNAtcBwenA",
+      "discovered_on": "2026-09-30",
+      "score": 69.17,
+      "metrics": {
+        "subscribers": 32700,
+        "total_views": 41942459,
+        "video_count": 3234,
+        "avg_views_per_video": 12969.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "t1fhQlusXvM",
+            "title": "Gloria Trevi y Ninel Conde sufren revés legal: editorial gana juicio y tumba intento de censura",
+            "description": "Gloria Trevi enfrenta un duro revés legal luego de que Penguin Random House denunciara al IMPI por actuar como órgano de ...",
+            "published_at": "2026-09-29T21:29:24Z",
+            "url": "https://www.youtube.com/watch?v=t1fhQlusXvM"
+          }
+        ],
+        "channel_description": "No te pierdas todo lo que pasa en el mundo del entretenimiento: Conciertos 🎙️Tendencias 📱 Y muchas cosas ",
+        "latest_video_at": "2026-09-29T21:29:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCNNjm8FprfhvcOoLpBj69tw",
+      "external_id": "UCNNjm8FprfhvcOoLpBj69tw",
+      "name": "Daraj Media",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCNNjm8FprfhvcOoLpBj69tw",
+      "discovered_on": "2026-09-30",
+      "score": 68.64,
+      "metrics": {
+        "subscribers": 56700,
+        "total_views": 17950999,
+        "video_count": 3815,
+        "avg_views_per_video": 4705.37,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "aEABR12ERnU",
+            "title": "الصحافة المستقلّة في العالم العربي تحت الاستهداف | Independent Journalism Under Attack",
+            "description": "اعتقلت السلطات المصرية صحافيين في منصّة \"متصدقش\" المستقلّة المعنيّة بالتحقّق والتدقيق في المعلومات وهم: محمّد أشرف، عبدالله ...",
+            "published_at": "2026-09-30T12:47:02Z",
+            "url": "https://www.youtube.com/watch?v=aEABR12ERnU"
+          }
+        ],
+        "channel_description": "هنا.. القصة الثالثة ..\nالمهنة صارت على محك انقسام لا شفاء منه، وقصتنا الصحافية نحن في العالم العربي، وهي قصة العالم أيضاً، صارت قصتين. ولم يعد ممكناً في ظل الإعلام الممول من هذا الانقسام السياسي تعقب الوقائع وصياغتها وتقديمها للقارىء من دون إخضاعها لمنطق الانحياز الذي يشطر إقليمنا. لكل حدث قصتين، ولكل قتيلٍ قاتلين، فيما الوصول إلى الحقيقة لا يقتضي جهداً بقدر ما يقتضي قدرة على التخفف من هذا الانقسام.\n\nلكن لن نكون القصة الرمادية بل سنكون راديكاليين في قولنا قصة مجردة من الوظيفة السياسية، لتكون مادة صحافية عارية من أي قول آخر.. \n\"درج\" يسعى لأن يكون صلة وصل وعبور بين قارىء جديد وصحافي جديد. والقصة المُنتجة أمامها مهمة إقناع وفق شروط مختلفة. كيف يمكن فرضها على متصفح من هاتفه، وعلى سيدة لم يسبق أن كانت جزءاً من طموح الصحافة المكتوبة، وعلى طالب جامعي يملك مهارات تؤهله لأن يكون صحافياً فرداً ينافسنا بمدونته؟\nنشعر أن المهنة أمام فرصة جديدة، وأننا لسنا على شفير انهيار القطاع. التكنولوجيا فرصة هائلة على الصحافي أن يختبرها، وبوادر الثمار التي لاحت في الغرب تؤشر إلى أن الحاجة إلى هذه السلطة قائمة ",
+        "latest_video_at": "2026-09-30T12:47:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCdRhbHGU6FRZy0l65uY7CwQ",
+      "external_id": "UCdRhbHGU6FRZy0l65uY7CwQ",
+      "name": "Lo Sgabuzzino di Riccardo Bocca",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCdRhbHGU6FRZy0l65uY7CwQ",
+      "discovered_on": "2026-09-30",
+      "score": 63.32,
+      "metrics": {
+        "subscribers": 9350,
+        "total_views": 2894106,
+        "video_count": 571,
+        "avg_views_per_video": 5068.49,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "XWxWaEydjIo",
+            "title": "Saverio Raimondo: &quot;È impossibile censurare i comici&quot; | Lo sgabuzzino di Youtube",
+            "description": "Riccardo Bocca ospita ogni settimana nel suo Sgabuzzino i protagonisti dell'attualità, delle cronache e dello spettacolo. Dialoghi ...",
+            "published_at": "2026-09-30T16:00:01Z",
+            "url": "https://www.youtube.com/watch?v=XWxWaEydjIo"
+          }
+        ],
+        "channel_description": "Ogni giorno il mio commento ai fatti dell'attualità. Senza censure, con chiarezza, sempre nel rispetto degli altri. Un altro modo di entrare nelle notizie per commentarle insieme. Benvenuti nella Libera Repubblica dello Sgabuzzino",
+        "latest_video_at": "2026-09-30T16:00:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOszgB0lT2YmSARshw9xN3g",
+      "external_id": "UCOszgB0lT2YmSARshw9xN3g",
+      "name": "Liberty Nation News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCOszgB0lT2YmSARshw9xN3g",
+      "discovered_on": "2026-09-30",
+      "score": 63.13,
+      "metrics": {
+        "subscribers": 16100,
+        "total_views": 12221392,
+        "video_count": 5637,
+        "avg_views_per_video": 2168.07,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "aawRmUyQjK8",
+            "title": "Book Burning: The Double Standard of Censorship Revealed",
+            "description": "The fight for free speech is crucial. When censorship silences conservative voices in libraries and schools, the answer isn't less ...",
+            "published_at": "2026-09-29T22:42:25Z",
+            "url": "https://www.youtube.com/watch?v=aawRmUyQjK8"
+          }
+        ],
+        "channel_description": "A conservative, constitutionally based perspective on the news featuring: Commentary that applies the founding principles to the issues of the day. Breaking news – be in the know without the spin. Front and Center – original articles that don’t tell you how or what to think. Liberty First! - Liberty Nation’s Daily Briefing for Free-Thinking Americans. Liberty Nation Radio - civil discourse that lets freedom ring. Conservative 5 TV – compelling dialogue from the right. Swamponomics – exploring the dollars and making sense of it all. And, of course, Political Humor with cartoons and memes to help keep you sane.",
+        "latest_video_at": "2026-09-29T22:42:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCp_8zXRcy7sadhvGlntPg4w",
+      "external_id": "UCp_8zXRcy7sadhvGlntPg4w",
+      "name": "Nerds em Cortes ⭐",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCp_8zXRcy7sadhvGlntPg4w",
+      "discovered_on": "2026-09-30",
+      "score": 63.03,
+      "metrics": {
+        "subscribers": 2130,
+        "total_views": 3439446,
+        "video_count": 98,
+        "avg_views_per_video": 35096.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "bTKvbs_UWZQ",
+            "title": "Censura e Fake News: Ameaças à Liberdade de Expressão no Brasil #shorts",
+            "description": "Mais de duas mil publicações com fake news sobre a eleição foram derrubadas. O filho pergunta sobre censura e liberdade de ...",
+            "published_at": "2026-09-30T11:43:08Z",
+            "url": "https://www.youtube.com/watch?v=bTKvbs_UWZQ"
+          }
+        ],
+        "channel_description": "\"Os melhores cortes sobre tecnologia, cultura pop, curiosidades, games e assuntos que estão bombando. Vídeos curtos e diretos todos os dias.\"",
+        "latest_video_at": "2026-09-30T11:43:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCPpX087zizqPD_vndTCBiYg",
+      "external_id": "UCPpX087zizqPD_vndTCBiYg",
+      "name": "광주보라",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCPpX087zizqPD_vndTCBiYg",
+      "discovered_on": "2026-09-30",
+      "score": 58.61,
+      "metrics": {
+        "subscribers": 15300,
+        "total_views": 2743390,
+        "video_count": 9478,
+        "avg_views_per_video": 289.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "xs6FEEYUVfk",
+            "title": "언론 통제 속에서도 / 천장과 항아리에 숨겨 지켜낸 사진들",
+            "description": "5·18 당시 외부 언론 보도가 철저히 통제된 상황에서 시민들이 현장을 기록한 사진을 천장과 항아리에 숨겨가며 지켜냈고, 이 사진들이 ...",
+            "published_at": "2026-09-30T01:04:36Z",
+            "url": "https://www.youtube.com/watch?v=xs6FEEYUVfk"
+          }
+        ],
+        "channel_description": "광주MBC 라디오 공식 유튜브 채널입니다!\n월-금 08:00-09:00 [시사인터뷰 오늘]\n월-금 낮 12시-2시 [정오의 희망곡] \n           오후 3시-4시 [놀라운 3시] \n\n구독^^ 좋아요^^ 알람 설정^^ 감사합니다",
+        "latest_video_at": "2026-09-30T01:04:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCrGNYo4n2qT9z52qtevon4Q",
       "external_id": "UCrGNYo4n2qT9z52qtevon4Q",
