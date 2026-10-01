@@ -2,19 +2,478 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-09-30T16:26:53Z",
-  "new_this_run": 9,
-  "total_influencers": 392,
+  "updated_at": "2026-10-01T17:04:26Z",
+  "new_this_run": 10,
+  "total_influencers": 402,
   "run_summary": {
-    "run_started_at": "2026-09-30T16:26:35Z",
-    "candidate_count": 15,
-    "existing_count": 383,
-    "selected_new_count": 9,
+    "run_started_at": "2026-10-01T17:04:01Z",
+    "candidate_count": 19,
+    "existing_count": 392,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC1-ZgR47VlJuAImChwRvpDw",
+      "external_id": "UC1-ZgR47VlJuAImChwRvpDw",
+      "name": "Royal Medical Center",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC1-ZgR47VlJuAImChwRvpDw",
+      "discovered_on": "2026-10-01",
+      "score": 74.07,
+      "metrics": {
+        "subscribers": 38100,
+        "total_views": 3272595,
+        "video_count": 21,
+        "avg_views_per_video": 155837.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "CEhs3SRHCA0",
+            "title": "Let’s Talk About Intimate Wellness | PT-141 | $200 Offering",
+            "description": "Questions about intimacy deserve a real conversation. This short introduces Royal Medical Centers' PT-141 peptide therapy ...",
+            "published_at": "2026-10-01T10:43:01Z",
+            "url": "https://www.youtube.com/watch?v=CEhs3SRHCA0"
+          }
+        ],
+        "channel_description": "Royal Medical Center is dedicated to providing Hormone/Testosterone Therapy to the general public to optimize hormone levels, regain youth, and better one's overall well-being. All-Inclusive program for $195 per month. Doctor-Supervised, Labs, Physical, Medications are all included in our Doctor-Supervised program. Call for a free no-obligation consultation 1-800-625-3837 or visit us online at www.royalmedicalcenters.com\n\n**Guarantee** \nIf you find another clinic with an equal program to ours at less cost, we will beat their price by 25%! \n\nFacebook: www.facebook.com/royalmedicalcenters/\nWebsite: www.royalmedicalcenters.com\nMedical History Form: https://www.royalmedicalcenters.com/medical-history-form/\nCall 1-800-625-3837",
+        "latest_video_at": "2026-10-01T10:43:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC_wzueerATIM2i4Kz_3oopg",
+      "external_id": "UC_wzueerATIM2i4Kz_3oopg",
+      "name": "Joshua Hübner",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC_wzueerATIM2i4Kz_3oopg",
+      "discovered_on": "2026-10-01",
+      "score": 73.59,
+      "metrics": {
+        "subscribers": 14800,
+        "total_views": 901136,
+        "video_count": 75,
+        "avg_views_per_video": 12015.15,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "4Dmb_s7_37E",
+            "title": "Peptide: Wie du damit Gewicht verlierst, Entzündungen senkst und deinen Darm heilst",
+            "description": "Andreas Schlecht über Peptide — warum die aktuelle Euphorie um BPC 157, KPV, GHK-Cu & Co. zu unkritisch ist, was die ...",
+            "published_at": "2026-10-01T15:00:27Z",
+            "url": "https://www.youtube.com/watch?v=4Dmb_s7_37E"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "4Dmb_s7_37E",
+            "title": "Peptide: Wie du damit Gewicht verlierst, Entzündungen senkst und deinen Darm heilst",
+            "description": "Andreas Schlecht über Peptide — warum die aktuelle Euphorie um BPC 157, KPV, GHK-Cu & Co. zu unkritisch ist, was die ...",
+            "published_at": "2026-10-01T15:00:27Z",
+            "url": "https://www.youtube.com/watch?v=4Dmb_s7_37E"
+          }
+        ],
+        "channel_description": "Wöchentlich neue Videos für echte Gesundheit & tiefes Verständnis\n",
+        "latest_video_at": "2026-10-01T15:00:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCjYNGgeCB9sbVEGepzhpp8g",
+      "external_id": "UCjYNGgeCB9sbVEGepzhpp8g",
+      "name": "JimTanna",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCjYNGgeCB9sbVEGepzhpp8g",
+      "discovered_on": "2026-10-01",
+      "score": 68.86,
+      "metrics": {
+        "subscribers": 40000,
+        "total_views": 7461807,
+        "video_count": 878,
+        "avg_views_per_video": 8498.64,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "bmjXHpUNGUA",
+            "title": "i got stem cell therapy 3 years ago 🧬",
+            "description": "3 years ago i got stem cell treatment for my illness, back before peptides were everywhere. crazy how the same peptides are ...",
+            "published_at": "2026-10-01T01:22:40Z",
+            "url": "https://www.youtube.com/watch?v=bmjXHpUNGUA"
+          }
+        ],
+        "channel_description": "Business email \nJannasavatgy@yahoo.com ",
+        "latest_video_at": "2026-10-01T01:22:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCoPB1Vko5KW5aO99rbh70rg",
+      "external_id": "UCoPB1Vko5KW5aO99rbh70rg",
+      "name": "The Anon Gym Girl",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCoPB1Vko5KW5aO99rbh70rg",
+      "discovered_on": "2026-10-01",
+      "score": 68.74,
+      "metrics": {
+        "subscribers": 20700,
+        "total_views": 42630132,
+        "video_count": 2105,
+        "avg_views_per_video": 20251.84,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "ew404_umj94",
+            "title": "someone has to say it🤐👀 #influencers #peptides #glp1 #peds #socialmedia",
+            "description": "",
+            "published_at": "2026-10-01T13:05:14Z",
+            "url": "https://www.youtube.com/watch?v=ew404_umj94"
+          }
+        ],
+        "channel_description": "Big sis advice without the B.S🫢\nI fear your 9-5 schedule just got a wellness glow-up👩🏻‍💻\nUK fitness girlie balancing real life✨\nAYBL & Gymshark | ‘ANON10’💓\nFree Soul | ANON15⭐️\n💌: bytheanongirl@gmail.com",
+        "latest_video_at": "2026-10-01T13:05:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC8SeJthGI0J29chuL_MWDGg",
+      "external_id": "UC8SeJthGI0J29chuL_MWDGg",
+      "name": "Life Time",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC8SeJthGI0J29chuL_MWDGg",
+      "discovered_on": "2026-10-01",
+      "score": 64.75,
+      "metrics": {
+        "subscribers": 25000,
+        "total_views": 1417144,
+        "video_count": 574,
+        "avg_views_per_video": 2468.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "kb48OHzeHhE",
+            "title": "The Evolving Peptide Revolution With Jim LaValle, RPh, CCN (Performance &amp; Longevity Series)| LTTalks",
+            "description": "Peptides continue to gain popularity for their potential preventive and proactive health benefits. Yet as the buzz grows, so does the ...",
+            "published_at": "2026-10-01T10:00:31Z",
+            "url": "https://www.youtube.com/watch?v=kb48OHzeHhE"
+          }
+        ],
+        "channel_description": "One healthy community.\nWelcome to Life Time.\n#LoveYourLife\n\nOver nearly 30 years, Life Time has reshaped the way consumers approach their health through omnichannel, healthy way of life communities that address all aspects of healthy living, healthy aging and healthy entertainment. More than 30,000 Life Time professionals are dedicated to providing the best programs and experiences at more than 150 Life Time athletic resort destinations in the United States and Canada, and via a complementary, comprehensive digital platform and portfolio of iconic athletic events – all with the objective of living healthy, happy lives.\n",
+        "latest_video_at": "2026-10-01T10:00:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCYoEthqdPBLHAI5jj5HtBOQ",
+      "external_id": "UCYoEthqdPBLHAI5jj5HtBOQ",
+      "name": "4AllFamily",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCYoEthqdPBLHAI5jj5HtBOQ",
+      "discovered_on": "2026-10-01",
+      "score": 64.61,
+      "metrics": {
+        "subscribers": 10500,
+        "total_views": 3613512,
+        "video_count": 463,
+        "avg_views_per_video": 7804.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "H8hQ6uiklYw",
+            "title": "Peptides Explained: What They Actually Do",
+            "description": "What are peptides and how do peptides work in the body? This video explains peptides in simple terms, including how they are ...",
+            "published_at": "2026-10-01T13:33:29Z",
+            "url": "https://www.youtube.com/watch?v=H8hQ6uiklYw"
+          }
+        ],
+        "channel_description": "Welcome To 4ALLFAMILY YouTube Channel!\n4ALLFAMILY LLC, BASED IN ALBANIA, WAS FOUNDED BY TWO FRIENDS IN THE MIDST OF 2019\n\nThe initial spark that led to the creation of the Albanian-based company was an incident that occurred back in the summer of 2018 while the founders were on vacation. Witnessing their friend have his insulin spoiled in front of their eyes fueled them to build high-capacity coolers to withstand even the most extreme summer conditions.\n\nSince then, we have invented these unique and special medicine cases with outstanding performance and capacity.\nThe design and quality of our products have helped a lot of people who need to store their medicines in strict temperature conditions, giving them the freedom to travel and enjoy their lives.\n\nOur products are the ''Most Performant Medicine Coolers'' on the market today! Visit our various coolers and see what's best for you at 4ALLFAMILY.COM. ✌💙\n",
+        "latest_video_at": "2026-10-01T13:33:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCFHTypQmv4bAQ1OdyYbR43Q",
+      "external_id": "UCFHTypQmv4bAQ1OdyYbR43Q",
+      "name": "Realnews Now",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCFHTypQmv4bAQ1OdyYbR43Q",
+      "discovered_on": "2026-10-01",
+      "score": 62.59,
+      "metrics": {
+        "subscribers": 3850,
+        "total_views": 9248477,
+        "video_count": 737,
+        "avg_views_per_video": 12548.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "2nU7g8RqPtY",
+            "title": "The Ugly Side Of Peptides! 🧪",
+            "description": "We are living in the Wild West of medicine. While peptides show promise, there are real risks involved, especially with GLP-1 ...",
+            "published_at": "2026-10-01T16:18:29Z",
+            "url": "https://www.youtube.com/watch?v=2nU7g8RqPtY"
+          }
+        ],
+        "channel_description": "⚖️ Reclaiming the Center: Politics for the Rest of Us ⚖️\n\nIs it just us, or has politics become a battle between two extremes that don't represent most people? 🤔 If you're tired of the division, welcome.\n\nWe're building a space for the politically curious, the moderates, the independents, and anyone who feels left out by the partisan echo chambers. Our mission is simple:\n\nExplore issues from the center-ground perspective. 🧭\n\nChallenge extreme narratives from BOTH sides. 🚫\n\nHighlight common sense and areas for potential unity. 🤝\n\nCreate a community where constructive feedback drives the conversation.\n\nWe believe the center isn't just a point between two extremes – it's where real solutions are found.\n\nGet involved! This channel is built on YOUR feedback. What topics should we cover? What perspectives are being missed? Drop your ideas and opinions in the comments! 👇💡\n\nHelp us reclaim the center.\n\n✔️ Subscribe and click the bell 🔔 to be part of the solution!\n",
+        "latest_video_at": "2026-10-01T16:18:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC2kkpUlPEpfCUKYzKMmjLrw",
+      "external_id": "UC2kkpUlPEpfCUKYzKMmjLrw",
+      "name": "Beyond the Scale: My GLP-1 Journey",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC2kkpUlPEpfCUKYzKMmjLrw",
+      "discovered_on": "2026-10-01",
+      "score": 58.35,
+      "metrics": {
+        "subscribers": 3690,
+        "total_views": 643006,
+        "video_count": 341,
+        "avg_views_per_video": 1885.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "ttvgeNqlX5A",
+            "title": "“Just Get It Tested”? What GLP-1 Peptide Testing REALLY Tells You",
+            "description": "If you've ever seen someone say “just get it tested” when talking about buying a black-market or unapproved GLP-1, you may ...",
+            "published_at": "2026-09-30T21:00:37Z",
+            "url": "https://www.youtube.com/watch?v=ttvgeNqlX5A"
+          }
+        ],
+        "channel_description": "🌿 Welcome to My GLP-1 Journey with Zepbound — and Beyond!\nI’m sharing my real, personal experience using Zepbound, a GLP-1 medication that’s helping me take control of my health, manage my weight, and improve my overall well-being — physically and mentally.\n\nBut this channel is about more than just my journey.\nAs the GLP-1 landscape continues to grow, I’m also exploring new medications in the pipeline and sharing what I learn — so we can all stay informed and empowered.\n\n💡 Whether you're just starting GLP-1 therapy, exploring your options, or already deep into your journey — you're welcome here. I’m not a medical professional, just someone doing the work and sharing what I learn along the way.\n\n📌 I always include sources in my video descriptions and lean on trusted, reputable information — because accuracy matters.\n\n✨ Subscribe for weekly updates and join me as we go beyond the scale — together.\n\n",
+        "latest_video_at": "2026-09-30T21:00:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCOdRl9pMjB4KkoW-0kPQpQA",
+      "external_id": "UCOdRl9pMjB4KkoW-0kPQpQA",
+      "name": "ASTRID NARANJO | Dietitian | GLP-1 & Fitness coach",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCOdRl9pMjB4KkoW-0kPQpQA",
+      "discovered_on": "2026-10-01",
+      "score": 57.84,
+      "metrics": {
+        "subscribers": 5340,
+        "total_views": 656341,
+        "video_count": 737,
+        "avg_views_per_video": 890.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "SlqzhyZh3iY",
+            "title": "Peptides vs Hormones: What Actually Works? | ft. Dr. Kyle Gillett",
+            "description": "Peptides vs hormones, what's actually worth the hype? In this episode, Astrid sits down with Dr Kyle Gillett to explore peptides, ...",
+            "published_at": "2026-10-01T05:27:46Z",
+            "url": "https://www.youtube.com/watch?v=SlqzhyZh3iY"
+          }
+        ],
+        "channel_description": "I’m Astrid Naranjo, an Accredited Practising Dietitian (APD), nutrition coach and body recomposition expert helping women 35+ lose fat, build muscle and create results that last, especially before, during & after GLP-1 medications.\n\nHere you’ll find evidence-based education on:\n\n• GLP-1 nutrition, protein, muscle retention & weight maintenance\n• Fat loss & body recomposition for women 35+\n• Strength training and building a strong, fit body\n• Emotional eating, food noise & binge-eating patterns\n• Perimenopause, menopause & changing body composition\n• Body image, food freedom & fear of weight regain\n• Behaviour change, perfectionism and all-or-nothing thinking\n• Sustainable nutrition that works around busy, stressful lives\n\nI also interview leading researchers, coaches & health professionals to unpack what the science actually says about nutrition, training, obesity treatment & behaviour change\n\nSubscribe if you want to lose fat, get stronger & build a healthier relationship with food\n\n\n",
+        "latest_video_at": "2026-10-01T05:27:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCDeAIA7yKCiPPLP1EZChfQQ",
+      "external_id": "UCDeAIA7yKCiPPLP1EZChfQQ",
+      "name": "Dr. Jason Shumard",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCDeAIA7yKCiPPLP1EZChfQQ",
+      "discovered_on": "2026-10-01",
+      "score": 53.65,
+      "metrics": {
+        "subscribers": 2100,
+        "total_views": 209192,
+        "video_count": 440,
+        "avg_views_per_video": 475.44,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "rrRe5SB2Je8",
+            "title": "Peptides Peptides Peptides",
+            "description": "Peptides aren't magic They're messengers. The better you understand what they actually do, the easier it is to separate the ...",
+            "published_at": "2026-10-01T13:00:11Z",
+            "url": "https://www.youtube.com/watch?v=rrRe5SB2Je8"
+          }
+        ],
+        "channel_description": "Dr. Jason Shumard, D.C. has postgraduate education in functional endocrinology and clinical nutrition. Over the last five years, he has worked with patients with a multitude of conditions, specifically hypothyroidism and type II diabetes. Dr. Shumard is passionate about helping patients recover from diabetes and take control over their health.\n\nDr. Shumard is the owner of Integrative Wellness Center of San Diego, which he opened in 2005 with the desire to promote safe alternative treatment options to the community of San Diego.\n",
+        "latest_video_at": "2026-10-01T13:00:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCe2B-q7U9wxqSa6_haVeC7g",
       "external_id": "UCe2B-q7U9wxqSa6_haVeC7g",

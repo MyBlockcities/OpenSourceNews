@@ -2,19 +2,537 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-09-30T16:26:43Z",
-  "new_this_run": 8,
-  "total_influencers": 694,
+  "updated_at": "2026-10-01T17:04:14Z",
+  "new_this_run": 12,
+  "total_influencers": 706,
   "run_summary": {
-    "run_started_at": "2026-09-30T16:26:35Z",
-    "candidate_count": 22,
-    "existing_count": 686,
-    "selected_new_count": 8,
+    "run_started_at": "2026-10-01T17:04:01Z",
+    "candidate_count": 24,
+    "existing_count": 694,
+    "selected_new_count": 12,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCltj79lVST56UgJZX3n7F4g",
+      "external_id": "UCltj79lVST56UgJZX3n7F4g",
+      "name": "Poważna Strona",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCltj79lVST56UgJZX3n7F4g",
+      "discovered_on": "2026-10-01",
+      "score": 73.7,
+      "metrics": {
+        "subscribers": 69300,
+        "total_views": 47800546,
+        "video_count": 1307,
+        "avg_views_per_video": 36572.72,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "9XMDqxi2znU",
+            "title": "MIŚ – cenzura zakazała ujęć z szynką? #mis #stanislawtym #bareja",
+            "description": "Subskrybuj: http://bit.ly/2eMgF87 Facebook: https://bit.ly/2OoRgBA Instagram: https://bit.ly/35S3nBv ⏱️ TikTok: ...",
+            "published_at": "2026-10-01T10:15:26Z",
+            "url": "https://www.youtube.com/watch?v=9XMDqxi2znU"
+          }
+        ],
+        "channel_description": "Od 2015 roku prowadzę kanał na YouTube o kompletnie niepoważnej nazwie Poważna Strona. Kilka lat zeszło sam nie wiem kiedy na tworzeniu mniej i bardziej interesujących materiałów i jak się okazało parę osób postanowiło mnie oglądać. Jako miłośnik popkultury z moimi widzami dzielę się głównie ciekawostkami i opiniami na temat filmów, komiksów, gier i seriali. Moje materiały realizuję w profesjonalny (a jakże) sposób - tak w warstwie audio-wizualnej jak i merytorycznej. Motto Poważnej Strony:  przeważnie poważnie na niepoważne tematy, a czasami niepoważnie na poważne. Innymi słowy - Nie ma żartów!\n",
+        "latest_video_at": "2026-10-01T10:15:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqS4RjLwD2IUAkisxfqr6uw",
+      "external_id": "UCqS4RjLwD2IUAkisxfqr6uw",
+      "name": "Ango",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCqS4RjLwD2IUAkisxfqr6uw",
+      "discovered_on": "2026-10-01",
+      "score": 73.05,
+      "metrics": {
+        "subscribers": 95100,
+        "total_views": 71574220,
+        "video_count": 4114,
+        "avg_views_per_video": 17397.72,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "2keuKVVp1d4",
+            "title": "AEW Signing HUGE Free Agent?! WWE For Sale? Netflix Censorship &amp; More Wrestling News!",
+            "description": "BECOME A MEMBER ✓ https://www.youtube.com/angoyt/join WWE Shop (Affiliate Link) https://wwe-shop.sjv.io/vNqjaA WWE ...",
+            "published_at": "2026-10-01T15:21:15Z",
+            "url": "https://www.youtube.com/watch?v=2keuKVVp1d4"
+          }
+        ],
+        "channel_description": "#1 Pro Wrestling News & Rumors ",
+        "latest_video_at": "2026-10-01T15:21:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCuKo4YVEicZklmZXpaseyDQ",
+      "external_id": "UCuKo4YVEicZklmZXpaseyDQ",
+      "name": "Defense Diaries Podcast",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCuKo4YVEicZklmZXpaseyDQ",
+      "discovered_on": "2026-10-01",
+      "score": 71.76,
+      "metrics": {
+        "subscribers": 79300,
+        "total_views": 13668546,
+        "video_count": 1105,
+        "avg_views_per_video": 12369.72,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "vXJE88V7XlI",
+            "title": "HELP FUND INDEPENDENT JOURNALISM | LawGirls Camera &amp; Audio Equipment Fundraiser",
+            "description": "HELP FUND INDEPENDENT JOURNALISM!! LawGirls Camera & Audio Equipment Fundraiser LIVE Tonight Bob and Ali are ...",
+            "published_at": "2026-10-01T02:01:58Z",
+            "url": "https://www.youtube.com/watch?v=vXJE88V7XlI"
+          }
+        ],
+        "channel_description": "Join Criminal Defense Trial Attorney Bob Motta and Pit Bull Defense Attorney Alison Motta we deep dive into everything true crime, including cases old and new.  When breaking true crime news hits-THIS channel is your one stop shop for the straight dope on the cases you follow!  If there is one thing that you can always rely on here;  it's us; ALWAYS giving you JUST FACTS.  \nMerch coming soon 🔥\n\nDISCLAIMER:\nThese videos are not legal advice; it's commentary for educational and entertainment purposes. videos and information included are not intended to serve as a substitute for consultation with an attorney. Specific legal issues will always require the advice of appropriate legal professionals. There will be content shared on this channel that is not suitable for children.\n\nFAIR USE:\nFair use allows copyrighted material for purposes such as commentary, criticism, news reporting, and education. Defense Diaries is NOT affiliated with any of the streaming channels used for these purposes.\n",
+        "latest_video_at": "2026-10-01T02:01:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqX5neAdzOp6ZZLEi8qI6Qw",
+      "external_id": "UCqX5neAdzOp6ZZLEi8qI6Qw",
+      "name": "Nuance",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCqX5neAdzOp6ZZLEi8qI6Qw",
+      "discovered_on": "2026-10-01",
+      "score": 70.95,
+      "metrics": {
+        "subscribers": 35700,
+        "total_views": 2629191,
+        "video_count": 101,
+        "avg_views_per_video": 26031.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "W8rB8Td0z0A",
+            "title": "Trump vs. The Press: What Happened to Press Freedom? | RCN",
+            "description": "What happens to freedom of the press when the press isn't welcome? In this episode of RCN — Real Chinese News — we look at ...",
+            "published_at": "2026-10-01T02:42:02Z",
+            "url": "https://www.youtube.com/watch?v=W8rB8Td0z0A"
+          }
+        ],
+        "channel_description": "As an American who has travelled extensively and lived in Asia for over a decade, I have come to learn that many things are not as black and white as most may think.  There is a grey area that needs to be explored and appreciated in order for us to fully understand each other and the world we live in.  By honestly sharing stories, opinions and revelations I've had around the world, I hope to challenge some ideas, provide some of my own context and possibly add some useful nuance to our preconceived notions of the world.",
+        "latest_video_at": "2026-10-01T02:42:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCndziPAthq92OFFloCg1GHw",
+      "external_id": "UCndziPAthq92OFFloCg1GHw",
+      "name": "Robby Giusti",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCndziPAthq92OFFloCg1GHw",
+      "discovered_on": "2026-10-01",
+      "score": 69.56,
+      "metrics": {
+        "subscribers": 39900,
+        "total_views": 24584477,
+        "video_count": 2087,
+        "avg_views_per_video": 11779.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "hkcaeeWIWDk",
+            "title": "Robby Giusti -  QUANDO LA CENSURA ARRIVA DA GENTE CHE SI PROFESSA DI DESTRA?",
+            "description": "FATEMI CAPIRE: siete davvero gente di destra o volete censurare chi chiede di parlare? MA DI COSA AVETE PAURA? Martedì ...",
+            "published_at": "2026-10-01T08:35:25Z",
+            "url": "https://www.youtube.com/watch?v=hkcaeeWIWDk"
+          }
+        ],
+        "channel_description": "RobbyGiusti.it TESTATA GIORNALISTICA Registrata -  Robby Giusti è opinionista italiano, creator social tra i più seguiti in Italia. Racconta attualità, politica, società e cultura con uno stile diretto, popolare e indipendente.\n\nCanale ufficiale YouTube di Robby Giusti.\n",
+        "latest_video_at": "2026-10-01T08:35:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYGb-tZvIulJeC5caIG-H_A",
+      "external_id": "UCYGb-tZvIulJeC5caIG-H_A",
+      "name": "Miguel Delaney's Inside Football",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCYGb-tZvIulJeC5caIG-H_A",
+      "discovered_on": "2026-10-01",
+      "score": 68.99,
+      "metrics": {
+        "subscribers": 56500,
+        "total_views": 18057566,
+        "video_count": 3241,
+        "avg_views_per_video": 5571.6,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "cXEv1mZT4O8",
+            "title": "How can the Premier League go on as normal this season?",
+            "description": "As all of the continent's biggest clubs gathered in Copenhagen, their executives couldn't help trying to catch a glimpse of one man ...",
+            "published_at": "2026-10-01T08:30:33Z",
+            "url": "https://www.youtube.com/watch?v=cXEv1mZT4O8"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-01T08:30:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCeNfLVx7zM2EB1_oNI_da1w",
+      "external_id": "UCeNfLVx7zM2EB1_oNI_da1w",
+      "name": "Raj Singh Maurya",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCeNfLVx7zM2EB1_oNI_da1w",
+      "discovered_on": "2026-10-01",
+      "score": 68.85,
+      "metrics": {
+        "subscribers": 10500,
+        "total_views": 1350454,
+        "video_count": 246,
+        "avg_views_per_video": 5489.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/rajsinghmauryaofficial"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "ID67kwsUH9M",
+            "title": "ritika chopra independence journalist in india!!🤯",
+            "description": "Link to Instagram Page: https://www.instagram.com/rajsinghmauryaofficial Ritika Chopra's investigation has raised important ...",
+            "published_at": "2026-10-01T01:23:08Z",
+            "url": "https://www.youtube.com/watch?v=ID67kwsUH9M"
+          }
+        ],
+        "channel_description": "{Hello I'm Raj Singh Maurya} Be the change you want to see. Join in by clicking the Subscribe button! :) \n\nEnquiry: rajsponsored@gmail.com",
+        "latest_video_at": "2026-10-01T01:23:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC6V-IEeq_oB7pyMohr_IM0w",
+      "external_id": "UC6V-IEeq_oB7pyMohr_IM0w",
+      "name": "Ohne Filter DE",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC6V-IEeq_oB7pyMohr_IM0w",
+      "discovered_on": "2026-10-01",
+      "score": 62.77,
+      "metrics": {
+        "subscribers": 4200,
+        "total_views": 668014,
+        "video_count": 35,
+        "avg_views_per_video": 19086.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "0kxpACl6omo",
+            "title": "HISTORISCH! AfD &amp; BSW Pakt im TV? Alice &amp; Siegmund treiben ÖRR in die Enge! (ZDF sprachlos)",
+            "description": "AFD UND BSW KOALITION! Alice Weidel und Ulrich Siegmund sprengen die Brandmauer! Was für ein historischer Abend nach ...",
+            "published_at": "2026-09-30T14:45:27Z",
+            "url": "https://www.youtube.com/watch?v=0kxpACl6omo"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-09-30T14:45:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCm4QV953UZ_NsslbmuMvrgw",
+      "external_id": "UCm4QV953UZ_NsslbmuMvrgw",
+      "name": "Annie Frey",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCm4QV953UZ_NsslbmuMvrgw",
+      "discovered_on": "2026-10-01",
+      "score": 61.75,
+      "metrics": {
+        "subscribers": 14500,
+        "total_views": 5784017,
+        "video_count": 4342,
+        "avg_views_per_video": 1332.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "aIS0qfuLy7E",
+            "title": "AMERICAN VALUES: Stop Shutting Down Debate 🛑",
+            "description": "Is free speech under attack? We remember Charlie Kirk and the ultimate price he paid for defending American values.",
+            "published_at": "2026-09-30T20:36:14Z",
+            "url": "https://www.youtube.com/watch?v=aIS0qfuLy7E"
+          }
+        ],
+        "channel_description": "Annie Frey is a Christian, conservative, midwestern, millennial, mother of four. While she hosts a three-hour weekday talk show on St. Louis' Fox News Radio affiliate, 97.1 FM Talk, her interests expand beyond the daily grind of the news, information, and political realm. You'll find some of that here, but also content that she only touches on during her show.\n\nParenthood, religion, sports (especially her St. Louis Cardinals and Blues and her kids' youth sports), Disney, and psychology are some of her interests featured on this channel. There will be plenty of discussion about Republicans and Democrats, Donald Trump, politics, culture, and news. But none of those things need to divide us. \n\nPlease comment, constructively criticize, suggest, advise, and share. Thanks for being here.",
+        "latest_video_at": "2026-09-30T20:36:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRUFSNWvgZJUyInTeJ_5MRw",
+      "external_id": "UCRUFSNWvgZJUyInTeJ_5MRw",
+      "name": "R News LB",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCRUFSNWvgZJUyInTeJ_5MRw",
+      "discovered_on": "2026-10-01",
+      "score": 60.29,
+      "metrics": {
+        "subscribers": 8630,
+        "total_views": 925331,
+        "video_count": 660,
+        "avg_views_per_video": 1402.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "pZtlvqQm1iI",
+            "title": "لا رقابة ولا حدود… لايفات تيك توك تتخطّى كل الخطوط الحمراء.",
+            "description": "تيك_توك #رقابة #مواقع_التواصل_الاجتماعي.",
+            "published_at": "2026-10-01T07:53:13Z",
+            "url": "https://www.youtube.com/watch?v=pZtlvqQm1iI"
+          }
+        ],
+        "channel_description": "الحقيقة أولًا… والخبر بمسؤولية\n",
+        "latest_video_at": "2026-10-01T07:53:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCUImgthgQQpHzY0G8KHjakA",
+      "external_id": "UCUImgthgQQpHzY0G8KHjakA",
+      "name": "SŁOWO PRAWDY",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCUImgthgQQpHzY0G8KHjakA",
+      "discovered_on": "2026-10-01",
+      "score": 58.31,
+      "metrics": {
+        "subscribers": 4790,
+        "total_views": 1013719,
+        "video_count": 788,
+        "avg_views_per_video": 1286.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "5eL_15WCKlk",
+            "title": "List żelazny, cenzura i zepsute F16 | Rozmowy ze Szmydtem",
+            "description": "Klęska prokuratury Żurka i koalicji D. Tuska. Romanowski otrzymał na mocy postanowienia sądu list żelazny. Nawrocki podpisał ...",
+            "published_at": "2026-10-01T16:00:10Z",
+            "url": "https://www.youtube.com/watch?v=5eL_15WCKlk"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-01T16:00:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCdOotBHStk1uvOJFrGMKmMQ",
+      "external_id": "UCdOotBHStk1uvOJFrGMKmMQ",
+      "name": "Blablaciones",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCdOotBHStk1uvOJFrGMKmMQ",
+      "discovered_on": "2026-10-01",
+      "score": 56.42,
+      "metrics": {
+        "subscribers": 5670,
+        "total_views": 436635,
+        "video_count": 1030,
+        "avg_views_per_video": 423.92,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "KFXE9ch05Sw",
+            "title": "FAKE NEWS QUE EU GOSTO é liberdade; a que eu não gosto é censura",
+            "description": "É liberdade de expressão ou é censura? A régua que todo mundo usa e ninguém admite: quando é a fake news que eu gosto, ...",
+            "published_at": "2026-09-30T18:00:32Z",
+            "url": "https://www.youtube.com/watch?v=KFXE9ch05Sw"
+          }
+        ],
+        "channel_description": "Blablaciones é o canal para quem busca entender política, economia e cultura de forma leve, crítica e bem-humorada.\n\nConduzido por Gabriel Cepaluni, PhD em Ciências Políticas, e Inácio Jr., mestre em produção artística, o canal mistura informação, opinião e sátira para analisar temas que impactam o dia a dia. Também participam o enigmático Dr. Miápicas, a carismática Nina e Sônia, esposa de Gabriel, que atua como produtora.\n\n⚖️ Aviso Importante:\nOs vídeos do Blablaciones têm caráter opinativo, educativo e satírico. As análises e comentários aqui apresentados não representam notícias oficiais nem pretendem afirmar fatos sem comprovação. Eventuais personagens ou situações de humor são usados com propósito crítico e artístico.\n\nSe você procura insights relevantes e uma abordagem descontraída para temas atuais, este é o seu lugar!\n\n#politica #economia #cultura #humor #analises #atualidades #debate\n",
+        "latest_video_at": "2026-09-30T18:00:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCzDwapMWqoitI9Wv6nA7AYw",
       "external_id": "UCzDwapMWqoitI9Wv6nA7AYw",
