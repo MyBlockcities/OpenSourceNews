@@ -2,19 +2,263 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-01T17:04:26Z",
-  "new_this_run": 10,
-  "total_influencers": 402,
+  "updated_at": "2026-10-02T16:18:31Z",
+  "new_this_run": 5,
+  "total_influencers": 407,
   "run_summary": {
-    "run_started_at": "2026-10-01T17:04:01Z",
-    "candidate_count": 19,
-    "existing_count": 392,
-    "selected_new_count": 10,
+    "run_started_at": "2026-10-02T16:18:14Z",
+    "candidate_count": 23,
+    "existing_count": 402,
+    "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC6top07YFcnL1AKRW-x289A",
+      "external_id": "UC6top07YFcnL1AKRW-x289A",
+      "name": "Nader from FitFrek",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC6top07YFcnL1AKRW-x289A",
+      "discovered_on": "2026-10-02",
+      "score": 72.76,
+      "metrics": {
+        "subscribers": 3810,
+        "total_views": 1522233,
+        "video_count": 1107,
+        "avg_views_per_video": 1375.1,
+        "matched_queries": 2,
+        "sample_videos": 3
+      },
+      "social_links": {
+        "instagram": "https://instagram.com/nadergains"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "y9RaXkVh-pE",
+            "title": "Do These Peptides Actually Work?",
+            "description": "Full evidence table, studies & FDA sources: https://fitfrek.com/peptide-evidence/ Human evidence behind BPC-157, TB-500, ...",
+            "published_at": "2026-10-02T15:00:31Z",
+            "url": "https://www.youtube.com/watch?v=y9RaXkVh-pE"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "y9RaXkVh-pE",
+            "title": "Do These Peptides Actually Work?",
+            "description": "Full evidence table, studies & FDA sources: https://fitfrek.com/peptide-evidence/ Human evidence behind BPC-157, TB-500, ...",
+            "published_at": "2026-10-02T15:00:31Z",
+            "url": "https://www.youtube.com/watch?v=y9RaXkVh-pE"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "ngdOg_8WvqU",
+            "title": "11 out of 12 people felt better on bpc-157. that&#39;s not proof",
+            "description": "11 of 12 people in a small BPC-157 study reported less knee pain. There was no comparison group, so nobody can say how ...",
+            "published_at": "2026-10-02T15:00:14Z",
+            "url": "https://www.youtube.com/watch?v=ngdOg_8WvqU"
+          }
+        ],
+        "channel_description": "Helping you buy better supplements.\n\nI’m Nader. Natural lifter. Reviewing supplements since 2007.\n\nI test products in real workouts, break down the ingredients, compare them to the competition, and tell you whether they’re actually worth your money.\n\nNew reviews, comparisons, rankings, and supplement guides every week.\n\n💪 Learn more about my journey: \nhttps://fitfrek.com/about-me \n\n🙋‍♂️ Reach out to me: \nhttps://instagram.com/nadergains \n\nThank you for your support ♥🤘\n",
+        "latest_video_at": "2026-10-02T15:00:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC7J168KE1v4YBr8H2noeMbQ",
+      "external_id": "UC7J168KE1v4YBr8H2noeMbQ",
+      "name": "Cortex Labs - TRT Optimization ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC7J168KE1v4YBr8H2noeMbQ",
+      "discovered_on": "2026-10-02",
+      "score": 65.63,
+      "metrics": {
+        "subscribers": 39500,
+        "total_views": 5065545,
+        "video_count": 2589,
+        "avg_views_per_video": 1956.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "e9b6O_7WwPM",
+            "title": "TB-500 on TRT for better EQ - The Peptide that SUPERCHARGES EQ and Rigidity on TRT?",
+            "description": "TRT Products & Coaching Brother: 20% discount on ALL digital products, NOW. Code: 20now *** Brand new!! The Trt ...",
+            "published_at": "2026-10-01T20:10:14Z",
+            "url": "https://www.youtube.com/watch?v=e9b6O_7WwPM"
+          }
+        ],
+        "channel_description": "The world's leading TRT discussion channel, focusing on the optimization of sexual function on TRT, managing metabolites like Estradiol and DHT, and resolving long standing sexual dysfunction on or off of TRT. ",
+        "latest_video_at": "2026-10-01T20:10:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCFXx-QV0Wt97nKu2WLd6Kiw",
+      "external_id": "UCFXx-QV0Wt97nKu2WLd6Kiw",
+      "name": "Simple Rituals",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCFXx-QV0Wt97nKu2WLd6Kiw",
+      "discovered_on": "2026-10-02",
+      "score": 56.19,
+      "metrics": {
+        "subscribers": 5390,
+        "total_views": 56435,
+        "video_count": 138,
+        "avg_views_per_video": 408.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "QFaJKCbzus8",
+            "title": "क्या Wolverine Molecule चमत्कार कर सकता है?",
+            "description": "Top 10 Best Sellers on Amazon India ✓ Play Craft Science Biology STEM Experiment Kit for Kids 8+ Years | 50+ Hands-On ...",
+            "published_at": "2026-10-02T00:18:30Z",
+            "url": "https://www.youtube.com/watch?v=QFaJKCbzus8"
+          }
+        ],
+        "channel_description": "Welcome to Simple Rituals—your guide to effortless natural living.\n\nIf you are looking to enhance your health, embrace natural beauty, and discover effective remedies without complicated routines or harsh chemicals, you have found your new community.\n\nHere at Simple Rituals, we believe that true wellness shouldn't be overwhelming. We focus on accessible, sustainable, and easy-to-follow habits that transform your daily life.\n\nWhat you can expect on this channel: 🌿 DIY Natural Beauty: Simple recipes for face masks, hair treatments, and glowing skincare using ingredients from your kitchen. 🍯 Holistic Health & Remedies: Traditional tips and herbal insights to support your immune system, digestion, and overall well-being. ✨ Daily Wellness Routines: Practical advice on self-care, mindfulness, and building healthy habits that stick.\n\n🔔 Subscribe to Simple Rituals and start your journey to a healthier, more radiant you.\n\n\n",
+        "latest_video_at": "2026-10-02T00:18:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCxstNwScT86ECjj7b587Bsw",
+      "external_id": "UCxstNwScT86ECjj7b587Bsw",
+      "name": "Alli Canterbury",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCxstNwScT86ECjj7b587Bsw",
+      "discovered_on": "2026-10-02",
+      "score": 55.68,
+      "metrics": {
+        "subscribers": 2000,
+        "total_views": 3477437,
+        "video_count": 2669,
+        "avg_views_per_video": 1302.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "-TortwcrPBY",
+            "title": "This guide taught me so much so fast! #peptides #peptideserum #glp1 #ghk #peppers",
+            "description": "This guide taught me so much so fast! #peptides #peptideserum #glp1 #ghk #peppers.",
+            "published_at": "2026-10-02T03:47:05Z",
+            "url": "https://www.youtube.com/watch?v=-TortwcrPBY"
+          }
+        ],
+        "channel_description": "I post random things ✨ Mom. Hairstylist. Relatable.",
+        "latest_video_at": "2026-10-02T03:47:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCDcHfqEVCgSdn_7l6mR5KkQ",
+      "external_id": "UCDcHfqEVCgSdn_7l6mR5KkQ",
+      "name": "Poder Emocional Podcast",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCDcHfqEVCgSdn_7l6mR5KkQ",
+      "discovered_on": "2026-10-02",
+      "score": 53.55,
+      "metrics": {
+        "subscribers": 2170,
+        "total_views": 1301321,
+        "video_count": 2998,
+        "avg_views_per_video": 434.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "w6UBwDTEkWA",
+            "title": "Peptídeos: Revolucionando o Corpo e Curando Dores Intensas! #shorts",
+            "description": "Descubra o futuro da terapêutica com injetáveis e peptídeos. Aplicações regenerativas e a ciência por trás da produção, abrindo ...",
+            "published_at": "2026-10-01T19:03:18Z",
+            "url": "https://www.youtube.com/watch?v=w6UBwDTEkWA"
+          }
+        ],
+        "channel_description": "Poder Emocional Podcast — conversas honestas sobre o que sentimos e quase nunca falamos.\n\nAqui a gente trata de inteligência emocional, saúde mental, ansiedade, autoconhecimento, relacionamentos, maternidade, paternidade, propósito, dinheiro e propósito de vida. Sem fórmula mágica, sem coach de palco, sem terapia de TikTok.\n\nApresentado por Allan Felix, André Almeida, Deborah, Marlucy Arruda, Igor Belchior, Nuria Santos e Sérgio Mello, com convidados — psicólogos, terapeutas, pessoas reais — que ajudam a entender por que sentimos o que sentimos.\n\n📺 Episódios novos toda sexta, 19:15 (ao vivo)\n\n🎬 Cortes e Shorts toda semana\n\n🎙️ Podcast em áudio nas plataformas\n\n📧 Contato e parcerias: poderemocionalpodcast@gmail.com\n\n📱 Instagram: @poderemocionalpodcast\n\nSe você sente muito e entende pouco do que sente — esse canal é pra você. Inscreva-se.\n",
+        "latest_video_at": "2026-10-01T19:03:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UC1-ZgR47VlJuAImChwRvpDw",
       "external_id": "UC1-ZgR47VlJuAImChwRvpDw",
