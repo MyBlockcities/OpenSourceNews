@@ -2,19 +2,103 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-10-02T16:18:20Z",
-  "new_this_run": 5,
-  "total_influencers": 334,
+  "updated_at": "2026-10-03T14:45:49Z",
+  "new_this_run": 2,
+  "total_influencers": 336,
   "run_summary": {
-    "run_started_at": "2026-10-02T16:18:14Z",
-    "candidate_count": 43,
-    "existing_count": 329,
-    "selected_new_count": 5,
+    "run_started_at": "2026-10-03T14:45:42Z",
+    "candidate_count": 41,
+    "existing_count": 334,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC_Ep-ke155VFslCj1R4yDCg",
+      "external_id": "UC_Ep-ke155VFslCj1R4yDCg",
+      "name": "The Dollar Diaries",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UC_Ep-ke155VFslCj1R4yDCg",
+      "discovered_on": "2026-10-03",
+      "score": 67.07,
+      "metrics": {
+        "subscribers": 3040,
+        "total_views": 1688749,
+        "video_count": 3091,
+        "avg_views_per_video": 546.34,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {
+        "x": "https://twitter.com/dollar_diaries",
+        "instagram": "https://www.instagram.com/dollardiariespodcast",
+        "tiktok": "https://www.tiktok.com/@thedollardiaries"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "real estate tokenization",
+          "tokenized real estate"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "bv_jO8gL-GE",
+            "title": "Is Crypto Real? A Dubai Crypto Lawyer Explains (VARA, Scams &amp; Tokenized Real Estate)",
+            "description": "Is crypto actually real, or just \"fugazi\"? Dubai technology lawyer Andal Seshadri (Legal Counsel, 10 Leaves) breaks down how ...",
+            "published_at": "2026-10-03T13:00:09Z",
+            "url": "https://www.youtube.com/watch?v=bv_jO8gL-GE"
+          },
+          {
+            "query": "tokenized real estate",
+            "video_id": "bv_jO8gL-GE",
+            "title": "Is Crypto Real? A Dubai Crypto Lawyer Explains (VARA, Scams &amp; Tokenized Real Estate)",
+            "description": "Is crypto actually real, or just \"fugazi\"? Dubai technology lawyer Andal Seshadri (Legal Counsel, 10 Leaves) breaks down how ...",
+            "published_at": "2026-10-03T13:00:09Z",
+            "url": "https://www.youtube.com/watch?v=bv_jO8gL-GE"
+          }
+        ],
+        "channel_description": "🎙️ The Dollar Diaries 🎙️\n\nWelcome to The Dollar Diaries – the #1 podcast for young adults in the UAE! 🌟 Dive into the dynamic world where personal life, entrepreneurship, career, jobs, and lifestyle all circle back to the almighty dollar.\n\nMeet the Team:\nAbubakr Sajith\nAditya Poddar\nGuhaesh Subramanian\nLiz Ann D'Souza\nGazala Parkar\nEiman Ansari\nZainab Netterwala\nAnas Memon\n\nConnect with Us! 🌐\nX: https://twitter.com/dollar_diaries\nInstagram: https://www.instagram.com/dollardiariespodcast\nLinkedIn: https://www.linkedin.com/company/thedollardiariespodcast\nTikTok: https://www.tiktok.com/@thedollardiaries\n\n📬 Join Our Community!\nSubscribe to our Newsletter: https://thedollardiaries.media/\n\nJoin the SPEND LESS Community: https://chat.whatsapp.com/FG67aEgWQa5IP1W1ue5J8s\n",
+        "latest_video_at": "2026-10-03T13:00:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:f7a4f50e4b96bb1cf333",
+      "external_id": "f7a4f50e4b96bb1cf333",
+      "name": "Ryan Chan-Wei",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/10/03/crypto-s-sisyphean-struggle",
+      "discovered_on": "2026-10-03",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto's Sisyphean struggle"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCdTWF81UhZJ1SNp08ofYdfA",
       "external_id": "UCdTWF81UhZJ1SNp08ofYdfA",
