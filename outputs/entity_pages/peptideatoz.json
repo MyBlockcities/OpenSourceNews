@@ -3,13 +3,16 @@
   "name": "PeptideAtoZ",
   "slug": "peptideatoz",
   "first_seen": "2026-08-21",
-  "last_seen": "2026-10-01",
-  "mention_count_total": 160,
-  "mentions_7d_rate": 3.493,
-  "mentions_30d_rate": 4.098,
+  "last_seen": "2026-10-03",
+  "mention_count_total": 165,
+  "mentions_7d_rate": 3.945,
+  "mentions_30d_rate": 4.233,
   "trajectory": "stable",
-  "source_domains": [],
+  "source_domains": [
+    "youtu.be"
+  ],
   "recent_signal_ids": [
+    "73ec1377cd759946",
     "7cab0b28378294e0",
     "7cab0b28378294e0",
     "102d08e09f8b1c13",
@@ -28,7 +31,6 @@
     "929184e44377421a",
     "622d6ae05a8a625b",
     "622d6ae05a8a625b",
-    "2f7da28aa5a6ccd9",
     "2f7da28aa5a6ccd9"
   ],
   "schema_version": "entity.v1"

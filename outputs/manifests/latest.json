@@ -1,8 +1,8 @@
 {
   "schema": "open_source_news_manifest.v2",
   "report_schema": "open_source_news_daily_report.v2",
-  "latest_report_date": "2026-10-02",
-  "latest_report_path": "outputs/daily/2026-10-02.json",
+  "latest_report_date": "2026-10-03",
+  "latest_report_path": "outputs/daily/2026-10-03.json",
   "item_count": 598,
   "topics": [
     "General News & Research",
@@ -24,11 +24,11 @@
     "official_records": 62,
     "investigative_documents": 35
   },
-  "generated_at": "2026-10-02T13:54:42Z",
-  "report_sha256": "9c47c61249b1e9abe260288ad556796a3fd31bd4646f6667a4f02657c4e32e01",
-  "report_bytes": 3135764,
+  "generated_at": "2026-10-03T12:33:54Z",
+  "report_sha256": "e0aead631761b194aecc18460c61b2363bb1b61512ebc1cd1cfe987c378b8385",
+  "report_bytes": 3099476,
   "unique_signal_count": 593,
-  "unique_cluster_count": 597,
+  "unique_cluster_count": 595,
   "source_counts": {
     "RSS": 177,
     "YouTube": 225,
@@ -39,20 +39,20 @@
   },
   "enrichment_pending_count": 598,
   "artifacts": {
-    "atoms_jsonl": "outputs/atoms/2026-10-02.jsonl",
+    "atoms_jsonl": "outputs/atoms/2026-10-03.jsonl",
     "atoms_latest": "outputs/atoms/latest.jsonl",
-    "embedding_ready_jsonl": "outputs/embedding_ready/2026-10-02.jsonl",
+    "embedding_ready_jsonl": "outputs/embedding_ready/2026-10-03.jsonl",
     "embedding_ready_latest": "outputs/embedding_ready/latest.jsonl",
-    "topics": "outputs/topics/2026-10-02.json",
-    "entities": "outputs/entities/2026-10-02.json",
-    "consensus": "outputs/consensus/2026-10-02.json",
-    "source_trust": "outputs/source_trust/2026-10-02.json",
+    "topics": "outputs/topics/2026-10-03.json",
+    "entities": "outputs/entities/2026-10-03.json",
+    "consensus": "outputs/consensus/2026-10-03.json",
+    "source_trust": "outputs/source_trust/2026-10-03.json",
     "github_traction": "outputs/github_traction/latest.json",
     "github_traction_top": "outputs/github_traction/top_this_week.json",
-    "document_leads": "outputs/document_leads/2026-10-02.jsonl",
-    "intelligence_envelope": "outputs/envelopes/2026-10-02.json",
+    "document_leads": "outputs/document_leads/2026-10-03.jsonl",
+    "intelligence_envelope": "outputs/envelopes/2026-10-03.json",
     "hermes_contract": "HERMES_CONTRACT.md"
   },
-  "workflow_run_id": "37016139929",
-  "commit_sha": "5bebc20caa2b9632342df1e29fc2de1101e879ea"
+  "workflow_run_id": "37123085365",
+  "commit_sha": "6439544dd6d12c2ffb636e77fdc71acb59438a54"
 }
