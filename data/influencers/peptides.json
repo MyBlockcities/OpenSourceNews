@@ -2,19 +2,64 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-03T14:46:02Z",
-  "new_this_run": 4,
-  "total_influencers": 411,
+  "updated_at": "2026-10-04T15:25:59Z",
+  "new_this_run": 1,
+  "total_influencers": 412,
   "run_summary": {
-    "run_started_at": "2026-10-03T14:45:42Z",
-    "candidate_count": 17,
-    "existing_count": 407,
-    "selected_new_count": 4,
+    "run_started_at": "2026-10-04T15:25:43Z",
+    "candidate_count": 16,
+    "existing_count": 411,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCFtjLZgGPqJFIsitTtBnSCQ",
+      "external_id": "UCFtjLZgGPqJFIsitTtBnSCQ",
+      "name": "Dr. Jonatas Fernandez | Coluna sem Dor",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCFtjLZgGPqJFIsitTtBnSCQ",
+      "discovered_on": "2026-10-04",
+      "score": 62.87,
+      "metrics": {
+        "subscribers": 7630,
+        "total_views": 475986,
+        "video_count": 87,
+        "avg_views_per_video": 5471.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "lXUiY6DYE7A",
+            "title": "A verdade sobre o peptídeo BPC 157",
+            "description": "Marque sua consulta comigo: https://linktr.ee/drjonatas ‍⚕️ Atendimentos em Porto Alegre (Centro Clínico da PUCRS) e por ...",
+            "published_at": "2026-10-04T09:39:00Z",
+            "url": "https://www.youtube.com/watch?v=lXUiY6DYE7A"
+          }
+        ],
+        "channel_description": "\nEste canal é para você que sofre com dor nas costas, hérnia de disco, ciático ou problemas na coluna e quer entender, de forma clara, o que realmente funciona.\n\nSou médico especialista em ortopedista e aqui você vai aprender:\n✔ Como aliviar a dor no dia a dia\n✔ Quando evitar cirurgia (e quando ela é necessária)\n✔ Exercícios e hábitos que protegem sua coluna\n✔ Os erros mais comuns que pioram sua dor\n\nMeu objetivo é simples: te ajudar a viver sem dor e com mais qualidade de vida.\n\nSe você quer cuidar melhor da sua coluna, este canal é para você.\nMarcação de Consultas On line: https://linktr.ee/drjonatas\n\nSite: www.drjonatasfernandez.com.br\n\nDr. Jonatas Fernandez\nRQE 24181 • CRM-RS 31638\n",
+        "latest_video_at": "2026-10-04T09:39:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCNytd3HjnWlKpK3bY20z9vw",
       "external_id": "UCNytd3HjnWlKpK3bY20z9vw",
