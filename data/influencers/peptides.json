@@ -2,19 +2,199 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-04T15:25:59Z",
-  "new_this_run": 1,
-  "total_influencers": 412,
+  "updated_at": "2026-10-05T19:19:57Z",
+  "new_this_run": 4,
+  "total_influencers": 416,
   "run_summary": {
-    "run_started_at": "2026-10-04T15:25:43Z",
-    "candidate_count": 16,
-    "existing_count": 411,
-    "selected_new_count": 1,
+    "run_started_at": "2026-10-05T19:19:38Z",
+    "candidate_count": 13,
+    "existing_count": 412,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC-7RsPbdVnkCuepFQYcj5XA",
+      "external_id": "UC-7RsPbdVnkCuepFQYcj5XA",
+      "name": "Iron Mike Reactions",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC-7RsPbdVnkCuepFQYcj5XA",
+      "discovered_on": "2026-10-05",
+      "score": 67.64,
+      "metrics": {
+        "subscribers": 16900,
+        "total_views": 2442308,
+        "video_count": 151,
+        "avg_views_per_video": 16174.23,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "SD3jai9NfoA",
+            "title": "Null Studien heißt nicht automatisch null Daten",
+            "description": "AUFKLÄRUNG & EINORDNUNG | 18+ Wissenschaftliche Einordnung, keine Werbung und keine medizinische Beratung. BroSep ...",
+            "published_at": "2026-10-05T19:11:20Z",
+            "url": "https://www.youtube.com/watch?v=SD3jai9NfoA"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-05T19:11:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC7rrI9hjpGzkNdoDTFhzMjQ",
+      "external_id": "UC7rrI9hjpGzkNdoDTFhzMjQ",
+      "name": "Brian Keane Fitness",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC7rrI9hjpGzkNdoDTFhzMjQ",
+      "discovered_on": "2026-10-05",
+      "score": 63.09,
+      "metrics": {
+        "subscribers": 16200,
+        "total_views": 3154326,
+        "video_count": 1492,
+        "avg_views_per_video": 2114.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "_cwvkzbpnuY",
+            "title": "Kim Constable - Peptides, Perimenopause &amp; Building Unshakeable Self-Belief!",
+            "description": "Kim Constable joins Brian Keane to talk about losing an Instagram account with more than four million followers, rebuilding an ...",
+            "published_at": "2026-10-05T05:00:24Z",
+            "url": "https://www.youtube.com/watch?v=_cwvkzbpnuY"
+          }
+        ],
+        "channel_description": "Brian Keane is a business coach, author, and endurance athlete who has competed in some of the world’s toughest races — from the Marathon des Sables to the Arctic Ultra.\n\nThis channel is for two types of people:\n\nIf you’re on a personal fitness journey — trying to get stronger, leaner, and more consistent — you’ll find practical strategies that actually work in the real world, not just in theory.\n\nIf you’re a fitness professional or coach trying to build a business — you’ll find honest, experience-led advice on growing your income, your audience, and your impact without burning out.\n\nNo fluff. No generic advice. Just what works - from someone who has lived it..\n\nNew videos every week.\n\n🔗 Free guide — Scaling Your Story: DM “SCALE” on Instagram\n📩 Weekly newsletter: www.briankeanefitness.com\n",
+        "latest_video_at": "2026-10-05T05:00:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCI23aIXZjKFUpc-uXwGJ6sA",
+      "external_id": "UCI23aIXZjKFUpc-uXwGJ6sA",
+      "name": "Makelle keylla Carmisini",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCI23aIXZjKFUpc-uXwGJ6sA",
+      "discovered_on": "2026-10-05",
+      "score": 60.64,
+      "metrics": {
+        "subscribers": 4190,
+        "total_views": 8737404,
+        "video_count": 1213,
+        "avg_views_per_video": 7203.14,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "hWMlYLD-jEg",
+            "title": "Tb500 com bpc 157, preparando pra aplicar na lesão do esposo, dr Jorge",
+            "description": "BPC-157 + TB-500 Peptídeos estudados experimentalmente por seu potencial de atuar em processos relacionados à ...",
+            "published_at": "2026-10-04T18:24:59Z",
+            "url": "https://www.youtube.com/watch?v=hWMlYLD-jEg"
+          }
+        ],
+        "channel_description": "✨ Bem-vinda(o) ao meu canal!\nSou Dra. Makelle Carmisini, farmacêutica clínica, esteta e ozonioterapeuta — especialista em rejuvenescimento facial, melasma e estética avançada facial e corporal.\n\nAqui eu compartilho dicas reais e seguras sobre estética, rejuvenescimento, cuidados com a pele, emagrecimento saudável e bem-estar. 💆‍♀️💪\nTambém mostro um pouco do meu dia a dia, bastidores da clínica e reflexões sobre autocuidado e qualidade de vida.\n\nSe você ama se cuidar, quer entender melhor sobre tratamentos estéticos e acredita que beleza vem de dentro pra fora — esse canal é pra você! 💖\n\nInscreva-se e ative o sininho pra não perder nenhuma novidade. 🔔\n",
+        "latest_video_at": "2026-10-04T18:24:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCaIHH1eqPTTL_f8o0mU994w",
+      "external_id": "UCaIHH1eqPTTL_f8o0mU994w",
+      "name": "תחרויות פיתוח גוף ושרירים, bodybuilding",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCaIHH1eqPTTL_f8o0mU994w",
+      "discovered_on": "2026-10-05",
+      "score": 55.04,
+      "metrics": {
+        "subscribers": 2240,
+        "total_views": 1385730,
+        "video_count": 1676,
+        "avg_views_per_video": 826.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "IJY1gpFjl8M",
+            "title": "Bremelanotide PT 141 peptide, ברמנלוטייד, קובי עזרא",
+            "description": "פפטיד ברמלנוטייד (PT-141): מנגנון הפעולה וההבדל המבני מול ויאגרה בניגוד לפתרונות המוכרים הפועלים על זרימת דם מקומית, פפטיד ה-PT-141 ...",
+            "published_at": "2026-10-05T08:00:39Z",
+            "url": "https://www.youtube.com/watch?v=IJY1gpFjl8M"
+          }
+        ],
+        "channel_description": "פיתוח גוף ופיתוח שרירים, הינו ערוץ הדן אודות תחרויות מר ישראל בתחום פיתח הגוף (bodybuilding) והשרירים. תחרות מר ישראל ומיס פיטנס של האיגודים השונים, כגון: נאבא, IFBB, NAC ועוד... תמונות וסרטונים של תחרויות מרי ישראל בתחום פיתוח גוף. תחרות איש הברזל (Ironman Pro Invitational) ועוד... bodybuilding program. #bodybuilding #muscledevelopment\nערוץ פיתוח השרירים, של מאמן הכושר האישי - קובי לוי.",
+        "latest_video_at": "2026-10-05T08:00:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCFtjLZgGPqJFIsitTtBnSCQ",
       "external_id": "UCFtjLZgGPqJFIsitTtBnSCQ",

@@ -2,19 +2,71 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-10-04T15:25:48Z",
-  "new_this_run": 2,
-  "total_influencers": 338,
+  "updated_at": "2026-10-05T19:19:44Z",
+  "new_this_run": 1,
+  "total_influencers": 339,
   "run_summary": {
-    "run_started_at": "2026-10-04T15:25:43Z",
-    "candidate_count": 40,
-    "existing_count": 336,
-    "selected_new_count": 2,
+    "run_started_at": "2026-10-05T19:19:38Z",
+    "candidate_count": 41,
+    "existing_count": 338,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCWrZXppmEeor9ZVX-k9jddg",
+      "external_id": "UCWrZXppmEeor9ZVX-k9jddg",
+      "name": "Monetary Metals",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCWrZXppmEeor9ZVX-k9jddg",
+      "discovered_on": "2026-10-05",
+      "score": 69.28,
+      "metrics": {
+        "subscribers": 12400,
+        "total_views": 1607966,
+        "video_count": 762,
+        "avg_views_per_video": 2110.19,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate tokenization",
+          "tokenized real estate"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "U2tnW5trgHQ",
+            "title": "The Biggest Risk to Gold and Real Estate Investors Is Not Inflation | Jeff Snider",
+            "description": "Get the 2026 Gold Outlook Report: https://buff.ly/X2S5vMo Timestamps: 00:00 The overlooked risk facing hard asset investors ...",
+            "published_at": "2026-10-05T17:18:36Z",
+            "url": "https://www.youtube.com/watch?v=U2tnW5trgHQ"
+          },
+          {
+            "query": "tokenized real estate",
+            "video_id": "U2tnW5trgHQ",
+            "title": "The Biggest Risk to Gold and Real Estate Investors Is Not Inflation | Jeff Snider",
+            "description": "Get the 2026 Gold Outlook Report: https://buff.ly/X2S5vMo Timestamps: 00:00 The overlooked risk facing hard asset investors ...",
+            "published_at": "2026-10-05T17:18:36Z",
+            "url": "https://www.youtube.com/watch?v=U2tnW5trgHQ"
+          }
+        ],
+        "channel_description": "Monetary Metals delivers a yield on gold, paid in gold, via its Gold Yield Marketplace™ platform, by offering gold-denominated financing to qualified companies in the precious metals industry.\n\nThrough its gold leases and gold bonds, investors and institutions worldwide earn a yield on gold and silver every month, compounding their holdings over time with no storage fees.\n\nFor more information, please visit: https://buff.ly/TfQV1w5\n",
+        "latest_video_at": "2026-10-05T17:18:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC9xP6fruLiRlwcHplFqmQpw",
       "external_id": "UC9xP6fruLiRlwcHplFqmQpw",

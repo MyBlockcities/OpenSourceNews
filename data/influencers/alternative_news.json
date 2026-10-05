@@ -2,19 +2,582 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-10-04T15:25:51Z",
-  "new_this_run": 7,
-  "total_influencers": 737,
+  "updated_at": "2026-10-05T19:19:47Z",
+  "new_this_run": 13,
+  "total_influencers": 750,
   "run_summary": {
-    "run_started_at": "2026-10-04T15:25:43Z",
-    "candidate_count": 15,
-    "existing_count": 730,
-    "selected_new_count": 7,
+    "run_started_at": "2026-10-05T19:19:38Z",
+    "candidate_count": 21,
+    "existing_count": 737,
+    "selected_new_count": 13,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC3o5CGJ85o40slfUdTUBOhA",
+      "external_id": "UC3o5CGJ85o40slfUdTUBOhA",
+      "name": "Juste1media",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC3o5CGJ85o40slfUdTUBOhA",
+      "discovered_on": "2026-10-05",
+      "score": 78.61,
+      "metrics": {
+        "subscribers": 32800,
+        "total_views": 72385564,
+        "video_count": 670,
+        "avg_views_per_video": 108038.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/channel/UC3o5CGJ85o40slfUdTUBOhA"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "X6gZXM5YNt0",
+            "title": "La censure des réseaux sociaux pour les jeunes ? #actualités",
+            "description": "",
+            "published_at": "2026-10-05T15:45:00Z",
+            "url": "https://www.youtube.com/watch?v=X6gZXM5YNt0"
+          }
+        ],
+        "channel_description": "Des infos, en vrac \nPour nous soutenir :\n\nhttps://www.youtube.com/channel/UC3o5CGJ85o40slfUdTUBOhA/join",
+        "latest_video_at": "2026-10-05T15:45:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCtPq1eQH8u2OK1WPcuPkaDQ",
+      "external_id": "UCtPq1eQH8u2OK1WPcuPkaDQ",
+      "name": "Confluence History",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCtPq1eQH8u2OK1WPcuPkaDQ",
+      "discovered_on": "2026-10-05",
+      "score": 76.94,
+      "metrics": {
+        "subscribers": 97900,
+        "total_views": 24928690,
+        "video_count": 169,
+        "avg_views_per_video": 147507.04,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "HWkAHhiOuSM",
+            "title": "Emergency में Indian Express ने कैसे किया Censorship का विरोध? | Ramnath Goenka",
+            "description": "During the Emergency, the Indian Express faced government pressure, including the withdrawal of government advertising and ...",
+            "published_at": "2026-10-05T13:25:31Z",
+            "url": "https://www.youtube.com/watch?v=HWkAHhiOuSM"
+          }
+        ],
+        "channel_description": "Confluence History लाता है भारतीय और विश्व इतिहास की रिसर्च-आधारित कहानियाँ। \n भूले नामों और अनजाने पलों से लेकर इतिहास बदल देने वाली घटनाओं तक।\nइसे आप तक ला रहें हैं  Confluence Media । एक सम्मानित कंटेंट हब जो सच्ची और प्रभावशाली कहानियाँ प्रस्तुत करता है।\n\nदेखें  https://theconfluencemedia.com/\n\nConfluence History brings stories from Indian and world history that are rooted in deep research and novel cinematic storytelling. By delving into the untold archives, we uncover the forgotten heroes and pivotal moments that changed the world. \nFrom the house of Confluence Media: a respected content hub for powerful, research-driven narratives.\n\nExplore more at  https://theconfluencemedia.com/\nEmail us at Mail@confluencestudios.com\n",
+        "latest_video_at": "2026-10-05T13:25:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOcpEv5qhnKw6HtlxN3Yx_A",
+      "external_id": "UCOcpEv5qhnKw6HtlxN3Yx_A",
+      "name": "Julianbits",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCOcpEv5qhnKw6HtlxN3Yx_A",
+      "discovered_on": "2026-10-05",
+      "score": 73.35,
+      "metrics": {
+        "subscribers": 41800,
+        "total_views": 23545260,
+        "video_count": 123,
+        "avg_views_per_video": 191424.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "9S64wJXbjuM",
+            "title": "Why Publishers Censored This Story 🤫!! #shorts",
+            "description": "Publishers demanded two specific lines be removed before printing... Investigative author drops wild revelations about media ...",
+            "published_at": "2026-10-03T19:46:43Z",
+            "url": "https://www.youtube.com/watch?v=9S64wJXbjuM"
+          }
+        ],
+        "channel_description": "🎙️ Julian dorey clipping page\n🎯 Follow for daily clips\n❌ Not impersonating ",
+        "latest_video_at": "2026-10-03T19:46:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCH9xgpn-ROt8u-O3Zkzx2fw",
+      "external_id": "UCH9xgpn-ROt8u-O3Zkzx2fw",
+      "name": "समय चक्र टाइम्स ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCH9xgpn-ROt8u-O3Zkzx2fw",
+      "discovered_on": "2026-10-05",
+      "score": 68.38,
+      "metrics": {
+        "subscribers": 53500,
+        "total_views": 25059155,
+        "video_count": 5521,
+        "avg_views_per_video": 4538.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "xG7RkEsjlAo",
+            "title": "‘मीडिया की स्वतंत्रता मजबूत हो’ | इंदौर में राहुल गांधी के संदेश का जिक्र",
+            "description": "'मीडिया की स्वतंत्रता मजबूत हो' | इंदौर में राहुल गांधी के संदेश का ...",
+            "published_at": "2026-10-05T06:40:56Z",
+            "url": "https://www.youtube.com/watch?v=xG7RkEsjlAo"
+          }
+        ],
+        "channel_description": "समय चक्र टाइम्स — आपकी आवाज़, आपके सवाल, और आपके सरोकारों की सशक्त पत्रकारिता।\nयह चैनल सिर्फ़ खबरें नहीं दिखाता, बल्कि हर मुद्दे की तह तक जाता है।\n\n📰 हमारी पहचान एक राष्ट्रीय स्तर की प्रतिष्ठित मैगज़ीन और साप्ताहिक अख़बार के रूप में भी है, जो वर्षों से जन-सरोकार की पत्रकारिता को समर्पित है।\n\n📺 इस यूट्यूब चैनल के माध्यम से हम आपको देश-दुनिया की बड़ी खबरें, ज़मीनी रिपोर्टिंग, जनआंदोलनों की आवाज़ और पॉजिटिव इंडिया की प्रेरणादायक कहानियां दिखाते हैं।\n\n🔔 सब्सक्राइब करें और बनें जिम्मेदार पत्रकारिता का हिस्सा।\n\n\n",
+        "latest_video_at": "2026-10-05T06:40:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCG-KV5uzL2gPmAotFLWFLTg",
+      "external_id": "UCG-KV5uzL2gPmAotFLWFLTg",
+      "name": "News Muni",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCG-KV5uzL2gPmAotFLWFLTg",
+      "discovered_on": "2026-10-05",
+      "score": 65.89,
+      "metrics": {
+        "subscribers": 16400,
+        "total_views": 8992913,
+        "video_count": 1192,
+        "avg_views_per_video": 7544.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "LsRkI4f-pHE",
+            "title": "प्रदर्शन कवर करने पहुंचे ऑल्टरनेटिव मीडिया के पत्रकारों को पुलिस हिरासत में ले रही है",
+            "description": "जंतर-मंतर पर प्रदर्शन कवर करने पहुंचे ऑल्टरनेटिव मीडिया के ...",
+            "published_at": "2026-10-05T07:47:48Z",
+            "url": "https://www.youtube.com/watch?v=LsRkI4f-pHE"
+          }
+        ],
+        "channel_description": "No Sensationalism - Just Reality\nNo Clutter - Just Plain Simple Facts\nNo Bias - Just Objectivity\n\nFrom politics to people’s voices — real issues, real journalism.\n\nNews Muni brings you news that matters — simple, clear, and unbiased.\n\nBecause informed citizens build a stronger nation.",
+        "latest_video_at": "2026-10-05T07:47:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTfgb3BnQgyocZWgjKZsUBQ",
+      "external_id": "UCTfgb3BnQgyocZWgjKZsUBQ",
+      "name": "Prophetic Info",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCTfgb3BnQgyocZWgjKZsUBQ",
+      "discovered_on": "2026-10-05",
+      "score": 63.56,
+      "metrics": {
+        "subscribers": 10400,
+        "total_views": 2023460,
+        "video_count": 415,
+        "avg_views_per_video": 4875.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "A01QUSo2kgM",
+            "title": "🇨🇲💥 GOOD NEWS//SOUTHERN CAMEROON//UK//INDEPENDENT ",
+            "description": "africanpolitician #cameroon #cameroonconflict #cameroonprophecy #chantalbiya #paulbiya #prophecy #propheticinfo ...",
+            "published_at": "2026-10-05T15:58:10Z",
+            "url": "https://www.youtube.com/watch?v=A01QUSo2kgM"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-05T15:58:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCUgdGApT5twlBHU_nVOZAXw",
+      "external_id": "UCUgdGApT5twlBHU_nVOZAXw",
+      "name": "Zonacurva",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCUgdGApT5twlBHU_nVOZAXw",
+      "discovered_on": "2026-10-05",
+      "score": 63.28,
+      "metrics": {
+        "subscribers": 58900,
+        "total_views": 5606752,
+        "video_count": 9362,
+        "avg_views_per_video": 598.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ghIgwRPVaUs",
+            "title": "Nada de censura, a Globo cancelou o debate porque quis",
+            "description": "Nada de censura, a Globo cancelou o debate porque quis # Análise Crítica do Debate Cancelado e a Influência Midiática no ...",
+            "published_at": "2026-10-03T23:00:24Z",
+            "url": "https://www.youtube.com/watch?v=ghIgwRPVaUs"
+          }
+        ],
+        "channel_description": "Zona Curva - Mídia livre em política e cultura\nYoutube do Zona Curva mídia livre - jornalismo crítico na internet em língua portuguesa.",
+        "latest_video_at": "2026-10-03T23:00:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCcicHyn8vUSuwFqsJ1Ul-Tg",
+      "external_id": "UCcicHyn8vUSuwFqsJ1Ul-Tg",
+      "name": "TheDailySignal ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCcicHyn8vUSuwFqsJ1Ul-Tg",
+      "discovered_on": "2026-10-05",
+      "score": 62.66,
+      "metrics": {
+        "subscribers": 2970,
+        "total_views": 5331800,
+        "video_count": 286,
+        "avg_views_per_video": 18642.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "xhak3pp2SFY",
+            "title": "“A New Look at Epstein’s Autopsy” #breakingnews #news #crimenews #worlnews #independent",
+            "description": "Dr. Michael Freeman, a forensic medicine professor at Oregon Health & Science University and Maastricht University Medical ...",
+            "published_at": "2026-10-05T07:40:27Z",
+            "url": "https://www.youtube.com/watch?v=xhak3pp2SFY"
+          }
+        ],
+        "channel_description": "Breaking news and analysis on the events shaping our world. I cover geopolitics, international relations turning complex world affairs into clear, fast breakdowns you can actually understand. No spin, just context. New videos regularly.\n🌍 Subscribe to TheDailySignal , straight to the point.",
+        "latest_video_at": "2026-10-05T07:40:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC-ifkEQw-o57iXcKK0VixVQ",
+      "external_id": "UC-ifkEQw-o57iXcKK0VixVQ",
+      "name": "William Vianney Solano Periodista DCerca",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC-ifkEQw-o57iXcKK0VixVQ",
+      "discovered_on": "2026-10-05",
+      "score": 62.45,
+      "metrics": {
+        "subscribers": 20800,
+        "total_views": 2467440,
+        "video_count": 2228,
+        "avg_views_per_video": 1107.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "dxB-4KV9gRk",
+            "title": "Periodismo sin Complacencias ",
+            "description": "Periodismo sin complacencias Por: William Vianney Solano “Quien te ama no necesita explicaciones; quien te odia no te las ...",
+            "published_at": "2026-10-04T22:45:54Z",
+            "url": "https://www.youtube.com/watch?v=dxB-4KV9gRk"
+          }
+        ],
+        "channel_description": "La Constitución Política de Colombia, dispone: ARTICULO 20. Se garantiza a toda persona la libertad de expresar y difundir su pensamiento y opiniones, la de informar y recibir información veraz e imparcial, y la de fundar medios masivos de comunicación.  Estos son libres y tienen responsabilidad social. Se garantiza el derecho a la rectificación en condiciones de equidad. No habrá censura.\n\nGracias por tu respaldo y apoyo al Nequi 3153822696\n",
+        "latest_video_at": "2026-10-04T22:45:54Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCQbyrLZXXw_OdM0GW1z9D4w",
+      "external_id": "UCQbyrLZXXw_OdM0GW1z9D4w",
+      "name": "सबकी बात MEDIA",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCQbyrLZXXw_OdM0GW1z9D4w",
+      "discovered_on": "2026-10-05",
+      "score": 60.33,
+      "metrics": {
+        "subscribers": 5230,
+        "total_views": 1281676,
+        "video_count": 445,
+        "avg_views_per_video": 2880.17,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "b-E1uJ1uMPI",
+            "title": "प्रेस कार्ड वालों पर कार्रवाई?इंडिपेंडेंट जर्नलिस्ट हर्ष यादव का आरोप #sabkibaatmedia #harshyadav",
+            "description": "इंडिपेंडेंट जर्नलिस्ट हर्ष यादव का आरोप है कि प्रेस कार्ड वाले ...",
+            "published_at": "2026-10-05T11:40:01Z",
+            "url": "https://www.youtube.com/watch?v=b-E1uJ1uMPI"
+          }
+        ],
+        "channel_description": "\"सबकी बात\"  सिर्फ एक यूट्यूब चैनल नहीं, बल्कि हम सबकी सोच, सवाल और सच्चाई का आईना है।\n\nयह चैनल है उन मुद्दों का मंच, जिन पर आम लोग बात करना तो चाहते हैं, लेकिन जगह नहीं मिलती।\nयहाँ हम उठाते हैं वो विषय जो दिल से निकलते हैं —\n🔹 समाज की अनकही बातें\n🔹 आम लोगों की ज़िंदगी से जुड़े सवाल\n🔹 ज़मीन से जुड़ी कहानियाँ\n🔹 और हर वो बात... जो सबकी होनी चाहिए\n\nहमारा विश्वास है:\nजब बात सबकी होती है, तभी बात पूरी होती है।\n\nयह चैनल किसी एक विचारधारा का नहीं, यह है आपका, मेरा, और हर सोचने वाले इंसान का।\nयहाँ कोई दिखावा नहीं — बस सीधी बात, साफ़ बात — सबकी बात।\n\n तो अगर आप चाहते हैं कि आपकी भी बात सुनी जाए...\nतो जुड़िए इस सफर में, क्योंकि\n\n\"आपकी बात, आपके बीच — यही है ,सबकी बात!\"\n\n\ninvestigative journalism, social documentaries, Indian youth issues, awareness content, hindi vlogs, vlogging india, social impact, documentary hindi,NEWS reporting, RTI activist.\n\nGrivience-Sabkibaatmedia@gmail.com\n\n\n\n\n\n\n",
+        "latest_video_at": "2026-10-05T11:40:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCxH6-yNYf6rl7INktZYaBOg",
+      "external_id": "UCxH6-yNYf6rl7INktZYaBOg",
+      "name": "Rashtrix",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCxH6-yNYf6rl7INktZYaBOg",
+      "discovered_on": "2026-10-05",
+      "score": 59.49,
+      "metrics": {
+        "subscribers": 3540,
+        "total_views": 1267375,
+        "video_count": 3759,
+        "avg_views_per_video": 337.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@rashtrixnews"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "LVs7APeSkZ4",
+            "title": "সেন্সরশিপ নয়, এবার AI-এর মাধ্যমে ন্যারেটিভ নিয়ন্ত্রণ | AI Censorship and Narrative Control",
+            "description": "সেন্সরশিপ নয়, এবার AI-এর মাধ্যমে ন্যারেটিভ নিয়ন্ত্রণ! চিনের AI ...",
+            "published_at": "2026-10-05T10:49:27Z",
+            "url": "https://www.youtube.com/watch?v=LVs7APeSkZ4"
+          }
+        ],
+        "channel_description": "Welcome to Rashtrix : India’s fastest-growing Gen Z news channel, covering Regional news-analysis, West Bengal politics, National news along with geopolitics and defence. As an independent, unbiased news platform, Rashtrix is free from political influence and bias. We bring you fast-paced, ground-level investigative journalism and strategic decoding,with data, not drama. Whether it’s unfiltering West Bengal politics, exposing civic issues, giving voice to local citizens, or analyzing geopolitics, and Indian Defence updates , Rashtrix is your trusted source for sharp, unbiased, and impactful reporting.\n💡 WHY RASHTRIX?\nWe cut through sensationalism & deliver factual stories for the fast-thinking generation.\n\nরাজনীতি, বিশ্ব ভূ-রাজনীতি, ডিফেন্স আপডেট, নিরপেক্ষ বিশ্লেষণ ও গ্রাউন্ড রিপোর্টের জন্য\n🔔 SUBSCRIBE NOW\nhttps://www.youtube.com/@rashtrixnews?sub_confirmation=1\n📢 HAVE LOCAL ISSUE TO REPORT?\n📧 contact@rashtrix.in | 033 2287 0041\n\n#WestBengalNews #Geopolitics #IndianDefence #LocalNews\n",
+        "latest_video_at": "2026-10-05T10:49:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCbNuY_uwEzNr7j15F8quFCA",
+      "external_id": "UCbNuY_uwEzNr7j15F8quFCA",
+      "name": "Prophetic Denis",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCbNuY_uwEzNr7j15F8quFCA",
+      "discovered_on": "2026-10-05",
+      "score": 58.38,
+      "metrics": {
+        "subscribers": 5600,
+        "total_views": 735170,
+        "video_count": 689,
+        "avg_views_per_video": 1067.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "KLwL1VBM6k4",
+            "title": "URGENT Prophecy FOR CAMEROON GOOD NEWS THE SOUTHERN CAMEROON HAVE THEIR INDEPENDENT",
+            "description": "",
+            "published_at": "2026-10-05T11:38:25Z",
+            "url": "https://www.youtube.com/watch?v=KLwL1VBM6k4"
+          }
+        ],
+        "channel_description": "Welcome to Prophetic Denis – a channel dedicated to prayer, prophetic messages, spiritual encouragement, and divine revelation.\n\nOn this channel, you will find:\n• Powerful daily prayers\n• Prophetic words and spiritual insights\n• Cameroon prophecies and national updates\n• End-time messages and biblical teachings\n• Deliverance and breakthrough prayers\n• Faith-building content to strengthen your walk with God\n\nOur mission is to inspire, encourage, and prepare believers through the Word of God and the guidance of the Holy Spirit. Join us as we seek God's presence, pray for nations, and receive divine direction for our lives.\n\nSubscribe, turn on notifications, and become part of this growing prayer community. May God bless you, protect you, and lead you into your prophetic destiny.\n\n📖 \"Surely the Lord God does nothing without revealing His plan to His servants the prophets.\" – Amos 3:7",
+        "latest_video_at": "2026-10-05T11:38:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCHLXzDxpZ0NHIpXwBIBZuTA",
+      "external_id": "UCHLXzDxpZ0NHIpXwBIBZuTA",
+      "name": "Australia Update Hub",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCHLXzDxpZ0NHIpXwBIBZuTA",
+      "discovered_on": "2026-10-05",
+      "score": 57.94,
+      "metrics": {
+        "subscribers": 2600,
+        "total_views": 701703,
+        "video_count": 275,
+        "avg_views_per_video": 2551.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "qPLB30GEZ0U",
+            "title": "CAUGHT: Albo brags about new censorship powers #australianpolitics #politicalnews #australianews",
+            "description": "",
+            "published_at": "2026-10-04T21:05:31Z",
+            "url": "https://www.youtube.com/watch?v=qPLB30GEZ0U"
+          }
+        ],
+        "channel_description": "Welcome to your go-to source for bold debates and real discussions on Australia 🇦🇺\n\nThis channel brings you the most talked-about topics, political debates, controversial opinions, and trending issues shaping Australia today. We break down complex stories into simple, engaging discussions so you can understand what’s really going on.\n\nFrom heated political clashes to viral moments and public reactions — we cover it all with a sharp and balanced perspective.\n\nIf you want more than just news — if you want real talk, honest opinions, and deep analysis — you’re in the right place.\n\nWe cover:\n🔥 Political Debates & Clashes\n🔥 Trending Controversies\n🔥 Viral News & Public Reactions\n🔥 Government Decisions & Criticism\n🔥 Real Opinions & Analysis\n\n⚡ No filters. No boring news. Just real conversations.\n\n👉 Subscribe now and stay ahead of the debate.\n\n\n#australiadebate #controversy #politicaldebate #australianews #breakingdebate #aussiepolitics #viralnews #debatechannel #trendingtopics #realtalk\n",
+        "latest_video_at": "2026-10-04T21:05:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCEv5eWbY9MswicksbJb60uA",
       "external_id": "UCEv5eWbY9MswicksbJb60uA",
