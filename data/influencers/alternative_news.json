@@ -2,19 +2,324 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-10-05T19:19:47Z",
-  "new_this_run": 13,
-  "total_influencers": 750,
+  "updated_at": "2026-10-06T16:51:46Z",
+  "new_this_run": 7,
+  "total_influencers": 757,
   "run_summary": {
-    "run_started_at": "2026-10-05T19:19:38Z",
-    "candidate_count": 21,
-    "existing_count": 737,
-    "selected_new_count": 13,
+    "run_started_at": "2026-10-06T16:51:37Z",
+    "candidate_count": 15,
+    "existing_count": 750,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCpm8cve10ZqxK4CpBPJYtEg",
+      "external_id": "UCpm8cve10ZqxK4CpBPJYtEg",
+      "name": "Emily Miller",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCpm8cve10ZqxK4CpBPJYtEg",
+      "discovered_on": "2026-10-06",
+      "score": 68.13,
+      "metrics": {
+        "subscribers": 9260,
+        "total_views": 12570962,
+        "video_count": 267,
+        "avg_views_per_video": 47082.25,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "61HKkyFn0SA",
+            "title": "President Trump called my independent journalism “absolutely fantastic”",
+            "description": "I'm Emily Miller. The running reporter.",
+            "published_at": "2026-10-06T00:12:20Z",
+            "url": "https://www.youtube.com/watch?v=61HKkyFn0SA"
+          }
+        ],
+        "channel_description": "Follow the Running Reporter for on-the-ground D.C. news 🇺🇸 | 50+ million cross-platform views a month | Certified Personal Trainer & Nutrition Coach",
+        "latest_video_at": "2026-10-06T00:12:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZWyyo154jH3Cbvh-5V7B9A",
+      "external_id": "UCZWyyo154jH3Cbvh-5V7B9A",
+      "name": "3AW Melbourne",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCZWyyo154jH3Cbvh-5V7B9A",
+      "discovered_on": "2026-10-06",
+      "score": 67.8,
+      "metrics": {
+        "subscribers": 24100,
+        "total_views": 42320104,
+        "video_count": 3991,
+        "avg_views_per_video": 10603.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "2nspUL4rhV4",
+            "title": "Why Tom Elliott is ‘uneasy’ about Anika Wells’ internet censorship powers | 3AW Melbourne",
+            "description": "I am uneasy” Tom Elliott has questioned Anika Wells' internet censorship powers. Subscribe and to 3AW Melbourne: ...",
+            "published_at": "2026-10-05T20:00:29Z",
+            "url": "https://www.youtube.com/watch?v=2nspUL4rhV4"
+          }
+        ],
+        "channel_description": "Melbourne's #1 radio station.\n\n",
+        "latest_video_at": "2026-10-05T20:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCLn9hmrb7q3pRRRtGVZBLrg",
+      "external_id": "UCLn9hmrb7q3pRRRtGVZBLrg",
+      "name": "Mills Cortes",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCLn9hmrb7q3pRRRtGVZBLrg",
+      "discovered_on": "2026-10-06",
+      "score": 67.3,
+      "metrics": {
+        "subscribers": 7350,
+        "total_views": 13429452,
+        "video_count": 302,
+        "avg_views_per_video": 44468.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "Ej3rXHNlDDY",
+            "title": "Porque não regulamentar as redes é melhor opção #debate #shorts #lucaspavanato",
+            "description": "Corte retirado do podcast:@BNTVBrasil --------------- Pavanato e Mandi entram em um bate-boca sobre a regulamentação das ...",
+            "published_at": "2026-10-06T09:00:14Z",
+            "url": "https://www.youtube.com/watch?v=Ej3rXHNlDDY"
+          }
+        ],
+        "channel_description": "Cortes dos melhores momentos de podcasts.\n\nAqui você encontra trechos marcantes, brigas e discussoês, debates sobre todo tipo de assunto, reflexões, histórias reais, opiniões sinceras e conversas que fazem pensar.\n\nSelecionamos falas impactantes de convidados e apresentadores sobre vida, sucesso, erros, aprendizado, dinheiro, fama e bastidores que nem sempre aparecem por inteiro.\n\nConteúdo direto, sem enrolação, só o que realmente importa.\n\n🔔 Inscreva-se no Mills Cortes e acompanhe novos cortes todos os dias.\n",
+        "latest_video_at": "2026-10-06T09:00:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCjdq2eSV2SgBPCnDQi29ckg",
+      "external_id": "UCjdq2eSV2SgBPCnDQi29ckg",
+      "name": "Justice Centre for Constitutional Freedoms",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCjdq2eSV2SgBPCnDQi29ckg",
+      "discovered_on": "2026-10-06",
+      "score": 65.31,
+      "metrics": {
+        "subscribers": 23500,
+        "total_views": 1415276,
+        "video_count": 406,
+        "avg_views_per_video": 3485.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "dEedWYVXt2w",
+            "title": "Independent media help keep Canada strong and free",
+            "description": "Watch Juno News co-founder and 2026 George Jonas Freedom Award recipient Candice Malcolm in conversation with Justice ...",
+            "published_at": "2026-10-06T15:52:15Z",
+            "url": "https://www.youtube.com/watch?v=dEedWYVXt2w"
+          }
+        ],
+        "channel_description": "The Justice Centre for Constitutional Freedoms is Canada's leading civil liberties organization fighting for Charter rights and freedoms in the courts of law and in the court of public opinion. Founded in 2010, the Justice Centre funds lawyers across Canada, relies entirely on voluntary donations to carry out its mission, and issues official tax receipts to donors.\n",
+        "latest_video_at": "2026-10-06T15:52:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCsmKH_7Id_cO8NYwNOeIN9g",
+      "external_id": "UCsmKH_7Id_cO8NYwNOeIN9g",
+      "name": "McKnight Tonight",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCsmKH_7Id_cO8NYwNOeIN9g",
+      "discovered_on": "2026-10-06",
+      "score": 63.96,
+      "metrics": {
+        "subscribers": 6360,
+        "total_views": 1343370,
+        "video_count": 1150,
+        "avg_views_per_video": 1168.15,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://x.com/rob_mcknight",
+        "instagram": "https://www.instagram.com/robert_mcknight",
+        "tiktok": "https://www.tiktok.com/@robert_mcknight"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "mfZwIhmQeS8",
+            "title": "Media Censorship - How the White House tried to hide Trump napping",
+            "description": "White House Hides Trump Falling Asleep | Jackie O Court Case Delayed Until April | Hugh Riminton Farewell The Jackie O v ARN ...",
+            "published_at": "2026-10-06T10:00:12Z",
+            "url": "https://www.youtube.com/watch?v=mfZwIhmQeS8"
+          }
+        ],
+        "channel_description": "It's a different take on the news of the day.\n\nHot Topics, Interviews and insights as Rob streams his internet show from his garage.\n\n📺 Subscribe to McKnight Tonight: youtube.com/@McKnightTonight\n\nMcKnight Tonight - Monday, Wednesday & Thursday at 9pm AEST.\n\nMedia McKnight - Tuesday 9pm AEST\n\nFaceBook: https://www.facebook.com/McKTonight1\n\nTikTok: https://www.tiktok.com/@robert_mcknight\n\nX: https://x.com/rob_mcknight\n\nInstagram: https://www.instagram.com/robert_mcknight\n\n",
+        "latest_video_at": "2026-10-06T10:00:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVrY6uC-Kk6RogvQoL68rIQ",
+      "external_id": "UCVrY6uC-Kk6RogvQoL68rIQ",
+      "name": "AMITAA PARUL",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCVrY6uC-Kk6RogvQoL68rIQ",
+      "discovered_on": "2026-10-06",
+      "score": 59.62,
+      "metrics": {
+        "subscribers": 2790,
+        "total_views": 3928894,
+        "video_count": 785,
+        "avg_views_per_video": 5004.96,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "vmAYsg1Iquc",
+            "title": "पुराने पत्रकार Mainstream Media क्यों छोड़ रहे हैं? 😳 असली वजह क्या है? #unpluggedamita #news",
+            "description": "पुराने पत्रकार Mainstream Media क्यों छोड़ रहे हैं? असली वजह क्या है?",
+            "published_at": "2026-10-06T08:20:32Z",
+            "url": "https://www.youtube.com/watch?v=vmAYsg1Iquc"
+          }
+        ],
+        "channel_description": "🎉 Welcome to Unplugged Amita! 🌟\n\nI’m Amita Parul, a journalist with over 17 years of experience, here to bring you the latest news updates, captivating vlogs, podcasts and more! 📰✨ \n\nJoin me as we dive deep into important stories and share unique insights. Your source for authentic content starts right here! 🔍❤️ \n\nHit that subscribe button and let’s explore the world together! 🌍💬",
+        "latest_video_at": "2026-10-06T08:20:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKS3v4L60vTyj_pUBQEdAIQ",
+      "external_id": "UCKS3v4L60vTyj_pUBQEdAIQ",
+      "name": "Timeline",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCKS3v4L60vTyj_pUBQEdAIQ",
+      "discovered_on": "2026-10-06",
+      "score": 57.06,
+      "metrics": {
+        "subscribers": 6940,
+        "total_views": 1889911,
+        "video_count": 4404,
+        "avg_views_per_video": 429.14,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "RKCXInCGfzo",
+            "title": "Spandan Banerjee On Censorship, Cinema And Freedom Of Speech",
+            "description": "National Award-winning filmmaker and founder of Overdose Films, Spandan Banerjee, joins us for an in-depth conversation about ...",
+            "published_at": "2026-10-06T06:57:19Z",
+            "url": "https://www.youtube.com/watch?v=RKCXInCGfzo"
+          }
+        ],
+        "channel_description": "Timeline is an online news portal that delivers credible trending news content in English from India. We are committed to providing our readers with accurate and up-to-date information about the events that matter to them.",
+        "latest_video_at": "2026-10-06T06:57:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC3o5CGJ85o40slfUdTUBOhA",
       "external_id": "UC3o5CGJ85o40slfUdTUBOhA",

@@ -2,19 +2,117 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-10-05T19:19:44Z",
-  "new_this_run": 1,
-  "total_influencers": 339,
+  "updated_at": "2026-10-06T16:51:43Z",
+  "new_this_run": 2,
+  "total_influencers": 341,
   "run_summary": {
-    "run_started_at": "2026-10-05T19:19:38Z",
-    "candidate_count": 41,
-    "existing_count": 338,
-    "selected_new_count": 1,
+    "run_started_at": "2026-10-06T16:51:37Z",
+    "candidate_count": 34,
+    "existing_count": 339,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCAucb7t2m8Y9Mx_DOZU6YKQ",
+      "external_id": "UCAucb7t2m8Y9Mx_DOZU6YKQ",
+      "name": "3.0 TV",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCAucb7t2m8Y9Mx_DOZU6YKQ",
+      "discovered_on": "2026-10-06",
+      "score": 82.07,
+      "metrics": {
+        "subscribers": 64200,
+        "total_views": 8059542,
+        "video_count": 16724,
+        "avg_views_per_video": 481.91,
+        "matched_queries": 4,
+        "sample_videos": 4
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "property tokenization",
+          "real estate RWA",
+          "real estate tokenization",
+          "tokenized real estate"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "53LNw_8lwrA",
+            "title": "RWA Tokenization: Real Estate, DELTA Act &amp; India&#39;s Next Financial Frontier | Manish Kumar, RealX",
+            "description": "Can tokenization transform how India owns, finances and trades real estate? In this episode, Manish Kumar, Co-Founder & CEO ...",
+            "published_at": "2026-10-06T14:04:02Z",
+            "url": "https://www.youtube.com/watch?v=53LNw_8lwrA"
+          },
+          {
+            "query": "tokenized real estate",
+            "video_id": "53LNw_8lwrA",
+            "title": "RWA Tokenization: Real Estate, DELTA Act &amp; India&#39;s Next Financial Frontier | Manish Kumar, RealX",
+            "description": "Can tokenization transform how India owns, finances and trades real estate? In this episode, Manish Kumar, Co-Founder & CEO ...",
+            "published_at": "2026-10-06T14:04:02Z",
+            "url": "https://www.youtube.com/watch?v=53LNw_8lwrA"
+          },
+          {
+            "query": "real estate RWA",
+            "video_id": "53LNw_8lwrA",
+            "title": "RWA Tokenization: Real Estate, DELTA Act &amp; India&#39;s Next Financial Frontier | Manish Kumar, RealX",
+            "description": "Can tokenization transform how India owns, finances and trades real estate? In this episode, Manish Kumar, Co-Founder & CEO ...",
+            "published_at": "2026-10-06T14:04:02Z",
+            "url": "https://www.youtube.com/watch?v=53LNw_8lwrA"
+          },
+          {
+            "query": "property tokenization",
+            "video_id": "53LNw_8lwrA",
+            "title": "RWA Tokenization: Real Estate, DELTA Act &amp; India&#39;s Next Financial Frontier | Manish Kumar, RealX",
+            "description": "Can tokenization transform how India owns, finances and trades real estate? In this episode, Manish Kumar, Co-Founder & CEO ...",
+            "published_at": "2026-10-06T14:04:02Z",
+            "url": "https://www.youtube.com/watch?v=53LNw_8lwrA"
+          }
+        ],
+        "channel_description": "3.0 TV (3versetv) is a cutting-edge news channel providing minute-by-minute coverage of the rapidly evolving world of Web3, Blockchain, Bitcoin, Ethereum, AI & more.\n\nVisit our official website 🌐 https://www.3versetv.com/\n\nSubscribe to 3.0TV (3versetv) and become a part of the movement shaping the digital future. We foster an informative and interactive environment, encouraging you to engage with the content and share your perspectives.\n\n#reallive3tv #live3tv #crypto #cryptonews #web3 #ai #blockchaintechnology #digitalcurrency #coins #news #web3news #bitcoin #3.0tv #trading #sharemarketnews #ethereum #nft #nfts #tradingtips #3versetv #aimarketnews #tech #technews \n",
+        "latest_video_at": "2026-10-06T14:04:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:ef7700c9b70b9ef851eb",
+      "external_id": "ef7700c9b70b9ef851eb",
+      "name": "Cointelegraph by Andrew M. Cuomo",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://cointelegraph.com/opinion/us-crypto-rules-need-to-survive-the-next-election?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-10-06",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "US crypto rules need to survive the next election"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCWrZXppmEeor9ZVX-k9jddg",
       "external_id": "UCWrZXppmEeor9ZVX-k9jddg",

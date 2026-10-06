@@ -2,19 +2,232 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-10-05T19:20:00Z",
-  "new_this_run": 15,
-  "total_influencers": 1499,
+  "updated_at": "2026-10-06T16:51:59Z",
+  "new_this_run": 7,
+  "total_influencers": 1506,
   "run_summary": {
-    "run_started_at": "2026-10-05T19:19:38Z",
-    "candidate_count": 51,
-    "existing_count": 1484,
-    "selected_new_count": 15,
+    "run_started_at": "2026-10-06T16:51:37Z",
+    "candidate_count": 53,
+    "existing_count": 1499,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCko0uiWuwrWwoOmpX9OmyOA",
+      "external_id": "UCko0uiWuwrWwoOmpX9OmyOA",
+      "name": "Selfdom by Dominique Elissa ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCko0uiWuwrWwoOmpX9OmyOA",
+      "discovered_on": "2026-10-06",
+      "score": 54.98,
+      "metrics": {
+        "subscribers": 2290,
+        "total_views": 178278,
+        "video_count": 229,
+        "avg_views_per_video": 778.51,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "0MDYeS_bmas",
+            "title": "You don&#39;t need a Bryan Johnson routine to be healthy",
+            "description": "Are we spending more time optimising our health than living our lives? Dom and entrepreneur Radek Sali talk biohacking, Bryan ...",
+            "published_at": "2026-10-05T20:00:38Z",
+            "url": "https://www.youtube.com/watch?v=0MDYeS_bmas"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-05T20:00:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:2f43ca3ea0f92bb38add",
+      "external_id": "2f43ca3ea0f92bb38add",
+      "name": "Ollie J",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/bAGagjZAPgXEHmkAH/tasteval-measuring-the-experimental-research-taste-of-ai",
+      "discovered_on": "2026-10-06",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/pzeroresearch"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "TasteVal: Measuring the Experimental Research Taste of AI Systems Against Human Experts"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f4926a8a557214dca976",
+      "external_id": "f4926a8a557214dca976",
+      "name": "megasilverfist",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/MqxmZYEPngX5dDFkm/can-you-predict-cross-propensity-spillover",
+      "discovered_on": "2026-10-06",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Can you predict cross-propensity spillover?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c39389dc469e139a17c4",
+      "external_id": "c39389dc469e139a17c4",
+      "name": "maia",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/events/ZmTdRM6NaXPmTtrxS/march-to-stop-building-ai",
+      "discovered_on": "2026-10-06",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "March to Stop Building AI"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9a404af3b0c4cdeecea6",
+      "external_id": "9a404af3b0c4cdeecea6",
+      "name": "Stephen Biddle, Sam Winter-Levy, Yuri Zhukov",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/myth-military-victory",
+      "discovered_on": "2026-10-06",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Myth of Military Victory"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4444a01f6cce775949b6",
+      "external_id": "4444a01f6cce775949b6",
+      "name": "Arjun Sri",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/dAbHSGXFNkgjcGAuz/takes-one-to-know-one-training-a-model-to-grade-reward-hacks",
+      "discovered_on": "2026-10-06",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Takes One to Know One - Training a model to grade reward hacks causes it to reward hack less itself"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:bb2a17a70bba250a2998",
+      "external_id": "bb2a17a70bba250a2998",
+      "name": "Alan Boswell",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/middle-east/new-red-sea-wars",
+      "discovered_on": "2026-10-06",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The New Red Sea Wars"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCl17oSzDJX2NDMf2_s1Ps3Q",
       "external_id": "UCl17oSzDJX2NDMf2_s1Ps3Q",
