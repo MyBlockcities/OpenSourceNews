@@ -2,19 +2,277 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-10-06T16:51:46Z",
-  "new_this_run": 7,
-  "total_influencers": 757,
+  "updated_at": "2026-10-07T17:28:16Z",
+  "new_this_run": 6,
+  "total_influencers": 763,
   "run_summary": {
-    "run_started_at": "2026-10-06T16:51:37Z",
-    "candidate_count": 15,
-    "existing_count": 750,
-    "selected_new_count": 7,
+    "run_started_at": "2026-10-07T17:28:08Z",
+    "candidate_count": 24,
+    "existing_count": 757,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCAYwomlsmN0DsPeeumEKFXg",
+      "external_id": "UCAYwomlsmN0DsPeeumEKFXg",
+      "name": "WWMT-TV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCAYwomlsmN0DsPeeumEKFXg",
+      "discovered_on": "2026-10-07",
+      "score": 69.84,
+      "metrics": {
+        "subscribers": 79200,
+        "total_views": 51186778,
+        "video_count": 9992,
+        "avg_views_per_video": 5122.78,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "rDQ1FnPP_FU",
+            "title": "Why are independent pharmacies closing in West Michigan? Pharmacist explains",
+            "description": "Fred's Pharmacy permanently closed its Vicksburg and Three Rivers locations, leaving many in West Michigan without an ...",
+            "published_at": "2026-10-07T13:43:45Z",
+            "url": "https://www.youtube.com/watch?v=rDQ1FnPP_FU"
+          }
+        ],
+        "channel_description": "Protecting and Alerting West Michigan 📸🎥\n",
+        "latest_video_at": "2026-10-07T13:43:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC11DgPnfR9f0J4mx4cS-jSg",
+      "external_id": "UC11DgPnfR9f0J4mx4cS-jSg",
+      "name": "Polityka w Punkt",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC11DgPnfR9f0J4mx4cS-jSg",
+      "discovered_on": "2026-10-07",
+      "score": 66.2,
+      "metrics": {
+        "subscribers": 10600,
+        "total_views": 19511262,
+        "video_count": 1217,
+        "avg_views_per_video": 16032.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "lA-Q7m4RWT4",
+            "title": "CENZURA NA WIZJI?! 🚨 Gozdyra hamuje eksperta przed wątkiem izraelskim!",
+            "description": "W programie na żywo dyskutowano o modelach szkolenia wojskowego i budowaniu świadomości społecznej w obliczu ...",
+            "published_at": "2026-10-06T19:58:53Z",
+            "url": "https://www.youtube.com/watch?v=lA-Q7m4RWT4"
+          }
+        ],
+        "channel_description": "\n \nWyraz niezadowolenia obywatelskiego.\nNie chcem ale muszem ",
+        "latest_video_at": "2026-10-06T19:58:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCPmjJC835JuRfkIbnQ3d93w",
+      "external_id": "UCPmjJC835JuRfkIbnQ3d93w",
+      "name": "INQALAB NEWS",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCPmjJC835JuRfkIbnQ3d93w",
+      "discovered_on": "2026-10-07",
+      "score": 65.39,
+      "metrics": {
+        "subscribers": 46500,
+        "total_views": 9210216,
+        "video_count": 4178,
+        "avg_views_per_video": 2204.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "oegVDqWZa3k",
+            "title": "KAUN CHALAYEGA MEDIA? KION GODI MEDIA HORAHA HAI STRONGER? #INDEPENDENT #MEDIA #freejournalism #news",
+            "description": "WHO SHOULD RUN THE MEDIA? WHY IS “GODI MEDIA” GETTING STRONGER? | MUSLIM COMMUNITY & INDEPENDENT ...",
+            "published_at": "2026-10-06T14:00:21Z",
+            "url": "https://www.youtube.com/watch?v=oegVDqWZa3k"
+          }
+        ],
+        "channel_description": "Inqalab News Channel is more than a news platform — it is a revolution in journalism in the editorship of MUDASIR AHMED renowned jouranlist. Dedicated to truth, transparency, and transformation, Inqalab brings you unbiased news, breaking updates, political analysis, social justice reports, ground realities, minority issues, Karnataka news, Indian current affairs, and public-interest journalism. Founded by young visionaries, social activists, and passionate journalists, Inqalab News Channel was created to restore trust in media through fact-based reporting and people-first journalism.  \nyou’ll find:\n• Breaking News Updates , Karnataka & Shivamogga News, Political News & Analysis\n• Minority & Community Issues\nIf you believe in fearless journalism, subscribe and join the media \n#Inqalab #InqalabTV #KannadaNews #UrduNews #BreakingNews #KarnatakaNews #IndianPolitics #IndependentJournalism #ShivamoggaNews #LatestNews\nInqalab TV, Inqalab News Channel,Urdu News India, Karnataka Breaking\n",
+        "latest_video_at": "2026-10-06T14:00:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCPrtfsvxuekY2dFVcAFPzXQ",
+      "external_id": "UCPrtfsvxuekY2dFVcAFPzXQ",
+      "name": "Unfiltered Vaani",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCPrtfsvxuekY2dFVcAFPzXQ",
+      "discovered_on": "2026-10-07",
+      "score": 63.98,
+      "metrics": {
+        "subscribers": 6370,
+        "total_views": 7150102,
+        "video_count": 609,
+        "avg_views_per_video": 11740.73,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "sNwZjWx2izA",
+            "title": "Support Independent Journalism 🇮🇳",
+            "description": "",
+            "published_at": "2026-10-07T08:33:11Z",
+            "url": "https://www.youtube.com/watch?v=sNwZjWx2izA"
+          }
+        ],
+        "channel_description": "The Unfiltered वाणी is your destination for raw, honest, and well-researched content. We bring you ground reports, in-depth documentaries, untold stories, and facts that matter — without bias, without agenda. Our mission is simple: to present reality as it is, giving voice to the truth that often goes unheard.\n\nThe jo\nUnfiltered वाणी आपके लिए लेकर आता है ज़मीनी रिपोर्ट्स, गहन डॉक्यूमेंट्रीज़, अनकही कहानियाँ और सच्चाई पर आधारित तथ्य — बिना किसी पक्षपात और बिना किसी एजेंडा के। हमारा उद्देश्य है आपको वास्तविकता वैसी ही दिखाना जैसी वह है, ताकि सच्ची आवाज़ हर किसी तक पहुँचे।",
+        "latest_video_at": "2026-10-07T08:33:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJRP8F9czizrdC794kASDrQ",
+      "external_id": "UCJRP8F9czizrdC794kASDrQ",
+      "name": "JTUNL1M1TED",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJRP8F9czizrdC794kASDrQ",
+      "discovered_on": "2026-10-07",
+      "score": 62.76,
+      "metrics": {
+        "subscribers": 6720,
+        "total_views": 4652873,
+        "video_count": 749,
+        "avg_views_per_video": 6212.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "5w2k8w20x-4",
+            "title": "HE SAID WHAT!!! | Reacting to Ninja Panda - Unnecessary Censorship Videos",
+            "description": "Ninja Panda Videos: 1:https://www.youtube.com/watch?v=ztHoEQYDLDo 2:https://www.youtube.com/watch?v=-xEbh0ElhjU ...",
+            "published_at": "2026-10-06T19:04:36Z",
+            "url": "https://www.youtube.com/watch?v=5w2k8w20x-4"
+          }
+        ],
+        "channel_description": "Making you laugh one video at a time (* ^ ω ^)\n🌟Never L1M1T Yourself🌟\n\nHello!! Welcome to my Reaction Channel!!!\n\nDonations appreciated, channel is not run full time.\n✨You get in Video Shout-outs✨\n\nProfile Picture Fan Art by Unknown Lunara 😺💖\nBanner made by Mike T @hightlink on Fiverr💚\nEdited by me ✨\nSponsor/Business inquiries email me at: jtunl1m1tedbusiness@gmail.com\n\nLove you all, God Bless 💜",
+        "latest_video_at": "2026-10-06T19:04:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZzckuQPduUgPY1lqu_Eukw",
+      "external_id": "UCZzckuQPduUgPY1lqu_Eukw",
+      "name": "Carlos Calvo Cuba Libre",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCZzckuQPduUgPY1lqu_Eukw",
+      "discovered_on": "2026-10-07",
+      "score": 61.73,
+      "metrics": {
+        "subscribers": 13000,
+        "total_views": 2258004,
+        "video_count": 1468,
+        "avg_views_per_video": 1538.15,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "WoyKVGOMfkY",
+            "title": "¿Qué hay detrás de Autocensura por miedo a Trump en",
+            "description": "Analizamos ¿qué hay detrás de autocensura por miedo a trump en políticos y periodistas y las claves para entender por qué ...",
+            "published_at": "2026-10-06T21:00:14Z",
+            "url": "https://www.youtube.com/watch?v=WoyKVGOMfkY"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-06T21:00:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCpm8cve10ZqxK4CpBPJYtEg",
       "external_id": "UCpm8cve10ZqxK4CpBPJYtEg",
