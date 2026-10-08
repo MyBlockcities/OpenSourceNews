@@ -2,19 +2,449 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-10-07T17:28:16Z",
-  "new_this_run": 6,
-  "total_influencers": 763,
+  "updated_at": "2026-10-08T17:26:35Z",
+  "new_this_run": 10,
+  "total_influencers": 773,
   "run_summary": {
-    "run_started_at": "2026-10-07T17:28:08Z",
-    "candidate_count": 24,
-    "existing_count": 757,
-    "selected_new_count": 6,
+    "run_started_at": "2026-10-08T17:26:27Z",
+    "candidate_count": 28,
+    "existing_count": 763,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCUZuDLX0Gl6teMwBr2Mx07A",
+      "external_id": "UCUZuDLX0Gl6teMwBr2Mx07A",
+      "name": "SONI AI LAB",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCUZuDLX0Gl6teMwBr2Mx07A",
+      "discovered_on": "2026-10-08",
+      "score": 72.76,
+      "metrics": {
+        "subscribers": 51600,
+        "total_views": 225788297,
+        "video_count": 6293,
+        "avg_views_per_video": 35879.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "S5GOF1guPCg",
+            "title": "John Cusack Reveals Why a Free Press Is Essential to Democracy 📰",
+            "description": "John Cusack joins Jimmy Fallon to discuss his work with the Freedom of the Press Foundation and the importance of protecting ...",
+            "published_at": "2026-10-08T01:00:10Z",
+            "url": "https://www.youtube.com/watch?v=S5GOF1guPCg"
+          }
+        ],
+        "channel_description": "Welcome to SONI AI LAB! 🎬✨\n\nYour destination for the best celebrity interviews, talk show moments, viral clips, and rare throwback videos featuring the world's biggest stars.\n\nFrom Hollywood legends and A-list actors to trending celebrities and unforgettable late-night show appearances, we bring you the most entertaining celebrity content in short-form video format.\n\n🔥 New clips uploaded every 2 hours!\n🎥 Latest celebrity news and trending moments\n⭐ Rare and nostalgic celebrity throwback clips\n🎙️ Exclusive interview highlights\n📺 Best late-night talk show moments\n🌎 Viral celebrity stories from around the world\n\nWhether you're a fan of Hollywood, pop culture, movies, music, or television, SONI AI LAB delivers non-stop celebrity entertainment, iconic moments, and must-watch short videos.\n\nSubscribe and turn on notifications so you never miss the latest celebrity updates, viral moments, and timeless classics from your favorite stars!\n\n#CelebrityNews #CelebrityInterviews #TalkShow\n\n",
+        "latest_video_at": "2026-10-08T01:00:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCXhevkkCml7n24r32rlTHnA",
+      "external_id": "UCXhevkkCml7n24r32rlTHnA",
+      "name": "YK Tv Entertainments",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCXhevkkCml7n24r32rlTHnA",
+      "discovered_on": "2026-10-08",
+      "score": 71.2,
+      "metrics": {
+        "subscribers": 49500,
+        "total_views": 88962617,
+        "video_count": 4803,
+        "avg_views_per_video": 18522.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "n-7-CA_654s",
+            "title": "Kona Venkat About Censor | Comrades Kalyan | Sree Vishnu | Mahima | Janakiram  | YKTV Entertainments",
+            "description": "Kona Venkat About Censor | Comrades Kalyan | Sree Vishnu | Mahima | Janakiram | YKTV Entertainments #konavenkat ...",
+            "published_at": "2026-10-08T14:15:25Z",
+            "url": "https://www.youtube.com/watch?v=n-7-CA_654s"
+          }
+        ],
+        "channel_description": "YK TV Entertainments – Telugu Media Channel\n\nYour go-to hub for Telugu entertainment 🎬\nWe bring you celebrity interviews, movie updates, reviews, voice-over videos, and live event coverage—all in one place.\n\nStay tuned for viral videos, Tollywood news, trending content & non-stop entertainment.\n👉 Subscribe & stay updated with YK TV ENTERTAINMENTS !\n",
+        "latest_video_at": "2026-10-08T14:15:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVH9iubmT0uuokUAzaNN5jA",
+      "external_id": "UCVH9iubmT0uuokUAzaNN5jA",
+      "name": "CR Film Telugu ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCVH9iubmT0uuokUAzaNN5jA",
+      "discovered_on": "2026-10-08",
+      "score": 67.42,
+      "metrics": {
+        "subscribers": 4280,
+        "total_views": 9073060,
+        "video_count": 76,
+        "avg_views_per_video": 119382.37,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "X9B-9f_ybiE",
+            "title": "🔥Jailer Part 2 Censor Update !",
+            "description": "Jailer Part 2 Censor Update!** Jailer Part 2 movie censor completed! According to the latest update, the movie has received ...",
+            "published_at": "2026-10-08T03:58:30Z",
+            "url": "https://www.youtube.com/watch?v=X9B-9f_ybiE"
+          }
+        ],
+        "channel_description": "Hello ❗\n\n\n\n.\n.\n.\n\nFair Use Disclaimer:\n\nThis channel may use copyrighted material under Section 107 of the Copyright Act for purposes such as criticism, commentary, news reporting, teaching, scholarship, and research. Fair use is permitted by law and allows limited use of copyrighted material without permission from the copyright owner.\n\n📩 For Business & Contact: \n\nhareeshcr606@gmail.com\n\n\n",
+        "latest_video_at": "2026-10-08T03:58:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCIiIPnidRK04GcQ4X18N58Q",
+      "external_id": "UCIiIPnidRK04GcQ4X18N58Q",
+      "name": "MSW Media",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCIiIPnidRK04GcQ4X18N58Q",
+      "discovered_on": "2026-10-08",
+      "score": 67.17,
+      "metrics": {
+        "subscribers": 60400,
+        "total_views": 6686270,
+        "video_count": 3048,
+        "avg_views_per_video": 2193.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "jOcD_2iCqbU",
+            "title": "We Don&#39;t Need a Joe Rogan of the Left",
+            "description": "It's no secret that we are passionate about alternative media and the dire need for Democrats to invest in and support creators ...",
+            "published_at": "2026-10-08T11:00:24Z",
+            "url": "https://www.youtube.com/watch?v=jOcD_2iCqbU"
+          }
+        ],
+        "channel_description": "We’re MSW Media, a female-led podcast network of like-minded irreverent shows that shine a light on truth in politics, news, and the arts. Our mission is to expand the community of compassionate and engaged listeners to prepare for future mobilization and activism. ",
+        "latest_video_at": "2026-10-08T11:00:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCw5OOLHv5e-paZQQVV7_Glw",
+      "external_id": "UCw5OOLHv5e-paZQQVV7_Glw",
+      "name": "PolitikPanda",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCw5OOLHv5e-paZQQVV7_Glw",
+      "discovered_on": "2026-10-08",
+      "score": 65.26,
+      "metrics": {
+        "subscribers": 9290,
+        "total_views": 5232079,
+        "video_count": 167,
+        "avg_views_per_video": 31329.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "zLTvPx64Uvw",
+            "title": "GEFÄHRLICHER ALS DIE AFD❓Jörges mit eiskaltem Fazit zum Wahlsieg der Linken!",
+            "description": "PolitikPanda - hier wird Politik verständlich, kritisch und mit einer Prise Humor erklärt. Egal ob du gerade anfängst, dich für Politik ...",
+            "published_at": "2026-10-06T12:45:33Z",
+            "url": "https://www.youtube.com/watch?v=zLTvPx64Uvw"
+          }
+        ],
+        "channel_description": "Reagier mit mir auf aktuelle Themen zu Politik, Wirtschaft und Finanzen .\n\nBei Politikpanda bekommst du täglich kompakte News und Analysen zu den wichtigsten Themen aus Politik, Wirtschaft und Gesellschaft – verständlich erklärt und neutral aufbereitet.\n\nDie in diesem Kanal verwendeten Ausschnitte aus Talkshows, Interviews und sonstigen Sendungen dienen der Berichterstattung, Analyse und Einordnung aktueller Ereignisse gemäß § 51 UrhG (Zitatrecht).\nAlle Inhalte werden im Rahmen einer journalistischen und redaktionellen Auseinandersetzung genutzt.\n",
+        "latest_video_at": "2026-10-06T12:45:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOezyPwJ7Q3MfSg24KEl_1A",
+      "external_id": "UCOezyPwJ7Q3MfSg24KEl_1A",
+      "name": "IT-Mario",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCOezyPwJ7Q3MfSg24KEl_1A",
+      "discovered_on": "2026-10-08",
+      "score": 64.65,
+      "metrics": {
+        "subscribers": 11100,
+        "total_views": 735953,
+        "video_count": 100,
+        "avg_views_per_video": 7359.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "d8eGbjIYHGQ",
+            "title": "So werden wir zensiert!",
+            "description": "Moderne Zensur wird bereits massenhaft eingesetzt. Diese Art der Zensur ist unsichtbar. Der Nutzer bemerkt sie nicht. Das birgt ...",
+            "published_at": "2026-10-08T14:00:16Z",
+            "url": "https://www.youtube.com/watch?v=d8eGbjIYHGQ"
+          }
+        ],
+        "channel_description": "Hi, ich bin Mario. Ich analysiere Daten und recherchiere zu IT-Themen.\n\nFür geschäftliche Anfragen:\nstuttgart.it.service@gmail.com\n\n---------------------------------------------------\nImpressum:\nMario Krupinski\nstuttgart.it.service@gmail.com\nBirnenallee 24, 34281 Gudensberg\n\n",
+        "latest_video_at": "2026-10-08T14:00:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCNDnQWAZkvQoI2TIV9GhEfA",
+      "external_id": "UCNDnQWAZkvQoI2TIV9GhEfA",
+      "name": "Breaking The Fame",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCNDnQWAZkvQoI2TIV9GhEfA",
+      "discovered_on": "2026-10-08",
+      "score": 64.43,
+      "metrics": {
+        "subscribers": 5370,
+        "total_views": 30161592,
+        "video_count": 1641,
+        "avg_views_per_video": 18380.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "9GNyBUeBIB8",
+            "title": "The Secret 100-Page FBI File Opened On Pulitzer Winner John Steinbeck",
+            "description": "When legendary author John Steinbeck released his groundbreaking masterpiece The Grapes of Wrath, exposing the harsh ...",
+            "published_at": "2026-10-07T18:30:37Z",
+            "url": "https://www.youtube.com/watch?v=9GNyBUeBIB8"
+          }
+        ],
+        "channel_description": "Uncovering the Unbelievable. 🌍✨\n\nWelcome to Breaking The Fame, your ultimate destination for the most shocking celebrity facts, hidden history, and trending stories that the mainstream media often misses.\n\nWe dive deep into:\n\n⚡ Shocking Celeb Truths: The stories behind the headlines.\n⏳ History Unveiled: Rare facts and untold legends from the past.\n🔥 Current Events: Breaking celebrity news and viral culture.\n😲 Daily Shorts: Mind-blowing trivia delivered in 60 seconds.\n\nFrom the dark side of Hollywood to the mysteries of history, we bring you facts that will leave you speechless.\n\n👉 Subscribe to join the journey and never miss a secret.\n",
+        "latest_video_at": "2026-10-07T18:30:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCNa6KU8YJl3xm7bQ_IViVgQ",
+      "external_id": "UCNa6KU8YJl3xm7bQ_IViVgQ",
+      "name": "@cortescodigo22",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCNa6KU8YJl3xm7bQ_IViVgQ",
+      "discovered_on": "2026-10-08",
+      "score": 64.33,
+      "metrics": {
+        "subscribers": 16300,
+        "total_views": 3489861,
+        "video_count": 941,
+        "avg_views_per_video": 3708.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "oe4LUHexqWY",
+            "title": "🚨 CLÁUDIO DANTAS RELATA CENSURA: ÁUDIO DE MARCOLA SOBRE LULA FOI DERRUBADO?",
+            "description": "Cláudio Dantas afirma que uma matéria sua, baseada em um áudio atribuído a Marcola, foi derrubada e classificada como fake ...",
+            "published_at": "2026-10-07T17:51:14Z",
+            "url": "https://www.youtube.com/watch?v=oe4LUHexqWY"
+          }
+        ],
+        "channel_description": "Ajude a manter o canal no ar de forma direta:\n📲 Pix: cortescodigo22@gmail.com OU 11954202930 Ronaldo Gonçalves\n\nBem-vindo ao Cortes Código 22 — o canal onde a verdade não tem lado, tem coragem.\nAqui você encontra análises afiadas, opiniões diretas e cortes que revelam o que realmente acontece na política brasileira.\n\nSomos um grupo de 4 criadores independentes, cada um com seu ponto de vista, debatendo os principais fatos, decisões e bastidores do Brasil — sempre com respeito, inteligência e bom humor.\n\n🎯 Nosso objetivo é simples: informar, provocar reflexão e dar voz a quem pensa diferente.\n💬 Política, sociedade e comportamento — tudo em cortes curtos, dinâmicos e sem enrolação.\n\nSe você gosta de conteúdo verdadeiro e sem filtro, inscreva-se agora e ative o 🔔 para não perder nenhum corte.\n",
+        "latest_video_at": "2026-10-07T17:51:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCwIc1QVWMB5tjq5WTc7Jkog",
+      "external_id": "UCwIc1QVWMB5tjq5WTc7Jkog",
+      "name": "Fără filtre",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCwIc1QVWMB5tjq5WTc7Jkog",
+      "discovered_on": "2026-10-08",
+      "score": 63.3,
+      "metrics": {
+        "subscribers": 14600,
+        "total_views": 2443733,
+        "video_count": 574,
+        "avg_views_per_video": 4257.37,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "jpvyAH8x4nE",
+            "title": "Viorica Tătaru, atacată verbal de consilierul lui Ion Ceban. CJI reacționează",
+            "description": "Centrul pentru Jurnalism Independent și mai multe organizații de media condamnă limbajul ofensator folosit de consilierul ...",
+            "published_at": "2026-10-07T16:45:04Z",
+            "url": "https://www.youtube.com/watch?v=jpvyAH8x4nE"
+          }
+        ],
+        "channel_description": "Suntem o echipă de jurnaliști din Republica Moldova, care produce content video despre oamenii țării, dramele și experiențele lor de viață. Fără filtre. Fără retușări. Merită spuse și arătate, fără grabă și restricții de timp, așa cum o vom face noi, pe acest canal de Youtube „Fără filtre”. Dacă știți povești interesante, ne puteți scrie în comentarii. Pentru vizualizări, distribuiri, like și abonare, vă suntem recunoscători! \n\nDacă doriți să ne susțineți printr-o donație, o puteți face aici:\nPatreon - https://www.patreon.com/farafiltre\nPayPal - https://paypal.me/moldovafarafiltre?country.x=MD&locale.x=en_US\n",
+        "latest_video_at": "2026-10-07T16:45:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCp413C15s_7OJS_Gwqe-Dmg",
+      "external_id": "UCp413C15s_7OJS_Gwqe-Dmg",
+      "name": "Focus News Channel",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCp413C15s_7OJS_Gwqe-Dmg",
+      "discovered_on": "2026-10-08",
+      "score": 56.06,
+      "metrics": {
+        "subscribers": 2570,
+        "total_views": 208168,
+        "video_count": 191,
+        "avg_views_per_video": 1089.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "nSmEs3180Pg",
+            "title": "UDA SECRETARY GENERAL HASSAN OMAR BRIEFS MEDIA ON UDA GRASSROOTS ELECTIONS IN MOMBASA",
+            "description": "UDA Secretary General Hassan Omar Hassan addresses the media on the party's ward-level grassroots elections in Mombasa ...",
+            "published_at": "2026-10-08T04:12:08Z",
+            "url": "https://www.youtube.com/watch?v=nSmEs3180Pg"
+          }
+        ],
+        "channel_description": "Welcome to Focus News Channel (FNC) — your source for Kenya news, breaking news, politics, current affairs and African news.\n\nWe bring you fast, credible and engaging coverage of the stories shaping Kenya and Africa. From political developments and exclusive interviews to breaking stories, live events, investigations, business and human-interest features, FNC keeps you informed with news, context and perspective.\n\n🔴 OUR COVERAGE\n• Kenya Breaking News\n• Kenyan Politics & 2027 Elections\n• African News & Current Affairs\n• Political Interviews & Analysis\n• Live News & Events\n• Investigations & In-Depth Reports\n• Business & Economy\n• County & Community News\n• Human-Interest Stories\n\nSubscribe to Focus News Channel and stay informed on the stories that matter.\n\n📱 CONNECT WITH FNC\nFacebook: @FocusNewsChannel\nInstagram: @FocusNewsChannel\nX: @FocusNewsChannel\n\nFOCUS NEWS CHANNEL (FNC)\nThe News, In Focus.\n",
+        "latest_video_at": "2026-10-08T04:12:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCAYwomlsmN0DsPeeumEKFXg",
       "external_id": "UCAYwomlsmN0DsPeeumEKFXg",

@@ -2,19 +2,108 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-10-06T16:51:43Z",
+  "updated_at": "2026-10-08T17:26:33Z",
   "new_this_run": 2,
-  "total_influencers": 341,
+  "total_influencers": 343,
   "run_summary": {
-    "run_started_at": "2026-10-06T16:51:37Z",
-    "candidate_count": 34,
-    "existing_count": 339,
+    "run_started_at": "2026-10-08T17:26:27Z",
+    "candidate_count": 31,
+    "existing_count": 341,
     "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC4K932Se3817KNl-1hRoFOA",
+      "external_id": "UC4K932Se3817KNl-1hRoFOA",
+      "name": "Sun West Mortgage Company, Inc.",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UC4K932Se3817KNl-1hRoFOA",
+      "discovered_on": "2026-10-08",
+      "score": 72.21,
+      "metrics": {
+        "subscribers": 3740,
+        "total_views": 4132242,
+        "video_count": 2379,
+        "avg_views_per_video": 1736.97,
+        "matched_queries": 3,
+        "sample_videos": 3
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "property tokenization",
+          "real estate tokenization",
+          "tokenized real estate"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "3HrIP9N2jyM",
+            "title": "Every Home Sale Will Be On Blockchain",
+            "description": "In this episode of The Pavan Perspective, Pavan Agarwal and David Lykken explore how Artificial Intelligence and Blockchain ...",
+            "published_at": "2026-10-08T08:36:10Z",
+            "url": "https://www.youtube.com/watch?v=3HrIP9N2jyM"
+          },
+          {
+            "query": "tokenized real estate",
+            "video_id": "3HrIP9N2jyM",
+            "title": "Every Home Sale Will Be On Blockchain",
+            "description": "In this episode of The Pavan Perspective, Pavan Agarwal and David Lykken explore how Artificial Intelligence and Blockchain ...",
+            "published_at": "2026-10-08T08:36:10Z",
+            "url": "https://www.youtube.com/watch?v=3HrIP9N2jyM"
+          },
+          {
+            "query": "property tokenization",
+            "video_id": "3HrIP9N2jyM",
+            "title": "Every Home Sale Will Be On Blockchain",
+            "description": "In this episode of The Pavan Perspective, Pavan Agarwal and David Lykken explore how Artificial Intelligence and Blockchain ...",
+            "published_at": "2026-10-08T08:36:10Z",
+            "url": "https://www.youtube.com/watch?v=3HrIP9N2jyM"
+          }
+        ],
+        "channel_description": "Our excellent service and fast turn times has made Sun West a Multi-Billion dollar national originator. As a result, Sun West is a leader in offering a diverse set of products at excellent pricing. We firmly believe that every American individual deserves the opportunity to experience the pride of home-ownership with the most affordable means. A Nationwide Equal Opportunity Lender NMLS 3277 See Texas Complaint Notice http://swmc.com/swmc/TXdis.php  & Licenses http://swmc.com/licenses  or http://www.nmlsconsumeraccess.org. This site is not authorized by the New York State Department of Financial Services. No mortgage loan applications for properties located in the state of New York will be accepted through this site.\n",
+        "latest_video_at": "2026-10-08T08:36:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:93c97dc8bc6f5a9b6375",
+      "external_id": "93c97dc8bc6f5a9b6375",
+      "name": "Kevin Tam",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/10/08/crypto-for-advisors-digital-assets-outran-stocks-and-gold-in-q3",
+      "discovered_on": "2026-10-08",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto for Advisors: Digital assets outran stocks and gold in Q3"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCAucb7t2m8Y9Mx_DOZU6YKQ",
       "external_id": "UCAucb7t2m8Y9Mx_DOZU6YKQ",

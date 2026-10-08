@@ -2,19 +2,109 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-07T17:28:25Z",
-  "new_this_run": 6,
-  "total_influencers": 428,
+  "updated_at": "2026-10-08T17:26:44Z",
+  "new_this_run": 2,
+  "total_influencers": 430,
   "run_summary": {
-    "run_started_at": "2026-10-07T17:28:08Z",
-    "candidate_count": 12,
-    "existing_count": 422,
-    "selected_new_count": 6,
+    "run_started_at": "2026-10-08T17:26:27Z",
+    "candidate_count": 9,
+    "existing_count": 428,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC0vxHb2Qr16W9h9LgdEQB5A",
+      "external_id": "UC0vxHb2Qr16W9h9LgdEQB5A",
+      "name": "筋肉の部屋",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC0vxHb2Qr16W9h9LgdEQB5A",
+      "discovered_on": "2026-10-08",
+      "score": 66.58,
+      "metrics": {
+        "subscribers": 4840,
+        "total_views": 4179797,
+        "video_count": 73,
+        "avg_views_per_video": 57257.49,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "uXRxnrqEN5g",
+            "title": "痩せる注射・ペプチドの科学的根拠を徹底判定痩",
+            "description": "SNSで話題の「痩せる注射」や各種ペプチドに、本当に科学的な根拠はあるのか？ 注目のペプチド3種を◎△×で判定し、日本で ...",
+            "published_at": "2026-10-08T10:08:25Z",
+            "url": "https://www.youtube.com/watch?v=uXRxnrqEN5g"
+          }
+        ],
+        "channel_description": "初心者から経験者まで、誰でも気軽に学べる筋トレチャンネルです。\nトレーニング、食事、習慣づくりなど、理想の体づくりに役立つ情報を発信しています。\n\n一緒に昨日の自分を超えていきましょう！",
+        "latest_video_at": "2026-10-08T10:08:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCBmvY-p9-P3ony6Ac8S4mnw",
+      "external_id": "UCBmvY-p9-P3ony6Ac8S4mnw",
+      "name": "Ashley ADHD Home-Friendly Tips",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCBmvY-p9-P3ony6Ac8S4mnw",
+      "discovered_on": "2026-10-08",
+      "score": 62.59,
+      "metrics": {
+        "subscribers": 9730,
+        "total_views": 18096586,
+        "video_count": 5290,
+        "avg_views_per_video": 3420.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "UyEwVV1sG_8",
+            "title": "red light therapy serum by solawave peptides growth factors",
+            "description": "Product Link: https://scaledcreator.com/a/1139906?p=12 #redlighttherapy #solawave #skincaredeal #lightboostserum ...",
+            "published_at": "2026-10-08T16:13:29Z",
+            "url": "https://www.youtube.com/watch?v=UyEwVV1sG_8"
+          }
+        ],
+        "channel_description": "Your Go-to ADHD Home Guide\nAffordable Home & Organization reviews + product reviews on Amazon\n60k on TT\nHere you will find:\n- Budget-friendly outfit ideas\n- New products; whether or not they are worth purchasing\n- \"real-life\" reviews & tips\n- DIY self-care at home\n- Finding ways to make the house feel cozy & functional to work from home while homeschooling your kids.\nSome of the links on this channel are affiliate. Meaning, I may get a commission when you purchase using them. The cool thing? It doesn't cost you a penny! Thanks for supporting my channel by shopping with my favorite partners and brands. It's so fun to share my trusted brands this way.\n",
+        "latest_video_at": "2026-10-08T16:13:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UC681sSd8Jg3Mc5lv8SSY4GA",
       "external_id": "UC681sSd8Jg3Mc5lv8SSY4GA",
