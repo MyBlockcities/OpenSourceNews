@@ -2,19 +2,335 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-10-08T17:26:48Z",
-  "new_this_run": 16,
-  "total_influencers": 1528,
+  "updated_at": "2026-10-09T17:03:38Z",
+  "new_this_run": 10,
+  "total_influencers": 1538,
   "run_summary": {
-    "run_started_at": "2026-10-08T17:26:27Z",
-    "candidate_count": 53,
-    "existing_count": 1512,
-    "selected_new_count": 16,
+    "run_started_at": "2026-10-09T17:03:15Z",
+    "candidate_count": 48,
+    "existing_count": 1528,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCDJE681smwkZ6vsF1xyuM3Q",
+      "external_id": "UCDJE681smwkZ6vsF1xyuM3Q",
+      "name": "SashaFitnessLife",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCDJE681smwkZ6vsF1xyuM3Q",
+      "discovered_on": "2026-10-09",
+      "score": 69.35,
+      "metrics": {
+        "subscribers": 22100,
+        "total_views": 1006283,
+        "video_count": 412,
+        "avg_views_per_video": 2442.43,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/sashafitnesslife"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "S5Oi2wdurG0",
+            "title": "ЛЕГКИЙ СТАРТ Челендж - 5/5 🏁 Функціонал ВСЕ ТІЛО: Легкий рівень.",
+            "description": "Легкий старт — День 5/5 СПІЛКУВАННЯ в ЧАТІ Телеграм ➡️ https://t.me/+aGMZ0AW1WztiZmZi Саме в групі ви ...",
+            "published_at": "2026-10-09T04:15:21Z",
+            "url": "https://www.youtube.com/watch?v=S5Oi2wdurG0"
+          }
+        ],
+        "channel_description": "Sasha Fitness Life - мій YouTube канал з безкоштовними тренуваннями для жінок будь-якого віку з різним рівнем підготовки.\nМене зовуть Олександра Афоніна. Я професійний фітнес-інструктор вже 12 років і останні 2 роки я працюю за напрямком розумного фітнесу, заснувала власний фітнес-клуб в місті Чернігів.\nУ розумному фітнесі ми працюємо над відновленням функціональності, здоров’я та краси всього тіла, розкручуючи клубочки компенсацій, які намотувалися роками.\nРаджу підписатися на мій канал, активувати дзвіночок і слідкувати за мною у соцмережах, де я ділюся з вами цінними знаннями та своїм життєвим досвідом\nInstagram       @sashafitnesslife https://www.instagram.com/sashafitnesslife/\nTelegram         https://t.me/sashafitnesslife\nЗАПРОШУЮ ВАС на сайт ➡️ https://sashafitnesslife.online, де ви зможете ознайомитись з усіма моїми авторськими тренувальними програмами створеними для відновлення, оздоровлення та тонізації тіла в будь-якому віці і з різним рівнем підготовки! \n",
+        "latest_video_at": "2026-10-09T04:15:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqY1gIu0smTO-eWW2TP18GA",
+      "external_id": "UCqY1gIu0smTO-eWW2TP18GA",
+      "name": "Amazing Zhongshan",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCqY1gIu0smTO-eWW2TP18GA",
+      "discovered_on": "2026-10-09",
+      "score": 57.61,
+      "metrics": {
+        "subscribers": 6200,
+        "total_views": 511713,
+        "video_count": 790,
+        "avg_views_per_video": 647.74,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "fPDzvyZ5oDg",
+            "title": "中山版「HYROX」來了 HYROX-Style Fitness Challenge Comes to Zhongshan",
+            "description": "雪橇推拉、划船機、農夫行走、負重箭步蹲……中山版「HYROX」來了！10月6日，中山城市體能大賽火熱舉行。賽事借鑒 HYROX ...",
+            "published_at": "2026-10-09T03:00:30Z",
+            "url": "https://www.youtube.com/watch?v=fPDzvyZ5oDg"
+          }
+        ],
+        "channel_description": "Zhongshan International Communications Center",
+        "latest_video_at": "2026-10-09T03:00:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:ae8f152a18098653d0f3",
+      "external_id": "ae8f152a18098653d0f3",
+      "name": "meemi",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/LkheZqaMDhS8Mz4mP/technical-people-actually-consider-comms",
+      "discovered_on": "2026-10-09",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/hilbertspaess"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Technical people: actually consider comms"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:6a24f8f61660c5abb472",
+      "external_id": "6a24f8f61660c5abb472",
+      "name": "Walter Veit",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/c6pzD74rqLyTvbg9f/the-public-intellectual-is-dead-and-ai-has-killed-them",
+      "discovered_on": "2026-10-09",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/dioscuri"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Public Intellectual Is Dead. And AI Has Killed Them."
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9a4ce4fd37e9813f5995",
+      "external_id": "9a4ce4fd37e9813f5995",
+      "name": "yun dong",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/aQTNbqFegfPcJsgmA/using-llm-surprisal-to-highlight-informative-words-2",
+      "discovered_on": "2026-10-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Using LLM surprisal to highlight informative words"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f27ab48414afa987a49f",
+      "external_id": "f27ab48414afa987a49f",
+      "name": "gjm",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/EXS6g2SpyzGaRwHcw/filling-in-the-convex-hull",
+      "discovered_on": "2026-10-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Filling in the convex hull"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d20f95b9b2f2ad34da31",
+      "external_id": "d20f95b9b2f2ad34da31",
+      "name": "Toby_Ord",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/2J43xbszsuLv4zAk5/ai-scaling-vs-human-scaling",
+      "discovered_on": "2026-10-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "AI Scaling vs Human Scaling"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:6d9025ff6545919f7489",
+      "external_id": "6d9025ff6545919f7489",
+      "name": "Robert B. Zoellick",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/trump-gutting-americas-core-geopolitical-advantage",
+      "discovered_on": "2026-10-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Trump Is Gutting America’s Core Geopolitical Advantage"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:480cdca8b35a70c7259a",
+      "external_id": "480cdca8b35a70c7259a",
+      "name": "Ondřej_Kubů",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/xqjDi7oyadqxkmdLS/proof-of-useful-work-for-verifying-ai-treaties",
+      "discovered_on": "2026-10-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Proof of useful work for verifying AI treaties"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:7e6f68eca1dab4f74927",
+      "external_id": "7e6f68eca1dab4f74927",
+      "name": "Milo Moses",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/zHhGa3iQBQcdSifFL/a-critical-look-at-lean4-1",
+      "discovered_on": "2026-10-09",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A critical look at Lean4"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC2xW2GeJZxpv5O4HpWAiJyw",
       "external_id": "UC2xW2GeJZxpv5O4HpWAiJyw",

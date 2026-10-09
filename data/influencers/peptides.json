@@ -2,19 +2,310 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-08T17:26:44Z",
-  "new_this_run": 2,
-  "total_influencers": 430,
+  "updated_at": "2026-10-09T17:03:34Z",
+  "new_this_run": 6,
+  "total_influencers": 436,
   "run_summary": {
-    "run_started_at": "2026-10-08T17:26:27Z",
-    "candidate_count": 9,
-    "existing_count": 428,
-    "selected_new_count": 2,
+    "run_started_at": "2026-10-09T17:03:15Z",
+    "candidate_count": 14,
+    "existing_count": 430,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC0I71ZsO3ydFDibCo1KqE5g",
+      "external_id": "UC0I71ZsO3ydFDibCo1KqE5g",
+      "name": "hanagabr1el",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC0I71ZsO3ydFDibCo1KqE5g",
+      "discovered_on": "2026-10-09",
+      "score": 72.41,
+      "metrics": {
+        "subscribers": 9230,
+        "total_views": 1794483,
+        "video_count": 133,
+        "avg_views_per_video": 13492.35,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "MoZ3NLYt9c8",
+            "title": "IMPFUNG? NEIN DANKE! #medizin #impfung #peptide #gesundheit",
+            "description": "hanagabr1el folgen.   Peptide sind zum Teil sogar wissenschaftlich zugelassen und erwiesen wirksam. Beispielsweise ...",
+            "published_at": "2026-10-09T16:18:49Z",
+            "url": "https://www.youtube.com/watch?v=MoZ3NLYt9c8"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "MoZ3NLYt9c8",
+            "title": "IMPFUNG? NEIN DANKE! #medizin #impfung #peptide #gesundheit",
+            "description": "hanagabr1el folgen.   Peptide sind zum Teil sogar wissenschaftlich zugelassen und erwiesen wirksam. Beispielsweise ...",
+            "published_at": "2026-10-09T16:18:49Z",
+            "url": "https://www.youtube.com/watch?v=MoZ3NLYt9c8"
+          }
+        ],
+        "channel_description": "👨🏻‍🎓Morgens Hörsaal, abends 🚑.\n🩺Vom Notfallsanitäter zum Notarzt.\n🏋🏽‍♂️Zwischendurch im Gym.\n🌍geboren in Syrien†.\n✉️hana@medworkmedia.com\n\nLasst mir gerne auf allen meinen Plattformen ein Follow da!\n\nImpressum: \n \nAngaben gemäß § 5 TMG:\n\nMedWork Media GmbH\nZülpicher Platz 9, 50674 Köln\nVertretungsberechtigte Geschäftsführer: Luis Teichmann, York Altendorf, Malte Mondry\nTel: 0221/26138401\nEmail: info@medworkmedia.com\n\nRegistergericht: Amtsgericht Köln\n\nRegisternummer: HRB 116438\nUSt-IdNr.: DE364436447\nInhaltlich Verantwortliche: Luis Teichmann, York Altendorf, Malte Mondry",
+        "latest_video_at": "2026-10-09T16:18:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC_Vqm6_Ptog7bY5LvQJCxkw",
+      "external_id": "UC_Vqm6_Ptog7bY5LvQJCxkw",
+      "name": "Pedro Lotz",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC_Vqm6_Ptog7bY5LvQJCxkw",
+      "discovered_on": "2026-10-09",
+      "score": 69.55,
+      "metrics": {
+        "subscribers": 28100,
+        "total_views": 4047501,
+        "video_count": 212,
+        "avg_views_per_video": 19091.99,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "YhlcnTjq0t8",
+            "title": "WOLVERINE STACK: O PROTOCOLO DA REGENERAÇÃO?",
+            "description": "O Wolverine Stack ficou conhecido pela proposta de combinar compostos voltados à recuperação e regeneração de tecidos.",
+            "published_at": "2026-10-08T23:05:10Z",
+            "url": "https://www.youtube.com/watch?v=YhlcnTjq0t8"
+          }
+        ],
+        "channel_description": "Treinador físico e comportamental! A mentalidade muda o jogo e te leva pra sua melhor versão!⚡️⚡️⚡️",
+        "latest_video_at": "2026-10-08T23:05:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCOe2d1hLARB60z2hg039l9g",
+      "external_id": "UCOe2d1hLARB60z2hg039l9g",
+      "name": "Nina Ruge",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCOe2d1hLARB60z2hg039l9g",
+      "discovered_on": "2026-10-09",
+      "score": 68.35,
+      "metrics": {
+        "subscribers": 40400,
+        "total_views": 8480051,
+        "video_count": 1283,
+        "avg_views_per_video": 6609.55,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "u8lng59G4oA",
+            "title": "Peptid-Hype: Max-Planck-Direktor nennt das Spritzen einen Eigenversuch ohne jede Not | Nina Ruge",
+            "description": "Mein neues Buch „Alles wird gut – aber nicht von alleine“ ist da! Darin teile ich meine wichtigsten Erkenntnisse für ein langes, ...",
+            "published_at": "2026-10-09T04:00:07Z",
+            "url": "https://www.youtube.com/watch?v=u8lng59G4oA"
+          }
+        ],
+        "channel_description": "Seit 10 Jahren bin ich verknallt in die Forschung und Entwicklungen für ein gesundes, langes Leben. Auf meinem Kanal teile ich Podcasts und Interviews, Berichte und Selbsttest zu den verschiedenen Themen rund um Healthy Longevity & Healthspan.",
+        "latest_video_at": "2026-10-09T04:00:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC7puwFOyrcQtWa7ek63YhxA",
+      "external_id": "UC7puwFOyrcQtWa7ek63YhxA",
+      "name": "Ask Joe DiMatteo",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC7puwFOyrcQtWa7ek63YhxA",
+      "discovered_on": "2026-10-09",
+      "score": 63.52,
+      "metrics": {
+        "subscribers": 3470,
+        "total_views": 483488,
+        "video_count": 868,
+        "avg_views_per_video": 557.01,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@GenerationHealthShow"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "wWp9qcb_kGQ",
+            "title": "Something important did happen and it’s not the FDA approving BPC-157.",
+            "description": "Something important did happen and it's not the FDA approving BPC-157. It has not suddenly become a normal prescription drug.",
+            "published_at": "2026-10-09T16:30:30Z",
+            "url": "https://www.youtube.com/watch?v=wWp9qcb_kGQ"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "QyUv4IAO_CY",
+            "title": "There is NO Human Safety Data for BPC-157.",
+            "description": "Let's be clear: BPC-157 has zero clinical studies demonstrating human safety, let alone efficacy. The mechanism is interesting.",
+            "published_at": "2026-10-09T16:00:30Z",
+            "url": "https://www.youtube.com/watch?v=QyUv4IAO_CY"
+          }
+        ],
+        "channel_description": "Joe DiMatteo was a certified clinical nutritionist, registered pharmacist, naturopathic doctor, and homeopath. Joe was the host of Ask the Pharmacist show heard nationally on Sirius XM, and local radio stations in the North East.\n\nAfter his passing, his work is continued by his sons and their team. Their new show, Generation Health, is available (free!) anywhere you listen to podcasts or on the YouTube page dedicated to it - https://www.youtube.com/@GenerationHealthShow\n",
+        "latest_video_at": "2026-10-09T16:30:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCKZ4Ka42F-lxRvuXZ29McyQ",
+      "external_id": "UCKZ4Ka42F-lxRvuXZ29McyQ",
+      "name": "Happi ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCKZ4Ka42F-lxRvuXZ29McyQ",
+      "discovered_on": "2026-10-09",
+      "score": 59.81,
+      "metrics": {
+        "subscribers": 4400,
+        "total_views": 170214,
+        "video_count": 592,
+        "avg_views_per_video": 287.52,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "tiktok": "https://www.tiktok.com/@thehappimeal"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "c3fhhU67ECc",
+            "title": "PEPTIDES ARE EVERYWHERE  HERE&#39;S WHAT YOU ACTUALLY NEED TO KNOW",
+            "description": "Peptides are suddenly everywhere. But are they actually worth the hype? I kept hearing about peptide therapy, BPC-157, muscle ...",
+            "published_at": "2026-10-09T02:00:28Z",
+            "url": "https://www.youtube.com/watch?v=c3fhhU67ECc"
+          }
+        ],
+        "channel_description": "\n***************\nMy Gear\nCamera: https://amzn.to/3PU03Oe\nMic: https://amzn.to/3Zupysw\nRing Light: https://amzn.to/3EQzzXB\nKey Light: https://amzn.to/3PTrCan\nCeramic Knives https://happimatrix.com/PeKWgF\nCookware: https://happimatrix.com/Panset\nAirfryer: https://amzn.to/3Zv2Hgg\n\n#HealthyMealRecipes #Workouts #HealthyLivingTips #Happiness\n\n***************\nJoin Our FREE FACEBOOK GROUP FOR MORE RECIPES AND MOTIVATION\nFacebook: www.facebook.com/groups/thefirst10iseverything/\n\nTikTok:  https://www.tiktok.com/@thehappimeal\n\n\nDISCLAIMER: This video and description contains affiliate links, which means that if you click on one of the product links, we’ll receive a small commission.\n\n\n",
+        "latest_video_at": "2026-10-09T02:00:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCtV_BdCwgtDNaSn700myq-g",
+      "external_id": "UCtV_BdCwgtDNaSn700myq-g",
+      "name": "Dr.J",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCtV_BdCwgtDNaSn700myq-g",
+      "discovered_on": "2026-10-09",
+      "score": 58.2,
+      "metrics": {
+        "subscribers": 3850,
+        "total_views": 370392,
+        "video_count": 223,
+        "avg_views_per_video": 1660.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "15QzHXpZ4O8",
+            "title": "THE DANGER OF GLP-1 PEPTIDES.",
+            "description": "Losing 20 pounds in a single month is not sustainable, and it is actively destroying your metabolism. Medications like Retatrutide ...",
+            "published_at": "2026-10-09T15:00:28Z",
+            "url": "https://www.youtube.com/watch?v=15QzHXpZ4O8"
+          }
+        ],
+        "channel_description": "I'm Dr.J!  I'm a single Dad, Naturopathic Doctor, Performance & Productivity Coach & my mission is to drive people to be as AWESOME as they can be. For almost two decades, I’ve worked with parents, leaders, managers, entrepreneurs, business owners, actors & musicians struggling with burnout & finding work-life balance, and feel like they’re stuck in quicksand.\n\nWith an evidence-informed, functional genetics, precision medicine approach, I make sure that you know what is going on with your brain & body, how it's built to work best, right down to the DNA level & give you the answers you need to be sure you’re eating right, taking the right supplements or meds & biohacking with precision.\n\nIf you don’t know what you don’t know, but WANT to know how to feel great again, beat brain fog & exhaustion, lose weight, live forever & look fantastic again; if you want to be the best parent, or leader that you can be, SUBSCRIBE!  I love arming people with the tools to be… as AWESOME as POSSIBLE.\n",
+        "latest_video_at": "2026-10-09T15:00:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UC0vxHb2Qr16W9h9LgdEQB5A",
       "external_id": "UC0vxHb2Qr16W9h9LgdEQB5A",
