@@ -1,13 +1,14 @@
 {
   "expected_sources": 128,
   "not_attempted": 3,
-  "successful_sources": 119,
-  "degraded_sources": 5,
-  "failed_sources": 1,
+  "successful_sources": 116,
+  "degraded_sources": 6,
+  "failed_sources": 3,
   "stale_sources": [
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
     "https://fredblog.stlouisfed.org/feed/",
     "https://reliefweb.int/updates/rss.xml",
+    "https://rss.arxiv.org/rss/cs.AI",
     "https://www.blockchainappfactory.com/blog/feed/",
     "solana"
   ],
@@ -15,6 +16,14 @@
     {
       "endpoint": "https://erictopol.substack.com/feed",
       "error": "403 Client Error: Forbidden for url: https://erictopol.substack.com/feed"
+    },
+    {
+      "endpoint": "https://home.treasury.gov/rss.xml",
+      "error": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "endpoint": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "error": "HTTPSConnectionPool(host='news.un.org', port=443): Read timed out. (read timeout=20)"
     }
   ],
   "sources": {
@@ -120,17 +129,17 @@
     "semaglutide peptide": "ok",
     "tirzepatide": "ok",
     "retatrutide": "ok",
-    "https://rss.arxiv.org/rss/cs.AI": "ok",
+    "https://rss.arxiv.org/rss/cs.AI": "empty",
     "https://openai.com/news/rss.xml": "ok",
     "https://deepmind.google/blog/rss.xml": "ok",
     "https://github.blog/feed/": "ok",
     "https://reliefweb.int/updates/rss.xml": "empty",
     "https://www.gdacs.org/xml/rss.xml": "ok",
     "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom": "ok",
-    "https://news.un.org/feed/subscribe/en/news/all/rss.xml": "ok",
+    "https://news.un.org/feed/subscribe/en/news/all/rss.xml": "failed",
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss": "empty",
     "https://www.federalreserve.gov/feeds/press_all.xml": "ok",
-    "https://home.treasury.gov/rss.xml": "ok",
+    "https://home.treasury.gov/rss.xml": "failed",
     "https://fredblog.stlouisfed.org/feed/": "empty",
     "https://www.federalregister.gov/api/v1/articles.rss": "ok",
     "https://www.govinfo.gov/rss/fr.xml": "ok",
@@ -144,7 +153,7 @@
     "https://www.theblackvault.com/casefiles/feed/": "ok",
     "https://thegrayzone.com/feed/": "ok"
   },
-  "report_date": "2026-10-10",
-  "generated_at": "2026-10-10T13:41:20Z",
+  "report_date": "2026-10-11",
+  "generated_at": "2026-10-11T14:03:36Z",
   "schema_version": "source_health.v1"
 }
