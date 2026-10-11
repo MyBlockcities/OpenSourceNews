@@ -2,19 +2,307 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-10T15:54:34Z",
+  "updated_at": "2026-10-11T16:21:49Z",
   "new_this_run": 6,
-  "total_influencers": 442,
+  "total_influencers": 448,
   "run_summary": {
-    "run_started_at": "2026-10-10T15:54:16Z",
-    "candidate_count": 22,
-    "existing_count": 436,
+    "run_started_at": "2026-10-11T16:21:32Z",
+    "candidate_count": 13,
+    "existing_count": 442,
     "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCbEGXXYUMJ2ZhIchXZbTnEA",
+      "external_id": "UCbEGXXYUMJ2ZhIchXZbTnEA",
+      "name": "Sportpoeder",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCbEGXXYUMJ2ZhIchXZbTnEA",
+      "discovered_on": "2026-10-11",
+      "score": 77.1,
+      "metrics": {
+        "subscribers": 31200,
+        "total_views": 7927160,
+        "video_count": 373,
+        "avg_views_per_video": 21252.44,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "zEzKkPJzBCQ",
+            "title": "De Waarheid Over Peptides (BPC-157, Retatrutide)",
+            "description": "Dit zijn peptides. Je bestelt ze met drie klikken voor 12 euro, zonder recept en zonder leeftijdscheck. Op het etiket staat \"for ...",
+            "published_at": "2026-10-11T14:00:02Z",
+            "url": "https://www.youtube.com/watch?v=zEzKkPJzBCQ"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "zEzKkPJzBCQ",
+            "title": "De Waarheid Over Peptides (BPC-157, Retatrutide)",
+            "description": "Dit zijn peptides. Je bestelt ze met drie klikken voor 12 euro, zonder recept en zonder leeftijdscheck. Op het etiket staat \"for ...",
+            "published_at": "2026-10-11T14:00:02Z",
+            "url": "https://www.youtube.com/watch?v=zEzKkPJzBCQ"
+          }
+        ],
+        "channel_description": "Het Fitness Platform van Nederland\n",
+        "latest_video_at": "2026-10-11T14:00:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCRzYsLHLJ_a6GfxIrNTTqMQ",
+      "external_id": "UCRzYsLHLJ_a6GfxIrNTTqMQ",
+      "name": "Hazim Gaber (HSM)",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCRzYsLHLJ_a6GfxIrNTTqMQ",
+      "discovered_on": "2026-10-11",
+      "score": 72.1,
+      "metrics": {
+        "subscribers": 14100,
+        "total_views": 3839012,
+        "video_count": 594,
+        "avg_views_per_video": 6462.98,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "DxHnw0deCag",
+            "title": "What Peptides Actually Are #peptides #health",
+            "description": "Are peptides actually safe, or just the latest wellness trend? We break down the science behind peptide therapy, from the history ...",
+            "published_at": "2026-10-11T08:15:53Z",
+            "url": "https://www.youtube.com/watch?v=DxHnw0deCag"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "oqAdF03T2m4",
+            "title": "Are Peptides Real Medicine or Just Expensive Marketing?",
+            "description": "Peptides are chains of amino acids, but how do they actually function in the body? We break down the science behind weight loss ...",
+            "published_at": "2026-10-11T06:41:25Z",
+            "url": "https://www.youtube.com/watch?v=oqAdF03T2m4"
+          }
+        ],
+        "channel_description": "Hazim Gaber",
+        "latest_video_at": "2026-10-11T08:15:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCrbn9RUdGuc6Wq-FT7V4u3g",
+      "external_id": "UCrbn9RUdGuc6Wq-FT7V4u3g",
+      "name": "Felice Gersh",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCrbn9RUdGuc6Wq-FT7V4u3g",
+      "discovered_on": "2026-10-11",
+      "score": 70.2,
+      "metrics": {
+        "subscribers": 57600,
+        "total_views": 5115460,
+        "video_count": 541,
+        "avg_views_per_video": 9455.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "7QohyElwvq4",
+            "title": "Taking a GLP-1? Don&#39;t forget about collagen | Felice Gersh, MD",
+            "description": "Rapid weight loss can affect more than body fat. When weight comes off too quickly, the body may also lose muscle and ...",
+            "published_at": "2026-10-10T17:30:26Z",
+            "url": "https://www.youtube.com/watch?v=7QohyElwvq4"
+          }
+        ],
+        "channel_description": "Welcome! I'm Dr. Felice Gersh, a board-certified obstetrician/gynecologist and integrative medical doctor. I am the founder and director of the Integrative Medical Group of Irvine in sunny southern California. ",
+        "latest_video_at": "2026-10-10T17:30:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCD9jg1vOZ2wPmeU33VHGs0g",
+      "external_id": "UCD9jg1vOZ2wPmeU33VHGs0g",
+      "name": "Troscriptions",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCD9jg1vOZ2wPmeU33VHGs0g",
+      "discovered_on": "2026-10-11",
+      "score": 67.83,
+      "metrics": {
+        "subscribers": 40800,
+        "total_views": 3028513,
+        "video_count": 588,
+        "avg_views_per_video": 5150.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "ppdR-a-bj8s",
+            "title": "Should You Trust Peptides for Muscle and Recovery?",
+            "description": "Do recovery peptides help people heal—or are promising lab results being asked to prove more than they can? Dr. Scott Sherr ...",
+            "published_at": "2026-10-11T16:00:21Z",
+            "url": "https://www.youtube.com/watch?v=ppdR-a-bj8s"
+          }
+        ],
+        "channel_description": "Welcome to the official channel of Troscriptions. \n\nPhysician-formulated, pharmaceutical-grade, precision-dosed health optimization formulations delivered through ingestible troches — exclusively available through practitioners.\n\nTroscriptions provides “cheat codes” (i.e. troches) designed to support mitochondrial health and brain function, relieve stress and tension, support sleep, decrease pain, and more.\n\nDynamic equanimity is just a troche away.\n\nMission: To help evolve a non-reciprocal altruistic species by decreasing suffering in ourselves and decreasing suffering in others, realizing that there are no others.\n\nReciprocity: Troscriptions was founded along with a nonprofit, Health Optimization Medicine and Practice. Health Optimization Medicine and Practice provides a learning framework for Health Care Practitioners to optimize for health rather than treat disease. A portion of Troscriptions' profits support HOMe/HOPe.\n",
+        "latest_video_at": "2026-10-11T16:00:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCsWLPrE8z8UXwLMpmK7FUrQ",
+      "external_id": "UCsWLPrE8z8UXwLMpmK7FUrQ",
+      "name": "Dr. Sedat İrgil",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCsWLPrE8z8UXwLMpmK7FUrQ",
+      "discovered_on": "2026-10-11",
+      "score": 66.27,
+      "metrics": {
+        "subscribers": 30500,
+        "total_views": 3859144,
+        "video_count": 1026,
+        "avg_views_per_video": 3761.35,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "IEmyoR4f_N4",
+            "title": "Peptitler: BPC-157 nedir ve ne işe yarar?",
+            "description": "",
+            "published_at": "2026-10-10T18:34:40Z",
+            "url": "https://www.youtube.com/watch?v=IEmyoR4f_N4"
+          }
+        ],
+        "channel_description": "SAYFA İÇERİĞİ BİLGİLENDİRME AMAÇLIDIR. BURADAKİ BİLGİLER İLE HEKİM KONTROLÜ DIŞINDA BİR TEDAVİYE BAŞLANMAMALI VEYA TEDAVİ KESİLMEMELİDİR. TANI VE TEDAVİ İÇİN LÜTFEN HEKİMİNİZE BAŞVURUNUZ. \n\nİŞBİRLİĞİ İÇİN: doktorsedatirgil@gmail.com\n\nPsikiyatri Uzmanı / Psikoterapist / Sosyolog / Dr. Sedat İrgil\n\nTelefon: 05395671004\nMail Adresi: doktorsedatirgil@gmail.com\n",
+        "latest_video_at": "2026-10-10T18:34:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCjsTsNNlygBQhU0crF133yA",
+      "external_id": "UCjsTsNNlygBQhU0crF133yA",
+      "name": "STUDIO 34 PODCAST",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCjsTsNNlygBQhU0crF133yA",
+      "discovered_on": "2026-10-11",
+      "score": 52.26,
+      "metrics": {
+        "subscribers": 2470,
+        "total_views": 1142188,
+        "video_count": 3599,
+        "avg_views_per_video": 317.36,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "PeBaKzlisXU",
+            "title": "Peptídeos: o segredo da regeneração muscular?",
+            "description": "Explora-se aqui o fascinante universo dos peptídeos, definidos como aminoácidos sinalizadores que atuam diretamente na ...",
+            "published_at": "2026-10-10T07:50:12Z",
+            "url": "https://www.youtube.com/watch?v=PeBaKzlisXU"
+          }
+        ],
+        "channel_description": "STUDIO 34 PODCAST | Yamaji André & Alecs🇯🇵🇧🇷\n\nSeja bem-vindo ao Studio 34 Podcast, o espaço onde histórias inspiradoras, experiências de vida, empreendedorismo, cultura japonesa e tudo o que envolve a comunidade brasileira no Japão ganham voz!\n\nApresentado por Yamaji André e Alecs , , o podcast traz convidados especiais, bate-papos descontraídos e conteúdos que informam, inspiram e conectam brasileiros que vivem no Japão e ao redor do mundo.\n\n📌 Aqui você encontra:\n✅ Entrevistas exclusivas\n✅ Histórias de superação\n✅ Cultura japonesa e brasileira\n✅ Empreendedorismo no Japão\n✅ Turismo e dicas de viagem\n✅ Curiosidades da comunidade brasileira\n✅ Música, entretenimento e muito mais!\n\nInscreva-se no canal, ative o sininho e acompanhe todos os episódios do Studio 34 Podcast.\n\n\n#Studio34Podcast #AlecsJapanLife #YamajiAndre #BrasileirosNoJapao #PodcastBrasil #PodcastNoJapao #ComunidadeBrasileira #Japao #BrazilianCommunity #Entrevistas #Empreendedorismo #CulturaJaponesa #VidaNoJapao",
+        "latest_video_at": "2026-10-10T07:50:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCTMag_rgAMjoDCWHYX4V6uA",
       "external_id": "UCTMag_rgAMjoDCWHYX4V6uA",

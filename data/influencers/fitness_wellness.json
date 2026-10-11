@@ -2,19 +2,204 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-10-10T15:54:37Z",
-  "new_this_run": 15,
-  "total_influencers": 1553,
+  "updated_at": "2026-10-11T16:21:53Z",
+  "new_this_run": 6,
+  "total_influencers": 1559,
   "run_summary": {
-    "run_started_at": "2026-10-10T15:54:16Z",
-    "candidate_count": 54,
-    "existing_count": 1538,
-    "selected_new_count": 15,
+    "run_started_at": "2026-10-11T16:21:32Z",
+    "candidate_count": 47,
+    "existing_count": 1553,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCafrudAy_q_lTx_enGmKwRQ",
+      "external_id": "UCafrudAy_q_lTx_enGmKwRQ",
+      "name": "Riya_Dancer",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCafrudAy_q_lTx_enGmKwRQ",
+      "discovered_on": "2026-10-11",
+      "score": 67.08,
+      "metrics": {
+        "subscribers": 32800,
+        "total_views": 8407733,
+        "video_count": 1701,
+        "avg_views_per_video": 4942.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "BGaqTq0Q2CQ",
+            "title": "Explosive Power &amp; Core Strength Training 💥 | Functional Fitness #Shorts#AIDance #FutureOfDance",
+            "description": "Here you'll find high-energy fitness dance workouts and dance training videos designed to help you burn calories, tone your body, ...",
+            "published_at": "2026-10-11T03:23:29Z",
+            "url": "https://www.youtube.com/watch?v=BGaqTq0Q2CQ"
+          }
+        ],
+        "channel_description": "Welcome to Riya_Dancer! 💃\nThis is your go-to space for energetic fitness dance workouts and inspiring dance performances. Whether you want to burn calories, stay fit, or simply enjoy the beauty of dance, you’ll find it all here.\nJoin Riya, move to the rhythm, and make every workout fun, powerful, and full of energy! ✨\nEvery day is a new step, every step brings a healthier, happier you!\n",
+        "latest_video_at": "2026-10-11T03:23:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:bc14ee7b5281fb09ecd3",
+      "external_id": "bc14ee7b5281fb09ecd3",
+      "name": "Lance Spencer",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/JghgmjDqddjLfGuCW/no-cryptography-is-not-dual-use-the-same-way-ai-is",
+      "discovered_on": "2026-10-11",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/matthew_d_green"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "No, Cryptography Is Not “Dual Use” the Same Way AI Is"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:0b2b633152f3ac43b956",
+      "external_id": "0b2b633152f3ac43b956",
+      "name": "Shunchang Liu",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/HJPJArDvcvRBkbaEa/narrow-multimodal-fine-tuning-can-induce-emergent",
+      "discovered_on": "2026-10-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:dd1418891e3989ab6b26",
+      "external_id": "dd1418891e3989ab6b26",
+      "name": "Ran Sun",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/KQD59bWHcaXQvjrLQ/the-bloody-finish-line-1",
+      "discovered_on": "2026-10-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Bloody Finish Line"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:09fa012869446a0fdddd",
+      "external_id": "09fa012869446a0fdddd",
+      "name": "Justin Olive",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/mnWj4hSJxhSJY4N7N/an-update-on-generality-labs",
+      "discovered_on": "2026-10-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "An update on Generality Labs"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:44805e3c3b087aa4627d",
+      "external_id": "44805e3c3b087aa4627d",
+      "name": "Asdfer",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/npbA6xTq24PqsybQe/seed-diversity-as-a-hypothetical-anti-distillation-mechanism",
+      "discovered_on": "2026-10-11",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Seed diversity as a hypothetical anti-distillation mechanism"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCeDA9mi_hQ1TsMypSrE67Pg",
       "external_id": "UCeDA9mi_hQ1TsMypSrE67Pg",
