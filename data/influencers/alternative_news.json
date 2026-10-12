@@ -2,19 +2,379 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-10-11T16:21:40Z",
+  "updated_at": "2026-10-12T19:53:04Z",
   "new_this_run": 8,
-  "total_influencers": 801,
+  "total_influencers": 809,
   "run_summary": {
-    "run_started_at": "2026-10-11T16:21:32Z",
+    "run_started_at": "2026-10-12T19:52:55Z",
     "candidate_count": 20,
-    "existing_count": 793,
+    "existing_count": 801,
     "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCO3vATnmLHULoZLUpOzrLmw",
+      "external_id": "UCO3vATnmLHULoZLUpOzrLmw",
+      "name": "SAT.1 REGIONAL",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCO3vATnmLHULoZLUpOzrLmw",
+      "discovered_on": "2026-10-12",
+      "score": 71.94,
+      "metrics": {
+        "subscribers": 88100,
+        "total_views": 118676837,
+        "video_count": 10203,
+        "avg_views_per_video": 11631.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "CWQHH41_EsQ",
+            "title": "Warum nimmt die Akzeptanz für freien Journalismus ab?",
+            "description": "Mehr Videos unter https://www.sat1regional.de/ Die Akzeptanz für freien Journalismus nimmt ab und während es in anderen ...",
+            "published_at": "2026-10-12T17:25:02Z",
+            "url": "https://www.youtube.com/watch?v=CWQHH41_EsQ"
+          }
+        ],
+        "channel_description": "Die Sat.1 Norddeutschland GmbH produziert im Auftrag von Sat.1 die regionalen Informationsmagazine 17:30 SAT.1 REGIONAL für Niedersachsen und Bremen und 17:30 SAT.1 REGIONAL für Hamburg und Schleswig-Holstein.\n17:30 SAT.1 REGIONAL empfängt man über Kabel, DVB-T2 HD, bundesweit über Satellit und als Livestream auf sat1regional.de, in der App und auf Joyn!\n\nNETIQUETTE\nWir übernehmen keine Haftung und Verantwortung für von Nutzern eingestellte Kommentare oder Verlinkungen. \nUnser Kanal bietet keine Plattform für:\n• rassistische oder politisch extreme Äußerungen und Hasspropaganda, Drohungen und gewaltverherrlichende Inhalte\n• Aufforderungen zu Straftaten\n• Inhalte, die andere beleidigen, diffamieren, verunglimpfen, diskriminieren,\nbedrohen und/ oder verleumden\n• obszöne, jugendgefährdende und/ oder pornografische Inhalte\n• Aufrufe zu Kampagnen, Spenden oder Kundgebungen\n• fremdsprachige Beiträge\nBei Verstößen behalten wir uns vor, Kommentare zu löschen und User zu sperren.\n",
+        "latest_video_at": "2026-10-12T17:25:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEC794b-q3b8C5wTchff4Tw",
+      "external_id": "UCEC794b-q3b8C5wTchff4Tw",
+      "name": "TV SOMBRA  OFICIAL ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCEC794b-q3b8C5wTchff4Tw",
+      "discovered_on": "2026-10-12",
+      "score": 69.87,
+      "metrics": {
+        "subscribers": 12600,
+        "total_views": 5337960,
+        "video_count": 1239,
+        "avg_views_per_video": 4308.28,
+        "matched_queries": 1,
+        "sample_videos": 3
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "fY-CJ93HDdE",
+            "title": "Jornalista callasboa #jornalismoindependente  na TV Sombra",
+            "description": "",
+            "published_at": "2026-10-12T01:22:25Z",
+            "url": "https://www.youtube.com/watch?v=fY-CJ93HDdE"
+          },
+          {
+            "query": "independent journalism",
+            "video_id": "k73jUQAjVhA",
+            "title": "Programa chapa quente # #podcastdosombra #jornalismoindependente",
+            "description": "",
+            "published_at": "2026-10-11T18:58:51Z",
+            "url": "https://www.youtube.com/watch?v=k73jUQAjVhA"
+          },
+          {
+            "query": "independent journalism",
+            "video_id": "C57-tU05YxY",
+            "title": "programa Chapa quente da notícia # #jornalismoindependente",
+            "description": "",
+            "published_at": "2026-10-11T17:18:28Z",
+            "url": "https://www.youtube.com/watch?v=C57-tU05YxY"
+          }
+        ],
+        "channel_description": "🎥 BEM-VINDO AO CANAL REPÓRTER SOMBRA\n\nAqui, os fatos vêm à tona... mesmo nas sombras..\n\n🕵️ Reportagens especiais, entrevistas exclusivas, histórias pouco conhecidas e os bastidores que muitas vezes não recebem a atenção que merecem.\n\n👁️ Informação, análise e conteúdo de qualidade para quem busca conhecer os acontecimentos além das manchetes.\n\n📌 Inscreva-se no canal, deixe seu like e ative o sininho para receber as notificações dos novos vídeos.\n\n📧 Contato comercial e parcerias:\nwilsondentaria@gmail.com\n\n📱 WhatsApp:\n(83) 98808-5078\n\n🎙️ Canal Repórter Sombra – Informação, opinião e os fatos que fazem a diferença.\n",
+        "latest_video_at": "2026-10-12T01:22:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC_1aJHQuB1KMZQPoLLZjphw",
+      "external_id": "UC_1aJHQuB1KMZQPoLLZjphw",
+      "name": "Alessandro Lo-Bianco 🐺 ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC_1aJHQuB1KMZQPoLLZjphw",
+      "discovered_on": "2026-10-12",
+      "score": 69.14,
+      "metrics": {
+        "subscribers": 66100,
+        "total_views": 6874321,
+        "video_count": 1435,
+        "avg_views_per_video": 4790.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "_sclCLeNYWo",
+            "title": "‼️ CHEIRO DE CENSURA 🐺 ",
+            "description": "Julguem... …. SIGA MINHAS REDES SOCIAIS: INSTAGRAM: ALESSANDROLOBIANCO TWITTER: ALESSANDROLB ...",
+            "published_at": "2026-10-12T00:50:56Z",
+            "url": "https://www.youtube.com/watch?v=_sclCLeNYWo"
+          }
+        ],
+        "channel_description": "Trabalhei como repórter da Editora Abril, O Dia, O Globo, CBN e fui produtor executivo dos telejornais da Record. Estou ao vivo na RedeTV!, de segunda a sexta, como colunista de TV do programa “A Tarde é Sua”, com Sônia Abrão. Também sou colunista do portal IG (lobianco.ig.com.br). Tenho 11 livros publicados, 17 prêmios de jornalismo, uma gata chamada Amy Winehouse e sou pai de uma menina de 12 anos. Meus traumas de infância: a mulher do saco, o doceiro que vendia bala com drogas na porta do colégio, e meus pais dizendo \"na volta a gente compra\". www.alessandrolobianco.com ",
+        "latest_video_at": "2026-10-12T00:50:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC2RV5tOV2OSajtw3sTriYPA",
+      "external_id": "UC2RV5tOV2OSajtw3sTriYPA",
+      "name": "Fala, Rovai",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC2RV5tOV2OSajtw3sTriYPA",
+      "discovered_on": "2026-10-12",
+      "score": 64.42,
+      "metrics": {
+        "subscribers": 30000,
+        "total_views": 4247994,
+        "video_count": 2590,
+        "avg_views_per_video": 1640.15,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "QkZ8qfK9n2E",
+            "title": "Censura e jogo sujo: Kássio Nunes mostra como será o Brasil se Flávio Bolsonaro for eleito",
+            "description": "O fundador e diretor de Redação da Fórum, Renato Rovai (@renatorovai), comenta sobre o que a decisão de Kassio Nunes ...",
+            "published_at": "2026-10-11T21:14:54Z",
+            "url": "https://www.youtube.com/watch?v=QkZ8qfK9n2E"
+          }
+        ],
+        "channel_description": "Comentários e análises do diretor de Redação da Revista Fórum, Renato Rovai. ",
+        "latest_video_at": "2026-10-11T21:14:54Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCmk_Y2Emiki9STx6CM0YACw",
+      "external_id": "UCmk_Y2Emiki9STx6CM0YACw",
+      "name": "Pune Times Mirror",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCmk_Y2Emiki9STx6CM0YACw",
+      "discovered_on": "2026-10-12",
+      "score": 63.26,
+      "metrics": {
+        "subscribers": 16200,
+        "total_views": 11603961,
+        "video_count": 5088,
+        "avg_views_per_video": 2280.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "EGjT6ZTPFKE",
+            "title": "Prakash ambedkar on CJP Protest: &#39;मुख्यधारा से बहुजन समाज को किया जा रहा गायब&#39; | Pune Times Mirror",
+            "description": "PrakashAmbedkar #VBA #DalitRights #OBC #Adivasi #Mayawati #ChandrashekharAzad #SocialJustice #BreakingNewsHindi ...",
+            "published_at": "2026-10-12T15:05:24Z",
+            "url": "https://www.youtube.com/watch?v=EGjT6ZTPFKE"
+          }
+        ],
+        "channel_description": "Pune Times Mirror reports Pune the way it is. It presents city, national and international news and views through the lens of Pune. So from raising issues to highlighting the cool things to do, Pune Times Mirror offers the wide range of news about the city that we love.",
+        "latest_video_at": "2026-10-12T15:05:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCFHTypQmv4bAQ1OdyYbR43Q",
+      "external_id": "UCFHTypQmv4bAQ1OdyYbR43Q",
+      "name": "Realnews Now",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCFHTypQmv4bAQ1OdyYbR43Q",
+      "discovered_on": "2026-10-12",
+      "score": 62.46,
+      "metrics": {
+        "subscribers": 3890,
+        "total_views": 9365521,
+        "video_count": 805,
+        "avg_views_per_video": 11634.19,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "r8QIQ9Zf5Gg",
+            "title": "CENSORSHIP ALERT: CBC and BBC Word Games EXPOSED By Bill Maher 📺",
+            "description": "State-funded media outlets like the CBC and the BBC are now instructing their reporters to avoid calling the September 11th ...",
+            "published_at": "2026-10-12T12:13:33Z",
+            "url": "https://www.youtube.com/watch?v=r8QIQ9Zf5Gg"
+          }
+        ],
+        "channel_description": "⚖️ Reclaiming the Center: Politics for the Rest of Us ⚖️\n\nIs it just us, or has politics become a battle between two extremes that don't represent most people? 🤔 If you're tired of the division, welcome.\n\nWe're building a space for the politically curious, the moderates, the independents, and anyone who feels left out by the partisan echo chambers. Our mission is simple:\n\nExplore issues from the center-ground perspective. 🧭\n\nChallenge extreme narratives from BOTH sides. 🚫\n\nHighlight common sense and areas for potential unity. 🤝\n\nCreate a community where constructive feedback drives the conversation.\n\nWe believe the center isn't just a point between two extremes – it's where real solutions are found.\n\nGet involved! This channel is built on YOUR feedback. What topics should we cover? What perspectives are being missed? Drop your ideas and opinions in the comments! 👇💡\n\nHelp us reclaim the center.\n\n✔️ Subscribe and click the bell 🔔 to be part of the solution!\n",
+        "latest_video_at": "2026-10-12T12:13:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCFMAECwW2HQyQfZAd57qM_Q",
+      "external_id": "UCFMAECwW2HQyQfZAd57qM_Q",
+      "name": "The Biblical Hitmen",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCFMAECwW2HQyQfZAd57qM_Q",
+      "discovered_on": "2026-10-12",
+      "score": 61.73,
+      "metrics": {
+        "subscribers": 11000,
+        "total_views": 779149,
+        "video_count": 402,
+        "avg_views_per_video": 1938.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "1O0R-7EkR4c",
+            "title": "Donald Trump, Jared Kushner, Pete Hegseth: The Hasan Livestream| Alex Jones Comedy w/ Ben and John",
+            "description": "I Appreciate The Listeners Getting Through The AD Space!! Listening here is the best way to support our show and keep the show ...",
+            "published_at": "2026-10-11T21:15:16Z",
+            "url": "https://www.youtube.com/watch?v=1O0R-7EkR4c"
+          }
+        ],
+        "channel_description": "Ephesians 5:11 KJV\nAnd have no fellowship with the unfruitful works of darkness, but rather reprove them.",
+        "latest_video_at": "2026-10-11T21:15:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCFr6VHQ7yc1Mx5GIkuVV91Q",
+      "external_id": "UCFr6VHQ7yc1Mx5GIkuVV91Q",
+      "name": "REDE IPW - Ipirá Web",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCFr6VHQ7yc1Mx5GIkuVV91Q",
+      "discovered_on": "2026-10-12",
+      "score": 55.49,
+      "metrics": {
+        "subscribers": 5010,
+        "total_views": 1080837,
+        "video_count": 3295,
+        "avg_views_per_video": 328.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "0Yv6uWp5Biw",
+            "title": "Deputado denuncia tentativa de censura e mantém luta​O parlamentar Leonel Radde relata ameaças e . ",
+            "description": "Deputado denuncia tentativa de censura e mantém luta ​O parlamentar Leonel Radde relata ameaças e processos judiciais ...",
+            "published_at": "2026-10-12T00:13:26Z",
+            "url": "https://www.youtube.com/watch?v=0Yv6uWp5Biw"
+          }
+        ],
+        "channel_description": "🌟 Bem-vindo ao canal Ipirá Web! 🌟\n\nSeu ponto de encontro com as principais notícias, eventos, cultura e tudo o que acontece em Ipirá e região. 🎥✨ Fique por dentro das novidades e acompanhe conteúdos exclusivos com qualidade e informação!\n\n📍Inscreva -se e ative o sininho! 🔔\n\nACESSEM https://www.ipiraweb.com.br ECONFIRA MAIS DETALHES",
+        "latest_video_at": "2026-10-12T00:13:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC1ONZDqx6vflKerutHJaBBA",
       "external_id": "UC1ONZDqx6vflKerutHJaBBA",

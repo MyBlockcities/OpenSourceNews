@@ -2,19 +2,62 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-10-11T16:21:38Z",
-  "new_this_run": 3,
-  "total_influencers": 347,
+  "updated_at": "2026-10-12T19:53:02Z",
+  "new_this_run": 1,
+  "total_influencers": 348,
   "run_summary": {
-    "run_started_at": "2026-10-11T16:21:32Z",
-    "candidate_count": 36,
-    "existing_count": 344,
-    "selected_new_count": 3,
+    "run_started_at": "2026-10-12T19:52:55Z",
+    "candidate_count": 37,
+    "existing_count": 347,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCinIteUWBIk-ycgg5i7q99w",
+      "external_id": "UCinIteUWBIk-ycgg5i7q99w",
+      "name": "Matt Aitchison",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCinIteUWBIk-ycgg5i7q99w",
+      "discovered_on": "2026-10-12",
+      "score": 55.71,
+      "metrics": {
+        "subscribers": 6730,
+        "total_views": 148088,
+        "video_count": 617,
+        "avg_views_per_video": 240.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "8IjMeo3WZlo",
+            "title": "The Warren Buffett Guide to Real Estate Investing | Jon Strishak",
+            "description": "In this episode, Matty A. sits down with Jon Strishak, CEO of Alegria Capital Management, to explore how he transitioned from an ...",
+            "published_at": "2026-10-12T12:00:11Z",
+            "url": "https://www.youtube.com/watch?v=8IjMeo3WZlo"
+          }
+        ],
+        "channel_description": "Matt Aitchison is a commercial real estate developer, runs a debt fund, and long time podcaster. He actively owns and operates his commercial portfolio made up of commercial shopping centers, medical plazas, and mobile home parks. Matt is extremely passionate about helping others create more wealth, freedom, and impact through commercial real estate investing, developments, and investing in stocks and crypto.\n\nDISCLAIMER: The information provided by Matt Aitchison is for general informational, educational, and entertainment purposes only. All information on this YouTube Channel makes no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of said information. None of this information is to be construed as financial advice.\n\n",
+        "latest_video_at": "2026-10-12T12:00:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC2OY8yCxEBBFCXHuj86ubnQ",
       "external_id": "UC2OY8yCxEBBFCXHuj86ubnQ",
