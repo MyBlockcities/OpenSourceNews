@@ -2,19 +2,150 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-10-13T17:40:33Z",
-  "new_this_run": 12,
-  "total_influencers": 1584,
+  "updated_at": "2026-10-14T15:14:12Z",
+  "new_this_run": 4,
+  "total_influencers": 1588,
   "run_summary": {
-    "run_started_at": "2026-10-13T17:40:11Z",
-    "candidate_count": 51,
-    "existing_count": 1572,
-    "selected_new_count": 12,
+    "run_started_at": "2026-10-14T15:13:51Z",
+    "candidate_count": 35,
+    "existing_count": 1584,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:d110177d3467cee3c6c8",
+      "external_id": "d110177d3467cee3c6c8",
+      "name": "Onid",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/gcpKPJCZXm2fovvri/ppa-11-the-basic-model",
+      "discovered_on": "2026-10-14",
+      "score": 70.0,
+      "metrics": {
+        "posts_seen_in_fetch": 10,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "PPA 11: The Basic Model",
+          "PPA 10: Deriving the PPA",
+          "PPA 9: Putting it All Together",
+          "PPA 8: The Fermi Paradox, Fine-Tuning, and the SSA",
+          "PPA 7: Temporal Consistency and Texas Sharpshooting"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "youtube:UCw6utWiHGj9cBWkn8LQfI8A",
+      "external_id": "UCw6utWiHGj9cBWkn8LQfI8A",
+      "name": "Inpower Fitness North Sydney",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCw6utWiHGj9cBWkn8LQfI8A",
+      "discovered_on": "2026-10-14",
+      "score": 68.52,
+      "metrics": {
+        "subscribers": 27200,
+        "total_views": 6396065,
+        "video_count": 514,
+        "avg_views_per_video": 12443.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "YoOcxBp28XA",
+            "title": "🍑 Want stronger, more functional glutes without stepping foot in a gym?",
+            "description": "Want stronger, more functional glutes without stepping foot in a gym? You don't need fancy machines or heavy weights to build ...",
+            "published_at": "2026-10-14T07:00:13Z",
+            "url": "https://www.youtube.com/watch?v=YoOcxBp28XA"
+          }
+        ],
+        "channel_description": "Results-focused PT | North Sydney\n💪 ATG-inspired training & rehab\n🏆 20+ years helping people\n🌎 Get coaching and follow along workouts⬇️\n",
+        "latest_video_at": "2026-10-14T07:00:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:acc8470533ecb2c4f779",
+      "external_id": "acc8470533ecb2c4f779",
+      "name": "Kathleen Curlee, Sam Bresnick",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/chinas-next-frontier",
+      "discovered_on": "2026-10-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "China’s Next Frontier"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:51caac53d70983ae3bd2",
+      "external_id": "51caac53d70983ae3bd2",
+      "name": "Eric Ciaramella",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/ukraine/ukraine-can-turn-imminent-peril-its-advantage",
+      "discovered_on": "2026-10-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Ukraine Can Turn Imminent Peril to Its Advantage"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCCJJORNQ8eKwhzQTR2uQSeQ",
       "external_id": "UCCJJORNQ8eKwhzQTR2uQSeQ",

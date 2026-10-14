@@ -2,19 +2,225 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-13T17:40:29Z",
-  "new_this_run": 6,
-  "total_influencers": 459,
+  "updated_at": "2026-10-14T15:14:09Z",
+  "new_this_run": 4,
+  "total_influencers": 463,
   "run_summary": {
-    "run_started_at": "2026-10-13T17:40:11Z",
-    "candidate_count": 16,
-    "existing_count": 453,
-    "selected_new_count": 6,
+    "run_started_at": "2026-10-14T15:13:51Z",
+    "candidate_count": 12,
+    "existing_count": 459,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCDocQ-4IhVS3ihy_dW7nSKw",
+      "external_id": "UCDocQ-4IhVS3ihy_dW7nSKw",
+      "name": "On The Pen™ GLP-1 News",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCDocQ-4IhVS3ihy_dW7nSKw",
+      "discovered_on": "2026-10-14",
+      "score": 73.89,
+      "metrics": {
+        "subscribers": 37400,
+        "total_views": 6049035,
+        "video_count": 1605,
+        "avg_views_per_video": 3768.87,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "aWYtM2E4xdU",
+            "title": "Eli Lilly vs. The Grey Market: The Future of Peptide Medicine",
+            "description": "Eli Lilly's fight over retatrutide may be about much more than one obesity drug. I've been covering retatrutide since early 2023, ...",
+            "published_at": "2026-10-13T23:50:28Z",
+            "url": "https://www.youtube.com/watch?v=aWYtM2E4xdU"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "aWYtM2E4xdU",
+            "title": "Eli Lilly vs. The Grey Market: The Future of Peptide Medicine",
+            "description": "Eli Lilly's fight over retatrutide may be about much more than one obesity drug. I've been covering retatrutide since early 2023, ...",
+            "published_at": "2026-10-13T23:50:28Z",
+            "url": "https://www.youtube.com/watch?v=aWYtM2E4xdU"
+          }
+        ],
+        "channel_description": "On The Pen is the leading GLP-1 news podcast and Substack Bestseller covering obesity medicine, FDA actions, drug shortages, access policy, and the business of NuSH therapies. The podcast is in the top 1% of all podcasts globally, and a nationally recognized source for patient centered information.",
+        "latest_video_at": "2026-10-13T23:50:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCzwm3t4u0rs-ss6nDLLveAA",
+      "external_id": "UCzwm3t4u0rs-ss6nDLLveAA",
+      "name": "Александр Кузнецов",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCzwm3t4u0rs-ss6nDLLveAA",
+      "discovered_on": "2026-10-14",
+      "score": 72.5,
+      "metrics": {
+        "subscribers": 82000,
+        "total_views": 16220501,
+        "video_count": 976,
+        "avg_views_per_video": 16619.37,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "38cyrUd2WHc",
+            "title": "BPC-157 - эффекты, побочки, дозировки, курс",
+            "description": "По поводу консультаций, составлению курсов фармакологии, ПКТ, ГЗТ, терапии по повышению тестостерона, ведению по ...",
+            "published_at": "2026-10-14T13:24:49Z",
+            "url": "https://www.youtube.com/watch?v=38cyrUd2WHc"
+          }
+        ],
+        "channel_description": "Консультации, составление курсов фармакологии, ПКТ, ГЗТ, терапии по повышению тестостерона, ведение по курсу.",
+        "latest_video_at": "2026-10-14T13:24:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC-Gu_VkJmS1FGxsrSddKvfg",
+      "external_id": "UC-Gu_VkJmS1FGxsrSddKvfg",
+      "name": "Market America Official",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC-Gu_VkJmS1FGxsrSddKvfg",
+      "discovered_on": "2026-10-14",
+      "score": 69.5,
+      "metrics": {
+        "subscribers": 51100,
+        "total_views": 7478029,
+        "video_count": 3686,
+        "avg_views_per_video": 2028.77,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "tDS1XEJyr_A",
+            "title": "EverRx: Personalized Online Plans for GLP-1s and Peptides!",
+            "description": "Your health is more than the number on a scale. Your hormones, metabolism, energy and your future... it's all connected. So why ...",
+            "published_at": "2026-10-14T14:18:51Z",
+            "url": "https://www.youtube.com/watch?v=tDS1XEJyr_A"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "QWOJtw4z2Os",
+            "title": "EverRx - Personalized Online Plans for GLP-1s and Peptides!",
+            "description": "Your health is more than the number on a scale. Your hormones, metabolism, energy and your future... it's all connected. So why ...",
+            "published_at": "2026-10-14T14:17:21Z",
+            "url": "https://www.youtube.com/watch?v=QWOJtw4z2Os"
+          }
+        ],
+        "channel_description": "Official YouTube channel of Market America.\nHelping entrepreneurs build successful businesses through education, leadership, innovative products, and a proven business system.\nSubscribe for:\n• Business training\n• Product education\n• Success stories\n• Leadership insights\n• Event highlights\nLearn more: www.marketamerica.com\n\n",
+        "latest_video_at": "2026-10-14T14:18:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCvXFa69NKV3Ohlv1ewwFvwQ",
+      "external_id": "UCvXFa69NKV3Ohlv1ewwFvwQ",
+      "name": "The Karlfeldt Center",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCvXFa69NKV3Ohlv1ewwFvwQ",
+      "discovered_on": "2026-10-14",
+      "score": 60.67,
+      "metrics": {
+        "subscribers": 3110,
+        "total_views": 261873,
+        "video_count": 947,
+        "avg_views_per_video": 276.53,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "JjbK5bqLUn4",
+            "title": "BPC-157 With Cancer? Why She Waits",
+            "description": "Does BPC-157 cause cancer? Dr. Tracey Stroup says no, but she still keeps it, along with TB-500, out of most active cancer ...",
+            "published_at": "2026-10-14T11:00:13Z",
+            "url": "https://www.youtube.com/watch?v=JjbK5bqLUn4"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "JjbK5bqLUn4",
+            "title": "BPC-157 With Cancer? Why She Waits",
+            "description": "Does BPC-157 cause cancer? Dr. Tracey Stroup says no, but she still keeps it, along with TB-500, out of most active cancer ...",
+            "published_at": "2026-10-14T11:00:13Z",
+            "url": "https://www.youtube.com/watch?v=JjbK5bqLUn4"
+          }
+        ],
+        "channel_description": "Dr. Michael Karlfeldt, ND, PhD, and the team at The Karlfeldt Center \nbring you evidence-based insights on integrative oncology, natural \ncancer treatment, chronic Lyme disease, functional medicine, \nbiohacking, longevity, regenerative medicine, and holistic wellness.\n\nWith over 35 years of clinical experience, Dr. Karlfeldt and his team \ncover the topics conventional medicine often overlooks — from \nintegrative cancer therapies and Lyme disease recovery to hormone \nbalance, gut health, detoxification, and aesthetics and wellness \nthrough TKC Aesthetics.\n\n🎙 LISTEN TO OUR PODCASTS:\nIntegrative Cancer Solutions | Integrative Lyme Solutions | The Dr. K Show\nFind all episodes at TheKarlfeldtCenter.com\n\n🌐 TheKarlfeldtCenter.com\n📞 208-338-8902\n📧 info@TheKarlfeldtCenter.com\n\nNew videos posted regularly. Subscribe for weekly insights on \nintegrative health, cancer support, Lyme recovery, and natural medicine.\n",
+        "latest_video_at": "2026-10-14T11:00:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCiYVuCJsA1GZyGgIZJqV64w",
       "external_id": "UCiYVuCJsA1GZyGgIZJqV64w",
