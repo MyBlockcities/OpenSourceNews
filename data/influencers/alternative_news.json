@@ -2,19 +2,494 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-10-14T15:14:00Z",
-  "new_this_run": 12,
-  "total_influencers": 835,
+  "updated_at": "2026-10-15T15:07:30Z",
+  "new_this_run": 11,
+  "total_influencers": 846,
   "run_summary": {
-    "run_started_at": "2026-10-14T15:13:51Z",
-    "candidate_count": 24,
-    "existing_count": 823,
-    "selected_new_count": 12,
+    "run_started_at": "2026-10-15T15:07:22Z",
+    "candidate_count": 21,
+    "existing_count": 835,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCrfUVduA6D2va8oc4L9kw3w",
+      "external_id": "UCrfUVduA6D2va8oc4L9kw3w",
+      "name": "Klartext Show",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCrfUVduA6D2va8oc4L9kw3w",
+      "discovered_on": "2026-10-15",
+      "score": 67.45,
+      "metrics": {
+        "subscribers": 19300,
+        "total_views": 5314804,
+        "video_count": 432,
+        "avg_views_per_video": 12302.79,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "yX8UyKfhNIQ",
+            "title": "So gefährlich ist unabhängiger Journalismus heute!",
+            "description": "Mit gerade einmal 24 Jahren leitet Max Mannhart ein eigenes, stark wachsendes Medienhaus mit Dutzenden Mitarbeitern.",
+            "published_at": "2026-10-15T13:57:35Z",
+            "url": "https://www.youtube.com/watch?v=yX8UyKfhNIQ"
+          }
+        ],
+        "channel_description": "Die besten Momente aus dem bekanntesten deutschen Podcast!\n\nDas ist ein lizenzierter Fan-Kanal – NICHT der offizielle ‚Ben ungeskriptet‘-Kanal. \n\nHier findest du täglich die besten Highlights, Reels, Reactions und Best-ofs. \n\nDa sehr viel Arbeit in diesem Projekt steckt, würde ich mich riesig über ein Abo freuen!\n",
+        "latest_video_at": "2026-10-15T13:57:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoV-xQFd0K9bh9hi4ykDhHA",
+      "external_id": "UCoV-xQFd0K9bh9hi4ykDhHA",
+      "name": "4BC Brisbane",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCoV-xQFd0K9bh9hi4ykDhHA",
+      "discovered_on": "2026-10-15",
+      "score": 66.57,
+      "metrics": {
+        "subscribers": 5200,
+        "total_views": 3130183,
+        "video_count": 607,
+        "avg_views_per_video": 5156.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@4BCBrisbane"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "MSMp7zJ5PDA",
+            "title": "Independent brewery sends cease-and-desist to Brisbane 2032 Olympic bosses | 4BC Brisbane",
+            "description": "Subscribe and to 4BC Brisbane: https://www.youtube.com/@4BCBrisbane Get more news, opinion and current affairs via the ...",
+            "published_at": "2026-10-15T00:07:03Z",
+            "url": "https://www.youtube.com/watch?v=MSMp7zJ5PDA"
+          }
+        ],
+        "channel_description": "Your stories, your station — 4BC, Brisbane's Home of Talk.\n\n",
+        "latest_video_at": "2026-10-15T00:07:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC5q6gzfGCyBAwt8W9Cq51xA",
+      "external_id": "UC5q6gzfGCyBAwt8W9Cq51xA",
+      "name": "walk&talk india",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC5q6gzfGCyBAwt8W9Cq51xA",
+      "discovered_on": "2026-10-15",
+      "score": 64.9,
+      "metrics": {
+        "subscribers": 8950,
+        "total_views": 8423689,
+        "video_count": 757,
+        "avg_views_per_video": 11127.73,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "HVPeR9esmGY",
+            "title": "CJP स्पोक पर्सन रत्ना सिंह ने प्रेस कॉन्फ्रेंस में बताई आप बीती | #walkandtalkindia",
+            "description": "Walk & Talk India स्वतंत्र और निष्पक्ष पत्रकारिता के लिए प्रतिबद्ध है।",
+            "published_at": "2026-10-15T06:26:56Z",
+            "url": "https://www.youtube.com/watch?v=HVPeR9esmGY"
+          }
+        ],
+        "channel_description": "\"Welcome to my youtube channel  \n Walk&talk india, is channel par hum Hindustan ki khubsurti ko aapke saamne laane ke liye taiyaar hain. Tourist places se lekar market tak, Festival se lekar hindustan ke logon ki kahaniyon tak, yaha aapko sab kuch milega.\n",
+        "latest_video_at": "2026-10-15T06:26:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCchm2YTFq67QNIWmdCRX7_w",
+      "external_id": "UCchm2YTFq67QNIWmdCRX7_w",
+      "name": "That Opinion Girl",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCchm2YTFq67QNIWmdCRX7_w",
+      "discovered_on": "2026-10-15",
+      "score": 63.69,
+      "metrics": {
+        "subscribers": 3950,
+        "total_views": 2806150,
+        "video_count": 140,
+        "avg_views_per_video": 20043.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "uADGQ6baSg0",
+            "title": "When creators claim to be independent journalists, transparency matters.",
+            "description": "When creators claim to be independent journalists, transparency matters. A reported sting operation has raised questions about ...",
+            "published_at": "2026-10-15T11:15:18Z",
+            "url": "https://www.youtube.com/watch?v=uADGQ6baSg0"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-15T11:15:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC45oVNteqw8s5aNOJ3-8g4w",
+      "external_id": "UC45oVNteqw8s5aNOJ3-8g4w",
+      "name": "Mintukd",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC45oVNteqw8s5aNOJ3-8g4w",
+      "discovered_on": "2026-10-15",
+      "score": 62.33,
+      "metrics": {
+        "subscribers": 3370,
+        "total_views": 2343338,
+        "video_count": 175,
+        "avg_views_per_video": 13390.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "WYhM72Iamgg",
+            "title": "आजादी #aajadi #news #andhbhakto",
+            "description": "",
+            "published_at": "2026-10-15T02:40:21Z",
+            "url": "https://www.youtube.com/watch?v=WYhM72Iamgg"
+          }
+        ],
+        "channel_description": "आप का स्वागत है। इस चैनल में।\n5k subscriber ⬅️ \n\nTarget 5k subscribe 🙏 \n\nSubscribe my channel 😎 \n\nexplore the future of social media 💪\n \nऐसे वीडियो देखने के लिए मेरा चैनल सब्सक्राइब करें \n\nEducation purpose video",
+        "latest_video_at": "2026-10-15T02:40:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCv0cLw1adCAXQSRagfI5iuA",
+      "external_id": "UCv0cLw1adCAXQSRagfI5iuA",
+      "name": "FAUSTINO TRICOLOR ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCv0cLw1adCAXQSRagfI5iuA",
+      "discovered_on": "2026-10-15",
+      "score": 60.86,
+      "metrics": {
+        "subscribers": 10400,
+        "total_views": 1848549,
+        "video_count": 1316,
+        "avg_views_per_video": 1404.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "821EA87iS5I",
+            "title": "JORNALISTA CHAMA MÍDIA ALTERNATIVA DE CORJA- SEM NOÇÃO FE FUTEBOL ",
+            "description": "",
+            "published_at": "2026-10-14T21:44:28Z",
+            "url": "https://www.youtube.com/watch?v=821EA87iS5I"
+          }
+        ],
+        "channel_description": "Seja bem-vindo(a)  Faustino Tricolor News \nTudo que Acontece no dia dia do São Paulo FC\nNotícias Atualizadas, Bastidores, Mercado da Bola🇾🇪🇾🇪🇾🇪🇾🇪🇾🇪🇾🇪🎙️\n\n✅ inscreva-se \n✅deixe like\n✅ compartilha \n✅ Canal indicação SPFC \n\nSeja Parceiro do Nosso Canal🇾🇪🎙️✅\n",
+        "latest_video_at": "2026-10-14T21:44:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCcOmAY6q0yhEC-jfSpllx4w",
+      "external_id": "UCcOmAY6q0yhEC-jfSpllx4w",
+      "name": "Adam Green Fan Page",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCcOmAY6q0yhEC-jfSpllx4w",
+      "discovered_on": "2026-10-15",
+      "score": 60.05,
+      "metrics": {
+        "subscribers": 7570,
+        "total_views": 1654456,
+        "video_count": 1094,
+        "avg_views_per_video": 1512.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "JS2TBMpnPVw",
+            "title": "NATO Expansion and Russian Aggression",
+            "description": "Powerchat: https://powerchat.live/knowmorenews Amazon Best Selling Book 'The Jesus Deception' https://a.co/d/0bCfaxiq ...",
+            "published_at": "2026-10-14T22:02:03Z",
+            "url": "https://www.youtube.com/watch?v=JS2TBMpnPVw"
+          }
+        ],
+        "channel_description": "Fan Run Channel For Adam Green   @Know_More_News",
+        "latest_video_at": "2026-10-14T22:02:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEFgqp_bWt-HtgFVy6pUqEQ",
+      "external_id": "UCEFgqp_bWt-HtgFVy6pUqEQ",
+      "name": "Son Mühür",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCEFgqp_bWt-HtgFVy6pUqEQ",
+      "discovered_on": "2026-10-15",
+      "score": 59.97,
+      "metrics": {
+        "subscribers": 19000,
+        "total_views": 5505641,
+        "video_count": 8649,
+        "avg_views_per_video": 636.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ks-EtqINi0A",
+            "title": "SOSYAL MEDYA YASAKLARI VE SANSÜR TARTIŞMALARI GÜNDEMDE!",
+            "description": "SOSYAL MEDYA YASAKLARI VE SANSÜR TARTIŞMALARI GÜNDEMDE! Sıcak Bakış (Günün Konuğu) İBRAHİM AKIN – DEM ...",
+            "published_at": "2026-10-14T09:25:35Z",
+            "url": "https://www.youtube.com/watch?v=ks-EtqINi0A"
+          }
+        ],
+        "channel_description": "Son dakika haberler,  canlı yayınlar , röportajlar , özel haberler...  Tarafsız  gazetecilik anlayışıyla çıktığımız bu yolda sizlere en son haberleri  en kaliteli biçimde iletmek üzere YOUTUBE'dayız. Keyifli videolardan haberdar olmak için Son Mühür'e abone olmayı unutmayın.",
+        "latest_video_at": "2026-10-14T09:25:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCuEkSkCxbrddHl9SUgkadtg",
+      "external_id": "UCuEkSkCxbrddHl9SUgkadtg",
+      "name": "News Ware",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCuEkSkCxbrddHl9SUgkadtg",
+      "discovered_on": "2026-10-15",
+      "score": 59.68,
+      "metrics": {
+        "subscribers": 5260,
+        "total_views": 1428482,
+        "video_count": 674,
+        "avg_views_per_video": 2119.41,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "t9U60DcYiqI",
+            "title": "SILENCING INDEPENDENT JOURNALISTS? #pressfreedom",
+            "description": "Are government restrictions and new policies targeting independent journalists and YouTube news creators? In this video, we ...",
+            "published_at": "2026-10-15T13:57:55Z",
+            "url": "https://www.youtube.com/watch?v=t9U60DcYiqI"
+          }
+        ],
+        "channel_description": "Welcome to 'News Ware,' your gateway to unearthing the authentic voice of the people, away from mainstream media influence. We strive to bring you real stories, real perspectives, and unbiased insights from across the globe. Our mission is to shed light on the issues that truly matter to you, the citizens. Join us on this journey of discovery, where we explore the heart of the matter, one story at a time. Subscribe now and be part of the conversation that shapes our world.",
+        "latest_video_at": "2026-10-15T13:57:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCE0Xs8Lr_jyqiFo9Q43zLIQ",
+      "external_id": "UCE0Xs8Lr_jyqiFo9Q43zLIQ",
+      "name": "FOEJ Media",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCE0Xs8Lr_jyqiFo9Q43zLIQ",
+      "discovered_on": "2026-10-15",
+      "score": 58.96,
+      "metrics": {
+        "subscribers": 4880,
+        "total_views": 1322919,
+        "video_count": 784,
+        "avg_views_per_video": 1687.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "6YlWOno4rvA",
+            "title": "Why Is Meta Targeting Independent Journalism in India? II FOEJ Media II",
+            "description": "Journo Mirror is an independent digital news platform covering human rights, marginalised communities, and issues of public ...",
+            "published_at": "2026-10-15T06:29:13Z",
+            "url": "https://www.youtube.com/watch?v=6YlWOno4rvA"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-15T06:29:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJ2T0YWFXdL9AQQZYf2l-Aw",
+      "external_id": "UCJ2T0YWFXdL9AQQZYf2l-Aw",
+      "name": "JAMEDIA TV ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJ2T0YWFXdL9AQQZYf2l-Aw",
+      "discovered_on": "2026-10-15",
+      "score": 56.48,
+      "metrics": {
+        "subscribers": 4750,
+        "total_views": 466856,
+        "video_count": 835,
+        "avg_views_per_video": 559.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "QECoBfAzXCg",
+            "title": "🌍 GLOBAL RESEARCH SUPPORT AND DONATION GUIDE | SUPPORT INDEPENDENT JOURNALISM",
+            "description": "GLOBAL RESEARCH SUPPORT AND DONATION GUIDE | SUPPORT INDEPENDENT JOURNALISM Why does independent ...",
+            "published_at": "2026-10-15T06:47:49Z",
+            "url": "https://www.youtube.com/watch?v=QECoBfAzXCg"
+          }
+        ],
+        "channel_description": "JAMEDIA TV is Online TV Channel of JUNUB AID MEDIA abbreviated as (JAMEDIA), JUNUB AID MEDIA as a provider of communication, news broadcasting, free online Courses, Researches’, jobs and community advertisement and promotion of South Sudanese Musician through online JAMEDIA TV, by generating and disseminating information about critical social and political issues to social groups and organizations  including journalists, academics, opinion makers, social workers and civil society. \n\nIf it's your first time to visit JUNUB AID MEDIA YouTube channel we recommended you joining this channel by subscribing and turn on post notification bell and be notified every weekend when we uploaded Programs, Music,  new funny and educative video! We will be so happy if you become a part of this channel! Let's make the world 🌍 a better place together! www.youtube.com/c/jamediatv211\n",
+        "latest_video_at": "2026-10-15T06:47:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCaWE7J6malahylNGEZCc3-g",
       "external_id": "UCaWE7J6malahylNGEZCc3-g",
