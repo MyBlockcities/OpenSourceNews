@@ -2,19 +2,80 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-10-15T15:07:28Z",
-  "new_this_run": 5,
-  "total_influencers": 359,
+  "updated_at": "2026-10-16T14:55:46Z",
+  "new_this_run": 1,
+  "total_influencers": 360,
   "run_summary": {
-    "run_started_at": "2026-10-15T15:07:22Z",
-    "candidate_count": 43,
-    "existing_count": 354,
-    "selected_new_count": 5,
+    "run_started_at": "2026-10-16T14:55:40Z",
+    "candidate_count": 37,
+    "existing_count": 359,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCETVODK4e1JVS6GvSNuzX_Q",
+      "external_id": "UCETVODK4e1JVS6GvSNuzX_Q",
+      "name": "Blockster",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCETVODK4e1JVS6GvSNuzX_Q",
+      "discovered_on": "2026-10-16",
+      "score": 81.0,
+      "metrics": {
+        "subscribers": 55400,
+        "total_views": 455314,
+        "video_count": 199,
+        "avg_views_per_video": 2288.01,
+        "matched_queries": 3,
+        "sample_videos": 3
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "property tokenization",
+          "real estate tokenization",
+          "tokenized real estate"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "ea6jV5pU8p0",
+            "title": "Bitcoin Reclaims $82K, Tokenized Real Estate &amp; t54’s Investing Plans | Blockster Briefing",
+            "description": "Bitcoin #Tokenization #CryptoNews Bitcoin rebounds, crypto expands into real estate, and t54 Labs explores personalized ...",
+            "published_at": "2026-10-16T13:57:11Z",
+            "url": "https://www.youtube.com/watch?v=ea6jV5pU8p0"
+          },
+          {
+            "query": "tokenized real estate",
+            "video_id": "ea6jV5pU8p0",
+            "title": "Bitcoin Reclaims $82K, Tokenized Real Estate &amp; t54’s Investing Plans | Blockster Briefing",
+            "description": "Bitcoin #Tokenization #CryptoNews Bitcoin rebounds, crypto expands into real estate, and t54 Labs explores personalized ...",
+            "published_at": "2026-10-16T13:57:11Z",
+            "url": "https://www.youtube.com/watch?v=ea6jV5pU8p0"
+          },
+          {
+            "query": "property tokenization",
+            "video_id": "ea6jV5pU8p0",
+            "title": "Bitcoin Reclaims $82K, Tokenized Real Estate &amp; t54’s Investing Plans | Blockster Briefing",
+            "description": "Bitcoin #Tokenization #CryptoNews Bitcoin rebounds, crypto expands into real estate, and t54 Labs explores personalized ...",
+            "published_at": "2026-10-16T13:57:11Z",
+            "url": "https://www.youtube.com/watch?v=ea6jV5pU8p0"
+          }
+        ],
+        "channel_description": "Blockster covers the people, companies and ideas shaping crypto and the future of finance.\n\nWatch founder and executive interviews, The Blockster Briefing with Electra, market reports, and conversations from the world’s leading blockchain events.\n\nWe explore stablecoins and payments, tokenization and real-world assets, digital identity, and the emerging agent economy—alongside the culture and creativity of Web3.\n\nMeet the people building what comes next, understand why it matters, and follow the blockchain hustle.\n\nRead more at blockster.com. Subscribe for new interviews, briefings and reports.\n",
+        "latest_video_at": "2026-10-16T13:57:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC4ePYccjB4dtEaNV1cVWORw",
       "external_id": "UC4ePYccjB4dtEaNV1cVWORw",
