@@ -2,19 +2,452 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-10-16T14:55:49Z",
-  "new_this_run": 16,
-  "total_influencers": 862,
+  "updated_at": "2026-10-17T13:48:45Z",
+  "new_this_run": 10,
+  "total_influencers": 872,
   "run_summary": {
-    "run_started_at": "2026-10-16T14:55:40Z",
-    "candidate_count": 24,
-    "existing_count": 846,
-    "selected_new_count": 16,
+    "run_started_at": "2026-10-17T13:48:36Z",
+    "candidate_count": 21,
+    "existing_count": 862,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC7BYGtdHRCFzfOiPm5P994Q",
+      "external_id": "UC7BYGtdHRCFzfOiPm5P994Q",
+      "name": "Maggie Szabo",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7BYGtdHRCFzfOiPm5P994Q",
+      "discovered_on": "2026-10-17",
+      "score": 68.84,
+      "metrics": {
+        "subscribers": 25800,
+        "total_views": 4019408,
+        "video_count": 259,
+        "avg_views_per_video": 15518.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "zGrlO8Fgmmg",
+            "title": "Being independent means my best news arrives by text, not a press release 😭 🫶  #popmusic",
+            "description": "",
+            "published_at": "2026-10-16T19:00:08Z",
+            "url": "https://www.youtube.com/watch?v=zGrlO8Fgmmg"
+          }
+        ],
+        "channel_description": "Artist/Multi-Platinum & Billboard #1 Songwriter from 🇨🇦 now living in LA 🌴 \nNew single out now !🪩\n",
+        "latest_video_at": "2026-10-16T19:00:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCbTpzZR6y-xJIAKTA_1POSA",
+      "external_id": "UCbTpzZR6y-xJIAKTA_1POSA",
+      "name": "Nueva News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCbTpzZR6y-xJIAKTA_1POSA",
+      "discovered_on": "2026-10-17",
+      "score": 65.18,
+      "metrics": {
+        "subscribers": 13200,
+        "total_views": 15600214,
+        "video_count": 2119,
+        "avg_views_per_video": 7362.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "zAVEyBspKfA",
+            "title": "Señalan censura en el Tiny Desk de &#39;Los Tigres del Norte’; mensaje latino fue removido.",
+            "description": "",
+            "published_at": "2026-10-17T03:45:34Z",
+            "url": "https://www.youtube.com/watch?v=zAVEyBspKfA"
+          }
+        ],
+        "channel_description": "Las noticias y tendencias más relevantes de la actualidad aquí en Nueva News. \n\nVisita nuestra web: https://nueva.news",
+        "latest_video_at": "2026-10-17T03:45:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC3op9mjh_aApGzke9ZFGHUA",
+      "external_id": "UC3op9mjh_aApGzke9ZFGHUA",
+      "name": "Hloniphani Global News TV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC3op9mjh_aApGzke9ZFGHUA",
+      "discovered_on": "2026-10-17",
+      "score": 64.89,
+      "metrics": {
+        "subscribers": 30700,
+        "total_views": 13037337,
+        "video_count": 4167,
+        "avg_views_per_video": 3128.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "tx3yUH8C0bc",
+            "title": "Heavily guarded and censored Ret General Chiwenga arrives at the ZANU PF Conference.",
+            "description": "",
+            "published_at": "2026-10-16T09:18:55Z",
+            "url": "https://www.youtube.com/watch?v=tx3yUH8C0bc"
+          }
+        ],
+        "channel_description": "We are the Voice of the voiceless, dedicated in exposing oppressive machineries around the world without fear and favour. This channel shall be centered on giving you latest news around the world, movies, documentaries, gospel music from Hloniphani Ncube, interesting interviews. It shall not be limited in terms of content production. We strive to bring row news and content. ",
+        "latest_video_at": "2026-10-16T09:18:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UClyk5QUm34iXbCLOLpNQT5A",
+      "external_id": "UClyk5QUm34iXbCLOLpNQT5A",
+      "name": "OZ-I 0.2",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UClyk5QUm34iXbCLOLpNQT5A",
+      "discovered_on": "2026-10-17",
+      "score": 61.86,
+      "metrics": {
+        "subscribers": 2720,
+        "total_views": 1109806,
+        "video_count": 763,
+        "avg_views_per_video": 1454.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://instagram.com/oz.ii02",
+        "tiktok": "https://www.tiktok.com/@oziii0.2"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "u-Eh2IO1jqI",
+            "title": "Versiones alternativas de algunos Rangers #powerrangers #shorts",
+            "description": "Disfruten el video comenta,like y suscribete si te gusto =) ♥♥♥ Un abrazo de oso Redes Segundo canal: ...",
+            "published_at": "2026-10-16T20:00:10Z",
+            "url": "https://www.youtube.com/watch?v=u-Eh2IO1jqI"
+          }
+        ],
+        "channel_description": "Espero y les guste mi contenido \nMi objetivo es llegar a lo mas alto \n\nPrimera meta: 500 subs       🐻\nsegunda meta: 1000 subs    🐻\nTercera meta: 10,000 subs\nCuarta meta: 100,000 subs\nUltima meta : 1,000,000 subs\n\nAyúdame a llegar =))))\n\nContenido variado de comida, pokémon, fortnite, gamplays, shorts y mas....\n\nY disfruten mucho lo que les brindo un abrazo de Oso \n\nRedes sociales: \nIG: https://instagram.com/oz.ii02?igshid=ZDdkNTZiNTM=\nTiktok: https://www.tiktok.com/@oziii0.2?lang=es\nFacebook: https://www.facebook.com/OZSI.2/\n",
+        "latest_video_at": "2026-10-16T20:00:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCyTNuuFKINWHUDCoytDuLAw",
+      "external_id": "UCyTNuuFKINWHUDCoytDuLAw",
+      "name": "Verónica Ressia",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCyTNuuFKINWHUDCoytDuLAw",
+      "discovered_on": "2026-10-17",
+      "score": 61.72,
+      "metrics": {
+        "subscribers": 15500,
+        "total_views": 1097463,
+        "video_count": 918,
+        "avg_views_per_video": 1195.49,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "ZS6sy5A7J30",
+            "title": "PERIODISMO LIBRE.",
+            "description": "Canal de noticias de Argentina y el mundo. Periodismo libre. SEGUINOS EN LAS REDES: ...",
+            "published_at": "2026-10-17T01:01:03Z",
+            "url": "https://www.youtube.com/watch?v=ZS6sy5A7J30"
+          }
+        ],
+        "channel_description": "CRITERIO PeRioDíSTiCo con Verónica Ressia\nLunes a miércoles 18.15 Hs ARG\n\nYoutube: https://www.youtube.com/c/VeronicaRessia \nTwitch: https://www.twitch.tv/veronicaressia2\nOdysee: https://odysee.com/criterio_periodistico:a\nTELEGRAM https://t.me/VeronicaRessia\n\nAPOYÁNOS ❤️\n\nARGENTINA x MPAGO ALIAS: crite.periodistico     //   CVU: 0000003100094139432380 \nRESTO DEL MUNDO: paypal.me/VERONICARESSIA\n\nApoyo x única vez MPAGO\n250 Criterios https://mpago.la/2z3sSAq\n500 Criterios https://mpago.la/19tybrV\n750 Criterios https://mpago.la/2w6B6RG\n1000 Criterios https://mpago.la/1gTDYsv\n2000 Criterios https://mpago.la/1jh9xDw\n\nMensualmente MPAGO https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c93808479cfe010017a12cfdc5231dd\n\nEMAIL publicidadconvero@gmail.com\n",
+        "latest_video_at": "2026-10-17T01:01:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7FjrOZJlFhqfhtHxan8U1Q",
+      "external_id": "UC7FjrOZJlFhqfhtHxan8U1Q",
+      "name": "The Irish News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7FjrOZJlFhqfhtHxan8U1Q",
+      "discovered_on": "2026-10-17",
+      "score": 60.86,
+      "metrics": {
+        "subscribers": 4980,
+        "total_views": 4918830,
+        "video_count": 1250,
+        "avg_views_per_video": 3935.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "x2siZC3RVVM",
+            "title": "Update on Sally Rooney Censorship",
+            "description": "Publisher Faber & Faber has decided to stop supplying Irish author Sally Rooney's books to the UK market, in the context of her ...",
+            "published_at": "2026-10-17T10:00:24Z",
+            "url": "https://www.youtube.com/watch?v=x2siZC3RVVM"
+          }
+        ],
+        "channel_description": "The Irish News is the UK and Ireland’s top-selling regional daily newspaper. We've been telling the full story since 1891. \n\n#TheIrishNews #IrishNews\n",
+        "latest_video_at": "2026-10-17T10:00:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWQC5c_ASGU88fPvr8FXdBg",
+      "external_id": "UCWQC5c_ASGU88fPvr8FXdBg",
+      "name": "The Lou Perez",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWQC5c_ASGU88fPvr8FXdBg",
+      "discovered_on": "2026-10-17",
+      "score": 57.42,
+      "metrics": {
+        "subscribers": 3950,
+        "total_views": 923203,
+        "video_count": 826,
+        "avg_views_per_video": 1117.68,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "jo5KEzSQSe0",
+            "title": "The Attacks Chinese News Won&#39;t Report #china #censorship",
+            "description": "Search Chinese X accounts and you'll find \"revenge against society\" attacks that never make the news. David Zhang of China ...",
+            "published_at": "2026-10-16T22:00:16Z",
+            "url": "https://www.youtube.com/watch?v=jo5KEzSQSe0"
+          }
+        ],
+        "channel_description": "Sketch comedy, stand-up, and free speech — no apologies.\n\nLou Perez is a comedian, author, and producer who makes the kind of comedy that gets you put on lists. As seen on FOX's Gutfeld!, Open to Debate, and FOX News Primetime.\n\nOn this channel you'll find:\n🎭 Original sketch comedy \n🎤 Stand-up clips and live performance\n🎙️ The Lou Perez Podcast — comedy, culture, and debate\n\nAuthor of THAT JOKE ISN'T FUNNY ANYMORE: On the Death and Rebirth of Comedy. \n\nFormer head writer & producer of the Webby Award-winning channel We the Internet TV. Co-creator of \"Wolverine's Claws Suck\" — 20M+ views — with Greg and Lou.\n\nSubscribe if you believe comedy should punch down.\n\n📧 info@thelouperez.com\n🌐 TheLouPerez.com\n📖 Book: https://amzn.to/3VhFa1r\n",
+        "latest_video_at": "2026-10-16T22:00:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCmJv0WqMDzl5o1cdq3YXi2g",
+      "external_id": "UCmJv0WqMDzl5o1cdq3YXi2g",
+      "name": "Global South Channel",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCmJv0WqMDzl5o1cdq3YXi2g",
+      "discovered_on": "2026-10-17",
+      "score": 56.67,
+      "metrics": {
+        "subscribers": 5250,
+        "total_views": 260507,
+        "video_count": 491,
+        "avg_views_per_video": 530.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "zYKn7eHk4Qs",
+            "title": "Media Oligopoly: Hurdles in Starting Global South Channel",
+            "description": "Hurdles that i am facing in launching and promoting my English language Global South Channel. Oligopoly Media vs Alternative ...",
+            "published_at": "2026-10-17T13:00:31Z",
+            "url": "https://www.youtube.com/watch?v=zYKn7eHk4Qs"
+          }
+        ],
+        "channel_description": "\nThe emergence of Global South and multi-polarity\nThe future of Global South vs Global North  \nThis channel is dedicated to unveiling the facts that are hidden or covered under the dust. We encourage dialogue with reasoning and points of view that convincing rather imposed on others. \nGlobal Reach. Diverse Opinion. Global South. New World Order. \nThe Global South is rapidly emerging as a central force in a new, multipolar world order, shifting power away from traditional Western dominance. Driven by economic growth, demographic strength, and, as noted in the Voices of the Global South Summit, increased diplomatic unity, these nations are demanding greater influence in global governance.\n\n\n",
+        "latest_video_at": "2026-10-17T13:00:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCq_fKGFTJlCUQmjFgZUiSJg",
+      "external_id": "UCq_fKGFTJlCUQmjFgZUiSJg",
+      "name": "Aisling O'Loughlin",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCq_fKGFTJlCUQmjFgZUiSJg",
+      "discovered_on": "2026-10-17",
+      "score": 54.62,
+      "metrics": {
+        "subscribers": 2690,
+        "total_views": 280231,
+        "video_count": 336,
+        "avg_views_per_video": 834.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "pgoB2PjaYCE",
+            "title": "Discussing trust issues with investigative journalist Tony Gosling",
+            "description": "AI videos mean it's hard to know that's real and what's not with deliberate efforts to confuse real stories and throw viewers off the ...",
+            "published_at": "2026-10-15T14:52:35Z",
+            "url": "https://www.youtube.com/watch?v=pgoB2PjaYCE"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-15T14:52:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCPH52Z5OnGqmxelPdv9Mthw",
+      "external_id": "UCPH52Z5OnGqmxelPdv9Mthw",
+      "name": "SRN CHANNEL ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCPH52Z5OnGqmxelPdv9Mthw",
+      "discovered_on": "2026-10-17",
+      "score": 52.39,
+      "metrics": {
+        "subscribers": 2180,
+        "total_views": 164409,
+        "video_count": 410,
+        "avg_views_per_video": 401.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "0Fa3oBRHEIQ",
+            "title": "Meghan Markle and Royal Press Controls: Inside the Palace Media Strategy and Historical Protocol Con",
+            "description": "This live commentary explores the complex relationship between the British royal family, modern public relations, and media ...",
+            "published_at": "2026-10-16T04:27:53Z",
+            "url": "https://www.youtube.com/watch?v=0Fa3oBRHEIQ"
+          }
+        ],
+        "channel_description": "Welcome to Crown SRN CHANNEL — your destination for the latest news, stories, and updates from the British Royal Family.\n\nFrom royal drama, palace controversies, and breaking royal news to in-depth stories about King Charles III, Prince William, Catherine, Princess of Wales, and other members of the British monarchy, we bring you the stories everyone is talking about.\n\nStay up to date with royal family news, palace updates, royal events, behind-the-scenes stories, historical insights, and the latest developments surrounding the UK monarchy.\n\nSubscribe to SRN CHANNEL and never miss the latest British Royal Family news, royal stories, and trending palace updates.\n\n",
+        "latest_video_at": "2026-10-16T04:27:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCugNaYOeuv4d6EF5fNU_Pyw",
       "external_id": "UCugNaYOeuv4d6EF5fNU_Pyw",

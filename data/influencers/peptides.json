@@ -2,19 +2,163 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-16T14:55:58Z",
-  "new_this_run": 9,
-  "total_influencers": 477,
+  "updated_at": "2026-10-17T13:48:54Z",
+  "new_this_run": 3,
+  "total_influencers": 480,
   "run_summary": {
-    "run_started_at": "2026-10-16T14:55:40Z",
-    "candidate_count": 20,
-    "existing_count": 468,
-    "selected_new_count": 9,
+    "run_started_at": "2026-10-17T13:48:36Z",
+    "candidate_count": 13,
+    "existing_count": 477,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC3QNnhJ2L1PSPOisNc02hUg",
+      "external_id": "UC3QNnhJ2L1PSPOisNc02hUg",
+      "name": "Iffat Omar ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC3QNnhJ2L1PSPOisNc02hUg",
+      "discovered_on": "2026-10-17",
+      "score": 68.73,
+      "metrics": {
+        "subscribers": 42100,
+        "total_views": 3428404,
+        "video_count": 461,
+        "avg_views_per_video": 7436.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "4muXT8Xf1Sg",
+            "title": "Are Peptides and Longevity Supplements Safe? | The Hidden Risks",
+            "description": "Peptides #Longevity #BryanJohnson #GLP1 #AntiAging #HealthScience #Supplements #HealthyAging #SayItAllWithIffatOmar ...",
+            "published_at": "2026-10-17T10:00:16Z",
+            "url": "https://www.youtube.com/watch?v=4muXT8Xf1Sg"
+          }
+        ],
+        "channel_description": "Welcome to the ultimate destination for a holistic approach to health and well-being in the modern world.\n\nMeet our dynamic and versatile host, Iffat Omar, your trusted guide, who is not just an engaging host but a compassionate advocate for your well-being. She skill fully poses essential questions to experts ,who answers with a clear and relatable approach that anyone can understand.\n\nIn our show, we delve into the intricate realms of mental health, nutrition, and various aspects of physical well-being. Our goal is to provide you with the latest insights and practical advice for leading a healthier, happier life in today's fast-paced world.\n\nWe believe that knowledge is power, and by demystifying complex health issues, we empower you to make informed choices for your mind and body.\n\nfor business queries: iffatumer50@gmail.com",
+        "latest_video_at": "2026-10-17T10:00:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCORa02TIyAKdq16tZ0axgQQ",
+      "external_id": "UCORa02TIyAKdq16tZ0axgQQ",
+      "name": "Outputstate",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCORa02TIyAKdq16tZ0axgQQ",
+      "discovered_on": "2026-10-17",
+      "score": 64.0,
+      "metrics": {
+        "subscribers": 2150,
+        "total_views": 45274,
+        "video_count": 21,
+        "avg_views_per_video": 2155.9,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "tHQzRIn6IYo",
+            "title": "Your Health Problem &amp; the Right Peptide (Weight Loss, Diabetes, Skin &amp; Bones) #Shorts",
+            "description": "A quick breakdown of peptides and medications commonly discussed for common health concerns: Obesity: Retatrutide (not ...",
+            "published_at": "2026-10-17T00:00:00Z",
+            "url": "https://www.youtube.com/watch?v=tHQzRIn6IYo"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "tHQzRIn6IYo",
+            "title": "Your Health Problem &amp; the Right Peptide (Weight Loss, Diabetes, Skin &amp; Bones) #Shorts",
+            "description": "A quick breakdown of peptides and medications commonly discussed for common health concerns: Obesity: Retatrutide (not ...",
+            "published_at": "2026-10-17T00:00:00Z",
+            "url": "https://www.youtube.com/watch?v=tHQzRIn6IYo"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-17T00:00:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCoGfqEROtl_ecW27Ut7gU3A",
+      "external_id": "UCoGfqEROtl_ecW27Ut7gU3A",
+      "name": "KIO- Keep it Off",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCoGfqEROtl_ecW27Ut7gU3A",
+      "discovered_on": "2026-10-17",
+      "score": 54.9,
+      "metrics": {
+        "subscribers": 2760,
+        "total_views": 289946,
+        "video_count": 501,
+        "avg_views_per_video": 578.73,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "9IZmWLA5xbk",
+            "title": "Unlicensed Peptides and &quot;Too Good to Be True&quot; Weight Loss Drugs, Exposed",
+            "description": "In this clip, Nichola and Mel discuss a trend Nichola has seen first-hand within her recovery community: as the price of Mounjaro ...",
+            "published_at": "2026-10-16T17:00:39Z",
+            "url": "https://www.youtube.com/watch?v=9IZmWLA5xbk"
+          }
+        ],
+        "channel_description": "💙 Welcome to KIO — your space for real talk and real support after weight loss.\n\nWhether you’ve had bariatric surgery, taken weight loss injections (GLP1s), or dropped pounds through tracking, meal plans and pure determination — the hardest part isn’t losing it… it’s keeping it off. That’s where we come in.\n\nWith over twenty two years of lived experience, KIO provides:\n✨ A simple method everyone can follow\n✨ Mindset shifts that bring results\n✨ Reliable advice without the bull\n\n💬 Subscribe for Q&As, webinars, podcasts, blogs, and even 1-1's, aimed to help you Keep your weight off for life.\n\nJoin the KIO Masterclass: https://www.thekioway.com/storm-warning.html?utm_source=youtube&utm_medium=social&utm_campaign=storm-warning&utm_content=day1\n\n",
+        "latest_video_at": "2026-10-16T17:00:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCH8rU2JdplET6BNJ_Y9QRmQ",
       "external_id": "UCH8rU2JdplET6BNJ_Y9QRmQ",

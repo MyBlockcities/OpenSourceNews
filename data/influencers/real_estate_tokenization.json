@@ -2,19 +2,90 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-10-16T14:55:46Z",
-  "new_this_run": 1,
-  "total_influencers": 360,
+  "updated_at": "2026-10-17T13:48:42Z",
+  "new_this_run": 2,
+  "total_influencers": 362,
   "run_summary": {
-    "run_started_at": "2026-10-16T14:55:40Z",
-    "candidate_count": 37,
-    "existing_count": 359,
-    "selected_new_count": 1,
+    "run_started_at": "2026-10-17T13:48:36Z",
+    "candidate_count": 36,
+    "existing_count": 360,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCMrxQ6PWii6ThI1OSSEER-A",
+      "external_id": "UCMrxQ6PWii6ThI1OSSEER-A",
+      "name": "MundoUR Regiones ",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCMrxQ6PWii6ThI1OSSEER-A",
+      "discovered_on": "2026-10-17",
+      "score": 53.91,
+      "metrics": {
+        "subscribers": 10400,
+        "total_views": 1189598,
+        "video_count": 21105,
+        "avg_views_per_video": 56.37,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "03bdIGZ58Lg",
+            "title": "Propuesta de tokenización inmobiliaria como motor de reactivación económica",
+            "description": "El director de la Escuela de Computación de la UCV, Robinson Rivas, invitó en el programa de @malemalaver por ...",
+            "published_at": "2026-10-16T15:41:20Z",
+            "url": "https://www.youtube.com/watch?v=03bdIGZ58Lg"
+          }
+        ],
+        "channel_description": "Canal oficial de las emisoras regionales de Exitos, Onda, La Mega de Unión Radio.\n\nBarquisimeto\nMaracaibo\nMaracay\nMargarita\nPuerto La Cruz\nPuerto Ordaz\nValencia\n\n",
+        "latest_video_at": "2026-10-16T15:41:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:d709caa1786339a804c6",
+      "external_id": "d709caa1786339a804c6",
+      "name": "Samuel Vance-Law",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/10/16/big-tech-s-ai-auditors-will-only-see-what-they-re-shown",
+      "discovered_on": "2026-10-17",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Big Tech's AI auditors will only see what they're shown"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCETVODK4e1JVS6GvSNuzX_Q",
       "external_id": "UCETVODK4e1JVS6GvSNuzX_Q",
