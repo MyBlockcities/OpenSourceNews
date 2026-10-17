@@ -1,5 +1,5 @@
 {
-  "report_date": "2026-10-16",
+  "report_date": "2026-10-17",
   "limit": 50,
   "quality_gate": 60.0,
   "repos": [
@@ -21,7 +21,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 24593,
+      "stars_total": 24596,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools"
@@ -45,7 +45,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 13592,
+      "stars_total": 13597,
       "primary_language": "TypeScript",
       "public_topics": [
         "developer_tools"
@@ -69,7 +69,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 147927,
+      "stars_total": 147971,
       "primary_language": "Python",
       "public_topics": [
         "ai_agents"
@@ -93,9 +93,33 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 43363,
+      "stars_total": 43390,
       "primary_language": "Python",
       "public_topics": []
+    },
+    {
+      "full_name": "microsoft/autogen",
+      "repo_id": "c4af26ff4e5058a68b585517",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 61449,
+      "primary_language": "Python",
+      "public_topics": [
+        "developer_tools"
+      ]
     },
     {
       "full_name": "crewAIInc/crewAI",
@@ -115,7 +139,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 59763,
+      "stars_total": 59789,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools",
@@ -141,7 +165,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 131372,
+      "stars_total": 131465,
       "primary_language": "C++",
       "public_topics": []
     },
@@ -163,7 +187,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 93926,
+      "stars_total": 93977,
       "primary_language": "Python",
       "public_topics": []
     },
@@ -185,7 +209,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 183425,
+      "stars_total": 183565,
       "primary_language": "Go",
       "public_topics": []
     },
@@ -207,7 +231,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 143034,
+      "stars_total": 143053,
       "primary_language": "JavaScript",
       "public_topics": [
         "developer_tools"
@@ -231,7 +255,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 116491,
+      "stars_total": 116528,
       "primary_language": "JavaScript",
       "public_topics": [
         "developer_tools",
@@ -257,7 +281,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 167762,
+      "stars_total": 167786,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools"
@@ -281,7 +305,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 54434,
+      "stars_total": 54445,
       "primary_language": "C++",
       "public_topics": []
     },
@@ -303,7 +327,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 63269,
+      "stars_total": 63293,
       "primary_language": "TypeScript",
       "public_topics": [
         "developer_tools"
@@ -327,7 +351,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 118499,
+      "stars_total": 118540,
       "primary_language": "C++",
       "public_topics": [
         "3d_visualization",
@@ -352,7 +376,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 111943,
+      "stars_total": 111959,
       "primary_language": "Rust",
       "public_topics": []
     },
@@ -374,7 +398,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 26178,
+      "stars_total": 26188,
       "primary_language": "Shell",
       "public_topics": []
     },
@@ -396,7 +420,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 20662,
+      "stars_total": 20673,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools"
@@ -420,7 +444,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 91051,
+      "stars_total": 91105,
       "primary_language": "TypeScript",
       "public_topics": []
     },
@@ -442,7 +466,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 118173,
+      "stars_total": 118267,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools",
@@ -467,7 +491,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 37211,
+      "stars_total": 37238,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools"
@@ -491,7 +515,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 35098,
+      "stars_total": 35114,
       "primary_language": "Rust",
       "public_topics": []
     },
@@ -499,7 +523,7 @@
       "full_name": "openai/openai-python",
       "repo_id": "18d3c4979d5650cfa02e41ab",
       "score": {
-        "momentum_score": 73.22,
+        "momentum_score": 73.21,
         "quality_score": 87.5,
         "community_score": 15.0,
         "adoption_score": 60.0,
@@ -513,7 +537,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 31861,
+      "stars_total": 31867,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools"
@@ -537,7 +561,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 52766,
+      "stars_total": 52780,
       "primary_language": "TypeScript",
       "public_topics": [
         "developer_tools"
@@ -561,7 +585,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 108696,
+      "stars_total": 108705,
       "primary_language": "Rust",
       "public_topics": [
         "developer_tools"
@@ -571,7 +595,7 @@
       "full_name": "modelcontextprotocol/modelcontextprotocol",
       "repo_id": "c6f91287e14c5f7db055587a",
       "score": {
-        "momentum_score": 69.19,
+        "momentum_score": 69.17,
         "quality_score": 87.5,
         "community_score": 15.0,
         "adoption_score": 59.76,
@@ -585,7 +609,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 9459,
+      "stars_total": 9463,
       "primary_language": "TypeScript",
       "public_topics": []
     },
@@ -607,7 +631,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 27287,
+      "stars_total": 27289,
       "primary_language": "Solidity",
       "public_topics": [
         "blockchain",
@@ -618,7 +642,7 @@
       "full_name": "maplibre/maplibre-gl-js",
       "repo_id": "89eaed0e1b305f118635d410",
       "score": {
-        "momentum_score": 41.78,
+        "momentum_score": 41.79,
         "quality_score": 87.5,
         "community_score": 15.0,
         "adoption_score": 60.0,
@@ -632,7 +656,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 11873,
+      "stars_total": 11880,
       "primary_language": "TypeScript",
       "public_topics": []
     },
@@ -654,7 +678,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 17326,
+      "stars_total": 17331,
       "primary_language": "Java",
       "public_topics": []
     },
@@ -676,7 +700,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 15844,
+      "stars_total": 15846,
       "primary_language": "JavaScript",
       "public_topics": [
         "developer_tools",
@@ -688,11 +712,11 @@
       "full_name": "anthropics/anthropic-sdk-python",
       "repo_id": "baec684f2e3353a1b5295654",
       "score": {
-        "momentum_score": 23.77,
+        "momentum_score": 23.75,
         "quality_score": 87.5,
         "community_score": 15.0,
         "adoption_score": 55.99,
-        "composite_score": 42.02,
+        "composite_score": 42.01,
         "passes_quality_gate": true,
         "quality_gate": 60.0,
         "weights": {
