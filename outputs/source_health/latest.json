@@ -1,13 +1,14 @@
 {
   "expected_sources": 128,
   "not_attempted": 3,
-  "successful_sources": 119,
-  "degraded_sources": 5,
+  "successful_sources": 118,
+  "degraded_sources": 6,
   "failed_sources": 1,
   "stale_sources": [
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
     "https://fredblog.stlouisfed.org/feed/",
     "https://reliefweb.int/updates/rss.xml",
+    "https://rss.arxiv.org/rss/cs.AI",
     "https://www.blockchainappfactory.com/blog/feed/",
     "solana"
   ],
@@ -120,7 +121,7 @@
     "semaglutide peptide": "ok",
     "tirzepatide": "ok",
     "retatrutide": "ok",
-    "https://rss.arxiv.org/rss/cs.AI": "ok",
+    "https://rss.arxiv.org/rss/cs.AI": "empty",
     "https://openai.com/news/rss.xml": "ok",
     "https://deepmind.google/blog/rss.xml": "ok",
     "https://github.blog/feed/": "ok",
@@ -144,7 +145,7 @@
     "https://www.theblackvault.com/casefiles/feed/": "ok",
     "https://thegrayzone.com/feed/": "ok"
   },
-  "report_date": "2026-10-17",
-  "generated_at": "2026-10-17T11:37:24Z",
+  "report_date": "2026-10-18",
+  "generated_at": "2026-10-18T12:04:52Z",
   "schema_version": "source_health.v1"
 }
