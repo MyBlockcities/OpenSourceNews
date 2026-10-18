@@ -2,19 +2,376 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-10-17T13:48:58Z",
+  "updated_at": "2026-10-18T14:04:12Z",
   "new_this_run": 10,
-  "total_influencers": 1624,
+  "total_influencers": 1634,
   "run_summary": {
-    "run_started_at": "2026-10-17T13:48:36Z",
-    "candidate_count": 45,
-    "existing_count": 1614,
+    "run_started_at": "2026-10-18T14:03:51Z",
+    "candidate_count": 47,
+    "existing_count": 1624,
     "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCfTflo2Is_iL6YKVBTQcM2Q",
+      "external_id": "UCfTflo2Is_iL6YKVBTQcM2Q",
+      "name": "Dr. Alexandre Olmos ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCfTflo2Is_iL6YKVBTQcM2Q",
+      "discovered_on": "2026-10-18",
+      "score": 72.15,
+      "metrics": {
+        "subscribers": 60300,
+        "total_views": 9853881,
+        "video_count": 452,
+        "avg_views_per_video": 21800.62,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "voRyPhVnfW8",
+            "title": "Por qué algunos de mis pacientes repiten su protocolo cada año",
+            "description": "Comenta SALUD y te envío por privado un vídeo donde te explico cómo funciona mi protocolo y cómo podemos trabajar tu caso.",
+            "published_at": "2026-10-17T17:47:38Z",
+            "url": "https://www.youtube.com/watch?v=voRyPhVnfW8"
+          }
+        ],
+        "channel_description": "⚡ Cansancio, digestión, hormonas… Si nadie te da respuestas, yo sí\n🧬 +1500 pacientes | Epigenética clínica \n👇🏻 Empieza tu protocolo de salud personzalida en el enlace\n",
+        "latest_video_at": "2026-10-17T17:47:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCHjFGX_m1R9CQ5Ys4XehR2w",
+      "external_id": "UCHjFGX_m1R9CQ5Ys4XehR2w",
+      "name": "Sonal Kapoor | Female Fitness Coach",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCHjFGX_m1R9CQ5Ys4XehR2w",
+      "discovered_on": "2026-10-18",
+      "score": 68.03,
+      "metrics": {
+        "subscribers": 20200,
+        "total_views": 8869713,
+        "video_count": 587,
+        "avg_views_per_video": 15110.24,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "anO9x1ah-HQ",
+            "title": "Full-Body Fat-Loss Circuit | Back on Pre-Workout!",
+            "description": "Welcome back! As a certified fitness coach, I am sharing my personal routine for improving sleep quality and productivity, followed ...",
+            "published_at": "2026-10-18T10:29:34Z",
+            "url": "https://www.youtube.com/watch?v=anO9x1ah-HQ"
+          }
+        ],
+        "channel_description": "Servant of Radha❤ | Certified Female Fitness Coach\n\nFor a long time, fitness felt like an overwhelming chore to me. Navigating an MBA and a corporate path, finding time for health felt impossible, and generic advice was confusing and unrealistic.\n\nThat’s why I changed direction. Women don't need exhausting fad diets or trends. We need genuine guidance, realistic strategies, and a safe space to grow stronger.   \n\nWith 6+ years of client training experience, my vision is to simplify fitness and make it accessible for every female. I'm here to walk alongside you, helping you build a strong, toned body and real confidence. With—just honest, science-backed support.   \n\n🧠 My Credentials:\n• Advanced Dietary Supplements Advisor (UK-Certified)\n• Certified Ayurvedic Nutritionist & Exercise Specialist\n\n\nBased in Mohali, I share raw, honest videos on strength training and nutrition that fit a woman's lifestyle. Let’s take the first step together🫶\n",
+        "latest_video_at": "2026-10-18T10:29:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCkh8LQ5vJZDa3_pdeP06cfA",
+      "external_id": "UCkh8LQ5vJZDa3_pdeP06cfA",
+      "name": "Unfiltered By Vidya Raj Sharma",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCkh8LQ5vJZDa3_pdeP06cfA",
+      "discovered_on": "2026-10-18",
+      "score": 65.37,
+      "metrics": {
+        "subscribers": 4780,
+        "total_views": 3030054,
+        "video_count": 91,
+        "avg_views_per_video": 33297.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "ISTu23JDLz0",
+            "title": "Pilates Rapid Fire with Swapnil Naik | His Answer Might Surprise You! | Fitnest Podcast Ep 1 live",
+            "description": "Pilates Rapid Fire with Swapnil Naik | His Answer Might Surprise You! | Fitnest Podcast Ep 1 live 🎙️PILATES RAPID FIRE WITH ...",
+            "published_at": "2026-10-18T04:30:06Z",
+            "url": "https://www.youtube.com/watch?v=ISTu23JDLz0"
+          }
+        ],
+        "channel_description": "Welcome to Unfiltered by Vidya Raj Sharma.\n\nI’m Vidya Raj Sharma—an actor, storyteller, and entrepreneur who believes in using creativity to create change. Through this channel, I share powerful short films and social awareness videos focused on women empowerment and real-life issues.\n\nMy content reflects society as it is—honest, emotional, and unfiltered. I create stories on gender equality, mental health, relationships, self-worth, and breaking stereotypes, with strong female lead characters in Hindi and English.\n\nThis channel is not just about entertainment. It is about inspiring confidence, courage, and self-belief in women.\n\nIf you love women-centric short films, motivational videos for girls and women, social message movies, and realistic storytelling, you’re in the right place.\n\nSubscribe for meaningful content and real stories that matter.\n\nLet’s break stereotypes. Let’s raise voices. Let’s stay Unfiltered.\n\n— Vidya Raj Sharma\n\n",
+        "latest_video_at": "2026-10-18T04:30:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTuAQ_8XKcD9RX1Ylg8R64A",
+      "external_id": "UCTuAQ_8XKcD9RX1Ylg8R64A",
+      "name": "Kurt Yaz",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCTuAQ_8XKcD9RX1Ylg8R64A",
+      "discovered_on": "2026-10-18",
+      "score": 64.94,
+      "metrics": {
+        "subscribers": 13600,
+        "total_views": 1456230,
+        "video_count": 230,
+        "avg_views_per_video": 6331.43,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "93p8AKqlEiw",
+            "title": "Are your peptides actually safe? #biohacking #peptides #evidence",
+            "description": "Peptides are trending, but are you confusing online hype with actual medical safety? I am breaking down three critical questions ...",
+            "published_at": "2026-10-17T18:25:08Z",
+            "url": "https://www.youtube.com/watch?v=93p8AKqlEiw"
+          }
+        ],
+        "channel_description": "Welcome to Kurt Yaz's official YouTube channel. As a biohacking and wellness expert, I am dedicated to helping high achievers achieve the top 1 percent of health and performance. \n\nDrawing from over eight years of entrepreneurial success and a transformative journey through self-development and nutritional exploration, including the carnivore diet, I share practical strategies and insights to optimize your body and mind.\n\nSubscribe for weekly videos covering biohacking techniques, mental clarity, handy gadgets recommendations and reviews, and overall lifestyle optimization. \n",
+        "latest_video_at": "2026-10-17T18:25:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCQ5xMxIT3y8OdqYSZAKMroQ",
+      "external_id": "UCQ5xMxIT3y8OdqYSZAKMroQ",
+      "name": "Sofia Kralow",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCQ5xMxIT3y8OdqYSZAKMroQ",
+      "discovered_on": "2026-10-18",
+      "score": 56.44,
+      "metrics": {
+        "subscribers": 2450,
+        "total_views": 642873,
+        "video_count": 462,
+        "avg_views_per_video": 1391.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "Fr7W754GnAU",
+            "title": "How to manifest everything you want FAST (Palm beach vlog)",
+            "description": "How do you shift from feeling completely drained (3% energy) to stepping into full feminine magnetism and manifesting the exact ...",
+            "published_at": "2026-10-18T13:46:45Z",
+            "url": "https://www.youtube.com/watch?v=Fr7W754GnAU"
+          }
+        ],
+        "channel_description": "I manifested a 10-year vision in under 12 months, built a luxury perfume brand, and now I’m handing you the exact bridge between 3D hustle and 5D manifestation 🪄😈\n\nWelcome to the Playgirl world. Here’s what we’re unlocking:\n\n🪄 Quantum Shifts: How to collapse timelines, skip the matrix grind, and make reality bend to you.\n🪄 M&ney Magnetism: The exact high-frequency psychology that took me from zero to multi-millions.\n🪄 Power Couples & High-Level Romance: How to build an empire with a king without ever playing small or losing your soul.\n\nFrom certified coach to leading 5,000+ magnetic women worldwide — consider this your official invite to the next level.\nHit subscribe to break the rules, claim your power, and start playing life on your own terms.\n\nReady to stop waiting and start receiving?\n\nJoin the waitlist for my exclusive Playgirl program now and unlock an instant bonus masterclass to activate your magnetic energy today.\n",
+        "latest_video_at": "2026-10-18T13:46:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:3bb0f5f529c578b57cdc",
+      "external_id": "3bb0f5f529c578b57cdc",
+      "name": "ModelMirror",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/DA4j9mbytY2LSzSdu/important-details-in-the-leaked-anthropic-draft-ai-bill",
+      "discovered_on": "2026-10-18",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/So8res"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Important details in the leaked Anthropic draft AI bill"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:42a461022bf91d86c784",
+      "external_id": "42a461022bf91d86c784",
+      "name": "berns",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/f8R3B2zqqTJZjSAsm/deconfusing-corrigibility",
+      "discovered_on": "2026-10-18",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Deconfusing Corrigibility"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:46eb510f0470d67018c8",
+      "external_id": "46eb510f0470d67018c8",
+      "name": "Rob Ennals",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/egp2cSXbQH4qc5rgR/the-most-important-political-dimension-is-certainty",
+      "discovered_on": "2026-10-18",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Most Important Political Dimension is Certainty"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:639af1ec6ae357dba9c5",
+      "external_id": "639af1ec6ae357dba9c5",
+      "name": "Pranjal Garg",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ZWNruQZnrH4Yeusj5/spontaneous-verbal-evidence-synthesis-in-llms",
+      "discovered_on": "2026-10-18",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Spontaneous verbal evidence synthesis in LLMs"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4456aaa3620e515ff1e0",
+      "external_id": "4456aaa3620e515ff1e0",
+      "name": "Ariana Villegas",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/qmnrZ3YFpSKfLQ59b/knowingly-wrong",
+      "discovered_on": "2026-10-18",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Knowingly Wrong"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCdXxZZI93NmIhjVwBgog8rA",
       "external_id": "UCdXxZZI93NmIhjVwBgog8rA",

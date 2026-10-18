@@ -2,19 +2,109 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-17T13:48:54Z",
-  "new_this_run": 3,
-  "total_influencers": 480,
+  "updated_at": "2026-10-18T14:04:09Z",
+  "new_this_run": 2,
+  "total_influencers": 482,
   "run_summary": {
-    "run_started_at": "2026-10-17T13:48:36Z",
+    "run_started_at": "2026-10-18T14:03:51Z",
     "candidate_count": 13,
-    "existing_count": 477,
-    "selected_new_count": 3,
+    "existing_count": 480,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCTuAQ_8XKcD9RX1Ylg8R64A",
+      "external_id": "UCTuAQ_8XKcD9RX1Ylg8R64A",
+      "name": "Kurt Yaz",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCTuAQ_8XKcD9RX1Ylg8R64A",
+      "discovered_on": "2026-10-18",
+      "score": 64.94,
+      "metrics": {
+        "subscribers": 13600,
+        "total_views": 1456230,
+        "video_count": 230,
+        "avg_views_per_video": 6331.43,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "rv01kSde0go",
+            "title": "Don&#39;t Start Peptides Until You Watch This",
+            "description": "Peptides are all over your feed. Before you follow the hype, here are three questions I use to think through the evidence, the ...",
+            "published_at": "2026-10-17T18:22:30Z",
+            "url": "https://www.youtube.com/watch?v=rv01kSde0go"
+          }
+        ],
+        "channel_description": "Welcome to Kurt Yaz's official YouTube channel. As a biohacking and wellness expert, I am dedicated to helping high achievers achieve the top 1 percent of health and performance. \n\nDrawing from over eight years of entrepreneurial success and a transformative journey through self-development and nutritional exploration, including the carnivore diet, I share practical strategies and insights to optimize your body and mind.\n\nSubscribe for weekly videos covering biohacking techniques, mental clarity, handy gadgets recommendations and reviews, and overall lifestyle optimization. \n",
+        "latest_video_at": "2026-10-17T18:22:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCMb0gkAdFha0AM8a1LpxGtw",
+      "external_id": "UCMb0gkAdFha0AM8a1LpxGtw",
+      "name": "Dr. Clay Moss",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCMb0gkAdFha0AM8a1LpxGtw",
+      "discovered_on": "2026-10-18",
+      "score": 58.34,
+      "metrics": {
+        "subscribers": 2360,
+        "total_views": 378574,
+        "video_count": 108,
+        "avg_views_per_video": 3505.31,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "2jyduODUgnI",
+            "title": "The GLP-1 receptor really kicked off the weight loss drug era, but is it already old news?",
+            "description": "Semaglutide, the drug used in Ozempic and Wegovy, averaged 14.9% weight loss in its main obesity trial. Tirzepatide, the drug ...",
+            "published_at": "2026-10-17T17:44:08Z",
+            "url": "https://www.youtube.com/watch?v=2jyduODUgnI"
+          }
+        ],
+        "channel_description": "MD. Longevity and personalized medicine.\nHelping people optimize to excel at life 💪 \nDocumenting the journey as it happens.\n\n—\n\nNot medical advice. Views are my own.\n",
+        "latest_video_at": "2026-10-17T17:44:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UC3QNnhJ2L1PSPOisNc02hUg",
       "external_id": "UC3QNnhJ2L1PSPOisNc02hUg",
