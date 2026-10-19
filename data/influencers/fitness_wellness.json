@@ -2,19 +2,615 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-10-18T14:04:12Z",
-  "new_this_run": 10,
-  "total_influencers": 1634,
+  "updated_at": "2026-10-19T17:01:56Z",
+  "new_this_run": 17,
+  "total_influencers": 1651,
   "run_summary": {
-    "run_started_at": "2026-10-18T14:03:51Z",
-    "candidate_count": 47,
-    "existing_count": 1624,
-    "selected_new_count": 10,
+    "run_started_at": "2026-10-19T17:01:35Z",
+    "candidate_count": 52,
+    "existing_count": 1634,
+    "selected_new_count": 17,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCp3N0fbBDrmAuwOrY2jVprg",
+      "external_id": "UCp3N0fbBDrmAuwOrY2jVprg",
+      "name": "Calisthenics Workout Complex",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCp3N0fbBDrmAuwOrY2jVprg",
+      "discovered_on": "2026-10-19",
+      "score": 66.83,
+      "metrics": {
+        "subscribers": 46400,
+        "total_views": 15231364,
+        "video_count": 5614,
+        "avg_views_per_video": 2713.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "gekD80kF2lo",
+            "title": "Being Fit Is About More Than Looking Fit",
+            "description": "Real functional fitness is about how you move, not just how you look. True strength is carrying groceries in one trip and having ...",
+            "published_at": "2026-10-19T15:54:31Z",
+            "url": "https://www.youtube.com/watch?v=gekD80kF2lo"
+          }
+        ],
+        "channel_description": "89 lb to 170 lb after Crohn's.\nI help busy people 30+ get back in shape with bodyweight training FIRST.\nFree 30+ Rebuild Blueprint 👇",
+        "latest_video_at": "2026-10-19T15:54:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCPjY6cPMSE5ogJ3RhDJasgw",
+      "external_id": "UCPjY6cPMSE5ogJ3RhDJasgw",
+      "name": "D'Amante Music",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCPjY6cPMSE5ogJ3RhDJasgw",
+      "discovered_on": "2026-10-19",
+      "score": 64.03,
+      "metrics": {
+        "subscribers": 23200,
+        "total_views": 9228303,
+        "video_count": 4695,
+        "avg_views_per_video": 1965.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "PTgl3vqikZg",
+            "title": "Peptides, Hormones &amp; Dating: Our Podcast Begins #shorts",
+            "description": "Dive into the world of peptides, hormones, and dating strategies. Get ready for a wild ride in this first episode. Lock in, buckle up, ...",
+            "published_at": "2026-10-19T02:19:24Z",
+            "url": "https://www.youtube.com/watch?v=PTgl3vqikZg"
+          }
+        ],
+        "channel_description": "#MW0GKK",
+        "latest_video_at": "2026-10-19T02:19:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCbMx7wNrwhs3bpRpEqQvuMQ",
+      "external_id": "UCbMx7wNrwhs3bpRpEqQvuMQ",
+      "name": "Клиника реабилитации \"Продвижение\"",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCbMx7wNrwhs3bpRpEqQvuMQ",
+      "discovered_on": "2026-10-19",
+      "score": 64.01,
+      "metrics": {
+        "subscribers": 7710,
+        "total_views": 1457936,
+        "video_count": 160,
+        "avg_views_per_video": 9112.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "KwiSw6wRlJI",
+            "title": "Как тренируется реабилитолог? #shorts",
+            "description": "Как тренируется реабилитолог? Пациенты часто спрашивают Дениса Хорошко, директора «ProДвижения»: «А вы сами-то ...",
+            "published_at": "2026-10-19T15:05:27Z",
+            "url": "https://www.youtube.com/watch?v=KwiSw6wRlJI"
+          }
+        ],
+        "channel_description": "Медицинский центр «ProДвижение» специализируется на восстановлении функций опорно-двигательного аппарата после травм, операций и при патологических состояниях.\nВрачи клиники занимаются восстановлением функций крупных суставов — коленного, тазобедренного, плечевого и локтевого. Отдельным направлением является реабилитация кисти и стопы.  \n\nПонятно\nПодробно объясним, что произошло со структурами организма в результате травмы или заболевания. Обсудим цели, которые необходимо достигнуть в ходе лечения, и расскажем как это можно сделать.\n\nКомплексно\nИндивидуальная реабилитационная программа включает:\nлечебную физическую культуру (ЛФК);\nмассаж;\nфизиотерапию;\nкинезиотейпирование.\n\nСовременно\nВ медицинском центре «ProДвижение» используются передовые российские и европейские протоколы восстановления и лечения заболеваний опорно-двигательного аппарата. Врачи участвуют в российских и международных конференциях.\nwww.medmove.ru | +74991104144\nhttps://t.me/promedmove\nhttps://vk.com/promedmove\n\n",
+        "latest_video_at": "2026-10-19T15:05:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCelr8qdltzl74FBYv--0tcA",
+      "external_id": "UCelr8qdltzl74FBYv--0tcA",
+      "name": "DR BERG DC HEALTH ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCelr8qdltzl74FBYv--0tcA",
+      "discovered_on": "2026-10-19",
+      "score": 63.77,
+      "metrics": {
+        "subscribers": 13400,
+        "total_views": 4082582,
+        "video_count": 1084,
+        "avg_views_per_video": 3766.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "jBz80RzNBB0",
+            "title": "🌙 How to Extend Your Lifespan by Fixing Your Sleep (Circadian Reset Protocol)",
+            "description": "Struggling with restless nights, morning fatigue, or trouble falling asleep? Sleep is not just passive rest—it is the primary biological ...",
+            "published_at": "2026-10-19T09:00:27Z",
+            "url": "https://www.youtube.com/watch?v=jBz80RzNBB0"
+          }
+        ],
+        "channel_description": "Welcome to the Dr. Berg Fan Channel! 💙\n\nYour go-to space for bite-sized health clips inspired by Dr. Eric Berg’s teachings on keto, intermittent fasting, and holistic wellness.\n\nHere you’ll find:\n🍳 Keto-friendly tips\n⏱️ Intermittent fasting hacks\n💪 Simple health insights made easy\n\n✨ If you love Dr. Berg’s practical approach to health and want easy, science-based tips in snackable form — you’re in the right place!\n\n❤️Disclaimer: The information provided on this channel is for general educational use and is not medical advice. If you suspect you have an ailment, please consult a licensed physician to obtain a proper diagnosis and treatment.\n\n👉 Subscribe, tap the 🔔, and join our growing community of health-conscious fans!\n",
+        "latest_video_at": "2026-10-19T09:00:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCbsKgGz3Fdx-MmrIND2L3Ag",
+      "external_id": "UCbsKgGz3Fdx-MmrIND2L3Ag",
+      "name": "Ana Ribeiro- SE VIRANDO SOZINHA",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCbsKgGz3Fdx-MmrIND2L3Ag",
+      "discovered_on": "2026-10-19",
+      "score": 58.36,
+      "metrics": {
+        "subscribers": 8140,
+        "total_views": 665090,
+        "video_count": 1064,
+        "avg_views_per_video": 625.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "f8X6FCgfXsg",
+            "title": "- Aparelho Puxador Elástico | Abdômen Pernas Braços💪##ExercicioEmCasa #TreinoEmCasa #Fitness",
+            "description": "Narração para vídeo (≈8–10s) \"Treino completo sem sair de casa! Com ele você trabalha abdômen, pernas, braços e glúteos ...",
+            "published_at": "2026-10-19T13:07:03Z",
+            "url": "https://www.youtube.com/watch?v=f8X6FCgfXsg"
+          }
+        ],
+        "channel_description": "Aqui mostra minha rotina, vlogs passei  estoque  economia, viagem limpeza  organização  se vc gosta \n Desse tipo de  conteúdo  venho através deste  canal  mostra  pra vcs minha realidade..\n",
+        "latest_video_at": "2026-10-19T13:07:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCw9FGDAFhqgXSZcUUCg6Y-g",
+      "external_id": "UCw9FGDAFhqgXSZcUUCg6Y-g",
+      "name": "Xguide",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCw9FGDAFhqgXSZcUUCg6Y-g",
+      "discovered_on": "2026-10-19",
+      "score": 58.3,
+      "metrics": {
+        "subscribers": 7560,
+        "total_views": 3182717,
+        "video_count": 4711,
+        "avg_views_per_video": 675.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "w3XXt1kmQO0",
+            "title": "Magnali Longevity Protocol Review: Is It Worth $733?",
+            "description": "Is Magnali Longevity Protocol worth the price? This investigation examines the product's advertised anti-aging benefits, pricing, ...",
+            "published_at": "2026-10-19T10:40:03Z",
+            "url": "https://www.youtube.com/watch?v=w3XXt1kmQO0"
+          }
+        ],
+        "channel_description": " Welcome to xguide– Your Go-To Tutorials Hub!\nLearn everything step by step — from tech tips and software guides to freelancing and digital tools.\n\nWhether you're a beginner or just looking to level up, we simplify complex topics with easy-to-follow tutorials. Expect regular content, smart solutions, and powerful tools to boost your knowledge and productivity.\n\n What You’ll Find Here:\n\nSoftware & app tutorials (Windows, Android, iOS, etc.)\n\nFixes for common tech issues\n\nOnline income & freelancing tips\n\nTool & service reviews\n\nAnd much more!\n\n📩 Business Inquiries & Collaborations:\n[chedibf0@gmail.com] \n\nHit subscribe and turn on the bell so you never miss an upload! \nThanks for being part of the community \n",
+        "latest_video_at": "2026-10-19T10:40:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCEBogcODUw54h20-RyPTP5g",
+      "external_id": "UCEBogcODUw54h20-RyPTP5g",
+      "name": "Jodi Stokes Fitness, LLC.",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCEBogcODUw54h20-RyPTP5g",
+      "discovered_on": "2026-10-19",
+      "score": 58.29,
+      "metrics": {
+        "subscribers": 5330,
+        "total_views": 470588,
+        "video_count": 429,
+        "avg_views_per_video": 1096.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "85hMyXoIzbQ",
+            "title": "Strength for Everyday Life 💪 | Get Stronger, Move Better!",
+            "description": "Can you get up from the floor, bend down comfortably, and carry all your groceries without struggling? That's what functional ...",
+            "published_at": "2026-10-19T13:34:18Z",
+            "url": "https://www.youtube.com/watch?v=85hMyXoIzbQ"
+          }
+        ],
+        "channel_description": "Educated/Certified expertise to achieve your Fitness Goals with Jodi Stokes.\n\nWith a BS in Exercise Science, Master Health and Wellness  Coach ASFA, Women’s Health Studies ASFA, Cognitive Behavioral Therapy (CBT), Productivity Coaching, Virtue Academy Energy Healer and Author of Water Exercise by Jodi. I have the experience to motivate you to next level excellence.. Mind/Body and Spirit.\n*BEST OF FITNESS/WELLNESS ARIZONA 2026\n\nYoung to active-agers welcome. \nWater Exercise by Jodi - book on Amazon. \n\nhttps://www.facebook.com/share/W7AkzYZoriRohZ2Q/?mibextid=WC7FNe\n\nwww.jodistokes.com\nInstagram, Facebook @jodistokesfitness\n\n",
+        "latest_video_at": "2026-10-19T13:34:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCF5Ra5qt4lvzqfT-O75XlRw",
+      "external_id": "UCF5Ra5qt4lvzqfT-O75XlRw",
+      "name": "The Hol⁺ Show",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCF5Ra5qt4lvzqfT-O75XlRw",
+      "discovered_on": "2026-10-19",
+      "score": 55.1,
+      "metrics": {
+        "subscribers": 2560,
+        "total_views": 321894,
+        "video_count": 457,
+        "avg_views_per_video": 704.36,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "winRVACJACU",
+            "title": "Why Your Longevity Plan Might Be Missing the Most Important Part #Longevity #MensHealth",
+            "description": "With all the conversation around longevity, biohacking, peptides, and performance, it is easy to overlook what may matter most.",
+            "published_at": "2026-10-18T19:00:23Z",
+            "url": "https://www.youtube.com/watch?v=winRVACJACU"
+          }
+        ],
+        "channel_description": "Welcome to hol+ where science meets spirit and modern medicine meets ancient wisdom.\n\nHosted by Dr. Taz MD, a double board-certified integrative and holistic doctor, author and veteran TV personality, hol+ explores the root causes of health and healing. Each episode brings real conversations about functional medicine, hormone balance, gut health, mental wellness, and longevity with experts and inspiring guests like Jane Seymour, Katherine Schwarzenegger, Carol Alt and Dr. Kristi Funk \nRecognized alongside the Mel Robbins Podcast at the 29th Annual Webby Awards, hol+ is redefining how we understand holistic health and the future of medicine.\n\nLearn how to support your nervous system, reduce inflammation, and reconnect with your body through holistic and science-based approaches.\n\nSubscribe for weekly insights on natural healing, women’s health, trauma recovery, emotional wellness, and the future of medicine , so you can feel better, live stronger, and thrive.\n",
+        "latest_video_at": "2026-10-18T19:00:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:c6fc4ac5e38f15028787",
+      "external_id": "c6fc4ac5e38f15028787",
+      "name": "Taiga Someya",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/2qnLtNiBph5EjBf6c/models-trained-to-evade-topic-probes-struggle-to-answer",
+      "discovered_on": "2026-10-19",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Models Trained to Evade Topic Probes Struggle to Answer Questions about Those Topics"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f209627020fb449177d9",
+      "external_id": "f209627020fb449177d9",
+      "name": "Richard Horvath",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/FryXmBYCATETTGMJC/first-strike",
+      "discovered_on": "2026-10-19",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "First Strike"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:78e83d3801655e38cd24",
+      "external_id": "78e83d3801655e38cd24",
+      "name": "Our Critical Point",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/KtpfJ5F4YLRwXkRCk/reinforcement-learning-is-probably-inconsistent-with-ethics",
+      "discovered_on": "2026-10-19",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Reinforcement Learning is Probably Inconsistent with Ethics"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:414de8fd2a7fe9790fa3",
+      "external_id": "414de8fd2a7fe9790fa3",
+      "name": "Magmappie",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/KoD3zWPJ4AvwnHvkN/directly-ascertained-volition-dav-to-safeguard-personal",
+      "discovered_on": "2026-10-19",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Directly Ascertained Volition (DAV) to safeguard personal autonomy"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d4759220baf1c26199a0",
+      "external_id": "d4759220baf1c26199a0",
+      "name": "Florian_Dietz",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/hvLm4zRgzfRLH6H23/memes-not-agents-are-what-will-kill-us",
+      "discovered_on": "2026-10-19",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Memes, not agents, are what will kill us"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:141b883298657a8785ff",
+      "external_id": "141b883298657a8785ff",
+      "name": "Claas Mertens, Ngaire Woods",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/europe/europes-credibility-gap",
+      "discovered_on": "2026-10-19",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Europe’s Credibility Gap"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:dc681406e86599c3f85a",
+      "external_id": "dc681406e86599c3f85a",
+      "name": "Charles Kupchan",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/better-america-first",
+      "discovered_on": "2026-10-19",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "A Better “America First”"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:05fdfb3984e87596e614",
+      "external_id": "05fdfb3984e87596e614",
+      "name": "Billy Gigurtsis",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/s9fmXPbbsBbBK6TZi/catching-split-attacks-across-compactions-in-long-context",
+      "discovered_on": "2026-10-19",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Catching split attacks across compactions in long-context coding agents"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:7e1f7c09b7c8bd1d170e",
+      "external_id": "7e1f7c09b7c8bd1d170e",
+      "name": "Andrew",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/GvEc8BNRD42Rdmqyp/a-suggestion-for-rlhf-improvements",
+      "discovered_on": "2026-10-19",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Suggestion for RLHF Improvements"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCfTflo2Is_iL6YKVBTQcM2Q",
       "external_id": "UCfTflo2Is_iL6YKVBTQcM2Q",

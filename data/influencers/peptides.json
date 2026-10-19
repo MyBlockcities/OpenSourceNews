@@ -2,19 +2,442 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-18T14:04:09Z",
-  "new_this_run": 2,
-  "total_influencers": 482,
+  "updated_at": "2026-10-19T17:01:53Z",
+  "new_this_run": 9,
+  "total_influencers": 491,
   "run_summary": {
-    "run_started_at": "2026-10-18T14:03:51Z",
-    "candidate_count": 13,
-    "existing_count": 480,
-    "selected_new_count": 2,
+    "run_started_at": "2026-10-19T17:01:35Z",
+    "candidate_count": 18,
+    "existing_count": 482,
+    "selected_new_count": 9,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCztQQ--xORWtJCwHmaa_buA",
+      "external_id": "UCztQQ--xORWtJCwHmaa_buA",
+      "name": "Heal Thy Self",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCztQQ--xORWtJCwHmaa_buA",
+      "discovered_on": "2026-10-19",
+      "score": 73.74,
+      "metrics": {
+        "subscribers": 48400,
+        "total_views": 3075440,
+        "video_count": 1256,
+        "avg_views_per_video": 2448.6,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "WVul41ERpiY",
+            "title": "A Doctor on What Peptides, Botox, and GLP-1 Injections Really Do to Your Body.",
+            "description": "SOLARAY | Head to https://solaray.com/DRG and use code DRG for 30% off Solaray UNLIMIT. → TOUPS AND CO | Get 25% off ...",
+            "published_at": "2026-10-19T16:10:13Z",
+            "url": "https://www.youtube.com/watch?v=WVul41ERpiY"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "WVul41ERpiY",
+            "title": "A Doctor on What Peptides, Botox, and GLP-1 Injections Really Do to Your Body.",
+            "description": "SOLARAY | Head to https://solaray.com/DRG and use code DRG for 30% off Solaray UNLIMIT. → TOUPS AND CO | Get 25% off ...",
+            "published_at": "2026-10-19T16:10:13Z",
+            "url": "https://www.youtube.com/watch?v=WVul41ERpiY"
+          }
+        ],
+        "channel_description": "Heal Thy Self is a show based on empowerment. Empowerment of you, the viewer such that you can be your highest self on every level. Through knowledge we will be giving you the information you need to make informed decisions. We lead you to water, you deep dive in.",
+        "latest_video_at": "2026-10-19T16:10:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCMUSLVUIxXLqZ_dqV_FvMeg",
+      "external_id": "UCMUSLVUIxXLqZ_dqV_FvMeg",
+      "name": "Biohack-it",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCMUSLVUIxXLqZ_dqV_FvMeg",
+      "discovered_on": "2026-10-19",
+      "score": 68.77,
+      "metrics": {
+        "subscribers": 93000,
+        "total_views": 2126245,
+        "video_count": 852,
+        "avg_views_per_video": 2495.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "73YwgGmF8TY",
+            "title": "Too Many Peptides",
+            "description": "Hit that subscribe button for exclusive access to thought-provoking podcasts, self-growth tips, inspiring guidance, empowerment ...",
+            "published_at": "2026-10-19T16:45:09Z",
+            "url": "https://www.youtube.com/watch?v=73YwgGmF8TY"
+          }
+        ],
+        "channel_description": "Welcome to Biohack-it, the podcast that revolutionizes the way you approach your health and wellness. \n\nHosted by Iman Hasan, this show dives into biohacking, self-improvement, and holistic health, giving you the tools to live your best life. Each episode explores optimizing your mind, body, and spirit, from functional medicine to chronic disease prevention.\n\nBiohack-it challenges outdated wellness norms, offering real, lasting change. Episodes drop every Thursday at 12PM EST, providing practical advice for embracing health on your own terms.\n",
+        "latest_video_at": "2026-10-19T16:45:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UChw8okCo93q1Y37arH2Ym3g",
+      "external_id": "UChw8okCo93q1Y37arH2Ym3g",
+      "name": "David Fredrickson",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UChw8okCo93q1Y37arH2Ym3g",
+      "discovered_on": "2026-10-19",
+      "score": 68.39,
+      "metrics": {
+        "subscribers": 45500,
+        "total_views": 5085321,
+        "video_count": 890,
+        "avg_views_per_video": 5713.84,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "Jb1Qd7bm-2I",
+            "title": "I&#39;m Testing the Mitochondrial Peptide Everyone&#39;s Talking About (First Run on Mots-C as a T1D)",
+            "description": "Can MOTS-C improve mitochondrial health for a Type 1 diabetic? I am beginning a new series documenting my personal results ...",
+            "published_at": "2026-10-18T21:58:05Z",
+            "url": "https://www.youtube.com/watch?v=Jb1Qd7bm-2I"
+          }
+        ],
+        "channel_description": "Welcome! I’m David Fredrickson, and I help you make sense of the confusing science behind healthy aging, belly fat, and longevity. We dig deep into intermittent fasting, metabolism, creatine, and mitochondrial health to give you practical tools that actually work.\n\nWhether you need honest supplement reviews, tips to reverse insulin resistance, or strategies for hormone balance (including menopause and cortisol), this channel breaks it all down simply. Join our community of men and women over 40 getting stronger and healthier every day. Subscribe for weekly science-backed health tips!\n",
+        "latest_video_at": "2026-10-18T21:58:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCUkp3idZw92G5r_r4F6nJDw",
+      "external_id": "UCUkp3idZw92G5r_r4F6nJDw",
+      "name": "Eliana Jalali",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCUkp3idZw92G5r_r4F6nJDw",
+      "discovered_on": "2026-10-19",
+      "score": 66.56,
+      "metrics": {
+        "subscribers": 35300,
+        "total_views": 9201179,
+        "video_count": 2624,
+        "avg_views_per_video": 3506.55,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "zlb5w0ykzZQ",
+            "title": "I’m still drooling over this… my new favorite flavor of pout preserve lip peptide treatment! Scandi",
+            "description": "I'm still drooling over this… my new favorite flavor of pout preserve lip peptide treatment! Scandi Candy Olehenriksen ...",
+            "published_at": "2026-10-18T18:46:27Z",
+            "url": "https://www.youtube.com/watch?v=zlb5w0ykzZQ"
+          }
+        ],
+        "channel_description": "Eliana Jalali \nLos Angeles, CA.\n\nFor promotional and business collaborations, or for any personal questions you may have, you can reach me here: eljalbeauty@gmail.com\n\nBirthday: November 17, 1994",
+        "latest_video_at": "2026-10-18T18:46:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCRo_FJ3kClQoeLWaOqoVkbA",
+      "external_id": "UCRo_FJ3kClQoeLWaOqoVkbA",
+      "name": "Neural Edge Lab",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCRo_FJ3kClQoeLWaOqoVkbA",
+      "discovered_on": "2026-10-19",
+      "score": 66.02,
+      "metrics": {
+        "subscribers": 3180,
+        "total_views": 364082,
+        "video_count": 115,
+        "avg_views_per_video": 3165.93,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "WV0ajYKJXXw",
+            "title": "Dr. Abud Bakri: The Ultimate Healing Peptide| BPC-157",
+            "description": "bpc157 #peptides #biohacking #regenerativemedicine #drabubakri #health In this video, Dr. Abu Bakri breaks down the ...",
+            "published_at": "2026-10-19T13:14:09Z",
+            "url": "https://www.youtube.com/watch?v=WV0ajYKJXXw"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "WV0ajYKJXXw",
+            "title": "Dr. Abud Bakri: The Ultimate Healing Peptide| BPC-157",
+            "description": "bpc157 #peptides #biohacking #regenerativemedicine #drabubakri #health In this video, Dr. Abu Bakri breaks down the ...",
+            "published_at": "2026-10-19T13:14:09Z",
+            "url": "https://www.youtube.com/watch?v=WV0ajYKJXXw"
+          }
+        ],
+        "channel_description": "Neural Edge Lab is dedicated to translating cutting-edge neuroscience into practical tools for everyday life. This channel explores how brain systems influence focus, motivation, sleep, and emotional balance, offering science-backed strategies to improve cognitive performance and overall well-being. Each episode breaks down complex topics like neuroplasticity, dopamine regulation, and stress adaptation into clear, actionable insights you can apply immediately. Whether you're aiming to enhance productivity, sharpen your thinking, or build sustainable habits, Neural Edge Lab provides evidence-based guidance without unnecessary complexity. By combining research insights with real-world application, the channel empowers you to better understand your brain and unlock higher levels of mental clarity, resilience, and performance.",
+        "latest_video_at": "2026-10-19T13:14:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC1FsK30rDXtMwNMlzD1wfDQ",
+      "external_id": "UC1FsK30rDXtMwNMlzD1wfDQ",
+      "name": "logan shippy",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC1FsK30rDXtMwNMlzD1wfDQ",
+      "discovered_on": "2026-10-19",
+      "score": 64.2,
+      "metrics": {
+        "subscribers": 16100,
+        "total_views": 106944,
+        "video_count": 19,
+        "avg_views_per_video": 5628.63,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "7EJog3xuhN4",
+            "title": "Start a Peptide Business - RUO vs. Telemed",
+            "description": "Start a Peptide Business - RUO vs. Telemed You want to start a peptide business, but you're not sure which route to take. Option ...",
+            "published_at": "2026-10-18T16:36:21Z",
+            "url": "https://www.youtube.com/watch?v=7EJog3xuhN4"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-18T16:36:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCYMvm7nPYM5l4ibWDCsN9Og",
+      "external_id": "UCYMvm7nPYM5l4ibWDCsN9Og",
+      "name": "Krishna Ayurveda",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCYMvm7nPYM5l4ibWDCsN9Og",
+      "discovered_on": "2026-10-19",
+      "score": 63.6,
+      "metrics": {
+        "subscribers": 8240,
+        "total_views": 2242635,
+        "video_count": 326,
+        "avg_views_per_video": 6879.25,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "TTuXu23oIyw",
+            "title": "ഇൻസുലിൻ എടുത്തിട്ടും ഷുഗർ കുറയുന്നില്ലേ | അമിതവണ്ണവും പ്രമേഹവും | Diabetes Ayurveda Treatment",
+            "description": "ഇൻസുലിൻ എടുത്തിട്ടും ഷുഗർ കുറയുന്നില്ലേ | അമിതവണ്ണവും പ്രമേഹവും ...",
+            "published_at": "2026-10-19T16:00:38Z",
+            "url": "https://www.youtube.com/watch?v=TTuXu23oIyw"
+          }
+        ],
+        "channel_description": "This is the official YouTube channel of Krishna Ayurveda Eye Care & Panchakarma Center.\n\nKrishna Ayurveda specializes in ayurvedic management for Diabetic retinopathy, Retinitis pigmentosa, Glaucoma, High myopic degeneration, Macular degeneration, Optic neuropathy, Keratoconus various other eye diseases.\nThe hospital is situated in Vaikom, Kerala (India). \n",
+        "latest_video_at": "2026-10-19T16:00:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCGFLm__ydCmA8egRyOh7YkQ",
+      "external_id": "UCGFLm__ydCmA8egRyOh7YkQ",
+      "name": "Pira Insight",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCGFLm__ydCmA8egRyOh7YkQ",
+      "discovered_on": "2026-10-19",
+      "score": 62.52,
+      "metrics": {
+        "subscribers": 8220,
+        "total_views": 1490697,
+        "video_count": 355,
+        "avg_views_per_video": 4199.15,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "01p0GrVTJ5A",
+            "title": "சருமத்தை புதுப்பிக்கும் ரகசியம்! 🔬 Cellular Skin Repair: BPC-157, Copper &amp; Collagen Explained",
+            "description": "இளமையான சருமம் மற்றும் திசுக்கள் மீண்டும் புதுப்பிக்கப்படுவதன் ...",
+            "published_at": "2026-10-19T11:15:19Z",
+            "url": "https://www.youtube.com/watch?v=01p0GrVTJ5A"
+          }
+        ],
+        "channel_description": "\n🌍 PiraInsight-இல் உங்களை வரவேற்கிறோம் – அறிவுடன் உலகத்தை உணருங்கள்!\n\n- Only Informative\n\n",
+        "latest_video_at": "2026-10-19T11:15:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCg0hR4uyFtVNhBRHvD8LrtA",
+      "external_id": "UCg0hR4uyFtVNhBRHvD8LrtA",
+      "name": "Wits & Weights | Build Muscle & Lose Fat Over 40",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCg0hR4uyFtVNhBRHvD8LrtA",
+      "discovered_on": "2026-10-19",
+      "score": 53.59,
+      "metrics": {
+        "subscribers": 2910,
+        "total_views": 404632,
+        "video_count": 1384,
+        "avg_views_per_video": 292.36,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "mtAxcl0alsM",
+            "title": "Are Peptides Like BPC-157 Worth It If You&#39;re Lifting Weights?",
+            "description": "Is BPC-157 worth injecting for tendon pain if you're lifting weights? You've seen the headlines about an FDA panel voting for ...",
+            "published_at": "2026-10-19T08:29:53Z",
+            "url": "https://www.youtube.com/watch?v=mtAxcl0alsM"
+          }
+        ],
+        "channel_description": "Strength training and fat loss for men and women over 40 is the foundation of this show. In every episode I put a popular piece of fitness advice under the microscope, find the hidden reason it doesn't work, and give you the deceptively simple fix that does.\n\nIf you've been lifting weights, tracking macros, and doing \"all the right things\" but your body composition hasn't changed, you're probably overcomplicating it. Learn how to build muscle, lose fat, and achieve real body recomposition by focusing only on what the evidence actually supports.\n\nEvidence-based coach Philip Pape brings an engineer's approach to strength training, nutrition, and metabolism. Instead of another generic program or meal plan, you get specific, science-based strategies for body recomposition for building muscle, losing fat, or both. The focus is on strength training over 40, body recomposition for women over 40, perimenopause and menopause fitness, metabolism recovery, hormone health, and longevity.",
+        "latest_video_at": "2026-10-19T08:29:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCTuAQ_8XKcD9RX1Ylg8R64A",
       "external_id": "UCTuAQ_8XKcD9RX1Ylg8R64A",
