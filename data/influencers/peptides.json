@@ -2,19 +2,334 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-19T17:01:53Z",
-  "new_this_run": 9,
-  "total_influencers": 491,
+  "updated_at": "2026-10-20T15:12:12Z",
+  "new_this_run": 7,
+  "total_influencers": 498,
   "run_summary": {
-    "run_started_at": "2026-10-19T17:01:35Z",
-    "candidate_count": 18,
-    "existing_count": 482,
-    "selected_new_count": 9,
+    "run_started_at": "2026-10-20T15:11:53Z",
+    "candidate_count": 16,
+    "existing_count": 491,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCu6uS2MA3Fs1r3KVCuEaRKA",
+      "external_id": "UCu6uS2MA3Fs1r3KVCuEaRKA",
+      "name": "Exactly Right Media",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCu6uS2MA3Fs1r3KVCuEaRKA",
+      "discovered_on": "2026-10-20",
+      "score": 72.99,
+      "metrics": {
+        "subscribers": 95800,
+        "total_views": 13087978,
+        "video_count": 782,
+        "avg_views_per_video": 16736.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "6Kel_LjTYSI",
+            "title": "What Your Peptides Dealer Doesn&#39;t Want You to Know",
+            "description": "Looking to get swole (do people still say that)? Want to rewind the clock and smooth those bothersome wrinkles? Trying to lose ...",
+            "published_at": "2026-10-20T10:00:24Z",
+            "url": "https://www.youtube.com/watch?v=6Kel_LjTYSI"
+          }
+        ],
+        "channel_description": "Exactly Right makes podcasts for fans of true crime, comedy and pop culture. Created by Karen Kilgariff and Georgia Hardstark, hosts of the hit podcast My Favorite Murder.\n\n\n",
+        "latest_video_at": "2026-10-20T10:00:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCax0czpRdC1Ufxu0XPvA-KA",
+      "external_id": "UCax0czpRdC1Ufxu0XPvA-KA",
+      "name": "Tonton Jean / ex All Musculation",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCax0czpRdC1Ufxu0XPvA-KA",
+      "discovered_on": "2026-10-20",
+      "score": 66.19,
+      "metrics": {
+        "subscribers": 25300,
+        "total_views": 3684427,
+        "video_count": 780,
+        "avg_views_per_video": 4723.62,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "n8Zb6KFTE54",
+            "title": "Des influenceurs s&#39;injectent ça pour réparer leurs tendons : le BPC-157",
+            "description": "Le BPC-157, c'est le nouveau « remède miracle » des tendons sur les réseaux. Des gens s'injectent un peptide acheté en ligne, ...",
+            "published_at": "2026-10-20T10:00:41Z",
+            "url": "https://www.youtube.com/watch?v=n8Zb6KFTE54"
+          }
+        ],
+        "channel_description": "Nouvelle chaine de Tonton Jean 🙂 (Jean de All Musculation) \nAprès près de 20 ans sur All-musculation maintenant tout ce fait ici 💪 Musculation, nutrition, compléments alimentaires, entraînements sportif et programmes de musculation pour la prise de masse ou la sèche, vous trouvez tous mes conseils ici  🔥 Mais aussi des vlogs, la création de ma nouvelle société ( AqeeLab) et d’autres sujets plus personnels et différents de la musculation. Je ne vais pas republier les anciennes vidéos entrainement ou diététiques qui étaient sur All-musculation, mais je vais en créer plein de nouvelles ici 👍\n",
+        "latest_video_at": "2026-10-20T10:00:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCqAaKCBDH3D5ayqFFCHVTGQ",
+      "external_id": "UCqAaKCBDH3D5ayqFFCHVTGQ",
+      "name": "Dr. Ahmed Elshafei د أحمد الشافعي",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCqAaKCBDH3D5ayqFFCHVTGQ",
+      "discovered_on": "2026-10-20",
+      "score": 65.53,
+      "metrics": {
+        "subscribers": 22300,
+        "total_views": 1425424,
+        "video_count": 344,
+        "avg_views_per_video": 4143.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "XyyvfoyftiU",
+            "title": "سمعت كلمة peptides كتير الفترة دي؟ 🤔",
+            "description": "في الفيديو ده هتعرف: ▪️ يعني إيه peptide ▪️ لو عدد الـ amino acids أقل من 50 يبقى peptide ▪️ إيه استخدام الـ peptides في ...",
+            "published_at": "2026-10-19T19:00:13Z",
+            "url": "https://www.youtube.com/watch?v=XyyvfoyftiU"
+          }
+        ],
+        "channel_description": "د. أحمد الشافعي\nدكتوراة العلوم الصيدلية (الكيمياء الحيوية و التغذية الطبية ) كلية الصيدلة جامعة الأزهر\nماجيستير ادارة الأعمال - الأكاديمية العربية للعلوم و التكنولوجيا و النقل البحري\nدبلوم استراتيجيات ادارة الجامعات و التصنيف الدولي - Knowledge E\nمستشار التدريب و تطوير ممارسة الصيدلة المجتمعية\nاستشاري التحاليل و الطبية و التغذية العلاجية\n\nالقناة تقدم محتوى طبي و علمي متنوع مابين الأمراض و الأدوية و التحاليل الطبية و التغذية الصحيحة و أيضا كواليس التصنيف الدولي للجامعات و النشر العلمي.\n\nالمحتوى قائم على التوثيق العلمي بأحدث المراجع و أقوى الأدلة العلمية",
+        "latest_video_at": "2026-10-19T19:00:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCCo6iVFEmLngm66HD3iy7GA",
+      "external_id": "UCCo6iVFEmLngm66HD3iy7GA",
+      "name": "My Active Age - Longevity",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCCo6iVFEmLngm66HD3iy7GA",
+      "discovered_on": "2026-10-20",
+      "score": 59.26,
+      "metrics": {
+        "subscribers": 4220,
+        "total_views": 652977,
+        "video_count": 275,
+        "avg_views_per_video": 2374.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "bZpDuS4pO-I",
+            "title": "De populairste peptide, en niemand weet hoe",
+            "description": "Hoe kan dit? BPC-157 is waarschijnlijk de populairste peptide en levert de meeste vragen op. Toch is niet bekend hoe het precies ...",
+            "published_at": "2026-10-20T14:02:40Z",
+            "url": "https://www.youtube.com/watch?v=bZpDuS4pO-I"
+          }
+        ],
+        "channel_description": "Wij geloven dat zorg niet hoeft te wachten tot er iets misgaat. Dit kanaal draait om gezondheid, data en de kunst van langer goed blijven. \n\nSamen met internisten en experts laten we zien wat je lichaam nú al vertelt, van bloed en hartfunctie tot slaap en herstel, en vertalen we dat naar duidelijke keuzes die je vandaag kunt toepassen.\n\nJe krijgt: uitleg over biomarkers, gesprekken met artsen, cases van high performers en praktische stappen naar een persoonlijk actieplan.\n\nOnze missie is helder: de manier waarop we naar gezondheid kijken veranderen. Preventie eerst, rust door inzicht, regie bij jou.\n\nMy Active Age biedt medische onderzoeken, consulten met internisten & opvolging.\n\nAbonneer je als je risico’s vóór wilt zijn, prestaties wilt verhogen en met vertrouwen wilt bouwen aan een langer, beter leven. De toekomst van gezondheid begint vandaag.\n",
+        "latest_video_at": "2026-10-20T14:02:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC6yBaeHjAbrtZ3VQrqoWOSw",
+      "external_id": "UC6yBaeHjAbrtZ3VQrqoWOSw",
+      "name": "Just Joshin’",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC6yBaeHjAbrtZ3VQrqoWOSw",
+      "discovered_on": "2026-10-20",
+      "score": 58.87,
+      "metrics": {
+        "subscribers": 2560,
+        "total_views": 308004,
+        "video_count": 77,
+        "avg_views_per_video": 4000.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "LEFZbZWN32E",
+            "title": "EVERYONE’S WATCHING THE WEIGHT LOSS. I’M ALSO WATCHING THE PRESCRIPTION PAD. 🧬📈",
+            "description": "Peptides mimic hormones involved in appetite, fullness, and blood sugar. Here's the difference: Semaglutide: GLP-1 ...",
+            "published_at": "2026-10-20T00:19:41Z",
+            "url": "https://www.youtube.com/watch?v=LEFZbZWN32E"
+          }
+        ],
+        "channel_description": "Welcome to Just Joshin’—where money, mindset, marketing, politics, conspiracies, real food and adventure collide. 🎙️💰🥩\n\nI’m Josh: marketer, real-estate investor, world traveler and professional question-asker. This channel explores financial freedom, economics, business, political shifts, cultural trends, health, hidden agendas, conspiracy theories and the stories shaping our future.\n\nBuy Me a Coffee: https://buymeacoffee.com/joshvj\n\n\nExpect honest reactions, controversial conversations, practical money lessons, unconventional ideas, unforgettable trips, great steaks and plenty of well-natured shenanigans.\n\nSome theories will hold up. Others will completely fall apart. Either way, we’ll question the narrative, examine the evidence and have some fun doing it.\n\nThe goal is simple: build more freedom, think independently and enjoy the ride while we’re here.\n\nI may be Just Joshin’—but the conversations are real.\n\nSubscribe and join the journey. 🤘\n\n📸 Instagram: @jbperrault\n\n\n\n",
+        "latest_video_at": "2026-10-20T00:19:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCM-YfNXFy25y3Uf0OC3W4fw",
+      "external_id": "UCM-YfNXFy25y3Uf0OC3W4fw",
+      "name": "Life Enthusiast",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCM-YfNXFy25y3Uf0OC3W4fw",
+      "discovered_on": "2026-10-20",
+      "score": 58.49,
+      "metrics": {
+        "subscribers": 12200,
+        "total_views": 1612460,
+        "video_count": 4284,
+        "avg_views_per_video": 376.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "TI-0S9l5WFk",
+            "title": "BPC-157: The Stomach Peptide for Gut &amp; Healing #shorts",
+            "description": "Discover BPC-157, the powerful peptide from gastric juice. It aids gut health, wound healing, and recovery for tendons, joints, and ...",
+            "published_at": "2026-10-20T07:56:16Z",
+            "url": "https://www.youtube.com/watch?v=TI-0S9l5WFk"
+          }
+        ],
+        "channel_description": "Life Enthusiast, Health Coach - helping you find Natural Healing Solutions to chronic degenerative inflammatory disease, including arthritis, diabetes, obesity, heart disease, fibromyalgia, rheumatoid arthritis, allergies, and more.",
+        "latest_video_at": "2026-10-20T07:56:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC4Tbb024wIyhBxm2aU8mx9w",
+      "external_id": "UC4Tbb024wIyhBxm2aU8mx9w",
+      "name": "Recrea Health & Wellness",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC4Tbb024wIyhBxm2aU8mx9w",
+      "discovered_on": "2026-10-20",
+      "score": 55.79,
+      "metrics": {
+        "subscribers": 3650,
+        "total_views": 167733,
+        "video_count": 285,
+        "avg_views_per_video": 588.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "YSW1j597T7Y",
+            "title": "How to Draw 25 Units of Peptides or GLP! This is a simple video to show how to use a needle &amp; vial.",
+            "description": "Confused about measuring your dose? Here is the easiest, step-by-step way to draw exactly 25 units from your vial with zero air ...",
+            "published_at": "2026-10-19T19:32:08Z",
+            "url": "https://www.youtube.com/watch?v=YSW1j597T7Y"
+          }
+        ],
+        "channel_description": "Recrea Health and Wellness is a clinic in Medina; Ohio ran by a nurse practitioner. We are able to cover all 50 states with GLPs. That is not what is important. We want to educate, teach and protect people that are on GLPs. It is scary to know and see people that are purchasing GLPs from Ai and online that are never speaking with a person. Angela our lead NP started on a GLP about 4 and half years ago and changed her life forever. She has treated 1000s of people and helped them find a new lifestyle. We don't mind if you are purchasing medications from other sources, we just want you to be safe. We want to help you achieve your goals and prevent side effects. #glp1 #weightloss #nurse #education #lifestyle #goals #sideeffects #youtube #tiktok #healthylifestyle #wellness #ai #online \n",
+        "latest_video_at": "2026-10-19T19:32:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCztQQ--xORWtJCwHmaa_buA",
       "external_id": "UCztQQ--xORWtJCwHmaa_buA",

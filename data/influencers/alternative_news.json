@@ -2,19 +2,634 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-10-19T17:01:44Z",
-  "new_this_run": 7,
-  "total_influencers": 893,
+  "updated_at": "2026-10-20T15:12:02Z",
+  "new_this_run": 14,
+  "total_influencers": 907,
   "run_summary": {
-    "run_started_at": "2026-10-19T17:01:35Z",
-    "candidate_count": 23,
-    "existing_count": 886,
-    "selected_new_count": 7,
+    "run_started_at": "2026-10-20T15:11:53Z",
+    "candidate_count": 24,
+    "existing_count": 893,
+    "selected_new_count": 14,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC_0tdZvkgrNx8ZKrmK4QBLw",
+      "external_id": "UC_0tdZvkgrNx8ZKrmK4QBLw",
+      "name": "LIBERTI MEDIA",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC_0tdZvkgrNx8ZKrmK4QBLw",
+      "discovered_on": "2026-10-20",
+      "score": 73.38,
+      "metrics": {
+        "subscribers": 52000,
+        "total_views": 7812666,
+        "video_count": 659,
+        "avg_views_per_video": 11855.34,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "9CYYo-DZjB4",
+            "title": "#savegnago &amp; #frabetti: &quot;ALGORITMI E VOCI SCOMODE: PUBBLICARE NON BASTA PER FARSI SENTIRE&quot; #shorts",
+            "description": "Dalla pandemia sono nate nuove voci e realtà dell'informazione indipendente. Ma quanto possono crescere se la loro visibilità ...",
+            "published_at": "2026-10-20T10:00:23Z",
+            "url": "https://www.youtube.com/watch?v=9CYYo-DZjB4"
+          },
+          {
+            "query": "alternative media",
+            "video_id": "rb5lHnoP4CI",
+            "title": "IL CORAGGIO DI ESSERE LIBERI: OSTACOLI E SOLUZIONI PER L’INFORMAZIONE ALTERNATIVA IN ITALIA",
+            "description": "Quanto spazio resta per l'informazione libera e indipendente in Italia? Tra pressioni politiche ed economiche, autocensura e ...",
+            "published_at": "2026-10-19T17:40:08Z",
+            "url": "https://www.youtube.com/watch?v=rb5lHnoP4CI"
+          }
+        ],
+        "channel_description": "Liberti Media nasce dalla convinzione che la libertà di informazione sia una conquista quotidiana, oggi più che mai esposta a narrazioni semplificate e al rischio della censura. In un periodo in cui il pensiero unico sembra voler plasmare e controllare l’opinione pubblica, la nostra missione è difendere con coraggio il pluralismo e coltivare con rigore la coscienza critica, senza mai abbracciare facili dogmi né piegarsi a interessi di potere. Liberti Media è un luogo dove le opinioni non vengono “addomesticate”, ma messe a confronto. Dove l’analisi supera la propaganda e la curiosità prevale sulla paura. Dove la realtà si mostra senza maschere. Seguici su  WWW.LIBERTIMEDIA.COM",
+        "latest_video_at": "2026-10-20T10:00:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC2XBFDlONPkfcrVmKjPkJRA",
+      "external_id": "UC2XBFDlONPkfcrVmKjPkJRA",
+      "name": "SBS中文",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC2XBFDlONPkfcrVmKjPkJRA",
+      "discovered_on": "2026-10-20",
+      "score": 71.63,
+      "metrics": {
+        "subscribers": 66600,
+        "total_views": 30904236,
+        "video_count": 20732,
+        "avg_views_per_video": 1490.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://x.com/sbschinese",
+        "instagram": "https://www.instagram.com/stories"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "dNY6ing8HhI",
+            "title": "澳洲独立议员遭汽车冲撞袭击重伤失去一条腿　反恐小组介入调查｜SBS中文",
+            "description": "澳洲独立联邦议员Helen Haines于10月19日在维州东北部Wangaratta的选区办公室外遭一辆汽车两次撞击，伤势严重，澳洲广播 ...",
+            "published_at": "2026-10-20T08:00:14Z",
+            "url": "https://www.youtube.com/watch?v=dNY6ing8HhI"
+          }
+        ],
+        "channel_description": "SBS中文是澳大利亚中文受众的可靠新闻来源，提供独立的新闻及资讯，并讲述您的故事。\nSBS中文是澳洲中文社群可信賴的新聞來源，提供獨立的新聞及資訊，並訴說您的故事。\nSBS中文 is a trusted source of independent news and information for Chinese-speaking Australians.\n\nSBS 是为所有澳大利亚人服务的全国性多种语言、多元文化及原住民媒体服务机构。自1975年成立以来，已发展成为一个现代化、多平台和多语言服务的媒体组织，拥有多个富有特色的免费电视频道，包括SBS、国家原住民电视台（NITV）、SBS2、SBS Food和SBS World Movies。SBS广播、音频和语言内容平台为60多个不同文化和语言的社区提供首选语言服务。SBS还提供创新的数字服务，包括流媒体平台SBS On Demand，让观众可以随时随地收看丰富的节目内容。\n\n请在X关注我们：\nhttps://x.com/sbschinese\nhttps://x.com/sbscantonese\n\n请在Instagram关注我们：\nhttps://www.instagram.com/stories/sbs_cantonese/ \r\nhttps://www.instagram.com/sbschinese/\n\n使用规则\n我们很高兴您在这里发表评论、分享照片和视频。 \n但是，请始终尊重他人，否则我们可能会删除您的评论。\nSBS保留权力删除垃圾邮件、转帖、重复评论以及试图扰乱或破坏本社区其他成员的对话。\n虽然我们欢迎对 Youtube页面的贡献，但我们并非完全认可所有出现的内容。\n所贡献的内容应遵守SBS 网络条款规定及隐私政策。以下链接中有清晰说明。\n网络条款和条件：\nsbs.com.au/terms\n隐私政策：\nsbs.com.au/privacy\n\n反馈或投诉sbs.com.au/complaints\n\r\n",
+        "latest_video_at": "2026-10-20T08:00:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDg6HmMq0ZetIErox4bLofQ",
+      "external_id": "UCDg6HmMq0ZetIErox4bLofQ",
+      "name": "Dr. Biswaroop Roy Chowdhury",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDg6HmMq0ZetIErox4bLofQ",
+      "discovered_on": "2026-10-20",
+      "score": 70.49,
+      "metrics": {
+        "subscribers": 93300,
+        "total_views": 2975435,
+        "video_count": 541,
+        "avg_views_per_video": 5499.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "bNLFBXdEqAE",
+            "title": "Fibroscan: Dr. BRC Ko Kyun Kiya Censor Zee News Ne? 📺 | Medical Media Expose | Dr. BRC",
+            "description": "FIBROSCAN: DR. BRC KO KYUN KIYA CENSOR ZEE NEWS NE? MEDICAL MEDIA EXPOSE BY DR. BRC! Kya ...",
+            "published_at": "2026-10-20T12:00:21Z",
+            "url": "https://www.youtube.com/watch?v=bNLFBXdEqAE"
+          }
+        ],
+        "channel_description": "Dr. Biswaroop Roy Chowdhury, honored by UNESCO for promoting cultural heritage, is best known for developing the D.I.P. Diet—a mathematical, nutrition-based model clinically validated for managing lifestyle-related conditions such as diabetes, hypertension, obesity, bone disorders, and chronic kidney disease.\n\nClinical trials documenting These outcomes were conducted in India (Ministry of AYUSH), Nepal (National Health Ministry), and Malaysia (Lincoln University).\n\nHe received the 2024 Innovation Award from WASME and the Ethiopian Embassy for the GRAD System, a gravity- and heat-based invention for treating kidney diseases.\n\nA Guinness World Records holder (2008 edition) for memory, he holds a bachelor’s degree in engineering, postgraduate qualifications in diabetes, and an honorary PhD in diabetes and chronic kidney disease.\n\nAuthor of 42 books, Dr. Biswaroop leads Dr. BRC Clinics & Hospitals, with over 1,000 Dr. BRC Clinic@home centers and the Dr. BRC Medical Academy.\n",
+        "latest_video_at": "2026-10-20T12:00:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTybpirU4sR-ia6u5FoWYGQ",
+      "external_id": "UCTybpirU4sR-ia6u5FoWYGQ",
+      "name": "ADN Cuba",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCTybpirU4sR-ia6u5FoWYGQ",
+      "discovered_on": "2026-10-20",
+      "score": 69.73,
+      "metrics": {
+        "subscribers": 100000,
+        "total_views": 18276336,
+        "video_count": 5191,
+        "avg_views_per_video": 3520.77,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "79k_ZuEQeXI",
+            "title": "Solicitan a la CIDH medidas cautelares para el periodista Henry Constantin",
+            "description": "El Centro de Defensa de los Derechos Humanos (Defensa CD) solicitó a la Comisión Interamericana de Derechos Humanos ...",
+            "published_at": "2026-10-19T18:53:18Z",
+            "url": "https://www.youtube.com/watch?v=79k_ZuEQeXI"
+          }
+        ],
+        "channel_description": "ADN Cuba es un medio de periodismo independiente dedicado a informar, investigar y explicar la realidad de Cuba con datos, contexto y análisis.\n\nPublicamos noticias, investigaciones, entrevistas y reportajes sobre política, economía, derechos humanos, sociedad y las relaciones de Cuba con el mundo. Nuestro trabajo combina periodismo de investigación, documentos, fuentes primarias y análisis para ayudar a comprender los temas que marcan la actualidad.\n\nCreemos que ser cubano trasciende las fronteras. Por eso contamos historias que conectan a quienes viven en la isla y a quienes forman parte del exilio, ofreciendo un espacio para entender los acontecimientos que afectan a Cuba y a los cubanos dondequiera que estén.\n\nSuscríbete y activa las notificaciones para recibir cada semana nuestras investigaciones, análisis y coberturas especiales.\n\nADN Cuba. Periodismo independiente. Información con datos.\n",
+        "latest_video_at": "2026-10-19T18:53:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZNMw1_4KhYWhHIdvQPFCeA",
+      "external_id": "UCZNMw1_4KhYWhHIdvQPFCeA",
+      "name": "잼통지킴이",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCZNMw1_4KhYWhHIdvQPFCeA",
+      "discovered_on": "2026-10-20",
+      "score": 69.6,
+      "metrics": {
+        "subscribers": 25700,
+        "total_views": 31576134,
+        "video_count": 897,
+        "avg_views_per_video": 35201.93,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "7xY43rekX7I",
+            "title": "대통령 겸공이나 매불쇼 대안매체라 생각안해",
+            "description": "유시민 #정치쇼츠 #민주당 #기득권비판 #매불쇼 #팀김어준.",
+            "published_at": "2026-10-19T12:56:22Z",
+            "url": "https://www.youtube.com/watch?v=7xY43rekX7I"
+          }
+        ],
+        "channel_description": "★대통령님께 보내는 응원메시지 사이트 ☞https://bluecheernote.com/\n\n기필코 성공하는 정부를 만듭시다\n\n안녕하세요 잼통지킴이입니다\n\n노무현 대통령을 지켜드리지 못했던 그날의 가슴 아픈 기억과 부채감을 잊지 않았습니다. 같은 실수를 반복하지 않기 위해 활동을 시작해봅니다.\n\n'잼통 지킴이'는 이재명 대통령이 걷는 정의로운 길에 가장 든든한 방패가 되고자 합니다. 시민의 한 사람으로서, 그가 오직 국민만을 바라보고 나아갈 수 있도록 최선을 다해 지켜드릴 것입니다.\n\n또한, 우리 정치의 발전을 가로막는 낡은 기득권 세력과 팀김어준을 포함하여 개혁을 저해하는 모든 구태 정치 세력의 몰락을 위해 미약하나마 힘을 보태겠습니다. 시민이 주인 되는 세상, 국민이 염원하는 정부의 성공을 위해 최선을 다하겠습니다.\n\n함께해주시는 모든 '지킴이' 여러분, 이재명 대통령과 함께 끝까지 해주세요!\n\n이메일:vega197555@gmail.com\n",
+        "latest_video_at": "2026-10-19T12:56:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCb7mK-3blujCXZCEVjnYlnw",
+      "external_id": "UCb7mK-3blujCXZCEVjnYlnw",
+      "name": "Miski Liu Suria",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCb7mK-3blujCXZCEVjnYlnw",
+      "discovered_on": "2026-10-20",
+      "score": 69.46,
+      "metrics": {
+        "subscribers": 78500,
+        "total_views": 29178126,
+        "video_count": 4221,
+        "avg_views_per_video": 6912.61,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "dqg15_VCKpA",
+            "title": "Incredible Week",
+            "description": "It is happening • People sense Truth • No one is above Law • This is the awakening • The storm has arrived • The great revelation ...",
+            "published_at": "2026-10-19T02:43:22Z",
+            "url": "https://www.youtube.com/watch?v=dqg15_VCKpA"
+          }
+        ],
+        "channel_description": "Periodismo Alternativo y de Misterio.\nAlternative and Mystery Journalism.\n\n\n\n\n",
+        "latest_video_at": "2026-10-19T02:43:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCiUaXBtf1X1AbU821GDKTvQ",
+      "external_id": "UCiUaXBtf1X1AbU821GDKTvQ",
+      "name": "Nayne ナイン",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCiUaXBtf1X1AbU821GDKTvQ",
+      "discovered_on": "2026-10-20",
+      "score": 68.97,
+      "metrics": {
+        "subscribers": 15200,
+        "total_views": 13215083,
+        "video_count": 3822,
+        "avg_views_per_video": 3457.64,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/channel/UCKlh4sbfIPswpBp7_cNq6ow"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "ULjEWoW_Aeo",
+            "title": "【NEWS】BF6シーズン5コンテンツが生成AI使用疑惑で炎上中◆CoD:MW4日本語版にて表現規制が発覚し物議◆BF6新マップ2枚への個人的な見解【2026.10.11】",
+            "description": "2026.10.11～2026.10.17の厳選ニュースと視聴兵の声を今週もお届け! #Battlefield6#BF6#バトルフィールド6 0:00 オープニング ...",
+            "published_at": "2026-10-20T14:05:27Z",
+            "url": "https://www.youtube.com/watch?v=ULjEWoW_Aeo"
+          }
+        ],
+        "channel_description": "どうもはじめましてNayneと申します\n以前はNineと名乗っていたので、過去の動画内ではNineという名前を使っている事があります\n\nこのチャンネルではPCゲームや家庭用ゲームを中心に実況動画をアップしております\nジャンルはFPSやTPSを中心に苦手な2D横スクロールアクションゲームにも挑戦していきます\n視聴兵の方々に楽しいゲームプレイをお届けできたら嬉しいです\n\nまた個人的にオススメな作品紹介動画や検証動画の類もアップしております\n\n面白そうなゲームがあればぜひコメント欄にコメントください\n\n↓サブチャンネル\nhttps://www.youtube.com/channel/UCKlh4sbfIPswpBp7_cNq6ow\n\nぜひサブチャンネルと併せての登録の方をよろしくお願いします !!",
+        "latest_video_at": "2026-10-20T14:05:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCfEflJTjF2hq0IbfkSWGRkg",
+      "external_id": "UCfEflJTjF2hq0IbfkSWGRkg",
+      "name": "Castanet News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCfEflJTjF2hq0IbfkSWGRkg",
+      "discovered_on": "2026-10-20",
+      "score": 67.66,
+      "metrics": {
+        "subscribers": 48100,
+        "total_views": 91048105,
+        "video_count": 24088,
+        "avg_views_per_video": 3779.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "O_ty_TciFQc",
+            "title": "Meet Thaelo Proctor - Independent Kamloops Centre candidate",
+            "description": "Every morning starting Oct. 19, Castanet will be posting a Q&A for each hopeful running in one of two Kamloops ridings this snap ...",
+            "published_at": "2026-10-20T11:00:03Z",
+            "url": "https://www.youtube.com/watch?v=O_ty_TciFQc"
+          }
+        ],
+        "channel_description": "Broadcasting & Media Production Company in British Columbia. Castanet.net provides online news media coverage for the Thompson Okanagan. We offer up-to-date local, national & global news, classifieds, entertainment & events, weather, sports and much more.",
+        "latest_video_at": "2026-10-20T11:00:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCaqaI2Q-3QGtDz78gg3ZxZQ",
+      "external_id": "UCaqaI2Q-3QGtDz78gg3ZxZQ",
+      "name": "SeriousTuber",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCaqaI2Q-3QGtDz78gg3ZxZQ",
+      "discovered_on": "2026-10-20",
+      "score": 59.75,
+      "metrics": {
+        "subscribers": 5690,
+        "total_views": 2399688,
+        "video_count": 1223,
+        "avg_views_per_video": 1962.13,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "VjJhGE8dCsI",
+            "title": "Countries that enforces Global Censorship 2025 (often Social Media ban for kids) in 2026 🔞",
+            "description": "Since Australia announced social media ban for under 16s, many governments across the globe considers to ban internet ...",
+            "published_at": "2026-10-20T11:57:38Z",
+            "url": "https://www.youtube.com/watch?v=VjJhGE8dCsI"
+          }
+        ],
+        "channel_description": "Children are so cute\n\n\n\n5 YEARS OF SERIOUSTUBER ANNIVERSARY ON YOUTUBE!🎉\n5 ANI ANIVERSAR DE SERIOUSTUBER PE YOUTUBE!🎉\n\n⚠️I GOT 1 STRIKE!⚠️\n⚠️AM PRIMIT UN STRIKE!⚠️\n\n🇷🇴 A Serious Sam, Terrible Mouse and GTA fan 🇷🇴\n\nHello, Welcome to this channel, I make videos like Terrible Mouse, Serious Sam, CapCut Edit, Gameplay, Parody and more!\n\nLike and Subscribe to my channel and enjoy my content, Have fun!\n\n© 2018-2026 SeriousTuber. All Rights Reserved.\n\nI was born in Romania and I live in UK 🇷🇴🇬🇧\nMy Religion is Orthodox Christian ☦\n\nDo not steal my videos without my permission or credit\n\n⚠️WARNING⚠️: Some of my videos contains blood/gore, strong languages, suggestive stuff, loud volume and more\n",
+        "latest_video_at": "2026-10-20T11:57:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0tLy11ItjvBkFXVo1CYOrw",
+      "external_id": "UC0tLy11ItjvBkFXVo1CYOrw",
+      "name": "Dacca Institute of Research and Analytics - daira",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0tLy11ItjvBkFXVo1CYOrw",
+      "discovered_on": "2026-10-20",
+      "score": 56.36,
+      "metrics": {
+        "subscribers": 3170,
+        "total_views": 204759,
+        "video_count": 219,
+        "avg_views_per_video": 934.97,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "tAKOimee2IE",
+            "title": "Global Stability And The Role Of Independent Journalism | Suhasini Haidar | BDC 2026",
+            "description": "Ms. Suhasini Haidar, Diplomatic Editor at The Hindu, reflects on the challenges to global stability, from geopolitical conflicts and ...",
+            "published_at": "2026-10-20T13:30:38Z",
+            "url": "https://www.youtube.com/watch?v=tAKOimee2IE"
+          }
+        ],
+        "channel_description": "Non-profit organization",
+        "latest_video_at": "2026-10-20T13:30:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCMtAHdckE5LkwkSuKIhDhxQ",
+      "external_id": "UCMtAHdckE5LkwkSuKIhDhxQ",
+      "name": "BeetTV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCMtAHdckE5LkwkSuKIhDhxQ",
+      "discovered_on": "2026-10-20",
+      "score": 54.82,
+      "metrics": {
+        "subscribers": 5670,
+        "total_views": 3602373,
+        "video_count": 11196,
+        "avg_views_per_video": 321.76,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "SMt8FW1pWio",
+            "title": "‘Spray And Pray’ Ad Campaigns Need Less Spiritual Alternative: PurePlay AI’s Eric Steigelfest",
+            "description": "Advertising has acquired a generous supply of agentic AI. Eric Steigelfest would like to see real results. The co-founder and chief ...",
+            "published_at": "2026-10-19T12:53:58Z",
+            "url": "https://www.youtube.com/watch?v=SMt8FW1pWio"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-19T12:53:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCzRL8WbaM0hkdEhR2FTg-Zw",
+      "external_id": "UCzRL8WbaM0hkdEhR2FTg-Zw",
+      "name": "24h Celebrity News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCzRL8WbaM0hkdEhR2FTg-Zw",
+      "discovered_on": "2026-10-20",
+      "score": 53.02,
+      "metrics": {
+        "subscribers": 3090,
+        "total_views": 2684582,
+        "video_count": 12965,
+        "avg_views_per_video": 207.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "Oqr-eA5TyTI",
+            "title": "James Bond Fans Outraged as ITV Cuts Iconic Strangling Scene, Sparking Censorship Backlash",
+            "description": "Welcome to our channel covering the latest UK celebrity news, TV drama, and showbiz stories. We bring you daily updates on ...",
+            "published_at": "2026-10-20T12:45:21Z",
+            "url": "https://www.youtube.com/watch?v=Oqr-eA5TyTI"
+          }
+        ],
+        "channel_description": "Welcome to our channel for the latest UK celebrity news, showbiz drama, and trending entertainment stories.\n\nWe cover breaking stories about British celebrities, reality TV stars, and the biggest moments from the UK entertainment industry. From viral celebrity moments to reality TV drama and shocking headlines, this channel brings you the stories everyone is talking about.\n\nStay updated with news about popular shows, celebrity relationships, controversies, and trending stories across the UK.\n\nTopics on this channel include:\n• UK Celebrity News\n• British Showbiz Headlines\n• Reality TV Drama\n• Celebrity Gossip & Scandals\n• Trending Entertainment Stories\n\nIf you enjoy keeping up with British pop culture and celebrity updates, make sure to subscribe and stay tuned for regular uploads.\n\nDisclaimer: This channel shares entertainment news based on publicly available reports and media sources.\n",
+        "latest_video_at": "2026-10-20T12:45:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCMwWb7TYCbnCivGGZ7Vb20A",
+      "external_id": "UCMwWb7TYCbnCivGGZ7Vb20A",
+      "name": "Jeff Reinholds",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCMwWb7TYCbnCivGGZ7Vb20A",
+      "discovered_on": "2026-10-20",
+      "score": 52.63,
+      "metrics": {
+        "subscribers": 5490,
+        "total_views": 536,
+        "video_count": 7,
+        "avg_views_per_video": 76.57,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "_AqOwuDw-jg",
+            "title": "Independent Journalism Beyond the Headlines | Jeff Reinholds",
+            "description": "Independent journalism. Investigative documentaries. Official records and original reporting. Jeff Reinholds examines public ...",
+            "published_at": "2026-10-19T17:24:46Z",
+            "url": "https://www.youtube.com/watch?v=_AqOwuDw-jg"
+          }
+        ],
+        "channel_description": "Welcome to the channel of Jeff Reinholds, a professional journalist, FENAJ registration number 10.015/PR.\n\nHere, investigative journalism and in-depth documentary analysis explore the major cases and events that shape the global landscape.\n\nWe cover real-life stories, landmark trials, power networks, and geopolitical crises with the rigor, depth, and precision of major international reporting. No sensationalism: just facts, court records, expert reports, and official documents reconstructed in a documentary format.\n\n🌐 Global Distribution: Our reports feature dubbed audio tracks and subtitles in multiple languages (English and Spanish) to connect viewers from around the world to the facts.\n\n📌 New videos every week. Subscribe and turn on notifications to follow in-depth analyses of today’s most complex cases.\n\n🔔 Subscribe and turn on notifications so you don’t miss any analysis or special reports.",
+        "latest_video_at": "2026-10-19T17:24:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCfULVYTlFOpgb5B_bchTz3Q",
+      "external_id": "UCfULVYTlFOpgb5B_bchTz3Q",
+      "name": "Roze News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCfULVYTlFOpgb5B_bchTz3Q",
+      "discovered_on": "2026-10-20",
+      "score": 49.13,
+      "metrics": {
+        "subscribers": 2430,
+        "total_views": 161116,
+        "video_count": 3383,
+        "avg_views_per_video": 47.63,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "tE1WMbujiJo",
+            "title": "US-Iran War, Basant Update, Parents’ Prayers and Women’s Independence | Roze News",
+            "description": "RozeNews #USIranWar #MiddleEast #Basant #BasantFestival #ParentsSupport #SuccessMotivation #WorldNews ...",
+            "published_at": "2026-10-20T07:39:26Z",
+            "url": "https://www.youtube.com/watch?v=tE1WMbujiJo"
+          }
+        ],
+        "channel_description": "Welcome to Roze News\n — your trusted source for the latest breaking news, live updates, and top stories from Pakistan and around the world.\n\nWe bring you fast, accurate, and reliable coverage of politics, current affairs, crime, business, sports, entertainment, weather, and international events as they happen. Our mission is to keep viewers informed with authentic journalism, exclusive reports, and real-time updates from every corner of the country.\n\nStay connected with Roze News Live for:\n• Breaking News Alerts\n• Live News Coverage\n• Political Updates\n• Pakistan Headlines\n• Exclusive Reports & Talk Shows\n• Viral & Trending Stories\n• Sports & Entertainment News\n\nSubscribe now and turn on notifications to never miss an important update from Pakistan and beyond.\n",
+        "latest_video_at": "2026-10-20T07:39:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCUXBlZTWx-Mj1DA-kcqKzsA",
       "external_id": "UCUXBlZTWx-Mj1DA-kcqKzsA",
