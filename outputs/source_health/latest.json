@@ -1,9 +1,9 @@
 {
   "expected_sources": 128,
   "not_attempted": 3,
-  "successful_sources": 117,
+  "successful_sources": 119,
   "degraded_sources": 5,
-  "failed_sources": 3,
+  "failed_sources": 1,
   "stale_sources": [
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
     "https://fredblog.stlouisfed.org/feed/",
@@ -13,16 +13,8 @@
   ],
   "failures": [
     {
-      "endpoint": "geopolitics",
-      "error": "HTTPSConnectionPool(host='hn.algolia.com', port=443): Read timed out. (read timeout=20)"
-    },
-    {
       "endpoint": "https://erictopol.substack.com/feed",
       "error": "403 Client Error: Forbidden for url: https://erictopol.substack.com/feed"
-    },
-    {
-      "endpoint": "tokenization",
-      "error": "HTTPSConnectionPool(host='hn.algolia.com', port=443): Read timed out. (read timeout=20)"
     }
   ],
   "sources": {
@@ -80,7 +72,7 @@
     "crypto funding": "ok",
     "blockchain funding": "ok",
     "web3": "ok",
-    "tokenization": "failed",
+    "tokenization": "ok",
     "https://www.bbc.co.uk/news/technology/rss.xml": "ok",
     "https://www.lesswrong.com/feed.xml": "ok",
     "https://www.astralcodexten.com/feed": "ok",
@@ -92,7 +84,7 @@
     "@VisualCapitalist": "ok",
     "UCrvchO1h6lWZAuGaa1LqX9Q": "ok",
     "UCCpNQKYvrnWQNjZprabMJlw": "ok",
-    "geopolitics": "failed",
+    "geopolitics": "ok",
     "misinformation": "ok",
     "media analysis": "ok",
     "institutional": "ok",
@@ -152,7 +144,7 @@
     "https://www.theblackvault.com/casefiles/feed/": "ok",
     "https://thegrayzone.com/feed/": "ok"
   },
-  "report_date": "2026-10-20",
-  "generated_at": "2026-10-20T12:47:29Z",
+  "report_date": "2026-10-21",
+  "generated_at": "2026-10-21T12:57:03Z",
   "schema_version": "source_health.v1"
 }
