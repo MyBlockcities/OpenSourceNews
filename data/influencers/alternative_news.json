@@ -2,19 +2,666 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-10-20T15:12:02Z",
-  "new_this_run": 14,
-  "total_influencers": 907,
+  "updated_at": "2026-10-21T15:22:39Z",
+  "new_this_run": 15,
+  "total_influencers": 922,
   "run_summary": {
-    "run_started_at": "2026-10-20T15:11:53Z",
-    "candidate_count": 24,
-    "existing_count": 893,
-    "selected_new_count": 14,
+    "run_started_at": "2026-10-21T15:22:12Z",
+    "candidate_count": 27,
+    "existing_count": 907,
+    "selected_new_count": 15,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCgwmbLePv-dEjiwz1xq3S7w",
+      "external_id": "UCgwmbLePv-dEjiwz1xq3S7w",
+      "name": "Mo'din",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCgwmbLePv-dEjiwz1xq3S7w",
+      "discovered_on": "2026-10-21",
+      "score": 77.89,
+      "metrics": {
+        "subscribers": 51200,
+        "total_views": 194622899,
+        "video_count": 5060,
+        "avg_views_per_video": 38463.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@mo-din"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "NLyqYZqlNao",
+            "title": "🎙️🌴 CENSURE DE GTA VI l&#39;affiche en France s&#39;est vue retirer de ses deux ... #gta6",
+            "description": "Vidéos tous les jours nouveau trailer GTA 6 trailer de lancement GTA VI Vice City Jason Lucia Leonida nouvelles images ...",
+            "published_at": "2026-10-20T15:50:36Z",
+            "url": "https://www.youtube.com/watch?v=NLyqYZqlNao"
+          }
+        ],
+        "channel_description": "📩 Contact pro : modincontact@gmail.com\nAbonne-toi si toi aussi tu penses qu’on ne fait rien sans humour !\n\n❤️Viens discuter sur le Discord\nhttps://discord.gg/4SdresKHnS\n\n🎮 Viens me follow sur Twitch pour des lives supers drôles : https://www.twitch.tv/mo_din\n\nIci, tu peux rejoindre la chaîne et me soutenir :\nhttps://www.youtube.com/@mo-din/membership\n",
+        "latest_video_at": "2026-10-20T15:50:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWiHhZRE83ulfeXlv6fkHaw",
+      "external_id": "UCWiHhZRE83ulfeXlv6fkHaw",
+      "name": "Легалайз",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWiHhZRE83ulfeXlv6fkHaw",
+      "discovered_on": "2026-10-21",
+      "score": 76.06,
+      "metrics": {
+        "subscribers": 97800,
+        "total_views": 22773650,
+        "video_count": 341,
+        "avg_views_per_video": 66784.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "bV8Dk_sCjy4",
+            "title": "Вводится Реестр нелегальных VPN-провайдеров #vpn #хостинг #блокировки #ркн #минцифры",
+            "description": "Вводится Реестр нелегальных VPN-провайдеров. Вопрос коснулся лично? Не разбирайтесь в одиночку. ○ Закрытый ...",
+            "published_at": "2026-10-21T05:00:19Z",
+            "url": "https://www.youtube.com/watch?v=bV8Dk_sCjy4"
+          }
+        ],
+        "channel_description": "Авторский канал юриста Андрея Сударского. \n\nИмею высшее юридическое образование, полученное в МГУ им. М. В. Ломоносова (диплом ААМ 2701549) и в Высшей школе экономики (диплом МА7722 №0002878). \n\nЗдесь я рассказываю о самых актуальных событиях, анализируя их преимущественно с юридической точки зрения.\n",
+        "latest_video_at": "2026-10-21T05:00:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCXR_FFuzBAORiOWJALzbM5g",
+      "external_id": "UCXR_FFuzBAORiOWJALzbM5g",
+      "name": "Express Cafe",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCXR_FFuzBAORiOWJALzbM5g",
+      "discovered_on": "2026-10-21",
+      "score": 73.27,
+      "metrics": {
+        "subscribers": 68300,
+        "total_views": 41181696,
+        "video_count": 1347,
+        "avg_views_per_video": 30572.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "GknoJA8Qy8U",
+            "title": "Social Media Censorship: सरकार National Security के नाम पर कैसे सोशल मीडिया पोस्ट हटवा देती है?",
+            "description": "How does the government get social media posts taken down? What happens when online content criticises those in power?",
+            "published_at": "2026-10-21T03:50:48Z",
+            "url": "https://www.youtube.com/watch?v=GknoJA8Qy8U"
+          }
+        ],
+        "channel_description": "About this channel:\n\nExpress Cafe is a platform for voices from the ground. We bring you podcasts, ground reports, public opinions, and clear explainers on issues that matter - politics, society, economy, and everyday life. If you believe informed citizens build stronger democracies, this channel is for you.\n\nSubscribe to Express Cafe - where stories meet reality.\n\nFollow Us:\n\nInstagram: expresscafe_official\n \nFacebook: Express Cafe\n\nDisclaimer: The views and allegations expressed in this podcast are those of the guest. They have not been independently verified by Express Cafe, and the individuals mentioned may have different perspectives or responses.\n\n#ExpressCafe #News #indianews #sportsnews #podcast #groundreport #explainers \n",
+        "latest_video_at": "2026-10-21T03:50:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC004nQrtGsj-11CfCZ-6GmQ",
+      "external_id": "UC004nQrtGsj-11CfCZ-6GmQ",
+      "name": "JMC Broadcasting",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC004nQrtGsj-11CfCZ-6GmQ",
+      "discovered_on": "2026-10-21",
+      "score": 67.23,
+      "metrics": {
+        "subscribers": 43400,
+        "total_views": 6466967,
+        "video_count": 1140,
+        "avg_views_per_video": 5672.78,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "W56p79AW6GQ",
+            "title": "The Great Awakening Is Here",
+            "description": "This War Report declares that what Q announced years ago as the Great Awakening is no longer a theory. It is reality on the ...",
+            "published_at": "2026-10-19T19:00:34Z",
+            "url": "https://www.youtube.com/watch?v=W56p79AW6GQ"
+          }
+        ],
+        "channel_description": "MILITARY . INTELLIGENCE . ECONOMIC REPORTING\n\nEngage in the battle to save America. Get uncensored truth, bold commentary, and real solutions from John Michael Chambers and more! We’re taking our country back—together we prevail! Stay informed, empowered and connected!\n\nFOLLOW MY WORK: https://jmcbroadcasting.com/\n",
+        "latest_video_at": "2026-10-19T19:00:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC43rsChi4fA23dNLeloaF_A",
+      "external_id": "UC43rsChi4fA23dNLeloaF_A",
+      "name": "Theater Resources Unlimited",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC43rsChi4fA23dNLeloaF_A",
+      "discovered_on": "2026-10-21",
+      "score": 66.61,
+      "metrics": {
+        "subscribers": 39500,
+        "total_views": 1054136,
+        "video_count": 344,
+        "avg_views_per_video": 3064.35,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "eet0QrwJd7E",
+            "title": "Town Hall - Can Art Survive in the Shadow of Censorship?",
+            "description": "Co-hosted by Cheryl L. Davis, vice-president and co-founder of TRU, general counsel for The Authors Guild and ...",
+            "published_at": "2026-10-20T17:56:50Z",
+            "url": "https://www.youtube.com/watch?v=eet0QrwJd7E"
+          }
+        ],
+        "channel_description": "A lineup of weekly TRU Community Gatherings, originally created to maintain a sense of community and reduce isolation during shutdown, all featuring top theater industry professionals and artists from around the world in conversations about the creation and production of theater and the arts in general. The conversations now continue weekly with a current focus on our return to live theater, as well as ways we have learned to add virtual and hybrid presentations to our artistic lives. We also offer recordings of longer, more in-depth monthly Town Hall discussions about DEI and other current social issues that effect the arts. We offer a source of support for fellow theatermakers and all artists, and an insider's glimpse into the business for those outside of theater.",
+        "latest_video_at": "2026-10-20T17:56:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCNpF6Oj7Lsm5QhAvjepbhLA",
+      "external_id": "UCNpF6Oj7Lsm5QhAvjepbhLA",
+      "name": "Hype_Motion ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCNpF6Oj7Lsm5QhAvjepbhLA",
+      "discovered_on": "2026-10-21",
+      "score": 64.8,
+      "metrics": {
+        "subscribers": 7830,
+        "total_views": 3384869,
+        "video_count": 263,
+        "avg_views_per_video": 12870.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "9iYThiawjAk",
+            "title": "Introspective of Journalism | Sapiens Experience with Uzair &amp; Hamid Mir | HYPEMOTION",
+            "description": "INTROSPECTIVE OF JOURNALISM | SAPIENS EXPERIENCE WITH UZAIR & HAMID MIR Welcome to HYPEMOTION!",
+            "published_at": "2026-10-21T07:13:01Z",
+            "url": "https://www.youtube.com/watch?v=9iYThiawjAk"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-21T07:13:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCARWK3NCkEOmlpyeZITi7mw",
+      "external_id": "UCARWK3NCkEOmlpyeZITi7mw",
+      "name": "Dossier Mundial",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCARWK3NCkEOmlpyeZITi7mw",
+      "discovered_on": "2026-10-21",
+      "score": 64.58,
+      "metrics": {
+        "subscribers": 7150,
+        "total_views": 19103847,
+        "video_count": 1448,
+        "avg_views_per_video": 13193.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "zDSJ-p8QVO4",
+            "title": "Trump y Vance contra periodista de The Independent | Casa Blanca",
+            "description": "Donald Trump protagonizó varios intercambios con el periodista Andrew Feinberg, de The Independent, durante un acto en el ...",
+            "published_at": "2026-10-20T23:25:39Z",
+            "url": "https://www.youtube.com/watch?v=zDSJ-p8QVO4"
+          }
+        ],
+        "channel_description": "Dossier Mundial | Inteligencia Geopolítica y Económica\nAnálisis en tiempo real de geopolítica, conflictos internacionales, economía global y estrategias de poder.\nDiagnósticos claros sobre Estados Unidos, China, Rusia y el mercado mundial.\nConvertimos el ruido informativo en claridad estratégica.\n",
+        "latest_video_at": "2026-10-20T23:25:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCsyrfOJIYMYe8HUWgXjHROQ",
+      "external_id": "UCsyrfOJIYMYe8HUWgXjHROQ",
+      "name": "Алевтина AliveTeen",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCsyrfOJIYMYe8HUWgXjHROQ",
+      "discovered_on": "2026-10-21",
+      "score": 62.02,
+      "metrics": {
+        "subscribers": 2010,
+        "total_views": 2924729,
+        "video_count": 122,
+        "avg_views_per_video": 23973.19,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "EEnCgf6vmxQ",
+            "title": "Цензура в треках: что случилось с песней «Опиум» группы Серебро? 🎶 #shorts",
+            "description": "Я живу в Канаде, поэтому музыкальные новости из РФ долетают до меня с задержкой. И вот мой звукарь из Москвы ...",
+            "published_at": "2026-10-20T21:47:39Z",
+            "url": "https://www.youtube.com/watch?v=EEnCgf6vmxQ"
+          }
+        ],
+        "channel_description": "Ребята, я создала отдельный youtube канал под свой проект AliveTeen (музыка в стиле Alternative Industrial Pop).\nС этим каналом пока не знаю что буду делать, возможно будет использоваться как моё рабочее портфолио сонграйтера, сессионного вокалиста или для выпуска всем полюбившихся каверов .\nВсех Обнимаю!\n",
+        "latest_video_at": "2026-10-20T21:47:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCugGvuZxCTgqIKXV-J23hng",
+      "external_id": "UCugGvuZxCTgqIKXV-J23hng",
+      "name": "Toronto 360 TV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCugGvuZxCTgqIKXV-J23hng",
+      "discovered_on": "2026-10-21",
+      "score": 61.48,
+      "metrics": {
+        "subscribers": 20800,
+        "total_views": 1986186,
+        "video_count": 2801,
+        "avg_views_per_video": 709.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "TYZIHmh2T70",
+            "title": "1971 اور سنسرشپ",
+            "description": "تاریخ کا سب سے خطرناک ہتھیار ہمیشہ بندوق نہیں ہوتا—کبھی کبھی وہ خبر ہوتی ہے جو آپ تک پہنچنے ہی نہ دی جائے۔ 1971 میں ...",
+            "published_at": "2026-10-21T13:00:32Z",
+            "url": "https://www.youtube.com/watch?v=TYZIHmh2T70"
+          }
+        ],
+        "channel_description": "Toronto 360 TV is your trusted digital news and current affairs platform, bringing you timely, accurate, and impactful coverage from Canada, Pakistan, and around the world. We deliver breaking news, political updates, community stories, business insights, and social issues that matter to the global Pakistani and South Asian audience.\n\nWith a strong focus on truth, transparency, and responsible journalism, Toronto 360 TV connects voices across borders—highlighting real stories, real people, and real perspectives. Our mission is to keep you informed, aware, and engaged with fast, reliable, and unbiased reporting.\n\nStay connected with Toronto 360 TV — News beyond borders, stories that matter.\n\n#Toronto360TV #BreakingNews #CanadaNews #PakistanNews #GlobalNews #CurrentAffairs #CommunityVoices\n",
+        "latest_video_at": "2026-10-21T13:00:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC31M6EUHNlVX-8rBIdNwhEQ",
+      "external_id": "UC31M6EUHNlVX-8rBIdNwhEQ",
+      "name": "The Amargi",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC31M6EUHNlVX-8rBIdNwhEQ",
+      "discovered_on": "2026-10-21",
+      "score": 60.4,
+      "metrics": {
+        "subscribers": 7050,
+        "total_views": 1295027,
+        "video_count": 662,
+        "avg_views_per_video": 1956.23,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "axTXm2AoWvo",
+            "title": "The Amargi’s journalism mentoring weekend, held on 12–13 September, has concluded, bringing together",
+            "description": "The Amargi's journalism mentoring weekend, held on 12–13 September, has concluded, bringing together 18 participants from ...",
+            "published_at": "2026-10-21T15:02:03Z",
+            "url": "https://www.youtube.com/watch?v=axTXm2AoWvo"
+          }
+        ],
+        "channel_description": "The Amargi is a grassroots-funded online media outlet established by a group of journalists, activists, and academics based in Europe. We are independent from any commercial and political influence and our donors support us because their democratic values align with our editorial policy. \n\nThe Amargi’s spotlight is on Kurdistan, but we also focus on Turkey, Iraq, Syria, and Iran, as well as the broader Middle East. In a region where undemocratic regimes, foreign intervention, and powerful corporations determine the political discourse and suppress self-determination, dissent, and diversity, we aspire to be a powerful voice of those rendered powerless and voiceless. “Amargi”, a Sumerian word, is regarded as the first known written word for “freedom”.\n\nIf you want to support and help expand The Amargi by becoming a donor, please visit: https://www.theamargi.com/donate\n\n",
+        "latest_video_at": "2026-10-21T15:02:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCgodK_Kqk7B_tHcshEM8vzA",
+      "external_id": "UCgodK_Kqk7B_tHcshEM8vzA",
+      "name": "Desembarco TV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCgodK_Kqk7B_tHcshEM8vzA",
+      "discovered_on": "2026-10-21",
+      "score": 59.64,
+      "metrics": {
+        "subscribers": 11700,
+        "total_views": 488370,
+        "video_count": 720,
+        "avg_views_per_video": 678.29,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "EBFt_eW2YWM",
+            "title": "Las redes sociales son un terreno de disputa política | Desorden Internacional",
+            "description": "Cómo disputar el algoritmo sin seguirle el juego a las grandes tecnológicas? En Desorden Internacional reflexionamos sobre el ...",
+            "published_at": "2026-10-20T17:08:08Z",
+            "url": "https://www.youtube.com/watch?v=EBFt_eW2YWM"
+          }
+        ],
+        "channel_description": "No somos neutrales: somos artiguistas\n",
+        "latest_video_at": "2026-10-20T17:08:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCx1qyBHu0pEic0Ijls06LKg",
+      "external_id": "UCx1qyBHu0pEic0Ijls06LKg",
+      "name": "Integrity Media",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCx1qyBHu0pEic0Ijls06LKg",
+      "discovered_on": "2026-10-21",
+      "score": 58.53,
+      "metrics": {
+        "subscribers": 2500,
+        "total_views": 240999,
+        "video_count": 43,
+        "avg_views_per_video": 5604.63,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "Jy5KY3blzgI",
+            "title": "2026 Independent Journalism Awards — Recap Video",
+            "description": "A look back at Integrity Media's 2026 Independent Journalism Awards. Hosted by Aaron Maté, with a keynote from Judge Andrew ...",
+            "published_at": "2026-10-20T15:19:51Z",
+            "url": "https://www.youtube.com/watch?v=Jy5KY3blzgI"
+          }
+        ],
+        "channel_description": "Our mission is to protect the right to free speech and create space for dissenting views by supporting independent media, journalists, publishers, and expert voices who seek the truth, free from corporate or partisan influences.",
+        "latest_video_at": "2026-10-20T15:19:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKsnNUNO29VKY9RcRvQGkNQ",
+      "external_id": "UCKsnNUNO29VKY9RcRvQGkNQ",
+      "name": "Conexão Mineira",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCKsnNUNO29VKY9RcRvQGkNQ",
+      "discovered_on": "2026-10-21",
+      "score": 58.19,
+      "metrics": {
+        "subscribers": 7280,
+        "total_views": 1179640,
+        "video_count": 1741,
+        "avg_views_per_video": 677.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "LtkRerUhdtM",
+            "title": "NIKOLAS FOI CENSURADO? A VERDADE SOBRE O VÍDEO SILENCIADO!",
+            "description": "NIKOLAS FERREIRA FOI CENSURADO NO INSTAGRAM? Um vídeo do deputado Nikolas Ferreira sobre as dificuldades ...",
+            "published_at": "2026-10-21T10:29:48Z",
+            "url": "https://www.youtube.com/watch?v=LtkRerUhdtM"
+          }
+        ],
+        "channel_description": "Bem-vindo ao Conexão Mineira ! 🎙️ \n\nUm podcast onde conversamos sobre política, empreendedorismo e os temas que moldam o Brasil e o mundo. Aqui, você encontra debates, insights e reflexões com convidados especiais e análises exclusivas. Se você quer aprender, se inspirar e se manter informado, este é o lugar certo!",
+        "latest_video_at": "2026-10-21T10:29:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCf4j_b4jDgVcOInuHlVKCbA",
+      "external_id": "UCf4j_b4jDgVcOInuHlVKCbA",
+      "name": "Truth Agenda",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCf4j_b4jDgVcOInuHlVKCbA",
+      "discovered_on": "2026-10-21",
+      "score": 57.62,
+      "metrics": {
+        "subscribers": 2390,
+        "total_views": 220296,
+        "video_count": 89,
+        "avg_views_per_video": 2475.24,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "a-Yo_JOw8pE",
+            "title": "Trump Goes After Jimmy Kimmel, Then Kimmel EXPOSES His FCC CENSORSHIP SHT SHOW LIVE on TV!",
+            "description": "Donald Trump takes aim at Jimmy Kimmel and other late-night hosts, but Kimmel responds with serious questions about FCC ...",
+            "published_at": "2026-10-20T17:46:08Z",
+            "url": "https://www.youtube.com/watch?v=a-Yo_JOw8pE"
+          }
+        ],
+        "channel_description": "🌟 **Truth Agenda** explores modern politics and media narratives through context, language, and timing. 🚨 Our focus is not reaction or opinion — it’s thoughtful analysis.\n\n⚠️ **Disclaimer:**\nTruth Agenda is an independent commentary and educational channel.\n👉 We are not affiliated with, endorsed by, or representing any political figure, political party, government agency, or media organization.\n\nℹ️ All content is presented for informational, analytical, and educational purposes only.\n🚫 Nothing should be interpreted as political or legal advice, or as factual claims beyond public commentary and analysis.\n\n🎥 Video clips and references are used for criticism, commentary, and educational discussion under applicable fair-use principles. Viewers are encouraged to consider the information and form their own conclusions.",
+        "latest_video_at": "2026-10-20T17:46:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCbzwjznZot193haMzkUqcdg",
+      "external_id": "UCbzwjznZot193haMzkUqcdg",
+      "name": "Zarin Television | تلویزیون جهانی زرین",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCbzwjznZot193haMzkUqcdg",
+      "discovered_on": "2026-10-21",
+      "score": 56.42,
+      "metrics": {
+        "subscribers": 6480,
+        "total_views": 1181628,
+        "video_count": 3358,
+        "avg_views_per_video": 351.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "aLp0qk9Ix0Y",
+            "title": "درگیری در قادس بادغیس | خبرهای سه‌شنبه ۲۸ میزان ۱۴۰۵ | تلویزیون جهانی زرین",
+            "description": "درگیری در قادس بادغیس | خبرهای سه‌شنبه ۲۸ میزان ۱۴۰۵ | تلویزیون جهانی زرین خبر ۱ عنوان: درگیری در قادس بادغیس؛ منابع: دو طالب ...",
+            "published_at": "2026-10-20T17:00:14Z",
+            "url": "https://www.youtube.com/watch?v=aLp0qk9Ix0Y"
+          }
+        ],
+        "channel_description": "The official page for the news, social, cultural, and artistic programs of Zarin Television Network.\n\nWelcome to the official channel of Zarin Television (تلویزیون جهانی زرین)! \nHere you’ll find the latest news, social, cultural, and artistic programs made for Afghans worldwide. We deliver reliable information, educational content, and engaging shows, aiming to preserve Afghan culture and connect communities everywhere.\n\nWatch live, explore new series, and stay updated with current affairs anytime on our website: zarintv.com\n*****\n\nصفحه رسمی برنامه‌های خبری، اجتماعی، فرهنگی و هنری تلویزیون جهانی زرین\n\nبه کانال رسمی تلویزیون جهانی زرین خوش آمدید!\nاینجا جایگاهی‌ست برای دریافت جدیدترین اخبار، برنامه‌های اجتماعی، فرهنگی و هنری ویژه‌ی افغان‌های سراسر جهان. هدف ما ارائه‌ی اطلاعات موثق، محتوای آموزشی، و برنامه‌های جذاب برای حفظ فرهنگ افغانستان و پیوند دادن جوامع در سراسر دنیاست.\n\nشما می‌توانید برنامه‌های زنده، سریال‌های جدید و آخرین رویدادها را در هر زمان در وبسایت ما دنبال کنید: zarintv.com\n",
+        "latest_video_at": "2026-10-20T17:00:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC_0tdZvkgrNx8ZKrmK4QBLw",
       "external_id": "UC_0tdZvkgrNx8ZKrmK4QBLw",

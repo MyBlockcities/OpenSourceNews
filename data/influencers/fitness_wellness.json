@@ -2,19 +2,260 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-10-20T15:12:16Z",
-  "new_this_run": 16,
-  "total_influencers": 1667,
+  "updated_at": "2026-10-21T15:23:11Z",
+  "new_this_run": 8,
+  "total_influencers": 1675,
   "run_summary": {
-    "run_started_at": "2026-10-20T15:11:53Z",
-    "candidate_count": 52,
-    "existing_count": 1651,
-    "selected_new_count": 16,
+    "run_started_at": "2026-10-21T15:22:12Z",
+    "candidate_count": 46,
+    "existing_count": 1667,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCzaj0ERUYz5EGGa8GPuFglw",
+      "external_id": "UCzaj0ERUYz5EGGa8GPuFglw",
+      "name": "Luminescence | Women's Health",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCzaj0ERUYz5EGGa8GPuFglw",
+      "discovered_on": "2026-10-21",
+      "score": 58.13,
+      "metrics": {
+        "subscribers": 4820,
+        "total_views": 132632,
+        "video_count": 113,
+        "avg_views_per_video": 1173.73,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "wPHFRmnNIP8",
+            "title": "Is Fasting a Female Longevity Lever? CGMs, Berberine &amp; Metabolic Health | The Luminescence Podcast",
+            "description": "Metabolic health isn't really about weight, Schuyler Grant, Dr. Robin Berzin, and Dr. Mary Pardee argue — it's the single biggest ...",
+            "published_at": "2026-10-20T17:50:54Z",
+            "url": "https://www.youtube.com/watch?v=wPHFRmnNIP8"
+          }
+        ],
+        "channel_description": "Luminescence is a platform that illuminates women's health through podcasts, events, and community. Science-based. Culturally curious. Politically fearless.\n\nFor decades, medical research treated women as “little men.” That era is over. Women’s health is complex, nuanced, and essential, and for the 51% of the population with a vagina, understanding it isn’t optional.\n\nEach podcast episode features candid roundtable conversations with leading female health experts who cut through misinformation, challenge outdated norms, and translate the latest research into real-world insight. \n\nIn the Luminescence women's health community, experts and remarkable women come together to take those insights and apply them in the real world. Grow, connect, and get personalized answers from specialists at www.luminescence.health.\n\nTogether, we explore what’s happening in our bodies, our lives, and the world we share. Honestly, openly, and without shame.\n\nBecause women’s health is human health.\n",
+        "latest_video_at": "2026-10-20T17:50:54Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:3b8a50fca46757ed7756",
+      "external_id": "3b8a50fca46757ed7756",
+      "name": "HowManyAgents",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/5tvsnxJEda8aHdnKM/linkpost-can-a-million-ai-agents-create-superintelligence",
+      "discovered_on": "2026-10-21",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/Noahpinion"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Linkpost: Can a million AI agents create superintelligence?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:94173dea702a53a6a8da",
+      "external_id": "94173dea702a53a6a8da",
+      "name": "utkarshsingh",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/MwSuycdhuapwWudCL/we-are-at-war",
+      "discovered_on": "2026-10-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "We are at war."
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d4dfcd36953e97fbac40",
+      "external_id": "d4dfcd36953e97fbac40",
+      "name": "mcnairs",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/MTb3Wngr7GtoPwAFp/on-curiosity",
+      "discovered_on": "2026-10-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "On Curiosity"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:3548f7bd048c613046f5",
+      "external_id": "3548f7bd048c613046f5",
+      "name": "chanamessinger",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/rLtHDaLYHpNAvdSeL/dinners-for-ai-safety",
+      "discovered_on": "2026-10-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Dinners for AI Safety"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2661054438ce339c0b94",
+      "external_id": "2661054438ce339c0b94",
+      "name": "Max Hennick",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/NZAcgxszfezg84Chn/data-as-particles-and-mean-field-theory-abound",
+      "discovered_on": "2026-10-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Data as particles and mean field theory abound"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:913fe4998d326bec33fb",
+      "external_id": "913fe4998d326bec33fb",
+      "name": "Kaarel",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/oePzacZn6wNcJPvH3/circuit-priors-in-nn-bayes-more-results",
+      "discovered_on": "2026-10-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Circuit priors in NN-bayes: more results"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b53f55788c40e38e289f",
+      "external_id": "b53f55788c40e38e289f",
+      "name": "Dmitry Adamsky",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/russia/how-russia-sees-world-now",
+      "discovered_on": "2026-10-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "How Russia Sees the World Now"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCARyD-qUUNc2GxTc0aqSVLA",
       "external_id": "UCARyD-qUUNc2GxTc0aqSVLA",
