@@ -2,19 +2,127 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-10-21T15:22:36Z",
-  "new_this_run": 8,
-  "total_influencers": 375,
+  "updated_at": "2026-10-22T15:23:14Z",
+  "new_this_run": 3,
+  "total_influencers": 378,
   "run_summary": {
-    "run_started_at": "2026-10-21T15:22:12Z",
-    "candidate_count": 45,
-    "existing_count": 367,
-    "selected_new_count": 8,
+    "run_started_at": "2026-10-22T15:22:48Z",
+    "candidate_count": 42,
+    "existing_count": 375,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCmUQnEj6rqGmClHWgmMCUaw",
+      "external_id": "UCmUQnEj6rqGmClHWgmMCUaw",
+      "name": "Roqqu",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCmUQnEj6rqGmClHWgmMCUaw",
+      "discovered_on": "2026-10-22",
+      "score": 71.01,
+      "metrics": {
+        "subscribers": 15400,
+        "total_views": 834676,
+        "video_count": 241,
+        "avg_views_per_video": 3463.39,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate tokenization",
+          "tokenized real estate"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "Z6oFV17x9ss",
+            "title": "Roqqu Is Building The Infrastructure to Tokenize Nigerian Stocks! 📈",
+            "description": "We engaged capital market operators at Cyberchain Tokenized Economy 2026 to discuss Roqqu's mission to open new pathways ...",
+            "published_at": "2026-10-22T08:53:30Z",
+            "url": "https://www.youtube.com/watch?v=Z6oFV17x9ss"
+          },
+          {
+            "query": "tokenized real estate",
+            "video_id": "Z6oFV17x9ss",
+            "title": "Roqqu Is Building The Infrastructure to Tokenize Nigerian Stocks! 📈",
+            "description": "We engaged capital market operators at Cyberchain Tokenized Economy 2026 to discuss Roqqu's mission to open new pathways ...",
+            "published_at": "2026-10-22T08:53:30Z",
+            "url": "https://www.youtube.com/watch?v=Z6oFV17x9ss"
+          }
+        ],
+        "channel_description": "Buy,Sell,Swap,Send and Receive Bitcoin & other cryptocurrencies\nGo Card\nFast Deposit\nInstant Naira withdrawals\nTrade \n",
+        "latest_video_at": "2026-10-22T08:53:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:77076559207e12074d23",
+      "external_id": "77076559207e12074d23",
+      "name": "Prashant Kher",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/10/22/crypto-for-advisors-stablecoins-are-ready-for-prime-time",
+      "discovered_on": "2026-10-22",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto for Advisors: Stablecoins are ready for prime time"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:9dd0daa34be23edcb92c",
+      "external_id": "9dd0daa34be23edcb92c",
+      "name": "Cointelegraph by Katie Harries",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://cointelegraph.com/opinion/uk-crypto-rules-regulated-defi-access?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-10-22",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "The UK needs a workable route to regulated DeFi access"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC2NYeKBBp68vACRQQXsTBBQ",
       "external_id": "UC2NYeKBBp68vACRQQXsTBBQ",
