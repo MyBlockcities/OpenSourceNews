@@ -2,19 +2,495 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-10-22T15:23:17Z",
-  "new_this_run": 7,
-  "total_influencers": 929,
+  "updated_at": "2026-10-23T15:12:46Z",
+  "new_this_run": 11,
+  "total_influencers": 940,
   "run_summary": {
-    "run_started_at": "2026-10-22T15:22:48Z",
-    "candidate_count": 15,
-    "existing_count": 922,
-    "selected_new_count": 7,
+    "run_started_at": "2026-10-23T15:12:19Z",
+    "candidate_count": 18,
+    "existing_count": 929,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCRcRMqQKJ2Fevj98KjmKBqA",
+      "external_id": "UCRcRMqQKJ2Fevj98KjmKBqA",
+      "name": "The Life Savers Show with Neha Bedi ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCRcRMqQKJ2Fevj98KjmKBqA",
+      "discovered_on": "2026-10-23",
+      "score": 73.1,
+      "metrics": {
+        "subscribers": 16300,
+        "total_views": 6365264,
+        "video_count": 303,
+        "avg_views_per_video": 21007.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/thelifesaversshow",
+        "youtube": "https://www.youtube.com/@thelifesaversshow"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "rHy-hz-t8KQ",
+            "title": "Mainstream or Independent? &quot;WE FOLLOW NO ONE” | Palki Sharma",
+            "description": "In this clip from The Lifesavers Show, I ask Palki Sharma point-blank about where she and her new venture stand—especially ...",
+            "published_at": "2026-10-23T14:30:01Z",
+            "url": "https://www.youtube.com/watch?v=rHy-hz-t8KQ"
+          }
+        ],
+        "channel_description": "Welcome to The Life Savers Show with Neha Bedi. Let it be your ultimate guide to living healthier, stronger, and happier! 💡\n\nHere, we bring you exclusive conversations with top doctors, fitness experts, athletes, and cricketers who share powerful insights on health, fitness, parenting, mental wellness, and navigating life’s toughest challenges. \n\nThrough her heartfelt story of loss and lessons from her dad’s preventable health issues, Neha explores the importance of staying proactive about health and respecting your body. \n\nFrom busting medical myths to discovering  fitness secrets, from parenting hacks to stories of resilience – every episode is packed with wisdom, humor, and real-life solutions. \n\n👉 Subscribe now and join us as we bring to you expert talks on health, fitness, parenting & life’s chaos – one conversation at a time.\n\nLink to join The Life Savers Community below:\nInstagram: https://www.instagram.com/thelifesaversshow\nYoutube: https://www.youtube.com/@thelifesaversshow\n",
+        "latest_video_at": "2026-10-23T14:30:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC4awsmQlkNv4RmJeJaAWBRw",
+      "external_id": "UC4awsmQlkNv4RmJeJaAWBRw",
+      "name": "Eric Metaxas",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC4awsmQlkNv4RmJeJaAWBRw",
+      "discovered_on": "2026-10-23",
+      "score": 73.08,
+      "metrics": {
+        "subscribers": 100000,
+        "total_views": 8887235,
+        "video_count": 540,
+        "avg_views_per_video": 16457.84,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "bC1xJaFi1yY",
+            "title": "Putin A &#39;Humanitarian&#39;? Why The Media Got It ALL WRONG | Ep. 228",
+            "description": "Did the Trump administration really call Putin a \"humanitarian,\" or did the media miss the point? Rod Martin joins Eric to break ...",
+            "published_at": "2026-10-22T19:45:00Z",
+            "url": "https://www.youtube.com/watch?v=bC1xJaFi1yY"
+          }
+        ],
+        "channel_description": "Official YouTube Channel for Eric Metaxas. \n\nEric Metaxas is the author of the New York Times #1 Bestseller, Bonhoeffer:  Pastor, Martyr, Prophet, Spy.  Named  “Book of the Year” by the ECPA, Bonhoeffer also won the 2011 John C. Pollock Award for Biography awarded by Beeson Divinity School and a 2011 Christopher Award in the Non-fiction category.  Called a “biography of uncommon power,” Bonhoeffer appeared on numerous 2010 “Best of the Year” lists and was featured in the Wall Street Journal, Publishers Weekly, The New Republic, Harper’s, Kirkus (starred review), NPR, FoxNews, C-SPAN’s Book TV, Christianity Today, The Weekly Standard, and First Things. Bonhoeffer has sold more than 700,000 copies and has been translated into 17 languages.* It was recently ranked #21 on the Amazon.com listing of Most Highlighted Books of all time.",
+        "latest_video_at": "2026-10-22T19:45:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1uJAjtc3ZZiSLjT_9Ig7cQ",
+      "external_id": "UC1uJAjtc3ZZiSLjT_9Ig7cQ",
+      "name": "Pakistan Observer",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC1uJAjtc3ZZiSLjT_9Ig7cQ",
+      "discovered_on": "2026-10-23",
+      "score": 67.97,
+      "metrics": {
+        "subscribers": 80100,
+        "total_views": 26144660,
+        "video_count": 12261,
+        "avg_views_per_video": 2132.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "gAh9jnablpI",
+            "title": "PEMRA Bans Live Coverage of Terror Attacks | Security Measure or Media Censorship?",
+            "description": "PEMRA reiterates its Feb 20, 2023 order and imposes a complete ban on live coverage of bomb blasts, firing and terror attacks.",
+            "published_at": "2026-10-23T10:00:09Z",
+            "url": "https://www.youtube.com/watch?v=gAh9jnablpI"
+          }
+        ],
+        "channel_description": "Official YouTube Channel of Pakistan Observer\n\nFor Queries:\n\nSaud Faisal Malik, Founder of Pakistan Observer YouTube Channel. \n\n",
+        "latest_video_at": "2026-10-23T10:00:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCSYDOuVmcILve7CJ9JceU2w",
+      "external_id": "UCSYDOuVmcILve7CJ9JceU2w",
+      "name": "The Daily Aus",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCSYDOuVmcILve7CJ9JceU2w",
+      "discovered_on": "2026-10-23",
+      "score": 65.81,
+      "metrics": {
+        "subscribers": 29800,
+        "total_views": 5009469,
+        "video_count": 1589,
+        "avg_views_per_video": 3152.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "-8SIg-qizls",
+            "title": "CENSORSHIP in Australian Media?",
+            "description": "Want to listen to more episodes of The Daily Aus' podcast? Follow us: Spotify ▻ https://spoti.fi/46UTaD7 Apple ...",
+            "published_at": "2026-10-23T00:56:46Z",
+            "url": "https://www.youtube.com/watch?v=-8SIg-qizls"
+          }
+        ],
+        "channel_description": "The Daily Aus delivers accessible and digestible news to young Aussies. We’re a newsroom of young journalists, delivering news for young people. \n\nWe are completely independent. Support us by subscribing to our channel here: https://bit.ly/3l6IFpt\n\nWant to listen to more of The Daily Aus' podcast? Follow us:\nSpotify ► https://spoti.fi/46UTaD7\nApple ► https://apple.co/3MiPu4I\n\nContact us here: hello@thedailyaus.com.au\n",
+        "latest_video_at": "2026-10-23T00:56:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCV0h4poqx-WAqj9D6ASbvjA",
+      "external_id": "UCV0h4poqx-WAqj9D6ASbvjA",
+      "name": "Arresala",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCV0h4poqx-WAqj9D6ASbvjA",
+      "discovered_on": "2026-10-23",
+      "score": 65.63,
+      "metrics": {
+        "subscribers": 37200,
+        "total_views": 6749721,
+        "video_count": 3174,
+        "avg_views_per_video": 2126.57,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "Bxawr4Pzqzs",
+            "title": "Censura nas redes sociais! #eleições2026 #eleições #redessociais",
+            "description": "Se você gosta do nosso trabalho e quer apoiar mais o canal! PIX: 15534124000124 Baixe o catálogo digital da Editora Islâmica ...",
+            "published_at": "2026-10-23T00:00:16Z",
+            "url": "https://www.youtube.com/watch?v=Bxawr4Pzqzs"
+          }
+        ],
+        "channel_description": "Canal do Centro Islâmico no Brasil com vídeos e informação sobre o Islã e os Muçulmanos no Brasil e no mundo! \nChannel of the Islamic Center in Brazil with videos and information about Islam and Muslims in Brazil and in the world!",
+        "latest_video_at": "2026-10-23T00:00:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKrBcF8wCZqgKhgahUOvYCQ",
+      "external_id": "UCKrBcF8wCZqgKhgahUOvYCQ",
+      "name": "Judecata de Acum",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCKrBcF8wCZqgKhgahUOvYCQ",
+      "discovered_on": "2026-10-23",
+      "score": 63.8,
+      "metrics": {
+        "subscribers": 17500,
+        "total_views": 2569036,
+        "video_count": 976,
+        "avg_views_per_video": 2632.21,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "onr8Y8eM7N0",
+            "title": "Gata scamatoria! Criza a pierit ca un fum, țara a rămas cu mâinile goale | JUDECATA DE ACUM #41",
+            "description": "Vedeți și judecați! (c) foto thumbnail: Inquam Photos _____ Judecata de Acum este un podcast video produs în parteneriat de ...",
+            "published_at": "2026-10-22T18:44:13Z",
+            "url": "https://www.youtube.com/watch?v=onr8Y8eM7N0"
+          }
+        ],
+        "channel_description": "Doi jurnaliști. O săptămână de întâmplări. Un ceas (și ceva) pentru a le descifra.\n\nSuntem LIVE pe Youtube în fiecare seară de joi, de la 20:00.\n",
+        "latest_video_at": "2026-10-22T18:44:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCneHXG4qtXEZEyILlTYPL2A",
+      "external_id": "UCneHXG4qtXEZEyILlTYPL2A",
+      "name": "I'm Mary",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCneHXG4qtXEZEyILlTYPL2A",
+      "discovered_on": "2026-10-23",
+      "score": 61.09,
+      "metrics": {
+        "subscribers": 4960,
+        "total_views": 5123859,
+        "video_count": 1161,
+        "avg_views_per_video": 4413.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "wcIoy2AqMCM",
+            "title": "Social alternativo #maiunagioia #ironia #videoviral #short #tiktok",
+            "description": "",
+            "published_at": "2026-10-22T21:23:51Z",
+            "url": "https://www.youtube.com/watch?v=wcIoy2AqMCM"
+          }
+        ],
+        "channel_description": "Ciao a tutti sono Mary! :D\nVi voglio mostrare il mio mondo!! Mi piace prendere la vita con filosofia e ironia e per questo creo video che spero possano donarvi un sorriso! 😄\nBuon divertimento!!",
+        "latest_video_at": "2026-10-22T21:23:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVLtIH7oh9MBIVS88hoz7gA",
+      "external_id": "UCVLtIH7oh9MBIVS88hoz7gA",
+      "name": "showbiz",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCVLtIH7oh9MBIVS88hoz7gA",
+      "discovered_on": "2026-10-23",
+      "score": 61.02,
+      "metrics": {
+        "subscribers": 3830,
+        "total_views": 2932962,
+        "video_count": 479,
+        "avg_views_per_video": 6123.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "qAOTmioIrCU",
+            "title": "Ramayana फिल्म से चीन ने काटे 33 मिनट? 😱 ₹4000 करोड़ की फिल्म पर बड़ा सवाल! #Shorts",
+            "description": "Ramayana Movie Latest News क्या रणबीर कपूर की अपकमिंग फिल्म Ramayana के चीन वाले ...",
+            "published_at": "2026-10-23T03:27:47Z",
+            "url": "https://www.youtube.com/watch?v=qAOTmioIrCU"
+          }
+        ],
+        "channel_description": "*Welcome to Showbiz! 🍿*\n\nबुरी नजर वाले तेरा मुंह काला 👺👹\n\nYour go-to destination for all things Bollywood and beyond! 🎬 We review the latest movies, share behind-the-scenes insights, and bring you the latest news and updates from the world of entertainment.\n\n*What to Expect 🤔*\n\n- Movie Reviews 🍿\n- Behind-the-Scenes Insights 🎥\n- Entertainment News and Updates 📰\n- Interviews \n\nTo provide you with the latest and greatest from the world of entertainment. We aim to entertain, inform, and inspire our audience with our unique perspective on the film and television industry.\n\n*Get in Touch 📲*.  \n\nEmail: businesswithskyop@gmail.com 📧\nWhatsApp: 7300862329 📱\nInstagram: sky___0p 📸\n\n*Stay Up-to-Date 🔄*\n\nStay ahead of the curve with the latest entertainment news and updates. We share exclusive content, sneak peeks, and behind-the-scenes insights to keep you entertained and informed.\n\n*Conclusion 📚*\n\nThe world of entertainment is constantly evolving. Stay ahead of the curve with Showbiz!",
+        "latest_video_at": "2026-10-23T03:27:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCtcaCu3VbYmFWvzxJNCDHUw",
+      "external_id": "UCtcaCu3VbYmFWvzxJNCDHUw",
+      "name": "MPAC National",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCtcaCu3VbYmFWvzxJNCDHUw",
+      "discovered_on": "2026-10-23",
+      "score": 59.3,
+      "metrics": {
+        "subscribers": 5560,
+        "total_views": 1767877,
+        "video_count": 1074,
+        "avg_views_per_video": 1646.07,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "97qiMBg_Ba4",
+            "title": "Karen Attiah on Media Censorship, Jamal Khashoggi &amp; Defending Free Speech",
+            "description": "On Episode 12 of The MPAC Podcast, host Salam Al-Marayati sits down with award-winning journalist and former Washington ...",
+            "published_at": "2026-10-22T19:55:09Z",
+            "url": "https://www.youtube.com/watch?v=97qiMBg_Ba4"
+          }
+        ],
+        "channel_description": "The Muslim Public Affairs Council (MPAC) improves public understanding and policies that impact American Muslims by engaging our government, media and communities.",
+        "latest_video_at": "2026-10-22T19:55:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCQ7EWh6uVPTUVsNX1BIolww",
+      "external_id": "UCQ7EWh6uVPTUVsNX1BIolww",
+      "name": "Steven Mackie",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCQ7EWh6uVPTUVsNX1BIolww",
+      "discovered_on": "2026-10-23",
+      "score": 57.08,
+      "metrics": {
+        "subscribers": 4380,
+        "total_views": 1260027,
+        "video_count": 1523,
+        "avg_views_per_video": 827.33,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "xANfyRAGnD0",
+            "title": "How Media PSYOPs &amp; Manufactured Scandals Keep The Public Trapped",
+            "description": "In this video, we pull back the curtain on modern media manipulation, looking closely at how manufactured scandals, psyops, and ...",
+            "published_at": "2026-10-22T22:25:37Z",
+            "url": "https://www.youtube.com/watch?v=xANfyRAGnD0"
+          }
+        ],
+        "channel_description": "Welcome to the channel where we give you the most honest and unfiltered takes on the world of wrestling! I'm your host, Steven Mackie and I'm here to provide in-depth analysis, bold opinions, and fiery commentary on the biggest stories in WWE, AEW, and beyond.\n\nFrom controversial rants on the latest bookings to breaking down the biggest angles, this is your home for real talk on all things wrestling. Don't miss out!\n\n#Wrestling #WWE #AEW #WrestlingNews #ProWrestling\n",
+        "latest_video_at": "2026-10-22T22:25:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCHlT-L857IRV7L2918fcHhA",
+      "external_id": "UCHlT-L857IRV7L2918fcHhA",
+      "name": "Faith Speaks Louder",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCHlT-L857IRV7L2918fcHhA",
+      "discovered_on": "2026-10-23",
+      "score": 56.25,
+      "metrics": {
+        "subscribers": 3230,
+        "total_views": 215525,
+        "video_count": 250,
+        "avg_views_per_video": 862.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "MVpUmJPeHCs",
+            "title": "Our Opinions are just as Valid",
+            "description": "The left / right divide in the media is a pretty big gulf at this point. The left overwhelmingly has its voice shouting the loudest, but is ...",
+            "published_at": "2026-10-22T18:00:12Z",
+            "url": "https://www.youtube.com/watch?v=MVpUmJPeHCs"
+          }
+        ],
+        "channel_description": "Christian Culture, Social & Political Podcaster Faith Jarvis is the host of Faith Speaks Louder. In a world that's spinning us lies, let's turn to THE TRUTH for answers.\n\nWe believe Jesus is that truth and we should walk out our lives in that light. In the workplace, in the home, in politics or in the classroom. Bring Jesus into it and change where you are.\n",
+        "latest_video_at": "2026-10-22T18:00:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCOZN0I173I_3aIDrPw0Irmw",
       "external_id": "UCOZN0I173I_3aIDrPw0Irmw",
