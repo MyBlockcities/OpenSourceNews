@@ -1,13 +1,14 @@
 {
   "expected_sources": 128,
   "not_attempted": 3,
-  "successful_sources": 119,
-  "degraded_sources": 4,
+  "successful_sources": 118,
+  "degraded_sources": 5,
   "failed_sources": 2,
   "stale_sources": [
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
     "https://fredblog.stlouisfed.org/feed/",
     "https://reliefweb.int/updates/rss.xml",
+    "https://rss.arxiv.org/rss/cs.AI",
     "solana"
   ],
   "failures": [
@@ -17,7 +18,7 @@
     },
     {
       "endpoint": "https://www.blockchainappfactory.com/blog/feed/",
-      "error": "HTTPSConnectionPool(host='www.blockchainappfactory.com', port=443): Read timed out. (read timeout=20)"
+      "error": "500 Server Error: Internal Server Error for url: https://www.blockchainappfactory.com/blog/feed/"
     }
   ],
   "sources": {
@@ -123,7 +124,7 @@
     "semaglutide peptide": "ok",
     "tirzepatide": "ok",
     "retatrutide": "ok",
-    "https://rss.arxiv.org/rss/cs.AI": "ok",
+    "https://rss.arxiv.org/rss/cs.AI": "empty",
     "https://openai.com/news/rss.xml": "ok",
     "https://deepmind.google/blog/rss.xml": "ok",
     "https://github.blog/feed/": "ok",
@@ -147,7 +148,7 @@
     "https://www.theblackvault.com/casefiles/feed/": "ok",
     "https://thegrayzone.com/feed/": "ok"
   },
-  "report_date": "2026-10-22",
-  "generated_at": "2026-10-22T13:00:16Z",
+  "report_date": "2026-10-24",
+  "generated_at": "2026-10-24T12:02:01Z",
   "schema_version": "source_health.v1"
 }
