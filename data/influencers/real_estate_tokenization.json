@@ -2,19 +2,71 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-10-23T15:12:43Z",
-  "new_this_run": 2,
-  "total_influencers": 380,
+  "updated_at": "2026-10-24T14:03:13Z",
+  "new_this_run": 1,
+  "total_influencers": 381,
   "run_summary": {
-    "run_started_at": "2026-10-23T15:12:19Z",
-    "candidate_count": 41,
-    "existing_count": 378,
-    "selected_new_count": 2,
+    "run_started_at": "2026-10-24T14:03:06Z",
+    "candidate_count": 40,
+    "existing_count": 380,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCxWoUFu67kRppSaZIQk0hoQ",
+      "external_id": "UCxWoUFu67kRppSaZIQk0hoQ",
+      "name": "Crypt0",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCxWoUFu67kRppSaZIQk0hoQ",
+      "discovered_on": "2026-10-24",
+      "score": 60.5,
+      "metrics": {
+        "subscribers": 4560,
+        "total_views": 172743,
+        "video_count": 1157,
+        "avg_views_per_video": 149.3,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate tokenization",
+          "tokenized real estate"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "d0-0-sbXc9c",
+            "title": "Ep. #826 - Crypto FOMO &amp; Pangea&#39;s Tokenized Real Estate",
+            "description": "Original upload date: 03/20/2018 --- Original Description --- ▻▻Please Like This Post On Steemit: ...",
+            "published_at": "2026-10-23T21:30:07Z",
+            "url": "https://www.youtube.com/watch?v=d0-0-sbXc9c"
+          },
+          {
+            "query": "tokenized real estate",
+            "video_id": "d0-0-sbXc9c",
+            "title": "Ep. #826 - Crypto FOMO &amp; Pangea&#39;s Tokenized Real Estate",
+            "description": "Original upload date: 03/20/2018 --- Original Description --- ▻▻Please Like This Post On Steemit: ...",
+            "published_at": "2026-10-23T21:30:07Z",
+            "url": "https://www.youtube.com/watch?v=d0-0-sbXc9c"
+          }
+        ],
+        "channel_description": "Crypt0's News (since 2016) is back on a NEW YouTube channel! Welcome back, and resubscribe!\n\nThe OG Ethereum News channel which now covers many other cryptos like Bitcoin, much else, such as: the overall crypto industry, finance, technology, sentiments, rumors, and much more as possible.\n\nRemember to subscribe and hit the bell icon, and lookout for daily (weekday) updates🫡\n",
+        "latest_video_at": "2026-10-23T21:30:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC-zmRFmtv9kKqJWYmxzg79Q",
       "external_id": "UC-zmRFmtv9kKqJWYmxzg79Q",

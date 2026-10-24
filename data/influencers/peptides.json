@@ -2,19 +2,162 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-23T15:13:13Z",
-  "new_this_run": 5,
-  "total_influencers": 511,
+  "updated_at": "2026-10-24T14:03:25Z",
+  "new_this_run": 3,
+  "total_influencers": 514,
   "run_summary": {
-    "run_started_at": "2026-10-23T15:12:19Z",
-    "candidate_count": 16,
-    "existing_count": 506,
-    "selected_new_count": 5,
+    "run_started_at": "2026-10-24T14:03:06Z",
+    "candidate_count": 13,
+    "existing_count": 511,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCUPpovle-c4Tq4jX560AR-Q",
+      "external_id": "UCUPpovle-c4Tq4jX560AR-Q",
+      "name": "Доктор Зарифа Романова",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCUPpovle-c4Tq4jX560AR-Q",
+      "discovered_on": "2026-10-24",
+      "score": 70.25,
+      "metrics": {
+        "subscribers": 37800,
+        "total_views": 12622338,
+        "video_count": 725,
+        "avg_views_per_video": 17410.12,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "Hu_eT47M7xY",
+            "title": "Разбор лекарств для похудения (часть 3)",
+            "description": "Записаться на консультацию и забрать бесплатные материалы можно по ссылке https://doctorzarifa.ru/. Задать вопрос ...",
+            "published_at": "2026-10-23T18:03:21Z",
+            "url": "https://www.youtube.com/watch?v=Hu_eT47M7xY"
+          }
+        ],
+        "channel_description": "Врач диетолог, пептидолог, кандидат медицинских наук\nВрачебный стаж более 17 лет. \n\nПомогаю людям похудеть через здоровье \nРезультаты: минус 20 кг за 4 мес, без срывов и откатов\nТысячи похудевший без откатов пациентов\n\nНалаживаю гормональный фон, запускаю обмен веществ, восстанавливаю функции желудочно-кишечного тракта, печени и желчного пузыря, работаю с нарушениями пищевого поведения.\n\nЗапишитесь на консультацию и задайте вопрос доктору Зарифе в телеграм-канале или на сайте doctorzarifa.ru, ссылка ниже 👇\n\nИ помните: ХУДЕТЬ НАДО С ВРАЧОМ\nЛечиться и обследоваться тоже\n",
+        "latest_video_at": "2026-10-23T18:03:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC0V5AwdytjoV4hCG8RK8d1w",
+      "external_id": "UC0V5AwdytjoV4hCG8RK8d1w",
+      "name": "DaretoTrain",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC0V5AwdytjoV4hCG8RK8d1w",
+      "discovered_on": "2026-10-24",
+      "score": 60.66,
+      "metrics": {
+        "subscribers": 4160,
+        "total_views": 6300162,
+        "video_count": 1365,
+        "avg_views_per_video": 4615.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "7P3oiQCev24",
+            "title": "Natural Peptides vs. Synthetic Peptides: What Are the Risks? #shorts",
+            "description": "Synthetic peptides often bypass the body's tightly controlled evolutionary systems, leading to unintended side effects.",
+            "published_at": "2026-10-24T06:02:35Z",
+            "url": "https://www.youtube.com/watch?v=7P3oiQCev24"
+          }
+        ],
+        "channel_description": "Your go-to source for the best moments from Dr. Mike’s fitness content.\nWe clip the highlights, tips, and transformations from Dr. Mike’s workouts so you can learn, get motivated, and stay on track—fast.\nNew clips everyday. No fluff. Just fitness",
+        "latest_video_at": "2026-10-24T06:02:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UChdiAoOHCthOOsufSOG0zzg",
+      "external_id": "UChdiAoOHCthOOsufSOG0zzg",
+      "name": "Matteo Cassiano",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UChdiAoOHCthOOsufSOG0zzg",
+      "discovered_on": "2026-10-24",
+      "score": 59.16,
+      "metrics": {
+        "subscribers": 2190,
+        "total_views": 2606145,
+        "video_count": 1823,
+        "avg_views_per_video": 1429.59,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "aA51-6U7gtU",
+            "title": "BPC157: Wolverine, Ma Nei Ratti",
+            "description": "Vasi sanguigni e guarigione negli animali: intrigante. Ma negli esseri umani? Appena uno studio su 30 persone. #BPC157 ...",
+            "published_at": "2026-10-24T14:02:53Z",
+            "url": "https://www.youtube.com/watch?v=aA51-6U7gtU"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "rUpLpaz-3uM",
+            "title": "BPC157: Miracolo o Coincidenza?",
+            "description": "Guarigioni spettacolari? Forse. Ma senza studi controllati è difficile distinguere il peptide dalla guarigione naturale. #BPC157 ...",
+            "published_at": "2026-10-24T14:02:45Z",
+            "url": "https://www.youtube.com/watch?v=rUpLpaz-3uM"
+          }
+        ],
+        "channel_description": "💪 Ciao, sono Matteo! 20 anni di esperienza in palestra come personal trainer e bodybuilder.\n\nQui troverai allenamenti, consigli nutrizionali, dirette, podcast e tutto sul mondo del bodybuilding. Contenuti pratici, senza fronzoli, per chi vuole risultati veri.\n\n🔥 Iscriviti e attiva la campanella: cresciamo insieme, un allenamento alla volta!",
+        "latest_video_at": "2026-10-24T14:02:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCOaFjrkfRyKWj4ZjBRXdm8Q",
       "external_id": "UCOaFjrkfRyKWj4ZjBRXdm8Q",

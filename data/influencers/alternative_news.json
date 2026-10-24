@@ -2,19 +2,277 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-10-23T15:12:46Z",
-  "new_this_run": 11,
-  "total_influencers": 940,
+  "updated_at": "2026-10-24T14:03:15Z",
+  "new_this_run": 6,
+  "total_influencers": 946,
   "run_summary": {
-    "run_started_at": "2026-10-23T15:12:19Z",
-    "candidate_count": 18,
-    "existing_count": 929,
-    "selected_new_count": 11,
+    "run_started_at": "2026-10-24T14:03:06Z",
+    "candidate_count": 20,
+    "existing_count": 940,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UChvSDcd3cPuvhA0R3FHBFJw",
+      "external_id": "UChvSDcd3cPuvhA0R3FHBFJw",
+      "name": "Enrico Rudolph",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UChvSDcd3cPuvhA0R3FHBFJw",
+      "discovered_on": "2026-10-24",
+      "score": 73.54,
+      "metrics": {
+        "subscribers": 75200,
+        "total_views": 73311993,
+        "video_count": 2417,
+        "avg_views_per_video": 30331.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "sbRtmMycCnM",
+            "title": "Öffentlich Rechtliche stocksauer! Alternative lässt Anschrift von heute-show Kasper ermitteln!",
+            "description": "Ein Privatdetektiv wurde losgeschickt. Wider einen deutschen Journalisten, man stelle sich das nur einmal vor. Und das nur, weil ...",
+            "published_at": "2026-10-24T10:52:33Z",
+            "url": "https://www.youtube.com/watch?v=sbRtmMycCnM"
+          }
+        ],
+        "channel_description": "Mein Kanal \"Enrico Rudolph\" soll einen Einblick in die tagesaktuelle Politik vermitteln so wie ich diese wahrnehme. \n\nAnders als üblich jedoch mit dem nötigen Humor, denn nach meiner in 54 Lebensjahren gewonnen Ansicht waren \"die Zeiten\" immer schlimm. \n\nIch halte es aus diesem Grund ganz mit Loriot dem edlen Spötter welcher dereinst anmerkte, \nZitat. \"Ich liebe Plakate von Politikern. Sie sind tragbar, geräuschlos und leicht zu entfernen. \nEine leichte humoristische Unternote verkneife ich mir aus diesem Grund nie achte jedoch darauf, meinen mir am Herzen liegenden Themen mit dem notwendigen Ernst und Respekt zu begegnen. \nGrund für meine Spitzen: Humor ist die einzig wirkungsvolle Waffe gegen das Böse.\n\nBitte beachten Sie bei den Kommentaren, dass ich ausschließlich Sachlichkeit akzeptiere und Höflichkeit schätze.\n\nZudem empfehle ich jedem Zuschauer, sich in allen zugänglichen Medien zu informieren .\n\nImpressum\nhttps://enrico-rudolph.de/impressum/\n\n\n",
+        "latest_video_at": "2026-10-24T10:52:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCQwQCPMkoZvl9lnRichhqkw",
+      "external_id": "UCQwQCPMkoZvl9lnRichhqkw",
+      "name": "Sandra Gurgel News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCQwQCPMkoZvl9lnRichhqkw",
+      "discovered_on": "2026-10-24",
+      "score": 67.96,
+      "metrics": {
+        "subscribers": 33300,
+        "total_views": 20744679,
+        "video_count": 2855,
+        "avg_views_per_video": 7266.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "tbj9VTXJTpE",
+            "title": "#Flávio Bolsonaro o Censurador. #censuranuncamais.",
+            "description": "",
+            "published_at": "2026-10-23T21:47:57Z",
+            "url": "https://www.youtube.com/watch?v=tbj9VTXJTpE"
+          }
+        ],
+        "channel_description": "Sandra gurgel news",
+        "latest_video_at": "2026-10-23T21:47:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCNVcGlGfmENh4BqJ75qkyPw",
+      "external_id": "UCNVcGlGfmENh4BqJ75qkyPw",
+      "name": "Felipe da Costa",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCNVcGlGfmENh4BqJ75qkyPw",
+      "discovered_on": "2026-10-24",
+      "score": 64.68,
+      "metrics": {
+        "subscribers": 29700,
+        "total_views": 276363,
+        "video_count": 147,
+        "avg_views_per_video": 1880.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "bzXuc7iHf54",
+            "title": "ALERTA! CENSURA VOLTA A REMOVER VIDEOS DA DIREITA E LULA FAZ FAKE NEWS DESCARADAMENTE!",
+            "description": "Neste vídeo, analisamos a reta final do segundo turno e o avanço das restrições e censura contra comunicadores e conteúdos da ...",
+            "published_at": "2026-10-23T20:42:43Z",
+            "url": "https://www.youtube.com/watch?v=bzXuc7iHf54"
+          }
+        ],
+        "channel_description": "Onde a geopolítica encontra a realidade do seu bolso. No canal Felipe da Costa, deciframos os conflitos globais e as decisões políticas que a mídia tradicional não te conta.\n\nDe Jerusalém a Brasília, trazemos análises sem filtros sobre o colapso de regimes no Oriente Médio, as estratégias de Donald Trump, os bastidores de Israel e o impacto real da economia brasileira na sua vida. Se você busca entender o tabuleiro do mundo com profundidade e clareza, seu lugar é aqui.\n\nO que você encontra aqui: \n✅ Análises diárias de Geopolítica (Irã, Israel, EUA e BR) \n✅ Impactos econômicos e mercado financeiro \n✅ Lives exclusivas com Likud Brasil, Andrea Orsi e convidados \n✅ A verdade por trás das manchetes\n\nInscreva-se e ative as notificações para estar sempre um passo à frente no entendimento dos fatos que moldam o nosso futuro.\n\n#Geopolítica #PolíticaInternacional #Economia #FelipeDaCosta\n",
+        "latest_video_at": "2026-10-23T20:42:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDpwOCne4JphwCJz69y16PQ",
+      "external_id": "UCDpwOCne4JphwCJz69y16PQ",
+      "name": "Semana On",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDpwOCne4JphwCJz69y16PQ",
+      "discovered_on": "2026-10-24",
+      "score": 59.94,
+      "metrics": {
+        "subscribers": 4350,
+        "total_views": 460480,
+        "video_count": 148,
+        "avg_views_per_video": 3111.35,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "qJ5euXrFRlE",
+            "title": "Jornalismo independente não exige neutralidade moral",
+            "description": "Um jornalista precisa ser neutro diante do racismo, da homofobia e das ameaças à democracia? A independência editorial exige ...",
+            "published_at": "2026-10-23T21:51:19Z",
+            "url": "https://www.youtube.com/watch?v=qJ5euXrFRlE"
+          }
+        ],
+        "channel_description": "A Semana On defende o Estado Democrático de Direito, a laicidade do Estado, a garantia de direitos fundamentais que possibilitem a todos os brasileiros igualdade na construção de uma vida digna.",
+        "latest_video_at": "2026-10-23T21:51:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7FG3ulZO22xQjbpFpmQZIg",
+      "external_id": "UC7FG3ulZO22xQjbpFpmQZIg",
+      "name": "Alevi Haber Ağı",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7FG3ulZO22xQjbpFpmQZIg",
+      "discovered_on": "2026-10-24",
+      "score": 58.16,
+      "metrics": {
+        "subscribers": 6610,
+        "total_views": 2033260,
+        "video_count": 2660,
+        "avg_views_per_video": 764.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "8JeyrCXVIBM",
+            "title": "DİSK Basın-İş’ten 10 İlde Eş Zamanlı Eylem Çağrısı: “Sansüre Hayır, Habere Özgürlük!”",
+            "description": "DİSK Basın-İş, gazeteciliğe yönelik baskılara ve sansüre karşı 24 Ekim Cumartesi günü Türkiye'nin 10 ilinde düzenlenecek ...",
+            "published_at": "2026-10-23T17:55:41Z",
+            "url": "https://www.youtube.com/watch?v=8JeyrCXVIBM"
+          }
+        ],
+        "channel_description": "\nSevgili Canlar,\nYoluna ve ikrarına bağlı her Alevi, kendisini Alevi Haber Ağı’nın doğal bir muhabiri olarak görmelidir.\nOturduğu mahallede, okuduğu okulda, çalıştığı iş yerinde, üyesi olduğu cemevinde ve yaşadığı çevrede haber değeri taşıyan her gelişmeyi; fotoğrafı, videosu veya yazılı bilgisiyle birlikte bizlere ulaştırmalıdır.\nBu çağrımız, Alevi kurumlarımızın yöneticileri ve temsilcileri için de geçerlidir.\nAlevi Haber Ağı, Alevilerin sesi olmanın yanı sıra; emekten, demokrasiden, laiklikten, eşit yurttaşlıktan, kadın özgürlüğünden, gençlerin geleceğinden, doğanın ve çevrenin korunmasından yana; bütün ezilenlerin sesi olmayı sürdürecek, gerçekleri yazmaya ve kamuoyuyla paylaşmaya devam edecektir.\nGerçekler ancak birlikte görünür olur. Gerçekler yazılırken sen de katkını sun can!\nFotoğrafını çek, videonu kaydet, haberini yaz ve bize ulaştır. Çünkü Alevi Haber Ağı hepimizin ortak sesidir.\nSaygı ve sevgilerimizle…\nAlevi Haber Ağı\nAHA - Alevi Haber Ağı / Yayın Kurulu",
+        "latest_video_at": "2026-10-23T17:55:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7rGstpHJmfAhnpm_cbVeJg",
+      "external_id": "UC7rGstpHJmfAhnpm_cbVeJg",
+      "name": "MysterE",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7rGstpHJmfAhnpm_cbVeJg",
+      "discovered_on": "2026-10-24",
+      "score": 54.5,
+      "metrics": {
+        "subscribers": 2620,
+        "total_views": 940201,
+        "video_count": 1145,
+        "avg_views_per_video": 821.14,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "DL31ydkLjso",
+            "title": "🛑The Right Wing Pipeline: Carla E (GoWokeGoBroke) - Far Right Fridays (PART 40)",
+            "description": "In today's live stream, we're continuing our dive into the right-wing pipeline on social media. We'll look at the work of rightwing and ...",
+            "published_at": "2026-10-23T05:43:45Z",
+            "url": "https://www.youtube.com/watch?v=DL31ydkLjso"
+          }
+        ],
+        "channel_description": "We work, we pay bills and we keep everything running — BUT we have forgotten how important we are! This channel is about remembering who we are, understanding the politics that shape our lives, and figuring out how we can get the system to work for all of us.\n",
+        "latest_video_at": "2026-10-23T05:43:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCRcRMqQKJ2Fevj98KjmKBqA",
       "external_id": "UCRcRMqQKJ2Fevj98KjmKBqA",
