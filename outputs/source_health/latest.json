@@ -2,23 +2,20 @@
   "expected_sources": 128,
   "not_attempted": 3,
   "successful_sources": 118,
-  "degraded_sources": 5,
-  "failed_sources": 2,
+  "degraded_sources": 6,
+  "failed_sources": 1,
   "stale_sources": [
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
     "https://fredblog.stlouisfed.org/feed/",
     "https://reliefweb.int/updates/rss.xml",
     "https://rss.arxiv.org/rss/cs.AI",
+    "https://www.blockchainappfactory.com/blog/feed/",
     "solana"
   ],
   "failures": [
     {
       "endpoint": "https://erictopol.substack.com/feed",
       "error": "403 Client Error: Forbidden for url: https://erictopol.substack.com/feed"
-    },
-    {
-      "endpoint": "https://www.blockchainappfactory.com/blog/feed/",
-      "error": "500 Server Error: Internal Server Error for url: https://www.blockchainappfactory.com/blog/feed/"
     }
   ],
   "sources": {
@@ -65,7 +62,7 @@
     "https://cointelegraph.com/rss": "ok",
     "https://dailycoin.com/feed/": "ok",
     "https://www.bankless.com/feed": "ok",
-    "https://www.blockchainappfactory.com/blog/feed/": "failed",
+    "https://www.blockchainappfactory.com/blog/feed/": "empty",
     "UCnThE8FLrlN-tYvZhZL0uaA": "ok",
     "UCCRxYlYOmLE2l5wxs3ckJtg": "ok",
     "UCrYmtJBtLdtm2ov84ulV-yg": "ok",
@@ -148,7 +145,7 @@
     "https://www.theblackvault.com/casefiles/feed/": "ok",
     "https://thegrayzone.com/feed/": "ok"
   },
-  "report_date": "2026-10-24",
-  "generated_at": "2026-10-24T12:02:01Z",
+  "report_date": "2026-10-25",
+  "generated_at": "2026-10-25T12:35:12Z",
   "schema_version": "source_health.v1"
 }
