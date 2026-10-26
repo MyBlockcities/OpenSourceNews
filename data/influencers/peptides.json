@@ -2,19 +2,325 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-25T14:27:28Z",
-  "new_this_run": 7,
-  "total_influencers": 521,
+  "updated_at": "2026-10-26T16:50:13Z",
+  "new_this_run": 6,
+  "total_influencers": 527,
   "run_summary": {
-    "run_started_at": "2026-10-25T14:27:08Z",
-    "candidate_count": 17,
-    "existing_count": 514,
-    "selected_new_count": 7,
+    "run_started_at": "2026-10-26T16:49:55Z",
+    "candidate_count": 15,
+    "existing_count": 521,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC2mQiIkciOYqm86ytgDcHuw",
+      "external_id": "UC2mQiIkciOYqm86ytgDcHuw",
+      "name": "Dr. Gluck's Wellness Center",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC2mQiIkciOYqm86ytgDcHuw",
+      "discovered_on": "2026-10-26",
+      "score": 79.52,
+      "metrics": {
+        "subscribers": 9530,
+        "total_views": 1102438,
+        "video_count": 81,
+        "avg_views_per_video": 13610.35,
+        "matched_queries": 3,
+        "sample_videos": 3
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "DCgDiQivHHk",
+            "title": "The Wolverine Stack Explained: BPC-157, TB-500 &amp; FDA Risks #peptides",
+            "description": "What is the Wolverine Stack, and can BPC-157 and TB-500 really accelerate healing? Dr. Clifford Gluck examines the science, ...",
+            "published_at": "2026-10-26T15:52:42Z",
+            "url": "https://www.youtube.com/watch?v=DCgDiQivHHk"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "DCgDiQivHHk",
+            "title": "The Wolverine Stack Explained: BPC-157, TB-500 &amp; FDA Risks #peptides",
+            "description": "What is the Wolverine Stack, and can BPC-157 and TB-500 really accelerate healing? Dr. Clifford Gluck examines the science, ...",
+            "published_at": "2026-10-26T15:52:42Z",
+            "url": "https://www.youtube.com/watch?v=DCgDiQivHHk"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "DCgDiQivHHk",
+            "title": "The Wolverine Stack Explained: BPC-157, TB-500 &amp; FDA Risks #peptides",
+            "description": "What is the Wolverine Stack, and can BPC-157 and TB-500 really accelerate healing? Dr. Clifford Gluck examines the science, ...",
+            "published_at": "2026-10-26T15:52:42Z",
+            "url": "https://www.youtube.com/watch?v=DCgDiQivHHk"
+          }
+        ],
+        "channel_description": "Welcome to the Official Channel of Dr. Clifford Gluck: Board-Certified, Harvard-Trained Urologist and Men’s Health Expert\nFor over 30 years, Dr. Gluck has helped thousands of patients reclaim their vitality, improve sexual health, and take control of aging with advanced, science-based solutions. From erectile dysfunction and low testosterone to prostate cancer, incontinence, and intimate wellness for men and women - this channel breaks down what’s actually going on in your body and what to do about it.\nHere, you’ll learn:\n\t•\tThe truth about testosterone, prostate health, HIFU, and hormone optimization\n\t•\tDrug-free treatments for ED, incontinence, and pelvic health (like shockwave therapy, PRP, Emsella, and more)\n\t•\tScience-backed options for aging well inside and out\n\t•\tWhat most doctors miss and how to get real results\n🩺 Want to work with Dr. Gluck or learn more? \n📍Serving patients on the South Shore of Massachusetts both in-office and via telehealth. \n",
+        "latest_video_at": "2026-10-26T15:52:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCw3rLUu3ECERzweRZILqKtQ",
+      "external_id": "UCw3rLUu3ECERzweRZILqKtQ",
+      "name": "Beyond Limits Lab",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCw3rLUu3ECERzweRZILqKtQ",
+      "discovered_on": "2026-10-26",
+      "score": 71.95,
+      "metrics": {
+        "subscribers": 10000,
+        "total_views": 1076063,
+        "video_count": 110,
+        "avg_views_per_video": 9782.39,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "CpmHDmUAZ1w",
+            "title": "Peptide BPC 157 for Tendons - What the Science Actually Says",
+            "description": "You've seen it everywhere—online forums, social media, anti-aging clinics, and peptide sellers all claiming BPC-157 is a ...",
+            "published_at": "2026-10-26T02:13:24Z",
+            "url": "https://www.youtube.com/watch?v=CpmHDmUAZ1w"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "CpmHDmUAZ1w",
+            "title": "Peptide BPC 157 for Tendons - What the Science Actually Says",
+            "description": "You've seen it everywhere—online forums, social media, anti-aging clinics, and peptide sellers all claiming BPC-157 is a ...",
+            "published_at": "2026-10-26T02:13:24Z",
+            "url": "https://www.youtube.com/watch?v=CpmHDmUAZ1w"
+          }
+        ],
+        "channel_description": "Welcome to Beyond Limits Lab: the home of daily motivation, evidence-based fitness, and real-world self-improvement. We’re all about experimenting with what works—blending science, storytelling, and relentless grit to help you grow stronger inside and out.\n\nEvery week, you’ll get:\n\nDaily Mindset Hits: Short, high-impact videos to prime your mind for action\nBody & Strength Guides: Step-by-step routines and fitness experiments, built for real results\nCommunity Challenges: Monthly missions that turn goals into habits, together\nNo faces. No filters. No excuses. Just practical strategies, proven tools, and the kind of motivation that actually sticks.\n\nSubscribe and join a community built on discipline, curiosity, and the drive to go further—because your limits are just the starting line.\n\n#Motivation #Fitness #SelfImprovement #Strength #Mindset #Challenge",
+        "latest_video_at": "2026-10-26T02:13:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCK8K9zuHsmWgP5tqdw77gag",
+      "external_id": "UCK8K9zuHsmWgP5tqdw77gag",
+      "name": "OSVALDO RIOS",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCK8K9zuHsmWgP5tqdw77gag",
+      "discovered_on": "2026-10-26",
+      "score": 71.92,
+      "metrics": {
+        "subscribers": 66000,
+        "total_views": 41220215,
+        "video_count": 2396,
+        "avg_views_per_video": 17203.76,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "zSzls399YIY",
+            "title": "Osvaldo Rios con el Dr Ageless",
+            "description": "OSVALDO RIOS FANS CLUB OFICIAL INTERNACIONAL La longevidad comienza con el cuidado de nuestra salud   Llevo 8 ...",
+            "published_at": "2026-10-25T17:26:09Z",
+            "url": "https://www.youtube.com/watch?v=zSzls399YIY"
+          }
+        ],
+        "channel_description": "OSVALDO RIOS FANS CLUB OFICIAL INTERNACIONAL\n#60ycontando #sesentaycontando",
+        "latest_video_at": "2026-10-25T17:26:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCTpjCfbkPbzbUbx1tA2djzQ",
+      "external_id": "UCTpjCfbkPbzbUbx1tA2djzQ",
+      "name": "Kaminski Lab",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCTpjCfbkPbzbUbx1tA2djzQ",
+      "discovered_on": "2026-10-26",
+      "score": 70.27,
+      "metrics": {
+        "subscribers": 16800,
+        "total_views": 717382,
+        "video_count": 329,
+        "avg_views_per_video": 2180.49,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "-7-Kpm2_DFM",
+            "title": "BPC-157, TB-500, GHK-Cu e KPV: o que a ciência realmente mostra?",
+            "description": "BPC-157, TB-500, GHK-Cu e KPV: o que a ciência mostra? Esses peptídeos ganharam espaço entre quem busca recuperação ...",
+            "published_at": "2026-10-26T12:01:06Z",
+            "url": "https://www.youtube.com/watch?v=-7-Kpm2_DFM"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "-7-Kpm2_DFM",
+            "title": "BPC-157, TB-500, GHK-Cu e KPV: o que a ciência realmente mostra?",
+            "description": "BPC-157, TB-500, GHK-Cu e KPV: o que a ciência mostra? Esses peptídeos ganharam espaço entre quem busca recuperação ...",
+            "published_at": "2026-10-26T12:01:06Z",
+            "url": "https://www.youtube.com/watch?v=-7-Kpm2_DFM"
+          }
+        ],
+        "channel_description": "Canal do Dr. Gabriel Kaminski, PhD em ciências farmacêuticas.\nDedicado à divulgação de informação sobre alto rendimento esportivo e promoção da saúde.\nCoach Kaminskao",
+        "latest_video_at": "2026-10-26T12:01:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCgiRRNrUM8mEOT6BC8DzEXQ",
+      "external_id": "UCgiRRNrUM8mEOT6BC8DzEXQ",
+      "name": "Eric Carten",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCgiRRNrUM8mEOT6BC8DzEXQ",
+      "discovered_on": "2026-10-26",
+      "score": 60.72,
+      "metrics": {
+        "subscribers": 4000,
+        "total_views": 767326,
+        "video_count": 153,
+        "avg_views_per_video": 5015.2,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "semaglutide alternatives"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "semaglutide alternatives",
+            "video_id": "qhvN2uBG7GM",
+            "title": "Ozempic, Wegovy &amp; Mounjaro Alternatives? 🔥 Discover ORYGN! #weightloss",
+            "description": "TIRED OF HEARING ABOUT OZEMPIC, WEGOVY & MOUNJARO? Looking for a different approach to supporting your ...",
+            "published_at": "2026-10-26T15:51:05Z",
+            "url": "https://www.youtube.com/watch?v=qhvN2uBG7GM"
+          }
+        ],
+        "channel_description": "Welcome to my channel! 👋\nHere we talk about LiveGood, a membership-based wellness and lifestyle community focused on affordable supplements, financial education, and personal growth.\n\nOn this channel you’ll find:\n✅ LiveGood overviews & walkthroughs\n✅ How the compensation plan works\n✅ Tips for beginners\n✅ Mindset & motivation\n✅ Ways people are building leverage online\n✅ Updates, reviews, and education\n\nMy goal is to help you understand how LiveGood works so you can decide if it’s a good fit for you.\n\n👉 Learn more here:\nhttps://www.LiveGoodTour.com/ecarten\n\nThis channel is for educational purposes only. Results vary and depend on effort, consistency, and individual goals.\n\nSubscribe and turn on notifications so you don’t miss new videos!\n\n\n\n#AffiliateMarketing\n#MakeMoneyOnline\n#OnlineIncome\n#PassiveIncome\n#WorkFromHome\n#DigitalBusiness\n#FinancialFreedom\n#ExtraIncome\n#SideHustle\n#OnlineOpportunity\n#WeeklyPay\n#TeamBuild\n#EntrepreneurMindset\n\n",
+        "latest_video_at": "2026-10-26T15:51:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCECJDHhMAd5b-uAnv52JVkQ",
+      "external_id": "UCECJDHhMAd5b-uAnv52JVkQ",
+      "name": "Senior Health Simplified with Dr Deepa",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCECJDHhMAd5b-uAnv52JVkQ",
+      "discovered_on": "2026-10-26",
+      "score": 58.71,
+      "metrics": {
+        "subscribers": 3840,
+        "total_views": 434104,
+        "video_count": 206,
+        "avg_views_per_video": 2107.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "mhuhdIvmW1A",
+            "title": "Peptides Are Everywhere — Which Ones Actually Work?",
+            "description": "In this video, Dr Deepa looks at the evidence behind popular peptides including BPC-157, MOTS-c, Epitalon and retatrutide, and ...",
+            "published_at": "2026-10-25T17:00:36Z",
+            "url": "https://www.youtube.com/watch?v=mhuhdIvmW1A"
+          }
+        ],
+        "channel_description": "Explore healthy ageing, medical breakthroughs and everyday health decisions with Dr Deepa—separating science from hype.\n\nI'm Dr Deepa, a physician with over 30 years of clinical experience. Here you'll find clear, evidence-based guidance on:\n\n• Longevity and healthy ageing—living longer and better\n• Future medicine—gene therapies, regenerative medicine and new treatments\n• Biohacking, supplements and anti-ageing claims—what works and what's hype\n• Medicines, heart health and medical tests—benefits, risks and warning signs\n• Strength, mobility and independence as we age\n\nI investigate medical claims, explain what the evidence does—and doesn't—show, and help you understand what matters for your health today.\n\nNew videos weekly. Subscribe for practical, doctor-guided health education and a clear-eyed look at the future of medicine.\n\n⚠️ Education only, not personal medical advice. Never change treatment based solely on a video. Consult your healthcare professional.\n",
+        "latest_video_at": "2026-10-25T17:00:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCEcfb1CyNsxZk6RIfRrGqmA",
       "external_id": "UCEcfb1CyNsxZk6RIfRrGqmA",
