@@ -2,19 +2,220 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-26T16:50:13Z",
-  "new_this_run": 6,
-  "total_influencers": 527,
+  "updated_at": "2026-10-27T15:55:53Z",
+  "new_this_run": 4,
+  "total_influencers": 531,
   "run_summary": {
-    "run_started_at": "2026-10-26T16:49:55Z",
-    "candidate_count": 15,
-    "existing_count": 521,
-    "selected_new_count": 6,
+    "run_started_at": "2026-10-27T15:55:37Z",
+    "candidate_count": 16,
+    "existing_count": 527,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UChMsUCFlnsg5s09C7aqD5Vw",
+      "external_id": "UChMsUCFlnsg5s09C7aqD5Vw",
+      "name": "Dr. Geo Prostate Podcast",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UChMsUCFlnsg5s09C7aqD5Vw",
+      "discovered_on": "2026-10-27",
+      "score": 76.95,
+      "metrics": {
+        "subscribers": 44700,
+        "total_views": 4257539,
+        "video_count": 355,
+        "avg_views_per_video": 11993.07,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "yoa0iEt2uCA",
+            "title": "Are Peptides Safe  BPC 157, Anti Aging &amp; the FDA with Dr  James LaValle - EP 194",
+            "description": "The most dangerous thing about peptides may not be the peptide itself—it may be what's actually inside the vial. Peptides are ...",
+            "published_at": "2026-10-26T20:45:20Z",
+            "url": "https://www.youtube.com/watch?v=yoa0iEt2uCA"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "yoa0iEt2uCA",
+            "title": "Are Peptides Safe  BPC 157, Anti Aging &amp; the FDA with Dr  James LaValle - EP 194",
+            "description": "The most dangerous thing about peptides may not be the peptide itself—it may be what's actually inside the vial. Peptides are ...",
+            "published_at": "2026-10-26T20:45:20Z",
+            "url": "https://www.youtube.com/watch?v=yoa0iEt2uCA"
+          }
+        ],
+        "channel_description": "Dr. Geo (Espinosa) is a naturopathic doctor, licensed acupuncturist and functional medicine practitioner recognized as an authority in malignant and benign prostate diseases, holistic urology and male optimization.\n\nHe believes nutrition, exercise and targeted dietary supplements are a powerful form of medicine in helping men improve their prostate condition and live their best life.\n\nDr. Geo is clinical assistant professor in Urology at New York University Langone Medical Center (NYULMC) and author of the best-selling prostate cancer book: “Thrive, Don’t Only Survive.” \n\nHe manages and writes frequently on his popular website, DrGeo.com\n\nDr. Geo is co-founder, Chief Medical Office and formulator at XY Wellness, LLC, a no-nonsense company focused on nutrition and lifestyle for men with prostate cancer.",
+        "latest_video_at": "2026-10-26T20:45:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCOvk1CddJPw5_6HYhngN08A",
+      "external_id": "UCOvk1CddJPw5_6HYhngN08A",
+      "name": "State Change",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCOvk1CddJPw5_6HYhngN08A",
+      "discovered_on": "2026-10-27",
+      "score": 68.58,
+      "metrics": {
+        "subscribers": 5340,
+        "total_views": 982282,
+        "video_count": 197,
+        "avg_views_per_video": 4986.2,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "oWX_XOyZ6w8",
+            "title": "Peptides for everything ?",
+            "description": "Sleep less, look younger, build muscle, think faster. @maxmarchione says there will be a peptide for each. Ozempic is just the ...",
+            "published_at": "2026-10-26T18:14:38Z",
+            "url": "https://www.youtube.com/watch?v=oWX_XOyZ6w8"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "oWX_XOyZ6w8",
+            "title": "Peptides for everything ?",
+            "description": "Sleep less, look younger, build muscle, think faster. @maxmarchione says there will be a peptide for each. Ozempic is just the ...",
+            "published_at": "2026-10-26T18:14:38Z",
+            "url": "https://www.youtube.com/watch?v=oWX_XOyZ6w8"
+          }
+        ],
+        "channel_description": "It's time we rewrite the social contract for the 21st century.\n",
+        "latest_video_at": "2026-10-26T18:14:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCPKHgNzybiYJLVDcWox97BQ",
+      "external_id": "UCPKHgNzybiYJLVDcWox97BQ",
+      "name": "Sabina | glpwinner",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCPKHgNzybiYJLVDcWox97BQ",
+      "discovered_on": "2026-10-27",
+      "score": 63.49,
+      "metrics": {
+        "subscribers": 3090,
+        "total_views": 271560,
+        "video_count": 105,
+        "avg_views_per_video": 2586.29,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/lawliepops",
+        "tiktok": "https://www.tiktok.com/@lawliepop"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "8meCRAvFfiA",
+            "title": "Peptides - A Symptom of a Broken Healthcare System",
+            "description": "Follow me on my other socials: Tiktok: https://www.tiktok.com/@lawliepop Instagram: https://www.instagram.com/lawliepops/ ...",
+            "published_at": "2026-10-27T14:30:40Z",
+            "url": "https://www.youtube.com/watch?v=8meCRAvFfiA"
+          }
+        ],
+        "channel_description": "Founder of GLP Winner \nA website that helps you compare GLP-1 provider options with transparent pricing, sourcing and reviews. We support name brand medication and prior authorizations as well as compounded options. \n\nI have a history of weight loss on glp-1s and I'm trying to make access faster and more affordable for those who are good candidates for the medication. This medication changes lives and it's is not affordable or accessible enough. \n\nI'm a serial entrepreneur who previously worked in video games.\n",
+        "latest_video_at": "2026-10-27T14:30:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCVsQrBQW83YYobW8YFYsZtQ",
+      "external_id": "UCVsQrBQW83YYobW8YFYsZtQ",
+      "name": "Carlos Franco MD",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCVsQrBQW83YYobW8YFYsZtQ",
+      "discovered_on": "2026-10-27",
+      "score": 63.25,
+      "metrics": {
+        "subscribers": 4560,
+        "total_views": 308962,
+        "video_count": 23,
+        "avg_views_per_video": 13433.13,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "A_ttj_etxZo",
+            "title": "GLP-1s",
+            "description": "",
+            "published_at": "2026-10-26T18:18:07Z",
+            "url": "https://www.youtube.com/watch?v=A_ttj_etxZo"
+          }
+        ],
+        "channel_description": "¡Videos educativos sobre temas médicos dirigidos al público en general, estudiantes de medicina y médicos residentes!\n\nAdemás, de vez en cuando compartiré un poco sobre el estilo de vida de un médico en Estados Unidos y mi experiencia durante la residencia médica. 😊\n",
+        "latest_video_at": "2026-10-26T18:18:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UC2mQiIkciOYqm86ytgDcHuw",
       "external_id": "UC2mQiIkciOYqm86ytgDcHuw",

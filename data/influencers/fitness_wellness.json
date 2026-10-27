@@ -2,19 +2,230 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-10-26T16:50:16Z",
-  "new_this_run": 8,
-  "total_influencers": 1735,
+  "updated_at": "2026-10-27T15:55:57Z",
+  "new_this_run": 7,
+  "total_influencers": 1742,
   "run_summary": {
-    "run_started_at": "2026-10-26T16:49:55Z",
-    "candidate_count": 45,
-    "existing_count": 1727,
-    "selected_new_count": 8,
+    "run_started_at": "2026-10-27T15:55:37Z",
+    "candidate_count": 43,
+    "existing_count": 1735,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC2mQiIkciOYqm86ytgDcHuw",
+      "external_id": "UC2mQiIkciOYqm86ytgDcHuw",
+      "name": "Dr. Gluck's Wellness Center",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC2mQiIkciOYqm86ytgDcHuw",
+      "discovered_on": "2026-10-27",
+      "score": 64.54,
+      "metrics": {
+        "subscribers": 9550,
+        "total_views": 1105190,
+        "video_count": 81,
+        "avg_views_per_video": 13644.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "DCgDiQivHHk",
+            "title": "The Wolverine Stack Explained: BPC-157, TB-500 &amp; FDA Risks #peptides",
+            "description": "What is the Wolverine Stack, and can BPC-157 and TB-500 really accelerate healing? Dr. Clifford Gluck examines the science, ...",
+            "published_at": "2026-10-26T15:52:42Z",
+            "url": "https://www.youtube.com/watch?v=DCgDiQivHHk"
+          }
+        ],
+        "channel_description": "Welcome to the Official Channel of Dr. Clifford Gluck: Board-Certified, Harvard-Trained Urologist and Men’s Health Expert\nFor over 30 years, Dr. Gluck has helped thousands of patients reclaim their vitality, improve sexual health, and take control of aging with advanced, science-based solutions. From erectile dysfunction and low testosterone to prostate cancer, incontinence, and intimate wellness for men and women - this channel breaks down what’s actually going on in your body and what to do about it.\nHere, you’ll learn:\n\t•\tThe truth about testosterone, prostate health, HIFU, and hormone optimization\n\t•\tDrug-free treatments for ED, incontinence, and pelvic health (like shockwave therapy, PRP, Emsella, and more)\n\t•\tScience-backed options for aging well inside and out\n\t•\tWhat most doctors miss and how to get real results\n🩺 Want to work with Dr. Gluck or learn more? \n📍Serving patients on the South Shore of Massachusetts both in-office and via telehealth. \n",
+        "latest_video_at": "2026-10-26T15:52:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:320bf2317c3395d9956c",
+      "external_id": "320bf2317c3395d9956c",
+      "name": "nielsrolf",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/eD84A7C5jhhXNEhCQ/a-big-case-study-of-propensity-entanglement",
+      "discovered_on": "2026-10-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A big case study of propensity entanglement"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:b5a00928e3e94712c1e2",
+      "external_id": "b5a00928e3e94712c1e2",
+      "name": "dactyl",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/events/QWmFnGWnjfo5boeys/san-francisco-rationalist-dinner",
+      "discovered_on": "2026-10-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "San Francisco Rationalist Dinner"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f96bfa504f2e356b1a0c",
+      "external_id": "f96bfa504f2e356b1a0c",
+      "name": "Michael McFaul",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/russia/putins-strategy-working",
+      "discovered_on": "2026-10-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "Putin’s Strategy Is Working"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:3ae253c9b76bf80a1fba",
+      "external_id": "3ae253c9b76bf80a1fba",
+      "name": "James Diacoumis",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/bgPxxnuQhdTxiLeNs/ai-agents-trade-off-patient-safety-for-a-grade-in-hospital",
+      "discovered_on": "2026-10-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "AI agents trade off patient safety for a grade in hospital scenarios"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ac9f9145062fd1096096",
+      "external_id": "ac9f9145062fd1096096",
+      "name": "Dalia Dassa Kaye",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/israel/israel-netanyahu-made",
+      "discovered_on": "2026-10-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Israel Netanyahu Made"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:dd978dabc155ea80a87b",
+      "external_id": "dd978dabc155ea80a87b",
+      "name": "Andy_McKenzie",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/MzPDS4ZNqcLcrFeio/remote-embalming-and-shipment-for-brain-or-whole-body",
+      "discovered_on": "2026-10-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Remote embalming and shipment for brain or whole body preservation with Sparks"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCTmGX2WdvcV9BXiLb64JQpg",
       "external_id": "UCTmGX2WdvcV9BXiLb64JQpg",
