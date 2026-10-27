@@ -1,12 +1,11 @@
 {
   "expected_sources": 128,
   "not_attempted": 3,
-  "successful_sources": 119,
-  "degraded_sources": 5,
+  "successful_sources": 120,
+  "degraded_sources": 4,
   "failed_sources": 1,
   "stale_sources": [
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
-    "https://fredblog.stlouisfed.org/feed/",
     "https://reliefweb.int/updates/rss.xml",
     "https://www.blockchainappfactory.com/blog/feed/",
     "solana"
@@ -131,7 +130,7 @@
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss": "empty",
     "https://www.federalreserve.gov/feeds/press_all.xml": "ok",
     "https://home.treasury.gov/rss.xml": "ok",
-    "https://fredblog.stlouisfed.org/feed/": "empty",
+    "https://fredblog.stlouisfed.org/feed/": "ok",
     "https://www.federalregister.gov/api/v1/articles.rss": "ok",
     "https://www.govinfo.gov/rss/fr.xml": "ok",
     "https://www.sec.gov/news/pressreleases.rss": "ok",
@@ -144,7 +143,7 @@
     "https://www.theblackvault.com/casefiles/feed/": "ok",
     "https://thegrayzone.com/feed/": "ok"
   },
-  "report_date": "2026-10-26",
-  "generated_at": "2026-10-26T14:16:21Z",
+  "report_date": "2026-10-27",
+  "generated_at": "2026-10-27T13:42:07Z",
   "schema_version": "source_health.v1"
 }
