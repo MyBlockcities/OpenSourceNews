@@ -2,19 +2,154 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-27T15:55:53Z",
-  "new_this_run": 4,
-  "total_influencers": 531,
+  "updated_at": "2026-10-28T16:44:08Z",
+  "new_this_run": 3,
+  "total_influencers": 534,
   "run_summary": {
-    "run_started_at": "2026-10-27T15:55:37Z",
-    "candidate_count": 16,
-    "existing_count": 527,
-    "selected_new_count": 4,
+    "run_started_at": "2026-10-28T16:43:47Z",
+    "candidate_count": 12,
+    "existing_count": 531,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCoiwYqTTOVqL8MJK-xos2BQ",
+      "external_id": "UCoiwYqTTOVqL8MJK-xos2BQ",
+      "name": "MD Newsline",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCoiwYqTTOVqL8MJK-xos2BQ",
+      "discovered_on": "2026-10-28",
+      "score": 58.62,
+      "metrics": {
+        "subscribers": 9730,
+        "total_views": 981254,
+        "video_count": 1788,
+        "avg_views_per_video": 548.8,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "6Zk2LOmKpIQ",
+            "title": "Should You Use Peptides for Weight Loss?",
+            "description": "Peptides for weight loss are getting more attention, but that does not mean every option is ready for routine clinical use.",
+            "published_at": "2026-10-28T08:30:25Z",
+            "url": "https://www.youtube.com/watch?v=6Zk2LOmKpIQ"
+          }
+        ],
+        "channel_description": "MD Newsline is a health communications company dedicated to equipping healthcare professionals and health advocates with essential medical resources. Our platform offers a comprehensive range of content focused on disease education, clinical trial updates, the latest insights in medical research, patient adherence strategies, and industry best practices. \n\nThrough our targeted resources, we aim to empower healthcare providers and advocates to deliver more informed, effective care while advancing the broader field of medical education.\n\nOur mission is to elevate patient outcomes across all populations by equipping healthcare practitioners with vital medical knowledge that empowers, enlightens, and engages. We are dedicated to providing resources that support healthcare professionals in delivering high-quality, informed care that meets the diverse needs of their patients.\n\nVisit MDNewsline.com \nLike us on Facebook at facebook.com/mdnewsline.com\nFollow u on Instagram & Twitter @MDNewsline",
+        "latest_video_at": "2026-10-28T08:30:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCYmH39QyyO3Xsj5SHcNNzPA",
+      "external_id": "UCYmH39QyyO3Xsj5SHcNNzPA",
+      "name": "UltraSanté",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCYmH39QyyO3Xsj5SHcNNzPA",
+      "discovered_on": "2026-10-28",
+      "score": 58.27,
+      "metrics": {
+        "subscribers": 6960,
+        "total_views": 709692,
+        "video_count": 948,
+        "avg_views_per_video": 748.62,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "bPDTNvwaH5o",
+            "title": "BPC-157 : pourquoi je vous dis d&#39;attendre (tendons, ligaments, estomac)",
+            "description": "On parle beaucoup du BPC-157, ce peptide qui aiderait à réparer les tendons, les ligaments et l'estomac. Je vous explique ce ...",
+            "published_at": "2026-10-28T14:01:51Z",
+            "url": "https://www.youtube.com/watch?v=bPDTNvwaH5o"
+          }
+        ],
+        "channel_description": "UltraSanté : Le média qui décrypte la science de la longévité.\nVivre mieux, plus longtemps, en pleine santé. Avec des médecins, des chercheurs et des experts qui vous parlent vrai.\n\n🎙️ LE PODCAST ULTRASANTÉ\nJean-Marie Butterlin, fondateur d'UltraSanté, répond aux questions de Gary Laski, docteur en philosophie. Des entretiens longs et sourcés, sans jargon.\n\n🧬 LES 9 MÉCANISMES DU VIEILLISSEMENT\nTélomères · Épigénétique · Protéostasie · Nutriments · Mitochondries · Sénescence · Cellules souches · Communication cellulaire\n\n👥 REJOIGNEZ LA COMMUNAUTÉ : 100 % GRATUITE\nPosez vos questions, partagez vos progrès, accédez aux ressources exclusives.\n➡️ https://www.skool.com/ultrasante-7001/\n\n🌐 ultrasante.com   📩 contact@ultrasante.com\n\n⚠️ Jean-Marie Butterlin n'est pas médecin. Contenus informatifs ; ils ne remplacent pas un avis médical.\n\n#UltraSanté #Longévité #Prévention",
+        "latest_video_at": "2026-10-28T14:01:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCgHLyr3TJ-ZKaGetTu7YamQ",
+      "external_id": "UCgHLyr3TJ-ZKaGetTu7YamQ",
+      "name": "Medicine Center Pharmacy",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCgHLyr3TJ-ZKaGetTu7YamQ",
+      "discovered_on": "2026-10-28",
+      "score": 54.12,
+      "metrics": {
+        "subscribers": 3010,
+        "total_views": 195798,
+        "video_count": 548,
+        "avg_views_per_video": 357.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "0TWf4oS0y10",
+            "title": "Peptides and Compounding Pharmacy: What the FDA Is Doing and What It Means for Patients | Medicine C",
+            "description": "Pharmacist Janice Marciniak shares what she learned about peptides at the PCCA International Seminar in Houston, Texas, ...",
+            "published_at": "2026-10-28T12:02:58Z",
+            "url": "https://www.youtube.com/watch?v=0TWf4oS0y10"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-28T12:02:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UChMsUCFlnsg5s09C7aqD5Vw",
       "external_id": "UChMsUCFlnsg5s09C7aqD5Vw",
