@@ -2,19 +2,234 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-10-28T16:43:57Z",
-  "new_this_run": 12,
-  "total_influencers": 988,
+  "updated_at": "2026-10-29T17:00:43Z",
+  "new_this_run": 5,
+  "total_influencers": 993,
   "run_summary": {
-    "run_started_at": "2026-10-28T16:43:47Z",
-    "candidate_count": 18,
-    "existing_count": 976,
-    "selected_new_count": 12,
+    "run_started_at": "2026-10-29T17:00:33Z",
+    "candidate_count": 11,
+    "existing_count": 988,
+    "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCKBknIMjyDBuCCMesl1F0Yw",
+      "external_id": "UCKBknIMjyDBuCCMesl1F0Yw",
+      "name": "Gazeta Wyborcza",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCKBknIMjyDBuCCMesl1F0Yw",
+      "discovered_on": "2026-10-29",
+      "score": 70.48,
+      "metrics": {
+        "subscribers": 58500,
+        "total_views": 49851573,
+        "video_count": 4747,
+        "avg_views_per_video": 10501.7,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "JL7keagdZ2A",
+            "title": "Adam Michnik: Cenzura uczyła nas innego języka",
+            "description": "Jak działała cenzura w PRL-u i jak opozycjoniści omijali zakazy? Adam Michnik opowiada o języku podziemia, aktach oskarżenia ...",
+            "published_at": "2026-10-29T11:31:03Z",
+            "url": "https://www.youtube.com/watch?v=JL7keagdZ2A"
+          }
+        ],
+        "channel_description": "Każdego dnia dostarczamy nowe materiały wideo, w których dziennikarze \"Gazety Wyborczej\" poruszają najbardziej aktualne tematy. \nWszystkie materiały znajdziesz na oficjalnym kanale YouTube „Gazety Wyborczej\", a także na stronie internetowej Wyborcza.pl.  \n\nAgora S.A. z siedzibą w Warszawie przetwarza Twoje dane osobowe w związku z prowadzeniem profilu, informowania o aktywności Administratora, promowania różnego rodzaju wydarzeń, usług oraz produktów oraz obsługi zapytań i komentarzy, statystycznym i analitycznym. Więcej informacji w Zasadach Ochrony Prywatności. \nPolityka Prywatności na https://wyborcza.pl/centrumpomocygw/7,134956,23413995,polityka-prywatnosci.html \n\nDostawca VOD:  https://agora.pl/informacje-o-uslugach-medialnych\n\n\n",
+        "latest_video_at": "2026-10-29T11:31:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCH02rDWCX5TDjvkKzwM3g8w",
+      "external_id": "UCH02rDWCX5TDjvkKzwM3g8w",
+      "name": "Padre Luis Bazalar",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCH02rDWCX5TDjvkKzwM3g8w",
+      "discovered_on": "2026-10-29",
+      "score": 66.83,
+      "metrics": {
+        "subscribers": 20200,
+        "total_views": 13760398,
+        "video_count": 1001,
+        "avg_views_per_video": 13746.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "4tp1NQCKVo4",
+            "title": "¿El fin del monopolio mediático? El análisis sobre la prensa hegemónica y los contrapesos actuales 📰",
+            "description": "Una discusión sin filtros sobre cómo la aparición de nuevos espacios y la llamada \"prensa alternativa\" genera incomodidad en ...",
+            "published_at": "2026-10-27T19:57:34Z",
+            "url": "https://www.youtube.com/watch?v=4tp1NQCKVo4"
+          }
+        ],
+        "channel_description": "Sacerdote católico. Teólogo. Filósofo. Educador. Articulista en Diario UNO. Precandidato a la Presidencia de la República del Perú.",
+        "latest_video_at": "2026-10-27T19:57:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCI0xMqGOKxnZT9LtzszjU3w",
+      "external_id": "UCI0xMqGOKxnZT9LtzszjU3w",
+      "name": "RTDtv",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCI0xMqGOKxnZT9LtzszjU3w",
+      "discovered_on": "2026-10-29",
+      "score": 66.28,
+      "metrics": {
+        "subscribers": 41600,
+        "total_views": 7349848,
+        "video_count": 3006,
+        "avg_views_per_video": 2445.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "m7EVvBGFaHE",
+            "title": "How Russia Built a $120 Billion ALTERNATIVE Payment Network Under Sanctions",
+            "description": "Create polished videos and live shows with ContentBridge Studio. Your camera, content, and overlays, all in one app. Get 40% off ...",
+            "published_at": "2026-10-29T15:21:43Z",
+            "url": "https://www.youtube.com/watch?v=m7EVvBGFaHE"
+          }
+        ],
+        "channel_description": "Monetary literacy for the People\n\nThere can be no financial sovereignty without monetary literacy.  Through livestreams, interviews, and news updates, I want to share news that makes people think and is up-to-date about the demise of the dollar and all other fiat currencies.The goal is to make people aware of the differences between sound money and fiat currencies so that they can take steps to protect their wealth. Visit https://www.rethinkingthedollar.com for more great educational tools to help you understand the history and possible future of your money.",
+        "latest_video_at": "2026-10-29T15:21:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC8mClLizUfROyP_gI9atwYA",
+      "external_id": "UC8mClLizUfROyP_gI9atwYA",
+      "name": "Mathrubhumi English",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC8mClLizUfROyP_gI9atwYA",
+      "discovered_on": "2026-10-29",
+      "score": 60.34,
+      "metrics": {
+        "subscribers": 3830,
+        "total_views": 2642187,
+        "video_count": 591,
+        "avg_views_per_video": 4470.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "o9b3GrT0LvI",
+            "title": "Dhruv Rathee Alleges Mass Instagram Censorship in India | #Meta #Shorts #SocialMedia #DhruvRathee",
+            "description": "Dhruv Rathee, Dhruv Rathee latest video, Instagram censorship India, Instagram posts blocked, Modi government, social media ...",
+            "published_at": "2026-10-29T06:52:14Z",
+            "url": "https://www.youtube.com/watch?v=o9b3GrT0LvI"
+          }
+        ],
+        "channel_description": "Mathrubhumi English brings you politics, breaking news, explainers, interviews and original features from across Kerala — reported by Kerala's second-largest news organisation since 1923.\n",
+        "latest_video_at": "2026-10-29T06:52:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCatl_XrxUTdwKGeBFDyB2Jg",
+      "external_id": "UCatl_XrxUTdwKGeBFDyB2Jg",
+      "name": "kuttan voice over ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCatl_XrxUTdwKGeBFDyB2Jg",
+      "discovered_on": "2026-10-29",
+      "score": 59.11,
+      "metrics": {
+        "subscribers": 4140,
+        "total_views": 1839941,
+        "video_count": 808,
+        "avg_views_per_video": 2277.15,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "CpehQ1lC55g",
+            "title": "surya movie scene censor certificate review malayalam/kuttan voice over#surya #shorts",
+            "description": "surya movie scene censor certificate review malayalam/kuttan voice over#surya #shorts #SceneMovie #SceneMovieReview ...",
+            "published_at": "2026-10-29T02:56:55Z",
+            "url": "https://www.youtube.com/watch?v=CpehQ1lC55g"
+          }
+        ],
+        "channel_description": " welcome to kuttan voice over shorts  review movie 🍿 content videos option ☺️  like to share youtube channel \n\n please support our channel 🙏\n\nreoad to😁 100k\n\nmalayalam shorts |fun & comedy |cinema |own voice videos |reactions |mini vlogs |all updates\n\nSubscribe & kuttan voice over 😿\n\nപുതിയ സിനിമകളുടെ reviews, സിനിമയെക്കുറിച്ചുള്ള എന്റെ thoughts, interesting voice-over content എന്നിവ ഇവിടെ share ചെയ്യുന്നു. ✨\n\nChannel തുടങ്ങിയിട്ട് കുറച്ച് കാലമേ ആയിട്ടുള്ളൂ… നിങ്ങളുടെ ഒരു Subscribe & Support എനിക്ക് ഒരുപാട് motivation ആണ്! 🥹❤️\n\nഇഷ്ടപ്പെട്ടാൽ കൂടെ നിൽക്കണേ! 🫶\n🎬 Let’s Talk Movies! 🎙️",
+        "latest_video_at": "2026-10-29T02:56:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCOsgq0tFqNQOD5koDr9sV_w",
       "external_id": "UCOsgq0tFqNQOD5koDr9sV_w",
