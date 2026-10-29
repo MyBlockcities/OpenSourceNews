@@ -3,13 +3,16 @@
   "name": "Doctor_Peptides",
   "slug": "doctor_peptides",
   "first_seen": "2026-08-03",
-  "last_seen": "2026-10-12",
-  "mention_count_total": 197,
-  "mentions_7d_rate": 0.022,
-  "mentions_30d_rate": 0.318,
-  "trajectory": "stable",
-  "source_domains": [],
+  "last_seen": "2026-10-29",
+  "mention_count_total": 202,
+  "mentions_7d_rate": 1.515,
+  "mentions_30d_rate": 1.02,
+  "trajectory": "emerging",
+  "source_domains": [
+    "youtu.be"
+  ],
   "recent_signal_ids": [
+    "85b02ddbdb284ea4",
     "8126f8aa6ca31e16",
     "6616d26cb75c6297",
     "6616d26cb75c6297",
@@ -28,8 +31,7 @@
     "d2df5f01f4896e38",
     "d81408712a57b02a",
     "9e38304372375595",
-    "1901e66653edaa24",
-    "53c9e97b60d826cf"
+    "1901e66653edaa24"
   ],
   "schema_version": "entity.v1"
 }
