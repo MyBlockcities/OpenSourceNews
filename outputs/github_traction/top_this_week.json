@@ -1,5 +1,5 @@
 {
-  "report_date": "2026-10-28",
+  "report_date": "2026-10-29",
   "limit": 50,
   "quality_gate": 60.0,
   "repos": [
@@ -21,7 +21,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 24699,
+      "stars_total": 24706,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools"
@@ -45,7 +45,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 13672,
+      "stars_total": 13677,
       "primary_language": "TypeScript",
       "public_topics": [
         "developer_tools"
@@ -69,7 +69,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 148612,
+      "stars_total": 148684,
       "primary_language": "Python",
       "public_topics": [
         "ai_agents"
@@ -93,9 +93,33 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 44048,
+      "stars_total": 44098,
       "primary_language": "Python",
       "public_topics": []
+    },
+    {
+      "full_name": "microsoft/autogen",
+      "repo_id": "c4af26ff4e5058a68b585517",
+      "score": {
+        "momentum_score": 74.0,
+        "quality_score": 87.5,
+        "community_score": 15.0,
+        "adoption_score": 60.0,
+        "composite_score": 55.38,
+        "passes_quality_gate": true,
+        "quality_gate": 60.0,
+        "weights": {
+          "momentum": 0.25,
+          "quality": 0.25,
+          "community": 0.2,
+          "adoption": 0.2
+        }
+      },
+      "stars_total": 61620,
+      "primary_language": "Python",
+      "public_topics": [
+        "developer_tools"
+      ]
     },
     {
       "full_name": "crewAIInc/crewAI",
@@ -115,7 +139,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 60209,
+      "stars_total": 60248,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools",
@@ -141,7 +165,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 132621,
+      "stars_total": 132741,
       "primary_language": "C++",
       "public_topics": []
     },
@@ -163,7 +187,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 95763,
+      "stars_total": 95849,
       "primary_language": "Python",
       "public_topics": []
     },
@@ -185,7 +209,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 185101,
+      "stars_total": 185210,
       "primary_language": "Go",
       "public_topics": []
     },
@@ -207,7 +231,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 143180,
+      "stars_total": 143194,
       "primary_language": "JavaScript",
       "public_topics": [
         "developer_tools"
@@ -231,7 +255,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 117127,
+      "stars_total": 117169,
       "primary_language": "JavaScript",
       "public_topics": [
         "developer_tools",
@@ -257,7 +281,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 168275,
+      "stars_total": 168335,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools"
@@ -281,7 +305,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 54731,
+      "stars_total": 54763,
       "primary_language": "C++",
       "public_topics": []
     },
@@ -327,7 +351,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 63547,
+      "stars_total": 63575,
       "primary_language": "TypeScript",
       "public_topics": [
         "developer_tools"
@@ -351,7 +375,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 119201,
+      "stars_total": 119263,
       "primary_language": "C++",
       "public_topics": [
         "3d_visualization",
@@ -376,7 +400,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 112266,
+      "stars_total": 112298,
       "primary_language": "Rust",
       "public_topics": []
     },
@@ -398,7 +422,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 26322,
+      "stars_total": 26336,
       "primary_language": "Shell",
       "public_topics": []
     },
@@ -420,7 +444,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 20926,
+      "stars_total": 20945,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools"
@@ -444,7 +468,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 92088,
+      "stars_total": 92188,
       "primary_language": "TypeScript",
       "public_topics": []
     },
@@ -466,7 +490,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 119363,
+      "stars_total": 119466,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools",
@@ -491,7 +515,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 38313,
+      "stars_total": 38351,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools"
@@ -515,7 +539,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 35298,
+      "stars_total": 35308,
       "primary_language": "Rust",
       "public_topics": []
     },
@@ -523,7 +547,7 @@
       "full_name": "openai/openai-python",
       "repo_id": "18d3c4979d5650cfa02e41ab",
       "score": {
-        "momentum_score": 73.16,
+        "momentum_score": 73.17,
         "quality_score": 87.5,
         "community_score": 15.0,
         "adoption_score": 60.0,
@@ -537,7 +561,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 31979,
+      "stars_total": 31995,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools"
@@ -547,7 +571,7 @@
       "full_name": "expo/expo",
       "repo_id": "f401b673f914540db0df4c97",
       "score": {
-        "momentum_score": 72.53,
+        "momentum_score": 72.55,
         "quality_score": 87.5,
         "community_score": 15.0,
         "adoption_score": 60.0,
@@ -561,32 +585,8 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 53146,
+      "stars_total": 53183,
       "primary_language": "TypeScript",
-      "public_topics": [
-        "developer_tools"
-      ]
-    },
-    {
-      "full_name": "microsoft/autogen",
-      "repo_id": "c4af26ff4e5058a68b585517",
-      "score": {
-        "momentum_score": 70.0,
-        "quality_score": 87.5,
-        "community_score": 15.0,
-        "adoption_score": 60.0,
-        "composite_score": 54.38,
-        "passes_quality_gate": true,
-        "quality_gate": 60.0,
-        "weights": {
-          "momentum": 0.25,
-          "quality": 0.25,
-          "community": 0.2,
-          "adoption": 0.2
-        }
-      },
-      "stars_total": 61602,
-      "primary_language": "Python",
       "public_topics": [
         "developer_tools"
       ]
@@ -595,11 +595,11 @@
       "full_name": "modelcontextprotocol/modelcontextprotocol",
       "repo_id": "c6f91287e14c5f7db055587a",
       "score": {
-        "momentum_score": 69.04,
+        "momentum_score": 69.03,
         "quality_score": 87.5,
         "community_score": 15.0,
-        "adoption_score": 59.8,
-        "composite_score": 54.1,
+        "adoption_score": 59.81,
+        "composite_score": 54.09,
         "passes_quality_gate": true,
         "quality_gate": 60.0,
         "weights": {
@@ -609,7 +609,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 9553,
+      "stars_total": 9561,
       "primary_language": "TypeScript",
       "public_topics": []
     },
@@ -617,7 +617,7 @@
       "full_name": "OpenZeppelin/openzeppelin-contracts",
       "repo_id": "46b61357a8a45fc29dd65b99",
       "score": {
-        "momentum_score": 53.71,
+        "momentum_score": 53.7,
         "quality_score": 87.5,
         "community_score": 15.0,
         "adoption_score": 60.0,
@@ -642,7 +642,7 @@
       "full_name": "maplibre/maplibre-gl-js",
       "repo_id": "89eaed0e1b305f118635d410",
       "score": {
-        "momentum_score": 41.86,
+        "momentum_score": 41.87,
         "quality_score": 87.5,
         "community_score": 15.0,
         "adoption_score": 60.0,
@@ -656,7 +656,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 11965,
+      "stars_total": 11973,
       "primary_language": "TypeScript",
       "public_topics": []
     },
@@ -664,7 +664,7 @@
       "full_name": "neo4j/neo4j",
       "repo_id": "cf1a3fdeafe85743b9f26b54",
       "score": {
-        "momentum_score": 27.17,
+        "momentum_score": 27.18,
         "quality_score": 87.5,
         "community_score": 15.0,
         "adoption_score": 60.0,
@@ -678,7 +678,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 17370,
+      "stars_total": 17376,
       "primary_language": "Java",
       "public_topics": []
     },
@@ -700,7 +700,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 15887,
+      "stars_total": 15888,
       "primary_language": "JavaScript",
       "public_topics": [
         "developer_tools",
@@ -712,11 +712,11 @@
       "full_name": "anthropics/anthropic-sdk-python",
       "repo_id": "baec684f2e3353a1b5295654",
       "score": {
-        "momentum_score": 23.8,
+        "momentum_score": 23.82,
         "quality_score": 87.5,
         "community_score": 15.0,
         "adoption_score": 56.04,
-        "composite_score": 42.03,
+        "composite_score": 42.04,
         "passes_quality_gate": true,
         "quality_gate": 60.0,
         "weights": {
@@ -726,7 +726,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 4016,
+      "stars_total": 4021,
       "primary_language": "Python",
       "public_topics": [
         "developer_tools"
@@ -739,8 +739,8 @@
         "momentum_score": 6.88,
         "quality_score": 87.5,
         "community_score": 15.0,
-        "adoption_score": 52.04,
-        "composite_score": 37.0,
+        "adoption_score": 52.06,
+        "composite_score": 37.01,
         "passes_quality_gate": true,
         "quality_gate": 60.0,
         "weights": {
@@ -750,7 +750,7 @@
           "adoption": 0.2
         }
       },
-      "stars_total": 2252,
+      "stars_total": 2254,
       "primary_language": "PLpgSQL",
       "public_topics": []
     }
