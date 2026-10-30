@@ -2,19 +2,424 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-29T17:00:54Z",
-  "new_this_run": 6,
-  "total_influencers": 540,
+  "updated_at": "2026-10-30T16:44:34Z",
+  "new_this_run": 9,
+  "total_influencers": 549,
   "run_summary": {
-    "run_started_at": "2026-10-29T17:00:33Z",
-    "candidate_count": 17,
-    "existing_count": 534,
-    "selected_new_count": 6,
+    "run_started_at": "2026-10-30T16:44:17Z",
+    "candidate_count": 18,
+    "existing_count": 540,
+    "selected_new_count": 9,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCUfe_kCQw2Bzk0hswlzy3rw",
+      "external_id": "UCUfe_kCQw2Bzk0hswlzy3rw",
+      "name": "Dr. Angel Williams Nova Peptide Therapy | Physical",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCUfe_kCQw2Bzk0hswlzy3rw",
+      "discovered_on": "2026-10-30",
+      "score": 71.17,
+      "metrics": {
+        "subscribers": 59300,
+        "total_views": 1613156,
+        "video_count": 114,
+        "avg_views_per_video": 14150.49,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "KNliBZPKLjQ",
+            "title": "NOVA Physical &amp; Peptide Therapy Clinic",
+            "description": "NOVA Physical & Peptide Therapy Clinic (Nova Regenerative Orthopedics, part of Nova Medical Centers) is an integrative ...",
+            "published_at": "2026-10-29T22:45:28Z",
+            "url": "https://www.youtube.com/watch?v=KNliBZPKLjQ"
+          }
+        ],
+        "channel_description": "NOVA Physical & Peptide Therapy Clinic (Nova Regenerative Orthopedics, part of Nova Medical Centers) is an integrative orthopedic and sports rehabilitation clinic. It pairs mechanical rehabilitation, meaning physical therapy, with cellular repair through physician-guided biologics and peptides, where appropriate. Physical therapy sets how much load an injured tendon, ligament or joint takes on and when. A physician decides, after an in-person evaluation, whether any peptide therapy belongs in the plan at all. Your therapist and physician work from the same chart, so care is timed across early, middle and late recovery and progress follows criteria rather than the calendar.",
+        "latest_video_at": "2026-10-29T22:45:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCDmzRxMPkmfPrQD9kctu5tw",
+      "external_id": "UCDmzRxMPkmfPrQD9kctu5tw",
+      "name": "Bonita Insideout",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCDmzRxMPkmfPrQD9kctu5tw",
+      "discovered_on": "2026-10-30",
+      "score": 70.58,
+      "metrics": {
+        "subscribers": 60400,
+        "total_views": 3740870,
+        "video_count": 356,
+        "avg_views_per_video": 10508.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "O3dCwezBBX4",
+            "title": "Blondie DM’s Ep.26: Nuevos planes, GLP-1, péptidos y todas tus dudas | Ep. 25",
+            "description": "En este episodio de Blondie DM's hablamos de nuevos planes, las metas que queremos lograr, mil cambios y todo lo que está ...",
+            "published_at": "2026-10-30T12:41:02Z",
+            "url": "https://www.youtube.com/watch?v=O3dCwezBBX4"
+          }
+        ],
+        "channel_description": "Bonita Insideout es el resultado de muchos años de cuestionamientos y búsquedas de respuestas reales. Llegó el momento de cambiar los estándares establecidos de belleza, ser fiel a nuestra esencia, cultivar el amor propio y mirar hacia adentro. Hildelisa Beltrán, fundadora de Beautyjunkies, creó esta plataforma para invitarte a vivir la verdadera belleza real, sin filtros.\n",
+        "latest_video_at": "2026-10-30T12:41:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCzcOBFH_BM0IJ8MWtzERT3Q",
+      "external_id": "UCzcOBFH_BM0IJ8MWtzERT3Q",
+      "name": "Dr. Poonam Desai",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCzcOBFH_BM0IJ8MWtzERT3Q",
+      "discovered_on": "2026-10-30",
+      "score": 70.4,
+      "metrics": {
+        "subscribers": 13800,
+        "total_views": 29700538,
+        "video_count": 387,
+        "avg_views_per_video": 76745.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "ChAL6JDFhU8",
+            "title": "Don’t Buy Peptides Online Until You Watch This | Two Longevity Doctors",
+            "description": "High school and middle school students are buying peptides online. Sorority girls are splitting one vial of retatrutide, a peptide that ...",
+            "published_at": "2026-10-30T12:00:23Z",
+            "url": "https://www.youtube.com/watch?v=ChAL6JDFhU8"
+          }
+        ],
+        "channel_description": "Welcome to Longevity with Dr. Poonam Desai.\nThis channel is for people who want to live longer and better—without hype, trends, or misinformation. Led by Dr. Poonam Desai, a world-renowned physician and longevity expert, each video delivers clear, evidence-based guidance on the real drivers of long-term health: metabolism, hormones, weight loss, GLP-1 medications, nutrition, sleep, prevention, and aging well.\n\nNo fluff. No gimmicks. No influencer wellness. Just real medicine translated into practical, actionable advice you can use immediately. Whether you want to optimize energy, reverse metabolic dysfunction, understand the science behind weight loss, or take control of your health trajectory, this channel respects your time and gives you answers that change outcomes.\n\nSubscribe for expert interviews, clinical insights, and honest conversations about what actually works in longevity medicine.\n",
+        "latest_video_at": "2026-10-30T12:00:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCew-fc5V_eA7osRgBTn9SVQ",
+      "external_id": "UCew-fc5V_eA7osRgBTn9SVQ",
+      "name": "Dr. Wendy Myers",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCew-fc5V_eA7osRgBTn9SVQ",
+      "discovered_on": "2026-10-30",
+      "score": 65.5,
+      "metrics": {
+        "subscribers": 33800,
+        "total_views": 2825135,
+        "video_count": 1238,
+        "avg_views_per_video": 2282.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "THOEKGYNxvY",
+            "title": "There’s a reason BPC-157 is called the Wolverine peptide.",
+            "description": "In episode 667, Awais Spall calls it the most popular peptide out there, and extremely, extremely reparative. He got his first ...",
+            "published_at": "2026-10-30T04:30:16Z",
+            "url": "https://www.youtube.com/watch?v=THOEKGYNxvY"
+          }
+        ],
+        "channel_description": "Dr. Wendy Myers ND is on a mission to help millions figure out that last missing piece of the puzzle in resolving their fatigue, brain fog and health issues - heavy metal detox. Wendy reveals cutting edge science-backed tips on heavy metal detoxification, heavy metals testing, detox protocols like infrared saunas, ideal detox diet, weight loss, thyroid conditions, adrenal fatigue & surprising hidden sources of heavy metal toxicity & shares new videos every week for you!\n\nTune in to hear how heavy metals & chemicals create fatigue, brain fog, hormone imbalance, resistant weight loss & disease. Wendy is a detox expert, functional diagnostic nutritionist and the #1 bestselling author of Limitless Energy. Free yourself from fatigue & brain fog with her Myers Detox Protocol, developed over working with thousands of clients. Visit MyersDetox.com to get transcripts and videos of all podcasts, hundreds of articles, & recipes to aid detox.\n",
+        "latest_video_at": "2026-10-30T04:30:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC_iJB8TOXYgmy_zUYo2Vf0A",
+      "external_id": "UC_iJB8TOXYgmy_zUYo2Vf0A",
+      "name": "Frequency Heal",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC_iJB8TOXYgmy_zUYo2Vf0A",
+      "discovered_on": "2026-10-30",
+      "score": 62.98,
+      "metrics": {
+        "subscribers": 6970,
+        "total_views": 969474,
+        "video_count": 148,
+        "avg_views_per_video": 6550.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "jL0wQE08c2o",
+            "title": "TB 500 Synthetic Peptide Sine Wave Healing",
+            "description": "TB‑500 Molecular Weight Frequency | Regenerative Healing Ambience | Futuristic Underwater Medical Settlement Dear ...",
+            "published_at": "2026-10-30T10:12:42Z",
+            "url": "https://www.youtube.com/watch?v=jL0wQE08c2o"
+          }
+        ],
+        "channel_description": "This channel is dedicate to utilize healing knowledge of Enlil or Shiva, how he perform his role as the healer of the universe, \n- Shiva as the Adi Vaidya (Primordial Doctor):  \n\nEnlil/Shiva have mastered every aspect of healing—physical, mental, spiritual—and imparted the knowledge of Ayurveda, the science of life, to sages like Dhanvantari/Vishnu, considered the deity of medicine.\nAyurveda: Shiva’s Gift to Humanity\nAyurveda isn’t just folk medicine—it’s a sophisticated natural system rooted in balance. According to Vedic belief, Lord Shiva blessed the world with it through divine transmission.\n\nVibrational Healing: The Power of Frequency\n\nLord Shiva is deeply connected with sound and frequency. The famous mantra \"Om Namah Shivaya\" isn’t just devotional—it’s vibrational medicine. \nBy chanting OM/AUM universal frequencies and imbue the nature's gifts from Ayurveda, it became a transformative tool for the body to rejuvenation, fostering inner peace, and facilitating spiritual growth.\n\n",
+        "latest_video_at": "2026-10-30T10:12:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCERMHtQCCzDNH5pLIsyDKow",
+      "external_id": "UCERMHtQCCzDNH5pLIsyDKow",
+      "name": "The Ashley Nicole Show",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCERMHtQCCzDNH5pLIsyDKow",
+      "discovered_on": "2026-10-30",
+      "score": 60.42,
+      "metrics": {
+        "subscribers": 21600,
+        "total_views": 3581933,
+        "video_count": 8690,
+        "avg_views_per_video": 412.19,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "nd91XaeTfH8",
+            "title": "People Don’t Buy What They Don’t Understand 🔥",
+            "description": "What's the biggest sales challenge in your business right now? Hers is helping people understand what her service is. When I ...",
+            "published_at": "2026-10-29T20:31:38Z",
+            "url": "https://www.youtube.com/watch?v=nd91XaeTfH8"
+          }
+        ],
+        "channel_description": "This channel is for experts and entrepreneurs who want to make more sales. You’ll get behind-the-scenes of us building our business and actionable on-demand training to grow your business! I'm Ashley, a former corporate attorney turned entrepreneur, dedicated to solving the small business sales problem around the globe. After growing one of the fastest growing sales training companies in America - as named by Inc. Magazine, I’m here to help you increase sales. \n\nWhat You Can Expect Here:\n💰Speak Your Way To Cash Podcast: Learn actionable sales strategies to grow your company!\n💰Behind The Build: Watch our reality-style VLOG showing you the day-to-day of a seven figure business.\n\n📚 Grab the first part of my book Speak Your Way To Cash FREE: https://www.speakyourwaytocash.com/BookPreviewLive\n\n\n💰Attend my next FREE training: www.speakyourwaytocashsummit.com",
+        "latest_video_at": "2026-10-29T20:31:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCYBPiZXjEd0flX-5Y8otT9g",
+      "external_id": "UCYBPiZXjEd0flX-5Y8otT9g",
+      "name": "Cortney Swann",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCYBPiZXjEd0flX-5Y8otT9g",
+      "discovered_on": "2026-10-30",
+      "score": 57.9,
+      "metrics": {
+        "subscribers": 6740,
+        "total_views": 563674,
+        "video_count": 853,
+        "avg_views_per_video": 660.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "QiVJLU-ffk8",
+            "title": "Unboxing!! New beauty peptides for cellulite, wrinkles, tightening skin and scars | Cortney Swann",
+            "description": "Beautiful Yu: Introducing GET UP AND GO BUNDLE from Yū! Here's what you'll get: Limited Edition Performance Yū Hat ...",
+            "published_at": "2026-10-30T13:38:14Z",
+            "url": "https://www.youtube.com/watch?v=QiVJLU-ffk8"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-30T13:38:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCud8We078bnfyIHiRLnEJgQ",
+      "external_id": "UCud8We078bnfyIHiRLnEJgQ",
+      "name": "Enter the Lionheart Podcast",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCud8We078bnfyIHiRLnEJgQ",
+      "discovered_on": "2026-10-30",
+      "score": 56.88,
+      "metrics": {
+        "subscribers": 4500,
+        "total_views": 168741,
+        "video_count": 232,
+        "avg_views_per_video": 727.33,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "nwgLvGZBIZg",
+            "title": "#238 – Dr. Jeff Gross: Biohacking Longevity &amp; Performance with Peptides",
+            "description": "Dr. Jeff Gross is neurosurgeon turned regenerative/longevity specialist at Recellebrate. He frequently discusses peptides for ...",
+            "published_at": "2026-10-29T17:07:17Z",
+            "url": "https://www.youtube.com/watch?v=nwgLvGZBIZg"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-29T17:07:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCSOMjYIzr4Z8NDo5hQhT4bA",
+      "external_id": "UCSOMjYIzr4Z8NDo5hQhT4bA",
+      "name": "Sherlock Crow",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCSOMjYIzr4Z8NDo5hQhT4bA",
+      "discovered_on": "2026-10-30",
+      "score": 50.66,
+      "metrics": {
+        "subscribers": 3030,
+        "total_views": 2418,
+        "video_count": 34,
+        "avg_views_per_video": 71.12,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "82RnQOHQwYo",
+            "title": "TB-500: The &quot;Healing&quot; Peptide Sold for Racehorses #shorts",
+            "description": "What is TB-500 and is it tested in humans? TB-500 was sold as a performance product for racehorses and racing greyhounds.",
+            "published_at": "2026-10-30T13:00:15Z",
+            "url": "https://www.youtube.com/watch?v=82RnQOHQwYo"
+          }
+        ],
+        "channel_description": "🕵️ I'm Sherlock Crow. I investigate the everyday things everybody agrees are harmless: habits, health shortcuts, products and decisions millions of people make without thinking.\n\nEvery video is a case, and you're in it. Step by step you see what actually happens, and what the research really says.\n\nI'm not blaming you for believing it. That's on whoever built it and sold it. I only claim what can be documented, every source is listed under the video, and where the evidence runs out, I say so.\n\n🔍 One case. One habit. The whole story.\n🔔 Subscribe so you don't miss the next file.\n\n🪶 This is probably nothing.\n",
+        "latest_video_at": "2026-10-30T13:00:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCSMPDnupEqEUIhzHqsGCr1Q",
       "external_id": "UCSMPDnupEqEUIhzHqsGCr1Q",

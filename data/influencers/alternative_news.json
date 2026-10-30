@@ -2,19 +2,887 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-10-29T17:00:43Z",
-  "new_this_run": 5,
-  "total_influencers": 993,
+  "updated_at": "2026-10-30T16:44:25Z",
+  "new_this_run": 20,
+  "total_influencers": 1013,
   "run_summary": {
-    "run_started_at": "2026-10-29T17:00:33Z",
-    "candidate_count": 11,
-    "existing_count": 988,
-    "selected_new_count": 5,
+    "run_started_at": "2026-10-30T16:44:17Z",
+    "candidate_count": 28,
+    "existing_count": 993,
+    "selected_new_count": 20,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCEKe0RxzqPRLgTNB_kAk4pw",
+      "external_id": "UCEKe0RxzqPRLgTNB_kAk4pw",
+      "name": "Rameshth Neekhra ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCEKe0RxzqPRLgTNB_kAk4pw",
+      "discovered_on": "2026-10-30",
+      "score": 73.22,
+      "metrics": {
+        "subscribers": 46600,
+        "total_views": 10041364,
+        "video_count": 124,
+        "avg_views_per_video": 80978.74,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "5rO83HUdZJ0",
+            "title": "MODI WANTED TOTAL CONTROL… BUT FAILED?",
+            "description": "MODI WANTED TOTAL CONTROL… BUT FAILED? In this video, we dive deep into the changing landscape of Indian media and ...",
+            "published_at": "2026-10-29T15:00:03Z",
+            "url": "https://www.youtube.com/watch?v=5rO83HUdZJ0"
+          }
+        ],
+        "channel_description": "I talk about Business, Political Stories, Social Issues, and Geopolitics.\n\nIf you care about what’s happening around you and want to understand it better then this channel is for you.\n\n📩 For business: rameshth@repcreators.com\n",
+        "latest_video_at": "2026-10-29T15:00:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCUF37fUphmbJmor8ALRJzuQ",
+      "external_id": "UCUF37fUphmbJmor8ALRJzuQ",
+      "name": "Hans Salazar",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCUF37fUphmbJmor8ALRJzuQ",
+      "discovered_on": "2026-10-30",
+      "score": 71.63,
+      "metrics": {
+        "subscribers": 98500,
+        "total_views": 14892277,
+        "video_count": 1729,
+        "avg_views_per_video": 8613.23,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "AmgioSrpMaQ",
+            "title": "🔴 De los pasillos de TV Azteca al periodismo libre: cómo conoció Ana María Vázquez a Javier Alatorre",
+            "description": "Entre risas, recuerdos y crudas verdades, Ana María platica cómo fue su época en la televisión, cómo conoció a Javier Alatorre y ...",
+            "published_at": "2026-10-29T21:00:10Z",
+            "url": "https://www.youtube.com/watch?v=AmgioSrpMaQ"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-29T21:00:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJs8XcbHCv4sZjeTSO1tjkQ",
+      "external_id": "UCJs8XcbHCv4sZjeTSO1tjkQ",
+      "name": "GorePravda",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJs8XcbHCv4sZjeTSO1tjkQ",
+      "discovered_on": "2026-10-30",
+      "score": 70.94,
+      "metrics": {
+        "subscribers": 22600,
+        "total_views": 59373608,
+        "video_count": 1208,
+        "avg_views_per_video": 49150.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "M951Fss4v5g",
+            "title": "Миллиарды на блокировки интернета: отчет",
+            "description": "Российские власти пересмотрели бюджетные планы, выделив колоссальную сумму на развитие системы суверенного ...",
+            "published_at": "2026-10-30T08:17:56Z",
+            "url": "https://www.youtube.com/watch?v=M951Fss4v5g"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-30T08:17:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOzsvCb0KteNrzUboTonVYA",
+      "external_id": "UCOzsvCb0KteNrzUboTonVYA",
+      "name": "News.de",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCOzsvCb0KteNrzUboTonVYA",
+      "discovered_on": "2026-10-30",
+      "score": 69.85,
+      "metrics": {
+        "subscribers": 26700,
+        "total_views": 37023496,
+        "video_count": 6243,
+        "avg_views_per_video": 5930.4,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "YeyVH801Vmc",
+            "title": "Wladimir Putin: Zensurpolitik eskaliert – Kremlchef lässt Bücher schreddern",
+            "description": "Putins Zensurpolitik wird für Russlands Buchhandel zur teuren Belastung. Eine große Buchhandelskette muss unerwünschte ...",
+            "published_at": "2026-10-29T18:03:38Z",
+            "url": "https://www.youtube.com/watch?v=YeyVH801Vmc"
+          },
+          {
+            "query": "censorship news",
+            "video_id": "A-r7CHB8L5c",
+            "title": "Wladimir Putin: Zensurpolitik eskaliert – Kremlchef lässt Bücher schreddern",
+            "description": "Putins Zensurpolitik wird für Russlands Buchhandel zur teuren Belastung. Eine große Buchhandelskette muss unerwünschte ...",
+            "published_at": "2026-10-29T18:03:33Z",
+            "url": "https://www.youtube.com/watch?v=A-r7CHB8L5c"
+          }
+        ],
+        "channel_description": "Mit news.de verpasst du nichts, was Deutschland und die Welt bewegt!\nOb brisante Politik-Entscheidungen, hilfreiche Ratgeber für den Alltag, kuriose Schlagzeilen oder die heißesten Promi-News – wir liefern dir täglich die spannendsten Geschichten aus allen Lebensbereichen.\n\nMit news.de bist du immer top-informiert!",
+        "latest_video_at": "2026-10-29T18:03:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC_YrL30WSaBA-No91s1201Q",
+      "external_id": "UC_YrL30WSaBA-No91s1201Q",
+      "name": "Palvi Agrico",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC_YrL30WSaBA-No91s1201Q",
+      "discovered_on": "2026-10-30",
+      "score": 69.02,
+      "metrics": {
+        "subscribers": 44900,
+        "total_views": 10596711,
+        "video_count": 1362,
+        "avg_views_per_video": 7780.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "UGA5xbV5G6s",
+            "title": "हरण्याची नाही, आकड्यांची चर्चा! अपक्ष चेहरे, पण धडाकेबाज आकडे!  #news #agriculture #viral #farming",
+            "description": "निवडणुकीच्या राजकारणात पक्षांच्या उमेदवारांसोबतच अपक्ष चेहरेही ...",
+            "published_at": "2026-10-30T10:15:13Z",
+            "url": "https://www.youtube.com/watch?v=UGA5xbV5G6s"
+          }
+        ],
+        "channel_description": "🌴Palvi agrico🌴\n\n\"माहिती हिताची, शेतकऱ्यांच्या प्रगतीची\"\n\nPalvi Agrico हे एक आधुनिक, माहितीपूर्ण आणि विश्वासार्ह डिजिटल व्यासपीठ आहे, जे शेतकऱ्यांसाठी शेतकऱ्यांच्या भाषेत उपयोगी माहिती घेऊन येतं.\n\nPalvi Agrico प्लॅटफॉर्मवरती दररोज मिळवा -\n✅ शेतमालाचे ताजे बाजारभाव\n✅ हवामान अंदाज आणि पीक सल्ला\n✅ आधुनिक शेती तंत्रज्ञान आणि मार्केट ट्रेंड्स\n✅ यशस्वी शेतकऱ्यांच्या यशोगाथा\n✅ सरकारी योजना, अनुदान, सबसिडी माहिती \n\nदररोज नवीन व्हिडिओ, अपडेट्स आणि सविस्तर मार्गदर्शन\n\n📱 YouTube, Instagram आणि Facebook वर Follow/Subscribe करा – Palvi Agrico\n\nआता तुम्हीही या पुढाकाराचा भाग बना.\n\nअधिक माहितीसाठी- \n📞 टोल फ्री संपर्क- 1800 889 7311\n🌐 वेबसाईट- www.palviagro.co.in\n\nशेती होणार स्मार्ट, मोबाईलच्या एका क्लिकवर – Palvi Agrico\n",
+        "latest_video_at": "2026-10-30T10:15:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCfTl-fVvi5ruFDDMNhdML1g",
+      "external_id": "UCfTl-fVvi5ruFDDMNhdML1g",
+      "name": "Edition Tv Keralam",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCfTl-fVvi5ruFDDMNhdML1g",
+      "discovered_on": "2026-10-30",
+      "score": 68.07,
+      "metrics": {
+        "subscribers": 8680,
+        "total_views": 2056761,
+        "video_count": 41,
+        "avg_views_per_video": 50164.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "Xel4n2hsLaA",
+            "title": "CJP സമരം: ഇൻസ്റ്റാഗ്രാമിൽ നിന്ന് വീഡിയോകൾ നീക്കം ചെയ്യുന്നത് എന്തുകൊണ്ട്? അഭിജിത് ദീപക്കിന്റെ വലിയ",
+            "description": "CJP Protest Latest News | Abhijeet Dipke | Delhi Protest 2026 | Instagram Video Ban | Social Media Censorship | Freedom of ...",
+            "published_at": "2026-10-30T14:15:35Z",
+            "url": "https://www.youtube.com/watch?v=Xel4n2hsLaA"
+          }
+        ],
+        "channel_description": "എഡിഷൻ ടിവി കേരളം (EditionTV Keralam) കേരളത്തിൽ നിന്നും ഇന്ത്യയുടെ വിവിധ ഭാഗങ്ങളിൽ നിന്നും ലോകമെമ്പാടുമുള്ള ഏറ്റവും പുതിയ വാർത്തകളും ബ്രേക്കിംഗ് ന്യൂസുകളും പ്രധാന സംഭവവികാസങ്ങളും നിങ്ങൾക്ക് മുന്നിലെത്തിക്കുന്നു.\n\nരാഷ്ട്രീയം, ബിസിനസ്, സാങ്കേതികവിദ്യ, കായികം, വിനോദം, സമകാലിക വിഷയങ്ങൾ എന്നിവയിലെ ഏറ്റവും പുതിയ വാർത്തകളും അപ്‌ഡേറ്റുകളും അറിയൂ.\n\nഏറ്റവും പുതിയ വാർത്തകൾക്കും പ്രധാന സംഭവവികാസങ്ങൾക്കും തത്സമയ അപ്‌ഡേറ്റുകൾക്കുമായി EditionTV Keralam സബ്‌സ്‌ക്രൈബ് ചെയ്യൂ.\n\nEditionTV Keralam brings you the latest news, breaking updates and important developments from Kerala, India and around the world.\n\nGet updates on politics, business, technology, sports, entertainment and current affairs.\n\nSubscribe to EditionTV Kerlam for the latest news, updates and important stories.\n",
+        "latest_video_at": "2026-10-30T14:15:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoxXz76h04vHUa5YgqOwAJA",
+      "external_id": "UCoxXz76h04vHUa5YgqOwAJA",
+      "name": "HarSukh Tv USA",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCoxXz76h04vHUa5YgqOwAJA",
+      "discovered_on": "2026-10-30",
+      "score": 67.51,
+      "metrics": {
+        "subscribers": 78200,
+        "total_views": 37065625,
+        "video_count": 13105,
+        "avg_views_per_video": 2828.36,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "hKHzOo8TCkg",
+            "title": "Punjab ਵਿੱਚ Media ਦੀ ਕੀ ਹਾਲਤ? #mansaprotest #punjabmedia #parwinderjhota #punjabnews #harsukhtvusa",
+            "description": "Punjab ਵਿੱਚ Media ਦੀ ਕੀ ਹਾਲਤ? #mansaprotest #punjabmedia #parwinderjhota #punjabnews #harsukhtvusa ...",
+            "published_at": "2026-10-29T13:05:50Z",
+            "url": "https://www.youtube.com/watch?v=hKHzOo8TCkg"
+          }
+        ],
+        "channel_description": "Welcome to HarSukh Broadcasting Inc, a premier global media network and the corporate home of HarSukh Tv USA, HarSukh Tv, HarSukh Records, and HarSukh Digitals.\nLaunched in 2023 with our flagship American network, the HarSukhTV bouquet has rapidly expanded into a powerful broadcasting force serving the global diaspora. Operating out of our state-of-the-art production studios in California, we deliver premium culture, entertainment, music, and talk shows.\n\n🌍 GLOBAL REACH: US | UK | Europe | Canada | Australia | New Zealand | India\n📺 BROADCAST QUALITY: 100% shot and transmitted in pristine Full HD & Ultra HD 4K.\n\n💼 COMMERCIAL PARTNERSHIPS:\nOpen to global ad placements, brand integrations, podcast sponsorships, and media syndication. Backed by our promotional arm, HarSukh Digitals, we scale your brand's international reach.\n\nFor ad rates, shows, news, podcast or talent booking:\nWhatsapp: +1 (209) 606-9761\nCall: +1 (209) 399-1727\nEmail: info@harsukhtv.com\nWebsite: https://harsukhtv.com/\n",
+        "latest_video_at": "2026-10-29T13:05:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCAZUhlJoAyh6Sjw5HDPdt1w",
+      "external_id": "UCAZUhlJoAyh6Sjw5HDPdt1w",
+      "name": "MULTIVERSO POLÍTICO ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCAZUhlJoAyh6Sjw5HDPdt1w",
+      "discovered_on": "2026-10-30",
+      "score": 67.23,
+      "metrics": {
+        "subscribers": 33800,
+        "total_views": 42494064,
+        "video_count": 8385,
+        "avg_views_per_video": 5067.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "WLl7aHYFDSc",
+            "title": "Revista Oeste  Jornalismo Independente Graças aos Assinantes",
+            "description": "",
+            "published_at": "2026-10-30T16:00:15Z",
+            "url": "https://www.youtube.com/watch?v=WLl7aHYFDSc"
+          }
+        ],
+        "channel_description": "Conteúdo político, discorde mas não desrespeite!",
+        "latest_video_at": "2026-10-30T16:00:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRNPdAfK5Mp8ORtjUt3Q8UA",
+      "external_id": "UCRNPdAfK5Mp8ORtjUt3Q8UA",
+      "name": "The Moscow Times",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCRNPdAfK5Mp8ORtjUt3Q8UA",
+      "discovered_on": "2026-10-30",
+      "score": 66.97,
+      "metrics": {
+        "subscribers": 28100,
+        "total_views": 12029795,
+        "video_count": 2066,
+        "avg_views_per_video": 5822.75,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "AZMrWljlyeE",
+            "title": "Russia’s Oldest Independent Newspaper, Novaya Gazeta, Announces Closure",
+            "description": "The Moscow Times is Russia's leading independent English-language media outlet. We provide readers across the world with ...",
+            "published_at": "2026-10-30T14:02:52Z",
+            "url": "https://www.youtube.com/watch?v=AZMrWljlyeE"
+          }
+        ],
+        "channel_description": "The Moscow Times has operated from Moscow for the past 30 years. As Russia’s oldest independent English-language media, we have always worked to give the world an unbiased perspective on Russian life and politics.\n\nWe hope you will support us on this difficult journey: https://www.themoscowtimes.com/contribute\n",
+        "latest_video_at": "2026-10-30T14:02:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCxHAF4DEfBBQFnRf_sSfltw",
+      "external_id": "UCxHAF4DEfBBQFnRf_sSfltw",
+      "name": "Serra News | RJ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCxHAF4DEfBBQFnRf_sSfltw",
+      "discovered_on": "2026-10-30",
+      "score": 66.18,
+      "metrics": {
+        "subscribers": 22200,
+        "total_views": 18132971,
+        "video_count": 3212,
+        "avg_views_per_video": 5645.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "jGV2t4VzCNU",
+            "title": "Censura nas redes? Declaração de ministro de Lula gera debate",
+            "description": "",
+            "published_at": "2026-10-29T20:24:30Z",
+            "url": "https://www.youtube.com/watch?v=jGV2t4VzCNU"
+          }
+        ],
+        "channel_description": "Canal oficial do Serra News.\nReferência em jornalismo na Região Serrana e interior do Rio de Janeiro.\nNotícias atualizadas, cobertura regional e informação com credibilidade.\nSe é notícia na sua cidade, está aqui.",
+        "latest_video_at": "2026-10-29T20:24:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCabtaGQvHpvPMoZfGM1dmRQ",
+      "external_id": "UCabtaGQvHpvPMoZfGM1dmRQ",
+      "name": "familyfirstnz",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCabtaGQvHpvPMoZfGM1dmRQ",
+      "discovered_on": "2026-10-30",
+      "score": 64.67,
+      "metrics": {
+        "subscribers": 27900,
+        "total_views": 8423299,
+        "video_count": 2598,
+        "avg_views_per_video": 3242.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "ZAtN8maQr7g",
+            "title": "Media are PR machines for Opportunity and Greens",
+            "description": "Analysis shows our state-funded broadcasters (TVNZ and RNZ) to be PR machines for Opportunity and the Greens Peter ...",
+            "published_at": "2026-10-29T03:56:04Z",
+            "url": "https://www.youtube.com/watch?v=ZAtN8maQr7g"
+          }
+        ],
+        "channel_description": "In 2006 we formed Family First New Zealand, as a voice in the public domain – to champion strong and stable families, to promote the institution of marriage, and to protect life from conception through to natural death. \n\nWe believe strong marriages and connected families lead to a strong nation. Sadly the reverse is true also. Family breakdown leads to significant social cost – both to individuals and to society. \n\nFamily First advocates for families, and speaks common sense and values on a broad range of family issues. \n\n#familyfirst #familyfirstnz #family #conservativemedia \n",
+        "latest_video_at": "2026-10-29T03:56:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVkuGA69kAO8hOrTmF3qPoA",
+      "external_id": "UCVkuGA69kAO8hOrTmF3qPoA",
+      "name": " VARIEDADES NOTÍCIAS, POLÍTICA E HUMOR",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCVkuGA69kAO8hOrTmF3qPoA",
+      "discovered_on": "2026-10-30",
+      "score": 63.14,
+      "metrics": {
+        "subscribers": 14000,
+        "total_views": 2615762,
+        "video_count": 986,
+        "avg_views_per_video": 2652.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "qqfAiDZdouQ",
+            "title": "chegou a censura #noticias #nikolasferreira #gustavogayer #flaviobolsonaro",
+            "description": "",
+            "published_at": "2026-10-29T19:05:10Z",
+            "url": "https://www.youtube.com/watch?v=qqfAiDZdouQ"
+          }
+        ],
+        "channel_description": "MATEUS 7:20 Portanto, pelos seus frutos os conhecereis.\n\nMateus 7:20\n\nNeste canal tratamos de assuntos variados como Saúde, geopolítica, eleições e notícias.\nAlgumas vezes vocês verão postagens e vídeos de humor, afinal nem tudo é tristeza.",
+        "latest_video_at": "2026-10-29T19:05:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOCF4vqXoG4fk_ZMH7Fyd-A",
+      "external_id": "UCOCF4vqXoG4fk_ZMH7Fyd-A",
+      "name": "crime expert news official",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCOCF4vqXoG4fk_ZMH7Fyd-A",
+      "discovered_on": "2026-10-30",
+      "score": 58.69,
+      "metrics": {
+        "subscribers": 2740,
+        "total_views": 2645506,
+        "video_count": 791,
+        "avg_views_per_video": 3344.51,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "Q0OYSeHjblk",
+            "title": "क्या स्वतंत्र पत्रकारिता पर पहरा लगा रही है वर्दी महिला पत्रकार को झूठे मुकदमे में फंसाने की कोशिश",
+            "description": "क्या स्वतंत्र पत्रकारिता पर पहरा लगा रही है वर्दी महिला पत्रकार को ...",
+            "published_at": "2026-10-30T10:48:52Z",
+            "url": "https://www.youtube.com/watch?v=Q0OYSeHjblk"
+          }
+        ],
+        "channel_description": "(पत्रकारो का सम्मान)\nक्राइम एक्सपर्ट न्यूज़ आप लोगों के साथ,, जब एक आम आदमी सिस्टम से परेशान होता है तो शासन प्रशासन की मदद लेता है। जब शासन प्रशासन से कोई सहयोग नहीं मिल पाता है तो पीड़ित पत्रकार से एक उम्मीद रखा रहता है कि पीड़ित की आवाज बनेगा और पीड़ित को इंसाफ दिलवाने में मदद करेंगे।\n\nकृपया आपके अगल-बगल कोई भी घटना होती है तो आप कृपया क्राइम एक्सपर्ट टीम को जानकारी दे सकते हैं।\nआपकी आवाज क्राइम एक्सपर्ट न्यूज़ बनेगा \nमोबाइल नंबर: 7458080490,\n\nरंजीत कुमार सोनकर (प्रधान संपादक) ",
+        "latest_video_at": "2026-10-30T10:48:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCGukyq3AvcxJ-xOsFrUkQlA",
+      "external_id": "UCGukyq3AvcxJ-xOsFrUkQlA",
+      "name": "FeniksYT",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCGukyq3AvcxJ-xOsFrUkQlA",
+      "discovered_on": "2026-10-30",
+      "score": 58.13,
+      "metrics": {
+        "subscribers": 2430,
+        "total_views": 1343324,
+        "video_count": 438,
+        "avg_views_per_video": 3066.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "NtJpi3qlqJk",
+            "title": "ПЕРВАЯ ЦЕНЗУРА | TWITCH ДРОПСЫ и НОВЫЕ АНИМАЦИИ  - STALZONE НОВОСТИ",
+            "description": "ПРОМОКОД 0% НА СТИМ - FENIKSONE ========================================= Вот и цензура добралось до ...",
+            "published_at": "2026-10-30T14:57:43Z",
+            "url": "https://www.youtube.com/watch?v=NtJpi3qlqJk"
+          }
+        ],
+        "channel_description": "Добро пожаловать на мой ютуб-канал!\n\n🔥 FeniksYT — канал о играх, которые хочется попробовать.\n\nЗдесь я рассказываю об играх, разбираю интересные события и механики, делюсь своим мнением, ищу необычные проекты и пробую разные игровые форматы.\n\nСейчас основная часть контента посвящена Stalzone, но постепенно здесь будет появляться всё больше других игр и проектов.\n\nОт новостей и разборов — до экспериментов, челленджей и совершенно неожиданных игровых приключений.\n\n🎮 Игры • Новости • Разборы • Мнения • Эксперименты\n\nА если хочется ещё больше разнообразного игрового контента — заглядывай на FeniksGames, мой второй канал.\n\nFeniksYT — играем не ради одной игры. 🔥\n",
+        "latest_video_at": "2026-10-30T14:57:43Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCtE4aTwBIvTAWnvN2OCcdNA",
+      "external_id": "UCtE4aTwBIvTAWnvN2OCcdNA",
+      "name": "TheElvora",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCtE4aTwBIvTAWnvN2OCcdNA",
+      "discovered_on": "2026-10-30",
+      "score": 57.92,
+      "metrics": {
+        "subscribers": 3530,
+        "total_views": 443544,
+        "video_count": 170,
+        "avg_views_per_video": 2609.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "uFjPlZ-_9cQ",
+            "title": "Mainstream Media Se Sawaal Kyun Nahi? | Indian Media Exposed #Shorts",
+            "description": "Jab desh mein pollution, broken roads, corruption, basic rights aur democracy se jude sawaal uth rahe the, tab mainstream media ...",
+            "published_at": "2026-10-29T14:00:32Z",
+            "url": "https://www.youtube.com/watch?v=uFjPlZ-_9cQ"
+          }
+        ],
+        "channel_description": "Welcome to TheElvora — जहाँ दुनिया की हर कहानी को समझने की कोशिश की जाती है।\n\nयहाँ आपको मिलेंगी History, Science, World, Technology, Human Civilization, Ancient History, Space, Nature, Mysteries, Important Events और Current Affairs से जुड़ी informative और research-based videos।\n\nहमारा उद्देश्य सिर्फ यह बताना नहीं है कि क्या हुआ, बल्कि यह समझाना है कि क्या हुआ, क्यों हुआ और उसके पीछे की पूरी कहानी क्या है।\n\nप्राचीन सभ्यताओं और dinosaurs से लेकर modern technology, दुनिया के बड़े घटनाक्रम और आज के महत्वपूर्ण मुद्दों तक — हम अलग-अलग topics को simple और engaging तरीके से explore करते हैं।\n\nTheElvora — दुनिया की हर कहानी, एक नई नज़र से।\n\nSubscribe करें और दुनिया को थोड़ा और करीब से जानिए।\n\n",
+        "latest_video_at": "2026-10-29T14:00:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJBSA5qRgtPEHjnJn1LugLQ",
+      "external_id": "UCJBSA5qRgtPEHjnJn1LugLQ",
+      "name": "The Wizards Words",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJBSA5qRgtPEHjnJn1LugLQ",
+      "discovered_on": "2026-10-30",
+      "score": 57.8,
+      "metrics": {
+        "subscribers": 6850,
+        "total_views": 571397,
+        "video_count": 927,
+        "avg_views_per_video": 616.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "QHil6C3HHXo",
+            "title": "This country needs to grow a backbone... immigration and censorship",
+            "description": "A knife-wielding migrant successfully climbed on board a small boat crossing the Channel just seconds after threatening to \"kill\" ...",
+            "published_at": "2026-10-30T15:00:10Z",
+            "url": "https://www.youtube.com/watch?v=QHil6C3HHXo"
+          }
+        ],
+        "channel_description": "News, Politics, Religion, The UK & Random Discussions..\nWed & Sun 1pm, Tues & Thurs 7pm\nThe ONLY Wizard On YouTube.\n\nThe Wiz does go randomly live on other days, sometimes things happen and The Wiz is straight on it!\n\nThe Wiz reviews various video's from YouTube and debates from the likes of  Whatever Podcast, Piers Morgan, GB News, Modern Day Debate and so much  more!\n\nBE WIZARD STAY WIZARD.... THAT'S THE WIZARDS WORDS..\n",
+        "latest_video_at": "2026-10-30T15:00:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDSLl534kZXkomzmdlZN8TA",
+      "external_id": "UCDSLl534kZXkomzmdlZN8TA",
+      "name": "William Makis MD (Official Channel)",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDSLl534kZXkomzmdlZN8TA",
+      "discovered_on": "2026-10-30",
+      "score": 56.71,
+      "metrics": {
+        "subscribers": 12100,
+        "total_views": 4675,
+        "video_count": 28,
+        "avg_views_per_video": 166.96,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "x_ePZT3YTzU",
+            "title": "BREAKING NEWS: Largest Ivermectin &amp; Mebendazole Paper claiming 84% Clinical benefit was RETRACTED",
+            "description": "BREAKING NEWS: Largest Ivermectin & Mebendazole Paper claiming 84% Clinical benefit was RETRACTED This is yet another ...",
+            "published_at": "2026-10-30T01:11:26Z",
+            "url": "https://www.youtube.com/watch?v=x_ePZT3YTzU"
+          }
+        ],
+        "channel_description": "Cancer Researcher. McGill Medicine Class of 2005. 110+ Published Papers. \nTop Substack: http://makisw.substack.com\n",
+        "latest_video_at": "2026-10-30T01:11:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYQEarPjat_qkjRQ-00kCHg",
+      "external_id": "UCYQEarPjat_qkjRQ-00kCHg",
+      "name": "HINDUSTANI",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCYQEarPjat_qkjRQ-00kCHg",
+      "discovered_on": "2026-10-30",
+      "score": 56.17,
+      "metrics": {
+        "subscribers": 3330,
+        "total_views": 702657,
+        "video_count": 882,
+        "avg_views_per_video": 796.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "n8az_7Ed4Vc",
+            "title": "&quot;सेंसरशिप से लड़ना है तो कोड लैंग्वेज सीखो&quot; | ASHUTOSH RANKA",
+            "description": "Reacting to social media takedowns and account suspensions, CJP leader Ashutosh Ranka urged netizens to use code words ...",
+            "published_at": "2026-10-29T19:09:16Z",
+            "url": "https://www.youtube.com/watch?v=n8az_7Ed4Vc"
+          }
+        ],
+        "channel_description": "Vartha Bharati Media House's new National Channel for Hindi & Urdu Audiences | Reliable news, in-depth reports, ground stories and thoughtful analysis",
+        "latest_video_at": "2026-10-29T19:09:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCbCrza2klNV5-MqeuXkfo9Q",
+      "external_id": "UCbCrza2klNV5-MqeuXkfo9Q",
+      "name": "HighLevel Techie",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCbCrza2klNV5-MqeuXkfo9Q",
+      "discovered_on": "2026-10-30",
+      "score": 53.63,
+      "metrics": {
+        "subscribers": 2020,
+        "total_views": 125596,
+        "video_count": 159,
+        "avg_views_per_video": 789.91,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "PpHsftvlbV8",
+            "title": "GoHighLevel Creator Studio: FREE Canva Alternative? (Full Tutorial)",
+            "description": "GoHighLevel just introduced Creator Studio, a new AI-powered design tool that could replace Canva for some users!",
+            "published_at": "2026-10-28T22:02:33Z",
+            "url": "https://www.youtube.com/watch?v=PpHsftvlbV8"
+          }
+        ],
+        "channel_description": "Hey, I’m Jithin, a HighLevel Certified Admin, and I created this channel for people who want more than surface-level tutorials and copy-paste snapshots.\n\nIf you’re looking for GoHighLevel how-to videos, advanced workflow automations, Voice AI training, API integrations, and real-world GHL workarounds, you’re in the right place.\n\nOn this channel, I share\n- Step-by-step GoHighLevel tutorials (beginner to advanced)\n- Advanced workflows, triggers, and automation logic\n- GoHighLevel Voice AI builds and training\n- API integrations, webhooks, and custom solutions\n- Practical workarounds when GHL hits its limits\n\nI focus on explaining the why, not just the clicks — so you can build clean, scalable systems that actually work in real businesses\n\nI respect your time. But I may over explain at times when I want to drive some points. But I do avoid any fluff. I don't even ask to subscribe. But if you love a good GHL workaround, hang around and be part of the journey\n\n\n⚡ Welcome to HighLevel Techie\n",
+        "latest_video_at": "2026-10-28T22:02:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCsu2ZX1CN6FiTdcEl2gd3uA",
+      "external_id": "UCsu2ZX1CN6FiTdcEl2gd3uA",
+      "name": "Dr. Ayguen Sahin - The Humanitarian Scientist ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCsu2ZX1CN6FiTdcEl2gd3uA",
+      "discovered_on": "2026-10-30",
+      "score": 51.61,
+      "metrics": {
+        "subscribers": 3330,
+        "total_views": 148917,
+        "video_count": 969,
+        "avg_views_per_video": 153.68,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "uGIldEbPrDI",
+            "title": "⚡URGENT: Are Tech Giants Taking Over Energy Supplies? | #ResponsibleAI #drayguensahin",
+            "description": "The 2026 Midterm elections are just around the corner, and the campaign trail is completely silent on the biggest looming crisis ...",
+            "published_at": "2026-10-29T14:00:16Z",
+            "url": "https://www.youtube.com/watch?v=uGIldEbPrDI"
+          }
+        ],
+        "channel_description": "Welcome to my channel, where rigorous science meets real-world human impact.\nAs a cancer scientist of 26 years experience, I break down complex world events through psychological, socio-psychological, and scientific analysis. This channel is your weekly dose of evidence-based critical thinking and personal empowerment.\n\nWhat You'll Find Here:\n- Every Sunday LIVE: Self-empowerment sessions to start your week strong\n- Weekly Analysis: World events through scientific lens\n- Educational Deep Dives: Psychology, neuroscience, and critical thinking\n- Current Event Breakdowns: The science behind what's happening now\n- Evidence-Based Personal Development: We don't do \"woo-woo\" stuff here!\n\nWhy This Channel Exists:\nIn a world of misinformation and one-size-fits-all solutions, I use my scientific background to help you think critically about current events while building genuine self-empowerment. Everything here is grounded in SCIENTIFIC and LIFE experience.",
+        "latest_video_at": "2026-10-29T14:00:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCKBknIMjyDBuCCMesl1F0Yw",
       "external_id": "UCKBknIMjyDBuCCMesl1F0Yw",
