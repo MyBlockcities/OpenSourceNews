@@ -2,19 +2,105 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-10-30T16:44:31Z",
-  "new_this_run": 3,
-  "total_influencers": 787,
+  "updated_at": "2026-10-31T15:47:36Z",
+  "new_this_run": 2,
+  "total_influencers": 789,
   "run_summary": {
-    "run_started_at": "2026-10-30T16:44:17Z",
-    "candidate_count": 49,
-    "existing_count": 784,
-    "selected_new_count": 3,
+    "run_started_at": "2026-10-31T15:47:23Z",
+    "candidate_count": 45,
+    "existing_count": 787,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCI0xMqGOKxnZT9LtzszjU3w",
+      "external_id": "UCI0xMqGOKxnZT9LtzszjU3w",
+      "name": "RTDtv",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCI0xMqGOKxnZT9LtzszjU3w",
+      "discovered_on": "2026-10-31",
+      "score": 66.28,
+      "metrics": {
+        "subscribers": 41600,
+        "total_views": 7358623,
+        "video_count": 3009,
+        "avg_views_per_video": 2445.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "QNqPBVvYVR0",
+            "title": "Look Beyond The Obvious! Here&#39;s What Really Matters",
+            "description": "Create polished videos and live shows with ContentBridge Studio. Your camera, content, and overlays; all in one app. Get 40% off ...",
+            "published_at": "2026-10-30T19:33:08Z",
+            "url": "https://www.youtube.com/watch?v=QNqPBVvYVR0"
+          }
+        ],
+        "channel_description": "Monetary literacy for the People\n\nThere can be no financial sovereignty without monetary literacy.  Through livestreams, interviews, and news updates, I want to share news that makes people think and is up-to-date about the demise of the dollar and all other fiat currencies.The goal is to make people aware of the differences between sound money and fiat currencies so that they can take steps to protect their wealth. Visit https://www.rethinkingthedollar.com for more great educational tools to help you understand the history and possible future of your money.",
+        "latest_video_at": "2026-10-30T19:33:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC8bxwm9lGfoFWnvxbnV1EeQ",
+      "external_id": "UC8bxwm9lGfoFWnvxbnV1EeQ",
+      "name": "FrugalBC",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UC8bxwm9lGfoFWnvxbnV1EeQ",
+      "discovered_on": "2026-10-31",
+      "score": 58.5,
+      "metrics": {
+        "subscribers": 6850,
+        "total_views": 1327364,
+        "video_count": 1563,
+        "avg_views_per_video": 849.24,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "crypto regulation"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "crypto regulation",
+            "video_id": "98vD4BZmmY8",
+            "title": "My Honest Reaction to Crypto&#39;s Regulatory Shift [ALGO]",
+            "description": "I've always been surprised at how poorly utility chains performed in the past. I think it's because the institutional adoption wasn't ...",
+            "published_at": "2026-10-31T13:30:01Z",
+            "url": "https://www.youtube.com/watch?v=98vD4BZmmY8"
+          }
+        ],
+        "channel_description": "No hype. Just experiments. FrugalBC tests the tech on Algorand, Hedera, Chainlink, and beyond to show you what actually works in the crypto world.\n\nAt FrugalBC, we believe the best way to understand crypto is to get your hands dirty. We run live experiments across the Algorand, Hedera, and Chainlink ecosystems—alongside the majors like Bitcoin and Ethereum—to separate the utility from the noise.\n\nWhat you won't see here: A hype machine.\nWhat you will see: Honest, \"frugal\" reviews of every project we touch and news that actually impacts your strategy. That is my pledge to you.\n\nStop guessing. Start experimenting. Subscribe to join the FrugalBC community.\n",
+        "latest_video_at": "2026-10-31T13:30:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCIxMfwH2RSISWRaBtV_K9Ag",
       "external_id": "UCIxMfwH2RSISWRaBtV_K9Ag",

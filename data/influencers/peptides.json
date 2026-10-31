@@ -2,19 +2,162 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-10-30T16:44:34Z",
-  "new_this_run": 9,
-  "total_influencers": 549,
+  "updated_at": "2026-10-31T15:47:39Z",
+  "new_this_run": 3,
+  "total_influencers": 552,
   "run_summary": {
-    "run_started_at": "2026-10-30T16:44:17Z",
+    "run_started_at": "2026-10-31T15:47:23Z",
     "candidate_count": 18,
-    "existing_count": 540,
-    "selected_new_count": 9,
+    "existing_count": 549,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCxjrZpVN_JrfqaRdb9Z16rw",
+      "external_id": "UCxjrZpVN_JrfqaRdb9Z16rw",
+      "name": "Dr. Matt Angove",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCxjrZpVN_JrfqaRdb9Z16rw",
+      "discovered_on": "2026-10-31",
+      "score": 66.79,
+      "metrics": {
+        "subscribers": 16500,
+        "total_views": 2731484,
+        "video_count": 962,
+        "avg_views_per_video": 2839.38,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "6W5sQlDvuIY",
+            "title": "When is GLP-1 ACTUALLY a good idea? 🤔",
+            "description": "Should you get on the GLP-1 bandwagon? That is the question we're addressing in today's video. With all the noise around ...",
+            "published_at": "2026-10-31T07:00:12Z",
+            "url": "https://www.youtube.com/watch?v=6W5sQlDvuIY"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "W2ciGGtpfrQ",
+            "title": "Ozempic, Peptides &amp; Weight Loss: Who Should (and Shouldn&#39;t) Take GLP-1s",
+            "description": "Should you get on the GLP-1 bandwagon? That is the question we're addressing in today's video. With all the noise around ...",
+            "published_at": "2026-10-30T18:05:55Z",
+            "url": "https://www.youtube.com/watch?v=W2ciGGtpfrQ"
+          }
+        ],
+        "channel_description": "Dr. Matt Angove, ND has experienced the ravages of the standard American way of living and is motivated and compelled to show others a better way. He empowers patients to do this by taking control of their health through habit building routines. \n\nDr. Matt is a practicing physician in Washington State devoted to helping patients accumulate health, one habit at a time. \n\nHe received his doctorate in natural medicine from Bastyr University in Seattle. He and his beautiful wife, Ama, have eight children, including twins!  \n\nDr. Matt is the founder of Dr. Wholeness and the formulator of Blood Vitality, a fast-acting, easy-to-digest iron supplement. \n\nIf you hang around this channel you will discover that you too can create a winning health routine that will pay dividends in your health for years to come.\n\n🎥A new video is released every Friday!\n",
+        "latest_video_at": "2026-10-31T07:00:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCUVPWVqyw2coa6d_yubX3kA",
+      "external_id": "UCUVPWVqyw2coa6d_yubX3kA",
+      "name": "BriefBuzz",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCUVPWVqyw2coa6d_yubX3kA",
+      "discovered_on": "2026-10-31",
+      "score": 61.27,
+      "metrics": {
+        "subscribers": 8870,
+        "total_views": 3550077,
+        "video_count": 1677,
+        "avg_views_per_video": 2116.92,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "CVqyYBwrGP8",
+            "title": "Mad Max Actor Richard Norton’s Cause of Death Revealed | Peptide Therapy Warning",
+            "description": "Australian actor and martial artist Richard Norton, known for his work in Mad Max: Fury Road and numerous action films, died in ...",
+            "published_at": "2026-10-31T08:46:24Z",
+            "url": "https://www.youtube.com/watch?v=CVqyYBwrGP8"
+          }
+        ],
+        "channel_description": "Welcome to BriefBuzz — your daily dose of the world’s biggest stories in just 60 seconds!\n\nFrom breaking news and trending topics to global events, technology, entertainment, and viral stories, we deliver the news that matters in a quick, engaging format.\n\n⚡ Fast Updates. Big Stories. Zero Wasted Time.\n\nSubscribe to BriefBuzz and stay informed in 60 seconds!\n\nBriefBuzz — The World in 60 Seconds.",
+        "latest_video_at": "2026-10-31T08:46:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCquQxsdEHGYHgV3dFEqfdFA",
+      "external_id": "UCquQxsdEHGYHgV3dFEqfdFA",
+      "name": "ROYAL BUZZ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCquQxsdEHGYHgV3dFEqfdFA",
+      "discovered_on": "2026-10-31",
+      "score": 58.3,
+      "metrics": {
+        "subscribers": 2480,
+        "total_views": 1085481,
+        "video_count": 337,
+        "avg_views_per_video": 3221.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "C8VqfsKFNT8",
+            "title": "Richard Norton’s Final Photos Before His Death — Shocking Peptide Reaction Revealed",
+            "description": "Richard Norton looked fit, active and healthy in photographs taken only days before his sudden death. That makes the final ...",
+            "published_at": "2026-10-30T17:46:52Z",
+            "url": "https://www.youtube.com/watch?v=C8VqfsKFNT8"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-10-30T17:46:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCUfe_kCQw2Bzk0hswlzy3rw",
       "external_id": "UCUfe_kCQw2Bzk0hswlzy3rw",
