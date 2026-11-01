@@ -1,22 +1,22 @@
 {
   "frequency": {
-    "ai_agents": 61,
+    "ai_agents": 56,
     "voice_agents": 5,
-    "coding_agents": 14,
-    "autonomous_agents": 3,
-    "real_estate_tech": 13,
+    "coding_agents": 13,
+    "autonomous_agents": 4,
+    "real_estate_tech": 10,
     "tokenization": 6,
     "wholesaling": 0,
-    "3d_visualization": 6,
-    "blockchain_rwa": 22,
+    "3d_visualization": 3,
+    "blockchain_rwa": 21,
     "blockchain": 82,
-    "wellness_research": 122,
+    "wellness_research": 123,
     "peptides": 64,
-    "longevity_research": 120,
-    "creator_economy": 151,
-    "educational_content": 56,
-    "open_source": 50,
-    "developer_tools": 26
+    "longevity_research": 121,
+    "creator_economy": 150,
+    "educational_content": 55,
+    "open_source": 51,
+    "developer_tools": 21
   },
   "cooccurrence": [
     {
@@ -24,7 +24,7 @@
         "longevity_research",
         "wellness_research"
       ],
-      "count": 120
+      "count": 121
     },
     {
       "topics": [
@@ -45,61 +45,54 @@
         "creator_economy",
         "educational_content"
       ],
-      "count": 56
+      "count": 55
     },
     {
       "topics": [
         "ai_agents",
         "open_source"
       ],
-      "count": 27
+      "count": 25
     },
     {
       "topics": [
         "ai_agents",
         "creator_economy"
       ],
-      "count": 26
+      "count": 21
     },
     {
       "topics": [
         "blockchain",
         "blockchain_rwa"
       ],
-      "count": 22
+      "count": 21
     },
     {
       "topics": [
         "blockchain",
         "creator_economy"
       ],
-      "count": 19
+      "count": 20
     },
     {
       "topics": [
         "creator_economy",
         "open_source"
       ],
-      "count": 17
+      "count": 18
     },
     {
       "topics": [
         "ai_agents",
         "educational_content"
       ],
-      "count": 16
-    },
-    {
-      "topics": [
-        "ai_agents",
-        "coding_agents"
-      ],
       "count": 14
     },
     {
       "topics": [
         "ai_agents",
-        "developer_tools"
+        "coding_agents"
       ],
       "count": 13
     },
@@ -108,12 +101,19 @@
         "creator_economy",
         "longevity_research"
       ],
-      "count": 11
+      "count": 13
     },
     {
       "topics": [
         "creator_economy",
         "wellness_research"
+      ],
+      "count": 13
+    },
+    {
+      "topics": [
+        "educational_content",
+        "open_source"
       ],
       "count": 11
     },
@@ -126,14 +126,14 @@
     },
     {
       "topics": [
-        "coding_agents",
-        "open_source"
+        "ai_agents",
+        "developer_tools"
       ],
       "count": 8
     },
     {
       "topics": [
-        "educational_content",
+        "coding_agents",
         "open_source"
       ],
       "count": 8
@@ -168,21 +168,14 @@
     },
     {
       "topics": [
-        "blockchain",
-        "real_estate_tech"
-      ],
-      "count": 7
-    },
-    {
-      "topics": [
-        "creator_economy",
-        "developer_tools"
+        "coding_agents",
+        "creator_economy"
       ],
       "count": 6
     },
     {
       "topics": [
-        "3d_visualization",
+        "blockchain",
         "real_estate_tech"
       ],
       "count": 6
@@ -193,80 +186,93 @@
         "tokenization"
       ],
       "count": 6
+    },
+    {
+      "topics": [
+        "blockchain_rwa",
+        "real_estate_tech"
+      ],
+      "count": 6
     }
   ],
   "rising": [
     {
-      "topic": "real_estate_tech",
-      "current": 13,
-      "previous": 10,
-      "delta": 3
-    },
-    {
-      "topic": "3d_visualization",
-      "current": 6,
-      "previous": 3,
-      "delta": 3
-    },
-    {
-      "topic": "blockchain_rwa",
-      "current": 22,
-      "previous": 20,
-      "delta": 2
-    },
-    {
-      "topic": "voice_agents",
-      "current": 5,
-      "previous": 4,
-      "delta": 1
-    },
-    {
       "topic": "autonomous_agents",
-      "current": 3,
-      "previous": 2,
+      "current": 4,
+      "previous": 3,
       "delta": 1
     },
     {
-      "topic": "peptides",
-      "current": 64,
-      "previous": 63,
+      "topic": "wellness_research",
+      "current": 123,
+      "previous": 122,
+      "delta": 1
+    },
+    {
+      "topic": "longevity_research",
+      "current": 121,
+      "previous": 120,
+      "delta": 1
+    },
+    {
+      "topic": "open_source",
+      "current": 51,
+      "previous": 50,
       "delta": 1
     }
   ],
   "cooling": [
     {
-      "topic": "creator_economy",
-      "current": 151,
-      "previous": 159,
-      "delta": -8
-    },
-    {
       "topic": "ai_agents",
-      "current": 61,
-      "previous": 65,
-      "delta": -4
-    },
-    {
-      "topic": "open_source",
-      "current": 50,
-      "previous": 54,
-      "delta": -4
-    },
-    {
-      "topic": "educational_content",
       "current": 56,
-      "previous": 58,
-      "delta": -2
+      "previous": 61,
+      "delta": -5
     },
     {
       "topic": "developer_tools",
-      "current": 26,
-      "previous": 28,
-      "delta": -2
+      "current": 21,
+      "previous": 26,
+      "delta": -5
+    },
+    {
+      "topic": "real_estate_tech",
+      "current": 10,
+      "previous": 13,
+      "delta": -3
+    },
+    {
+      "topic": "3d_visualization",
+      "current": 3,
+      "previous": 6,
+      "delta": -3
+    },
+    {
+      "topic": "coding_agents",
+      "current": 13,
+      "previous": 14,
+      "delta": -1
+    },
+    {
+      "topic": "blockchain_rwa",
+      "current": 21,
+      "previous": 22,
+      "delta": -1
+    },
+    {
+      "topic": "creator_economy",
+      "current": 150,
+      "previous": 151,
+      "delta": -1
+    },
+    {
+      "topic": "educational_content",
+      "current": 55,
+      "previous": 56,
+      "delta": -1
     }
   ],
   "topic_count": 17,
   "schema_version": "topics.v1",
-  "report_date": "2026-10-31",
-  "generated_at": "2026-10-31T13:40:34Z"
+  "report_date": "2026-11-01",
+  "generated_at": "2026-11-01T14:17:45Z"
 }
