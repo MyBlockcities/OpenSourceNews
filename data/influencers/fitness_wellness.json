@@ -2,19 +2,320 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-10-31T15:47:42Z",
-  "new_this_run": 5,
-  "total_influencers": 1780,
+  "updated_at": "2026-11-01T16:51:34Z",
+  "new_this_run": 8,
+  "total_influencers": 1788,
   "run_summary": {
-    "run_started_at": "2026-10-31T15:47:23Z",
-    "candidate_count": 46,
-    "existing_count": 1775,
-    "selected_new_count": 5,
+    "run_started_at": "2026-11-01T16:51:13Z",
+    "candidate_count": 44,
+    "existing_count": 1780,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCEOBjarWXka1rTRunkIJxBQ",
+      "external_id": "UCEOBjarWXka1rTRunkIJxBQ",
+      "name": "Candid Minds with Dr. T and Friends",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCEOBjarWXka1rTRunkIJxBQ",
+      "discovered_on": "2026-11-01",
+      "score": 63.69,
+      "metrics": {
+        "subscribers": 15200,
+        "total_views": 754373,
+        "video_count": 248,
+        "avg_views_per_video": 3041.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "EdXmY0gmmgg",
+            "title": "Are Peptides Safe? A Plastic Surgeon&#39;s Warning",
+            "description": "When it comes to wellness trends, how do we separate promising treatments from potential risks? Dr. David Kashan joined me on ...",
+            "published_at": "2026-10-31T17:00:34Z",
+            "url": "https://www.youtube.com/watch?v=EdXmY0gmmgg"
+          }
+        ],
+        "channel_description": "Board-certified clinical psychiatrist Tamir Aldad, MD, MBA, CEO of Mindful Care, host of Candid Minds with Dr. T & Friends podcast, and author of Too Close for Comfort. Out in August, sign up for updates at tamiraldadmd.com.\n\nYou’ll also find episodes of Candid Minds with Dr. T, our podcast hosted by Mindful Care’s CEO and founder, featuring candid conversations that break down mental health topics, reduce stigma, and explore what care really looks like behind the scenes.\n\nMindful Care provides compassionate, evidence-based mental health care designed to meet you where you are. Our channel features expert insights from licensed clinicians, treatment walk-throughs, and educational content covering psychiatry, therapy, and advanced treatments like TMS.\n\nMindful Care currently provides care in New York, New Jersey, Connecticut, Michigan, Illinois, and Florida.\n\nTo learn more or schedule an appointment, visit www.mindful.care.\n",
+        "latest_video_at": "2026-10-31T17:00:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC9GkTXncxnJMjc-NdaH3fyA",
+      "external_id": "UC9GkTXncxnJMjc-NdaH3fyA",
+      "name": "Oktagon Combat",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC9GkTXncxnJMjc-NdaH3fyA",
+      "discovered_on": "2026-11-01",
+      "score": 58.61,
+      "metrics": {
+        "subscribers": 2580,
+        "total_views": 80919,
+        "video_count": 23,
+        "avg_views_per_video": 3518.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "LNC9G1-nLrE",
+            "title": "GYMNASTIC RINGS | DIPS | TRANSHUMANISM",
+            "description": "Exploring human potential through gymnastic ring dips. Building strength, stability, and body control with minimal equipment.",
+            "published_at": "2026-11-01T13:37:18Z",
+            "url": "https://www.youtube.com/watch?v=LNC9G1-nLrE"
+          }
+        ],
+        "channel_description": "Oktagon Combat is a lifelong journey where physical effort meets inner reflection.\n\nA path of self-mastery through physical and practical capability.\n\nRooted in bodyweight training, calisthenics, and functional strength.\nExpanding into technology, practical skills, independent systems, and real-world preparedness.\n\nDifferent disciplines. One path.\n\nThe objectives:\n- Resilience and independence\n- Minimalism and functionality\n- Adaptability beyond convention\n\nTrain wherever you are.\nBuild and learn what you need.\nAdapt to whatever comes.\n\nStrength without cruelty.\nDiscipline without arrogance.\nFreedom with responsibility.\n\nGrow in shadow — Rise in silence.",
+        "latest_video_at": "2026-11-01T13:37:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCz9fzxMUwjQGjUJBBBxmmLw",
+      "external_id": "UCz9fzxMUwjQGjUJBBBxmmLw",
+      "name": "THE SOVEREIGN SOUL Show",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCz9fzxMUwjQGjUJBBBxmmLw",
+      "discovered_on": "2026-11-01",
+      "score": 57.68,
+      "metrics": {
+        "subscribers": 6400,
+        "total_views": 464954,
+        "video_count": 725,
+        "avg_views_per_video": 641.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "hBg6poLmK84",
+            "title": "Warriors of Wellness: How to LIVE LONG &amp; Prosper...Discover Why LifeWave Can Be Your Dream Home Biz",
+            "description": "Who Else Wants to Naturally Activate their Copper Peptides, all their Stem Cells & 1/3 of their Genome which helps Reverse Aging ...",
+            "published_at": "2026-11-01T11:23:37Z",
+            "url": "https://www.youtube.com/watch?v=hBg6poLmK84"
+          }
+        ],
+        "channel_description": "Dishing Up Hot Topics, Powerful Tips & Cutting Edge New-Age Guests for the World whilst dropping Awakened Truth Bombs with lotsa LOVE, LEVITY 'n LIBERTY...So grab a ton of laughs while hearing from enlightened patriots the world over, as we uplift Consciousness sharing MUST KNOW news, ancient secrets, red pills, feel-good stories, principles of peak financial prosperity, star magic, next-gen tech (like straight outta Star Trek,) plus tips, tricks, and successes of folks from all backgrounds here to wake up the world.\n\nPlus, our mascot, The Bling'd Buddha.  \n\nAfter all, the Great, Spiritual Awakening of Humanity and Freedom For All Primal, Sovereign Souls is here.\n\nWatch as luminaries, elevated artists, financial experts, and light-workers sharing powerful information to help you and your loved ones thrive in all areas right now.\n\nEnjoy!\n\n",
+        "latest_video_at": "2026-11-01T11:23:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCaCnU8xcZaKCsW4VmcK_QbA",
+      "external_id": "UCaCnU8xcZaKCsW4VmcK_QbA",
+      "name": "Karmactive",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCaCnU8xcZaKCsW4VmcK_QbA",
+      "discovered_on": "2026-11-01",
+      "score": 56.63,
+      "metrics": {
+        "subscribers": 6170,
+        "total_views": 82382,
+        "video_count": 198,
+        "avg_views_per_video": 416.07,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "sDatRYKIQuc",
+            "title": "Six Unapproved Peptides Just Got Easier to Access. What the Policy Actually Says.",
+            "description": "On October 28, HHS Secretary Robert F. Kennedy Jr. issued an enforcement discretion policy directing the FDA not to take action ...",
+            "published_at": "2026-10-31T18:58:35Z",
+            "url": "https://www.youtube.com/watch?v=sDatRYKIQuc"
+          }
+        ],
+        "channel_description": "It is cool to give a shift",
+        "latest_video_at": "2026-10-31T18:58:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCSsyaV0y3FnrnW0ST3InvFA",
+      "external_id": "UCSsyaV0y3FnrnW0ST3InvFA",
+      "name": "Michael | 60+ Fitness & Mobility Coach",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCSsyaV0y3FnrnW0ST3InvFA",
+      "discovered_on": "2026-11-01",
+      "score": 55.29,
+      "metrics": {
+        "subscribers": 2370,
+        "total_views": 1961650,
+        "video_count": 2296,
+        "avg_views_per_video": 854.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "ezgLZUILfP4",
+            "title": "Over 60? Functional Strength Matters More Than Six-Pack Abs! #6packsabs #6packs #functionaltraining",
+            "description": "Over 60? Functional Strength Matters More Than Six-Pack Abs! AT 70, THIS MATTERS MORE! Nobody cares about your six-pack ...",
+            "published_at": "2026-11-01T06:26:06Z",
+            "url": "https://www.youtube.com/watch?v=ezgLZUILfP4"
+          }
+        ],
+        "channel_description": "60+ Fitness Coaching with Michael\n\nSubscribe to get stronger, leaner, and healthier at any age.\n\nSimple, joint-friendly workouts, strength training, fat loss strategies, and mobility routines designed for real life — not extremes.\n\nI help you build muscle, improve energy, and move better with sustainable training you can actually stick to.\n\nHome workouts • Core strength • Balance • Mobility • Fat loss • Healthy habits\n\nIt’s never too late to get fit, strong, and energised.\n\nDisclaimer: Educational and entertainment content only. Not medical advice.\n\nBusiness enquiries: michael@coachmyage.com",
+        "latest_video_at": "2026-11-01T06:26:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:73df331996fe776e9eca",
+      "external_id": "73df331996fe776e9eca",
+      "name": "Scott Alexander",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/xikGZ8fuhdG6DApAo/against-sura",
+      "discovered_on": "2026-11-01",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/Aella_Girl"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Against SURA"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:905592c3d3aa8134717a",
+      "external_id": "905592c3d3aa8134717a",
+      "name": "Ryan Baker",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/woCAtAxfTkNzEPkLq/regulate-the-deployment-not-just-the-model",
+      "discovered_on": "2026-11-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Regulate the Deployment, Not Just the Model"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:13de67fc41ea2b331371",
+      "external_id": "13de67fc41ea2b331371",
+      "name": "Celene Nightingale",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/EC5H7xakTgxxNXm5g/sanity-checks-for-sanity-checks-for-sparse-autoencoders",
+      "discovered_on": "2026-11-01",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Sanity Checks for Sanity Checks for Sparse Autoencoders"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCqvJyqPi0ka5JCsN0FLVBNA",
       "external_id": "UCqvJyqPi0ka5JCsN0FLVBNA",
