@@ -2,19 +2,154 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-01T16:51:30Z",
-  "new_this_run": 5,
-  "total_influencers": 557,
+  "updated_at": "2026-11-02T20:25:17Z",
+  "new_this_run": 3,
+  "total_influencers": 560,
   "run_summary": {
-    "run_started_at": "2026-11-01T16:51:13Z",
-    "candidate_count": 14,
-    "existing_count": 552,
-    "selected_new_count": 5,
+    "run_started_at": "2026-11-02T20:24:58Z",
+    "candidate_count": 9,
+    "existing_count": 557,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCfoGBJYWaAzc_RfI8eouPfQ",
+      "external_id": "UCfoGBJYWaAzc_RfI8eouPfQ",
+      "name": "Dr. Noc",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCfoGBJYWaAzc_RfI8eouPfQ",
+      "discovered_on": "2026-11-02",
+      "score": 67.52,
+      "metrics": {
+        "subscribers": 34300,
+        "total_views": 3461377,
+        "video_count": 609,
+        "avg_views_per_video": 5683.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "1lPAhtm0AOE",
+            "title": "What is a peptide and what do they actually do?",
+            "description": "Peptides are all the rage. We're seeing them not only in approved medications (think GLP-1's and insulin), but also all over social ...",
+            "published_at": "2026-11-02T16:00:37Z",
+            "url": "https://www.youtube.com/watch?v=1lPAhtm0AOE"
+          }
+        ],
+        "channel_description": "Hey there. I’m Morgan, I’m a PhD-trained scientist and science communicator, and if you know me from TikTok/Instagram/FB, this channel is where I get to slow down a little bit and add some more nuance to my videos.\n\nI make videos about science, health, and medicine to combat misinformation and help you sort through all of the viral health claims, supplement hype, policy decisions, and media narratives that you might see online.\n\nSubscribe to support science🔬 And thank you for being here!🤝\n\nI also have a newsletter where I regularly send out research essays, diving deeper into the details and nuances of many topics I cover here: https://drnoc.substack.com/\n\nMy other socials:\n1.8 Million on TikTok: @dr.noc\n1.4 Million on Instagram: @dr.noc\n",
+        "latest_video_at": "2026-11-02T16:00:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCyVCy4AJDUZav_8-jWowkaA",
+      "external_id": "UCyVCy4AJDUZav_8-jWowkaA",
+      "name": "Pagdin Health - Dr Grant Pagdin MD",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCyVCy4AJDUZav_8-jWowkaA",
+      "discovered_on": "2026-11-02",
+      "score": 55.6,
+      "metrics": {
+        "subscribers": 2150,
+        "total_views": 398100,
+        "video_count": 352,
+        "avg_views_per_video": 1130.97,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "mJz3bA3rMfU",
+            "title": "PRP and Stem Cell Therapy: Setting Realistic Expectations | Pagdin Health Kelowna",
+            "description": "How do you know what to expect from a regenerative procedure? In this video, Dr. Grant Pagdin explains how more than a ...",
+            "published_at": "2026-11-02T15:12:26Z",
+            "url": "https://www.youtube.com/watch?v=mJz3bA3rMfU"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-02T15:12:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCxL95NgaZEzNvKgDrtBLhug",
+      "external_id": "UCxL95NgaZEzNvKgDrtBLhug",
+      "name": "The Aging Well Podcast w/ Dr. Jeff Armstrong",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCxL95NgaZEzNvKgDrtBLhug",
+      "discovered_on": "2026-11-02",
+      "score": 54.47,
+      "metrics": {
+        "subscribers": 5470,
+        "total_views": 346114,
+        "video_count": 1910,
+        "avg_views_per_video": 181.21,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "XOIhgc7jCLQ",
+            "title": "Peptide Therapy: Ask These Questions First | The Aging Well Podcast",
+            "description": "Peptides: Promise, Hype, and What We Actually Know | The Aging Well Podcast | Ep. 493 https://youtu.be/kh_MvmDpmLE ...",
+            "published_at": "2026-11-02T16:28:40Z",
+            "url": "https://www.youtube.com/watch?v=XOIhgc7jCLQ"
+          }
+        ],
+        "channel_description": "The Aging Well Podcast explores what it truly means to live well. Hosted by Dr. W. Jeffrey Armstrong, a PhD exercise physiologist, the show goes beyond traditional conversations about longevity to explore the science and philosophy of human flourishing. Through engaging conversations with experts, we examine the Spiritual, Physical, Intellectual, Emotional, and Social dimensions of well-being. Whether discussing exercise, nutrition, sleep, Purpose, resilience, relationships, or healthy aging, every episode is guided by one question: How do we become our best today—and better tomorrow? Because aging well isn't simply about adding years to life; it's about adding life to every year.\n",
+        "latest_video_at": "2026-11-02T16:28:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCPwnKAW4Tsro1cKe3KjaHZw",
       "external_id": "UCPwnKAW4Tsro1cKe3KjaHZw",

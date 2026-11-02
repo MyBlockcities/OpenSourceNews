@@ -2,19 +2,365 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-01T16:51:21Z",
-  "new_this_run": 20,
-  "total_influencers": 1046,
+  "updated_at": "2026-11-02T20:25:08Z",
+  "new_this_run": 8,
+  "total_influencers": 1054,
   "run_summary": {
-    "run_started_at": "2026-11-01T16:51:13Z",
-    "candidate_count": 34,
-    "existing_count": 1026,
-    "selected_new_count": 20,
+    "run_started_at": "2026-11-02T20:24:58Z",
+    "candidate_count": 19,
+    "existing_count": 1046,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCNKAhZKDr84b3Q7JtNwVSlg",
+      "external_id": "UCNKAhZKDr84b3Q7JtNwVSlg",
+      "name": "HR VISION",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCNKAhZKDr84b3Q7JtNwVSlg",
+      "discovered_on": "2026-11-02",
+      "score": 69.89,
+      "metrics": {
+        "subscribers": 74200,
+        "total_views": 4824596,
+        "video_count": 838,
+        "avg_views_per_video": 5757.27,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "QIdWHsAljkk",
+            "title": "Joe Rogan &amp; Woody Harrelson QUESTION CNN | Why People Trust Independent Journalists More!",
+            "description": "Joe Rogan and Woody Harrelson Discuss CNN, Independent Journalism & The Future of Media!** Why are more people turning ...",
+            "published_at": "2026-11-01T23:00:37Z",
+            "url": "https://www.youtube.com/watch?v=QIdWHsAljkk"
+          }
+        ],
+        "channel_description": "🌎 Welcome to HR VISION — Beyond the Headlines!\n\nDiscover the stories, strategies, and global events shaping our world.\n\n🔴 What You’ll Find on HR VISION:\n🇺🇸 USA Politics & White House Updates\n🌍 International Relations & Global Affairs\n⚔️ Military Developments & Defense Analysis\n🚨 US–Iran Relations & Middle East Tensions\n🎙️ Political Commentary & In-Depth Analysis\n🌐 Breaking Developments from Around the World\n\nOur mission is to explore the facts, explain the context, and help you understand the bigger picture behind major world events.\n\n📌 Subscribe to HR VISION and stay informed about the issues shaping our future.\n\n🔔 Turn on notifications so you never miss an update!\n\nHR VISION — BEYOND THE HEADLINES.",
+        "latest_video_at": "2026-11-01T23:00:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UChH756rsSrx9P6ZrM19ppsg",
+      "external_id": "UChH756rsSrx9P6ZrM19ppsg",
+      "name": "Salvi the Squirrel Ch.",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UChH756rsSrx9P6ZrM19ppsg",
+      "discovered_on": "2026-11-02",
+      "score": 68.06,
+      "metrics": {
+        "subscribers": 12000,
+        "total_views": 11084489,
+        "video_count": 3497,
+        "avg_views_per_video": 3169.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/channel/UChH756rsSrx9P6ZrM19ppsg"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "xp5O7LqozuY",
+            "title": "TheBurntPeanut DBD Situation is INSANE, Vtuber BIG WAR ON CENSORSHIP",
+            "description": "form for Vtubers to get featured here: https://forms.gle/U7v5R2u5oV58bG26A cookies at my twitch: ...",
+            "published_at": "2026-11-02T19:15:36Z",
+            "url": "https://www.youtube.com/watch?v=xp5O7LqozuY"
+          }
+        ],
+        "channel_description": "Reacting to the crazy things that happen on the internet https://www.youtube.com/channel/UChH756rsSrx9P6ZrM19ppsg?sub_confirmation=1 . a fun loving, direct talk, squirrel",
+        "latest_video_at": "2026-11-02T19:15:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCeEIZpOJwDICYLYabCrxAXg",
+      "external_id": "UCeEIZpOJwDICYLYabCrxAXg",
+      "name": "Mashriq Digital",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCeEIZpOJwDICYLYabCrxAXg",
+      "discovered_on": "2026-11-02",
+      "score": 66.75,
+      "metrics": {
+        "subscribers": 65900,
+        "total_views": 6859246,
+        "video_count": 4299,
+        "avg_views_per_video": 1595.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "SJxGegQxfUk",
+            "title": "The Price of Speaking Truth | A Journalist’s Life, Press Freedom &amp;  Fight for Freedom of Expression",
+            "description": "The Price of Speaking the Truth | A Journalist's Life, Press Freedom & the Fight for Freedom of Expression | Mashriq Digital ...",
+            "published_at": "2026-11-02T16:42:56Z",
+            "url": "https://www.youtube.com/watch?v=SJxGegQxfUk"
+          }
+        ],
+        "channel_description": "\"Mashriq Digital — the flagship project of Daily Mashriq Lahore.\n\nMore than just a social media platform, we stand for truth, integrity, and trust. We fight against fake news and meaningless noise, striving to uphold the true spirit of journalism.\n\nFrom freedom of expression to freedom of speech, we raise our voice for justice, peace, education, and civil rights. We speak for the youth, women, students, and every marginalized segment of society, while defending the Constitution, state institutions, political values, democratic processes, and our armed forces.\n\nMashriq Digital focuses on economic growth, internal peace, progress, and prosperity — working hand in hand with farmers, industrialists, educators, lawyers, medical professionals, and the business community.\n\nJoin Mashriq Digital… Join the journey for a stronger Pakistan.\"\n#Mashriq #MashriqDigital #DailyMashriqLahore\n",
+        "latest_video_at": "2026-11-02T16:42:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCxsIC-F5rLSSJrmU9_bDiEg",
+      "external_id": "UCxsIC-F5rLSSJrmU9_bDiEg",
+      "name": "DM News English",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCxsIC-F5rLSSJrmU9_bDiEg",
+      "discovered_on": "2026-11-02",
+      "score": 64.06,
+      "metrics": {
+        "subscribers": 37000,
+        "total_views": 4803335,
+        "video_count": 4624,
+        "avg_views_per_video": 1038.78,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "z4LwvPs2K78",
+            "title": "Journalists Detained in India: Is Space for Independent Media Shrinking? - View @ 7",
+            "description": "India's democratic credentials and media freedom come under scrutiny as protests intensify and journalists reportedly face ...",
+            "published_at": "2026-11-02T00:00:02Z",
+            "url": "https://www.youtube.com/watch?v=z4LwvPs2K78"
+          }
+        ],
+        "channel_description": "Welcome to DM News English – Your Trusted Global News Source!\nStay informed with the latest breaking news, in-depth analysis, and real-time updates from across the world. We cover international politics, world affairs, technology, economy, environment, culture, and human stories — bringing you facts that matter, fast and unbiased.\n\nAt DM News English, our mission is simple: deliver accurate, engaging, and timely global news that empowers our viewers to understand today’s changing world. Whether it’s a major geopolitical event, a tech breakthrough, or social impact stories, we give you clear insights and credible reports — all in fluent, easy-to-follow English.\n\nNew videos uploaded daily – Stay connected, stay informed.\nJoin our growing community of global viewers and share your thoughts in the comments!\n\n👉 Subscribe now and press the 🔔 bell icon.\n\nNever miss an update from DM News English – Where the World Comes for News.\n",
+        "latest_video_at": "2026-11-02T00:00:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCej_YhLi_ouFU37iYwdrrRQ",
+      "external_id": "UCej_YhLi_ouFU37iYwdrrRQ",
+      "name": "Project Paraguay",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCej_YhLi_ouFU37iYwdrrRQ",
+      "discovered_on": "2026-11-02",
+      "score": 62.39,
+      "metrics": {
+        "subscribers": 5830,
+        "total_views": 1171722,
+        "video_count": 183,
+        "avg_views_per_video": 6402.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "xiwPUzShj40",
+            "title": "Ancilla van de Leest: ‘Het voelt als de stilte voor de storm’ | Project Paraguay",
+            "description": "Ancilla van de Leest van Blckbx vertelt in gesprek met Lester Rietveld en Jeroen Pols over de toekomst van de alternatieve media ...",
+            "published_at": "2026-11-02T11:51:24Z",
+            "url": "https://www.youtube.com/watch?v=xiwPUzShj40"
+          }
+        ],
+        "channel_description": "Paraguay als Plan A of Plan B. Wij zijn Lester Rietveld (Asunción) en Jeroen Pols (Hohenau) en hebben de grootste Nederlandstalige community in Paraguay opgebouwd.\n\nOp dit kanaal: eerlijke gesprekken over leven en wonen in Paraguay, interviews met expats en experts, updates over vastgoed, verblijfsvergunningen en geopolitieke ontwikkelingen die steeds meer Nederlanders en Belgen aan het denken zetten.\n\nGeen verkooppraatjes. Wel de informatie die je nodig hebt om een weloverwogen keuze te maken.\nMeer lezen of de verblijfsvergunningsgids downloaden? Ga naar projectparaguay.nl\n\nTelegram: t.me/paraguayadventures\n",
+        "latest_video_at": "2026-11-02T11:51:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0mBaabfHbNhsoJ-wt1nGBA",
+      "external_id": "UC0mBaabfHbNhsoJ-wt1nGBA",
+      "name": "ExMassone",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0mBaabfHbNhsoJ-wt1nGBA",
+      "discovered_on": "2026-11-02",
+      "score": 60.0,
+      "metrics": {
+        "subscribers": 5580,
+        "total_views": 830101,
+        "video_count": 232,
+        "avg_views_per_video": 3578.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "2M95O6vEYZs",
+            "title": "Hanno spento il mio profilo instagram",
+            "description": "Hanno spento il mio profilo Instagram. Ed è la cosa migliore che potesse succedermi. Non quando parlavo a pochi: adesso, che i ...",
+            "published_at": "2026-11-01T20:00:37Z",
+            "url": "https://www.youtube.com/watch?v=2M95O6vEYZs"
+          }
+        ],
+        "channel_description": "La Storia che non ti hanno mai raccontato.\nApri gli occhi.\nEntra nel canale Telegram e scopri la verità⬇️\n",
+        "latest_video_at": "2026-11-01T20:00:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC4MisFB8Nnk_ej4ckCLHO0Q",
+      "external_id": "UC4MisFB8Nnk_ej4ckCLHO0Q",
+      "name": "D Mind of Booma San",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC4MisFB8Nnk_ej4ckCLHO0Q",
+      "discovered_on": "2026-11-02",
+      "score": 59.72,
+      "metrics": {
+        "subscribers": 14700,
+        "total_views": 683341,
+        "video_count": 1334,
+        "avg_views_per_video": 512.25,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "eLyAybX5IuA",
+            "title": "Why Alt-Media Grifters Work: They Look Like Your Best Friend",
+            "description": "Liv from the Booma Community says the grifters, groomers and gatekeepers are all covering for the people at the top, and that the ...",
+            "published_at": "2026-11-02T18:37:36Z",
+            "url": "https://www.youtube.com/watch?v=eLyAybX5IuA"
+          }
+        ],
+        "channel_description": "Bringing awareness to the biodigital convergence & human 2.0 — while exposing cointelpro, psyop slop, and grifters.\n\nReal talk on psyops, human trafficking, human augmentation operations, and the grifters running cover for it all.\n\nHome to the Booma Community.\n\nSubscribe, share, and stay connected:\n🔗 linktr.ee/DBoomaSan",
+        "latest_video_at": "2026-11-02T18:37:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCb4hR8T3FWLKpjEyJ0xm6Mw",
+      "external_id": "UCb4hR8T3FWLKpjEyJ0xm6Mw",
+      "name": "La Pirenaica",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCb4hR8T3FWLKpjEyJ0xm6Mw",
+      "discovered_on": "2026-11-02",
+      "score": 59.23,
+      "metrics": {
+        "subscribers": 4970,
+        "total_views": 315009,
+        "video_count": 169,
+        "avg_views_per_video": 1863.96,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "l5mt9ooOsaA",
+            "title": "¿Italia se ha convertido en una colonia yanqui?",
+            "description": "En La Pirenaica, el periodista Albert Santin entrevistó a Clara Statello, licenciada en economía política por la Universidad de ...",
+            "published_at": "2026-11-02T11:21:57Z",
+            "url": "https://www.youtube.com/watch?v=l5mt9ooOsaA"
+          }
+        ],
+        "channel_description": "La Pirenaica es un canal de periodismo independiente que recoge el legado histórico de tantos compañeros y compañeras que durante décadas alzaron la voz defendiendo la verdad de la palabra.\nHoy más que nunca se hace necesario retomar el periodismo combativo y antifascista para contar lo que los grandes medios de comunicación occidentales manipulan y tergiversan.\n¡Quédense con nosotros, pues la fuerza está en la verdad!\n",
+        "latest_video_at": "2026-11-02T11:21:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCoiVF8HRcIJGNOdPvZghotA",
       "external_id": "UCoiVF8HRcIJGNOdPvZghotA",
