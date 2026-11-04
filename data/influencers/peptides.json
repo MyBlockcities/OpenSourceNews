@@ -2,19 +2,163 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-03T17:56:27Z",
-  "new_this_run": 10,
-  "total_influencers": 570,
+  "updated_at": "2026-11-04T18:04:28Z",
+  "new_this_run": 3,
+  "total_influencers": 573,
   "run_summary": {
-    "run_started_at": "2026-11-03T17:56:09Z",
-    "candidate_count": 18,
-    "existing_count": 560,
-    "selected_new_count": 10,
+    "run_started_at": "2026-11-04T18:04:10Z",
+    "candidate_count": 14,
+    "existing_count": 570,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCf3Vz020ugNMbMArtIQwTDw",
+      "external_id": "UCf3Vz020ugNMbMArtIQwTDw",
+      "name": "EVOLVE Telemedicine",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCf3Vz020ugNMbMArtIQwTDw",
+      "discovered_on": "2026-11-04",
+      "score": 68.49,
+      "metrics": {
+        "subscribers": 2290,
+        "total_views": 546587,
+        "video_count": 35,
+        "avg_views_per_video": 15616.77,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "IlTPOGUqM54",
+            "title": "What Is BPC-157? A Quick Peptide Overview | Evolve",
+            "description": "What is BPC-157? In this quick overview from Evolve Telemedicine, learn about the investigational peptide and why it has ...",
+            "published_at": "2026-11-03T21:30:01Z",
+            "url": "https://www.youtube.com/watch?v=IlTPOGUqM54"
+          },
+          {
+            "query": "BPC-157",
+            "video_id": "IlTPOGUqM54",
+            "title": "What Is BPC-157? A Quick Peptide Overview | Evolve",
+            "description": "What is BPC-157? In this quick overview from Evolve Telemedicine, learn about the investigational peptide and why it has ...",
+            "published_at": "2026-11-03T21:30:01Z",
+            "url": "https://www.youtube.com/watch?v=IlTPOGUqM54"
+          }
+        ],
+        "channel_description": "EVOLVE is the nation's leader in Bioidentical Hormone Replacement Therapy (BHRT). Experience concierge-level care to treat hair loss, manage weight, improve sexual wellness, restore cognitive function, and revitalize your overall sense of well-being.\n\nGet Started with EVOLVE!\nSchedule by Phone: (800) 407-4117\n                or\nSchedule Online: https://evolvetelemed.com\n\n#evolvehrt #evolvebhrt #evolvetelemed #trt #hrt #hormones #hormonehealth #peptides #peptidetherapy\n",
+        "latest_video_at": "2026-11-03T21:30:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCNSyFO5MzVMb17N11gGz0Ow",
+      "external_id": "UCNSyFO5MzVMb17N11gGz0Ow",
+      "name": "Gordon Medical Associates",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCNSyFO5MzVMb17N11gGz0Ow",
+      "discovered_on": "2026-11-04",
+      "score": 57.83,
+      "metrics": {
+        "subscribers": 6160,
+        "total_views": 256562,
+        "video_count": 355,
+        "avg_views_per_video": 722.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "ziuI2avf6qw",
+            "title": "Why Stem Cells, Exosomes, and Peptides Work for Some People and Not Others",
+            "description": "For years, Dr. Matt Cook could fix a professional athlete with a single injection and send him back to the field pain-free. Then one ...",
+            "published_at": "2026-11-04T16:00:04Z",
+            "url": "https://www.youtube.com/watch?v=ziuI2avf6qw"
+          }
+        ],
+        "channel_description": "Gordon Medical is internationally recognized for working with the patients other doctors have given up on. Complex Chronic Illnesses such as Lyme disease and other tickborne illness, ME/CFS (Chronic Fatigue Syndrome), mold and mycotoxin illness, fibromyalgia, and Mast Cell Activation Syndrome are some of our specialties. We utilize functional and regenerative medicine to unravel the issues that have created disease, and to restore vitality. \n\nAt Gordon Medical Associates, we have decades of professional training and expertise, and we also continue to teach, write, and perform ongoing research. Our patients come not only from the North Bay, and the greater San Francisco area, but the entire country, and around the globe for individualized help with a wide range of problems, from chronic pain and hormone balancing to chronic fatigue and Lyme disease. \n",
+        "latest_video_at": "2026-11-04T16:00:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCndF7qvqPtEq_aLekTgslzA",
+      "external_id": "UCndF7qvqPtEq_aLekTgslzA",
+      "name": "Physique Collective",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCndF7qvqPtEq_aLekTgslzA",
+      "discovered_on": "2026-11-04",
+      "score": 56.29,
+      "metrics": {
+        "subscribers": 3090,
+        "total_views": 248343,
+        "video_count": 265,
+        "avg_views_per_video": 937.14,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "lEz9vtxnusM",
+            "title": "Peptides, Bloodwork, Coaching &amp; GLP-1&#39;s | Doghouse Chats Ep. 26",
+            "description": "Here at Physique Collective we are a team of elite bodybuilding coaches delivering no-BS, evidence-based content on steroids ...",
+            "published_at": "2026-11-04T15:00:10Z",
+            "url": "https://www.youtube.com/watch?v=lEz9vtxnusM"
+          }
+        ],
+        "channel_description": "Welcome to Physique Collective, the go-to destination for bodybuilders & anyone looking to optimize their physique, performance, & health. We deliver cutting-edge, evidence-based content on training, nutrition, PEDs, supplements, skin prep/tan, coaching advice, combat sports, & lifestyle.\n\nWe have helped 1000's build muscle, lose fat, enhance performance & compete at the highest levels. Whether you're a complete beginner or an advanced athlete, we break down complex topics into actionable, no-BS strategies that deliver real-world results.\n\nPhysique Development. Simplified.\n\nWant more? Our exclusive Skool platform gives you unlimited access to in-depth advice, research-backed protocols, & expert guidance you won’t find anywhere else. This is your all-in-one resource for physique development, where science meets experience, without the fluff.\n\nJoin the our educational platform: https://www.skool.com/physiquecollective/about\nSubscribe to our channel & follow us on IG @PhysiqueCollective \n",
+        "latest_video_at": "2026-11-04T15:00:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UC-k9uVjoNN63VtKlK02GJHg",
       "external_id": "UC-k9uVjoNN63VtKlK02GJHg",

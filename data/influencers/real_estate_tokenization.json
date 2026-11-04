@@ -2,19 +2,118 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-11-02T20:25:05Z",
-  "new_this_run": 5,
-  "total_influencers": 411,
+  "updated_at": "2026-11-04T18:04:16Z",
+  "new_this_run": 3,
+  "total_influencers": 414,
   "run_summary": {
-    "run_started_at": "2026-11-02T20:24:58Z",
-    "candidate_count": 36,
-    "existing_count": 406,
-    "selected_new_count": 5,
+    "run_started_at": "2026-11-04T18:04:10Z",
+    "candidate_count": 39,
+    "existing_count": 411,
+    "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCPYSZMwlsGFjWGltTCYuEvg",
+      "external_id": "UCPYSZMwlsGFjWGltTCYuEvg",
+      "name": "Glory Praise Emmanuel",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCPYSZMwlsGFjWGltTCYuEvg",
+      "discovered_on": "2026-11-04",
+      "score": 56.92,
+      "metrics": {
+        "subscribers": 4140,
+        "total_views": 110416,
+        "video_count": 133,
+        "avg_views_per_video": 830.2,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate RWA"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate RWA",
+            "video_id": "GKkkq5IJM_0",
+            "title": "Why Everyone Is Talking About RWA (Real World Assets)",
+            "description": "Everyone's talking about Real World Assets — tokenizing real estate, government bonds, gold, and invoices onto blockchains.",
+            "published_at": "2026-11-03T21:32:39Z",
+            "url": "https://www.youtube.com/watch?v=GKkkq5IJM_0"
+          }
+        ],
+        "channel_description": "I am Glory Praise, a Software Engineer building backend systems, AI, and Web3 infrastructure.\n\nI build and document in public, covering backend engineering, Rust, Web3, AI, open source, and what it's like building a career in software.\n\nIf you're a developer who wants to go deeper on how systems work, build in Web3, or navigate a career in tech, you're in the right place.\n\n5+ years building production systems across backend infrastructure, Web3 protocols, and full-stack applications. \n",
+        "latest_video_at": "2026-11-03T21:32:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:57fdb4344ab0670e580d",
+      "external_id": "57fdb4344ab0670e580d",
+      "name": "Lindsay Fraser",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/11/04/the-election-changes-washington-the-work-on-crypto-continues",
+      "discovered_on": "2026-11-04",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "The election changes Washington. The work on crypto continues"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d3875c55f7ffbaa7d5bc",
+      "external_id": "d3875c55f7ffbaa7d5bc",
+      "name": "Andy Baehr",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/11/04/crypto-long-and-short-ice-is-betting-on-retail-s-appetite-for-quick-outcomes",
+      "discovered_on": "2026-11-04",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto Long & Short: ICE is betting on retail’s appetite for quick outcomes"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCpfyhhqRNzmjMc0XphN5pmA",
       "external_id": "UCpfyhhqRNzmjMc0XphN5pmA",

@@ -2,19 +2,537 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-03T17:56:18Z",
-  "new_this_run": 10,
-  "total_influencers": 1064,
+  "updated_at": "2026-11-04T18:04:19Z",
+  "new_this_run": 12,
+  "total_influencers": 1076,
   "run_summary": {
-    "run_started_at": "2026-11-03T17:56:09Z",
-    "candidate_count": 21,
-    "existing_count": 1054,
-    "selected_new_count": 10,
+    "run_started_at": "2026-11-04T18:04:10Z",
+    "candidate_count": 28,
+    "existing_count": 1064,
+    "selected_new_count": 12,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCv8gcFiePJWtxLT9k032NJQ",
+      "external_id": "UCv8gcFiePJWtxLT9k032NJQ",
+      "name": "Digital naari",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCv8gcFiePJWtxLT9k032NJQ",
+      "discovered_on": "2026-11-04",
+      "score": 72.12,
+      "metrics": {
+        "subscribers": 26800,
+        "total_views": 5537977,
+        "video_count": 83,
+        "avg_views_per_video": 66722.61,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "NRaZe0DdLEo",
+            "title": "ज़रा सुनिये,   पब्लिक कुछ कह रही है... #publicreaction #chalodelhi #indiablogs #independentjournalism",
+            "description": "",
+            "published_at": "2026-11-03T18:23:56Z",
+            "url": "https://www.youtube.com/watch?v=NRaZe0DdLEo"
+          }
+        ],
+        "channel_description": "Most welcome on my youtube channel 'Digital Naari'. Your love, your presence is precious for me.\nyours\nBushra ",
+        "latest_video_at": "2026-11-03T18:23:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCle0oioBPS6h5Rotr0iSLSQ",
+      "external_id": "UCle0oioBPS6h5Rotr0iSLSQ",
+      "name": "World View - Frontline",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCle0oioBPS6h5Rotr0iSLSQ",
+      "discovered_on": "2026-11-04",
+      "score": 71.7,
+      "metrics": {
+        "subscribers": 20300,
+        "total_views": 4784573,
+        "video_count": 59,
+        "avg_views_per_video": 81094.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "Z0roYCo260E",
+            "title": "Venezuela: Journalism Under Censorship | Report - AT",
+            "description": "In Venezuela, getting reliable information has become a daily struggle. As newspapers disappear, websites are blocked and ...",
+            "published_at": "2026-11-04T17:00:21Z",
+            "url": "https://www.youtube.com/watch?v=Z0roYCo260E"
+          }
+        ],
+        "channel_description": "Your window to the current world!\nWelcome to the channel \"WorldView - Frontline.\" Follow the latest news through in-depth and well-documented geopolitical reports. Explore conflicts, changes, and realities impacting different regions of the planet. Clear analyses and unique perspectives to understand global politics. Stay informed with us!\n",
+        "latest_video_at": "2026-11-04T17:00:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYlKKbM9o4ZfWoyM32KXY9w",
+      "external_id": "UCYlKKbM9o4ZfWoyM32KXY9w",
+      "name": "Balochistan News Exclusive",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCYlKKbM9o4ZfWoyM32KXY9w",
+      "discovered_on": "2026-11-04",
+      "score": 71.64,
+      "metrics": {
+        "subscribers": 74600,
+        "total_views": 8089765,
+        "video_count": 634,
+        "avg_views_per_video": 12759.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "QHyfY2d6ZRE",
+            "title": "Why a New Political Party Was Created in Balochistan? | Balochistan News Exclusive #reels #news",
+            "description": "Why a New Political Party Was Created in Balochistan? | Balochistan News Exclusive #reels #news #balochistan #bip #pakistan ...",
+            "published_at": "2026-11-04T17:54:30Z",
+            "url": "https://www.youtube.com/watch?v=QHyfY2d6ZRE"
+          }
+        ],
+        "channel_description": "Disclaimer::\nWe are a news and analysis channel. The views and reports presented here are based on info already out there. And solely for informational, analytical and educational purposes. We do not promote, endorse, or support violence, terrorism, or unlawful activities in any form. Our coverage is limited to reporting on events that have already occurred, with the aim of encouraging constructive discussion.\n\nFeedback: amjadshabmir@gmail.com\n\nDr. Mirza is a journalist, foreign affairs commentator, and author with a diverse academic background:\n✔ Medical Degree\n✔ BA in Film & TV Studies – Brunel University, London\n✔ Master’s in Film & TV Studies – University of Glasgow\n\nMedia:\n\t•\tRegularly appears on Indian and global news platforms.\n\t•\tAddressed UN Human Rights Council (UNHRC) in Geneva, exposing human rights violations in (PoJK).\n\nBooks by Dr. Mirza\nPrepare to Fight (Urdu):\nCinema and Culture\nCinematic Transition: Samurai to Yakuza\n",
+        "latest_video_at": "2026-11-04T17:54:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCiqPR195D9otFGH43INLJvA",
+      "external_id": "UCiqPR195D9otFGH43INLJvA",
+      "name": "Expedientes de Famosos ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCiqPR195D9otFGH43INLJvA",
+      "discovered_on": "2026-11-04",
+      "score": 68.11,
+      "metrics": {
+        "subscribers": 16400,
+        "total_views": 5500247,
+        "video_count": 262,
+        "avg_views_per_video": 20993.31,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "YznsW5SCYVY",
+            "title": "Creías que Habían Fallecido: 10 Actores CUBANOS Olvidados que Sobreviven en el Abandono Total 🤫💔",
+            "description": "Qué pasó realmente con los rostros que marcaron la historia de la pantalla chica? En este video te contamos la desgarradora ...",
+            "published_at": "2026-11-03T20:07:15Z",
+            "url": "https://www.youtube.com/watch?v=YznsW5SCYVY"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-03T20:07:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCAYd5-Q6ws-oNr-SvxA_8GQ",
+      "external_id": "UCAYd5-Q6ws-oNr-SvxA_8GQ",
+      "name": "Voicepkdotnet",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCAYd5-Q6ws-oNr-SvxA_8GQ",
+      "discovered_on": "2026-11-04",
+      "score": 66.69,
+      "metrics": {
+        "subscribers": 65800,
+        "total_views": 6487039,
+        "video_count": 4167,
+        "avg_views_per_video": 1556.76,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "6T_h5x8DKbU",
+            "title": "Why did some Pakistani TV channels receive crores more in government advertising than others?",
+            "description": "Who really controls Pakistan's media? Can journalism remain independent when governments control advertising money and ...",
+            "published_at": "2026-11-04T09:50:33Z",
+            "url": "https://www.youtube.com/watch?v=6T_h5x8DKbU"
+          }
+        ],
+        "channel_description": "Voicepk.net is an open platform which is dedicated to broadcasting events related to human rights concerns within Pakistan and the rest of the world. We aim to report and spread awareness about stories from the prism of human rights to help protect the rights of women, children and minorities.",
+        "latest_video_at": "2026-11-04T09:50:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCx1-FIrbabd9HsU8CSSc3BA",
+      "external_id": "UCx1-FIrbabd9HsU8CSSc3BA",
+      "name": "FACUNDO PRESS",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCx1-FIrbabd9HsU8CSSc3BA",
+      "discovered_on": "2026-11-04",
+      "score": 65.43,
+      "metrics": {
+        "subscribers": 20700,
+        "total_views": 2152801,
+        "video_count": 309,
+        "avg_views_per_video": 6966.99,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "PQqAUOst0B0",
+            "title": "Lula censura crianças cristãs?",
+            "description": "Após a fuga de #flaviobolsonaro bolsonaristas estão fazendo de tudo para engajar a base nas redes sociais. Agora estão ...",
+            "published_at": "2026-11-03T17:24:18Z",
+            "url": "https://www.youtube.com/watch?v=PQqAUOst0B0"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-03T17:24:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC-rhSRguZa-2ceDFaIp59kw",
+      "external_id": "UC-rhSRguZa-2ceDFaIp59kw",
+      "name": "NusaBaliTV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC-rhSRguZa-2ceDFaIp59kw",
+      "discovered_on": "2026-11-04",
+      "score": 64.23,
+      "metrics": {
+        "subscribers": 40800,
+        "total_views": 13385203,
+        "video_count": 13709,
+        "avg_views_per_video": 976.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "CuNwrUv-Jo8",
+            "title": "Kenapa kulit salak yang dipilih untuk bahan media alternatif pertumbuhan bakteri? (2)",
+            "description": "",
+            "published_at": "2026-11-04T08:24:40Z",
+            "url": "https://www.youtube.com/watch?v=CuNwrUv-Jo8"
+          }
+        ],
+        "channel_description": "Kemajuan teknologi telah membuat berbagai perubahan dalam cara masyarakat mengonsumsi berita dan informasi. Menjawab tantangan ini, kami hadir menyapa Sobat NusaBali dalam bentuk digital di berbagai platform, mulai dari Website, Facebook, Twitter, Instagram, hingga kini merambah ke Youtube NusaBali TV.",
+        "latest_video_at": "2026-11-04T08:24:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCUBGKRNVaDNdRShRXuUod9w",
+      "external_id": "UCUBGKRNVaDNdRShRXuUod9w",
+      "name": "Whispers in the Wind",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCUBGKRNVaDNdRShRXuUod9w",
+      "discovered_on": "2026-11-04",
+      "score": 63.82,
+      "metrics": {
+        "subscribers": 17600,
+        "total_views": 27022729,
+        "video_count": 6486,
+        "avg_views_per_video": 4166.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "kP7zLQu3PrA",
+            "title": "Right-wing Media don&#39;t Cuck for Dumpy #youtubeshorts #shorts #usa #maga #politics #viral #trending",
+            "description": "",
+            "published_at": "2026-11-03T04:30:36Z",
+            "url": "https://www.youtube.com/watch?v=kP7zLQu3PrA"
+          }
+        ],
+        "channel_description": "Welcome to \"Whispers In The Wind,\" your portal into the mysterious and perplexing world of unsolved crimes and true crime mysteries. If you're a true crime enthusiast with a passion for delving into the darkest corners of human history, you've just discovered your new addiction.\n\nVideos will be uploded 3 or more times a week.\n\n🔍 Explore Unsolved Mysteries: Join us as we journey through riveting, real-life cases that continue to baffle investigators and haunt the memories of those involved. \n\n👥 Join Our Community: True crime isn't just a fascination; it's a community. Connect with like-minded sleuths from around the world in our comments section and social media platforms. \n\nJoin us as we embark on a journey through the labyrinthine world of true crime. Subscribe, hit that notification bell, and prepare to become a part of our ever-growing community of armchair detectives. Together, we'll seek justice, truth, and answers in the chilling tales of \"Whisper In The Wind.\"\n",
+        "latest_video_at": "2026-11-03T04:30:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCE9g01lcdAAqNDKdqG8SRZQ",
+      "external_id": "UCE9g01lcdAAqNDKdqG8SRZQ",
+      "name": "Bahujan Political News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCE9g01lcdAAqNDKdqG8SRZQ",
+      "discovered_on": "2026-11-04",
+      "score": 61.31,
+      "metrics": {
+        "subscribers": 2730,
+        "total_views": 351441,
+        "video_count": 313,
+        "avg_views_per_video": 1122.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/invites"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "Hic05yqx3-k",
+            "title": "सच की आवाज़: बहुजन मीडिया को आपके साथ की ज़रूरत क्यों है? ✊🔥",
+            "description": "Mainstream media aam logon aur shoshit samaj ke mudde nahi dikhata, lekin Bahujan Media aapki nishpaksh aur sachhi awaaz ...",
+            "published_at": "2026-11-04T03:30:29Z",
+            "url": "https://www.youtube.com/watch?v=Hic05yqx3-k"
+          }
+        ],
+        "channel_description": "नमस्कार दोस्तों, 'Bahujan Politics News' चैनल पर आपका स्वागत है। \n\nइस चैनल पर आपको बहुजन राजनीतिक शास्त्र, बाबासाहेब डॉ. भीमराव अंबेडकर के विचार, मान्यवर कांशीराम जी, बहन मायावती जी और चंद्रशेखर आजाद जी सहित देश के सभी महापुरुषों की विचारधारा से जुड़े राजनीतिक विश्लेषण देखने को मिलेंगे। इसके साथ ही हम आपको देश-दुनिया की सभी प्रकार की बड़ी खबरें, निष्पक्ष और सटीक तरीके से पहुंचाते हैं। \n\nअगर आप देश की राजनीति और बहुजन मूवमेंट से जुड़ी हर छोटी-बड़ी खबर से अपडेट रहना चाहते हैं, तो हमारे चैनल को अभी SUBSCRIBE करें और बेल आइकन जरूर दबाएं।\n\nजय भीम! जय भारत!\n\n#BahujanPoliticsNews #BahujanNews #JaiBhim #PoliticalNews #LatestNews #ChandrashekharAzad #Mayawati #AmbedkarThought\n\nInstagram link - https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=10r2513e\n\n",
+        "latest_video_at": "2026-11-04T03:30:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC5hixugZffaY7HrQga5ircA",
+      "external_id": "UC5hixugZffaY7HrQga5ircA",
+      "name": "TP News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC5hixugZffaY7HrQga5ircA",
+      "discovered_on": "2026-11-04",
+      "score": 60.3,
+      "metrics": {
+        "subscribers": 16600,
+        "total_views": 132547,
+        "video_count": 235,
+        "avg_views_per_video": 564.03,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "6TM2LVTTHF4",
+            "title": "Historia censurada",
+            "description": "Historia censurada.",
+            "published_at": "2026-11-04T14:54:51Z",
+            "url": "https://www.youtube.com/watch?v=6TM2LVTTHF4"
+          }
+        ],
+        "channel_description": "investigaciones, noticias\n\n",
+        "latest_video_at": "2026-11-04T14:54:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCwAyvuMuou0COkkMWQ2D-UA",
+      "external_id": "UCwAyvuMuou0COkkMWQ2D-UA",
+      "name": "Iğdır Doğuş Gazetesi",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCwAyvuMuou0COkkMWQ2D-UA",
+      "discovered_on": "2026-11-04",
+      "score": 56.41,
+      "metrics": {
+        "subscribers": 3150,
+        "total_views": 1256700,
+        "video_count": 824,
+        "avg_views_per_video": 1525.12,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "wiM2sqd64ac",
+            "title": "Vekil Hun’dan Iğdır Doğuş Gazetesi Sitesinin Kapatılmasına Tepki",
+            "description": "Milletvekili Hun TBMM'de konuştu: Basına uygulanan sansür son bulmalı DEM Parti Iğdır Milletvekili Yılmaz Hun TBMM'de yaptığı ...",
+            "published_at": "2026-11-03T15:28:48Z",
+            "url": "https://www.youtube.com/watch?v=wiM2sqd64ac"
+          }
+        ],
+        "channel_description": "Gazeteci/Yazar Murat Akkuş Yönetiminde Iğdır'ın Yerelden Evrensele Yükselen Sesi.\n\nigdirdogusgazetesi@hotmail.com\n",
+        "latest_video_at": "2026-11-03T15:28:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOTLLU6DH8_WGtqx1w1tpWg",
+      "external_id": "UCOTLLU6DH8_WGtqx1w1tpWg",
+      "name": "Tarot & Numerology",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCOTLLU6DH8_WGtqx1w1tpWg",
+      "discovered_on": "2026-11-04",
+      "score": 55.97,
+      "metrics": {
+        "subscribers": 4540,
+        "total_views": 1477951,
+        "video_count": 3141,
+        "avg_views_per_video": 470.54,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "VwgaJgh5jPo",
+            "title": "Aries: Healing, Independence &amp; Good News Ahead #shorts",
+            "description": "Heartbreak has passed and healing is here. Your intuition is screaming that a new chapter has begun, bringing a sudden wave of ...",
+            "published_at": "2026-11-04T05:36:08Z",
+            "url": "https://www.youtube.com/watch?v=VwgaJgh5jPo"
+          }
+        ],
+        "channel_description": "For Personal Reading I Charge 50$ An Hour over the phone, zoom, or google meet. pre recording are 71$, Email Me At freeformtarot@gmail.com\n",
+        "latest_video_at": "2026-11-04T05:36:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCl95JII75X3FvEjYw-KLvIw",
       "external_id": "UCl95JII75X3FvEjYw-KLvIw",
