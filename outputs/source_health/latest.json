@@ -1,11 +1,12 @@
 {
   "expected_sources": 128,
   "not_attempted": 3,
-  "successful_sources": 120,
-  "degraded_sources": 4,
+  "successful_sources": 119,
+  "degraded_sources": 5,
   "failed_sources": 1,
   "stale_sources": [
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
+    "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom",
     "https://reliefweb.int/updates/rss.xml",
     "https://www.blockchainappfactory.com/blog/feed/",
     "solana"
@@ -125,7 +126,7 @@
     "https://github.blog/feed/": "ok",
     "https://reliefweb.int/updates/rss.xml": "empty",
     "https://www.gdacs.org/xml/rss.xml": "ok",
-    "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom": "ok",
+    "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom": "empty",
     "https://news.un.org/feed/subscribe/en/news/all/rss.xml": "ok",
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss": "empty",
     "https://www.federalreserve.gov/feeds/press_all.xml": "ok",
@@ -143,7 +144,7 @@
     "https://www.theblackvault.com/casefiles/feed/": "ok",
     "https://thegrayzone.com/feed/": "ok"
   },
-  "report_date": "2026-11-04",
-  "generated_at": "2026-11-04T15:25:27Z",
+  "report_date": "2026-11-05",
+  "generated_at": "2026-11-05T15:28:43Z",
   "schema_version": "source_health.v1"
 }
