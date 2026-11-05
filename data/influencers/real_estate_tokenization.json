@@ -2,19 +2,118 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-11-04T18:04:16Z",
+  "updated_at": "2026-11-05T18:07:31Z",
   "new_this_run": 3,
-  "total_influencers": 414,
+  "total_influencers": 417,
   "run_summary": {
-    "run_started_at": "2026-11-04T18:04:10Z",
-    "candidate_count": 39,
-    "existing_count": 411,
+    "run_started_at": "2026-11-05T18:07:25Z",
+    "candidate_count": 36,
+    "existing_count": 414,
     "selected_new_count": 3,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCJ5gGCjn6ItdPQF0ZO9YROA",
+      "external_id": "UCJ5gGCjn6ItdPQF0ZO9YROA",
+      "name": "Leo Cui, Ph.D., CFA ",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCJ5gGCjn6ItdPQF0ZO9YROA",
+      "discovered_on": "2026-11-05",
+      "score": 72.56,
+      "metrics": {
+        "subscribers": 50200,
+        "total_views": 3632907,
+        "video_count": 107,
+        "avg_views_per_video": 33952.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "property tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "property tokenization",
+            "video_id": "dvRGItvu9zA",
+            "title": "Tokenization Explained: What Are You Actually Buying?",
+            "description": "Follow me on LinkedIn: https://www.linkedin.com/in/leo-cui-ph-d-cfa-59531439/ I am a venture capital investor at FoundersX ...",
+            "published_at": "2026-11-05T14:00:28Z",
+            "url": "https://www.youtube.com/watch?v=dvRGItvu9zA"
+          }
+        ],
+        "channel_description": "I’m Leo Cui, General Partner at FoundersX, a Venture Capital firm focused on deep tech, AI, biotech, healthcare, semiconductors, robotics, quantum, fintech and other frontier technologies. Previously did my Ph.D. at Harvard, postdoc at MIT. You can also follow me on LinkedIn: https://www.linkedin.com/in/leo-cui-ph-d-cfa-59531439/\n\nThis channel is for founders, technical builders, scientists, engineers, and students who want to understand how startups are built and how investors think.\n\nI share practical advice on fundraising, pitch decks, venture capital, customer validation, market sizing, founder storytelling, and turning strong technology into a real business. I also discuss deep-tech trends, startup mistakes, and what makes a company fundable.\n\nLinkedIn: https://www.linkedin.com/in/leo-cui-ph-d-cfa-59531439/\nX: @Leo_Cui_PhD_CFA\n\nFor business inquires, please contact me at: partnerships@lyagroup.org . \n",
+        "latest_video_at": "2026-11-05T14:00:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:cb8f0bec8f58b0306a87",
+      "external_id": "cb8f0bec8f58b0306a87",
+      "name": "Sarah Morton",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/11/05/crypto-for-advisors-where-investors-stake-crypto-shapes-how-much-of-the-reward-they-keep",
+      "discovered_on": "2026-11-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:dfdb7c4a67f8059915b8",
+      "external_id": "dfdb7c4a67f8059915b8",
+      "name": "Cointelegraph by Jona Jaupi",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://cointelegraph.com/news/trump-linked-tokens-lead-crypto-losses-after-democrats-sweep-in-the-us-midterms?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-11-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCPYSZMwlsGFjWGltTCYuEvg",
       "external_id": "UCPYSZMwlsGFjWGltTCYuEvg",

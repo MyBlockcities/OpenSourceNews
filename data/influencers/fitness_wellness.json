@@ -2,19 +2,348 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-11-04T18:04:32Z",
-  "new_this_run": 6,
-  "total_influencers": 1818,
+  "updated_at": "2026-11-05T18:07:46Z",
+  "new_this_run": 9,
+  "total_influencers": 1827,
   "run_summary": {
-    "run_started_at": "2026-11-04T18:04:10Z",
+    "run_started_at": "2026-11-05T18:07:25Z",
     "candidate_count": 43,
-    "existing_count": 1812,
-    "selected_new_count": 6,
+    "existing_count": 1818,
+    "selected_new_count": 9,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCO_w6kRRyWV_h2HGfP8DE8A",
+      "external_id": "UCO_w6kRRyWV_h2HGfP8DE8A",
+      "name": "JET 86",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCO_w6kRRyWV_h2HGfP8DE8A",
+      "discovered_on": "2026-11-05",
+      "score": 71.08,
+      "metrics": {
+        "subscribers": 26300,
+        "total_views": 28100427,
+        "video_count": 662,
+        "avg_views_per_video": 42447.77,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "4jj07LCYyRs",
+            "title": "Old Beavis and Butt-Head &#39;My Longevity Protocol&#39;",
+            "description": "",
+            "published_at": "2026-11-04T21:19:19Z",
+            "url": "https://www.youtube.com/watch?v=4jj07LCYyRs"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-04T21:19:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCf4aJ-Kh2YjN9QZl499gn5Q",
+      "external_id": "UCf4aJ-Kh2YjN9QZl499gn5Q",
+      "name": "IAOS Indian Academy of Orthopaedic Surgeons",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCf4aJ-Kh2YjN9QZl499gn5Q",
+      "discovered_on": "2026-11-05",
+      "score": 68.53,
+      "metrics": {
+        "subscribers": 32500,
+        "total_views": 4784402,
+        "video_count": 490,
+        "avg_views_per_video": 9764.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "2JYoyNtUXaA",
+            "title": "All About Peptides, Doses, cost, and modes of administeration",
+            "description": "Peptides are the new kids on the block which are revolutionising many many things in mediccine, healthcare and wellness.",
+            "published_at": "2026-11-05T09:03:20Z",
+            "url": "https://www.youtube.com/watch?v=2JYoyNtUXaA"
+          }
+        ],
+        "channel_description": "IAOS is a purely scientific non commercial association with a large repository of journals and books. Large video collection. Real workshops. Intense teaching and learning.  Excellent journals. Proper conferences with sandwich lunches and paid dinners. All sponsorship money to be used for fellowships and trainings. No favouritism. Transparent.\n\n",
+        "latest_video_at": "2026-11-05T09:03:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOvk1CddJPw5_6HYhngN08A",
+      "external_id": "UCOvk1CddJPw5_6HYhngN08A",
+      "name": "State Change",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCOvk1CddJPw5_6HYhngN08A",
+      "discovered_on": "2026-11-05",
+      "score": 61.46,
+      "metrics": {
+        "subscribers": 5360,
+        "total_views": 987229,
+        "video_count": 211,
+        "avg_views_per_video": 4678.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "_YSNLtKaLEA",
+            "title": "Your Grandma’s Longevity Protocol",
+            "description": "Five-day fasts ? Eating every two hours ? Why does health advice online swing between extremes? Max Marchione, co-founder of ...",
+            "published_at": "2026-11-04T18:34:48Z",
+            "url": "https://www.youtube.com/watch?v=_YSNLtKaLEA"
+          }
+        ],
+        "channel_description": "It's time we rewrite the social contract for the 21st century.\n",
+        "latest_video_at": "2026-11-04T18:34:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCsfgI4iiO95379tnLt7XpBA",
+      "external_id": "UCsfgI4iiO95379tnLt7XpBA",
+      "name": "The Cabral Concept Podcast",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCsfgI4iiO95379tnLt7XpBA",
+      "discovered_on": "2026-11-05",
+      "score": 60.33,
+      "metrics": {
+        "subscribers": 3170,
+        "total_views": 177437,
+        "video_count": 306,
+        "avg_views_per_video": 579.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@thecabralconceptpodcast"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "aW65DcXqO7A",
+            "title": "Build Your Own Longevity Program at Home",
+            "description": "You don't need to visit an expensive longevity clinic to start taking steps toward a healthier future. Building a personalized plan ...",
+            "published_at": "2026-11-05T11:00:39Z",
+            "url": "https://www.youtube.com/watch?v=aW65DcXqO7A"
+          }
+        ],
+        "channel_description": "Subscribe to the daily podcast:\nhttps://www.youtube.com/@thecabralconceptpodcast?sub_confirmation=1\n\nFor years I struggled with trying to figure out how to overcome multiple life-alternating illnesses such as auto-immune, Addisons, type 2 diabetes, digestive, allergies, insomnia, and chronic fatigue.  \n\nThen I discovered how to combine and integrate multiple health practices to finally help people rebalance their bodies and live the life they always wanted. After creating proven protocols that combine the best of ancient Ayurvedic wisdom with state-of-the-art Functional Medicine, my team and I have completed over 250,000 appointments helping people just like you.\n\nIf you’re interested in getting well, losing weight, or living longer, I look forward to helping you to accomplish those goals. Discover the hidden, underlying root causes of why you're not able to lose weight or get well, so you can start on the path to optimal wellness!\n\n- Dr. Stephen Cabral\nhttps://StephenCabral.com\n",
+        "latest_video_at": "2026-11-05T11:00:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCl9UFYeO-MZI29waK7RUX_w",
+      "external_id": "UCl9UFYeO-MZI29waK7RUX_w",
+      "name": "Doctor Leana⚕️",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCl9UFYeO-MZI29waK7RUX_w",
+      "discovered_on": "2026-11-05",
+      "score": 58.25,
+      "metrics": {
+        "subscribers": 4730,
+        "total_views": 166562,
+        "video_count": 52,
+        "avg_views_per_video": 3203.12,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "CZNLT8hQY0c",
+            "title": "Forget Laxatives — This Japanese Habit Restores Your Colon in Days (Doctor Explains)",
+            "description": "Over 40 million Americans use laxatives daily — and every single dose is training your colon to work less. In this video, Dr. Leana ...",
+            "published_at": "2026-11-03T13:12:24Z",
+            "url": "https://www.youtube.com/watch?v=CZNLT8hQY0c"
+          }
+        ],
+        "channel_description": "😴 Tired & Foggy After 60? Fix It In 21 Days 👇📘\nWelcome to Dr. Leana 2.0 ! 👩‍⚕️✨\nYour go-to source for trusted health advice, wellness tips, and practical solutions to help you feel your best every day. Dr. Leana is dedicated to empowering you with the knowledge and tools to take charge of your health — simply, clearly, and with real care.\n\nNo hype.\nNo fear tactics.\nNo confusing medical jargon.\n\nHit Subscribe and join a growing community that puts your health first! 💙\n\n⚠️ Disclaimer\nThe content on this channel is for educational and informational purposes only and does not constitute medical advice. Always consult with your physician or a qualified healthcare professional before making changes to your health routine or treatment plan.\n",
+        "latest_video_at": "2026-11-03T13:12:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:2d5c57763290761c6633",
+      "external_id": "2d5c57763290761c6633",
+      "name": "Peter D. Feaver, Heidi Urben",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/new-congress-can-repair-civil-military-relations",
+      "discovered_on": "2026-11-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The New Congress Can Repair Civil-Military Relations"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4e44ad593031bb473194",
+      "external_id": "4e44ad593031bb473194",
+      "name": "Oliver Melton, Logan Wright",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/chinas-economics-denial",
+      "discovered_on": "2026-11-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "China’s Economics of Denial"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:e60d44896d91b1922445",
+      "external_id": "e60d44896d91b1922445",
+      "name": "OhadA",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/voe2dDnuopYn6DC3N/efficient-lempel-ziv-prediction-with-the-run-length-bwt",
+      "discovered_on": "2026-11-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Efficient Lempel-Ziv Prediction with the Run-Length BWT"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:2f5a41a56849193b7902",
+      "external_id": "2f5a41a56849193b7902",
+      "name": "Jason  Hoelscher-Obermaier",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/pvNGd4tCfEfTxcDtz/introducing-the-ai-security-institutes-tracker",
+      "discovered_on": "2026-11-05",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Introducing the AI Security Institutes tracker"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC7AR008TUcwwg8vvPrcVlOQ",
       "external_id": "UC7AR008TUcwwg8vvPrcVlOQ",
