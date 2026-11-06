@@ -2,19 +2,629 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-05T18:07:34Z",
-  "new_this_run": 7,
-  "total_influencers": 1083,
+  "updated_at": "2026-11-06T17:34:10Z",
+  "new_this_run": 14,
+  "total_influencers": 1097,
   "run_summary": {
-    "run_started_at": "2026-11-05T18:07:25Z",
+    "run_started_at": "2026-11-06T17:34:02Z",
     "candidate_count": 21,
-    "existing_count": 1076,
-    "selected_new_count": 7,
+    "existing_count": 1083,
+    "selected_new_count": 14,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCxH1ZXmQV2XGy4I7o1EE4hA",
+      "external_id": "UCxH1ZXmQV2XGy4I7o1EE4hA",
+      "name": "Royal Line Daily",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCxH1ZXmQV2XGy4I7o1EE4hA",
+      "discovered_on": "2026-11-06",
+      "score": 71.51,
+      "metrics": {
+        "subscribers": 29500,
+        "total_views": 16844865,
+        "video_count": 383,
+        "avg_views_per_video": 43981.37,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "9k-Pr3dhIm8",
+            "title": "Meghan’s Australia Petition CENSORED — “Get Her Off Our Kids’ Show!”",
+            "description": "The petition to remove her from Junior MasterChef was pulled offline within days, flagged as under review, and then it quietly ...",
+            "published_at": "2026-11-06T17:30:00Z",
+            "url": "https://www.youtube.com/watch?v=9k-Pr3dhIm8"
+          }
+        ],
+        "channel_description": "Royal Line Daily is your daily source for British Royal Family news, analysis and deep-dives. We cover King Charles, Queen Camilla, Prince William and Catherine, Princess Anne, Prince George, Princess Charlotte, Prince Louis, Harry and Meghan, and the enduring legacy of Princess Diana. Expect clear explainers on royal titles, HRH, the line of succession and bloodline rules, plus the palace stories everyone is talking about. If you follow the monarchy and want more than a headline, this is your channel. Subscribe and never miss a royal update.\n\n\nDisclaimer: This channel is created for entertainment and commentary purposes only. Videos may combine public information, media reports, opinions, speculation and dramatization. Nothing should be taken as confirmed fact. Some visuals and narration are produced with AI assistance.\n",
+        "latest_video_at": "2026-11-06T17:30:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC_APk2Lsu1URwRaplbbd_HA",
+      "external_id": "UC_APk2Lsu1URwRaplbbd_HA",
+      "name": " Fala Prawdy Shoty",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC_APk2Lsu1URwRaplbbd_HA",
+      "discovered_on": "2026-11-06",
+      "score": 65.71,
+      "metrics": {
+        "subscribers": 10800,
+        "total_views": 39944350,
+        "video_count": 3203,
+        "avg_views_per_video": 12470.92,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "NFAotpVO7pw",
+            "title": "ZBYT DUZA CENZURA? #prime19 #tańcula #mmabnb #freakfight #primemma #viralshorts #news #nowość #4you",
+            "description": "",
+            "published_at": "2026-11-06T17:30:18Z",
+            "url": "https://www.youtube.com/watch?v=NFAotpVO7pw"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-06T17:30:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCLUjbnpUrmt3Q4rTq6s09og",
+      "external_id": "UCLUjbnpUrmt3Q4rTq6s09og",
+      "name": "Peter Dooley Dublin",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCLUjbnpUrmt3Q4rTq6s09og",
+      "discovered_on": "2026-11-06",
+      "score": 64.7,
+      "metrics": {
+        "subscribers": 16200,
+        "total_views": 3743494,
+        "video_count": 845,
+        "avg_views_per_video": 4430.17,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "O4gI0bAGUPo",
+            "title": "BOMB THREATS AT RTE, VIRGIN MEDIA, INDEPENDENT NEWS &amp; NEWSTALK ",
+            "description": "",
+            "published_at": "2026-11-06T16:11:10Z",
+            "url": "https://www.youtube.com/watch?v=O4gI0bAGUPo"
+          }
+        ],
+        "channel_description": "Peter Dooley, Independent Political Activist, Dublin, Ireland.\n\n",
+        "latest_video_at": "2026-11-06T16:11:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOl2qmTlThCnBgCsZKOMW6A",
+      "external_id": "UCOl2qmTlThCnBgCsZKOMW6A",
+      "name": "Dr. Marc Jongen MdEP",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCOl2qmTlThCnBgCsZKOMW6A",
+      "discovered_on": "2026-11-06",
+      "score": 64.24,
+      "metrics": {
+        "subscribers": 8520,
+        "total_views": 2459737,
+        "video_count": 279,
+        "avg_views_per_video": 8816.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "2iV0Y3juPmw",
+            "title": "++ Medienaufsicht-Boss: Arroganz-Anfall wegen Ben Berndt! ++",
+            "description": "Die Medienaufsicht wollte gegen Ben Berndt vorgehen, jetzt verklagt er sie selbst! Der Vorwurf: Eingriff in die Pressefreiheit.",
+            "published_at": "2026-11-06T15:31:35Z",
+            "url": "https://www.youtube.com/watch?v=2iV0Y3juPmw"
+          }
+        ],
+        "channel_description": "Offizieller YouTube-Kanal von Dr. Marc Jongen, MdEP\n\nImpressum: https://marcjongen.de/impressum/",
+        "latest_video_at": "2026-11-06T15:31:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRdSEn3K-Myc9EKW7di7AmA",
+      "external_id": "UCRdSEn3K-Myc9EKW7di7AmA",
+      "name": "Nico Russo",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCRdSEn3K-Myc9EKW7di7AmA",
+      "discovered_on": "2026-11-06",
+      "score": 63.9,
+      "metrics": {
+        "subscribers": 9090,
+        "total_views": 1734968,
+        "video_count": 159,
+        "avg_views_per_video": 10911.75,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "3x-no4GvnjM",
+            "title": "El rodaje censurado de Cristina Kirchner, sin dar play",
+            "description": "Encontré un rodaje censurado de Cristina Kirchner en una caja vieja: un DVD de 2008, de cuando yo era editor del canal de ...",
+            "published_at": "2026-11-05T12:15:06Z",
+            "url": "https://www.youtube.com/watch?v=3x-no4GvnjM"
+          }
+        ],
+        "channel_description": "Cómo la Tecnología sirve a qué contemos mejores historias.\n\nEn este canal hablo sobre cómo el avance tecnológico hizo cambiar para siempre (para mal o para bien) el trabajo de los que cuentan historias.\n\nTrabajo hace más de 20 años en redacciones periodísticas, televisión y medios digitales,  me formé  como realizador audiovisual.\n\nRecibí múltiples fondos y becas de prestigiosas organizaciones como Google News Initiative, Meta Journalism Project y el International Center for Journalists y desde 2015, he sido colaborador activo en la Media Party, el evento de tecnología y periodismo más importante de LATAM.\n\nOjalá que lo que veas acá te ayude a contar tu historia.\n",
+        "latest_video_at": "2026-11-05T12:15:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC9HFqVh8XRy7TpLiWEkOWbw",
+      "external_id": "UC9HFqVh8XRy7TpLiWEkOWbw",
+      "name": "Carolay Morales | Las noticias sin ruido",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC9HFqVh8XRy7TpLiWEkOWbw",
+      "discovered_on": "2026-11-06",
+      "score": 61.4,
+      "metrics": {
+        "subscribers": 4990,
+        "total_views": 1638693,
+        "video_count": 325,
+        "avg_views_per_video": 5042.13,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "gfF4ZLWp3Ks",
+            "title": "¿Qué va a pasar con el liderazgo de Gustavo Petro en la izquierda?",
+            "description": "Apoya el periodismo independiente. Aporte por Bre-B: @DAVILMP960 ¿La lealtad a Gustavo Petro ha dificultado la autocrítica ...",
+            "published_at": "2026-11-05T21:38:47Z",
+            "url": "https://www.youtube.com/watch?v=gfF4ZLWp3Ks"
+          }
+        ],
+        "channel_description": "Soy Carolay Morales, periodista desde hace más de 17 años. Acá las noticias de Colombia y el mundo con contexto y rigurosidad. \n\nDespués de trabajar en grandes medios de comunicación por años, entendí que, en la era digital, el periodismo independiente es una forma de resistir a la crisis de credibilidad que enfrenta el gremio. \n\nDurante casi dos décadas, de reportar noticias, me especialicé en conflicto armado, paz, derechos humanos, ambiente, salud, comunidades, política, geopolítica, política internacional, entre otros temas. \n\nSoy apasionada por las historias. Mi obsesión es humanizar el periodismo, porque siempre hay una historia detrás de un dato. \n\nHe realizado diversos reportajes y crónicas que me han hecho merecedora de varios premios de periodismo nacional e internacional, entre ellos, el premio Rey de España y Premio Simón Bolívar. \n\nSi quieres estar enterado (a) de las noticias explicadas, con contexto desde el periodismo independiente y humano, este canal es para ti. \n\n",
+        "latest_video_at": "2026-11-05T21:38:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKdRIz-2uHdUVo2TOBIfFww",
+      "external_id": "UCKdRIz-2uHdUVo2TOBIfFww",
+      "name": "O Brasil Esqueceu",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCKdRIz-2uHdUVo2TOBIfFww",
+      "discovered_on": "2026-11-06",
+      "score": 61.32,
+      "metrics": {
+        "subscribers": 2340,
+        "total_views": 280770,
+        "video_count": 20,
+        "avg_views_per_video": 14038.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "_IzLHRkiAds",
+            "title": "Censurado, o Estadão publicou Os Lusíadas no lugar das notícias #shorts",
+            "description": "Na ditadura, censores se instalaram na redação do Estadão; o jornal respondeu publicando trechos de Camões 656 vezes no ...",
+            "published_at": "2026-11-06T15:00:15Z",
+            "url": "https://www.youtube.com/watch?v=_IzLHRkiAds"
+          }
+        ],
+        "channel_description": "Documentários sobre os fatos que o Brasil preferiu esquecer. Confiscos, escândalos, tragédias e promessas — contados com pesquisa, fontes e as histórias reais de quem viveu. Porque um país que esquece, repete.",
+        "latest_video_at": "2026-11-06T15:00:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCX2c3iUYA0Ao2XZlrxQH9xA",
+      "external_id": "UCX2c3iUYA0Ao2XZlrxQH9xA",
+      "name": "진보팩트",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCX2c3iUYA0Ao2XZlrxQH9xA",
+      "discovered_on": "2026-11-06",
+      "score": 60.86,
+      "metrics": {
+        "subscribers": 2870,
+        "total_views": 776546,
+        "video_count": 91,
+        "avg_views_per_video": 8533.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "HwY4vf3zxWg",
+            "title": "“이것도 사전검열입니까?” 이정헌이 꺼낸 퍼스트레이디 상영회",
+            "description": "국회 행사 대관 기준을 놓고 이정헌 의원은 퍼스트레이디 상영회 불허 사례를 들었고 김민전 의원은 표현의 자유를 강조했습니다.",
+            "published_at": "2026-11-06T06:00:06Z",
+            "url": "https://www.youtube.com/watch?v=HwY4vf3zxWg"
+          }
+        ],
+        "channel_description": "핵심 발언은 짧게, 맥락은 정확하게.\n진보의 시선으로 짚는 정치 쇼츠, 진보팩트.\n",
+        "latest_video_at": "2026-11-06T06:00:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCjB-MYiBJ4H64z72572GYIw",
+      "external_id": "UCjB-MYiBJ4H64z72572GYIw",
+      "name": "Rodrigo Reyes Marín",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCjB-MYiBJ4H64z72572GYIw",
+      "discovered_on": "2026-11-06",
+      "score": 60.23,
+      "metrics": {
+        "subscribers": 3380,
+        "total_views": 2294724,
+        "video_count": 1803,
+        "avg_views_per_video": 1272.73,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "L0ABIN7Z3Z8",
+            "title": "Bari Weiss: How The Free Press Became a Media Powerhouse #shorts",
+            "description": "Bari Weiss turned The Free Press into a major media venture, selling it to CBS for about $200 million and becoming a powerful ...",
+            "published_at": "2026-11-06T12:56:41Z",
+            "url": "https://www.youtube.com/watch?v=L0ABIN7Z3Z8"
+          },
+          {
+            "query": "independent journalism",
+            "video_id": "wJW9SRtPnxM",
+            "title": "How Independent Journalists Build Media Brands with Newsletters #shorts",
+            "description": "Newsletters and podcasts are reshaping journalism as more reporters publish independently. The Free Press shows how one ...",
+            "published_at": "2026-11-06T09:00:23Z",
+            "url": "https://www.youtube.com/watch?v=wJW9SRtPnxM"
+          }
+        ],
+        "channel_description": "Rodrigo Reyes Marin's YouTube channel showcases his work as a freelance editorial videographer in Japan. Rodrigo takes viewers on a journey through Japan, capturing its traditional and modern sides in a way that is both authentic and mesmerizing. From festivals to daily life, his videos offer a unique perspective on this incredible country, making his channel a must-watch for anyone interested in Japan or documentary filmmaking. \n\nIf you want to experience the beauty and complexity of Japan through the eyes of Rodrigo Reyes Marin, make sure to follow his YouTube channel. Click the \"Follow\" button to not miss any of his amazing stories and discover all that this fascinating country has to offer. Follow me now!\n",
+        "latest_video_at": "2026-11-06T12:56:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRfbvMwSyjTiLfZRLw9_tyA",
+      "external_id": "UCRfbvMwSyjTiLfZRLw9_tyA",
+      "name": "TheCatYaps",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCRfbvMwSyjTiLfZRLw9_tyA",
+      "discovered_on": "2026-11-06",
+      "score": 58.04,
+      "metrics": {
+        "subscribers": 2020,
+        "total_views": 750396,
+        "video_count": 197,
+        "avg_views_per_video": 3809.12,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "M3EyriYIQ0o",
+            "title": "Debunking pro censorship arguments part one #politics #news #currentevents #comic #artvlog",
+            "description": "I'm tired of all the pro censorship arguments being RIDDLED with misinformation and lacking peer reviewed research so I'm ...",
+            "published_at": "2026-11-06T00:54:11Z",
+            "url": "https://www.youtube.com/watch?v=M3EyriYIQ0o"
+          }
+        ],
+        "channel_description": "Inappropriate comments and messages will be BLOCKED AND DELETED. I do not monitor this account often so comment at your own discretion ",
+        "latest_video_at": "2026-11-06T00:54:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZTYrjepzBJPKFDJXEXQ0LQ",
+      "external_id": "UCZTYrjepzBJPKFDJXEXQ0LQ",
+      "name": "America, America",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCZTYrjepzBJPKFDJXEXQ0LQ",
+      "discovered_on": "2026-11-06",
+      "score": 57.81,
+      "metrics": {
+        "subscribers": 5870,
+        "total_views": 337246,
+        "video_count": 440,
+        "avg_views_per_video": 766.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "_WgrQA4yTyY",
+            "title": "The Real Midterms Winner? Independent Media.",
+            "description": "Mainstream media has spent ten years regurgitating the narrative that Donald Trump's chaos is just a fact of life. This time ...",
+            "published_at": "2026-11-05T20:22:38Z",
+            "url": "https://www.youtube.com/watch?v=_WgrQA4yTyY"
+          }
+        ],
+        "channel_description": "Welcome to America, America, hosted by award-winning journalist and author Steven Beschloss.\n\nThis channel delivers sharp analysis, candid conversations and shorts that cut through misinformation and hold power accountable. Steven examines how legacy media normalizes authoritarianism, why and how democracy is at risk, and what it takes to defend truth in a time of disinformation.\n\nExpect fact-based commentary on U.S. politics and media, interviews with journalists and thought leaders, and insights on building a more just and democratic society.\n\nSteven is also the author of the America, America Substack newsletter—where he writes weekly essays on the urgent issues facing our country and world.\n\nSubscribe to America, America newsletter:  https://www.americaamerica.news/\nFollow on Bluesky for daily updates: https://bsky.app/profile/stevenbeschloss.bsky.social\n\nBecause democracy only survives if we’re willing to face reality—and act.\n",
+        "latest_video_at": "2026-11-05T20:22:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCeCSbmdfWPWh0c5KJ8iK9CQ",
+      "external_id": "UCeCSbmdfWPWh0c5KJ8iK9CQ",
+      "name": "LM777",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCeCSbmdfWPWh0c5KJ8iK9CQ",
+      "discovered_on": "2026-11-06",
+      "score": 56.14,
+      "metrics": {
+        "subscribers": 2740,
+        "total_views": 286783,
+        "video_count": 277,
+        "avg_views_per_video": 1035.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "oAfo6S3-3xk",
+            "title": "Dr. Peter Beter was widely known UFO alternative theory concept of robotoids&quot;biological clones",
+            "description": "The video features a conversation detailing fringe theories about human cloning, government-manufactured \"synthetics\" or ...",
+            "published_at": "2026-11-06T13:31:53Z",
+            "url": "https://www.youtube.com/watch?v=oAfo6S3-3xk"
+          }
+        ],
+        "channel_description": "TRUTH SEEKER We are In The Outer darkness\nEvery video here explores both sides then follows the red thread. We dig into scripture (Bible, Torah, lost books), ancient texts, hard research, and whispered history to connect the dots.\n Discover deep \nBible prophecy, Revelation, and the Millennial Kingdom\n Ancient Paleo-Hebrew decoding the ancient symbols and alphabet.\nAncient health secrets and biblical wellness.\n Edifying worship music and spiritual sound frequency\nThe big questions: Who are we? Who are the real Hebrews? What is our true history,jezebel spirit \nBibleStudy #Prophecy #AncientHistory #TruthSeeker #PaleoHebrew #ForgottenBooks #BiblicalTruth #EndTimes Revelation\nEvidenceBased #TextualAnalysis #AncientHistory #Theology #Apocrypha \n Paleo-Hebrew & Bible Codes: Decoding ancient scriptures to reveal lost truths and prophetic messages.\n Conspiracy Facts: Digging beyond the headlines to find the suppressed narratives.\nAI-assisted visuals | Original research#jezebel   \n\n\n",
+        "latest_video_at": "2026-11-06T13:31:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWWBDjcy96DFrfI2VP4IvKQ",
+      "external_id": "UCWWBDjcy96DFrfI2VP4IvKQ",
+      "name": "형두캔두 최형두",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWWBDjcy96DFrfI2VP4IvKQ",
+      "discovered_on": "2026-11-06",
+      "score": 56.12,
+      "metrics": {
+        "subscribers": 3290,
+        "total_views": 864371,
+        "video_count": 1088,
+        "avg_views_per_video": 794.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "AN61QW5ht1Y",
+            "title": "대통령의 가짜뉴스 낙인 언론 검열의 시작",
+            "description": "",
+            "published_at": "2026-11-06T01:40:46Z",
+            "url": "https://www.youtube.com/watch?v=AN61QW5ht1Y"
+          }
+        ],
+        "channel_description": "경제회생 정치혁신 TV직설토크\n\"형두캔두\"",
+        "latest_video_at": "2026-11-06T01:40:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVwgRKxDmOoisDA5aVBBBhw",
+      "external_id": "UCVwgRKxDmOoisDA5aVBBBhw",
+      "name": "Momento Emprendedor",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCVwgRKxDmOoisDA5aVBBBhw",
+      "discovered_on": "2026-11-06",
+      "score": 54.92,
+      "metrics": {
+        "subscribers": 2010,
+        "total_views": 1145364,
+        "video_count": 1260,
+        "avg_views_per_video": 909.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "brCxrrllLz4",
+            "title": "Premio de Periodismo",
+            "description": "El Informativo Económico Momento Emprendedor, recibió el Premio de Periodismo como mejor medio independiente.",
+            "published_at": "2026-11-05T22:45:35Z",
+            "url": "https://www.youtube.com/watch?v=brCxrrllLz4"
+          }
+        ],
+        "channel_description": "Dirigido por Nicolás Ruiz González, comunicador social, periodista y magíster en Industrias Creativas, con más de 25 años de experiencia.\n\nCanal periodístico que conecta historias reales con análisis económico, innovación y oportunidades de negocio. Desde Medellín para Colombia y el entorno digital, explicamos cómo se mueve la economía y dónde están las oportunidades.\n\nContenido: análisis económico, emprendimiento, sostenibilidad, política pública, innovación, tecnología, entrevistas y finanzas.\n\nAudiencia: emprendedores, empresarios, inversionistas y tomadores de decisiones.\n\nPara anunciantes: vitrina estratégica para conectar con una audiencia calificada, interesada en crecimiento, inversión y desarrollo empresarial.\n\nSegmentos: #GenteEmprendedora #Economía #Finanzas #Innovación\n\n📩 momentoemprendedorcolombia@gmail.com\n\n🌐 www.momentoemprendedor.com\n\nSíguenos: YouTube, X @MomentoE, Instagram, TikTok y Facebook.\n\n\n",
+        "latest_video_at": "2026-11-05T22:45:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UClEUaByt26fBC-n7Z32Q3Fg",
       "external_id": "UClEUaByt26fBC-n7Z32Q3Fg",

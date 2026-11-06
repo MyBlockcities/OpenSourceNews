@@ -2,19 +2,71 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-11-05T18:07:31Z",
-  "new_this_run": 3,
-  "total_influencers": 417,
+  "updated_at": "2026-11-06T17:34:08Z",
+  "new_this_run": 1,
+  "total_influencers": 418,
   "run_summary": {
-    "run_started_at": "2026-11-05T18:07:25Z",
+    "run_started_at": "2026-11-06T17:34:02Z",
     "candidate_count": 36,
-    "existing_count": 414,
-    "selected_new_count": 3,
+    "existing_count": 417,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCspaZCfbFdjdxgdak9GKldg",
+      "external_id": "UCspaZCfbFdjdxgdak9GKldg",
+      "name": "Denis    ",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UCspaZCfbFdjdxgdak9GKldg",
+      "discovered_on": "2026-11-06",
+      "score": 66.73,
+      "metrics": {
+        "subscribers": 5610,
+        "total_views": 245617,
+        "video_count": 124,
+        "avg_views_per_video": 1980.78,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate tokenization",
+          "tokenized real estate"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "_AjQlmZ6XSc",
+            "title": "Todo lo que Debes Saber sobre la Tokenización en 2026 (Mejor Narrativa Cripto)",
+            "description": "Amigos bienvenidos, hoy veremos una guía completa acerca de la tokenización onchain, como los stocks, commodities como el ...",
+            "published_at": "2026-11-06T17:22:02Z",
+            "url": "https://www.youtube.com/watch?v=_AjQlmZ6XSc"
+          },
+          {
+            "query": "tokenized real estate",
+            "video_id": "_AjQlmZ6XSc",
+            "title": "Todo lo que Debes Saber sobre la Tokenización en 2026 (Mejor Narrativa Cripto)",
+            "description": "Amigos bienvenidos, hoy veremos una guía completa acerca de la tokenización onchain, como los stocks, commodities como el ...",
+            "published_at": "2026-11-06T17:22:02Z",
+            "url": "https://www.youtube.com/watch?v=_AjQlmZ6XSc"
+          }
+        ],
+        "channel_description": "Aprendo cosas y las enseño ;)",
+        "latest_video_at": "2026-11-06T17:22:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCJ5gGCjn6ItdPQF0ZO9YROA",
       "external_id": "UCJ5gGCjn6ItdPQF0ZO9YROA",
