@@ -1,22 +1,22 @@
 {
   "frequency": {
-    "ai_agents": 47,
-    "voice_agents": 3,
+    "ai_agents": 50,
+    "voice_agents": 5,
     "coding_agents": 9,
-    "autonomous_agents": 5,
-    "real_estate_tech": 14,
-    "tokenization": 7,
+    "autonomous_agents": 3,
+    "real_estate_tech": 12,
+    "tokenization": 6,
     "wholesaling": 0,
-    "3d_visualization": 7,
-    "blockchain_rwa": 25,
+    "3d_visualization": 6,
+    "blockchain_rwa": 20,
     "blockchain": 81,
-    "wellness_research": 125,
-    "peptides": 66,
-    "longevity_research": 122,
-    "creator_economy": 159,
+    "wellness_research": 120,
+    "peptides": 67,
+    "longevity_research": 118,
+    "creator_economy": 154,
     "educational_content": 60,
-    "open_source": 59,
-    "developer_tools": 30
+    "open_source": 51,
+    "developer_tools": 16
   },
   "cooccurrence": [
     {
@@ -24,21 +24,21 @@
         "longevity_research",
         "wellness_research"
       ],
-      "count": 122
+      "count": 118
     },
     {
       "topics": [
         "longevity_research",
         "peptides"
       ],
-      "count": 66
+      "count": 67
     },
     {
       "topics": [
         "peptides",
         "wellness_research"
       ],
-      "count": 66
+      "count": 67
     },
     {
       "topics": [
@@ -49,52 +49,38 @@
     },
     {
       "topics": [
-        "creator_economy",
-        "open_source"
-      ],
-      "count": 31
-    },
-    {
-      "topics": [
-        "blockchain",
-        "blockchain_rwa"
-      ],
-      "count": 25
-    },
-    {
-      "topics": [
         "ai_agents",
-        "creator_economy"
+        "open_source"
       ],
       "count": 24
     },
     {
       "topics": [
         "ai_agents",
+        "creator_economy"
+      ],
+      "count": 23
+    },
+    {
+      "topics": [
+        "creator_economy",
         "open_source"
       ],
       "count": 22
     },
     {
       "topics": [
-        "educational_content",
-        "open_source"
+        "blockchain",
+        "creator_economy"
       ],
-      "count": 18
+      "count": 20
     },
     {
       "topics": [
         "blockchain",
-        "creator_economy"
+        "blockchain_rwa"
       ],
-      "count": 18
-    },
-    {
-      "topics": [
-        "developer_tools",
-        "open_source"
-      ],
-      "count": 15
+      "count": 20
     },
     {
       "topics": [
@@ -102,13 +88,6 @@
         "educational_content"
       ],
       "count": 15
-    },
-    {
-      "topics": [
-        "creator_economy",
-        "developer_tools"
-      ],
-      "count": 14
     },
     {
       "topics": [
@@ -126,8 +105,8 @@
     },
     {
       "topics": [
-        "developer_tools",
-        "educational_content"
+        "educational_content",
+        "open_source"
       ],
       "count": 12
     },
@@ -143,142 +122,163 @@
         "educational_content",
         "longevity_research"
       ],
-      "count": 8
+      "count": 9
     },
     {
       "topics": [
         "educational_content",
         "wellness_research"
       ],
-      "count": 8
+      "count": 9
+    },
+    {
+      "topics": [
+        "creator_economy",
+        "developer_tools"
+      ],
+      "count": 6
+    },
+    {
+      "topics": [
+        "developer_tools",
+        "open_source"
+      ],
+      "count": 6
     },
     {
       "topics": [
         "3d_visualization",
         "real_estate_tech"
       ],
-      "count": 7
+      "count": 6
     },
     {
       "topics": [
         "blockchain",
         "real_estate_tech"
       ],
-      "count": 7
+      "count": 6
     },
     {
       "topics": [
         "blockchain",
         "tokenization"
       ],
-      "count": 7
+      "count": 6
     },
     {
       "topics": [
         "blockchain_rwa",
         "real_estate_tech"
       ],
-      "count": 7
+      "count": 6
     },
     {
       "topics": [
         "blockchain_rwa",
         "tokenization"
       ],
-      "count": 7
+      "count": 6
     },
     {
       "topics": [
         "real_estate_tech",
         "tokenization"
       ],
-      "count": 7
+      "count": 6
+    },
+    {
+      "topics": [
+        "coding_agents",
+        "open_source"
+      ],
+      "count": 6
     }
   ],
   "rising": [
     {
-      "topic": "creator_economy",
-      "current": 159,
-      "previous": 152,
-      "delta": 7
-    },
-    {
-      "topic": "developer_tools",
-      "current": 30,
-      "previous": 23,
-      "delta": 7
-    },
-    {
-      "topic": "open_source",
-      "current": 59,
-      "previous": 53,
-      "delta": 6
-    },
-    {
-      "topic": "educational_content",
-      "current": 60,
-      "previous": 55,
-      "delta": 5
-    },
-    {
-      "topic": "blockchain_rwa",
-      "current": 25,
-      "previous": 22,
+      "topic": "ai_agents",
+      "current": 50,
+      "previous": 47,
       "delta": 3
     },
     {
-      "topic": "3d_visualization",
-      "current": 7,
-      "previous": 6,
-      "delta": 1
+      "topic": "voice_agents",
+      "current": 5,
+      "previous": 3,
+      "delta": 2
     },
     {
-      "topic": "wellness_research",
-      "current": 125,
-      "previous": 124,
-      "delta": 1
-    },
-    {
-      "topic": "longevity_research",
-      "current": 122,
-      "previous": 121,
+      "topic": "peptides",
+      "current": 67,
+      "previous": 66,
       "delta": 1
     }
   ],
   "cooling": [
     {
-      "topic": "ai_agents",
-      "current": 47,
-      "previous": 65,
-      "delta": -18
+      "topic": "developer_tools",
+      "current": 16,
+      "previous": 30,
+      "delta": -14
     },
     {
-      "topic": "coding_agents",
-      "current": 9,
-      "previous": 11,
-      "delta": -2
+      "topic": "open_source",
+      "current": 51,
+      "previous": 59,
+      "delta": -8
+    },
+    {
+      "topic": "blockchain_rwa",
+      "current": 20,
+      "previous": 25,
+      "delta": -5
+    },
+    {
+      "topic": "wellness_research",
+      "current": 120,
+      "previous": 125,
+      "delta": -5
+    },
+    {
+      "topic": "creator_economy",
+      "current": 154,
+      "previous": 159,
+      "delta": -5
+    },
+    {
+      "topic": "longevity_research",
+      "current": 118,
+      "previous": 122,
+      "delta": -4
     },
     {
       "topic": "autonomous_agents",
-      "current": 5,
-      "previous": 6,
+      "current": 3,
+      "previous": 5,
+      "delta": -2
+    },
+    {
+      "topic": "real_estate_tech",
+      "current": 12,
+      "previous": 14,
+      "delta": -2
+    },
+    {
+      "topic": "tokenization",
+      "current": 6,
+      "previous": 7,
       "delta": -1
     },
     {
-      "topic": "blockchain",
-      "current": 81,
-      "previous": 82,
-      "delta": -1
-    },
-    {
-      "topic": "peptides",
-      "current": 66,
-      "previous": 67,
+      "topic": "3d_visualization",
+      "current": 6,
+      "previous": 7,
       "delta": -1
     }
   ],
   "topic_count": 17,
   "schema_version": "topics.v1",
-  "report_date": "2026-11-06",
-  "generated_at": "2026-11-06T15:04:22Z"
+  "report_date": "2026-11-07",
+  "generated_at": "2026-11-07T14:01:31Z"
 }
