@@ -2,19 +2,232 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-11-06T17:34:22Z",
-  "new_this_run": 13,
-  "total_influencers": 1840,
+  "updated_at": "2026-11-07T16:32:17Z",
+  "new_this_run": 6,
+  "total_influencers": 1846,
   "run_summary": {
-    "run_started_at": "2026-11-06T17:34:02Z",
-    "candidate_count": 44,
-    "existing_count": 1827,
-    "selected_new_count": 13,
+    "run_started_at": "2026-11-07T16:31:55Z",
+    "candidate_count": 39,
+    "existing_count": 1840,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCt-ElnNqTlYcatWilANv7GQ",
+      "external_id": "UCt-ElnNqTlYcatWilANv7GQ",
+      "name": "Natural Aid Wellness",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCt-ElnNqTlYcatWilANv7GQ",
+      "discovered_on": "2026-11-07",
+      "score": 63.34,
+      "metrics": {
+        "subscribers": 6600,
+        "total_views": 782897,
+        "video_count": 94,
+        "avg_views_per_video": 8328.69,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "BJsYFD6mZw4",
+            "title": "Wellness Expert: Why Peptide Testing Matters #peptides #wellness #shorts",
+            "description": "Are microplastics in peptides a real concern? In this short, Hera, Wellness Specialist at Natural Aid Wellness, explains why she's ...",
+            "published_at": "2026-11-07T16:03:44Z",
+            "url": "https://www.youtube.com/watch?v=BJsYFD6mZw4"
+          }
+        ],
+        "channel_description": "Welcome to Natural Aid Wellness — your destination for wellness education, product conversations, California culture, and the stories shaping today’s adult wellness community.\n\nFrom product discussions and variety insights to dispensary education, California wellness culture, and conversations happening around Los Angeles, we create informative and engaging content for adult viewers across the United States.\n\nBased in the Los Angeles community, Natural Aid Wellness brings a local perspective with content covering product education, community discussions, California culture, local discoveries, and informative Shorts.\n\nSubscribe for educational conversations, fresh perspectives, product-focused videos, and new discoveries from California and beyond.\n\nFor adult audiences only. Content is provided for educational and informational purposes and is not intended as medical advice.\n\n#wellnesscommunity  #adultwellness  #losangeleswellness  #california  #dispensarylife \n",
+        "latest_video_at": "2026-11-07T16:03:44Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCO2wnWg5xOLASjPdk4fAzlg",
+      "external_id": "UCO2wnWg5xOLASjPdk4fAzlg",
+      "name": "The Fryar Place",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCO2wnWg5xOLASjPdk4fAzlg",
+      "discovered_on": "2026-11-07",
+      "score": 54.99,
+      "metrics": {
+        "subscribers": 3360,
+        "total_views": 81327,
+        "video_count": 178,
+        "avg_views_per_video": 456.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "OaB0JYOWDEI",
+            "title": "The Truth About Peptides",
+            "description": "Natural Health and Wellness Professional Donna Marie shares her expertise on peptides on Wellness Week @ The Fryar Place!",
+            "published_at": "2026-11-07T14:26:58Z",
+            "url": "https://www.youtube.com/watch?v=OaB0JYOWDEI"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-07T14:26:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoxEzjSJLMSFEyoQacaZJ2A",
+      "external_id": "UCoxEzjSJLMSFEyoQacaZJ2A",
+      "name": "Fit and Healthy After 50",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCoxEzjSJLMSFEyoQacaZJ2A",
+      "discovered_on": "2026-11-07",
+      "score": 54.2,
+      "metrics": {
+        "subscribers": 2240,
+        "total_views": 236265,
+        "video_count": 266,
+        "avg_views_per_video": 888.21,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "6pIA5ToR0i8",
+            "title": "The Wall Sit Protocol From the Blood Pressure Studies #wallsit #menover50",
+            "description": "Full video: 4 Rounds of 2 Minutes Could Change Your Blood Pressure → https://youtu.be/TSLzeh0hW48 FREE Fat Loss ...",
+            "published_at": "2026-11-05T18:00:36Z",
+            "url": "https://www.youtube.com/watch?v=6pIA5ToR0i8"
+          }
+        ],
+        "channel_description": "I'm Luis Acevedo. At 50, I was 218 pounds, drinking too much, and convinced my best years were behind me.\n\nEight years later, I'm 58, 173 pounds, and I stay between 12 and 15 percent body fat year-round.\n\nI'm a NASM Certified Nutrition Coach and a certified personal trainer.\n\nThis channel is about losing weight, keeping it off, and building a body you can carry into your 70s, 80s, and beyond. The path is real food, resistance training, and cutting what's stealing your energy — sugar, alcohol, ultra-processed junk.\n\n📘 MY BOOK — Think and Lose Weight\nThe foundation of everything I teach. On Amazon in English and Spanish.\n\n💪 SUPPLEMENTS I USE\nlongevityperformanceusa.com — code FIRST10 for 10% off\n\n📩 FREE BLUEPRINT\nThe Men Over 50 Fat Loss Blueprint — 4-step framework, free PDF\nlongevityperformanceusa.com/pages/blueprint\n\n📺 New videos: Mondays (long-form) + Thursdays (workouts)\n\nCedar Hill, Texas\n",
+        "latest_video_at": "2026-11-05T18:00:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:aa2281738625d7d88352",
+      "external_id": "aa2281738625d7d88352",
+      "name": "williawa",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Kv5yBorH7uBj4JFeE/raised-by-our-children-1",
+      "discovered_on": "2026-11-07",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Raised by Our Children"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:eaac476ea3a6df90a0a6",
+      "external_id": "eaac476ea3a6df90a0a6",
+      "name": "Malmesbury",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/PZjy52afLn89NdMta/hilarity-ensues",
+      "discovered_on": "2026-11-07",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Hilarity ensues"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4d664a2cba69b2fb810f",
+      "external_id": "4d664a2cba69b2fb810f",
+      "name": "Karthik Tadepalli",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/QgcgoMz7mviHL6Esr/anthropic-s-ai-acceleration-is-probably-real",
+      "discovered_on": "2026-11-07",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Anthropic's AI acceleration is probably real"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC8fvp9nOqbuWpCQpyyovDiQ",
       "external_id": "UC8fvp9nOqbuWpCQpyyovDiQ",

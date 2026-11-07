@@ -2,19 +2,455 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-06T17:34:10Z",
-  "new_this_run": 14,
-  "total_influencers": 1097,
+  "updated_at": "2026-11-07T16:32:04Z",
+  "new_this_run": 10,
+  "total_influencers": 1107,
   "run_summary": {
-    "run_started_at": "2026-11-06T17:34:02Z",
-    "candidate_count": 21,
-    "existing_count": 1083,
-    "selected_new_count": 14,
+    "run_started_at": "2026-11-07T16:31:55Z",
+    "candidate_count": 25,
+    "existing_count": 1097,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCvsfDNFaEgfMvOo_pzHgT4w",
+      "external_id": "UCvsfDNFaEgfMvOo_pzHgT4w",
+      "name": "Leroy Truth Investigations",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCvsfDNFaEgfMvOo_pzHgT4w",
+      "discovered_on": "2026-11-07",
+      "score": 76.61,
+      "metrics": {
+        "subscribers": 62000,
+        "total_views": 9724725,
+        "video_count": 596,
+        "avg_views_per_video": 16316.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@theexposurer"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "_aixpT1YsqQ",
+            "title": "🚨 LIVE! Leroy Truth Investigates Dangerous Union City, NJ  Elevator?",
+            "description": "SUPPORT INDEPENDENT JOURNALISM THAT HOLDS POWER ACCOUNTABLE Leroy Truth is on the front lines exposing ...",
+            "published_at": "2026-11-07T05:55:03Z",
+            "url": "https://www.youtube.com/watch?v=_aixpT1YsqQ"
+          }
+        ],
+        "channel_description": "🚨 SUPPORT INDEPENDENT JOURNALISM THAT HOLDS POWER ACCOUNTABLE 🚨\n\nLeroy Truth is on the front lines exposing corruption, asking the tough questions, and bringing transparency where it’s needed most. If you believe in truth, accountability, and real journalism—your support makes this possible.\n\n💰 SUPPORT THE MISSION\n\nEvery contribution helps fuel investigations, travel, equipment, and continued reporting:\n\n👉 PayPal: LeroyTruth247\n👉 Cash App: $leroytruth247\n\n📩 CONTACT LEROY TRUTH\n\nGot a tip? Story lead? Want to connect?\n📧 Email: LeroyTruth247@gmail.com\n\n🎥 MEET THE TEAM \n\n🔹 The Exposure Report\n👉 https://www.youtube.com/@theexposurer...\n\n🔹 Garden State Accountability\n👉 https://www.youtube.com/@gardenstatea...\n\n🔹 Scalzo Photo\n👉 https://www.youtube.com/@scalzophoto\n\n🔹 AVDesigns\n👉 https://www.youtube.com/@AVDESIGNSNC\n\n📢 JOIN THE COMMUNITY\n\n👍 Like | 💬 Comment | 🔔 Subscribe\n\n#PoliceAccountability #FirstAmendment #IndependentJournalism #LeroyTruth #Corruption #NewJersey #TransparencyMatters\n",
+        "latest_video_at": "2026-11-07T05:55:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCLrzdTFqkqbWUxu5q18E2uA",
+      "external_id": "UCLrzdTFqkqbWUxu5q18E2uA",
+      "name": "The CSR Journal",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCLrzdTFqkqbWUxu5q18E2uA",
+      "discovered_on": "2026-11-07",
+      "score": 75.68,
+      "metrics": {
+        "subscribers": 37900,
+        "total_views": 91741860,
+        "video_count": 4334,
+        "avg_views_per_video": 21167.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@TheCSRJournal"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "GbKC8_Chzig",
+            "title": "West Bengal Village Gets Electricity for the First Time Since Independence",
+            "description": "Chakdah village in Hooghly district, West Bengal, received electricity for the first time since Independence, bringing a major ...",
+            "published_at": "2026-11-07T09:34:22Z",
+            "url": "https://www.youtube.com/watch?v=GbKC8_Chzig"
+          }
+        ],
+        "channel_description": "Politics, Society, Environment, Culture follow what's happening in India & around the world live with #thecsrjournal.\n📧: info@thecsrjournal.in\n\nFor more updates, subscribe our channel: https://www.youtube.com/@TheCSRJournal\nWhatsApp Channel: https://whatsapp.com/channel/0029VaBCHMx9Bb5sQvTb0h3c\n\nDownload App:\nApp Store –  https://apps.apple.com/in/app/newspin/id6746449540#information\nGoogle Play Store – https://play.google.com/store/apps/details?id=com.inventifweb.newspin&pcampaignid=web_share\n",
+        "latest_video_at": "2026-11-07T09:34:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCnYKjBrI1ErwhDprla7Unwg",
+      "external_id": "UCnYKjBrI1ErwhDprla7Unwg",
+      "name": "Richard Grove",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCnYKjBrI1ErwhDprla7Unwg",
+      "discovered_on": "2026-11-07",
+      "score": 73.77,
+      "metrics": {
+        "subscribers": 59600,
+        "total_views": 6428274,
+        "video_count": 1382,
+        "avg_views_per_video": 4651.43,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://x.com/tragedyandhope"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "TT0S0lP0OQI",
+            "title": "Hrvoje Morić: &quot;Cyber 9/11,&quot; The Cashless Trap &amp; Infiltrating Alternative Media",
+            "description": "Is Cyber 9/11 the final trap? Hrvoje Morić joins Richard Grove on Grand Theft World to break down the coming grid collapse and ...",
+            "published_at": "2026-11-07T13:00:35Z",
+            "url": "https://www.youtube.com/watch?v=TT0S0lP0OQI"
+          }
+        ],
+        "channel_description": "Richard Grove is an independent researcher, educator, filmmaker & media producer specializing in hidden history, geopolitical analysis, and the mechanics of mind control & propaganda.\nHost of the Grand Theft World podcast & formerly creator of the Peace Revolution podcast curriculum — where critical thinking meets documented evidence on the events that shape your world.\n📚 Deep-dive research on the history of schooling as indoctrination, origins and history of the deep state, USS Liberty, Rothschild international banking archives, and the occult roots of social control. \n🎙️ Conversations with researchers, whistleblowers, and thinkers who challenge the official narrative. \n🧠 Critical Thinking Methods, Tools and Frameworks to Think for Yourself. https://richardgrove.org/critical-thinking-trifecta \n🌐 Full curriculum → https://www.getAUTONOMY.info \n 📖 Richard’s History Blueprint Brain Model → http://www.tragedyandhope.com \n🐦 https://x.com/tragedyandhope | #TragedyandHope #GrandTheftWorld\n",
+        "latest_video_at": "2026-11-07T13:00:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJN75PLD50xD6FIa3dtohJw",
+      "external_id": "UCJN75PLD50xD6FIa3dtohJw",
+      "name": "DCReport",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJN75PLD50xD6FIa3dtohJw",
+      "discovered_on": "2026-11-07",
+      "score": 69.03,
+      "metrics": {
+        "subscribers": 18200,
+        "total_views": 2760235,
+        "video_count": 100,
+        "avg_views_per_video": 27602.35,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "4EY0Dua62Gc",
+            "title": "Trump Quietly Guts Methane Pollution Rules Before Midterms | Reality Check",
+            "description": "Just before the 2026 midterm elections, the Trump administration made a major move to weaken environmental protections ...",
+            "published_at": "2026-11-06T22:38:42Z",
+            "url": "https://www.youtube.com/watch?v=4EY0Dua62Gc"
+          }
+        ],
+        "channel_description": "DCReport is a unique, nonprofit news service - led by Pulitzer Prize-winning journalist, David Cay Johnston - that reports what the President and Congress DO, not what they SAY. We are founded on core investigative journalism principles of research, fact-checking, and reporting in plain English how you and your family are affected by what happens in Washington, D.C.",
+        "latest_video_at": "2026-11-06T22:38:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCwXZ8K7Ga8p2t8BVP8TZm0w",
+      "external_id": "UCwXZ8K7Ga8p2t8BVP8TZm0w",
+      "name": "SSG Bros. ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCwXZ8K7Ga8p2t8BVP8TZm0w",
+      "discovered_on": "2026-11-07",
+      "score": 68.92,
+      "metrics": {
+        "subscribers": 30300,
+        "total_views": 10787163,
+        "video_count": 837,
+        "avg_views_per_video": 12887.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "-kqjncmxmoM",
+            "title": "Happy Tree Friends Censored - Swole Mates",
+            "description": "This censorship is for kids and all ages Happy Tree Friends:The Flash/TV Series & Still Alive is owned by MondoMedia, Fatlat ...",
+            "published_at": "2026-11-07T15:20:10Z",
+            "url": "https://www.youtube.com/watch?v=-kqjncmxmoM"
+          }
+        ],
+        "channel_description": "This Channel is all about Mario, Sonic Dragon Ball Z, Tom & Jerry, Captain Underpants, Cuphead Health bars, a censor form of HTF and series of our custom characters\n\nRules:\n\nNo swearing (PG To PG-13 only/my friends can only do that)\nNo Inappropriate Links\nNo opinion bashing\nNo racism comments \nNo bullying/cyberbullying (towards me and my friends)\nNo violence \nNo death threats \nNo making other people feel bad about themselves!\nNo stealing videos without crediting me!\nAlso no stealing my OCs without crediting me!\n\nIf you break one of the rules you’re blocked from this channel.",
+        "latest_video_at": "2026-11-07T15:20:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC8yVM1s8IKdlV4JUvEisi6Q",
+      "external_id": "UC8yVM1s8IKdlV4JUvEisi6Q",
+      "name": "The Zeal",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC8yVM1s8IKdlV4JUvEisi6Q",
+      "discovered_on": "2026-11-07",
+      "score": 68.55,
+      "metrics": {
+        "subscribers": 41000,
+        "total_views": 1515999,
+        "video_count": 213,
+        "avg_views_per_video": 7117.37,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "PkAQW5wN94A",
+            "title": "Support Independent Journalism, Join Punya Parasun Bajpai Sir",
+            "description": "",
+            "published_at": "2026-11-07T15:42:00Z",
+            "url": "https://www.youtube.com/watch?v=PkAQW5wN94A"
+          }
+        ],
+        "channel_description": "This channel is dedicated to empowering learners with high-quality content on English language mastery, competitive exam preparation, grammar lessons, current affairs, and general education. Whether you're a student, teacher, or lifelong learner, our clear explanations, real-world examples, and expert insights will help you learn smarter, not harder.\n\n✨ What We Offer:\n\n📘 Easy-to-understand English Grammar & Usage\n\n🗣️ Functional English for speaking & writing\n\n🏆 Exam-focused lessons for SSC, RPSC, UPSC & more\n\n🌍 Insightful videos on current affairs & social issues\n\n🎥 Educational analysis with a modern, student-friendly approach\n\n\nJoin our growing community of curious minds and let’s build knowledge together – one concept at a time.\n\nSubscribe now and never stop learning!\n\n#spokenenglish\n#englishspeaking\n#englishgrammar \n#grammar\n#tenses\n#passivevoice \n#narration \n#determiners\n#articles\n#prepositions \n#parts of speech\n \n",
+        "latest_video_at": "2026-11-07T15:42:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYszwMmXH_z-i3VjbI0iMrw",
+      "external_id": "UCYszwMmXH_z-i3VjbI0iMrw",
+      "name": "Voix de L'UPR",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCYszwMmXH_z-i3VjbI0iMrw",
+      "discovered_on": "2026-11-07",
+      "score": 64.28,
+      "metrics": {
+        "subscribers": 4470,
+        "total_views": 2240077,
+        "video_count": 101,
+        "avg_views_per_video": 22178.98,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "ULIEmWGNrys",
+            "title": "François Asselineau : Les médias ne pourront pas nous faire taire éternellement !",
+            "description": "François Asselineau revient sur le rôle des réseaux sociaux et des médias alternatifs dans la diffusion des idées politiques.",
+            "published_at": "2026-11-07T07:00:32Z",
+            "url": "https://www.youtube.com/watch?v=ULIEmWGNrys"
+          }
+        ],
+        "channel_description": "Voix de l’UPR 🇫🇷\nRetrouvez les meilleurs moments des interventions de François Asselineau, ses passages dans les médias, ses débats et ses analyses de l’actualité française et internationale.\nDes extraits à découvrir, à partager et à faire connaître pour que les idées de François Asselineau et de l’UPR soient entendues par le plus grand nombre. 🇫🇷",
+        "latest_video_at": "2026-11-07T07:00:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCsAoQz7NkRhd3ATlW2NEpXw",
+      "external_id": "UCsAoQz7NkRhd3ATlW2NEpXw",
+      "name": "NuevaVozDigitalNVD",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCsAoQz7NkRhd3ATlW2NEpXw",
+      "discovered_on": "2026-11-07",
+      "score": 62.45,
+      "metrics": {
+        "subscribers": 6470,
+        "total_views": 11146144,
+        "video_count": 1962,
+        "avg_views_per_video": 5681.01,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "rCa3BYxLY3E",
+            "title": "Edmand Lara destacó ocho interpelaciones y la censura a un exministro en su primer año",
+            "description": "El vicepresidente de Bolivia, Edmand Lara, rindió su informe de gestión al cumplirse un año de mandato ante la Asamblea ...",
+            "published_at": "2026-11-07T01:55:36Z",
+            "url": "https://www.youtube.com/watch?v=rCa3BYxLY3E"
+          }
+        ],
+        "channel_description": "\"¡Bienvenidos a Nueva Voz Digital! 🎥\nEste es el canal digital donde recopilamos y difundimos las noticias más importantes de Bolivia y el mundo, desde conflictos sociales y economía hasta política y derechos ciudadanos.\nNuestra misión es brindarte información objetiva, directa y en el momento justo para que saques tus propias conclusiones.\n✅ Suscríbete para mantenerte al día con nuestros reportes especiales, coberturas en vivo y resúmenes informativos.\nNueva Voz Digital: Tu perspectiva, nuestra información.\"\n\n",
+        "latest_video_at": "2026-11-07T01:55:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0ZUvoumJRTqbTCLf1Cn6RA",
+      "external_id": "UC0ZUvoumJRTqbTCLf1Cn6RA",
+      "name": "Marathi Mood Shorts",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0ZUvoumJRTqbTCLf1Cn6RA",
+      "discovered_on": "2026-11-07",
+      "score": 60.58,
+      "metrics": {
+        "subscribers": 4400,
+        "total_views": 3420062,
+        "video_count": 829,
+        "avg_views_per_video": 4125.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "dAFnF4TBqPs",
+            "title": "Ajay Deshpande: पत्रकारिता म्हणजे फक्त बातम्या देणं?",
+            "description": "भाऊ तोरसेकर, सुशील कुलकर्णी आणि प्रभाकर सूर्यवंशी यांच्यासारख्या ...",
+            "published_at": "2026-11-07T11:00:26Z",
+            "url": "https://www.youtube.com/watch?v=dAFnF4TBqPs"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-07T11:00:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoSkaeXmXojjtUMhe0SGNOg",
+      "external_id": "UCoSkaeXmXojjtUMhe0SGNOg",
+      "name": "Jimmy Kimmel Shorts",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCoSkaeXmXojjtUMhe0SGNOg",
+      "discovered_on": "2026-11-07",
+      "score": 58.68,
+      "metrics": {
+        "subscribers": 2520,
+        "total_views": 648983,
+        "video_count": 173,
+        "avg_views_per_video": 3751.35,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "TRp_RyawJhw",
+            "title": "Unnecessary Censorship Makes Everything from the News to Shark Tank Sound Wrong",
+            "description": "The bleeps and pixelated mouths turn familiar broadcast formats into a brisk run of suggestive jokes, capped by the Shark Tank ...",
+            "published_at": "2026-11-06T18:00:09Z",
+            "url": "https://www.youtube.com/watch?v=TRp_RyawJhw"
+          }
+        ],
+        "channel_description": "Political Satire, Trending News & Trump Commentary\n\nBreaking down the latest political headlines, Donald Trump’s speeches, controversies, and viral moments with sharp humor, witty commentary, and a fresh perspective.\n\n🎬 About Our Content:\n• Short & Engaging: Quick takes on trending political stories and viral news.\n• Human-Led Commentary: Original scripts, creative editing, and AI-assisted research.\n• Satire & Analysis: Humor, reactions, and commentary on politics and current events.\n• Transformative Content: Third-party clips may be used for criticism, commentary, or news analysis where applicable.\n\nSubscribe for entertaining political Shorts, trending topics, and sharp commentary!\n",
+        "latest_video_at": "2026-11-06T18:00:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCxH1ZXmQV2XGy4I7o1EE4hA",
       "external_id": "UCxH1ZXmQV2XGy4I7o1EE4hA",
