@@ -2,19 +2,588 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-07T16:32:04Z",
-  "new_this_run": 10,
-  "total_influencers": 1107,
+  "updated_at": "2026-11-08T16:44:32Z",
+  "new_this_run": 13,
+  "total_influencers": 1120,
   "run_summary": {
-    "run_started_at": "2026-11-07T16:31:55Z",
+    "run_started_at": "2026-11-08T16:44:24Z",
     "candidate_count": 25,
-    "existing_count": 1097,
-    "selected_new_count": 10,
+    "existing_count": 1107,
+    "selected_new_count": 13,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCmpG9OyYaSa6OWNx_GCY3hA",
+      "external_id": "UCmpG9OyYaSa6OWNx_GCY3hA",
+      "name": "Late Night with LMG",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCmpG9OyYaSa6OWNx_GCY3hA",
+      "discovered_on": "2026-11-08",
+      "score": 71.77,
+      "metrics": {
+        "subscribers": 26800,
+        "total_views": 25066980,
+        "video_count": 278,
+        "avg_views_per_video": 90168.99,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "NOl1v3ypiDg",
+            "title": "Jimmy Kimmel&#39;s UNNECESSARY CENSORSHIP Gets HILARIOUS!",
+            "description": "",
+            "published_at": "2026-11-06T21:00:29Z",
+            "url": "https://www.youtube.com/watch?v=NOl1v3ypiDg"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-06T21:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCFDP-9WONX8cwd_HaBYWYKA",
+      "external_id": "UCFDP-9WONX8cwd_HaBYWYKA",
+      "name": "PRAGMA ACTU ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCFDP-9WONX8cwd_HaBYWYKA",
+      "discovered_on": "2026-11-08",
+      "score": 68.99,
+      "metrics": {
+        "subscribers": 54900,
+        "total_views": 19995356,
+        "video_count": 3448,
+        "avg_views_per_video": 5799.12,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "vM2qwwT3D5Q",
+            "title": "ILS VIDENT LES LIBRAIRIES ! L&#39;ANTIFASCISME VIRE À LA CENSURE !",
+            "description": "actualité #ecologie #politique Business Contact : permapragma@gmail.com POUR ME SOUTENIR - Lien de ma page tipeee: ...",
+            "published_at": "2026-11-08T15:00:38Z",
+            "url": "https://www.youtube.com/watch?v=vM2qwwT3D5Q"
+          }
+        ],
+        "channel_description": "Chaîne d'actualités traitant de l'écologie, de l'agriculture, de la politique et de l'économie, avec un regard engagé sur les enjeux qui touchent la France. Analyses, réflexions et décryptages pour mieux comprendre les défis de notre époque.\n\nEmail de contact : permapragma@gmail.com\n",
+        "latest_video_at": "2026-11-08T15:00:38Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoEV0G4jwhQGy87oVvTP_rw",
+      "external_id": "UCoEV0G4jwhQGy87oVvTP_rw",
+      "name": "Uncaptured Media",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCoEV0G4jwhQGy87oVvTP_rw",
+      "discovered_on": "2026-11-08",
+      "score": 68.66,
+      "metrics": {
+        "subscribers": 15600,
+        "total_views": 294798,
+        "video_count": 102,
+        "avg_views_per_video": 2890.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://twitter.com/UncapturedNews"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "hxvhNtNB80E",
+            "title": "Tucker Carlson and Max Blumenthal are Scripted Saboteurs for the Global Ruling Class",
+            "description": "Support our work: ➡️ Website: https://www.uncaptured.media ➡️ Rumble: https://rumble.com/c/UncapturedMedia ...",
+            "published_at": "2026-11-07T21:27:28Z",
+            "url": "https://www.youtube.com/watch?v=hxvhNtNB80E"
+          }
+        ],
+        "channel_description": "Uncaptured Media is an investigative multi-media platform, founded by Dan Cohen. \n\nWebsite: https://uncaptured.substack.com/\nTwitter: https://twitter.com/UncapturedNews\n\nBitcoin address: bc1qyvcffpecjuf7e54apm68u6aphjg3u9yg5eq58a\nEthereum address: 0x1d7be59a18AA41d591F0dc4e3588B6BF1103290d\n",
+        "latest_video_at": "2026-11-07T21:27:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCV7vFmMa2l6FbZHCxw1CUAg",
+      "external_id": "UCV7vFmMa2l6FbZHCxw1CUAg",
+      "name": "Today Updates",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCV7vFmMa2l6FbZHCxw1CUAg",
+      "discovered_on": "2026-11-08",
+      "score": 67.75,
+      "metrics": {
+        "subscribers": 10500,
+        "total_views": 27907911,
+        "video_count": 842,
+        "avg_views_per_video": 33144.79,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "W7YPbDJA9cE",
+            "title": "ಸ್ವಾತಂತ್ರ್ಯ ಹೋರಾಟದಲ್ಲಿ RSS ಪಾತ್ರವೇನು? #independence #rss #strike # #youtubeshorts #news #motivation",
+            "description": "\"ಭಾರತದ ಸ್ವಾತಂತ್ರ್ಯ ಹೋರಾಟದಲ್ಲಿ RSSನ ಕೊಡುಗೆ ಏನೂ ಇಲ್ಲ. ಸ್ವಾತಂತ್ರ್ಯ ...",
+            "published_at": "2026-11-08T05:30:12Z",
+            "url": "https://www.youtube.com/watch?v=W7YPbDJA9cE"
+          }
+        ],
+        "channel_description": "ನಮಸ್ಕಾರ 🙏 Today Updates YouTube Channel‌ಗೆ ಸ್ವಾಗತ!\n\nಈ ಚಾನೆಲ್‌ನಲ್ಲಿ ನಿಮಗೆ ದಿನದ ಪ್ರಮುಖ ಸುದ್ದಿಗಳು, Latest Updates, Trending News, Karnataka & India News, Technology Updates, Entertainment, Sports ಹಾಗೂ ಜನರಿಗೆ ಉಪಯುಕ್ತ ಮಾಹಿತಿಗಳನ್ನು ಸರಳವಾಗಿ ಮತ್ತು ವೇಗವಾಗಿ ತಲುಪಿಸುವ ಪ್ರಯತ್ನ ಮಾಡುತ್ತೇವೆ.\n\n📰 Daily News & Updates\n🔥 Trending Topics\n📍 Karnataka & India Updates\n💻 Technology & Digital Updates\n🎬 Entertainment & Viral Updates\n🏏 Sports Updates\n\n\nನಿಮಗೆ ಇಷ್ಟವಾಗುವ ಮಾಹಿತಿಯನ್ನು ತಪ್ಪದೇ ಪಡೆಯಲು Today Updates Channel ಅನ್ನು Subscribe ಮಾಡಿ ಮತ್ತು Bell Icon 🔔 ಒತ್ತಿ.\n\nನಿಮ್ಮ Support ನಮ್ಮ Strength ❤️\n\nಧನ್ಯವಾದಗಳು 🙏\nToday Updates – Stay Updated, Stay Informed!",
+        "latest_video_at": "2026-11-08T05:30:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCF58AzQw83B6_2G__XkROpg",
+      "external_id": "UCF58AzQw83B6_2G__XkROpg",
+      "name": "Narratives",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCF58AzQw83B6_2G__XkROpg",
+      "discovered_on": "2026-11-08",
+      "score": 67.57,
+      "metrics": {
+        "subscribers": 31500,
+        "total_views": 5199396,
+        "video_count": 3164,
+        "avg_views_per_video": 1643.3,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "rosm7doyUZ8",
+            "title": "Is Journalism Dying in Pakistan? | Munazza Siddiqui Full Podcast with Mazhar Abbas on Narratives",
+            "description": "Is journalism dying in Pakistan? Why are journalists facing censorship, political pressure, threats, and financial influence?",
+            "published_at": "2026-11-08T14:00:07Z",
+            "url": "https://www.youtube.com/watch?v=rosm7doyUZ8"
+          },
+          {
+            "query": "independent journalism",
+            "video_id": "VU_2_tU0RJU",
+            "title": "JOURNALISM IS DYING? | Promo",
+            "description": "Is journalism dying in Pakistan? Journalists face censorship, political pressure, threats, and growing challenges to press freedom.",
+            "published_at": "2026-11-08T07:45:36Z",
+            "url": "https://www.youtube.com/watch?v=VU_2_tU0RJU"
+          }
+        ],
+        "channel_description": "Narratives is a coalition of some of Pakistan’s prominent journalists and experts, who take full editorial responsibility of their content. It is a journalist-led independent platform, where the viewer will find in-depth interviews and podcasts, insightful V-logs, discussions and mini-reports on national, regional and international issues. We remain open to your kind suggestions and constructive criticism.",
+        "latest_video_at": "2026-11-08T14:00:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCdM1ElRcL4AtqHoa6hFpG4Q",
+      "external_id": "UCdM1ElRcL4AtqHoa6hFpG4Q",
+      "name": "America News Today",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCdM1ElRcL4AtqHoa6hFpG4Q",
+      "discovered_on": "2026-11-08",
+      "score": 64.04,
+      "metrics": {
+        "subscribers": 5000,
+        "total_views": 9526501,
+        "video_count": 561,
+        "avg_views_per_video": 16981.29,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "vp9gDy1hHlA",
+            "title": "Dr. Stella Immanuel COVID Claims Sparked A Major Censorship Debate-What Your View? #BreakingNews #US",
+            "description": "America News Trending delivers the latest breaking news, major headlines, and trending stories from across the United States ...",
+            "published_at": "2026-11-08T03:09:03Z",
+            "url": "https://www.youtube.com/watch?v=vp9gDy1hHlA"
+          }
+        ],
+        "channel_description": "Welcome to America News Trending.\n\nAll video footage is originally recorded by America News Trending team. Every video, infographic, subtitle, and visual element is manually edited to add context and improve viewer understanding.\n\nAmerica News Trending delivers fast, up-to-date coverage on real events, breaking headlines, and trending stories across the United States.\n\nEach video transforms verified reports and reliable sources into quick, engaging Shorts designed for today’s fast-moving audience.\n\nTopics include politics, economy, social issues, major public figures, and viral moments shaping conversations across America.\n\nAll content is carefully curated, fact-checked, and presented in under 10 seconds—keeping it clear, relevant, and easy to follow.\n",
+        "latest_video_at": "2026-11-08T03:09:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCV7zBZmhY8HS2HJb40z25jg",
+      "external_id": "UCV7zBZmhY8HS2HJb40z25jg",
+      "name": "The Independent: A Notre Dame Football Podcast",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCV7zBZmhY8HS2HJb40z25jg",
+      "discovered_on": "2026-11-08",
+      "score": 62.4,
+      "metrics": {
+        "subscribers": 6350,
+        "total_views": 1193582,
+        "video_count": 209,
+        "avg_views_per_video": 5710.92,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "_9V-_lGASvs",
+            "title": "Down goes No. 1! Notre Dame knocks off rival Miami in instant classic",
+            "description": "Notre Dame has taken down No. 1 Miami in one of the biggest games in South Bend in years. Marcus Freeman's Fighting Irish ...",
+            "published_at": "2026-11-08T06:28:08Z",
+            "url": "https://www.youtube.com/watch?v=_9V-_lGASvs"
+          }
+        ],
+        "channel_description": "The Independent is the essential listen for fans of Fighting Irish football. Pete Sampson of the Athletic and Matt Fortuna of The Inside Zone are back to take you inside the Notre Dame program. With a combined 35 years + of experience on the ND beat, this twice weekly podcast has you covered for everything blue and gold.",
+        "latest_video_at": "2026-11-08T06:28:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCHTuxzisSMWkoePz-EMUjnw",
+      "external_id": "UCHTuxzisSMWkoePz-EMUjnw",
+      "name": "ToonRaider",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCHTuxzisSMWkoePz-EMUjnw",
+      "discovered_on": "2026-11-08",
+      "score": 62.33,
+      "metrics": {
+        "subscribers": 6460,
+        "total_views": 2422307,
+        "video_count": 450,
+        "avg_views_per_video": 5382.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "iHewHhcP5Yk",
+            "title": "THEY REMOVED TORIYAMA&#39;S SUCCESSOR?! GEKISHIN IS DOOMED! ENGLISH DUB &amp; CENSORSHIP! | Dragon Ball NEWS",
+            "description": "CHAPTERS: 00:00 THEY REMOVED TOYOTARO?! 05:26 Dragon Ball Super: Beerus ENGLISH DUB UPDATE! 07:07 DAIMA ...",
+            "published_at": "2026-11-07T17:48:01Z",
+            "url": "https://www.youtube.com/watch?v=iHewHhcP5Yk"
+          }
+        ],
+        "channel_description": "I love Dragon Ball and do my best to cover DB news and commentary. Also may review, do gameplay or read fanfiction at times.\n\nI try to upload at least once a week, but may do more than once a week, or once a month. 😅",
+        "latest_video_at": "2026-11-07T17:48:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCkZC6ef4aywFLanupZOt0vA",
+      "external_id": "UCkZC6ef4aywFLanupZOt0vA",
+      "name": "Pupia City",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCkZC6ef4aywFLanupZOt0vA",
+      "discovered_on": "2026-11-08",
+      "score": 61.31,
+      "metrics": {
+        "subscribers": 13600,
+        "total_views": 26787596,
+        "video_count": 22561,
+        "avg_views_per_video": 1187.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "BcqbSL2Bwxk",
+            "title": "Ismaele La Vardera - ++MASSIMA DIFFUSIONE++  (07.11.26)",
+            "description": "hthttps://pupia.tv - Ismaele La Vardera - ++MASSIMA DIFFUSIONE++ TGS, LA TV DIRETTA DA MARCO ROMANO PRIMA MI ...",
+            "published_at": "2026-11-07T17:00:29Z",
+            "url": "https://www.youtube.com/watch?v=BcqbSL2Bwxk"
+          }
+        ],
+        "channel_description": "I video di Pupia tv",
+        "latest_video_at": "2026-11-07T17:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCBJvTeuSKEpZZV3E5EKEd4g",
+      "external_id": "UCBJvTeuSKEpZZV3E5EKEd4g",
+      "name": "Africa Independent Television",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCBJvTeuSKEpZZV3E5EKEd4g",
+      "discovered_on": "2026-11-08",
+      "score": 59.42,
+      "metrics": {
+        "subscribers": 12900,
+        "total_views": 3348804,
+        "video_count": 6263,
+        "avg_views_per_video": 534.7,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "SqLmcV5rFpE",
+            "title": "AIT NEWS LIVE | 7TH NOVEMBER 2026",
+            "description": "Welcome to the official Youtube channel of Africa Independent Television AIT, Click link to stay up to date with the latest news in ...",
+            "published_at": "2026-11-08T07:00:44Z",
+            "url": "https://www.youtube.com/watch?v=SqLmcV5rFpE"
+          }
+        ],
+        "channel_description": "Welcome to the Official Youtube Channel of Africa Independent Television, watch to catch the Latest News across Nigeria and the African Continent",
+        "latest_video_at": "2026-11-08T07:00:44Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCBgymUnDUlxMrp02-zRKe_w",
+      "external_id": "UCBgymUnDUlxMrp02-zRKe_w",
+      "name": "Remy X",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCBgymUnDUlxMrp02-zRKe_w",
+      "discovered_on": "2026-11-08",
+      "score": 58.67,
+      "metrics": {
+        "subscribers": 3400,
+        "total_views": 848163,
+        "video_count": 346,
+        "avg_views_per_video": 2451.34,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "2suDnJOdzYo",
+            "title": "No más censura #colombia #abelardodelaespriella #noticias #censuradigital",
+            "description": "",
+            "published_at": "2026-11-08T07:24:23Z",
+            "url": "https://www.youtube.com/watch?v=2suDnJOdzYo"
+          }
+        ],
+        "channel_description": "Guitarrista de Fuego Púrpura \n\n\nEn este canal encontrarás reviews honestas de pedaleras, guitarras, amplificadores y equipos para guitarristas. También comparto presets, configuraciones y consejos para lograr el mejor tono\n\n\nMooer GE 150 Pro -  Presets #ge150pro #guitar #mooeraudio #audio \nSeries de Anime, Game Plays, Vídeo Juegos, Análisis, Recomendaciones y Reseñas.\n\n",
+        "latest_video_at": "2026-11-08T07:24:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCE5su-f3_39HG4wcUuuTXVg",
+      "external_id": "UCE5su-f3_39HG4wcUuuTXVg",
+      "name": "Future of Work Training Institute ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCE5su-f3_39HG4wcUuuTXVg",
+      "discovered_on": "2026-11-08",
+      "score": 55.22,
+      "metrics": {
+        "subscribers": 2230,
+        "total_views": 1457410,
+        "video_count": 1617,
+        "avg_views_per_video": 901.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "qfUmNaGdhfM",
+            "title": "YouTube Is Actively Suppressing This Independent News Channel",
+            "description": "In an era where access to transparent information is more critical than ever, we remain committed to delivering the facts.",
+            "published_at": "2026-11-07T23:05:30Z",
+            "url": "https://www.youtube.com/watch?v=qfUmNaGdhfM"
+          }
+        ],
+        "channel_description": "🌍 Future of Work Training Institute — The #1 AI & Future Careers Channel\nJoin the Future of Work Training Institute Skool Community -your all-in-one hub for mastering AI, Blue Collar Skills and the new emerging technology economy.\n💡 For only $9/month, you’ll get lifetime-locked access to:\n✅ FoW MasterClasses — including AI Automation, AI GovCon, AI YouTube, Crypto & Blockchain and more\n✅ Community Access — connect with entrepreneurs, job-seekers, and students mastering FoW together\n✅ Career-Ready Training — learn AI, Blue Collar Skills, Quantum, Courier/Trucking and Gaming and more\n✅ Affiliate Income Program — earn 100 % commissions reselling the program while you learn\n🎓 Who Should Join?\nInnovators, creators & entrepreneurs building income streams\nJob-seekers & students who want in-demand future skills\nLeaders & Executive shaping the next era of work\nBlue-collar & tech pros learning to use AI tools in real life\n🔗 Visit: www.FutureOfWorkTrainingInstitute.com\n",
+        "latest_video_at": "2026-11-07T23:05:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWa5x4sps5OWPT34DhPieJg",
+      "external_id": "UCWa5x4sps5OWPT34DhPieJg",
+      "name": "Voice of the Valleys",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWa5x4sps5OWPT34DhPieJg",
+      "discovered_on": "2026-11-08",
+      "score": 52.29,
+      "metrics": {
+        "subscribers": 2100,
+        "total_views": 285322,
+        "video_count": 1124,
+        "avg_views_per_video": 253.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "XPyc5AX6OUI",
+            "title": "There Have Been Attempts On My Life | VOTV w/ Mark Collett",
+            "description": "Mark Collett on 26 years in politics and whether he would do it all again: A long, honest conversation with VOTV Host George ...",
+            "published_at": "2026-11-07T19:00:10Z",
+            "url": "https://www.youtube.com/watch?v=XPyc5AX6OUI"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-07T19:00:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCvsfDNFaEgfMvOo_pzHgT4w",
       "external_id": "UCvsfDNFaEgfMvOo_pzHgT4w",
