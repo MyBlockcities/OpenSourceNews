@@ -2,19 +2,244 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-08T16:44:41Z",
+  "updated_at": "2026-11-09T20:51:46Z",
   "new_this_run": 5,
-  "total_influencers": 593,
+  "total_influencers": 598,
   "run_summary": {
-    "run_started_at": "2026-11-08T16:44:24Z",
-    "candidate_count": 18,
-    "existing_count": 588,
+    "run_started_at": "2026-11-09T20:51:29Z",
+    "candidate_count": 14,
+    "existing_count": 593,
     "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCPK0WOvQFEje2OosX8ecR-A",
+      "external_id": "UCPK0WOvQFEje2OosX8ecR-A",
+      "name": "Antiage Institute: Medical Spa & Wellness Center",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCPK0WOvQFEje2OosX8ecR-A",
+      "discovered_on": "2026-11-09",
+      "score": 64.63,
+      "metrics": {
+        "subscribers": 8380,
+        "total_views": 2298019,
+        "video_count": 213,
+        "avg_views_per_video": 10788.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "0G8xmxTakyk",
+            "title": "Copper Peptides: What Does the Science Actually Say? | Antiage Institute",
+            "description": "Copper peptides are having a moment, but what does the science actually say? This week on The Antiage Agenda, NP Brittany ...",
+            "published_at": "2026-11-09T16:00:01Z",
+            "url": "https://www.youtube.com/watch?v=0G8xmxTakyk"
+          }
+        ],
+        "channel_description": "Institute of Antiaging Medicine is a Wellness/ Medspa dedicated to looking and feeling good from the Inside /Out.  We specialize in Botox, Fillers, Lasers, Wellness, Weight Loss, BioIdentical Hormone Replacement and much more\nLocated in Houston Texas.  \nwww.antiageinstitute.com.  PH: 713-807-1000",
+        "latest_video_at": "2026-11-09T16:00:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCJZeNgmQvNUzpS9C27YCzPw",
+      "external_id": "UCJZeNgmQvNUzpS9C27YCzPw",
+      "name": "Vinny Uzi",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCJZeNgmQvNUzpS9C27YCzPw",
+      "discovered_on": "2026-11-09",
+      "score": 59.9,
+      "metrics": {
+        "subscribers": 2550,
+        "total_views": 1052010,
+        "video_count": 163,
+        "avg_views_per_video": 6454.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "x3j0S23CUrc",
+            "title": "Are Your Peptides Saving Your Testosterone?",
+            "description": "The growth hormone and fat loss peptides most guys stack don't directly raise your testosterone. A guy on a bloodwork call told ...",
+            "published_at": "2026-11-09T00:02:48Z",
+            "url": "https://www.youtube.com/watch?v=x3j0S23CUrc"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-09T00:02:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCzewlp3k0y4fJogGr_t9zgw",
+      "external_id": "UCzewlp3k0y4fJogGr_t9zgw",
+      "name": "Reclaiming Melissa",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCzewlp3k0y4fJogGr_t9zgw",
+      "discovered_on": "2026-11-09",
+      "score": 57.23,
+      "metrics": {
+        "subscribers": 3870,
+        "total_views": 280567,
+        "video_count": 266,
+        "avg_views_per_video": 1054.76,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "AR8QVayc1sI",
+            "title": "Peptides or cognitive therapy??",
+            "description": "The nervous system is the channel with which to connect and communicate. The change happens when you learn to work WITH ...",
+            "published_at": "2026-11-09T03:46:39Z",
+            "url": "https://www.youtube.com/watch?v=AR8QVayc1sI"
+          }
+        ],
+        "channel_description": "\n",
+        "latest_video_at": "2026-11-09T03:46:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCYT8_FpZ8at82gNJnOd_U7g",
+      "external_id": "UCYT8_FpZ8at82gNJnOd_U7g",
+      "name": "Kevin Söll - Podcast",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCYT8_FpZ8at82gNJnOd_U7g",
+      "discovered_on": "2026-11-09",
+      "score": 53.83,
+      "metrics": {
+        "subscribers": 2170,
+        "total_views": 43005,
+        "video_count": 87,
+        "avg_views_per_video": 494.31,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "9ZnNELZLCf8",
+            "title": "Dieses Peptid heilt Verletzungen so schnell, dass es als Doping zählt",
+            "description": "BPC-157 gilt als eines der meistdiskutierten Peptide für schnellere Regeneration, Wundheilung und die Heilung von ...",
+            "published_at": "2026-11-09T13:07:04Z",
+            "url": "https://www.youtube.com/watch?v=9ZnNELZLCf8"
+          }
+        ],
+        "channel_description": "Gesundheit, Langlebigkeit, Mindset, Fitness & Performance 💪\n\nMein Hauptkanal zum Thema Kryptowährungen & Finanzen:\n 👉 https://www.youtube.com/c/KevinSoell?sub_confirmation=1\n\n▬▬▬\n\nHey, mein Name ist Kevin Söll. Ich habe einen Master in Wirtschaftsingenieurwesen und bin 2018 aus Deutschland ausgewandert.\n\nAuf diesem Kanal lernst du über:\n✅ Gesundheit\n✅ Langlebigkeit\n✅ Mindset\n✅ Fitness\n✅ Performance\n\nAlles mit dem Ziel, dass du inspiriert wirst, die beste Version von dir selbst zu werden.\n\n▬▬▬\n\n⚠️ Disclaimer: https://kevinsoell.com/impressum/\n",
+        "latest_video_at": "2026-11-09T13:07:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCk_jXPTVHuYWD4d_Ri6ce5A",
+      "external_id": "UCk_jXPTVHuYWD4d_Ri6ce5A",
+      "name": "Alicia Shelly, MD FACP",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCk_jXPTVHuYWD4d_Ri6ce5A",
+      "discovered_on": "2026-11-09",
+      "score": 53.13,
+      "metrics": {
+        "subscribers": 2040,
+        "total_views": 374922,
+        "video_count": 961,
+        "avg_views_per_video": 390.14,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "DNHw5cKbl9c",
+            "title": "Peptides EXPOSED and the Truth About GLP-1 Weight Loss Drugs",
+            "description": "What Is a Peptide, Really? GLP-1s, Retatrutide, & the Truth Behind the Hype If someone tells you, \"It's just a peptide,\" that should ...",
+            "published_at": "2026-11-09T00:00:07Z",
+            "url": "https://www.youtube.com/watch?v=DNHw5cKbl9c"
+          }
+        ],
+        "channel_description": "The Back on Track: Achieving Healthy Weight loss Channel focuses on strategies to help you get back on track and stay on track with your weight loss journey. Dr. Shelly is a Board certified Internal Medicine/Obesity Medicine physician who specializes in helping people lose weight and maintain weight in Douglasville, GA.",
+        "latest_video_at": "2026-11-09T00:00:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UChxeIzexamaKP8QS81BjS_Q",
       "external_id": "UChxeIzexamaKP8QS81BjS_Q",
