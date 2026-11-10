@@ -2,19 +2,260 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-11-09T20:51:49Z",
-  "new_this_run": 6,
-  "total_influencers": 1861,
+  "updated_at": "2026-11-10T17:58:38Z",
+  "new_this_run": 7,
+  "total_influencers": 1868,
   "run_summary": {
-    "run_started_at": "2026-11-09T20:51:29Z",
-    "candidate_count": 45,
-    "existing_count": 1855,
-    "selected_new_count": 6,
+    "run_started_at": "2026-11-10T17:58:18Z",
+    "candidate_count": 44,
+    "existing_count": 1861,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCBXTPRWvJUUAwzhFucAYxnA",
+      "external_id": "UCBXTPRWvJUUAwzhFucAYxnA",
+      "name": "JeremyScottFitness",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCBXTPRWvJUUAwzhFucAYxnA",
+      "discovered_on": "2026-11-10",
+      "score": 65.62,
+      "metrics": {
+        "subscribers": 34500,
+        "total_views": 6636587,
+        "video_count": 2820,
+        "avg_views_per_video": 2353.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "92Kt5VFtMQ4",
+            "title": "50 MADE 3-POINTERS 🏀 HOW FAST CAN YOU FINISH?",
+            "description": "50 MADE 3-POINTERS. HOW FAST CAN YOU FINISH? Sometimes the best workout doesn't feel like a workout. Today's ...",
+            "published_at": "2026-11-10T16:00:33Z",
+            "url": "https://www.youtube.com/watch?v=92Kt5VFtMQ4"
+          }
+        ],
+        "channel_description": "Welcome to the official Jeremy Scott Fitness YouTube channel.\n\nJeremy Scott is a former collegiate athlete & Cum Laude graduate turned best selling author; “Make Success Mandatory” “Get Lean Gluten Free”. His blog has been named one of the top 20 fitness blogs online by Breaking Muscle. He is a 4-x cover model; SHAPE Magazine named him one of the 50 Top Trainers in America.\n\nJeremy has worked and partnered with the biggest brands in fitness including; Men’s Health Magazine, Reebok, Under Armor, Nike, Vitamin Shoppe and Bodybuilding.com to mention a few. He is also the host of the popular Jeremy Scott Fitness Podcast & Radio Show and the Jeremy Scott Fitness app. \n",
+        "latest_video_at": "2026-11-10T16:00:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTJNQPfe9cDLsmmVBUKs1aQ",
+      "external_id": "UCTJNQPfe9cDLsmmVBUKs1aQ",
+      "name": "Dr. Elisha Goldstein",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCTJNQPfe9cDLsmmVBUKs1aQ",
+      "discovered_on": "2026-11-10",
+      "score": 61.48,
+      "metrics": {
+        "subscribers": 13500,
+        "total_views": 1163104,
+        "video_count": 896,
+        "avg_views_per_video": 1298.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "ugZH5s0I-cg",
+            "title": "How to Slow Aging: A Doctor&#39;s Daily Protocol",
+            "description": "What if longevity isn't simply about living longer, but about preserving the energy, strength, clarity, and vitality that make those ...",
+            "published_at": "2026-11-10T14:00:26Z",
+            "url": "https://www.youtube.com/watch?v=ugZH5s0I-cg"
+          }
+        ],
+        "channel_description": "Helping you heal emotionally, increase resilience, and thrive at every stage of life.\nPsychologist & Bestselling Author | Founder of Uncover the Power Within\nWith 20+ years of experience, blending psychological insights with mindfulness to guide you toward lasting emotional well-being.\n",
+        "latest_video_at": "2026-11-10T14:00:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKBMj9MWk7Bx4A9D8WVLbHQ",
+      "external_id": "UCKBMj9MWk7Bx4A9D8WVLbHQ",
+      "name": "Living Fully with Maria and Jason ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCKBMj9MWk7Bx4A9D8WVLbHQ",
+      "discovered_on": "2026-11-10",
+      "score": 59.32,
+      "metrics": {
+        "subscribers": 10900,
+        "total_views": 154456,
+        "video_count": 239,
+        "avg_views_per_video": 646.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "j9E0D8IjIXc",
+            "title": "Do this every day to still get up off the floor at 70 #fitness #mobility",
+            "description": "Can you maintain your mobility at 40, 50, or beyond? This routine features essential exercises designed to help active adults ...",
+            "published_at": "2026-11-10T13:00:26Z",
+            "url": "https://www.youtube.com/watch?v=j9E0D8IjIXc"
+          }
+        ],
+        "channel_description": "Helping adults 50+ stay strong, mobile, and independent.\n\nLearn simple Pilates-based exercises, balance training, posture tips, scoliosis-friendly movement, and healthy aging strategies.\n\nFollow along as my husband and I work toward early retirement, slow travel, and living life on our own terms.\n\nNew videos every week.\n\n",
+        "latest_video_at": "2026-11-10T13:00:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:2b225b6275ed483b7236",
+      "external_id": "2b225b6275ed483b7236",
+      "name": "Tristan Cook",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/hdySpjwzjuSHuXfuS/application-open-for-clr-fundamentals-program-autumn-2026",
+      "discovered_on": "2026-11-10",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Application open for CLR Fundamentals Program Autumn 2026"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:04f4893473180c55ea00",
+      "external_id": "04f4893473180c55ea00",
+      "name": "Jesús Fernández-Villaverde",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/united-states/luxury-children",
+      "discovered_on": "2026-11-10",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Luxury of Children"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:91d074d25b8b03fcbe78",
+      "external_id": "91d074d25b8b03fcbe78",
+      "name": "Daniel Remler",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/chinas-ai-diplomacy-working",
+      "discovered_on": "2026-11-10",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "China’s AI Diplomacy Is Working"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:c75f4e007bf247d17039",
+      "external_id": "c75f4e007bf247d17039",
+      "name": "Bogoed",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/eHAhnem9DZoF8hTFq/do-not-get-us-on-the-no-fly-list",
+      "discovered_on": "2026-11-10",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Do Not Get Us on the No Fly List"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCHPohy3-LDXbC427iuiSA2w",
       "external_id": "UCHPohy3-LDXbC427iuiSA2w",

@@ -2,19 +2,452 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-09T20:51:37Z",
-  "new_this_run": 9,
-  "total_influencers": 1129,
+  "updated_at": "2026-11-10T17:58:27Z",
+  "new_this_run": 10,
+  "total_influencers": 1139,
   "run_summary": {
-    "run_started_at": "2026-11-09T20:51:29Z",
-    "candidate_count": 22,
-    "existing_count": 1120,
-    "selected_new_count": 9,
+    "run_started_at": "2026-11-10T17:58:18Z",
+    "candidate_count": 24,
+    "existing_count": 1129,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCNoGxYPy6r0MG91GtjJSfYg",
+      "external_id": "UCNoGxYPy6r0MG91GtjJSfYg",
+      "name": "Dyer Central",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCNoGxYPy6r0MG91GtjJSfYg",
+      "discovered_on": "2026-11-10",
+      "score": 71.04,
+      "metrics": {
+        "subscribers": 41900,
+        "total_views": 16869050,
+        "video_count": 778,
+        "avg_views_per_video": 21682.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "ss5o-Sa92Ao",
+            "title": "The DESERVED Downfall of Ben Shapiro",
+            "description": "Ben Shapiro's Fall Off Needs to Be Studied Video Jay Was Reacting To ▻ https://www.youtube.com/watch?v=9yFlfXfdPsA&t= Full ...",
+            "published_at": "2026-11-10T12:36:52Z",
+            "url": "https://www.youtube.com/watch?v=ss5o-Sa92Ao"
+          }
+        ],
+        "channel_description": "Orthodox Christian commentary and analysis on theology, philosophy, and contemporary debates, providing educational context and original explanation through the use of excerpts from longer discussions for the purpose of commentary and analysis.",
+        "latest_video_at": "2026-11-10T12:36:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCF_L9gIeKKLCEUeie1uoVzw",
+      "external_id": "UCF_L9gIeKKLCEUeie1uoVzw",
+      "name": "의정부톡",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCF_L9gIeKKLCEUeie1uoVzw",
+      "discovered_on": "2026-11-10",
+      "score": 70.18,
+      "metrics": {
+        "subscribers": 29200,
+        "total_views": 7778092,
+        "video_count": 321,
+        "avg_views_per_video": 24230.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "VOFEVShs8I4",
+            "title": "고소 당하자 입틀막?? 주진우에게 한 방 먹인 전은수",
+            "description": "주진우 의원이 대통령 장남의 골프 의혹을 제기했다가 명예훼손으로 고소를 당하자 '입틀막'을 꺼냈습니다. 더불어민주당 전은수 원내 ...",
+            "published_at": "2026-11-10T10:54:15Z",
+            "url": "https://www.youtube.com/watch?v=VOFEVShs8I4"
+          }
+        ],
+        "channel_description": "🎙️ 정치 인사이트에 오신 것을 환영합니다!\n\n대한민국 정치 이슈를 쉽고 빠르게 전하는 정치 쇼츠 채널입니다.\n\n매일 주요 정치 뉴스와 이슈를 핵심만 짧고 이해하기 쉽게 전달합니다.\n\n📌 이 채널에서 만나볼 수 있는 콘텐츠\n\n최신 정치 뉴스\n국회·정부 주요 이슈\n정치인 발언 및 인터뷰\n정책 분석\n정치 뒷이야기와 핵심 정리\n\n빠르고 정확한 정보로 대한민국의 정치 흐름을 함께 살펴보세요.\n\n구독과 알림 설정으로 새로운 정치 이슈를 가장 먼저 만나보세요! 🔔\n",
+        "latest_video_at": "2026-11-10T10:54:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCb0xB4NwoAANhxikOjw3Tnw",
+      "external_id": "UCb0xB4NwoAANhxikOjw3Tnw",
+      "name": "Le JDD",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCb0xB4NwoAANhxikOjw3Tnw",
+      "discovered_on": "2026-11-10",
+      "score": 69.64,
+      "metrics": {
+        "subscribers": 10800,
+        "total_views": 8229575,
+        "video_count": 1080,
+        "avg_views_per_video": 7619.98,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://x.com/leJDD",
+        "instagram": "https://www.instagram.com/le_jdd"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "H5qwxlx7E5E",
+            "title": "Jusqu&#39;où ira la censure ?",
+            "description": "De l'action menée dans un Relay à Montparnasse aux contestations visant certaines chaînes d'information, le débat sur le ...",
+            "published_at": "2026-11-10T11:29:31Z",
+            "url": "https://www.youtube.com/watch?v=H5qwxlx7E5E"
+          }
+        ],
+        "channel_description": "📢 Restez informé !\nChaque jour, nous analysons l'actualité pour vous offrir des perspectives uniques sur\nla politique, les enjeux sociaux et les tendances qui façonnent le monde\nd'aujourd'hui. 🌍\n\n🔔 Ne manquez rien : abonnez-vous et activez la cloche pour découvrir nos prochaines\nanalyses, interviews exclusives et reportages de terrain !\n\n📱 Suivez-nous aussi sur les réseaux sociaux pour du contenu exclusif :\n● Twitter : https://x.com/leJDD\n● Instagram : https://www.instagram.com/le_jdd/?hl=fr\n● Facebook : https://www.facebook.com/leJDD\n\n💬 Vos commentaires font vivre le débat : Donnez votre avis dans les commentaires,\npartagez vos analyses et échangez avec notre communauté. Ensemble, construisons une\nmeilleure compréhension de notre société.\n",
+        "latest_video_at": "2026-11-10T11:29:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCPPQ2Hv4vaEjlY4o6y7SJ1Q",
+      "external_id": "UCPPQ2Hv4vaEjlY4o6y7SJ1Q",
+      "name": "Turn Left ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCPPQ2Hv4vaEjlY4o6y7SJ1Q",
+      "discovered_on": "2026-11-10",
+      "score": 67.43,
+      "metrics": {
+        "subscribers": 41000,
+        "total_views": 6897102,
+        "video_count": 1623,
+        "avg_views_per_video": 4249.6,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "wKgpVK_MG5w",
+            "title": "Green Party Sees New Polling BOOST",
+            "description": "Support us at https://www.turnleftmedia.co.uk/support ------- Turn Left is part of the Independent Media Association Official Turn ...",
+            "published_at": "2026-11-10T12:00:31Z",
+            "url": "https://www.youtube.com/watch?v=wKgpVK_MG5w"
+          }
+        ],
+        "channel_description": "Turn Left is a new media for Socialism.\nSupport us at https://www.turnleftmedia.co.uk/support\nTurn Left is part of the Independent Media Association \n\n",
+        "latest_video_at": "2026-11-10T12:00:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCnG9D8jTkVCADIP1C3k1ilw",
+      "external_id": "UCnG9D8jTkVCADIP1C3k1ilw",
+      "name": "Khyber Chronicles",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCnG9D8jTkVCADIP1C3k1ilw",
+      "discovered_on": "2026-11-10",
+      "score": 64.21,
+      "metrics": {
+        "subscribers": 21400,
+        "total_views": 1746526,
+        "video_count": 728,
+        "avg_views_per_video": 2399.07,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "pk1H8_2tAag",
+            "title": "Total Media Blackout in Afghanistan: Inside the Crackdown on Independent Journalism",
+            "description": "Total Media Blackout in Afghanistan: Inside the Crackdown on Independent Journalism and Information Control The media ...",
+            "published_at": "2026-11-10T11:13:52Z",
+            "url": "https://www.youtube.com/watch?v=pk1H8_2tAag"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-10T11:13:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCCEdXaxApk59uYhOPsQIANg",
+      "external_id": "UCCEdXaxApk59uYhOPsQIANg",
+      "name": "Real Life Network",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCCEdXaxApk59uYhOPsQIANg",
+      "discovered_on": "2026-11-10",
+      "score": 63.75,
+      "metrics": {
+        "subscribers": 18100,
+        "total_views": 1606437,
+        "video_count": 655,
+        "avg_views_per_video": 2452.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "r-9qslUBkcc",
+            "title": "Lukewarm America: Why the GOP Lost the Midterms",
+            "description": "Texas, Georgia, and Ohio elect Democrat governors in a midterm shock, and RLN's Daniel Cohen rejects easy excuses of Trump, ...",
+            "published_at": "2026-11-09T22:52:53Z",
+            "url": "https://www.youtube.com/watch?v=r-9qslUBkcc"
+          }
+        ],
+        "channel_description": "Real Life Network brings you relevant life-changing Biblical Worldview programming that will motivate and educate people to intentionally live out their faith.",
+        "latest_video_at": "2026-11-09T22:52:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCS4WJF2lmzd1le986UdHUOg",
+      "external_id": "UCS4WJF2lmzd1le986UdHUOg",
+      "name": "Wrestling Talkz",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCS4WJF2lmzd1le986UdHUOg",
+      "discovered_on": "2026-11-10",
+      "score": 62.94,
+      "metrics": {
+        "subscribers": 3200,
+        "total_views": 6994454,
+        "video_count": 231,
+        "avg_views_per_video": 30279.02,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "6cHfIGPC9ww",
+            "title": "Why is WWE censoring blood?",
+            "description": "WWE ke blood censor karne ke peeche broadcasting rules aur Netflix ki global streaming policy ek badi wajah ho sakti hai!",
+            "published_at": "2026-11-09T13:45:26Z",
+            "url": "https://www.youtube.com/watch?v=6cHfIGPC9ww"
+          }
+        ],
+        "channel_description": "Welcome to Wrestling Talkz 💥\nYour daily dose of WWE facts, shocking moments, iconic matches, insane bumps, and wrestling stories you won’t believe!\nOn this channel, you’ll find: 🔥 WWE Shorts & Reels\n🔥 Top 5 / Top 10 Wrestling Moments\n🔥 Shocking Falls, Injuries & Comebacks\n🔥 Untold Wrestling Facts & Stories\n🔥 Legends vs Modern Superstars\nIf you’re a true WWE fan, this channel is made for YOU!\nWe post short, entertaining, and hard-hitting wrestling content that keeps you hooked till the last second.\n👉 Subscribe & join the Wrestling Talks Army\n👉 Turn on notifications so you never miss a moment from the squared circle!\nBecause Wrestling is ENTERTAINMENT! 💪\n\n",
+        "latest_video_at": "2026-11-09T13:45:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCh62vWopIZAoHaglfmNBXdQ",
+      "external_id": "UCh62vWopIZAoHaglfmNBXdQ",
+      "name": "Films ruler",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCh62vWopIZAoHaglfmNBXdQ",
+      "discovered_on": "2026-11-10",
+      "score": 62.39,
+      "metrics": {
+        "subscribers": 3450,
+        "total_views": 3824292,
+        "video_count": 181,
+        "avg_views_per_video": 21128.69,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "pnKfpUDyc4E",
+            "title": "Sharwanand’s Bhogi Movie Postponed! 🛑 | Censor Issues &amp; Real Reason Revealed!",
+            "description": "About the Movie: Directed by mass filmmaker Sampath Nandi and produced under the Sri Sathya Sai Arts banner, Bhogi is a ...",
+            "published_at": "2026-11-09T15:48:01Z",
+            "url": "https://www.youtube.com/watch?v=pnKfpUDyc4E"
+          }
+        ],
+        "channel_description": "Welcome to [Films ruler] – మీ డైలీ సినిమా అప్‌డేట్స్ అడ్డా! 🍿\n\nటాలీవుడ్ నుండి హాలీవుడ్ వరకు జరిగే ప్రతి సినీ ముచ్చట మీకు అందరికంటే ముందుగా తెలియాలా? \nఅయితే మీరు సరైన చోటికే వచ్చారు! \n[Films ruler] అనేది సినిమా ప్రేమికులందరి కోసం ప్రత్యేకంగా డిజైన్ చేయబడిన వన్-స్టాప్ డిజిటల్ ప్లాట్‌ఫామ్.\n\n🔥 మన ఛానెల్‌లో మీకు లభించే కంటెంట్:\nడైలీ మూవీ అప్‌డేట్స్: టాలీవుడ్ లేటెస్ట్ వార్తలు మరియు అఫీషియల్ అనౌన్స్‌మెంట్స్.\n\nసెలబ్రిటీ న్యూస్ & గాసిప్స్: మీ అభిమాన హీరో హీరోయిన్ల పర్సనల్ లైఫ్ .\n\nఇండస్ట్రీ బజ్: ఫిలిం నగర్ సర్కిల్స్‌లో నడుస్తున్న హాట్ హాట్ టాపిక్స్ .\n\nబాక్సాఫీస్ కలెక్షన్స్: థియేటర్లలో ఏ సినిమా ఎంత వసూలు చేసిందో తెలిపే ఖచ్చితమైన రిపోర్ట్స్.\n\n📌 ఎందుకు మన ఛానెల్‌ని Subscribe చేయాలి?\n\nమెరుపు వేగం: ఇండస్ట్రీలో అప్‌డేట్ రాగానే, అది మీ స్క్రీన్ మీదకు వచ్చేలా చూస్తాము.\n\nక్విక్ షార్ట్స్: బిజీగా ఉన్నవారి కోసం ప్రతిరోజూ 30 సెకన్ల షార్ట్స్ రూపంలో కూడా అప్‌డేట్స్ ఇస్తాము.\n\n🔔 ఇప్పుడే జాయిన్ అవ్వండి!\n👉 వెంటనే 'Subscribe' బటన్‌పై క్లిక్ చేయండి.\n\nరండి.. అందరం కలిసి సినిమాని సెలబ్రేట్ చేసుకుందాం! 😎🎬",
+        "latest_video_at": "2026-11-09T15:48:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCpqCWWPUeC1BO4JUVF3KVLw",
+      "external_id": "UCpqCWWPUeC1BO4JUVF3KVLw",
+      "name": "Politix with Nix",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCpqCWWPUeC1BO4JUVF3KVLw",
+      "discovered_on": "2026-11-10",
+      "score": 57.63,
+      "metrics": {
+        "subscribers": 3870,
+        "total_views": 326310,
+        "video_count": 257,
+        "avg_views_per_video": 1269.69,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "fi9zDauwJQ8",
+            "title": "How Close Is #IndependentMedia to #SouthAfrica Government?",
+            "description": "The Mpati Commission 900-page report uncovers a five-year relationship between then CEO of the South Africa PIC*, Dan Matjila ...",
+            "published_at": "2026-11-10T14:15:25Z",
+            "url": "https://www.youtube.com/watch?v=fi9zDauwJQ8"
+          }
+        ],
+        "channel_description": "South African political news, straight from someone who reads the actual reports.\n\nWelcome to Politix With Nix — where I cover the stories South Africa needs to know, not the ones it's being fed.\n\nEach week I dig into the audits, budgets, and source documents behind the headlines and give you the angle mainstream media skips — without the outrage, without the spin, with a strong opinion and the data to back it up.\n\nIf you're tired of press releases dressed up as news, you're in the right place.\n\n→ New videos weekly\n→ South African politics | News commentary | Data-driven analysis\n→ Contact me: nixrambles@gmail.com\n",
+        "latest_video_at": "2026-11-10T14:15:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCb28YhFkA1nQjSszWc6qTzg",
+      "external_id": "UCb28YhFkA1nQjSszWc6qTzg",
+      "name": "PATRUKAR",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCb28YhFkA1nQjSszWc6qTzg",
+      "discovered_on": "2026-11-10",
+      "score": 57.55,
+      "metrics": {
+        "subscribers": 3510,
+        "total_views": 1377159,
+        "video_count": 985,
+        "avg_views_per_video": 1398.13,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "_KPKzmUPeu4",
+            "title": "Nano chip narration of Aajtak media busted by an independent journalist",
+            "description": "Sweta Singh's Nano chip theory busted by an independent journalist on the occasion of tenth anniversary of demonetization of ...",
+            "published_at": "2026-11-10T03:34:23Z",
+            "url": "https://www.youtube.com/watch?v=_KPKzmUPeu4"
+          }
+        ],
+        "channel_description": "𝗥𝗲𝗴𝗱: 𝗨𝗗𝗬𝗔𝗠-𝗪𝗕-𝟮𝟮-𝟬𝟬𝟬****\n𝗗𝗜𝗚𝗜𝗧𝗔𝗟 𝗠𝗘𝗗𝗜𝗔",
+        "latest_video_at": "2026-11-10T03:34:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCthYpKoujTMmDX75fGr5o8A",
       "external_id": "UCthYpKoujTMmDX75fGr5o8A",

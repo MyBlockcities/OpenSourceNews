@@ -2,19 +2,90 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-11-09T20:51:35Z",
-  "new_this_run": 3,
-  "total_influencers": 421,
+  "updated_at": "2026-11-10T17:58:24Z",
+  "new_this_run": 2,
+  "total_influencers": 423,
   "run_summary": {
-    "run_started_at": "2026-11-09T20:51:29Z",
+    "run_started_at": "2026-11-10T17:58:18Z",
     "candidate_count": 36,
-    "existing_count": 418,
-    "selected_new_count": 3,
+    "existing_count": 421,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC1Ow_eAC9wl-5R2RsQhROFw",
+      "external_id": "UC1Ow_eAC9wl-5R2RsQhROFw",
+      "name": "ETBP with Britt Gillette",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UC1Ow_eAC9wl-5R2RsQhROFw",
+      "discovered_on": "2026-11-10",
+      "score": 69.31,
+      "metrics": {
+        "subscribers": 38500,
+        "total_views": 7961364,
+        "video_count": 722,
+        "avg_views_per_video": 11026.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "property tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "property tokenization",
+            "video_id": "ASUqsJWoXR0",
+            "title": "The Plan to Make Sure You Own Nothing (Is This the Revelation 13 System?) | with Patrick Wood",
+            "description": "Get my free ebook \"7 Signs of the End Times\" at Substack: https://brittgillette.substack.com/p/free-download-7-signs-of-the-end-3f7 ...",
+            "published_at": "2026-11-09T18:00:21Z",
+            "url": "https://www.youtube.com/watch?v=ASUqsJWoXR0"
+          }
+        ],
+        "channel_description": "This channel is dedicated to examining current events as they relate to end times bible prophecy. For over 20 years, I've written about bible prophecy. My books, articles, videos, and Substack newsletter present a biblical worldview to help others understand what’s happening in the world. In doing so, the hope is people will come to recognize Jesus of Nazareth is the Messiah (Acts 5:42) and discover a life filled with hope, peace, and encouragement. As the Bible says, “For the essence of prophecy is to give a clear witness for Jesus.” Revelation 19:10 (NLT)\n",
+        "latest_video_at": "2026-11-09T18:00:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:88506f676a5a09cd6d00",
+      "external_id": "88506f676a5a09cd6d00",
+      "name": "Alessandro Hatami",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/opinion/2026/11/10/will-stablecoins-survive-once-the-banks-catch-up",
+      "discovered_on": "2026-11-10",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Will stablecoins survive once the banks catch up?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCo2fpfm-8MNpAXzvTjOLfxw",
       "external_id": "UCo2fpfm-8MNpAXzvTjOLfxw",
