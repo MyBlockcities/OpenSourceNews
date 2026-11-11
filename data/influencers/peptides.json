@@ -2,19 +2,66 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-10T17:58:35Z",
-  "new_this_run": 6,
-  "total_influencers": 604,
+  "updated_at": "2026-11-11T17:57:11Z",
+  "new_this_run": 1,
+  "total_influencers": 605,
   "run_summary": {
-    "run_started_at": "2026-11-10T17:58:18Z",
-    "candidate_count": 13,
-    "existing_count": 598,
-    "selected_new_count": 6,
+    "run_started_at": "2026-11-11T17:56:54Z",
+    "candidate_count": 11,
+    "existing_count": 604,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCIZ1sIJWnTnlCmKdwJHHDOA",
+      "external_id": "UCIZ1sIJWnTnlCmKdwJHHDOA",
+      "name": "Jac",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCIZ1sIJWnTnlCmKdwJHHDOA",
+      "discovered_on": "2026-11-11",
+      "score": 67.98,
+      "metrics": {
+        "subscribers": 5810,
+        "total_views": 10192223,
+        "video_count": 1211,
+        "avg_views_per_video": 8416.37,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/channel/UCIZ1sIJWnTnlCmKdwJHHDOA"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "iJ8IbkveVms",
+            "title": "before you spend thousands on glp-1s or peptides…",
+            "description": "before you jump on the glp-1 or peptide train… HEAR ME OUT !!! am i saying 4 weeks can magically make your arms perfectly ...",
+            "published_at": "2026-11-11T16:14:13Z",
+            "url": "https://www.youtube.com/watch?v=iJ8IbkveVms"
+          }
+        ],
+        "channel_description": "hiiii !!!\n\nim jac :) \n\nthis is the link for my channel : https://www.youtube.com/channel/UCIZ1sIJWnTnlCmKdwJHHDOA\n\ni post videos taking you through my life, doing some fun challenges, and talking about things i love. i have a strong passion for baking and making videos and i love sharing my life with you all on youtube. \n\nplease subscribe if you haven't already and i hope you enjoy my videos !!! ♡♡♡\n\nhave fun watching and feel free to binge them all if youre bored ;) \n\ninstagram: @jac\n",
+        "latest_video_at": "2026-11-11T16:14:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCy80tabgQryMyTUgO3i-7Jw",
       "external_id": "UCy80tabgQryMyTUgO3i-7Jw",
