@@ -2,19 +2,621 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-11T17:57:03Z",
-  "new_this_run": 6,
-  "total_influencers": 1145,
+  "updated_at": "2026-11-12T18:25:09Z",
+  "new_this_run": 14,
+  "total_influencers": 1159,
   "run_summary": {
-    "run_started_at": "2026-11-11T17:56:54Z",
-    "candidate_count": 19,
-    "existing_count": 1139,
-    "selected_new_count": 6,
+    "run_started_at": "2026-11-12T18:25:01Z",
+    "candidate_count": 26,
+    "existing_count": 1145,
+    "selected_new_count": 14,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCG3VJ6iz9RbCfzjoQVIWwTg",
+      "external_id": "UCG3VJ6iz9RbCfzjoQVIWwTg",
+      "name": "Schenkei",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCG3VJ6iz9RbCfzjoQVIWwTg",
+      "discovered_on": "2026-11-12",
+      "score": 73.07,
+      "metrics": {
+        "subscribers": 80200,
+        "total_views": 48597176,
+        "video_count": 1377,
+        "avg_views_per_video": 35292.07,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "XY8Fym3T18A",
+            "title": "Take-Two schweigt: GTA 6 ist in Japan über 1 GB kleiner – und Australien fehlt ein ganzes  #Shorts",
+            "description": "Take-Two schweigt: GTA 6 ist in Japan über 1 GB kleiner – und Australien fehlt ein ganzes Datenpaket. Rockstar-Akte #8: ...",
+            "published_at": "2026-11-11T16:50:24Z",
+            "url": "https://www.youtube.com/watch?v=XY8Fym3T18A"
+          }
+        ],
+        "channel_description": "HIGGS-Z0VIV\nHey! 😄 Ich bin Schenkei und ich liebe es, super coole Videos zu machen, die voll im Trend liegen! 🎥 Auf meinem Kanal findest du alles von spannenden Vlogs über aufregende Challenges bis hin zu exklusiven Behind-the-Scenes-Videos! 🎞️💫 Ich gebe immer mein Bestes, um neue und innovative Inhalte zu kreieren, damit du dich garantiert nie langweilst. 💥 Schau doch regelmäßig vorbei und genieße meine Videos! Viel Spaß! 🎉😊\n\nBusiness Anfragen & geschäftliches 📧: kontakt@schenkei.com\n\n\n►Impressum:\n\nSchenkei\nc/o Dominik Schenkel\n\nAdresse nur auf Anfrage\n\nE-Mail: schenkei@icloud.com\n\nWebsite: https://www.schenkei.com\n",
+        "latest_video_at": "2026-11-11T16:50:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1y1GtNgGiAUBfQz87ltjag",
+      "external_id": "UC1y1GtNgGiAUBfQz87ltjag",
+      "name": "exxpressTV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC1y1GtNgGiAUBfQz87ltjag",
+      "discovered_on": "2026-11-12",
+      "score": 70.74,
+      "metrics": {
+        "subscribers": 71900,
+        "total_views": 51530624,
+        "video_count": 5809,
+        "avg_views_per_video": 8870.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "wpVNy5mGDz8",
+            "title": "Unser Ziel: 1.000 Selberdenker bis Silvester. Sei dabei!",
+            "description": "15,30 Euro jeden Monat, ob Sie wollen oder nicht: So viel zahlt jeder Haushalt in Österreich für den ORF.",
+            "published_at": "2026-11-12T09:22:57Z",
+            "url": "https://www.youtube.com/watch?v=wpVNy5mGDz8"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-12T09:22:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCj1mTKc1TDUPXlBb2RGXvyA",
+      "external_id": "UCj1mTKc1TDUPXlBb2RGXvyA",
+      "name": "Max canale OFFICIAL!",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCj1mTKc1TDUPXlBb2RGXvyA",
+      "discovered_on": "2026-11-12",
+      "score": 66.13,
+      "metrics": {
+        "subscribers": 10900,
+        "total_views": 15854930,
+        "video_count": 1064,
+        "avg_views_per_video": 14901.25,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "za5a3g7Mzpw",
+            "title": "IL PROBLEMA DI META SUI CONTENUTI POTICI  IL BAVAGLIO ALGORITMICO",
+            "description": "IL PROBLEMA DI META SUI CONTENUTI POTICI- IL BAVAGLIO ALGORITMICO ​ Crolla l'illusione della neutralità delle ...",
+            "published_at": "2026-11-11T22:01:11Z",
+            "url": "https://www.youtube.com/watch?v=za5a3g7Mzpw"
+          }
+        ],
+        "channel_description": "Benvenuti nel territorio di MAX. \nQui non si scherza. Se cerchi contenuti banali, sei nel posto sbagliato. Su Max Canale Official trovi solo adrenalina pura, sfide estreme e intrattenimento senza filtri. Entra, iscriviti e preparati a tutto. Il leone è sceso in campo: o sei con noi, o sei fuori.\n\n",
+        "latest_video_at": "2026-11-11T22:01:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCENlH__8xg7nYHxKSzLZpcQ",
+      "external_id": "UCENlH__8xg7nYHxKSzLZpcQ",
+      "name": "Poolking Pool & Water Treatment",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCENlH__8xg7nYHxKSzLZpcQ",
+      "discovered_on": "2026-11-12",
+      "score": 63.73,
+      "metrics": {
+        "subscribers": 4280,
+        "total_views": 4245308,
+        "video_count": 232,
+        "avg_views_per_video": 18298.74,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "4hnUKO5HQ6Y",
+            "title": "Alternative solutions for DMF filters #PoolKing #FiltrationSystem",
+            "description": "Considering the application of Dual Media Filters (DMF) in large-scale pool filtration projects? You may encounter certain ...",
+            "published_at": "2026-11-12T12:00:24Z",
+            "url": "https://www.youtube.com/watch?v=4hnUKO5HQ6Y"
+          }
+        ],
+        "channel_description": "POOLKING is one of the largest professional manufacturer of water filtration equipment in China.\nFor over 15 years, we have been manufacturing advanced technology filtration equipment worldwide to help clients enjoy the fun of swimming pool.\nPoolking products are widely used in more than 70 countries around the world, forming powerful marketing network and service system in the world. With quality at the heart of everything we do, we offer specialized products to swimming pools, spas, aquatic centres, water parks, aquaculture, public aquariums, water features and water treatment projects.\n",
+        "latest_video_at": "2026-11-12T12:00:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJv3AmaeWRLLbmsBRkN0ucw",
+      "external_id": "UCJv3AmaeWRLLbmsBRkN0ucw",
+      "name": "Dina Sayegh Doll",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJv3AmaeWRLLbmsBRkN0ucw",
+      "discovered_on": "2026-11-12",
+      "score": 61.65,
+      "metrics": {
+        "subscribers": 7870,
+        "total_views": 2403464,
+        "video_count": 805,
+        "avg_views_per_video": 2985.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "nKV3tFDJfow",
+            "title": "White House Counsel posted a letter threatening House Democrats with criminal prosecution and citing",
+            "description": "White House Counsel posted a letter threatening House Democrats with criminal prosecution and citing the MeidasTouch ...",
+            "published_at": "2026-11-11T23:15:17Z",
+            "url": "https://www.youtube.com/watch?v=nKV3tFDJfow"
+          }
+        ],
+        "channel_description": "Welcome to Dina's Docket! I'm a legal analyst, attorney, community leader, and mom. I explain the law because the law belongs to us all.",
+        "latest_video_at": "2026-11-11T23:15:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCawR95yAi26imqY6dPHi6Ug",
+      "external_id": "UCawR95yAi26imqY6dPHi6Ug",
+      "name": "Hebrew Nazarite",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCawR95yAi26imqY6dPHi6Ug",
+      "discovered_on": "2026-11-12",
+      "score": 61.62,
+      "metrics": {
+        "subscribers": 10000,
+        "total_views": 3700363,
+        "video_count": 1107,
+        "avg_views_per_video": 3342.69,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "cO89o1CuI4A",
+            "title": "News? Narrative? Propaganda?",
+            "description": "The two main filters that shape information before it hits my eyes and ears. Talking faith, spirituality, religion, and self-development ...",
+            "published_at": "2026-11-11T07:15:01Z",
+            "url": "https://www.youtube.com/watch?v=cO89o1CuI4A"
+          }
+        ],
+        "channel_description": "Talking faith, spirituality, religion, and self-development through the eyes of a modern-day Hebrew Nazarite Am Ha'aretz.\n\nHebrew lore from days of yore  😊  LIVE from Jerusalem!\n",
+        "latest_video_at": "2026-11-11T07:15:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCO3-v-qnpAHgDd2Wv0HbiQQ",
+      "external_id": "UCO3-v-qnpAHgDd2Wv0HbiQQ",
+      "name": "Living OutLoud",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCO3-v-qnpAHgDd2Wv0HbiQQ",
+      "discovered_on": "2026-11-12",
+      "score": 61.5,
+      "metrics": {
+        "subscribers": 23700,
+        "total_views": 199519,
+        "video_count": 336,
+        "avg_views_per_video": 593.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "SKyxxwfh6wY",
+            "title": "A Safer Social Interaction Alternative for Loved Ones in Cognitive Decline",
+            "description": "After repeated celebrity impersonation scams, one family began creating a safer social media experience for their mom with ...",
+            "published_at": "2026-11-11T22:47:52Z",
+            "url": "https://www.youtube.com/watch?v=SKyxxwfh6wY"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-11T22:47:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCcdunUTgxHpaqRGOhj1ND8g",
+      "external_id": "UCcdunUTgxHpaqRGOhj1ND8g",
+      "name": "Back 2 the Basics PMG",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCcdunUTgxHpaqRGOhj1ND8g",
+      "discovered_on": "2026-11-12",
+      "score": 60.51,
+      "metrics": {
+        "subscribers": 8800,
+        "total_views": 1675824,
+        "video_count": 1111,
+        "avg_views_per_video": 1508.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "Rd1wxJ1tESo",
+            "title": "Why Independent Journalism Matters for Accountability #civics #media #politics",
+            "description": "Who's investigating government decisions when the cameras stop rolling? Independent journalism can examine public spending, ...",
+            "published_at": "2026-11-12T17:00:27Z",
+            "url": "https://www.youtube.com/watch?v=Rd1wxJ1tESo"
+          }
+        ],
+        "channel_description": "Back 2 the Basics Production Management Group (B2B PMG) is a comprehensive film production organization serving independent screenwriters, producers, directors, and actors/actresses.\n\nB2B PMG is embracing the concept of effective altruism to help bring fresh, untold stories to life and provide valuable opportunities for novice and underrepresented creatives. Together, we fuel their passion and creativity. Join us in empowering tomorrow’s storytellers today!\"\n\nNo single individual can tackle social entrepreneurship alone. However, that is not all. A wide array of entities in Virginia, Maryland, St. Louis, Bowling Green, Memphis, and Houston have also joined forces. TUNE IN FOR TRANSPARENCY AND TRUTH!!!!\n\nExplore the variety of topics, discussions, and information provided.",
+        "latest_video_at": "2026-11-12T17:00:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCIuOaGSFUFwUTzq5Jo7tyBQ",
+      "external_id": "UCIuOaGSFUFwUTzq5Jo7tyBQ",
+      "name": "ALEXANDRIA on Substack",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCIuOaGSFUFwUTzq5Jo7tyBQ",
+      "discovered_on": "2026-11-12",
+      "score": 60.3,
+      "metrics": {
+        "subscribers": 6070,
+        "total_views": 1002206,
+        "video_count": 274,
+        "avg_views_per_video": 3657.69,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "1dMDH1TUJBU",
+            "title": "The Problem With Russell Brand",
+            "description": "This is a preview. Watch the full video at https://radixjournal.substack.com/p/slow-horses.",
+            "published_at": "2026-11-11T16:09:28Z",
+            "url": "https://www.youtube.com/watch?v=1dMDH1TUJBU"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-11T16:09:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCi6cW_BxpBqWsZ_n1uYPo5g",
+      "external_id": "UCi6cW_BxpBqWsZ_n1uYPo5g",
+      "name": "Post-Courier Online",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCi6cW_BxpBqWsZ_n1uYPo5g",
+      "discovered_on": "2026-11-12",
+      "score": 60.24,
+      "metrics": {
+        "subscribers": 9340,
+        "total_views": 1147194,
+        "video_count": 934,
+        "avg_views_per_video": 1228.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "KB9eeinmFHg",
+            "title": "Censorship Office bans “Mangi Wosera” song",
+            "description": "Chief Censor, Jim Abani said the song is now banned from being broadcasted, shared on digital platforms and played in venues ...",
+            "published_at": "2026-11-12T05:13:41Z",
+            "url": "https://www.youtube.com/watch?v=KB9eeinmFHg"
+          }
+        ],
+        "channel_description": "This is the official channel of Post-Courier Online. Post-Courier Online is the Digital Department of the Post-Courier Newspaper company. Our channel has no niche content, as it is for news and covers a wide range of topics.",
+        "latest_video_at": "2026-11-12T05:13:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC4iI5FsB32NvFB76-UqgxjQ",
+      "external_id": "UC4iI5FsB32NvFB76-UqgxjQ",
+      "name": "Typical Skeptic Podcast 2 - We Go Deep, You Decide",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC4iI5FsB32NvFB76-UqgxjQ",
+      "discovered_on": "2026-11-12",
+      "score": 59.41,
+      "metrics": {
+        "subscribers": 9470,
+        "total_views": 904289,
+        "video_count": 1100,
+        "avg_views_per_video": 822.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "Ri7trAtZiko",
+            "title": "COG IN 90 DAYS? PREPARE? | Kerry Cassidy, Project Camelot | Typical Skeptic #2893",
+            "description": "COG IN 90 DAYS? PREPARE? | Kerry Cassidy, Project Camelot | Typical Skeptic #2893 LIVE Wednesday, November 11, 2026 ...",
+            "published_at": "2026-11-12T00:42:41Z",
+            "url": "https://www.youtube.com/watch?v=Ri7trAtZiko"
+          }
+        ],
+        "channel_description": "The Official Reboot of the Typical Skeptic Podcast - 2.0 - We Go Deep, You Decide\nCovering the best Fringe Topics that  you cant get enough of!\nRarely ever any politics. Just Paranormal, Weird, Strange, and\nalways Open Minded, but Typically Skeptic\n\nDisclaimer : The Typical Skeptic Podcast is not giving medical, financial or legal advice. Always consult a professional. \nThis show is for spiritual exploration, conspiracy theory, education and entertainment and at with all guests on this show, audience members are asked to use discerment and we have the logo \"we go deep, you decide\" for a reason. This Podcast is a space for the open thought and free thinkers\n\nSupport the show:\npaypal.me/typicalskepticmedia - paypal\ncashapp $kalil1121 Venmo @Robert-Kalil\nBuymeacoffee.com/typicalskeptic - buy me a coffee\nZelle : Typcialskeptic1@gmail.com \n\nif you want to be a guest on the show:\ntypicalskeptic1@gmail.com\n\n\n\n\n",
+        "latest_video_at": "2026-11-12T00:42:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCj8D6iM0mO27Wiz71ddNzHQ",
+      "external_id": "UCj8D6iM0mO27Wiz71ddNzHQ",
+      "name": "Jon Gaunt TV",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCj8D6iM0mO27Wiz71ddNzHQ",
+      "discovered_on": "2026-11-12",
+      "score": 59.32,
+      "metrics": {
+        "subscribers": 8800,
+        "total_views": 3857053,
+        "video_count": 4417,
+        "avg_views_per_video": 873.23,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "pOGvFcb7264",
+            "title": "Comedy needs an edge: dangers of self-censorship",
+            "description": "Jon Gaunt Live from Bangkok! Plus BBC are hypocrites over Brand & Walliams! #JonGaunt #JonGauntTV #Live #Bangkok ...",
+            "published_at": "2026-11-12T09:54:45Z",
+            "url": "https://www.youtube.com/watch?v=pOGvFcb7264"
+          }
+        ],
+        "channel_description": "JON GAUNT TV — BOLD OPINIONS, BIG ADVENTURES & FREE SPEECH!\n\nI'm Jon Gaunt, Sony Gold Award-winning broadcaster and former national newspaper columnist. For over 30 years I've challenged political spin.\n\nNow I'm 65, SKINT and FED UP WITH BRITAIN!\n\n65, SKINT & FREE — BLOGGING FOR BRITAIN!\n\nI've booked a one-way ticket to Thailand, generously paid for by a viewer! Armed with an iPhone, Mac and microphone, I'm heading off on a mad adventure around the world.\n\nNo luxury hotels. No influencer nonsense. Just honest travel, real people and the highs and lows of starting again at 65.\n\nJON GAUNT LIVE ISN'T GOING ANYWHERE!\nI'll still deliver hard-hitting political opinion and live debates from wherever I am.\n\nHELP KEEP GAUNTY ON THE ROAD!\nEnjoy my videos? Hit Super Thanks, join my YouTube membership or buy me a coffee using the link below. Even a couple of quid helps fund the next bus, bed or meal!\nCan't contribute? Subscribe, watch and share — that helps too!\n\nHAVE YOUTUBE, CAN TRAVEL!\n\n\n",
+        "latest_video_at": "2026-11-12T09:54:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWcphgYhkxE7WvMMl82WRXw",
+      "external_id": "UCWcphgYhkxE7WvMMl82WRXw",
+      "name": "Edmund DeMarche",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWcphgYhkxE7WvMMl82WRXw",
+      "discovered_on": "2026-11-12",
+      "score": 58.3,
+      "metrics": {
+        "subscribers": 4150,
+        "total_views": 914070,
+        "video_count": 368,
+        "avg_views_per_video": 2483.89,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "u6avVWsPsVM",
+            "title": "Prof. Marandi Exposes the Media Propaganda Machine Against Iran",
+            "description": "Professor Mohammad Marandi of the University of Tehran breaks down the Western media machine's systematic demonization of ...",
+            "published_at": "2026-11-11T07:55:14Z",
+            "url": "https://www.youtube.com/watch?v=u6avVWsPsVM"
+          }
+        ],
+        "channel_description": "Edmund DeMarche is the executive editor of The Trends Journal. He interviews news makers and analysts who offer unqiue insights on world events.",
+        "latest_video_at": "2026-11-11T07:55:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCX8TmrDntKJU8xs4tq0Y5TQ",
+      "external_id": "UCX8TmrDntKJU8xs4tq0Y5TQ",
+      "name": "द इंडिया वायर - THE INDIA WIRE ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCX8TmrDntKJU8xs4tq0Y5TQ",
+      "discovered_on": "2026-11-12",
+      "score": 56.82,
+      "metrics": {
+        "subscribers": 8000,
+        "total_views": 77818,
+        "video_count": 156,
+        "avg_views_per_video": 498.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "uc1fy_P3u84",
+            "title": "New Era of Journalism: Earn Trust Over Views | We Are Journalists, Not Influencers #hindinews",
+            "description": "New Era of Journalism: Earn Trust Over Views | We Are Journalists, Not Influencers Everyone has a camera and an opinion—but ...",
+            "published_at": "2026-11-11T15:02:01Z",
+            "url": "https://www.youtube.com/watch?v=uc1fy_P3u84"
+          }
+        ],
+        "channel_description": "\n",
+        "latest_video_at": "2026-11-11T15:02:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCTrn12Mpvt5qVTBySOY4dEQ",
       "external_id": "UCTrn12Mpvt5qVTBySOY4dEQ",
