@@ -2,19 +2,246 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-12T18:25:18Z",
-  "new_this_run": 6,
-  "total_influencers": 611,
+  "updated_at": "2026-11-13T17:53:21Z",
+  "new_this_run": 5,
+  "total_influencers": 616,
   "run_summary": {
-    "run_started_at": "2026-11-12T18:25:01Z",
-    "candidate_count": 13,
-    "existing_count": 605,
-    "selected_new_count": 6,
+    "run_started_at": "2026-11-13T17:52:59Z",
+    "candidate_count": 11,
+    "existing_count": 611,
+    "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCCKuf32nli9x4UC1hG4SPzA",
+      "external_id": "UCCKuf32nli9x4UC1hG4SPzA",
+      "name": "Albin Perigault",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCCKuf32nli9x4UC1hG4SPzA",
+      "discovered_on": "2026-11-13",
+      "score": 65.76,
+      "metrics": {
+        "subscribers": 25700,
+        "total_views": 2577562,
+        "video_count": 682,
+        "avg_views_per_video": 3779.42,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "AhGJRhT2JgQ",
+            "title": "Les peptides sont incroyables !",
+            "description": "Mon guide gratuit sur les peptides → https://albin.cc/peptides --- Mon accompagnement 1-1 pour retrouver les performances de ...",
+            "published_at": "2026-11-13T11:45:12Z",
+            "url": "https://www.youtube.com/watch?v=AhGJRhT2JgQ"
+          }
+        ],
+        "channel_description": "🚀 Biohacking. Performances. Longévité.\nStratégies minimalistes et efficaces pour maximiser vos performances physiques et mentales. À vie.\n",
+        "latest_video_at": "2026-11-13T11:45:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCqO6Y2EtVjvJilzKNIF3E6w",
+      "external_id": "UCqO6Y2EtVjvJilzKNIF3E6w",
+      "name": "Healthy Male",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCqO6Y2EtVjvJilzKNIF3E6w",
+      "discovered_on": "2026-11-13",
+      "score": 65.23,
+      "metrics": {
+        "subscribers": 8410,
+        "total_views": 2754086,
+        "video_count": 194,
+        "avg_views_per_video": 14196.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "eYl1TxWluO0",
+            "title": "Gym Bro&#39;s Quick Fix? Pharmacist Adam Reveals the Truth About BPC-157 and Injury Recovery!",
+            "description": "Gym bro cuz wants a quick fix for his torn shoulder. Pharmacist Adam has some facts. BPC-157 is being promoted as a ...",
+            "published_at": "2026-11-13T04:10:26Z",
+            "url": "https://www.youtube.com/watch?v=eYl1TxWluO0"
+          }
+        ],
+        "channel_description": "Healthy Male is an Australian organisation creating clear, evidence-based content on sex, hormones, fertility and more — without the jargon or awkwardness.\n\nOn this channel you’ll find:\n•Straight answers to questions men are already asking\n• Short, practical videos you can actually use\n• Honest conversations about the stuff that usually gets skipped\n\nWe also make Dad Starts Now — a podcast about becoming a dad, covering fertility, pregnancy, loss and early fatherhood through real stories and expert advice.\n\nWhether you’re trying to figure something out or just want reliable information, this is a place to start.\n\nBacked by Australia’s leading health experts and supported by the Australian Government, everything we share is grounded in evidence and made for real life.\n",
+        "latest_video_at": "2026-11-13T04:10:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCMl8540BwF2D7BE4VhoeP6g",
+      "external_id": "UCMl8540BwF2D7BE4VhoeP6g",
+      "name": "LaraHealth",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCMl8540BwF2D7BE4VhoeP6g",
+      "discovered_on": "2026-11-13",
+      "score": 64.54,
+      "metrics": {
+        "subscribers": 3350,
+        "total_views": 1062079,
+        "video_count": 284,
+        "avg_views_per_video": 3739.71,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@LaraHealth"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "TKM7XJOu-o8",
+            "title": "Peptitler: Bilim Ne Diyor? #shorts",
+            "description": "Kanalımıza Abone Olmak İçin ⬇️ https://www.youtube.com/@LaraHealth?sub_confirmation=1 LaraHealth'i Sosyal Medyada ...",
+            "published_at": "2026-11-13T17:29:35Z",
+            "url": "https://www.youtube.com/watch?v=TKM7XJOu-o8"
+          }
+        ],
+        "channel_description": "🌍www.larahealth.com\n☎️ 0(216) 912 0702\n📞0(216) 912 0703\n💬0(532) 174 0136\n💌 info@larahealth.com\nBağdat Caddesi 225 Palmiye İş Merkezi 3.Kat, Istanbul, Turkey 34730\n\nLaraHealth; Prof. Dr. Arda Lembet'in 35 yıldan fazla kadın sağlığına eşlik edişiyle biyolojik, genetik ve çevresel faktörlerin etkileşimine dair multidisipliner bir bilimsel perspektif geliştirdi. Çocuklardan yetişkinlere, kadınlardan erkeklere kadar her bireyin ruh, zihin ve beden dengesine yönelik bütüncül bilimsel yaklaşımları aktarıyor.\n\nSağlıklı ve uzun bir yaşam yolculuğunda her adımda sizlere eşlik etmek, bu süreçte güvenilir bir yol arkadaşı olmak temel amacımız.\n\nReklam ve iş birlikleri için e-mail;\nAjans: Your Medya\nWeb: www.yourmedya.com\nmail: info@yourmedya.com\n",
+        "latest_video_at": "2026-11-13T17:29:35Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCyiBqNjeZ1CwpLsj1ms-UQg",
+      "external_id": "UCyiBqNjeZ1CwpLsj1ms-UQg",
+      "name": "Sangre, Sudor y Pipetas",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCyiBqNjeZ1CwpLsj1ms-UQg",
+      "discovered_on": "2026-11-13",
+      "score": 60.29,
+      "metrics": {
+        "subscribers": 8550,
+        "total_views": 1041800,
+        "video_count": 733,
+        "avg_views_per_video": 1421.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "d-rrZpVpmjs",
+            "title": "¡PELIGRO! Están vendiendo GLP-1 y péptidos ILEGALES sin registro sanitario. #glp1 #alertasanitaria",
+            "description": "Analizamos la alerta del Instituto Nacional de Higiene Rafael Rangel sobre los análogos de GLP-1 piratas y cómo identificar ...",
+            "published_at": "2026-11-13T13:00:08Z",
+            "url": "https://www.youtube.com/watch?v=d-rrZpVpmjs"
+          }
+        ],
+        "channel_description": "¡Bienvenidos a la comunidad de Bioanalistas más grande y apasionada de Latam! 🌎 Si alguna vez has sentido que el laboratorio es tu segunda casa (con todo su caos, sus guardias infinitas y sus retos técnicos), estás en el lugar correcto.\nSomos Gaby y Thaía, y aquí demostramos que el Bioanálisis es mucho más que \"pipi y bubu\". Es política gremial, tecnología de punta, ética profesional y, sobre todo, la historia real de quienes sudamos la pipeta día a día.\n\n🧪 ¿Qué encontrarás aquí cada semana?\nEntrevistas de Altura: Hablamos con los duros de la medicina y el laboratorio \nCiencia y Práctica: Actualización, manuales de procedimiento y avances tecnológicos que impactan tu carrera.\nCrecimiento Real: Compartimos nuestra evolución, desde los errores técnicos hasta el éxito de nuestra comunidad.\n🚀 Únete a nuestra familia elegida\n Aquí hay un lugar para ti.\n#Bioanálisis #LaboratorioClínico #Medicina #PodcastDeSalud #Ciencia #SaludVenezuela #Bioanalistas #Bioquímica #RAGDA\n",
+        "latest_video_at": "2026-11-13T13:00:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UClj7EzdQy1wn-pzOAchIQBQ",
+      "external_id": "UClj7EzdQy1wn-pzOAchIQBQ",
+      "name": "Longevity Unfiltered",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UClj7EzdQy1wn-pzOAchIQBQ",
+      "discovered_on": "2026-11-13",
+      "score": 59.7,
+      "metrics": {
+        "subscribers": 5860,
+        "total_views": 851205,
+        "video_count": 463,
+        "avg_views_per_video": 1838.46,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "XS2CKhGYc84",
+            "title": "BPC for Gut Health",
+            "description": "BPC-157 is known for joint pain and injury recovery, and it's fantastic for that. But it has great applications for gut health too.",
+            "published_at": "2026-11-13T14:10:10Z",
+            "url": "https://www.youtube.com/watch?v=XS2CKhGYc84"
+          }
+        ],
+        "channel_description": "Welcome to Longevity Unfiltered, the weekly show where Zach Dancel and Stephanie Misanik of Nava Health take the filter off longevity medicine.\n\nThe premise is simple. Normal and optimal are not the same number, and a standard appointment usually only has time to check one of them. This show checks the other.\n\nEvery week, one topic that is being ignored, oversimplified, or flat out sold to you wrong, tested against the research and against what 12 years and 65,000 patients have actually shown works. Nava itself started because personalized care once gave Zach's own mother more time, and that is the bar every episode has to clear.\n\nHosted by: Zach Dancel, COO of Nava Health Stephanie Misanik, Clinical Director at Nava Health\n",
+        "latest_video_at": "2026-11-13T14:10:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCMaFSJtYbK8LQ7AyV31TrgQ",
       "external_id": "UCMaFSJtYbK8LQ7AyV31TrgQ",
