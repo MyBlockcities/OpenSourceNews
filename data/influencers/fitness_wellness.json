@@ -2,19 +2,410 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-11-13T17:53:28Z",
+  "updated_at": "2026-11-14T16:39:20Z",
   "new_this_run": 11,
-  "total_influencers": 1898,
+  "total_influencers": 1909,
   "run_summary": {
-    "run_started_at": "2026-11-13T17:52:59Z",
-    "candidate_count": 46,
-    "existing_count": 1887,
+    "run_started_at": "2026-11-14T16:38:59Z",
+    "candidate_count": 53,
+    "existing_count": 1898,
     "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:6da5dcedbfe006bd06cb",
+      "external_id": "6da5dcedbfe006bd06cb",
+      "name": "Eric Topol",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://erictopol.substack.com/p/ethan-mollick-on-ai-where-are-we",
+      "discovered_on": "2026-11-14",
+      "score": 70.0,
+      "metrics": {
+        "posts_seen_in_fetch": 19,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "erictopol.substack.com",
+        "feed_urls": [
+          "https://erictopol.substack.com/feed"
+        ],
+        "sample_titles": [
+          "Ethan Mollick on AI: Where Are We Now and Where Are We Headed",
+          "Vadim Gladyshev and the Science of Aging",
+          "Connecting Our Immune System and Healthspan",
+          "Michael Lewis: The NIH “Murder Mystery,” DOGE, and Our Government Immune System",
+          "Loss of Cell Identity Drives Human Aging"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "youtube:UChh62KceiaUqlk8FhWy1Qcg",
+      "external_id": "UChh62KceiaUqlk8FhWy1Qcg",
+      "name": "HEALTHY WEALTHY Herbalife ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UChh62KceiaUqlk8FhWy1Qcg",
+      "discovered_on": "2026-11-14",
+      "score": 68.69,
+      "metrics": {
+        "subscribers": 63700,
+        "total_views": 21006614,
+        "video_count": 5135,
+        "avg_views_per_video": 4090.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "NerUUG00IC0",
+            "title": "Functional Training",
+            "description": "",
+            "published_at": "2026-11-14T12:09:23Z",
+            "url": "https://www.youtube.com/watch?v=NerUUG00IC0"
+          }
+        ],
+        "channel_description": "Namaste and Welcome to Healthy Wealthy Fitness! 🌿\n\nI’m Saurabh Singh, a Bachelor in Physical Education (B.P.E.) graduate, certified nutritionist, and fitness expert with a passion for transforming lives.\n\n🎥 What You’ll Find on This Channel:\n🌱 Plant Supplement Reviews: Honest insights on natural supplements for your wellness.\n⭐ Celebrity Diet & Fitness Secrets: Discover how your favorite stars stay in top shape.\n💪 Diet & Fitness Tips: Expert advice to supercharge your fitness journey.\n📚 About Me:\n✅ Certified Nutritionist & Supplement Consultant 🥗\n✅ Certified Yoga 🧘 and Fitness Coach 🏋️\n✅ 800+ success stories in weight loss, hair fall recovery, joint pain relief, diabetes management, and PCOD/PCOS solutions.\n\n📞 Need Help?\nFor personalized consultations (paid, 100% guaranteed solutions), call me at 8830319290.\n\n📩 Collaborations & Inquiries:\nEmail me at jk8329347@gmail.com.\n\n🌐 Follow Me:\n📸 Instagram: @lifestylehealthywealthy\n👥 Facebook: @HealthyWealthy\n📢 Telegram:  @healthywealthy498\n",
+        "latest_video_at": "2026-11-14T12:09:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC581j9aySLME493062GYQcw",
+      "external_id": "UC581j9aySLME493062GYQcw",
+      "name": "Viveta Lobo MD",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC581j9aySLME493062GYQcw",
+      "discovered_on": "2026-11-14",
+      "score": 67.98,
+      "metrics": {
+        "subscribers": 23000,
+        "total_views": 4590452,
+        "video_count": 374,
+        "avg_views_per_video": 12273.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "774LJc_BEZo",
+            "title": "The best longevity protocol",
+            "description": "The best longevity protocol #strengthspan #entrepreneur #preventivemedicine.",
+            "published_at": "2026-11-13T20:02:55Z",
+            "url": "https://www.youtube.com/watch?v=774LJc_BEZo"
+          }
+        ],
+        "channel_description": "Stanford Clinical Professor and EM Physician | Keeping you out of my ER | Educational content only\n",
+        "latest_video_at": "2026-11-13T20:02:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCYcTl1XtvHxgocd9Gw9l64Q",
+      "external_id": "UCYcTl1XtvHxgocd9Gw9l64Q",
+      "name": "Marco Pt",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCYcTl1XtvHxgocd9Gw9l64Q",
+      "discovered_on": "2026-11-14",
+      "score": 67.8,
+      "metrics": {
+        "subscribers": 28700,
+        "total_views": 10372913,
+        "video_count": 1250,
+        "avg_views_per_video": 8298.33,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "ZWoTgQfDezY",
+            "title": "Fitness funzionale e armadi ",
+            "description": "",
+            "published_at": "2026-11-13T19:32:23Z",
+            "url": "https://www.youtube.com/watch?v=ZWoTgQfDezY"
+          }
+        ],
+        "channel_description": "Mi occupo di allenamento con i pesi, praticante e insegnante. Per consulenze scrivetemi una mail di presentazione a: marcopt110@gmail.com \n\nSono un ex agonista di pesistica (weightlifting come si direbbe oggi), laureato in scienze motorie nel 2012, facoltà di Verona, tesi di Laurea sulla Dieta Zona di Barry Sears.\n \nMi sono specializzato in programmazioni per la forza, lo sviluppo muscolare e le capacità coordinative. \nHo anche praticato arti marziali per un decennio, dedicandomi  alla boxe thailandese ed al brazilian jiu jitsu.\nPer scelta personale sono \"natural\" o \"drug free\". \nSono anche vegan, ma di quelli non aggressivi.\n\nPer un 20% di sconto su www.pronutrition.it usate il codice PROTEIN20\n\nhttps://bit.ly/LibroMarcoPT 👈🏻 per acquistare il mio libro usate pure questo link 🔗 \n\nPer un 10% sul catalogo www.power-gear.it usate il codice MARCOPT55\n",
+        "latest_video_at": "2026-11-13T19:32:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCSEdSkGnFI_3AayxqtJ45rQ",
+      "external_id": "UCSEdSkGnFI_3AayxqtJ45rQ",
+      "name": "Inner Dimension",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCSEdSkGnFI_3AayxqtJ45rQ",
+      "discovered_on": "2026-11-14",
+      "score": 63.78,
+      "metrics": {
+        "subscribers": 25400,
+        "total_views": 1626907,
+        "video_count": 1054,
+        "avg_views_per_video": 1543.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "khv54Hq2dhk",
+            "title": "Lift &amp; Switch  #mobility",
+            "description": "Join Brent for an invigorating flow to ignite your mind, body and soul. #balance #core #flexibility #functionalfitness Fitness ...",
+            "published_at": "2026-11-14T08:00:18Z",
+            "url": "https://www.youtube.com/watch?v=khv54Hq2dhk"
+          }
+        ],
+        "channel_description": "INNER DIMENSION YOGA\nhttps://www.innerdimensionyoga.com/\n\nBuild Strength. Find Clarity. Come Back to Yourself.\n\nInner Dimension Yoga is more than an online yoga platform—it's a complete practice for your body, mind, and spirit.\nWhether you're looking to reduce stress, build strength, improve flexibility, create healthy daily habits, or simply feel more like yourself again, Inner Dimension provides the guidance and support to help you get there.\n\nLed by world-class teachers Travis Eliot and Lauren Eckstrom, every practice is designed to help you feel stronger, calmer, more energized, and more connected—on and off the mat.\n\n✔ 1,000+ Yoga & Meditation Classes\n✔ Guided Programs for Strength, Stress Relief & Transformation\n✔ Personalized Practice Calendars\n✔ 100% Ad-Free Streaming\n✔ World-Class Teachers\n\nJoin thousands of members who use Inner Dimension to feel stronger, calmer, and more connected every day.\n\n✨ Start Your FREE 10-Day Trial:\nhttps://www.innerdimensionyoga.com/join/\n",
+        "latest_video_at": "2026-11-14T08:00:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCXeF7HoSGi1qSTN0JBdYVDg",
+      "external_id": "UCXeF7HoSGi1qSTN0JBdYVDg",
+      "name": "Camões TV",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCXeF7HoSGi1qSTN0JBdYVDg",
+      "discovered_on": "2026-11-14",
+      "score": 56.4,
+      "metrics": {
+        "subscribers": 6320,
+        "total_views": 1132252,
+        "video_count": 3134,
+        "avg_views_per_video": 361.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "76Wlj_xENx4",
+            "title": "The Truth About Salt &amp; Peptides #Wellness #Health",
+            "description": "Dive into the cutting-edge world of holistic health, fitness optimization, and longevity in this electrifying excerpt from Jonathan ...",
+            "published_at": "2026-11-13T18:17:08Z",
+            "url": "https://www.youtube.com/watch?v=76Wlj_xENx4"
+          }
+        ],
+        "channel_description": "A Camões TV nasceu da vontade de levar à nossa comunidade os melhores conteúdos audiovisuais, para a televisão e medias sociais.\n\n Foi criada com a preocupação de produzir informação de qualidade e mostrar-lhe ainda mais do que acontece no Canadá todos os dias, abrangendo todo o tipo de matérias.\n\nDesde o início de 2016 a equipa de profissionais da Camões TV tem visitado locais, marcado presença em grandes eventos e divulgado personalidades de referência.\n\nE porque a Camões TV está sempre a pensar em crescer, os nossos objetivos prendem-se com as grandes produções: desde conteúdo para televisão, vídeos comerciais, vídeos documentários, vídeos corporativos, vídeo clips videoclips, entre outros trabalhos. \n\n Produções em estúdios de alta qualidade, com a tecnologia mais moderna e o selo de profissionalismo da Camões TV.",
+        "latest_video_at": "2026-11-13T18:17:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:0ce32bf8628db22c3708",
+      "external_id": "0ce32bf8628db22c3708",
+      "name": "mclarke",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/5CrmJfRY7yMaAoumC/homeopathic-learning-diluting-poisoned-fine-tuning-data-can-1",
+      "discovered_on": "2026-11-14",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/_matt_clarke_"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Homeopathic Learning: Diluting Poisoned Fine-Tuning Data Can Strengthen Its Effect"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d0a5ebd0855d26f58255",
+      "external_id": "d0a5ebd0855d26f58255",
+      "name": "Matthew Korpman",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/FHYoQrDbk6apuHEPk/not-just-claude-mapping-spiritual-behavior-in-141-large",
+      "discovered_on": "2026-11-14",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/tomekkorbak"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Not Just Claude: Mapping \"Spiritual Behavior\" in 141 Large Language Models"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ec8733d3cacb5e6c3461",
+      "external_id": "ec8733d3cacb5e6c3461",
+      "name": "mikefreedman",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/proLpz7k8XFLT5yaw/mathematicians-let-s-surf-this-wave",
+      "discovered_on": "2026-11-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Mathematicians: Let’s Surf This Wave"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:cdff02464dc468077039",
+      "external_id": "cdff02464dc468077039",
+      "name": "HilaryTorn",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/jtcbBpmGztkHRpeBv/exploring-the-mechanisms-behind-opus-4-6-s-refusal-to-pay",
+      "discovered_on": "2026-11-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Exploring the Mechanisms Behind Opus 4.6’s Refusal to Pay Back Its Loan"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:575855f0ad78b535f88d",
+      "external_id": "575855f0ad78b535f88d",
+      "name": "Aswin Surya",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/erwxQSF2D6naAcoEz/probe-monitors-seem-to-perform-realistically-in-simulated-2",
+      "discovered_on": "2026-11-14",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Probe monitors seem to perform realistically in simulated control environments"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCYRz_Y7ra121-IP9bCLN7vA",
       "external_id": "UCYRz_Y7ra121-IP9bCLN7vA",

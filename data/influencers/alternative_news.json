@@ -2,19 +2,492 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-13T17:53:10Z",
+  "updated_at": "2026-11-14T16:39:08Z",
   "new_this_run": 11,
-  "total_influencers": 1170,
+  "total_influencers": 1181,
   "run_summary": {
-    "run_started_at": "2026-11-13T17:52:59Z",
-    "candidate_count": 24,
-    "existing_count": 1159,
+    "run_started_at": "2026-11-14T16:38:59Z",
+    "candidate_count": 25,
+    "existing_count": 1170,
     "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCcBMzzAxiLAWC9oNzdW3pnA",
+      "external_id": "UCcBMzzAxiLAWC9oNzdW3pnA",
+      "name": "Глубже Байкала",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCcBMzzAxiLAWC9oNzdW3pnA",
+      "discovered_on": "2026-11-14",
+      "score": 71.9,
+      "metrics": {
+        "subscribers": 24200,
+        "total_views": 38988308,
+        "video_count": 559,
+        "avg_views_per_video": 69746.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "uibJ22f2ROU",
+            "title": "Роскомнадзор спустил 2,27 млрд на ИИ для блокировок",
+            "description": "Роскомнадзор официально запустил систему фильтрации интернет-трафика с помощью искусственного интеллекта.",
+            "published_at": "2026-11-13T17:05:13Z",
+            "url": "https://www.youtube.com/watch?v=uibJ22f2ROU"
+          }
+        ],
+        "channel_description": "«Глубже Байкала» — это канал о настоящей жизни Бурятии, какой её не показывают другие. Мы говорим прямо, рассказываем без цензуры о том, о чём обычно молчат. Здесь — только реальные факты, острые темы и события, волнующие каждого.\n\nМы любим свой край и гордимся его народом. Мы — патриоты, для которых важно не замалчивать проблемы, а решать их, помогая простым людям.\n\n📌 Подпишись, чтобы видеть жизнь такой, какая она есть!\n\nКлючевые темы канала:\nНовости и события Бурятии\n\nСоциальная жизнь региона\n\nКультура, традиции и люди\n\nСправедливость и борьба с несправедливостью\n\nИнтервью с людьми, которых важно услышать\n\nБудь с нами — будь глубже Байкала!\n",
+        "latest_video_at": "2026-11-13T17:05:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCckO_mb46EyAVZuE1-E1ngw",
+      "external_id": "UCckO_mb46EyAVZuE1-E1ngw",
+      "name": "OK Podcast",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCckO_mb46EyAVZuE1-E1ngw",
+      "discovered_on": "2026-11-14",
+      "score": 71.07,
+      "metrics": {
+        "subscribers": 72800,
+        "total_views": 10837891,
+        "video_count": 1067,
+        "avg_views_per_video": 10157.35,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "86Xf-QfIy5U",
+            "title": "IL A INFILTRÉ L&#39;ÉTAT : Le Secret de Mike Borowski qui TERRORISE les Médias !",
+            "description": "Vous pensez tout savoir sur les médias alternatifs et la dissidence en France ? Découvrez le passé jalousement gardé de ...",
+            "published_at": "2026-11-14T10:00:18Z",
+            "url": "https://www.youtube.com/watch?v=86Xf-QfIy5U"
+          }
+        ],
+        "channel_description": "🎧 Bienvenue sur OK PODCAST !\nUne chaîne de podcasts pas comme les autres… ici, tous les sujets sont permis.\n\nChaque épisode est une parenthèse audio pour t’aider, t’inspirer, ou simplement te divertir.\nRéflexions sur le monde...\n\nQue tu sois en train de marcher, de cuisiner ou juste de prendre du temps pour toi, tu trouveras ici des voix, des idées et des émotions qui résonnent.\n\n🔔 Abonne-toi pour ne rien manquer, car chaque podcast est une découverte.\n",
+        "latest_video_at": "2026-11-14T10:00:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWugYnJwLpfk1f2qu6iHO_Q",
+      "external_id": "UCWugYnJwLpfk1f2qu6iHO_Q",
+      "name": "Day To Day News India",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWugYnJwLpfk1f2qu6iHO_Q",
+      "discovered_on": "2026-11-14",
+      "score": 68.85,
+      "metrics": {
+        "subscribers": 69800,
+        "total_views": 40310039,
+        "video_count": 10374,
+        "avg_views_per_video": 3885.68,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "rHSpFrvcRCM",
+            "title": "CM Bhagwant Mann Live : ਅਹਿਮ ਮੁੱਦੇ ਤੇ Press Conference | PSPCL | Electricity Bill | OTS Bill |Punjab",
+            "description": "ਅਹਿਮ ਮੁੱਦੇ ਤੇ ਭਗਵੰਤ ਮਾਨ ਦੀ ਪ੍ਰੈਸ ਕਾਨਫਰੰਸ, ਚੰਡੀਗੜ੍ਹ ਤੋਂ live #chandigarh ...",
+            "published_at": "2026-11-13T20:02:47Z",
+            "url": "https://www.youtube.com/watch?v=rHSpFrvcRCM"
+          }
+        ],
+        "channel_description": "Day To Day News India–Your daily dose of fast, reliable, and sharp news from Punjab and across India. 📰🎯 Stay updated with the latest headlines, politics, and ground reports—all in one place!",
+        "latest_video_at": "2026-11-13T20:02:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCaVEAXsaG71-oOI2W38-RHg",
+      "external_id": "UCaVEAXsaG71-oOI2W38-RHg",
+      "name": "TV9 Library - Marathi",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCaVEAXsaG71-oOI2W38-RHg",
+      "discovered_on": "2026-11-14",
+      "score": 66.41,
+      "metrics": {
+        "subscribers": 8880,
+        "total_views": 8492073,
+        "video_count": 376,
+        "avg_views_per_video": 22585.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "BiMJtc966VI",
+            "title": "Rohini Khadse Says: Women&#39;s Commission Needs an Independent Chief News",
+            "description": "Rohini Khadse Says: Women's Commission Needs an Independent Chief News Rohini Khadse, Maharashtra NCP (Sharad ...",
+            "published_at": "2026-11-14T06:45:06Z",
+            "url": "https://www.youtube.com/watch?v=BiMJtc966VI"
+          }
+        ],
+        "channel_description": "देश महाराष्ट्र ते सावधान महाराष्ट्र tv9 marathi live वर राहा अपडेट. आखाड्यात रंगणा-या राजकीय दंगलींचे व्हिडीओ फक्त tv9 marathi live वर. TV झिंगाटसोबत मनोरंजनाचा तडका, देश-विदेशातील घडामोडी, सर्वात वेगाने व्हायरल होणारे व्हिडीओ tv9marathilive च्या व्हायरल वास्तवमध्ये पाहा. ताज्या घडामोडींचे सुपरफास्ट अपडेट्स पाहण्यासाठी सबस्क्राईब करा tv9 Marathi live या आमच्या YouTube चॅनलला. खालील लिंकवर क्लिक करा \n\nhttps://goo.gl/xRU2XT",
+        "latest_video_at": "2026-11-14T06:45:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC9nXD60UqN5xIi_yzRKYoKg",
+      "external_id": "UC9nXD60UqN5xIi_yzRKYoKg",
+      "name": "Lonutico",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC9nXD60UqN5xIi_yzRKYoKg",
+      "discovered_on": "2026-11-14",
+      "score": 65.24,
+      "metrics": {
+        "subscribers": 2230,
+        "total_views": 3371636,
+        "video_count": 37,
+        "avg_views_per_video": 91125.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "qun9Tdg0CdA",
+            "title": "GTA 6 LA TIENE BIEN CHIQUITA en JAPON #gta6 #gtavi",
+            "description": "Noticias, curiosidades, detalles, teorías, secretos y mas de GTA 6. Todo sobre GTA VI, Rockstar Games, Jason, Lucía, Vice City y ...",
+            "published_at": "2026-11-13T21:00:00Z",
+            "url": "https://www.youtube.com/watch?v=qun9Tdg0CdA"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-13T21:00:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCX1hjz7gHTjDOgI3xnbrz2A",
+      "external_id": "UCX1hjz7gHTjDOgI3xnbrz2A",
+      "name": "Watts the Vision",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCX1hjz7gHTjDOgI3xnbrz2A",
+      "discovered_on": "2026-11-14",
+      "score": 63.33,
+      "metrics": {
+        "subscribers": 25800,
+        "total_views": 280344,
+        "video_count": 228,
+        "avg_views_per_video": 1229.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "aG-VhzoeeR4",
+            "title": "“Delete That Report!” 😱 Why This EV Founder Refused to Back Down? Humans of EV x WTV",
+            "description": "What would you do if your report suddenly triggered a massive controversy online? Delete it or stand your ground? In this episode ...",
+            "published_at": "2026-11-14T06:30:34Z",
+            "url": "https://www.youtube.com/watch?v=aG-VhzoeeR4"
+          }
+        ],
+        "channel_description": "⚡ Watt’s the Vision is not just a podcast—it’s India’s time machine into 2047. Hosted by Priyadarshi Singh, a clean-mobility strategist and architect of India’s EV & transport policies, the channel dives into visionary conversations on sustainability, climate change, electric mobility, net-zero 2070, clean-tech innovation, and future-ready transportation.\n\nUnlike usual podcasts, Watt’s the Vision breaks the pattern: bold “FlashDrop 2047” scenes, myth-busting debates, contrarian takes, and rapid-fire insights make every episode short, cinematic, and shareable. From roasting range anxiety to predicting tomorrow’s headlines, India’s top visionaries turn climate targets into street-level stories.\n\nWhether you’re a student, policymaker, founder, or just curious about the future of cities, subscribe and time-travel with us into India’s sustainable tomorrow.\n\n#WattstheVision #India2047 #FutureOfMobility #NetZeroIndia #ClimateChange #Podcast\n\n📩 Enquiries: wattsthevision@gmail.com\n",
+        "latest_video_at": "2026-11-14T06:30:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7hW2eV8cfm1Hy-pUX8_XGA",
+      "external_id": "UC7hW2eV8cfm1Hy-pUX8_XGA",
+      "name": "Shots Fired Photostylings",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7hW2eV8cfm1Hy-pUX8_XGA",
+      "discovered_on": "2026-11-14",
+      "score": 60.46,
+      "metrics": {
+        "subscribers": 5640,
+        "total_views": 632958,
+        "video_count": 230,
+        "avg_views_per_video": 2751.99,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "1l602ge3qeM",
+            "title": "What do you mean Vienna’s museums launched an official OFS account to show people n*de artwork?",
+            "description": "What do you mean Vienna's museums launched an official OFS account to show people n*de artwork? Yep. In 2021, the Vienna ...",
+            "published_at": "2026-11-13T17:59:50Z",
+            "url": "https://www.youtube.com/watch?v=1l602ge3qeM"
+          }
+        ],
+        "channel_description": "Welcome to Shots Fired Photostylings, where women’s art history meets modern cinema. 🏛️✨\n\nI’m Britney—a magazine-published creative director, set designer and fine art photographer turning raw emotion, mythic history, and timeless dark archetypes into living masterpieces.\n\nOn this channel, we dive deep into women’s art history celebrating women who deserve their flowers, and take you behind the scenes of our immersive, high-end studio productions. If you love dark academia, moody chiaroscuro lighting, and fine art storytelling, you’re in the right place.\n\nStop just studying the masterpieces. Step inside them.\n\n🏛️ EXPLORE THE STUDIO & BOOK A PRODUCTION:👉 shotsfiredphotostylings.com\n🖤 JOIN THE CREATIVE COMMUNITY:📸 Instagram: @shotsfiredphotostyling\n🎵 TikTok: @sfpnorthcarolinaphotog\n\nFor commercial inquiries, editorial pulling, or production booking, contact us directly via our website.",
+        "latest_video_at": "2026-11-13T17:59:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC0Hc9DYReetBjiiRgPTEfbA",
+      "external_id": "UC0Hc9DYReetBjiiRgPTEfbA",
+      "name": "Fair Observer",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC0Hc9DYReetBjiiRgPTEfbA",
+      "discovered_on": "2026-11-14",
+      "score": 60.26,
+      "metrics": {
+        "subscribers": 9590,
+        "total_views": 1950668,
+        "video_count": 1632,
+        "avg_views_per_video": 1195.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "aRqh5_Ae0zw",
+            "title": "Fair Observer Needs Your Help To Keep Independent Journalism Alive | Fair Observer",
+            "description": "FairObserver Support our work: https://www.fairobserver.com/crowd-funding/ Fair Observer is an independent nonprofit media ...",
+            "published_at": "2026-11-13T20:58:26Z",
+            "url": "https://www.youtube.com/watch?v=aRqh5_Ae0zw"
+          }
+        ],
+        "channel_description": "Fair Observer is an independent, nonprofit media organization that engages in citizen journalism and civic education. \n\nOur digital media platform has 2,500 contributors from 90 countries, cutting across borders, backgrounds and beliefs. With fact-checking and a rigorous editorial process, we provide diversity and quality in an era of echo chambers and fake news. \n\nOur education arm runs training programs on subjects such as digital media, writing and more. In particular, we inspire young people around the world to be more engaged citizens and to participate in a global discourse.\n\nAs a nonprofit, we are free from owners and advertisers. When there are six jobs in public relations for every job in journalism, we rely on your donations to achieve our mission.\n\nThe US Internal Revenue Service has granted section 501(c)(3) status to Fair Observer with Employer Identification Number (EIN) 46-4070943. The US Library of Congress recognizes the media platform as an online journal: ISSN 2372-9",
+        "latest_video_at": "2026-11-13T20:58:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC9MxRYkxCmx-GsN009qNjpQ",
+      "external_id": "UC9MxRYkxCmx-GsN009qNjpQ",
+      "name": "Libertarianism",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC9MxRYkxCmx-GsN009qNjpQ",
+      "discovered_on": "2026-11-14",
+      "score": 59.3,
+      "metrics": {
+        "subscribers": 5400,
+        "total_views": 2481636,
+        "video_count": 912,
+        "avg_views_per_video": 2721.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "K2GIGbSc0Zg",
+            "title": "Destiny Loses It Over Nvidia CEO &amp; Trump &quot;Compromised&quot; Scandal",
+            "description": "In Episode 1 of The Blue Wave, Destiny breaks down the biggest political, economic, and legal stories shaking up ...",
+            "published_at": "2026-11-13T09:45:06Z",
+            "url": "https://www.youtube.com/watch?v=K2GIGbSc0Zg"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-13T09:45:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCJ4hLqFyjhpM2-VkMuDn6bg",
+      "external_id": "UCJ4hLqFyjhpM2-VkMuDn6bg",
+      "name": "Rhobar III",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCJ4hLqFyjhpM2-VkMuDn6bg",
+      "discovered_on": "2026-11-14",
+      "score": 57.32,
+      "metrics": {
+        "subscribers": 4570,
+        "total_views": 2841637,
+        "video_count": 3259,
+        "avg_views_per_video": 871.94,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "Ks--yP7NNiE",
+            "title": "Marsz #polska #szorty #news #shortsvideo #shortsyoutube #shortvideo #viral #reklama #republika #yt",
+            "description": "Wielkie wspomnienia z marszu patriotów #Onet #Nawrocki #tusk i #warszawa #republika #świętoniepodległości.",
+            "published_at": "2026-11-13T20:00:40Z",
+            "url": "https://www.youtube.com/watch?v=Ks--yP7NNiE"
+          }
+        ],
+        "channel_description": "Witaj na kanale Rhobariii – miejscu, gdzie klimat Gothica spotyka się z realnym światem. ⚔️🎙️\n\nTworzę machinimy, podcasty i dyskusje o polityce, kulturze i społeczeństwie – wszystko z nutą humoru, refleksji i klimatu starych, dobrych RPG-ów.\n\n🔥 Na kanale znajdziesz:\n\n🎥 Machinimy Gothic – fabularne historie, parodie i eksperymenty z uniwersum, które kochają fani klasyki.\n\n🎙️ Podcasty i rozmowy – o świecie, polityce, ideach i absurdach współczesności.\n\n💭 Komentarze i analizy – autentyczne opinie, bez cenzury i bez owijania w bawełnę.\n\n💡 Jeśli lubisz mroczny klimat Gothic, inteligentne rozmowy i szczere podejście, to właśnie znalazłeś swoje miejsce.\n\n🕯️ Dołącz do społeczności, w której liczy się pasja, rozmowa i odrobina ironii wobec świata.\n\n▶️ Subskrybuj teraz i włącz dzwoneczek 🔔 – bo tutaj rzeczywistość spotyka się z Kolonią Górniczą.\n\n",
+        "latest_video_at": "2026-11-13T20:00:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCnr5tDudJiJOPYnaOzzH8fA",
+      "external_id": "UCnr5tDudJiJOPYnaOzzH8fA",
+      "name": "BILLINICO",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCnr5tDudJiJOPYnaOzzH8fA",
+      "discovered_on": "2026-11-14",
+      "score": 57.0,
+      "metrics": {
+        "subscribers": 3310,
+        "total_views": 458066,
+        "video_count": 389,
+        "avg_views_per_video": 1177.55,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "AekfwWJQvgg",
+            "title": "Independent media isn&#39;t dead",
+            "description": "Independent media means nobody funds your opinion. Every promotion gets vetted, and gambling sponsorship money is ...",
+            "published_at": "2026-11-13T20:00:15Z",
+            "url": "https://www.youtube.com/watch?v=AekfwWJQvgg"
+          }
+        ],
+        "channel_description": "THEY TALK. WE AUDIT.\n\nBILLINICO is The Weekly Audit: money, power, sports media and culture, argued from receipts. Every file reads the paper — the contract, the deal, the record — and lands on one verdict: who got paid, who owned it, who could walk away.\n\nTHE FILES\n▪ The Sports Files — Stephen A., Skip Bayless, the NBA: contracts, platforms, who owns the audience\n▪ The Money Files — creators, studios, leagues, and the paper behind the story\n▪ The Culture Files — media narratives and power, read from the record\n▪ The Skit Files — comedy skits audited for the business underneath\n\nNew audit every week. Shorts every day.\n\n📕 33 LAWS OF RIGHTEOUS POWER: https://a.co/d/04g7ZQ0I\n🤖 THE MACHINE — the desk that cuts these audits, for hire: billinico.com/the-machine\n🤝 Partnerships: billinico.com/partnerships\n🎧 Live With No Fear® — the album and the apparel: billinico.com/shop\n💵 Support the audit: Cash App $Billinicocash\n\nReceipts first. Verdict last. Live With No Fear®.",
+        "latest_video_at": "2026-11-13T20:00:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UChhCMFA02RQ55ZP-AJNi3wQ",
       "external_id": "UChhCMFA02RQ55ZP-AJNi3wQ",

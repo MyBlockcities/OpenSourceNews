@@ -2,19 +2,194 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-13T17:53:21Z",
-  "new_this_run": 5,
-  "total_influencers": 616,
+  "updated_at": "2026-11-14T16:39:17Z",
+  "new_this_run": 4,
+  "total_influencers": 620,
   "run_summary": {
-    "run_started_at": "2026-11-13T17:52:59Z",
+    "run_started_at": "2026-11-14T16:38:59Z",
     "candidate_count": 11,
-    "existing_count": 611,
-    "selected_new_count": 5,
+    "existing_count": 616,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:77f4b6b89fe423328316",
+      "external_id": "77f4b6b89fe423328316",
+      "name": "Eric Topol",
+      "platform": "rss_author",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://erictopol.substack.com/p/ethan-mollick-on-ai-where-are-we",
+      "discovered_on": "2026-11-14",
+      "score": 70.0,
+      "metrics": {
+        "posts_seen_in_fetch": 19,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "erictopol.substack.com",
+        "feed_urls": [
+          "https://erictopol.substack.com/feed"
+        ],
+        "sample_titles": [
+          "Ethan Mollick on AI: Where Are We Now and Where Are We Headed",
+          "Vadim Gladyshev and the Science of Aging",
+          "Connecting Our Immune System and Healthspan",
+          "Michael Lewis: The NIH “Murder Mystery,” DOGE, and Our Government Immune System",
+          "Loss of Cell Identity Drives Human Aging"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "youtube:UCZHSqovsjWD_ZbB5zoUJwUA",
+      "external_id": "UCZHSqovsjWD_ZbB5zoUJwUA",
+      "name": "John Jesse's Health Continuum",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCZHSqovsjWD_ZbB5zoUJwUA",
+      "discovered_on": "2026-11-14",
+      "score": 66.14,
+      "metrics": {
+        "subscribers": 10500,
+        "total_views": 711260,
+        "video_count": 45,
+        "avg_views_per_video": 15805.78,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "YrkkD1EkvJc",
+            "title": "Why everyone is obsessed with peptides right now #peptides #healthtrends",
+            "description": "Peptides weren't big news a few years ago. Now they're everywhere. Why? On John Jesse's Health Continuum, neurosurgeon Dr.",
+            "published_at": "2026-11-14T16:29:20Z",
+            "url": "https://www.youtube.com/watch?v=YrkkD1EkvJc"
+          }
+        ],
+        "channel_description": "Welcome to John Jesse’s Health Continuum where you will find information, motivation and support on your personal journey to better health. If you are tired of all the confusion and the experts trying to sell you the solution, this is the place for you. We will get straight answers from the experts with the current research and visit with regular folks like you who are finding success in making improvements in their health. Come join us-- you will be glad you did.",
+        "latest_video_at": "2026-11-14T16:29:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCg3UqRXU7FQ7G51oAE4KEhg",
+      "external_id": "UCg3UqRXU7FQ7G51oAE4KEhg",
+      "name": "独身ジジイの生きざま",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCg3UqRXU7FQ7G51oAE4KEhg",
+      "discovered_on": "2026-11-14",
+      "score": 62.38,
+      "metrics": {
+        "subscribers": 4120,
+        "total_views": 516708,
+        "video_count": 50,
+        "avg_views_per_video": 10334.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "ZpmijDXodxA",
+            "title": "アラカンが「肌の若返り」に挑戦。話題のGHK-Cuとレッドライトを併用してみる",
+            "description": "アラカンジジ、肌の若返りに挑戦します。 今回取り上げるのは、美容・アンチエイジング分野で注目されている「GHK-Cu（銅 ...",
+            "published_at": "2026-11-14T10:15:22Z",
+            "url": "https://www.youtube.com/watch?v=ZpmijDXodxA"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-14T10:15:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC6Ptf5doIdNE_7ocFus2TWw",
+      "external_id": "UC6Ptf5doIdNE_7ocFus2TWw",
+      "name": "Kendal Kirkland ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC6Ptf5doIdNE_7ocFus2TWw",
+      "discovered_on": "2026-11-14",
+      "score": 59.83,
+      "metrics": {
+        "subscribers": 2420,
+        "total_views": 1754902,
+        "video_count": 1037,
+        "avg_views_per_video": 1692.29,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "0-JEtmJdtMw",
+            "title": "I Tried GLP-1… The Side Effects Nobody Warned Me About 😳⚠️",
+            "description": "My GLP-1 experience ⚠️ Weight loss, muscle loss, and the side effects I didn't expect. Would you try it? Just sharing my ...",
+            "published_at": "2026-11-14T03:30:02Z",
+            "url": "https://www.youtube.com/watch?v=0-JEtmJdtMw"
+          },
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "Fp518ijBfkE",
+            "title": "What GLP-1 Does to Your BRAIN 🧠😳",
+            "description": "What GLP-1 peptides actually do to your brain This one surprised me. Did you know this? Just sharing my experience, not ...",
+            "published_at": "2026-11-14T02:30:08Z",
+            "url": "https://www.youtube.com/watch?v=Fp518ijBfkE"
+          }
+        ],
+        "channel_description": "I'm Kendal, a dad, husband, and creator sharing the good, the messy, and the meaningful. My family and I grew over 550K followers and hit 100M+ views on Facebook in 4 months, and I teach others how to do the same.\n\nWhat you'll find here:\n👨‍👩‍👧 Family vlogs: real day-to-day moments as a husband and dad\n🌱 Personal growth: mindset, habits, and lessons that help you level up\n📈 Facebook growth: how to build an audience and get monetized\n🤝 Behind the scenes: how we turn content into brand deals and income\n\n💌 Contact Us:\nFor guest inquiries, sponsorships, or to connect, email: info@kendalkirkland.com\n\n\n🔔 Subscribe now and be part of a community focused on personal growth.\n",
+        "latest_video_at": "2026-11-14T03:30:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCCKuf32nli9x4UC1hG4SPzA",
       "external_id": "UCCKuf32nli9x4UC1hG4SPzA",
