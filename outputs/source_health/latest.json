@@ -1,12 +1,13 @@
 {
   "expected_sources": 128,
   "not_attempted": 3,
-  "successful_sources": 120,
-  "degraded_sources": 4,
-  "failed_sources": 1,
+  "successful_sources": 118,
+  "degraded_sources": 5,
+  "failed_sources": 2,
   "stale_sources": [
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
     "https://reliefweb.int/updates/rss.xml",
+    "https://rss.arxiv.org/rss/cs.AI",
     "https://www.blockchainappfactory.com/blog/feed/",
     "solana"
   ],
@@ -14,6 +15,10 @@
     {
       "endpoint": "https://erictopol.substack.com/feed",
       "error": "403 Client Error: Forbidden for url: https://erictopol.substack.com/feed"
+    },
+    {
+      "endpoint": "https://www.govinfo.gov/rss/fr.xml",
+      "error": "522 Server Error: <none> for url: https://www.govinfo.gov/rss/fr.xml"
     }
   ],
   "sources": {
@@ -119,7 +124,7 @@
     "semaglutide peptide": "ok",
     "tirzepatide": "ok",
     "retatrutide": "ok",
-    "https://rss.arxiv.org/rss/cs.AI": "ok",
+    "https://rss.arxiv.org/rss/cs.AI": "empty",
     "https://openai.com/news/rss.xml": "ok",
     "https://deepmind.google/blog/rss.xml": "ok",
     "https://github.blog/feed/": "ok",
@@ -132,7 +137,7 @@
     "https://home.treasury.gov/rss.xml": "ok",
     "https://fredblog.stlouisfed.org/feed/": "ok",
     "https://www.federalregister.gov/api/v1/articles.rss": "ok",
-    "https://www.govinfo.gov/rss/fr.xml": "ok",
+    "https://www.govinfo.gov/rss/fr.xml": "failed",
     "https://www.sec.gov/news/pressreleases.rss": "ok",
     "https://www.eia.gov/rss/todayinenergy.xml": "ok",
     "https://unlimitedhangout.com/feed/": "ok",
@@ -143,7 +148,7 @@
     "https://www.theblackvault.com/casefiles/feed/": "ok",
     "https://thegrayzone.com/feed/": "ok"
   },
-  "report_date": "2026-11-13",
-  "generated_at": "2026-11-13T15:23:34Z",
+  "report_date": "2026-11-14",
+  "generated_at": "2026-11-14T14:09:52Z",
   "schema_version": "source_health.v1"
 }
