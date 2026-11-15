@@ -2,19 +2,462 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-11-14T16:39:20Z",
+  "updated_at": "2026-11-15T17:16:58Z",
   "new_this_run": 11,
-  "total_influencers": 1909,
+  "total_influencers": 1920,
   "run_summary": {
-    "run_started_at": "2026-11-14T16:38:59Z",
-    "candidate_count": 53,
-    "existing_count": 1898,
+    "run_started_at": "2026-11-15T17:16:37Z",
+    "candidate_count": 51,
+    "existing_count": 1909,
     "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCBDvvppgLxzBaushjWYaKBQ",
+      "external_id": "UCBDvvppgLxzBaushjWYaKBQ",
+      "name": "The Pulse",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCBDvvppgLxzBaushjWYaKBQ",
+      "discovered_on": "2026-11-15",
+      "score": 72.19,
+      "metrics": {
+        "subscribers": 62700,
+        "total_views": 10959302,
+        "video_count": 522,
+        "avg_views_per_video": 20994.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "JS0ZxLICEg0",
+            "title": "Eye-Popping Results From Affordable &amp; Simple Protocol",
+            "description": "Here's a link to the huge DO-HEALTH Study discussed in this video.",
+            "published_at": "2026-11-15T16:03:24Z",
+            "url": "https://www.youtube.com/watch?v=JS0ZxLICEg0"
+          }
+        ],
+        "channel_description": "Welcome to The Pulse. This channel is dedicated to the science of healthy aging, data-driven biohacking, and living a high-quality life.\n\nI am a former Sports & Fitness Employee for the US Army and a certified Nautilus trainer. I have spent decades focused on human performance and fitness.\n\nAfter struggling for over 20 years with panic attacks and declining energy, I took control of my health using science-backed protocols. My journey with supplements like NMN, Resveratrol, and Nitric Oxide boosters completely transformed my focus, fitness, and mental health.\n\nNow, as an American living in Germany, I test the latest longevity research and share real-world reviews so you can navigate the noise. We also explore how optimizing your health unlocks better experiences during travel and life in Europe.\n\nSubscribe to join the ride as we explore the reasonable middle ground of biohacking.",
+        "latest_video_at": "2026-11-15T16:03:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7EaJofWhWdXmVskNSR8g5Q",
+      "external_id": "UC7EaJofWhWdXmVskNSR8g5Q",
+      "name": "Combat Comedy Hub",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC7EaJofWhWdXmVskNSR8g5Q",
+      "discovered_on": "2026-11-15",
+      "score": 66.43,
+      "metrics": {
+        "subscribers": 3090,
+        "total_views": 27669713,
+        "video_count": 253,
+        "avg_views_per_video": 109366.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "v5kMlJuWdOM",
+            "title": "UNBELIEVABLE ARMY COMBAT MEDICFITNESS CHALLENGE",
+            "description": "Military functional fitness competitions push tactical medical personnel to their physical limits, combining high-rep bodyweight ...",
+            "published_at": "2026-11-15T16:30:25Z",
+            "url": "https://www.youtube.com/watch?v=v5kMlJuWdOM"
+          }
+        ],
+        "channel_description": "Welcome to Combat ComedyHub — the ultimate hub for high intensity military action and defense insights.\n\nWe bring you the most gripping footage of modern warfare technology, from elite infantry drills and rapid-fire gun demonstrations to powerful missile launches and advanced military aircraft in action. Whether it's the tactical maneuvers of special forces or the sheer firepower of heavy artillery, we cover it all.\n\nJoin our community of military enthusiasts and stay updated with the world's most elite defense activities. Subscribe to witness the strength, strategy, and spirit of the frontline!🌎✈️🛡️\n",
+        "latest_video_at": "2026-11-15T16:30:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTh4gA_-ieJm8Q91cL_XLGg",
+      "external_id": "UCTh4gA_-ieJm8Q91cL_XLGg",
+      "name": "MoveStrong Seniors | Dr. Kaitie, PT, DPT",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCTh4gA_-ieJm8Q91cL_XLGg",
+      "discovered_on": "2026-11-15",
+      "score": 58.76,
+      "metrics": {
+        "subscribers": 4630,
+        "total_views": 1063378,
+        "video_count": 642,
+        "avg_views_per_video": 1656.35,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "gxMPnp3w8kQ",
+            "title": "Want to keep carrying your groceries into the house with confidence? Lifting, holding, and walking",
+            "description": "Want to keep carrying your groceries into the house with confidence? Lifting, holding, and walking with a light bag are everyday ...",
+            "published_at": "2026-11-15T15:08:41Z",
+            "url": "https://www.youtube.com/watch?v=gxMPnp3w8kQ"
+          }
+        ],
+        "channel_description": "Hi, I’m Dr. Kaitie Rossler, PT, DPT! I created MoveStrong Seniors to provide practical, easy-to-follow movement education for adults who want to stay active, steady, and confident.\n\n\nSubscribe for videos about:\n• Strength exercises for adults 50+\n• Balance and fall-prevention training\n• Mobility, flexibility, and posture\n• Bone health and osteoporosis\n• Functional movement for everyday life\n• Physical therapist-led education\n• Helping adults 50+ build strength, improve balance, and stay independent.\n\nWe also offer concierge physical therapy and speech therapy throughout South Florida! \n\n\n",
+        "latest_video_at": "2026-11-15T15:08:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCo_IcuSv5wsIzasU2DbDTzA",
+      "external_id": "UCo_IcuSv5wsIzasU2DbDTzA",
+      "name": "David Nugent | The Spartan-Persian Protocol",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCo_IcuSv5wsIzasU2DbDTzA",
+      "discovered_on": "2026-11-15",
+      "score": 57.92,
+      "metrics": {
+        "subscribers": 2580,
+        "total_views": 243182,
+        "video_count": 60,
+        "avg_views_per_video": 4053.03,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "-2eZM9fJstc",
+            "title": "How to Build a V-Shaped Back After 60 (Just 3 Exercises!)",
+            "description": "BUILD A POWERFUL V-SHAPED UPPER BODY AFTER 60! Want broader shoulders, a wider back, a smaller waist, and the ...",
+            "published_at": "2026-11-14T17:12:06Z",
+            "url": "https://www.youtube.com/watch?v=-2eZM9fJstc"
+          }
+        ],
+        "channel_description": "Build Forever Fitness. Lose Weight Permanently. Enjoy Food Again.\n\nThe Spartan-Persian Protocol is a sustainable approach to fitness and nutrition built on a simple weekly rhythm: five Spartan days of disciplined training and very low-carb eating, followed by two Persian days of enjoyment without guilt.\n\nThis channel documents how to stay lean, strong, and healthy into your 60s and beyond—without burnout from harsh diets or living in the gym.\n",
+        "latest_video_at": "2026-11-14T17:12:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCfkF2AXxr7YYGTeQKvYSAoQ",
+      "external_id": "UCfkF2AXxr7YYGTeQKvYSAoQ",
+      "name": "Bíblia em Cenas",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCfkF2AXxr7YYGTeQKvYSAoQ",
+      "discovered_on": "2026-11-15",
+      "score": 57.73,
+      "metrics": {
+        "subscribers": 3480,
+        "total_views": 280440,
+        "video_count": 182,
+        "avg_views_per_video": 1540.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "gDFk7v6o--U",
+            "title": "Esse aquecimento parece simples, mas quase ninguém faz direito #treino #fitness",
+            "description": "Novo metodo de treinamento para fortalecer a relação. Aprenda a técnica correta de exercicio com tronco para elevar seu nível ...",
+            "published_at": "2026-11-15T11:41:19Z",
+            "url": "https://www.youtube.com/watch?v=gDFk7v6o--U"
+          }
+        ],
+        "channel_description": "📖 Uma história bíblica épica por dia\n🎬 3 minutos que vão mudar sua perspectiva\n🔥 365 dias de fé, drama e superação\n👉 Todos os dias às 19h\n💬 Qual história você quer ver?\n",
+        "latest_video_at": "2026-11-15T11:41:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCmVByCLfVG5Nhm2qlR06ZBw",
+      "external_id": "UCmVByCLfVG5Nhm2qlR06ZBw",
+      "name": "Noble Digital Empire",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCmVByCLfVG5Nhm2qlR06ZBw",
+      "discovered_on": "2026-11-15",
+      "score": 57.6,
+      "metrics": {
+        "subscribers": 5990,
+        "total_views": 634092,
+        "video_count": 934,
+        "avg_views_per_video": 678.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "70HHvqXitlY",
+            "title": "My INSANE Morning Biohacking Routine! 🧠❄️ 7 Productivity Hacks #Shorts",
+            "description": "My 7-step morning biohacking routine for productivity, focus, discipline, and longevity! From methylene blue and creatine to cold ...",
+            "published_at": "2026-11-14T18:44:40Z",
+            "url": "https://www.youtube.com/watch?v=70HHvqXitlY"
+          }
+        ],
+        "channel_description": "Welcome to Noble Digital Empire. While we staff mobile notaries nationwide, we are also educators, serial entrepreneurs & Christians.\nWe are  Owners of Noble Legal Pros Directory , Noble Notary Signing Service, and Prosperity Academy Business Training Courses. We show people how to start a side hustle, work from home, digitally market & even make money online! Learn to generate leads and build a thriving business with us! \n \nhttps://legaldocprepnotary.com/\nhttps://www.noblelegalpros.com/\nhttps://mark-sias.mykajabi.com/\nhttps://www.floridanotaryservices.org/\n\nGet A Last Will, Power of Attorney or Lady Bird Deed Today!\nCall/Text to Schedule. 321-283-6452. We work with law firms, the general public & title companies local & abroad.\n\n👉 If you enjoy our videos, please like and share them.\n👉 Don't forget to subscribe & press the bell 🔔 \n👉 Subscribe now! Noble Notary & Legal Document Preparers\n\nThanks for visiting this channel \n\n▄▅▆▇█▓▒░Thank You░▒▓█▇▆▅\n\n",
+        "latest_video_at": "2026-11-14T18:44:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCdubdgk8xECVzOmHaPEE9mA",
+      "external_id": "UCdubdgk8xECVzOmHaPEE9mA",
+      "name": "Fran R. Blanco - Orygn Vital",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCdubdgk8xECVzOmHaPEE9mA",
+      "discovered_on": "2026-11-15",
+      "score": 54.0,
+      "metrics": {
+        "subscribers": 3730,
+        "total_views": 31474,
+        "video_count": 126,
+        "avg_views_per_video": 249.79,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "WgVsJCFnaRE",
+            "title": "TrigLP GLP 1 GLP2 GiP ayuda a tu metabolismo peptidos bioactivos naturales",
+            "description": "ORYGN inicia en España y Europa. ¿Quieres conocer la oportunidad desde el principio?** Ser Pionero Puedes también ...",
+            "published_at": "2026-11-14T19:19:42Z",
+            "url": "https://www.youtube.com/watch?v=WgVsJCFnaRE"
+          }
+        ],
+        "channel_description": "Un espacio donde la ciencia, la salud y la innovación se encuentran.\nhttps://BioFrecuenciaViva.com\n\nAquí exploramos en profundidad el funcionamiento del metabolismo, las nuevas vías de regulación energética y las últimas tendencias que están marcando el futuro del bienestar humano.\norygn peptidos triglp glp1 glp 2 gip\nContenido dirigido a profesionales, personas inquietas y a todo aquel que quiera entender qué está ocurriendo realmente dentro del cuerpo… más allá de lo superficial.\nHablamos de:\n✔️ Regulación metabólica\n✔️ Señales internas del cuerpo\n✔️ Energía, digestión y equilibrio\n✔️ Nuevas perspectivas en salud\n\nSin ruido.\nSin promesas vacías.\nCon una visión clara: entender para transformar.\n🔥\nSi quieres ir un paso más allá y comprender cómo funciona tu cuerpo de verdad… estás en el lugar correcto.\nMás información contacte con Fran R. Blanco / +34 622668776 - https://PlanetaSano.com",
+        "latest_video_at": "2026-11-14T19:19:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCoQgD4vGxdYTuoACzAbVVIg",
+      "external_id": "UCoQgD4vGxdYTuoACzAbVVIg",
+      "name": "Fit Bodies Inc",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCoQgD4vGxdYTuoACzAbVVIg",
+      "discovered_on": "2026-11-15",
+      "score": 51.42,
+      "metrics": {
+        "subscribers": 2030,
+        "total_views": 25530,
+        "video_count": 143,
+        "avg_views_per_video": 178.53,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "MI0RywzPVw8",
+            "title": "Functional training with an ocean breeze #FitBodies #FitnessTravel #FunctionalTraining",
+            "description": "Functional training with an ocean breeze Debbie on teaching functional fitness at Breathless Cancún Soul. #FitBodies ...",
+            "published_at": "2026-11-15T17:00:07Z",
+            "url": "https://www.youtube.com/watch?v=MI0RywzPVw8"
+          }
+        ],
+        "channel_description": "Fit Bodies empowers Certified Fitness Instructors with discount lodgings in All-Inclusive Resorts around the world! \n\nTeach a few classes and obtain 50% or more discount on high ticket resorts around the world! \nThis Youtube Channel is dedicated to educate our users, to showcase our success stories, and to connect with Fitness Professionals around the globe! \n\nWelcome to the Fit Bodies Family! \nSubscribe for more awesome stuff! \n",
+        "latest_video_at": "2026-11-15T17:00:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCU5Gcj-FJytz5PBOzPTZ1ZA",
+      "external_id": "UCU5Gcj-FJytz5PBOzPTZ1ZA",
+      "name": "One Last Guru",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCU5Gcj-FJytz5PBOzPTZ1ZA",
+      "discovered_on": "2026-11-15",
+      "score": 49.74,
+      "metrics": {
+        "subscribers": 2010,
+        "total_views": 92727,
+        "video_count": 1122,
+        "avg_views_per_video": 82.64,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "QMQ3krC0FPo",
+            "title": "Magnali Longevity Protocol Review: Scam Or Legit? (2026 Guide)",
+            "description": "Is Magnali's $733 Longevity Protocol worth the money? In this review, we examine its ingredients, anti-aging claims, customer ...",
+            "published_at": "2026-11-14T22:00:59Z",
+            "url": "https://www.youtube.com/watch?v=QMQ3krC0FPo"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-14T22:00:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:b0cf553c720a4df4e116",
+      "external_id": "b0cf553c720a4df4e116",
+      "name": "Trinley Goldenberg",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/hhKp7iwJFvTMocH4s/the-case-for-maple",
+      "discovered_on": "2026-11-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Case for MAPLE"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:959977ae614c26880640",
+      "external_id": "959977ae614c26880640",
+      "name": "Throw Fence",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/jdTnPuFCvEBgHR9mF/what-a-year-of-zen-retreats-was-actually-like",
+      "discovered_on": "2026-11-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "What a year of Zen retreats was actually like"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "rss_author:6da5dcedbfe006bd06cb",
       "external_id": "6da5dcedbfe006bd06cb",

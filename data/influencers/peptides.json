@@ -2,19 +2,208 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-14T16:39:17Z",
+  "updated_at": "2026-11-15T17:16:54Z",
   "new_this_run": 4,
-  "total_influencers": 620,
+  "total_influencers": 624,
   "run_summary": {
-    "run_started_at": "2026-11-14T16:38:59Z",
-    "candidate_count": 11,
-    "existing_count": 616,
+    "run_started_at": "2026-11-15T17:16:37Z",
+    "candidate_count": 9,
+    "existing_count": 620,
     "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCpsob9uPVCxQjGbkAd21mAg",
+      "external_id": "UCpsob9uPVCxQjGbkAd21mAg",
+      "name": "Bazgha Khalid, MD",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCpsob9uPVCxQjGbkAd21mAg",
+      "discovered_on": "2026-11-15",
+      "score": 75.35,
+      "metrics": {
+        "subscribers": 90400,
+        "total_views": 7739562,
+        "video_count": 144,
+        "avg_views_per_video": 53746.96,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "2QD9-KChKF0",
+            "title": "Peptides Explained: The Famous Six, and What the FDA Actually Just Did: Weight Loss Doctor Explains",
+            "description": "Peptides are everywhere right now, BPC-157, TB-500, KPV, MOTS-c, Semax, and Epitalon, and a major 2026 FDA decision has ...",
+            "published_at": "2026-11-15T13:00:27Z",
+            "url": "https://www.youtube.com/watch?v=2QD9-KChKF0"
+          }
+        ],
+        "channel_description": "Dr. Bazgha Khalid is board-certified in Internal Medicine & Obesity Medicine, with a focus on the most evidence based and up to date information on the topics of metabolic health, weight loss and longevity.\n\nMy weekly Newsletter: \nhttps://drbazghakhalid.beehiiv.com/?modal=signup\n\nDisclaimer:  This channel is for general information and educational purposes only and does NOT constitute the practice of medicine or other health services. NO doctor-patient relationship is formed. The contents of the channel are NOT intended to replace professional medical advise and are NOT intended to treat, diagnose, cure or prevent disease.  \nThe contents of the channel are Dr. Khalid's personal opinion and do not represent that of her employer. \n ",
+        "latest_video_at": "2026-11-15T13:00:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCVeiQ81ZPG00KvX2Z_iaJqQ",
+      "external_id": "UCVeiQ81ZPG00KvX2Z_iaJqQ",
+      "name": "Matt Trammel",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCVeiQ81ZPG00KvX2Z_iaJqQ",
+      "discovered_on": "2026-11-15",
+      "score": 63.36,
+      "metrics": {
+        "subscribers": 2860,
+        "total_views": 206850,
+        "video_count": 192,
+        "avg_views_per_video": 1077.34,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "G1GiwTVayn8",
+            "title": "I Tore My Tricep Tendon — BPC-157 Healed It in 3 Weeks",
+            "description": "5 weeks ago I tore my tricep tendon in Mexico and thought I was done. Then I started running a peptide stack — BPC-157, TB500, ...",
+            "published_at": "2026-11-15T17:00:16Z",
+            "url": "https://www.youtube.com/watch?v=G1GiwTVayn8"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "G1GiwTVayn8",
+            "title": "I Tore My Tricep Tendon — BPC-157 Healed It in 3 Weeks",
+            "description": "5 weeks ago I tore my tricep tendon in Mexico and thought I was done. Then I started running a peptide stack — BPC-157, TB500, ...",
+            "published_at": "2026-11-15T17:00:16Z",
+            "url": "https://www.youtube.com/watch?v=G1GiwTVayn8"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-15T17:00:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCGCbVHSHRQuFf_rJQYRAk0A",
+      "external_id": "UCGCbVHSHRQuFf_rJQYRAk0A",
+      "name": "LARK",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCGCbVHSHRQuFf_rJQYRAk0A",
+      "discovered_on": "2026-11-15",
+      "score": 62.71,
+      "metrics": {
+        "subscribers": 5960,
+        "total_views": 1885079,
+        "video_count": 262,
+        "avg_views_per_video": 7194.96,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "zeMhnAj0YSg",
+            "title": "My husband used a GLP… Here are my thoughts on peptides as a fitness coach😬",
+            "description": "Welcome to part 2!! As promised here is Joe's full peptide experience and our differing opinions. I will say my opinion on them ...",
+            "published_at": "2026-11-15T13:00:27Z",
+            "url": "https://www.youtube.com/watch?v=zeMhnAj0YSg"
+          }
+        ],
+        "channel_description": "I am an Online Fitness Coach that focuses on Sustainability and Education. I teach you how to reach your goals without doing things you hate and cutting out everything you love. I believe that fitness should enhance your life, NOT control it! ",
+        "latest_video_at": "2026-11-15T13:00:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCdubdgk8xECVzOmHaPEE9mA",
+      "external_id": "UCdubdgk8xECVzOmHaPEE9mA",
+      "name": "Fran R. Blanco - Orygn Vital",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCdubdgk8xECVzOmHaPEE9mA",
+      "discovered_on": "2026-11-15",
+      "score": 54.0,
+      "metrics": {
+        "subscribers": 3730,
+        "total_views": 31474,
+        "video_count": 126,
+        "avg_views_per_video": 249.79,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "z7jbv3fhAso",
+            "title": "TrigLP glp1 glp2 gip",
+            "description": "ORYGN inicia en España y Europa. ¿Quieres conocer la oportunidad desde el principio?** Ser Pionero --- Puedes también ...",
+            "published_at": "2026-11-14T19:20:48Z",
+            "url": "https://www.youtube.com/watch?v=z7jbv3fhAso"
+          }
+        ],
+        "channel_description": "Un espacio donde la ciencia, la salud y la innovación se encuentran.\nhttps://BioFrecuenciaViva.com\n\nAquí exploramos en profundidad el funcionamiento del metabolismo, las nuevas vías de regulación energética y las últimas tendencias que están marcando el futuro del bienestar humano.\norygn peptidos triglp glp1 glp 2 gip\nContenido dirigido a profesionales, personas inquietas y a todo aquel que quiera entender qué está ocurriendo realmente dentro del cuerpo… más allá de lo superficial.\nHablamos de:\n✔️ Regulación metabólica\n✔️ Señales internas del cuerpo\n✔️ Energía, digestión y equilibrio\n✔️ Nuevas perspectivas en salud\n\nSin ruido.\nSin promesas vacías.\nCon una visión clara: entender para transformar.\n🔥\nSi quieres ir un paso más allá y comprender cómo funciona tu cuerpo de verdad… estás en el lugar correcto.\nMás información contacte con Fran R. Blanco / +34 622668776 - https://PlanetaSano.com",
+        "latest_video_at": "2026-11-14T19:20:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "rss_author:77f4b6b89fe423328316",
       "external_id": "77f4b6b89fe423328316",

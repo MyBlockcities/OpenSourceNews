@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-11-14T16:39:05Z",
+  "updated_at": "2026-11-15T17:16:43Z",
   "new_this_run": 1,
-  "total_influencers": 439,
+  "total_influencers": 440,
   "run_summary": {
-    "run_started_at": "2026-11-14T16:38:59Z",
-    "candidate_count": 41,
-    "existing_count": 438,
+    "run_started_at": "2026-11-15T17:16:37Z",
+    "candidate_count": 35,
+    "existing_count": 439,
     "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:8f295a84193b6668921b",
+      "external_id": "8f295a84193b6668921b",
+      "name": "Cointelegraph by Paul Brody",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://cointelegraph.com/opinion/enterprise-blockchain-come-back-from-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-11-15",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "Enterprise blockchain is going to come back from the dead"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC0HfZJE17darxYWM1BH_NBw",
       "external_id": "UC0HfZJE17darxYWM1BH_NBw",

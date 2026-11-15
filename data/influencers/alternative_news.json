@@ -2,19 +2,363 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-14T16:39:08Z",
-  "new_this_run": 11,
-  "total_influencers": 1181,
+  "updated_at": "2026-11-15T17:16:46Z",
+  "new_this_run": 8,
+  "total_influencers": 1189,
   "run_summary": {
-    "run_started_at": "2026-11-14T16:38:59Z",
-    "candidate_count": 25,
-    "existing_count": 1170,
-    "selected_new_count": 11,
+    "run_started_at": "2026-11-15T17:16:37Z",
+    "candidate_count": 17,
+    "existing_count": 1181,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCSGPvechrpfSezzs1cd_7Jw",
+      "external_id": "UCSGPvechrpfSezzs1cd_7Jw",
+      "name": "Election Guru",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCSGPvechrpfSezzs1cd_7Jw",
+      "discovered_on": "2026-11-15",
+      "score": 75.8,
+      "metrics": {
+        "subscribers": 89200,
+        "total_views": 166356432,
+        "video_count": 2465,
+        "avg_views_per_video": 67487.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "crO9SVq2NLc",
+            "title": "Sitting MLA Defeated by an Independent! Ahilyanagar District Bank Result #Shorts",
+            "description": "A sitting MLA lost to an independent candidate in the Ahilyanagar District Bank election. Here are the key results. Watch this ...",
+            "published_at": "2026-11-15T11:30:01Z",
+            "url": "https://www.youtube.com/watch?v=crO9SVq2NLc"
+          }
+        ],
+        "channel_description": "\"Election Guru\" is a YouTube channel that offers insightful analyses of political scenarios and election trends, primarily focusing on Indian politics. It provides expert breakdowns of election data, voter demographics, and party strategies, helping viewers understand the dynamics that shape major elections.\n",
+        "latest_video_at": "2026-11-15T11:30:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCzwx_Rq_Van6-yUy4oFAKdA",
+      "external_id": "UCzwx_Rq_Van6-yUy4oFAKdA",
+      "name": "TDM Manthan",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCzwx_Rq_Van6-yUy4oFAKdA",
+      "discovered_on": "2026-11-15",
+      "score": 69.84,
+      "metrics": {
+        "subscribers": 33300,
+        "total_views": 12245814,
+        "video_count": 709,
+        "avg_views_per_video": 17271.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "vhfkXr6quV0",
+            "title": "3 साल बाद NDTV क्यों छोड़ा: Saurabh Shukla Confession",
+            "description": "Why did Saurabh Shukla leave NDTV after 13 years? What does it take to build an independent news platform in India - and what ...",
+            "published_at": "2026-11-15T11:57:00Z",
+            "url": "https://www.youtube.com/watch?v=vhfkXr6quV0"
+          }
+        ],
+        "channel_description": "Welcome to TDM Manthan — where real stories meet raw inspiration.\n\nHosted by Vatsala Shrangi,a journalist turned storyteller, this motivational podcast from TDM Group celebrates India’s unsung heroes — the ones who turn struggle into strength and silence into change.\n\nEach episode dives deep into powerful, real-life journeys of grit, hope, and transformation. From ordinary people doing extraordinary things to changemakers redefining courage — this is where you’ll find stories that not only inspire but awaken something within.\n\n🎙️Host:Vatsala Shrangi  \nWith over 15 years of experience in top newsrooms from CNN-News18 and Hindustan Times to DNA and The Sunday Guardian —Vatsala now brings her storytelling flair to the world of podcasting.\n\n💬What You’ll Hear:True stories of resilience, purpose, and the human spirit — all reminding you to believe, rise, and never give up.\n\n🗓️New episodes every Friday at 6 PM.\n\nHit Subscribe & be part of the movement that celebrates real heroes of India! 🇮🇳✨",
+        "latest_video_at": "2026-11-15T11:57:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCepZ4VUJpFqOCdJ9mVmIE-w",
+      "external_id": "UCepZ4VUJpFqOCdJ9mVmIE-w",
+      "name": "Secret Anonymous Idea",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCepZ4VUJpFqOCdJ9mVmIE-w",
+      "discovered_on": "2026-11-15",
+      "score": 68.67,
+      "metrics": {
+        "subscribers": 39200,
+        "total_views": 3031915,
+        "video_count": 239,
+        "avg_views_per_video": 12685.84,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "SXYEOuRjTBg",
+            "title": "Anonymous - Censorship Via Comment Shill Bots Videos Removed!",
+            "description": "Yesterday I put out two videos and it just so happens the first video was going over decades of how unsealed documents and ...",
+            "published_at": "2026-11-14T11:07:32Z",
+            "url": "https://www.youtube.com/watch?v=SXYEOuRjTBg"
+          }
+        ],
+        "channel_description": "? ? ? ? ? ? ? * * * * * * * * * ? ? ? ? ? ? ? \n\nA paradigm shifting revelation is about to erupt through the internet on Dec 23rd, 2024 that will expose all abuse of absolute power.  Subscribe to this channel to follow updates and videos leading up to this despicable surprise.\n~who was TRUMPED~\n",
+        "latest_video_at": "2026-11-14T11:07:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC4LG4CDIIyVvGZw-_dzGp1Q",
+      "external_id": "UC4LG4CDIIyVvGZw-_dzGp1Q",
+      "name": "Oliver updates ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC4LG4CDIIyVvGZw-_dzGp1Q",
+      "discovered_on": "2026-11-15",
+      "score": 65.43,
+      "metrics": {
+        "subscribers": 4370,
+        "total_views": 36506791,
+        "video_count": 938,
+        "avg_views_per_video": 38919.82,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "pXHO-mpZ2v0",
+            "title": "Don Lemon Is BACK! Launches His Own 24/7 News Channel After CNN Exit! 📺🔥#shorts",
+            "description": "Don Lemon is not done with television yet. More than three years after his highly publicized departure from CNN, the veteran ...",
+            "published_at": "2026-11-15T00:00:01Z",
+            "url": "https://www.youtube.com/watch?v=pXHO-mpZ2v0"
+          }
+        ],
+        "channel_description": "Welcome to Olivier Updates 🌺📱\nYour destination for the latest updates, breaking news, entertainment stories, and trending topics everyone is talking about.\nFrom viral internet moments and celebrity buzz to real-time news and hot discussions — if it’s trending online, you’ll find it here.\n\nEvery video on this channel is crafted by me, featuring engaging visuals, clear subtitles, and smooth storytelling to keep you hooked from start to finish.\nI use editing tools like Cap Cut, Adobe Premiere Pro, After Effects, and mobile editing apps — plus, I share inspiration for creators looking to elevate their own editing skills.\n\n📌 Subscribe for:\n• Fast news & fresh updates\n• Entertainment & celebrity highlights\n• Viral stories & trending topics\n• Polished, captivating videos\n\nStay connected. Stay in the know.\nOlivier Updates — where the internet speaks, and we bring it to you. 🌊✨\n",
+        "latest_video_at": "2026-11-15T00:00:01Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCDM528eqIJElfflkvfT-MuQ",
+      "external_id": "UCDM528eqIJElfflkvfT-MuQ",
+      "name": "Jaihind News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCDM528eqIJElfflkvfT-MuQ",
+      "discovered_on": "2026-11-15",
+      "score": 64.64,
+      "metrics": {
+        "subscribers": 41500,
+        "total_views": 14189051,
+        "video_count": 12284,
+        "avg_views_per_video": 1155.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "oAmDR4dLqc0",
+            "title": "കേന്ദ്രത്തിന്‍റെ കത്രിക അതിരുകടക്കുന്നുവോ? | POWER POINT",
+            "description": "കേന്ദ്രത്തിന്‍റെ കത്രിക അതിരുകടക്കുന്നുവോ? | POWER POINT Jaihind News | For the ...",
+            "published_at": "2026-11-15T13:30:09Z",
+            "url": "https://www.youtube.com/watch?v=oAmDR4dLqc0"
+          }
+        ],
+        "channel_description": "Welcome to Jaihind News – For the Family. For the Nation.\nJaihind News was born from a profound commitment to insightful journalism, striving to be a beacon of truth in Kerala's ever-evolving media landscape. Since our inception in 2007, we have celebrated the richness of Kerala while amplifying marginalized voices, firmly believing in the values of democracy and pluralism.\n\nWhy Jaihind News?\nUnwavering Commitment to Democracy:\nWe believe in the essence of democracy and the pluralistic spirit of our nation.\n\nBeyond the Headlines:\nWe go deeper than breaking news, delivering insightful analysis, diverse perspectives, and meaningful context.\n\nA Platform for Every Voice:\nWe celebrate Kerala's diversity and amplify marginalized voices, ensuring every story finds its audience.\n\nSubscribe and stay updated with the latest Malayalam News, Kerala News, Breaking News, Politics, Current Affairs, Business, Sports & Entertainment.\n\n#jaihindnews #malayalamnews #keralanews #keralapolitics #jaihindtv \n",
+        "latest_video_at": "2026-11-15T13:30:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC2FuYjLUZqD7HYaPhvWYvow",
+      "external_id": "UC2FuYjLUZqD7HYaPhvWYvow",
+      "name": "ManaTrendz",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC2FuYjLUZqD7HYaPhvWYvow",
+      "discovered_on": "2026-11-15",
+      "score": 62.97,
+      "metrics": {
+        "subscribers": 3730,
+        "total_views": 12220057,
+        "video_count": 494,
+        "avg_views_per_video": 24736.96,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "g_AKlxMZkLw",
+            "title": "Dhanush &amp; Sai Pallavi Movie Title Changed! Censor Objections Force &#39;OM&#39; Rename 🚨🎬 #Dhanush #OMMovie",
+            "description": "November 20na vidudhala kaavaalsina Dhanush, Mammootty, Sai Pallavi chithram 'OM' ku censor board aabhyantharaala ...",
+            "published_at": "2026-11-14T14:41:28Z",
+            "url": "https://www.youtube.com/watch?v=g_AKlxMZkLw"
+          }
+        ],
+        "channel_description": "మనTrendz | Know What’s Happening Around You.\n\nWelcome to మనTrendz — your Telugu destination for trending, informative and engaging content.\n\nGet updates on Breaking & Trending News, Cinema & OTT, Viral Stories, Politics, Crime, Technology, AI, Smartphones, Social Media, Cyber Security, Business, Finance, Jobs, Cricket, Sports, Gaming, Science, Space, Facts, History, Mythology, Temples, Travel, Lifestyle and more.\n\nWe bring important and interesting stories quickly, clearly and responsibly for Telugu audiences.\n\nTopics: Telugu Trending | India News | World News | Cinema | Tech | AI | Sports | Business | Finance | Viral Trends | Facts | Lifestyle\n\nCopyright Disclaimer:\nUnder Section 107 of the Copyright Act 1976, “fair use” is permitted for criticism, comment, news reporting, teaching, scholarship and research. Rights belong to their respective owners. Content is used where applicable for informational, commentary, reporting and educational purposes.\n",
+        "latest_video_at": "2026-11-14T14:41:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC3M9E0pcXjsoYgbKGISMrpQ",
+      "external_id": "UC3M9E0pcXjsoYgbKGISMrpQ",
+      "name": "Dev From Bharat",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC3M9E0pcXjsoYgbKGISMrpQ",
+      "discovered_on": "2026-11-15",
+      "score": 58.72,
+      "metrics": {
+        "subscribers": 4270,
+        "total_views": 1229094,
+        "video_count": 674,
+        "avg_views_per_video": 1823.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "kaTRqiPaXtA",
+            "title": "Left Wing Media SILENT On Purushottam Khedekar! 🚨 (Extreme Hypocrisy)",
+            "description": "Namaskar dosto, aaj ek aisi clip saamne aayi hai jo is desh ke so-called neutral ecosystem ki poori pol khol degi. Maratha Seva ...",
+            "published_at": "2026-11-15T08:16:27Z",
+            "url": "https://www.youtube.com/watch?v=kaTRqiPaXtA"
+          }
+        ],
+        "channel_description": "Indian- Philosophy | History | Politics\nFirst Unbiased Centre-Right Wing Creator\nकायर भोगे दुःख सदा, वीर भोग्य वसुंधरा 🇮🇳\n📧team.famousology@gmail.com\n",
+        "latest_video_at": "2026-11-15T08:16:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCvvAFjMjEUwVJ5-D1Zcj2iQ",
+      "external_id": "UCvvAFjMjEUwVJ5-D1Zcj2iQ",
+      "name": "Bulatlat",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCvvAFjMjEUwVJ5-D1Zcj2iQ",
+      "discovered_on": "2026-11-15",
+      "score": 56.07,
+      "metrics": {
+        "subscribers": 2260,
+        "total_views": 505997,
+        "video_count": 386,
+        "avg_views_per_video": 1310.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "ylmUr8KCqSs",
+            "title": "Police arrest 209 protesters and student, alternative media journalists",
+            "description": "Police arrest 209 protesters and student, alternative media journalists in Sucat, Muntinlupa City earlier today. They were part of ...",
+            "published_at": "2026-11-15T10:52:36Z",
+            "url": "https://www.youtube.com/watch?v=ylmUr8KCqSs"
+          }
+        ],
+        "channel_description": "The Philippines's top alternative online news site. Established in 2001, it is the longest-running online media outfit in PH.",
+        "latest_video_at": "2026-11-15T10:52:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCcBMzzAxiLAWC9oNzdW3pnA",
       "external_id": "UCcBMzzAxiLAWC9oNzdW3pnA",
