@@ -2,19 +2,62 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-11-15T17:16:43Z",
+  "updated_at": "2026-11-16T20:34:12Z",
   "new_this_run": 1,
-  "total_influencers": 440,
+  "total_influencers": 441,
   "run_summary": {
-    "run_started_at": "2026-11-15T17:16:37Z",
-    "candidate_count": 35,
-    "existing_count": 439,
+    "run_started_at": "2026-11-16T20:34:05Z",
+    "candidate_count": 33,
+    "existing_count": 440,
     "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC7fH0kNfLJ25QN68qOs5K1Q",
+      "external_id": "UC7fH0kNfLJ25QN68qOs5K1Q",
+      "name": "LABITCONF",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UC7fH0kNfLJ25QN68qOs5K1Q",
+      "discovered_on": "2026-11-16",
+      "score": 58.6,
+      "metrics": {
+        "subscribers": 6490,
+        "total_views": 704792,
+        "video_count": 735,
+        "avg_views_per_video": 958.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "MvzTIYEHlDU",
+            "title": "PRESENTE Y FUTURO DE LA TOKENIZACIÓN",
+            "description": "Desde inmuebles y energía hasta instrumentos financieros, la tokenización promete democratizar inversiones, generar liquidez y ...",
+            "published_at": "2026-11-16T02:58:45Z",
+            "url": "https://www.youtube.com/watch?v=MvzTIYEHlDU"
+          }
+        ],
+        "channel_description": "🚀 Since 2013 the Latin American Bitcoin & Blockchain Conference.\n#NotJustAConference 🌕\n",
+        "latest_video_at": "2026-11-16T02:58:45Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "rss_author:8f295a84193b6668921b",
       "external_id": "8f295a84193b6668921b",

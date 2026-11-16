@@ -2,19 +2,343 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-15T17:16:54Z",
-  "new_this_run": 4,
-  "total_influencers": 624,
+  "updated_at": "2026-11-16T20:34:23Z",
+  "new_this_run": 7,
+  "total_influencers": 631,
   "run_summary": {
-    "run_started_at": "2026-11-15T17:16:37Z",
-    "candidate_count": 9,
-    "existing_count": 620,
-    "selected_new_count": 4,
+    "run_started_at": "2026-11-16T20:34:05Z",
+    "candidate_count": 16,
+    "existing_count": 624,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCy5TYCL6ethcA5NqcpzRE5A",
+      "external_id": "UCy5TYCL6ethcA5NqcpzRE5A",
+      "name": "Alex Optimize",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCy5TYCL6ethcA5NqcpzRE5A",
+      "discovered_on": "2026-11-16",
+      "score": 72.65,
+      "metrics": {
+        "subscribers": 2390,
+        "total_views": 426084,
+        "video_count": 3,
+        "avg_views_per_video": 142028.0,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide",
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "o3j-l0dGfso",
+            "title": "BPC-157 &amp; TB-500 (Wolverine Stack): Miracle or Cancer Risk?",
+            "description": "Interested in working with Alex and his team? Click the link in my channel bio! BPC-157 and TB-500, commonly known as the ...",
+            "published_at": "2026-11-16T01:55:49Z",
+            "url": "https://www.youtube.com/watch?v=o3j-l0dGfso"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "o3j-l0dGfso",
+            "title": "BPC-157 &amp; TB-500 (Wolverine Stack): Miracle or Cancer Risk?",
+            "description": "Interested in working with Alex and his team? Click the link in my channel bio! BPC-157 and TB-500, commonly known as the ...",
+            "published_at": "2026-11-16T01:55:49Z",
+            "url": "https://www.youtube.com/watch?v=o3j-l0dGfso"
+          }
+        ],
+        "channel_description": "Obsessed with understanding the human body and what we can do to improve it.\n\nLearn about the latest research on peptides, testosterone, hormone optimization, metabolic health, longevity, and performance.\n\nDisclaimer: I'm not a doctor or medical professional. My content is for educational and informational purposes only and should not be considered medical advice. Always consult a physician before starting any medical treatment.",
+        "latest_video_at": "2026-11-16T01:55:49Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCAZsJCYZzGVVf5FN2_B-QWw",
+      "external_id": "UCAZsJCYZzGVVf5FN2_B-QWw",
+      "name": "Mind Pump Clips",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCAZsJCYZzGVVf5FN2_B-QWw",
+      "discovered_on": "2026-11-16",
+      "score": 68.8,
+      "metrics": {
+        "subscribers": 57000,
+        "total_views": 9237034,
+        "video_count": 1837,
+        "avg_views_per_video": 5028.33,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "V9XyeEPlBVw",
+            "title": "If You Could Only Pick One Peptide",
+            "description": "MAPS Black Friday Sale: https://mapsfitnessproducts.com Code: BLACKFRIDAY for 60% off all MAPS programs, MODs, bundles ...",
+            "published_at": "2026-11-16T03:30:37Z",
+            "url": "https://www.youtube.com/watch?v=V9XyeEPlBVw"
+          }
+        ],
+        "channel_description": "Clips Channel for the #1 Health and Fitness Podcast\nFind the full episodes at Mindpump Media on Youtube or any other Podcast platform\n\n",
+        "latest_video_at": "2026-11-16T03:30:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCxK5pB03wVhRYKDC_jfurOg",
+      "external_id": "UCxK5pB03wVhRYKDC_jfurOg",
+      "name": "Mark Shapiro",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCxK5pB03wVhRYKDC_jfurOg",
+      "discovered_on": "2026-11-16",
+      "score": 68.72,
+      "metrics": {
+        "subscribers": 45500,
+        "total_views": 19921592,
+        "video_count": 2997,
+        "avg_views_per_video": 6647.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "UqEzHgrxgGU",
+            "title": ".The peptide boom explained: massive demand, lagging regulation, and GLP-1s at the center of it all.",
+            "description": "",
+            "published_at": "2026-11-16T13:24:32Z",
+            "url": "https://www.youtube.com/watch?v=UqEzHgrxgGU"
+          }
+        ],
+        "channel_description": "Success leaves marks. We’re sharing them.\n\nI’m Mark Shapiro—real estate investor, entrepreneur, educator, and founder of Shapiro Capital.\n\nFor more than 40 years, I’ve owned, managed, or transacted over 25,000 real estate units across six market cycles. I’ve built businesses, made millions, experienced losses, and learned what it takes to keep moving forward.\n\nThis channel is about more than real estate. It’s a platform for real stories, hard-earned wisdom, and advice that only comes from experience.\n\nWe talk about real estate, business, leadership, mindset, faith, family, resilience, and building a meaningful life. You’ll also find practical guidance on evaluating opportunities, negotiating under pressure, managing risk, and creating lasting wealth.\n\nNo empty motivation. No theory presented as experience. Just honest conversations and practical lessons from more than four decades of wins, losses, setbacks, and second chances.\n\nSubscribe—and learn from the marks success leaves behind.\n",
+        "latest_video_at": "2026-11-16T13:24:32Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCdqKa7ubQxWEkurpHdfZ-7Q",
+      "external_id": "UCdqKa7ubQxWEkurpHdfZ-7Q",
+      "name": "Doctor Fredy González ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCdqKa7ubQxWEkurpHdfZ-7Q",
+      "discovered_on": "2026-11-16",
+      "score": 66.23,
+      "metrics": {
+        "subscribers": 12800,
+        "total_views": 2461013,
+        "video_count": 197,
+        "avg_views_per_video": 12492.45,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "A7vrjEIjSq8",
+            "title": "Péptidos: qué son y por qué generan tanto interés en salud 🧬",
+            "description": "Los péptidos son cadenas cortas de aminoácidos con funciones diversas en el organismo. Pero no todos tienen los mismos usos, ...",
+            "published_at": "2026-11-16T17:30:26Z",
+            "url": "https://www.youtube.com/watch?v=A7vrjEIjSq8"
+          }
+        ],
+        "channel_description": "Medico Cirujano. Universidad Nacional de Colombia.\nEsp. Medicina Biológica, Medicina Funcional y Medicina Regenerativa.\n\nTips y contenido sobre diferentes temas de salud desde la medicina Biológica, Funcional y Regenerativa.\n\nMedico sección Salud , Telesantiago - Tunja Boyacá \n",
+        "latest_video_at": "2026-11-16T17:30:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCR1FwbKlJy2WnH66dgMVyTA",
+      "external_id": "UCR1FwbKlJy2WnH66dgMVyTA",
+      "name": "StemCellsGroup",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCR1FwbKlJy2WnH66dgMVyTA",
+      "discovered_on": "2026-11-16",
+      "score": 62.67,
+      "metrics": {
+        "subscribers": 24000,
+        "total_views": 1788061,
+        "video_count": 1779,
+        "avg_views_per_video": 1005.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "0ZzwBvAfBM8",
+            "title": "ISSCA 128 Bogotá 2026 | Regenerative Medicine Congress &amp; Advanced Certifications",
+            "description": "Join ISSCA in Bogotá, Colombia, from November 27–29, 2026, for our International Congress in Regenerative Medicine and ...",
+            "published_at": "2026-11-16T16:29:56Z",
+            "url": "https://www.youtube.com/watch?v=0ZzwBvAfBM8"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-16T16:29:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCK9ybWnfRjBMc1Oq9Ot3e-w",
+      "external_id": "UCK9ybWnfRjBMc1Oq9Ot3e-w",
+      "name": "Drew Griesel",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCK9ybWnfRjBMc1Oq9Ot3e-w",
+      "discovered_on": "2026-11-16",
+      "score": 61.7,
+      "metrics": {
+        "subscribers": 5850,
+        "total_views": 4118817,
+        "video_count": 889,
+        "avg_views_per_video": 4633.09,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "C-cQ8x4shAk",
+            "title": "I ordered peptides online. Here’s what actually arrived! 🧬 ￼",
+            "description": "What happens when you order peptide therapy online? I'm unboxing my first peptide delivery from Primal Precision Health and ...",
+            "published_at": "2026-11-16T20:00:33Z",
+            "url": "https://www.youtube.com/watch?v=C-cQ8x4shAk"
+          }
+        ],
+        "channel_description": "Drew Griesel is an Executive Performance Coach helping high-achieving professionals optimize strength, energy, and sustained output.\n\nHe is also the host of The Superhuman Blueprint Podcast — a performance-driven show exploring physiology, resilience, leadership, and human optimization.\n\nThis channel features:\n\n• Full podcast episodes\n• Executive performance strategy\n• Strength & metabolic optimization\n• Hormonal health insights\n• Tactical systems for busy professionals\n• Real-world resilience and martial discipline\n\nModern leadership comes with a physiological cost. This channel exists to reverse it.\n\nSubscribe for structured, no-gimmick performance systems built for serious operators.\n",
+        "latest_video_at": "2026-11-16T20:00:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCuxc4B537Z-BxcAKG15XaIA",
+      "external_id": "UCuxc4B537Z-BxcAKG15XaIA",
+      "name": "Liam Laverty",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCuxc4B537Z-BxcAKG15XaIA",
+      "discovered_on": "2026-11-16",
+      "score": 59.57,
+      "metrics": {
+        "subscribers": 3240,
+        "total_views": 917735,
+        "video_count": 146,
+        "avg_views_per_video": 6285.86,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "eGmo3Y8Cc2s",
+            "title": "Can Peptides ACTUALLY Make You a Faster Runner?",
+            "description": "Free fat loss calorie calculator for runners: https://calculator.liamlaverty.co/yt ⛽️ Free fuelling planner for runners (race day, carb ...",
+            "published_at": "2026-11-15T19:15:25Z",
+            "url": "https://www.youtube.com/watch?v=eGmo3Y8Cc2s"
+          }
+        ],
+        "channel_description": "Trying to get really fucking good at running.\n\n80KG | 2:45 Marathon | 1:16 Half\n\nEx-GAA player turned runner, based in Southeast Asia 🌏\n\nTraining, racing, nutrition & the road to sub-2:30.\n",
+        "latest_video_at": "2026-11-15T19:15:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCpsob9uPVCxQjGbkAd21mAg",
       "external_id": "UCpsob9uPVCxQjGbkAd21mAg",
