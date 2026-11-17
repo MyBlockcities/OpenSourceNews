@@ -2,19 +2,109 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-16T20:34:23Z",
-  "new_this_run": 7,
-  "total_influencers": 631,
+  "updated_at": "2026-11-17T10:25:14Z",
+  "new_this_run": 2,
+  "total_influencers": 633,
   "run_summary": {
-    "run_started_at": "2026-11-16T20:34:05Z",
-    "candidate_count": 16,
-    "existing_count": 624,
-    "selected_new_count": 7,
+    "run_started_at": "2026-11-17T10:24:56Z",
+    "candidate_count": 14,
+    "existing_count": 631,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCj8omp2FkfF-TCEK40Ek42A",
+      "external_id": "UCj8omp2FkfF-TCEK40Ek42A",
+      "name": "Ryan RUSSO J",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCj8omp2FkfF-TCEK40Ek42A",
+      "discovered_on": "2026-11-17",
+      "score": 72.89,
+      "metrics": {
+        "subscribers": 97900,
+        "total_views": 30945634,
+        "video_count": 1992,
+        "avg_views_per_video": 15534.96,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "l2g2aVhBcxk",
+            "title": "-OG- GHRP 6 &amp; 2 Appetite-Stimulation Peptide Breakdown | History, Dosing, Side Effects [PEDucation]",
+            "description": "In this video, we break down the complete science, mechanism of action, and comparison of GHRP-2 and GHRP-6, two of the ...",
+            "published_at": "2026-11-17T03:34:55Z",
+            "url": "https://www.youtube.com/watch?v=l2g2aVhBcxk"
+          }
+        ],
+        "channel_description": "⋆.˚⭑.ᐟ 𓂃.RYAN RUSSO.𓂃‪‪˚✮-🍀 | “Bodybuilder” & \"Fitness\" Influencer Ryan Russo documents his personal BioPharma Kinetic(s) experiences in his DOCUMENTARY/EDUCATIONAL style, featuring SARMS PEPTIDES STEROID NOOTROPICS SUPPLEMENT Experiments for the world to see the Results & Side effects. You'll see the most uncensored bodybuilding content here, with harm mitigation of testosterone replacement therapy & alternative methods to build muscle and lose fat.\n\n\n\n\n\n",
+        "latest_video_at": "2026-11-17T03:34:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCHiU7v2uMFRwJEFlloq92SA",
+      "external_id": "UCHiU7v2uMFRwJEFlloq92SA",
+      "name": "Естетична Медицина 360",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCHiU7v2uMFRwJEFlloq92SA",
+      "discovered_on": "2026-11-17",
+      "score": 66.88,
+      "metrics": {
+        "subscribers": 34500,
+        "total_views": 3261923,
+        "video_count": 777,
+        "avg_views_per_video": 4198.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "pTMy4EWiME8",
+            "title": "Пептиди для схуднення: вплив на зовнішність, аналізи, стан &quot;після&quot;. Подкаст з ендокринологом, ч.2",
+            "description": "Друга частина подкасту з ендокринологом Костянтином Зуєвим — практична розмова для тих, хто працює в естетичній ...",
+            "published_at": "2026-11-16T15:36:58Z",
+            "url": "https://www.youtube.com/watch?v=pTMy4EWiME8"
+          }
+        ],
+        "channel_description": "Естетична медицина 360 - це місце  зустрічі лікаря та пацієнта.\n\nМи транслюємо всі косметологічні категорії вустами топових українських та міжнародних лікарів-косметологів універсальною мовою краси!\n\nПроцесс процедури, протоколи та результати шукайте у кожному відео. А головне - знаходьте кваліфіковані відповіді на свої естетичні питання.\n\nАктуальна інформація про навчання та запис на сайті https://aaa.ua \n",
+        "latest_video_at": "2026-11-16T15:36:58Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCy5TYCL6ethcA5NqcpzRE5A",
       "external_id": "UCy5TYCL6ethcA5NqcpzRE5A",
