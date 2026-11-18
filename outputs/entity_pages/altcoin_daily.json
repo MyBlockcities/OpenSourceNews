@@ -3,13 +3,16 @@
   "name": "Altcoin Daily",
   "slug": "altcoin_daily",
   "first_seen": "2026-09-01",
-  "last_seen": "2026-11-16",
-  "mention_count_total": 375,
-  "mentions_7d_rate": 3.499,
-  "mentions_30d_rate": 4.247,
+  "last_seen": "2026-11-18",
+  "mention_count_total": 380,
+  "mentions_7d_rate": 3.949,
+  "mentions_30d_rate": 4.36,
   "trajectory": "stable",
-  "source_domains": [],
+  "source_domains": [
+    "youtu.be"
+  ],
   "recent_signal_ids": [
+    "59f8022f7e425fa3",
     "fbb83542b39cad79",
     "75c0fa474aaba3aa",
     "9612aa2429475f7a",
@@ -28,8 +31,7 @@
     "8d82d6361a4c1d36",
     "b4f081b2c69bb0dc",
     "d080efe9f3e74446",
-    "a9c46fc556e64150",
-    "5ae8df26ef5ca368"
+    "a9c46fc556e64150"
   ],
   "schema_version": "entity.v1"
 }

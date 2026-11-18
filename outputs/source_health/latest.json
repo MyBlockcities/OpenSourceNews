@@ -1,87 +1,22 @@
 {
   "expected_sources": 128,
   "not_attempted": 3,
-  "successful_sources": 103,
-  "degraded_sources": 4,
-  "failed_sources": 18,
+  "successful_sources": 120,
+  "degraded_sources": 3,
+  "failed_sources": 2,
   "stale_sources": [
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
-    "https://reliefweb.int/updates/rss.xml",
     "https://www.blockchainappfactory.com/blog/feed/",
     "solana"
   ],
   "failures": [
     {
-      "endpoint": "@VisualCapitalist",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCc3e9XOO_neg3mnb9yDTklg&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "Ben Greenfield peptides",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&q=Ben+Greenfield+peptides&type=channel&maxResults=1&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-    },
-    {
-      "endpoint": "Dave Asprey peptides",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC1KoulyXR8gBGyxv7r6pWQg&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "GLP-1 peptide science",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCo-oEHvqBhRrjLrCAEQmnRg&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "UC1vUksRWfEfd6V4pPDIQ0jw",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC1vUksRWfEfd6V4pPDIQ0jw&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "UC2Uioh1tYQkNuHLSBpzdfCg",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC2Uioh1tYQkNuHLSBpzdfCg&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "UC7KbIaEOuY7H2j-cvhJ3mYA",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC7KbIaEOuY7H2j-cvhJ3mYA&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "UC9AdQPUe4BdVJ8M9X7wxHUA",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC9AdQPUe4BdVJ8M9X7wxHUA&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "UC9WQRw8jgJhag-vkDNTDMRg",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC9WQRw8jgJhag-vkDNTDMRg&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "UCCgpGpylCfrJIV-RwA_L7tg",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCCgpGpylCfrJIV-RwA_L7tg&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "UCIALMKvObZNtJ6AmdCLP7Lg",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCIALMKvObZNtJ6AmdCLP7Lg&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "UCJIfeSCssxSC_Dhc5s7woww",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCJIfeSCssxSC_Dhc5s7woww&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "UCSMqateX8OA2s1wsOR2EgJA",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCSMqateX8OA2s1wsOR2EgJA&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "UCYGb-tZvIulJeC5caIG-H_A",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCYGb-tZvIulJeC5caIG-H_A&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "UCbLhGKVY-bJPcawebgtNfbw",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCbLhGKVY-bJPcawebgtNfbw&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
-    },
-    {
-      "endpoint": "UCnjgxChqYYnyoqO4k_Q1d6Q",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCnjgxChqYYnyoqO4k_Q1d6Q&order=date&type=video&maxResults=5&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Sta"
+      "endpoint": "https://dailycoin.com/feed/",
+      "error": "520 Server Error: <none> for url: https://dailycoin.com/feed/"
     },
     {
       "endpoint": "https://erictopol.substack.com/feed",
       "error": "403 Client Error: Forbidden for url: https://erictopol.substack.com/feed"
-    },
-    {
-      "endpoint": "peptides physician lecture",
-      "error": "Client error '429 Too Many Requests' for url 'https://www.googleapis.com/youtube/v3/search?part=snippet&q=peptides+physician+lecture&type=channel&maxResults=1&key=AIzaSyBbZu2w3gRpCWtWMyfkS0h3j9dlNIZQHL8'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     }
   ],
   "sources": {
@@ -126,15 +61,15 @@
     "machine learning": "ok",
     "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml": "ok",
     "https://cointelegraph.com/rss": "ok",
-    "https://dailycoin.com/feed/": "ok",
+    "https://dailycoin.com/feed/": "failed",
     "https://www.bankless.com/feed": "ok",
     "https://www.blockchainappfactory.com/blog/feed/": "empty",
     "UCnThE8FLrlN-tYvZhZL0uaA": "ok",
     "UCCRxYlYOmLE2l5wxs3ckJtg": "ok",
     "UCrYmtJBtLdtm2ov84ulV-yg": "ok",
     "UCuV9EB4I9L-xmRoaXd8tmuA": "ok",
-    "UCbLhGKVY-bJPcawebgtNfbw": "failed",
-    "UC9AdQPUe4BdVJ8M9X7wxHUA": "failed",
+    "UCbLhGKVY-bJPcawebgtNfbw": "ok",
+    "UC9AdQPUe4BdVJ8M9X7wxHUA": "ok",
     "solana": "empty",
     "crypto funding": "ok",
     "blockchain funding": "ok",
@@ -145,29 +80,29 @@
     "https://www.astralcodexten.com/feed": "ok",
     "https://www.foreignaffairs.com/rss.xml": "ok",
     "UCESLZhusAkFfsNsApnjF_Cg": "ok",
-    "UCJIfeSCssxSC_Dhc5s7woww": "failed",
-    "UC7KbIaEOuY7H2j-cvhJ3mYA": "failed",
-    "UCIALMKvObZNtJ6AmdCLP7Lg": "failed",
-    "@VisualCapitalist": "failed",
+    "UCJIfeSCssxSC_Dhc5s7woww": "ok",
+    "UC7KbIaEOuY7H2j-cvhJ3mYA": "ok",
+    "UCIALMKvObZNtJ6AmdCLP7Lg": "ok",
+    "@VisualCapitalist": "ok",
     "UCrvchO1h6lWZAuGaa1LqX9Q": "ok",
     "UCCpNQKYvrnWQNjZprabMJlw": "ok",
     "geopolitics": "ok",
     "misinformation": "ok",
     "media analysis": "ok",
     "institutional": "ok",
-    "UC9WQRw8jgJhag-vkDNTDMRg": "failed",
+    "UC9WQRw8jgJhag-vkDNTDMRg": "ok",
     "UCDRIjKy6eZOvKtOELtTdeUA": "ok",
-    "UC2Uioh1tYQkNuHLSBpzdfCg": "failed",
-    "UCSMqateX8OA2s1wsOR2EgJA": "failed",
-    "UCYGb-tZvIulJeC5caIG-H_A": "failed",
-    "UCnjgxChqYYnyoqO4k_Q1d6Q": "failed",
-    "UC1vUksRWfEfd6V4pPDIQ0jw": "failed",
-    "UCCgpGpylCfrJIV-RwA_L7tg": "failed",
+    "UC2Uioh1tYQkNuHLSBpzdfCg": "ok",
+    "UCSMqateX8OA2s1wsOR2EgJA": "ok",
+    "UCYGb-tZvIulJeC5caIG-H_A": "ok",
+    "UCnjgxChqYYnyoqO4k_Q1d6Q": "ok",
+    "UC1vUksRWfEfd6V4pPDIQ0jw": "ok",
+    "UCCgpGpylCfrJIV-RwA_L7tg": "ok",
     "https://erictopol.substack.com/feed": "failed",
-    "Ben Greenfield peptides": "failed",
-    "Dave Asprey peptides": "failed",
-    "peptides physician lecture": "failed",
-    "GLP-1 peptide science": "failed",
+    "Ben Greenfield peptides": "ok",
+    "Dave Asprey peptides": "ok",
+    "peptides physician lecture": "ok",
+    "GLP-1 peptide science": "ok",
     "peptides": "ok",
     "GLP-1": "ok",
     "longevity": "ok",
@@ -191,7 +126,7 @@
     "https://openai.com/news/rss.xml": "ok",
     "https://deepmind.google/blog/rss.xml": "ok",
     "https://github.blog/feed/": "ok",
-    "https://reliefweb.int/updates/rss.xml": "empty",
+    "https://reliefweb.int/updates/rss.xml": "ok",
     "https://www.gdacs.org/xml/rss.xml": "ok",
     "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom": "ok",
     "https://news.un.org/feed/subscribe/en/news/all/rss.xml": "ok",
@@ -211,7 +146,7 @@
     "https://www.theblackvault.com/casefiles/feed/": "ok",
     "https://thegrayzone.com/feed/": "ok"
   },
-  "report_date": "2026-11-17",
-  "generated_at": "2026-11-17T07:22:16Z",
+  "report_date": "2026-11-18",
+  "generated_at": "2026-11-18T07:22:36Z",
   "schema_version": "source_health.v1"
 }
