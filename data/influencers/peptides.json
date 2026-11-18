@@ -2,19 +2,199 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-17T10:25:14Z",
-  "new_this_run": 2,
-  "total_influencers": 633,
+  "updated_at": "2026-11-18T10:25:25Z",
+  "new_this_run": 4,
+  "total_influencers": 637,
   "run_summary": {
-    "run_started_at": "2026-11-17T10:24:56Z",
-    "candidate_count": 14,
-    "existing_count": 631,
-    "selected_new_count": 2,
+    "run_started_at": "2026-11-18T10:25:01Z",
+    "candidate_count": 10,
+    "existing_count": 633,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCugrzriYwsznmSdx2qhg5lQ",
+      "external_id": "UCugrzriYwsznmSdx2qhg5lQ",
+      "name": "GianxFit",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCugrzriYwsznmSdx2qhg5lQ",
+      "discovered_on": "2026-11-18",
+      "score": 68.06,
+      "metrics": {
+        "subscribers": 21000,
+        "total_views": 12619478,
+        "video_count": 872,
+        "avg_views_per_video": 14471.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "I5qJxTQIQhU",
+            "title": "Quanto mi pagherebbero per TRUFFARVI. Ti spiego la moda dei peptidi come BPC157",
+            "description": "Perfino medici stanno facendo video per spingerli. Io vi ho avvisato. Fate girare il video perché chiunque li usa, rischia grosso.",
+            "published_at": "2026-11-17T18:46:21Z",
+            "url": "https://www.youtube.com/watch?v=I5qJxTQIQhU"
+          }
+        ],
+        "channel_description": "Ciao sono Gianluca,\ncoach ibrido e dottore in salute e attività.\nNon sto simpatico ai fuffaguru e ai truffatori del benessere\nFaccio esperimenti su di me con lo scopo di fare informazione su salute, fitness e benessere.\nQua non trovi cazzate, sono allergico.\n\nin elenco AGCOM",
+        "latest_video_at": "2026-11-17T18:46:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCrbVHSntnXjcxaWP0YBs8GQ",
+      "external_id": "UCrbVHSntnXjcxaWP0YBs8GQ",
+      "name": "ESENCIE",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCrbVHSntnXjcxaWP0YBs8GQ",
+      "discovered_on": "2026-11-18",
+      "score": 67.57,
+      "metrics": {
+        "subscribers": 39000,
+        "total_views": 7499296,
+        "video_count": 1544,
+        "avg_views_per_video": 4857.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "x5C43AH7Lrk",
+            "title": "Biohackeri berú GLP-1 v mikrodávkach. Prečo? | Karol Berta",
+            "description": "Biohackeri berú GLP-1 v mikrodávkach. Prečo? Nie kvôli chudnutiu, ale pre metabolickú rovnováhu, ako napríklad Bryan ...",
+            "published_at": "2026-11-17T19:00:10Z",
+            "url": "https://www.youtube.com/watch?v=x5C43AH7Lrk"
+          }
+        ],
+        "channel_description": "Každý hosť prináša svoju jedinečnú esenciu. Spoločne tvoríme ESENCIE. Inšpirujte sa!\n585603\n",
+        "latest_video_at": "2026-11-17T19:00:10Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCPHve6SlWdX2ZTuxX4uiZdg",
+      "external_id": "UCPHve6SlWdX2ZTuxX4uiZdg",
+      "name": "Dr. Noble Inasu",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCPHve6SlWdX2ZTuxX4uiZdg",
+      "discovered_on": "2026-11-18",
+      "score": 58.76,
+      "metrics": {
+        "subscribers": 2600,
+        "total_views": 568913,
+        "video_count": 153,
+        "avg_views_per_video": 3718.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "B1GpxAdpcLQ",
+            "title": "Does BPC-157 Cause Cancer? What We Know and Don&#39;t Know Yet.",
+            "description": "BPC-157 and peptide injections explained by a doctor. Is BPC-157 safe? The human research (three small studies), BPC-157 ...",
+            "published_at": "2026-11-17T20:39:11Z",
+            "url": "https://www.youtube.com/watch?v=B1GpxAdpcLQ"
+          }
+        ],
+        "channel_description": "Dr. Noble Inasu is an integrative medicine physician, life and wellness coach, and entrepreneur focused on evidence-based, long-term health and prevention.\n\nThis channel takes a systems-based approach to health, exploring how metabolism, nervous system regulation, nutrition, stress, recovery, and behaviour shape long-term outcomes.\n\nContent centers on integrative, whole-body care, longevity-focused prevention, cognitive health including ADHD, and balanced lifestyle factors to support health across the lifespan.\n\n** Medical Disclaimer **\nAll content is for educational purposes only and does not constitute medical advice. Dr. Noble Inasu does not provide individual medical guidance through this platform. Viewers should consult a qualified healthcare professional for personal medical concerns. No doctor–patient relationship is established. Dr. Noble Inasu is not responsible for content that third parties publish, post, upload, distribute, disseminate, or otherwise transmit via YouTube.\n",
+        "latest_video_at": "2026-11-17T20:39:11Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCX0L270SD4AQiWOspMjf9zQ",
+      "external_id": "UCX0L270SD4AQiWOspMjf9zQ",
+      "name": "GEJOTA10",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCX0L270SD4AQiWOspMjf9zQ",
+      "discovered_on": "2026-11-18",
+      "score": 53.99,
+      "metrics": {
+        "subscribers": 2060,
+        "total_views": 65105,
+        "video_count": 114,
+        "avg_views_per_video": 571.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "FXBL082cpFk",
+            "title": "Klow ou Bpc157 com Tb500",
+            "description": "",
+            "published_at": "2026-11-18T01:10:46Z",
+            "url": "https://www.youtube.com/watch?v=FXBL082cpFk"
+          }
+        ],
+        "channel_description": "Sejam bem-vindos ao meu canal!\nMeu intuito aqui é compartilhar conhecimentos, informações e experiências que adquiri ao longo da minha trajetória como coach, entusiasta do bodybuilding e apaixonado pelo universo dos peptídeos, hormônios e metabolismo humano.\n\nAqui vamos trocar ideias sobre ciência, pesquisas, musculação, emagrecimento, performance e tudo que envolve o funcionamento do nosso corpo. Sempre de forma simples, direta e sem enrolação!\n\nNão tenho a intenção de substituir a orientação de nenhum profissional que te acompanha. Meu objetivo é informar, compartilhar experiências e, claro, trazer minhas opiniões mesmo que não são pedidas! KKKKK 😂\n\nNão quero ser alienado e muito menos contribuir para que outras pessoas sejam. Acredito que questionar, estudar e desenvolver o pensamento crítico é fundamental para uma sociedade melhor.\n\nNão quero que você concorde comigo. Quero que você pense, questione e tire suas próprias conclusões!\n\n🧬 GEJOTA | REI DOS PEPS 👑\n\n👊🏻 NÃO PENSA! SÓ VAI!\n",
+        "latest_video_at": "2026-11-18T01:10:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCj8omp2FkfF-TCEK40Ek42A",
       "external_id": "UCj8omp2FkfF-TCEK40Ek42A",

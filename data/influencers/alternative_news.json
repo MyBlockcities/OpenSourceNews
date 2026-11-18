@@ -2,19 +2,286 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-17T10:25:06Z",
-  "new_this_run": 3,
-  "total_influencers": 1206,
+  "updated_at": "2026-11-18T10:25:14Z",
+  "new_this_run": 6,
+  "total_influencers": 1212,
   "run_summary": {
-    "run_started_at": "2026-11-17T10:24:56Z",
-    "candidate_count": 17,
-    "existing_count": 1203,
-    "selected_new_count": 3,
+    "run_started_at": "2026-11-18T10:25:01Z",
+    "candidate_count": 16,
+    "existing_count": 1206,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCCeoYlmyvCXIacUd5znfI1g",
+      "external_id": "UCCeoYlmyvCXIacUd5znfI1g",
+      "name": "Barbara Kogos",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCCeoYlmyvCXIacUd5znfI1g",
+      "discovered_on": "2026-11-18",
+      "score": 73.17,
+      "metrics": {
+        "subscribers": 87400,
+        "total_views": 10823291,
+        "video_count": 524,
+        "avg_views_per_video": 20655.14,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "p24I6rZFERc",
+            "title": "A MÁQUINA DA CENSURA: DE STALIN A LULA",
+            "description": "Em 1917, Lenin tomou o poder. No dia seguinte, os jornais que o criticavam foram fechados. Dois dias depois, a imprensa virou ...",
+            "published_at": "2026-11-17T22:00:03Z",
+            "url": "https://www.youtube.com/watch?v=p24I6rZFERc"
+          }
+        ],
+        "channel_description": "BARBARA KOGOS 🇧🇷\n\nJornalista e comunicadora política.\n\nNÃO VOU PEDIR LICENÇA PARA DIZER A VERDADE.\n\nAqui você encontra análises, notícias e opiniões sobre política, liberdade de expressão, segurança pública, cidadania e os acontecimentos que definem o futuro do Brasil.\n\nUma voz independente, firme em seus princípios e comprometida com a verdade.\n\nA verdade não muda, só incomoda.\n\n🇧🇷 A nossa voz fica mais forte quando você faz parte dela.\n\n👉🏽 Faça parte da nossa comunidade: https://chat.whatsapp.com/KFU1ciZlj48GnA9fVbQSSm\n\nEntre no canal 👊🏽\n\nBarbara Kogos\n📍 Santos | São Paulo | Brasil",
+        "latest_video_at": "2026-11-17T22:00:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCCGrWGBiXwr8hAmMbQOp4aw",
+      "external_id": "UCCGrWGBiXwr8hAmMbQOp4aw",
+      "name": "Lodowski: Chłodnym Okiem",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCCGrWGBiXwr8hAmMbQOp4aw",
+      "discovered_on": "2026-11-18",
+      "score": 69.66,
+      "metrics": {
+        "subscribers": 59700,
+        "total_views": 16960917,
+        "video_count": 1524,
+        "avg_views_per_video": 11129.21,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "fReJYr0kUYw",
+            "title": "🧭 Czy to cenzura? Weto wobec DSA i spór o to, kto decyduje, co zobaczysz w sieci",
+            "description": "Czuj Duch! W tym odcinku Chłodnym Okiem: pamięć i tożsamość. Kto decyduje, co obywatele zobaczą, usłyszą i zapamiętają?",
+            "published_at": "2026-11-16T22:45:06Z",
+            "url": "https://www.youtube.com/watch?v=fReJYr0kUYw"
+          }
+        ],
+        "channel_description": "Freemind Freeman and Rebel in a modern World",
+        "latest_video_at": "2026-11-16T22:45:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCICkNbDMG-b3SH1ygcBzhrA",
+      "external_id": "UCICkNbDMG-b3SH1ygcBzhrA",
+      "name": "Raza Rumi Speaks",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCICkNbDMG-b3SH1ygcBzhrA",
+      "discovered_on": "2026-11-18",
+      "score": 68.62,
+      "metrics": {
+        "subscribers": 6700,
+        "total_views": 487657,
+        "video_count": 132,
+        "avg_views_per_video": 3694.37,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news",
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "ShocKR7C_v4",
+            "title": "Fake News, Propaganda And Media Accountability | Who Controls Pakistan’s News Narrative?",
+            "description": "Who decides what makes the news in Pakistan? Where does journalism end and propaganda begin? And who holds journalists, ...",
+            "published_at": "2026-11-17T15:00:08Z",
+            "url": "https://www.youtube.com/watch?v=ShocKR7C_v4"
+          },
+          {
+            "query": "censorship news",
+            "video_id": "ShocKR7C_v4",
+            "title": "Fake News, Propaganda And Media Accountability | Who Controls Pakistan’s News Narrative?",
+            "description": "Who decides what makes the news in Pakistan? Where does journalism end and propaganda begin? And who holds journalists, ...",
+            "published_at": "2026-11-17T15:00:08Z",
+            "url": "https://www.youtube.com/watch?v=ShocKR7C_v4"
+          }
+        ],
+        "channel_description": "Raza Ahmad Rumi is a writer, public policy specialist, editor and instructor. He teaches at City University of New York and Cornell University. He is also the editor of The Friday Times, NayaDaur Media and New Wave History. Raza has been a broadcaster on TV and prior to his media work, he was a staff member of Asian Development Bank, officer of Administrative Service of the Government of Pakistan and the United Nations.",
+        "latest_video_at": "2026-11-17T15:00:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCAV0iUjZoB1QSaoTzoPXu7Q",
+      "external_id": "UCAV0iUjZoB1QSaoTzoPXu7Q",
+      "name": "EnsembleContreLaDroite",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCAV0iUjZoB1QSaoTzoPXu7Q",
+      "discovered_on": "2026-11-18",
+      "score": 61.0,
+      "metrics": {
+        "subscribers": 2920,
+        "total_views": 5151585,
+        "video_count": 580,
+        "avg_views_per_video": 8882.04,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "W5XUhsAiAVk",
+            "title": "MONDIALISTES : TVL accuse « l&#39;oligarchie » de la cibler à moins de 6 mois des élections",
+            "description": "Dans son JT du 17 novembre 2026, TV Libertés (TVL), chaîne identitaire, affirme que « le système » va « littéralement se ...",
+            "published_at": "2026-11-17T19:09:20Z",
+            "url": "https://www.youtube.com/watch?v=W5XUhsAiAVk"
+          }
+        ],
+        "channel_description": "Media de Gauche. On documente la banalisation de l'extrême droite. Ce n'est pas une tribune, c'est un relevé : on garde le reçu.\n\nLe nom est large, l'angle est précis. On ne fait pas « la droite est méchante » : on suit un glissement. Ce que le RN et Reconquête disent quand ils se croient dédiabolisés — et la droite dite respectable qui reprend leur vocabulaire, un\ndimanche soir sur un plateau, l'air de rien.\n\nRien ne sort brut d'ici. Chaque extrait est cadré dès la première seconde : vous savez de quoi il s'agit et pourquoi on vous le remet devant les yeux. La date et le lien vers la vidéo d'origine sont dans chaque description. Allez vérifier, c'est tout l'intérêt.\n\nCe sont leurs mots. Nous, on archive. Ils ne pourront pas dire qu'ils ne savaient pas.\n\nPas de neutralité de façade. On est de gauche, on l'assume, et on documente.\n🔔 Abonne-toi. Ensemble, on tient le pavé.\n\n\n",
+        "latest_video_at": "2026-11-17T19:09:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCphSkyopSQFW7C27pyvKxCQ",
+      "external_id": "UCphSkyopSQFW7C27pyvKxCQ",
+      "name": "TV9 Library - Punjabi",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCphSkyopSQFW7C27pyvKxCQ",
+      "discovered_on": "2026-11-18",
+      "score": 57.27,
+      "metrics": {
+        "subscribers": 2370,
+        "total_views": 1228996,
+        "video_count": 575,
+        "avg_views_per_video": 2137.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "37Kd4Fhlhwc",
+            "title": "PM Modi’s Independence Day 2025 Speech: ਅਸੀਂ ਦੁਸ਼ਮਣਾਂ ਨੂੰ ਉਨ੍ | Latest News",
+            "description": "PM Modi's Independence Day 2025 Speech: ਅਸੀਂ ਦੁਸ਼ਮਣਾਂ ਨੂੰ ਉਨ੍ | Latest News Prime Minister Narendra ...",
+            "published_at": "2026-11-17T16:15:08Z",
+            "url": "https://www.youtube.com/watch?v=37Kd4Fhlhwc"
+          }
+        ],
+        "channel_description": "Welcome to TV9 Punjabi Library, your destination for the latest Punjabi news, breaking news, viral videos & trending stories.\n\nWatch the latest updates on Punjab, Chandigarh, district news, politics, crime, public issues, shocking incidents, emotional real-life stories & trending events from across India. Explore exclusive visuals, CCTV footage, human-interest stories & important news updates in Punjabi.\n\nਪੰਜਾਬ ਦੀਆਂ ਤਾਜ਼ਾ ਖ਼ਬਰਾਂ, ਬ੍ਰੇਕਿੰਗ ਨਿਊਜ਼, ਵਾਇਰਲ ਘਟਨਾਵਾਂ ਅਤੇ ਖ਼ਾਸ ਵੀਡੀਓਜ਼ ਦੇਖਣ ਲਈ TV9 Punjabi Library ਚੈਨਲ ਨੂੰ Subscribe ਕਰੋ। ਨਵੀਆਂ ਵੀਡੀਓਜ਼ ਦੀ ਅਪਡੇਟ ਲਈ Bell Icon ਜ਼ਰੂਰ ਦਬਾਓ।\n\nTV9 Punjabi Library | Latest Punjabi News, Viral Stories & Breaking Updates.\n",
+        "latest_video_at": "2026-11-17T16:15:08Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTGb0q9HRzSuF6I4bXIIegQ",
+      "external_id": "UCTGb0q9HRzSuF6I4bXIIegQ",
+      "name": "JoBluemann",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCTGb0q9HRzSuF6I4bXIIegQ",
+      "discovered_on": "2026-11-18",
+      "score": 55.75,
+      "metrics": {
+        "subscribers": 3190,
+        "total_views": 99906,
+        "video_count": 143,
+        "avg_views_per_video": 698.64,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "DTS8FyI9UqA",
+            "title": "Opinion: Media Independence at Risk: Opinion: France 24 reports thousands of Czechs… #Shorts",
+            "description": "Opinion: Media Independence at Risk: Opinion: France 24 reports thousands of Czechs protested a government media funding ...",
+            "published_at": "2026-11-18T09:55:51Z",
+            "url": "https://www.youtube.com/watch?v=DTS8FyI9UqA"
+          }
+        ],
+        "channel_description": "Uphold Crypto Tips address:  e2910ba7-aec6-4de9-9bdc-cf33319caa1b\nAlso links for tips on Streamlab | Ko-Fi | Paypal\ngjdcpqq7\n\nWelcome at Jobluemann Youtube Channel.\n\nIn Jobluemann channel videos, we are discussing international news and point of view with adding a bit of fun. We understand that it's important to stay informed, whatever going around you or all over the world,  but not get bored doing it. \n\nThat's what this youtube channel is about. Keep watching the latest videos while staying informed and having a laugh at the expense of others.\n\nIf you are in search of what is new happening internationally, politically, economically,  technologically, or the new debates and discussions on the latest issues then  SUBSCRIBE to this Jobluemann YouTube Channel.\nHIGGS-TDQQB\n\n#mentalhealth #mentalhealthmatters #InternationalNews #PointofViews #worldnews \n",
+        "latest_video_at": "2026-11-18T09:55:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC3M7wY2rkTnd0Ot_nMy95Lg",
       "external_id": "UC3M7wY2rkTnd0Ot_nMy95Lg",
