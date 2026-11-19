@@ -11,12 +11,12 @@
   ],
   "failures": [
     {
-      "endpoint": "https://dailycoin.com/feed/",
-      "error": "520 Server Error: <none> for url: https://dailycoin.com/feed/"
-    },
-    {
       "endpoint": "https://erictopol.substack.com/feed",
       "error": "403 Client Error: Forbidden for url: https://erictopol.substack.com/feed"
+    },
+    {
+      "endpoint": "https://home.treasury.gov/rss.xml",
+      "error": "HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=20)"
     }
   ],
   "sources": {
@@ -61,7 +61,7 @@
     "machine learning": "ok",
     "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml": "ok",
     "https://cointelegraph.com/rss": "ok",
-    "https://dailycoin.com/feed/": "failed",
+    "https://dailycoin.com/feed/": "ok",
     "https://www.bankless.com/feed": "ok",
     "https://www.blockchainappfactory.com/blog/feed/": "empty",
     "UCnThE8FLrlN-tYvZhZL0uaA": "ok",
@@ -132,7 +132,7 @@
     "https://news.un.org/feed/subscribe/en/news/all/rss.xml": "ok",
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss": "empty",
     "https://www.federalreserve.gov/feeds/press_all.xml": "ok",
-    "https://home.treasury.gov/rss.xml": "ok",
+    "https://home.treasury.gov/rss.xml": "failed",
     "https://fredblog.stlouisfed.org/feed/": "ok",
     "https://www.federalregister.gov/api/v1/articles.rss": "ok",
     "https://www.govinfo.gov/rss/fr.xml": "ok",
@@ -146,7 +146,7 @@
     "https://www.theblackvault.com/casefiles/feed/": "ok",
     "https://thegrayzone.com/feed/": "ok"
   },
-  "report_date": "2026-11-18",
-  "generated_at": "2026-11-18T07:22:36Z",
+  "report_date": "2026-11-19",
+  "generated_at": "2026-11-19T07:22:39Z",
   "schema_version": "source_health.v1"
 }
