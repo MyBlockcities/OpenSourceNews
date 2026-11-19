@@ -2,19 +2,244 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-18T10:25:25Z",
-  "new_this_run": 4,
-  "total_influencers": 637,
+  "updated_at": "2026-11-19T10:25:25Z",
+  "new_this_run": 5,
+  "total_influencers": 642,
   "run_summary": {
-    "run_started_at": "2026-11-18T10:25:01Z",
-    "candidate_count": 10,
-    "existing_count": 633,
-    "selected_new_count": 4,
+    "run_started_at": "2026-11-19T10:25:07Z",
+    "candidate_count": 14,
+    "existing_count": 637,
+    "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCu6Oj7L-dfVjv8jjGjXACbw",
+      "external_id": "UCu6Oj7L-dfVjv8jjGjXACbw",
+      "name": "DressageHub",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCu6Oj7L-dfVjv8jjGjXACbw",
+      "discovered_on": "2026-11-19",
+      "score": 72.62,
+      "metrics": {
+        "subscribers": 60300,
+        "total_views": 28859421,
+        "video_count": 1070,
+        "avg_views_per_video": 26971.42,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "fgEm33AlRYY",
+            "title": "My Experience With Pink Pony Peptides - Mindset Equestrian",
+            "description": "",
+            "published_at": "2026-11-18T23:45:12Z",
+            "url": "https://www.youtube.com/watch?v=fgEm33AlRYY"
+          }
+        ],
+        "channel_description": "Dressage Hub is your one-stop educational resource for everything you need to know about dressage! From riding to grooming to random tidbits and fun facts. We are here to have some fun and provide you with a great resource. If you don't find the answer to your questions in our library let us know and we will make you a video with the answers. Most of our experts are ready and available to respond to all of your questions so please feel free to post any further questions you might have. You can also check us out on Facebook https://www.facebook.com/DressageHub, Twitter @dressagehub and our blog at www.dressagehub.com.  340HFe",
+        "latest_video_at": "2026-11-18T23:45:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCUmIhsV-6XBgywBnMh1HiJw",
+      "external_id": "UCUmIhsV-6XBgywBnMh1HiJw",
+      "name": "Arthritis Channel",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCUmIhsV-6XBgywBnMh1HiJw",
+      "discovered_on": "2026-11-19",
+      "score": 67.8,
+      "metrics": {
+        "subscribers": 19900,
+        "total_views": 1202532,
+        "video_count": 87,
+        "avg_views_per_video": 13822.21,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "8L6bpMWxYNc",
+            "title": "A Cure for Osteoarthritis With This New Peptide?",
+            "description": "Can BPC-157 and TB-500—often called the \"Wolverine Protocol\"—actually repair knee cartilage and help you avoid surgery?",
+            "published_at": "2026-11-18T23:30:09Z",
+            "url": "https://www.youtube.com/watch?v=8L6bpMWxYNc"
+          }
+        ],
+        "channel_description": "Welcome to Arthritis Channel, a simple, trusted place to learn about osteoarthritis, arthritis, joint pain, and mobility.\n\nOn this channel, we break down research and practical joint health topics into clear, easy-to-follow videos, including:\n\nOsteoarthritis and arthritis\n\nKnee, hand, hip, and spine pain\n\nExercises and everyday habits that may support joint function\n\nFoods, recovery strategies, and mobility tips\n\nOur goal is to help you better understand joint health with straightforward, educational content based on current evidence.\n\n📌 Subscribe for weekly videos and share the channel with anyone looking for better information about arthritis, osteoarthritis, and joint pain.\n",
+        "latest_video_at": "2026-11-18T23:30:09Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCHP2wWIFhVeSoFEfkBV0n_w",
+      "external_id": "UCHP2wWIFhVeSoFEfkBV0n_w",
+      "name": "Ben Weitz, DC",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCHP2wWIFhVeSoFEfkBV0n_w",
+      "discovered_on": "2026-11-19",
+      "score": 61.05,
+      "metrics": {
+        "subscribers": 12400,
+        "total_views": 1409233,
+        "video_count": 1175,
+        "avg_views_per_video": 1199.35,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "lmbamsevy0U",
+            "title": "The Truth About Peptides with Dr. James LaValle | Rational Wellness Podcast 488",
+            "description": "",
+            "published_at": "2026-11-18T18:26:05Z",
+            "url": "https://www.youtube.com/watch?v=lmbamsevy0U"
+          }
+        ],
+        "channel_description": "The Rational Wellness podcast is the go-to podcast for practitioners + serious health optimizers and it brings you the cutting edge information on health and nutrition from the latest scientific research and by interviewing the top experts in the field. Dr. Ben Weitz is available for nutrition consultations specializing in Functional Gastrointestinal Disorders like IBS/SIBO and Reflux and also specializing in Cardiometabolic Risk Factors like elevated lipids, high blood sugar, and high blood pressure and also weight loss, as well as sports chiropractic work by calling his Santa Monica office 310-395-3111 or go to www.drweitz.com.",
+        "latest_video_at": "2026-11-18T18:26:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCpp9DlRArB1rKAWNwoouiTg",
+      "external_id": "UCpp9DlRArB1rKAWNwoouiTg",
+      "name": "Edward Park",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCpp9DlRArB1rKAWNwoouiTg",
+      "discovered_on": "2026-11-19",
+      "score": 57.22,
+      "metrics": {
+        "subscribers": 5000,
+        "total_views": 868168,
+        "video_count": 1187,
+        "avg_views_per_video": 731.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "8lwzrXUjK_I",
+            "title": "GLP-1s and Peptides: What Anti-Aging Medicine Has Known for Years",
+            "description": "GLP-1s and Peptides: What Anti-Aging Medicine Has Known for Years Description: GLP-1 medications and peptides are getting a ...",
+            "published_at": "2026-11-18T20:30:37Z",
+            "url": "https://www.youtube.com/watch?v=8lwzrXUjK_I"
+          }
+        ],
+        "channel_description": "Founded in 2008, Recharge Biomedical provides state-of-the-art telomerase activation in a personalized setting.\r\n\r\nThis technology was validated by the 2009 Nobel Prize in medicine as the true and only \"Fountain of Youth\" for all plants and animals on Planet Earth",
+        "latest_video_at": "2026-11-18T20:30:37Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCqhoQKceWggsC_fhfIJNveA",
+      "external_id": "UCqhoQKceWggsC_fhfIJNveA",
+      "name": "Helder Pinto",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCqhoQKceWggsC_fhfIJNveA",
+      "discovered_on": "2026-11-19",
+      "score": 54.01,
+      "metrics": {
+        "subscribers": 2000,
+        "total_views": 128580,
+        "video_count": 214,
+        "avg_views_per_video": 600.84,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "Pvx18l39VvE",
+            "title": "Curei o ombro com péptidos | @DrRodrigoAyoub · 3XE",
+            "description": "«Curei essa lesão com os péptidos.» Anos com dor no ombro por causa do jiu-jitsu. O Dr. Rodrigo Ayoub (@DrRodrigoAyoub) ...",
+            "published_at": "2026-11-18T17:03:30Z",
+            "url": "https://www.youtube.com/watch?v=Pvx18l39VvE"
+          }
+        ],
+        "channel_description": "Olá e sê bem vindo! Neste canal vais encontrar muito conteúdo sobre Marketing Digital e Negócios Online.\n\nAqui, vais poder assistir a vídeos tutoriais, partilha de conhecimento, entrevistas, podcasts e muito mais.\n",
+        "latest_video_at": "2026-11-18T17:03:30Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCugrzriYwsznmSdx2qhg5lQ",
       "external_id": "UCugrzriYwsznmSdx2qhg5lQ",
