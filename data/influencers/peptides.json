@@ -2,19 +2,118 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-19T10:25:25Z",
-  "new_this_run": 5,
-  "total_influencers": 642,
+  "updated_at": "2026-11-20T10:25:01Z",
+  "new_this_run": 2,
+  "total_influencers": 644,
   "run_summary": {
-    "run_started_at": "2026-11-19T10:25:07Z",
-    "candidate_count": 14,
-    "existing_count": 637,
-    "selected_new_count": 5,
+    "run_started_at": "2026-11-20T10:24:45Z",
+    "candidate_count": 8,
+    "existing_count": 642,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCMsq9YIJq7DboYhf0VVQjaw",
+      "external_id": "UCMsq9YIJq7DboYhf0VVQjaw",
+      "name": "Аксенова про Здоровье",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCMsq9YIJq7DboYhf0VVQjaw",
+      "discovered_on": "2026-11-20",
+      "score": 66.4,
+      "metrics": {
+        "subscribers": 3980,
+        "total_views": 1430139,
+        "video_count": 520,
+        "avg_views_per_video": 2750.27,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "dG76cLJK3NI",
+            "title": "BPC-157 и TB-500. Что известно на людях, без хайпа и страшилок",
+            "description": "Что мы на самом деле знаем про BPC-157 и TB-500? Разобрала честно, без хайпа и без страшилок 28 октября в США ...",
+            "published_at": "2026-11-19T18:00:15Z",
+            "url": "https://www.youtube.com/watch?v=dG76cLJK3NI"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "dG76cLJK3NI",
+            "title": "BPC-157 и TB-500. Что известно на людях, без хайпа и страшилок",
+            "description": "Что мы на самом деле знаем про BPC-157 и TB-500? Разобрала честно, без хайпа и без страшилок 28 октября в США ...",
+            "published_at": "2026-11-19T18:00:15Z",
+            "url": "https://www.youtube.com/watch?v=dG76cLJK3NI"
+          }
+        ],
+        "channel_description": "Я Юлия Аксенова, клинический психолог, нутрициолог и медицинский коуч.\n\nЯвляюсь сооснователем трех успешных медицинских бизнесов, которые помогают людям достичь своих целей в области здоровья и красоты:\n• косметологических препаратов VEC\n• генетической лаборатории Basis Genomic Group\n• Академии 5П медицины Глобал\n\n👉🏻 Помогу выстроить Систему Здоровья без ограничивающих диет и увеличить свою продуктивность на максимум\n👉🏻 Расскажу, как повысить уровень энергии, восстановить здоровье и добиться пожизненной стройности\n👉🏻 Покажу примеры, которые послужат для вас мотивацией и подтолкнут к действиям\n\nЗаряд энергии, индивидуально подобранная диета, здоровый сон, правильное питание, эффективные тренировки, методы релаксации, техники управления стрессом, личные истории успеха и многое другое. \n\nПодпишись на канал, чтобы выстроить Систему Здоровья  ⚖️ \n",
+        "latest_video_at": "2026-11-19T18:00:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCW5aWvx2agHm4cvjvBgJEbQ",
+      "external_id": "UCW5aWvx2agHm4cvjvBgJEbQ",
+      "name": "Live Oak Testosterone and Weight Loss",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCW5aWvx2agHm4cvjvBgJEbQ",
+      "discovered_on": "2026-11-20",
+      "score": 54.21,
+      "metrics": {
+        "subscribers": 2880,
+        "total_views": 663166,
+        "video_count": 1672,
+        "avg_views_per_video": 396.63,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "U1K_DNLWnOY",
+            "title": "When a Peptide Stack Works Against Itself",
+            "description": "Mason describes patients who show up with around ten peptides at a time, each picked for a different goal: growth hormone, ...",
+            "published_at": "2026-11-19T21:51:19Z",
+            "url": "https://www.youtube.com/watch?v=U1K_DNLWnOY"
+          }
+        ],
+        "channel_description": "Welcome to Live Oak Testosterone & Weight Loss, your trusted partner in health and wellness.\n\nWe talk openly about men’s and women’s hormones, testosterone replacement therapy (TRT), perimenopause, menopause, sexual health, and medical weight loss. We also cover nutrition, strength training, sleep, supplements, and the everyday habits that support long-term health.\n\nYou’ll find conversations with our clinical team, guest interviews, patient experiences, and answers to questions we hear in the clinic every day.\n\nOur goal is to help you understand your body, know your options, and feel more confident having conversations about your health.\n\nStronger Roots. Stronger You.\n\nLearn more: [liveoaktestosterone.com] telehealth coverage across texas, florida, iowa, idaho, colorado, and more soon!\n\nAt Live Oak, we’re here to help you optimize your vitality and live your best life. Subscribe now to stay informed, inspired, and on track with your health journey. Let’s grow stronger together!\n",
+        "latest_video_at": "2026-11-19T21:51:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCu6Oj7L-dfVjv8jjGjXACbw",
       "external_id": "UCu6Oj7L-dfVjv8jjGjXACbw",
