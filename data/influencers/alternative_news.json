@@ -2,19 +2,449 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-20T10:24:53Z",
-  "new_this_run": 4,
-  "total_influencers": 1231,
+  "updated_at": "2026-11-21T10:24:38Z",
+  "new_this_run": 10,
+  "total_influencers": 1241,
   "run_summary": {
-    "run_started_at": "2026-11-20T10:24:45Z",
-    "candidate_count": 12,
-    "existing_count": 1227,
-    "selected_new_count": 4,
+    "run_started_at": "2026-11-21T10:24:31Z",
+    "candidate_count": 18,
+    "existing_count": 1231,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC6eF0fuP_4yfC7kwjFFnxxQ",
+      "external_id": "UC6eF0fuP_4yfC7kwjFFnxxQ",
+      "name": "News Today With Sanjay Mishra",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC6eF0fuP_4yfC7kwjFFnxxQ",
+      "discovered_on": "2026-11-21",
+      "score": 70.34,
+      "metrics": {
+        "subscribers": 22000,
+        "total_views": 2758231,
+        "video_count": 71,
+        "avg_views_per_video": 38848.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "L2HU6Ut7BHI",
+            "title": "सलमान खान की नई फिल्म का सच! सेंसर बोर्ड का फैसला आया सामने 🚨 #salmankhan #censorboard #latest",
+            "description": "Salman Khan Maatrubhumi CBFC Update! सलमान खान की फिल्म 'मातृभूमि: May War Rest in Peace' को ...",
+            "published_at": "2026-11-20T18:24:50Z",
+            "url": "https://www.youtube.com/watch?v=L2HU6Ut7BHI"
+          }
+        ],
+        "channel_description": "न्यूज टुडे विद संजय मिश्र एक ऐसा चैनल जिसमें  खास खबर पर पक्षपात के बिना विश्लेषण होता है।  ।वो खबरें जिसका सरोकार आम जनता के हितों से जुड़ा हुआ हो उसे हम विशेष तौर पर स्थान देते हैं।राजनीतिक सामाजिक सांस्कृतिक मुद्दों पर खास निगाह भी रखी जायेगी।इसके अलावा फिल्मी जगत की हलचलों को भी दिखाया जायेगा।अपराध पर कैसे नियंत्रण रखा जाए और उसके लिए व्यवस्था को क्या ठोस उपाय करनी चाहिए उसे भी हम अपने चैनल में स्थान देंगे।बड़ी बड़ी हस्तियों से भी समसामयिक मुद्दों पर साक्षात्कार किया जायेगा।कारोबार जगत से जुडी खबरे भी होगी।कुलमिलाकर गागर में सागर भरने का प्रयास होगा।",
+        "latest_video_at": "2026-11-20T18:24:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCadyO2yTdjw6E-haEscMeGg",
+      "external_id": "UCadyO2yTdjw6E-haEscMeGg",
+      "name": "zigzag news ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCadyO2yTdjw6E-haEscMeGg",
+      "discovered_on": "2026-11-21",
+      "score": 69.32,
+      "metrics": {
+        "subscribers": 68300,
+        "total_views": 12791022,
+        "video_count": 2574,
+        "avg_views_per_video": 4969.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "dWoV8vEio7c",
+            "title": "Punjab Theatre Bill 2026 | Government Script Approval, Artist Registration &amp; Censorship Controversy",
+            "description": "Will theatre artists in Pakistan's Punjab province now need government approval before performing on stage? Can plays involving ...",
+            "published_at": "2026-11-21T06:39:16Z",
+            "url": "https://www.youtube.com/watch?v=dWoV8vEio7c"
+          }
+        ],
+        "channel_description": "ZigZag News Pakistan is a leading Urdu news channel delivering daily breaking news, current affairs, political analysis, and social issues from Pakistan and around the world.\n\nOur mission is to provide accurate, unbiased, and timely news updates in Urdu. We cover:\n- Breaking News\n- Pakistan Politics\n- International Affairs\n- Talk Shows & Analysis\n- Social Issues & Investigations\n\nInspired by the legacy of BBC Sairbeen, we aim to bring trusted journalism to the digital world.\n\nSubscribe now and stay informed with daily updates.\n\n#bbcsairbeen #zbcsairbeen #sairbeen  #zigzagnews   #urdunews  #pakistannews  #breakingnews  #currentaffairs2026 \n",
+        "latest_video_at": "2026-11-21T06:39:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCPvHjnk3mt4jrGSvQkUSBWA",
+      "external_id": "UCPvHjnk3mt4jrGSvQkUSBWA",
+      "name": "zugatv",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCPvHjnk3mt4jrGSvQkUSBWA",
+      "discovered_on": "2026-11-21",
+      "score": 68.25,
+      "metrics": {
+        "subscribers": 48200,
+        "total_views": 12916634,
+        "video_count": 2610,
+        "avg_views_per_video": 4948.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "FzBbvm82UJk",
+            "title": "PEDRO FRAZÃO EXPÕE CENSURA RELIGIOSA!",
+            "description": "Patrocínio Fovory:* Aproveita *10% de desconto* com o código: *ZUGATV* https://fovory.com/zugatv *Comunidade ...",
+            "published_at": "2026-11-20T22:00:29Z",
+            "url": "https://www.youtube.com/watch?v=FzBbvm82UJk"
+          }
+        ],
+        "channel_description": "Sem medo e sem filtro, podcasts e debates que incomodam.\n\n",
+        "latest_video_at": "2026-11-20T22:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCZvQDpPgOQiuzKyFcOJRvIA",
+      "external_id": "UCZvQDpPgOQiuzKyFcOJRvIA",
+      "name": "Navjivan",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCZvQDpPgOQiuzKyFcOJRvIA",
+      "discovered_on": "2026-11-21",
+      "score": 65.52,
+      "metrics": {
+        "subscribers": 26400,
+        "total_views": 9937428,
+        "video_count": 3043,
+        "avg_views_per_video": 3265.67,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "utkbcTOO_fs",
+            "title": "सेंसरशिप के खिलाफ हैदराबाद स्थित मेटा के ऑफिस में यूथ कांग्रेस का प्रदर्शन",
+            "description": "iyc #congress #censorship Subscribe to our channel: https://bit.ly/3NknRaE #News #HindiNews #LatestHindiNews #NewsInHindi ...",
+            "published_at": "2026-11-20T15:30:39Z",
+            "url": "https://www.youtube.com/watch?v=utkbcTOO_fs"
+          }
+        ],
+        "channel_description": "नवजीवन का मकसद साफ-सुथरी पत्रकारिता के साथ ही लोकतांत्रिक मूल्यों की रक्षा करना, लोगों की आवाज को जगह देना और अभिव्यक्ति की स्वतंत्रता को सुनिश्चित करना है।  नेशनल हेराल्ड के प्रकाशकों ने पहली नवंबर 1947 को दैनिक नवजीवन का प्रकाशन शुरु किया। इससे पहले नवजीवन नाम से एक अखबार महात्मा गांधी निकालते थे, इसलिए दैनिक नवजीवन का प्रकाशन शुरु करने से पहले उनकी अनुमति ली गयी, जिसे गांधी जी ने सहर्ष प्रदान कर दिया। \nदैनिक नवजीवन का प्रकाशन दि एसोसिएटेड जर्नल्स लिमिटेड कंपनी करती है और बदलते हालात और आधुनिक तकनीक के दौर में मजबूत डिजिटल उपस्थिति दर्ज कराने के लिए मल्टीमीडिया आउटलेट के साथ इसके डिजिटल और समाचार पत्र स्वरूप का फिर से प्रकाशिन शुरु हुआ है।",
+        "latest_video_at": "2026-11-20T15:30:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCVg0ul_tJm6uNvTmZxEtXJA",
+      "external_id": "UCVg0ul_tJm6uNvTmZxEtXJA",
+      "name": "KCRG-TV9: Your Trusted Local News Source",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCVg0ul_tJm6uNvTmZxEtXJA",
+      "discovered_on": "2026-11-21",
+      "score": 61.58,
+      "metrics": {
+        "subscribers": 24200,
+        "total_views": 17384479,
+        "video_count": 29036,
+        "avg_views_per_video": 598.72,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "JiiMVszgebw",
+            "title": "Former ISU women’s basketball players call for independent review of program",
+            "description": "Former ISU women's basketball players call for independent review of program For more Local News from KCRG: ...",
+            "published_at": "2026-11-21T01:54:28Z",
+            "url": "https://www.youtube.com/watch?v=JiiMVszgebw"
+          }
+        ],
+        "channel_description": "The latest videos and live streams from the KCRG-TV9 Newsroom.\n\nWe cover Eastern Iowa including Cedar Rapids, Iowa City, Waterloo and Dubuque.\n",
+        "latest_video_at": "2026-11-21T01:54:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCgG9Z50-3ZVY5igjpvEoV_w",
+      "external_id": "UCgG9Z50-3ZVY5igjpvEoV_w",
+      "name": "NULL AUF JETZT",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCgG9Z50-3ZVY5igjpvEoV_w",
+      "discovered_on": "2026-11-21",
+      "score": 59.57,
+      "metrics": {
+        "subscribers": 4160,
+        "total_views": 512602,
+        "video_count": 183,
+        "avg_views_per_video": 2801.1,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "STEEDXoVekk",
+            "title": "Sagst du noch offen was du denkst - oder wägst du jedes Wort vorher ab?",
+            "description": "Joyce Lopes ist freie Journalistin und Mitgründerin der Libertus Society. Sie beschäftigt sich mit gesellschaftlichen Werten, ...",
+            "published_at": "2026-11-20T13:00:15Z",
+            "url": "https://www.youtube.com/watch?v=STEEDXoVekk"
+          }
+        ],
+        "channel_description": "🎙️ VON NULL AUF JETZT\n​\nder schweizer Podcast, in dem die Geschichten und ehrliche Gespräche im Mittelpunkt stehen. Ob aussergewöhnliche Menschen, kreative Köpfe, Freidenker:innen, Abenteurer oder Unternehmer:innen – hier erzählen Menschen, was sie bewegt, antreibt und inspiriert. Echt, tiefgründig und authentisch. Dieses Format öffnet verschiedene Türen in Menschen, die durch ihre Erfahrungen und Entscheidungen bewegen – mutige Menschen, berührende Erlebnisse und lehrreiche Inhälte.\n​\n🌱 Tauche ein in emotionale Erzählungen, die Mut machen, Perspektiven öffnen und nachwirken.\n\n📌 Wenn du nach Mehrwert und Entschleunigung suchst, bereit bist, dich wieder auf Kontext einzulassen und hinter die Kulissen einzigartiger Lebenswege sowie mutiger Projekte blicken willst, bist du hier genau richtig.\n\n👤 Du hast selbst eine Geschichte zu erzählen? Dann melde dich – vielleicht sitzt du schon bald im Studio.\n\n📅 Wöchentlich neue Folgen – abonnieren nicht vergessen!\n",
+        "latest_video_at": "2026-11-20T13:00:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTOaxfwhEFYZ2RAFjgvxt5g",
+      "external_id": "UCTOaxfwhEFYZ2RAFjgvxt5g",
+      "name": "Bclippers",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCTOaxfwhEFYZ2RAFjgvxt5g",
+      "discovered_on": "2026-11-21",
+      "score": 56.91,
+      "metrics": {
+        "subscribers": 3390,
+        "total_views": 2765142,
+        "video_count": 2527,
+        "avg_views_per_video": 1094.24,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "VbSx-67R_64",
+            "title": "Pemilik Modal dan Pengiklan: Tuhan Lama di Media",
+            "description": "Dulu jurnalis hidup di bawah bayang-bayang pemilik modal dan pengiklan. Sekarang, sang pembuat konten punya Tuhan sendiri ...",
+            "published_at": "2026-11-21T02:00:26Z",
+            "url": "https://www.youtube.com/watch?v=VbSx-67R_64"
+          }
+        ],
+        "channel_description": "Channel ini menyajikan cuplikan terbaik dari berbagai podcast terkenal yang dirangkum secara singkat, menarik, dan informatif agar penonton bisa mendapatkan insight penting, hiburan, serta inspirasi tanpa harus menonton episode penuh.",
+        "latest_video_at": "2026-11-21T02:00:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCWHHwNEJE1oqxFdBNX9fYiQ",
+      "external_id": "UCWHHwNEJE1oqxFdBNX9fYiQ",
+      "name": "RankingRandomVids",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCWHHwNEJE1oqxFdBNX9fYiQ",
+      "discovered_on": "2026-11-21",
+      "score": 56.63,
+      "metrics": {
+        "subscribers": 2170,
+        "total_views": 1952261,
+        "video_count": 1085,
+        "avg_views_per_video": 1799.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "7FTDVc__PTI",
+            "title": "Why Digestibility Matters More Than Censorship #shorts",
+            "description": "Wanting to understand the world means piecing together fragments from the news—and recognizing the limits of what's known.",
+            "published_at": "2026-11-21T06:08:53Z",
+            "url": "https://www.youtube.com/watch?v=7FTDVc__PTI"
+          }
+        ],
+        "channel_description": "🎥Welcome to your daily dose of Ranking Random Clips\n\n😁Your In the Perfect spot for Random Funny Clips \n\n📭For Inquiries Please Contact -> Cool14528@gmail.com\n\n📌I credit all content creators I feature. I only Post Videos for which I have either purchased a license or secured permission from the owner! However, if I have accidentally used your material without your your consent or if you would like your video removed, I am more than willing to accommodate your request. Contact me directly at \nCool14528@gmail.com\n60B49B3A",
+        "latest_video_at": "2026-11-21T06:08:53Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCgbjvLk5OFa81KUqV3wPiQw",
+      "external_id": "UCgbjvLk5OFa81KUqV3wPiQw",
+      "name": "Radio-FREXIT",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCgbjvLk5OFa81KUqV3wPiQw",
+      "discovered_on": "2026-11-21",
+      "score": 56.57,
+      "metrics": {
+        "subscribers": 2470,
+        "total_views": 391709,
+        "video_count": 269,
+        "avg_views_per_video": 1456.17,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "RIshJj9ETTM",
+            "title": "CENSURE : Pourquoi C News et RT France ont été fermés ?",
+            "description": "Dans cet extrait, François Asselineau revient sur la pétition contre la fermeture de C News et la compare au cas de RT France.",
+            "published_at": "2026-11-20T12:30:46Z",
+            "url": "https://www.youtube.com/watch?v=RIshJj9ETTM"
+          }
+        ],
+        "channel_description": "Radio-FREXIT \npour une FRANCE indépendante et souveraine.\n\nNous sommes une équipe de bénévoles et militants qui présentons sur TIKTOK des personnalités qui donnent leur avis ou partage leur quotidien en relation ou pour le FREXIT.",
+        "latest_video_at": "2026-11-20T12:30:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC3tstWW4H_i6brn7L9XQkuA",
+      "external_id": "UC3tstWW4H_i6brn7L9XQkuA",
+      "name": "DR BODYBUILDER",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC3tstWW4H_i6brn7L9XQkuA",
+      "discovered_on": "2026-11-21",
+      "score": 55.5,
+      "metrics": {
+        "subscribers": 2420,
+        "total_views": 988630,
+        "video_count": 1081,
+        "avg_views_per_video": 914.55,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "6svBaqzJ3VI",
+            "title": "Liberdade Criativa: O Poder do Podcast na Mídia Independente #shorts",
+            "description": "Antigamente, a mídia era controlada por poucos. Hoje, plataformas como esta democratizaram a criação, permitindo que ...",
+            "published_at": "2026-11-20T22:55:47Z",
+            "url": "https://www.youtube.com/watch?v=6svBaqzJ3VI"
+          }
+        ],
+        "channel_description": "\"Dr. Bodybuilder é um canal de referência para atletas que buscam aprofundar seu conhecimento em áreas essenciais para o aprimoramento físico. Com vídeos educativos que exploram temas como bioquímica metabólica, farmacologia, fisiologia, treinamento, nutrição, suplementação e fisiculturismo, nosso objetivo é capacitar os praticantes a alcançarem seus objetivos com segurança e eficácia.\n\nMário Mattiacci, o mentor por trás do canal, traz uma bagagem única como Farmacêutico, Personal Trainer e Médico Veterinário, acumulando mais de 30 anos de experiência no universo do fisiculturismo e conquistando mais de 20 títulos ao longo de sua jornada.\n\nJuntos, transformamos os sonhos dos atletas em realidade, fornecendo insights valiosos e orientações práticas para maximizar seu potencial físico e alcançar o sucesso no mundo do fisiculturismo e do condicionamento atlético.\"\n",
+        "latest_video_at": "2026-11-20T22:55:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UC2-aO2LIZlb5jm10BtLgfoA",
       "external_id": "UC2-aO2LIZlb5jm10BtLgfoA",

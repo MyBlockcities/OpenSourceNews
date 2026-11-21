@@ -2,19 +2,118 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-20T10:25:01Z",
+  "updated_at": "2026-11-21T10:24:46Z",
   "new_this_run": 2,
-  "total_influencers": 644,
+  "total_influencers": 646,
   "run_summary": {
-    "run_started_at": "2026-11-20T10:24:45Z",
-    "candidate_count": 8,
-    "existing_count": 642,
+    "run_started_at": "2026-11-21T10:24:31Z",
+    "candidate_count": 12,
+    "existing_count": 644,
     "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCOK6Yy_ZByt9PzHakR3SP5Q",
+      "external_id": "UCOK6Yy_ZByt9PzHakR3SP5Q",
+      "name": "Pshop Team",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCOK6Yy_ZByt9PzHakR3SP5Q",
+      "discovered_on": "2026-11-21",
+      "score": 76.82,
+      "metrics": {
+        "subscribers": 29300,
+        "total_views": 24807506,
+        "video_count": 1213,
+        "avg_views_per_video": 20451.37,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157",
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "BQ-Il1IHGwk",
+            "title": "Как восстановить связки и сухожилия? | BPC-157 и TB-500: действие, эффективность и побочные эффекты",
+            "description": "Как ускорить восстановление после травм? Как гормон роста, тестостерон и другие препараты влияют на соединительную ...",
+            "published_at": "2026-11-20T13:01:34Z",
+            "url": "https://www.youtube.com/watch?v=BQ-Il1IHGwk"
+          },
+          {
+            "query": "TB-500 peptide",
+            "video_id": "BQ-Il1IHGwk",
+            "title": "Как восстановить связки и сухожилия? | BPC-157 и TB-500: действие, эффективность и побочные эффекты",
+            "description": "Как ускорить восстановление после травм? Как гормон роста, тестостерон и другие препараты влияют на соединительную ...",
+            "published_at": "2026-11-20T13:01:34Z",
+            "url": "https://www.youtube.com/watch?v=BQ-Il1IHGwk"
+          }
+        ],
+        "channel_description": "Pshop Team - команда топовых билдеров\n",
+        "latest_video_at": "2026-11-20T13:01:34Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC-gib5_Y_qJEZZ98WiS0PtQ",
+      "external_id": "UC-gib5_Y_qJEZZ98WiS0PtQ",
+      "name": "Health, Reframed with Joel Rosen, DC",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC-gib5_Y_qJEZZ98WiS0PtQ",
+      "discovered_on": "2026-11-21",
+      "score": 63.53,
+      "metrics": {
+        "subscribers": 18500,
+        "total_views": 1346627,
+        "video_count": 626,
+        "avg_views_per_video": 2151.16,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "T3_5pVmqUjo",
+            "title": "Can Peptides Help With Addiction? Why Sobriety Isn&#39;t Recovery",
+            "description": "Can peptides help with addiction? Samantha Lander has lived both sides of that question. She got sober from meth in 2006, ...",
+            "published_at": "2026-11-20T18:59:52Z",
+            "url": "https://www.youtube.com/watch?v=T3_5pVmqUjo"
+          }
+        ],
+        "channel_description": "Health, Reframed is about learning to think more clearly about health.\n\nI’m Joel Rosen, DC, a clinician and educator with 25+ years of experience, now an MD candidate, Class of 2027.\n\nMy journey has taken me through exercise physiology, psychology, chiropractic medicine, nutrition, genetics and nutrigenomics, metabolism, lifestyle and functional medicine—and back to medical school in my 50s.\n\nMedical school has given me another lens through which to examine what I’ve learned. Some ideas have held up. Some require more nuance. And some I see differently today.\n\nHere we’ll explore clinical medicine, physiology, metabolism, nutrition, genetics, research and emerging ideas, and the human side of health. I’ll also revisit earlier work and ask: Does it still hold up?\n\nThe goal is to ask better questions, follow the evidence, and be willing to change our thinking.\n\nHealth, Reframed. | Helping you think more clearly about health.\n\nHave a question? https://drjoelrosen.com/get-in-touch/\n\n\n",
+        "latest_video_at": "2026-11-20T18:59:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCMsq9YIJq7DboYhf0VVQjaw",
       "external_id": "UCMsq9YIJq7DboYhf0VVQjaw",

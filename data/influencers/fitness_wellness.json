@@ -2,19 +2,217 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-11-20T10:25:04Z",
-  "new_this_run": 13,
-  "total_influencers": 1972,
+  "updated_at": "2026-11-21T10:24:49Z",
+  "new_this_run": 6,
+  "total_influencers": 1978,
   "run_summary": {
-    "run_started_at": "2026-11-20T10:24:45Z",
-    "candidate_count": 47,
-    "existing_count": 1959,
-    "selected_new_count": 13,
+    "run_started_at": "2026-11-21T10:24:31Z",
+    "candidate_count": 42,
+    "existing_count": 1972,
+    "selected_new_count": 6,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC8wxRqbjdqDHgECGj9mSVAA",
+      "external_id": "UC8wxRqbjdqDHgECGj9mSVAA",
+      "name": "Lancôme",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC8wxRqbjdqDHgECGj9mSVAA",
+      "discovered_on": "2026-11-21",
+      "score": 73.1,
+      "metrics": {
+        "subscribers": 50800,
+        "total_views": 4145527,
+        "video_count": 97,
+        "avg_views_per_video": 42737.39,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "brfQcXx7Jnk",
+            "title": "How to Apply Absolue Longevity The Soft Cream | Lancôme Skincare",
+            "description": "Lancôme Absolue Longevity The Soft Cream is a plumping and regenerating face cream formulated to visibly extend skin's youth ...",
+            "published_at": "2026-11-20T17:14:21Z",
+            "url": "https://www.youtube.com/watch?v=brfQcXx7Jnk"
+          }
+        ],
+        "channel_description": "Optimism is a beautiful thing. This is where we share, reflect & empower, one inspiring story at a time.\n\n",
+        "latest_video_at": "2026-11-20T17:14:21Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCm9zdea0et93EavA2lUl5gA",
+      "external_id": "UCm9zdea0et93EavA2lUl5gA",
+      "name": "Edge 29 Chaos ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCm9zdea0et93EavA2lUl5gA",
+      "discovered_on": "2026-11-21",
+      "score": 60.63,
+      "metrics": {
+        "subscribers": 5760,
+        "total_views": 4143094,
+        "video_count": 1431,
+        "avg_views_per_video": 2895.24,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "3U6e4VYe9Js",
+            "title": "💪 Collagen Without the Taste! ☕ No Sugar, Easy Daily Wellness! #Collagen #Wellness",
+            "description": "COLLAGEN WITHOUT THE TASTE, SUGAR, OR FUSS! Looking for an easy way to add collagen to your daily wellness routine?",
+            "published_at": "2026-11-20T17:56:40Z",
+            "url": "https://www.youtube.com/watch?v=3U6e4VYe9Js"
+          }
+        ],
+        "channel_description": " Survival,Preparedness, & Homesteading Content Creator edge29chaos.com",
+        "latest_video_at": "2026-11-20T17:56:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:2710fd49591cccecb2b8",
+      "external_id": "2710fd49591cccecb2b8",
+      "name": "don't_wanna_be_stupid_any_more",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/jxEvGjPnCiT4LKHmp/if-you-had-faith-in-humanity-would-you-still-pray-to-a",
+      "discovered_on": "2026-11-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "If you had faith in humanity, would you still pray to a machine god?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:ceb40fa0b996eab023ca",
+      "external_id": "ceb40fa0b996eab023ca",
+      "name": "Pretentious Penguin",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/eLFyoqHX4kk6gE92j/how-likely-is-financial-market-skepticism-to-substantially",
+      "discovered_on": "2026-11-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "How likely is financial market skepticism to substantially delay ASI?"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d3ad74d726d50d378ee0",
+      "external_id": "d3ad74d726d50d378ee0",
+      "name": "Metacelsus",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/gfXkZaKzkkJuyYgzW/please-just-give-me-more-time",
+      "discovered_on": "2026-11-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Please just give me more time"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:cf3bae82dd7b7e06f964",
+      "external_id": "cf3bae82dd7b7e06f964",
+      "name": "Jack Lakkapragada",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/uwh7jnn4eaGj2jZsJ/a-behavioral-study-of-gemini-3-1-pro-during-an-ai-village-1",
+      "discovered_on": "2026-11-21",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "A Behavioral Study of Gemini 3.1 Pro During an AI Village Research Project"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCNEBUa29HdQkD-MTdVP9cCw",
       "external_id": "UCNEBUa29HdQkD-MTdVP9cCw",
