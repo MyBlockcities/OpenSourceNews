@@ -1,22 +1,22 @@
 {
   "frequency": {
     "ai_agents": 64,
-    "voice_agents": 3,
+    "voice_agents": 4,
     "coding_agents": 16,
-    "autonomous_agents": 1,
-    "real_estate_tech": 15,
+    "autonomous_agents": 2,
+    "real_estate_tech": 16,
     "tokenization": 7,
     "wholesaling": 0,
-    "3d_visualization": 7,
-    "blockchain_rwa": 29,
+    "3d_visualization": 8,
+    "blockchain_rwa": 30,
     "blockchain": 82,
     "wellness_research": 121,
-    "peptides": 68,
+    "peptides": 69,
     "longevity_research": 119,
-    "creator_economy": 156,
-    "educational_content": 54,
-    "open_source": 56,
-    "developer_tools": 28
+    "creator_economy": 154,
+    "educational_content": 51,
+    "open_source": 58,
+    "developer_tools": 29
   },
   "cooccurrence": [
     {
@@ -31,28 +31,28 @@
         "longevity_research",
         "peptides"
       ],
-      "count": 68
+      "count": 69
     },
     {
       "topics": [
         "peptides",
         "wellness_research"
       ],
-      "count": 68
+      "count": 69
     },
     {
       "topics": [
         "creator_economy",
         "educational_content"
       ],
-      "count": 54
+      "count": 51
     },
     {
       "topics": [
         "blockchain",
         "blockchain_rwa"
       ],
-      "count": 29
+      "count": 30
     },
     {
       "topics": [
@@ -64,30 +64,30 @@
     {
       "topics": [
         "ai_agents",
-        "open_source"
+        "creator_economy"
       ],
-      "count": 26
+      "count": 28
     },
     {
       "topics": [
         "ai_agents",
-        "creator_economy"
+        "open_source"
       ],
-      "count": 25
+      "count": 27
     },
     {
       "topics": [
         "blockchain",
         "creator_economy"
       ],
-      "count": 22
+      "count": 21
     },
     {
       "topics": [
         "ai_agents",
         "developer_tools"
       ],
-      "count": 17
+      "count": 18
     },
     {
       "topics": [
@@ -115,21 +115,21 @@
         "creator_economy",
         "developer_tools"
       ],
-      "count": 12
+      "count": 13
     },
     {
       "topics": [
         "developer_tools",
         "open_source"
       ],
-      "count": 12
+      "count": 13
     },
     {
       "topics": [
         "ai_agents",
         "educational_content"
       ],
-      "count": 12
+      "count": 13
     },
     {
       "topics": [
@@ -147,50 +147,50 @@
     },
     {
       "topics": [
-        "blockchain",
-        "educational_content"
+        "coding_agents",
+        "open_source"
       ],
       "count": 10
     },
     {
       "topics": [
-        "coding_agents",
-        "open_source"
+        "blockchain",
+        "educational_content"
       ],
       "count": 9
-    },
-    {
-      "topics": [
-        "educational_content",
-        "longevity_research"
-      ],
-      "count": 8
-    },
-    {
-      "topics": [
-        "educational_content",
-        "wellness_research"
-      ],
-      "count": 8
     },
     {
       "topics": [
         "developer_tools",
         "educational_content"
       ],
-      "count": 7
+      "count": 8
     },
     {
       "topics": [
         "3d_visualization",
         "real_estate_tech"
       ],
-      "count": 7
+      "count": 8
     },
     {
       "topics": [
         "coding_agents",
         "creator_economy"
+      ],
+      "count": 8
+    },
+    {
+      "topics": [
+        "coding_agents",
+        "developer_tools"
+      ],
+      "count": 7
+    },
+    {
+      "topics": [
+        "blockchain",
+        "real_estate_tech"
       ],
       "count": 7
     }
@@ -198,81 +198,69 @@
   "rising": [
     {
       "topic": "open_source",
-      "current": 56,
-      "previous": 52,
-      "delta": 4
+      "current": 58,
+      "previous": 56,
+      "delta": 2
     },
     {
-      "topic": "blockchain_rwa",
-      "current": 29,
-      "previous": 26,
-      "delta": 3
-    },
-    {
-      "topic": "wellness_research",
-      "current": 121,
-      "previous": 120,
+      "topic": "voice_agents",
+      "current": 4,
+      "previous": 3,
       "delta": 1
     },
     {
-      "topic": "longevity_research",
-      "current": 119,
-      "previous": 118,
+      "topic": "autonomous_agents",
+      "current": 2,
+      "previous": 1,
+      "delta": 1
+    },
+    {
+      "topic": "real_estate_tech",
+      "current": 16,
+      "previous": 15,
+      "delta": 1
+    },
+    {
+      "topic": "3d_visualization",
+      "current": 8,
+      "previous": 7,
+      "delta": 1
+    },
+    {
+      "topic": "blockchain_rwa",
+      "current": 30,
+      "previous": 29,
+      "delta": 1
+    },
+    {
+      "topic": "peptides",
+      "current": 69,
+      "previous": 68,
+      "delta": 1
+    },
+    {
+      "topic": "developer_tools",
+      "current": 29,
+      "previous": 28,
       "delta": 1
     }
   ],
   "cooling": [
     {
-      "topic": "ai_agents",
-      "current": 64,
-      "previous": 69,
-      "delta": -5
-    },
-    {
-      "topic": "creator_economy",
-      "current": 156,
-      "previous": 160,
-      "delta": -4
-    },
-    {
       "topic": "educational_content",
-      "current": 54,
-      "previous": 57,
+      "current": 51,
+      "previous": 54,
       "delta": -3
     },
     {
-      "topic": "autonomous_agents",
-      "current": 1,
-      "previous": 3,
+      "topic": "creator_economy",
+      "current": 154,
+      "previous": 156,
       "delta": -2
-    },
-    {
-      "topic": "real_estate_tech",
-      "current": 15,
-      "previous": 17,
-      "delta": -2
-    },
-    {
-      "topic": "3d_visualization",
-      "current": 7,
-      "previous": 9,
-      "delta": -2
-    },
-    {
-      "topic": "voice_agents",
-      "current": 3,
-      "previous": 4,
-      "delta": -1
-    },
-    {
-      "topic": "developer_tools",
-      "current": 28,
-      "previous": 29,
-      "delta": -1
     }
   ],
   "topic_count": 17,
   "schema_version": "topics.v1",
-  "report_date": "2026-11-21",
-  "generated_at": "2026-11-21T07:22:06Z"
+  "report_date": "2026-11-22",
+  "generated_at": "2026-11-22T07:22:21Z"
 }
