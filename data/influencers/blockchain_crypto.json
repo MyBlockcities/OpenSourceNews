@@ -2,19 +2,105 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "blockchain_crypto",
   "topic_label": "Blockchain and Crypto",
-  "updated_at": "2026-11-21T10:24:44Z",
+  "updated_at": "2026-11-22T10:24:40Z",
   "new_this_run": 2,
-  "total_influencers": 882,
+  "total_influencers": 884,
   "run_summary": {
-    "run_started_at": "2026-11-21T10:24:31Z",
-    "candidate_count": 40,
-    "existing_count": 880,
+    "run_started_at": "2026-11-22T10:24:27Z",
+    "candidate_count": 36,
+    "existing_count": 882,
     "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCHKqn0a5IIMfXg8nk_uEzBA",
+      "external_id": "UCHKqn0a5IIMfXg8nk_uEzBA",
+      "name": "GOLDDIGGERS CALL",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCHKqn0a5IIMfXg8nk_uEzBA",
+      "discovered_on": "2026-11-22",
+      "score": 51.02,
+      "metrics": {
+        "subscribers": 2130,
+        "total_views": 17985,
+        "video_count": 130,
+        "avg_views_per_video": 138.35,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "RWA tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "RWA tokenization",
+            "video_id": "4VPUG8uBwU4",
+            "title": "GOLDDIGGERS × TRUSTED SMART CHAIN (TSC) AMA RECAP",
+            "description": "Building the Future of Real-World Asset Tokenization On November 20, 2026, GoldDiggers Community hosted an engaging AMA ...",
+            "published_at": "2026-11-22T06:43:55Z",
+            "url": "https://www.youtube.com/watch?v=4VPUG8uBwU4"
+          }
+        ],
+        "channel_description": "We don't follow trends. We build them. \nWeb3 Incubator | DePIN • RWA • GameFi • AI\n100+ Projects. One Chain. Infinite upside.\nDYOR / NFA ",
+        "latest_video_at": "2026-11-22T06:43:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCu5AcCAJfKAQZ2GevJVvqew",
+      "external_id": "UCu5AcCAJfKAQZ2GevJVvqew",
+      "name": "TalkTickers: AI Podcast Discussing Earnings Calls",
+      "platform": "youtube",
+      "topic_key": "blockchain_crypto",
+      "topic_label": "Blockchain and Crypto",
+      "primary_url": "https://www.youtube.com/channel/UCu5AcCAJfKAQZ2GevJVvqew",
+      "discovered_on": "2026-11-22",
+      "score": 47.1,
+      "metrics": {
+        "subscribers": 2180,
+        "total_views": 165509,
+        "video_count": 7810,
+        "avg_views_per_video": 21.19,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "RWA tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "RWA tokenization",
+            "video_id": "i8bpAk2-vCQ",
+            "title": "OpenWorld (OPNW) Q3 2026 Earnings: RWA Revenue $6.4M, Net Loss $10.2M",
+            "description": "OpenWorld (Nasdaq: OPNW) reported third quarter 2026 results on November 12, 2026, its first quarter as a Nasdaq-listed ...",
+            "published_at": "2026-11-21T15:43:03Z",
+            "url": "https://www.youtube.com/watch?v=i8bpAk2-vCQ"
+          }
+        ],
+        "channel_description": "Welcome to the TalkTickers Podcast, your go-to AI-powered podcast for insightful reviews of the latest earnings calls from top companies. We break down complex financial data, executive discussions, and key business strategies, all through the lens of artificial intelligence. Whether you’re an investor, analyst, or simply curious about how companies are performing, TalkTickers offers clear, concise, and actionable insights into corporate earnings reports.\n\nStay ahead of the market with in-depth analysis, expert commentary, and AI-driven perspectives on the financial world. Subscribe for weekly episodes and never miss out on crucial earnings call highlights that impact your investment decisions.\n\nTune in and elevate your financial knowledge with TalkTickers!\n",
+        "latest_video_at": "2026-11-21T15:43:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCWjY3febHnZN6U0VjXaTylg",
       "external_id": "UCWjY3febHnZN6U0VjXaTylg",

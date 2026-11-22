@@ -2,19 +2,206 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-11-21T10:24:49Z",
-  "new_this_run": 6,
-  "total_influencers": 1978,
+  "updated_at": "2026-11-22T10:24:46Z",
+  "new_this_run": 5,
+  "total_influencers": 1983,
   "run_summary": {
-    "run_started_at": "2026-11-21T10:24:31Z",
-    "candidate_count": 42,
-    "existing_count": 1972,
-    "selected_new_count": 6,
+    "run_started_at": "2026-11-22T10:24:27Z",
+    "candidate_count": 45,
+    "existing_count": 1978,
+    "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCFJhfVdSuO4w5uIEwR8vjog",
+      "external_id": "UCFJhfVdSuO4w5uIEwR8vjog",
+      "name": "Chicago Arthritis",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCFJhfVdSuO4w5uIEwR8vjog",
+      "discovered_on": "2026-11-22",
+      "score": 60.38,
+      "metrics": {
+        "subscribers": 11400,
+        "total_views": 2059330,
+        "video_count": 2080,
+        "avg_views_per_video": 990.06,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "bk89BYPeD_c",
+            "title": "Peptides what they can and can&#39;t do",
+            "description": "Hearing a lot about peptides? Peptide therapy has gained attention, but the evidence varies widely depending on the specific ...",
+            "published_at": "2026-11-21T18:53:06Z",
+            "url": "https://www.youtube.com/watch?v=bk89BYPeD_c"
+          }
+        ],
+        "channel_description": "Siddharth Tambar MD is a physician at Chicago Arthritis and Regenerative Medicine, where the mission is to improve your pain and function, allowing you to do the activities you enjoy with the people you care about. \n\nThis is accomplished with various non surgical modalities to treat musculoskeletal and orthopedic conditions, including using your own blood and stem cells to treat arthritis, tendinitis, injuries, and back pain.\n#regenerativemedicine #prp #stemcells #prolotherapy #arthritis #tendinitis #injuries #backpain\n\n\nLearn more at:\nhttps://www.ChicagoArthritis.com/info",
+        "latest_video_at": "2026-11-21T18:53:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCgpnRnLTxB6j8e5kOuJS6qQ",
+      "external_id": "UCgpnRnLTxB6j8e5kOuJS6qQ",
+      "name": "NUSHAPE ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCgpnRnLTxB6j8e5kOuJS6qQ",
+      "discovered_on": "2026-11-22",
+      "score": 56.87,
+      "metrics": {
+        "subscribers": 3760,
+        "total_views": 503840,
+        "video_count": 216,
+        "avg_views_per_video": 2332.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "KsXhIwhJbSY",
+            "title": "CONSISTENCY MAKES WELLNESS STICK.",
+            "description": "BLACK FRIDAY SALE! 20% DISCOUNT in cart with CODE: NUBFCM20 Sleep. Movement. Hydration. Recovery. The habits that ...",
+            "published_at": "2026-11-19T16:00:27Z",
+            "url": "https://www.youtube.com/watch?v=KsXhIwhJbSY"
+          }
+        ],
+        "channel_description": "Near-infrared and red-light therapies provide a transformative at-home treatment with virtually no adverse side effects. Our red light therapy devices deliver energy to cells by applying a specific range of light wavelengths. Cells and tissues react to the therapies similarly to the way plants absorb light energy from the sun. Beneficial light rays (UV-free) stimulate the body's natural process of healing by building new proteins and regenerating cells to temporarily relieve arthritic, muscular, and joint pain, reduce inflammation and stiffness, and increase blood circulation for faster healing times. The therapies even cause lipolysis in fat cells, resulting in slimmer figures when combined with a healthy diet and exercise. Find out for yourself what our red light belts, red light pads, and other products can do for you!",
+        "latest_video_at": "2026-11-19T16:00:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1nHa3JD6E-ndhyCmNmK3rQ",
+      "external_id": "UC1nHa3JD6E-ndhyCmNmK3rQ",
+      "name": "NANDU GOHANIYA",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC1nHa3JD6E-ndhyCmNmK3rQ",
+      "discovered_on": "2026-11-22",
+      "score": 56.41,
+      "metrics": {
+        "subscribers": 3610,
+        "total_views": 1639469,
+        "video_count": 2056,
+        "avg_views_per_video": 797.41,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "nBmed3k5tWg",
+            "title": "Live… 4:30 am Daily DAY 04/35  COMMANDO FUNCTIONAL FITNESS  Commando Fitness Challenge  Chapter-2",
+            "description": "Live… 4:30 am Daily DAY 04/35 COMMANDO FUNCTIONAL FITNESS Commando Fitness Challenge CHAPTER 2 FORMER ...",
+            "published_at": "2026-11-21T12:02:46Z",
+            "url": "https://www.youtube.com/watch?v=nBmed3k5tWg"
+          }
+        ],
+        "channel_description": "Desi Fitness | Govt Job Discipline | \nFitness after  JOB |  ok Outdoor + Gym  | Hanuman Dand\n\nWelcome to NANDU GOHANIYA – \n “Ex-Delhi Police Commando (10 Years) | National Leval Athlete 100 Meter | Now Govt Teacher”\n\n\"बजरंगी बाबा का तोड़ नहीं\nऔर हरियाणा आला की होड़ नहीं\"\n\nThis channel is for REAL people with REAL responsibilities.\n\nI am Nandu Gohaniya:\n✔ Ex-Delhi Police (10 years service)\n✔ Govt Teacher\n✔ National Level Athlete (100m Race)\n✔ Fitness trainer with desi discipline\n\nHere you will learn:\n✔ Fitness after 30 & 35+\n✔ Workout with gym + Outdoor \n✔ Hanuman Dand & desi strength exercises\n✔ Fat loss + strength with job & family life\n✔ Discipline mindset for strong body & mind\n\nIf you are tired of excuses and want a strong, healthy life –\nthis channel is for you.\n\nYou are not my subscribers,\nyou are my YouTube family ❤️\n\nSubscribe & train with me.\nStay fit. Stay strong.\n\n@NANDUGOHANIYA",
+        "latest_video_at": "2026-11-21T12:02:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:b0cd327819944660dea9",
+      "external_id": "b0cd327819944660dea9",
+      "name": "Vincent Cheng",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/sgJrCMqguWoJqegbN/eval-awareness-remains-an-unsolved-problem",
+      "discovered_on": "2026-11-22",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/andonlabs"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Eval awareness remains an unsolved problem"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:4d99bc8f1af8a6847598",
+      "external_id": "4d99bc8f1af8a6847598",
+      "name": "Matthew Lowenstein",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/chCiZKcRZtndu58AD/the-obsolescence-of-the-horse-1",
+      "discovered_on": "2026-11-22",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Obsolescence of the Horse"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC8wxRqbjdqDHgECGj9mSVAA",
       "external_id": "UC8wxRqbjdqDHgECGj9mSVAA",
