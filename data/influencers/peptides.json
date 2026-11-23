@@ -2,19 +2,64 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-22T10:24:42Z",
-  "new_this_run": 6,
-  "total_influencers": 652,
+  "updated_at": "2026-11-23T10:26:28Z",
+  "new_this_run": 1,
+  "total_influencers": 653,
   "run_summary": {
-    "run_started_at": "2026-11-22T10:24:27Z",
-    "candidate_count": 11,
-    "existing_count": 646,
-    "selected_new_count": 6,
+    "run_started_at": "2026-11-23T10:26:11Z",
+    "candidate_count": 8,
+    "existing_count": 652,
+    "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCquz11NSgz62CdR7XI7astg",
+      "external_id": "UCquz11NSgz62CdR7XI7astg",
+      "name": "PT ZONE FITNESS GURUKUL",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCquz11NSgz62CdR7XI7astg",
+      "discovered_on": "2026-11-23",
+      "score": 60.68,
+      "metrics": {
+        "subscribers": 9250,
+        "total_views": 228375,
+        "video_count": 150,
+        "avg_views_per_video": 1522.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "zLhF86b52N4",
+            "title": "Shoot your questions on one of the amazing medical inventions GLP-1 the most advanced fatloss pep",
+            "description": "GLP-1: THE SCIENCE BEHIND A NEW ERA OF FAT LOSS GLP-1 is changing the conversation around obesity management ...",
+            "published_at": "2026-11-23T02:02:12Z",
+            "url": "https://www.youtube.com/watch?v=zLhF86b52N4"
+          }
+        ],
+        "channel_description": "“If you’re Indian and struggling with fat, hormones & discipline – this channel is for you.” Watch my videos and educate yourself to achieve your goals . Subscribe my channel and keep yourself updated on nutrition and training. What’s app me for joining my online consultation 9566906666",
+        "latest_video_at": "2026-11-23T02:02:12Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCbRRsEW2v-3-mEf9K8H_dIA",
       "external_id": "UCbRRsEW2v-3-mEf9K8H_dIA",

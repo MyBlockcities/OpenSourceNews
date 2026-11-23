@@ -2,19 +2,90 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-11-22T10:24:32Z",
-  "new_this_run": 1,
-  "total_influencers": 456,
+  "updated_at": "2026-11-23T10:26:17Z",
+  "new_this_run": 2,
+  "total_influencers": 458,
   "run_summary": {
-    "run_started_at": "2026-11-22T10:24:27Z",
+    "run_started_at": "2026-11-23T10:26:11Z",
     "candidate_count": 35,
-    "existing_count": 455,
-    "selected_new_count": 1,
+    "existing_count": 456,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC1HJhzhPvBUvcfjYeJX9iOg",
+      "external_id": "UC1HJhzhPvBUvcfjYeJX9iOg",
+      "name": "Monty Metzger",
+      "platform": "youtube",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.youtube.com/channel/UC1HJhzhPvBUvcfjYeJX9iOg",
+      "discovered_on": "2026-11-23",
+      "score": 60.13,
+      "metrics": {
+        "subscribers": 2080,
+        "total_views": 1938157,
+        "video_count": 203,
+        "avg_views_per_video": 9547.57,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "real estate tokenization"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "real estate tokenization",
+            "video_id": "nCkyH0fMzfY",
+            "title": "What If Everything You Own Could Move at the Speed of Light? 🚀",
+            "description": "What if ownership could move as fast as information? That's the power of tokenization. Real-world assets like real estate, gold, ...",
+            "published_at": "2026-11-23T08:58:20Z",
+            "url": "https://www.youtube.com/watch?v=nCkyH0fMzfY"
+          }
+        ],
+        "channel_description": "Monty C. M. Metzger is an investor and serial entrepreneur focused on tokenization and digital assets. \n\nAs founder of LCX and Toto Finance, he is building companies at the intersection of blockchain, capital markets and real-world assets.\n\nOn this channel, Monty shares keynotes, interviews, founder insights and ideas from his book, Tokenization: Capital for Humanity.\n\nTopics include tokenization, digital ownership, blockchain, commodities, capital markets and the technologies reshaping global finance.\n\nSubscribe for ideas, strategies and conversations about the next era of ownership.\n\n",
+        "latest_video_at": "2026-11-23T08:58:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:835e1a96298ad6e8da53",
+      "external_id": "835e1a96298ad6e8da53",
+      "name": "Cointelegraph by Michael Egorov",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://cointelegraph.com/opinion/future-onchain-fx-could-start-with-users-not-institutional-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "discovered_on": "2026-11-23",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "cointelegraph.com",
+        "feed_urls": [
+          "https://cointelegraph.com/rss"
+        ],
+        "sample_titles": [
+          "The future of onchain FX could start with users, not institutional liquidity"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCxsvnn8EDEaYJKdrlxFw2BA",
       "external_id": "UCxsvnn8EDEaYJKdrlxFw2BA",

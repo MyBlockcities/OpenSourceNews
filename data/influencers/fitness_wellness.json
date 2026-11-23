@@ -2,19 +2,161 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-11-22T10:24:46Z",
-  "new_this_run": 5,
-  "total_influencers": 1983,
+  "updated_at": "2026-11-23T10:26:31Z",
+  "new_this_run": 4,
+  "total_influencers": 1987,
   "run_summary": {
-    "run_started_at": "2026-11-22T10:24:27Z",
-    "candidate_count": 45,
-    "existing_count": 1978,
-    "selected_new_count": 5,
+    "run_started_at": "2026-11-23T10:26:11Z",
+    "candidate_count": 43,
+    "existing_count": 1983,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCe-0COYqKr8T0iFc-4hYoJw",
+      "external_id": "UCe-0COYqKr8T0iFc-4hYoJw",
+      "name": "Fit_grandma_lina",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCe-0COYqKr8T0iFc-4hYoJw",
+      "discovered_on": "2026-11-23",
+      "score": 74.66,
+      "metrics": {
+        "subscribers": 46300,
+        "total_views": 30038801,
+        "video_count": 129,
+        "avg_views_per_video": 232858.92,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "gB2v1QxoBlI",
+            "title": "I’m Lina ❤️",
+            "description": "Want to feel stronger, healthier, and more confident? I've been using the Simple app to build better habits and stay consistent with ...",
+            "published_at": "2026-11-22T20:19:47Z",
+            "url": "https://www.youtube.com/watch?v=gB2v1QxoBlI"
+          }
+        ],
+        "channel_description": "I'm 65, and I choose yoga over aging 🧘‍♂️\nSimple exercises for flexibility, a healthy back, and more energy.\nFollow along with me every day\n\n",
+        "latest_video_at": "2026-11-22T20:19:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCGzvFrBJgmcoZVi-zwDv8sA",
+      "external_id": "UCGzvFrBJgmcoZVi-zwDv8sA",
+      "name": "MIGZ DERULO - Music - Fitness - Style ",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCGzvFrBJgmcoZVi-zwDv8sA",
+      "discovered_on": "2026-11-23",
+      "score": 56.34,
+      "metrics": {
+        "subscribers": 6340,
+        "total_views": 3954342,
+        "video_count": 11286,
+        "avg_views_per_video": 350.38,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "DI7viij4Ncw",
+            "title": "Heavy DIY MACE Tick-Tock Pullover - Warrior Functional Training ",
+            "description": "Flow straight from the tick-tock pendulum swing into a powerful pullover. This combo blasts your lats, upper back, obliques, core, ...",
+            "published_at": "2026-11-22T22:24:18Z",
+            "url": "https://www.youtube.com/watch?v=DI7viij4Ncw"
+          }
+        ],
+        "channel_description": "Fitness After 50: Build Strength, Move Better, Get Jacked!\n- It's time to invest in yourself. Train smart, move well, and prove that fitness has no expiration date.\nAge is just a number, and your best shape is still ahead of you!🔥 Let me show you how, with my home fitness functional mobility workout videos that are designed specifically for the over 50 body, focussing on functional mobility, raw power, and lasting endurance. We don't just train to look good, we train to stay strong, agile and capable for life.\nUsing a variety of tools like:\n- Kettlebells\n- Dumbbells \n- Clubbells \n- Barbells\n- Resistance bands\n- We blend dynamic flows, complex sequences, and powerful compound movements to create the ultimate physique and performance.\nYou'll Gain:\nRaw Strength and Power - build muscle and density safely.\nMobility and Flexibility - keep joints healthy and movement pain free.\nCardio and Stamina - increase energy levels and recovery.\nThe Jacked Look - Sculpt and defined, athletic body.\n",
+        "latest_video_at": "2026-11-22T22:24:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:bbdb63c78ae58cbe6363",
+      "external_id": "bbdb63c78ae58cbe6363",
+      "name": "Michael C. Desch",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/ukraine/its-time-settle-russia",
+      "discovered_on": "2026-11-23",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "It’s Time to Settle With Russia"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8c3c3fa29a938cb7b55b",
+      "external_id": "8c3c3fa29a938cb7b55b",
+      "name": "Ben AI Safety",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/aYwCW8qYzMXxkeKJN/we-re-going-to-send-california-23-552-calls-to-delay",
+      "discovered_on": "2026-11-23",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "We’re Going to Send California 23,552 Calls To Delay Superintelligence"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCFJhfVdSuO4w5uIEwR8vjog",
       "external_id": "UCFJhfVdSuO4w5uIEwR8vjog",

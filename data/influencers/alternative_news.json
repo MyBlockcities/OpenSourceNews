@@ -2,19 +2,234 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-22T10:24:35Z",
-  "new_this_run": 10,
-  "total_influencers": 1251,
+  "updated_at": "2026-11-23T10:26:20Z",
+  "new_this_run": 5,
+  "total_influencers": 1256,
   "run_summary": {
-    "run_started_at": "2026-11-22T10:24:27Z",
-    "candidate_count": 18,
-    "existing_count": 1241,
-    "selected_new_count": 10,
+    "run_started_at": "2026-11-23T10:26:11Z",
+    "candidate_count": 12,
+    "existing_count": 1251,
+    "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UChkIaOH1WqQ76GVhVOWPWNA",
+      "external_id": "UChkIaOH1WqQ76GVhVOWPWNA",
+      "name": "Hassan Nassar",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UChkIaOH1WqQ76GVhVOWPWNA",
+      "discovered_on": "2026-11-23",
+      "score": 69.59,
+      "metrics": {
+        "subscribers": 40900,
+        "total_views": 1808442,
+        "video_count": 157,
+        "avg_views_per_video": 11518.74,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "kIv0ey3ubbs",
+            "title": "¿Periodistas independientes? #hassannassar",
+            "description": "",
+            "published_at": "2026-11-22T21:00:17Z",
+            "url": "https://www.youtube.com/watch?v=kIv0ey3ubbs"
+          }
+        ],
+        "channel_description": "Periodista | Analista político  | Colombia-Asuntos globales.\nAquí defendemos la democracia, la libertad económica. Cero demagogia y populismo.\n\nEditoriales de opinión, análisis en vivo y entrevistas sobre el Gobierno, el Congreso, la economía, la seguridad, la justicia y la política internacional que afecta a Colombia.\n\nEN VIVO: Lunes a jueves, 11:30 a. m. hora Colombia.\n\nSuscríbete y activa la campanita para no perderte ningún análisis.\n",
+        "latest_video_at": "2026-11-22T21:00:17Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCfzj8g1A04ksxyqW6rFy37w",
+      "external_id": "UCfzj8g1A04ksxyqW6rFy37w",
+      "name": "Vintage vault",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCfzj8g1A04ksxyqW6rFy37w",
+      "discovered_on": "2026-11-23",
+      "score": 66.87,
+      "metrics": {
+        "subscribers": 5400,
+        "total_views": 1737909,
+        "video_count": 31,
+        "avg_views_per_video": 56061.58,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "07uM_Cmq2bo",
+            "title": "Spartacus (1960): The Censored Scene Hollywood Hid for 31 Years",
+            "description": "Crassus is in his bath, talking to his new slave about oysters and snails. Then he turns around, and the slave is gone. Audiences ...",
+            "published_at": "2026-11-22T13:30:07Z",
+            "url": "https://www.youtube.com/watch?v=07uM_Cmq2bo"
+          }
+        ],
+        "channel_description": "Every classic movie has a story beyond the screen. Welcome to Vintage Vault, where we uncover the people, choices, and surprises behind old Hollywood.\n\nExplore movie facts, behind-the-scenes stories, forgotten films, and the lives of legendary actors. From memorable performances to scenes you may have missed, our countdowns and commentary take a fresh look at cinema’s golden years.\n\nWhether you grew up watching these films or are discovering them for the first time, there is always something waiting inside the vault.\n\nSubscribe to Vintage Vault. Open the vault. Rediscover the movies.\n\n",
+        "latest_video_at": "2026-11-22T13:30:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCSb3pHNzdGdGUVp6xWJFKRA",
+      "external_id": "UCSb3pHNzdGdGUVp6xWJFKRA",
+      "name": "The Conscious Radical",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCSb3pHNzdGdGUVp6xWJFKRA",
+      "discovered_on": "2026-11-23",
+      "score": 65.26,
+      "metrics": {
+        "subscribers": 18300,
+        "total_views": 903494,
+        "video_count": 187,
+        "avg_views_per_video": 4831.52,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "ofA5Kg8ckWE",
+            "title": "Alternative media runs on the same outrage",
+            "description": "New feed, new presenters, new villains, same business model. #alternativemedia #attentioneconomy #wakingup The Conscious ...",
+            "published_at": "2026-11-23T00:00:28Z",
+            "url": "https://www.youtube.com/watch?v=ofA5Kg8ckWE"
+          }
+        ],
+        "channel_description": "The Conscious Radical is where I explore the full texture of being human. I'm interested in myth, spirituality, politics, and ancient wisdom.  My brain seems wired to look for patterns in behaviour and understanding, and I am always searching for a common thread that weaves through everything, which will hopefully provide us with an individual and collective purpose.\n   \nI believe things can be better. Not in a naive way, but in a way that's grounded in what history, myth, and the human spirit have always shown us. Perhaps we will remember, at a deep soul level, what the ancient wisdoms and logic have always said, and that will help us make better choices together.  \n\nWhen I create something, such as writing mythical narratives, making content, exploring these ideas through different lenses, it may seem random and unconnected, but it's how I actually make sense of the world around me - and if it sparks something in you, even better.  \n\n",
+        "latest_video_at": "2026-11-23T00:00:28Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCr3k0EDFJrtOV9gs2nFzGwQ",
+      "external_id": "UCr3k0EDFJrtOV9gs2nFzGwQ",
+      "name": "TwitchGauchiste",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCr3k0EDFJrtOV9gs2nFzGwQ",
+      "discovered_on": "2026-11-23",
+      "score": 62.03,
+      "metrics": {
+        "subscribers": 5650,
+        "total_views": 1915203,
+        "video_count": 339,
+        "avg_views_per_video": 5649.57,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "PrIv15GtvnY",
+            "title": "Le fait qu’on soit des soutiens clairs de La FI qui pose problème",
+            "description": "Arcom : « J'ai l'impression que c'est le fait qu'on soit des soutiens clairs de La France Insoumise qui pose problème » « Y a des ...",
+            "published_at": "2026-11-23T10:10:15Z",
+            "url": "https://www.youtube.com/watch?v=PrIv15GtvnY"
+          }
+        ],
+        "channel_description": "🎙️ Média & lanceur d’alerte \n🧠 Analyses et extraits de discours d'extrême gauche sur Twitch\n",
+        "latest_video_at": "2026-11-23T10:10:15Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKHwhws0phvlpeewxNiHlXA",
+      "external_id": "UCKHwhws0phvlpeewxNiHlXA",
+      "name": "Real Lee Camp",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCKHwhws0phvlpeewxNiHlXA",
+      "discovered_on": "2026-11-23",
+      "score": 58.03,
+      "metrics": {
+        "subscribers": 2430,
+        "total_views": 148993,
+        "video_count": 51,
+        "avg_views_per_video": 2921.43,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "cZv-ue2vQQI",
+            "title": "Watch Western Media REVERSE Who The Victim Is!",
+            "description": "The mainstream narrative on Yemen exposes the gap between what independent media has been saying for years and what ...",
+            "published_at": "2026-11-22T21:02:20Z",
+            "url": "https://www.youtube.com/watch?v=cZv-ue2vQQI"
+          }
+        ],
+        "channel_description": "I'm one of the most censored comedians in America. This is my secondary YouTube channel. I was the host and head writer of the TV show \"Redacted Tonight\" for 8 years until it was shut down by US sanctions. Then all of the past episodes were banned by YouTube around the world. Next, my podcast was deleted by Spotify. My other channels are shadow-banned and suppressed—all because I'm anti-war and anti-imperialism. But I continue to livestream every Mon, Wed, & Friday. You can also find my podcasts now under the name \"The Lee Camp Show,\" \"Government Secrets,\" \"Moment of Clarity,\" and \"Common Censored.\" I will keep fighting. Please join me in the fight for a better world.",
+        "latest_video_at": "2026-11-22T21:02:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCAPAxz0YjaiJSGJfVAPZYYg",
       "external_id": "UCAPAxz0YjaiJSGJfVAPZYYg",
