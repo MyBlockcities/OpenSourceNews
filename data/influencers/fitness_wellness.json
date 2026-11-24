@@ -2,19 +2,378 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-11-23T10:26:31Z",
-  "new_this_run": 4,
-  "total_influencers": 1987,
+  "updated_at": "2026-11-24T10:24:59Z",
+  "new_this_run": 10,
+  "total_influencers": 1997,
   "run_summary": {
-    "run_started_at": "2026-11-23T10:26:11Z",
-    "candidate_count": 43,
-    "existing_count": 1983,
-    "selected_new_count": 4,
+    "run_started_at": "2026-11-24T10:24:39Z",
+    "candidate_count": 46,
+    "existing_count": 1987,
+    "selected_new_count": 10,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UClfbSj-gmJ5J02lAbMYAFkQ",
+      "external_id": "UClfbSj-gmJ5J02lAbMYAFkQ",
+      "name": "Albuquerque Journal",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UClfbSj-gmJ5J02lAbMYAFkQ",
+      "discovered_on": "2026-11-24",
+      "score": 64.66,
+      "metrics": {
+        "subscribers": 17400,
+        "total_views": 11000512,
+        "video_count": 2789,
+        "avg_views_per_video": 3944.25,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "T7hs10hyg3g",
+            "title": "Hormones, Testosterone, Peptides &amp; Wellness Q&amp;A",
+            "description": "Presented by Beyond Health Join host Kristi Fury for a special Q&A episode of Feel Better, Live Better as she answers common ...",
+            "published_at": "2026-11-23T14:06:05Z",
+            "url": "https://www.youtube.com/watch?v=T7hs10hyg3g"
+          }
+        ],
+        "channel_description": "Short or raw video from Albuquerque Journal photographers, reporters and sources",
+        "latest_video_at": "2026-11-23T14:06:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCP38o-lHWjwzaLibW302MUw",
+      "external_id": "UCP38o-lHWjwzaLibW302MUw",
+      "name": "Shapedepaidefamilia",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCP38o-lHWjwzaLibW302MUw",
+      "discovered_on": "2026-11-24",
+      "score": 63.76,
+      "metrics": {
+        "subscribers": 3550,
+        "total_views": 315010,
+        "video_count": 131,
+        "avg_views_per_video": 2404.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/reidospepsoficial"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "kQyrw2J1qAw",
+            "title": "Peptideos: A nova fronteira para saúde e bem-estar!",
+            "description": "INSTAGRAM: https://www.instagram.com/reidospepsoficial?igsh=cWZ0M3Z6NXQwM3Bt CONSULTORIA PREMIUM: ...",
+            "published_at": "2026-11-23T11:49:19Z",
+            "url": "https://www.youtube.com/watch?v=kQyrw2J1qAw"
+          }
+        ],
+        "channel_description": "Médico | Mentor | Empresário🇵🇾\nCONSULTORIA PREMIUM: atletas & não atletas\nFamília •Hombridade •Contra o sistema\nAqui eu te falo a real sem mimimi \n📲 FAÇA PARTE DO TIME agora👇🏻\n",
+        "latest_video_at": "2026-11-23T11:49:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCp2siS3ZqCKtPW-4N9W1WlQ",
+      "external_id": "UCp2siS3ZqCKtPW-4N9W1WlQ",
+      "name": "Lean Body Official",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCp2siS3ZqCKtPW-4N9W1WlQ",
+      "discovered_on": "2026-11-24",
+      "score": 63.74,
+      "metrics": {
+        "subscribers": 12900,
+        "total_views": 1098479,
+        "video_count": 281,
+        "avg_views_per_video": 3909.18,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "qp7rn0iHPvA",
+            "title": "I Changed My Training After 50: Here&#39;s What Worked",
+            "description": "Build muscle after 50 with smarter training techniques that improve your real-life strength and daily movement capacity.",
+            "published_at": "2026-11-23T21:58:40Z",
+            "url": "https://www.youtube.com/watch?v=qp7rn0iHPvA"
+          }
+        ],
+        "channel_description": "Lean Body® powered by Labrada Nutrition, the makers of the award-winning Lean Body® Protein supplements.\nLean Body® Protein Shakes can help you manage your weight by helping curb appetite and food cravings. The protein in Lean Body® can help you feel more full and satisfied. And when you feel satisfied, you're less likely to over-indulge in unhealthy snacks.\n\nLean Body® Protein Shakes also make it easy to reach your goals because they're convenient, and you can take them anywhere. After all, when it comes to shaping up, being prepared is half the battle. If you always have great nutrition at your fingertips, you'll be less tempted to hit those fast food drive-thrus on every corner. At home or on the go, Lean Body® Protein Shakes have you covered with high-protein, ready-made nutrition at your fingertips.\nwww.leanbody.com",
+        "latest_video_at": "2026-11-23T21:58:40Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCx55i1UnOUWHDc5l2IQKlag",
+      "external_id": "UCx55i1UnOUWHDc5l2IQKlag",
+      "name": "King TK The Great👑",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCx55i1UnOUWHDc5l2IQKlag",
+      "discovered_on": "2026-11-24",
+      "score": 56.77,
+      "metrics": {
+        "subscribers": 2920,
+        "total_views": 1935720,
+        "video_count": 1529,
+        "avg_views_per_video": 1266.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "TI9n0nEa2nI",
+            "title": "5 reasons why bodybuilding without functional is useless ⬇️⬇️⬇️",
+            "description": "5 REASONS BODYBUILDING WITHOUT FUNCTIONAL TRAINING IS USELESS ⬇️ Let's be honest: looking strong and being ...",
+            "published_at": "2026-11-23T23:11:36Z",
+            "url": "https://www.youtube.com/watch?v=TI9n0nEa2nI"
+          }
+        ],
+        "channel_description": "Build Muscle. Master Calisthenics.\n🌱 9 Years Vegan | Elite Performance\n👇 Unlock Your Infinite Potential",
+        "latest_video_at": "2026-11-23T23:11:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCQbDQWJbEgfHSkXvccsqx-Q",
+      "external_id": "UCQbDQWJbEgfHSkXvccsqx-Q",
+      "name": "Gainesville Health & Fitness",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCQbDQWJbEgfHSkXvccsqx-Q",
+      "discovered_on": "2026-11-24",
+      "score": 56.65,
+      "metrics": {
+        "subscribers": 3040,
+        "total_views": 1359084,
+        "video_count": 1204,
+        "avg_views_per_video": 1128.81,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "OJZUCVJvTok",
+            "title": "Move Better, Stronger and Faster Training at GHF&#39;s Indoor Functional Training Turf!",
+            "description": "gym #fitness #functionaltraining Step onto the indoor functional training turf at the Gainesville Health & Fitness (GHF) Main Center ...",
+            "published_at": "2026-11-23T14:12:59Z",
+            "url": "https://www.youtube.com/watch?v=OJZUCVJvTok"
+          }
+        ],
+        "channel_description": "With three convenient Gainesville locations, our gyms are staffed to give members like you the ultimate fitness experience along with personalized help and motivation. Subscribe to our channel and stay tuned to find out the latest information from Gainesville Health & Fitness Centers.",
+        "latest_video_at": "2026-11-23T14:12:59Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:227a85cfca189168d4de",
+      "external_id": "227a85cfca189168d4de",
+      "name": "Samantha Pease",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/wBTaEGxNTGAHxCcbD/weird-neurons-mimic-weird-data",
+      "discovered_on": "2026-11-24",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/Sauers_"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Weird Neurons Mimic Weird Data"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:7f000eb4ea22eee47d47",
+      "external_id": "7f000eb4ea22eee47d47",
+      "name": "Karim Sadjadpour",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/iran/paradox-iranian-power-sadjadpour",
+      "discovered_on": "2026-11-24",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Paradox of Iranian Power"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:7dd6b4f20300c9aace78",
+      "external_id": "7dd6b4f20300c9aace78",
+      "name": "Emily Kilcrease, Vivek Chilukuri",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/real-nvidia-scandal-kilcrease-chilukuri",
+      "discovered_on": "2026-11-24",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The Real Nvidia Scandal"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:d3c8a84dc0cd54c80e09",
+      "external_id": "d3c8a84dc0cd54c80e09",
+      "name": "Brad Taylor",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/ubceFEqT6bQWKyAWb/misguided-power-seeking",
+      "discovered_on": "2026-11-24",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Misguided power-seeking"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:72995135d6a50fd5bf1d",
+      "external_id": "72995135d6a50fd5bf1d",
+      "name": "AnnaSalamon",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/yCrcj28HdLt4yxT48/the-pythagorean-theorem-as-a-whole-with-its-own-character",
+      "discovered_on": "2026-11-24",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "The Pythagorean Theorem as a “whole,” with its own character"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCe-0COYqKr8T0iFc-4hYoJw",
       "external_id": "UCe-0COYqKr8T0iFc-4hYoJw",

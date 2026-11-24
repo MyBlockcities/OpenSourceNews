@@ -2,19 +2,379 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-23T10:26:28Z",
-  "new_this_run": 1,
-  "total_influencers": 653,
+  "updated_at": "2026-11-24T10:24:56Z",
+  "new_this_run": 8,
+  "total_influencers": 661,
   "run_summary": {
-    "run_started_at": "2026-11-23T10:26:11Z",
-    "candidate_count": 8,
-    "existing_count": 652,
-    "selected_new_count": 1,
+    "run_started_at": "2026-11-24T10:24:39Z",
+    "candidate_count": 13,
+    "existing_count": 653,
+    "selected_new_count": 8,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCMCz4CWFaKY8oCSTVGyDF3w",
+      "external_id": "UCMCz4CWFaKY8oCSTVGyDF3w",
+      "name": "Leah Stockton, MD | Surgical Oncologist",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCMCz4CWFaKY8oCSTVGyDF3w",
+      "discovered_on": "2026-11-24",
+      "score": 72.8,
+      "metrics": {
+        "subscribers": 34900,
+        "total_views": 5367485,
+        "video_count": 17,
+        "avg_views_per_video": 315734.41,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "vFyiGNQErbA",
+            "title": "The &quot;Biological Cost&quot; of Ozempic &amp; Weight Loss Peptides (Surgeon Explains)",
+            "description": "Two patients each lose 35 pounds on Ozempic, Zepbound, or GLP-1 weight-loss peptides—one clears fatty liver and gets ...",
+            "published_at": "2026-11-22T13:00:00Z",
+            "url": "https://www.youtube.com/watch?v=vFyiGNQErbA"
+          }
+        ],
+        "channel_description": "Clear, evidence-based answers about cancer, surgery, and the medical headlines patients see online.\n\nI'm Dr. Leah Stockton. I completed 7 years of general surgery residency including dedicated research time, and a 2-year fellowship in Complex General Surgical Oncology at Fox Chase Cancer Center. I am board-certified in both General Surgery and Complex General Surgical Oncology.\n\nI started this channel because the internet is full of confident, wrong answers about cancer and general medicine, and patients are making real decisions based on them. My goal is to provide evidence-supported facts directly from a physician across a wide variety of medical topics. Every video here cites its sources. When the evidence is unclear, I will say so. When I get something wrong, I will correct it on camera.\n\nThis channel is for general education, not medical advice, and does not create a doctor-patient relationship. Talk to your own physician about your specific situation.\n\nDocStockton.Com",
+        "latest_video_at": "2026-11-22T13:00:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCIhXdNT9Cr7hBTxRbRi9a2g",
+      "external_id": "UCIhXdNT9Cr7hBTxRbRi9a2g",
+      "name": "Dr. Cansu Şahin",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCIhXdNT9Cr7hBTxRbRi9a2g",
+      "discovered_on": "2026-11-24",
+      "score": 67.28,
+      "metrics": {
+        "subscribers": 12900,
+        "total_views": 3702137,
+        "video_count": 185,
+        "avg_views_per_video": 20011.55,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "sZXqZhWvL0U",
+            "title": "Longevity&#39;nin Yeni Trendi Peptitler: Gerçekler ve Riskler",
+            "description": "Peptitler gerçekten gençleşmeyi, kolajen üretimini, kas onarımını ve uzun yaşamı destekliyor mu? Bakır peptit, BPC-157, TB-500, ...",
+            "published_at": "2026-11-23T15:00:13Z",
+            "url": "https://www.youtube.com/watch?v=sZXqZhWvL0U"
+          }
+        ],
+        "channel_description": "Dermatoloji Uzmanı Dr. Cansu Şahin\nKozmetik dermatoloji, cilt hastalıkları, cilt bakımı, medikal estetik uygulamalar, cilt hastalıkları ile ilgili merak ettiklerinizi, doğru bilinen yanlışlar, uygulamalar, trendleri dermatolog gözünden anlatıyor.\nTanı ve tedavi amaçlı değildir. Bilgilendirme amaçlıdır. \n",
+        "latest_video_at": "2026-11-23T15:00:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCYIlTJbHsx5w1h_cUmZkA2w",
+      "external_id": "UCYIlTJbHsx5w1h_cUmZkA2w",
+      "name": "Matt Kaeberlein",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCYIlTJbHsx5w1h_cUmZkA2w",
+      "discovered_on": "2026-11-24",
+      "score": 66.74,
+      "metrics": {
+        "subscribers": 77800,
+        "total_views": 710553,
+        "video_count": 563,
+        "avg_views_per_video": 1262.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "ogon4cV6iFc",
+            "title": "GLP-1s Beyond Weight Loss: Benefits, Risks &amp; Who They May Help #shorts",
+            "description": "A conversation explores peptide categories, GLP-1 medications, potential benefits, evidence, sourcing, and treatment ...",
+            "published_at": "2026-11-24T00:01:41Z",
+            "url": "https://www.youtube.com/watch?v=ogon4cV6iFc"
+          }
+        ],
+        "channel_description": "What does the science really say about living longer and staying healthier as we age?\n\nOn Longevity Science, Matt Kaeberlein—professor, entrepreneur, and longtime leader in the field— explores the biology underlying human and animal healthspan and the interventions that might actually make a difference.\n\nFrom rapamycin and peptides to lifestyle, diagnostics, and emerging therapies like epigenetic reprogramming, this podcast separates signal from noise in a space often dominated by hype.\n\nNo shortcuts. No miracle cures. Just thoughtful conversations grounded in real science.\n\n",
+        "latest_video_at": "2026-11-24T00:01:41Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCdGToF1xI1AGOKgoMuV6Fuw",
+      "external_id": "UCdGToF1xI1AGOKgoMuV6Fuw",
+      "name": "Aditi Govitrikar",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCdGToF1xI1AGOKgoMuV6Fuw",
+      "discovered_on": "2026-11-24",
+      "score": 66.57,
+      "metrics": {
+        "subscribers": 38800,
+        "total_views": 1468097,
+        "video_count": 476,
+        "avg_views_per_video": 3084.24,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "A_aNOOqlW8k",
+            "title": "WHY DR MARCUS IS CAUTIOUS ABOUT PEPTIDES",
+            "description": "Anecdotes about recovery can travel faster than the evidence needed to assess a treatment. Dr. Marcus Ranney, a physician and ...",
+            "published_at": "2026-11-23T11:30:13Z",
+            "url": "https://www.youtube.com/watch?v=A_aNOOqlW8k"
+          }
+        ],
+        "channel_description": "Honest, in-depth conversations with the people worth listening to.\n\nThe Aditi Govitrikar Show is hosted by Dr. Aditi Govitrikar, Harvard-trained psychologist, MBBS doctor, actor and India's first Mrs. World. Every episode, she sits down with leaders, entrepreneurs, doctors, creators and people who've lived through something extraordinary — to talk about ambition, identity, health, reinvention, relationships and the real texture of a life well-lived.\n\nNot a highlight reel. Not a polished PR answer. The kind of conversation that actually makes you think differently.\nNew episodes every week. Subscribe and hit the bell so you never miss one.\n",
+        "latest_video_at": "2026-11-23T11:30:13Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCFGD6W1D27bliqGNhkwAhPg",
+      "external_id": "UCFGD6W1D27bliqGNhkwAhPg",
+      "name": "Super Healthy | د.أحمد الباجوري",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCFGD6W1D27bliqGNhkwAhPg",
+      "discovered_on": "2026-11-24",
+      "score": 65.22,
+      "metrics": {
+        "subscribers": 20900,
+        "total_views": 2607633,
+        "video_count": 663,
+        "avg_views_per_video": 3933.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "i56_Y_OUFC4",
+            "title": "مستقبل البيبتايد و ثورة العلاج القادم 🤔 ",
+            "description": "مستقبل البيبتايد و ثورة العلاج القادم دكتور أحمد الباجوري دكتور العلاج الطبيعي اخصائي التغذية العلاجية المعتمد من إنجلترا ...",
+            "published_at": "2026-11-23T19:27:50Z",
+            "url": "https://www.youtube.com/watch?v=i56_Y_OUFC4"
+          }
+        ],
+        "channel_description": "قناة مخصصة للتغذية العلاجية و التحكم في الوزن وتعزيز المناعة و الشفاء الذاتي. نقوم بنشر فيديوهات مفيدة ومثيرة للاهتمام أسبوعيًا، تحتوي على نصائح وأفكار تساعدك في الوصول إلى حياة صحية خالية من الأمراض بإذن الله. نحن نعتقد بأن الصحة الجيدة هي الأساس لحياة سعيدة ومستدامة، ولذلك نسعى جاهدين لتوفير محتوى مفيد وشيق يساعدك على تحسين نوعية حياتك. إشترك في قناتنا لتتعلم المزيد عن الصحة والغذاء وإعادة ضبط جسم الإنسان.\n channel is dedicated to therapeutic nutrition, weight management, immune system boost, and self-healing,  We publish informative and engaging videos on a weekly basis, packed with tips and ideas that will help you achieve a disease-free healthy lifestyle, God willing. We believe that good health is the foundation for a happy and sustainable life, and therefore, we strive to provide useful and exciting content that will help you improve the quality of your life. Subscribe to our channel to learn more about health, nutrition, and human body recalibration.\n",
+        "latest_video_at": "2026-11-23T19:27:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UClfbSj-gmJ5J02lAbMYAFkQ",
+      "external_id": "UClfbSj-gmJ5J02lAbMYAFkQ",
+      "name": "Albuquerque Journal",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UClfbSj-gmJ5J02lAbMYAFkQ",
+      "discovered_on": "2026-11-24",
+      "score": 64.66,
+      "metrics": {
+        "subscribers": 17400,
+        "total_views": 11000512,
+        "video_count": 2789,
+        "avg_views_per_video": 3944.25,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "T7hs10hyg3g",
+            "title": "Hormones, Testosterone, Peptides &amp; Wellness Q&amp;A",
+            "description": "Presented by Beyond Health Join host Kristi Fury for a special Q&A episode of Feel Better, Live Better as she answers common ...",
+            "published_at": "2026-11-23T14:06:05Z",
+            "url": "https://www.youtube.com/watch?v=T7hs10hyg3g"
+          }
+        ],
+        "channel_description": "Short or raw video from Albuquerque Journal photographers, reporters and sources",
+        "latest_video_at": "2026-11-23T14:06:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCMO5wP3UALUN832uwrwi4JA",
+      "external_id": "UCMO5wP3UALUN832uwrwi4JA",
+      "name": "Hüseyin Tüfekci",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCMO5wP3UALUN832uwrwi4JA",
+      "discovered_on": "2026-11-24",
+      "score": 63.47,
+      "metrics": {
+        "subscribers": 13100,
+        "total_views": 1865285,
+        "video_count": 551,
+        "avg_views_per_video": 3385.27,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "Dy3bzzZutFg",
+            "title": "Performans Artıran Peptitler: BPC-157 ve TB-500 Nedir?",
+            "description": "Merhaba ben Hüseyin Tüfekçi. Bu videomda size BPC 157 ve TB 500'ün anlattim. Bu iki peptidin vücut dokuları üzerindeki ...",
+            "published_at": "2026-11-23T17:00:20Z",
+            "url": "https://www.youtube.com/watch?v=Dy3bzzZutFg"
+          }
+        ],
+        "channel_description": "Merhaba ben Hüseyin Tüfekci , bu kanalda steroidlerin yararlarını , steroidlerin zararları 'nı , vücut geliştirme ve steroidlerin ilişkisini , steroidlerin nasıl kullanılması gerektiğini ve vücut geliştirme ile ilgili detaylı ve eğlenceli videolar bulabilirsiniz.\n________________________\nKatıl Butonu Üzerinden ;\n-Antrenman Programı\n-Beslenme Programı\n-Kür Programı\nSatın Alabilirsiniz\n________________________\nYüklenen videolardan anında haberdar olmak için bildirimleri unutmayın!\n________________________\nYeni Videolardan Anında Haberdar Olmak İçin Abone Ol;\n\nhttps://bit.ly/3B7nCJr\n\n🌐SOSYAL MEDYA HESAPLARIM\n\nInstagram 👉 vucudunugelistirr\nAjans Instagram : kaviaproduction\n",
+        "latest_video_at": "2026-11-23T17:00:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCA-yoRYm8G4-PIGlzr0Z7ZQ",
+      "external_id": "UCA-yoRYm8G4-PIGlzr0Z7ZQ",
+      "name": "Hunter Williams Clips",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCA-yoRYm8G4-PIGlzr0Z7ZQ",
+      "discovered_on": "2026-11-24",
+      "score": 48.59,
+      "metrics": {
+        "subscribers": 32600,
+        "total_views": 0,
+        "video_count": 3,
+        "avg_views_per_video": 0.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "wcXZJw6drlk",
+            "title": "Your GLP-1 Isn&#39;t Causing Your Hair Loss",
+            "description": "This is one question I get all the time: why are people losing hair on a GLP-1? Here's what's actually going on. From: Peptide Q&A ...",
+            "published_at": "2026-11-24T00:00:05Z",
+            "url": "https://www.youtube.com/watch?v=wcXZJw6drlk"
+          }
+        ],
+        "channel_description": "Short clips from The Hunter Williams Podcast.\n\nThe best moments from my long-form conversations on hormones, metabolism, recovery, longevity and the research behind them. Every clip links back to the full episode.\n\nFull episodes: @TheHunterWilliamsPodcast\n\nNew clips every week.\n\nNothing on this channel is medical advice. Talk to your doctor before changing anything about your health.\n",
+        "latest_video_at": "2026-11-24T00:00:05Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCquz11NSgz62CdR7XI7astg",
       "external_id": "UCquz11NSgz62CdR7XI7astg",

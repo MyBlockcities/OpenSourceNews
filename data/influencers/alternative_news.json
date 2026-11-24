@@ -2,19 +2,492 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-23T10:26:20Z",
-  "new_this_run": 5,
-  "total_influencers": 1256,
+  "updated_at": "2026-11-24T10:24:47Z",
+  "new_this_run": 11,
+  "total_influencers": 1267,
   "run_summary": {
-    "run_started_at": "2026-11-23T10:26:11Z",
-    "candidate_count": 12,
-    "existing_count": 1251,
-    "selected_new_count": 5,
+    "run_started_at": "2026-11-24T10:24:39Z",
+    "candidate_count": 16,
+    "existing_count": 1256,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCl151EKoGRYDRjR2M78iobQ",
+      "external_id": "UCl151EKoGRYDRjR2M78iobQ",
+      "name": "Chivda Chivdi",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCl151EKoGRYDRjR2M78iobQ",
+      "discovered_on": "2026-11-24",
+      "score": 69.61,
+      "metrics": {
+        "subscribers": 24900,
+        "total_views": 14558240,
+        "video_count": 626,
+        "avg_views_per_video": 23255.97,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "6jsQKCtm2_4",
+            "title": "निष्पक्ष पत्रकारिता म्हणजे काय? खरे पत्रकार कोण? | Media Bias #shorts",
+            "description": "निष्पक्ष पत्रकारितेचे उत्तम उदाहरण नेमकं कोणतं? पत्रकारांनी ...",
+            "published_at": "2026-11-24T05:30:16Z",
+            "url": "https://www.youtube.com/watch?v=6jsQKCtm2_4"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-24T05:30:16Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCpiE7cyax5iZcL_3Jo84njg",
+      "external_id": "UCpiE7cyax5iZcL_3Jo84njg",
+      "name": "Shorties",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCpiE7cyax5iZcL_3Jo84njg",
+      "discovered_on": "2026-11-24",
+      "score": 68.94,
+      "metrics": {
+        "subscribers": 10800,
+        "total_views": 9575239,
+        "video_count": 174,
+        "avg_views_per_video": 55030.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "eA7lx8O2Dl4",
+            "title": "GTA 6 Censorship Controversy: Is Everyone Missing the Point? #shorts",
+            "description": "Is GTA 6 being censored, or could Rockstar be thinking ahead? Viral claims about protected characters have sparked debate over ...",
+            "published_at": "2026-11-23T16:14:25Z",
+            "url": "https://www.youtube.com/watch?v=eA7lx8O2Dl4"
+          }
+        ],
+        "channel_description": "your source for viral news",
+        "latest_video_at": "2026-11-23T16:14:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC6ELAautipgIhZkMKaQrFxg",
+      "external_id": "UC6ELAautipgIhZkMKaQrFxg",
+      "name": "사선하이킥tv",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC6ELAautipgIhZkMKaQrFxg",
+      "discovered_on": "2026-11-24",
+      "score": 67.89,
+      "metrics": {
+        "subscribers": 32100,
+        "total_views": 8673302,
+        "video_count": 1172,
+        "avg_views_per_video": 7400.43,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "V17GHrnXuKU",
+            "title": "네이버 언론통제",
+            "description": "정부가 네이버 등 포털의 뉴스제휴 심사에 부당하게 개입해 비판 언론사를 퇴출시킨다면? 이는 헌법 제21조가 보장하는 언론의 자유 ...",
+            "published_at": "2026-11-23T16:25:57Z",
+            "url": "https://www.youtube.com/watch?v=V17GHrnXuKU"
+          }
+        ],
+        "channel_description": "보수우파의 시선으로, 정치 뉴비도 이해할 수 있게 대한민국 정치를 풀어드립니다.\n\n사선하이킥TV는 30년 가까이 정치를 지켜본 경험과 법학적 관점을 바탕으로 정치 현안을 쉽고 논리적으로 해설하는 보수 정치 채널입니다.\n\n민주당의 정책·입법·선거 전략을 팩트와 법·제도를 기준으로 검증합니다. \n보수 정치권의 잘못 역시 같은 기준으로 따져 묻겠습니다.\n\n법치·안보·경제·선거·표현의 자유를 중심으로 라이브, 쇼츠, 칼럼을 제작합니다. 확인된 사실과 해석을 구분하고, 선동보다 근거를, 진영논리보다 원칙을, 맹목적인 지지보다 책임정치를 지향합니다.\n\n대한민국 정치가 왜 이렇게 돌아가는지 답답하셨습니까?\n정치가 이해되지 않을 때 사선하이킥TV 라이브에서 언제든 질문해 주십시오.\n\n제보 및 문의: [4sunjebo@gmail.com](mailto:4sunjebo@gmail.com)\n                       카카오톡: 4sunkick\n\n※ 제보하실 때 관련 자료와 구체적인 사실관계를 함께 보내주시면 검토에 도움이 됩니다.\n\n",
+        "latest_video_at": "2026-11-23T16:25:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCyjwiuipNxhEEEH3EBhpdVQ",
+      "external_id": "UCyjwiuipNxhEEEH3EBhpdVQ",
+      "name": "Resham Kumar",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCyjwiuipNxhEEEH3EBhpdVQ",
+      "discovered_on": "2026-11-24",
+      "score": 66.53,
+      "metrics": {
+        "subscribers": 3190,
+        "total_views": 3999549,
+        "video_count": 34,
+        "avg_views_per_video": 117633.79,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "MVV5yQjLnas",
+            "title": "Meghan Markle &amp; Prince Harry&#39;s DIRTY DEAL BACKFIRES! ITV This Morning Censorship BOMBSHELL!",
+            "description": "",
+            "published_at": "2026-11-23T11:18:06Z",
+            "url": "https://www.youtube.com/watch?v=MVV5yQjLnas"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-23T11:18:06Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCzfaD-lL0qx-374AqRw1pmw",
+      "external_id": "UCzfaD-lL0qx-374AqRw1pmw",
+      "name": "Brit Bird Rants",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCzfaD-lL0qx-374AqRw1pmw",
+      "discovered_on": "2026-11-24",
+      "score": 66.44,
+      "metrics": {
+        "subscribers": 15600,
+        "total_views": 1726881,
+        "video_count": 166,
+        "avg_views_per_video": 10402.9,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "WXzr7tHAf38",
+            "title": "Russell Brand CENSORSHIP Row: DENSE Labour MP DESTROYED by 22-Year-Old LIVE ON TV!",
+            "description": "Free speech is under pressure as we examine the latest clashes over incitement of hatred and what they mean for our rights.",
+            "published_at": "2026-11-23T19:00:27Z",
+            "url": "https://www.youtube.com/watch?v=WXzr7tHAf38"
+          }
+        ],
+        "channel_description": "🇬🇧 UK News, British Politics & Royal Family  - Unfiltered Commentary 👑\n\nHave you got a story? Email hello@britbirdrants.com\n\nFrom breaking UK news and Royal Family news - Meghan Markle, King Charles, Prince William, Prince Harry - to Westminster scandals, Reform UK, NHS failures and Parliament, I tell it EXACTLY how it is!\n\n‼️ Expect daily rants on UK politics, Royal drama and major UK news: Labour U-turns, Reform UK's rise, Royal fallouts and the establishment closing ranks. New videos daily on UK news today, British news and current affairs.\n\nWhether it's a Royal feud , a Westminster cover-up  or breaking news - 100% accountability!\n\nSubscribe 🔔 so you never miss a show!\n\n⚠️ DISCLAIMER\nThis channel presents commentary and opinion based on publicly available information. All views expressed are those of the commentator and do not constitute legal, financial, or professional advice. Clips and footage are used for the purposes of commentary and criticism under fair dealing provisions.\n\n",
+        "latest_video_at": "2026-11-23T19:00:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCK_xVrQQGeqrN-BH8j1I4Jw",
+      "external_id": "UCK_xVrQQGeqrN-BH8j1I4Jw",
+      "name": "KTAL News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCK_xVrQQGeqrN-BH8j1I4Jw",
+      "discovered_on": "2026-11-24",
+      "score": 64.06,
+      "metrics": {
+        "subscribers": 44500,
+        "total_views": 31986556,
+        "video_count": 39892,
+        "avg_views_per_video": 801.83,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "Wj61w6-5YIA",
+            "title": "Eli Manning named no. 3 on Independence Bowl top 50 all-time team",
+            "description": "Eli Manning named no. 3 on Independence Bowl top 50 all-time team.",
+            "published_at": "2026-11-24T00:00:36Z",
+            "url": "https://www.youtube.com/watch?v=Wj61w6-5YIA"
+          }
+        ],
+        "channel_description": "KTALnews.com brings you breaking news, weather, sports, and events provided by NBC 6, FOX 33, and KSHV 45. Get more at KTALnews.com.",
+        "latest_video_at": "2026-11-24T00:00:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqSQ95qd_bBEiR0LlMuEXiQ",
+      "external_id": "UCqSQ95qd_bBEiR0LlMuEXiQ",
+      "name": "Agencia de Insistencia",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCqSQ95qd_bBEiR0LlMuEXiQ",
+      "discovered_on": "2026-11-24",
+      "score": 62.67,
+      "metrics": {
+        "subscribers": 7870,
+        "total_views": 985561,
+        "video_count": 206,
+        "avg_views_per_video": 4784.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "9llUhC6s1vk",
+            "title": "Sanciones europeas sin juicio: la nueva censura",
+            "description": "MATRICULACIÓN ABIERTA para mi curso “EL ALMA RUSA: HISTORIA, CULTURA Y DESTINO” (inicio 28 de octubre 2026) ...",
+            "published_at": "2026-11-23T15:09:24Z",
+            "url": "https://www.youtube.com/watch?v=9llUhC6s1vk"
+          }
+        ],
+        "channel_description": "Me llamo Máximo Décimo Meridio. Comandante de los Ejércitos del Norte, General de las Legiones Félix y fiel servidor del verdadero emperador Marco Aurelio. Y juro que me vengaré, en esta vida o en la otra. \n\nSoy Jinete de Gengis Jan, conquistador con Cortés, navegante con Magallanes, arcabucero de los Tercios, cosaco del Don, húsar alado de Polonia, granadero de Napoleón, guerrillero español, tuareg del Sáhara y montañés afgano. \n\nEn mi pluriempleo he sido Hoplita de Esparta, legionario de César, arquero parto, catafracto persa, druida de la Galia, sacerdote de Amón, monje de Constantinopla, templario de Jerusalén, almogávar, jenízaro y samurái sin señor. \n\nHe servido a emperadores, zares, janes, califas, sultanes y shogunes; he cruzado el Rubicón, el Danubio, el Éufrates y el Indo. He derribado imperios y he levantado otros muchos. \n\nEn definitiva, soy guerrero, monje, conquistador, peregrino, explorador y, todos los días por la tarde, soy analista geopolítico independiente. ¡Vamos!\n",
+        "latest_video_at": "2026-11-23T15:09:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCd4klwu5GalBnu_23Q5xqcw",
+      "external_id": "UCd4klwu5GalBnu_23Q5xqcw",
+      "name": "Play flicKs",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCd4klwu5GalBnu_23Q5xqcw",
+      "discovered_on": "2026-11-24",
+      "score": 58.71,
+      "metrics": {
+        "subscribers": 2240,
+        "total_views": 1676042,
+        "video_count": 374,
+        "avg_views_per_video": 4481.4,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "k6VjgRK5Y3g",
+            "title": "GTA 6 Censorship News",
+            "description": "Japan will receive a censored version of GTA 6, and there are concerns about missing content in other regions as well. #GTA6 ...",
+            "published_at": "2026-11-24T06:50:44Z",
+            "url": "https://www.youtube.com/watch?v=k6VjgRK5Y3g"
+          }
+        ],
+        "channel_description": "🎬 WELCOME TO PLAY FLICKS \n\nPlay Flicks is your destination for Gaming, Movies & Entertainment.\n\nDiscover exciting gaming moments, iconic movie scenes, action-packed content, superhero moments, trending entertainment and much more — all in one place.\n\n🔥 What You’ll Find Here :\n• Gaming & Epic Gameplay\n• Movies & Iconic Moments\n• Action & Superhero Content\n• Trending Entertainment\n• Fun, Exciting & Viral Moments\n\n🎯 Gaming | Movies | Entertainment\n\nSubscribe to Play Flicks and stay connected with the latest entertainment. 🚀\n\n⚡ New content. Epic moments. Endless entertainment.\n\n\n",
+        "latest_video_at": "2026-11-24T06:50:44Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCBVB8Gg0uNigoaXAPAkv_wA",
+      "external_id": "UCBVB8Gg0uNigoaXAPAkv_wA",
+      "name": "ENFOQUE TEVÉ 360",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCBVB8Gg0uNigoaXAPAkv_wA",
+      "discovered_on": "2026-11-24",
+      "score": 58.42,
+      "metrics": {
+        "subscribers": 6650,
+        "total_views": 5528372,
+        "video_count": 6475,
+        "avg_views_per_video": 853.8,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "se0tk9CxnLk",
+            "title": "¿Censura para Petro? Resurge video de Abelardo hablando de sacar al presidente del poder",
+            "description": "Política || ➡ La solicitud del MinTIC a la red social X para suspender la cuenta de Gustavo Petro desató un debate sobre ...",
+            "published_at": "2026-11-23T17:57:57Z",
+            "url": "https://www.youtube.com/watch?v=se0tk9CxnLk"
+          }
+        ],
+        "channel_description": "Enfoque Teve es un medio de comunicación de la ciudad de Ibagué y el departamento del Tolima, con la más amplia información del ámbito político, social, y judicial. Sigue la información de Enfoque TeVe a través de nuestro canal en YouTube",
+        "latest_video_at": "2026-11-23T17:57:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqnUZeOZgRe7z6ahOhELrjA",
+      "external_id": "UCqnUZeOZgRe7z6ahOhELrjA",
+      "name": "Jon Justice ",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCqnUZeOZgRe7z6ahOhELrjA",
+      "discovered_on": "2026-11-24",
+      "score": 56.04,
+      "metrics": {
+        "subscribers": 5170,
+        "total_views": 827281,
+        "video_count": 2039,
+        "avg_views_per_video": 405.73,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "muE9bvjqjkM",
+            "title": "The Rise of Independent Investigative Journalism",
+            "description": "A new generation of independent journalists is changing how Americans get their news.",
+            "published_at": "2026-11-23T22:04:46Z",
+            "url": "https://www.youtube.com/watch?v=muE9bvjqjkM"
+          }
+        ],
+        "channel_description": "Talk personality and author, Jon Justice: Politics, Pop Culture, Star Wars, Depeche Mode, news, reviews, commentary, and more. ",
+        "latest_video_at": "2026-11-23T22:04:46Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCANpn-GRJ0L425am8VrATWw",
+      "external_id": "UCANpn-GRJ0L425am8VrATWw",
+      "name": "AT World News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCANpn-GRJ0L425am8VrATWw",
+      "discovered_on": "2026-11-24",
+      "score": 49.49,
+      "metrics": {
+        "subscribers": 3000,
+        "total_views": 521122,
+        "video_count": 12522,
+        "avg_views_per_video": 41.62,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "fmDH2CYBp6o",
+            "title": "Can New EU Media Rules Defend Democracy in the Digital Age? | Amaravati Today",
+            "description": "Can Europe modernize its media rules to protect democracy, media freedom and citizens online? Members of the European ...",
+            "published_at": "2026-11-24T06:35:19Z",
+            "url": "https://www.youtube.com/watch?v=fmDH2CYBp6o"
+          }
+        ],
+        "channel_description": "Welcome to Amaravati Today Channel, your go-to source for the latest updates on world affairs and #sports events.\n\nAt Amaravati Today, we pride ourselves on delivering comprehensive coverage of global #news and sporting events, keeping you informed about the most significant developments shaping our world. From political happenings to economic trends, we provide insightful analysis and up-to-the-minute reports.\n\nIn addition to our #worldnews coverage, we have a dedicated team of sports enthusiasts bringing you the latest scores, highlights, and in-depth #analysis from the world of sports. Whether it's #football, #cricket, #basketball, or any other sport, we've got you covered with expert commentary and exclusive #interviews with #players and coaches.\n\nStay tuned to Amaravati Today News Channel for unbiased reporting, engaging discussions, and unparalleled coverage of the events that matter most. #amaravati #amaravatitoday \n",
+        "latest_video_at": "2026-11-24T06:35:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UChkIaOH1WqQ76GVhVOWPWNA",
       "external_id": "UChkIaOH1WqQ76GVhVOWPWNA",
