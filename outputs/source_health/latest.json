@@ -1,20 +1,17 @@
 {
   "expected_sources": 128,
   "not_attempted": 3,
-  "successful_sources": 121,
-  "degraded_sources": 3,
-  "failed_sources": 1,
+  "successful_sources": 120,
+  "degraded_sources": 5,
+  "failed_sources": 0,
   "stale_sources": [
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
+    "https://reliefweb.int/updates/rss.xml",
+    "https://rss.arxiv.org/rss/cs.AI",
     "https://www.blockchainappfactory.com/blog/feed/",
     "solana"
   ],
-  "failures": [
-    {
-      "endpoint": "https://erictopol.substack.com/feed",
-      "error": "403 Client Error: Forbidden for url: https://erictopol.substack.com/feed"
-    }
-  ],
+  "failures": [],
   "sources": {
     "https://hnrss.org/frontpage": "ok",
     "https://www.theverge.com/rss/index.xml": "ok",
@@ -94,7 +91,7 @@
     "UCnjgxChqYYnyoqO4k_Q1d6Q": "ok",
     "UC1vUksRWfEfd6V4pPDIQ0jw": "ok",
     "UCCgpGpylCfrJIV-RwA_L7tg": "ok",
-    "https://erictopol.substack.com/feed": "failed",
+    "https://erictopol.substack.com/feed": "ok",
     "Ben Greenfield peptides": "ok",
     "Dave Asprey peptides": "ok",
     "peptides physician lecture": "ok",
@@ -118,11 +115,11 @@
     "semaglutide peptide": "ok",
     "tirzepatide": "ok",
     "retatrutide": "ok",
-    "https://rss.arxiv.org/rss/cs.AI": "ok",
+    "https://rss.arxiv.org/rss/cs.AI": "empty",
     "https://openai.com/news/rss.xml": "ok",
     "https://deepmind.google/blog/rss.xml": "ok",
     "https://github.blog/feed/": "ok",
-    "https://reliefweb.int/updates/rss.xml": "ok",
+    "https://reliefweb.int/updates/rss.xml": "empty",
     "https://www.gdacs.org/xml/rss.xml": "ok",
     "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.atom": "ok",
     "https://news.un.org/feed/subscribe/en/news/all/rss.xml": "ok",
@@ -142,7 +139,7 @@
     "https://www.theblackvault.com/casefiles/feed/": "ok",
     "https://thegrayzone.com/feed/": "ok"
   },
-  "report_date": "2026-11-23",
-  "generated_at": "2026-11-23T07:23:59Z",
+  "report_date": "2026-11-24",
+  "generated_at": "2026-11-24T07:41:44Z",
   "schema_version": "source_health.v1"
 }
