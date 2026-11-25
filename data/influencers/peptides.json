@@ -2,19 +2,207 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-24T10:24:56Z",
-  "new_this_run": 8,
-  "total_influencers": 661,
+  "updated_at": "2026-11-25T10:26:29Z",
+  "new_this_run": 4,
+  "total_influencers": 665,
   "run_summary": {
-    "run_started_at": "2026-11-24T10:24:39Z",
-    "candidate_count": 13,
-    "existing_count": 653,
-    "selected_new_count": 8,
+    "run_started_at": "2026-11-25T10:26:11Z",
+    "candidate_count": 9,
+    "existing_count": 661,
+    "selected_new_count": 4,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCFsB6ruUukbK9KYuPIRFH7Q",
+      "external_id": "UCFsB6ruUukbK9KYuPIRFH7Q",
+      "name": "CBC News Toronto",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCFsB6ruUukbK9KYuPIRFH7Q",
+      "discovered_on": "2026-11-25",
+      "score": 74.08,
+      "metrics": {
+        "subscribers": 55200,
+        "total_views": 61300315,
+        "video_count": 4081,
+        "avg_views_per_video": 15020.91,
+        "matched_queries": 1,
+        "sample_videos": 2
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "PwOtGmeq4sg",
+            "title": "Health Canada seizes peptides from Toronto shop called &#39;Not Peptides&#39;",
+            "description": "Health Canada has seized a number of injectable peptides from a store in Toronto's Queen West neighbourhood, CBC News has ...",
+            "published_at": "2026-11-24T22:00:19Z",
+            "url": "https://www.youtube.com/watch?v=PwOtGmeq4sg"
+          },
+          {
+            "query": "peptide therapy",
+            "video_id": "pK8db_doUUI",
+            "title": "Health Canada seizes peptides from Toronto shop",
+            "description": "Health Canada has seized a number of injectable peptides from a store in Toronto's Queen West neighbourhood, CBC News has ...",
+            "published_at": "2026-11-24T13:00:30Z",
+            "url": "https://www.youtube.com/watch?v=pK8db_doUUI"
+          }
+        ],
+        "channel_description": "CBC Toronto is your source for local news in Toronto and the Greater Toronto Area. We deliver live and breaking news stories, as well as thoughtful analysis about the issues that matter to your neighbourhood.\n\nOur stories appear on CBC Television, CBC Radio, the CBC News Network, CBCNews.ca and other digital platforms.\n\nAs a public broadcaster, CBC is committed to a set of values that include accuracy, fairness, balance, impartiality and integrity.\n",
+        "latest_video_at": "2026-11-24T22:00:19Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCB6BY0ULLAP1dy6PxYoqkkQ",
+      "external_id": "UCB6BY0ULLAP1dy6PxYoqkkQ",
+      "name": "Apex Biology",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCB6BY0ULLAP1dy6PxYoqkkQ",
+      "discovered_on": "2026-11-25",
+      "score": 70.08,
+      "metrics": {
+        "subscribers": 16400,
+        "total_views": 2072608,
+        "video_count": 40,
+        "avg_views_per_video": 51815.2,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "Lqj7taLynMI",
+            "title": "THE PEPTIDE FREE-FOR-ALL: What Happens When the Government Lets Peptides Loose!",
+            "description": "Join the community: https://www.skool.com/the-apex-hub-8516/about Six peptides — BPC-157, TB-500, Semax, Epitalon, KPV, ...",
+            "published_at": "2026-11-24T14:32:03Z",
+            "url": "https://www.youtube.com/watch?v=Lqj7taLynMI"
+          }
+        ],
+        "channel_description": "I'm Apex Biology, and I create easy-to-understand, educational content about fitness, weightlifting, and human biology.\n\nAll visuals are hand-picked from the internet and edited by hand in CapCut. The only uses of AI in this channel are voice and generating visuals for the thumbnails!\n\nAll content is for educational purposes only, and I am not a doctor, so don't take anything seriously and simply enjoy!\n1k=9 November 2025\n10k=29 March 2026\n",
+        "latest_video_at": "2026-11-24T14:32:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCsCBuLEsnuLZD8LdNcxGJ-w",
+      "external_id": "UCsCBuLEsnuLZD8LdNcxGJ-w",
+      "name": "Subroutine Records",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCsCBuLEsnuLZD8LdNcxGJ-w",
+      "discovered_on": "2026-11-25",
+      "score": 56.96,
+      "metrics": {
+        "subscribers": 19400,
+        "total_views": 1933,
+        "video_count": 20,
+        "avg_views_per_video": 96.65,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "l_yFVWD2wZQ",
+            "title": "How a Peptide Pitch Reached Followers",
+            "description": "An Australian fitness influencer told ABC News that a peptide seller supplied free products and paid commissions on referred ...",
+            "published_at": "2026-11-25T02:54:50Z",
+            "url": "https://www.youtube.com/watch?v=l_yFVWD2wZQ"
+          }
+        ],
+        "channel_description": "Welcome to Subroutine Records.\n\nThe modern world runs on systems most people never see.\n\nWe investigate the technology, engineering, money, corporate decisions, and human choices buried underneath them.\n\nFrom billion-dollar failures and forgotten inventions to Al, semiconductors, aviation, infrastructure, and engineering breakthroughs, we reconstruct the decisions that built — and sometimes broke — the systems around us.\n\n📁 Forensic technology & business documentaries.\n⚡ New investigations from the archive.\n\nSubscribe to authorize your access to the archive.",
+        "latest_video_at": "2026-11-25T02:54:50Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC_nbVrN5rAB9hx0Hd8bX3zQ",
+      "external_id": "UC_nbVrN5rAB9hx0Hd8bX3zQ",
+      "name": "Strategic Sales Queen",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC_nbVrN5rAB9hx0Hd8bX3zQ",
+      "discovered_on": "2026-11-25",
+      "score": 50.37,
+      "metrics": {
+        "subscribers": 9980,
+        "total_views": 9390,
+        "video_count": 526,
+        "avg_views_per_video": 17.85,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "8rx4r99r_60",
+            "title": "How Peptides Are Impacting Lives: Aging Well Instead of Just Getting Older with Dr. Deb York",
+            "description": "Many people assume that declining energy, slower recovery, and reduced vitality are unavoidable parts of aging. Overcoming ...",
+            "published_at": "2026-11-24T05:00:23Z",
+            "url": "https://www.youtube.com/watch?v=8rx4r99r_60"
+          }
+        ],
+        "channel_description": "Business Owners hire Strategic Sales Queen to ignite winning sales, because most fail to create consistent, repeatable, and scalable growth. So, we help sell with intent and ease for maximum impact, influence, and income.\n\nBottom line: sales is a strategy, not a shot in the dark.\n\nYou came to our YouTube site, you watched our sales tips, and we both know there’s a few gaps preventing you from getting the results you know you should be getting. \n\nLet’s jump on a quick call to see how and if I can help you fill those gaps.\n📌 Click here to book a call: https://calendly.com/p2q/qs-30\n\n👉Join the community at: StrategicSalesQueen.com\n🎙️Listen to our podcast: Get More Clients\n",
+        "latest_video_at": "2026-11-24T05:00:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCMCz4CWFaKY8oCSTVGyDF3w",
       "external_id": "UCMCz4CWFaKY8oCSTVGyDF3w",
