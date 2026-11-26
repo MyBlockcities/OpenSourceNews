@@ -2,19 +2,244 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-25T10:26:29Z",
-  "new_this_run": 4,
-  "total_influencers": 665,
+  "updated_at": "2026-11-26T10:26:04Z",
+  "new_this_run": 5,
+  "total_influencers": 670,
   "run_summary": {
-    "run_started_at": "2026-11-25T10:26:11Z",
-    "candidate_count": 9,
-    "existing_count": 661,
-    "selected_new_count": 4,
+    "run_started_at": "2026-11-26T10:25:48Z",
+    "candidate_count": 12,
+    "existing_count": 665,
+    "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC2VvMYX9ncH7WiYEfVoPEww",
+      "external_id": "UC2VvMYX9ncH7WiYEfVoPEww",
+      "name": "Warner Orthopedics & Wellness",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC2VvMYX9ncH7WiYEfVoPEww",
+      "discovered_on": "2026-11-26",
+      "score": 65.9,
+      "metrics": {
+        "subscribers": 14200,
+        "total_views": 2180987,
+        "video_count": 236,
+        "avg_views_per_video": 9241.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "4XltQ64K5ts",
+            "title": "BPC-157 for a torn Achilles? Myth check #Shorts",
+            "description": "The claim: BPC-157 injections heal the tendon in half the time. The evidence: a 2026 systematic review found only three small ...",
+            "published_at": "2026-11-25T22:30:23Z",
+            "url": "https://www.youtube.com/watch?v=4XltQ64K5ts"
+          }
+        ],
+        "channel_description": "Dr. Meredith Warner is a board certified Orthopedic surgeon, fellowship trained in complex foot and ankle reconstruction, practicing in Baton Rouge, Louisiana. Dr. Warner started her private practice Warner Orthopedics and Wellness In April 2013 and is an expert in general orthopedic medicine, care of the injured worker, the treatment of complex foot and ankle injuries and the non-operative treatment of the spine.  Prior to arriving in Baton Rouge, she served as a Major in the United States Air Force with two deployments; she served in Iraq and Afghanistan performing combat surgery.\n\nDisclosure: Dr. Warner is a co-founder of The Well Theory, a dietary supplement company.\n",
+        "latest_video_at": "2026-11-25T22:30:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCm31RfHbKzAalOHQSToFRoQ",
+      "external_id": "UCm31RfHbKzAalOHQSToFRoQ",
+      "name": "Revival Clinic Bangkok",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCm31RfHbKzAalOHQSToFRoQ",
+      "discovered_on": "2026-11-26",
+      "score": 58.77,
+      "metrics": {
+        "subscribers": 9220,
+        "total_views": 72965,
+        "video_count": 115,
+        "avg_views_per_video": 634.48,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "gwiwC9_0Dl0",
+            "title": "How does a weight-loss peptide actually work? #Shorts",
+            "description": "Three switches in one molecule: GLP-1, GIP and glucagon, and why the latest weight-loss peptide felt so different for me.",
+            "published_at": "2026-11-25T12:44:56Z",
+            "url": "https://www.youtube.com/watch?v=gwiwC9_0Dl0"
+          }
+        ],
+        "channel_description": "Revival Clinic Bangkok\n50/2 Soi Sukhumvit 26, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand\nPhone: +66 99 606 3714\n\nWhatsApp: https://wa.me/66996063714\nEmail: info@RevivalClinicBangkok.com\nWebsite: www.RevivalClinicBangkok.com\n",
+        "latest_video_at": "2026-11-25T12:44:56Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCaOm7W0-QDlwJ11TAb0nc_w",
+      "external_id": "UCaOm7W0-QDlwJ11TAb0nc_w",
+      "name": "The Commune Podcast with Jeff Krasno",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCaOm7W0-QDlwJ11TAb0nc_w",
+      "discovered_on": "2026-11-26",
+      "score": 58.01,
+      "metrics": {
+        "subscribers": 3860,
+        "total_views": 698633,
+        "video_count": 461,
+        "avg_views_per_video": 1515.47,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "Nhx5BvxDqpA",
+            "title": "Peptides: The Promise, the Hype and What Applies to You",
+            "description": "Peptides are everywhere right now. Your gym, your group chat, the website with the \"research use only\" disclaimer. Some of the ...",
+            "published_at": "2026-11-25T20:32:54Z",
+            "url": "https://www.youtube.com/watch?v=Nhx5BvxDqpA"
+          }
+        ],
+        "channel_description": "I am the CEO and founder of Commune, a masterclass platform for well-being featuring many of the world’s most renowned authors and teachers. I also host the Commune Podcast, which now boasts over 600 episodes.\n\nOn the show, I sit down with luminaries from Andrew Huberman, Marianne Williamson, Matthew McConaughey, and Gabor Maté. Together, we explore how to live healthy, purpose-filled lives in service of something greater than ourselves. Conversations are thoughtful, timely, and often challenging, but always necessary. Guests include spiritual teachers, poets, scientists, philosophers, and activists shaping the future of functional medicine, mental and physical health, food sustainability, and collective healing.\n\nI've spent decades at the intersection of culture, spirituality, and health. I've co-founded Wanderlust, was named to Oprah’s SuperSoul100, and am the author of four books, including Good Stress: The Health Benefits of Doing Hard Things.\n",
+        "latest_video_at": "2026-11-25T20:32:54Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCG5ZWxlr8B_V2HoGzS_OG1g",
+      "external_id": "UCG5ZWxlr8B_V2HoGzS_OG1g",
+      "name": "Silicon Zombies Podcast ",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCG5ZWxlr8B_V2HoGzS_OG1g",
+      "discovered_on": "2026-11-26",
+      "score": 53.61,
+      "metrics": {
+        "subscribers": 2150,
+        "total_views": 296903,
+        "video_count": 657,
+        "avg_views_per_video": 451.91,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "naIVg7lFT0s",
+            "title": "What Are Peptides, Really?",
+            "description": "What Are Peptides, Really? She had the privilege of studying peptide therapy under Professor Rediberg-Cavinson, and now that ...",
+            "published_at": "2026-11-26T01:30:20Z",
+            "url": "https://www.youtube.com/watch?v=naIVg7lFT0s"
+          }
+        ],
+        "channel_description": "Silicon Zombies | The Top 5% Global Podcast for AI, Venture Capital & Tech Innovation 🏆\n\nStop guessing about the future. From the heart of Silicon Valley, Silicon Zombies brings you weekly deep-dives with elite AI engineers, Venture Capitalists (VCs), and Longevity innovators shaping the next decade.\n\nWe demystify the \"hype\" vs. \"reality\" of Emerging Tech, SaaS, Biohacking, and Startup Investing. Whether you're a founder looking for networking, an engineer seeking technical insights, or a tech enthusiast staying ahead of the curve, we bridge the gap.\n\nWhat you get:\n\nInsider access to the world's brightest tech minds.\n\nWeekly live streams with a global community in 90+ countries.\n\nNo-fluff breakdowns of AI breakthroughs and the future of humanity.\n",
+        "latest_video_at": "2026-11-26T01:30:20Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCGhklGpfa4TwQuA0ocBaFkA",
+      "external_id": "UCGhklGpfa4TwQuA0ocBaFkA",
+      "name": "Bluecollar Bodybuilding –Life, Work, Bodybuilding",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCGhklGpfa4TwQuA0ocBaFkA",
+      "discovered_on": "2026-11-26",
+      "score": 48.61,
+      "metrics": {
+        "subscribers": 2930,
+        "total_views": 542106,
+        "video_count": 736,
+        "avg_views_per_video": 736.56,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "oMVtktJjVIU",
+            "title": "Fat Burners vs GLPs: What Actually Works for Cutting &amp; Prep?",
+            "description": "GLP-1 fat loss protocols and fat burner strategies for bodybuilding contest prep and cutting phases. In this segment, we break ...",
+            "published_at": "2026-11-18T16:54:42Z",
+            "url": "https://www.youtube.com/watch?v=oMVtktJjVIU"
+          }
+        ],
+        "channel_description": "Bodybuilding contest prep, deep dive data, and evidence-based fitness for the blue-collar athlete. We’re Dave and Jackie – a married bodybuilding couple, blue-collar workers, and coaches behind Blue Collar Bodybuilding.\nOn this channel you’ll see Contest Prep Vlogs: Join IFBB Pro Jackie, Dave, and the team as we navigate the \"insane and intense\" reality of show prep. NPC contest prep and off-season vlogs, full days of eating, heavy training sessions, client check-ins, and real educational discussions about drugs, bloodwork, health phases, recovery, and mindset. \n\nJoin seasoned fitness coaches on our weekly \"Coaches Corner Live Podcast.\" Real talk on client management, blood work monitoring, and training intensity. We work long hours and still chase stage-ready physiques with no fluff and no fake motivation. If you’re a serious lifter or competitor who relates more to overtime and steel-toe boots than influencer life, hit subscribe and join the Blue Collar Bodybuilding crew.\n",
+        "latest_video_at": "2026-11-18T16:54:42Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCFsB6ruUukbK9KYuPIRFH7Q",
       "external_id": "UCFsB6ruUukbK9KYuPIRFH7Q",

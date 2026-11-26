@@ -2,19 +2,47 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "real_estate_tokenization",
   "topic_label": "Real Estate Tokenization",
-  "updated_at": "2026-11-25T10:26:17Z",
+  "updated_at": "2026-11-26T10:25:53Z",
   "new_this_run": 1,
-  "total_influencers": 461,
+  "total_influencers": 462,
   "run_summary": {
-    "run_started_at": "2026-11-25T10:26:11Z",
-    "candidate_count": 34,
-    "existing_count": 460,
+    "run_started_at": "2026-11-26T10:25:48Z",
+    "candidate_count": 32,
+    "existing_count": 461,
     "selected_new_count": 1,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "rss_author:a12e8b0e65899720b4f8",
+      "external_id": "a12e8b0e65899720b4f8",
+      "name": "Phillip Lord",
+      "platform": "rss_author",
+      "topic_key": "real_estate_tokenization",
+      "topic_label": "Real Estate Tokenization",
+      "primary_url": "https://www.coindesk.com/coindesk-indices/2026/11/25/crypto-long-and-short-bitcoin-investors-can-t-keep-ignoring-japan",
+      "discovered_on": "2026-11-26",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "coindesk.com",
+        "feed_urls": [
+          "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml"
+        ],
+        "sample_titles": [
+          "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCci_EULLG-IL3LGkZFM0CIA",
       "external_id": "UCci_EULLG-IL3LGkZFM0CIA",

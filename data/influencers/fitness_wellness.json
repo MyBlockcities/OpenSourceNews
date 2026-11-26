@@ -2,19 +2,522 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-11-25T10:26:33Z",
-  "new_this_run": 11,
-  "total_influencers": 2008,
+  "updated_at": "2026-11-26T10:26:08Z",
+  "new_this_run": 12,
+  "total_influencers": 2020,
   "run_summary": {
-    "run_started_at": "2026-11-25T10:26:11Z",
-    "candidate_count": 44,
-    "existing_count": 1997,
-    "selected_new_count": 11,
+    "run_started_at": "2026-11-26T10:25:48Z",
+    "candidate_count": 50,
+    "existing_count": 2008,
+    "selected_new_count": 12,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UC9ejlRvpKP70yZnG-qSSJfg",
+      "external_id": "UC9ejlRvpKP70yZnG-qSSJfg",
+      "name": "Hercules Fitness",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC9ejlRvpKP70yZnG-qSSJfg",
+      "discovered_on": "2026-11-26",
+      "score": 69.06,
+      "metrics": {
+        "subscribers": 15700,
+        "total_views": 4315185,
+        "video_count": 125,
+        "avg_views_per_video": 34521.48,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "JyH8bWcadC8",
+            "title": "Inside the Brand-New Hercules Fitness Experience Centre in Ambattur, Chennai | Try Before You Buy",
+            "description": "Planning to set up a home gym or upgrade to commercial-grade fitness equipment? Step inside the brand-new 10000 sq. ft.",
+            "published_at": "2026-11-26T06:23:39Z",
+            "url": "https://www.youtube.com/watch?v=JyH8bWcadC8"
+          }
+        ],
+        "channel_description": "Hercules Fitness: Forged in Legacy, Designed for Your Strength. Since 1949, we've been crafting premium fitness equipment that stands the test of time, empowering homes, commercial gyms, and hospitality spaces. Discover the quality, innovation, and lasting power of Hercules Fitness – your partner in building a stronger, healthier you.\n\n\n",
+        "latest_video_at": "2026-11-26T06:23:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCx3KgI5gXfjX_4Q6RscorbA",
+      "external_id": "UCx3KgI5gXfjX_4Q6RscorbA",
+      "name": "Khaled Aesthetics",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCx3KgI5gXfjX_4Q6RscorbA",
+      "discovered_on": "2026-11-26",
+      "score": 67.65,
+      "metrics": {
+        "subscribers": 4900,
+        "total_views": 6431916,
+        "video_count": 70,
+        "avg_views_per_video": 91884.51,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "p-9IWNYRSDI",
+            "title": "Peptides for dental cavity? 🦷 #peptides #wellness #healthyliving #dentalhygiene #dentalhealth",
+            "description": "",
+            "published_at": "2026-11-25T22:54:27Z",
+            "url": "https://www.youtube.com/watch?v=p-9IWNYRSDI"
+          }
+        ],
+        "channel_description": "Addressing cosmetic medical/dental trends and celebrity aesthetics ✨\nInstagram: @khaledaesthetics\nwww.altamedispa.com \n",
+        "latest_video_at": "2026-11-25T22:54:27Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCOzeKQJkH4NiBG5mw390R-A",
+      "external_id": "UCOzeKQJkH4NiBG5mw390R-A",
+      "name": "JM Ryerson",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCOzeKQJkH4NiBG5mw390R-A",
+      "discovered_on": "2026-11-26",
+      "score": 67.26,
+      "metrics": {
+        "subscribers": 10100,
+        "total_views": 37315472,
+        "video_count": 1338,
+        "avg_views_per_video": 27888.99,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "wellness peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "wellness peptides",
+            "video_id": "vctiMFLfjXk",
+            "title": "Peptides: The Icing on the Cake",
+            "description": "Peptides aren't a shortcut to optimal health. Dr. Tracy Gapin explains why sleep, nutrition, hormonal balance, gut health, and ...",
+            "published_at": "2026-11-25T16:04:18Z",
+            "url": "https://www.youtube.com/watch?v=vctiMFLfjXk"
+          }
+        ],
+        "channel_description": "Top 100 Business Motivation Podcasts\nTop 100 Inspirational Leadership Podcasts\nTop 100 Positive Leadership Podcasts list\n\nThe Let’s Go Win Podcast with JM Ryerson is your ultimate resource for leadership, business, and personal growth. It features insightful conversations with top entrepreneurs, executives, and thought leaders who have mastered success without sacrificing fulfillment. Through candid discussions and actionable strategies, JM gives you the mindset, habits, and tools to build thriving teams, achieve work-life harmony, and redefine success on your terms.\n\nJM Ryerson empowers leaders & teams to Win from Within through mindset, sales, culture, and leadership. He's a leadership strategist, business coach, author, and podcast host.  Let’s Go Win together!\n",
+        "latest_video_at": "2026-11-25T16:04:18Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC5fmYQhgrE2FaWEu9uikGPA",
+      "external_id": "UC5fmYQhgrE2FaWEu9uikGPA",
+      "name": "Longevity Fitness with Annie Clay",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC5fmYQhgrE2FaWEu9uikGPA",
+      "discovered_on": "2026-11-26",
+      "score": 65.04,
+      "metrics": {
+        "subscribers": 15300,
+        "total_views": 1286648,
+        "video_count": 229,
+        "avg_views_per_video": 5618.55,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "Q-32q8SoTJ4",
+            "title": "8 min Strength &amp; Stability Workout for Longevity!",
+            "description": "While you're cooking tomorrow, try this 8 min strength and stability workout! Builds: Dynamic balance ✓ Shoulder strength ...",
+            "published_at": "2026-11-26T02:32:31Z",
+            "url": "https://www.youtube.com/watch?v=Q-32q8SoTJ4"
+          }
+        ],
+        "channel_description": "Join The Longevity Club! Link is below.⬇️ \n\nACE-CPT / Group X Instructor / Yoga Teacher (YTT 200) I’m 52. \n\nEfficient strength training for a long and healthy life! 💪😀💪\n",
+        "latest_video_at": "2026-11-26T02:32:31Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCTtZZbxd3mUWAuc5u5x9K-w",
+      "external_id": "UCTtZZbxd3mUWAuc5u5x9K-w",
+      "name": "Vibration Plate Workouts",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCTtZZbxd3mUWAuc5u5x9K-w",
+      "discovered_on": "2026-11-26",
+      "score": 63.24,
+      "metrics": {
+        "subscribers": 17800,
+        "total_views": 1094217,
+        "video_count": 551,
+        "avg_views_per_video": 1985.87,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "biohacking routine"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "biohacking routine",
+            "video_id": "cBw3nmmFEi8",
+            "title": "Flikeze Spectra Panel Basic 60 Light Therapy Routine: Elevate Your Wellness 2026| Black Friday Sale",
+            "description": "Is red light therapy worth the hype? ❤️ Let's find out! As a nurse practitioner and fitness instructor, I'm always looking for ways to ...",
+            "published_at": "2026-11-26T00:43:52Z",
+            "url": "https://www.youtube.com/watch?v=cBw3nmmFEi8"
+          }
+        ],
+        "channel_description": "Vibration Plate Workouts for all levels of fitness! In 2024 I bought my vibration plate and have been hooked ever since.  I have created workouts that combine strength training, barre, cardio, and stress reduction all on the vibration plate.  \n\nConsult your Physician before starting the vibration plate workouts.  You should not use if:\nPregnancy, heart disease, pacemakers, recent surgery, uncontrolled high blood pressure, osteoporosis, balance issues, joint instability, blood clotting disorders, seizure disorders, or recent eye surgery should not use a vibration plate without consulting a healthcare professional first, as the vibrations can potentially exacerbate their existing conditions and cause harm; evidence shows that whole body vibration can put stress on the body's systems, potentially causing issues like muscle strain, dizziness, and discomfort in individuals with these health concerns. \n\nBrand opportunities contact heatherharris3000@hotmail.com\n\n\n\n\n\n\n\n\n\n",
+        "latest_video_at": "2026-11-26T00:43:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCs3hkgQmPsONY03CJ65z5lA",
+      "external_id": "UCs3hkgQmPsONY03CJ65z5lA",
+      "name": "Tony Cress",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCs3hkgQmPsONY03CJ65z5lA",
+      "discovered_on": "2026-11-26",
+      "score": 61.44,
+      "metrics": {
+        "subscribers": 8820,
+        "total_views": 2679670,
+        "video_count": 1157,
+        "avg_views_per_video": 2316.05,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "HY7FV9UJSOY",
+            "title": "Functional Strength: Train Athletic Movements Beyond the Gym #shorts",
+            "description": "Train movement patterns that show up in sports like pickleball, baseball, tennis, and badminton. This tool adds weight to athletic ...",
+            "published_at": "2026-11-25T23:54:36Z",
+            "url": "https://www.youtube.com/watch?v=HY7FV9UJSOY"
+          }
+        ],
+        "channel_description": "Personal Trainer in Las Vegas.  Corrective Exercise techniques, TRX workouts, weight loss stories, fat loss direction, fruit and vegetable juicing and all sorts of other fitness related things.",
+        "latest_video_at": "2026-11-25T23:54:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCnu8HTBugIifoh1Bw88Zu4Q",
+      "external_id": "UCnu8HTBugIifoh1Bw88Zu4Q",
+      "name": "Bulletproof Dad",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCnu8HTBugIifoh1Bw88Zu4Q",
+      "discovered_on": "2026-11-26",
+      "score": 61.09,
+      "metrics": {
+        "subscribers": 2230,
+        "total_views": 521609,
+        "video_count": 386,
+        "avg_views_per_video": 1351.32,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "instagram": "https://www.instagram.com/bullet_proofdad"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "awEZh8NpJ_8",
+            "title": "Hip mobility shouldn’t be an issue if you’re adding it into your longevity protocol",
+            "description": "",
+            "published_at": "2026-11-25T17:34:51Z",
+            "url": "https://www.youtube.com/watch?v=awEZh8NpJ_8"
+          }
+        ],
+        "channel_description": "Helping Create Strong, Resilient Dads | 226lbs fat to 143lbs fit \n\nJoin the Bulletproof Team:\n\n👇 Work with me 1-on-1\nhttps://calendly.com/bulletproofdad01/30min\n\n👇 Follow me on Instagram for daily accountability, workouts, and real talk\nhttps://www.instagram.com/bullet_proofdad?igsh=MTB0bTF4bnF2d3lnMA%3D%3D&utm_source=qr\n\n",
+        "latest_video_at": "2026-11-25T17:34:51Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCvR5320FANvNW4bw0h0ki2g",
+      "external_id": "UCvR5320FANvNW4bw0h0ki2g",
+      "name": "Born To Bounce",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCvR5320FANvNW4bw0h0ki2g",
+      "discovered_on": "2026-11-26",
+      "score": 59.16,
+      "metrics": {
+        "subscribers": 3360,
+        "total_views": 131523,
+        "video_count": 42,
+        "avg_views_per_video": 3131.5,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "DrOTK3N2pWI",
+            "title": "NO JUMP REBOUNDER WORKOUT FOR ACTIVE AGERS  |  WALK BOUNCE TONE  |  30 MIN",
+            "description": "TOTAL BODY REBOUNDER WORKOUT | 30 Minutes | Born to Bounce Method™ Whether you're new to rebounding or have ...",
+            "published_at": "2026-11-26T00:14:55Z",
+            "url": "https://www.youtube.com/watch?v=DrOTK3N2pWI"
+          }
+        ],
+        "channel_description": "Hi, I'm Dian, creator of The Born To Bounce Method™ — Rebounding for Strength, Balance, Health, and Joy at Every Age.💛\n\nMy workouts are: \n- Safe\n- Effective\n- Enjoyable \nfor all ages and body types. 😊\n\nI believe we are all born to bounce because bouncing brings joy while building health, strength, and fitness. 🌎\n\nWith 40 years of experience as a certified fitness trainer and trampoline expert, I look forward to being able to help guide you on your fitness journey with the rebounder and share my knowledge with you. 🩵\n\nRemember, \"Every bounce counts\" — Dian Nissen 🦋\n\nQualifications:\n🔹 Certified Trampoline Instructor through Nissen Trampoline, Bellicon, and Jumpsport\n🔹 Master of Science, Health Education and Exercise Science\n🔹 American Council on Exercise Gold Certified Group Fitness Instructor and Certified Health Coach\n🔹 Certified Pilates Master Trainer\n🔹 Certified Yoga and Stretch Instructor\n\n💡Fun Fact: My dad, George Nissen, was the inventor of the trampoline!\n\n",
+        "latest_video_at": "2026-11-26T00:14:55Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCc_w7H5RdFPD1Y9pein_sMA",
+      "external_id": "UCc_w7H5RdFPD1Y9pein_sMA",
+      "name": "Kim & Kalee",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCc_w7H5RdFPD1Y9pein_sMA",
+      "discovered_on": "2026-11-26",
+      "score": 56.68,
+      "metrics": {
+        "subscribers": 2610,
+        "total_views": 2415675,
+        "video_count": 677,
+        "avg_views_per_video": 3568.21,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "longevity protocol"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "longevity protocol",
+            "video_id": "poOl_gRa48U",
+            "title": "#151 Aging Powerfully After 50 with Elise Joan",
+            "description": "What if midlife isn't the start of decline, but the season you finally rise into who you were meant to be? This week we sit down with ...",
+            "published_at": "2026-11-24T10:00:04Z",
+            "url": "https://www.youtube.com/watch?v=poOl_gRa48U"
+          }
+        ],
+        "channel_description": "We’re a mother–daughter creator team sharing honest reviews, product demos, interviews, and taste tests across wellness, lifestyle, home, and everyday favorites.\n\nWe create long-form and short-form review content for Amazon, UGC campaigns, and brands we genuinely use and trust.\n\n📩 Business inquiries & collaborations:\nteam@kimandkalee.com\n\n📱 Connect with us:\nFacebook: Kim and Kalee \nInstagram: thekimandkalee\n\n🔗 Websites:\nsoreyfitness.com\nhappylifeideas.com\nkimandkalee.com\n\n🛍 Amazon Storefront (favorites & reviews):\nhttps://www.amazon.com/shop/soreyfitness\n\n🎁 Current promos & sales:\nhttps://soreyfitness.com/promo/\n\nSoreyFitness is a participant in Amazon Services LLC Influencer/Associates Program, an influencer/affiliate advertising program designed to provide means for sites to earn advertising fees by advertising and linking to https://www.amazon.com/shop/soreyfitness\n",
+        "latest_video_at": "2026-11-24T10:00:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCRvZGUJjfB1kF6W5Sb8IsJw",
+      "external_id": "UCRvZGUJjfB1kF6W5Sb8IsJw",
+      "name": "FIT TEAM Personal Training & Gesundheitscoaching",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCRvZGUJjfB1kF6W5Sb8IsJw",
+      "discovered_on": "2026-11-26",
+      "score": 56.31,
+      "metrics": {
+        "subscribers": 3220,
+        "total_views": 216271,
+        "video_count": 242,
+        "avg_views_per_video": 893.68,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "dnIlO_lyeOg",
+            "title": "#022 Functional Training – Warum dein Körper so trainieren will",
+            "description": "In dieser Episode des FIT TEAM Podcasts sprechen Henning Fründt und Philipp Marschall mit Markus Spöhnmann über die ...",
+            "published_at": "2026-11-26T09:58:39Z",
+            "url": "https://www.youtube.com/watch?v=dnIlO_lyeOg"
+          }
+        ],
+        "channel_description": "FIT TEAM Personal Training ist ein hochdynamisches und etabliertes Fitness-Unternehmen, welches an mehr als 30 Standorten (Deutschland, Schweiz und Mallorca) Personal Training und \"Ganzheitliches Gesundheits Coaching\" anbietet. Neben der optimalen Betreuung unserer Klienten, bieten wir mit unserem Businessmodell Trainern und Trainerinnen die Möglichkeiten, Unternehmer zu werden und langfristig, auf Wunsch auch mit einem eigenen Team, erfolgreich zu werden und vor allem zu bleiben. \n\nWir stehen für einen starken Zusammenhalt, Verlässlichkeit, inspirierenden Austausch, Weiterentwicklung und gegenseitige Unterstützung.\n\nAuf diesem Kanal bekommst du Einblicke in viele Fitness- und Gesundheitstips, erfolgreiche Geschäftsmodelle, Erfahrungsberichte und sinnvolle Workouts. \n\nWir freuen uns auf dich! \n",
+        "latest_video_at": "2026-11-26T09:58:39Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC_FZ2vQ5_bChNSyOhQRPzDA",
+      "external_id": "UC_FZ2vQ5_bChNSyOhQRPzDA",
+      "name": "Health Without Risk",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UC_FZ2vQ5_bChNSyOhQRPzDA",
+      "discovered_on": "2026-11-26",
+      "score": 53.41,
+      "metrics": {
+        "subscribers": 2770,
+        "total_views": 173012,
+        "video_count": 600,
+        "avg_views_per_video": 288.35,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "g7_k3quPX84",
+            "title": "One Ball For Independence Part 2 Wall Circles",
+            "description": "Relieve Stiff Shoulders For $2 Welcome back to Part 2 of One Ball for Independence: Bulletproof Your Balance and Coordination.",
+            "published_at": "2026-11-25T22:30:04Z",
+            "url": "https://www.youtube.com/watch?v=g7_k3quPX84"
+          }
+        ],
+        "channel_description": "I’m Dr. Bryan. After 30 years as a practicing physician, I’m now a full-time Functional Medicine Health Coach dedicated to giving you the \"exit ramp\" from mainstream medical dogma.\n\nAt Health Without Risk, we empower you to take back control of your biology by challenging the outdated \"standard of care\" that often prioritizes prescriptions over prevention.\n\nWhat You’ll Find Here:\n\nThe Unfiltered Truth: We tackle the \"sacred cows\" of medicine—from the failed war on saturated fat to the real drivers of chronic inflammation. We explore the options your 10-minute doctor’s visit misses.\n\nSupplement Integrity: Deep dives into what actually works. I focus on quality and purity so you invest in health, not hype.\n\nRoot-Cause Tools: How to use professional labs (Rupa Health) and nutraceuticals (Fullscript) to personalize your wellness.\n\nHealth Reimagined. Risk Removed.\n\nSubscribe to join a community committed to building a life of health, without the risk.\n",
+        "latest_video_at": "2026-11-25T22:30:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:b45edb0f7b4bb7109199",
+      "external_id": "b45edb0f7b4bb7109199",
+      "name": "nonplus",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/JgbQZ5xoi9qm2mWza/paths-to-extreme-power-concentration",
+      "discovered_on": "2026-11-26",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Paths to extreme power concentration"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCfYl62Xo9-1R8kTvQ5rNTJQ",
       "external_id": "UCfYl62Xo9-1R8kTvQ5rNTJQ",
