@@ -2,19 +2,109 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-26T10:26:04Z",
-  "new_this_run": 5,
-  "total_influencers": 670,
+  "updated_at": "2026-11-27T10:25:46Z",
+  "new_this_run": 2,
+  "total_influencers": 672,
   "run_summary": {
-    "run_started_at": "2026-11-26T10:25:48Z",
-    "candidate_count": 12,
-    "existing_count": 665,
-    "selected_new_count": 5,
+    "run_started_at": "2026-11-27T10:25:30Z",
+    "candidate_count": 8,
+    "existing_count": 670,
+    "selected_new_count": 2,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCfDWhSQhhtwl-J-gc6u1UHw",
+      "external_id": "UCfDWhSQhhtwl-J-gc6u1UHw",
+      "name": "Доктор Бурлаков",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCfDWhSQhhtwl-J-gc6u1UHw",
+      "discovered_on": "2026-11-27",
+      "score": 59.91,
+      "metrics": {
+        "subscribers": 5990,
+        "total_views": 205860,
+        "video_count": 105,
+        "avg_views_per_video": 1960.57,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "RzyTo9gWwzk",
+            "title": "Пептиды: что о них известно на сегодня",
+            "description": "Пептиды: что о них известно на сегодня Обзор 2026 года нашёл 3 небольшие работы по BPC-157 на людях, всего 30 ...",
+            "published_at": "2026-11-27T07:00:02Z",
+            "url": "https://www.youtube.com/watch?v=RzyTo9gWwzk"
+          }
+        ],
+        "channel_description": "Канал доктора Бурлакова Александра",
+        "latest_video_at": "2026-11-27T07:00:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC5wPl2n4-i4Y9-qQUM-k1Mw",
+      "external_id": "UC5wPl2n4-i4Y9-qQUM-k1Mw",
+      "name": "Keen On",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC5wPl2n4-i4Y9-qQUM-k1Mw",
+      "discovered_on": "2026-11-27",
+      "score": 50.51,
+      "metrics": {
+        "subscribers": 2200,
+        "total_views": 762302,
+        "video_count": 7324,
+        "avg_views_per_video": 104.08,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "yI8wXkdUB28",
+            "title": "Gray-Market Peptides: Tested on Rats, Injected by People",
+            "description": "BPC-157 and TB-500 are sold online \"for research use only,\" tested mostly in rats and labeled not for human consumption. People ...",
+            "published_at": "2026-11-26T18:03:36Z",
+            "url": "https://www.youtube.com/watch?v=yI8wXkdUB28"
+          }
+        ],
+        "channel_description": "Nobody asks sharper or more impertinent questions than Andrew Keen. In KEEN ON, Andrew cross examines the world’s smartest people about politics, economics, history, the environment and tech. If you want to make sense of our complex world, check out the questions and the answers on KEEN ON. \n\nNamed as one of the \"100 most connected men\" by GQ magazine, Andrew Keen is amongst the world's best known technology and politics broadcasters and commentators. In addition to presenting KEEN ON, he is the host of the long-running show How To Fix Democracy and the author of four critically acclaimed books about the future including the international bestselling CULT OF THE AMATEUR. \n\nKeen On is free to listen to and will remain so. If you want to stay up-to-date on new episodes and support the show please subscribe to Andrew Keen’s Substack. Paid subscribers will soon be able to access exclusive content from our new series Keen On America. \n\nkeenon.substack.com\n",
+        "latest_video_at": "2026-11-26T18:03:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UC2VvMYX9ncH7WiYEfVoPEww",
       "external_id": "UC2VvMYX9ncH7WiYEfVoPEww",

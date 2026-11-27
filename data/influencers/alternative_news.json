@@ -2,19 +2,511 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "alternative_news",
   "topic_label": "Alternative News",
-  "updated_at": "2026-11-26T10:25:56Z",
-  "new_this_run": 9,
-  "total_influencers": 1282,
+  "updated_at": "2026-11-27T10:25:38Z",
+  "new_this_run": 11,
+  "total_influencers": 1293,
   "run_summary": {
-    "run_started_at": "2026-11-26T10:25:48Z",
-    "candidate_count": 19,
-    "existing_count": 1273,
-    "selected_new_count": 9,
+    "run_started_at": "2026-11-27T10:25:30Z",
+    "candidate_count": 20,
+    "existing_count": 1282,
+    "selected_new_count": 11,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCcnPleP05_jPwgroBxIvFFw",
+      "external_id": "UCcnPleP05_jPwgroBxIvFFw",
+      "name": "American Fire",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCcnPleP05_jPwgroBxIvFFw",
+      "discovered_on": "2026-11-27",
+      "score": 75.71,
+      "metrics": {
+        "subscribers": 66300,
+        "total_views": 15736999,
+        "video_count": 1606,
+        "avg_views_per_video": 9798.88,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "youtube": "https://www.youtube.com/@americanfireace"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "gsQK93Yguv8",
+            "title": "The Dems Plan to CENSOR You Revealed and PROVEN",
+            "description": "Get access to Discord, Members Only Live Shows and More! https://www.patreon.com/ace_report/redeem/21541 x.com: ...",
+            "published_at": "2026-11-26T17:00:25Z",
+            "url": "https://www.youtube.com/watch?v=gsQK93Yguv8"
+          }
+        ],
+        "channel_description": "See the patterns. Break the narrative. Think clearly.\n\nJoin LIVE Mon-Fri 12PM EST (9AM PT)\nVideos 3-5x daily.\n\nhttps://www.youtube.com/@americanfireace?sub_confirmation=1\nx.com/@ace_afire\nhttps://www.patreon.com/ace_report/redeem/21541\n\nWays to Give:\nVenmo: @ace_ith\n\nBuy Me a Coffee: buymeacoffee.com/americanfire\n",
+        "latest_video_at": "2026-11-26T17:00:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCP_9X4hFO8VtKIJMP6bPm9g",
+      "external_id": "UCP_9X4hFO8VtKIJMP6bPm9g",
+      "name": "Die Gruaberin",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCP_9X4hFO8VtKIJMP6bPm9g",
+      "discovered_on": "2026-11-27",
+      "score": 72.97,
+      "metrics": {
+        "subscribers": 28300,
+        "total_views": 11789373,
+        "video_count": 129,
+        "avg_views_per_video": 91390.49,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "FEZexhau460",
+            "title": "Ferdinand Wegscheider: Wie Medien unsere Meinung beeinflussen | Monika Gruber",
+            "description": "ℹ️ Die ganze Folge neu bei ServusTV On: https://win.gs/3Q2LHOo ℹ️ UND überall dort, wo es Podcasts gibt Wie sehr ...",
+            "published_at": "2026-11-26T17:00:23Z",
+            "url": "https://www.youtube.com/watch?v=FEZexhau460"
+          }
+        ],
+        "channel_description": "In ihrem Vodcast trifft Monika Gruber spannende, interessante, lustige und unterhaltsame Menschen, die etwas zu sagen haben. Denn wie sagte ihre Oma immer? \"Reden macht a Sach aus und bringt d'Leid zamm.\" Der Kabarettistin geht es um die hohe Kunst des Plauderns und Geschichtenerzählens und um menschliche Begegnungen. Thematisch ist es offen, nur langweilen darf es nicht - und Tiefgang muss es haben! Neugierig auf mehr? Alle Folgen gibt es bei ServusTV On - Die kostenlose Streamingplattform mit Premium-Livesport und News-Power.",
+        "latest_video_at": "2026-11-26T17:00:23Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCUbxiYsl12VfMt9oUT-aYHw",
+      "external_id": "UCUbxiYsl12VfMt9oUT-aYHw",
+      "name": "Charles Blow",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCUbxiYsl12VfMt9oUT-aYHw",
+      "discovered_on": "2026-11-27",
+      "score": 72.52,
+      "metrics": {
+        "subscribers": 32900,
+        "total_views": 2233734,
+        "video_count": 37,
+        "avg_views_per_video": 60371.19,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "gdqUqk2WrMU",
+            "title": "Entertainment Won the Internet. What Happens to Journalism Now? | Tiffany Cross Explains",
+            "description": "In this revealing conversation with Charles Blow, Tiffany Cross takes on a media landscape she says has been not just disrupted ...",
+            "published_at": "2026-11-26T18:21:14Z",
+            "url": "https://www.youtube.com/watch?v=gdqUqk2WrMU"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-26T18:21:14Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC94WBmb8xvVUcV_b9Px0P3A",
+      "external_id": "UC94WBmb8xvVUcV_b9Px0P3A",
+      "name": "Wieder Zensiert - Alles Ausser Mainstream Boschimo",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC94WBmb8xvVUcV_b9Px0P3A",
+      "discovered_on": "2026-11-27",
+      "score": 71.87,
+      "metrics": {
+        "subscribers": 96800,
+        "total_views": 3388127,
+        "video_count": 343,
+        "avg_views_per_video": 9877.92,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "alternative media"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "alternative media",
+            "video_id": "5M5DHVItZxE",
+            "title": "Die Alternativlosen Alternativen",
+            "description": "Hätte es der Alternative für Deutschland nicht gut zu Gesicht gestanden, eine weitere Kandidatur für das Amt des ...",
+            "published_at": "2026-11-26T15:38:48Z",
+            "url": "https://www.youtube.com/watch?v=5M5DHVItZxE"
+          }
+        ],
+        "channel_description": "Der Kanal ist von Youtube ZENSIERT\nkommt auf Telegram https://t.me/AllesAusserMainstream\n\nAls Arzt habe ich seit 14.März 2020 eine realistische Einschätzung zu Gesundheitsgefahren veröffentlicht. Ich hatte Recht\nYoutube zensiert weiter medizinische Tatsachen.\n\n\"Alles ausser Mainstream\" beschäftigt sich mit Themen, wie der Corona-Krise, Zwangsimpfung, Meinungsfreiheit, Querdenken, Verschwörungstheorien.\nDieser Kanal ist offen für alles, was woanders zensiert wird. Ziel ist es interessante Interviews zu führen, Echte journalistische Arbeit zu machen und Menschen soweit dies möglich ist mit anderen Informationen zu versorgen, als man sie in den öffentlichen Medien und Regierungskanälen findet.\n\nRassismus und Extremismus hat bei mir keinen Platz. Alle anderen politischen Meinungen sind willkommen, sowie alle religiösen Richtungen, die sich für eine gemeinsame Welt engagieren.\n\nVerantwortlich für den Inhalt ist:\nDr. Bodo Schiffmann\n\nWeiter Infos unter https://t.me/AllesAusserMainstream\n\n",
+        "latest_video_at": "2026-11-26T15:38:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7WCHyQDWiRnYSEQ7rUuarg",
+      "external_id": "UC7WCHyQDWiRnYSEQ7rUuarg",
+      "name": "BOT TAK PLUS",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7WCHyQDWiRnYSEQ7rUuarg",
+      "discovered_on": "2026-11-27",
+      "score": 66.96,
+      "metrics": {
+        "subscribers": 14300,
+        "total_views": 23193648,
+        "video_count": 1549,
+        "avg_views_per_video": 14973.3,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "KpuO_4s65ws",
+            "title": "Сокуров поплатился за то, что сказал Путину",
+            "description": "Путин однажды отчитал Сокурова и посоветовал ему сперва подумать. При следующем выступлении режиссёр сказал ...",
+            "published_at": "2026-11-26T14:30:07Z",
+            "url": "https://www.youtube.com/watch?v=KpuO_4s65ws"
+          }
+        ],
+        "channel_description": "Аналитика, публицистика, подкасты. Обсуждаем мировые новости и события.\n\nВот Так – проект Центра международного вещания польского общественного телевидения TVP.\n",
+        "latest_video_at": "2026-11-26T14:30:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC1ha_kVpgTc6K2cvbPVKGjQ",
+      "external_id": "UC1ha_kVpgTc6K2cvbPVKGjQ",
+      "name": "The Ryan Samuels Show",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC1ha_kVpgTc6K2cvbPVKGjQ",
+      "discovered_on": "2026-11-27",
+      "score": 65.97,
+      "metrics": {
+        "subscribers": 13200,
+        "total_views": 821947,
+        "video_count": 778,
+        "avg_views_per_video": 1056.49,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {
+        "x": "https://x.com/RyanFSamuels",
+        "instagram": "https://www.instagram.com/ryanfsamuels",
+        "tiktok": "https://www.tiktok.com/@ryanfsamuels"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "SeF0xG__ays",
+            "title": "USAID Files Exposed: Censorship, Big Tech &amp; Your Tax Dollars | The Ryan Samuels Show",
+            "description": "USAID just released its own files, including a 2022 pitch to \"defund, downrank and deplatform\" media using the agency's ties to ...",
+            "published_at": "2026-11-26T16:00:29Z",
+            "url": "https://www.youtube.com/watch?v=SeF0xG__ays"
+          }
+        ],
+        "channel_description": "The Ryan Samuels Show is live every weeknight at 9 PM ET. It's conservative political commentary on the Constitution, individual liberty, natural law and the news that matters, from a Marine Corps veteran and proud Catholic.\n\nAs seen in The New York Times and BuzzFeed. Endorsed by Donald Trump Jr., Kyle Rittenhouse and Ted Nugent.\n\nEvery Friday is Family Court Fridays, featuring parents, advocates and experts.\n\n🔔 Subscribe and turn on notifications so you never miss a live show.\n\n🌐 Website: https://ryanfsamuels.com\n📰 In the News: https://ryanfsamuels.com/press\n🎙️ Be a guest: https://ryanfsamuels.com/contact\n🛒 Shop: https://ryanfsamuels.com/shop\n\nFOLLOW THE SHOW\n▶️ Rumble: https://rumble.com/c/TheRyanSamuelsShow\n𝕏 X: https://x.com/RyanFSamuels\n📘 Facebook: https://www.facebook.com/TheRyanSamuelsShow\n📸 Instagram: https://www.instagram.com/ryanfsamuels\n🎵 TikTok: https://www.tiktok.com/@ryanfsamuels\n🧵 Threads: https://www.threads.com/@ryanfsamuels\n🎧 Podcast: https://pod.link/1652595335",
+        "latest_video_at": "2026-11-26T16:00:29Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCFbXO-3lQQPRMJ-VniQi_rg",
+      "external_id": "UCFbXO-3lQQPRMJ-VniQi_rg",
+      "name": "Kafal Tree Live",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCFbXO-3lQQPRMJ-VniQi_rg",
+      "discovered_on": "2026-11-27",
+      "score": 63.89,
+      "metrics": {
+        "subscribers": 15800,
+        "total_views": 2543947,
+        "video_count": 804,
+        "avg_views_per_video": 3164.11,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "rRkqBtFzt0c",
+            "title": "बाग़ी तेवर मुझे मेरे पिता से विरासत में मिले हैं  | Not A Podcast | #CasteDiscrimination",
+            "description": "कुछ लोग पत्रकारिता को सिर्फ एक पेशा मानते हैं, लेकिन कुछ के लिए यह सच ...",
+            "published_at": "2026-11-26T13:00:00Z",
+            "url": "https://www.youtube.com/watch?v=rRkqBtFzt0c"
+          }
+        ],
+        "channel_description": "KAFAL TREE Live is Uttarakhand based news portal. It is being run by a group of young journalists. Main objective of KAFAL TREE Live is to give voice to such issues which are either absent from mainstream media or are not being discussed properly.",
+        "latest_video_at": "2026-11-26T13:00:00Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCqlrUG-2-E91xaUdZUopRcw",
+      "external_id": "UCqlrUG-2-E91xaUdZUopRcw",
+      "name": "Rico Limbaugh | The Dirty Demos",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCqlrUG-2-E91xaUdZUopRcw",
+      "discovered_on": "2026-11-27",
+      "score": 63.84,
+      "metrics": {
+        "subscribers": 3460,
+        "total_views": 783811,
+        "video_count": 7676,
+        "avg_views_per_video": 102.11,
+        "matched_queries": 2,
+        "sample_videos": 2
+      },
+      "social_links": {
+        "x": "https://x.com/TheSingleHubby",
+        "instagram": "https://www.instagram.com/ricolimbaughpod",
+        "youtube": "https://www.youtube.com/@RightWingRico"
+      },
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism",
+          "independent news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent news",
+            "video_id": "xrATimNQFoc",
+            "title": "Why Independent Journalists Are Taking the News to Your Street #shorts",
+            "description": "When mainstream news leaves stories uncovered, independent journalists step in to read, report, and share what's ...",
+            "published_at": "2026-11-27T00:57:33Z",
+            "url": "https://www.youtube.com/watch?v=xrATimNQFoc"
+          },
+          {
+            "query": "independent journalism",
+            "video_id": "xrATimNQFoc",
+            "title": "Why Independent Journalists Are Taking the News to Your Street #shorts",
+            "description": "When mainstream news leaves stories uncovered, independent journalists step in to read, report, and share what's ...",
+            "published_at": "2026-11-27T00:57:33Z",
+            "url": "https://www.youtube.com/watch?v=xrATimNQFoc"
+          }
+        ],
+        "channel_description": "Rico Limbaugh | The Dirty Demos\n\nPolitics, world affairs and news analysis with Rico Limbaugh and Arthur. Rico presents conservative commentary; Arthur challenges the argument with evidence and context.\n\nHost opinions are distinguished from established facts. Some episodes use Rico’s authorized AI avatar and narration; Arthur is an AI co-host.\n\nAmerica first and America only.\n\nWatch our sister show, Right Wing Rico: https://www.youtube.com/@RightWingRico\nX: https://x.com/TheSingleHubby\nInstagram: https://www.instagram.com/ricolimbaughpod/\nRumble: @Clubricotv\n\nSelected episodes offer translated audio and subtitles. In the player, choose Settings → Audio track or Subtitles/CC. Subscribe and join the conversation in your language.\n",
+        "latest_video_at": "2026-11-27T00:57:33Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCidMVmdAuIEqm1kQJn0MhlQ",
+      "external_id": "UCidMVmdAuIEqm1kQJn0MhlQ",
+      "name": "Idaho 2A News",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UCidMVmdAuIEqm1kQJn0MhlQ",
+      "discovered_on": "2026-11-27",
+      "score": 58.43,
+      "metrics": {
+        "subscribers": 6210,
+        "total_views": 552266,
+        "video_count": 584,
+        "avg_views_per_video": 945.66,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "tJegED5XXZY",
+            "title": "Social Media Censorship: How Platforms Shaped Election News #shorts",
+            "description": "The segment cites Twitter's lockout of a newspaper, Facebook's handling of a Biden laptop story, and Mark Zuckerberg's letter to ...",
+            "published_at": "2026-11-27T02:02:24Z",
+            "url": "https://www.youtube.com/watch?v=tJegED5XXZY"
+          }
+        ],
+        "channel_description": "Keeping Idaho and American gun owners informed through independent reporting, legal analysis, and education on Idaho and national Second Amendment issues. We report the story behind the stories. \n\n\nHost & Producer: Bob Brodovsky\nProduction Assistant: Karen Brodovsky\n",
+        "latest_video_at": "2026-11-27T02:02:24Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC6BewWQi0e9zP7d4zpvab3g",
+      "external_id": "UC6BewWQi0e9zP7d4zpvab3g",
+      "name": "Maxi Cuest",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC6BewWQi0e9zP7d4zpvab3g",
+      "discovered_on": "2026-11-27",
+      "score": 56.3,
+      "metrics": {
+        "subscribers": 2250,
+        "total_views": 847604,
+        "video_count": 577,
+        "avg_views_per_video": 1468.98,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "censorship news"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "censorship news",
+            "video_id": "DFOaLn_Eht0",
+            "title": "Se viene censura gigante en Uruguay  #noticias #suenanlascampanasdelcambio #LaLibertadAvanzaUruguay",
+            "description": "La chupa carozos de manzana quiere censura.",
+            "published_at": "2026-11-27T01:18:22Z",
+            "url": "https://www.youtube.com/watch?v=DFOaLn_Eht0"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-27T01:18:22Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UC7obcAPKgXuNXRgHLrjseDw",
+      "external_id": "UC7obcAPKgXuNXRgHLrjseDw",
+      "name": "New Views",
+      "platform": "youtube",
+      "topic_key": "alternative_news",
+      "topic_label": "Alternative News",
+      "primary_url": "https://www.youtube.com/channel/UC7obcAPKgXuNXRgHLrjseDw",
+      "discovered_on": "2026-11-27",
+      "score": 48.21,
+      "metrics": {
+        "subscribers": 4600,
+        "total_views": 12,
+        "video_count": 1,
+        "avg_views_per_video": 12.0,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "independent journalism"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "independent journalism",
+            "video_id": "GVRgJaAtcdI",
+            "title": "Pakistan Media Crisis: TV Channels &amp; Newspapers Shutting Down? Hamid Mir&#39;s Shocking Revelation",
+            "description": "NewViews #HamidMir #PakistanMedia #MediaCrisis #PakistanNews #BreakingNews #Journalism #MediaFreedom #Journalists ...",
+            "published_at": "2026-11-26T18:27:03Z",
+            "url": "https://www.youtube.com/watch?v=GVRgJaAtcdI"
+          }
+        ],
+        "channel_description": "New Views is Pakistan's YouTube channel, catering to a diverse audience with the latest updates on local News, and Current Affairs of Pakistan. Known for its dedicated news services and top-notch coverage of breaking events, New Views has established a markedly distinct position in the Digital media landscape.",
+        "latest_video_at": "2026-11-26T18:27:03Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
     {
       "id": "youtube:UCkAfblTTpyymgMpbwPdgVPw",
       "external_id": "UCkAfblTTpyymgMpbwPdgVPw",

@@ -2,19 +2,189 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-11-26T10:26:08Z",
-  "new_this_run": 12,
-  "total_influencers": 2020,
+  "updated_at": "2026-11-27T10:25:50Z",
+  "new_this_run": 5,
+  "total_influencers": 2025,
   "run_summary": {
-    "run_started_at": "2026-11-26T10:25:48Z",
-    "candidate_count": 50,
-    "existing_count": 2008,
-    "selected_new_count": 12,
+    "run_started_at": "2026-11-27T10:25:30Z",
+    "candidate_count": 43,
+    "existing_count": 2020,
+    "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCZNC5s2PdUxFmXwwUS1CLXw",
+      "external_id": "UCZNC5s2PdUxFmXwwUS1CLXw",
+      "name": "Gbemi Giwa",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCZNC5s2PdUxFmXwwUS1CLXw",
+      "discovered_on": "2026-11-27",
+      "score": 62.34,
+      "metrics": {
+        "subscribers": 9690,
+        "total_views": 2241132,
+        "video_count": 729,
+        "avg_views_per_video": 3074.26,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "arMZ4knEfow",
+            "title": "Girl Work Harder",
+            "description": "Did you workout today? Strong AND athletic. That's the goal! ❤️‍   Are you training for looks, performance or both? Follow for ...",
+            "published_at": "2026-11-27T09:00:25Z",
+            "url": "https://www.youtube.com/watch?v=arMZ4knEfow"
+          }
+        ],
+        "channel_description": "Hey, I’m Gbemi – your fitness bestie who lifts heavy, eats Jollof, and keeps it real.\n\nI’m a certified fitness and nutrition coach with over 10 years of experience helping people get stronger, feel better, and actually enjoy the process.\n\nI started sharing my journey in 2014 and somehow ended up on the cover of Women’s Health Middle East (wild, right?). Since then, I’ve won a few awards, coached thousands, and built a wellness brand that blends fitness, culture, and balance.\n\nOn this channel, you’ll find workouts, all things African food, and real talk about what it takes to build a healthy life you actually love without any guilt or extremes.\n\nLet’s move, eat well, and live fully.\n\nReady to get started?\n\nApply for coaching here:\nhttps://gbemigiwacoaching.com\n\nGrab my AfroBowls Ebook with over 100+ delicious fat loss friendly African recipes\nhttps://selar.com/afrobowls\n\nFor my free fat loss guide: \nhttps://aflm.mykajabi.com/fatloss-guide-final",
+        "latest_video_at": "2026-11-27T09:00:25Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCs64jF8gtOtpr1iRIg5h6CA",
+      "external_id": "UCs64jF8gtOtpr1iRIg5h6CA",
+      "name": "Fitness First Philippines",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCs64jF8gtOtpr1iRIg5h6CA",
+      "discovered_on": "2026-11-27",
+      "score": 62.01,
+      "metrics": {
+        "subscribers": 4560,
+        "total_views": 1951327,
+        "video_count": 258,
+        "avg_views_per_video": 7563.28,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "JNJvX-ehmt0",
+            "title": "Functional Fitness Fest Highlights | Strength, Endurance &amp; Grit",
+            "description": "Strength. Endurance. Grit. Big congratulations to our members who stepped up to the challenge at the ...",
+            "published_at": "2026-11-27T02:07:47Z",
+            "url": "https://www.youtube.com/watch?v=JNJvX-ehmt0"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-27T02:07:47Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:8d6046c2fc5aed07295a",
+      "external_id": "8d6046c2fc5aed07295a",
+      "name": "hiblick",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/FK44tdh54gg96FH6D/pinging-ben-pace",
+      "discovered_on": "2026-11-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Pinging Ben Pace"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:23dd9ba600852ba60aa1",
+      "external_id": "23dd9ba600852ba60aa1",
+      "name": "Matt Sheehan, Scott Singer",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.foreignaffairs.com/china/ai-us-china-endgame-tech-catastrophe-sheehan-singer",
+      "discovered_on": "2026-11-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "foreignaffairs.com",
+        "feed_urls": [
+          "https://www.foreignaffairs.com/rss.xml"
+        ],
+        "sample_titles": [
+          "The U.S.-China Endgame on AI"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:8ad8b311ddbd92674227",
+      "external_id": "8ad8b311ddbd92674227",
+      "name": "Drake Morrison",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/QfDFKAN5aGgXBf66w/time-enough-for-sacredness",
+      "discovered_on": "2026-11-27",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Time Enough for Sacredness"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UC9ejlRvpKP70yZnG-qSSJfg",
       "external_id": "UC9ejlRvpKP70yZnG-qSSJfg",
