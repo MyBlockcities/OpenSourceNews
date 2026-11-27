@@ -1,9 +1,9 @@
 {
   "expected_sources": 128,
   "not_attempted": 3,
-  "successful_sources": 121,
+  "successful_sources": 120,
   "degraded_sources": 3,
-  "failed_sources": 1,
+  "failed_sources": 2,
   "stale_sources": [
     "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
     "https://www.blockchainappfactory.com/blog/feed/",
@@ -13,6 +13,10 @@
     {
       "endpoint": "https://erictopol.substack.com/feed",
       "error": "403 Client Error: Forbidden for url: https://erictopol.substack.com/feed"
+    },
+    {
+      "endpoint": "https://www.bankless.com/feed",
+      "error": "415 Client Error: Unsupported Media Type for url: https://www.bankless.com/feed"
     }
   ],
   "sources": {
@@ -58,7 +62,7 @@
     "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml": "ok",
     "https://cointelegraph.com/rss": "ok",
     "https://dailycoin.com/feed/": "ok",
-    "https://www.bankless.com/feed": "ok",
+    "https://www.bankless.com/feed": "failed",
     "https://www.blockchainappfactory.com/blog/feed/": "empty",
     "UCnThE8FLrlN-tYvZhZL0uaA": "ok",
     "UCCRxYlYOmLE2l5wxs3ckJtg": "ok",
@@ -142,7 +146,7 @@
     "https://www.theblackvault.com/casefiles/feed/": "ok",
     "https://thegrayzone.com/feed/": "ok"
   },
-  "report_date": "2026-11-26",
-  "generated_at": "2026-11-26T07:23:38Z",
+  "report_date": "2026-11-27",
+  "generated_at": "2026-11-27T07:23:45Z",
   "schema_version": "source_health.v1"
 }
