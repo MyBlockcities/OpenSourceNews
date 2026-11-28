@@ -2,19 +2,244 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "peptides",
   "topic_label": "Peptides",
-  "updated_at": "2026-11-27T10:25:46Z",
-  "new_this_run": 2,
-  "total_influencers": 672,
+  "updated_at": "2026-11-28T10:24:51Z",
+  "new_this_run": 5,
+  "total_influencers": 677,
   "run_summary": {
-    "run_started_at": "2026-11-27T10:25:30Z",
-    "candidate_count": 8,
-    "existing_count": 670,
-    "selected_new_count": 2,
+    "run_started_at": "2026-11-28T10:24:36Z",
+    "candidate_count": 15,
+    "existing_count": 672,
+    "selected_new_count": 5,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCKpKz9JQgy3UKiQNO_FkSxQ",
+      "external_id": "UCKpKz9JQgy3UKiQNO_FkSxQ",
+      "name": "Clínica Rangel Pereira | Dra. Rosalinda Pereira",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCKpKz9JQgy3UKiQNO_FkSxQ",
+      "discovered_on": "2026-11-28",
+      "score": 72.3,
+      "metrics": {
+        "subscribers": 84300,
+        "total_views": 4247609,
+        "video_count": 291,
+        "avg_views_per_video": 14596.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "euLJiQChVzA",
+            "title": "¿METABOLISMO BLOQUEADO? El papel de los péptidos naturales para adelgazar",
+            "description": "Haces dieta, ejercicio, ayuno y aun así no logras adelgazar? ¿Sientes hambre todo el día, tienes antojos constantes o recuperas ...",
+            "published_at": "2026-11-27T18:47:36Z",
+            "url": "https://www.youtube.com/watch?v=euLJiQChVzA"
+          }
+        ],
+        "channel_description": "CLÍNICA RANGEL PEREIRA | TIROIDES • HASHIMOTO • HORMONAS\n\n¿Tienes hipotiroidismo, Hashimoto, aumento de peso, fatiga o problemas hormonales?\n\nEn este canal aprenderás cómo mejorar tu salud desde la raíz a través de la endocrinología, la nutrición funcional y la salud intestinal.\n\nContenido sobre:\n\n✅ Hipotiroidismo e Hipertiroidismo\n✅ Tiroiditis de Hashimoto\n✅ Levotiroxina y tratamiento tiroideo\n✅ Menopausia y hormonas femeninas\n✅ Resistencia a la insulina\n✅ Adelgazamiento y metabolismo\n✅ Microbiota y salud intestinal\n\n📲 Agenda tu cita:\nwa.me/573112226260\n\n📍 Bogotá, Colombia\n🌎 Atención presencial y online\n",
+        "latest_video_at": "2026-11-27T18:47:36Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC2eMZkkkfqPS4OdylfbEXCg",
+      "external_id": "UC2eMZkkkfqPS4OdylfbEXCg",
+      "name": "Nora Science",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC2eMZkkkfqPS4OdylfbEXCg",
+      "discovered_on": "2026-11-28",
+      "score": 68.74,
+      "metrics": {
+        "subscribers": 10100,
+        "total_views": 2765711,
+        "video_count": 50,
+        "avg_views_per_video": 55314.22,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "GLP-1 peptides"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "GLP-1 peptides",
+            "video_id": "BATCyMe1pWE",
+            "title": "Peptides 🧬: What They Actually Do Inside Your Body",
+            "description": "Peptides are everywhere — in your skincare serum, protein supplements and even some weight-loss medications. But what ...",
+            "published_at": "2026-11-28T03:30:48Z",
+            "url": "https://www.youtube.com/watch?v=BATCyMe1pWE"
+          }
+        ],
+        "channel_description": "Your body is weird. Nora explains why 🌺\n\nWhy does your brain do that? What makes your heart race? Why do hormones change the way you feel? And what's actually happening inside your body?\n\nFrom everyday body functions to the science behind health and biology, there's a lot worth understanding.\n\nThat's what we explore here. 🌿🤍",
+        "latest_video_at": "2026-11-28T03:30:48Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCBQXL06GdmFqhPQbi_lQ8rA",
+      "external_id": "UCBQXL06GdmFqhPQbi_lQ8rA",
+      "name": "PRAXIS STUDIO",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCBQXL06GdmFqhPQbi_lQ8rA",
+      "discovered_on": "2026-11-28",
+      "score": 66.08,
+      "metrics": {
+        "subscribers": 21400,
+        "total_views": 3101175,
+        "video_count": 547,
+        "avg_views_per_video": 5669.42,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "peptide therapy"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "peptide therapy",
+            "video_id": "E6VwFGiQylc",
+            "title": "💉 Mesa clínica GRATUITA | Péptidos: del conocimiento a la práctica clínica",
+            "description": "Mesa clínica GRATUITA | Péptidos: del conocimiento a la práctica clínica Acompáñanos en esta clase especial en vivo con la Dra ...",
+            "published_at": "2026-11-27T12:26:07Z",
+            "url": "https://www.youtube.com/watch?v=E6VwFGiQylc"
+          }
+        ],
+        "channel_description": "Praxis Studio es una plataforma internacional de actualización en medicina estética, diseñada para médicos que buscan perfeccionar su práctica clínica y dominar técnicas de alta demanda. Ofrecemos más de 120 profundizaciones grabadas con casos reales, protocolos paso a paso y la guía de especialistas con amplia experiencia. También incluimos libros digitales exclusivos, con información práctica y aplicable.\n\nNuestro enfoque combina teoría y práctica clínica, cubriendo desde ácido hialurónico y bioestimuladores de colágeno, hasta tecnologías basadas en energía y protocolos avanzados de rejuvenecimiento. Todo el contenido está disponible online, en cualquier momento, para que cada profesional pueda avanzar a su propio ritmo.\n\nPraxis Studio es un espacio creado para impulsar la excelencia médica, mantenerse al día con las técnicas más rentables y seguras, y formar parte de una comunidad global de especialistas en médicina estética.\n",
+        "latest_video_at": "2026-11-27T12:26:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UCTdeWWTkIIwixwoOGFgmk-Q",
+      "external_id": "UCTdeWWTkIIwixwoOGFgmk-Q",
+      "name": "Fit Youness",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UCTdeWWTkIIwixwoOGFgmk-Q",
+      "discovered_on": "2026-11-28",
+      "score": 56.12,
+      "metrics": {
+        "subscribers": 2690,
+        "total_views": 307876,
+        "video_count": 293,
+        "avg_views_per_video": 1050.77,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "BPC-157"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "BPC-157",
+            "video_id": "QIXbQqRdaus",
+            "title": "BPC-157 💉 البيبتيد اللي كيقولو كيعالج الإصابات بسرعة! واش بصح؟",
+            "description": "واش BPC-157 يقدر يسرّع التعافي من الإصابات ديال العضلات والأوتار والمفاصل؟ هاد البيبتيد ولا مشهور بزاف فعالم الفيتنس، وكاين ...",
+            "published_at": "2026-11-27T19:00:02Z",
+            "url": "https://www.youtube.com/watch?v=QIXbQqRdaus"
+          }
+        ],
+        "channel_description": "\"🏋️‍♂️ Fitness Enthusiast | Content Creator | Motivator 💪\n\nWelcome to FitYouness! I'm Youness Mouftakhir, your guide to a fitter, stronger, and healthier life. Join me on this journey to unlock your full potential through fitness and wellness.\n\n🏋️‍♂️ Sharing Workout Tips & Strategies\n🥗 Exploring Nutritional Insights\n🌟 Inspiring Transformations\n💬 Let's Connect & Grow Together!\n",
+        "latest_video_at": "2026-11-27T19:00:02Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
+    {
+      "id": "youtube:UC0l6PoAbIus4wLUoQU1TxsQ",
+      "external_id": "UC0l6PoAbIus4wLUoQU1TxsQ",
+      "name": "The Institute of Clinical Excellence",
+      "platform": "youtube",
+      "topic_key": "peptides",
+      "topic_label": "Peptides",
+      "primary_url": "https://www.youtube.com/channel/UC0l6PoAbIus4wLUoQU1TxsQ",
+      "discovered_on": "2026-11-28",
+      "score": 52.08,
+      "metrics": {
+        "subscribers": 3090,
+        "total_views": 279680,
+        "video_count": 2088,
+        "avg_views_per_video": 133.95,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "TB-500 peptide"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "TB-500 peptide",
+            "video_id": "2LIiYY5_cz8",
+            "title": "Peptides: A House of Cards? | PTonICE Daily Show",
+            "description": "There's a lot of controversy about research-use-only (RUO) peptides like BPC-157 and TB-500 right now. In this episode of the ...",
+            "published_at": "2026-11-27T11:29:57Z",
+            "url": "https://www.youtube.com/watch?v=2LIiYY5_cz8"
+          }
+        ],
+        "channel_description": "",
+        "latest_video_at": "2026-11-27T11:29:57Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": [
+          "Peptide/wellness creator signal only; verify all medical claims against truth-layer sources."
+        ]
+      }
+    },
     {
       "id": "youtube:UCfDWhSQhhtwl-J-gc6u1UHw",
       "external_id": "UCfDWhSQhhtwl-J-gc6u1UHw",

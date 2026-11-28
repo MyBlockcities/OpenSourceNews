@@ -2,19 +2,277 @@
   "schema": "opensourcenews.influencers.v1",
   "topic_key": "fitness_wellness",
   "topic_label": "Fitness and Wellness",
-  "updated_at": "2026-11-27T10:25:50Z",
-  "new_this_run": 5,
-  "total_influencers": 2025,
+  "updated_at": "2026-11-28T10:24:55Z",
+  "new_this_run": 7,
+  "total_influencers": 2032,
   "run_summary": {
-    "run_started_at": "2026-11-27T10:25:30Z",
-    "candidate_count": 43,
-    "existing_count": 2020,
-    "selected_new_count": 5,
+    "run_started_at": "2026-11-28T10:24:36Z",
+    "candidate_count": 45,
+    "existing_count": 2025,
+    "selected_new_count": 7,
     "max_per_topic": 20,
     "youtube_enabled": true,
     "rss_enabled": true
   },
   "influencers": [
+    {
+      "id": "youtube:UCcxg13_CZVbRKFrbZjj8WvQ",
+      "external_id": "UCcxg13_CZVbRKFrbZjj8WvQ",
+      "name": "FISIculturismo.com.br",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCcxg13_CZVbRKFrbZjj8WvQ",
+      "discovered_on": "2026-11-28",
+      "score": 73.5,
+      "metrics": {
+        "subscribers": 82800,
+        "total_views": 20388691,
+        "video_count": 783,
+        "avg_views_per_video": 26039.2,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "q1nzEbWHjaU",
+            "title": "Cariani: &quot;eu tive que marcar o Neymar&quot;!",
+            "description": "Corpo musculoso é corpo funcional? O Renato Cariani descobriu a resposta marcando o Neymar. Num jogo do patrocinador, ele ...",
+            "published_at": "2026-11-27T23:27:07Z",
+            "url": "https://www.youtube.com/watch?v=q1nzEbWHjaU"
+          }
+        ],
+        "channel_description": "Bem-vinco ao canal do site FISIculturismo.com.br no YouTube!\n\nEstamos focados na produção de conteúdos sobre treinamento para lhe auxiliar no ganho de massa muscular com segurança, de modo que você possa aproveitar melhor o seu tempo de treino na academia e com menor risco de lesão.\n\nNossa playlist sobre treinamento conta com dezenas de vídeos sobre como fazer a execução correta de muitos exercícios de musculação. Nosso foco é a produção de vídeos curtos e objetivos, com informação de qualidade fornecida por nossos personais trainers.\n\nTemos planos para expandir a produção de vídeos de qualidade sobre suplementos alimentares, nutrição esportiva e substâncias ergogênicas.\n\nCaso ainda não seja inscrito, inscreva-se em nosso canal e ative as notificações para acompanhar todas as novidades em primeira mão!\n\nBons treinos!",
+        "latest_video_at": "2026-11-27T23:27:07Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCKFMt5MTb2IXD4IRxFrpX4Q",
+      "external_id": "UCKFMt5MTb2IXD4IRxFrpX4Q",
+      "name": "Denise Carter",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCKFMt5MTb2IXD4IRxFrpX4Q",
+      "discovered_on": "2026-11-28",
+      "score": 69.32,
+      "metrics": {
+        "subscribers": 11800,
+        "total_views": 4873120,
+        "video_count": 84,
+        "avg_views_per_video": 58013.33,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "0-t4ifuya_U",
+            "title": "#FunctionalFitness #HealthyAging #WomenOver50 #ActiveLifestyle #HomeWorkout",
+            "description": "Want to stay strong and active at any age? Tap the link in my bio to explore the home workout plans I follow. One exercise, your ...",
+            "published_at": "2026-11-28T04:43:04Z",
+            "url": "https://www.youtube.com/watch?v=0-t4ifuya_U"
+          }
+        ],
+        "channel_description": "Welcome to my channel!\nI'm Denise, 68, and I believe age is never a reason to stop moving.\nHere you'll find low-impact workouts, yoga, strength & simple ways to stay active.\nLet's stay strong, healthy & independent together.\n👇Start here:\n",
+        "latest_video_at": "2026-11-28T04:43:04Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCbinYHspmLs0LOLZbriqCqA",
+      "external_id": "UCbinYHspmLs0LOLZbriqCqA",
+      "name": "Kwame Antwi",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCbinYHspmLs0LOLZbriqCqA",
+      "discovered_on": "2026-11-28",
+      "score": 63.1,
+      "metrics": {
+        "subscribers": 3820,
+        "total_views": 6959513,
+        "video_count": 434,
+        "avg_views_per_video": 16035.74,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "5gZ5ROtEkP4",
+            "title": "THE ARM GROWTH CODE 🔥 | Arms Workout Live",
+            "description": "Welcome to my Fitness Channel, your destination for workouts, strength training, muscle building, fat loss, fitness motivation, and ...",
+            "published_at": "2026-11-28T00:40:52Z",
+            "url": "https://www.youtube.com/watch?v=5gZ5ROtEkP4"
+          }
+        ],
+        "channel_description": "💪🏾 BUILD MUSCLE. GET STRONGER. STAY CONSISTENT.\n\nWelcome to KWAME ANTWI FITNESS, your home for real gym and home workouts focused on strength, muscle building, fat loss and consistent progress.\n\n🏋🏾 Chest • Back • Shoulders • Legs • Arms\n🔥 Strength & muscle-building workouts\n🏠 Home & gym training\n🤸🏾 Calisthenics • Abs • Core\n🔴 Live workouts & training sessions\n\nTrain with me, push through every set and become stronger, one workout at a time.\n\n🔔 Subscribe and train with me every week.\n\nKWAME ANTWI FITNESS\nBuild Muscle. Get Stronger. Stay Consistent. 💪🏾🔥\n\n#Fitness #Workout #MuscleBuilding #StrengthTraining #HomeWorkout\n",
+        "latest_video_at": "2026-11-28T00:40:52Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "youtube:UCi7jhPL_LyIr35mCUCdL3Mg",
+      "external_id": "UCi7jhPL_LyIr35mCUCdL3Mg",
+      "name": "General Physical Podcast",
+      "platform": "youtube",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.youtube.com/channel/UCi7jhPL_LyIr35mCUCdL3Mg",
+      "discovered_on": "2026-11-28",
+      "score": 57.39,
+      "metrics": {
+        "subscribers": 3350,
+        "total_views": 369098,
+        "video_count": 266,
+        "avg_views_per_video": 1387.59,
+        "matched_queries": 1,
+        "sample_videos": 1
+      },
+      "social_links": {},
+      "source_metadata": {
+        "matched_queries": [
+          "functional fitness"
+        ],
+        "recent_video_samples": [
+          {
+            "query": "functional fitness",
+            "video_id": "qZ8kNlD2Hos",
+            "title": "Functional Training Is NOT What You Think",
+            "description": "Join Lebe Stark & build a strong, lean and pain-free body after 40 guaranteed: join.lebestark.ch ✓ ProKettlebell USA ...",
+            "published_at": "2026-11-28T06:00:26Z",
+            "url": "https://www.youtube.com/watch?v=qZ8kNlD2Hos"
+          }
+        ],
+        "channel_description": "► General Physical Podcast On Spotify - https://spoti.fi/33S4Fil\n\nLearn from the greatest minds in the kettlebell atmosphere and bring your kettlebell game to the next level. Hosted by Hybrid Style proponent and physical culturist Gregory Dzemaili from Lebe Stark.\n",
+        "latest_video_at": "2026-11-28T06:00:26Z",
+        "micro_band": {
+          "min_subscribers": 2000,
+          "max_subscribers": 100000
+        },
+        "discovery_source": "youtube_data_api",
+        "notes": []
+      }
+    },
+    {
+      "id": "rss_author:eeaddc319f4268380eec",
+      "external_id": "eeaddc319f4268380eec",
+      "name": "lottaFLOPS",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/2kZgma6h2epedGBtD/it-s-a-belief-cascade",
+      "discovered_on": "2026-11-28",
+      "score": 29.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {
+        "x": "https://x.com/sebkrier"
+      },
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "It's a Belief Cascade"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:f42a6ce0cf87d6ab3b59",
+      "external_id": "f42a6ce0cf87d6ab3b59",
+      "name": "stefano-zuffi",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/Ki8rWwBxFccC5Kiye/eight-existential-risk-scenarios-from-ai-a-systematic-review-1",
+      "discovered_on": "2026-11-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Eight Existential Risk Scenarios from AI: A Systematic Review"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
+    {
+      "id": "rss_author:7fe135b9684926908634",
+      "external_id": "7fe135b9684926908634",
+      "name": "Sam Hogg",
+      "platform": "rss_author",
+      "topic_key": "fitness_wellness",
+      "topic_label": "Fitness and Wellness",
+      "primary_url": "https://www.lesswrong.com/posts/sQWvX3irLhuoSxpXu/good-domestic-politics-vs-bad-state-realpolitik",
+      "discovered_on": "2026-11-28",
+      "score": 24.0,
+      "metrics": {
+        "posts_seen_in_fetch": 1,
+        "feeds_seen": 1,
+        "subscriber_count": null
+      },
+      "social_links": {},
+      "source_metadata": {
+        "domain": "lesswrong.com",
+        "feed_urls": [
+          "https://www.lesswrong.com/feed.xml"
+        ],
+        "sample_titles": [
+          "Good domestic politics vs bad state realpolitik"
+        ],
+        "discovery_source": "rss_author_frequency",
+        "micro_band": "unknown; RSS author signal has no free follower metric"
+      }
+    },
     {
       "id": "youtube:UCZNC5s2PdUxFmXwwUS1CLXw",
       "external_id": "UCZNC5s2PdUxFmXwwUS1CLXw",
